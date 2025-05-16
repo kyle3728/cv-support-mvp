@@ -1,0 +1,152 @@
+{
+    "id": "7bd261f2-8c9a-4e0c-ae45-cdce1f11871f",
+    "title": "RLLA_Shop_Annotations",
+    "content": [
+        {
+            "type": "text",
+            "data": "Shop Annotations"
+        },
+        {
+            "type": "image",
+            "data": "1AUALL.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image5618.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There are five main options in the Draw section:"
+        },
+        {
+            "type": "text",
+            "data": "Architectural Hinges"
+        },
+        {
+            "type": "text",
+            "data": "This option turns On and Off the display of Architectural Hinges."
+        },
+        {
+            "type": "image",
+            "data": "image49.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image50.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "ON \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0OFF"
+        },
+        {
+            "type": "text",
+            "data": "Reverse Architectural Lines"
+        },
+        {
+            "type": "text",
+            "data": "This option simply reverses the Door swing lines for Architectural Hinges."
+        },
+        {
+            "type": "image",
+            "data": "image746.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Roll Out Tray Outlines"
+        },
+        {
+            "type": "text",
+            "data": "This is the same as the option turns on or off the outlines for Roll Out Trays."
+        },
+        {
+            "type": "text",
+            "data": "Shelves"
+        },
+        {
+            "type": "text",
+            "data": "There are two options:"
+        },
+        {
+            "type": "image",
+            "data": "image51.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image52.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Single Line \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0Outline"
+        },
+        {
+            "type": "text",
+            "data": "There are three main options in the Dimension area:"
+        },
+        {
+            "type": "text",
+            "data": "Openings/Rails/Stiles"
+        },
+        {
+            "type": "text",
+            "data": "See the image below for examples:"
+        },
+        {
+            "type": "image",
+            "data": "image53.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image54.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image55.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Openings \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0Rails \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0Stiles"
+        },
+        {
+            "type": "text",
+            "data": "Frame Overlay"
+        },
+        {
+            "type": "text",
+            "data": "When using a Frame Overlay Construction Style you have two additional dimensioning options. You can Dimension either the Frame Openings or the Case Openings."
+        },
+        {
+            "type": "text",
+            "data": "Closet Rods Center-Top Clearance"
+        },
+        {
+            "type": "text",
+            "data": "This option will show the Dimension for the Vertical placement of a Closet Rod in a Hanging Section. (Closet Module only)"
+        },
+        {
+            "type": "text",
+            "data": "Font"
+        },
+        {
+            "type": "text",
+            "data": "Clicking on the Font button allows you to change the Font used for Elevation Part Dimensions. You also have the option for the Text to be in Bold Script as well as setting a Fixed Height in the Drawing Views."
+        },
+        {
+            "type": "image",
+            "data": "image5619.gif",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\RLLA_Shop_Annotations.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

@@ -1,0 +1,84 @@
+{
+    "id": "74bc53af-870c-45fe-a30c-334d0d7057b9",
+    "title": "RLSBAS_Layout",
+    "content": [
+        {
+            "type": "text",
+            "data": "The Assembly Sheets Layout"
+        },
+        {
+            "type": "image",
+            "data": "1AllButEssential.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There are four main sections of the Assembly Sheet Template that ships with CABINET VISION. To create your own Assembly Sheet Template see the  Drawings Library  topic."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Drawings Library",
+                "uuid": "42693001-e896-4fb4-bab5-90f16894ad62",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image983.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Cut List Data Table (in Red)"
+        },
+        {
+            "type": "text",
+            "data": "This area of the Assembly Sheet displays the Cut List for your Assembly. This list also will include Hardware included in the Assembly as well as any  Comments  that have been added to the Assembly."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Comments",
+                "uuid": "be29a521-2d0f-4030-8911-87f747cacb90",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Container (in Green)"
+        },
+        {
+            "type": "text",
+            "data": "This area will display a graphic of the Primary Face of the Assembly. It also, at the top, includes the Assembly number, Name, Size, and Quantity."
+        },
+        {
+            "type": "text",
+            "data": "Assembly Properties (in Blue)"
+        },
+        {
+            "type": "text",
+            "data": "This area displays general Assembly Properties."
+        },
+        {
+            "type": "text",
+            "data": "When values for Scribes are displayed it is important to note that when an Interior Scribes is noted the value for the scribe will be in parenthesis."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Information Area (in Magenta)"
+        },
+        {
+            "type": "text",
+            "data": "This area displays general Job/Room Information."
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\RLSBAS_Layout.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

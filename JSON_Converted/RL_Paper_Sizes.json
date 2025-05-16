@@ -1,0 +1,91 @@
+{
+    "id": "f3d97d1c-81ec-4fa1-bd9c-da475787ad3b",
+    "title": "RL_Paper_Sizes",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top \n > \n \n \n Room Level \n > \n \n Ribbonbar \n > \n \n Main Tab \n > \n \n Tools Group \n > \n \n Paper Sizes"
+        },
+        {
+            "type": "text",
+            "data": "Top \n >"
+        },
+        {
+            "type": "text",
+            "data": "Room Level \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Room Level",
+                "uuid": "9eaa492c-0405-4da7-8e0f-a6ff4e047890",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Ribbonbar \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Ribbonbar",
+                "uuid": "a095688d-3b5c-4aba-8f35-bdc4541dcc7f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Main Tab \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Main Tab",
+                "uuid": "a095688d-3b5c-4aba-8f35-bdc4541dcc7f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Tools Group \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Tools Group",
+                "uuid": "8d7f5c8f-fa12-47e5-acb0-4a34f1bfb801",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Paper Sizes"
+        },
+        {
+            "type": "text",
+            "data": "Paper Sizes"
+        },
+        {
+            "type": "text",
+            "data": "Paper Sizes"
+        },
+        {
+            "type": "image",
+            "data": "image1887.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option allows you to create your own Custom Paper sizes for the Drawings Area. You can Copy existing Paper Sizes and also Rename or Remove any of your Custom Paper Sizes."
+        },
+        {
+            "type": "image",
+            "data": "image836.gif",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Room_Level\\Ribbonbar\\Main_Tab\\Tools_Group\\RL_Paper_Sizes.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

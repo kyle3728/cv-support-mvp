@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><link rel="stylesheet" type="text/css" href="../../../../../../_rhdefault.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=WINDOWS-1252"/>
+<meta name="generator" content="Adobe RoboHelp 2022"/>
+<title>Setting Up Real Time Labels for Holz-Her Saws</title>
+<link rel="StyleSheet" href="../../../../../../assets/css/default.css" type="text/css"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/><script type="text/javascript" src="../../../../../../ehlpdhtm.js"></script></head>
+<body>
+<h1>Setting Up Real Time Labels for Holz-Her Saws</h1>
+<p>See the Machine Catalog <a href="../../../Machine_Types/Sheet_Saw.htm">Saw topic</a> for Label Setup information.</p>
+<h2>Real time Label Printing Using a S2M Center CPOUT file and a Label picture</h2>
+<h3>Basic setup</h3>
+<p>To implement this on a CUT 85 saw the design software needs to produce 2 items. These items are a CPOUT file and label pictures. The CPOUT files should be placed in the C:\CPOutPfad folder, and the label pictures in the C:\CV_Pictures folder. Make these folders if they do not exist. Next check that the saw is set to look at the CPOUT folder as in the example below (figure 1). The folders can have any name you want, you just need to enter the proper names in the proper places.</p>
+<p><img src="../../../../../../assets/images/image331.gif" alt="" style="border: none;" width="800" height="599" border="0"/></p>
+<p style="font-weight: bold; margin-left: 40px; text-decoration: underline;">Figure 1 - CPOUT file location</p>
+<h3>Label design</h3>
+<p>The next item to do is to design the label file at the saw. Set the label size by selecting “F5 Size”. Enter the label width and length to match the S2M Center Label Designer label size. In “Line definition” set “Type” to “Variable picture”. Set “X-Pos” and “Y-Pos” to “0.000” and width and height to match the label size. The next item “Variable:” needs to match the location of the picture file name in the CPOUT file. Use “14 Element identifier” if the value is in the “PRT1 partno” field. Use “62 Element info 1” if the value is in the “PRT1 drillpat” field. Set “Format:” to 8 to strip out any extra characters. Last set “Path:” to your selected picture folder. Also add “#.XXX” with the XXX being your picture file format       (*.bmp, *.ico, *.jpg, *.jpeg, *.emf, *.wmf). Below is the screen shot of the label design screen in the CUT 85 software (Figure 2).</p>
+<p> <img src="../../../../../../assets/images/image332.gif" alt="" style="border: none;" width="800" height="599" border="0"/></p>
+<p style="font-weight: bold; margin-left: 40px; text-decoration: underline;">Figure 2 – Label Format</p>
+<h3>Select label type</h3>
+<p>Select “F2 Label type” and double click on “Raw cut label” from the selection box (figure 3). Save the label by selecting “F3 Label…” and select “Save as…”. Type a file name that describes the label type and select “OK” (Figure 4)</p>
+<p><img src="../../../../../../assets/images/image333.gif" alt="" style="border: none;" width="800" height="599" border="0"/></p>
+<p style="font-weight: bold; margin-left: 40px; text-decoration: underline;">Figure 3  Label type</p>
+<p style="font-weight: bold; text-decoration: underline;"><img src="../../../../../../assets/images/image334.gif" alt="" style="border: none;" width="800" height="599" border="0"/></p>
+<p style="font-weight: bold; margin-left: 40px; text-decoration: underline;">Figure 4  Save label</p>
+<h3>Printer Selection</h3>
+<p>Now that the label style is set and saved, select “F7 Printer” and select the proper printer for your labels (Figure 5). Once the printer is selected Select “F3 Label…” and this time select “Save”</p>
+<p><img src="../../../../../../assets/images/image335.gif" alt="" style="border: none;" width="800" height="600" border="0"/></p>
+<p style="font-weight: bold; margin-left: 40px; text-decoration: underline;">Figure 5  Printer selection</p>
+
+
+</body></html>

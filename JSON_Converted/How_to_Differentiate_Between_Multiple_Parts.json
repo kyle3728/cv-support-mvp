@@ -1,0 +1,21 @@
+{
+    "id": "6af2f58e-cb42-4a11-9a0f-2e27aa570a7c",
+    "title": "How_to_Differentiate_Between_Multiple_Parts",
+    "content": [
+        {
+            "type": "text",
+            "data": "How to Differentiate Between Multiple Parts"
+        },
+        {
+            "type": "text",
+            "data": "When there is more than one part with the same name you use the \"@\" (at) symbol to differentiate between them. Example say there where five boards, the first one would be BOARD or BOARD@1, the second one would be BOARD@2 the third one would be BOARD@3, the fourth one would be BOARD@4, Etc."
+        },
+        {
+            "type": "text",
+            "data": "For the first part in the list you dont have to use the \"@\" (at) symbol. If you just type BOARD, the program goes to the first BOARD on the list, or if you type BOARD@1 it goes to the first BOARD on the list. Its all the same to the program, but for the other parts you must use the \"@\" symbol and what number the part is in the list."
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\Parametric_Editing\\Intelligence_Workshop\\The_Basics\\How_to_Differentiate_Between_Multiple_Parts.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

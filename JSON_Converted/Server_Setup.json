@@ -1,0 +1,161 @@
+{
+    "id": "ee08b276-7365-4edd-b268-2a6cb89537a5",
+    "title": "Server_Setup",
+    "content": [
+        {
+            "type": "text",
+            "data": "Server Setup"
+        },
+        {
+            "type": "text",
+            "data": "When performing a CV Network Installation Sentinel RMS License Server will be installed on your Server automatically."
+        },
+        {
+            "type": "text",
+            "data": "You can install the licenses on the license server from a CLS that is installed on either the server or a client PC (with Administrator Mode enabled)."
+        },
+        {
+            "type": "text",
+            "data": "From the CV Splash Screen Utilities tab open the  License Manager . \n \n \n On the  Server  menu, click  Search Network  to list the Sentinel RMS server(s). Select the server you wish to connect to and click  Change Active Server . Confirm that you wish to change the active server, and close the dialog. \n \n \n Select your chosen server in the list and click the  Install License  button. \n \n \n In the dialog that opens, you have the option to request your license file over the Internet or Browse to a file that you have already downloaded or received by email."
+        },
+        {
+            "type": "text",
+            "data": "From the CV Splash Screen Utilities tab open the  License Manager ."
+        },
+        {
+            "type": "text",
+            "data": "From the CV Splash Screen Utilities tab open the  License Manager ."
+        },
+        {
+            "type": "text",
+            "data": "On the  Server  menu, click  Search Network  to list the Sentinel RMS server(s). Select the server you wish to connect to and click  Change Active Server . Confirm that you wish to change the active server, and close the dialog."
+        },
+        {
+            "type": "text",
+            "data": "On the  Server  menu, click  Search Network  to list the Sentinel RMS server(s). Select the server you wish to connect to and click  Change Active Server . Confirm that you wish to change the active server, and close the dialog."
+        },
+        {
+            "type": "text",
+            "data": "Select your chosen server in the list and click the  Install License  button."
+        },
+        {
+            "type": "text",
+            "data": "Select your chosen server in the list and click the  Install License  button."
+        },
+        {
+            "type": "text",
+            "data": "In the dialog that opens, you have the option to request your license file over the Internet or Browse to a file that you have already downloaded or received by email."
+        },
+        {
+            "type": "text",
+            "data": "In the dialog that opens, you have the option to request your license file over the Internet or Browse to a file that you have already downloaded or received by email."
+        },
+        {
+            "type": "text",
+            "data": "To request a license file over the Internet"
+        },
+        {
+            "type": "text",
+            "data": "Type in or copy-and-paste your  Servercode . \n \n \n Click  Request License File  to request a license file from the CVserver over the Internet. Click  Next . \n \n \n In the license activation dialog, check the details are correctly displayed and click  Next . \n \n \n In the confirmation dialog, click  Finish  to install the new license file."
+        },
+        {
+            "type": "text",
+            "data": "Type in or copy-and-paste your  Servercode ."
+        },
+        {
+            "type": "text",
+            "data": "Type in or copy-and-paste your  Servercode ."
+        },
+        {
+            "type": "text",
+            "data": "Click  Request License File  to request a license file from the CVserver over the Internet. Click  Next ."
+        },
+        {
+            "type": "text",
+            "data": "Click  Request License File  to request a license file from the CVserver over the Internet. Click  Next ."
+        },
+        {
+            "type": "text",
+            "data": "In the license activation dialog, check the details are correctly displayed and click  Next ."
+        },
+        {
+            "type": "text",
+            "data": "In the license activation dialog, check the details are correctly displayed and click  Next ."
+        },
+        {
+            "type": "text",
+            "data": "In the confirmation dialog, click  Finish  to install the new license file."
+        },
+        {
+            "type": "text",
+            "data": "In the confirmation dialog, click  Finish  to install the new license file."
+        },
+        {
+            "type": "text",
+            "data": "To install a file that has been sent to you"
+        },
+        {
+            "type": "text",
+            "data": "Type in or copy-and-paste your  Servercode . \n \n \n Click  Use License File . \n \n \n Browse for and select the license file (the license file will be named"
+        },
+        {
+            "type": "text",
+            "data": "Type in or copy-and-paste your  Servercode ."
+        },
+        {
+            "type": "text",
+            "data": "Type in or copy-and-paste your  Servercode ."
+        },
+        {
+            "type": "text",
+            "data": "Click  Use License File ."
+        },
+        {
+            "type": "text",
+            "data": "Click  Use License File ."
+        },
+        {
+            "type": "text",
+            "data": "Browse for and select the license file (the license file will be named"
+        },
+        {
+            "type": "text",
+            "data": "Browse for and select the license file (the license file will be named"
+        },
+        {
+            "type": "text",
+            "data": ".one, .clss or .clsn, i.e. 1234-4567-1234-4567-1234-4567.one for example)."
+        },
+        {
+            "type": "text",
+            "data": "Click Next. \n \n \n In the confirmation dialog, click Finish to complete the installation. Your licenses are now installed and ready to use."
+        },
+        {
+            "type": "text",
+            "data": "Click Next."
+        },
+        {
+            "type": "text",
+            "data": "Click Next."
+        },
+        {
+            "type": "text",
+            "data": "In the confirmation dialog, click Finish to complete the installation. Your licenses are now installed and ready to use."
+        },
+        {
+            "type": "text",
+            "data": "In the confirmation dialog, click Finish to complete the installation. Your licenses are now installed and ready to use."
+        },
+        {
+            "type": "text",
+            "data": "Note that network licenses cannot be revoked using the License Manager."
+        },
+        {
+            "type": "text",
+            "data": "This completes the Server and license installation."
+        }
+    ],
+    "source_file": "CVEnglish\\System_Level\\Ribbonbar\\Utilities_Tab\\License_Manager\\Network_Licenses\\Server_Setup.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

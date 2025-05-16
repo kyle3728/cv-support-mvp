@@ -1,0 +1,644 @@
+{
+    "id": "c58448d9-4624-4847-8dd9-4fa27bb91d30",
+    "title": "Creating_End_to_End_Catalogs",
+    "content": [
+        {
+            "type": "text",
+            "data": "Creating End to End Catalogs"
+        },
+        {
+            "type": "text",
+            "data": "End to End Catalog (definition):  A modular Catalog that contains all of the necessary information for the included objects for design, pricing, and manufacturing."
+        },
+        {
+            "type": "text",
+            "data": "The main difference between an End to End Catalog and a \"normal\" modular Catalog is the manufacturing information that is included in an End to End Catalog."
+        },
+        {
+            "type": "text",
+            "data": "This topic is intended to be a guide to the process of creating an End to End Catalog using the \"Best Practices\" as established by years of experience in Catalog creation. While it is certainly possible to create an End to End Catalog using different methods, the process outlined below is the one that will be endorsed as the \"Official Best Practices\" Method."
+        },
+        {
+            "type": "text",
+            "data": "We will step through the process of creating an End to End Catalog called \"My Catalog\". To get started, we need to open the Catalog Editor."
+        },
+        {
+            "type": "text",
+            "data": "In Windows 10 or 11 click the Windows Start Button   then scroll to and select the CABINET VISION 2023 Group and select Catalog Editor for CV 2023."
+        },
+        {
+            "type": "image",
+            "data": "image34.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image117.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "In previous versions of Windows go to  Start | All Programs | CABINET VISION 2023 | Catalog Editor for CV 2023 ."
+        },
+        {
+            "type": "text",
+            "data": "Click the  File | New Catalog  option."
+        },
+        {
+            "type": "image",
+            "data": "image1.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Name the new Catalog \"My Catalog\" and then click OK."
+        },
+        {
+            "type": "image",
+            "data": "image172.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Step 1: Catalog Header Setup"
+        },
+        {
+            "type": "text",
+            "data": "The first step is to select My Catalog from the list of Catalogs on the left side of the  Explorer View , this area is the  Catalog Pane , of the Catalog Editor screen. The Main/Header Properties of the selected Catalog are in the  sidebar ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Explorer View",
+                "uuid": "ad1508f5-49b3-4035-a573-3d7b0879c727",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Catalog Pane",
+                "uuid": "5ac57717-b9d1-48af-92b8-b013b50b923f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "sidebar",
+                "uuid": "105cc583-293b-4a15-83e6-5e724ce28c9b",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "The Internal Name field should contain the Catalog name and the date of the most current update. In CABINET VISION, when right clicking on the Catalog in the Catalog list, select Edit Header and note that the information contained in the sidebar of the Catalog Editor is displayed. These fields are not editable in CV. \n \n \n Enter any desired helpful information in the Description field. \n \n \n For an End to End Catalog, the option labeled 'Modular' should be set to Yes. This selection acts as a pointer to tell CV where to find Catalog related information. Modular mode does several things, the most important is that it tells CV essentially where to look to find information on how the objects should be priced and also how they are to be constructed, out of what materials, which door style etc.. Modular Mode points CV to look for this information first to what is set up in the Catalog Editor. If information cannot be found in the Catalog Editor (if it is not set up), then it defaults to CV's Job/Room Properties and uses the selections found there for Construction, Materials, Doors, hardware, etc. \n \n \n In the Doors area, you will see the Database option. This is where the Door Catalog is linked to the End to End Catalog. Enter the name of the desired Door Catalog. Usually the Door Catalog name will coincide with the Catalog Name. \n \n \n In the Doors area, you will see another option labeled Mix Styles (Allow Mixed Door Styles). This would be selected if a different Door Style is allowed for the Upper/Wall Assemblies, than what is selected for the Base Assemblies. If this is not selected, then only one choice is available for the Door Style, and the user cannot change the Upper/Wall or Base Door to be a different Style. Also, they are restricted from selecting a Drawer Front. These choices must be set up in the Catalog Editor. \n \n \n In the Standard Dimensions area there are options to set the Standard, Height and Depth fields for Base, Wall, and Tall Assemblies. These fields are similar to those fields in CV when Properties and the Cabinet>Layout tab is selected, and those options are available for setting default objects sizes. If entered in the Catalog Editor, these fields for entering the default Heights and Depths for Base, Wall, and Tall Assemblies would pertain only to the Catalog selected in the Catalog Editor and no others. \n \n \n Next is a field to enter the Two Pull Width value. The value entered would be the width of a Drawer Front at which a single Pull would automatically change to two Pulls. Set this value to 0 to disable it."
+        },
+        {
+            "type": "text",
+            "data": "The Internal Name field should contain the Catalog name and the date of the most current update. In CABINET VISION, when right clicking on the Catalog in the Catalog list, select Edit Header and note that the information contained in the sidebar of the Catalog Editor is displayed. These fields are not editable in CV."
+        },
+        {
+            "type": "text",
+            "data": "The Internal Name field should contain the Catalog name and the date of the most current update. In CABINET VISION, when right clicking on the Catalog in the Catalog list, select Edit Header and note that the information contained in the sidebar of the Catalog Editor is displayed. These fields are not editable in CV."
+        },
+        {
+            "type": "text",
+            "data": "Enter any desired helpful information in the Description field."
+        },
+        {
+            "type": "text",
+            "data": "Enter any desired helpful information in the Description field."
+        },
+        {
+            "type": "text",
+            "data": "For an End to End Catalog, the option labeled 'Modular' should be set to Yes. This selection acts as a pointer to tell CV where to find Catalog related information. Modular mode does several things, the most important is that it tells CV essentially where to look to find information on how the objects should be priced and also how they are to be constructed, out of what materials, which door style etc.. Modular Mode points CV to look for this information first to what is set up in the Catalog Editor. If information cannot be found in the Catalog Editor (if it is not set up), then it defaults to CV's Job/Room Properties and uses the selections found there for Construction, Materials, Doors, hardware, etc."
+        },
+        {
+            "type": "text",
+            "data": "For an End to End Catalog, the option labeled 'Modular' should be set to Yes. This selection acts as a pointer to tell CV where to find Catalog related information. Modular mode does several things, the most important is that it tells CV essentially where to look to find information on how the objects should be priced and also how they are to be constructed, out of what materials, which door style etc.. Modular Mode points CV to look for this information first to what is set up in the Catalog Editor. If information cannot be found in the Catalog Editor (if it is not set up), then it defaults to CV's Job/Room Properties and uses the selections found there for Construction, Materials, Doors, hardware, etc."
+        },
+        {
+            "type": "text",
+            "data": "In the Doors area, you will see the Database option. This is where the Door Catalog is linked to the End to End Catalog. Enter the name of the desired Door Catalog. Usually the Door Catalog name will coincide with the Catalog Name."
+        },
+        {
+            "type": "text",
+            "data": "In the Doors area, you will see the Database option. This is where the Door Catalog is linked to the End to End Catalog. Enter the name of the desired Door Catalog. Usually the Door Catalog name will coincide with the Catalog Name."
+        },
+        {
+            "type": "text",
+            "data": "In the Doors area, you will see another option labeled Mix Styles (Allow Mixed Door Styles). This would be selected if a different Door Style is allowed for the Upper/Wall Assemblies, than what is selected for the Base Assemblies. If this is not selected, then only one choice is available for the Door Style, and the user cannot change the Upper/Wall or Base Door to be a different Style. Also, they are restricted from selecting a Drawer Front. These choices must be set up in the Catalog Editor."
+        },
+        {
+            "type": "text",
+            "data": "In the Doors area, you will see another option labeled Mix Styles (Allow Mixed Door Styles). This would be selected if a different Door Style is allowed for the Upper/Wall Assemblies, than what is selected for the Base Assemblies. If this is not selected, then only one choice is available for the Door Style, and the user cannot change the Upper/Wall or Base Door to be a different Style. Also, they are restricted from selecting a Drawer Front. These choices must be set up in the Catalog Editor."
+        },
+        {
+            "type": "text",
+            "data": "In the Standard Dimensions area there are options to set the Standard, Height and Depth fields for Base, Wall, and Tall Assemblies. These fields are similar to those fields in CV when Properties and the Cabinet>Layout tab is selected, and those options are available for setting default objects sizes. If entered in the Catalog Editor, these fields for entering the default Heights and Depths for Base, Wall, and Tall Assemblies would pertain only to the Catalog selected in the Catalog Editor and no others."
+        },
+        {
+            "type": "text",
+            "data": "In the Standard Dimensions area there are options to set the Standard, Height and Depth fields for Base, Wall, and Tall Assemblies. These fields are similar to those fields in CV when Properties and the Cabinet>Layout tab is selected, and those options are available for setting default objects sizes. If entered in the Catalog Editor, these fields for entering the default Heights and Depths for Base, Wall, and Tall Assemblies would pertain only to the Catalog selected in the Catalog Editor and no others."
+        },
+        {
+            "type": "text",
+            "data": "Next is a field to enter the Two Pull Width value. The value entered would be the width of a Drawer Front at which a single Pull would automatically change to two Pulls. Set this value to 0 to disable it."
+        },
+        {
+            "type": "text",
+            "data": "Next is a field to enter the Two Pull Width value. The value entered would be the width of a Drawer Front at which a single Pull would automatically change to two Pulls. Set this value to 0 to disable it."
+        },
+        {
+            "type": "text",
+            "data": "Step 2: Price Labels"
+        },
+        {
+            "type": "text",
+            "data": "The second step in Catalog Creation is to create Price Labels (also known as Price Categories) for the Catalog. There are two common ways to set up Price Labels:"
+        },
+        {
+            "type": "text",
+            "data": "First, you could set up a single Price Label which would be a base Price and then use up-charges for Construction, Materials, Hardware, Door Styles, etc. to be added to get the final object price. \n \n \n Secondly, you could set up multiple Price Labels (Price Categories). These multiple Price Labels are based on Door Styles and those  Door Styles  should be listed in the  Price Labels  Window. When a Door Style is selected in a Room or for a particular Object, the corresponding Price Label (Price Category) is automatically used for pricing."
+        },
+        {
+            "type": "text",
+            "data": "First, you could set up a single Price Label which would be a base Price and then use up-charges for Construction, Materials, Hardware, Door Styles, etc. to be added to get the final object price."
+        },
+        {
+            "type": "text",
+            "data": "First, you could set up a single Price Label which would be a base Price and then use up-charges for Construction, Materials, Hardware, Door Styles, etc. to be added to get the final object price."
+        },
+        {
+            "type": "text",
+            "data": "Secondly, you could set up multiple Price Labels (Price Categories). These multiple Price Labels are based on Door Styles and those  Door Styles  should be listed in the  Price Labels  Window. When a Door Style is selected in a Room or for a particular Object, the corresponding Price Label (Price Category) is automatically used for pricing."
+        },
+        {
+            "type": "text",
+            "data": "Secondly, you could set up multiple Price Labels (Price Categories). These multiple Price Labels are based on Door Styles and those  Door Styles  should be listed in the  Price Labels  Window. When a Door Style is selected in a Room or for a particular Object, the corresponding Price Label (Price Category) is automatically used for pricing."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Door Styles",
+                "uuid": "749fe8df-a890-46b3-a046-3eb0301616ac",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Price Labels",
+                "uuid": "77e746ea-3ad2-45f2-9ae7-72eca8bd42bd",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Step 3: Door Styles"
+        },
+        {
+            "type": "text",
+            "data": "When the Price Labels or Price Categories have been established then the next step is to set up the  Door Styles . The Doors should have already been created in the  Door Catalog  inside CV, this is where those Doors are linked to the Door Style selection window for an End to End Catalog. Typically, the Door Name used in the manufacturing shop may differ from the actual Door Style Name used when selling a product. For example the Door can be referred to as a Four-Quarter 265 Arch Oak Door. However, when selling that Door in a retail setting, the Door would be known as a Regency Cathedral Door Style. The Door Style view in the Catalog Editor is where the Regency Cathedral would be linked to the Four- Quarter 265 Arch Oak Door from the Door Catalog."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Door Styles",
+                "uuid": "749fe8df-a890-46b3-a046-3eb0301616ac",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Door Catalog",
+                "uuid": "6cef8350-f8ec-4460-b499-33f0420d917b",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Another scenario would be if you purchase your Doors from a supplier. The name that your supplier uses for that Door would be the Door Catalog name while the name that you use for your customer would be the  Door Style  Name."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Door Style",
+                "uuid": "749fe8df-a890-46b3-a046-3eb0301616ac",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "First, enter the name for your Door Style such as Regency Cathedral, this should be the retail name that your dealers would recognize. \n \n \n Next click in the Price Category field and choose the appropriate Price Label to link to the Door Style. When this Door Style is chosen in a Job, that Price Category will automatically be used for pricing the objects."
+        },
+        {
+            "type": "text",
+            "data": "First, enter the name for your Door Style such as Regency Cathedral, this should be the retail name that your dealers would recognize."
+        },
+        {
+            "type": "text",
+            "data": "First, enter the name for your Door Style such as Regency Cathedral, this should be the retail name that your dealers would recognize."
+        },
+        {
+            "type": "text",
+            "data": "Next click in the Price Category field and choose the appropriate Price Label to link to the Door Style. When this Door Style is chosen in a Job, that Price Category will automatically be used for pricing the objects."
+        },
+        {
+            "type": "text",
+            "data": "Next click in the Price Category field and choose the appropriate Price Label to link to the Door Style. When this Door Style is chosen in a Job, that Price Category will automatically be used for pricing the objects."
+        },
+        {
+            "type": "text",
+            "data": "If an object has a 0 in a Price Category linked to the selected Door Style in CABINET VISION, when you attempt to use the object in CV, you get a message saying \"Not Available in This Door Style\". An object with a 0 Price will get this message. If the object should have a Price, open the Catalog Editor, right click on the object and select Edit Pricing. Then enter a Price for that object in the appropriate Price Category."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Next select that row and click on the button to the left called the  Door Associations . Select each Door from the Door Catalog that will be used when that Door Style is selected."
+        },
+        {
+            "type": "text",
+            "data": "Next select that row and click on the button to the left called the  Door Associations . Select each Door from the Door Catalog that will be used when that Door Style is selected."
+        },
+        {
+            "type": "text",
+            "data": "Next select that row and click on the button to the left called the  Door Associations . Select each Door from the Door Catalog that will be used when that Door Style is selected."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Door Associations",
+                "uuid": "359bb8f8-064d-4af1-bf4b-cbb7411dc4ca",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "The ability to Enable and Disable the various Profiles and Materials for each Door is advantageous when multiple Doors are inherently the same with only the Profiles that are used for each Door Style being different. Only one Door would need to be created in the Door Catalog with all the Profiles and Materials enabled. Then, in the Catalog Editor, in Door Associations, it would only be necessary to select the Profiles that are available for each Door Style."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Step 4: Options"
+        },
+        {
+            "type": "text",
+            "data": "The next step is to create all of the necessary  Option Types  and their associated  Options ."
+        },
+        {
+            "type": "text",
+            "data": "If an Option is set to be available at the Job/Room Level, then it should also be available at the Assembly Level. So, 'Yes' should always be set for the Assembly Level if it is also set at the Job/Room Level. If the option is only available on a per Assembly basis, then select No to Job/Room and choose Yes for Assemblies. These would typically be Assembly modifications (see the list below for several examples of Assembly only Options from the Generic Catalog)."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Examples of Assembly Only Options from the Generic Catalog"
+        },
+        {
+            "type": "text",
+            "data": "Size Modified"
+        },
+        {
+            "type": "text",
+            "data": "Omit Doors"
+        },
+        {
+            "type": "text",
+            "data": "Glass Doors"
+        },
+        {
+            "type": "text",
+            "data": "Panelized End"
+        },
+        {
+            "type": "text",
+            "data": "Clip Corner Left"
+        },
+        {
+            "type": "text",
+            "data": "Clip Corner Right"
+        },
+        {
+            "type": "text",
+            "data": "Radius Corner Left"
+        },
+        {
+            "type": "text",
+            "data": "Radius Corner Right"
+        },
+        {
+            "type": "text",
+            "data": "Angled Left End"
+        },
+        {
+            "type": "text",
+            "data": "Angled Right End"
+        },
+        {
+            "type": "text",
+            "data": "Extended Stile Left"
+        },
+        {
+            "type": "text",
+            "data": "Extended Stile Right"
+        },
+        {
+            "type": "text",
+            "data": "Extended Back"
+        },
+        {
+            "type": "text",
+            "data": "Extend End Left"
+        },
+        {
+            "type": "text",
+            "data": "Extend End Right"
+        },
+        {
+            "type": "text",
+            "data": "It is recommended that the Job/Room Level Option Type names be in all capital letters, while the Assembly Level only Option Type names only have the first letter capitalized. As an example, see the Generic catalog Option Types and note that all the Job/Room Level option names are in all capital letters, and the Assembly only names only have the first letter capitalized. This allows the user, or those maintaining the Catalog, to quickly recognize a Job/Room Level option or a Assembly Level Option. Its also helpful for visual organization when the list of Options becomes lengthy."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "When the Options Types and Options are created you will need to link those Options to the desired  Option Effects . Keep in mind that the selection made at the various Option Effect tabs will link that setting to that Option item, when that Option is chosen in the Job. The user does not see the Option Effect and is only choosing the Option item, but if it is linked to an Option Effect in the Catalog Editor, then those settings override any Job/Room Properties selections for the users Job. This also holds true, if the reverse occurs. If the Option Effects are left blank, then CV will look to the settings selected in Job or Room Properties in order to know how to build the Assemblies, what Material to use, what hardware to select, Finishes, etc. So, it is important that there be an Option Effect selected for each Option Type and Option Item."
+        },
+        {
+            "type": "text",
+            "data": "Step 5: Menu Structure"
+        },
+        {
+            "type": "text",
+            "data": "Typically, the Catalog menu structure should be the same as it is for the manufacturers paper catalog. This makes it easiest for the users to find the items that they are looking for if the menu structure follows the same structure as the paper catalog. Try to keep it easy for the user to find items that they are looking for by grouping like items together. Look at the menu structure of the Generic catalog as an example. Note that sub folders are used to break down the menu into more manageable groups. Its not recommended that too long of a list of items are in the same menu as it makes it difficult if the user has to scroll down a long list of items to find what they are looking for. It is better to break the menu down into smaller sub menus of like items."
+        },
+        {
+            "type": "text",
+            "data": "Step 6: Create Objects"
+        },
+        {
+            "type": "text",
+            "data": "The next step is to create the objects in your Catalog. In the  Explorer View , right click on the menu where you want the new Assembly to appear. In the menu that appears, click the New Assembly option. Alternately, you could click on the menu where you want the new Assembly to appear and then click the  Catalog Editor button  and select  New | Assembly . If Objects have already been created in this Catalog, you may edit those objects by right-clicking those objects in the  Object Pane  of the Explorer View and clicking Edit Object. This will take you to the  Edit Object View  where you have the ability to modify the object."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Explorer View",
+                "uuid": "ad1508f5-49b3-4035-a573-3d7b0879c727",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Object Pane",
+                "uuid": "f029678a-b000-4b4c-8897-613f16f98bee",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Edit Object View",
+                "uuid": "3150899d-5cdd-4249-85c5-c3c5f277852d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "After sectioning the Assembly, save these changes by selecting the home arrow button. Notice it asks you if you would like to save changes to this object. If you click yes, you will be taken to the Save Object window. See the CABINET VISION Help file for more information on the Save Object area."
+        },
+        {
+            "type": "text",
+            "data": "For the Catalog to be truly an End to End Catalog, you must make sure that the Object Construction (meaning Part sizes and all machining information) is complete and correct."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Aliases"
+        },
+        {
+            "type": "text",
+            "data": "An Alias is a fast and easy way to create additional object sizes that are sectioned exactly the same as the Parent Assembly. For example, consider a Base Cabinet that is 12 inches wide and it consists of one Door over one Drawer and has one Shelf. If this Base Cabinet is available in 3 inch increments up to a certain size before the sectioning changes, this would be a good candidate for Aliases. The 12 inch Base Cabinet in our example would be the Parent Object and would have Aliases of 15, 18, 21, and 24 widths."
+        },
+        {
+            "type": "text",
+            "data": "Moving and Copying Objects"
+        },
+        {
+            "type": "text",
+            "data": "Objects can be moved or copied in the Catalog Editor from one menu to another. To do so, in the  Explorer View , browse to the item or items that you would like to copy or move to another menu. On the right side of the split window, in the  Object Pane , select the object or objects that you would like to move or copy. To select multiple objects, hold the Shift key while selecting the objects with the mouse. Drag the highlighted object/objects to the left side of the split window, the  Catalog Pane , to the destination menu folder. Click on the menu folder where they are to be moved or copied to. Notice you have the option to Move To or Copy To, simply select the appropriate option."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Explorer View",
+                "uuid": "ad1508f5-49b3-4035-a573-3d7b0879c727",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Object Pane",
+                "uuid": "f029678a-b000-4b4c-8897-613f16f98bee",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Catalog Pane",
+                "uuid": "5ac57717-b9d1-48af-92b8-b013b50b923f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Exclusions"
+        },
+        {
+            "type": "text",
+            "data": "It is possible to set certain objects to be excluded from certain Options. Use the Generic catalog as an example. In the  Object Pane , right click on a Parent object (parent objects have no asterisks after the nomenclature) and select Properties. Notice the tab labeled Exclusions. Listed here are the Assembly Only  Option Types . Check any of them that are not available modifications for that object. Then, in CABINET VISION, when a user right clicks on the Assembly in Plan view and selects  Properties | Options , those items checked will not be listed as a possible modification for that object."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Object Pane",
+                "uuid": "f029678a-b000-4b4c-8897-613f16f98bee",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Door/Drawer Overrides"
+        },
+        {
+            "type": "text",
+            "data": "Use the Generic catalog as an example. In the  Object Pane , right click on a Parent object (parent objects have no asterisks after the nomenclature) and select Properties. Notice the tab labeled Properties. At the bottom there are fields for Door/Drawer Overrides. These are used when an object has Doors or Drawers that either should not be counted in the total number or Doors or Drawers, or when a single Door or Drawer should count as more than a single Door or Drawer. For example, if an Upper Object has 3 small Drawers that do not use Drawer Guides and/or the Drawer Front is always a Slab Style, then a -3 value can be entered in the Drawer and Door field so that the total number of Doors or Drawers will not count these small apothecary type Drawers in the Upper Object. Similarly, if a Tall Door should count as more than one Door, possibly for up-charge purposes, enter a value for the additional count. For example, if there is a Single Tall Door on an Assembly, but it should count as 2 Doors, enter a value of 1 for the additional Door override."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Object Pane",
+                "uuid": "f029678a-b000-4b4c-8897-613f16f98bee",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Non-Graphic Accessories"
+        },
+        {
+            "type": "text",
+            "data": "Non-Graphic Accessories can be added by copying them from another Catalog and renaming them, or by adding them from the right click menu. Right click on the non-graphic accessory and select Properties."
+        },
+        {
+            "type": "text",
+            "data": "Finished Goods (definition): Any Non-Graphic Accessory that would have a finish applied to it will need Finished Goods toggled on. Examples of these items include molding, skins, finished panels, etc."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Column Pricing (definition): Any Non-Graphic Accessory can be set to Column Pricing instead of having a single unit price. If selected, the accessory will use the Price Categories set up in Price Labels."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Step 7: Pricing"
+        },
+        {
+            "type": "text",
+            "data": "Most Stock Catalogs will use  Stock Pricing . Another alternative method for setting Catalog Pricing would be to use a  Simple Pricing Table . The Simple Pricing Table is used mainly for pricing Objects that require Prices based on size."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Stock Pricing",
+                "uuid": "52ecb715-bb52-4b28-8b5d-1abc0d39e744",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Simple Pricing Table",
+                "uuid": "a858b011-b1d5-439e-a2a6-d585c35c1e6c",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Adding/Editing Pricing"
+        },
+        {
+            "type": "text",
+            "data": "To add pricing to the objects in the Catalog, one way is to right click on the object in the  Object Pane  of the Catalog Editor and select Edit Pricing. However, to add or update pricing on a larger scale, select the Catalog name in the  Catalog Pane , select Pricing and then select Export Prices. This exports the prices to a spreadsheet where the data can be updated. Once exported, browse to the \\CV 2022\\Databasedirectory and look for a file with your Catalog name and a .csv file extension. After the Pricing Information has been updated via Microsoft Excel or comparable software, you may import that Pricing Information back into CABINET VISION."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Object Pane",
+                "uuid": "f029678a-b000-4b4c-8897-613f16f98bee",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Catalog Pane",
+                "uuid": "5ac57717-b9d1-48af-92b8-b013b50b923f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Notes on editing the .csv file:"
+        },
+        {
+            "type": "text",
+            "data": "Only edit the pricing cells for each object."
+        },
+        {
+            "type": "text",
+            "data": "Never move rows, columns, or cells."
+        },
+        {
+            "type": "text",
+            "data": "Never delete rows, columns, or cells."
+        },
+        {
+            "type": "text",
+            "data": "Never change the order in which the objects are listed."
+        },
+        {
+            "type": "text",
+            "data": "If any of these things are done, then the .csv may not import properly back into CV. CV stores this information in Microsoft Access databases and conforms to the same rules as editing items in databases. Also notice the objects are exported from CV in the order in which they appear in the Catalog. Objects should remain in the same order for importing back into CV."
+        },
+        {
+            "type": "text",
+            "data": "Finally, another method for editing Object Pricing would be to use the  Update Pricing  option in the Pricing Group in the Main ribbontab in  Explorer View . This method is advantageous if either all Prices are updated by the same amount or if all Objects in a particular Price Category are updated by the same amount."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Update Pricing",
+                "uuid": "c20cbc15-ab1e-4216-a6ad-07beb9223c00",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Explorer View",
+                "uuid": "ad1508f5-49b3-4035-a573-3d7b0879c727",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Step 8: Make Distributable"
+        },
+        {
+            "type": "text",
+            "data": "CABINET VISION has a function designed for manufacturers, which allows a Catalog to be distributed to dealers in a simplified format. This function combines all the information needed for the catalog into a single read only format file. This file can then be copied to a CD for distribution. There are two main advantages for using this procedure. First, the dealer is not able to make permanent changes to the Catalog, thus giving the manufacturer complete control over Catalog content. Second, the manufacturer does not have to be concerned with distributing and updating all the individual database files associated with a CV Catalog. Be aware that a distributable file cannot be updated, but must be replaced when a change is made to the Catalog. Therefore, this routine must be the last function performed on a Catalog that is intended for distribution."
+        },
+        {
+            "type": "text",
+            "data": "See the CABINET VISION Help Topic on the Package Utilityfor more information."
+        }
+    ],
+    "source_file": "CEEnglish\\Introduction\\Creating_End_to_End_Catalogs.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

@@ -1,0 +1,728 @@
+{
+    "id": "efde2da6-aa49-42dd-9ab8-853ba043ff07",
+    "title": "Filter_Parts",
+    "content": [
+        {
+            "type": "text",
+            "data": "Filter Parts"
+        },
+        {
+            "type": "image",
+            "data": "image424.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Filter Parts option is a very powerful feature that allows you to include or exclude parts from your machines based on specific criteria."
+        },
+        {
+            "type": "image",
+            "data": "image528.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There are four Filter Types you can choose in the Part Filter:"
+        },
+        {
+            "type": "text",
+            "data": "New Filter  - This option will not take into account any currently selected Parts or Previously Filtered Parts. \n \n \n Add to Selected Items  - This option will build a Filter that  will not  de-select any Parts manually selected from the Parts View. \n \n \n For Example: If you enter the  Filter Parts  screen and select Room 1 and exit the Filter and upon entering the  Parts View  realize you also want Cabinet #2 in Room 2. You can reenter the  Parts Filter  select  Add to Selected Items  and then Select Cabinet #2 in Room 2 and not loose your previous selection. \n \n \n \n \n Filter on Previous Selection  - This option will allow you to continue building a Filter based on previously defined criteria. \n \n \n For Example: Lets say I have a Job with 100 Cabinets in it, and I need to cut only the  Material for Cabinet 1, 8, and 47. So I start a New Filter and select 1, 8, and 47. Then switch to Filter On Previous Selection then select my  Material. The only items selected when I return to the Parts List would be the  Material for Cabinets 1, 8, and 47. \n \n \n \n \n Remove Selected Items  - This option will build a Filter that  will  de-select any Parts manually selected from the Parts View."
+        },
+        {
+            "type": "text",
+            "data": "New Filter  - This option will not take into account any currently selected Parts or Previously Filtered Parts."
+        },
+        {
+            "type": "text",
+            "data": "New Filter  - This option will not take into account any currently selected Parts or Previously Filtered Parts."
+        },
+        {
+            "type": "text",
+            "data": "Add to Selected Items  - This option will build a Filter that  will not  de-select any Parts manually selected from the Parts View. \n \n \n For Example: If you enter the  Filter Parts  screen and select Room 1 and exit the Filter and upon entering the  Parts View  realize you also want Cabinet #2 in Room 2. You can reenter the  Parts Filter  select  Add to Selected Items  and then Select Cabinet #2 in Room 2 and not loose your previous selection."
+        },
+        {
+            "type": "text",
+            "data": "Add to Selected Items  - This option will build a Filter that  will not  de-select any Parts manually selected from the Parts View."
+        },
+        {
+            "type": "text",
+            "data": "For Example: If you enter the  Filter Parts  screen and select Room 1 and exit the Filter and upon entering the  Parts View  realize you also want Cabinet #2 in Room 2. You can reenter the  Parts Filter  select  Add to Selected Items  and then Select Cabinet #2 in Room 2 and not loose your previous selection."
+        },
+        {
+            "type": "text",
+            "data": "For Example: If you enter the  Filter Parts  screen and select Room 1 and exit the Filter and upon entering the  Parts View  realize you also want Cabinet #2 in Room 2. You can reenter the  Parts Filter  select  Add to Selected Items  and then Select Cabinet #2 in Room 2 and not loose your previous selection."
+        },
+        {
+            "type": "text",
+            "data": "For Example: If you enter the  Filter Parts  screen and select Room 1 and exit the Filter and upon entering the  Parts View  realize you also want Cabinet #2 in Room 2. You can reenter the  Parts Filter  select  Add to Selected Items  and then Select Cabinet #2 in Room 2 and not loose your previous selection."
+        },
+        {
+            "type": "text",
+            "data": "Filter on Previous Selection  - This option will allow you to continue building a Filter based on previously defined criteria. \n \n \n For Example: Lets say I have a Job with 100 Cabinets in it, and I need to cut only the  Material for Cabinet 1, 8, and 47. So I start a New Filter and select 1, 8, and 47. Then switch to Filter On Previous Selection then select my  Material. The only items selected when I return to the Parts List would be the  Material for Cabinets 1, 8, and 47."
+        },
+        {
+            "type": "text",
+            "data": "Filter on Previous Selection  - This option will allow you to continue building a Filter based on previously defined criteria."
+        },
+        {
+            "type": "text",
+            "data": "For Example: Lets say I have a Job with 100 Cabinets in it, and I need to cut only the  Material for Cabinet 1, 8, and 47. So I start a New Filter and select 1, 8, and 47. Then switch to Filter On Previous Selection then select my  Material. The only items selected when I return to the Parts List would be the  Material for Cabinets 1, 8, and 47."
+        },
+        {
+            "type": "text",
+            "data": "For Example: Lets say I have a Job with 100 Cabinets in it, and I need to cut only the  Material for Cabinet 1, 8, and 47. So I start a New Filter and select 1, 8, and 47. Then switch to Filter On Previous Selection then select my  Material. The only items selected when I return to the Parts List would be the  Material for Cabinets 1, 8, and 47."
+        },
+        {
+            "type": "text",
+            "data": "For Example: Lets say I have a Job with 100 Cabinets in it, and I need to cut only the  Material for Cabinet 1, 8, and 47. So I start a New Filter and select 1, 8, and 47. Then switch to Filter On Previous Selection then select my  Material. The only items selected when I return to the Parts List would be the  Material for Cabinets 1, 8, and 47."
+        },
+        {
+            "type": "text",
+            "data": "Remove Selected Items  - This option will build a Filter that  will  de-select any Parts manually selected from the Parts View."
+        },
+        {
+            "type": "text",
+            "data": "Remove Selected Items  - This option will build a Filter that  will  de-select any Parts manually selected from the Parts View."
+        },
+        {
+            "type": "text",
+            "data": "There are five Tabs in the Part Filter:"
+        },
+        {
+            "type": "text",
+            "data": "Assemblies"
+        },
+        {
+            "type": "text",
+            "data": "The Assemblies Tab allows you to include or exclude Jobs, Rooms, and/or Cabinets from your Machine processing. You can include or exclude Cabinets individually or you can include or exclude Cabinets by Room or by Job."
+        },
+        {
+            "type": "image",
+            "data": "image529.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "A check in the box instructs the S2M CENTER to include items in the NC Output. Removing the check mark from the item instructs the S2M CENTER to exclude the item from NC Output."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Simply click the Invert Selection button to quickly reverse your selection."
+        },
+        {
+            "type": "text",
+            "data": "Materials"
+        },
+        {
+            "type": "text",
+            "data": "The Materials Tab allows you to include or exclude any or all Materials from Machining."
+        },
+        {
+            "type": "image",
+            "data": "image530.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "A check in the box instructs the S2M CENTER to include items in the NC Output. Removing the check mark from the item instructs the S2M CENTER to exclude the item from NC Output."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Simply click the Invert Selection button to quickly reverse your selection."
+        },
+        {
+            "type": "text",
+            "data": "Parts"
+        },
+        {
+            "type": "text",
+            "data": "The Parts Tab allows you to include or exclude any or all Parts from Machining."
+        },
+        {
+            "type": "image",
+            "data": "image428.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "A check in the box instructs the S2M CENTER to include items in the NC Output. Removing the check mark from the item instructs the S2M CENTER to exclude the item from NC Output."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Simply click the Invert Selection button to quickly reverse your selection."
+        },
+        {
+            "type": "text",
+            "data": "Other"
+        },
+        {
+            "type": "text",
+            "data": "The Other Tab is divided into three Categories."
+        },
+        {
+            "type": "image",
+            "data": "image429.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "A check in the box instructs the S2M CENTERto include items in the NC Output. Removing the check mark from the item instructs the S2M CENTER to exclude the item from NC Output."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Operations"
+        },
+        {
+            "type": "text",
+            "data": "Part Shape  - There are two options for Part Shape: \n \n \n Shaped - This Filter will, when selected, only select Shaped parts for your processing. \n \n \n Rectangular - This Filter will, when selected, only select Rectangular parts for your processing. \n \n \n \n \n Part Face  - There are three options for Part Face: \n \n \n None - This Filter will, when selected, only select Parts which have no Machining on either Face. \n \n \n Single - This Filter will, when selected, only select Parts which have Machining on only one Face. \n \n \n Double - This Filter will, when selected, only select Parts which have Machining on both Faces. \n \n \n \n \n Horizontal Boring  - There are three options for Horizontal Boring: \n \n \n With Horizontal Boring - This Filter will, when selected, only select parts with Horizontal Boring. \n \n \n Without Horizontal Boring - This Filter will, when selected, only select parts without Horizontal Boring. \n \n \n Only Horizontal Boring - This Filter will, when selected, only select parts that only have Horizontal Boring. \n \n \n \n \n Vertical Boring  - There are two options for Vertical Boring: \n \n \n With Vertical Boring - This Filter will, when selected, only select parts with Vertical Boring. \n \n \n Without Vertical Boring - This Filter will, when selected, only select parts without Vertical Boring. \n \n \n Only Vertical Boring - This Filter will, when selected, only select parts that only have Vertical Boring. \n \n \n \n \n Route Operations  - There are three options for Route Operations: \n \n \n With Route Ops - This Filter will, when selected, only select parts with Route Operations. \n \n \n Without Route Ops -This Filter will, when selected, only select parts without Route Operations. \n \n \n Only Route Ops - This Filter will, when selected, only select parts that only have Route Operations. \n \n \n \n \n Drill/Dowel Operations  - There are three options for Drill/Dowel Operations: \n \n \n With Drill/Dowel Ops - This Filter will, when selected, only select parts with Drill & Dowel Operations. \n \n \n Without Drill/Dowel Ops - This Filter will, when selected, only select parts without Drill & Dowel Operations. \n \n \n Only Drill/Dowel Ops - This Filter will, when selected, only select parts that only have Drill & Dowel Operations. \n \n \n \n \n Cut To Size Operations  - There are three options for Cut To Size Operations: \n \n \n With Cut Ops - This Filter will, when selected, only select parts with Cut To Size Operations. \n \n \n Without Cut Ops - This Filter will, when selected, only select parts without Cut To Size Operations. \n \n \n Only Cut Ops - This Filter will, when selected, only select parts that only have Cut To Size Operations. \n \n \n \n \n Other Machine Operations  - There are three options for Other Machine Operations: \n \n \n With Other Ops - This Filter will, when selected, only select parts with Other Machine Operations. \n \n \n Without Other Ops - This Filter will, when selected, only select parts without Other Machine Operations. \n \n \n Only Other Ops - This Filter will, when selected, only select parts that only have Other Machine Operations."
+        },
+        {
+            "type": "text",
+            "data": "Part Shape  - There are two options for Part Shape: \n \n \n Shaped - This Filter will, when selected, only select Shaped parts for your processing. \n \n \n Rectangular - This Filter will, when selected, only select Rectangular parts for your processing. \n \n \n \n \n Part Face  - There are three options for Part Face: \n \n \n None - This Filter will, when selected, only select Parts which have no Machining on either Face. \n \n \n Single - This Filter will, when selected, only select Parts which have Machining on only one Face. \n \n \n Double - This Filter will, when selected, only select Parts which have Machining on both Faces. \n \n \n \n \n Horizontal Boring  - There are three options for Horizontal Boring: \n \n \n With Horizontal Boring - This Filter will, when selected, only select parts with Horizontal Boring. \n \n \n Without Horizontal Boring - This Filter will, when selected, only select parts without Horizontal Boring. \n \n \n Only Horizontal Boring - This Filter will, when selected, only select parts that only have Horizontal Boring. \n \n \n \n \n Vertical Boring  - There are two options for Vertical Boring: \n \n \n With Vertical Boring - This Filter will, when selected, only select parts with Vertical Boring. \n \n \n Without Vertical Boring - This Filter will, when selected, only select parts without Vertical Boring. \n \n \n Only Vertical Boring - This Filter will, when selected, only select parts that only have Vertical Boring. \n \n \n \n \n Route Operations  - There are three options for Route Operations: \n \n \n With Route Ops - This Filter will, when selected, only select parts with Route Operations. \n \n \n Without Route Ops -This Filter will, when selected, only select parts without Route Operations. \n \n \n Only Route Ops - This Filter will, when selected, only select parts that only have Route Operations. \n \n \n \n \n Drill/Dowel Operations  - There are three options for Drill/Dowel Operations: \n \n \n With Drill/Dowel Ops - This Filter will, when selected, only select parts with Drill & Dowel Operations. \n \n \n Without Drill/Dowel Ops - This Filter will, when selected, only select parts without Drill & Dowel Operations. \n \n \n Only Drill/Dowel Ops - This Filter will, when selected, only select parts that only have Drill & Dowel Operations. \n \n \n \n \n Cut To Size Operations  - There are three options for Cut To Size Operations: \n \n \n With Cut Ops - This Filter will, when selected, only select parts with Cut To Size Operations. \n \n \n Without Cut Ops - This Filter will, when selected, only select parts without Cut To Size Operations. \n \n \n Only Cut Ops - This Filter will, when selected, only select parts that only have Cut To Size Operations. \n \n \n \n \n Other Machine Operations  - There are three options for Other Machine Operations: \n \n \n With Other Ops - This Filter will, when selected, only select parts with Other Machine Operations. \n \n \n Without Other Ops - This Filter will, when selected, only select parts without Other Machine Operations. \n \n \n Only Other Ops - This Filter will, when selected, only select parts that only have Other Machine Operations."
+        },
+        {
+            "type": "text",
+            "data": "Part Shape  - There are two options for Part Shape: \n \n \n Shaped - This Filter will, when selected, only select Shaped parts for your processing. \n \n \n Rectangular - This Filter will, when selected, only select Rectangular parts for your processing. \n \n \n \n \n Part Face  - There are three options for Part Face: \n \n \n None - This Filter will, when selected, only select Parts which have no Machining on either Face. \n \n \n Single - This Filter will, when selected, only select Parts which have Machining on only one Face. \n \n \n Double - This Filter will, when selected, only select Parts which have Machining on both Faces. \n \n \n \n \n Horizontal Boring  - There are three options for Horizontal Boring: \n \n \n With Horizontal Boring - This Filter will, when selected, only select parts with Horizontal Boring. \n \n \n Without Horizontal Boring - This Filter will, when selected, only select parts without Horizontal Boring. \n \n \n Only Horizontal Boring - This Filter will, when selected, only select parts that only have Horizontal Boring. \n \n \n \n \n Vertical Boring  - There are two options for Vertical Boring: \n \n \n With Vertical Boring - This Filter will, when selected, only select parts with Vertical Boring. \n \n \n Without Vertical Boring - This Filter will, when selected, only select parts without Vertical Boring. \n \n \n Only Vertical Boring - This Filter will, when selected, only select parts that only have Vertical Boring. \n \n \n \n \n Route Operations  - There are three options for Route Operations: \n \n \n With Route Ops - This Filter will, when selected, only select parts with Route Operations. \n \n \n Without Route Ops -This Filter will, when selected, only select parts without Route Operations. \n \n \n Only Route Ops - This Filter will, when selected, only select parts that only have Route Operations. \n \n \n \n \n Drill/Dowel Operations  - There are three options for Drill/Dowel Operations: \n \n \n With Drill/Dowel Ops - This Filter will, when selected, only select parts with Drill & Dowel Operations. \n \n \n Without Drill/Dowel Ops - This Filter will, when selected, only select parts without Drill & Dowel Operations. \n \n \n Only Drill/Dowel Ops - This Filter will, when selected, only select parts that only have Drill & Dowel Operations. \n \n \n \n \n Cut To Size Operations  - There are three options for Cut To Size Operations: \n \n \n With Cut Ops - This Filter will, when selected, only select parts with Cut To Size Operations. \n \n \n Without Cut Ops - This Filter will, when selected, only select parts without Cut To Size Operations. \n \n \n Only Cut Ops - This Filter will, when selected, only select parts that only have Cut To Size Operations. \n \n \n \n \n Other Machine Operations  - There are three options for Other Machine Operations: \n \n \n With Other Ops - This Filter will, when selected, only select parts with Other Machine Operations. \n \n \n Without Other Ops - This Filter will, when selected, only select parts without Other Machine Operations. \n \n \n Only Other Ops - This Filter will, when selected, only select parts that only have Other Machine Operations."
+        },
+        {
+            "type": "text",
+            "data": "Part Shape  - There are two options for Part Shape: \n \n \n Shaped - This Filter will, when selected, only select Shaped parts for your processing. \n \n \n Rectangular - This Filter will, when selected, only select Rectangular parts for your processing. \n \n \n \n \n Part Face  - There are three options for Part Face: \n \n \n None - This Filter will, when selected, only select Parts which have no Machining on either Face. \n \n \n Single - This Filter will, when selected, only select Parts which have Machining on only one Face. \n \n \n Double - This Filter will, when selected, only select Parts which have Machining on both Faces. \n \n \n \n \n Horizontal Boring  - There are three options for Horizontal Boring: \n \n \n With Horizontal Boring - This Filter will, when selected, only select parts with Horizontal Boring. \n \n \n Without Horizontal Boring - This Filter will, when selected, only select parts without Horizontal Boring. \n \n \n Only Horizontal Boring - This Filter will, when selected, only select parts that only have Horizontal Boring. \n \n \n \n \n Vertical Boring  - There are two options for Vertical Boring: \n \n \n With Vertical Boring - This Filter will, when selected, only select parts with Vertical Boring. \n \n \n Without Vertical Boring - This Filter will, when selected, only select parts without Vertical Boring. \n \n \n Only Vertical Boring - This Filter will, when selected, only select parts that only have Vertical Boring. \n \n \n \n \n Route Operations  - There are three options for Route Operations: \n \n \n With Route Ops - This Filter will, when selected, only select parts with Route Operations. \n \n \n Without Route Ops -This Filter will, when selected, only select parts without Route Operations. \n \n \n Only Route Ops - This Filter will, when selected, only select parts that only have Route Operations. \n \n \n \n \n Drill/Dowel Operations  - There are three options for Drill/Dowel Operations: \n \n \n With Drill/Dowel Ops - This Filter will, when selected, only select parts with Drill & Dowel Operations. \n \n \n Without Drill/Dowel Ops - This Filter will, when selected, only select parts without Drill & Dowel Operations. \n \n \n Only Drill/Dowel Ops - This Filter will, when selected, only select parts that only have Drill & Dowel Operations. \n \n \n \n \n Cut To Size Operations  - There are three options for Cut To Size Operations: \n \n \n With Cut Ops - This Filter will, when selected, only select parts with Cut To Size Operations. \n \n \n Without Cut Ops - This Filter will, when selected, only select parts without Cut To Size Operations. \n \n \n Only Cut Ops - This Filter will, when selected, only select parts that only have Cut To Size Operations. \n \n \n \n \n Other Machine Operations  - There are three options for Other Machine Operations: \n \n \n With Other Ops - This Filter will, when selected, only select parts with Other Machine Operations. \n \n \n Without Other Ops - This Filter will, when selected, only select parts without Other Machine Operations. \n \n \n Only Other Ops - This Filter will, when selected, only select parts that only have Other Machine Operations."
+        },
+        {
+            "type": "text",
+            "data": "Part Shape  - There are two options for Part Shape: \n \n \n Shaped - This Filter will, when selected, only select Shaped parts for your processing. \n \n \n Rectangular - This Filter will, when selected, only select Rectangular parts for your processing. \n \n \n \n \n Part Face  - There are three options for Part Face: \n \n \n None - This Filter will, when selected, only select Parts which have no Machining on either Face. \n \n \n Single - This Filter will, when selected, only select Parts which have Machining on only one Face. \n \n \n Double - This Filter will, when selected, only select Parts which have Machining on both Faces. \n \n \n \n \n Horizontal Boring  - There are three options for Horizontal Boring: \n \n \n With Horizontal Boring - This Filter will, when selected, only select parts with Horizontal Boring. \n \n \n Without Horizontal Boring - This Filter will, when selected, only select parts without Horizontal Boring. \n \n \n Only Horizontal Boring - This Filter will, when selected, only select parts that only have Horizontal Boring. \n \n \n \n \n Vertical Boring  - There are two options for Vertical Boring: \n \n \n With Vertical Boring - This Filter will, when selected, only select parts with Vertical Boring. \n \n \n Without Vertical Boring - This Filter will, when selected, only select parts without Vertical Boring. \n \n \n Only Vertical Boring - This Filter will, when selected, only select parts that only have Vertical Boring. \n \n \n \n \n Route Operations  - There are three options for Route Operations: \n \n \n With Route Ops - This Filter will, when selected, only select parts with Route Operations. \n \n \n Without Route Ops -This Filter will, when selected, only select parts without Route Operations. \n \n \n Only Route Ops - This Filter will, when selected, only select parts that only have Route Operations. \n \n \n \n \n Drill/Dowel Operations  - There are three options for Drill/Dowel Operations: \n \n \n With Drill/Dowel Ops - This Filter will, when selected, only select parts with Drill & Dowel Operations. \n \n \n Without Drill/Dowel Ops - This Filter will, when selected, only select parts without Drill & Dowel Operations. \n \n \n Only Drill/Dowel Ops - This Filter will, when selected, only select parts that only have Drill & Dowel Operations. \n \n \n \n \n Cut To Size Operations  - There are three options for Cut To Size Operations: \n \n \n With Cut Ops - This Filter will, when selected, only select parts with Cut To Size Operations. \n \n \n Without Cut Ops - This Filter will, when selected, only select parts without Cut To Size Operations. \n \n \n Only Cut Ops - This Filter will, when selected, only select parts that only have Cut To Size Operations. \n \n \n \n \n Other Machine Operations  - There are three options for Other Machine Operations: \n \n \n With Other Ops - This Filter will, when selected, only select parts with Other Machine Operations. \n \n \n Without Other Ops - This Filter will, when selected, only select parts without Other Machine Operations. \n \n \n Only Other Ops - This Filter will, when selected, only select parts that only have Other Machine Operations."
+        },
+        {
+            "type": "text",
+            "data": "Part Shape  - There are two options for Part Shape: \n \n \n Shaped - This Filter will, when selected, only select Shaped parts for your processing. \n \n \n Rectangular - This Filter will, when selected, only select Rectangular parts for your processing."
+        },
+        {
+            "type": "text",
+            "data": "Part Shape  - There are two options for Part Shape:"
+        },
+        {
+            "type": "text",
+            "data": "Shaped - This Filter will, when selected, only select Shaped parts for your processing. \n \n \n Rectangular - This Filter will, when selected, only select Rectangular parts for your processing."
+        },
+        {
+            "type": "text",
+            "data": "Shaped - This Filter will, when selected, only select Shaped parts for your processing."
+        },
+        {
+            "type": "text",
+            "data": "Shaped - This Filter will, when selected, only select Shaped parts for your processing."
+        },
+        {
+            "type": "text",
+            "data": "Rectangular - This Filter will, when selected, only select Rectangular parts for your processing."
+        },
+        {
+            "type": "text",
+            "data": "Rectangular - This Filter will, when selected, only select Rectangular parts for your processing."
+        },
+        {
+            "type": "text",
+            "data": "Part Face  - There are three options for Part Face: \n \n \n None - This Filter will, when selected, only select Parts which have no Machining on either Face. \n \n \n Single - This Filter will, when selected, only select Parts which have Machining on only one Face. \n \n \n Double - This Filter will, when selected, only select Parts which have Machining on both Faces."
+        },
+        {
+            "type": "text",
+            "data": "Part Face  - There are three options for Part Face:"
+        },
+        {
+            "type": "text",
+            "data": "None - This Filter will, when selected, only select Parts which have no Machining on either Face. \n \n \n Single - This Filter will, when selected, only select Parts which have Machining on only one Face. \n \n \n Double - This Filter will, when selected, only select Parts which have Machining on both Faces."
+        },
+        {
+            "type": "text",
+            "data": "None - This Filter will, when selected, only select Parts which have no Machining on either Face."
+        },
+        {
+            "type": "text",
+            "data": "None - This Filter will, when selected, only select Parts which have no Machining on either Face."
+        },
+        {
+            "type": "text",
+            "data": "Single - This Filter will, when selected, only select Parts which have Machining on only one Face."
+        },
+        {
+            "type": "text",
+            "data": "Single - This Filter will, when selected, only select Parts which have Machining on only one Face."
+        },
+        {
+            "type": "text",
+            "data": "Double - This Filter will, when selected, only select Parts which have Machining on both Faces."
+        },
+        {
+            "type": "text",
+            "data": "Double - This Filter will, when selected, only select Parts which have Machining on both Faces."
+        },
+        {
+            "type": "text",
+            "data": "Horizontal Boring  - There are three options for Horizontal Boring: \n \n \n With Horizontal Boring - This Filter will, when selected, only select parts with Horizontal Boring. \n \n \n Without Horizontal Boring - This Filter will, when selected, only select parts without Horizontal Boring. \n \n \n Only Horizontal Boring - This Filter will, when selected, only select parts that only have Horizontal Boring."
+        },
+        {
+            "type": "text",
+            "data": "Horizontal Boring  - There are three options for Horizontal Boring:"
+        },
+        {
+            "type": "text",
+            "data": "With Horizontal Boring - This Filter will, when selected, only select parts with Horizontal Boring. \n \n \n Without Horizontal Boring - This Filter will, when selected, only select parts without Horizontal Boring. \n \n \n Only Horizontal Boring - This Filter will, when selected, only select parts that only have Horizontal Boring."
+        },
+        {
+            "type": "text",
+            "data": "With Horizontal Boring - This Filter will, when selected, only select parts with Horizontal Boring."
+        },
+        {
+            "type": "text",
+            "data": "With Horizontal Boring - This Filter will, when selected, only select parts with Horizontal Boring."
+        },
+        {
+            "type": "text",
+            "data": "Without Horizontal Boring - This Filter will, when selected, only select parts without Horizontal Boring."
+        },
+        {
+            "type": "text",
+            "data": "Without Horizontal Boring - This Filter will, when selected, only select parts without Horizontal Boring."
+        },
+        {
+            "type": "text",
+            "data": "Only Horizontal Boring - This Filter will, when selected, only select parts that only have Horizontal Boring."
+        },
+        {
+            "type": "text",
+            "data": "Only Horizontal Boring - This Filter will, when selected, only select parts that only have Horizontal Boring."
+        },
+        {
+            "type": "text",
+            "data": "Vertical Boring  - There are two options for Vertical Boring: \n \n \n With Vertical Boring - This Filter will, when selected, only select parts with Vertical Boring. \n \n \n Without Vertical Boring - This Filter will, when selected, only select parts without Vertical Boring. \n \n \n Only Vertical Boring - This Filter will, when selected, only select parts that only have Vertical Boring."
+        },
+        {
+            "type": "text",
+            "data": "Vertical Boring  - There are two options for Vertical Boring:"
+        },
+        {
+            "type": "text",
+            "data": "With Vertical Boring - This Filter will, when selected, only select parts with Vertical Boring. \n \n \n Without Vertical Boring - This Filter will, when selected, only select parts without Vertical Boring. \n \n \n Only Vertical Boring - This Filter will, when selected, only select parts that only have Vertical Boring."
+        },
+        {
+            "type": "text",
+            "data": "With Vertical Boring - This Filter will, when selected, only select parts with Vertical Boring."
+        },
+        {
+            "type": "text",
+            "data": "With Vertical Boring - This Filter will, when selected, only select parts with Vertical Boring."
+        },
+        {
+            "type": "text",
+            "data": "Without Vertical Boring - This Filter will, when selected, only select parts without Vertical Boring."
+        },
+        {
+            "type": "text",
+            "data": "Without Vertical Boring - This Filter will, when selected, only select parts without Vertical Boring."
+        },
+        {
+            "type": "text",
+            "data": "Only Vertical Boring - This Filter will, when selected, only select parts that only have Vertical Boring."
+        },
+        {
+            "type": "text",
+            "data": "Only Vertical Boring - This Filter will, when selected, only select parts that only have Vertical Boring."
+        },
+        {
+            "type": "text",
+            "data": "Route Operations  - There are three options for Route Operations: \n \n \n With Route Ops - This Filter will, when selected, only select parts with Route Operations. \n \n \n Without Route Ops -This Filter will, when selected, only select parts without Route Operations. \n \n \n Only Route Ops - This Filter will, when selected, only select parts that only have Route Operations."
+        },
+        {
+            "type": "text",
+            "data": "Route Operations  - There are three options for Route Operations:"
+        },
+        {
+            "type": "text",
+            "data": "With Route Ops - This Filter will, when selected, only select parts with Route Operations. \n \n \n Without Route Ops -This Filter will, when selected, only select parts without Route Operations. \n \n \n Only Route Ops - This Filter will, when selected, only select parts that only have Route Operations."
+        },
+        {
+            "type": "text",
+            "data": "With Route Ops - This Filter will, when selected, only select parts with Route Operations."
+        },
+        {
+            "type": "text",
+            "data": "With Route Ops - This Filter will, when selected, only select parts with Route Operations."
+        },
+        {
+            "type": "text",
+            "data": "Without Route Ops -This Filter will, when selected, only select parts without Route Operations."
+        },
+        {
+            "type": "text",
+            "data": "Without Route Ops -This Filter will, when selected, only select parts without Route Operations."
+        },
+        {
+            "type": "text",
+            "data": "Only Route Ops - This Filter will, when selected, only select parts that only have Route Operations."
+        },
+        {
+            "type": "text",
+            "data": "Only Route Ops - This Filter will, when selected, only select parts that only have Route Operations."
+        },
+        {
+            "type": "text",
+            "data": "Drill/Dowel Operations  - There are three options for Drill/Dowel Operations: \n \n \n With Drill/Dowel Ops - This Filter will, when selected, only select parts with Drill & Dowel Operations. \n \n \n Without Drill/Dowel Ops - This Filter will, when selected, only select parts without Drill & Dowel Operations. \n \n \n Only Drill/Dowel Ops - This Filter will, when selected, only select parts that only have Drill & Dowel Operations."
+        },
+        {
+            "type": "text",
+            "data": "Drill/Dowel Operations  - There are three options for Drill/Dowel Operations:"
+        },
+        {
+            "type": "text",
+            "data": "With Drill/Dowel Ops - This Filter will, when selected, only select parts with Drill & Dowel Operations. \n \n \n Without Drill/Dowel Ops - This Filter will, when selected, only select parts without Drill & Dowel Operations. \n \n \n Only Drill/Dowel Ops - This Filter will, when selected, only select parts that only have Drill & Dowel Operations."
+        },
+        {
+            "type": "text",
+            "data": "With Drill/Dowel Ops - This Filter will, when selected, only select parts with Drill & Dowel Operations."
+        },
+        {
+            "type": "text",
+            "data": "With Drill/Dowel Ops - This Filter will, when selected, only select parts with Drill & Dowel Operations."
+        },
+        {
+            "type": "text",
+            "data": "Without Drill/Dowel Ops - This Filter will, when selected, only select parts without Drill & Dowel Operations."
+        },
+        {
+            "type": "text",
+            "data": "Without Drill/Dowel Ops - This Filter will, when selected, only select parts without Drill & Dowel Operations."
+        },
+        {
+            "type": "text",
+            "data": "Only Drill/Dowel Ops - This Filter will, when selected, only select parts that only have Drill & Dowel Operations."
+        },
+        {
+            "type": "text",
+            "data": "Only Drill/Dowel Ops - This Filter will, when selected, only select parts that only have Drill & Dowel Operations."
+        },
+        {
+            "type": "text",
+            "data": "Cut To Size Operations  - There are three options for Cut To Size Operations: \n \n \n With Cut Ops - This Filter will, when selected, only select parts with Cut To Size Operations. \n \n \n Without Cut Ops - This Filter will, when selected, only select parts without Cut To Size Operations. \n \n \n Only Cut Ops - This Filter will, when selected, only select parts that only have Cut To Size Operations."
+        },
+        {
+            "type": "text",
+            "data": "Cut To Size Operations  - There are three options for Cut To Size Operations:"
+        },
+        {
+            "type": "text",
+            "data": "With Cut Ops - This Filter will, when selected, only select parts with Cut To Size Operations. \n \n \n Without Cut Ops - This Filter will, when selected, only select parts without Cut To Size Operations. \n \n \n Only Cut Ops - This Filter will, when selected, only select parts that only have Cut To Size Operations."
+        },
+        {
+            "type": "text",
+            "data": "With Cut Ops - This Filter will, when selected, only select parts with Cut To Size Operations."
+        },
+        {
+            "type": "text",
+            "data": "With Cut Ops - This Filter will, when selected, only select parts with Cut To Size Operations."
+        },
+        {
+            "type": "text",
+            "data": "Without Cut Ops - This Filter will, when selected, only select parts without Cut To Size Operations."
+        },
+        {
+            "type": "text",
+            "data": "Without Cut Ops - This Filter will, when selected, only select parts without Cut To Size Operations."
+        },
+        {
+            "type": "text",
+            "data": "Only Cut Ops - This Filter will, when selected, only select parts that only have Cut To Size Operations."
+        },
+        {
+            "type": "text",
+            "data": "Only Cut Ops - This Filter will, when selected, only select parts that only have Cut To Size Operations."
+        },
+        {
+            "type": "text",
+            "data": "Other Machine Operations  - There are three options for Other Machine Operations: \n \n \n With Other Ops - This Filter will, when selected, only select parts with Other Machine Operations. \n \n \n Without Other Ops - This Filter will, when selected, only select parts without Other Machine Operations. \n \n \n Only Other Ops - This Filter will, when selected, only select parts that only have Other Machine Operations."
+        },
+        {
+            "type": "text",
+            "data": "Other Machine Operations  - There are three options for Other Machine Operations:"
+        },
+        {
+            "type": "text",
+            "data": "With Other Ops - This Filter will, when selected, only select parts with Other Machine Operations. \n \n \n Without Other Ops - This Filter will, when selected, only select parts without Other Machine Operations. \n \n \n Only Other Ops - This Filter will, when selected, only select parts that only have Other Machine Operations."
+        },
+        {
+            "type": "text",
+            "data": "With Other Ops - This Filter will, when selected, only select parts with Other Machine Operations."
+        },
+        {
+            "type": "text",
+            "data": "With Other Ops - This Filter will, when selected, only select parts with Other Machine Operations."
+        },
+        {
+            "type": "text",
+            "data": "Without Other Ops - This Filter will, when selected, only select parts without Other Machine Operations."
+        },
+        {
+            "type": "text",
+            "data": "Without Other Ops - This Filter will, when selected, only select parts without Other Machine Operations."
+        },
+        {
+            "type": "text",
+            "data": "Only Other Ops - This Filter will, when selected, only select parts that only have Other Machine Operations."
+        },
+        {
+            "type": "text",
+            "data": "Only Other Ops - This Filter will, when selected, only select parts that only have Other Machine Operations."
+        },
+        {
+            "type": "text",
+            "data": "Machines"
+        },
+        {
+            "type": "text",
+            "data": "Optimize  - There are two options for Optimize: \n \n \n Tagged for Optimization - This Filter will, when selected, only select parts tagged for Optimization for your processing. \n \n \n Not Tagged for Optimization - This Filter will, when selected, only select parts not tagged for Optimization for your processing. \n \n \n \n \n CNC  - There are two options for CNC: \n \n \n Tagged for CNC - This Filter will, when selected, only select parts tagged for CNC for your processing. \n \n \n Not Tagged for CNC - This Filter will, when selected, only select parts not tagged for CNC for your processing."
+        },
+        {
+            "type": "text",
+            "data": "Optimize  - There are two options for Optimize: \n \n \n Tagged for Optimization - This Filter will, when selected, only select parts tagged for Optimization for your processing. \n \n \n Not Tagged for Optimization - This Filter will, when selected, only select parts not tagged for Optimization for your processing. \n \n \n \n \n CNC  - There are two options for CNC: \n \n \n Tagged for CNC - This Filter will, when selected, only select parts tagged for CNC for your processing. \n \n \n Not Tagged for CNC - This Filter will, when selected, only select parts not tagged for CNC for your processing."
+        },
+        {
+            "type": "text",
+            "data": "Optimize  - There are two options for Optimize: \n \n \n Tagged for Optimization - This Filter will, when selected, only select parts tagged for Optimization for your processing. \n \n \n Not Tagged for Optimization - This Filter will, when selected, only select parts not tagged for Optimization for your processing. \n \n \n \n \n CNC  - There are two options for CNC: \n \n \n Tagged for CNC - This Filter will, when selected, only select parts tagged for CNC for your processing. \n \n \n Not Tagged for CNC - This Filter will, when selected, only select parts not tagged for CNC for your processing."
+        },
+        {
+            "type": "text",
+            "data": "Optimize  - There are two options for Optimize: \n \n \n Tagged for Optimization - This Filter will, when selected, only select parts tagged for Optimization for your processing. \n \n \n Not Tagged for Optimization - This Filter will, when selected, only select parts not tagged for Optimization for your processing. \n \n \n \n \n CNC  - There are two options for CNC: \n \n \n Tagged for CNC - This Filter will, when selected, only select parts tagged for CNC for your processing. \n \n \n Not Tagged for CNC - This Filter will, when selected, only select parts not tagged for CNC for your processing."
+        },
+        {
+            "type": "text",
+            "data": "Optimize  - There are two options for Optimize: \n \n \n Tagged for Optimization - This Filter will, when selected, only select parts tagged for Optimization for your processing. \n \n \n Not Tagged for Optimization - This Filter will, when selected, only select parts not tagged for Optimization for your processing. \n \n \n \n \n CNC  - There are two options for CNC: \n \n \n Tagged for CNC - This Filter will, when selected, only select parts tagged for CNC for your processing. \n \n \n Not Tagged for CNC - This Filter will, when selected, only select parts not tagged for CNC for your processing."
+        },
+        {
+            "type": "text",
+            "data": "Optimize  - There are two options for Optimize: \n \n \n Tagged for Optimization - This Filter will, when selected, only select parts tagged for Optimization for your processing. \n \n \n Not Tagged for Optimization - This Filter will, when selected, only select parts not tagged for Optimization for your processing."
+        },
+        {
+            "type": "text",
+            "data": "Optimize  - There are two options for Optimize:"
+        },
+        {
+            "type": "text",
+            "data": "Tagged for Optimization - This Filter will, when selected, only select parts tagged for Optimization for your processing. \n \n \n Not Tagged for Optimization - This Filter will, when selected, only select parts not tagged for Optimization for your processing."
+        },
+        {
+            "type": "text",
+            "data": "Tagged for Optimization - This Filter will, when selected, only select parts tagged for Optimization for your processing."
+        },
+        {
+            "type": "text",
+            "data": "Tagged for Optimization - This Filter will, when selected, only select parts tagged for Optimization for your processing."
+        },
+        {
+            "type": "text",
+            "data": "Not Tagged for Optimization - This Filter will, when selected, only select parts not tagged for Optimization for your processing."
+        },
+        {
+            "type": "text",
+            "data": "Not Tagged for Optimization - This Filter will, when selected, only select parts not tagged for Optimization for your processing."
+        },
+        {
+            "type": "text",
+            "data": "CNC  - There are two options for CNC: \n \n \n Tagged for CNC - This Filter will, when selected, only select parts tagged for CNC for your processing. \n \n \n Not Tagged for CNC - This Filter will, when selected, only select parts not tagged for CNC for your processing."
+        },
+        {
+            "type": "text",
+            "data": "CNC  - There are two options for CNC:"
+        },
+        {
+            "type": "text",
+            "data": "Tagged for CNC - This Filter will, when selected, only select parts tagged for CNC for your processing. \n \n \n Not Tagged for CNC - This Filter will, when selected, only select parts not tagged for CNC for your processing."
+        },
+        {
+            "type": "text",
+            "data": "Tagged for CNC - This Filter will, when selected, only select parts tagged for CNC for your processing."
+        },
+        {
+            "type": "text",
+            "data": "Tagged for CNC - This Filter will, when selected, only select parts tagged for CNC for your processing."
+        },
+        {
+            "type": "text",
+            "data": "Not Tagged for CNC - This Filter will, when selected, only select parts not tagged for CNC for your processing."
+        },
+        {
+            "type": "text",
+            "data": "Not Tagged for CNC - This Filter will, when selected, only select parts not tagged for CNC for your processing."
+        },
+        {
+            "type": "text",
+            "data": "Output"
+        },
+        {
+            "type": "text",
+            "data": "Primary Machine  - There are two options for Primary Machine \n \n \n Output to Machine - This Filter will, when selected, only select parts that have already been output to the machine for your processing. \n \n \n Not Output to Machine - This Filter will, when selected, only select parts that have yet to be output to the machine for your processing. \n \n \n \n \n Secondary Machine  - There are two options for Secondary Machine \n \n \n Output to Machine - This Filter will, when selected, only select parts that have already been output to the machine for your processing. \n \n \n Not Output to Machine - This Filter will, when selected, only select parts that have yet to be output to the machine for your processing. \n \n \n \n \n Drill/Dowel Machine  - There are two options for Drill/Dowel Machine \n \n \n Output to Machine - This Filter will, when selected, only select parts that have already been output to the machine for your processing. \n \n \n Not Output to Machine - This Filter will, when selected, only select parts that have yet to be output to the machine for your processing. \n \n \n \n \n Cut To Size Machine  - There are two options for Cut To Size Machine \n \n \n Output to Machine - This Filter will, when selected, only select parts that have already been output to the machine for your processing. \n \n \n Not Output to Machine - This Filter will, when selected, only select parts that have yet to be output to the machine for your processing."
+        },
+        {
+            "type": "text",
+            "data": "Primary Machine  - There are two options for Primary Machine \n \n \n Output to Machine - This Filter will, when selected, only select parts that have already been output to the machine for your processing. \n \n \n Not Output to Machine - This Filter will, when selected, only select parts that have yet to be output to the machine for your processing. \n \n \n \n \n Secondary Machine  - There are two options for Secondary Machine \n \n \n Output to Machine - This Filter will, when selected, only select parts that have already been output to the machine for your processing. \n \n \n Not Output to Machine - This Filter will, when selected, only select parts that have yet to be output to the machine for your processing. \n \n \n \n \n Drill/Dowel Machine  - There are two options for Drill/Dowel Machine \n \n \n Output to Machine - This Filter will, when selected, only select parts that have already been output to the machine for your processing. \n \n \n Not Output to Machine - This Filter will, when selected, only select parts that have yet to be output to the machine for your processing. \n \n \n \n \n Cut To Size Machine  - There are two options for Cut To Size Machine \n \n \n Output to Machine - This Filter will, when selected, only select parts that have already been output to the machine for your processing. \n \n \n Not Output to Machine - This Filter will, when selected, only select parts that have yet to be output to the machine for your processing."
+        },
+        {
+            "type": "text",
+            "data": "Primary Machine  - There are two options for Primary Machine \n \n \n Output to Machine - This Filter will, when selected, only select parts that have already been output to the machine for your processing. \n \n \n Not Output to Machine - This Filter will, when selected, only select parts that have yet to be output to the machine for your processing. \n \n \n \n \n Secondary Machine  - There are two options for Secondary Machine \n \n \n Output to Machine - This Filter will, when selected, only select parts that have already been output to the machine for your processing. \n \n \n Not Output to Machine - This Filter will, when selected, only select parts that have yet to be output to the machine for your processing. \n \n \n \n \n Drill/Dowel Machine  - There are two options for Drill/Dowel Machine \n \n \n Output to Machine - This Filter will, when selected, only select parts that have already been output to the machine for your processing. \n \n \n Not Output to Machine - This Filter will, when selected, only select parts that have yet to be output to the machine for your processing. \n \n \n \n \n Cut To Size Machine  - There are two options for Cut To Size Machine \n \n \n Output to Machine - This Filter will, when selected, only select parts that have already been output to the machine for your processing. \n \n \n Not Output to Machine - This Filter will, when selected, only select parts that have yet to be output to the machine for your processing."
+        },
+        {
+            "type": "text",
+            "data": "Primary Machine  - There are two options for Primary Machine \n \n \n Output to Machine - This Filter will, when selected, only select parts that have already been output to the machine for your processing. \n \n \n Not Output to Machine - This Filter will, when selected, only select parts that have yet to be output to the machine for your processing. \n \n \n \n \n Secondary Machine  - There are two options for Secondary Machine \n \n \n Output to Machine - This Filter will, when selected, only select parts that have already been output to the machine for your processing. \n \n \n Not Output to Machine - This Filter will, when selected, only select parts that have yet to be output to the machine for your processing. \n \n \n \n \n Drill/Dowel Machine  - There are two options for Drill/Dowel Machine \n \n \n Output to Machine - This Filter will, when selected, only select parts that have already been output to the machine for your processing. \n \n \n Not Output to Machine - This Filter will, when selected, only select parts that have yet to be output to the machine for your processing. \n \n \n \n \n Cut To Size Machine  - There are two options for Cut To Size Machine \n \n \n Output to Machine - This Filter will, when selected, only select parts that have already been output to the machine for your processing. \n \n \n Not Output to Machine - This Filter will, when selected, only select parts that have yet to be output to the machine for your processing."
+        },
+        {
+            "type": "text",
+            "data": "Primary Machine  - There are two options for Primary Machine \n \n \n Output to Machine - This Filter will, when selected, only select parts that have already been output to the machine for your processing. \n \n \n Not Output to Machine - This Filter will, when selected, only select parts that have yet to be output to the machine for your processing. \n \n \n \n \n Secondary Machine  - There are two options for Secondary Machine \n \n \n Output to Machine - This Filter will, when selected, only select parts that have already been output to the machine for your processing. \n \n \n Not Output to Machine - This Filter will, when selected, only select parts that have yet to be output to the machine for your processing. \n \n \n \n \n Drill/Dowel Machine  - There are two options for Drill/Dowel Machine \n \n \n Output to Machine - This Filter will, when selected, only select parts that have already been output to the machine for your processing. \n \n \n Not Output to Machine - This Filter will, when selected, only select parts that have yet to be output to the machine for your processing. \n \n \n \n \n Cut To Size Machine  - There are two options for Cut To Size Machine \n \n \n Output to Machine - This Filter will, when selected, only select parts that have already been output to the machine for your processing. \n \n \n Not Output to Machine - This Filter will, when selected, only select parts that have yet to be output to the machine for your processing."
+        },
+        {
+            "type": "text",
+            "data": "Primary Machine  - There are two options for Primary Machine \n \n \n Output to Machine - This Filter will, when selected, only select parts that have already been output to the machine for your processing. \n \n \n Not Output to Machine - This Filter will, when selected, only select parts that have yet to be output to the machine for your processing."
+        },
+        {
+            "type": "text",
+            "data": "Primary Machine  - There are two options for Primary Machine"
+        },
+        {
+            "type": "text",
+            "data": "Output to Machine - This Filter will, when selected, only select parts that have already been output to the machine for your processing. \n \n \n Not Output to Machine - This Filter will, when selected, only select parts that have yet to be output to the machine for your processing."
+        },
+        {
+            "type": "text",
+            "data": "Output to Machine - This Filter will, when selected, only select parts that have already been output to the machine for your processing."
+        },
+        {
+            "type": "text",
+            "data": "Output to Machine - This Filter will, when selected, only select parts that have already been output to the machine for your processing."
+        },
+        {
+            "type": "text",
+            "data": "Not Output to Machine - This Filter will, when selected, only select parts that have yet to be output to the machine for your processing."
+        },
+        {
+            "type": "text",
+            "data": "Not Output to Machine - This Filter will, when selected, only select parts that have yet to be output to the machine for your processing."
+        },
+        {
+            "type": "text",
+            "data": "Secondary Machine  - There are two options for Secondary Machine \n \n \n Output to Machine - This Filter will, when selected, only select parts that have already been output to the machine for your processing. \n \n \n Not Output to Machine - This Filter will, when selected, only select parts that have yet to be output to the machine for your processing."
+        },
+        {
+            "type": "text",
+            "data": "Secondary Machine  - There are two options for Secondary Machine"
+        },
+        {
+            "type": "text",
+            "data": "Output to Machine - This Filter will, when selected, only select parts that have already been output to the machine for your processing. \n \n \n Not Output to Machine - This Filter will, when selected, only select parts that have yet to be output to the machine for your processing."
+        },
+        {
+            "type": "text",
+            "data": "Output to Machine - This Filter will, when selected, only select parts that have already been output to the machine for your processing."
+        },
+        {
+            "type": "text",
+            "data": "Output to Machine - This Filter will, when selected, only select parts that have already been output to the machine for your processing."
+        },
+        {
+            "type": "text",
+            "data": "Not Output to Machine - This Filter will, when selected, only select parts that have yet to be output to the machine for your processing."
+        },
+        {
+            "type": "text",
+            "data": "Not Output to Machine - This Filter will, when selected, only select parts that have yet to be output to the machine for your processing."
+        },
+        {
+            "type": "text",
+            "data": "Drill/Dowel Machine  - There are two options for Drill/Dowel Machine \n \n \n Output to Machine - This Filter will, when selected, only select parts that have already been output to the machine for your processing. \n \n \n Not Output to Machine - This Filter will, when selected, only select parts that have yet to be output to the machine for your processing."
+        },
+        {
+            "type": "text",
+            "data": "Drill/Dowel Machine  - There are two options for Drill/Dowel Machine"
+        },
+        {
+            "type": "text",
+            "data": "Output to Machine - This Filter will, when selected, only select parts that have already been output to the machine for your processing. \n \n \n Not Output to Machine - This Filter will, when selected, only select parts that have yet to be output to the machine for your processing."
+        },
+        {
+            "type": "text",
+            "data": "Output to Machine - This Filter will, when selected, only select parts that have already been output to the machine for your processing."
+        },
+        {
+            "type": "text",
+            "data": "Output to Machine - This Filter will, when selected, only select parts that have already been output to the machine for your processing."
+        },
+        {
+            "type": "text",
+            "data": "Not Output to Machine - This Filter will, when selected, only select parts that have yet to be output to the machine for your processing."
+        },
+        {
+            "type": "text",
+            "data": "Not Output to Machine - This Filter will, when selected, only select parts that have yet to be output to the machine for your processing."
+        },
+        {
+            "type": "text",
+            "data": "Cut To Size Machine  - There are two options for Cut To Size Machine \n \n \n Output to Machine - This Filter will, when selected, only select parts that have already been output to the machine for your processing. \n \n \n Not Output to Machine - This Filter will, when selected, only select parts that have yet to be output to the machine for your processing."
+        },
+        {
+            "type": "text",
+            "data": "Cut To Size Machine  - There are two options for Cut To Size Machine"
+        },
+        {
+            "type": "text",
+            "data": "Output to Machine - This Filter will, when selected, only select parts that have already been output to the machine for your processing. \n \n \n Not Output to Machine - This Filter will, when selected, only select parts that have yet to be output to the machine for your processing."
+        },
+        {
+            "type": "text",
+            "data": "Output to Machine - This Filter will, when selected, only select parts that have already been output to the machine for your processing."
+        },
+        {
+            "type": "text",
+            "data": "Output to Machine - This Filter will, when selected, only select parts that have already been output to the machine for your processing."
+        },
+        {
+            "type": "text",
+            "data": "Not Output to Machine - This Filter will, when selected, only select parts that have yet to be output to the machine for your processing."
+        },
+        {
+            "type": "text",
+            "data": "Not Output to Machine - This Filter will, when selected, only select parts that have yet to be output to the machine for your processing."
+        },
+        {
+            "type": "text",
+            "data": "Saved"
+        },
+        {
+            "type": "text",
+            "data": "The Saved Tab allows you to Save and manage your Saved Filters."
+        },
+        {
+            "type": "image",
+            "data": "image531.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "NCEnglish\\Sidebar\\Filter_Parts.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

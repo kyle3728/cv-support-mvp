@@ -1,0 +1,138 @@
+{
+    "id": "4b2513fb-5fe4-4190-b530-9ee899b3c0a3",
+    "title": "Part_P2P",
+    "content": [
+        {
+            "type": "text",
+            "data": "Part P2P"
+        },
+        {
+            "type": "text",
+            "data": "This Machine Type is specifically for Point to Point Machining Centers. Following are the Setup Tab options for Part P2P:"
+        },
+        {
+            "type": "text",
+            "data": "Setup Tab - Part Point-to-Point"
+        },
+        {
+            "type": "text",
+            "data": "If you are using a DXF NC Link see the  STD DXF Setup Tab  topic."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Intelli-CAM - Post -   See Sheet Router \n \n \n Intelli-CAM - Rapid -  See Sheet Router \n \n \n Intelli-CAM - File Info -  See Sheet Router \n \n \n Intelli-CAM - Tool Movement -   See Part Router \n \n \n Intelli-CAM - Sheet Reference -   See Sheet Router \n \n \n Intelli-CAM - Offset -   See Sheet Router \n \n \n Intelli-CAM - Banding Operation -   See Part Router \n \n \n Label Format  -  See Part Router \n \n \n Restrictions-   See Sheet Router \n \n \n Zone Sizes  -  See Part Router \n \n \n Front and Rear Zones  -  See Part Router \n \n \n Dimensions  -  See Part Router \n \n \n Alternate Zones  -  See Part Router"
+        },
+        {
+            "type": "text",
+            "data": "Intelli-CAM - Post -   See Sheet Router"
+        },
+        {
+            "type": "text",
+            "data": "Intelli-CAM - Post -   See Sheet Router"
+        },
+        {
+            "type": "text",
+            "data": "Intelli-CAM - Rapid -  See Sheet Router"
+        },
+        {
+            "type": "text",
+            "data": "Intelli-CAM - Rapid -  See Sheet Router"
+        },
+        {
+            "type": "text",
+            "data": "Intelli-CAM - File Info -  See Sheet Router"
+        },
+        {
+            "type": "text",
+            "data": "Intelli-CAM - File Info -  See Sheet Router"
+        },
+        {
+            "type": "text",
+            "data": "Intelli-CAM - Tool Movement -   See Part Router"
+        },
+        {
+            "type": "text",
+            "data": "Intelli-CAM - Tool Movement -   See Part Router"
+        },
+        {
+            "type": "text",
+            "data": "Intelli-CAM - Sheet Reference -   See Sheet Router"
+        },
+        {
+            "type": "text",
+            "data": "Intelli-CAM - Sheet Reference -   See Sheet Router"
+        },
+        {
+            "type": "text",
+            "data": "Intelli-CAM - Offset -   See Sheet Router"
+        },
+        {
+            "type": "text",
+            "data": "Intelli-CAM - Offset -   See Sheet Router"
+        },
+        {
+            "type": "text",
+            "data": "Intelli-CAM - Banding Operation -   See Part Router"
+        },
+        {
+            "type": "text",
+            "data": "Intelli-CAM - Banding Operation -   See Part Router"
+        },
+        {
+            "type": "text",
+            "data": "Label Format  -  See Part Router"
+        },
+        {
+            "type": "text",
+            "data": "Label Format  -  See Part Router"
+        },
+        {
+            "type": "text",
+            "data": "Restrictions-   See Sheet Router"
+        },
+        {
+            "type": "text",
+            "data": "Restrictions-   See Sheet Router"
+        },
+        {
+            "type": "text",
+            "data": "Zone Sizes  -  See Part Router"
+        },
+        {
+            "type": "text",
+            "data": "Zone Sizes  -  See Part Router"
+        },
+        {
+            "type": "text",
+            "data": "Front and Rear Zones  -  See Part Router"
+        },
+        {
+            "type": "text",
+            "data": "Front and Rear Zones  -  See Part Router"
+        },
+        {
+            "type": "text",
+            "data": "Dimensions  -  See Part Router"
+        },
+        {
+            "type": "text",
+            "data": "Dimensions  -  See Part Router"
+        },
+        {
+            "type": "text",
+            "data": "Alternate Zones  -  See Part Router"
+        },
+        {
+            "type": "text",
+            "data": "Alternate Zones  -  See Part Router"
+        }
+    ],
+    "source_file": "NCEnglish\\Ribbonbar\\Main_Tab\\Machine\\Machine_Types\\Part_P2P.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

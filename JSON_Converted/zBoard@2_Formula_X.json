@@ -1,0 +1,25 @@
+{
+    "id": "d7e29635-18aa-4166-b300-7959f0da05c5",
+    "title": "zBoard@2_Formula_X",
+    "content": [
+        {
+            "type": "text",
+            "data": "Board@2 Formula X"
+        },
+        {
+            "type": "text",
+            "data": "Any time the X, Y, or Z is equal"
+        },
+        {
+            "type": "text",
+            "data": "to 0\" you don't have to write a"
+        },
+        {
+            "type": "text",
+            "data": "formula for the placement parameter."
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\Parametric_Editing\\Intelligence_Workshop\\5th_Exercise\\zBoard@2_Formula_X.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

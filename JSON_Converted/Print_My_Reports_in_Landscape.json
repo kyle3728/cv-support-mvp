@@ -1,0 +1,53 @@
+{
+    "id": "27699fff-fdb8-4af1-b61b-fe90ab6a5e24",
+    "title": "Print_My_Reports_in_Landscape",
+    "content": [
+        {
+            "type": "text",
+            "data": "Print My Reports in Landscape"
+        },
+        {
+            "type": "text",
+            "data": "How can I set my Reports to Print in Landscape?"
+        },
+        {
+            "type": "text",
+            "data": "Go to the Windows Control Panel, Printers option. \n \n \n Install another copy of your default printer, but give it a different name. IE: Default Printer - Landscape \n \n \n Change the default settings for this printer to always print to Landscape. \n \n \n In Solid, when you go to Print your Report, select this new printer (Default Printer - Landscape)."
+        },
+        {
+            "type": "text",
+            "data": "Go to the Windows Control Panel, Printers option."
+        },
+        {
+            "type": "text",
+            "data": "Go to the Windows Control Panel, Printers option."
+        },
+        {
+            "type": "text",
+            "data": "Install another copy of your default printer, but give it a different name. IE: Default Printer - Landscape"
+        },
+        {
+            "type": "text",
+            "data": "Install another copy of your default printer, but give it a different name. IE: Default Printer - Landscape"
+        },
+        {
+            "type": "text",
+            "data": "Change the default settings for this printer to always print to Landscape."
+        },
+        {
+            "type": "text",
+            "data": "Change the default settings for this printer to always print to Landscape."
+        },
+        {
+            "type": "text",
+            "data": "In Solid, when you go to Print your Report, select this new printer (Default Printer - Landscape)."
+        },
+        {
+            "type": "text",
+            "data": "In Solid, when you go to Print your Report, select this new printer (Default Printer - Landscape)."
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Tips_Tricks_&_FAQs\\FAQs\\HDI-Presentation\\Print_My_Reports_in_Landscape.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

@@ -1,0 +1,481 @@
+{
+    "id": "228a90a4-4602-47a1-b8d9-0dfb27f99c9a",
+    "title": "ManageIT",
+    "content": [
+        {
+            "type": "text",
+            "data": "Manage-IT"
+        },
+        {
+            "type": "text",
+            "data": "Manage-IT is add on option for CABINET VISION."
+        },
+        {
+            "type": "image",
+            "data": "image6252.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "When you open CABINET VISION, the first screen you will see is the opening screen. The graphic below is the Manage-IT opening screen."
+        },
+        {
+            "type": "image",
+            "data": "Manage-IT_Splash_Screen.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Getting Started"
+        },
+        {
+            "type": "text",
+            "data": "There are four main views in the Manage-IT splash screen: \u00a0Customers, Users, Vendors, and Contractors. \u00a0Proper setup is necessary in order to manage Job files using Manage-IT. \u00a0In each view, you can add Customers, Users, Vendors and Contractors, arrange them by type, as well as generate Manage-IT reports. \u00a0The available categories and reports vary, depending upon the view."
+        },
+        {
+            "type": "image",
+            "data": "image1312.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Jobs are associated with Customers and Customers are associated with Users. \u00a0Vendors and Contractors are also associated with Users. \u00a0Therefore, it is best to create Users first."
+        },
+        {
+            "type": "text",
+            "data": "Users View  - To setup users, click on the second view button. \u00a0To add a new user, click on the \"New\" button on the right (or right-click in the open area and select \"New User\"). Note: \u00a0Since the \"Supervisor\" field is a list of users, enter users in order, starting from the highest position within your organization. \u00a0The \"Type\" and \"Status\" fields are programmed selections that can be used for arranging the list of users. \u00a0The \"Add\" button (next to the \"Alt. Phone(s)\" field) allows you to setup additional phone numbers for this user."
+        },
+        {
+            "type": "image",
+            "data": "image1313.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image5005.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "When a particular User is selected from the \"Type\" box, the Jobs for that user will appear in the bottom half of this window."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "User Reports"
+        },
+        {
+            "type": "text",
+            "data": "Clicking on the Reports button in the sidebar, in the User View, brings up the options, in the sidebar, to print two reports:"
+        },
+        {
+            "type": "image",
+            "data": "image4404.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image4406.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Jobs for Designer  - This Report will display all Jobs in Manage-IT that are assigned to the selected User."
+        },
+        {
+            "type": "text",
+            "data": "Jobs for Designer  - This Report will display all Jobs in Manage-IT that are assigned to the selected User."
+        },
+        {
+            "type": "text",
+            "data": "Jobs for Designer  - This Report will display all Jobs in Manage-IT that are assigned to the selected User."
+        },
+        {
+            "type": "text",
+            "data": "Jobs for Designer  - This Report will display all Jobs in Manage-IT that are assigned to the selected User."
+        },
+        {
+            "type": "text",
+            "data": "Jobs for Designer  - This Report will display all Jobs in Manage-IT that are assigned to the selected User."
+        },
+        {
+            "type": "text",
+            "data": "Jobs for Designer  - This Report will display all Jobs in Manage-IT that are assigned to the selected User."
+        },
+        {
+            "type": "text",
+            "data": "Jobs for Designer  - This Report will display all Jobs in Manage-IT that are assigned to the selected User."
+        },
+        {
+            "type": "image",
+            "data": "image4400.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Employee Report  - This Report will display an Employee Information sheet on the selected User."
+        },
+        {
+            "type": "text",
+            "data": "Employee Report  - This Report will display an Employee Information sheet on the selected User."
+        },
+        {
+            "type": "text",
+            "data": "Employee Report  - This Report will display an Employee Information sheet on the selected User."
+        },
+        {
+            "type": "text",
+            "data": "Employee Report  - This Report will display an Employee Information sheet on the selected User."
+        },
+        {
+            "type": "text",
+            "data": "Employee Report  - This Report will display an Employee Information sheet on the selected User."
+        },
+        {
+            "type": "text",
+            "data": "Employee Report  - This Report will display an Employee Information sheet on the selected User."
+        },
+        {
+            "type": "text",
+            "data": "Employee Report  - This Report will display an Employee Information sheet on the selected User."
+        },
+        {
+            "type": "image",
+            "data": "image4401.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Vendors View  - To setup vendors, click on the third view button. \u00a0To add a new vendor, click on the \"New Vendor\" button on the right (or right-click in the open area and select \"New Vendor\"). \u00a0Note: \u00a0Since the \"Account Manager\" field is a list of users, it is best to enter users first. \u00a0The \"Type\" and \"Status\" fields are programmed selections that can be used for arranging the list of vendors. \u00a0The \"Add\" button (next to the \"Alt. Phone(s)\" field) allows you to setup additional phone numbers for this vendor. \u00a0The \"Add Contact\" button (next to the \"Email\" field) allows you to setup multiple contacts for this vendor."
+        },
+        {
+            "type": "image",
+            "data": "image1317.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image5006.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Vendor Reports"
+        },
+        {
+            "type": "text",
+            "data": "Clicking on the Reports button in the sidebar, in the Vendor View, brings up the options, in the sidebar, to print one report:"
+        },
+        {
+            "type": "image",
+            "data": "image4403.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image4402.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Vendor Report  - This Report will display information for the selected Vendor."
+        },
+        {
+            "type": "text",
+            "data": "Vendor Report  - This Report will display information for the selected Vendor."
+        },
+        {
+            "type": "text",
+            "data": "Vendor Report  - This Report will display information for the selected Vendor."
+        },
+        {
+            "type": "text",
+            "data": "Vendor Report  - This Report will display information for the selected Vendor."
+        },
+        {
+            "type": "text",
+            "data": "Vendor Report  - This Report will display information for the selected Vendor."
+        },
+        {
+            "type": "text",
+            "data": "Vendor Report  - This Report will display information for the selected Vendor."
+        },
+        {
+            "type": "text",
+            "data": "Vendor Report  - This Report will display information for the selected Vendor."
+        },
+        {
+            "type": "image",
+            "data": "image4426.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Contractors View  - To setup contractors, click on the fourth view button. \u00a0To add a new contractor, click on the \"New Contractor\" button on the right (or right-click in the open area & select \"New Contractor\"). \u00a0Note: \u00a0Since the \"Account Manager\" field is a list of users, it is best to enter users first. \u00a0The \"Type\" and \"Status\" fields are programmed selections that can be used for arranging the list of contractors. \u00a0The \"Add\" button (next to the \"Alt. Phone(s)\" field) allows you to setup additional phone numbers for this contractor. \u00a0The \"Add Contact\" button (next to the \"Email\" field) allows you to setup multiple contacts for this contractor."
+        },
+        {
+            "type": "image",
+            "data": "image1319.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image5007.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Contractor Reports"
+        },
+        {
+            "type": "text",
+            "data": "Clicking on the Reports button in the sidebar, in the Contractor View, brings up the options, in the sidebar, to print one report:"
+        },
+        {
+            "type": "image",
+            "data": "image4403.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image4408.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Contractor Report  - This Report will display information for the selected Contractor."
+        },
+        {
+            "type": "text",
+            "data": "Contractor Report  - This Report will display information for the selected Contractor."
+        },
+        {
+            "type": "text",
+            "data": "Contractor Report  - This Report will display information for the selected Contractor."
+        },
+        {
+            "type": "text",
+            "data": "Contractor Report  - This Report will display information for the selected Contractor."
+        },
+        {
+            "type": "text",
+            "data": "Contractor Report  - This Report will display information for the selected Contractor."
+        },
+        {
+            "type": "text",
+            "data": "Contractor Report  - This Report will display information for the selected Contractor."
+        },
+        {
+            "type": "text",
+            "data": "Contractor Report  - This Report will display information for the selected Contractor."
+        },
+        {
+            "type": "image",
+            "data": "image4427.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Customers View  - To setup customers, click on the first view button. \u00a0To add a new customer, click on the \"New Customer\" button on the right (or right-click in the open area and select \"New Customer\"). \u00a0Note: \u00a0Since the \"Designer\" field is a list of users, it is best to enter users first in the \"User\" view. \u00a0The \"Type\" and \"Status\" fields are programmed selections that can be used for arranging the list of customers. \u00a0The \"Add\" button (next to the \"Alt. Phone(s)\" field) allows you to setup additional phone numbers for this customer. \u00a0The \"Add Contact\" button (next to the \"Email\" field) allows you to setup multiple contacts for this customer."
+        },
+        {
+            "type": "image",
+            "data": "image1321.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image5008.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "When a Customer is assigned to a particular User, the Jobs associated with that Customer will appear in the bottom half of \"User\" view window, for that User."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Customer Reports"
+        },
+        {
+            "type": "text",
+            "data": "Clicking on the Reports button in the sidebar in the Customer View, brings up the options, in the sidebar, to print three reports:"
+        },
+        {
+            "type": "image",
+            "data": "image4403.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image4410.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Jobs for Customer  -"
+        },
+        {
+            "type": "text",
+            "data": "Jobs for Customer  -"
+        },
+        {
+            "type": "text",
+            "data": "Jobs for Customer  -"
+        },
+        {
+            "type": "image",
+            "data": "image4412.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Customer Report  -"
+        },
+        {
+            "type": "text",
+            "data": "Customer Report  -"
+        },
+        {
+            "type": "text",
+            "data": "Customer Report  -"
+        },
+        {
+            "type": "image",
+            "data": "image4413.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Jobs Info Sheet  -"
+        },
+        {
+            "type": "text",
+            "data": "Jobs Info Sheet  -"
+        },
+        {
+            "type": "text",
+            "data": "Jobs Info Sheet  -"
+        },
+        {
+            "type": "image",
+            "data": "image4428.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Managing Job Files"
+        },
+        {
+            "type": "text",
+            "data": "This section will focus primarily on how to manage Job files and understand Job Status in the Customer view."
+        },
+        {
+            "type": "image",
+            "data": "Manage-IT_Job_Management.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "To manage Job files in Manage-IT, a Job must be associated with a Customer."
+        },
+        {
+            "type": "text",
+            "data": "When a Job file was previously saved in Solid prior to adding the Manage-IT option, you will first need to highlight a customer in the top half of the Customer view. \u00a0Next, right-click in the bottom half of the Customer view and select \"Import Job\". \u00a0You can then browse for your .CVJ file and select \"Open\" to import it under the selected Customer."
+        },
+        {
+            "type": "text",
+            "data": "To create a new Job in Manage-IT, you can select \"New\" in the Solid Button menu item or right-click in the bottom half of the Customer view and select \"New Job\". \u00a0Again, Job files are associated with a Customer, so be sure to highlight a customer in the top half of the Customer view before creating a new Job."
+        },
+        {
+            "type": "text",
+            "data": "The default \"Job Filename\" will repeat the Customer Name, followed by an underscore and a number. \u00a0The number is automatically sequential, depending upon the number of Job files already associated with this Customer Name. \u00a0You can either click on OK to accept the automatic Job name, or type in a different name for your Job. \u00a0Additionally, you may add a comment in the \"Job Comment\" field."
+        },
+        {
+            "type": "image",
+            "data": "image5009.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Job status upon returning to the Manage-IT Splash Screen, until your Job file has been opened and saved, will indicate, \" Job file not created yet \"."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "To open a Job, right-click on the Job in the bottom half of the Customer view and select \"Open\". \u00a0After making selections in the \"Job Properties\" window, click on OK to enter Layout Level. \u00a0To return to the Manage-IT splash screen from the Job, select \"Close\" from the Solid Button menu."
+        },
+        {
+            "type": "text",
+            "data": "Manage-IT allows you to save multiple versions of a Job file. \u00a0Until the \"Save Version\" option is used in the Manage-IT splash screen, the Job status will indicate, \" New Job (no versions saved) \"."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "To save a version of a Job, right-click on the Job in the bottom half of the Customer view and select \"Save Version\". \u00a0(Note: \u00a0if this option is grayed out, either the Job file has not been created yet OR has not been checked out by you. \u00a0A Job file must be opened or checked out before a version can be saved.)"
+        },
+        {
+            "type": "text",
+            "data": "You will then be prompted to write a comment for this version of the Job. \u00a0This is one of the most critical tools in Manage-IT. \u00a0Your Job Version comments will help you identify differences in multiple versions of the same Job. \u00a0For example, if you have the \"rare\" customer that frequently changes his/her mind, having an \"initial version\" will help you start over without actually having to start over."
+        },
+        {
+            "type": "image",
+            "data": "image5010.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There are two toggle boxes in this window. \u00a0Each of these choices has a significant effect on the status of the Job file. \u00a0By toggling ON \"Keep Checked-out to you after saving\" the Job status will read, \"Checked out to  \". \u00a0By toggling ON \"Undo Check-out (Don\u2019t Save Version)\" the Job status will read, \"Checked-in\". \u00a0Additionally, \"Undo Check-out\" will NOT save a version of the Job and any change made by you will be lost. \u00a0Note: \u00a0The first time you save a version of a particular Job, \"Undo Check-out\" will not be available to you."
+        },
+        {
+            "type": "text",
+            "data": "The Job status upon returning to the Manage-IT splash screen, will either read, \" Checked-in \" or \" Checked-out to  \". \u00a0Also, a version number is indicated in the \"Version\" column."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "To view ALL versions of your Job file, right-click on the Job and select \"Properties\". \u00a0Highlight which version you would like to check out and use the \"Check-out Selected Version\" button. \u00a0If you want to copy a version for another Job that is similar, use the \"Copy Version as New Job\" button."
+        },
+        {
+            "type": "image",
+            "data": "image5011.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "When a version of a Job file is checked out, other users are prevented from checking out the same or different versions of the Job file until you check it back in."
+        },
+        {
+            "type": "text",
+            "data": "When a version of a Job file has been copied as a new Job, the default \"Job Filename\" will automatically repeat the Customer Name, followed by an underscore and the original Job number. \u00a0Since this is a copy of another Job file, an additional underscore, followed by another number identifies the \"copy\" number. \u00a0You can either click on OK to accept the automatic Job name, or type in a different name for your Job. \u00a0Additionally, you may add a comment in the \"Job Comment\" field."
+        },
+        {
+            "type": "image",
+            "data": "image5012.gif",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\ManageIT.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

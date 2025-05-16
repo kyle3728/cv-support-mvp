@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><link rel="stylesheet" type="text/css" href="../../../../../_rhdefault.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=WINDOWS-1252"/>
+<meta name="topic-status" content="Complete"/>
+<meta name="topic-check-list" content="First Draft,Added To TOC,Links,Index keywords,Images,Tested,Finalized,Reviewed,Ran Smart Index"/>
+<meta name="topic-priority" content="0"/>
+<meta name="topic-time-estimate" content="0"/>
+<meta name="topic-comment" content=""/>
+<meta name="topic-id" content=""/>
+<meta name="generator" content="Adobe RoboHelp 2022"/>
+<title>Omga T 421/521</title>
+<link rel="StyleSheet" href="../../../../../assets/css/default.css" type="text/css"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/><meta name="description" content=""/><script type="text/javascript" src="../../../../../ehlpdhtm.js"></script></head>
+<body>
+<h1>Omga T 421/521</h1>
+<p>This is a Chop Saw Machine Link.</p>
+<p>Only selected parts made of board stock are output.</p>
+<p> </p>
+<h2>File Protocol T 421/521 OPT</h2>
+<p>The Structure must be the following</p>
+<ul style="list-style: square;">
+<li class="p" style="list-style: circle;">
+<p class="1_List"> ‘S’ ; = start transmission</p>
+</li>
+<li style="list-style: none; display: inline;">
+<ol style="list-style: decimal;">
+<li class="p">
+<p class="1_List">‘P’ ; = cycle number (max 3 characters)</p>
+</li>
+<li class="p">
+<p class="1_List">‘:’ ; = (optional line) id , cycle alphanumeric name (max 8 characters)</p>
+</li>
+<li class="p">
+<p class="1_List">‘X’ ; = (optional line) n° box ( max 3 characters)</p>
+</li>
+<li class="p">
+<p class="1_List">‘Y’ ; = (if first grade, optional line; if omitted, grade =1) grade values = only 1 or 2</p>
+</li>
+<li class="p">
+<p class="1_List">‘Q’...’T’ ; = length (max 3 numbers+ 3 after the decimal sign), number of repetitions (Limit of 500 Records per File)</p>
+</li>
+</ol>
+</li>
+</ul>
+<ul style="list-style: circle;">
+<li class="p">
+<p class="1_List">‘E’ ; = end transmission</p>
+</li>
+</ul>
+<p>The cycles sent as per above will be written in the programs memory with the same rules as function FUN1; therefore no cycle number grater than the next cycle available will be accepted.</p>
+<p>By transmitting cycle number already present in the controller, the cycle on the controller will be overwritten.</p>
+<p style="font-weight: bold;">IMPORTANT:</p>
+<p>Because of programming restrictions it is necessary to:</p>
+<ol style="list-style: decimal;">
+<li class="p">
+<p class="1_List">close each line with a semi-colon’;’</p>
+</li>
+<li class="p">
+<p class="1_List">start the line with the character identifying the data that will follow (see above)</p>
+</li>
+<li class="p">
+<p class="1_List">use only UPPER-CASE characters for the letters preceding the data on each line</p>
+</li>
+</ol>
+<p>Example of ASCII file with unit of measure Inches (controller memory empty) :</p>
+<table style="vertical-align: top;" cellspacing="1" width="45.622%" cellpadding="1">
+<colgroup><col style="width: 21.761%;"/>
+<col style="width: 78.239%;"/>
+</colgroup><tbody><tr style="vertical-align: top;">
+<td style="padding-right: 10px; padding-left: 10px;">
+<p style="margin-top: 0px; margin-bottom: 0px;">S</p>
+</td>
+<td style="padding-right: 10px; padding-left: 10px;">
+<p style="margin-top: 0px; margin-bottom: 0px;">;start transmission</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td style="padding-right: 10px; padding-left: 10px;">
+<p style="margin-top: 0px; margin-bottom: 0px;"> </p>
+</td>
+<td style="padding-right: 10px; padding-left: 10px;">
+<p style="margin-top: 0px; margin-bottom: 0px;"> </p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td style="padding-right: 10px; padding-left: 10px;">
+<p style="margin-top: 0px; margin-bottom: 0px;">P1</p>
+</td>
+<td style="padding-right: 10px; padding-left: 10px;">
+<p style="margin-top: 0px; margin-bottom: 0px;">;cycle #1</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td style="padding-right: 10px; padding-left: 10px;">
+<p style="margin-top: 0px; margin-bottom: 0px;">:first</p>
+</td>
+<td style="padding-right: 10px; padding-left: 10px;">
+<p style="margin-top: 0px; margin-bottom: 0px;">;id = ‘first’</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td style="padding-right: 10px; padding-left: 10px;">
+<p style="margin-top: 0px; margin-bottom: 0px;">X1</p>
+</td>
+<td style="padding-right: 10px; padding-left: 10px;">
+<p style="margin-top: 0px; margin-bottom: 0px;">;box # =1</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td style="padding-right: 10px; padding-left: 10px;">
+<p style="margin-top: 0px; margin-bottom: 0px;">Y1</p>
+</td>
+<td style="padding-right: 10px; padding-left: 10px;">
+<p style="margin-top: 0px; margin-bottom: 0px;">;grade 1</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td style="padding-right: 10px; padding-left: 10px;">
+<p style="margin-top: 0px; margin-bottom: 0px;">Q25.125 T5</p>
+</td>
+<td style="padding-right: 10px; padding-left: 10px;">
+<p style="margin-top: 0px; margin-bottom: 0px;">;piece length =25 1/8” , Number of pieces (repetitions) 5</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td style="padding-right: 10px; padding-left: 10px;">
+<p style="margin-top: 0px; margin-bottom: 0px;"> </p>
+</td>
+<td style="padding-right: 10px; padding-left: 10px;">
+<p style="margin-top: 0px; margin-bottom: 0px;"> </p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td style="padding-right: 10px; padding-left: 10px;">
+<p style="margin-top: 0px; margin-bottom: 0px;">P2</p>
+</td>
+<td style="padding-right: 10px; padding-left: 10px;">
+<p style="margin-top: 0px; margin-bottom: 0px;">;cycle #2</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td style="padding-right: 10px; padding-left: 10px;">
+<p style="margin-top: 0px; margin-bottom: 0px;">Q12.500 T8</p>
+</td>
+<td style="padding-right: 10px; padding-left: 10px;">
+<p style="margin-top: 0px; margin-bottom: 0px;">;piece length =12 1/2” , Number of pieces (repetitions) 8</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td style="padding-right: 10px; padding-left: 10px;">
+<p style="margin-top: 0px; margin-bottom: 0px;"> </p>
+</td>
+<td style="padding-right: 10px; padding-left: 10px;">
+<p style="margin-top: 0px; margin-bottom: 0px;"> </p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td style="padding-right: 10px; padding-left: 10px;">
+<p style="margin-top: 0px; margin-bottom: 0px;">P2</p>
+</td>
+<td style="padding-right: 10px; padding-left: 10px;">
+<p style="margin-top: 0px; margin-bottom: 0px;">;cycle #2</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td style="padding-right: 10px; padding-left: 10px;">
+<p style="margin-top: 0px; margin-bottom: 0px;">Y2</p>
+</td>
+<td style="padding-right: 10px; padding-left: 10px;">
+<p style="margin-top: 0px; margin-bottom: 0px;">;grade 2</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td style="padding-right: 10px; padding-left: 10px;">
+<p style="margin-top: 0px; margin-bottom: 0px;">Q10.750 T10</p>
+</td>
+<td style="padding-right: 10px; padding-left: 10px;">
+<p style="margin-top: 0px; margin-bottom: 0px;">;piece length =10 3/4” , Number of pieces (repetitions) 10</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td style="padding-right: 10px; padding-left: 10px;">
+<p style="margin-top: 0px; margin-bottom: 0px;"> </p>
+</td>
+<td style="padding-right: 10px; padding-left: 10px;">
+<p style="margin-top: 0px; margin-bottom: 0px;"> </p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td style="padding-right: 10px; padding-left: 10px;">
+<p style="margin-top: 0px; margin-bottom: 0px;">P3</p>
+</td>
+<td style="padding-right: 10px; padding-left: 10px;">
+<p style="margin-top: 0px; margin-bottom: 0px;">;cycle #3</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td style="padding-right: 10px; padding-left: 10px;">
+<p style="margin-top: 0px; margin-bottom: 0px;">Q30.750 T12</p>
+</td>
+<td style="padding-right: 10px; padding-left: 10px;">
+<p style="margin-top: 0px; margin-bottom: 0px;">;piece length =30 3/4” , Number of pieces (repetitions) 12</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td style="padding-right: 10px; padding-left: 10px;">
+<p style="margin-top: 0px; margin-bottom: 0px;">Q15.500 T5</p>
+</td>
+<td style="padding-right: 10px; padding-left: 10px;">
+<p style="margin-top: 0px; margin-bottom: 0px;">;piece length =15 1/2” , Number of pieces (repetitions) 5</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td style="padding-right: 10px; padding-left: 10px;">
+<p style="margin-top: 0px; margin-bottom: 0px;"> </p>
+</td>
+<td style="padding-right: 10px; padding-left: 10px;">
+<p style="margin-top: 0px; margin-bottom: 0px;"> </p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td style="padding-right: 10px; padding-left: 10px;">
+<p style="margin-top: 0px; margin-bottom: 0px;">E</p>
+</td>
+<td style="padding-right: 10px; padding-left: 10px;">
+<p style="margin-top: 0px; margin-bottom: 0px;">;end transmission</p>
+</td>
+</tr>
+</tbody></table>
+<p><span style="font-weight: bold;">Note 1:</span> <span>new cycles begin each time the Material or Width changes</span></p>
+<p><span style="font-weight: bold;">Note 2:</span> in order to make the data sequence more understandable, it is allowed to:</p>
+<ul style="list-style: circle;">
+<li class="p">
+<p class="1_List">insert blank lines in between the data lines</p>
+</li>
+<li class="p">
+<p class="1_List">insert spaces (only after the numbers and not the TAB character)</p>
+</li>
+<li class="p">
+<p class="1_List">insert comments on each line after the semi-colon ’;’ character</p>
+</li>
+</ul>
+<p><span style="font-weight: bold;">Note 3:</span> the unit of measures will be the one selected on the controller with the ‘UN_MIS’ parameter</p>
+<p><span style="font-weight: bold;">Note 4:</span> by not transmitting the optional lines those field will be set to ZERO (i.e. ID, width, box, grade).</p>
+
+
+</body></html>

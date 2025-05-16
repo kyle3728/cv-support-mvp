@@ -1,0 +1,113 @@
+{
+    "id": "f5462aea-3ae5-45e7-9ff0-781a1dac453e",
+    "title": "RLSB_Ceilings",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top \n > \n \n \n Room Level \n > \n \n Sidebar \n > \n \n Ceilings"
+        },
+        {
+            "type": "text",
+            "data": "Top \n >"
+        },
+        {
+            "type": "text",
+            "data": "Room Level \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Room Level",
+                "uuid": "9eaa492c-0405-4da7-8e0f-a6ff4e047890",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Sidebar \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Sidebar",
+                "uuid": "f07520a2-0645-4a40-b8d9-a72c15b5c147",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Ceilings"
+        },
+        {
+            "type": "text",
+            "data": "Ceilings"
+        },
+        {
+            "type": "text",
+            "data": "Ceilings -"
+        },
+        {
+            "type": "image",
+            "data": "image483.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image1921.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Clicking the Ceilings sidebar button will put you in Ceiling Creation/Editing mode and will bring up two new sidebar buttons:"
+        },
+        {
+            "type": "text",
+            "data": "AutoBuild Ceilings"
+        },
+        {
+            "type": "image",
+            "data": "image1942.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Click this option to have Solid automatically build a Ceiling for you. Solid will evaluate your overall Room size and Build a Ceiling sized for it. You can also use this option to rebuild a Ceiling you have modified back to the default."
+        },
+        {
+            "type": "text",
+            "data": "New Ceiling"
+        },
+        {
+            "type": "image",
+            "data": "image1943.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This button allows you to add additional manual Ceilings to your Room. This option brings you into the  Shape Editor ; simply define the boundary of your Ceiling(s)."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Shape Editor",
+                "uuid": "44e32c02-bc4b-47e1-a681-21c422325448",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "See the  Right Click on a Ceiling  topic for more information on editing your Floors."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Right Click on a Ceiling",
+                "uuid": "15bb9d1b-ea62-447b-abee-7fe45f8728cc",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Room_Level\\Side_Bar\\RLSB_Ceilings.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

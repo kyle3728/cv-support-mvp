@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><link rel="stylesheet" type="text/css" href="../../../../_rhdefault.css"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=WINDOWS-1252"/>
+  <meta name="topic-status" content="Complete"/>
+  <meta name="generator" content="Adobe RoboHelp 2022"/>
+  <title>First Exercise Formula for the Y (Up/Down)</title>
+  <link rel="StyleSheet" href="../../../../assets/css/default.css" type="text/css"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/><script type="text/javascript" src="../../../../ehlpdhtm.js"></script></head>
+<body>
+  <h1>Formula for the Y (Up/Down)</h1>
+  <p>Look at your cabinet in 3D.  Look at it from a front ortho view and click on the BOARD.  Notice where the reference point is located.  Look at it from a side view.  Notice where the reference point is located.  When writing code for the position of a part it is important to know where the reference point is.</p>
+  <p>There are several formulas that will work for the Y position of this BOARD.  You will learn as time goes by that there is always more than one way to do things in Solid.  We could say <span style="font-weight: bold;">the Y is equal to the height of the cabinet minus the thickness of the top stretcher</span>.  Or we could say <span style="font-weight: bold;">the Y is equal to the height of the cabinet minus 3/4&quot;</span>.  It would be better to use the first formula because if the thickness of the top stretcher changed the first formula would take this into consideration whereas the second formula would not.  We could say the Y of the BOARD is equal to <span style="font-weight: bold;">the Y of the top stretcher</span>.  If you click on the top stretcher you will note that it and the BOARD have the same up and down position.  This is a good formula so we will use it.  The Y of the BOARD = <span style="font-weight: bold;">the Y of the Top Stretcher</span>.  So now that we have our formula.  We need to trace it through the object tree.</p>
+  <ol style="list-style: decimal;">
+    <li class="p">
+      <p class="Indent_1_Bulllet">Click on one of the ortho <img alt="" border="0" height="21" src="../../../../assets/images/image181.gif" style="border: none;" width="45"/><img alt="" border="0" height="21" src="../../../../assets/images/image182.gif" style="border: none;" width="44"/><img alt="" border="0" height="21" src="../../../../assets/images/image183.gif" style="border: none;" width="42"/> views.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">Click on &quot;Object Tree&quot;.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">Open the Object Tree until you find the Top Stretcher, click on it and then click on the Y parameter on the right.  If we trace this through the tree it is <span style="font-weight: bold;">CAB.CASE.TS.Y</span> we write this code down so we don’t forget it.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">Click on the BOARD then click on the Y parameter.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">Click on &quot;Edit&quot;. Your screen should now look like the follow screen.</p>
+    </li>
+  </ol>
+  <p style="margin-left: 40px;"><img src="../../../../assets/images/Tips_Tricks_FAQs/Parametric%20Editing/Intelligence%20Workshop/1st%20Exercise/Ex1EditY1.png"/></p>
+  <ol start="6" style="list-style: decimal;">
+    <li class="p">
+      <p class="Indent_1_Bulllet">Select Equation and then on the THEN line type the code we wrote down earlier. <span style="font-weight: bold;">CAB.CASE.TS.Y</span>.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">Click on the test button and it should say &quot;Condition returned: True. Equation returned: 33 3/4 or whatever value you were expecting. Click on OK.</p>
+    </li>
+  </ol>
+  <p>Look at your cabinet in 3D does it look OK? If not you typed something wrong. See &quot;<a href="Troubleshooting_Error_Messages.htm">Troubleshooting Error Messages</a>&quot;.</p>
+
+</body></html>

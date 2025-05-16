@@ -1,0 +1,4350 @@
+{
+    "id": "31843376-73a1-4fa7-9597-a4cdf8f5b9f8",
+    "title": "Specification_CxConstruction_Database",
+    "content": [
+        {
+            "type": "text",
+            "data": "The CxConstruction.mdf\u00a0File"
+        },
+        {
+            "type": "text",
+            "data": "The CxConstruction.mdf\u00a0file stores the Cabinet, Closet, and Drawer & Roll Out Construction data, as well as User Created Standards and Intelli-Joints."
+        },
+        {
+            "type": "text",
+            "data": "The following is the breakdown of the tables and their fields:"
+        },
+        {
+            "type": "text",
+            "data": "Connection"
+        },
+        {
+            "type": "text",
+            "data": "This table stores Connection data."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "ID",
+                        "A unique number to reference the connection."
+                    ],
+                    [
+                        "Name",
+                        "The connection name."
+                    ],
+                    [
+                        "Description",
+                        "The connection description."
+                    ],
+                    [
+                        "rGUID",
+                        "A global unique identification for the connection"
+                    ],
+                    [
+                        "System",
+                        "A boolean value set true if this is a read-only system connection"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "ID"
+        },
+        {
+            "type": "text",
+            "data": "A unique number to reference the connection."
+        },
+        {
+            "type": "text",
+            "data": "Name"
+        },
+        {
+            "type": "text",
+            "data": "The connection name."
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "The connection description."
+        },
+        {
+            "type": "text",
+            "data": "rGUID"
+        },
+        {
+            "type": "text",
+            "data": "A global unique identification for the connection"
+        },
+        {
+            "type": "text",
+            "data": "System"
+        },
+        {
+            "type": "text",
+            "data": "A boolean value set true if this is a read-only system connection"
+        },
+        {
+            "type": "text",
+            "data": "ConnectionSetMap"
+        },
+        {
+            "type": "text",
+            "data": "This table stores the Connection Set Map."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "ID",
+                        "A unique number to reference the connection set map."
+                    ],
+                    [
+                        "ConnectionID",
+                        "A cross reference to [Connection].[ID] for the master connection ID."
+                    ],
+                    [
+                        "MemberID",
+                        "A cross reference to [Connection].[ID] for the slave connection ID."
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "ID"
+        },
+        {
+            "type": "text",
+            "data": "A unique number to reference the connection set map."
+        },
+        {
+            "type": "text",
+            "data": "ConnectionID"
+        },
+        {
+            "type": "text",
+            "data": "A cross reference to [Connection].[ID] for the master connection ID."
+        },
+        {
+            "type": "text",
+            "data": "MemberID"
+        },
+        {
+            "type": "text",
+            "data": "A cross reference to [Connection].[ID] for the slave connection ID."
+        },
+        {
+            "type": "text",
+            "data": "ConnectionStandardMap"
+        },
+        {
+            "type": "text",
+            "data": "This table stores the Connection Standard Map."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "ID",
+                        "A unique number to identify this record"
+                    ],
+                    [
+                        "ConnectionID",
+                        "A cross reference to the [Connection].[ID] field linking this record to a Connection"
+                    ],
+                    [
+                        "ConnectionStandardID",
+                        "A cross reference to [refConnectionStandard].[ID] field linking this record to a ConnectionStandard"
+                    ],
+                    [
+                        "Visited",
+                        "A boolean value set true if this question has been asked."
+                    ],
+                    [
+                        "Choice",
+                        "The option button selected for this standard."
+                    ],
+                    [
+                        "Value",
+                        "Any value entered for this standard."
+                    ],
+                    [
+                        "ParameterTypeID",
+                        "A cross reference to the [refParameterType].[ID] field indicating the type of data stored in the value field"
+                    ],
+                    [
+                        "UnitOfMeasureID",
+                        "If non-zero, a cross reference to the [refUnitOfMeasure].[ID] field defining what unit of measure to display the value"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "ID"
+        },
+        {
+            "type": "text",
+            "data": "A unique number to identify this record"
+        },
+        {
+            "type": "text",
+            "data": "ConnectionID"
+        },
+        {
+            "type": "text",
+            "data": "A cross reference to the [Connection].[ID] field linking this record to a Connection"
+        },
+        {
+            "type": "text",
+            "data": "ConnectionStandardID"
+        },
+        {
+            "type": "text",
+            "data": "A cross reference to [refConnectionStandard].[ID] field linking this record to a ConnectionStandard"
+        },
+        {
+            "type": "text",
+            "data": "Visited"
+        },
+        {
+            "type": "text",
+            "data": "A boolean value set true if this question has been asked."
+        },
+        {
+            "type": "text",
+            "data": "Choice"
+        },
+        {
+            "type": "text",
+            "data": "The option button selected for this standard."
+        },
+        {
+            "type": "text",
+            "data": "Value"
+        },
+        {
+            "type": "text",
+            "data": "Any value entered for this standard."
+        },
+        {
+            "type": "text",
+            "data": "ParameterTypeID"
+        },
+        {
+            "type": "text",
+            "data": "A cross reference to the [refParameterType].[ID] field indicating the type of data stored in the value field"
+        },
+        {
+            "type": "text",
+            "data": "UnitOfMeasureID"
+        },
+        {
+            "type": "text",
+            "data": "If non-zero, a cross reference to the [refUnitOfMeasure].[ID] field defining what unit of measure to display the value"
+        },
+        {
+            "type": "text",
+            "data": "Construction"
+        },
+        {
+            "type": "text",
+            "data": "This table stores Construction data."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "ID",
+                        "A unique number to reference the construction method."
+                    ],
+                    [
+                        "Name",
+                        "The construction name."
+                    ],
+                    [
+                        "Description",
+                        "The construction description."
+                    ],
+                    [
+                        "ConstructionTypeID",
+                        "A cross reference to [refConstructionType].[ID]."
+                    ],
+                    [
+                        "rGUID",
+                        "A global unique identification for the construction."
+                    ],
+                    [
+                        "System",
+                        "A boolean value set true if this is a read-only system construction method."
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "ID"
+        },
+        {
+            "type": "text",
+            "data": "A unique number to reference the construction method."
+        },
+        {
+            "type": "text",
+            "data": "Name"
+        },
+        {
+            "type": "text",
+            "data": "The construction name."
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "The construction description."
+        },
+        {
+            "type": "text",
+            "data": "ConstructionTypeID"
+        },
+        {
+            "type": "text",
+            "data": "A cross reference to [refConstructionType].[ID]."
+        },
+        {
+            "type": "text",
+            "data": "rGUID"
+        },
+        {
+            "type": "text",
+            "data": "A global unique identification for the construction."
+        },
+        {
+            "type": "text",
+            "data": "System"
+        },
+        {
+            "type": "text",
+            "data": "A boolean value set true if this is a read-only system construction method."
+        },
+        {
+            "type": "text",
+            "data": "ConstructionMenuTree"
+        },
+        {
+            "type": "text",
+            "data": "This table stores the Construction Menu Tree."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "ID",
+                        "A unique identification for each ConstructionMenuTree item"
+                    ],
+                    [
+                        "ParentID",
+                        "A cross reference to [ConstructionMenuTree].[ID] indicating the parent of this menu item"
+                    ],
+                    [
+                        "Name",
+                        "The name of the construction menu tree item"
+                    ],
+                    [
+                        "IsPart",
+                        "A boolean value set true to use the actual part name for this item as the display text"
+                    ],
+                    [
+                        "DisplayText",
+                        "The default display text the can be overwritten by the localized string"
+                    ],
+                    [
+                        "MulangID",
+                        "A reference to the localized string ID"
+                    ],
+                    [
+                        "ConstructionTypeID",
+                        "A cross reference to [refConstructionType].[ID]."
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "ID"
+        },
+        {
+            "type": "text",
+            "data": "A unique identification for each ConstructionMenuTree item"
+        },
+        {
+            "type": "text",
+            "data": "ParentID"
+        },
+        {
+            "type": "text",
+            "data": "A cross reference to [ConstructionMenuTree].[ID] indicating the parent of this menu item"
+        },
+        {
+            "type": "text",
+            "data": "Name"
+        },
+        {
+            "type": "text",
+            "data": "The name of the construction menu tree item"
+        },
+        {
+            "type": "text",
+            "data": "IsPart"
+        },
+        {
+            "type": "text",
+            "data": "A boolean value set true to use the actual part name for this item as the display text"
+        },
+        {
+            "type": "text",
+            "data": "DisplayText"
+        },
+        {
+            "type": "text",
+            "data": "The default display text the can be overwritten by the localized string"
+        },
+        {
+            "type": "text",
+            "data": "MulangID"
+        },
+        {
+            "type": "text",
+            "data": "A reference to the localized string ID"
+        },
+        {
+            "type": "text",
+            "data": "ConstructionTypeID"
+        },
+        {
+            "type": "text",
+            "data": "A cross reference to [refConstructionType].[ID]."
+        },
+        {
+            "type": "text",
+            "data": "ConstructionParameter"
+        },
+        {
+            "type": "text",
+            "data": "This table stores the Construction Parameters."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "ID",
+                        "A unique number to reference the construction parameter"
+                    ],
+                    [
+                        "ConstructionID",
+                        "A cross reference to [Construction].[ID]"
+                    ],
+                    [
+                        "Name",
+                        "The parameter's name"
+                    ],
+                    [
+                        "Description",
+                        "The parameter's description"
+                    ],
+                    [
+                        "ParameterTypeID",
+                        "A cross reference to [refParameterType].[ID]"
+                    ],
+                    [
+                        "ParamValue",
+                        "The parameter's value"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "ID"
+        },
+        {
+            "type": "text",
+            "data": "A unique number to reference the construction parameter"
+        },
+        {
+            "type": "text",
+            "data": "ConstructionID"
+        },
+        {
+            "type": "text",
+            "data": "A cross reference to [Construction].[ID]"
+        },
+        {
+            "type": "text",
+            "data": "Name"
+        },
+        {
+            "type": "text",
+            "data": "The parameter's name"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "The parameter's description"
+        },
+        {
+            "type": "text",
+            "data": "ParameterTypeID"
+        },
+        {
+            "type": "text",
+            "data": "A cross reference to [refParameterType].[ID]"
+        },
+        {
+            "type": "text",
+            "data": "ParamValue"
+        },
+        {
+            "type": "text",
+            "data": "The parameter's value"
+        },
+        {
+            "type": "text",
+            "data": "ConstructionShape"
+        },
+        {
+            "type": "text",
+            "data": "This table stores the Construction Shape data."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "ID",
+                        "A unique identification for each shape."
+                    ],
+                    [
+                        "ShapeTypeID",
+                        "A cross-reference to [refShapeType].[ID] indicating the shape type."
+                    ],
+                    [
+                        "Shape",
+                        "The shape data."
+                    ],
+                    [
+                        "rGUID",
+                        "A global unique identification for the shape"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "ID"
+        },
+        {
+            "type": "text",
+            "data": "A unique identification for each shape."
+        },
+        {
+            "type": "text",
+            "data": "ShapeTypeID"
+        },
+        {
+            "type": "text",
+            "data": "A cross-reference to [refShapeType].[ID] indicating the shape type."
+        },
+        {
+            "type": "text",
+            "data": "Shape"
+        },
+        {
+            "type": "text",
+            "data": "The shape data."
+        },
+        {
+            "type": "text",
+            "data": "rGUID"
+        },
+        {
+            "type": "text",
+            "data": "A global unique identification for the shape"
+        },
+        {
+            "type": "text",
+            "data": "ConstructionStandardMap"
+        },
+        {
+            "type": "text",
+            "data": "This table stores the Connection Standard Map."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "ID",
+                        "A unique number to identify this record"
+                    ],
+                    [
+                        "ConstructionID",
+                        "A cross reference to the [Construction].[ID] field linking this record to a construction"
+                    ],
+                    [
+                        "StandardID",
+                        "A cross reference to either [refCaseStandard].[ID], [refDrawerStandard].[ID] or [refTopStandard].[ID] field linking this record to a Standard based on ConstructionType"
+                    ],
+                    [
+                        "Visited",
+                        "A boolean value set true if this question has been asked."
+                    ],
+                    [
+                        "Choice",
+                        "The option button selected for this standard."
+                    ],
+                    [
+                        "Value",
+                        "Any value entered for this standard."
+                    ],
+                    [
+                        "ParameterTypeID",
+                        "A cross reference to the [refParameterType].[ID] field indicating the type of data stored in the value field"
+                    ],
+                    [
+                        "UnitOfMeasureID",
+                        "If non-zero, a cross reference to the [refUnitOfMeasure].[ID] field defining what unit of measure to display the value"
+                    ],
+                    [
+                        "TypeID",
+                        "A cross reference to the [refCaseType].[ID] field indicating the case type for this record based on ConstructionType"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "ID"
+        },
+        {
+            "type": "text",
+            "data": "A unique number to identify this record"
+        },
+        {
+            "type": "text",
+            "data": "ConstructionID"
+        },
+        {
+            "type": "text",
+            "data": "A cross reference to the [Construction].[ID] field linking this record to a construction"
+        },
+        {
+            "type": "text",
+            "data": "StandardID"
+        },
+        {
+            "type": "text",
+            "data": "A cross reference to either [refCaseStandard].[ID], [refDrawerStandard].[ID] or [refTopStandard].[ID] field linking this record to a Standard based on ConstructionType"
+        },
+        {
+            "type": "text",
+            "data": "Visited"
+        },
+        {
+            "type": "text",
+            "data": "A boolean value set true if this question has been asked."
+        },
+        {
+            "type": "text",
+            "data": "Choice"
+        },
+        {
+            "type": "text",
+            "data": "The option button selected for this standard."
+        },
+        {
+            "type": "text",
+            "data": "Value"
+        },
+        {
+            "type": "text",
+            "data": "Any value entered for this standard."
+        },
+        {
+            "type": "text",
+            "data": "ParameterTypeID"
+        },
+        {
+            "type": "text",
+            "data": "A cross reference to the [refParameterType].[ID] field indicating the type of data stored in the value field"
+        },
+        {
+            "type": "text",
+            "data": "UnitOfMeasureID"
+        },
+        {
+            "type": "text",
+            "data": "If non-zero, a cross reference to the [refUnitOfMeasure].[ID] field defining what unit of measure to display the value"
+        },
+        {
+            "type": "text",
+            "data": "TypeID"
+        },
+        {
+            "type": "text",
+            "data": "A cross reference to the [refCaseType].[ID] field indicating the case type for this record based on ConstructionType"
+        },
+        {
+            "type": "text",
+            "data": "CxConstructionInfo"
+        },
+        {
+            "type": "text",
+            "data": "This table stores Construction Info data."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "ID",
+                        "A unique ID for this record."
+                    ],
+                    [
+                        "Version",
+                        "The current schema of the database"
+                    ],
+                    [
+                        "SyncDate",
+                        "The date this was last syncronized with offline data"
+                    ],
+                    [
+                        "UserID",
+                        "The user identification number"
+                    ],
+                    [
+                        "Offline",
+                        "A boolean flag set true if this database is currently offline"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "ID"
+        },
+        {
+            "type": "text",
+            "data": "A unique ID for this record."
+        },
+        {
+            "type": "text",
+            "data": "Version"
+        },
+        {
+            "type": "text",
+            "data": "The current schema of the database"
+        },
+        {
+            "type": "text",
+            "data": "SyncDate"
+        },
+        {
+            "type": "text",
+            "data": "The date this was last syncronized with offline data"
+        },
+        {
+            "type": "text",
+            "data": "UserID"
+        },
+        {
+            "type": "text",
+            "data": "The user identification number"
+        },
+        {
+            "type": "text",
+            "data": "Offline"
+        },
+        {
+            "type": "text",
+            "data": "A boolean flag set true if this database is currently offline"
+        },
+        {
+            "type": "text",
+            "data": "CxConstructionMigrationData"
+        },
+        {
+            "type": "text",
+            "data": "This table stores Construction Migration data."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "ID",
+                        "A unique number to reference the construction migration data"
+                    ],
+                    [
+                        "Name",
+                        "The name of the data."
+                    ],
+                    [
+                        "Data",
+                        "The data."
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "ID"
+        },
+        {
+            "type": "text",
+            "data": "A unique number to reference the construction migration data"
+        },
+        {
+            "type": "text",
+            "data": "Name"
+        },
+        {
+            "type": "text",
+            "data": "The name of the data."
+        },
+        {
+            "type": "text",
+            "data": "Data"
+        },
+        {
+            "type": "text",
+            "data": "The data."
+        },
+        {
+            "type": "text",
+            "data": "ExtraCaseInfo"
+        },
+        {
+            "type": "text",
+            "data": "This table stores extra case information."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "ID",
+                        "A unique number to reference the extra information."
+                    ],
+                    [
+                        "ConstructionID",
+                        "A cross reference to [Construction].[ID] linking this record to the Construction table."
+                    ],
+                    [
+                        "CaseStyleID",
+                        "A cross reference to [refCaseStyle].[ID]."
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "ID"
+        },
+        {
+            "type": "text",
+            "data": "A unique number to reference the extra information."
+        },
+        {
+            "type": "text",
+            "data": "ConstructionID"
+        },
+        {
+            "type": "text",
+            "data": "A cross reference to [Construction].[ID] linking this record to the Construction table."
+        },
+        {
+            "type": "text",
+            "data": "CaseStyleID"
+        },
+        {
+            "type": "text",
+            "data": "A cross reference to [refCaseStyle].[ID]."
+        },
+        {
+            "type": "text",
+            "data": "ExtraDrawerInfo"
+        },
+        {
+            "type": "text",
+            "data": "This table stores extra drawer\u00a0information."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "ID",
+                        "A unique number to reference the extra information."
+                    ],
+                    [
+                        "ConstructionID",
+                        "A cross reference to [Construction].[ID] linking this record to the Construction table."
+                    ],
+                    [
+                        "DrawerStyleID",
+                        "A cross reference to [refDrawerStyle].[ID]."
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "ID"
+        },
+        {
+            "type": "text",
+            "data": "A unique number to reference the extra information."
+        },
+        {
+            "type": "text",
+            "data": "ConstructionID"
+        },
+        {
+            "type": "text",
+            "data": "A cross reference to [Construction].[ID] linking this record to the Construction table."
+        },
+        {
+            "type": "text",
+            "data": "DrawerStyleID"
+        },
+        {
+            "type": "text",
+            "data": "A cross reference to [refDrawerStyle].[ID]."
+        },
+        {
+            "type": "text",
+            "data": "IDMap_Construction"
+        },
+        {
+            "type": "text",
+            "data": "Legacy data map."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "ID",
+                        "A unique identifier for this record"
+                    ],
+                    [
+                        "OldID",
+                        "The OldID from Wiz_data"
+                    ],
+                    [
+                        "NewID",
+                        "The NewID for this record"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "ID"
+        },
+        {
+            "type": "text",
+            "data": "A unique identifier for this record"
+        },
+        {
+            "type": "text",
+            "data": "OldID"
+        },
+        {
+            "type": "text",
+            "data": "The OldID from Wiz_data"
+        },
+        {
+            "type": "text",
+            "data": "NewID"
+        },
+        {
+            "type": "text",
+            "data": "The NewID for this record"
+        },
+        {
+            "type": "text",
+            "data": "IDMap_IJoint"
+        },
+        {
+            "type": "text",
+            "data": "Legacy data map."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "ID",
+                        "A unique identifier for this record"
+                    ],
+                    [
+                        "OldID",
+                        "The OldID from Wiz_data"
+                    ],
+                    [
+                        "NewID",
+                        "The NewID for this record"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "ID"
+        },
+        {
+            "type": "text",
+            "data": "A unique identifier for this record"
+        },
+        {
+            "type": "text",
+            "data": "OldID"
+        },
+        {
+            "type": "text",
+            "data": "The OldID from Wiz_data"
+        },
+        {
+            "type": "text",
+            "data": "NewID"
+        },
+        {
+            "type": "text",
+            "data": "The NewID for this record"
+        },
+        {
+            "type": "text",
+            "data": "IDMap_UCS"
+        },
+        {
+            "type": "text",
+            "data": "Legacy data map."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "ID",
+                        "A unique identifier for this record"
+                    ],
+                    [
+                        "OldID",
+                        "The OldID from Wiz_data"
+                    ],
+                    [
+                        "NewID",
+                        "The NewID for this record"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "ID"
+        },
+        {
+            "type": "text",
+            "data": "A unique identifier for this record"
+        },
+        {
+            "type": "text",
+            "data": "OldID"
+        },
+        {
+            "type": "text",
+            "data": "The OldID from Wiz_data"
+        },
+        {
+            "type": "text",
+            "data": "NewID"
+        },
+        {
+            "type": "text",
+            "data": "The NewID for this record"
+        },
+        {
+            "type": "text",
+            "data": "IJoint"
+        },
+        {
+            "type": "text",
+            "data": "This table stores Intelli-Joint\u00a0data."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "ID",
+                        "A unique number to reference the Intelli-Joint."
+                    ],
+                    [
+                        "Name",
+                        "The Intelli-Joints name."
+                    ],
+                    [
+                        "Description",
+                        "The Intelli-Joints description."
+                    ],
+                    [
+                        "rGUID",
+                        "A global unique identification for the Intelli-Joint."
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "ID"
+        },
+        {
+            "type": "text",
+            "data": "A unique number to reference the Intelli-Joint."
+        },
+        {
+            "type": "text",
+            "data": "Name"
+        },
+        {
+            "type": "text",
+            "data": "The Intelli-Joints name."
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "The Intelli-Joints description."
+        },
+        {
+            "type": "text",
+            "data": "rGUID"
+        },
+        {
+            "type": "text",
+            "data": "A global unique identification for the Intelli-Joint."
+        },
+        {
+            "type": "text",
+            "data": "IJointOperation"
+        },
+        {
+            "type": "text",
+            "data": "This table stores the Intelli-Joint operations."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "ID",
+                        "A unique number to reference the Intelli-Joint operation"
+                    ],
+                    [
+                        "IJointID",
+                        "A cross reference to [IJoint].[ID]."
+                    ],
+                    [
+                        "Name",
+                        "The Intelli-Joint operation Name."
+                    ],
+                    [
+                        "IJointOperationTypeID",
+                        "A cross reference to [refIJointOperationType].[ID]."
+                    ],
+                    [
+                        "IJointOperationFaceID",
+                        "A cross reference to [refIJointOperationFace].[ID]."
+                    ],
+                    [
+                        "Master",
+                        "A boolean flag set true if the Operation is to be a Master Operation."
+                    ],
+                    [
+                        "ToolGUID",
+                        "Specifies the Tool selected for the Operation. A Cross reference to [Tools].[rGUID] in the Psnc.mdb database."
+                    ],
+                    [
+                        "XPosition",
+                        "The value for the Operations X Location."
+                    ],
+                    [
+                        "YPosition",
+                        "The value for the Operations Y Location."
+                    ],
+                    [
+                        "Width",
+                        "The value for the Operations Width/Diameter."
+                    ],
+                    [
+                        "Spacing",
+                        "The value for the Operations Spacing/Length."
+                    ],
+                    [
+                        "Depth",
+                        "The value for the Operations Depth."
+                    ],
+                    [
+                        "Quantity",
+                        "The value for the Operations Quantity."
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "ID"
+        },
+        {
+            "type": "text",
+            "data": "A unique number to reference the Intelli-Joint operation"
+        },
+        {
+            "type": "text",
+            "data": "IJointID"
+        },
+        {
+            "type": "text",
+            "data": "A cross reference to [IJoint].[ID]."
+        },
+        {
+            "type": "text",
+            "data": "Name"
+        },
+        {
+            "type": "text",
+            "data": "The Intelli-Joint operation Name."
+        },
+        {
+            "type": "text",
+            "data": "IJointOperationTypeID"
+        },
+        {
+            "type": "text",
+            "data": "A cross reference to [refIJointOperationType].[ID]."
+        },
+        {
+            "type": "text",
+            "data": "IJointOperationFaceID"
+        },
+        {
+            "type": "text",
+            "data": "A cross reference to [refIJointOperationFace].[ID]."
+        },
+        {
+            "type": "text",
+            "data": "Master"
+        },
+        {
+            "type": "text",
+            "data": "A boolean flag set true if the Operation is to be a Master Operation."
+        },
+        {
+            "type": "text",
+            "data": "ToolGUID"
+        },
+        {
+            "type": "text",
+            "data": "Specifies the Tool selected for the Operation. A Cross reference to [Tools].[rGUID] in the Psnc.mdb database."
+        },
+        {
+            "type": "text",
+            "data": "XPosition"
+        },
+        {
+            "type": "text",
+            "data": "The value for the Operations X Location."
+        },
+        {
+            "type": "text",
+            "data": "YPosition"
+        },
+        {
+            "type": "text",
+            "data": "The value for the Operations Y Location."
+        },
+        {
+            "type": "text",
+            "data": "Width"
+        },
+        {
+            "type": "text",
+            "data": "The value for the Operations Width/Diameter."
+        },
+        {
+            "type": "text",
+            "data": "Spacing"
+        },
+        {
+            "type": "text",
+            "data": "The value for the Operations Spacing/Length."
+        },
+        {
+            "type": "text",
+            "data": "Depth"
+        },
+        {
+            "type": "text",
+            "data": "The value for the Operations Depth."
+        },
+        {
+            "type": "text",
+            "data": "Quantity"
+        },
+        {
+            "type": "text",
+            "data": "The value for the Operations Quantity."
+        },
+        {
+            "type": "text",
+            "data": "IJointOperationParameter"
+        },
+        {
+            "type": "text",
+            "data": "This table stores the Intelli-Joint Operation Parameters."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "ID",
+                        "A unique number to reference the Intelli-Joint operation parameter"
+                    ],
+                    [
+                        "IJointOperationID",
+                        "A cross reference to [IJointOperation].[ID]"
+                    ],
+                    [
+                        "Name",
+                        "The parameter's name"
+                    ],
+                    [
+                        "Description",
+                        "The parameter's description"
+                    ],
+                    [
+                        "ParameterTypeID",
+                        "A cross reference to [refParameterType].[ID]"
+                    ],
+                    [
+                        "ParamValue",
+                        "The parameter's value"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "ID"
+        },
+        {
+            "type": "text",
+            "data": "A unique number to reference the Intelli-Joint operation parameter"
+        },
+        {
+            "type": "text",
+            "data": "IJointOperationID"
+        },
+        {
+            "type": "text",
+            "data": "A cross reference to [IJointOperation].[ID]"
+        },
+        {
+            "type": "text",
+            "data": "Name"
+        },
+        {
+            "type": "text",
+            "data": "The parameter's name"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "The parameter's description"
+        },
+        {
+            "type": "text",
+            "data": "ParameterTypeID"
+        },
+        {
+            "type": "text",
+            "data": "A cross reference to [refParameterType].[ID]"
+        },
+        {
+            "type": "text",
+            "data": "ParamValue"
+        },
+        {
+            "type": "text",
+            "data": "The parameter's value"
+        },
+        {
+            "type": "text",
+            "data": "refCaseQLine"
+        },
+        {
+            "type": "text",
+            "data": "A lookup table for Case question lines."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "ID",
+                        "A unique identifier for this record"
+                    ],
+                    [
+                        "Name",
+                        "The name of the record."
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "ID"
+        },
+        {
+            "type": "text",
+            "data": "A unique identifier for this record"
+        },
+        {
+            "type": "text",
+            "data": "Name"
+        },
+        {
+            "type": "text",
+            "data": "The name of the record."
+        },
+        {
+            "type": "text",
+            "data": "refCaseStandard"
+        },
+        {
+            "type": "text",
+            "data": "A lookup table for Case Standards."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "ID",
+                        "A unique identification for each case standard"
+                    ],
+                    [
+                        "Name",
+                        "The name of the case standard"
+                    ],
+                    [
+                        "Description",
+                        "A brief description of case standard"
+                    ],
+                    [
+                        "CaseQLineID",
+                        "A cross reference to [refCaseQLine].[ID] indicating what branch this standard applies to"
+                    ],
+                    [
+                        "Base",
+                        "A boolean value set true if this standard should be shown for a base case"
+                    ],
+                    [
+                        "Base45",
+                        "A boolean value set true if this standard should be shown for a base 45 case"
+                    ],
+                    [
+                        "Base90",
+                        "A boolean value set true if this standard should be shown for a base 90 case"
+                    ],
+                    [
+                        "Upper",
+                        "A boolean value set true if this standard should be shown for a Upper case"
+                    ],
+                    [
+                        "Upper45",
+                        "A boolean value set true if this standard should be shown for a Upper 45 case"
+                    ],
+                    [
+                        "Upper90",
+                        "A boolean value set true if this standard should be shown for a Upper 90 case"
+                    ],
+                    [
+                        "Tall",
+                        "A boolean value set true if this standard should be shown for a tall case"
+                    ],
+                    [
+                        "Tall45",
+                        "A boolean value set true if this standard should be shown for a tall 45 case"
+                    ],
+                    [
+                        "Tall90",
+                        "A boolean value set true if this standard should be shown for a tall 90 case"
+                    ],
+                    [
+                        "Vanity",
+                        "A boolean value set true if this standard should be shown for a vanity case"
+                    ],
+                    [
+                        "FrameOnly",
+                        "A boolean value set true if this standard should only be shown for a frame construction type"
+                    ],
+                    [
+                        "FramelessOnly",
+                        "A boolean value set true if this standard should only be shown for a frameless construction type"
+                    ],
+                    [
+                        "ParameterTypeID",
+                        "A cross reference to the [refParameterType].[ID] field indicating the type of data stored in the value field for the default parameter type for this standard"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "ID"
+        },
+        {
+            "type": "text",
+            "data": "A unique identification for each case standard"
+        },
+        {
+            "type": "text",
+            "data": "Name"
+        },
+        {
+            "type": "text",
+            "data": "The name of the case standard"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "A brief description of case standard"
+        },
+        {
+            "type": "text",
+            "data": "CaseQLineID"
+        },
+        {
+            "type": "text",
+            "data": "A cross reference to [refCaseQLine].[ID] indicating what branch this standard applies to"
+        },
+        {
+            "type": "text",
+            "data": "Base"
+        },
+        {
+            "type": "text",
+            "data": "A boolean value set true if this standard should be shown for a base case"
+        },
+        {
+            "type": "text",
+            "data": "Base45"
+        },
+        {
+            "type": "text",
+            "data": "A boolean value set true if this standard should be shown for a base 45 case"
+        },
+        {
+            "type": "text",
+            "data": "Base90"
+        },
+        {
+            "type": "text",
+            "data": "A boolean value set true if this standard should be shown for a base 90 case"
+        },
+        {
+            "type": "text",
+            "data": "Upper"
+        },
+        {
+            "type": "text",
+            "data": "A boolean value set true if this standard should be shown for a Upper case"
+        },
+        {
+            "type": "text",
+            "data": "Upper45"
+        },
+        {
+            "type": "text",
+            "data": "A boolean value set true if this standard should be shown for a Upper 45 case"
+        },
+        {
+            "type": "text",
+            "data": "Upper90"
+        },
+        {
+            "type": "text",
+            "data": "A boolean value set true if this standard should be shown for a Upper 90 case"
+        },
+        {
+            "type": "text",
+            "data": "Tall"
+        },
+        {
+            "type": "text",
+            "data": "A boolean value set true if this standard should be shown for a tall case"
+        },
+        {
+            "type": "text",
+            "data": "Tall45"
+        },
+        {
+            "type": "text",
+            "data": "A boolean value set true if this standard should be shown for a tall 45 case"
+        },
+        {
+            "type": "text",
+            "data": "Tall90"
+        },
+        {
+            "type": "text",
+            "data": "A boolean value set true if this standard should be shown for a tall 90 case"
+        },
+        {
+            "type": "text",
+            "data": "Vanity"
+        },
+        {
+            "type": "text",
+            "data": "A boolean value set true if this standard should be shown for a vanity case"
+        },
+        {
+            "type": "text",
+            "data": "FrameOnly"
+        },
+        {
+            "type": "text",
+            "data": "A boolean value set true if this standard should only be shown for a frame construction type"
+        },
+        {
+            "type": "text",
+            "data": "FramelessOnly"
+        },
+        {
+            "type": "text",
+            "data": "A boolean value set true if this standard should only be shown for a frameless construction type"
+        },
+        {
+            "type": "text",
+            "data": "ParameterTypeID"
+        },
+        {
+            "type": "text",
+            "data": "A cross reference to the [refParameterType].[ID] field indicating the type of data stored in the value field for the default parameter type for this standard"
+        },
+        {
+            "type": "text",
+            "data": "refCaseStyle"
+        },
+        {
+            "type": "text",
+            "data": "A lookup table for Case Styles."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "ID",
+                        "A unique identifier for this record"
+                    ],
+                    [
+                        "Name",
+                        "The name of the record."
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "ID"
+        },
+        {
+            "type": "text",
+            "data": "A unique identifier for this record"
+        },
+        {
+            "type": "text",
+            "data": "Name"
+        },
+        {
+            "type": "text",
+            "data": "The name of the record."
+        },
+        {
+            "type": "text",
+            "data": "refCaseType"
+        },
+        {
+            "type": "text",
+            "data": "A lookup table for Case Types."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "ID",
+                        "A unique identifier for this record"
+                    ],
+                    [
+                        "Name",
+                        "The name of the record."
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "ID"
+        },
+        {
+            "type": "text",
+            "data": "A unique identifier for this record"
+        },
+        {
+            "type": "text",
+            "data": "Name"
+        },
+        {
+            "type": "text",
+            "data": "The name of the record."
+        },
+        {
+            "type": "text",
+            "data": "refConnectionStandard"
+        },
+        {
+            "type": "text",
+            "data": "This table stores the Connection Standards."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "ID",
+                        "A unique identification for each connection standard"
+                    ],
+                    [
+                        "Name",
+                        "The name of the connection standard"
+                    ],
+                    [
+                        "Description",
+                        "A brief description of connection standard"
+                    ],
+                    [
+                        "ParameterTypeID",
+                        "A cross reference to the [refParameterType].[ID] field indicating the type of data stored in the value field for the default parameter type for this standard"
+                    ],
+                    [
+                        "ConnectionTypeID",
+                        "A cross reference to the [refConnectionType].[ID] field indicating the type of connector"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "ID"
+        },
+        {
+            "type": "text",
+            "data": "A unique identification for each connection standard"
+        },
+        {
+            "type": "text",
+            "data": "Name"
+        },
+        {
+            "type": "text",
+            "data": "The name of the connection standard"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "A brief description of connection standard"
+        },
+        {
+            "type": "text",
+            "data": "ParameterTypeID"
+        },
+        {
+            "type": "text",
+            "data": "A cross reference to the [refParameterType].[ID] field indicating the type of data stored in the value field for the default parameter type for this standard"
+        },
+        {
+            "type": "text",
+            "data": "ConnectionTypeID"
+        },
+        {
+            "type": "text",
+            "data": "A cross reference to the [refConnectionType].[ID] field indicating the type of connector"
+        },
+        {
+            "type": "text",
+            "data": "refConnectionType"
+        },
+        {
+            "type": "text",
+            "data": "A lookup table for Connection Types."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "ID",
+                        "A unique identifier for this record"
+                    ],
+                    [
+                        "Name",
+                        "The name of the record."
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "ID"
+        },
+        {
+            "type": "text",
+            "data": "A unique identifier for this record"
+        },
+        {
+            "type": "text",
+            "data": "Name"
+        },
+        {
+            "type": "text",
+            "data": "The name of the record."
+        },
+        {
+            "type": "text",
+            "data": "refConstructionType"
+        },
+        {
+            "type": "text",
+            "data": "A lookup table for Construction Types."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "ID",
+                        "A unique identifier for this record"
+                    ],
+                    [
+                        "Name",
+                        "The name of the record."
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "ID"
+        },
+        {
+            "type": "text",
+            "data": "A unique identifier for this record"
+        },
+        {
+            "type": "text",
+            "data": "Name"
+        },
+        {
+            "type": "text",
+            "data": "The name of the record."
+        },
+        {
+            "type": "text",
+            "data": "refDrawerQLine"
+        },
+        {
+            "type": "text",
+            "data": "A lookup table for Drawer Question Lines."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "ID",
+                        "A unique identifier for this record"
+                    ],
+                    [
+                        "Name",
+                        "The name of the record."
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "ID"
+        },
+        {
+            "type": "text",
+            "data": "A unique identifier for this record"
+        },
+        {
+            "type": "text",
+            "data": "Name"
+        },
+        {
+            "type": "text",
+            "data": "The name of the record."
+        },
+        {
+            "type": "text",
+            "data": "refDrawerStandard"
+        },
+        {
+            "type": "text",
+            "data": "This table stores the Drawer Standards."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "ID",
+                        "A unique identification for each drawer standard"
+                    ],
+                    [
+                        "Name",
+                        "The name of the drawer standard"
+                    ],
+                    [
+                        "Description",
+                        "A brief description of drawer standard"
+                    ],
+                    [
+                        "DrawerQLineID",
+                        "A cross reference to [refDrawerQLine].[ID] indicating what branch this standard applies to"
+                    ],
+                    [
+                        "ParameterTypeID",
+                        "A cross reference to the [refParameterType].[ID] field indicating the type of data stored in the value field for the default parameter type for this standard"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "ID"
+        },
+        {
+            "type": "text",
+            "data": "A unique identification for each drawer standard"
+        },
+        {
+            "type": "text",
+            "data": "Name"
+        },
+        {
+            "type": "text",
+            "data": "The name of the drawer standard"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "A brief description of drawer standard"
+        },
+        {
+            "type": "text",
+            "data": "DrawerQLineID"
+        },
+        {
+            "type": "text",
+            "data": "A cross reference to [refDrawerQLine].[ID] indicating what branch this standard applies to"
+        },
+        {
+            "type": "text",
+            "data": "ParameterTypeID"
+        },
+        {
+            "type": "text",
+            "data": "A cross reference to the [refParameterType].[ID] field indicating the type of data stored in the value field for the default parameter type for this standard"
+        },
+        {
+            "type": "text",
+            "data": "refDrawerStyle"
+        },
+        {
+            "type": "text",
+            "data": "A lookup table for Drawer Styles."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "ID",
+                        "A unique identifier for this record"
+                    ],
+                    [
+                        "Name",
+                        "The name of the record."
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "ID"
+        },
+        {
+            "type": "text",
+            "data": "A unique identifier for this record"
+        },
+        {
+            "type": "text",
+            "data": "Name"
+        },
+        {
+            "type": "text",
+            "data": "The name of the record."
+        },
+        {
+            "type": "text",
+            "data": "refIJointOperationFace"
+        },
+        {
+            "type": "text",
+            "data": "A lookup table for Intelli-Joint Operation Faces."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "ID",
+                        "A unique identifier for this record"
+                    ],
+                    [
+                        "Name",
+                        "The name of the record."
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "ID"
+        },
+        {
+            "type": "text",
+            "data": "A unique identifier for this record"
+        },
+        {
+            "type": "text",
+            "data": "Name"
+        },
+        {
+            "type": "text",
+            "data": "The name of the record."
+        },
+        {
+            "type": "text",
+            "data": "refIJointOperationType"
+        },
+        {
+            "type": "text",
+            "data": "A lookup table for Intelli-Joint Operation Types."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "ID",
+                        "A unique identifier for this record"
+                    ],
+                    [
+                        "Name",
+                        "The name of the record."
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "ID"
+        },
+        {
+            "type": "text",
+            "data": "A unique identifier for this record"
+        },
+        {
+            "type": "text",
+            "data": "Name"
+        },
+        {
+            "type": "text",
+            "data": "The name of the record."
+        },
+        {
+            "type": "text",
+            "data": "refParameterType"
+        },
+        {
+            "type": "text",
+            "data": "A lookup table for Parameter Types."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "ID",
+                        "A unique identifier for this record"
+                    ],
+                    [
+                        "Name",
+                        "The name of the record."
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "ID"
+        },
+        {
+            "type": "text",
+            "data": "A unique identifier for this record"
+        },
+        {
+            "type": "text",
+            "data": "Name"
+        },
+        {
+            "type": "text",
+            "data": "The name of the record."
+        },
+        {
+            "type": "text",
+            "data": "refShapeType"
+        },
+        {
+            "type": "text",
+            "data": "A lookup table for Shape Types."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "ID",
+                        "A unique identifier for this record"
+                    ],
+                    [
+                        "Name",
+                        "The name of the record."
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "ID"
+        },
+        {
+            "type": "text",
+            "data": "A unique identifier for this record"
+        },
+        {
+            "type": "text",
+            "data": "Name"
+        },
+        {
+            "type": "text",
+            "data": "The name of the record."
+        },
+        {
+            "type": "text",
+            "data": "refTopQLine"
+        },
+        {
+            "type": "text",
+            "data": "A lookup table for Counter Top Question Lines."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "ID",
+                        "A unique identifier for this record"
+                    ],
+                    [
+                        "Name",
+                        "The name of the record."
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "ID"
+        },
+        {
+            "type": "text",
+            "data": "A unique identifier for this record"
+        },
+        {
+            "type": "text",
+            "data": "Name"
+        },
+        {
+            "type": "text",
+            "data": "The name of the record."
+        },
+        {
+            "type": "text",
+            "data": "refTopStandard"
+        },
+        {
+            "type": "text",
+            "data": "This table stores the Counter Top Standards."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "ID",
+                        "A unique identification for each top standard"
+                    ],
+                    [
+                        "Name",
+                        "The name of the top standard"
+                    ],
+                    [
+                        "Description",
+                        "A brief description of the standard"
+                    ],
+                    [
+                        "TopQLineID",
+                        "A cross reference to [refTopQLine].[ID] indicating what branch this standard applies to"
+                    ],
+                    [
+                        "ParameterTypeID",
+                        "A cross reference to the [refParameterType].[ID] field indicating the type of data stored in the value field for the default parameter type for this standard"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "ID"
+        },
+        {
+            "type": "text",
+            "data": "A unique identification for each top standard"
+        },
+        {
+            "type": "text",
+            "data": "Name"
+        },
+        {
+            "type": "text",
+            "data": "The name of the top standard"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "A brief description of the standard"
+        },
+        {
+            "type": "text",
+            "data": "TopQLineID"
+        },
+        {
+            "type": "text",
+            "data": "A cross reference to [refTopQLine].[ID] indicating what branch this standard applies to"
+        },
+        {
+            "type": "text",
+            "data": "ParameterTypeID"
+        },
+        {
+            "type": "text",
+            "data": "A cross reference to the [refParameterType].[ID] field indicating the type of data stored in the value field for the default parameter type for this standard"
+        },
+        {
+            "type": "text",
+            "data": "refUCSAssemblyClass"
+        },
+        {
+            "type": "text",
+            "data": "A lookup table for UCS Assembly Classes."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "ID",
+                        "A unique identifier for this record"
+                    ],
+                    [
+                        "Name",
+                        "The name of the record."
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "ID"
+        },
+        {
+            "type": "text",
+            "data": "A unique identifier for this record"
+        },
+        {
+            "type": "text",
+            "data": "Name"
+        },
+        {
+            "type": "text",
+            "data": "The name of the record."
+        },
+        {
+            "type": "text",
+            "data": "refUCSAssemblyType"
+        },
+        {
+            "type": "text",
+            "data": "A lookup table for UCS Assembly Types."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "ID",
+                        "A unique identifier for this record"
+                    ],
+                    [
+                        "Name",
+                        "The name of the record."
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "ID"
+        },
+        {
+            "type": "text",
+            "data": "A unique identifier for this record"
+        },
+        {
+            "type": "text",
+            "data": "Name"
+        },
+        {
+            "type": "text",
+            "data": "The name of the record."
+        },
+        {
+            "type": "text",
+            "data": "refUCSConstructionType"
+        },
+        {
+            "type": "text",
+            "data": "A lookup table for UCS Construction Types."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "ID",
+                        "A unique identifier for this record"
+                    ],
+                    [
+                        "Name",
+                        "The name of the record."
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "ID"
+        },
+        {
+            "type": "text",
+            "data": "A unique identifier for this record"
+        },
+        {
+            "type": "text",
+            "data": "Name"
+        },
+        {
+            "type": "text",
+            "data": "The name of the record."
+        },
+        {
+            "type": "text",
+            "data": "refUCSEndType"
+        },
+        {
+            "type": "text",
+            "data": "A lookup table for UCS End Types."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "ID",
+                        "A unique identifier for this record"
+                    ],
+                    [
+                        "Name",
+                        "The name of the record."
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "ID"
+        },
+        {
+            "type": "text",
+            "data": "A unique identifier for this record"
+        },
+        {
+            "type": "text",
+            "data": "Name"
+        },
+        {
+            "type": "text",
+            "data": "The name of the record."
+        },
+        {
+            "type": "text",
+            "data": "refUCSLinkToClass"
+        },
+        {
+            "type": "text",
+            "data": "A lookup table for UCS Link To Class."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "ID",
+                        "A unique identifier for this record"
+                    ],
+                    [
+                        "Name",
+                        "The name of the record."
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "ID"
+        },
+        {
+            "type": "text",
+            "data": "A unique identifier for this record"
+        },
+        {
+            "type": "text",
+            "data": "Name"
+        },
+        {
+            "type": "text",
+            "data": "The name of the record."
+        },
+        {
+            "type": "text",
+            "data": "refUCSLinkToType"
+        },
+        {
+            "type": "text",
+            "data": "A lookup table for UCS Link To Types."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "ID",
+                        "A unique identifier for this record"
+                    ],
+                    [
+                        "Name",
+                        "The name of the record."
+                    ],
+                    [
+                        "UCSLinkToClassID",
+                        "A cross reference to [refUCSLinkToClass].[ID] indicating what class of object this item links to."
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "ID"
+        },
+        {
+            "type": "text",
+            "data": "A unique identifier for this record"
+        },
+        {
+            "type": "text",
+            "data": "Name"
+        },
+        {
+            "type": "text",
+            "data": "The name of the record."
+        },
+        {
+            "type": "text",
+            "data": "UCSLinkToClassID"
+        },
+        {
+            "type": "text",
+            "data": "A cross reference to [refUCSLinkToClass].[ID] indicating what class of object this item links to."
+        },
+        {
+            "type": "text",
+            "data": "refUCSObjectType"
+        },
+        {
+            "type": "text",
+            "data": "A lookup table for UCS Object Types."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "ID",
+                        "A unique identifier for this record"
+                    ],
+                    [
+                        "Name",
+                        "The name of the record."
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "ID"
+        },
+        {
+            "type": "text",
+            "data": "A unique identifier for this record"
+        },
+        {
+            "type": "text",
+            "data": "Name"
+        },
+        {
+            "type": "text",
+            "data": "The name of the record."
+        },
+        {
+            "type": "text",
+            "data": "refUCSOperatorType"
+        },
+        {
+            "type": "text",
+            "data": "A lookup table for UCS Operator\u00a0Types."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "ID",
+                        "A unique identifier for this record"
+                    ],
+                    [
+                        "Name",
+                        "The name of the record."
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "ID"
+        },
+        {
+            "type": "text",
+            "data": "A unique identifier for this record"
+        },
+        {
+            "type": "text",
+            "data": "Name"
+        },
+        {
+            "type": "text",
+            "data": "The name of the record."
+        },
+        {
+            "type": "text",
+            "data": "refUCSParameterType"
+        },
+        {
+            "type": "text",
+            "data": "A lookup table for UCS Parameter Types."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "ID",
+                        "A unique identifier for this record"
+                    ],
+                    [
+                        "Name",
+                        "The name of the record."
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "ID"
+        },
+        {
+            "type": "text",
+            "data": "A unique identifier for this record"
+        },
+        {
+            "type": "text",
+            "data": "Name"
+        },
+        {
+            "type": "text",
+            "data": "The name of the record."
+        },
+        {
+            "type": "text",
+            "data": "refUCSType"
+        },
+        {
+            "type": "text",
+            "data": "A lookup table for UCS Types."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "ID",
+                        "A unique identifier for this record"
+                    ],
+                    [
+                        "Name",
+                        "The name of the record."
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "ID"
+        },
+        {
+            "type": "text",
+            "data": "A unique identifier for this record"
+        },
+        {
+            "type": "text",
+            "data": "Name"
+        },
+        {
+            "type": "text",
+            "data": "The name of the record."
+        },
+        {
+            "type": "text",
+            "data": "refUCSVariableType"
+        },
+        {
+            "type": "text",
+            "data": "A lookup table for UCS Variable Types."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "ID",
+                        "A unique identifier for this record"
+                    ],
+                    [
+                        "Name",
+                        "The name of the record."
+                    ],
+                    [
+                        "Tag",
+                        "The tag used in code to identify the variable type"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "ID"
+        },
+        {
+            "type": "text",
+            "data": "A unique identifier for this record"
+        },
+        {
+            "type": "text",
+            "data": "Name"
+        },
+        {
+            "type": "text",
+            "data": "The name of the record."
+        },
+        {
+            "type": "text",
+            "data": "Tag"
+        },
+        {
+            "type": "text",
+            "data": "The tag used in code to identify the variable type"
+        },
+        {
+            "type": "text",
+            "data": "refUnitOfMeasure"
+        },
+        {
+            "type": "text",
+            "data": "A lookup table for Unit of Measure."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "ID",
+                        "A unique identifier for this record"
+                    ],
+                    [
+                        "Name",
+                        "The name of the record."
+                    ],
+                    [
+                        "Symbol",
+                        "The symbol used to abbreviate the unit of measure"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "ID"
+        },
+        {
+            "type": "text",
+            "data": "A unique identifier for this record"
+        },
+        {
+            "type": "text",
+            "data": "Name"
+        },
+        {
+            "type": "text",
+            "data": "The name of the record."
+        },
+        {
+            "type": "text",
+            "data": "Symbol"
+        },
+        {
+            "type": "text",
+            "data": "The symbol used to abbreviate the unit of measure"
+        },
+        {
+            "type": "text",
+            "data": "UCS"
+        },
+        {
+            "type": "text",
+            "data": "This table stores the User Created Standards."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "ID",
+                        "A unique number used to reference the UCS."
+                    ],
+                    [
+                        "Ordinal",
+                        "Represents the order that the UCS runs in. This is also the order that the UCS's are displayed in the UCS Editor."
+                    ],
+                    [
+                        "Name",
+                        "The Name of the UCS."
+                    ],
+                    [
+                        "UCSTypeID",
+                        "A cross reference to [refUCSType].[ID] indicating the type of UCS: 1 = An Add Part UCS, 2 = A Modify Part UCS, 3 = A Delete Part UCS"
+                    ],
+                    [
+                        "UCSOnectTypeID",
+                        "A cross reference to [refUCSObjectType].[ID] indicating a PartID=1, IJointID=2, Dovetail ToolID=3, Door=4, DrwFrnt=5, Dado=6, HBore=7, VBore=8"
+                    ],
+                    [
+                        "ObjectGUID",
+                        "A Part, Tool or IJoint GUID based on the UCSObjectTypeID"
+                    ],
+                    [
+                        "UCSLinkToTypeID",
+                        "A cross reference to [refUCSLinkToType].[ID] indicating object type the Added Part (UcsTypeID=1) is linked to"
+                    ],
+                    [
+                        "LinkToGUID",
+                        "A cross reference to the [CxMaterials].[Part].[rGUID] of the part this object is linked to"
+                    ],
+                    [
+                        "AssemblyName",
+                        "Represents the assembly Name chosen for the UCS. Wildcards * and ? are allowed."
+                    ],
+                    [
+                        "PartMaterialGUID",
+                        "Represents the Material selected for the Part in the UCS. Cross referenced to [CxMaterials].[Material].[rGUID]"
+                    ],
+                    [
+                        "PartDisplay",
+                        "A boolean flag set true if the Part is to be displayed graphically."
+                    ],
+                    [
+                        "LibraryPart",
+                        "The location of the Library Part called in the UCS."
+                    ],
+                    [
+                        "Code",
+                        "The actual coding that makes up the UCS."
+                    ],
+                    [
+                        "CodeModified",
+                        "A boolean flag set true if the UCS has been manually modified."
+                    ],
+                    [
+                        "Disabled",
+                        "A boolean flag set true if the UCS has been disabled."
+                    ],
+                    [
+                        "PreBuild",
+                        "A boolean flag set true if the UCS should be applied prior to build."
+                    ],
+                    [
+                        "Lic",
+                        "Licensing data to required to unlock standard."
+                    ],
+                    [
+                        "rGUID",
+                        "A global unique identification for the user created standard"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "ID"
+        },
+        {
+            "type": "text",
+            "data": "A unique number used to reference the UCS."
+        },
+        {
+            "type": "text",
+            "data": "Ordinal"
+        },
+        {
+            "type": "text",
+            "data": "Represents the order that the UCS runs in. This is also the order that the UCS's are displayed in the UCS Editor."
+        },
+        {
+            "type": "text",
+            "data": "Name"
+        },
+        {
+            "type": "text",
+            "data": "The Name of the UCS."
+        },
+        {
+            "type": "text",
+            "data": "UCSTypeID"
+        },
+        {
+            "type": "text",
+            "data": "A cross reference to [refUCSType].[ID] indicating the type of UCS: 1 = An Add Part UCS, 2 = A Modify Part UCS, 3 = A Delete Part UCS"
+        },
+        {
+            "type": "text",
+            "data": "UCSOnectTypeID"
+        },
+        {
+            "type": "text",
+            "data": "A cross reference to [refUCSObjectType].[ID] indicating a PartID=1, IJointID=2, Dovetail ToolID=3, Door=4, DrwFrnt=5, Dado=6, HBore=7, VBore=8"
+        },
+        {
+            "type": "text",
+            "data": "ObjectGUID"
+        },
+        {
+            "type": "text",
+            "data": "A Part, Tool or IJoint GUID based on the UCSObjectTypeID"
+        },
+        {
+            "type": "text",
+            "data": "UCSLinkToTypeID"
+        },
+        {
+            "type": "text",
+            "data": "A cross reference to [refUCSLinkToType].[ID] indicating object type the Added Part (UcsTypeID=1) is linked to"
+        },
+        {
+            "type": "text",
+            "data": "LinkToGUID"
+        },
+        {
+            "type": "text",
+            "data": "A cross reference to the [CxMaterials].[Part].[rGUID] of the part this object is linked to"
+        },
+        {
+            "type": "text",
+            "data": "AssemblyName"
+        },
+        {
+            "type": "text",
+            "data": "Represents the assembly Name chosen for the UCS. Wildcards * and ? are allowed."
+        },
+        {
+            "type": "text",
+            "data": "PartMaterialGUID"
+        },
+        {
+            "type": "text",
+            "data": "Represents the Material selected for the Part in the UCS. Cross referenced to [CxMaterials].[Material].[rGUID]"
+        },
+        {
+            "type": "text",
+            "data": "PartDisplay"
+        },
+        {
+            "type": "text",
+            "data": "A boolean flag set true if the Part is to be displayed graphically."
+        },
+        {
+            "type": "text",
+            "data": "LibraryPart"
+        },
+        {
+            "type": "text",
+            "data": "The location of the Library Part called in the UCS."
+        },
+        {
+            "type": "text",
+            "data": "Code"
+        },
+        {
+            "type": "text",
+            "data": "The actual coding that makes up the UCS."
+        },
+        {
+            "type": "text",
+            "data": "CodeModified"
+        },
+        {
+            "type": "text",
+            "data": "A boolean flag set true if the UCS has been manually modified."
+        },
+        {
+            "type": "text",
+            "data": "Disabled"
+        },
+        {
+            "type": "text",
+            "data": "A boolean flag set true if the UCS has been disabled."
+        },
+        {
+            "type": "text",
+            "data": "PreBuild"
+        },
+        {
+            "type": "text",
+            "data": "A boolean flag set true if the UCS should be applied prior to build."
+        },
+        {
+            "type": "text",
+            "data": "Lic"
+        },
+        {
+            "type": "text",
+            "data": "Licensing data to required to unlock standard."
+        },
+        {
+            "type": "text",
+            "data": "rGUID"
+        },
+        {
+            "type": "text",
+            "data": "A global unique identification for the user created standard"
+        },
+        {
+            "type": "text",
+            "data": "UCSAssemblyClassMap"
+        },
+        {
+            "type": "text",
+            "data": "This table stores the UCS Assembly Class Map."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "ID",
+                        "A unique identification for each record."
+                    ],
+                    [
+                        "UCSID",
+                        "A cross-reference to [UCS].[ID] linking this assmbly class to a UCS."
+                    ],
+                    [
+                        "UCSAssemblyClassID",
+                        "A cross-reference to [refUCSAssemblyClass].[ID] indicating the case class selected."
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "ID"
+        },
+        {
+            "type": "text",
+            "data": "A unique identification for each record."
+        },
+        {
+            "type": "text",
+            "data": "UCSID"
+        },
+        {
+            "type": "text",
+            "data": "A cross-reference to [UCS].[ID] linking this assmbly class to a UCS."
+        },
+        {
+            "type": "text",
+            "data": "UCSAssemblyClassID"
+        },
+        {
+            "type": "text",
+            "data": "A cross-reference to [refUCSAssemblyClass].[ID] indicating the case class selected."
+        },
+        {
+            "type": "text",
+            "data": "UCSAssemblyTypeMap"
+        },
+        {
+            "type": "text",
+            "data": "This table stores the UCS Assembly Type Map."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "ID",
+                        "A unique identification for each record."
+                    ],
+                    [
+                        "UCSID",
+                        "A cross-reference to [UCS].[ID] linking this assmbly Type to a UCS."
+                    ],
+                    [
+                        "UCSAssemblyTypeID",
+                        "A cross-reference to [refUCSAssemblyType].[ID] indicating the case type selected."
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "ID"
+        },
+        {
+            "type": "text",
+            "data": "A unique identification for each record."
+        },
+        {
+            "type": "text",
+            "data": "UCSID"
+        },
+        {
+            "type": "text",
+            "data": "A cross-reference to [UCS].[ID] linking this assmbly Type to a UCS."
+        },
+        {
+            "type": "text",
+            "data": "UCSAssemblyTypeID"
+        },
+        {
+            "type": "text",
+            "data": "A cross-reference to [refUCSAssemblyType].[ID] indicating the case type selected."
+        },
+        {
+            "type": "text",
+            "data": "UCSConstructionMap"
+        },
+        {
+            "type": "text",
+            "data": "This table stores the UCS Construction Map."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "ID",
+                        "A unique identification for each record."
+                    ],
+                    [
+                        "UCSID",
+                        "A cross-reference to [UCS].[ID] linking this assmbly Type to a UCS."
+                    ],
+                    [
+                        "ConstructionID",
+                        "A reference to the ID field in either the Case, Drawer or Top table indicating a filter on which construction methods this standard applies to"
+                    ],
+                    [
+                        "UCSConstructionTypeID",
+                        "A cross-reference to [refUCSConstructionType].[ID] linking this record to a construction type"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "ID"
+        },
+        {
+            "type": "text",
+            "data": "A unique identification for each record."
+        },
+        {
+            "type": "text",
+            "data": "UCSID"
+        },
+        {
+            "type": "text",
+            "data": "A cross-reference to [UCS].[ID] linking this assmbly Type to a UCS."
+        },
+        {
+            "type": "text",
+            "data": "ConstructionID"
+        },
+        {
+            "type": "text",
+            "data": "A reference to the ID field in either the Case, Drawer or Top table indicating a filter on which construction methods this standard applies to"
+        },
+        {
+            "type": "text",
+            "data": "UCSConstructionTypeID"
+        },
+        {
+            "type": "text",
+            "data": "A cross-reference to [refUCSConstructionType].[ID] linking this record to a construction type"
+        },
+        {
+            "type": "text",
+            "data": "UCSDoorMap"
+        },
+        {
+            "type": "text",
+            "data": "This table stores the UCS Door Map."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "ID",
+                        "A unique identification for each record."
+                    ],
+                    [
+                        "UCSID",
+                        "A cross-reference to [UCS].[ID] linking this assmbly Type to a UCS."
+                    ],
+                    [
+                        "DoorGUID",
+                        "A reference to the [Doors].[rGUID] field in the door database indicating a filter on which Doors this standard applies to"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "ID"
+        },
+        {
+            "type": "text",
+            "data": "A unique identification for each record."
+        },
+        {
+            "type": "text",
+            "data": "UCSID"
+        },
+        {
+            "type": "text",
+            "data": "A cross-reference to [UCS].[ID] linking this assmbly Type to a UCS."
+        },
+        {
+            "type": "text",
+            "data": "DoorGUID"
+        },
+        {
+            "type": "text",
+            "data": "A reference to the [Doors].[rGUID] field in the door database indicating a filter on which Doors this standard applies to"
+        },
+        {
+            "type": "text",
+            "data": "UCSEnds"
+        },
+        {
+            "type": "text",
+            "data": "This table stores the UCS Ends."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "ID",
+                        "A unique identification for each record."
+                    ],
+                    [
+                        "UCSID",
+                        "A cross-reference to [UCS].[ID] linking this assmbly Type to a UCS."
+                    ],
+                    [
+                        "LeftUCSEndTypeID",
+                        "A cross-reference to [refUCSEndType].[ID] indicating the end type for the left end"
+                    ],
+                    [
+                        "LeftEndTypeValue",
+                        "The value of the radius, angle or clip for the left end"
+                    ],
+                    [
+                        "RightUCSEndTypeID",
+                        "A cross-reference to [refUCSEndType].[ID] indicating the end type for the right end"
+                    ],
+                    [
+                        "RightEndTypeValue",
+                        "The value of the radius, angle or clip for the right end"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "ID"
+        },
+        {
+            "type": "text",
+            "data": "A unique identification for each record."
+        },
+        {
+            "type": "text",
+            "data": "UCSID"
+        },
+        {
+            "type": "text",
+            "data": "A cross-reference to [UCS].[ID] linking this assmbly Type to a UCS."
+        },
+        {
+            "type": "text",
+            "data": "LeftUCSEndTypeID"
+        },
+        {
+            "type": "text",
+            "data": "A cross-reference to [refUCSEndType].[ID] indicating the end type for the left end"
+        },
+        {
+            "type": "text",
+            "data": "LeftEndTypeValue"
+        },
+        {
+            "type": "text",
+            "data": "The value of the radius, angle or clip for the left end"
+        },
+        {
+            "type": "text",
+            "data": "RightUCSEndTypeID"
+        },
+        {
+            "type": "text",
+            "data": "A cross-reference to [refUCSEndType].[ID] indicating the end type for the right end"
+        },
+        {
+            "type": "text",
+            "data": "RightEndTypeValue"
+        },
+        {
+            "type": "text",
+            "data": "The value of the radius, angle or clip for the right end"
+        },
+        {
+            "type": "text",
+            "data": "UCSIJointLocation"
+        },
+        {
+            "type": "text",
+            "data": "This table stores the UCS Intelli-Joint Location."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "ID",
+                        "A unique identification for each record."
+                    ],
+                    [
+                        "UCSID",
+                        "A cross-reference to [UCS].[ID] linking this assmbly Type to a UCS."
+                    ],
+                    [
+                        "WidthEdgeNear",
+                        "Place Intelli-Joint on the near width edge"
+                    ],
+                    [
+                        "WidthEdgeFar",
+                        "Place Intelli-Joint on the far width edge"
+                    ],
+                    [
+                        "LengthEdgeNear",
+                        "Place Intelli-Joint on the near length edge"
+                    ],
+                    [
+                        "LengthEdgeFar",
+                        "Place Intelli-Joint on the far length edge"
+                    ],
+                    [
+                        "Local",
+                        "If true Intelli-Joint scope is limited to the case it lives in. \u00a0If false it can create operation on adjacent assemblies."
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "ID"
+        },
+        {
+            "type": "text",
+            "data": "A unique identification for each record."
+        },
+        {
+            "type": "text",
+            "data": "UCSID"
+        },
+        {
+            "type": "text",
+            "data": "A cross-reference to [UCS].[ID] linking this assmbly Type to a UCS."
+        },
+        {
+            "type": "text",
+            "data": "WidthEdgeNear"
+        },
+        {
+            "type": "text",
+            "data": "Place Intelli-Joint on the near width edge"
+        },
+        {
+            "type": "text",
+            "data": "WidthEdgeFar"
+        },
+        {
+            "type": "text",
+            "data": "Place Intelli-Joint on the far width edge"
+        },
+        {
+            "type": "text",
+            "data": "LengthEdgeNear"
+        },
+        {
+            "type": "text",
+            "data": "Place Intelli-Joint on the near length edge"
+        },
+        {
+            "type": "text",
+            "data": "LengthEdgeFar"
+        },
+        {
+            "type": "text",
+            "data": "Place Intelli-Joint on the far length edge"
+        },
+        {
+            "type": "text",
+            "data": "Local"
+        },
+        {
+            "type": "text",
+            "data": "If true Intelli-Joint scope is limited to the case it lives in. \u00a0If false it can create operation on adjacent assemblies."
+        },
+        {
+            "type": "text",
+            "data": "UCSParameter"
+        },
+        {
+            "type": "text",
+            "data": "This table stores the UCS Parameters."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "ID",
+                        "A unique identification for each record."
+                    ],
+                    [
+                        "UCSID",
+                        "A cross-reference to [UCS].[ID] linking this assmbly Type to a UCS."
+                    ],
+                    [
+                        "UCSParameterTypeID",
+                        "A cross reference to [refUCSParameterType].[ID] indicating what feature in the UI this data is for"
+                    ],
+                    [
+                        "UCSOperatorTypeID",
+                        "A cross reference to [refUCSOperatorType].[ID] indicating what operator to use in the UI for this data"
+                    ],
+                    [
+                        "Name",
+                        "The parameter's name"
+                    ],
+                    [
+                        "Description",
+                        "The parameter's description"
+                    ],
+                    [
+                        "ParameterTypeID",
+                        "A cross reference to [refParameterType].[ID]"
+                    ],
+                    [
+                        "ParamValue",
+                        "The parameter's value"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "ID"
+        },
+        {
+            "type": "text",
+            "data": "A unique identification for each record."
+        },
+        {
+            "type": "text",
+            "data": "UCSID"
+        },
+        {
+            "type": "text",
+            "data": "A cross-reference to [UCS].[ID] linking this assmbly Type to a UCS."
+        },
+        {
+            "type": "text",
+            "data": "UCSParameterTypeID"
+        },
+        {
+            "type": "text",
+            "data": "A cross reference to [refUCSParameterType].[ID] indicating what feature in the UI this data is for"
+        },
+        {
+            "type": "text",
+            "data": "UCSOperatorTypeID"
+        },
+        {
+            "type": "text",
+            "data": "A cross reference to [refUCSOperatorType].[ID] indicating what operator to use in the UI for this data"
+        },
+        {
+            "type": "text",
+            "data": "Name"
+        },
+        {
+            "type": "text",
+            "data": "The parameter's name"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "The parameter's description"
+        },
+        {
+            "type": "text",
+            "data": "ParameterTypeID"
+        },
+        {
+            "type": "text",
+            "data": "A cross reference to [refParameterType].[ID]"
+        },
+        {
+            "type": "text",
+            "data": "ParamValue"
+        },
+        {
+            "type": "text",
+            "data": "The parameter's value"
+        },
+        {
+            "type": "text",
+            "data": "UCSVariable"
+        },
+        {
+            "type": "text",
+            "data": "This table stores the UCS Variables."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "ID",
+                        "A unique identification for each record."
+                    ],
+                    [
+                        "UCSID",
+                        "A cross-reference to [UCS].[ID] linking this assmbly Type to a UCS."
+                    ],
+                    [
+                        "Name",
+                        "The variable's name"
+                    ],
+                    [
+                        "Prompt",
+                        "The variable's description"
+                    ],
+                    [
+                        "VariableTypeID",
+                        "A cross reference to [refUCSVariableType].[ID] indicating the variable type"
+                    ],
+                    [
+                        "VariableValue",
+                        "The variable's value"
+                    ],
+                    [
+                        "Modified",
+                        "A boolean value set true if the variable has been assigned a value outside of the code editor"
+                    ],
+                    [
+                        "Choices",
+                        "Stores the list of choices available for this variable"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "ID"
+        },
+        {
+            "type": "text",
+            "data": "A unique identification for each record."
+        },
+        {
+            "type": "text",
+            "data": "UCSID"
+        },
+        {
+            "type": "text",
+            "data": "A cross-reference to [UCS].[ID] linking this assmbly Type to a UCS."
+        },
+        {
+            "type": "text",
+            "data": "Name"
+        },
+        {
+            "type": "text",
+            "data": "The variable's name"
+        },
+        {
+            "type": "text",
+            "data": "Prompt"
+        },
+        {
+            "type": "text",
+            "data": "The variable's description"
+        },
+        {
+            "type": "text",
+            "data": "VariableTypeID"
+        },
+        {
+            "type": "text",
+            "data": "A cross reference to [refUCSVariableType].[ID] indicating the variable type"
+        },
+        {
+            "type": "text",
+            "data": "VariableValue"
+        },
+        {
+            "type": "text",
+            "data": "The variable's value"
+        },
+        {
+            "type": "text",
+            "data": "Modified"
+        },
+        {
+            "type": "text",
+            "data": "A boolean value set true if the variable has been assigned a value outside of the code editor"
+        },
+        {
+            "type": "text",
+            "data": "Choices"
+        },
+        {
+            "type": "text",
+            "data": "Stores the list of choices available for this variable"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Specification_CxConstruction_Database.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

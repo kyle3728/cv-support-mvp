@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><link rel="stylesheet" type="text/css" href="../../../../_rhdefault.css"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=WINDOWS-1252"/>
+  <meta name="generator" content="Adobe RoboHelp 2022"/>
+  <title>Parameters</title>
+  <link rel="StyleSheet" href="../../../../assets/css/default.css" type="text/css"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/><script type="text/javascript" src="../../../../ehlpdhtm.js"></script></head>
+<body>
+  <p><span data-condition="Others:Print"><?rh-placeholder type="breadcrumbs" 
+ ph-align="2" sep-char="&gt;" home="Top" usetopicformat="1" ph-style="font-family:Arial;font-size:12pt;font-weight: normal;font-style: normal;text-decoration: none;" ?></span></p>
+  <h1><img alt="" border="0" src="../../../../assets/images/System_Level/Ribbonbar/Utilities_Tab/Tools_Group/Parameters.png" style="border: none;"/> Parameters</h1>
+  <p><img src="../../../../assets/images/System_Level/Ribbonbar/Utilities_Tab/Tools_Group/Parameters_Main_Screen.png"/></p>
+  <p>The Parameters option allows you to establish your own Custom Parameters (Attributes or Notes) or establish the default values of System Parameters (Attributes). You can use these Parameters to trigger UCS&#39;s, Object Intelligence, or add Notes. There
+    are six values set here.</p>
+  <p><span style="font-weight: bold;">Prompt -</span> This field allows you to establish a user friendly prompt or name to simplify use by other Solid users. The Prompt value will show up on the Attributes Tab at the Parameters Class (Job/Room/Cabinet) or
+    in the sidebar.</p>
+  <p style="font-weight: bold; text-decoration: underline;">Job Level Attributes Tab</p>
+  <p><img src="../../../../assets/images/image150.png"/></p>
+  <p style="font-weight: bold; text-decoration: underline;"><span>Room Level Attributes Tab</span></p>
+  <p><img src="../../../../assets/images/image151.png"/></p>
+  <p style="font-weight: bold; text-decoration: underline;">Cabinet Parameters Tab</p>
+  <p style="font-weight: bold; text-decoration: underline;"><img src="../../../../assets/images/image153.png"/></p>
+  <p style="font-weight: bold; text-decoration: underline;">Job/Room Parameter Sidebar</p>
+  <p style="font-weight: bold; text-decoration: underline;"><img src="../../../../assets/images/image154.png"/></p>
+  <p style="font-weight: bold; text-decoration: underline;">Cabinet Parameter Sidebar</p>
+  <p><img src="../../../../assets/images/image155.png"/></p>
+  <p><span style="font-weight: bold;">Parameter -</span> This is the name of the Parameter. This is the Name displayed in the Object Tree and also used by UCS&#39;s to check or set it&#39;s value. It is recommended that you prefix your Parameters with U_
+    to help differentiate between System Parameters, of course this is only a recommendation as you can name them whatever you like.</p>
+  <p><span style="font-weight: bold;">Value -</span> This is the default Value for the Parameter<span style="font-family: Arial, sans-serif; font-size: 12pt;">. You can also define a choice list of Values for selection here.</span></p>
+  <p style="margin-left: 40px; font-family: Arial, sans-serif; font-size: 12pt;"><a name="Choice_List" id="Choice_List"></a><span style="mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">The choice selection is handled through a choice list assigned to a parameter. The format of the list is a list designator &quot;<lst>&quot;, followed by choices separated by the &quot;|&quot; symbol. Each choice consists of a prompt and a value separated by the &quot;=&quot; symbol. The first choice in the list is considered the default. For example, <lst>Opt 2=2|Opt 1=1|Opt 3=3 designates a list of 3 choices with option 2 being the default. When displayed, the list will be sorted so the order after the first choice is insignificant.</lst></lst></span></p>
+  <p class="MsoNormal" style="margin-left: 40px;">Choice lists can be added to the System Parameters by typing adding a choice list for the value.</p>
+  <p class="MsoNormal" style="margin-left: 40px;"><img src="../../../../assets/images/image156.png"/></p>
+  <p style="margin-left: 40px;"> <a name="Choice_Lists_ORD" id="Choice_Lists_ORD"></a>Choice lists can be added to the Catalog Parameters by typing adding a choice list for the value.</p>
+  <p style="margin-left: 40px;"><img src="../../../../assets/images/image157.png"/></p>
+  <p class="MsoNormal" style="margin-left: 40px;"> </p>
+  <p class="MsoNormal" style="margin-left: 80px;">Choice lists are imported/exported in the ORD files.</p>
+  <p class="MsoNormal" style="margin-left: 80px;">[Parameters]</p>
+  <p style="margin-left: 80px;"><span style="font-size: 11.0pt; font-family: Calibri, sans-serif; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">Attribute=&quot;Stock&quot;,&quot;_CATCH&quot;,&quot;int&quot;,2,</span>    <span style="color: #ff0000;">&quot; <lst>Choice 1=1|Choice 2=2|Choice 3=3&quot;</lst> </span></p>
+  <p style="margin-left: 40px;"><a name="Choice_Lists_UCS" id="Choice_Lists_UCS"></a>Choice lists can be added via UCS by typing a choice list for the value.</p>
+  <p style="margin-left: 80px; color: #00ff00; margin-top: 0px; margin-bottom: 0px;">;Add a choice list through a UCS</p>
+  <p style="margin-left: 80px; color: #00ff00; margin-top: 0px; margin-bottom: 0px;"> </p>
+  <p style="margin-left: 80px; margin-top: 0px; margin-bottom: 0px;"><span style="color: #0000ff;">For Each</span> LF|RF Part</p>
+  <p style="margin-left: 80px; margin-top: 0px; margin-bottom: 0px;"> </p>
+  <p style="margin-left: 80px; margin-top: 0px; margin-bottom: 0px;"><span style="color: #0000ff;">If</span> _UCSLST = <span style="color: #0000ff;">null Then</span></p>
+  <p style="margin-left: 120px; margin-top: 0px; margin-bottom: 0px;">_UCSLST<span style="color: #ff0000;">&lt;</span>int<span style="color: #ff0000;">&gt; =</span> <span style="color: #000080;">&#39;</span><span style="color: #ff0000;">&lt;</span>lst<span style="color: #ff0000;">&gt;</span>Val 2<span style="color: #ff0000;">=</span>2
+    <span style="color: #000080;">|</span>Val 1<span style="color: #ff0000;">=</span>1<span style="color: #000080;">|</span>Val 3<span style="color: #ff0000;">=</span>3&#39;</p>
+  <p style="margin-left: 120px; margin-top: 0px; margin-bottom: 0px;">_UCSLST<span style="color: #ff0000;">&lt;</span>style<span style="color: #ff0000;">&gt; =</span> 1</p>
+  <p style="margin-left: 120px; margin-top: 0px; margin-bottom: 0px;">_UCSLST<span style="color: #ff0000;">&lt;</span>desc<span style="color: #ff0000;">&gt; =</span> <span style="color: #800080;">&#39;UCS&#39;</span></p>
+  <p style="margin-left: 80px; color: #0000ff; margin-top: 0px; margin-bottom: 0px;">End If</p>
+  <p style="margin-left: 40px; mso-fareast-theme-font: minor-latin;"><span style="mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;"><a name="Choice_List_Parameter_Editor" id="Choice_List_Parameter_Editor"></a>Choice lists can be added manually through the Parameter Editor. The top item in the list will be the default.</span></p>
+  <p style="margin-left: 40px; font-size: 11.0pt; font-family: Calibri, sans-serif; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin;"><img src="../../../../assets/images/image158.png"/></p>
+  <p style="margin-left: 40px;">I<span style="font-family: Arial, sans-serif;">f an Attribute parameter has a choice list, the list will be offered in the sidebar in place of the standard edit field.</span></p>
+  <p style="margin-left: 40px; font-family: Arial, sans-serif;"><img src="../../../../assets/images/image159.png"/></p>
+  <p style="margin-left: 40px; font-family: Arial, sans-serif; font-size: 12pt; mso-fareast-font-family: Calibri;"><span style="mso-fareast-theme-font: minor-latin; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">If an Note parameter has a choice list, the list will be offered in the Note tab in the object properties.</span></p>
+  <p style="margin-left: 40px; font-family: Arial, sans-serif; font-size: 12pt; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-ansi-language: EN-US; mso-fareast-language: EN-US;"><img alt="" border="0" src="../../../../assets/images/image4935.gif" style="border: none;"/></p>
+  <p style="margin-left: 40px; font-family: Arial, sans-serif; font-size: 12pt; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">If a System parameter choice list is modified, the list will be updated in Job objects when the &quot;<a href="../../../../Room_Level/Ribbonbar/Utilities_Tab/RL_Update_Job.htm">Update Job</a>&quot; utility is run.</p>
+  <p><span style="font-weight: bold;"><a name="Type" id="Type"></a>Type -</span> Allows you to specify the Values type. The choices are Measurement, Degrees, Integer, Boolean (True/False), Decimal, or Text.</p>
+  <p><span style="font-weight: bold;">Class -</span> This allows you to specify which Level the Parameter will be placed in. The choices are Job, Room, Cabinets, Base Cabinet, Wall Cabinet, Tall Cabinet, Vanity, Closets, Closet Standard, Closet Shelf (Horizontal),
+    or Closet Panel (Vertical).</p>
+  <p><span style="font-weight: bold;"><a name="Style" id="Style"></a>Style</span> - This option allows you to specify whether the Parameter is defining an Attribute or a Note. A Parameter defined as a Note will add a Notes tab to the Class level it is defined
+    for. These Notes can be called up and utilized in CAD Tables and CAD Text Lookups.</p>
+
+</body></html>

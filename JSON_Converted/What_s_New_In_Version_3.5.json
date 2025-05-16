@@ -1,0 +1,237 @@
+{
+    "id": "22a0cd61-2466-4a0b-95b9-542897f1d474",
+    "title": "What_s_New_In_Version_3.5",
+    "content": [
+        {
+            "type": "text",
+            "data": "What's New in Solid Version 3.5"
+        },
+        {
+            "type": "text",
+            "data": "Assembly Level"
+        },
+        {
+            "type": "text",
+            "data": "Shaped Doors"
+        },
+        {
+            "type": "text",
+            "data": "Shaped Doors"
+        },
+        {
+            "type": "text",
+            "data": "Shaped Doors"
+        },
+        {
+            "type": "text",
+            "data": "Assembly Wizard"
+        },
+        {
+            "type": "text",
+            "data": "Leg Levelers"
+        },
+        {
+            "type": "text",
+            "data": "Leg Levelers"
+        },
+        {
+            "type": "text",
+            "data": "Leg Levelers"
+        },
+        {
+            "type": "text",
+            "data": "CAD"
+        },
+        {
+            "type": "text",
+            "data": "Radius CAD Dimension \n \n \n Diameter CAD Dimension \n \n \n Angular CAD Dimension \n \n \n Angular Tailed CAD Dimension \n \n \n Tailed Option for Standard CAD Dimensions \n \n \n CAD Layers"
+        },
+        {
+            "type": "text",
+            "data": "Radius CAD Dimension"
+        },
+        {
+            "type": "text",
+            "data": "Radius CAD Dimension"
+        },
+        {
+            "type": "text",
+            "data": "Diameter CAD Dimension"
+        },
+        {
+            "type": "text",
+            "data": "Diameter CAD Dimension"
+        },
+        {
+            "type": "text",
+            "data": "Angular CAD Dimension"
+        },
+        {
+            "type": "text",
+            "data": "Angular CAD Dimension"
+        },
+        {
+            "type": "text",
+            "data": "Angular Tailed CAD Dimension"
+        },
+        {
+            "type": "text",
+            "data": "Angular Tailed CAD Dimension"
+        },
+        {
+            "type": "text",
+            "data": "Tailed Option for Standard CAD Dimensions"
+        },
+        {
+            "type": "text",
+            "data": "Tailed Option for Standard CAD Dimensions"
+        },
+        {
+            "type": "text",
+            "data": "CAD Layers"
+        },
+        {
+            "type": "text",
+            "data": "CAD Layers"
+        },
+        {
+            "type": "text",
+            "data": "Doors"
+        },
+        {
+            "type": "text",
+            "data": "MDF Doormaker Add-On Introduced \n \n \n Bend Door Preview in Door Catalog \n \n \n Edit Door Material Schedules in Door Catalog \n \n \n Redesigned Door Catalog Door Sectioning \n \n \n Shape Top and Bottom Rails in Door Catalog \n \n \n Define ToolSets as Door Profiles"
+        },
+        {
+            "type": "text",
+            "data": "MDF Doormaker Add-On Introduced"
+        },
+        {
+            "type": "text",
+            "data": "MDF Doormaker Add-On Introduced"
+        },
+        {
+            "type": "text",
+            "data": "Bend Door Preview in Door Catalog"
+        },
+        {
+            "type": "text",
+            "data": "Bend Door Preview in Door Catalog"
+        },
+        {
+            "type": "text",
+            "data": "Edit Door Material Schedules in Door Catalog"
+        },
+        {
+            "type": "text",
+            "data": "Edit Door Material Schedules in Door Catalog"
+        },
+        {
+            "type": "text",
+            "data": "Redesigned Door Catalog Door Sectioning"
+        },
+        {
+            "type": "text",
+            "data": "Redesigned Door Catalog Door Sectioning"
+        },
+        {
+            "type": "text",
+            "data": "Shape Top and Bottom Rails in Door Catalog"
+        },
+        {
+            "type": "text",
+            "data": "Shape Top and Bottom Rails in Door Catalog"
+        },
+        {
+            "type": "text",
+            "data": "Define ToolSets as Door Profiles"
+        },
+        {
+            "type": "text",
+            "data": "Define ToolSets as Door Profiles"
+        },
+        {
+            "type": "text",
+            "data": "General"
+        },
+        {
+            "type": "text",
+            "data": "Define Dimension Styles \n \n \n Link to Factory"
+        },
+        {
+            "type": "text",
+            "data": "Define Dimension Styles"
+        },
+        {
+            "type": "text",
+            "data": "Define Dimension Styles"
+        },
+        {
+            "type": "text",
+            "data": "Link to Factory"
+        },
+        {
+            "type": "text",
+            "data": "Link to Factory"
+        },
+        {
+            "type": "text",
+            "data": "Job Properties"
+        },
+        {
+            "type": "text",
+            "data": "Exposed Interior Material Schedules"
+        },
+        {
+            "type": "text",
+            "data": "Exposed Interior Material Schedules"
+        },
+        {
+            "type": "text",
+            "data": "Exposed Interior Material Schedules"
+        },
+        {
+            "type": "text",
+            "data": "Layers"
+        },
+        {
+            "type": "text",
+            "data": "Introduced Layer Schedules"
+        },
+        {
+            "type": "text",
+            "data": "Introduced Layer Schedules"
+        },
+        {
+            "type": "text",
+            "data": "Introduced Layer Schedules"
+        },
+        {
+            "type": "text",
+            "data": "Layout (Room) Level"
+        },
+        {
+            "type": "text",
+            "data": "Decorative Legs \n \n \n Refrigerator Boxed Ends"
+        },
+        {
+            "type": "text",
+            "data": "Decorative Legs"
+        },
+        {
+            "type": "text",
+            "data": "Decorative Legs"
+        },
+        {
+            "type": "text",
+            "data": "Refrigerator Boxed Ends"
+        },
+        {
+            "type": "text",
+            "data": "Refrigerator Boxed Ends"
+        }
+    ],
+    "source_file": "CVEnglish\\Introduction\\Whats_New_Previous_Versions\\What_s_New_In_Version_3.5.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

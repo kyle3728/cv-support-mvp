@@ -1,0 +1,55 @@
+{
+    "id": "58efc97e-b80e-4847-9b04-ca6f3616548b",
+    "title": "DC_Associated_Doors_Tab",
+    "content": [
+        {
+            "type": "text",
+            "data": "Associated Doors"
+        },
+        {
+            "type": "text",
+            "data": "Click on the Tabs below for more information on them"
+        },
+        {
+            "type": "image",
+            "data": "image3973.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Doors that should change Construction style based on pre-determined size requirements or conditions require Associated Doors. Look at the tab for Associated Doors, and note the radial pattern of the Doors around the current Door in the center. If a design change is required when the current Door reaches a predetermined dimension, the new Door must be placed in the appropriate box. If the Door is to change to a Mid Rail construction above 32 inches, then a Door should be designed with a Mid Rail, and that design should be placed in the box above the current Door, and 32 inches must be entered in the data box between the two Doors."
+        },
+        {
+            "type": "text",
+            "data": "For example I have a square raised panel Door and I would normally not make this Door any less in height than 8 inches. Because the Top Rail is 2 inches, the Bottom Rail is 2 inches, my raised panel detail is 1 \u00bc inches all around, and I would want a flat area on the panels of no less than 1 \u00bd inches wide. This all adds up to 8 inches if I make the Door any less than 8 inches in height it gets dangerous to run the panel on my shaper."
+        },
+        {
+            "type": "text",
+            "data": "So using the Associated Door tab I have set a size limit of 8 inches for the height and the width. When I am in a Job and the Door becomes less than 8 inches in height or width, CABINET VISION will automatically replace the square raised panel Door with a solid wood Door that I have in my Door Catalog. I have also set a size limit of 32 inches for the height. When I am in a job and the Door becomes taller than 32 inches CABINET VISION will automatically replace the Door with a Double Panel Door that I have in my Door Catalog."
+        },
+        {
+            "type": "text",
+            "data": "Mirrored Doors"
+        },
+        {
+            "type": "text",
+            "data": "In situations where the left and right Doors should mirror each other, use the mirrored door feature in the Associated Doors tab of the Door Catalog Editor."
+        },
+        {
+            "type": "image",
+            "data": "image3974.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "To use this feature:"
+        },
+        {
+            "type": "text",
+            "data": "Simply create both the Left and Right versions of the Door. Then select the left Door and click the Associated Doors Tab. At the bottom left side of the Associated Doors tab, click on the icon that represents the right Door and select the appropriate right Door from the Door catalog. When you choose the left Door as your default Door in a Job, the Right Door will thereafter be used when right hinging is called for."
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\DC_Associated_Doors_Tab.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

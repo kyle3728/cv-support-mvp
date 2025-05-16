@@ -1,0 +1,77 @@
+{
+    "id": "60825775-fa10-4b23-9f7b-b38f8b87dd94",
+    "title": "WoodWop_4",
+    "content": [
+        {
+            "type": "text",
+            "data": "WoodWop 4"
+        },
+        {
+            "type": "text",
+            "data": "This is a Parts Router and/or Point-to-Point Link."
+        },
+        {
+            "type": "text",
+            "data": "WoodWop version 4 does not support Tool Compensation for saws. All saw tools should be set to output Center Line paths. Routers can be output with Tool Compensation. The following information from the Tool Catalog can not be used by WoodWop 4 and is therefore ignored: Feed Rate, Descent Rate, Maximum Depth Per Pass. Layer names will be generated automatically to the default settings:"
+        },
+        {
+            "type": "text",
+            "data": "Panel Dimensions: S_ + Part Thickness \n \n \n Routing: FK + Distance Off Table + T + Tool Number + Tool Comp \n \n \n Grooving Operations: NZ + Depth \n \n \n Vertical Boring: ZG + Depth \n \n \n Vertical Through Boring: ZD + Depth \n \n \n Horizontal Boring: HO + Z Position"
+        },
+        {
+            "type": "text",
+            "data": "Panel Dimensions: S_ + Part Thickness"
+        },
+        {
+            "type": "text",
+            "data": "Panel Dimensions: S_ + Part Thickness"
+        },
+        {
+            "type": "text",
+            "data": "Routing: FK + Distance Off Table + T + Tool Number + Tool Comp"
+        },
+        {
+            "type": "text",
+            "data": "Routing: FK + Distance Off Table + T + Tool Number + Tool Comp"
+        },
+        {
+            "type": "text",
+            "data": "Grooving Operations: NZ + Depth"
+        },
+        {
+            "type": "text",
+            "data": "Grooving Operations: NZ + Depth"
+        },
+        {
+            "type": "text",
+            "data": "Vertical Boring: ZG + Depth"
+        },
+        {
+            "type": "text",
+            "data": "Vertical Boring: ZG + Depth"
+        },
+        {
+            "type": "text",
+            "data": "Vertical Through Boring: ZD + Depth"
+        },
+        {
+            "type": "text",
+            "data": "Vertical Through Boring: ZD + Depth"
+        },
+        {
+            "type": "text",
+            "data": "Horizontal Boring: HO + Z Position"
+        },
+        {
+            "type": "text",
+            "data": "Horizontal Boring: HO + Z Position"
+        },
+        {
+            "type": "text",
+            "data": "Tool selection for routing is made by Tool Number. Be sure to have accurate tool numbers for all routers in the Tool Catalog. Tool selection for boring is made by a size match between the tool and the operation. This output will create a JobName_40.bat file that can be used to automate the process of running BPP and converting the DXF files to the WoodWop file format."
+        }
+    ],
+    "source_file": "NCEnglish\\Ribbonbar\\Main_Tab\\Machine\\NC_Links\\Parts_Router_P-2-P_Links\\WoodWop_4.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

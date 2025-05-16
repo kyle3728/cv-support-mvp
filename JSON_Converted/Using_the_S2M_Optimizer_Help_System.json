@@ -1,0 +1,142 @@
+{
+    "id": "d47e9041-d267-4231-88fa-993ff8f4e176",
+    "title": "Using_the_S2M_Optimizer_Help_System",
+    "content": [
+        {
+            "type": "text",
+            "data": "About S2M Optimizer Help"
+        },
+        {
+            "type": "text",
+            "data": "Thank you for choosing the S2M Optimizer by Vero Software, Ltd. These help files were created in order to make your experience with this product more enjoyable and productive. We welcome your feedback so please let us know if you find this information useful by emailing us at tech@cabinetvision.com."
+        },
+        {
+            "type": "text",
+            "data": "The format of these Help files should closely follow the layout of the S2M Optimizer itself. Also, you may press the F1 key on your keyboard to see help on the current window."
+        },
+        {
+            "type": "text",
+            "data": "In order to get the most from using the S2M Optimizer help files, it is important to first know some terms of communication that will be used throughout the Help System."
+        },
+        {
+            "type": "text",
+            "data": "First, any time that you are to navigate through menus to perform a certain function, the menu sequence will appear as follows:"
+        },
+        {
+            "type": "text",
+            "data": "Main | Help | Help Topics"
+        },
+        {
+            "type": "text",
+            "data": "This tells you that you should click on the  Main   tab , then click on  Help , and finally, click on  Help Topics  in order to get to the specified location."
+        },
+        {
+            "type": "image",
+            "data": "Help_Topics.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Secondly, it is important to understand the terminology used in describing movements and clicks of the mouse."
+        },
+        {
+            "type": "text",
+            "data": "On a mouse with the typical configuration, the left button is used as a Select tool. \u00a0The right button is used as an alternate select tool. \u00a0Some mice have a third button or a wheel."
+        },
+        {
+            "type": "text",
+            "data": "With this typical configuration, if you see the word  \"click\"  used in these help files, that means to click one time with the left mouse button on the object specified. \u00a0A  \"double-click\"  means to click two times in relatively rapid succession on the item or object specified. \u00a0A  \"right-click\"  means to click one time with the right mouse button on the object specified. \u00a0Also, you will be asked to  \"drag\"  objects with the mouse at certain times. \u00a0This means that you will hold the mouse over the specified object, click and hold the left mouse button, then move the mouse while still holding the left button until you reach the area that you were instructed to move the object to. \u00a0Some objects may be  \"dropped\"  by simply letting go of the left mouse button. \u00a0Other objects must be  \"dropped\"  by clicking again when you reach the destination. \u00a0This will be something that you will simply have to practice in order to master."
+        },
+        {
+            "type": "text",
+            "data": "Third, when describing buttons on the keyboard, they will appear as images like this:"
+        },
+        {
+            "type": "image",
+            "data": "enter_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "If there is a sequence of buttons that need to be pressed, it will appear as follows:"
+        },
+        {
+            "type": "text",
+            "data": "+   +"
+        },
+        {
+            "type": "image",
+            "data": "ctrl_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "alt_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "delete.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The above keys must all be pressed in the sequence displayed and each remain depressed until the last key press is performed to get the desired result."
+        },
+        {
+            "type": "text",
+            "data": "Next, the help files will sometimes refer to  \"pull down\"  or  \"drop down\"  menus. \u00a0Those are both the same type of menu and will be evidenced by an arrow to the right of the selections that you will click on to expand the choices. \u00a0Here is an example:"
+        },
+        {
+            "type": "image",
+            "data": "image9.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "When you click on the arrow to expand the menu, you will see this:"
+        },
+        {
+            "type": "image",
+            "data": "image7.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Also, as you navigate through the help files, you will see pictures of many of the windows and wizards that appear in the S2M Center. Many of the tabs and menu items in the pictures may be clicked on to show a more detailed explanation of that feature. Click on the ribbonbar options in the picture below for an example:"
+        },
+        {
+            "type": "image",
+            "data": "Parts_Main_Tab.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "You will also see links to other topics in the help files. A link will appear like this: \u00a0 click here ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "click here",
+                "uuid": "d47e9041-d267-4231-88fa-993ff8f4e176",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Context Sensitive Help"
+        },
+        {
+            "type": "text",
+            "data": "As you navigate through the S2M Center, you can press   for tips."
+        },
+        {
+            "type": "image",
+            "data": "f1_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "NCEnglish_Optimizer\\Introduction\\Using_the_S2M_Optimizer_Help_System.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

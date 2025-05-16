@@ -1,0 +1,30 @@
+{
+    "id": "bf19ab70-be5f-4ee4-93f3-0f9200852f80",
+    "title": "Measure",
+    "content": [
+        {
+            "type": "text",
+            "data": "Measure"
+        },
+        {
+            "type": "text",
+            "data": "The Measure option, used in conjunction with  Snaps , \n is available for use in determining the dimension of, or distance between \n Parts."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Snaps",
+                "uuid": "46426343-c52a-43c8-bacd-6ff9abbc7f3a",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image195.gif",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "NCEnglish_Optimizer\\Ribbonbar\\Main_Tab\\Measure.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

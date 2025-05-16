@@ -1,0 +1,347 @@
+{
+    "id": "c3fd876a-6226-4895-9ffd-8a6839ef1e51",
+    "title": "Shaping_the_Corbel",
+    "content": [
+        {
+            "type": "text",
+            "data": "Shaping the Corbel"
+        },
+        {
+            "type": "text",
+            "data": "Now that you have created the corbel and given the parts intelligence you may wish to shape board@3 so it looks more like a corbel. When you shape anything in Solid and then later change the size of the object that was shaped, the shape will distort.\n    In order to control the shape and not have it distort you must \"constrain\" certain entities which make up the shape. The following exercises are designed to teach you how to shape a part and constrain it so that the shape doesn't distort."
+        },
+        {
+            "type": "image",
+            "data": "image3201.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "For the first exercise in shaping a part we will take the above corbel and shape it to look like the following corbel."
+        },
+        {
+            "type": "image",
+            "data": "image3200.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "If you are not already at the Assembly Level, right click on your corbel and select \"Edit\"."
+        },
+        {
+            "type": "text",
+            "data": "Click on the End   ortho view tab. \n \n \n Right click on Board@3 and select \"Edit Shape\"."
+        },
+        {
+            "type": "text",
+            "data": "Click on the End   ortho view tab."
+        },
+        {
+            "type": "text",
+            "data": "Click on the End   ortho view tab."
+        },
+        {
+            "type": "image",
+            "data": "image183.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Right click on Board@3 and select \"Edit Shape\"."
+        },
+        {
+            "type": "text",
+            "data": "Right click on Board@3 and select \"Edit Shape\"."
+        },
+        {
+            "type": "text",
+            "data": "You would not use the \"Edit Shape\" button in the sidebar, because you would be shaping the entire object or assembly. We have\n    not given the parts any intelligence for changing shape when the assembly changes shape, so shaping the entire assembly would have no effect on any of the parts."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The first thing you want to do is add some reference lines to use to create the clip. We want the clip to start and end at 2 inches. So, use the  Modify | Offset  option to offset the top and back lines in 2\n        inches."
+        },
+        {
+            "type": "text",
+            "data": "The first thing you want to do is add some reference lines to use to create the clip. We want the clip to start and end at 2 inches. So, use the  Modify | Offset  option to offset the top and back lines in 2\n        inches."
+        },
+        {
+            "type": "text",
+            "data": "The first thing you want to do is add some reference lines to use to create the clip. We want the clip to start and end at 2 inches. So, use the  Modify | Offset  option to offset the top and back lines in 2\n        inches."
+        },
+        {
+            "type": "image",
+            "data": "image3185.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Now that you have your reference lines in place make sure that \"Snap to Points\"   is enabled. \n \n \n Next, select the  Drawing | Line  option. \n \n \n Next, with the Line options active, select the front end point of the top reference line."
+        },
+        {
+            "type": "text",
+            "data": "Now that you have your reference lines in place make sure that \"Snap to Points\"   is enabled."
+        },
+        {
+            "type": "text",
+            "data": "Now that you have your reference lines in place make sure that \"Snap to Points\"   is enabled."
+        },
+        {
+            "type": "image",
+            "data": "image2888.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Next, select the  Drawing | Line  option."
+        },
+        {
+            "type": "text",
+            "data": "Next, select the  Drawing | Line  option."
+        },
+        {
+            "type": "text",
+            "data": "Next, with the Line options active, select the front end point of the top reference line."
+        },
+        {
+            "type": "text",
+            "data": "Next, with the Line options active, select the front end point of the top reference line."
+        },
+        {
+            "type": "image",
+            "data": "image3186.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Then the bottom end point of the back reference line."
+        },
+        {
+            "type": "text",
+            "data": "Then the bottom end point of the back reference line."
+        },
+        {
+            "type": "text",
+            "data": "Then the bottom end point of the back reference line."
+        },
+        {
+            "type": "image",
+            "data": "image3187.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Now you can see you have your clip in place. So you can now get rid of the reference lines using the  Modify | Delete  option. \n \n \n To establish your new Part perimeter you will need to trim away the unnecessary portions of the Part's shape using the  Modify | Trim Delete  option. \n \n \n Simply click the portions of the Part shape you do not need."
+        },
+        {
+            "type": "text",
+            "data": "Now you can see you have your clip in place. So you can now get rid of the reference lines using the  Modify | Delete  option."
+        },
+        {
+            "type": "text",
+            "data": "Now you can see you have your clip in place. So you can now get rid of the reference lines using the  Modify | Delete  option."
+        },
+        {
+            "type": "text",
+            "data": "To establish your new Part perimeter you will need to trim away the unnecessary portions of the Part's shape using the  Modify | Trim Delete  option."
+        },
+        {
+            "type": "text",
+            "data": "To establish your new Part perimeter you will need to trim away the unnecessary portions of the Part's shape using the  Modify | Trim Delete  option."
+        },
+        {
+            "type": "text",
+            "data": "Simply click the portions of the Part shape you do not need."
+        },
+        {
+            "type": "text",
+            "data": "Simply click the portions of the Part shape you do not need."
+        },
+        {
+            "type": "image",
+            "data": "image3188.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "To confirm that your shape is fully enclosed select the  Shape | Check Shape  option. Notice after running Check Shape that all of the lines that make up the Part's perimeter are Green. This indicates the\n        Part shape is complete with no errors and that you are good to go."
+        },
+        {
+            "type": "text",
+            "data": "To confirm that your shape is fully enclosed select the  Shape | Check Shape  option. Notice after running Check Shape that all of the lines that make up the Part's perimeter are Green. This indicates the\n        Part shape is complete with no errors and that you are good to go."
+        },
+        {
+            "type": "text",
+            "data": "To confirm that your shape is fully enclosed select the  Shape | Check Shape  option. Notice after running Check Shape that all of the lines that make up the Part's perimeter are Green. This indicates the\n        Part shape is complete with no errors and that you are good to go."
+        },
+        {
+            "type": "image",
+            "data": "image3189.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "So now you have the basic shape of the part, you can click the Return option to Save it."
+        },
+        {
+            "type": "text",
+            "data": "So now you have the basic shape of the part, you can click the Return option to Save it."
+        },
+        {
+            "type": "text",
+            "data": "So now you have the basic shape of the part, you can click the Return option to Save it."
+        },
+        {
+            "type": "text",
+            "data": "Now you already have intelligence added to the parts, so that when the object is re-sized the parts will re-size themselves too. And, now you have just changed the shape on the middle part so that it looks like you want it to. So, now test everything\n    by changing the size of the object and then look to see how everything reacts."
+        },
+        {
+            "type": "text",
+            "data": "Here is an example of what happens to the shape when you change the size of the Object. You can see that the 2\" offset we wanted is not being held when you change the size of the Object. So you need to Constrain certain portions of the shape to\n    prevent this from happening."
+        },
+        {
+            "type": "image",
+            "data": "image3190.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Return the Object to the standard size and return to the Assembly Level End Ortho View   and then right click this part and select\n        Edit. \n \n \n From a Front Face View   at the  Part Level  click the Edit Shape button in the sidebar to add some Constraints to\n        the Shaped Part."
+        },
+        {
+            "type": "text",
+            "data": "Return the Object to the standard size and return to the Assembly Level End Ortho View   and then right click this part and select\n        Edit."
+        },
+        {
+            "type": "text",
+            "data": "Return the Object to the standard size and return to the Assembly Level End Ortho View   and then right click this part and select\n        Edit."
+        },
+        {
+            "type": "image",
+            "data": "image183.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "From a Front Face View   at the  Part Level  click the Edit Shape button in the sidebar to add some Constraints to\n        the Shaped Part."
+        },
+        {
+            "type": "text",
+            "data": "From a Front Face View   at the  Part Level  click the Edit Shape button in the sidebar to add some Constraints to\n        the Shaped Part."
+        },
+        {
+            "type": "image",
+            "data": "image3585.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "We only need to add simple Constraints to the lines we wish to remain at 2\"."
+        },
+        {
+            "type": "text",
+            "data": "Select the topmost 2\" Line."
+        },
+        {
+            "type": "text",
+            "data": "Select the topmost 2\" Line."
+        },
+        {
+            "type": "text",
+            "data": "Select the topmost 2\" Line."
+        },
+        {
+            "type": "image",
+            "data": "image3195.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "For Start Y in the sidebar select the Lock Top option."
+        },
+        {
+            "type": "text",
+            "data": "For Start Y in the sidebar select the Lock Top option."
+        },
+        {
+            "type": "text",
+            "data": "For Start Y in the sidebar select the Lock Top option."
+        },
+        {
+            "type": "image",
+            "data": "image3586.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Select the bottommost 2\" Line."
+        },
+        {
+            "type": "text",
+            "data": "Select the bottommost 2\" Line."
+        },
+        {
+            "type": "text",
+            "data": "Select the bottommost 2\" Line."
+        },
+        {
+            "type": "image",
+            "data": "image3197.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "For End X in the sidebar select the Lock Left option."
+        },
+        {
+            "type": "text",
+            "data": "For End X in the sidebar select the Lock Left option."
+        },
+        {
+            "type": "text",
+            "data": "For End X in the sidebar select the Lock Left option."
+        },
+        {
+            "type": "image",
+            "data": "image3587.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Click the Return option to Save your Shape changes. \n \n \n Now that you have Constrained your shaped part, click the Return option to go back to the Room Level and test the shape by changing the size of the object again."
+        },
+        {
+            "type": "text",
+            "data": "Click the Return option to Save your Shape changes."
+        },
+        {
+            "type": "text",
+            "data": "Click the Return option to Save your Shape changes."
+        },
+        {
+            "type": "text",
+            "data": "Now that you have Constrained your shaped part, click the Return option to go back to the Room Level and test the shape by changing the size of the object again."
+        },
+        {
+            "type": "text",
+            "data": "Now that you have Constrained your shaped part, click the Return option to go back to the Room Level and test the shape by changing the size of the object again."
+        },
+        {
+            "type": "text",
+            "data": "You can see here the Part is sized and shaped properly."
+        },
+        {
+            "type": "image",
+            "data": "image3199.gif",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\Parametric_Editing\\Intelligence_Workshop\\5th_Exercise\\Shaping_the_Corbel.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

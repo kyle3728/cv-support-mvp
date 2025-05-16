@@ -1,0 +1,82 @@
+{
+    "id": "7a8df42f-8364-4894-9231-81c8f24abd64",
+    "title": "SLAW_The_Branches",
+    "content": [
+        {
+            "type": "text",
+            "data": "The Branches"
+        },
+        {
+            "type": "text",
+            "data": "Depending on the Construction Style selected there are five possible Main Branches in the Assembly Manager."
+        },
+        {
+            "type": "image",
+            "data": "image500.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Face Frame"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Face Frame",
+                "uuid": "8f59ef2e-0b95-4a40-a7e0-a9d36e5e2195",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Interior Case"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Interior Case",
+                "uuid": "53c6e181-a84f-4239-b5ed-656d7a312776",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Exterior Case"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Exterior Case",
+                "uuid": "2a3e8318-dae2-4522-9814-f7b1bde65ca3",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Operations"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Operations",
+                "uuid": "cb3e19fa-2c7a-4b60-aa37-377b6adc542a",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Connection"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Connection",
+                "uuid": "190e20aa-379a-4917-a647-6ad47f825039",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\System_Level\\Ribbonbar\\Main_Tab\\Construction_Group\\Assembly_Manager\\Assembly\\Branches\\SLAW_The_Branches.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

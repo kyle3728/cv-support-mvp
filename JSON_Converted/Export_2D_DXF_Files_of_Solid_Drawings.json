@@ -1,0 +1,69 @@
+{
+    "id": "2aa1c390-0497-4fc9-894c-f9a114d64409",
+    "title": "Export_2D_DXF_Files_of_Solid_Drawings",
+    "content": [
+        {
+            "type": "text",
+            "data": "Export 2D DXF Files of CABINET VISION Drawings"
+        },
+        {
+            "type": "text",
+            "data": "Is it possible to export 2D DXF files of CABINET VISION drawings?"
+        },
+        {
+            "type": "text",
+            "data": "Yes..."
+        },
+        {
+            "type": "text",
+            "data": "When looking at the Elevation view, right click and select the \"To Drawing\" option. \n \n \n Go to the Drawings area, make sure page is blank, then drag the new Scene on the page. \n \n \n Go to  Utilities | Export DXF . \n \n \n Choose a location for the file, name it, and save it."
+        },
+        {
+            "type": "text",
+            "data": "When looking at the Elevation view, right click and select the \"To Drawing\" option."
+        },
+        {
+            "type": "text",
+            "data": "When looking at the Elevation view, right click and select the \"To Drawing\" option."
+        },
+        {
+            "type": "text",
+            "data": "Go to the Drawings area, make sure page is blank, then drag the new Scene on the page."
+        },
+        {
+            "type": "text",
+            "data": "Go to the Drawings area, make sure page is blank, then drag the new Scene on the page."
+        },
+        {
+            "type": "text",
+            "data": "Go to  Utilities | Export DXF ."
+        },
+        {
+            "type": "text",
+            "data": "Go to  Utilities | Export DXF ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Utilities | Export DXF",
+                "uuid": "2713ec0d-2443-49e1-86a5-92fc3e867a92",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Choose a location for the file, name it, and save it."
+        },
+        {
+            "type": "text",
+            "data": "Choose a location for the file, name it, and save it."
+        },
+        {
+            "type": "text",
+            "data": "Be careful with the name that you use for the \"Room\" when setting up the Job. If you use certain punctuation marks like \"/,\\,.\" your 3rd party CAD application may not open them."
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\FAQs\\HDI-Presentation\\Export_2D_DXF_Files_of_Solid_Drawings.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

@@ -1,0 +1,45 @@
+{
+    "id": "73fd5a21-724f-49b5-8d15-2283d60c8ea9",
+    "title": "Mayer_PC7000_controller",
+    "content": [
+        {
+            "type": "text",
+            "data": "Mayer PC7000 controller"
+        },
+        {
+            "type": "text",
+            "data": "This is a  Panel Saw  Link."
+        },
+        {
+            "type": "text",
+            "data": "This link is for Mayer saws with the PC7000 controller."
+        },
+        {
+            "type": "text",
+            "data": "Recommended Settings"
+        },
+        {
+            "type": "text",
+            "data": "Strip sort = Descending"
+        },
+        {
+            "type": "text",
+            "data": "Parts in Strip Sort = Descending"
+        },
+        {
+            "type": "text",
+            "data": "If Set origin to bottom left = Yes"
+        },
+        {
+            "type": "text",
+            "data": "Strip sort = Ascending"
+        },
+        {
+            "type": "text",
+            "data": "Parts in Strip Sort = Descending"
+        }
+    ],
+    "source_file": "NCEnglish\\Ribbonbar\\Main_Tab\\Machine\\NC_Links\\Saw_Links\\Mayer_PC7000_controller.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

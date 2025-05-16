@@ -1,0 +1,21 @@
+{
+    "id": "6307c0b9-142e-4945-91a7-88dbb521d482",
+    "title": "Intelli-CAM_-_Parts_Full_Outline_(Mirror)",
+    "content": [
+        {
+            "type": "text",
+            "data": "Intelli-CAM - Parts Full Outline (Mirror)"
+        },
+        {
+            "type": "text",
+            "data": "This is a Parts Router and/or Point-to-Point Link."
+        },
+        {
+            "type": "text",
+            "data": "Intelli-CAM - Parts Full Outline (Mirror) - This is the preferred method if your Parts were cut on a Panel Saw oversized and you want to make a perimeter clean-up cut on the Part and take advantage of Mirroring."
+        }
+    ],
+    "source_file": "NCEnglish\\Ribbonbar\\Main_Tab\\Machine\\NC_Links\\Parts_Router_P-2-P_Links\\Intelli-CAM_-_Parts_Full_Outline_(Mirror).htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

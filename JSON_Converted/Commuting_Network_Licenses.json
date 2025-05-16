@@ -1,0 +1,109 @@
+{
+    "id": "b7d8867d-52d7-40d0-bf62-5255ebee301e",
+    "title": "Commuting_Network_Licenses",
+    "content": [
+        {
+            "type": "text",
+            "data": "Commuting Network Licenses"
+        },
+        {
+            "type": "text",
+            "data": "A commuted license can be used to work on your PC when you are not connected \n to the network for a period of time. You cannot use a commuted license \n on a PC that already has a standalone license."
+        },
+        {
+            "type": "text",
+            "data": "If you wish to commute licenses to a PC that is not or has never been \n connected to the network, please refer to the Commuting Network Licenses \n Remotely topic."
+        },
+        {
+            "type": "text",
+            "data": "Commuting Licenses"
+        },
+        {
+            "type": "text",
+            "data": "From the CV Splash Screen Utilities \n\t tab open the  License Manager . \n Ensure the server you want to commute \n\t a license from is highlighted. \n Right-click on the server and select \n\t Commute Configured Licenses. If you have Optional licenses configured \n\t you will be asked if you want to commute them. \n \n The Commute License dialog is displayed, \n\t\t showing the licenses to be commuted. Until commuted, their status \n\t\t is shown as 'Pending'. Note that you will see an additional license \n\t\t (Commute License) in the list; this is automatically added by \n\t\t the system. \n Note that you can select individual \n\t\t licenses for commuting from the Server Details list. \n \n Type in the number of days you wish \n\t to commute the licenses for. The maximum number you can commute licenses \n\t for is 30 days. \n Click Commute to commute the licenses, \n\t followed by OK and Close. \n \n You are now asked if you want to \n\t\t change to using the commuted licenses. If you say No you will \n\t\t need to change to the Commuter license when you are ready. To \n\t\t do this, select Commuter in the server list and click Change Active \n\t\t Server."
+        },
+        {
+            "type": "text",
+            "data": "From the CV Splash Screen Utilities \n\t tab open the  License Manager ."
+        },
+        {
+            "type": "text",
+            "data": "From the CV Splash Screen Utilities \n\t tab open the  License Manager ."
+        },
+        {
+            "type": "text",
+            "data": "Ensure the server you want to commute \n\t a license from is highlighted."
+        },
+        {
+            "type": "text",
+            "data": "Ensure the server you want to commute \n\t a license from is highlighted."
+        },
+        {
+            "type": "text",
+            "data": "Right-click on the server and select \n\t Commute Configured Licenses. If you have Optional licenses configured \n\t you will be asked if you want to commute them. \n \n The Commute License dialog is displayed, \n\t\t showing the licenses to be commuted. Until commuted, their status \n\t\t is shown as 'Pending'. Note that you will see an additional license \n\t\t (Commute License) in the list; this is automatically added by \n\t\t the system. \n Note that you can select individual \n\t\t licenses for commuting from the Server Details list."
+        },
+        {
+            "type": "text",
+            "data": "Right-click on the server and select \n\t Commute Configured Licenses. If you have Optional licenses configured \n\t you will be asked if you want to commute them."
+        },
+        {
+            "type": "text",
+            "data": "The Commute License dialog is displayed, \n\t\t showing the licenses to be commuted. Until commuted, their status \n\t\t is shown as 'Pending'. Note that you will see an additional license \n\t\t (Commute License) in the list; this is automatically added by \n\t\t the system. \n Note that you can select individual \n\t\t licenses for commuting from the Server Details list."
+        },
+        {
+            "type": "text",
+            "data": "The Commute License dialog is displayed, \n\t\t showing the licenses to be commuted. Until commuted, their status \n\t\t is shown as 'Pending'. Note that you will see an additional license \n\t\t (Commute License) in the list; this is automatically added by \n\t\t the system."
+        },
+        {
+            "type": "text",
+            "data": "The Commute License dialog is displayed, \n\t\t showing the licenses to be commuted. Until commuted, their status \n\t\t is shown as 'Pending'. Note that you will see an additional license \n\t\t (Commute License) in the list; this is automatically added by \n\t\t the system."
+        },
+        {
+            "type": "text",
+            "data": "Note that you can select individual \n\t\t licenses for commuting from the Server Details list."
+        },
+        {
+            "type": "text",
+            "data": "Note that you can select individual \n\t\t licenses for commuting from the Server Details list."
+        },
+        {
+            "type": "text",
+            "data": "Type in the number of days you wish \n\t to commute the licenses for. The maximum number you can commute licenses \n\t for is 30 days."
+        },
+        {
+            "type": "text",
+            "data": "Type in the number of days you wish \n\t to commute the licenses for. The maximum number you can commute licenses \n\t for is 30 days."
+        },
+        {
+            "type": "text",
+            "data": "Click Commute to commute the licenses, \n\t followed by OK and Close. \n \n You are now asked if you want to \n\t\t change to using the commuted licenses. If you say No you will \n\t\t need to change to the Commuter license when you are ready. To \n\t\t do this, select Commuter in the server list and click Change Active \n\t\t Server."
+        },
+        {
+            "type": "text",
+            "data": "Click Commute to commute the licenses, \n\t followed by OK and Close."
+        },
+        {
+            "type": "text",
+            "data": "You are now asked if you want to \n\t\t change to using the commuted licenses. If you say No you will \n\t\t need to change to the Commuter license when you are ready. To \n\t\t do this, select Commuter in the server list and click Change Active \n\t\t Server."
+        },
+        {
+            "type": "text",
+            "data": "You are now asked if you want to \n\t\t change to using the commuted licenses. If you say No you will \n\t\t need to change to the Commuter license when you are ready. To \n\t\t do this, select Commuter in the server list and click Change Active \n\t\t Server."
+        },
+        {
+            "type": "text",
+            "data": "You are now asked if you want to \n\t\t change to using the commuted licenses. If you say No you will \n\t\t need to change to the Commuter license when you are ready. To \n\t\t do this, select Commuter in the server list and click Change Active \n\t\t Server."
+        },
+        {
+            "type": "text",
+            "data": "Once a license has been commuted it will not be available to anybody \n else until the commute time is up or the license is returned manually \n to the server."
+        },
+        {
+            "type": "text",
+            "data": "For further information please refer to the License Manager help."
+        }
+    ],
+    "source_file": "CVEnglish\\System_Level\\Ribbonbar\\Utilities_Tab\\License_Manager\\Network_Licenses\\Commuting_Network_Licenses.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

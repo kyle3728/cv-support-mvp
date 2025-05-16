@@ -1,0 +1,162 @@
+{
+    "id": "e77723fc-c176-4e92-b2c2-9283b999204e",
+    "title": "AW_Deck",
+    "content": [
+        {
+            "type": "text",
+            "data": "Deck"
+        },
+        {
+            "type": "text",
+            "data": "Typically, \"Deck\" is reserved for the 'bottom' of a Base\u00a0Cabinet, where the 'bottom' of an Upper\u00a0Cabinet is referred to as the Bottom."
+        },
+        {
+            "type": "image",
+            "data": "image351.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The following diagrams show the options available in the Deck Branch. Click a specific option in the diagram for more information or continue through this topic for information on all the options."
+        },
+        {
+            "type": "image",
+            "data": "image352.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Deck/Bottom Banding Definition (Standard #676)"
+        },
+        {
+            "type": "image",
+            "data": "image353.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Deck/Bottom\u00a0Grain (Standard #549)"
+        },
+        {
+            "type": "image",
+            "data": "image354.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Deck/Bottom placement To Bottom Rail (Standard #135)"
+        },
+        {
+            "type": "image",
+            "data": "image362.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Deck/Bottom Placement to Case (Standard #586)"
+        },
+        {
+            "type": "image",
+            "data": "image355.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Notch Deck/Bottom for Sub-frame (Standard #9)"
+        },
+        {
+            "type": "text",
+            "data": "There is an Assembly Wizard option for notching the Deck on a Cabinet with a sub frame."
+        },
+        {
+            "type": "image",
+            "data": "image363.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "In the Cabinet pictured below, the center section has had a  Sub-Frame  applied."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Sub-Frame",
+                "uuid": "d5798fa1-f857-4958-aff7-14147c7d5964",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image147.bmp",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "For the Cabinet above, with the Construction Method\u00a0option selected to notch the Deck on a recessed Frame Cabinet set to Yes, the picture below represents the resulting deck shape."
+        },
+        {
+            "type": "image",
+            "data": "image148.bmp",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Delete Deck/Bottom On Drawer Bank (Standard #012)"
+        },
+        {
+            "type": "text",
+            "data": "You have the option to set up your Construction Method to remove the Deck from a Drawer Bank Cabinet."
+        },
+        {
+            "type": "image",
+            "data": "image356.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Deck/Bottom Finished Side Orientation (Standard #136)"
+        },
+        {
+            "type": "text",
+            "data": "For Decks/Bottoms, you have the ability to determine the Material face orientation if you are using  2 sided Materials  for the Bottom of a Cabinet. You can select whether the \"good side\" faces up or down. Remember to add break outs if needed for the different Classes of Cabinets."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "2 sided Materials",
+                "uuid": "6fa50f67-fbf8-4e66-9990-50a8dc9482a8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image357.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Deck/Bottom Grain Alignment (Standard #137)"
+        },
+        {
+            "type": "text",
+            "data": "Here you have the ability to specify Grain Alignment for Bottoms on 45 Corner Cabinets just like with Shelves."
+        },
+        {
+            "type": "image",
+            "data": "image358.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Deck/Bottom Machining Face (Standard #574)"
+        },
+        {
+            "type": "image",
+            "data": "image360.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\System_Level\\Ribbonbar\\Main_Tab\\Construction_Group\\Assembly_Manager\\Assembly\\Branches\\Exterior_Case\\AW_Deck.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

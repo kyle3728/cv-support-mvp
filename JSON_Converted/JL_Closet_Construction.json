@@ -1,0 +1,73 @@
+{
+    "id": "cd600a0c-84d0-4a7f-87c0-3025cde7d745",
+    "title": "JL_Closet_Construction",
+    "content": [
+        {
+            "type": "text",
+            "data": "Closet Construction"
+        },
+        {
+            "type": "image",
+            "data": "AllClosets.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Click on the Categories or Tabs below for more information"
+        },
+        {
+            "type": "image",
+            "data": "Construction.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This tab allows a Construction Method to be selected for  Closets ,  Drawer Boxes , and  Roll Outs  in your Job."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Closets",
+                "uuid": "e4cbc02a-f458-4c6d-8725-3c8322a55d94",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Drawer Boxes",
+                "uuid": "0ce090fb-3d1d-400c-bbed-a30c2e8f2fa7",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Roll Outs",
+                "uuid": "0ce090fb-3d1d-400c-bbed-a30c2e8f2fa7",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Clicking the Modify for This Job button allows you to modify the Construction Method specifically for this Job."
+        },
+        {
+            "type": "image",
+            "data": "image4942.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The options here are the same as at the System Level with the exception of the Save As System Construction button. This option allows you to Replace an existing or Create a new System Level Construction Method with your modifications."
+        },
+        {
+            "type": "image",
+            "data": "image4943.gif",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\JL_Closet_Construction.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

@@ -1,0 +1,78 @@
+{
+    "id": "a0e75136-f423-42e8-92a3-9d53f6e45ab6",
+    "title": "Other_CAD_Importers",
+    "content": [
+        {
+            "type": "text",
+            "data": "Other CAD Importers"
+        },
+        {
+            "type": "text",
+            "data": "The DXF Import utility has some predefined DXF Layer Schemes you can utilize depending upon what CAD application you are using to generate your DXF's. There are six pre-defined Layer Schemes provided which are setup to match your CAD applications\n    default output however each can be modified to suit your needs."
+        },
+        {
+            "type": "text",
+            "data": "Default"
+        },
+        {
+            "type": "text",
+            "data": "A generic sample you can modify to suit your custom needs. This one and any new ones you create will be this style and require that you set the Open File Type to DXF files (*.dxf) when importing your DXF's."
+        },
+        {
+            "type": "image",
+            "data": "image261.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Blum Dynaplan (BXF)"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Blum Dynaplan (BXF)",
+                "uuid": "14988b2b-caf4-4d95-b403-d2b3925cc8c9",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "KAB-NX"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "KAB-NX",
+                "uuid": "7c5ba3b2-261a-4891-bde2-406ab0b364ad",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "KCDw"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "KCDw",
+                "uuid": "73227a85-2fea-42d4-b512-627b2342af6f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Pattern Systems"
+        },
+        {
+            "type": "text",
+            "data": "S2M Part List"
+        },
+        {
+            "type": "text",
+            "data": "SmartLister"
+        }
+    ],
+    "source_file": "NCEnglish\\Ribbonbar\\Main_Tab\\Import_DXF\\Other_CAD_Importers\\Other_CAD_Importers.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

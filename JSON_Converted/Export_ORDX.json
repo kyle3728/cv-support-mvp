@@ -1,0 +1,22 @@
+{
+    "id": "b4f57b7e-344e-423d-87d5-122b81863937",
+    "title": "Export_ORDX",
+    "content": [
+        {
+            "type": "text",
+            "data": "Export ORDX"
+        },
+        {
+            "type": "image",
+            "data": "image1273.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option allows you to export the current Assembly list to an ORDX XML file for import into a 3rd party application."
+        }
+    ],
+    "source_file": "CVEnglish_Cabinetmaker\\Room_Level\\Ribbonbar\\Utilities_Tab\\Export_ORDX.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

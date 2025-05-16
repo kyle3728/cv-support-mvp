@@ -1,0 +1,22 @@
+{
+    "id": "274b50eb-d65e-45a7-9216-bf4ae4ee8ffa",
+    "title": "NC_Center_Patterns_Section",
+    "content": [
+        {
+            "type": "text",
+            "data": "S2M Center Patterns Section"
+        },
+        {
+            "type": "text",
+            "data": "Click the sidebar or pattern display area below for more information"
+        },
+        {
+            "type": "image",
+            "data": "AC_Pattern_View.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "NCEnglish\\Ribbonbar\\Main_Tab\\S2M_for_Alphacam\\Sidebar\\Optimize\\Patterns_View\\NC_Center_Patterns_Section.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

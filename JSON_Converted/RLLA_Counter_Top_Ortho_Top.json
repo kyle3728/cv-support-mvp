@@ -1,0 +1,26 @@
+{
+    "id": "1f831c54-2098-4c4d-803c-2e69eaddbc56",
+    "title": "RLLA_Counter_Top_Ortho_Top",
+    "content": [
+        {
+            "type": "text",
+            "data": "Counter Top Ortho Top"
+        },
+        {
+            "type": "image",
+            "data": "image317.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Following are the Layers that can be edited:"
+        },
+        {
+            "type": "text",
+            "data": "Dimensions"
+        }
+    ],
+    "source_file": "CVEnglish\\Room_Level\\Ribbonbar\\Main_Tab\\View_Group\\Layers\\Assemblies-General\\RLLA_Counter_Top_Ortho_Top.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

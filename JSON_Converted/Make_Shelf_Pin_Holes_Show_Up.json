@@ -1,0 +1,29 @@
+{
+    "id": "e413716d-0a72-494d-90c5-9057cf6e0b87",
+    "title": "Make_Shelf_Pin_Holes_Show_Up",
+    "content": [
+        {
+            "type": "text",
+            "data": "Make Shelf Pin Holes Show Up"
+        },
+        {
+            "type": "text",
+            "data": "I am designing a Job that is Frameless. The Shelf Pin Holes on the end panels are not showing up. Whats wrong?"
+        },
+        {
+            "type": "text",
+            "data": "Change the Construction Style to 32mm, instead of Frameless, in the  Assembly Manager for your Construction Method."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Assembly Manager",
+                "uuid": "e4cbc02a-f458-4c6d-8725-3c8322a55d94",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\FAQs\\HDI-Advanced_Features\\Make_Shelf_Pin_Holes_Show_Up.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

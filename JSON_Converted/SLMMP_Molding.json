@@ -1,0 +1,285 @@
+{
+    "id": "21675ddf-9180-45f7-8c97-4823c35d6be9",
+    "title": "SLMMP_Molding",
+    "content": [
+        {
+            "type": "text",
+            "data": "Molding"
+        },
+        {
+            "type": "text",
+            "data": "This topic covers all the Properties for the Molding Material Type. The\u00a0 Molding Material Type is designed specifically for buy-out Molding that has a SKU that covers all its properties. So Crown 123 in Oak 10' long has the SKU C123OAK10. If you are ordering your Molding that way then the Molding Material Type is designed specifically for you."
+        },
+        {
+            "type": "text",
+            "data": "Molding you manufature should be defined in the  Molding Manager \u00a0and have a simple Board Stock Material instead assigned to it."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Molding Manager",
+                "uuid": "f10529ba-0568-4858-98c8-258ccf936097",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "Molding_Material_Props.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Material Group"
+        },
+        {
+            "type": "text",
+            "data": "Previously covered in the  Banding Material Type  topic."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Banding Material Type",
+                "uuid": "a7630d33-1a29-4e4d-b54e-e6b16c30e227",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Molding Group"
+        },
+        {
+            "type": "image",
+            "data": "Molding_Molding_Props.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Type -  Type defines the style of Molding as one of the following Molding Types:"
+        },
+        {
+            "type": "text",
+            "data": "Crown \n \n \n Top Edging \n \n \n Scribe \n \n \n Light Rail \n \n \n Scribe \n \n \n Base Board \n \n \n Chair Rail \n \n \n Casing \n \n \n Applied \n \n \n Ceiling \n \n \n Bead"
+        },
+        {
+            "type": "text",
+            "data": "Crown"
+        },
+        {
+            "type": "text",
+            "data": "Crown"
+        },
+        {
+            "type": "text",
+            "data": "Top Edging"
+        },
+        {
+            "type": "text",
+            "data": "Top Edging"
+        },
+        {
+            "type": "text",
+            "data": "Scribe"
+        },
+        {
+            "type": "text",
+            "data": "Scribe"
+        },
+        {
+            "type": "text",
+            "data": "Light Rail"
+        },
+        {
+            "type": "text",
+            "data": "Light Rail"
+        },
+        {
+            "type": "text",
+            "data": "Scribe"
+        },
+        {
+            "type": "text",
+            "data": "Scribe"
+        },
+        {
+            "type": "text",
+            "data": "Base Board"
+        },
+        {
+            "type": "text",
+            "data": "Base Board"
+        },
+        {
+            "type": "text",
+            "data": "Chair Rail"
+        },
+        {
+            "type": "text",
+            "data": "Chair Rail"
+        },
+        {
+            "type": "text",
+            "data": "Casing"
+        },
+        {
+            "type": "text",
+            "data": "Casing"
+        },
+        {
+            "type": "text",
+            "data": "Applied"
+        },
+        {
+            "type": "text",
+            "data": "Applied"
+        },
+        {
+            "type": "text",
+            "data": "Ceiling"
+        },
+        {
+            "type": "text",
+            "data": "Ceiling"
+        },
+        {
+            "type": "text",
+            "data": "Bead"
+        },
+        {
+            "type": "text",
+            "data": "Bead"
+        },
+        {
+            "type": "text",
+            "data": "Length -  Defines the Length of the Molding."
+        },
+        {
+            "type": "text",
+            "data": "Cost Per Joint -  Defines the price you charge for each joint."
+        },
+        {
+            "type": "text",
+            "data": "Miter Trim -  Defines the amount you compensate for the Moldings Length at each Miter."
+        },
+        {
+            "type": "text",
+            "data": "When using a Molding Material Type within the Job the use of the Molding will be optimized to choose the best Lengths of Moldings available. It is highly recommended to setup  Aliases  for your Moldings which include all of the Lengths you buy your Moldings in."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Aliases",
+                "uuid": "b7d7e9de-30be-4964-a4a2-b7ba5680ae3d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Layer Group"
+        },
+        {
+            "type": "text",
+            "data": "Previously covered in the  Banding Material Type  topic."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Banding Material Type",
+                "uuid": "a7630d33-1a29-4e4d-b54e-e6b16c30e227",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Alias Properties"
+        },
+        {
+            "type": "text",
+            "data": "Name \n \n \n Description \n \n \n Vendor \n \n \n Default Cost \n \n \n Sell Price \n \n \n Default Markup \n \n \n Sales Tax \n \n \n Default Tax Rate \n \n \n Length"
+        },
+        {
+            "type": "text",
+            "data": "Name"
+        },
+        {
+            "type": "text",
+            "data": "Name"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "Vendor"
+        },
+        {
+            "type": "text",
+            "data": "Vendor"
+        },
+        {
+            "type": "text",
+            "data": "Default Cost"
+        },
+        {
+            "type": "text",
+            "data": "Default Cost"
+        },
+        {
+            "type": "text",
+            "data": "Sell Price"
+        },
+        {
+            "type": "text",
+            "data": "Sell Price"
+        },
+        {
+            "type": "text",
+            "data": "Default Markup"
+        },
+        {
+            "type": "text",
+            "data": "Default Markup"
+        },
+        {
+            "type": "text",
+            "data": "Sales Tax"
+        },
+        {
+            "type": "text",
+            "data": "Sales Tax"
+        },
+        {
+            "type": "text",
+            "data": "Default Tax Rate"
+        },
+        {
+            "type": "text",
+            "data": "Default Tax Rate"
+        },
+        {
+            "type": "text",
+            "data": "Length"
+        },
+        {
+            "type": "text",
+            "data": "Length"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\SLMMP_Molding.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

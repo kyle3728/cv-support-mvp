@@ -1,0 +1,251 @@
+{
+    "id": "85a260b9-0533-4f26-bee2-ad6fce8605eb",
+    "title": "DC_Construction_Settings",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top \n > \n \n \n System Level \n > \n \n Ribbonbar \n > \n \n Main Tab \n > \n \n Catalogs Group \n > \n \n Door Catalog \n > \n \n Menu Options \n > \n \n Setup Menu \n > \n \n Construction Settings"
+        },
+        {
+            "type": "text",
+            "data": "Top \n >"
+        },
+        {
+            "type": "text",
+            "data": "System Level \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "System Level",
+                "uuid": "4450866f-fd9c-46df-abf3-7843c5a1ef37",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Ribbonbar \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Ribbonbar",
+                "uuid": "3bbac75c-2b61-42af-9bce-b90335e66dde",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Main Tab \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Main Tab",
+                "uuid": "3bbac75c-2b61-42af-9bce-b90335e66dde",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Catalogs Group \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Catalogs Group",
+                "uuid": "f4a43f08-b40b-442c-8f03-a96c2a64640f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Door Catalog \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Door Catalog",
+                "uuid": "2da09610-ccab-42a9-a5ce-4ad5fa83394a",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Menu Options \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Menu Options",
+                "uuid": "2e25ff21-1b0a-4d66-be31-5c4538e809c0",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Setup Menu \n >"
+        },
+        {
+            "type": "text",
+            "data": "Construction Settings"
+        },
+        {
+            "type": "text",
+            "data": "Construction Settings"
+        },
+        {
+            "type": "text",
+            "data": "Construction Settings"
+        },
+        {
+            "type": "image",
+            "data": "image256.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Construction Settings are simply the  default  settings for any new Door Style that you create. Changing these settings will  not  have any effect on existing Doors in the Door Catalog. To change the sizes of Parts on an existing Door, you must select that Door and click on the  Construction tab  to make the changes to that Door."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Construction tab",
+                "uuid": "4a6c7892-2fcb-4dc3-b6f2-fa84ec76bf4c",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Selecting Construction Settings will allow you to set up your normal, or default Construction Methods for all of your Doors. This will allow you to set up your Door Styles quickly, especially if your Stiles and Rails for the most part are the same size for most of your Doors. Here you have the opportunity to set the fields to their most common values. Typically, a default setting is chosen because it is the one used more often than not. Creating new Door Styles and redoing old Doors is easier if you have your Door Construction Defaults preset."
+        },
+        {
+            "type": "text",
+            "data": "There are three areas to this screen."
+        },
+        {
+            "type": "text",
+            "data": "Default Rail and Stile Widths"
+        },
+        {
+            "type": "image",
+            "data": "image22611.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The \u00a0value entered here represents the portion of the Stile or Rail as it exists without any Inside Profile on it. The dimension of the Inside Profile, optionally depending on the  Extended  setting for the Inside Edge Profile, is in addition to the Stile or Rail width. If there is no Inside Profile, then the value set as the default width for the Stile or Rail is the net width of the Stile or Rail."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Extended",
+                "uuid": "58bf93c0-395d-4fa5-8f99-421042b7e8ea",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "If you highlight a Stile or Rail on the  Construction tab  of the Door Catalog, you will see the Stile or Rail width, and an \"Extra Width\". Remember, the overall width of the Stile or Rail is the default value, PLUS the Profile for the Inside Edge, if any."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Construction tab",
+                "uuid": "4a6c7892-2fcb-4dc3-b6f2-fa84ec76bf4c",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "You will note that in the graphic above that the Left Stile, Right Stile, Top Rail, and Bottom Rail all preset to 2 1/8\" In the graphic below the Left Stile of a Door is highlighted. If this Door were being produced, the finished width of the Left Stile would be 2 \u00bd\" You will notice that the width of the Stile says \"Width\" + \"Extra\" these two measurements must add up to the overall width of the finished Stile. Since this Door is using a 3/8\"Inside Edge Profile, setting the Width to 2 1/8\"(2 \u00bd - 3/8 = 2 1/8) under \"Default Rail & Stile Widths\" will automatically fill in the \"Width\" portion of the \"Width\" + \"Extra\"with the 2 1/8\"needed."
+        },
+        {
+            "type": "image",
+            "data": "image1390.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "You will note that the Mid Rail and the Mid Stile are set to 1 \u00be\u201d. This is because to achieve a 2 \u00bd\u201d finished size you have to take into account the 3/8\" Inside Edge Profile on both sides of the Mid Stiles and Rails."
+        },
+        {
+            "type": "text",
+            "data": "2 x 3/8 IEP = \u00be"
+        },
+        {
+            "type": "text",
+            "data": "2 \u00bd - \u00be = 1 \u00be"
+        },
+        {
+            "type": "text",
+            "data": "Default Construction Methods"
+        },
+        {
+            "type": "text",
+            "data": "In the Construction Methods area you can setup for \"Mortise & Tenon\" construction and establish it's Depth. You can preset the Panel Inset you want for raised panel and flat panel type Doors. And you can control the width of the vertical and horizontal slats for slat type (tambour) Doors."
+        },
+        {
+            "type": "image",
+            "data": "image22911.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Mortise & Tenon Depth"
+        },
+        {
+            "type": "text",
+            "data": "Mortise & Tenon Depth is only necessary when doing Mortise and Tenon type Doors. Do not use this if your Door Construction Method is cope and stick or butt joint. When doing a Mortise and Tenon Door you would click the check box for Mortise and Tenon and enter the Depth of the Mortise and Tenon before creating a Mortise and Tenon type Door. Also make sure you do not select an Inside Edge Profile to use with a Mortise and Tenon Door, as Solid could add the Mortise and Tenon and the Inside Edge Profile to your Door Parts. After the Door is created come back here and disable Mortise & Tenon Depth."
+        },
+        {
+            "type": "text",
+            "data": "Panel Inset"
+        },
+        {
+            "type": "text",
+            "data": "Panel Inset is the distance you want the Door panel to stick into one side of the Door. Having this preset makes creating Doors a lot easier."
+        },
+        {
+            "type": "text",
+            "data": "Width of Vertical Slats"
+        },
+        {
+            "type": "text",
+            "data": "This establishes the default \"Center-to-Center\" spacing for Vertical Slats when the Vertical Slat Panel Type is defined for your Door."
+        },
+        {
+            "type": "text",
+            "data": "Width of Horizontal Slats"
+        },
+        {
+            "type": "text",
+            "data": "This establishes the default \"Center-to-Center\" spacing for Horizontal Slats when the Horizontal Slat Panel Type is defined for your Door."
+        },
+        {
+            "type": "text",
+            "data": "Default Panel Type"
+        },
+        {
+            "type": "text",
+            "data": "In the Default Panel Type area, you can preset which Type of Panel you want the Doors you are going to be working on to be. So that the Panel Type will automatically be whatever you have set here, when you start a new Door or when you click on the  Start Over  button on the Construction tab. So if you were going to work on raised panel Doors you could preset the Default Panel Type to Raised Panel. Or if you were going to work on glass Doors you would preset the Default Panel Type to Glass Panel."
+        },
+        {
+            "type": "image",
+            "data": "image23011.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Set Unit -  Click this button to select your Unit of Measurement and the level of precision that you want to see in the Door Catalog."
+        },
+        {
+            "type": "image",
+            "data": "image257.gif",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\System_Level\\Ribbonbar\\Main_Tab\\Catalogs_Group\\Door_Catalog\\Menu_Options\\Setup_Menu\\DC_Construction_Settings.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

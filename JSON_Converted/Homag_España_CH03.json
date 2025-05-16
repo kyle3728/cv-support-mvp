@@ -1,0 +1,21 @@
+{
+    "id": "c72a4fbe-0040-4a89-999c-991af488fa3c",
+    "title": "Homag_Espa\u00f1a_CH03",
+    "content": [
+        {
+            "type": "text",
+            "data": "Homag Espa\u00f1a CH03"
+        },
+        {
+            "type": "text",
+            "data": "This is a  Panel Saw  Link."
+        },
+        {
+            "type": "text",
+            "data": "This link is for the Homag Espa\u00f1a CH03 for the Master TRIA 460 Controller. \u00a0This is an unofficial file format since there is no way to communicate to the saw the cut type for each instruction. \u00a0For that reason the following rules must be followed to ensure cuts are made in the correct sequence. \u00a0The 1st rule is that you must optimize for Labor which will limit the output to 3rd phase cuts. \u00a0The 2nd rule is that the last strip out will be the first strip back in. \u00a0With a pattern with rips, cross-cuts and 3rd phase cuts, the rips are cut first. \u00a0The final rip will be put back into the saw first for cross cuts. \u00a0The last cross cut will be fed back into the saw first for 3rd phase cuts. \u00a0The 3rd rule is that there will always be an absolute cut when feeding a new piece of material into the saw."
+        }
+    ],
+    "source_file": "NCEnglish_Optimizer\\Ribbonbar\\Main_Tab\\Machine\\NC_Links\\Saw_Links\\Homag_Espa\u00f1a_CH03.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

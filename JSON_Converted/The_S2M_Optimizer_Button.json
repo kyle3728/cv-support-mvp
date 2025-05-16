@@ -1,0 +1,284 @@
+{
+    "id": "3ce3807c-0775-4cbb-ab17-ae546c583ad0",
+    "title": "The_S2M_Optimizer_Button",
+    "content": [
+        {
+            "type": "text",
+            "data": "The S2M Optimizer Button"
+        },
+        {
+            "type": "image",
+            "data": "The_S2M_Center_Button.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "New"
+        },
+        {
+            "type": "image",
+            "data": "image802.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "+"
+        },
+        {
+            "type": "image",
+            "data": "ctrl_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "letter_n.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "When you click on New, the S2M Optimizer will start the Job Properties \n area to allow you to define a new Job."
+        },
+        {
+            "type": "text",
+            "data": "Open"
+        },
+        {
+            "type": "image",
+            "data": "image803.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "+"
+        },
+        {
+            "type": "image",
+            "data": "ctrl_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "letter_o.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Clicking on Open will bring up a Windows Open window that you may use \n to browse to and open a PNC Job file. By default, Jobs are stored in the \n NcCenter_6_0 folder."
+        },
+        {
+            "type": "text",
+            "data": "To open a PNC file, simply click on the PNC that you want to open and \n click the Open button."
+        },
+        {
+            "type": "image",
+            "data": "Open_PNC.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Export"
+        },
+        {
+            "type": "image",
+            "data": "image807.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "+"
+        },
+        {
+            "type": "image",
+            "data": "ctrl_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "letter_e.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Saves the Open Job."
+        },
+        {
+            "type": "image",
+            "data": "Export_PNC.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Properties"
+        },
+        {
+            "type": "image",
+            "data": "image659.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There are three tabs available in Properties:"
+        },
+        {
+            "type": "image",
+            "data": "image161.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Information"
+        },
+        {
+            "type": "text",
+            "data": "Allows you to enter Job Information that \n will be used in Reports."
+        },
+        {
+            "type": "image",
+            "data": "image176.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Comment"
+        },
+        {
+            "type": "text",
+            "data": "Allows you to enter Comments for the current \n Job."
+        },
+        {
+            "type": "image",
+            "data": "image177.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Schedule"
+        },
+        {
+            "type": "text",
+            "data": "Allows you to set Schedules for the current \n Job."
+        },
+        {
+            "type": "image",
+            "data": "image178.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Print"
+        },
+        {
+            "type": "image",
+            "data": "image813.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "+"
+        },
+        {
+            "type": "image",
+            "data": "ctrl_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "letter_p.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option allows you to Print the current View; the following window \n will appear:"
+        },
+        {
+            "type": "image",
+            "data": "image180.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Simply choose the printer that you wish to use and click OK to print \n \u00a0the current view."
+        },
+        {
+            "type": "text",
+            "data": "See the  Print  topic for more information."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Print",
+                "uuid": "391c650b-dead-426f-8e9e-e8432a8881fa",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Print Setup"
+        },
+        {
+            "type": "image",
+            "data": "image814.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "+"
+        },
+        {
+            "type": "image",
+            "data": "ctrl_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "letter_r.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option allows you to set Printer options; the following window \n will appear:"
+        },
+        {
+            "type": "image",
+            "data": "image181.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Use this option to choose the settings for the printer that you plan \n to use with the S2M Center."
+        },
+        {
+            "type": "text",
+            "data": "Preferences"
+        },
+        {
+            "type": "image",
+            "data": "image816.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Preferences",
+                "uuid": "a6c6d306-c8da-4df8-8440-33f2f24a9c1d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Exit S2M"
+        },
+        {
+            "type": "image",
+            "data": "image817.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Click here to exit the S2M Center."
+        }
+    ],
+    "source_file": "NCEnglish_Optimizer\\Introduction\\The_S2M_Center_Optimizer\\The_S2M_Optimizer_Button.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

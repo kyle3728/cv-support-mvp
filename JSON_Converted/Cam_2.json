@@ -1,0 +1,93 @@
+{
+    "id": "fdafb5f2-e0d0-405e-a7bd-e93833c57b7d",
+    "title": "Cam_2",
+    "content": [
+        {
+            "type": "text",
+            "data": "Cam 2"
+        },
+        {
+            "type": "text",
+            "data": "This is a Parts Router and/or Point-to-Point Link."
+        },
+        {
+            "type": "text",
+            "data": "Biesse Cam2 DXF files do not support tool compensation. All router and saw tools should be set to output Center Line paths. The following information from the Tool Catalog can not be used by Cam2 and are therefore ignored: Tool Numbers, Tool Compensation, Feed Rate, Descent Rate, Maximum Depth Per Pass. Layer names will be generated automatically to the default settings:"
+        },
+        {
+            "type": "text",
+            "data": "Panel dimensions: PANEL + Depth \n \n \n Vertical drills: VERTICAL + Depth \n \n \n Horizontal drills on left side: SIDEA + Z Position \n \n \n Horizontal drills on front side: SIDEB + Z Position \n \n \n Horizontal drills on right side: SIDEC + Z Position \n \n \n Horizontal drills on back side: SIDED + Z Position \n \n \n Grooving operations: BLADE + Depth \n \n \n Generic routing operations: ROUTER + Depth"
+        },
+        {
+            "type": "text",
+            "data": "Panel dimensions: PANEL + Depth"
+        },
+        {
+            "type": "text",
+            "data": "Panel dimensions: PANEL + Depth"
+        },
+        {
+            "type": "text",
+            "data": "Vertical drills: VERTICAL + Depth"
+        },
+        {
+            "type": "text",
+            "data": "Vertical drills: VERTICAL + Depth"
+        },
+        {
+            "type": "text",
+            "data": "Horizontal drills on left side: SIDEA + Z Position"
+        },
+        {
+            "type": "text",
+            "data": "Horizontal drills on left side: SIDEA + Z Position"
+        },
+        {
+            "type": "text",
+            "data": "Horizontal drills on front side: SIDEB + Z Position"
+        },
+        {
+            "type": "text",
+            "data": "Horizontal drills on front side: SIDEB + Z Position"
+        },
+        {
+            "type": "text",
+            "data": "Horizontal drills on right side: SIDEC + Z Position"
+        },
+        {
+            "type": "text",
+            "data": "Horizontal drills on right side: SIDEC + Z Position"
+        },
+        {
+            "type": "text",
+            "data": "Horizontal drills on back side: SIDED + Z Position"
+        },
+        {
+            "type": "text",
+            "data": "Horizontal drills on back side: SIDED + Z Position"
+        },
+        {
+            "type": "text",
+            "data": "Grooving operations: BLADE + Depth"
+        },
+        {
+            "type": "text",
+            "data": "Grooving operations: BLADE + Depth"
+        },
+        {
+            "type": "text",
+            "data": "Generic routing operations: ROUTER + Depth"
+        },
+        {
+            "type": "text",
+            "data": "Generic routing operations: ROUTER + Depth"
+        },
+        {
+            "type": "text",
+            "data": "Tool selection is made by a size match between the tool and the operation. To differentiate between multiple routers bits that have the same diameter, enter slightly different tool diameters for each tool and have those diameters match the tool setup in Cam2."
+        }
+    ],
+    "source_file": "NCEnglish\\Ribbonbar\\Main_Tab\\Machine\\NC_Links\\Parts_Router_P-2-P_Links\\Cam_2.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

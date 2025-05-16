@@ -1,0 +1,34 @@
+{
+    "id": "cb3e19fa-2c7a-4b60-aa37-377b6adc542a",
+    "title": "AW_Operations",
+    "content": [
+        {
+            "type": "text",
+            "data": "Operations Branch"
+        },
+        {
+            "type": "text",
+            "data": "This branch contains the Line Boring Branch."
+        },
+        {
+            "type": "image",
+            "data": "image445.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Line Boring"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Line Boring",
+                "uuid": "f4396e91-e17d-4f7a-b7db-fb84fe53ef3a",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\System_Level\\Ribbonbar\\Main_Tab\\Construction_Group\\Assembly_Manager\\Assembly\\Branches\\Operations\\AW_Operations.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

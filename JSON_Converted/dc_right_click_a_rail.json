@@ -1,0 +1,199 @@
+{
+    "id": "6a76e843-7165-4247-ad41-1fdbf0737ef6",
+    "title": "dc_right_click_a_rail",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top \n > \n \n \n System Level \n > \n \n Ribbonbar \n > \n \n Main Tab \n > \n \n Catalogs Group \n > \n \n Door Catalog \n > \n \n Door Catalog Tabs \n > \n \n Construction Tab \n > \n \n Right Click A Rail"
+        },
+        {
+            "type": "text",
+            "data": "Top \n >"
+        },
+        {
+            "type": "text",
+            "data": "System Level \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "System Level",
+                "uuid": "4450866f-fd9c-46df-abf3-7843c5a1ef37",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Ribbonbar \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Ribbonbar",
+                "uuid": "3bbac75c-2b61-42af-9bce-b90335e66dde",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Main Tab \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Main Tab",
+                "uuid": "3bbac75c-2b61-42af-9bce-b90335e66dde",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Catalogs Group \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Catalogs Group",
+                "uuid": "f4a43f08-b40b-442c-8f03-a96c2a64640f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Door Catalog \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Door Catalog",
+                "uuid": "2da09610-ccab-42a9-a5ce-4ad5fa83394a",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Door Catalog Tabs \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Door Catalog Tabs",
+                "uuid": "d1faae4f-ff5c-49e5-95cf-756c3c48e318",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Construction Tab \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Construction Tab",
+                "uuid": "4a6c7892-2fcb-4dc3-b6f2-fa84ec76bf4c",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Right Click A Rail"
+        },
+        {
+            "type": "text",
+            "data": "Right Click A Rail"
+        },
+        {
+            "type": "text",
+            "data": "Door Catalog - Right Click A Rail"
+        },
+        {
+            "type": "text",
+            "data": "There are four options when Right Clicking on a Top, Bottom, or Mid Rail."
+        },
+        {
+            "type": "image",
+            "data": "image2182.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Delete"
+        },
+        {
+            "type": "text",
+            "data": "This menu option will delete the selected Stile or Rail."
+        },
+        {
+            "type": "text",
+            "data": "Square"
+        },
+        {
+            "type": "text",
+            "data": "This menu option will remove any Shaping from the selected Rail and make it Square."
+        },
+        {
+            "type": "text",
+            "data": "Arch"
+        },
+        {
+            "type": "text",
+            "data": "This menu option will add an Arch to the selected Rail"
+        },
+        {
+            "type": "text",
+            "data": "Custom Shape..."
+        },
+        {
+            "type": "text",
+            "data": "It is possible to custom edit your Door Rails. Only one edge of Top and Bottom Rails may be edited, and it must be an Inside Edge, both edges of Door Mid Rails may be edited."
+        },
+        {
+            "type": "image",
+            "data": "image280.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Shape Editor has the following tools available when editing Door Rails:"
+        },
+        {
+            "type": "text",
+            "data": "Click the tools below for more information"
+        },
+        {
+            "type": "image",
+            "data": "image2347.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "If your Profile design requires the movement of the Red dots, instead, add a new point. Movement of the Red dots can cause problems with your Rail."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Below is a sample edited Top Rail."
+        },
+        {
+            "type": "image",
+            "data": "image281.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "And here is the Top Rail after editing, with a Mid Stile added."
+        },
+        {
+            "type": "image",
+            "data": "image282.gif",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\System_Level\\Ribbonbar\\Main_Tab\\Catalogs_Group\\Door_Catalog\\Door_Catalog_Tabs\\Construction_Tab\\dc_right_click_a_rail.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

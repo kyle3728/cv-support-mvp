@@ -1,0 +1,60 @@
+{
+    "id": "42d4d73d-2bca-4209-ac24-3f603a1be482",
+    "title": "Autofill_Text_in_My_Titleblocks",
+    "content": [
+        {
+            "type": "text",
+            "data": "Autofill Text in My Title Blocks"
+        },
+        {
+            "type": "text",
+            "data": "I would like my Title Blocks to automatically fill in my Company, my Client, and Job Information into my Title Blocks automatically. How do I do this?"
+        },
+        {
+            "type": "text",
+            "data": "When in Title-block Template Editing Mode you can use the program variables which record customer info to have that information automatically appear on your title block."
+        },
+        {
+            "type": "text",
+            "data": "Go to the Drawings Area and select the option  Drawings Library ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Drawings Library",
+                "uuid": "42693001-e896-4fb4-bab5-90f16894ad62",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "AutoFillText_1.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Select Title Blocks as the \"Type\" of Template you want to Edit."
+        },
+        {
+            "type": "image",
+            "data": "image968.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Highlight the desired Title-Block Template and click Edit, and select the Text tool from the sidebar. Use the cursor to begin your text where you want. When the Text box appears, note the Action button."
+        },
+        {
+            "type": "image",
+            "data": "image969.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "When you click on the Action button you will see a menu of Text variables available for the view you are in. Simply select the information you want and it will be added to your Title Block."
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Tips_Tricks_&_FAQs\\FAQs\\HDI-Presentation\\Autofill_Text_in_My_Titleblocks.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

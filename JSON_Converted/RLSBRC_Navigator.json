@@ -1,0 +1,98 @@
+{
+    "id": "1768b37e-6098-47ec-b034-79985e7b446f",
+    "title": "RLSBRC_Navigator",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top \n > \n \n \n Room Level \n > \n \n Sidebar \n > \n \n Report Center \n > \n \n Ribbonbar \n > \n \n Main Tab \n > \n \n Navigator"
+        },
+        {
+            "type": "text",
+            "data": "Top \n >"
+        },
+        {
+            "type": "text",
+            "data": "Room Level \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Room Level",
+                "uuid": "9eaa492c-0405-4da7-8e0f-a6ff4e047890",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Sidebar \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Sidebar",
+                "uuid": "f07520a2-0645-4a40-b8d9-a72c15b5c147",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Report Center \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Report Center",
+                "uuid": "f37a0f09-5935-418f-ad21-77bc271f86ad",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Ribbonbar \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Ribbonbar",
+                "uuid": "5339f99d-053e-4eae-88d6-3004f61f716a",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Main Tab \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Main Tab",
+                "uuid": "5339f99d-053e-4eae-88d6-3004f61f716a",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Navigator"
+        },
+        {
+            "type": "text",
+            "data": "Navigator"
+        },
+        {
+            "type": "text",
+            "data": "Navigator"
+        },
+        {
+            "type": "image",
+            "data": "image2503.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option allows you to navigate from page to page in the currently visible Report."
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Room_Level\\Side_Bar\\Report_Center\\Ribbonbar\\Main_Tab\\RLSBRC_Navigator.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

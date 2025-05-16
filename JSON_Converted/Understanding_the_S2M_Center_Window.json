@@ -1,0 +1,340 @@
+{
+    "id": "89b75d7b-fdd8-4aab-880e-c3d5f93759ed",
+    "title": "Understanding_the_S2M_Center_Window",
+    "content": [
+        {
+            "type": "text",
+            "data": "Understanding the S2M CENTER Window"
+        },
+        {
+            "type": "text",
+            "data": "When you start a new Job in the S2M CENTER, the main S2M CENTER window opens. This window is your primary work space. It contains a list of all the Parts that will be sent to your machines. The following illustration shows the main parts of the S2M CENTER window."
+        },
+        {
+            "type": "image",
+            "data": "image2.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "File Menu"
+        },
+        {
+            "type": "image",
+            "data": "image3.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The File menu is located in the upper-left corner of the S2M CENTER. When you click the file menu, you see the same basic commands available in Cabinetmaker."
+        },
+        {
+            "type": "text",
+            "data": "Quick Access Toolbar"
+        },
+        {
+            "type": "image",
+            "data": "image4.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Quick Access Toolbar is a toolbar containing a set of commands that are independent of the ribbonbar tab that is currently displayed."
+        },
+        {
+            "type": "text",
+            "data": "The Quick Access Toolbar can be located in one of two places:"
+        },
+        {
+            "type": "text",
+            "data": "Upper-left corner above the File menu(default location)"
+        },
+        {
+            "type": "text",
+            "data": "Upper-left corner above the File menu(default location)"
+        },
+        {
+            "type": "text",
+            "data": "Upper-left corner above the File menu(default location)"
+        },
+        {
+            "type": "image",
+            "data": "image5.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Below the ribbonbar"
+        },
+        {
+            "type": "text",
+            "data": "Below the ribbonbar"
+        },
+        {
+            "type": "text",
+            "data": "Below the ribbonbar"
+        },
+        {
+            "type": "image",
+            "data": "image6.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "If you don't want the Quick Access Toolbar to be displayed in its current location, you can move it to the other location. If you find that the default location above the File menuis too far from your work area to be convenient, you may want to move it closer to your work area. The location below the ribbonbar encroaches on the work area. Therefore, if you want to maximize the work area, you may want to keep the Quick Access Toolbar in its default location."
+        },
+        {
+            "type": "text",
+            "data": "Click  Customize Quick Access Toolbar   . \n \n \n In the list, click  Show Below the Ribbon ."
+        },
+        {
+            "type": "text",
+            "data": "Click  Customize Quick Access Toolbar   ."
+        },
+        {
+            "type": "text",
+            "data": "Click  Customize Quick Access Toolbar   ."
+        },
+        {
+            "type": "image",
+            "data": "image7.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "In the list, click  Show Below the Ribbon ."
+        },
+        {
+            "type": "text",
+            "data": "In the list, click  Show Below the Ribbon ."
+        },
+        {
+            "type": "text",
+            "data": "Titlebar"
+        },
+        {
+            "type": "text",
+            "data": "The Titlebar displays the Job you have open."
+        },
+        {
+            "type": "image",
+            "data": "image8.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Ribbonbar"
+        },
+        {
+            "type": "image",
+            "data": "image9.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This section gives quick and easy access to tools specific to the area of the S2M CENTER you are in. The ribbon will change depending on which area of the S2M CENTER you are in. Tools with small triangles on the right side have flyouts containing tools that invoke commands related to the first tool shown. Click and hold down the first button to display the flyout."
+        },
+        {
+            "type": "text",
+            "data": "Minimize, Maximize, and Close Buttons"
+        },
+        {
+            "type": "image",
+            "data": "image10.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "These buttons hide the S2M CENTER window, enlarge it to fill the whole screen, and close it, respectively."
+        },
+        {
+            "type": "text",
+            "data": "Style Selection"
+        },
+        {
+            "type": "image",
+            "data": "image11.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Allows you to choose the Style that the S2M CENTER interface will utilize. Following are the choices."
+        },
+        {
+            "type": "text",
+            "data": "Colorful - The default style \n \n \n White \n \n \n Dark Gray \n \n \n Black"
+        },
+        {
+            "type": "text",
+            "data": "Colorful - The default style"
+        },
+        {
+            "type": "text",
+            "data": "Colorful - The default style"
+        },
+        {
+            "type": "text",
+            "data": "White"
+        },
+        {
+            "type": "text",
+            "data": "White"
+        },
+        {
+            "type": "text",
+            "data": "Dark Gray"
+        },
+        {
+            "type": "text",
+            "data": "Dark Gray"
+        },
+        {
+            "type": "text",
+            "data": "Black"
+        },
+        {
+            "type": "text",
+            "data": "Black"
+        },
+        {
+            "type": "text",
+            "data": "Sidebar"
+        },
+        {
+            "type": "image",
+            "data": "image12.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This section gives access to functions specific to the area of the S2M CENTER you are in. This section will change depending on which area of the S2M CENTER you are in."
+        },
+        {
+            "type": "text",
+            "data": "Parts and Materials List Area"
+        },
+        {
+            "type": "text",
+            "data": "This is the actual working area of the S2M CENTER. This area's size varies, depending on the size of the S2M CENTER window and on the number of other elements that are displayed."
+        },
+        {
+            "type": "text",
+            "data": "Statusbar"
+        },
+        {
+            "type": "image",
+            "data": "image13.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This bar contains your software license information."
+        },
+        {
+            "type": "text",
+            "data": "Statusbar Menu"
+        },
+        {
+            "type": "image",
+            "data": "image14.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Statusbar menu gives you quick access to control the status of 4 possible options:"
+        },
+        {
+            "type": "text",
+            "data": "Unit Selection   or   -  Allows you to toggle between Inches (Imperial) and Metric Units on the screen. You can turn this button On/Off and set its default Unit via the  Preferences | Measurement Units  tab."
+        },
+        {
+            "type": "text",
+            "data": "Unit Selection   or   -  Allows you to toggle between Inches (Imperial) and Metric Units on the screen. You can turn this button On/Off and set its default Unit via the  Preferences | Measurement Units  tab."
+        },
+        {
+            "type": "text",
+            "data": "Unit Selection   or   -  Allows you to toggle between Inches (Imperial) and Metric Units on the screen. You can turn this button On/Off and set its default Unit via the  Preferences | Measurement Units  tab."
+        },
+        {
+            "type": "image",
+            "data": "image754.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image755.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Preferences | Measurement Units",
+                "uuid": "a6c6d306-c8da-4df8-8440-33f2f24a9c1d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Unit Precision   -  Selecting this button will allow you to change the Precision of the Unit selected. The default Unit Precision is set via  File Menu | Preferences | Measurement Units  tab."
+        },
+        {
+            "type": "text",
+            "data": "Unit Precision   -  Selecting this button will allow you to change the Precision of the Unit selected. The default Unit Precision is set via  File Menu | Preferences | Measurement Units  tab."
+        },
+        {
+            "type": "text",
+            "data": "Unit Precision   -  Selecting this button will allow you to change the Precision of the Unit selected. The default Unit Precision is set via  File Menu | Preferences | Measurement Units  tab."
+        },
+        {
+            "type": "image",
+            "data": "image81.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "File Menu | Preferences | Measurement Units",
+                "uuid": "a6c6d306-c8da-4df8-8440-33f2f24a9c1d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image243.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Snap Grid   -  This option turns the Grid display on. You will see a grid pattern in the window where you Edit Part Shapes or Edit Operations that you can Snap to. If this button is highlighted it means it is active simply click it again to disable it. Go to  Right Click Properties  to set the Grid Spacing. \n \n \n Snap to Points   -  Using this snap feature allows precise snapping of drawn entities. This option turns on the Dynamic Snapping functionality in the S2M Center. The snap to points appear as small dark dots in the corner of the objects and all parts within the object. These are the snap to points. If these points are present and not desired, reset the snapping mode to OFF or another mode to eliminate them. If this button is highlighted it means it is active simply click it again to disable it."
+        },
+        {
+            "type": "text",
+            "data": "Snap Grid   -  This option turns the Grid display on. You will see a grid pattern in the window where you Edit Part Shapes or Edit Operations that you can Snap to. If this button is highlighted it means it is active simply click it again to disable it. Go to  Right Click Properties  to set the Grid Spacing."
+        },
+        {
+            "type": "text",
+            "data": "Snap Grid   -  This option turns the Grid display on. You will see a grid pattern in the window where you Edit Part Shapes or Edit Operations that you can Snap to. If this button is highlighted it means it is active simply click it again to disable it. Go to  Right Click Properties  to set the Grid Spacing."
+        },
+        {
+            "type": "image",
+            "data": "image15.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Snap to Points   -  Using this snap feature allows precise snapping of drawn entities. This option turns on the Dynamic Snapping functionality in the S2M Center. The snap to points appear as small dark dots in the corner of the objects and all parts within the object. These are the snap to points. If these points are present and not desired, reset the snapping mode to OFF or another mode to eliminate them. If this button is highlighted it means it is active simply click it again to disable it."
+        },
+        {
+            "type": "text",
+            "data": "Snap to Points   -  Using this snap feature allows precise snapping of drawn entities. This option turns on the Dynamic Snapping functionality in the S2M Center. The snap to points appear as small dark dots in the corner of the objects and all parts within the object. These are the snap to points. If these points are present and not desired, reset the snapping mode to OFF or another mode to eliminate them. If this button is highlighted it means it is active simply click it again to disable it."
+        },
+        {
+            "type": "image",
+            "data": "image16.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "NCEnglish_Cabinetmaker\\Introduction\\Understanding_the_S2M_Center_Window.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

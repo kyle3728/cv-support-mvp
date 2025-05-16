@@ -1,0 +1,56 @@
+{
+    "id": "1819e7ef-ab27-4899-8a40-b6ead31cd907",
+    "title": "ANC_Optimize",
+    "content": [
+        {
+            "type": "text",
+            "data": "Optimize"
+        },
+        {
+            "type": "image",
+            "data": "image1125.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Optimize button, once depressed, will begin the Nesting process. Once selected the Optimizing Screen will appear."
+        },
+        {
+            "type": "image",
+            "data": "image598.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Click on the Run button to begin the Optimization process."
+        },
+        {
+            "type": "text",
+            "data": "Click on the Run button to begin the Optimization process."
+        },
+        {
+            "type": "text",
+            "data": "Click on the Run button to begin the Optimization process."
+        },
+        {
+            "type": "image",
+            "data": "image599.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Once the Optimizing is completed the Completed section will display each Material optimized with the total number of sheets, the Used percentage, the Offcut percentage, and the Waste percentage. Also displayed in the Completed section are any  Tool selection  Errors or Warnings. You can at this point Print the completed section by clicking the Print button or by clicking the OK button you can accept the results and move on to the  Patterns Section  of the ALPHACAMS2M CENTER."
+        },
+        {
+            "type": "text",
+            "data": "Once the Optimizing is completed the Completed section will display each Material optimized with the total number of sheets, the Used percentage, the Offcut percentage, and the Waste percentage. Also displayed in the Completed section are any  Tool selection  Errors or Warnings. You can at this point Print the completed section by clicking the Print button or by clicking the OK button you can accept the results and move on to the  Patterns Section  of the ALPHACAMS2M CENTER."
+        },
+        {
+            "type": "text",
+            "data": "Once the Optimizing is completed the Completed section will display each Material optimized with the total number of sheets, the Used percentage, the Offcut percentage, and the Waste percentage. Also displayed in the Completed section are any  Tool selection  Errors or Warnings. You can at this point Print the completed section by clicking the Print button or by clicking the OK button you can accept the results and move on to the  Patterns Section  of the ALPHACAMS2M CENTER."
+        }
+    ],
+    "source_file": "NCEnglish\\Ribbonbar\\Main_Tab\\S2M_for_Alphacam\\Sidebar\\Optimize\\ANC_Optimize.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

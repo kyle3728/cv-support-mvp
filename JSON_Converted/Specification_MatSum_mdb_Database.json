@@ -1,0 +1,928 @@
+{
+    "id": "78c1dc1a-68fa-4075-8b19-99d604633717",
+    "title": "Specification_MatSum_mdb_Database",
+    "content": [
+        {
+            "type": "text",
+            "data": "The MatSum.mdfDatabase"
+        },
+        {
+            "type": "image",
+            "data": "Reporting.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This Database stores a running Material Summary for every Job the Data is output for. The ability to populate this data is allowed with xReport multiplier."
+        },
+        {
+            "type": "image",
+            "data": "image568.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The following is the breakdown of the tables and their fields:"
+        },
+        {
+            "type": "text",
+            "data": "DB Info"
+        },
+        {
+            "type": "text",
+            "data": "This Table stores general information about the Database."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "Version",
+                        "Displays the current Version for the Database."
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "Version"
+        },
+        {
+            "type": "text",
+            "data": "Displays the current Version for the Database."
+        },
+        {
+            "type": "text",
+            "data": "Jobs"
+        },
+        {
+            "type": "text",
+            "data": "This table stores general information for the Job/Jobs in this database."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "ID",
+                        "Represents the Job ID # for each Job when batching Jobs. If it is a single Job this value is 1."
+                    ],
+                    [
+                        "Job Name",
+                        "The Name of the current Job."
+                    ],
+                    [
+                        "Job Number",
+                        "The Job Number for the current Job."
+                    ],
+                    [
+                        "Customer Name",
+                        "The Customer Name for the current Job."
+                    ],
+                    [
+                        "Customer Address",
+                        "The Customer Address for the current Job."
+                    ],
+                    [
+                        "Customer   City",
+                        "The Customer City for the current Job."
+                    ],
+                    [
+                        "Customer   State",
+                        "The Customer State for the current Job."
+                    ],
+                    [
+                        "Customer Zip",
+                        "The Customer Zip for the current Job."
+                    ],
+                    [
+                        "Customer Contact",
+                        "The Customer Contact for the current Job."
+                    ],
+                    [
+                        "Customer Phone",
+                        "The Customer Phone for the current Job."
+                    ],
+                    [
+                        "Customer Comments",
+                        "The Customer Comments for the current Job."
+                    ],
+                    [
+                        "CVJFile",
+                        "The File Name for the current Job."
+                    ],
+                    [
+                        "Measure",
+                        "The Measure Date for the current Job."
+                    ],
+                    [
+                        "Detail",
+                        "The Detail Date for the current Job."
+                    ],
+                    [
+                        "Production",
+                        "The Production Date for the current Job."
+                    ],
+                    [
+                        "Delivery",
+                        "The Delivery Date for the current Job."
+                    ],
+                    [
+                        "Deposit",
+                        "The Deposit Date for the current Job."
+                    ],
+                    [
+                        "Install",
+                        "The Install Date for the current Job."
+                    ],
+                    [
+                        "FinalPayment",
+                        "The Final Payment Date for the current Job."
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "ID"
+        },
+        {
+            "type": "text",
+            "data": "Represents the Job ID # for each Job when batching Jobs. If it is a single Job this value is 1."
+        },
+        {
+            "type": "text",
+            "data": "Job Name"
+        },
+        {
+            "type": "text",
+            "data": "The Name of the current Job."
+        },
+        {
+            "type": "text",
+            "data": "Job Number"
+        },
+        {
+            "type": "text",
+            "data": "The Job Number for the current Job."
+        },
+        {
+            "type": "text",
+            "data": "Customer Name"
+        },
+        {
+            "type": "text",
+            "data": "The Customer Name for the current Job."
+        },
+        {
+            "type": "text",
+            "data": "Customer Address"
+        },
+        {
+            "type": "text",
+            "data": "The Customer Address for the current Job."
+        },
+        {
+            "type": "text",
+            "data": "Customer   City"
+        },
+        {
+            "type": "text",
+            "data": "The Customer City for the current Job."
+        },
+        {
+            "type": "text",
+            "data": "Customer   State"
+        },
+        {
+            "type": "text",
+            "data": "The Customer State for the current Job."
+        },
+        {
+            "type": "text",
+            "data": "Customer Zip"
+        },
+        {
+            "type": "text",
+            "data": "The Customer Zip for the current Job."
+        },
+        {
+            "type": "text",
+            "data": "Customer Contact"
+        },
+        {
+            "type": "text",
+            "data": "The Customer Contact for the current Job."
+        },
+        {
+            "type": "text",
+            "data": "Customer Phone"
+        },
+        {
+            "type": "text",
+            "data": "The Customer Phone for the current Job."
+        },
+        {
+            "type": "text",
+            "data": "Customer Comments"
+        },
+        {
+            "type": "text",
+            "data": "The Customer Comments for the current Job."
+        },
+        {
+            "type": "text",
+            "data": "CVJFile"
+        },
+        {
+            "type": "text",
+            "data": "The File Name for the current Job."
+        },
+        {
+            "type": "text",
+            "data": "Measure"
+        },
+        {
+            "type": "text",
+            "data": "The Measure Date for the current Job."
+        },
+        {
+            "type": "text",
+            "data": "Detail"
+        },
+        {
+            "type": "text",
+            "data": "The Detail Date for the current Job."
+        },
+        {
+            "type": "text",
+            "data": "Production"
+        },
+        {
+            "type": "text",
+            "data": "The Production Date for the current Job."
+        },
+        {
+            "type": "text",
+            "data": "Delivery"
+        },
+        {
+            "type": "text",
+            "data": "The Delivery Date for the current Job."
+        },
+        {
+            "type": "text",
+            "data": "Deposit"
+        },
+        {
+            "type": "text",
+            "data": "The Deposit Date for the current Job."
+        },
+        {
+            "type": "text",
+            "data": "Install"
+        },
+        {
+            "type": "text",
+            "data": "The Install Date for the current Job."
+        },
+        {
+            "type": "text",
+            "data": "FinalPayment"
+        },
+        {
+            "type": "text",
+            "data": "The Final Payment Date for the current Job."
+        },
+        {
+            "type": "text",
+            "data": "Materials"
+        },
+        {
+            "type": "text",
+            "data": "This table stores the available Materials."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "ID",
+                        "A unique number used to reference the Material."
+                    ],
+                    [
+                        "Type",
+                        "Cross-reference to [Report.mdf].[look MaterialType].[Index]."
+                    ],
+                    [
+                        "Name",
+                        "The Name of the Material."
+                    ],
+                    [
+                        "Description",
+                        "The Description of the Material."
+                    ],
+                    [
+                        "UnitOfIssue",
+                        "Cross-reference to [Units].[Index]."
+                    ],
+                    [
+                        "Sheet",
+                        "Cross-reference to [Sheets].[Index]."
+                    ],
+                    [
+                        "Width",
+                        "A value representing the Width of this Material."
+                    ],
+                    [
+                        "Length",
+                        "A value representing the Length of this Material."
+                    ],
+                    [
+                        "Thickness",
+                        "A value representing the Thickness of this Material."
+                    ],
+                    [
+                        "Cost",
+                        "A value representing the Cost of this Material."
+                    ],
+                    [
+                        "Waste",
+                        "A value representing the Waste percentage of this Material."
+                    ],
+                    [
+                        "RoughThickness",
+                        "Raw thickness of material before milling used for calculating board feet."
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "ID"
+        },
+        {
+            "type": "text",
+            "data": "A unique number used to reference the Material."
+        },
+        {
+            "type": "text",
+            "data": "Type"
+        },
+        {
+            "type": "text",
+            "data": "Cross-reference to [Report.mdf].[look MaterialType].[Index]."
+        },
+        {
+            "type": "text",
+            "data": "Name"
+        },
+        {
+            "type": "text",
+            "data": "The Name of the Material."
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "The Description of the Material."
+        },
+        {
+            "type": "text",
+            "data": "UnitOfIssue"
+        },
+        {
+            "type": "text",
+            "data": "Cross-reference to [Units].[Index]."
+        },
+        {
+            "type": "text",
+            "data": "Sheet"
+        },
+        {
+            "type": "text",
+            "data": "Cross-reference to [Sheets].[Index]."
+        },
+        {
+            "type": "text",
+            "data": "Width"
+        },
+        {
+            "type": "text",
+            "data": "A value representing the Width of this Material."
+        },
+        {
+            "type": "text",
+            "data": "Length"
+        },
+        {
+            "type": "text",
+            "data": "A value representing the Length of this Material."
+        },
+        {
+            "type": "text",
+            "data": "Thickness"
+        },
+        {
+            "type": "text",
+            "data": "A value representing the Thickness of this Material."
+        },
+        {
+            "type": "text",
+            "data": "Cost"
+        },
+        {
+            "type": "text",
+            "data": "A value representing the Cost of this Material."
+        },
+        {
+            "type": "text",
+            "data": "Waste"
+        },
+        {
+            "type": "text",
+            "data": "A value representing the Waste percentage of this Material."
+        },
+        {
+            "type": "text",
+            "data": "RoughThickness"
+        },
+        {
+            "type": "text",
+            "data": "Raw thickness of material before milling used for calculating board feet."
+        },
+        {
+            "type": "text",
+            "data": "MaterialUsage"
+        },
+        {
+            "type": "text",
+            "data": "This table stores the Material Usage results."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "JobID",
+                        "Cross-reference to [Jobs].[ID]."
+                    ],
+                    [
+                        "MaterialID",
+                        "Cross-reference to [Materials].[ID]."
+                    ],
+                    [
+                        "Quan",
+                        "A value representing the Quantity of the Material necessary in the Unit of Measure for the Material."
+                    ],
+                    [
+                        "LinealFT",
+                        "A value representing the Lineal Feet of the Material required."
+                    ],
+                    [
+                        "SquareFT",
+                        "A value representing the Square Feet of the Material required."
+                    ],
+                    [
+                        "Total",
+                        "The Material total based on the Unit of issue for the Material: \n \n \n \n \n \n \n \n \n \n \n Index \n \n \n Issue Unit \n \n \n Formula \n \n \n \n \n 0 \n \n \n Each \n \n \n [Quan] \n \n \n \n \n 1 \n \n \n Per FT \n \n \n [LinealFT] \n \n \n \n \n 2 \n \n \n SQ FT \n \n \n [SquareFT] \n \n \n \n \n 3 \n \n \n BD FT \n \n \n [LinealFT]*[RoughThickness] \n \n \n \n \n 4 \n \n \n Sheet \n \n \n [SquareFT]/([Sheets.Width]*[Sheets.Length]/144) \n \n \n \n \n 5 \n \n \n Per M \n \n \n [LinealFT]/3.280839895 \n \n \n \n \n 6 \n \n \n SQ M \n \n \n [SquareFT]/10.76391042",
+                        "Index",
+                        "Issue Unit",
+                        "Formula",
+                        "0",
+                        "Each",
+                        "[Quan]",
+                        "1",
+                        "Per FT",
+                        "[LinealFT]",
+                        "2",
+                        "SQ FT",
+                        "[SquareFT]",
+                        "3",
+                        "BD FT",
+                        "[LinealFT]*[RoughThickness]",
+                        "4",
+                        "Sheet",
+                        "[SquareFT]/([Sheets.Width]*[Sheets.Length]/144)",
+                        "5",
+                        "Per M",
+                        "[LinealFT]/3.280839895",
+                        "6",
+                        "SQ M",
+                        "[SquareFT]/10.76391042"
+                    ],
+                    [
+                        "Index",
+                        "Issue Unit",
+                        "Formula"
+                    ],
+                    [
+                        "0",
+                        "Each",
+                        "[Quan]"
+                    ],
+                    [
+                        "1",
+                        "Per FT",
+                        "[LinealFT]"
+                    ],
+                    [
+                        "2",
+                        "SQ FT",
+                        "[SquareFT]"
+                    ],
+                    [
+                        "3",
+                        "BD FT",
+                        "[LinealFT]*[RoughThickness]"
+                    ],
+                    [
+                        "4",
+                        "Sheet",
+                        "[SquareFT]/([Sheets.Width]*[Sheets.Length]/144)"
+                    ],
+                    [
+                        "5",
+                        "Per M",
+                        "[LinealFT]/3.280839895"
+                    ],
+                    [
+                        "6",
+                        "SQ M",
+                        "[SquareFT]/10.76391042"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "JobID"
+        },
+        {
+            "type": "text",
+            "data": "Cross-reference to [Jobs].[ID]."
+        },
+        {
+            "type": "text",
+            "data": "MaterialID"
+        },
+        {
+            "type": "text",
+            "data": "Cross-reference to [Materials].[ID]."
+        },
+        {
+            "type": "text",
+            "data": "Quan"
+        },
+        {
+            "type": "text",
+            "data": "A value representing the Quantity of the Material necessary in the Unit of Measure for the Material."
+        },
+        {
+            "type": "text",
+            "data": "LinealFT"
+        },
+        {
+            "type": "text",
+            "data": "A value representing the Lineal Feet of the Material required."
+        },
+        {
+            "type": "text",
+            "data": "SquareFT"
+        },
+        {
+            "type": "text",
+            "data": "A value representing the Square Feet of the Material required."
+        },
+        {
+            "type": "text",
+            "data": "Total"
+        },
+        {
+            "type": "text",
+            "data": "The Material total based on the Unit of issue for the Material:"
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Index",
+                    "Issue Unit",
+                    "Formula"
+                ],
+                "rows": [
+                    [
+                        "0",
+                        "Each",
+                        "[Quan]"
+                    ],
+                    [
+                        "1",
+                        "Per FT",
+                        "[LinealFT]"
+                    ],
+                    [
+                        "2",
+                        "SQ FT",
+                        "[SquareFT]"
+                    ],
+                    [
+                        "3",
+                        "BD FT",
+                        "[LinealFT]*[RoughThickness]"
+                    ],
+                    [
+                        "4",
+                        "Sheet",
+                        "[SquareFT]/([Sheets.Width]*[Sheets.Length]/144)"
+                    ],
+                    [
+                        "5",
+                        "Per M",
+                        "[LinealFT]/3.280839895"
+                    ],
+                    [
+                        "6",
+                        "SQ M",
+                        "[SquareFT]/10.76391042"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Index"
+        },
+        {
+            "type": "text",
+            "data": "Issue Unit"
+        },
+        {
+            "type": "text",
+            "data": "Formula"
+        },
+        {
+            "type": "text",
+            "data": "0"
+        },
+        {
+            "type": "text",
+            "data": "Each"
+        },
+        {
+            "type": "text",
+            "data": "[Quan]"
+        },
+        {
+            "type": "text",
+            "data": "1"
+        },
+        {
+            "type": "text",
+            "data": "Per FT"
+        },
+        {
+            "type": "text",
+            "data": "[LinealFT]"
+        },
+        {
+            "type": "text",
+            "data": "2"
+        },
+        {
+            "type": "text",
+            "data": "SQ FT"
+        },
+        {
+            "type": "text",
+            "data": "[SquareFT]"
+        },
+        {
+            "type": "text",
+            "data": "3"
+        },
+        {
+            "type": "text",
+            "data": "BD FT"
+        },
+        {
+            "type": "text",
+            "data": "[LinealFT]*[RoughThickness]"
+        },
+        {
+            "type": "text",
+            "data": "4"
+        },
+        {
+            "type": "text",
+            "data": "Sheet"
+        },
+        {
+            "type": "text",
+            "data": "[SquareFT]/([Sheets.Width]*[Sheets.Length]/144)"
+        },
+        {
+            "type": "text",
+            "data": "5"
+        },
+        {
+            "type": "text",
+            "data": "Per M"
+        },
+        {
+            "type": "text",
+            "data": "[LinealFT]/3.280839895"
+        },
+        {
+            "type": "text",
+            "data": "6"
+        },
+        {
+            "type": "text",
+            "data": "SQ M"
+        },
+        {
+            "type": "text",
+            "data": "[SquareFT]/10.76391042"
+        },
+        {
+            "type": "text",
+            "data": "Sheets"
+        },
+        {
+            "type": "text",
+            "data": "This table stores the available Sheet Sizes."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "ID",
+                        "A unique number used to reference the Sheet."
+                    ],
+                    [
+                        "Name",
+                        "The Name of the Sheet."
+                    ],
+                    [
+                        "Width",
+                        "A value representing the Width of the Sheet."
+                    ],
+                    [
+                        "Length",
+                        "A value representing the Length of the Sheet."
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "ID"
+        },
+        {
+            "type": "text",
+            "data": "A unique number used to reference the Sheet."
+        },
+        {
+            "type": "text",
+            "data": "Name"
+        },
+        {
+            "type": "text",
+            "data": "The Name of the Sheet."
+        },
+        {
+            "type": "text",
+            "data": "Width"
+        },
+        {
+            "type": "text",
+            "data": "A value representing the Width of the Sheet."
+        },
+        {
+            "type": "text",
+            "data": "Length"
+        },
+        {
+            "type": "text",
+            "data": "A value representing the Length of the Sheet."
+        },
+        {
+            "type": "text",
+            "data": "Units"
+        },
+        {
+            "type": "text",
+            "data": "This table stores the available Units of Measure."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "Index",
+                        "A unique number used to reference the Unit of Issue."
+                    ],
+                    [
+                        "Units",
+                        "The Unit of Issue."
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "Index"
+        },
+        {
+            "type": "text",
+            "data": "A unique number used to reference the Unit of Issue."
+        },
+        {
+            "type": "text",
+            "data": "Units"
+        },
+        {
+            "type": "text",
+            "data": "The Unit of Issue."
+        }
+    ],
+    "source_file": "CVEnglish\\Room_Level\\Ribbonbar\\Utilities_Tab\\Output_Data_File\\Specification_MatSum_mdb_Database.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

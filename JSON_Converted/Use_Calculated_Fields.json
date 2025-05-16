@@ -1,0 +1,26 @@
+{
+    "id": "0601c7a6-8244-46a1-b1c0-104fd484b7ce",
+    "title": "Use_Calculated_Fields",
+    "content": [
+        {
+            "type": "text",
+            "data": "Use Calculated Fields"
+        },
+        {
+            "type": "text",
+            "data": "Can I put math calculations in the dimension and position fields?"
+        },
+        {
+            "type": "text",
+            "data": "Yes, select an object in Plan or Elevation view. Then click in any field from the sidebar and you can use math operators (+, -, /, *) to calculate dimensions or positions. Press   to get the value."
+        },
+        {
+            "type": "image",
+            "data": "enter_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Tips_Tricks_&_FAQs\\FAQs\\HDI-Advanced_Features\\Use_Calculated_Fields.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

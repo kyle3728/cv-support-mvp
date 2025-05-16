@@ -1,0 +1,50 @@
+{
+    "id": "2a6be061-5eee-4338-a7b2-794388cb2d61",
+    "title": "Add_Additional_Edgebanding_to_My_Upper_Ends",
+    "content": [
+        {
+            "type": "text",
+            "data": "Add Additional Edgebanding to My Upper Ends"
+        },
+        {
+            "type": "text",
+            "data": "This is can accomplished in the Assembly Manager."
+        },
+        {
+            "type": "text",
+            "data": "From the System Level go to the Assembly Manager. \n \n \n Select your Construction Method. \n \n \n Run the Part Wizard for your Unfinished and Finished Ends add the Upper Branch and configure your Banding."
+        },
+        {
+            "type": "text",
+            "data": "From the System Level go to the Assembly Manager."
+        },
+        {
+            "type": "text",
+            "data": "From the System Level go to the Assembly Manager."
+        },
+        {
+            "type": "text",
+            "data": "Select your Construction Method."
+        },
+        {
+            "type": "text",
+            "data": "Select your Construction Method."
+        },
+        {
+            "type": "text",
+            "data": "Run the Part Wizard for your Unfinished and Finished Ends add the Upper Branch and configure your Banding."
+        },
+        {
+            "type": "text",
+            "data": "Run the Part Wizard for your Unfinished and Finished Ends add the Upper Branch and configure your Banding."
+        },
+        {
+            "type": "image",
+            "data": "image812.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\FAQs\\HDI-Advanced_Features\\Add_Additional_Edgebanding_to_My_Upper_Ends.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

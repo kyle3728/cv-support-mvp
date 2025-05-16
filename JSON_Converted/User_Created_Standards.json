@@ -1,0 +1,22 @@
+{
+    "id": "89249ad6-7b19-498f-8a51-d11bfdd61b12",
+    "title": "User_Created_Standards",
+    "content": [
+        {
+            "type": "text",
+            "data": "User Created Standards"
+        },
+        {
+            "type": "image",
+            "data": "image165.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Opens the CABINET VISION User Created Standards Interface. For more information, see the CABINET VISION Help Files."
+        }
+    ],
+    "source_file": "CEEnglish\\Options_View\\Ribbonbar\\Utilities\\User_Created_Standards.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

@@ -1,0 +1,180 @@
+{
+    "id": "fa905072-7834-4cbb-b770-0ebfa4d917d0",
+    "title": "DC_Toolbar",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top \n > \n \n \n System Level \n > \n \n Ribbonbar \n > \n \n Main Tab \n > \n \n Catalogs Group \n > \n \n Door Catalog \n > \n \n Toolbar"
+        },
+        {
+            "type": "text",
+            "data": "Top \n >"
+        },
+        {
+            "type": "text",
+            "data": "System Level \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "System Level",
+                "uuid": "4450866f-fd9c-46df-abf3-7843c5a1ef37",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Ribbonbar \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Ribbonbar",
+                "uuid": "3bbac75c-2b61-42af-9bce-b90335e66dde",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Main Tab \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Main Tab",
+                "uuid": "3bbac75c-2b61-42af-9bce-b90335e66dde",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Catalogs Group \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Catalogs Group",
+                "uuid": "f4a43f08-b40b-442c-8f03-a96c2a64640f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Door Catalog \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Door Catalog",
+                "uuid": "2da09610-ccab-42a9-a5ce-4ad5fa83394a",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Toolbar"
+        },
+        {
+            "type": "text",
+            "data": "Toolbar"
+        },
+        {
+            "type": "text",
+            "data": "Door Catalog Toolbar"
+        },
+        {
+            "type": "image",
+            "data": "image2167.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There are five tools in the Door Catalog toolbar."
+        },
+        {
+            "type": "text",
+            "data": "Create a New Door Style"
+        },
+        {
+            "type": "image",
+            "data": "image1406.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Click this tool to create a new Door from scratch."
+        },
+        {
+            "type": "text",
+            "data": "Copy Current Door Style"
+        },
+        {
+            "type": "image",
+            "data": "image1408.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Click this tool to create a new Door Style that is a copy of the current Door Style. This is the best way to create a new Door if you already have one that is similar to what you need."
+        },
+        {
+            "type": "text",
+            "data": "Delete Current Door Style"
+        },
+        {
+            "type": "image",
+            "data": "image1409.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Click this tool to delete the current Door Style."
+        },
+        {
+            "type": "text",
+            "data": "Remember, as discussed in the  Door Catalog topic , the Door Catalog has GLOBAL REACH and therefore if you delete a Door that has been used in a previous Job, that Door will disappear from that Job and a new one must be selected the next time that you open that Job."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Door Catalog topic",
+                "uuid": "2da09610-ccab-42a9-a5ce-4ad5fa83394a",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Mirror Door Style"
+        },
+        {
+            "type": "image",
+            "data": "image1410.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Click this tool to create a new Door Style that is a Mirrored Copy of the current Door Style."
+        },
+        {
+            "type": "text",
+            "data": "Select A Door Style"
+        },
+        {
+            "type": "image",
+            "data": "image2168.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Click this tool to browse through the Door Catalog to the Door that you wish to edit."
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\System_Level\\Ribbonbar\\Main_Tab\\Catalogs_Group\\Door_Catalog\\DC_Toolbar.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

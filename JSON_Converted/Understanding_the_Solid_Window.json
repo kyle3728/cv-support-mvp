@@ -1,0 +1,484 @@
+{
+    "id": "57b3d47f-75a4-49bd-8143-55ece48609f2",
+    "title": "Understanding_the_Solid_Window",
+    "content": [
+        {
+            "type": "text",
+            "data": "Understanding the Solid Window"
+        },
+        {
+            "type": "text",
+            "data": "When you start a new Job in Solid, the main Solid window opens. This window is your design work space. It contains elements that you use to create your designs and to receive information about them. The following illustration shows the main parts of the Solid window."
+        },
+        {
+            "type": "image",
+            "data": "The_SE_Window.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "CV Button"
+        },
+        {
+            "type": "image",
+            "data": "image1338.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The CV Button is in the upper-left corner of Solid Essential. See the  CV Button  topic for more information."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "CV Button",
+                "uuid": "97f79ce6-a63e-47d0-8307-683c21f6052d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Quick Access Toolbar"
+        },
+        {
+            "type": "image",
+            "data": "QAT.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Quick Access Toolbar is a toolbar containing a set of commands that are independent of the ribbonbar tab that is currently displayed. There are five quick commands available here depending on the  Level  of Solid you are in. New, Open, Save, Undo, and Redo."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Level",
+                "uuid": "1359cb76-61c8-44c2-9eba-b177be938e2c",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "The Quick Access Toolbar can be located in one of two places:"
+        },
+        {
+            "type": "text",
+            "data": "Upper-left corner next to the Solid Button \u00a0(default location)"
+        },
+        {
+            "type": "text",
+            "data": "Upper-left corner next to the Solid Button \u00a0(default location)"
+        },
+        {
+            "type": "text",
+            "data": "Upper-left corner next to the Solid Button \u00a0(default location)"
+        },
+        {
+            "type": "image",
+            "data": "QAT_Above_Ribbon.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Below the ribbonbar"
+        },
+        {
+            "type": "text",
+            "data": "Below the ribbonbar"
+        },
+        {
+            "type": "text",
+            "data": "Below the ribbonbar"
+        },
+        {
+            "type": "image",
+            "data": "QAT_Below_Ribbon.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "If you don't want the Quick Access Toolbar to be displayed in its current location, you can move it to the other location. If you find that the default location next to the Solid Button   is too far from your work area to be convenient, you may want to move it closer to your work area. The location below the ribbonbar encroaches on the work area. Therefore, if you want to maximize the work area, you may want to keep the Quick Access Toolbar in its default location."
+        },
+        {
+            "type": "image",
+            "data": "image1338.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Click  Customize Quick Access Toolbar  \u00a0 . \n \n \n In the list, click  Show Below the Ribbon ."
+        },
+        {
+            "type": "text",
+            "data": "Click  Customize Quick Access Toolbar  \u00a0 ."
+        },
+        {
+            "type": "text",
+            "data": "Click  Customize Quick Access Toolbar  \u00a0 ."
+        },
+        {
+            "type": "image",
+            "data": "image1740.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "In the list, click  Show Below the Ribbon ."
+        },
+        {
+            "type": "text",
+            "data": "In the list, click  Show Below the Ribbon ."
+        },
+        {
+            "type": "text",
+            "data": "You can also use this option to minimize the Ribbonbar. Or to quickly Minimize/Maximize the Ribbonbar simply double click a Ribbonbar tab."
+        },
+        {
+            "type": "image",
+            "data": "image174.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Titlebar"
+        },
+        {
+            "type": "image",
+            "data": "image175.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This section displays the current Job Name as well as the Current Level (Layout/Assembly) of Solid you are in."
+        },
+        {
+            "type": "text",
+            "data": "Ribbonbar"
+        },
+        {
+            "type": "image",
+            "data": "Ribbonbar.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This section gives quick and easy access to tools specific to the area of Solid you are in. The ribbonbar will change depending on which area, you are in. Tools with small \u00a0triangles on the right side have fly-outs containing tools that invoke commands related to the first tool shown."
+        },
+        {
+            "type": "text",
+            "data": "Minimize, Maximize, and Close Buttons"
+        },
+        {
+            "type": "image",
+            "data": "image176.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "These buttons hide the Solid window, enlarge it to fill the whole screen, and close it, respectively."
+        },
+        {
+            "type": "text",
+            "data": "Style Selection"
+        },
+        {
+            "type": "image",
+            "data": "image1344.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Allows you to choose the Style that the Solid interface will utilize. There are three choices."
+        },
+        {
+            "type": "text",
+            "data": "Blue Style \n \n \n Black Style \n \n \n Silver Style \u00a0- The default Style."
+        },
+        {
+            "type": "text",
+            "data": "Blue Style"
+        },
+        {
+            "type": "text",
+            "data": "Blue Style"
+        },
+        {
+            "type": "text",
+            "data": "Black Style"
+        },
+        {
+            "type": "text",
+            "data": "Black Style"
+        },
+        {
+            "type": "text",
+            "data": "Silver Style \u00a0- The default Style."
+        },
+        {
+            "type": "text",
+            "data": "Silver Style \u00a0- The default Style."
+        },
+        {
+            "type": "text",
+            "data": "Area Tabs"
+        },
+        {
+            "type": "image",
+            "data": "image177.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This series of Tabs allows you to switch your View between several possible areas depending on the Level of Solid you are in."
+        },
+        {
+            "type": "text",
+            "data": "You can right click on the Tabs and select Hide Labels if you do not need them."
+        },
+        {
+            "type": "image",
+            "data": "image178.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image179.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Sidebar"
+        },
+        {
+            "type": "image",
+            "data": "Sidebar.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This section gives access to functions specific to the area of Solid you are in. This section will change depending on which area, controlled by the Area Tabs, you are in."
+        },
+        {
+            "type": "text",
+            "data": "View/Drawing Area"
+        },
+        {
+            "type": "text",
+            "data": "This is the actual working area of Solid for Drawings or the display of other information. The drawing area size varies, depending on the size of the Solid window and on the number of other elements that are displayed."
+        },
+        {
+            "type": "text",
+            "data": "Statusbar"
+        },
+        {
+            "type": "image",
+            "data": "image1346.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This bar contains your software license information."
+        },
+        {
+            "type": "text",
+            "data": "Favorites Bar"
+        },
+        {
+            "type": "image",
+            "data": "image1355.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This is a storage area for quick access to commonly used Objects. To add an Object to this bar simply drag the Object out of your Catalog and instead of dropping the Object into the Layout Area simply drop it onto the Favorites Bar. Up to 32 Objects can be placed on the Favorites Bar."
+        },
+        {
+            "type": "text",
+            "data": "Statusbar Menu"
+        },
+        {
+            "type": "image",
+            "data": "Statusbar_Menu.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Statusbar menu gives you quick access to control the status of certain Drawing aids. There are six possible options here:"
+        },
+        {
+            "type": "text",
+            "data": "Unit Selection   or   -  Allows you to toggle between Inches (Imperial) and Metric Units on the screen. The Unit displayed on the button represents the Unit of Measure that is currently active. You can turn this button On/Off via the  Preferences | Units  tab. \n \n \n Unit Precision   -  Allows you to select the Unit of Precision for the selected Unit. The Precision of the Unit selected will be dictated by the  Unit of precision  last  Set As System Default  for that Unit and View in Units Properties. \n \n \n Reset Ruler   -  Allows you to remove any Snap Marks you have placed. \n \n \n Snap to Marks   -  This feature allows snapping to a Snap Point set by use of the  Ruler Tool . If this button is highlighted in blue it means it is active simply click it again to disable it. \n \n \n Snap Grid   -  This option turns the Grid display on. You will see a grid pattern in the window where you layout Jobs, edit Assemblies, or CAD that you can Snap to. If this button is highlighted in blue it means it is active simply click it again to disable it. Go to  Right Click Properties  to set the Grid Spacing. \n \n \n Snap to Points   -  This is perhaps the most useful tool when using the measure option of the  Ruler Tool . Using this snap feature allows precise snapping of dimension lines in  CAD , and other precise placement options. This option turns on the  Dynamic Snapping  functionality in Solid The snap to points appear as small dark dots in the corner of the objects and all parts within the object. These are the snap to points. If these points are present and not desired, reset the snapping mode to OFF or another mode to eliminate them. If this button is highlighted in blue it means it is active simply click it again to disable it. \n \n \n Build Warnings   -  Will display any Build Warnings that are currently active. Simply click this option to bring up the  Message Log  to view the active Build Warnings."
+        },
+        {
+            "type": "text",
+            "data": "Unit Selection   or   -  Allows you to toggle between Inches (Imperial) and Metric Units on the screen. The Unit displayed on the button represents the Unit of Measure that is currently active. You can turn this button On/Off via the  Preferences | Units  tab."
+        },
+        {
+            "type": "text",
+            "data": "Unit Selection   or   -  Allows you to toggle between Inches (Imperial) and Metric Units on the screen. The Unit displayed on the button represents the Unit of Measure that is currently active. You can turn this button On/Off via the  Preferences | Units  tab."
+        },
+        {
+            "type": "image",
+            "data": "image1348.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image1349.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Preferences | Units",
+                "uuid": "a6c6d306-c8da-4df8-8440-33f2f24a9c1d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Unit Precision   -  Allows you to select the Unit of Precision for the selected Unit. The Precision of the Unit selected will be dictated by the  Unit of precision  last  Set As System Default  for that Unit and View in Units Properties."
+        },
+        {
+            "type": "text",
+            "data": "Unit Precision   -  Allows you to select the Unit of Precision for the selected Unit. The Precision of the Unit selected will be dictated by the  Unit of precision  last  Set As System Default  for that Unit and View in Units Properties."
+        },
+        {
+            "type": "image",
+            "data": "image2193.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Unit of precision",
+                "uuid": "a6c6d306-c8da-4df8-8440-33f2f24a9c1d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Set As System Default",
+                "uuid": "e5b1c38f-2747-41a5-a7b8-9aefa6986ede",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Reset Ruler   -  Allows you to remove any Snap Marks you have placed."
+        },
+        {
+            "type": "text",
+            "data": "Reset Ruler   -  Allows you to remove any Snap Marks you have placed."
+        },
+        {
+            "type": "image",
+            "data": "image1350.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Snap to Marks   -  This feature allows snapping to a Snap Point set by use of the  Ruler Tool . If this button is highlighted in blue it means it is active simply click it again to disable it."
+        },
+        {
+            "type": "text",
+            "data": "Snap to Marks   -  This feature allows snapping to a Snap Point set by use of the  Ruler Tool . If this button is highlighted in blue it means it is active simply click it again to disable it."
+        },
+        {
+            "type": "image",
+            "data": "image1351.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Ruler Tool",
+                "uuid": "f16b39b1-a7e8-4fd9-af99-0b437d3e2fda",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Snap Grid   -  This option turns the Grid display on. You will see a grid pattern in the window where you layout Jobs, edit Assemblies, or CAD that you can Snap to. If this button is highlighted in blue it means it is active simply click it again to disable it. Go to  Right Click Properties  to set the Grid Spacing."
+        },
+        {
+            "type": "text",
+            "data": "Snap Grid   -  This option turns the Grid display on. You will see a grid pattern in the window where you layout Jobs, edit Assemblies, or CAD that you can Snap to. If this button is highlighted in blue it means it is active simply click it again to disable it. Go to  Right Click Properties  to set the Grid Spacing."
+        },
+        {
+            "type": "image",
+            "data": "image1352.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Right Click Properties",
+                "uuid": "3ea2c40b-e3fc-4eac-9114-cf8a3365c62a",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Snap to Points   -  This is perhaps the most useful tool when using the measure option of the  Ruler Tool . Using this snap feature allows precise snapping of dimension lines in  CAD , and other precise placement options. This option turns on the  Dynamic Snapping  functionality in Solid The snap to points appear as small dark dots in the corner of the objects and all parts within the object. These are the snap to points. If these points are present and not desired, reset the snapping mode to OFF or another mode to eliminate them. If this button is highlighted in blue it means it is active simply click it again to disable it."
+        },
+        {
+            "type": "text",
+            "data": "Snap to Points   -  This is perhaps the most useful tool when using the measure option of the  Ruler Tool . Using this snap feature allows precise snapping of dimension lines in  CAD , and other precise placement options. This option turns on the  Dynamic Snapping  functionality in Solid The snap to points appear as small dark dots in the corner of the objects and all parts within the object. These are the snap to points. If these points are present and not desired, reset the snapping mode to OFF or another mode to eliminate them. If this button is highlighted in blue it means it is active simply click it again to disable it."
+        },
+        {
+            "type": "image",
+            "data": "image1353.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Ruler Tool",
+                "uuid": "f16b39b1-a7e8-4fd9-af99-0b437d3e2fda",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "CAD",
+                "uuid": "c364cda2-94c1-45c4-950a-125c6e19bd95",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Dynamic Snapping",
+                "uuid": "1b76ea8a-196d-4b8f-a72a-3d6db86a4b5e",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Build Warnings   -  Will display any Build Warnings that are currently active. Simply click this option to bring up the  Message Log  to view the active Build Warnings."
+        },
+        {
+            "type": "text",
+            "data": "Build Warnings   -  Will display any Build Warnings that are currently active. Simply click this option to bring up the  Message Log  to view the active Build Warnings."
+        },
+        {
+            "type": "image",
+            "data": "image1354.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Message Log",
+                "uuid": "a6c6d306-c8da-4df8-8440-33f2f24a9c1d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Introduction\\Getting_Started\\Understanding_the_Solid_Window.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

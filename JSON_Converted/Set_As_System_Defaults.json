@@ -1,0 +1,31 @@
+{
+    "id": "e5b1c38f-2747-41a5-a7b8-9aefa6986ede",
+    "title": "Set_As_System_Defaults",
+    "content": [
+        {
+            "type": "text",
+            "data": "Set As System Defaults"
+        },
+        {
+            "type": "text",
+            "data": "Use this function to store the current settings as default values. For example, if you are entering the values for the Heights and Depths of the different Cabinet Classes, and you want every Job to have these new values input automatically, click the Set As System Defaults button when you finish entering the numbers. This will allow the values entered to appear each time a new Job is started so that you don't have to re-enter them in every Job. The values may still be modified thereafter."
+        },
+        {
+            "type": "image",
+            "data": "SetAsSystemDefaults.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "System Default settings are stored in the Windows Registry."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Introduction\\Set_As_System_Defaults.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

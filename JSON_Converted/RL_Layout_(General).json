@@ -1,0 +1,40 @@
+{
+    "id": "aba0584e-19fe-4235-9c5b-cdfe9fdf526c",
+    "title": "RL_Layout_(General)",
+    "content": [
+        {
+            "type": "text",
+            "data": "Layout (General)"
+        },
+        {
+            "type": "image",
+            "data": "1AUALL.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Layout (General) branch gives you control over the following Layers at the Layout level of your Job:"
+        },
+        {
+            "type": "image",
+            "data": "image6206.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There are three main and eight sub branches under the Layout (General) level:"
+        },
+        {
+            "type": "text",
+            "data": "Click the folders below for more information"
+        },
+        {
+            "type": "image",
+            "data": "image4162.gif",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\RL_Layout_(General).htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

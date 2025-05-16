@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><link rel="stylesheet" type="text/css" href="../../../../../_rhdefault.css"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=WINDOWS-1252"/>
+  <meta name="generator" content="Adobe RoboHelp 2022"/>
+  <title>S2M Part List</title>
+  <link rel="StyleSheet" href="../../../../../assets/css/default.css" type="text/css"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/><script type="text/javascript" src="../../../../../ehlpdhtm.js"></script></head>
+<body>
+  <h1>S2M Part List</h1>
+  <p>To use the S2M Part List CAD Import Link you will need to get the Import Link License added to your License by from your local S2M CENTER supplier.</p>
+  <p>If you are using a 3rd Party CAD Application, other than those predefined for the S2M CENTER, to create the DXF files you want to process then the S2M Part List is the Scheme you need to have selected prior to importing DXF files.</p>
+  <p><img src="../../../../../assets/images/image274.png"/></p>
+  <p>When you output your DXF&#39;s from your CAD Application you can make the Batch Import of these DXF&#39;s more seamless by creating a CncRun.txt file (See the Creating an S2M Part List topic for more information). Simply change the File Type in the
+    Open Dialog to S2M Part List (CncRun.txt).</p>
+  <p><img src="../../../../../assets/images/image275.png"/></p>
+  <h2><a name="S2M_Part_List" id="S2M_Part_List"></a>S2M Part List <span style="margin-left: 40px;">CncRun.txt File Structure</span></h2>
+  <p><span style="margin-left: 40px;">F</span>ollowing is the format for the S2M Part List text file.</p>
+  <p style="margin-left: 40px; font-weight: bold;">Typical Header Layout</p>
+  <p style="margin-left: 80px; margin-top: 0pt; margin-bottom: 0pt;">^Job : Test Job 1</p>
+  <p style="margin-left: 80px; margin-top: 0pt; margin-bottom: 0pt;">^Description: My First Test Job</p>
+  <p style="margin-left: 80px; margin-top: 0pt; margin-bottom: 0pt;">^Date: 08-18-2010 (01:03 PM)</p>
+  <p style="margin-left: 80px; margin-top: 0pt; margin-bottom: 0pt;">^Parts: 5</p>
+  <p style="margin-left: 80px; margin-top: 0pt; margin-bottom: 0pt;">^Unit: IN</p>
+  <p style="margin-left: 80px; margin-top: 0pt; margin-bottom: 0pt;"><span style="color: #00ffff;">Banding</span>,<span style="color: #0000ff;">E</span>,<span style="color: #ff00ff;">Oak EB</span>,<span style="color: #808080;">Honey</span>,<span style="color: #00ff00;">.01</span></p>
+  <p style="margin-left: 80px; margin-top: 0pt; margin-bottom: 0pt;"> </p>
+  <p style="margin-top: 0pt; margin-bottom: 0pt; margin-left: 120px;"><img alt="" border="0" src="../../../../../assets/images/Information.png" style="border: none;"/> The Banding listing is only necessary for defining Banding coming from Cabinet Vision if you are mixing an Imported List of files with existing Cabinet
+    Vision Parts. This section is no longer part of the S2M Part List Creator application and would need to be added manually. The S2M Part List Creator only defines S2M CENTER Material Catalog Banding through <a href="../../../../Utilities_Tab/Material_Catalog/Toolbar/Setup_Banding_Indicators.htm">Banding Indicators</a>.</p>
+  <p style="margin-left: 40px; font-weight: bold;">Header Layout Field Contents</p>
+  <p style="margin-left: 80px;">Job: Text</p>
+  <p style="margin-left: 80px;">Description :Text</p>
+  <p style="margin-left: 80px;">Date: Date</p>
+  <p style="margin-left: 80px;">Parts: Indicates Number of Part Line Items in the File</p>
+  <p style="margin-left: 80px;">Unit: Can be either IN (Inches) or MM (Metric)</p>
+  <p style="margin-left: 80px; color: #00ffff;">1 Banding<span style="color:rgb(0,0,0)"> (the word &quot;Banding&quot; must be the first field when defining Banding)</span></p>
+  <p style="margin-left: 80px; color: #0000ff;">2 Banding Code<span style="color:rgb(0,0,0)"> (A single letter code you use to identify the Edgeband used to build the Banding Flag described below)</span></p>
+  <p style="margin-left: 80px; color: #ff00ff;">3 Banding Material</p>
+  <p style="margin-left: 80px; color: #808080;">4 Banding Color</p>
+  <p style="margin-left: 80px; color: #00ff00;">5 Banding Thickness</p>
+  <p style="margin-left: 80px;"> </p>
+  <p style="margin-left: 40px; font-weight: bold;">Typical Part Entry</p>
+  <p style="margin-left: 80px;"><span style="color: #00ffff;">LeftEnd.dxf</span>, <span style="color: #0000ff;">End Left</span>, <span style="color: #ff00ff;">12</span>, <span style="color: #008000;">30</span>, <span style="color: #00ff00;">0.75</span>, <span style="color: #800000;">3/4 Melamine</span>,
+    <span style="color: #000080;">1</span>, <span style="color: #808000;">1</span>, <span style="color: #800080;">0</span>, <span style="color: #ff0000;">b</span>, <span style="color: #c0c0c0;">0</span>,<span style="color: #008080;">EEEE</span>,
+    <span style="color: #00ffff;">1</span>,<span style="color: #0000ff;">.5</span>,<span style="color: #ff00ff;">.5</span></p>
+  <p style="font-weight: bold; margin-left: 40px;">Part Entry Field Contents</p>
+  <p style="margin-left: 80px; color: #00ffff;">1 DXF filename</p>
+  <p style="margin-left: 80px; color: #0000ff;">2 Part description</p>
+  <p style="margin-left: 80px; color: #ff00ff;">3 Part width <span style="color: rgb(0,0,0)">(x)</span></p>
+  <p style="margin-left: 80px; color: #008000;">4 Part length <span style="color: rgb(0,0,0)">(y)</span></p>
+  <p style="margin-left: 80px; color: #00ff00;">5 Part thickness <span style="color: rgb(0,0,0)">(z)</span></p>
+  <p style="margin-left: 80px; color: #800000;">6 Part material name</p>
+  <p style="margin-left: 80px; color: #000080;">7 Cabinet or unit number</p>
+  <p style="margin-left: 80px; color: #808000;">8 Quantity to be generated</p>
+  <p style="margin-left: 80px; color: #800080;">9 Grain flag <span style="color: rgb(0,0,0)">(0=no, can rotate, 1=yes, cannot rotate)</span></p>
+  <p style="margin-left: 120px;"><img alt="" border="0" src="../../../../../assets/images/Information.png" style="border: none;"/> The Grain flag is by Material which means a Grain and Non-Grained Material must exist and be assigned for Parts where this setting is different.</p>
+  <p style="margin-left: 80px; color: #ff0000;">10 Face Identifier <span style="color: rgb(0,0,0)">(b=Back Face f=Front Face)</span></p>
+  <p style="margin-left: 80px; color: #c0c0c0;">11 Face Dependency <span style="color: rgb(0,0,0)">(0=non face dependent, 1=face dependent)</span></p>
+  <p style="margin-left: 80px; color: #008080;">12 Banding Flag <span style="color: rgb(0,0,0)">(Optional field containing the banding indicators for each edge.)</span></p>
+  <p style="margin-left: 120px; color: rgb(0,0,0)"><img alt="" border="0" src="../../../../../assets/images/Information.png" style="border: none;"/> See the <a href="../../../../Utilities_Tab/xLabel_Setup/Designing_Label-IT_Labels.htm#Banding_Flag">Banding Flag</a> section of the Designing Label-IT
+    Labels topic for more information.</p>
+  <p style="margin-left: 80px; color: #00ffff;">13 Grain Match Group <span style="color: rgb(0,0,0)">(Leave at 0 (or blank) if not grain matched.  This number can begin at an index of 1.)</span></p>
+  <p style="margin-left: 120px; color: rgb(0,0,0)"><img alt="" border="0" src="../../../../../assets/images/Information.png" style="border: none;"/> When imported this number may be modified so it doesn’t conflict with any parts that already have a grain match group.</p>
+  <p style="margin-left: 80px; color: #0000ff;">14 Grain Match Position X <span style="color: rgb(0,0,0)">(Establishes the X Position of the Part within the Grain Match Group)</span></p>
+  <p style="margin-left: 120px; color: rgb(0,0,0)"><img alt="" border="0" src="../../../../../assets/images/Information.png" style="border: none;"/> This field is required to have a valid value if Grain Match Group has a number greater than 0.</p>
+  <p style="margin-left: 80px; color: #ff00ff;">15 Grain Match Position Y <span style="color: rgb(0,0,0)"> (Establishes the Y Position of the Part within the Grain Match Group)</span></p>
+  <p style="margin-left: 120px; color: rgb(0,0,0)"><img alt="" border="0" src="../../../../../assets/images/Information.png" style="border: none;"/> This field is required to have a valid value if Grain Match Group has a number greater than 0.</p>
+  <p> </p>
+  <h2>Importing Parts with no DXF File</h2>
+  <p>The CAD Import routine does not require a DXF file too import a part. If no DXF file is specified it will assume the part has no operations and will import it as a rectangle.</p>
+
+</body></html>

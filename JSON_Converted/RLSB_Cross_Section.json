@@ -1,0 +1,453 @@
+{
+    "id": "fa95a209-9f08-4fbb-ac02-22fb0d7e5f9e",
+    "title": "RLSB_Cross_Section",
+    "content": [
+        {
+            "type": "text",
+            "data": "Cross Section -"
+        },
+        {
+            "type": "image",
+            "data": "image70.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image71.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image2450.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Ribbonbar"
+        },
+        {
+            "type": "text",
+            "data": "There is a special ribbonbar area when in Cross Section mode."
+        },
+        {
+            "type": "image",
+            "data": "image6352.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "These options will allow you to work with any Saved Sections you have created via the Cross Section Right Click  Save Section  option."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Save Section",
+                "uuid": "ef454825-7e7c-4dba-aa39-dde18bbecff1",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "You can either use the drop down menu to select or use the Previous Saved and Next Saved options to scroll through your Saved Sections."
+        },
+        {
+            "type": "image",
+            "data": "image6353.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Edit Saved option allows you to Delete any Saved Sections you no longer need in the Job."
+        },
+        {
+            "type": "image",
+            "data": "image1539.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Lock Position option keeps you from accidentally changing your view. Disable this option if you want to change from the Saved Section. Note: Changing the Section with this option disabled does not re-save the Section. You would need to use Save Section to save a new orientation."
+        },
+        {
+            "type": "image",
+            "data": "image6354.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "You can also add CAD to Saved Sections."
+        },
+        {
+            "type": "text",
+            "data": "In   Plan View"
+        },
+        {
+            "type": "image",
+            "data": "image70.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "SolidDrafter.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "SolidDrafterforClosets.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "SolidAdvanced.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "SolidAdvancedforClosets.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "SolidUltimate.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "SolidUltimateforClosets.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Cross Section option allows you to display Cross Section views of your Drawing."
+        },
+        {
+            "type": "image",
+            "data": "image2508.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There are three main areas in the Cross Section sidebar:"
+        },
+        {
+            "type": "text",
+            "data": "Screen Area"
+        },
+        {
+            "type": "text",
+            "data": "The screen area allows you to set your cut line (red line) for your cross section as well as viewing direction. In Vertical Elevation mode there are several available options:"
+        },
+        {
+            "type": "image",
+            "data": "image2509.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This button will rotate the cut line (red line) 90 degrees to obtain a different cut for your cross section. \n \n \n        These buttons control which direction you are looking at the cut line (red line) from."
+        },
+        {
+            "type": "text",
+            "data": "This button will rotate the cut line (red line) 90 degrees to obtain a different cut for your cross section."
+        },
+        {
+            "type": "text",
+            "data": "This button will rotate the cut line (red line) 90 degrees to obtain a different cut for your cross section."
+        },
+        {
+            "type": "image",
+            "data": "image681.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "These buttons control which direction you are looking at the cut line (red line) from."
+        },
+        {
+            "type": "text",
+            "data": "These buttons control which direction you are looking at the cut line (red line) from."
+        },
+        {
+            "type": "image",
+            "data": "image683.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image684.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image685.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image686.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Elevations"
+        },
+        {
+            "type": "text",
+            "data": "There are two viewing choices available here:"
+        },
+        {
+            "type": "image",
+            "data": "image2510.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Vertical  - Allows you to make vertical Cross Sections of your Plan view."
+        },
+        {
+            "type": "text",
+            "data": "Vertical  - Allows you to make vertical Cross Sections of your Plan view."
+        },
+        {
+            "type": "text",
+            "data": "Vertical  - Allows you to make vertical Cross Sections of your Plan view."
+        },
+        {
+            "type": "text",
+            "data": "OR"
+        },
+        {
+            "type": "image",
+            "data": "image675.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image676.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Horizontal  - Allows you to make horizontal Cross Sections of your Plan view."
+        },
+        {
+            "type": "text",
+            "data": "Horizontal  - Allows you to make horizontal Cross Sections of your Plan view."
+        },
+        {
+            "type": "text",
+            "data": "Horizontal  - Allows you to make horizontal Cross Sections of your Plan view."
+        },
+        {
+            "type": "image",
+            "data": "image677.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Hide"
+        },
+        {
+            "type": "text",
+            "data": "This area allows you to hide certain components in your Cross Section views."
+        },
+        {
+            "type": "image",
+            "data": "image2511.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "In Elevation  View"
+        },
+        {
+            "type": "image",
+            "data": "image71.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "SolidDrafter.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "SolidDrafterforClosets.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "SolidStandard.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "SolidStandardforClosets.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "SolidAdvanced.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "SolidAdvancedforClosets.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "SolidUltimate.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "SolidUltimateforClosets.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "T he Cross Section option allows you to display Cross Section views of your Drawing."
+        },
+        {
+            "type": "image",
+            "data": "image2512.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There are four main areas in the Elevation Cross Section sidebar:"
+        },
+        {
+            "type": "text",
+            "data": "Screen Area"
+        },
+        {
+            "type": "text",
+            "data": "The screen area allows you to set your cut line (red line) for your cross section as well as viewing direction. In Vertical Elevation mode there are several available options:"
+        },
+        {
+            "type": "image",
+            "data": "image2513.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "These buttons control which direction you are looking at the cut line (red line) from."
+        },
+        {
+            "type": "image",
+            "data": "image24411.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image24511.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Wall # Face"
+        },
+        {
+            "type": "text",
+            "data": "There are three viewing choices available here:"
+        },
+        {
+            "type": "image",
+            "data": "image2514.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Front -  Selecting this option will only display Objects placed on the Front Face of the active Wall. \n \n \n Back -  Selecting this option will only display Objects placed on the Back Face of the active Wall. \n \n \n Both -  Selecting this option will display Objects placed on both the Front and Back Face of the active Wall."
+        },
+        {
+            "type": "text",
+            "data": "Front -  Selecting this option will only display Objects placed on the Front Face of the active Wall."
+        },
+        {
+            "type": "text",
+            "data": "Front -  Selecting this option will only display Objects placed on the Front Face of the active Wall."
+        },
+        {
+            "type": "text",
+            "data": "Back -  Selecting this option will only display Objects placed on the Back Face of the active Wall."
+        },
+        {
+            "type": "text",
+            "data": "Back -  Selecting this option will only display Objects placed on the Back Face of the active Wall."
+        },
+        {
+            "type": "text",
+            "data": "Both -  Selecting this option will display Objects placed on both the Front and Back Face of the active Wall."
+        },
+        {
+            "type": "text",
+            "data": "Both -  Selecting this option will display Objects placed on both the Front and Back Face of the active Wall."
+        },
+        {
+            "type": "text",
+            "data": "Elevations"
+        },
+        {
+            "type": "text",
+            "data": "There are two viewing choices available here:"
+        },
+        {
+            "type": "image",
+            "data": "image2515.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "End -  Allows you to make End Cross Sections of your Elevation view."
+        },
+        {
+            "type": "text",
+            "data": "End -  Allows you to make End Cross Sections of your Elevation view."
+        },
+        {
+            "type": "text",
+            "data": "End -  Allows you to make End Cross Sections of your Elevation view."
+        },
+        {
+            "type": "image",
+            "data": "image24111.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Wall Face -  Allows you to make a Wall Face Cross Sections of your Elevation view."
+        },
+        {
+            "type": "text",
+            "data": "Wall Face -  Allows you to make a Wall Face Cross Sections of your Elevation view."
+        },
+        {
+            "type": "text",
+            "data": "Wall Face -  Allows you to make a Wall Face Cross Sections of your Elevation view."
+        },
+        {
+            "type": "image",
+            "data": "image24211.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Hide"
+        },
+        {
+            "type": "text",
+            "data": "This area allows you to hide certain components in your Cross Section views."
+        },
+        {
+            "type": "image",
+            "data": "image2516.gif",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\RLSB_Cross_Section.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

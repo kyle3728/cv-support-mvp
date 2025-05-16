@@ -1,0 +1,56 @@
+{
+    "id": "b7be4065-7e35-4351-9f46-eaacf4a58eed",
+    "title": "Outer",
+    "content": [
+        {
+            "type": "text",
+            "data": "Outer"
+        },
+        {
+            "type": "text",
+            "data": "Click on the Tabs in the image below for additional information"
+        },
+        {
+            "type": "image",
+            "data": "image292.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This window shows the Outside Edge Profiles that are available for the selected Door. The Profiles may be enabled by clicking on the Enabled check box in the Enabled column. The Upcharge column allows for an amount to be added to the pricing according to which Profile is selected for the Door."
+        },
+        {
+            "type": "text",
+            "data": "Clear Prices"
+        },
+        {
+            "type": "text",
+            "data": "All"
+        },
+        {
+            "type": "image",
+            "data": "image293.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This button clears all of the prices for the selected Door across all of the categories (Price, Outer, Inner, RP Detail, Route Ptrn, Material)."
+        },
+        {
+            "type": "text",
+            "data": "Current List"
+        },
+        {
+            "type": "image",
+            "data": "image300.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This button clears the prices for the selected Door in the current category only."
+        }
+    ],
+    "source_file": "CEEnglish\\Doors_View\\Door_Associations\\Outer.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

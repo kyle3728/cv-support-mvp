@@ -1,0 +1,76 @@
+{
+    "id": "1f63c6c4-4e96-4f40-9215-55d1f79d53ae",
+    "title": "conn_Finished_Back",
+    "content": [
+        {
+            "type": "text",
+            "data": "Finished Back"
+        },
+        {
+            "type": "text",
+            "data": "This is where you configure the scenarios where a\u00a0Finished Back\u00a0Connects to Parts."
+        },
+        {
+            "type": "image",
+            "data": "image488.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The following diagram\u00a0show the Connections available for the Finished Back. Click a specific option in the diagram for more information or continue through this topic for information on all the options."
+        },
+        {
+            "type": "image",
+            "data": "image597.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Finished Back - Top (Standard #689)"
+        },
+        {
+            "type": "image",
+            "data": "image598.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Finished Back - Deck (Standard #691)"
+        },
+        {
+            "type": "image",
+            "data": "image599.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Finished Back - Finished Back (Standard #730)"
+        },
+        {
+            "type": "image",
+            "data": "image600.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Finished Back - Finished End (Standard #692)"
+        },
+        {
+            "type": "image",
+            "data": "image601.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Finished Back - Unfinished Back (Standard #700)"
+        },
+        {
+            "type": "image",
+            "data": "image602.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\System_Level\\Ribbonbar\\Main_Tab\\Construction_Group\\Assembly_Manager\\Assembly\\Branches\\Connection\\conn_Finished_Back.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

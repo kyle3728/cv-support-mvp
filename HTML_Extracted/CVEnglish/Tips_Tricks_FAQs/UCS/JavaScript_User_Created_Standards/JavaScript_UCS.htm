@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><link rel="stylesheet" type="text/css" href="../../../_rhdefault.css"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=WINDOWS-1252"/>
+  <meta name="generator" content="Adobe RoboHelp 2022"/>
+  <title>JavaScript UCS</title>
+  <meta name="topic-status" content="Draft"/>
+  <link rel="stylesheet" type="text/css" href="../../../assets/css/default.css"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/><script type="text/javascript" src="../../../ehlpdhtm.js"></script></head>
+<body>
+  <h1>JavaScript UCS</h1>
+  <h2 id="mcetoc_1hhndr19j2">General Usage</h2>
+  <p data-renderer-start-pos="1">JavaScript Macros (UCS:JS) are a powerful alternative to the existing traditional UCS Macros (UCS:M). This will give you much more power in coding a macro and even allow debugging with a tool like Microsoft VS Code. UCS:M and UCS:JS can run side by side. There are some slight differences in the implementation of UCS:M vs UCS:JS outlined below.</p>
+  <h3 data-renderer-start-pos="323" id="mcetoc_1hhnepj8k4">Already a UCS:M guru and want to learn UCS:JS?</h3>
+  <p>The quickest way to learn UCS:JS is to start with the basics. When running the UCS Wizard you can have it write it to UCS:JS.</p>
+  <p><img src="../../../assets/images/Tips_Tricks_FAQs/UCS/JavaScript_User_Created_Standards/UCSJS_Wizard.png" style="cursor: nwse-resize;"/></p>
+  <p style="margin-left: 50px"><img alt="" border="0" src="../../../assets/images/zGraphics/Extras/Information.png" style="border: none;"/> There are many learning and reference resources on the web for JavaScript. One we recommend is <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">JavaScript | MDN (mozilla.org)</a></p>
+  <h3 data-renderer-start-pos="875">For Each</h3>
+  <p><span>In a UCS:M, the condition used to apply the UCS to an assembly/part is defined in the UCS code using a “For Each” statement. The condition is evaluated during the UCS execution, if the condition is met the UCS:M continues execution else execution is terminated.</span></p>
+  <p><span style="padding-left:25px;"><span style="margin-left:15px;"><span style="font-size:12pt;"><span style="font-family:&#39;Courier New&#39;;"><span data-ds--code--row="" data-testid="renderer-code-block-line-1" style="margin-left: 15px">;UCS:M</span></span></span></span></span></p>
+  <p><span style="padding-left:25px;"><span style="margin-left:15px;"><span style="font-family:&#39;Courier New&#39;;"><span style="font-size:12pt;"><span data-ds--code--row="" data-testid="renderer-code-block-line-1"></span><span data-ds--code--row="" data-testid="renderer-code-block-line-2" style="margin-left: 15px;padding-left: 25px">For Each AS|FS Part</span></span></span></span></span></p>
+  <p>For a UCS:JS, the For Each statement is not defined in code but is a <a href="../../../System_Level/Ribbonbar/Utilities_Tab/Tools_Group/User_Created_Standards/UCS_UCS.htm#AddApplyConditions">property of the UCS</a>. This allows CABINET VISION to process the conditions prior to executing the UCS:JS, if the condition is met the UCS:JS is primed and executed else execution is bypassed.</p>
+  <h3 data-renderer-start-pos="875">Objects</h3>
+  <p data-renderer-start-pos="875">In a UCS:M, the macro is executed on the current CV object as defined in the “for each” statement. As CV is executing the UCS:M, it is able to relate the code directly to CV objects. There is therefore no requirement to identify an object in the UCS:M as it is implicitly implied. The UCS:M macros have a special Cab object to identify the current assembly.</p>
+  <p data-renderer-start-pos="875"><code>;UCS:M</code></p>
+  <p data-renderer-start-pos="875"><code>DX = 5                ; Implicitly apply a value to the current object</code></p>
+  <p data-renderer-start-pos="875"><code>If Cab.DX &gt; 30 Then   ; Use of the assembly object</code></p>
+  <p data-renderer-start-pos="875"><span>For a UCS:JS, a JavaScript runtime engine executes the script. The runtime engine has no direct knowledge of CV objects so in order for scripts to operate on CV objects, the runtime must be primed with a CV object. The runtime is primed with 2 CV objects, the current assembly (_cab) and current “for each” object (_this).</span></p>
+  <p data-renderer-start-pos="875"><code>//UCS:JS</code></p>
+  <p data-renderer-start-pos="875"><code>_this.DX = 5;        // Apply value to the current object</code></p>
+  <p data-renderer-start-pos="875"><code>if (_cab.DX &gt; 30)    // Use of the assembly object</code></p>
+  <h3 data-renderer-start-pos="1801" id="Public-Variables">Public Variables<span><span></span></span></h3>
+  <p data-renderer-start-pos="1819">In a UCS:M, public variables are defined in code. These are automatically extracted and displayed in the UCS Manager UI where the values may be edited.</p>
+  <p data-renderer-start-pos="1819"><code>;UCS:M</code></p>
+  <p data-renderer-start-pos="1819"><code>Public PUB_VALUE=4 ;Public Value</code></p>
+  <p data-renderer-start-pos="1819"><code>DX = PUB_VALUE</code></p>
+  <p data-renderer-start-pos="2026">For a UCS:JS, the public variables are defined in the UCS Manager UI and not in the JS code. For code execution they are defined as a JS var variable (see<span> </span><em data-renderer-mark="true">Variables<span> </span></em>below).</p>
+  <p><code><span><span>//UCS:JS</span></span></code></p>
+  <p><code><span><span>_this.DX = PUB_VALUE;</span></span></code></p>
+  <h3 data-renderer-start-pos="2230" id="Variables">Variables<span><span></span></span></h3>
+  <p data-renderer-start-pos="2241">In a UCS:M, all variables are applied as parameters on the current object being processed. This means that they can be used in any equations that may be used to define values.</p>
+  <p data-renderer-start-pos="2241"><code>;UCS:M</code></p>
+  <p data-renderer-start-pos="2241"><code>MY_VALUE = 5</code></p>
+  <p data-renderer-start-pos="2241"><code>DX = MY_VALUE * 2</code></p>
+  <p data-renderer-start-pos="2455">For a UCS:JS, standard JS var values can be used during calculations, but it is important to note they are not parameters on the current object being processed.</p>
+  <p><code><span><span>//UCS:JS</span></span></code></p>
+  <p><code><span><span>var MY_VALUE = 5;</span></span></code></p>
+  <p><code><span><span>_this.DX = MY_VALUE;         // Valid assignment</span></span></code></p>
+  <p><code><span><span>_this.DY = &#39;DX + MY_VALUE&#39;;  // Invalid use of var in an equation</span></span></code></p>
+  <p data-renderer-start-pos="2758">Using a JS var can have a big performance advantage. For example, if the result of a parameter or equation evaluation is stored in a var, it only need be evaluated once instead of potentially multiple times.</p>
+  <p data-renderer-start-pos="2967">In the UCS:M below, a parameter evaluation occurs two times.</p>
+  <p data-renderer-start-pos="2967"><code>if ( DY &lt; 20 )         ; Evaluate parameter 1</code></p>
+  <p data-renderer-start-pos="2967"><code>    ShowMessage(1);</code></p>
+  <p data-renderer-start-pos="2967"><code>else if ( DY &gt; 50 )    ; Evaluate parameter 2</code></p>
+  <p data-renderer-start-pos="2967"><code>    ShowMessage(3);</code></p>
+  <p data-renderer-start-pos="2967"><code>else</code></p>
+  <p data-renderer-start-pos="2967"><code>    ShowMessage(2);</code></p>
+  <p data-renderer-start-pos="3177">In a UCS:JS the code can be written so there is a single parameter evaluation.</p>
+  <p data-renderer-start-pos="3177"><code><span data-code-lang="" data-ds--code--code-block="">var length = _this.GetParameterValue(&#39;DY&#39;);     // Evaluate parameter 1</span></code></p>
+  <p data-renderer-start-pos="3177"><code><span data-code-lang="" data-ds--code--code-block="">if ( length &lt; 20 )</span></code></p>
+  <p data-renderer-start-pos="3177"><code><span data-code-lang="" data-ds--code--code-block="">    ShowMessage(1);</span></code></p>
+  <p data-renderer-start-pos="3177"><code><span data-code-lang="" data-ds--code--code-block="">else if ( length &gt; 50 )</span></code></p>
+  <p data-renderer-start-pos="3177"><code><span data-code-lang="" data-ds--code--code-block="">    ShowMessage(3);</span></code></p>
+  <p data-renderer-start-pos="3177"><code><span data-code-lang="" data-ds--code--code-block=""></span></code><code><span data-code-lang="" data-ds--code--code-block="">else</span></code></p>
+  <p data-renderer-start-pos="3177"><code><span data-code-lang="" data-ds--code--code-block="">    ShowMessage(2);</span></code></p>
+  <h3 data-renderer-start-pos="3427" id="Parameters">Parameters<span><span></span></span></h3>
+  <p data-renderer-start-pos="3439">In a UCS:M, as all variables are applied as parameters, there is no difference between a system parameter such as DX and a user parameter such as MY_PARAM.</p>
+  <p data-renderer-start-pos="3439"><code>;UCS:M</code></p>
+  <p data-renderer-start-pos="3439"><code>DX = 5</code></p>
+  <p data-renderer-start-pos="3439"><code>MY_PARAM = 5</code></p>
+  <p data-renderer-start-pos="3439"><span>For a UCS:JS, the JavaScript runtime has no concept of parameters so object methods must be used to set parameters explicitly. The most common parameters have been defined as object properties which are a shorthand method of setting the parameter value.</span></p>
+  <p data-renderer-start-pos="875"><code>//UCS:JS</code></p>
+  <p data-renderer-start-pos="875"><code>_this.DX = 5;                        // Property to set DX parameter</code></p>
+  <p data-renderer-start-pos="875"><code>_this.SetParameter(&#39;DX&#39;, 5);         // Method to set DX parameter</code></p>
+  <p data-renderer-start-pos="875"><code>_this.SetParameter(&#39;MY_PARAM&#39;, 5);   // Methods to set use parameter</code></p>
+  <p data-renderer-start-pos="4089">The same applies to evaluating parameters in a UCS:JS.</p>
+  <p data-renderer-start-pos="4089"><code>//UCS:JS</code></p>
+  <p data-renderer-start-pos="4089"><code>var dx1 = _this.DX;</code></p>
+  <p data-renderer-start-pos="4089"><code>var dx2 = _this.GetParameterValue(&#39;DX&#39;);</code></p>
+  <p data-renderer-start-pos="4089"><code>var my_param = _this.GetParameterValue(&#39;MY_PARAM&#39;);</code></p>
+  <h3 data-renderer-start-pos="4266" id="Case-sensitivity">Case sensitivity<span><span></span></span></h3>
+  <p data-renderer-start-pos="4284">In a USC:M, all parameters and objects are case insensitive, in other words upper-case and lower-case characters can be used interchangeably.</p>
+  <p data-renderer-start-pos="4284"><code>;UCS:M</code></p>
+  <p data-renderer-start-pos="4284"><code>DX = 5                      ; All upper case OK</code></p>
+  <p data-renderer-start-pos="4284"><code>Dx = 5                      ; Mixed case OK</code></p>
+  <p data-renderer-start-pos="4284"><code>dx = 5                      ; All lower case OK</code></p>
+  <p data-renderer-start-pos="4284"><code>If Cab.DX &gt; cab.DY THEN     ; Mixed case OK</code></p>
+  <p data-renderer-start-pos="4617">JavaScript however is a case sensitive language so syntax and objects must use the correct case.</p>
+  <p data-renderer-start-pos="4617"><code>//UCS:JS</code></p>
+  <p data-renderer-start-pos="4617"><code>_this.DX = 5;               // All upper case property OK</code></p>
+  <p data-renderer-start-pos="4617"><code>_this.Dx = 5;               // Mixed case invalid</code></p>
+  <p data-renderer-start-pos="4617"><code>_this.dx = 5;               // Lower case invalid </code></p>
+  <p data-renderer-start-pos="4617"><code>If (_Cab.DX &gt; _cab.DY)      // Mixed case invalid</code></p>
+  <p data-renderer-start-pos="4617"><code>if (_cab.DX &gt; _cab.DY)      // Correct case</code></p>
+  <p data-renderer-start-pos="4975">Even in UCS:JS, using an object Evaluation method to evaluate a formula, mixed case is permissible as the evaluation of expressions is relegated to CV which is case insensitive.</p>
+  <p><span><span></span></span></p>
+  <p><code>//UCS:JS</code></p>
+  <p><code>_this.DX = &#39;dy / 2&#39;;             // Assigns an equation to DX so mixed case OK</code></p>
+  <p><code>_this.Evaluate(&#39;(DX+dy)/2&#39;);     // Using CV expresion evaluation so mixed case OK</code></p>
+  <h3 data-renderer-start-pos="5324" id="Functions">Functions<span><span></span></span></h3>
+  <p data-renderer-start-pos="5335">UCS:M do not have the concept of user defined functions. In UCS:JS standard JS function can be used to isolate logic into neat components.</p>
+  <p><code>function CalculatePrice(length)</code></p>
+  <p><code>{</code></p>
+  <p><code>    if ( length &lt; 20 )</code></p>
+  <p><code>        return length * 1.5;</code></p>
+  <p><code>    else if ( length &lt; 30 )</code></p>
+  <p><code>        return length * 1.85;</code></p>
+  <p><code>    return length * 2.25;</code></p>
+  <p><code>}</code></p>
+  <p><code>var price = CalculatePrice(_this.GetParameterValue(&#39;DY&#39;));</code></p>
+  <p><code>_this.SetParameter(&#39;PRICE&#39;, price, VAL_CURRENCY);</code></p>
+  <h3 data-renderer-start-pos="5735" id="Data-Structure">Data Structure<span><span></span></span></h3>
+  <p data-renderer-start-pos="5751">As mentioned previously UCS:M do not have the concept of variables and data structures as all data is considered an object parameter. In UCS:JS, all the standard JS data and data collections are available.</p>
+  <p><code>const size = new Map([</code></p>
+  <p><code>  [1, &#39;short&#39;],</code></p>
+  <p><code>  [2, &#39;medium&#39;],</code></p>
+  <p><code>  [3, &#39;long&#39;]</code></p>
+  <p><code>]);</code></p>
+  <p><code>function ShowMessage(key)</code></p>
+  <p><code>{</code></p>
+  <p><code>    alert(&#39;A &#39; + size.get(key) + &#39; part in &#39; + _cab.NAME);</code></p>
+  <p><code>}</code></p>
+  <p><code>var length = _this.GetParameterValue(&#39;DY&#39;);</code></p>
+  <p><code>if ( length &lt; 20 )</code></p>
+  <p><code>    ShowMessage(1);</code></p>
+  <p><code>else if ( length &gt; 50 )</code></p>
+  <p><code>    ShowMessage(3);</code></p>
+  <p><code>else</code></p>
+  <p><code>    ShowMessage(2);</code></p>
+  <h2 data-renderer-start-pos="6262" id="Example">Example<span><span></span></span></h2>
+  <p data-renderer-start-pos="6271">UCS:M to adjust an adjustable shelf part width under a number of conditions.</p>
+  <p><code>;UCS:M</code></p>
+  <p><code>;Adjust Adjustable/Fixed Shelf</code></p>
+  <p><code>For Each AS|FS Part</code></p>
+  <p><code>If Cab.ConstID = AsmConstID(&#39;Frameless&#39;) Then</code></p>
+  <p><code> If Cab.DX &gt;= 25 Then</code></p>
+  <p><code>  If Cab.Type = ASM_TYPE_STANDARD Then</code></p>
+  <p><code>   DY += 10;  </code></p>
+  <p><code>  End If</code></p>
+  <p><code> End If</code></p>
+  <p><code>End If</code></p>
+  <p data-renderer-start-pos="6547">Equivalent UCS:JS.</p>
+  <p><code>//Adjust Adjustable/Fixed Shelf</code></p>
+  <p><code>if (_cab.GetParameterValue(&#39;CONSTID&#39;) == _this.QueryID(ID_ASSEMBLYCONSTRUCTION, &#39;Frameless&#39;)) {</code></p>
+  <p><code> if (_cab.DX &gt;= 25 ) {</code></p>
+  <p><code>  if (_cab.TYPE == ASM_TYPE_STANDARD) {</code></p>
+  <p><code>   _this.DY += 10;</code></p>
+  <p><code>  }</code></p>
+  <p><code> }</code></p>
+  <p><code>}</code></p>
+  <p>See the <a href="JavaScript_Object_Model.htm">JavaScript Object Model</a> topic for more information.</p>
+  <p><span><span></span></span></p>
+
+</body></html>

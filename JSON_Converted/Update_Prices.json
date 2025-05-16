@@ -1,0 +1,82 @@
+{
+    "id": "c20cbc15-ab1e-4216-a6ad-07beb9223c00",
+    "title": "Update_Prices",
+    "content": [
+        {
+            "type": "text",
+            "data": "Update Prices"
+        },
+        {
+            "type": "image",
+            "data": "image51.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option starts an Update Pricing Wizard that will update all of the Price Categories/ Price Labels."
+        },
+        {
+            "type": "text",
+            "data": "Step 1"
+        },
+        {
+            "type": "text",
+            "data": "First select whether to update all Price Categories by a set amount or to update each Price Category separately."
+        },
+        {
+            "type": "image",
+            "data": "image52.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Step 2"
+        },
+        {
+            "type": "text",
+            "data": "When adding the amount entered, the update process can round the result in any of the four methods listed."
+        },
+        {
+            "type": "image",
+            "data": "image53.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Step 3"
+        },
+        {
+            "type": "text",
+            "data": "If \"All Price Categories to be Updated by Same Amount\" is selected in step 1"
+        },
+        {
+            "type": "text",
+            "data": "If you selected \"All Price Categories to be Updated by Same Amount\" in the first step, the third step will be to enter the amount of the update. This amount may be either a percentage or a dollar amount and you must include a minus sign (-) if the change is a decrease."
+        },
+        {
+            "type": "image",
+            "data": "image54.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Step 3"
+        },
+        {
+            "type": "text",
+            "data": "If \"Each Price Category to be Updated by a Separate Amount\" is selected in step 1"
+        },
+        {
+            "type": "text",
+            "data": "If you selected \"Each Price Category to be Updated by a Separate Amount\" in the first step, the third step will be to enter an amount for each Price Category in the proper cell of this window. Additionally, you will be required to select whether the update amount is a percentage or a dollar amount. Remember to include a minus sign (-) if the change is a decrease."
+        },
+        {
+            "type": "image",
+            "data": "image55.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CEEnglish\\Explorer_View\\Ribbonbar\\Main_Tab\\Pricing_Group\\Update_Prices.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

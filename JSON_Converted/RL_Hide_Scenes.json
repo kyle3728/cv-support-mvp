@@ -1,0 +1,109 @@
+{
+    "id": "988e523d-0b83-4f74-84bf-d69b2d652c12",
+    "title": "RL_Hide_Scenes",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top \n > \n \n \n Room Level \n > \n \n Ribbonbar \n > \n \n Main Tab \n > \n \n View Group \n > \n \n Hide Scenes"
+        },
+        {
+            "type": "text",
+            "data": "Top \n >"
+        },
+        {
+            "type": "text",
+            "data": "Room Level \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Room Level",
+                "uuid": "9eaa492c-0405-4da7-8e0f-a6ff4e047890",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Ribbonbar \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Ribbonbar",
+                "uuid": "a095688d-3b5c-4aba-8f35-bdc4541dcc7f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Main Tab \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Main Tab",
+                "uuid": "a095688d-3b5c-4aba-8f35-bdc4541dcc7f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "View Group \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "View Group",
+                "uuid": "9780083a-59ba-4e4d-a3f2-4e4fccf798d3",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Hide Scenes"
+        },
+        {
+            "type": "text",
+            "data": "Hide Scenes"
+        },
+        {
+            "type": "text",
+            "data": "/  Hide/Unhide Scenes"
+        },
+        {
+            "type": "image",
+            "data": "image1874.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image1873.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option will toggle to hide or unhide all scenes on the current sheet and if these same scenes are used on other Sheets they will be hidden there as well."
+        },
+        {
+            "type": "text",
+            "data": "To unhide a Scene after it has been hidden, simply right click in the middle of that scene and click Properties."
+        },
+        {
+            "type": "image",
+            "data": "image1073.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "In the Properties Window that appears, disable the box marked \"Hide Scene\" then click OK. \u00a0This will cause the Scene to become visible."
+        },
+        {
+            "type": "image",
+            "data": "image834.gif",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Room_Level\\Ribbonbar\\Main_Tab\\View_Group\\RL_Hide_Scenes.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

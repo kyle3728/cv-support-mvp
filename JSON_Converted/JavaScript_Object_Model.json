@@ -1,0 +1,2391 @@
+{
+    "id": "73fe6410-b796-435a-ae71-5dcfbc855c76",
+    "title": "JavaScript_Object_Model",
+    "content": [
+        {
+            "type": "text",
+            "data": "JavaScript Object Model"
+        },
+        {
+            "type": "text",
+            "data": "Currently, only a single CV object is exposed in the managed API. It is named CVAsmManaged. CVAsmManaged exposes properties and methods. The properties are shorthand methods for getting and setting common parameters, while methods are exposed for more complex operations."
+        },
+        {
+            "type": "text",
+            "data": "There are a number of predefined numeric constants used for parameter types and object properties. The constants can be used in conditional checking and method calls. For example"
+        },
+        {
+            "type": "text",
+            "data": "if ( _cab.Evaluate('ConstID') == _this.QueryID(ID_ASSEMBLYCONSTRUCTION, '32mm') )"
+        },
+        {
+            "type": "text",
+            "data": "Constants"
+        },
+        {
+            "type": "text",
+            "data": "Parameter Type"
+        },
+        {
+            "type": "text",
+            "data": "VAL_MEASUREMENT \n \n \n VAL_DEGREES \n \n \n VAL_RADIANS \n \n \n VAL_INTEGER \n \n \n VAL_BOOL \n \n \n VAL_DECIMAL \n \n \n VAL_PARTID \n \n \n VAL_TEXT \n \n \n VAL_CURRENCY"
+        },
+        {
+            "type": "text",
+            "data": "VAL_MEASUREMENT"
+        },
+        {
+            "type": "text",
+            "data": "VAL_MEASUREMENT"
+        },
+        {
+            "type": "text",
+            "data": "VAL_DEGREES"
+        },
+        {
+            "type": "text",
+            "data": "VAL_DEGREES"
+        },
+        {
+            "type": "text",
+            "data": "VAL_RADIANS"
+        },
+        {
+            "type": "text",
+            "data": "VAL_RADIANS"
+        },
+        {
+            "type": "text",
+            "data": "VAL_INTEGER"
+        },
+        {
+            "type": "text",
+            "data": "VAL_INTEGER"
+        },
+        {
+            "type": "text",
+            "data": "VAL_BOOL"
+        },
+        {
+            "type": "text",
+            "data": "VAL_BOOL"
+        },
+        {
+            "type": "text",
+            "data": "VAL_DECIMAL"
+        },
+        {
+            "type": "text",
+            "data": "VAL_DECIMAL"
+        },
+        {
+            "type": "text",
+            "data": "VAL_PARTID"
+        },
+        {
+            "type": "text",
+            "data": "VAL_PARTID"
+        },
+        {
+            "type": "text",
+            "data": "VAL_TEXT"
+        },
+        {
+            "type": "text",
+            "data": "VAL_TEXT"
+        },
+        {
+            "type": "text",
+            "data": "VAL_CURRENCY"
+        },
+        {
+            "type": "text",
+            "data": "VAL_CURRENCY"
+        },
+        {
+            "type": "text",
+            "data": "Object Class"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_BASE \n \n \n ASM_CLASS_UPPER \n \n \n ASM_CLASS_TALL \n \n \n ASM_CLASS_VANITY \n \n \n ASM_CLASS_APPL \n \n \n ASM_CLASS_ACSRY \n \n \n ASM_CLASS_DECORATIVE \n \n \n ASM_CLASS_TOP \n \n \n ASM_CLASS_MOLDING \n \n \n ASM_CLASS_WALL \n \n \n ASM_CLASS_WALLFACE \n \n \n ASM_CLASS_FLOOR \n \n \n ASM_CLASS_CEILING \n \n \n ASM_CLASS_DOOR \n \n \n ASM_CLASS_NG_ACSRY \n \n \n ASM_CLASS_SPLASH \n \n \n ASM_CLASS_USER_LIGHT \n \n \n ASM_CLASS_FIXTURE \n \n \n ASM_CLASS_BATH \n \n \n ASM_CLASS_CLOSET \n \n \n ASM_CLASS_CLOSETBASE \n \n \n ASM_CLASS_CLOSETUPPER"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_BASE"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_BASE"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_UPPER"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_UPPER"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_TALL"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_TALL"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_VANITY"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_VANITY"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_APPL"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_APPL"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_ACSRY"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_ACSRY"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_DECORATIVE"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_DECORATIVE"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_TOP"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_TOP"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_MOLDING"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_MOLDING"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_WALL"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_WALL"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_WALLFACE"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_WALLFACE"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_FLOOR"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_FLOOR"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_CEILING"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_CEILING"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_DOOR"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_DOOR"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_NG_ACSRY"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_NG_ACSRY"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_SPLASH"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_SPLASH"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_USER_LIGHT"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_USER_LIGHT"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_FIXTURE"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_FIXTURE"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_BATH"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_BATH"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_CLOSET"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_CLOSET"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_CLOSETBASE"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_CLOSETBASE"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_CLOSETUPPER"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_CLOSETUPPER"
+        },
+        {
+            "type": "text",
+            "data": "Object Type"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_STANDARD \n \n \n ASM_TYPE_BLINDR \n \n \n ASM_TYPE_BLINDL \n \n \n ASM_TYPE_CORNER45 \n \n \n ASM_TYPE_CORNER90 \n \n \n ASM_TYPE_FILLER \n \n \n ASM_TYPE_DESK \n \n \n ASM_TYPE_HOOD \n \n \n ASM_TYPE_REFER \n \n \n ASM_TYPE_VALANCE \n \n \n ASM_TYPE_UCVALANCE \n \n \n ASM_TYPE_APPLGARAGE \n \n \n ASM_TYPE_DISHWASHER \n \n \n ASM_TYPE_TRASHCOMP \n \n \n ASM_TYPE_RANGE \n \n \n ASM_TYPE_COOKTOP \n \n \n ASM_TYPE_SINK \n \n \n ASM_TYPE_MICRO \n \n \n ASM_TYPE_WINDOW \n \n \n ASM_TYPE_EDOOR \n \n \n ASM_TYPE_PICTURE \n \n \n ASM_TYPE_TOEASSEMBLY \n \n \n ASM_TYPE_MISC \n \n \n ASM_TYPE_CLOSET \n \n \n ASM_TYPE_PART \n \n \n ASM_TYPE_OPENING \n \n \n ASM_TYPE_TWALL \n \n \n ASM_TYPE_CONTAINER \n \n \n ASM_TYPE_ELECTRICAL \n \n \n ASM_TYPE_PLUMBING \n \n \n ASM_TYPE_OVEN \n \n \n ASM_TYPE_WASHDRY \n \n \n ASM_TYPE_TUB \n \n \n ASM_TYPE_SHOWER \n \n \n ASM_TYPE_TOILET \n \n \n ASM_TYPE_BATHSINK \n \n \n ASM_TYPE_SPLASH \n \n \n ASM_TYPE_TOP \n \n \n ASM_TYPE_CLOSET_VERT \n \n \n ASM_TYPE_CLOSET_HORZ \n \n \n ASM_TYPE_CLOSET_DOOR_DWR"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_STANDARD"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_STANDARD"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_BLINDR"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_BLINDR"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_BLINDL"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_BLINDL"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_CORNER45"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_CORNER45"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_CORNER90"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_CORNER90"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_FILLER"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_FILLER"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_DESK"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_DESK"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_HOOD"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_HOOD"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_REFER"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_REFER"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_VALANCE"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_VALANCE"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_UCVALANCE"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_UCVALANCE"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_APPLGARAGE"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_APPLGARAGE"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_DISHWASHER"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_DISHWASHER"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_TRASHCOMP"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_TRASHCOMP"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_RANGE"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_RANGE"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_COOKTOP"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_COOKTOP"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_SINK"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_SINK"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_MICRO"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_MICRO"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_WINDOW"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_WINDOW"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_EDOOR"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_EDOOR"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_PICTURE"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_PICTURE"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_TOEASSEMBLY"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_TOEASSEMBLY"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_MISC"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_MISC"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_CLOSET"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_CLOSET"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_PART"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_PART"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_OPENING"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_OPENING"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_TWALL"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_TWALL"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_CONTAINER"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_CONTAINER"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_ELECTRICAL"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_ELECTRICAL"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_PLUMBING"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_PLUMBING"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_OVEN"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_OVEN"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_WASHDRY"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_WASHDRY"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_TUB"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_TUB"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_SHOWER"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_SHOWER"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_TOILET"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_TOILET"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_BATHSINK"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_BATHSINK"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_SPLASH"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_SPLASH"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_TOP"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_TOP"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_CLOSET_VERT"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_CLOSET_VERT"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_CLOSET_HORZ"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_CLOSET_HORZ"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_CLOSET_DOOR_DWR"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_CLOSET_DOOR_DWR"
+        },
+        {
+            "type": "text",
+            "data": "Assembly End Type"
+        },
+        {
+            "type": "text",
+            "data": "ASM_END_FINISHED \n \n \n ASM_END_UNFINISHED \n \n \n ASM_END_EXTENDED \n \n \n ASM_END_RETURN \n \n \n ASM_END_APPL_FE \n \n \n ASM_END_APPL_DOOR \n \n \n ASM_END_PANELIZED \n \n \n ASM_END_CLIPPED \n \n \n ASM_END_RADIUSED \n \n \n ASM_END_ANGLED"
+        },
+        {
+            "type": "text",
+            "data": "ASM_END_FINISHED"
+        },
+        {
+            "type": "text",
+            "data": "ASM_END_FINISHED"
+        },
+        {
+            "type": "text",
+            "data": "ASM_END_UNFINISHED"
+        },
+        {
+            "type": "text",
+            "data": "ASM_END_UNFINISHED"
+        },
+        {
+            "type": "text",
+            "data": "ASM_END_EXTENDED"
+        },
+        {
+            "type": "text",
+            "data": "ASM_END_EXTENDED"
+        },
+        {
+            "type": "text",
+            "data": "ASM_END_RETURN"
+        },
+        {
+            "type": "text",
+            "data": "ASM_END_RETURN"
+        },
+        {
+            "type": "text",
+            "data": "ASM_END_APPL_FE"
+        },
+        {
+            "type": "text",
+            "data": "ASM_END_APPL_FE"
+        },
+        {
+            "type": "text",
+            "data": "ASM_END_APPL_DOOR"
+        },
+        {
+            "type": "text",
+            "data": "ASM_END_APPL_DOOR"
+        },
+        {
+            "type": "text",
+            "data": "ASM_END_PANELIZED"
+        },
+        {
+            "type": "text",
+            "data": "ASM_END_PANELIZED"
+        },
+        {
+            "type": "text",
+            "data": "ASM_END_CLIPPED"
+        },
+        {
+            "type": "text",
+            "data": "ASM_END_CLIPPED"
+        },
+        {
+            "type": "text",
+            "data": "ASM_END_RADIUSED"
+        },
+        {
+            "type": "text",
+            "data": "ASM_END_RADIUSED"
+        },
+        {
+            "type": "text",
+            "data": "ASM_END_ANGLED"
+        },
+        {
+            "type": "text",
+            "data": "ASM_END_ANGLED"
+        },
+        {
+            "type": "text",
+            "data": "Properties"
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "NAME",
+                    "Name",
+                    "VAL_TEXT"
+                ],
+                "rows": [
+                    [
+                        "DESC",
+                        "Description",
+                        "VAL_TEXT"
+                    ],
+                    [
+                        "COMMENT",
+                        "Comment",
+                        "VAL_TEXT"
+                    ],
+                    [
+                        "CLASS",
+                        "Object class represented by one of the  Object Class  constants",
+                        "VAL_INTEGER"
+                    ],
+                    [
+                        "TYPE",
+                        "Object type represented by one of the  Object Type  constants",
+                        "VAL_INTEGER"
+                    ],
+                    [
+                        "X",
+                        "X position",
+                        "VAL_MEASUREMENT"
+                    ],
+                    [
+                        "Y",
+                        "Y position",
+                        "VAL_MEASUREMENT"
+                    ],
+                    [
+                        "Z",
+                        "Z position",
+                        "VAL_MEASUREMENT"
+                    ],
+                    [
+                        "DX",
+                        "Width",
+                        "VAL_MEASUREMENT"
+                    ],
+                    [
+                        "DY",
+                        "Height/length",
+                        "VAL_MEASUREMENT"
+                    ],
+                    [
+                        "DZ",
+                        "Depth/thickness",
+                        "VAL_MEASUREMENT"
+                    ],
+                    [
+                        "AX",
+                        "X rotation",
+                        "VAL_DEGREES"
+                    ],
+                    [
+                        "AY",
+                        "Y rotation",
+                        "VAL_DEGREES"
+                    ],
+                    [
+                        "AZ",
+                        "Z rotation",
+                        "VAL_DEGREES"
+                    ],
+                    [
+                        "QTY",
+                        "Quantity",
+                        "VAL_INTEGER"
+                    ],
+                    [
+                        "VISIBLE",
+                        "Object visible",
+                        "VAL_BOOL"
+                    ],
+                    [
+                        "BAND",
+                        "Part banding definition",
+                        "VAL_TEXT"
+                    ],
+                    [
+                        "REPT",
+                        "Line bor repeat count",
+                        "VAL_INTEGER"
+                    ],
+                    [
+                        "SPCNG",
+                        "Line bore spacing",
+                        "VAL_MEASUREMENT"
+                    ],
+                    [
+                        "_EDGWP",
+                        "Edge work plane",
+                        "VAL_INTEGER"
+                    ],
+                    [
+                        "TOOLID",
+                        "Operation tool ID",
+                        "VAL_INTEGER"
+                    ],
+                    [
+                        "IJNT",
+                        "Intelli-Joint ID",
+                        "VAL_INTEGER"
+                    ],
+                    [
+                        "IJLOCAL",
+                        "Intelli-Joint local scope",
+                        "VAL_BOOL"
+                    ],
+                    [
+                        "_CONNID",
+                        "Connection ID",
+                        "VAL_INTEGER"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Methods"
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "CreateChild(long type, string name) [optional] string description)"
+                ],
+                "rows": [
+                    [
+                        "Returns a new object as a child of the current _this object.Creates a child of the object it is called on, not always _this. \n example: \n var FS = _this.CreateChild(OBJ_PART, 'FS', 'JS Fixed Shelf');"
+                    ],
+                    [
+                        "long type",
+                        "Assembly type defined by one of the following constants \n \n \n OBJ_ASSEMBLY \n \n \n OBJ_OPENING \n \n \n OBJ_PART \n \n \n OBJ_DOOR \n \n \n OBJ_DRWFRONT \n \n \n OBJ_MOLDING \n \n \n OBJ_NGACSRY \n \n \n OBJ_HARDWARE \n \n \n OBJ_PULL \n \n \n OBJ_GUIDE \n \n \n OBJ_HINGE \n \n \n OBJ_HINGEPLATE \n \n \n OBJ_OPERATION \n \n \n OBJ_HOLE \n \n \n OBJ_HOLEMASTER \n \n \n OBJ_DEPDADO \n \n \n OBJ_DEPDADOMASTER \n \n \n OBJ_DADO \n \n \n OBJ_DADOMASTER \n \n \n OBJ_LINEBORE \n \n \n OBJ_LBOREMASTER \n \n \n OBJ_BLINDDADO \n \n \n OBJ_DOVETAIL \n \n \n OBJ_IJOINT \n \n \n OBJ_CONNECTION \n \n \n OBJ_ROUTE \n \n \n OBJ_ACAMDWG \n \n \n OBJ_LINE \n \n \n OBJ_ARC"
+                    ],
+                    [
+                        "string name",
+                        "Name for the object"
+                    ],
+                    [
+                        "string description [optional]",
+                        "Optional description for the object"
+                    ],
+                    [
+                        "return",
+                        "CVAsmManaged object. the returnobject is the newly created child, rather than the object that the method was called on."
+                    ],
+                    [
+                        "CreateChoiceList(string name, string choicelist, WORD type)"
+                    ],
+                    [
+                        "Creates a choice list for the given parameter \n example: \n _this.CreateChoiceList('PAR_CHOICE', 'Medium=50|Big=99|Small=1', VAL_INTEGER);"
+                    ],
+                    [
+                        "string name",
+                        "Parameter name"
+                    ],
+                    [
+                        "string choicelist",
+                        "Pipe separated list of (description | value) pairs"
+                    ],
+                    [
+                        "WORD type",
+                        "Parameter type represented by the  Parameter Type  constants"
+                    ],
+                    [
+                        "return",
+                        "void"
+                    ],
+                    [
+                        "Evaluate(string equation)"
+                    ],
+                    [
+                        "Evaluate a CV equation utilizing object parameters \n example: \n var volume = _this.Evaluate('DX * DY * DZ');"
+                    ],
+                    [
+                        "string equation",
+                        "CV equation formula"
+                    ],
+                    [
+                        "return",
+                        "variant - result of equation (default to  null  on error)"
+                    ],
+                    [
+                        "EvaluateCondition(string condition)"
+                    ],
+                    [
+                        "Evaluate a CV condition utilizing object parameters \n example: \n var result = _this.EvaluateCondition('DY > 5');"
+                    ],
+                    [
+                        "string condition",
+                        "CV condition formula"
+                    ],
+                    [
+                        "return",
+                        "bool - evaluation true or false"
+                    ],
+                    [
+                        "FindAssembly(string path)"
+                    ],
+                    [
+                        "Locate an assembly utilizing the CV object path \n example: \n var result = _this.FindAssembly(':AS@3');"
+                    ],
+                    [
+                        "string path",
+                        "CV relative object path"
+                    ],
+                    [
+                        "return",
+                        "CVAsmManaged - reference to the located object else null"
+                    ],
+                    [
+                        "FormatText(string format)"
+                    ],
+                    [
+                        "Format text utilizing the CV text variable parameter substitution mechanism \n example: \n var result = _this.FormatText('WIDTH{DX}');"
+                    ],
+                    [
+                        "string format",
+                        "CV text parameter format definition"
+                    ],
+                    [
+                        "return",
+                        "string"
+                    ],
+                    [
+                        "GetFirstChild()"
+                    ],
+                    [
+                        "Return the first object tree child of the current object \n example: \n var result = _this.GetFirstChild();"
+                    ],
+                    [
+                        "return",
+                        "CVAsmManaged - reference to the first child object else null"
+                    ],
+                    [
+                        "GetNextSibling(CVAsmManaged assembly)"
+                    ],
+                    [
+                        "Return the next sibling in the object tree from the given object \n example: \n var result= _this.GetNextSibling();"
+                    ],
+                    [
+                        "return",
+                        "CVAsmManaged - reference to the sibling object else null"
+                    ],
+                    [
+                        "GetParameterValue(string name)"
+                    ],
+                    [
+                        "Return the value of the given parameter \n example: \n var result = _this.GetParameterValue('DX');"
+                    ],
+                    [
+                        "string name",
+                        "Parameter name"
+                    ],
+                    [
+                        "return",
+                        "variant - value of parameter else null on invalid parameter"
+                    ],
+                    [
+                        "GetParent()"
+                    ],
+                    [
+                        "Return the parent of the current object \n example: \n var result = _this.GetParent();"
+                    ],
+                    [
+                        "return",
+                        "CVAsmManaged - reference to the parent else null"
+                    ],
+                    [
+                        "HasParameter(string name)"
+                    ],
+                    [
+                        "Determine if the given parameter exists on the current object \n example: \n var result = _this.HasParameter('DX');"
+                    ],
+                    [
+                        "string name",
+                        "Parameter name"
+                    ],
+                    [
+                        "Return",
+                        "bool - true if it exists else false"
+                    ],
+                    [
+                        "ModifyParameter(string name, WORD action, Object value)"
+                    ],
+                    [
+                        "Modify a parameter style or description. \n example: \n _this.ModifyParameter('MYPARM', PARMOD_STYLE, PARSTYLE_ATTRIBUTE);"
+                    ],
+                    [
+                        "string name",
+                        "Parameter name"
+                    ],
+                    [
+                        "WORD action",
+                        "Modification type defined by one of the following constants \n \n \n PARMOD_DESC \n \n \n PARMOD_TYPE \n \n \n PARMOD_STYLE"
+                    ],
+                    [
+                        "Object value",
+                        "If action is equal to PARMOD_DESC then value represents text for the new description. \n If action is equal to PARMOD_TYPE then value represents one of the data type enumeration values. \n If action is equal to PARMOD_STYLE then value represents on of the following parameter style constants. \n \n \n PARSTYLE_DEFAULT \n \n \n PARSTYLE_ATTRIBUTE \n \n \n PARSTYLE_NOTE"
+                    ],
+                    [
+                        "return",
+                        "void"
+                    ],
+                    [
+                        "QueryID(WORD type, string name)"
+                    ],
+                    [
+                        "Query the database ID for the given resource type and name \n example: \n var result = _this.QueryID(key, value)"
+                    ],
+                    [
+                        "WORD type",
+                        "ID query type defined by one of the following constants \n \n \n ID_ASSEMBLYCONSTRUCTION \n \n \n ID_ASEMBLYESCHEDULE \n \n \n ID_CLOSETRODSCHEDULE \n \n \n ID_COLORSCHEDULE \n \n \n ID_CONNECTION \n \n \n ID_DOORSCHEDULE \n \n \n ID_DOORSTYLE \n \n \n ID_DRAWERCONSTRUCTION \n \n \n ID_DRAWERSCHEDULE \n \n \n ID_FINISH \n \n \n ID_GUIDESCHEDULE \n \n \n ID_HINGESCHEDULE \n \n \n ID_IJOINT \n \n \n ID_MATERIAL \n \n \n ID_MOLDINGSCHEDULE \n \n \n ID_PULLSCHEDULE \n \n \n ID_ROLLOUTCONSTRUCTION \n \n \n ID_ROLLOUTSCHEDULE \n \n \n ID_ROOMSCHEDULE \n \n \n ID_SLIDERAILSCHEDULE \n \n \n ID_TEXTURE \n \n \n ID_TOPCONSTRUTION \n \n \n ID_TOPSCHEDULE \n \n \n ID_WIREBASKETSCHEDULE"
+                    ],
+                    [
+                        "string name",
+                        "Name of the requested resource"
+                    ],
+                    [
+                        "return",
+                        "long - ID of the requested resource.Returns 0 if nothing was found."
+                    ],
+                    [
+                        "RemoveParameter(string name)"
+                    ],
+                    [
+                        "Remove the given parameter from the current object. \n example: \n _this.RemoveParameter('PAR_MY');"
+                    ],
+                    [
+                        "string name",
+                        "Parameter name"
+                    ],
+                    [
+                        "Return",
+                        "void"
+                    ],
+                    [
+                        "ReplacePart(string librarypart)"
+                    ],
+                    [
+                        "Replace the current object with a library object \n example: \n _this.ReplacePart('Custom Cabinets\\\\Special End');"
+                    ],
+                    [
+                        "string librarypart",
+                        "Path of the desired library part, catalog+part path"
+                    ],
+                    [
+                        "return",
+                        "bool - true on success else false"
+                    ],
+                    [
+                        "SetChoiceValue(string name, variant value)"
+                    ],
+                    [
+                        "Set the value on a choice parameter. Defaults to the first item in the list if the value doesn't match. \n example: \n _this.SetChoiceValue('PAR_CHOICE', 99);"
+                    ],
+                    [
+                        "string name",
+                        "Parameter name"
+                    ],
+                    [
+                        "variant value",
+                        "Parameter choice value"
+                    ],
+                    [
+                        "return",
+                        "void"
+                    ],
+                    [
+                        "SetMaterial(variant value)"
+                    ],
+                    [
+                        "Set the material on the current object. \n example: \n _this.SetMaterial('3/4 Oak Ply');"
+                    ],
+                    [
+                        "variant value",
+                        "Desired material defined by name or ID"
+                    ],
+                    [
+                        "return",
+                        "bool - true on success else false"
+                    ],
+                    [
+                        "SetParameter(string name, variant value) [optional] WORD type)"
+                    ],
+                    [
+                        "Set a parameter with a value \n example: \n _this.SetParameter('PAR_MY', 23.5);"
+                    ],
+                    [
+                        "string sParameter",
+                        "Parameter name"
+                    ],
+                    [
+                        "variant pValue",
+                        "Parameter value"
+                    ],
+                    [
+                        "WORD nType [optional]",
+                        "Parameter type represented by the  Parameter Type  constants (defaults to VAL_MEASUREMENT if not specified)"
+                    ],
+                    [
+                        "return",
+                        "void"
+                    ],
+                    [
+                        "SetParameter(string name, string equation) [optional] string condition) [optional] WORD type)"
+                    ],
+                    [
+                        "Set a parameter with an equation \n example: \n _this.SetParameter('MY-PAR', DX / 2);"
+                    ],
+                    [
+                        "string name",
+                        "Parameter name"
+                    ],
+                    [
+                        "string equation",
+                        ""
+                    ],
+                    [
+                        "string condition",
+                        "Parameter condition (defaults to '1' if not specified)"
+                    ],
+                    [
+                        "WORD nType",
+                        "Parameter type represented by the  Parameter Type  constants (defaults to VAL_MEASUREMENT if not specified)"
+                    ],
+                    [
+                        "return",
+                        "void"
+                    ],
+                    [
+                        "SetParent(CVAsmManaged parent)"
+                    ],
+                    [
+                        "Set a new parent for the current object \n example: \n _this.SetParent(_cab);"
+                    ],
+                    [
+                        "CVAsmManaged parent",
+                        "CV object representing the new parent"
+                    ],
+                    [
+                        "return",
+                        "void"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "CreateChild(long type, string name) [optional] string description)"
+        },
+        {
+            "type": "text",
+            "data": "Returns a new object as a child of the current _this object.Creates a child of the object it is called on, not always _this."
+        },
+        {
+            "type": "text",
+            "data": "example:"
+        },
+        {
+            "type": "text",
+            "data": "var FS = _this.CreateChild(OBJ_PART, 'FS', 'JS Fixed Shelf');"
+        },
+        {
+            "type": "text",
+            "data": "long type"
+        },
+        {
+            "type": "text",
+            "data": "Assembly type defined by one of the following constants"
+        },
+        {
+            "type": "text",
+            "data": "OBJ_ASSEMBLY \n \n \n OBJ_OPENING \n \n \n OBJ_PART \n \n \n OBJ_DOOR \n \n \n OBJ_DRWFRONT \n \n \n OBJ_MOLDING \n \n \n OBJ_NGACSRY \n \n \n OBJ_HARDWARE \n \n \n OBJ_PULL \n \n \n OBJ_GUIDE \n \n \n OBJ_HINGE \n \n \n OBJ_HINGEPLATE \n \n \n OBJ_OPERATION \n \n \n OBJ_HOLE \n \n \n OBJ_HOLEMASTER \n \n \n OBJ_DEPDADO \n \n \n OBJ_DEPDADOMASTER \n \n \n OBJ_DADO \n \n \n OBJ_DADOMASTER \n \n \n OBJ_LINEBORE \n \n \n OBJ_LBOREMASTER \n \n \n OBJ_BLINDDADO \n \n \n OBJ_DOVETAIL \n \n \n OBJ_IJOINT \n \n \n OBJ_CONNECTION \n \n \n OBJ_ROUTE \n \n \n OBJ_ACAMDWG \n \n \n OBJ_LINE \n \n \n OBJ_ARC"
+        },
+        {
+            "type": "text",
+            "data": "OBJ_ASSEMBLY"
+        },
+        {
+            "type": "text",
+            "data": "OBJ_ASSEMBLY"
+        },
+        {
+            "type": "text",
+            "data": "OBJ_OPENING"
+        },
+        {
+            "type": "text",
+            "data": "OBJ_OPENING"
+        },
+        {
+            "type": "text",
+            "data": "OBJ_PART"
+        },
+        {
+            "type": "text",
+            "data": "OBJ_PART"
+        },
+        {
+            "type": "text",
+            "data": "OBJ_DOOR"
+        },
+        {
+            "type": "text",
+            "data": "OBJ_DOOR"
+        },
+        {
+            "type": "text",
+            "data": "OBJ_DRWFRONT"
+        },
+        {
+            "type": "text",
+            "data": "OBJ_DRWFRONT"
+        },
+        {
+            "type": "text",
+            "data": "OBJ_MOLDING"
+        },
+        {
+            "type": "text",
+            "data": "OBJ_MOLDING"
+        },
+        {
+            "type": "text",
+            "data": "OBJ_NGACSRY"
+        },
+        {
+            "type": "text",
+            "data": "OBJ_NGACSRY"
+        },
+        {
+            "type": "text",
+            "data": "OBJ_HARDWARE"
+        },
+        {
+            "type": "text",
+            "data": "OBJ_HARDWARE"
+        },
+        {
+            "type": "text",
+            "data": "OBJ_PULL"
+        },
+        {
+            "type": "text",
+            "data": "OBJ_PULL"
+        },
+        {
+            "type": "text",
+            "data": "OBJ_GUIDE"
+        },
+        {
+            "type": "text",
+            "data": "OBJ_GUIDE"
+        },
+        {
+            "type": "text",
+            "data": "OBJ_HINGE"
+        },
+        {
+            "type": "text",
+            "data": "OBJ_HINGE"
+        },
+        {
+            "type": "text",
+            "data": "OBJ_HINGEPLATE"
+        },
+        {
+            "type": "text",
+            "data": "OBJ_HINGEPLATE"
+        },
+        {
+            "type": "text",
+            "data": "OBJ_OPERATION"
+        },
+        {
+            "type": "text",
+            "data": "OBJ_OPERATION"
+        },
+        {
+            "type": "text",
+            "data": "OBJ_HOLE"
+        },
+        {
+            "type": "text",
+            "data": "OBJ_HOLE"
+        },
+        {
+            "type": "text",
+            "data": "OBJ_HOLEMASTER"
+        },
+        {
+            "type": "text",
+            "data": "OBJ_HOLEMASTER"
+        },
+        {
+            "type": "text",
+            "data": "OBJ_DEPDADO"
+        },
+        {
+            "type": "text",
+            "data": "OBJ_DEPDADO"
+        },
+        {
+            "type": "text",
+            "data": "OBJ_DEPDADOMASTER"
+        },
+        {
+            "type": "text",
+            "data": "OBJ_DEPDADOMASTER"
+        },
+        {
+            "type": "text",
+            "data": "OBJ_DADO"
+        },
+        {
+            "type": "text",
+            "data": "OBJ_DADO"
+        },
+        {
+            "type": "text",
+            "data": "OBJ_DADOMASTER"
+        },
+        {
+            "type": "text",
+            "data": "OBJ_DADOMASTER"
+        },
+        {
+            "type": "text",
+            "data": "OBJ_LINEBORE"
+        },
+        {
+            "type": "text",
+            "data": "OBJ_LINEBORE"
+        },
+        {
+            "type": "text",
+            "data": "OBJ_LBOREMASTER"
+        },
+        {
+            "type": "text",
+            "data": "OBJ_LBOREMASTER"
+        },
+        {
+            "type": "text",
+            "data": "OBJ_BLINDDADO"
+        },
+        {
+            "type": "text",
+            "data": "OBJ_BLINDDADO"
+        },
+        {
+            "type": "text",
+            "data": "OBJ_DOVETAIL"
+        },
+        {
+            "type": "text",
+            "data": "OBJ_DOVETAIL"
+        },
+        {
+            "type": "text",
+            "data": "OBJ_IJOINT"
+        },
+        {
+            "type": "text",
+            "data": "OBJ_IJOINT"
+        },
+        {
+            "type": "text",
+            "data": "OBJ_CONNECTION"
+        },
+        {
+            "type": "text",
+            "data": "OBJ_CONNECTION"
+        },
+        {
+            "type": "text",
+            "data": "OBJ_ROUTE"
+        },
+        {
+            "type": "text",
+            "data": "OBJ_ROUTE"
+        },
+        {
+            "type": "text",
+            "data": "OBJ_ACAMDWG"
+        },
+        {
+            "type": "text",
+            "data": "OBJ_ACAMDWG"
+        },
+        {
+            "type": "text",
+            "data": "OBJ_LINE"
+        },
+        {
+            "type": "text",
+            "data": "OBJ_LINE"
+        },
+        {
+            "type": "text",
+            "data": "OBJ_ARC"
+        },
+        {
+            "type": "text",
+            "data": "OBJ_ARC"
+        },
+        {
+            "type": "text",
+            "data": "string name"
+        },
+        {
+            "type": "text",
+            "data": "Name for the object"
+        },
+        {
+            "type": "text",
+            "data": "string description [optional]"
+        },
+        {
+            "type": "text",
+            "data": "Optional description for the object"
+        },
+        {
+            "type": "text",
+            "data": "return"
+        },
+        {
+            "type": "text",
+            "data": "CVAsmManaged object. the returnobject is the newly created child, rather than the object that the method was called on."
+        },
+        {
+            "type": "text",
+            "data": "CreateChoiceList(string name, string choicelist, WORD type)"
+        },
+        {
+            "type": "text",
+            "data": "Creates a choice list for the given parameter"
+        },
+        {
+            "type": "text",
+            "data": "example:"
+        },
+        {
+            "type": "text",
+            "data": "_this.CreateChoiceList('PAR_CHOICE', 'Medium=50|Big=99|Small=1', VAL_INTEGER);"
+        },
+        {
+            "type": "text",
+            "data": "string name"
+        },
+        {
+            "type": "text",
+            "data": "Parameter name"
+        },
+        {
+            "type": "text",
+            "data": "string choicelist"
+        },
+        {
+            "type": "text",
+            "data": "Pipe separated list of (description | value) pairs"
+        },
+        {
+            "type": "text",
+            "data": "WORD type"
+        },
+        {
+            "type": "text",
+            "data": "Parameter type represented by the  Parameter Type  constants"
+        },
+        {
+            "type": "text",
+            "data": "return"
+        },
+        {
+            "type": "text",
+            "data": "void"
+        },
+        {
+            "type": "text",
+            "data": "Evaluate(string equation)"
+        },
+        {
+            "type": "text",
+            "data": "Evaluate a CV equation utilizing object parameters"
+        },
+        {
+            "type": "text",
+            "data": "example:"
+        },
+        {
+            "type": "text",
+            "data": "var volume = _this.Evaluate('DX * DY * DZ');"
+        },
+        {
+            "type": "text",
+            "data": "string equation"
+        },
+        {
+            "type": "text",
+            "data": "CV equation formula"
+        },
+        {
+            "type": "text",
+            "data": "return"
+        },
+        {
+            "type": "text",
+            "data": "variant - result of equation (default to  null  on error)"
+        },
+        {
+            "type": "text",
+            "data": "EvaluateCondition(string condition)"
+        },
+        {
+            "type": "text",
+            "data": "Evaluate a CV condition utilizing object parameters"
+        },
+        {
+            "type": "text",
+            "data": "example:"
+        },
+        {
+            "type": "text",
+            "data": "var result = _this.EvaluateCondition('DY > 5');"
+        },
+        {
+            "type": "text",
+            "data": "string condition"
+        },
+        {
+            "type": "text",
+            "data": "CV condition formula"
+        },
+        {
+            "type": "text",
+            "data": "return"
+        },
+        {
+            "type": "text",
+            "data": "bool - evaluation true or false"
+        },
+        {
+            "type": "text",
+            "data": "FindAssembly(string path)"
+        },
+        {
+            "type": "text",
+            "data": "Locate an assembly utilizing the CV object path"
+        },
+        {
+            "type": "text",
+            "data": "example:"
+        },
+        {
+            "type": "text",
+            "data": "var result = _this.FindAssembly(':AS@3');"
+        },
+        {
+            "type": "text",
+            "data": "string path"
+        },
+        {
+            "type": "text",
+            "data": "CV relative object path"
+        },
+        {
+            "type": "text",
+            "data": "return"
+        },
+        {
+            "type": "text",
+            "data": "CVAsmManaged - reference to the located object else null"
+        },
+        {
+            "type": "text",
+            "data": "FormatText(string format)"
+        },
+        {
+            "type": "text",
+            "data": "Format text utilizing the CV text variable parameter substitution mechanism"
+        },
+        {
+            "type": "text",
+            "data": "example:"
+        },
+        {
+            "type": "text",
+            "data": "var result = _this.FormatText('WIDTH{DX}');"
+        },
+        {
+            "type": "text",
+            "data": "string format"
+        },
+        {
+            "type": "text",
+            "data": "CV text parameter format definition"
+        },
+        {
+            "type": "text",
+            "data": "return"
+        },
+        {
+            "type": "text",
+            "data": "string"
+        },
+        {
+            "type": "text",
+            "data": "GetFirstChild()"
+        },
+        {
+            "type": "text",
+            "data": "Return the first object tree child of the current object"
+        },
+        {
+            "type": "text",
+            "data": "example:"
+        },
+        {
+            "type": "text",
+            "data": "var result = _this.GetFirstChild();"
+        },
+        {
+            "type": "text",
+            "data": "return"
+        },
+        {
+            "type": "text",
+            "data": "CVAsmManaged - reference to the first child object else null"
+        },
+        {
+            "type": "text",
+            "data": "GetNextSibling(CVAsmManaged assembly)"
+        },
+        {
+            "type": "text",
+            "data": "Return the next sibling in the object tree from the given object"
+        },
+        {
+            "type": "text",
+            "data": "example:"
+        },
+        {
+            "type": "text",
+            "data": "var result= _this.GetNextSibling();"
+        },
+        {
+            "type": "text",
+            "data": "return"
+        },
+        {
+            "type": "text",
+            "data": "CVAsmManaged - reference to the sibling object else null"
+        },
+        {
+            "type": "text",
+            "data": "GetParameterValue(string name)"
+        },
+        {
+            "type": "text",
+            "data": "Return the value of the given parameter"
+        },
+        {
+            "type": "text",
+            "data": "example:"
+        },
+        {
+            "type": "text",
+            "data": "var result = _this.GetParameterValue('DX');"
+        },
+        {
+            "type": "text",
+            "data": "string name"
+        },
+        {
+            "type": "text",
+            "data": "Parameter name"
+        },
+        {
+            "type": "text",
+            "data": "return"
+        },
+        {
+            "type": "text",
+            "data": "variant - value of parameter else null on invalid parameter"
+        },
+        {
+            "type": "text",
+            "data": "GetParent()"
+        },
+        {
+            "type": "text",
+            "data": "Return the parent of the current object"
+        },
+        {
+            "type": "text",
+            "data": "example:"
+        },
+        {
+            "type": "text",
+            "data": "var result = _this.GetParent();"
+        },
+        {
+            "type": "text",
+            "data": "return"
+        },
+        {
+            "type": "text",
+            "data": "CVAsmManaged - reference to the parent else null"
+        },
+        {
+            "type": "text",
+            "data": "HasParameter(string name)"
+        },
+        {
+            "type": "text",
+            "data": "Determine if the given parameter exists on the current object"
+        },
+        {
+            "type": "text",
+            "data": "example:"
+        },
+        {
+            "type": "text",
+            "data": "var result = _this.HasParameter('DX');"
+        },
+        {
+            "type": "text",
+            "data": "string name"
+        },
+        {
+            "type": "text",
+            "data": "Parameter name"
+        },
+        {
+            "type": "text",
+            "data": "Return"
+        },
+        {
+            "type": "text",
+            "data": "bool - true if it exists else false"
+        },
+        {
+            "type": "text",
+            "data": "ModifyParameter(string name, WORD action, Object value)"
+        },
+        {
+            "type": "text",
+            "data": "Modify a parameter style or description."
+        },
+        {
+            "type": "text",
+            "data": "example:"
+        },
+        {
+            "type": "text",
+            "data": "_this.ModifyParameter('MYPARM', PARMOD_STYLE, PARSTYLE_ATTRIBUTE);"
+        },
+        {
+            "type": "text",
+            "data": "string name"
+        },
+        {
+            "type": "text",
+            "data": "Parameter name"
+        },
+        {
+            "type": "text",
+            "data": "WORD action"
+        },
+        {
+            "type": "text",
+            "data": "Modification type defined by one of the following constants"
+        },
+        {
+            "type": "text",
+            "data": "PARMOD_DESC \n \n \n PARMOD_TYPE \n \n \n PARMOD_STYLE"
+        },
+        {
+            "type": "text",
+            "data": "PARMOD_DESC"
+        },
+        {
+            "type": "text",
+            "data": "PARMOD_DESC"
+        },
+        {
+            "type": "text",
+            "data": "PARMOD_TYPE"
+        },
+        {
+            "type": "text",
+            "data": "PARMOD_TYPE"
+        },
+        {
+            "type": "text",
+            "data": "PARMOD_STYLE"
+        },
+        {
+            "type": "text",
+            "data": "PARMOD_STYLE"
+        },
+        {
+            "type": "text",
+            "data": "Object value"
+        },
+        {
+            "type": "text",
+            "data": "If action is equal to PARMOD_DESC then value represents text for the new description."
+        },
+        {
+            "type": "text",
+            "data": "If action is equal to PARMOD_TYPE then value represents one of the data type enumeration values."
+        },
+        {
+            "type": "text",
+            "data": "If action is equal to PARMOD_STYLE then value represents on of the following parameter style constants."
+        },
+        {
+            "type": "text",
+            "data": "PARSTYLE_DEFAULT \n \n \n PARSTYLE_ATTRIBUTE \n \n \n PARSTYLE_NOTE"
+        },
+        {
+            "type": "text",
+            "data": "PARSTYLE_DEFAULT"
+        },
+        {
+            "type": "text",
+            "data": "PARSTYLE_DEFAULT"
+        },
+        {
+            "type": "text",
+            "data": "PARSTYLE_ATTRIBUTE"
+        },
+        {
+            "type": "text",
+            "data": "PARSTYLE_ATTRIBUTE"
+        },
+        {
+            "type": "text",
+            "data": "PARSTYLE_NOTE"
+        },
+        {
+            "type": "text",
+            "data": "PARSTYLE_NOTE"
+        },
+        {
+            "type": "text",
+            "data": "return"
+        },
+        {
+            "type": "text",
+            "data": "void"
+        },
+        {
+            "type": "text",
+            "data": "QueryID(WORD type, string name)"
+        },
+        {
+            "type": "text",
+            "data": "Query the database ID for the given resource type and name"
+        },
+        {
+            "type": "text",
+            "data": "example:"
+        },
+        {
+            "type": "text",
+            "data": "var result = _this.QueryID(key, value)"
+        },
+        {
+            "type": "text",
+            "data": "WORD type"
+        },
+        {
+            "type": "text",
+            "data": "ID query type defined by one of the following constants"
+        },
+        {
+            "type": "text",
+            "data": "ID_ASSEMBLYCONSTRUCTION \n \n \n ID_ASEMBLYESCHEDULE \n \n \n ID_CLOSETRODSCHEDULE \n \n \n ID_COLORSCHEDULE \n \n \n ID_CONNECTION \n \n \n ID_DOORSCHEDULE \n \n \n ID_DOORSTYLE \n \n \n ID_DRAWERCONSTRUCTION \n \n \n ID_DRAWERSCHEDULE \n \n \n ID_FINISH \n \n \n ID_GUIDESCHEDULE \n \n \n ID_HINGESCHEDULE \n \n \n ID_IJOINT \n \n \n ID_MATERIAL \n \n \n ID_MOLDINGSCHEDULE \n \n \n ID_PULLSCHEDULE \n \n \n ID_ROLLOUTCONSTRUCTION \n \n \n ID_ROLLOUTSCHEDULE \n \n \n ID_ROOMSCHEDULE \n \n \n ID_SLIDERAILSCHEDULE \n \n \n ID_TEXTURE \n \n \n ID_TOPCONSTRUTION \n \n \n ID_TOPSCHEDULE \n \n \n ID_WIREBASKETSCHEDULE"
+        },
+        {
+            "type": "text",
+            "data": "ID_ASSEMBLYCONSTRUCTION"
+        },
+        {
+            "type": "text",
+            "data": "ID_ASSEMBLYCONSTRUCTION"
+        },
+        {
+            "type": "text",
+            "data": "ID_ASEMBLYESCHEDULE"
+        },
+        {
+            "type": "text",
+            "data": "ID_ASEMBLYESCHEDULE"
+        },
+        {
+            "type": "text",
+            "data": "ID_CLOSETRODSCHEDULE"
+        },
+        {
+            "type": "text",
+            "data": "ID_CLOSETRODSCHEDULE"
+        },
+        {
+            "type": "text",
+            "data": "ID_COLORSCHEDULE"
+        },
+        {
+            "type": "text",
+            "data": "ID_COLORSCHEDULE"
+        },
+        {
+            "type": "text",
+            "data": "ID_CONNECTION"
+        },
+        {
+            "type": "text",
+            "data": "ID_CONNECTION"
+        },
+        {
+            "type": "text",
+            "data": "ID_DOORSCHEDULE"
+        },
+        {
+            "type": "text",
+            "data": "ID_DOORSCHEDULE"
+        },
+        {
+            "type": "text",
+            "data": "ID_DOORSTYLE"
+        },
+        {
+            "type": "text",
+            "data": "ID_DOORSTYLE"
+        },
+        {
+            "type": "text",
+            "data": "ID_DRAWERCONSTRUCTION"
+        },
+        {
+            "type": "text",
+            "data": "ID_DRAWERCONSTRUCTION"
+        },
+        {
+            "type": "text",
+            "data": "ID_DRAWERSCHEDULE"
+        },
+        {
+            "type": "text",
+            "data": "ID_DRAWERSCHEDULE"
+        },
+        {
+            "type": "text",
+            "data": "ID_FINISH"
+        },
+        {
+            "type": "text",
+            "data": "ID_FINISH"
+        },
+        {
+            "type": "text",
+            "data": "ID_GUIDESCHEDULE"
+        },
+        {
+            "type": "text",
+            "data": "ID_GUIDESCHEDULE"
+        },
+        {
+            "type": "text",
+            "data": "ID_HINGESCHEDULE"
+        },
+        {
+            "type": "text",
+            "data": "ID_HINGESCHEDULE"
+        },
+        {
+            "type": "text",
+            "data": "ID_IJOINT"
+        },
+        {
+            "type": "text",
+            "data": "ID_IJOINT"
+        },
+        {
+            "type": "text",
+            "data": "ID_MATERIAL"
+        },
+        {
+            "type": "text",
+            "data": "ID_MATERIAL"
+        },
+        {
+            "type": "text",
+            "data": "ID_MOLDINGSCHEDULE"
+        },
+        {
+            "type": "text",
+            "data": "ID_MOLDINGSCHEDULE"
+        },
+        {
+            "type": "text",
+            "data": "ID_PULLSCHEDULE"
+        },
+        {
+            "type": "text",
+            "data": "ID_PULLSCHEDULE"
+        },
+        {
+            "type": "text",
+            "data": "ID_ROLLOUTCONSTRUCTION"
+        },
+        {
+            "type": "text",
+            "data": "ID_ROLLOUTCONSTRUCTION"
+        },
+        {
+            "type": "text",
+            "data": "ID_ROLLOUTSCHEDULE"
+        },
+        {
+            "type": "text",
+            "data": "ID_ROLLOUTSCHEDULE"
+        },
+        {
+            "type": "text",
+            "data": "ID_ROOMSCHEDULE"
+        },
+        {
+            "type": "text",
+            "data": "ID_ROOMSCHEDULE"
+        },
+        {
+            "type": "text",
+            "data": "ID_SLIDERAILSCHEDULE"
+        },
+        {
+            "type": "text",
+            "data": "ID_SLIDERAILSCHEDULE"
+        },
+        {
+            "type": "text",
+            "data": "ID_TEXTURE"
+        },
+        {
+            "type": "text",
+            "data": "ID_TEXTURE"
+        },
+        {
+            "type": "text",
+            "data": "ID_TOPCONSTRUTION"
+        },
+        {
+            "type": "text",
+            "data": "ID_TOPCONSTRUTION"
+        },
+        {
+            "type": "text",
+            "data": "ID_TOPSCHEDULE"
+        },
+        {
+            "type": "text",
+            "data": "ID_TOPSCHEDULE"
+        },
+        {
+            "type": "text",
+            "data": "ID_WIREBASKETSCHEDULE"
+        },
+        {
+            "type": "text",
+            "data": "ID_WIREBASKETSCHEDULE"
+        },
+        {
+            "type": "text",
+            "data": "string name"
+        },
+        {
+            "type": "text",
+            "data": "Name of the requested resource"
+        },
+        {
+            "type": "text",
+            "data": "return"
+        },
+        {
+            "type": "text",
+            "data": "long - ID of the requested resource.Returns 0 if nothing was found."
+        },
+        {
+            "type": "text",
+            "data": "RemoveParameter(string name)"
+        },
+        {
+            "type": "text",
+            "data": "Remove the given parameter from the current object."
+        },
+        {
+            "type": "text",
+            "data": "example:"
+        },
+        {
+            "type": "text",
+            "data": "_this.RemoveParameter('PAR_MY');"
+        },
+        {
+            "type": "text",
+            "data": "string name"
+        },
+        {
+            "type": "text",
+            "data": "Parameter name"
+        },
+        {
+            "type": "text",
+            "data": "Return"
+        },
+        {
+            "type": "text",
+            "data": "void"
+        },
+        {
+            "type": "text",
+            "data": "ReplacePart(string librarypart)"
+        },
+        {
+            "type": "text",
+            "data": "Replace the current object with a library object"
+        },
+        {
+            "type": "text",
+            "data": "example:"
+        },
+        {
+            "type": "text",
+            "data": "_this.ReplacePart('Custom Cabinets\\\\Special End');"
+        },
+        {
+            "type": "text",
+            "data": "string librarypart"
+        },
+        {
+            "type": "text",
+            "data": "Path of the desired library part, catalog+part path"
+        },
+        {
+            "type": "text",
+            "data": "return"
+        },
+        {
+            "type": "text",
+            "data": "bool - true on success else false"
+        },
+        {
+            "type": "text",
+            "data": "SetChoiceValue(string name, variant value)"
+        },
+        {
+            "type": "text",
+            "data": "Set the value on a choice parameter. Defaults to the first item in the list if the value doesn't match."
+        },
+        {
+            "type": "text",
+            "data": "example:"
+        },
+        {
+            "type": "text",
+            "data": "_this.SetChoiceValue('PAR_CHOICE', 99);"
+        },
+        {
+            "type": "text",
+            "data": "string name"
+        },
+        {
+            "type": "text",
+            "data": "Parameter name"
+        },
+        {
+            "type": "text",
+            "data": "variant value"
+        },
+        {
+            "type": "text",
+            "data": "Parameter choice value"
+        },
+        {
+            "type": "text",
+            "data": "return"
+        },
+        {
+            "type": "text",
+            "data": "void"
+        },
+        {
+            "type": "text",
+            "data": "SetMaterial(variant value)"
+        },
+        {
+            "type": "text",
+            "data": "Set the material on the current object."
+        },
+        {
+            "type": "text",
+            "data": "example:"
+        },
+        {
+            "type": "text",
+            "data": "_this.SetMaterial('3/4 Oak Ply');"
+        },
+        {
+            "type": "text",
+            "data": "variant value"
+        },
+        {
+            "type": "text",
+            "data": "Desired material defined by name or ID"
+        },
+        {
+            "type": "text",
+            "data": "return"
+        },
+        {
+            "type": "text",
+            "data": "bool - true on success else false"
+        },
+        {
+            "type": "text",
+            "data": "SetParameter(string name, variant value) [optional] WORD type)"
+        },
+        {
+            "type": "text",
+            "data": "Set a parameter with a value"
+        },
+        {
+            "type": "text",
+            "data": "example:"
+        },
+        {
+            "type": "text",
+            "data": "_this.SetParameter('PAR_MY', 23.5);"
+        },
+        {
+            "type": "text",
+            "data": "string sParameter"
+        },
+        {
+            "type": "text",
+            "data": "Parameter name"
+        },
+        {
+            "type": "text",
+            "data": "variant pValue"
+        },
+        {
+            "type": "text",
+            "data": "Parameter value"
+        },
+        {
+            "type": "text",
+            "data": "WORD nType [optional]"
+        },
+        {
+            "type": "text",
+            "data": "Parameter type represented by the  Parameter Type  constants (defaults to VAL_MEASUREMENT if not specified)"
+        },
+        {
+            "type": "text",
+            "data": "return"
+        },
+        {
+            "type": "text",
+            "data": "void"
+        },
+        {
+            "type": "text",
+            "data": "SetParameter(string name, string equation) [optional] string condition) [optional] WORD type)"
+        },
+        {
+            "type": "text",
+            "data": "Set a parameter with an equation"
+        },
+        {
+            "type": "text",
+            "data": "example:"
+        },
+        {
+            "type": "text",
+            "data": "_this.SetParameter('MY-PAR', DX / 2);"
+        },
+        {
+            "type": "text",
+            "data": "string name"
+        },
+        {
+            "type": "text",
+            "data": "Parameter name"
+        },
+        {
+            "type": "text",
+            "data": "string equation"
+        },
+        {
+            "type": "text",
+            "data": "string condition"
+        },
+        {
+            "type": "text",
+            "data": "Parameter condition (defaults to '1' if not specified)"
+        },
+        {
+            "type": "text",
+            "data": "WORD nType"
+        },
+        {
+            "type": "text",
+            "data": "Parameter type represented by the  Parameter Type  constants (defaults to VAL_MEASUREMENT if not specified)"
+        },
+        {
+            "type": "text",
+            "data": "return"
+        },
+        {
+            "type": "text",
+            "data": "void"
+        },
+        {
+            "type": "text",
+            "data": "SetParent(CVAsmManaged parent)"
+        },
+        {
+            "type": "text",
+            "data": "Set a new parent for the current object"
+        },
+        {
+            "type": "text",
+            "data": "example:"
+        },
+        {
+            "type": "text",
+            "data": "_this.SetParent(_cab);"
+        },
+        {
+            "type": "text",
+            "data": "CVAsmManaged parent"
+        },
+        {
+            "type": "text",
+            "data": "CV object representing the new parent"
+        },
+        {
+            "type": "text",
+            "data": "return"
+        },
+        {
+            "type": "text",
+            "data": "void"
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\UCS\\JavaScript_User_Created_Standards\\JavaScript_Object_Model.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

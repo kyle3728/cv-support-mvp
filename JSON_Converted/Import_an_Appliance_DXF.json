@@ -1,0 +1,81 @@
+{
+    "id": "a04bdbc1-0f35-477a-9862-e3e711de2e2b",
+    "title": "Import_an_Appliance_DXF",
+    "content": [
+        {
+            "type": "text",
+            "data": "Import an Appliance DXF"
+        },
+        {
+            "type": "text",
+            "data": "Is it possible to import a drawing of an Accessory/Appliance, if the manufacturer can supply me with an AutoCAD DXF file?"
+        },
+        {
+            "type": "text",
+            "data": "If the manufacturer can supply you with a three dimensional DXF of their product that meets the criteria outlined in the  Import DXF  topic you should have no problem importing\n    the file into CABINET VISION."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Import DXF",
+                "uuid": "23a719d6-57fa-4339-a38c-6354d69e40da",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "You can import the DXF file into CABINET VISION from Plan view by clicking on  Utilities | Import DXF . \n \n \n At the DXF Import screen click on Browse to locate the file, then click on Import to bring it into the viewing window. \n \n \n You can rotate the item into the position you want to save it into by using the Flip X, Y and Z buttons. \n \n \n Highlight a Layer in the Part Type Allocation list, then click on Type to assign a Material to that part/layer (IE: Porcelain from Room Materials). \n \n \n Once you have the item set the way you want it, click on Save to save it into your Catalog."
+        },
+        {
+            "type": "text",
+            "data": "You can import the DXF file into CABINET VISION from Plan view by clicking on  Utilities | Import DXF ."
+        },
+        {
+            "type": "text",
+            "data": "You can import the DXF file into CABINET VISION from Plan view by clicking on  Utilities | Import DXF ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Utilities | Import DXF",
+                "uuid": "23a719d6-57fa-4339-a38c-6354d69e40da",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "At the DXF Import screen click on Browse to locate the file, then click on Import to bring it into the viewing window."
+        },
+        {
+            "type": "text",
+            "data": "At the DXF Import screen click on Browse to locate the file, then click on Import to bring it into the viewing window."
+        },
+        {
+            "type": "text",
+            "data": "You can rotate the item into the position you want to save it into by using the Flip X, Y and Z buttons."
+        },
+        {
+            "type": "text",
+            "data": "You can rotate the item into the position you want to save it into by using the Flip X, Y and Z buttons."
+        },
+        {
+            "type": "text",
+            "data": "Highlight a Layer in the Part Type Allocation list, then click on Type to assign a Material to that part/layer (IE: Porcelain from Room Materials)."
+        },
+        {
+            "type": "text",
+            "data": "Highlight a Layer in the Part Type Allocation list, then click on Type to assign a Material to that part/layer (IE: Porcelain from Room Materials)."
+        },
+        {
+            "type": "text",
+            "data": "Once you have the item set the way you want it, click on Save to save it into your Catalog."
+        },
+        {
+            "type": "text",
+            "data": "Once you have the item set the way you want it, click on Save to save it into your Catalog."
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\FAQs\\HDI-Advanced_Features\\Import_an_Appliance_DXF.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

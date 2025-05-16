@@ -1,0 +1,193 @@
+BODY {
+	font-family: Arial;
+	background-color: #ffffff;
+}
+H1 {
+	font-weight: bold;
+	font-size: 18pt;
+	font-family: Arial;
+}
+LI.H1 {
+	font-weight: bold;
+	font-size: 18pt;
+	font-family: Arial;
+}
+LI.kadov-H1 {
+	font-weight: bold;
+	font-size: 18pt;
+}
+H2 {
+	font-weight: bold;
+	font-size: 14pt;
+	font-family: Arial;
+}
+LI.H2 {
+	font-weight: bold;
+	font-size: 14pt;
+	font-family: Arial;
+}
+LI.kadov-H2 {
+	font-weight: bold;
+	font-size: 14pt;
+}
+H3 {
+	font-weight: bold;
+	font-size: 12pt;
+	font-family: Arial;
+}
+LI.H3 {
+	font-weight: bold;
+	font-size: 12pt;
+	font-family: Arial;
+}
+LI.kadov-H3 {
+	font-weight: bold;
+	font-size: 12pt;
+}
+H4 {
+	font-weight: bold;
+	font-size: 11pt;
+	font-family: Arial;
+}
+LI.H4 {
+	font-weight: bold;
+	font-size: 11pt;
+	font-family: Arial;
+}
+LI.kadov-H4 {
+	font-weight: bold;
+	font-size: 11pt;
+}
+H5 {
+	font-weight: bold;
+	font-size: 10.0pt;
+	font-family: Arial;
+}
+LI.H5 {
+	font-weight: bold;
+	font-size: 10.0pt;
+	font-family: Arial;
+}
+LI.kadov-H5 {
+	font-weight: bold;
+	font-size: 10.0pt;
+}
+H6 {
+	font-weight: bold;
+	font-size: 8.0pt;
+	font-family: Arial;
+}
+LI.H6 {
+	font-weight: bold;
+	font-size: 8.0pt;
+	font-family: Arial;
+}
+LI.kadov-H6 {
+	font-weight: bold;
+	font-size: 8.0pt;
+}
+P {
+	font-size: 12.0pt;
+	margin-top: 18pt;
+	margin-bottom: 18pt;
+	font-weight: normal;
+	margin-left: 1;
+	text-align: left;
+	font-family: Arial;
+}
+LI.P {
+	font-size: 12.0pt;
+	font-weight: normal;
+	text-align: left;
+	font-family: Arial;
+}
+LI.kadov-P {
+	font-size: 12.0pt;
+	font-weight: normal;
+	text-align: left;
+}
+A.expandspot {
+	color: #008000;
+	cursor: hand;
+	font-style: italic;
+	x-text-underline: off;
+	x-text-overline: off;
+	x-text-line-through: off;
+	x-text-underline: off;
+	x-text-overline: off;
+	x-text-line-through: off;
+	x-text-underline: off;
+	x-text-overline: off;
+	x-text-line-through: off;
+	x-text-underline: off;
+	x-text-overline: off;
+	x-text-line-through: off;text-decoration: none none none none none none none none none none none none;
+}
+SPAN.expandtext {
+	font-style: italic;
+	font-weight: normal;
+	color: #ff0000;
+}
+A.dropspot {
+	cursor: hand;
+	color: #008000;
+	font-style: italic;
+	x-text-underline: off;
+	x-text-overline: off;
+	x-text-line-through: off;
+	x-text-underline: off;
+	x-text-overline: off;
+	x-text-line-through: off;
+	x-text-underline: off;
+	x-text-overline: off;
+	x-text-line-through: off;
+	x-text-underline: off;
+	x-text-overline: off;
+	x-text-line-through: off;text-decoration: none none none none none none none none none none none none;
+}
+A.glossterm {
+	color: #800000;
+	cursor: hand;
+	font-style: italic;
+	x-text-underline: off;
+	x-text-overline: off;
+	x-text-line-through: off;
+	x-text-underline: off;
+	x-text-overline: off;
+	x-text-line-through: off;
+	x-text-underline: off;
+	x-text-overline: off;
+	x-text-line-through: off;
+	x-text-underline: off;
+	x-text-overline: off;
+	x-text-line-through: off;text-decoration: none none none none none none none none none none none none;
+}
+SPAN.glosstext {
+	font-style: italic;
+	font-weight: normal;
+	color: #0000ff;
+}
+OL {
+	font-size: 12pt;
+	font-family: Arial, sans-serif;
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+UL {
+	font-size: 12pt;
+	font-family: Arial, sans-serif;
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+ol ol {
+	margin-top: 18px;
+}
+ol ul {
+	margin-top: 18px;
+}
+ul ul {
+	margin-top: 18px;
+}
+ul ol {
+	margin-top: 18px;
+}

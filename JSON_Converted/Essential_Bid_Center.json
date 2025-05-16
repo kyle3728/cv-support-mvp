@@ -1,0 +1,274 @@
+{
+    "id": "283fd745-4947-42af-bc55-1724acf2fc4b",
+    "title": "Essential_Bid_Center",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top \n > \n \n \n Room Level \n > \n \n Sidebar \n > \n \n Bid Center"
+        },
+        {
+            "type": "text",
+            "data": "Top \n >"
+        },
+        {
+            "type": "text",
+            "data": "Room Level \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Room Level",
+                "uuid": "9eaa492c-0405-4da7-8e0f-a6ff4e047890",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Sidebar \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Sidebar",
+                "uuid": "f07520a2-0645-4a40-b8d9-a72c15b5c147",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Bid Center"
+        },
+        {
+            "type": "text",
+            "data": "Bid Center"
+        },
+        {
+            "type": "text",
+            "data": "Bid Center"
+        },
+        {
+            "type": "image",
+            "data": "image1929.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Solid Essential comes with a basic Bid Center. It has a predefined Report as shown in the image below. You can control the content of this Report by choosing the Options button (see below for more information) in the ribbonbar. You can also Export the Report to an RTF file for editing in your favorite word processor."
+        },
+        {
+            "type": "image",
+            "data": "Bid_Center_1.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Options"
+        },
+        {
+            "type": "image",
+            "data": "image2377.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There are five tabs in the Options (Bid Setup) area:"
+        },
+        {
+            "type": "text",
+            "data": "Item Totals"
+        },
+        {
+            "type": "image",
+            "data": "image851.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There are two main areas on the Item Totals tab:"
+        },
+        {
+            "type": "text",
+            "data": "Show the Total Price For These Materials  - Simply select any Materials whose Price you want to include in your Bid. Select the Tax option if you want to apply Tax to the Materials in your Bid. \n \n \n Show These Totals for Doors & Drawers \n \n \n \n \n Door Price  - Pulled from the Door Catalog. Select the Tax option if you want to apply Tax to the Doors in your Bid. \n \n \n Drawer Front Price  - Pulled from the Door Catalog. Select the Tax option if you want to apply Tax to the Drawer Fronts in your Bid. \n \n \n Drawers  - Enter an amount per Drawer Box to charge. Select the Tax option if you want to apply Tax to the Drawer Boxes in your Bid. \n \n \n Roll Outs  - Enter an amount per Roll Out to charge. Select the Tax option if you want to apply Tax to the Roll Outs in your Bid."
+        },
+        {
+            "type": "text",
+            "data": "Show the Total Price For These Materials  - Simply select any Materials whose Price you want to include in your Bid. Select the Tax option if you want to apply Tax to the Materials in your Bid. \n \n \n Show These Totals for Doors & Drawers \n \n \n \n \n Door Price  - Pulled from the Door Catalog. Select the Tax option if you want to apply Tax to the Doors in your Bid. \n \n \n Drawer Front Price  - Pulled from the Door Catalog. Select the Tax option if you want to apply Tax to the Drawer Fronts in your Bid. \n \n \n Drawers  - Enter an amount per Drawer Box to charge. Select the Tax option if you want to apply Tax to the Drawer Boxes in your Bid. \n \n \n Roll Outs  - Enter an amount per Roll Out to charge. Select the Tax option if you want to apply Tax to the Roll Outs in your Bid."
+        },
+        {
+            "type": "text",
+            "data": "Show the Total Price For These Materials  - Simply select any Materials whose Price you want to include in your Bid. Select the Tax option if you want to apply Tax to the Materials in your Bid. \n \n \n Show These Totals for Doors & Drawers \n \n \n \n \n Door Price  - Pulled from the Door Catalog. Select the Tax option if you want to apply Tax to the Doors in your Bid. \n \n \n Drawer Front Price  - Pulled from the Door Catalog. Select the Tax option if you want to apply Tax to the Drawer Fronts in your Bid. \n \n \n Drawers  - Enter an amount per Drawer Box to charge. Select the Tax option if you want to apply Tax to the Drawer Boxes in your Bid. \n \n \n Roll Outs  - Enter an amount per Roll Out to charge. Select the Tax option if you want to apply Tax to the Roll Outs in your Bid."
+        },
+        {
+            "type": "text",
+            "data": "Show the Total Price For These Materials  - Simply select any Materials whose Price you want to include in your Bid. Select the Tax option if you want to apply Tax to the Materials in your Bid."
+        },
+        {
+            "type": "text",
+            "data": "Show the Total Price For These Materials  - Simply select any Materials whose Price you want to include in your Bid. Select the Tax option if you want to apply Tax to the Materials in your Bid."
+        },
+        {
+            "type": "text",
+            "data": "Show These Totals for Doors & Drawers"
+        },
+        {
+            "type": "text",
+            "data": "Show These Totals for Doors & Drawers"
+        },
+        {
+            "type": "text",
+            "data": "Door Price  - Pulled from the Door Catalog. Select the Tax option if you want to apply Tax to the Doors in your Bid. \n \n \n Drawer Front Price  - Pulled from the Door Catalog. Select the Tax option if you want to apply Tax to the Drawer Fronts in your Bid. \n \n \n Drawers  - Enter an amount per Drawer Box to charge. Select the Tax option if you want to apply Tax to the Drawer Boxes in your Bid. \n \n \n Roll Outs  - Enter an amount per Roll Out to charge. Select the Tax option if you want to apply Tax to the Roll Outs in your Bid."
+        },
+        {
+            "type": "text",
+            "data": "Door Price  - Pulled from the Door Catalog. Select the Tax option if you want to apply Tax to the Doors in your Bid. \n \n \n Drawer Front Price  - Pulled from the Door Catalog. Select the Tax option if you want to apply Tax to the Drawer Fronts in your Bid. \n \n \n Drawers  - Enter an amount per Drawer Box to charge. Select the Tax option if you want to apply Tax to the Drawer Boxes in your Bid. \n \n \n Roll Outs  - Enter an amount per Roll Out to charge. Select the Tax option if you want to apply Tax to the Roll Outs in your Bid."
+        },
+        {
+            "type": "text",
+            "data": "Door Price  - Pulled from the Door Catalog. Select the Tax option if you want to apply Tax to the Doors in your Bid."
+        },
+        {
+            "type": "text",
+            "data": "Door Price  - Pulled from the Door Catalog. Select the Tax option if you want to apply Tax to the Doors in your Bid."
+        },
+        {
+            "type": "text",
+            "data": "Drawer Front Price  - Pulled from the Door Catalog. Select the Tax option if you want to apply Tax to the Drawer Fronts in your Bid."
+        },
+        {
+            "type": "text",
+            "data": "Drawer Front Price  - Pulled from the Door Catalog. Select the Tax option if you want to apply Tax to the Drawer Fronts in your Bid."
+        },
+        {
+            "type": "text",
+            "data": "Drawers  - Enter an amount per Drawer Box to charge. Select the Tax option if you want to apply Tax to the Drawer Boxes in your Bid."
+        },
+        {
+            "type": "text",
+            "data": "Drawers  - Enter an amount per Drawer Box to charge. Select the Tax option if you want to apply Tax to the Drawer Boxes in your Bid."
+        },
+        {
+            "type": "text",
+            "data": "Roll Outs  - Enter an amount per Roll Out to charge. Select the Tax option if you want to apply Tax to the Roll Outs in your Bid."
+        },
+        {
+            "type": "text",
+            "data": "Roll Outs  - Enter an amount per Roll Out to charge. Select the Tax option if you want to apply Tax to the Roll Outs in your Bid."
+        },
+        {
+            "type": "text",
+            "data": "Length Totals"
+        },
+        {
+            "type": "image",
+            "data": "image852.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There are three main areas on the Length Totals Tab:"
+        },
+        {
+            "type": "text",
+            "data": "Show The Total For Your Cabinets -  Select which Cabinet Classes you would like to charge By Lineal Unit and the value. Select the Tax option if you want to apply Tax to the Cabinets in your Bid. \n \n \n Show The Counter Top Totals -  If you want to Price your Counter Tops simply choose how you want to Price them (Square Unit or Lineal Unit) and give the value per Unit. Select the Tax option if you want to apply Tax to the Counter Tops in your Bid. \n \n \n Show These Molding Totals -  If you wan to Price Crown Molding and/or Scribe simply activate them and enter a value. Select the Tax option if you want to apply Tax to the Modlings in your Bid."
+        },
+        {
+            "type": "text",
+            "data": "Show The Total For Your Cabinets -  Select which Cabinet Classes you would like to charge By Lineal Unit and the value. Select the Tax option if you want to apply Tax to the Cabinets in your Bid. \n \n \n Show The Counter Top Totals -  If you want to Price your Counter Tops simply choose how you want to Price them (Square Unit or Lineal Unit) and give the value per Unit. Select the Tax option if you want to apply Tax to the Counter Tops in your Bid. \n \n \n Show These Molding Totals -  If you wan to Price Crown Molding and/or Scribe simply activate them and enter a value. Select the Tax option if you want to apply Tax to the Modlings in your Bid."
+        },
+        {
+            "type": "text",
+            "data": "Show The Total For Your Cabinets -  Select which Cabinet Classes you would like to charge By Lineal Unit and the value. Select the Tax option if you want to apply Tax to the Cabinets in your Bid. \n \n \n Show The Counter Top Totals -  If you want to Price your Counter Tops simply choose how you want to Price them (Square Unit or Lineal Unit) and give the value per Unit. Select the Tax option if you want to apply Tax to the Counter Tops in your Bid. \n \n \n Show These Molding Totals -  If you wan to Price Crown Molding and/or Scribe simply activate them and enter a value. Select the Tax option if you want to apply Tax to the Modlings in your Bid."
+        },
+        {
+            "type": "text",
+            "data": "Show The Total For Your Cabinets -  Select which Cabinet Classes you would like to charge By Lineal Unit and the value. Select the Tax option if you want to apply Tax to the Cabinets in your Bid."
+        },
+        {
+            "type": "text",
+            "data": "Show The Total For Your Cabinets -  Select which Cabinet Classes you would like to charge By Lineal Unit and the value. Select the Tax option if you want to apply Tax to the Cabinets in your Bid."
+        },
+        {
+            "type": "text",
+            "data": "Show The Counter Top Totals -  If you want to Price your Counter Tops simply choose how you want to Price them (Square Unit or Lineal Unit) and give the value per Unit. Select the Tax option if you want to apply Tax to the Counter Tops in your Bid."
+        },
+        {
+            "type": "text",
+            "data": "Show The Counter Top Totals -  If you want to Price your Counter Tops simply choose how you want to Price them (Square Unit or Lineal Unit) and give the value per Unit. Select the Tax option if you want to apply Tax to the Counter Tops in your Bid."
+        },
+        {
+            "type": "text",
+            "data": "Show These Molding Totals -  If you wan to Price Crown Molding and/or Scribe simply activate them and enter a value. Select the Tax option if you want to apply Tax to the Modlings in your Bid."
+        },
+        {
+            "type": "text",
+            "data": "Show These Molding Totals -  If you wan to Price Crown Molding and/or Scribe simply activate them and enter a value. Select the Tax option if you want to apply Tax to the Modlings in your Bid."
+        },
+        {
+            "type": "text",
+            "data": "Header"
+        },
+        {
+            "type": "image",
+            "data": "image853.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Simply choose what Job data you want displayed in the Reports Header. You can also enter any other specific text you want displayed in the Header."
+        },
+        {
+            "type": "text",
+            "data": "Footer"
+        },
+        {
+            "type": "image",
+            "data": "image854.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Enter your Tax Rate and any other text you want displayed in the Footer."
+        },
+        {
+            "type": "text",
+            "data": "Extra Line Items"
+        },
+        {
+            "type": "image",
+            "data": "image855.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This area allows you to enter any Extra charges you need to add to the Bid. You can add three Taxable and three Non-Taxable line items."
+        },
+        {
+            "type": "text",
+            "data": "See the  Set As System Defaults  topic for more information on it."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Set As System Defaults",
+                "uuid": "e5b1c38f-2747-41a5-a7b8-9aefa6986ede",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Export to RTF"
+        },
+        {
+            "type": "image",
+            "data": "image2378.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option will Export the Bid Report to an RTF file that can be opened in most popular word processing applications."
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Room_Level\\Side_Bar\\Essential_Bid_Center.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

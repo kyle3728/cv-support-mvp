@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head><link rel="stylesheet" type="text/css" href="../../_rhdefault.css"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=WINDOWS-1252"/>
+  <meta name="Originator" content="ImportDoc"/>
+  <meta name="OriginalFile" content="4_0 Transfer Standards.doc"/>
+  <meta name="generator" content="Adobe RoboHelp 2020"/>
+  <title>Transferring Your Standards</title>
+  <link rel="StyleSheet" href="../../assets/css/default.css" type="text/css"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/><script type="text/javascript" src="../../ehlpdhtm.js"></script></head>
+<body lang="EN-US" xml:lang="EN-US">
+  <h1>Transferring Your Standards</h1>
+  <p style="color: #ff0000; font-weight: bold; text-decoration: underline; ">NOTICE: This Topic assumes you are familiar with File Management in the Windows Operating System.</p>
+  <p>Follow these instructions to transfer files into Cabinetmaker 11 from previous versions or different computers.</p>
+  <p>The local hard drive is being referred to as &quot;C&quot; since that is the most common drive designation, however, it simply represents the drive where Cabinetmaker has been installed. If Cabinetmaker has been installed on a different drive on your computer, then that is the one you will use.</p>
+  <p>This topic describes the procedures for a standalone computer, but it will be the same if you are using a network server.</p>
+  <h2>Step 1:</h2>
+  <p>Open the Cabinetmaker Backup Utility. From the Cabinetmaker opening screen, click <span class="Note">Utilities</span> and then <span class="Note">Backup Utility.</span></p>
+  <p class="GraphicCentered"><img src="../../assets/images/image1671.png"/></p>
+  <h2>Step 2:</h2>
+  <p>At a minimum you should &quot;Include&quot; what is in the &quot;Include&quot; area in the illustration below.</p>
+  <p><img src="../../assets/images/image1672.png"/></p>
+  <p>Click OK.</p>
+  <p>When the backup utility is finished running you must <span class="Note">CLOSE Cabinetmaker.</span></p>
+  <h2>Step 3:</h2>
+  <p>This creates a folder that contains each of these selected files plus a zipped file called &quot;backup.zip&quot; which contains all the files in a compressed format. This new folder will be labeled with today’s date and time and will be placed within the Automatic Backups folder. This folder is located on your hard drive in the following location:</p>
+  <p>C:\ProgramData\Hexagon\CABINET VISION\CV 2021\Automatic Backups</p>
+  <p>Now we need to transfer this newly created backup folder to the Automatic Backups folder for the destination computer.</p>
+  <p>If you are transferring these files from one computer to another, simply copy and paste this backup folder to a USB memory stick or whatever method of transfer you prefer, then copy and paste it to the same location on the new computer.</p>
+  <p style="margin-left: 40px;"><span style="font-style: italic; font-weight: bold;"><img alt="" border="0" src="../../assets/images/zGraphics/Extras/Information.png" style="border: none;"/></span> At this point, make sure that Cabinetmaker is closed.</p>
+  <p>Now that the new folder has been copied to the Automatic Backups folder, follow these steps:</p>
+  <ol style="list-style: decimal;">
+    <li>
+      <p class="Indent_1_Bulllet">On your computer, go to the Start button.</p>
+    </li>
+    <li>
+      <p class="Indent_1_Bulllet">Go to All Programs Cabinetmaker \ Restore Settings. The following screen will appear:</p>
+    </li>
+  </ol>
+  <p style="margin-left: 40px;"><img src="../../assets/images/image1673.png"/></p>
+  <ol start="3" style="list-style: decimal;">
+    <li>
+      <p class="Indent_1_Bulllet">The screen that pops up shows the available Backup folders on the left and the Files within each folder on the right.</p>
+    </li>
+    <li>
+      <p class="Indent_1_Bulllet">Make sure you have the folder you just transferred highlighted on the left.</p>
+    </li>
+    <li>
+      <p class="Indent_1_Bulllet">Now check which (or all) files you want to restore (transfer) on the right.</p>
+    </li>
+    <li>
+      <p class="Indent_1_Bulllet">Click OK</p>
+    </li>
+  </ol>
+  <p>This will copy the selected files into the appropriate Database folder and run the appropriate update routine.  Once the update routine has finished running, Cabinetmaker is now ready for use and will contain the updated information.</p>
+  <h2>Moving Existing Jobs</h2>
+  <p>If you want to also move your existing jobs, you can simply copy and paste all the existing job files (.cvj files) from one computer or folder location to another for use in Cabinetmaker. These job files are usually contained within the C:\Users\Public\Documents\CABINET VISION\CV 2021\ folder, but they may be stored in any folder you have designated.</p>
+  <p style="margin-left: 40px;"><img alt="" border="0" src="../../assets/images/zGraphics/Extras/Warning.png" style="border: none;"/>  A job that is edited in the latest version Cabinetmaker can no longer be used in an earlier version. Use a copy of that original job for safety. No update routine has to be run after copying these files.</p>
+  <h2>Door Manager</h2>
+  <p>Now that a new Door catalog has been copied over, you will need to update the Door icons. Open Cabinetmaker, go to Door Manager \ Utiltities and run Generate Icons.</p>
+  <p><img src="../../assets/images/image1674.png"/></p>
+  <h2>S2M Center</h2>
+  <p>If you use the S2M CENTER, you will have to update these items:</p>
+  <ol>
+    <li>Reselect the Primary and Secondary machines you use for Optimizing.</li>
+    <li>Create a new Output Directory (path) for your output code folder.</li>
+    <li>Reselect the path to your Post for each machine you use.</li>
+    <li>Re-enter your Post code if applicable</li>
+  </ol>
+  <h2>Usability of new files</h2>
+  <p>While we make our best effort at making the older files compatible with the newer version of our software, we can’t guarantee all files will work exactly as they did in the older version due to the updates and additions to the new version. Existing jobs may not perform as expected. Also, the Construction Methods and Door designs will have to be reviewed to account for new or updated routines. <span style="font-weight: bold;">Please test the new information thoroughly before beginning production.</span></p>
+  <h2>Files and Descriptions</h2>
+  <div style="text-align: center;">
+    <div align="left">
+      <table cellpadding="1" cellspacing="1" class="NormalTable" style="margin-left: 5.4pt; border: none; 
+			 left: 144px; top: 4492px;" width="1103">
+        <colgroup>
+          <col style="width: 13.136%;"/>
+          <col style="width: 33.611%;"/>
+          <col style="width: 37.461%;"/>
+        </colgroup>
+        <tbody>
+          <tr style="height: 23px;">
+            <td style="vertical-align: top; border: solid #000000 1.0pt; 
+				 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+				 padding-right: 0px; padding-bottom: 0px;">
+              <p style="font-weight: bold;">File Name</p>
+            </td>
+            <td style="vertical-align: top; border: solid #000000 1.0pt; 
+				 border-left: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; 
+				 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+              <p><strong><span class="Note">Location</span></strong></p>
+            </td>
+            <td style="vertical-align: top; border: solid #000000 1.0pt; 
+				 border-left: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; 
+				 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+              <p><strong><span class="Note">Purpose</span></strong></p>
+            </td>
+          </tr>
+          <tr style="height: 21px;">
+            <td style="vertical-align: top; border: solid #000000 1.0pt; 
+				 border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; 
+				 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+              <p class="Indent_1_Bulllet"><span class="Note">Default.dat</span></p>
+            </td>
+            <td style="vertical-align: top; border-top: none; border-left: none; 
+				 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+				 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+				 padding-right: 0px; padding-bottom: 0px;">
+              <p class="Indent_1_Bulllet">C:\ProgramData\Hexagon\CABINET VISION\CV 2021\</p>
+            </td>
+            <td style="vertical-align: top; border-top: none; border-left: none; 
+				 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+				 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+				 padding-right: 0px; padding-bottom: 0px;">
+              <p class="Indent_1_Bulllet">This file contains all your Layer Schedules and Dimension Styles.</p>
+            </td>
+          </tr>
+          <tr style="height: 21px;">
+            <td style="vertical-align: top; border: solid #000000 1.0pt; 
+				 border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; 
+				 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+              <p class="Indent_1_Bulllet"><span class="Note">.cvj files</span></p>
+            </td>
+            <td style="vertical-align: top; border-top: none; border-left: none; 
+				 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+				 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+				 padding-right: 0px; padding-bottom: 0px;">
+              <p class="Indent_1_Bulllet">C:\Users\Public\Documents\CABINET VISION\CV 2021\</p>
+            </td>
+            <td style="vertical-align: top; border-top: none; border-left: none; 
+				 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+				 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+				 padding-right: 0px; padding-bottom: 0px;">
+              <p class="Indent_1_Bulllet">These are your Job files.</p>
+            </td>
+          </tr>
+          <tr style="height: 21px;">
+            <td style="vertical-align: top; border: solid #000000 1.0pt; 
+				 border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; 
+				 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+              <p class="Indent_1_Bulllet"><span class="Note">*.cvc files</span></p>
+            </td>
+            <td style="vertical-align: top; border-top: none; border-left: none; 
+				 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+				 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+				 padding-right: 0px; padding-bottom: 0px;">
+              <p class="Indent_1_Bulllet">C:\ProgramData\Hexagon\CABINET VISION\CV 2021\Database\</p>
+            </td>
+            <td style="vertical-align: top; border-top: none; border-left: none; 
+				 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+				 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+				 padding-right: 0px; padding-bottom: 0px;">
+              <p class="Indent_1_Bulllet">These are the Cabinet\Object Catalogs</p>
+            </td>
+          </tr>
+          <tr style="height: 21px;">
+            <td style="vertical-align: top; border: solid #000000 1.0pt; 
+				 border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; 
+				 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+              <p class="Indent_1_Bulllet"><span class="Note">Drawings.sym</span></p>
+            </td>
+            <td style="vertical-align: top; border-top: none; border-left: none; 
+				 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+				 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+				 padding-right: 0px; padding-bottom: 0px;">
+              <p class="Indent_1_Bulllet">C:\ProgramData\Hexagon\CABINET VISION\CV 2021\Database\</p>
+            </td>
+            <td style="vertical-align: top; border-top: none; border-left: none; 
+				 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+				 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+				 padding-right: 0px; padding-bottom: 0px;">
+              <p class="Indent_1_Bulllet">This is where your CAD Symbols and Titleblocks are stored.</p>
+            </td>
+          </tr>
+          <tr style="height: 21px;">
+            <td style="vertical-align: top; border: solid #000000 1.0pt; 
+				 border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; 
+				 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+              <p class="Indent_1_Bulllet"><span class="Note">CVData.mdf</span></p>
+            </td>
+            <td style="vertical-align: top; border-top: none; border-left: none; 
+				 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+				 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+				 padding-right: 0px; padding-bottom: 0px;">
+              <p class="Indent_1_Bulllet">C:\ProgramData\Hexagon\CABINET VISION\CV 2021\Database\</p>
+            </td>
+            <td style="vertical-align: top; border-top: none; border-left: none; 
+				 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+				 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+				 padding-right: 0px; padding-bottom: 0px;">
+              <p class="Indent_1_Bulllet">This is where all Materials and Material Schedules are stored.</p>
+            </td>
+          </tr>
+          <tr style="height: 21px;">
+            <td style="vertical-align: top; border: solid #000000 1.0pt; 
+				 border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; 
+				 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+              <p class="Indent_1_Bulllet"><span class="Note">Report.mdb</span></p>
+            </td>
+            <td style="vertical-align: top; border-top: none; border-left: none; 
+				 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+				 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+				 padding-right: 0px; padding-bottom: 0px;">
+              <p class="Indent_1_Bulllet">C:\ProgramData\Hexagon\CABINET VISION\CV 2021\Database\</p>
+            </td>
+            <td style="vertical-align: top; border-top: none; border-left: none; 
+				 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+				 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+				 padding-right: 0px; padding-bottom: 0px;">
+              <p class="Indent_1_Bulllet">This is where all Report Groups and Bid Methods are stored.</p>
+            </td>
+          </tr>
+          <tr style="height: 21px;">
+            <td style="vertical-align: top; border: solid #000000 1.0pt; 
+				 border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; 
+				 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+              <p class="Indent_1_Bulllet">psnc.mdb</p>
+            </td>
+            <td style="vertical-align: top; border-top: none; border-left: none; 
+				 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+				 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+				 padding-right: 0px; padding-bottom: 0px;">
+              <p class="Indent_1_Bulllet">C:\ProgramData\Hexagon\CABINET VISION\S2M 2021\Database\</p>
+            </td>
+            <td style="vertical-align: top; border-top: none; border-left: none; 
+				 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+				 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+				 padding-right: 0px; padding-bottom: 0px;">
+              <p class="Indent_1_Bulllet">This is where your Tools and Machines for NC output are stored.</p>
+            </td>
+          </tr>
+          <tr style="height: 21px;">
+            <td style="vertical-align: top; border: solid #000000 1.0pt; 
+				 border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; 
+				 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+              <p class="Indent_1_Bulllet">.jpg &amp; .bmp files</p>
+            </td>
+            <td style="vertical-align: top; border-top: none; border-left: none; 
+				 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+				 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+				 padding-right: 0px; padding-bottom: 0px;">
+              <p class="Indent_1_Bulllet">C:\ProgramData\Hexagon\CABINET VISION\CV 2021\Database\</p>
+            </td>
+            <td style="vertical-align: top; border-top: none; border-left: none; 
+				 border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+				 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+				 padding-right: 0px; padding-bottom: 0px;">
+              <p class="Indent_1_Bulllet">These are your custom textures that have been imported.</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</body></html>

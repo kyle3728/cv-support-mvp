@@ -1,0 +1,2242 @@
+{
+    "id": "11664730-7bf0-484c-aa39-2fe153fb4160",
+    "title": "RLSBRC_Report_Name_Content",
+    "content": [
+        {
+            "type": "text",
+            "data": "Report Name and Content List"
+        },
+        {
+            "type": "image",
+            "data": "1AUALL.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Report Name Contents of Each Report Grouped by category"
+        },
+        {
+            "type": "text",
+            "data": "Review the list noting which Reports potentially meet your requirements. Use the Preview tool in the Report window to view the presentation of each Report and further narrow your selection."
+        },
+        {
+            "type": "text",
+            "data": "Use this as a reference in setting up the Report options that fit your needs. Each heading will be in bold text, and followed by Report options for that heading. Look through the entire list before beginning, as some Reports for some items are in different places."
+        },
+        {
+            "type": "text",
+            "data": "Applied Door & Panelized End Check List"
+        },
+        {
+            "type": "text",
+            "data": "Applied Door & Panelized End Check List - DCL005"
+        },
+        {
+            "type": "text",
+            "data": "Applied Door & Panelized End Check List - List of applied doors & panelized ends sorted first by style, then by height descending, then by width descending. \u00a0This list displays the overall end size followed by the parts associated with it."
+        },
+        {
+            "type": "text",
+            "data": "Applied Door & Panelized End Check List - DCL006"
+        },
+        {
+            "type": "text",
+            "data": "Applied Door & Panelized End Check List - List of applied doors & panelized ends sorted first by style, then by width descending, then by height descending. \u00a0This list displays the overall end size followed by the parts associated with it."
+        },
+        {
+            "type": "text",
+            "data": "Applied Door & Panelized End List"
+        },
+        {
+            "type": "text",
+            "data": "Applied Door & Panelized End List - DLAP01"
+        },
+        {
+            "type": "text",
+            "data": "Applied Door & Panelized End List With Profiles - Displays profile information for the applied door and panelized end followed by a list of end sizes. \u00a0Sorted by end style, then by height descending, then by width descending."
+        },
+        {
+            "type": "text",
+            "data": "Applied Door & Panelized End List - DLAP02"
+        },
+        {
+            "type": "text",
+            "data": "Applied Door & Panelized End List With Profiles - Displays profile information for the applied door and panelized end followed by a list of end sizes. \u00a0Sorted by end style, then by width descending, then by height descending."
+        },
+        {
+            "type": "text",
+            "data": "Applied Door & Panelized End List - DLAP03"
+        },
+        {
+            "type": "text",
+            "data": "Applied Door & Panelized List - A list of applied door & panelized end sizes. \u00a0Sorted by end style, then by height descending, then by width descending."
+        },
+        {
+            "type": "text",
+            "data": "Applied Door & Panelized End List - DLAP04"
+        },
+        {
+            "type": "text",
+            "data": "Applied Door & Panelized List - A list of applied door & panelized end sizes. \u00a0Sorted by end style, then by width descending, then by height descending."
+        },
+        {
+            "type": "text",
+            "data": "Applied Door & Panelized End List w/Notes - DLAP05"
+        },
+        {
+            "type": "text",
+            "data": "Applied Door & Panelized List w/Notes - A list of applied door & panelized end sizes. \u00a0Sorted by end style, then by width descending, then by height descending."
+        },
+        {
+            "type": "text",
+            "data": "Assembly Sheet"
+        },
+        {
+            "type": "text",
+            "data": "Assembly Sheet - ASM001"
+        },
+        {
+            "type": "text",
+            "data": "Assembly Sheet - Displays cabinet specifications. \u00a0Followed by a cut list for that cabinet sorted by length then by width.'"
+        },
+        {
+            "type": "text",
+            "data": "Assembly Sheet - ASM002"
+        },
+        {
+            "type": "text",
+            "data": "Assembly Sheet - Displays cabinet specifications. \u00a0Followed by a cut list for that cabinet sorted by length then by width.'"
+        },
+        {
+            "type": "text",
+            "data": "Banding Cut List"
+        },
+        {
+            "type": "text",
+            "data": "Banding Cut List - CLB001"
+        },
+        {
+            "type": "text",
+            "data": "Banding Cut List"
+        },
+        {
+            "type": "text",
+            "data": "Banding Cut List - CLB002"
+        },
+        {
+            "type": "text",
+            "data": "Banding Cut List - Displays part operations."
+        },
+        {
+            "type": "text",
+            "data": "Banding Cut List - CLB003"
+        },
+        {
+            "type": "text",
+            "data": "Banding Cut List - Displays part operations. \u00a0Includes banding code."
+        },
+        {
+            "type": "text",
+            "data": "Banding Cut List - CLB004"
+        },
+        {
+            "type": "text",
+            "data": "Banding Cut List - Displays part operations. \u00a0Includes banding code. Rips summary in feet/meters."
+        },
+        {
+            "type": "text",
+            "data": "Banding Cut List - CLB005"
+        },
+        {
+            "type": "text",
+            "data": "Banding Cut List - Displays part operations. \u00a0Parts are sorted by length then by width."
+        },
+        {
+            "type": "text",
+            "data": "Banding Cut List - CLB006"
+        },
+        {
+            "type": "text",
+            "data": "Banding Cut List - Displays part operations. \u00a0Prints multiple materials per page."
+        },
+        {
+            "type": "text",
+            "data": "Banding Cut List - CLB007"
+        },
+        {
+            "type": "text",
+            "data": "Banding Cut List - Displays part operations. \u00a0Prints multiple materials per page. Rips summary in feet/meters."
+        },
+        {
+            "type": "text",
+            "data": "Banding Cut List - CLB008"
+        },
+        {
+            "type": "text",
+            "data": "Banding Cut List - Displays part operations. Rips summary in feet/meters."
+        },
+        {
+            "type": "text",
+            "data": "Banding Cut List - CLB009"
+        },
+        {
+            "type": "text",
+            "data": "Banding Cut List - Parts are sorted by length then by width."
+        },
+        {
+            "type": "text",
+            "data": "Banding Cut List - CLB010"
+        },
+        {
+            "type": "text",
+            "data": "Banding Cut List - Rips summary in feet/meters."
+        },
+        {
+            "type": "text",
+            "data": "Board Stock Cut List"
+        },
+        {
+            "type": "text",
+            "data": "Board Stock Cut List - CLBS01"
+        },
+        {
+            "type": "text",
+            "data": "Board Stock Cut List"
+        },
+        {
+            "type": "text",
+            "data": "Board Stock Cut List - CLBS02"
+        },
+        {
+            "type": "text",
+            "data": "Board Stock Cut List - Displays part operations."
+        },
+        {
+            "type": "text",
+            "data": "Board Stock Cut List - CLBS03"
+        },
+        {
+            "type": "text",
+            "data": "Board Stock Cut List - Displays part operations. \u00a0Includes banding code."
+        },
+        {
+            "type": "text",
+            "data": "Board Stock Cut List - CLBS04"
+        },
+        {
+            "type": "text",
+            "data": "Board Stock Cut List - Displays part operations. \u00a0Includes banding code. Rips summary in feet/meters."
+        },
+        {
+            "type": "text",
+            "data": "Board Stock Cut List - CLBS05"
+        },
+        {
+            "type": "text",
+            "data": "Board Stock Cut List - Displays part operations. \u00a0Parts are sorted by length then by width."
+        },
+        {
+            "type": "text",
+            "data": "Board Stock Cut List - CLBS06"
+        },
+        {
+            "type": "text",
+            "data": "Board Stock Cut List - Displays part operations. \u00a0Prints multiple materials per page."
+        },
+        {
+            "type": "text",
+            "data": "Board Stock Cut List - CLBS07"
+        },
+        {
+            "type": "text",
+            "data": "Board Stock Cut List - Displays part operations. \u00a0Prints multiple materials per page. Rips summary in feet/meters."
+        },
+        {
+            "type": "text",
+            "data": "Board Stock Cut List - CLBS08"
+        },
+        {
+            "type": "text",
+            "data": "Board Stock Cut List - Displays part operations. Rips summary in feet/meters."
+        },
+        {
+            "type": "text",
+            "data": "Board Stock Cut List - CLBS09"
+        },
+        {
+            "type": "text",
+            "data": "Board Stock Cut List - Parts are sorted by length then by width."
+        },
+        {
+            "type": "text",
+            "data": "Board Stock Cut List - CLBS10"
+        },
+        {
+            "type": "text",
+            "data": "Board Stock Cut List - Rips summary in feet/meters."
+        },
+        {
+            "type": "text",
+            "data": "Cabinet Labels for Avery Label Style 5161"
+        },
+        {
+            "type": "text",
+            "data": "Cabinet Labels - CLAB01"
+        },
+        {
+            "type": "text",
+            "data": "Cabinet Labels for Avery Label Style 5161 - Displays cabinet dimensions or cabinet comments."
+        },
+        {
+            "type": "text",
+            "data": "Cabinet Labels - CLAB02"
+        },
+        {
+            "type": "text",
+            "data": "Cabinet Labels for Avery Label Style 5161 - Displays cabinet dimensions and cabinet comments. Displays room and customer names."
+        },
+        {
+            "type": "text",
+            "data": "Cabinet Labels - CLAB03"
+        },
+        {
+            "type": "text",
+            "data": "Cabinet Labels for Avery Label Style 5161 - Displays cabinet dimensions and cabinet comments."
+        },
+        {
+            "type": "text",
+            "data": "Cabinet Labels - CLAB04"
+        },
+        {
+            "type": "text",
+            "data": "Cabinet Labels for Avery Label Style 5161 - Displays cabinet dimensions or cabinet comments. Displays room and customer names."
+        },
+        {
+            "type": "text",
+            "data": "Cabinet Labels for Avery Label Style 4013"
+        },
+        {
+            "type": "text",
+            "data": "Cabinet Labels - CLAB05"
+        },
+        {
+            "type": "text",
+            "data": "Cabinet Labels for Avery Label Style 4013 - Displays cabinet dimensions or cabinet comments."
+        },
+        {
+            "type": "text",
+            "data": "Cabinet Labels - CLAB06"
+        },
+        {
+            "type": "text",
+            "data": "Cabinet Labels for Avery Label Style 4013 - Displays cabinet dimensions and cabinet comments. Displays room and customer names."
+        },
+        {
+            "type": "text",
+            "data": "Cabinet Labels - CLAB07"
+        },
+        {
+            "type": "text",
+            "data": "Cabinet Labels for Avery Label Style 4013 - Displays cabinet dimensions and cabinet comments."
+        },
+        {
+            "type": "text",
+            "data": "Cabinet Labels - CLAB08"
+        },
+        {
+            "type": "text",
+            "data": "Cabinet Labels for Avery Label Style 4013 - Displays cabinet dimensions or cabinet comments. Displays room and customer names."
+        },
+        {
+            "type": "text",
+            "data": "Cabinet List"
+        },
+        {
+            "type": "text",
+            "data": "Cabinet List - CAB001"
+        },
+        {
+            "type": "text",
+            "data": "Cabinet List - Unit Size, End Type & Comments"
+        },
+        {
+            "type": "text",
+            "data": "Cabinet List - CAB002"
+        },
+        {
+            "type": "text",
+            "data": "Cabinet List - Unit Size, End Type, Hinging, Price & Comments"
+        },
+        {
+            "type": "text",
+            "data": "Cabinet List - CAB003"
+        },
+        {
+            "type": "text",
+            "data": "Cabinet List - Unit Size, End Type, Price & Comments"
+        },
+        {
+            "type": "text",
+            "data": "Composite Materials"
+        },
+        {
+            "type": "text",
+            "data": "Composite Materials - COMP01"
+        },
+        {
+            "type": "text",
+            "data": "This is a list of the materials"
+        },
+        {
+            "type": "text",
+            "data": "Counter Top List"
+        },
+        {
+            "type": "text",
+            "data": "Counter Top List - TOPS01"
+        },
+        {
+            "type": "text",
+            "data": "Top List - Displays a list of all tops in the job along with it's size, amount of cutouts and any comments placed on the top"
+        },
+        {
+            "type": "text",
+            "data": "Door Check List"
+        },
+        {
+            "type": "text",
+            "data": "Door Check List - DCL001"
+        },
+        {
+            "type": "text",
+            "data": "Door Check List - List of doors sorted first by door style, then by height descending, then by width descending. \u00a0This list displays the overall door size followed by the parts associated with it."
+        },
+        {
+            "type": "text",
+            "data": "Door Check List - DCL002"
+        },
+        {
+            "type": "text",
+            "data": "Door Check List - List of doors sorted first by door style, then by type, then by height descending, then by width descending. \u00a0This list displays the overall door size followed by the parts associated with it."
+        },
+        {
+            "type": "text",
+            "data": "Door Check List - DCL003"
+        },
+        {
+            "type": "text",
+            "data": "Door Check List - List of doors sorted first by door style, then by type, then by width descending, then by height descending. \u00a0This list displays the overall door size followed by the parts associated with it."
+        },
+        {
+            "type": "text",
+            "data": "Door Check List - DCL004"
+        },
+        {
+            "type": "text",
+            "data": "Door Check List - List of doors sorted first by door style, then by width descending, then by height descending. \u00a0This list displays the overall door size followed by the parts associated with it."
+        },
+        {
+            "type": "text",
+            "data": "Door Cut List"
+        },
+        {
+            "type": "text",
+            "data": "Door Cut List - CLDO01"
+        },
+        {
+            "type": "text",
+            "data": "Door Cut List - Cut list includes panels, stiles & rails."
+        },
+        {
+            "type": "text",
+            "data": "Door Cut List - CLDO02"
+        },
+        {
+            "type": "text",
+            "data": "Door Cut List - Cut list includes panels, stiles & rails. \u00a0Parts are sorted by length then by width."
+        },
+        {
+            "type": "text",
+            "data": "Door Cut List - CLDO03"
+        },
+        {
+            "type": "text",
+            "data": "Door Cut List - Cut list includes panels, stiles & rails. Rips summary in feet/meters."
+        },
+        {
+            "type": "text",
+            "data": "Door Cut List - CLDO04"
+        },
+        {
+            "type": "text",
+            "data": "Door Cut List - Cut list includes panels, stiles & rails. Rips summary in feet/meters. \u00a0Show Buyout Parts"
+        },
+        {
+            "type": "text",
+            "data": "Door Cut List - CLDO05"
+        },
+        {
+            "type": "text",
+            "data": "Door Cut List - Displays part operations."
+        },
+        {
+            "type": "text",
+            "data": "Door Cut List - CLDO07"
+        },
+        {
+            "type": "text",
+            "data": "Door Cut List - Displays part operations. \u00a0Includes banding code."
+        },
+        {
+            "type": "text",
+            "data": "Door Cut List - CLDO08"
+        },
+        {
+            "type": "text",
+            "data": "Door Cut List - Displays part operations. \u00a0Parts are sorted by length then by width."
+        },
+        {
+            "type": "text",
+            "data": "Door Cut List - CLDO09"
+        },
+        {
+            "type": "text",
+            "data": "Door Cut List - Displays part operations. \u00a0Prints multiple materials per page."
+        },
+        {
+            "type": "text",
+            "data": "Door Cut List - CLDO10"
+        },
+        {
+            "type": "text",
+            "data": "Door Cut List - Displays part operations. \u00a0Prints multiple materials per page. Rips summary in feet/meters."
+        },
+        {
+            "type": "text",
+            "data": "Door Cut List - CLDO11"
+        },
+        {
+            "type": "text",
+            "data": "Door Cut List - Displays part operations. Rips summary in feet/meters."
+        },
+        {
+            "type": "text",
+            "data": "Door Cut List - CLDO12"
+        },
+        {
+            "type": "text",
+            "data": "Door Cut List - Displays part operations. \u00a0Includes banding code. Rips summary in feet/meters."
+        },
+        {
+            "type": "text",
+            "data": "Door List"
+        },
+        {
+            "type": "text",
+            "data": "Door List - DL0001"
+        },
+        {
+            "type": "text",
+            "data": "Door List - A list of door sizes. \u00a0Sorted by door style, then by door type, then by height descending, then by width descending. Separate door areas and totals by type."
+        },
+        {
+            "type": "text",
+            "data": "Door List - DL0002"
+        },
+        {
+            "type": "text",
+            "data": "Door List - A list of door sizes. \u00a0Sorted by door style, then by door type, then by width descending, then by height descending."
+        },
+        {
+            "type": "text",
+            "data": "Door List - DL0003"
+        },
+        {
+            "type": "text",
+            "data": "Door List - A list of door sizes. \u00a0Sorted by door style, then by door type, then by width descending, then by height descending. Separate door areas and totals by type."
+        },
+        {
+            "type": "text",
+            "data": "Door List - DL0004"
+        },
+        {
+            "type": "text",
+            "data": "Door List - A list of door sizes. \u00a0Sorted by door style, then by height descending, then by width descending."
+        },
+        {
+            "type": "text",
+            "data": "Door List - DL0005"
+        },
+        {
+            "type": "text",
+            "data": "Door List - A list of door sizes. \u00a0Sorted by door style, then by height descending, then by width descending. \u00a0Show Hinges"
+        },
+        {
+            "type": "text",
+            "data": "Door List - DL0006"
+        },
+        {
+            "type": "text",
+            "data": "Door List - A list of door sizes. \u00a0Sorted by door style, then by width descending, then by height descending."
+        },
+        {
+            "type": "text",
+            "data": "Door List with Profiles"
+        },
+        {
+            "type": "text",
+            "data": "Door List - DLP001"
+        },
+        {
+            "type": "text",
+            "data": "Door List With Profiles - Displays profile information for the door followed by a list of door sizes. \u00a0Sorted by door style, then by door type, then by height descending, then by width descending."
+        },
+        {
+            "type": "text",
+            "data": "Door List - DLP002"
+        },
+        {
+            "type": "text",
+            "data": "Door List With Profiles - Displays profile information for the door followed by a list of door sizes. \u00a0Sorted by door style, then by door type, then by height descending, then by width descending. Separate door areas and totals by type."
+        },
+        {
+            "type": "text",
+            "data": "Door List - DLP003"
+        },
+        {
+            "type": "text",
+            "data": "Door List With Profiles - Displays profile information for the door followed by a list of door sizes. \u00a0Sorted by door style, then by door type, then by width descending, then by height descending."
+        },
+        {
+            "type": "text",
+            "data": "Door List - DLP004"
+        },
+        {
+            "type": "text",
+            "data": "Door List With Profiles - Displays profile information for the door followed by a list of door sizes. \u00a0Sorted by door style, then by door type. Separate door areas and totals by type."
+        },
+        {
+            "type": "text",
+            "data": "Door List - DLP005"
+        },
+        {
+            "type": "text",
+            "data": "Door List With Profiles - Displays profile information for the door followed by a list of door sizes. \u00a0Sorted by door style, then by height descending, then by width descending."
+        },
+        {
+            "type": "text",
+            "data": "Door List - DLP007"
+        },
+        {
+            "type": "text",
+            "data": "Door List With Profiles - Displays profile information for the door followed by a list of door sizes. \u00a0Sorted by door style, then by width descending, then by height descending."
+        },
+        {
+            "type": "text",
+            "data": "Door List - DLP008"
+        },
+        {
+            "type": "text",
+            "data": "Door List With Profiles - List of doors sorted first by door style, then by type, then by height descending, then by width descending. \u00a0This list displays the overall door size followed by the parts associated with it and all notes for each door"
+        },
+        {
+            "type": "text",
+            "data": "Door List - DLP009"
+        },
+        {
+            "type": "text",
+            "data": "Door List With Profiles - List of doors sorted first by door style, then by type, then by width descending, then by height descending. \u00a0This list displays the overall door size followed by the parts associated with it and all notes for each door"
+        },
+        {
+            "type": "text",
+            "data": "Door List with Notes"
+        },
+        {
+            "type": "text",
+            "data": "Door List w/Notes - DLN001"
+        },
+        {
+            "type": "text",
+            "data": "Door List w/Notes - A list of door sizes. \u00a0Sorted by door style, then by door type, then by width descending, then by height descending. Separate door areas and totals by type."
+        },
+        {
+            "type": "text",
+            "data": "Door List w/Notes - DLN002"
+        },
+        {
+            "type": "text",
+            "data": "Door List w/Notes - A list of door sizes. Sorted by door style, then by door type, then by width descending, then by height descending."
+        },
+        {
+            "type": "text",
+            "data": "Door List with Opening Locations"
+        },
+        {
+            "type": "text",
+            "data": "Door List w/Opening Locations - DLLOC1"
+        },
+        {
+            "type": "text",
+            "data": "Door list w/Opening Locations - this report lists the doors, along with their location on the cabinet and width x height , grouped by Cabinet, then by type, then by Width, then by Height"
+        },
+        {
+            "type": "text",
+            "data": "Door Panel Cut List"
+        },
+        {
+            "type": "text",
+            "data": "Door Panel Cut List - CLDP01"
+        },
+        {
+            "type": "text",
+            "data": "Door Panel Cut List"
+        },
+        {
+            "type": "text",
+            "data": "Door Panel Cut List - CLDP02"
+        },
+        {
+            "type": "text",
+            "data": "Door Panel Cut List - Displays part operations."
+        },
+        {
+            "type": "text",
+            "data": "Door Panel Cut List - CLDP03"
+        },
+        {
+            "type": "text",
+            "data": "Door Panel Cut List - Displays part operations. \u00a0Includes banding code."
+        },
+        {
+            "type": "text",
+            "data": "Door Panel Cut List - CLDP04"
+        },
+        {
+            "type": "text",
+            "data": "Door Panel Cut List - Displays part operations. \u00a0Includes banding code. Rips summary in feet/meters."
+        },
+        {
+            "type": "text",
+            "data": "Door Panel Cut List - CLDP05"
+        },
+        {
+            "type": "text",
+            "data": "Door Panel Cut List - Displays part operations. \u00a0Parts are sorted by length then by width."
+        },
+        {
+            "type": "text",
+            "data": "Door Panel Cut List - CLDP06"
+        },
+        {
+            "type": "text",
+            "data": "Door Panel Cut List - Displays part operations. \u00a0Prints multiple materials per page."
+        },
+        {
+            "type": "text",
+            "data": "Door Panel Cut List - CLDP07"
+        },
+        {
+            "type": "text",
+            "data": "Door Panel Cut List - Displays part operations. \u00a0Prints multiple materials per page. Rips summary in feet/meters."
+        },
+        {
+            "type": "text",
+            "data": "Door Panel Cut List - CLDP08"
+        },
+        {
+            "type": "text",
+            "data": "Door Panel Cut List - Displays part operations. Rips summary in feet/meters."
+        },
+        {
+            "type": "text",
+            "data": "Door Panel Cut List - CLDP09"
+        },
+        {
+            "type": "text",
+            "data": "Door Panel Cut List - Rips summary in feet/meters."
+        },
+        {
+            "type": "text",
+            "data": "Door Panel Cut List - CLDP10"
+        },
+        {
+            "type": "text",
+            "data": "Door Panel Cut List - Rips summary in feet/meters. \u00a0Show Buyout Parts"
+        },
+        {
+            "type": "text",
+            "data": "Door Panel Cut List - CLDP11"
+        },
+        {
+            "type": "text",
+            "data": "Door Panel Cut List - Displays part operations. \u00a0Includes banding code. \u00a0Includes Composite Material sub materials"
+        },
+        {
+            "type": "text",
+            "data": "Door Stile & Rail Cut List"
+        },
+        {
+            "type": "text",
+            "data": "Door Stile & Rail Cut List - CLDS01"
+        },
+        {
+            "type": "text",
+            "data": "Door Stile & Rail Cut List"
+        },
+        {
+            "type": "text",
+            "data": "Door Stile & Rail Cut List - CLDS02"
+        },
+        {
+            "type": "text",
+            "data": "Door Stile & Rail Cut List - Displays part operations."
+        },
+        {
+            "type": "text",
+            "data": "Door Stile & Rail Cut List - CLDS03"
+        },
+        {
+            "type": "text",
+            "data": "Door Stile & Rail Cut List - Displays part operations. \u00a0Includes banding code."
+        },
+        {
+            "type": "text",
+            "data": "Door Stile & Rail Cut List - CLDS04"
+        },
+        {
+            "type": "text",
+            "data": "Door Stile & Rail Cut List - Displays part operations. \u00a0Parts are sorted by length then by width."
+        },
+        {
+            "type": "text",
+            "data": "Door Stile & Rail Cut List - CLDS05"
+        },
+        {
+            "type": "text",
+            "data": "Door Stile & Rail Cut List - Displays part operations. \u00a0Prints multiple materials per page."
+        },
+        {
+            "type": "text",
+            "data": "Door Stile & Rail Cut List - CLDS06"
+        },
+        {
+            "type": "text",
+            "data": "Door Stile & Rail Cut List - Displays part operations. \u00a0Prints multiple materials per page. Rips summary in feet/meters."
+        },
+        {
+            "type": "text",
+            "data": "Door Stile & Rail Cut List - CLDS07"
+        },
+        {
+            "type": "text",
+            "data": "Door Stile & Rail Cut List - Displays part operations. Rips summary in feet/meters."
+        },
+        {
+            "type": "text",
+            "data": "Door Stile & Rail Cut List - CLDS08"
+        },
+        {
+            "type": "text",
+            "data": "Door Stile & Rail Cut List - Parts are sorted by length then by width."
+        },
+        {
+            "type": "text",
+            "data": "Door Stile & Rail Cut List - CLDS09"
+        },
+        {
+            "type": "text",
+            "data": "Door Stile & Rail Cut List - Rips summary in feet/meters."
+        },
+        {
+            "type": "text",
+            "data": "Door Stile & Rail Cut List - CLDS10"
+        },
+        {
+            "type": "text",
+            "data": "Door Stile & Rail Cut List - Rips summary in feet/meters. \u00a0Show Buyout Parts"
+        },
+        {
+            "type": "text",
+            "data": "Door Styles"
+        },
+        {
+            "type": "text",
+            "data": "Door Styles - CATDRS"
+        },
+        {
+            "type": "text",
+            "data": "Door Style Report"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Check List"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Check List - DWCH01"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Check List - List of drawers sorted first by drawer type then by cabinet. \u00a0This list shows the drawer then the parts associated with it."
+        },
+        {
+            "type": "text",
+            "data": "Drawer Check List - DWCH02"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Check List - List of drawers sorted first by drawer type then by cabinet. \u00a0This list shows the drawer then the parts associated with it. \u00a0Parts are sorted by length then by width."
+        },
+        {
+            "type": "text",
+            "data": "Drawer Cut List"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Cut List - CLDR01"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Cut List"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Cut List - CLDR02"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Cut List - Displays part operations."
+        },
+        {
+            "type": "text",
+            "data": "Drawer Cut List - CLDR03"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Cut List - Displays part operations. \u00a0Includes banding code."
+        },
+        {
+            "type": "text",
+            "data": "Drawer Cut List - CLDR04"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Cut List - Displays part operations. \u00a0Includes banding code. Rips summary in feet/meters."
+        },
+        {
+            "type": "text",
+            "data": "Drawer Cut List - CLDR05"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Cut List - Displays part operations. \u00a0Parts are sorted by length then by width."
+        },
+        {
+            "type": "text",
+            "data": "Drawer Cut List - CLDR06"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Cut List - Displays part operations. \u00a0Prints multiple materials per page."
+        },
+        {
+            "type": "text",
+            "data": "Drawer Cut List - CLDR07"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Cut List - Displays part operations. \u00a0Prints multiple materials per page. Rips summary in feet/meters."
+        },
+        {
+            "type": "text",
+            "data": "Drawer Cut List - CLDR08"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Cut List - Displays part operations. Rips summary in feet/meters."
+        },
+        {
+            "type": "text",
+            "data": "Drawer Cut List - CLDR09"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Cut List - Parts are sorted by length then by width."
+        },
+        {
+            "type": "text",
+            "data": "Drawer Cut List - CLDR10"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Cut List - Rips summary in feet/meters."
+        },
+        {
+            "type": "text",
+            "data": "Drawer Cut List - CLDR11"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Cut List - Displays part operations. \u00a0Includes banding code includes composite material's sub-materials"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Front & False Front Check List"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Front & False Front Check List - DCL007"
+        },
+        {
+            "type": "text",
+            "data": "Drawer & False Front Check List - List of fronts sorted by style, then by height descending, then by width descending. \u00a0List displays the overall front size followed by the parts associated with it."
+        },
+        {
+            "type": "text",
+            "data": "Drawer Front & False Front Check List - DCL008"
+        },
+        {
+            "type": "text",
+            "data": "Drawer & False Front Check List - List of fronts sorted by style, then by width descending, then by height descending. \u00a0List displays the overall front size followed by the parts associated with it."
+        },
+        {
+            "type": "text",
+            "data": "Drawer Front & False Front List"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Front & False Front List - DLFR01"
+        },
+        {
+            "type": "text",
+            "data": "Drawer & False Front List - A list of drawer font and false front sizes. \u00a0Sorted by drawer front and false front style, then by front type, then by height descending, then by width descending. Includes front areas and totals by type."
+        },
+        {
+            "type": "text",
+            "data": "Drawer Front & False Front List - DLFR02"
+        },
+        {
+            "type": "text",
+            "data": "Drawer & False Front List - A list of drawer font and false front sizes. \u00a0Sorted by drawer front and false front style, then by front type, then by width descending, then by height descending. Includes front areas and totals by type."
+        },
+        {
+            "type": "text",
+            "data": "Drawer Front & False Front List - DLFR03"
+        },
+        {
+            "type": "text",
+            "data": "Drawer & False Front List - A list of drawer font and false front sizes. \u00a0Sorted by drawer front and false front style, then by height descending, then by width descending."
+        },
+        {
+            "type": "text",
+            "data": "Drawer Front & False Front List - DLFR04"
+        },
+        {
+            "type": "text",
+            "data": "Drawer & False Front List - A list of drawer font and false front sizes. \u00a0Sorted by drawer front and false front style, then by width descending, then by height descending."
+        },
+        {
+            "type": "text",
+            "data": "Drawer Front & False Front List with Profiles"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Front & False Front List - DLFRP1"
+        },
+        {
+            "type": "text",
+            "data": "Drawer & False Front List With Profiles - Displays profile information followed by a list of drawer front and false front sizes. \u00a0Sorted by style, then by height descending, then by width descending."
+        },
+        {
+            "type": "text",
+            "data": "Drawer Front & False Front List - DLFRP2"
+        },
+        {
+            "type": "text",
+            "data": "Drawer & False Front List With Profiles - Displays profile information followed by a list of drawer front and false front sizes. \u00a0Sorted by style, then by type, then by height descending, then by width descending. Includes front areas and totals by type."
+        },
+        {
+            "type": "text",
+            "data": "Drawer Front & False Front List - DLFRP3"
+        },
+        {
+            "type": "text",
+            "data": "Drawer & False Front List With Profiles - Displays profile information for the drawer front and false front followed by a list of drawer front and false front sizes. \u00a0Sorted by front style, then by front type. Includes front areas and totals by type."
+        },
+        {
+            "type": "text",
+            "data": "Drawer Front & False Front List - DLFRP4"
+        },
+        {
+            "type": "text",
+            "data": "Drawer & False Front List With Profiles - Displays profile information for the drawer front and false front followed by a list of drawer front and false front sizes. \u00a0Sorted by front style, then by width descending, then by height descending."
+        },
+        {
+            "type": "text",
+            "data": "Drawer Front & False Front List with Notes"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Front & False Front List w/Notes - DLFRN1"
+        },
+        {
+            "type": "text",
+            "data": "Drawer & False Front List w/Notes - A list of drawer font and false front sizes. \u00a0Sorted by drawer front and false front style, then by front type, then by width descending, then by height descending. Includes front areas and totals by type."
+        },
+        {
+            "type": "text",
+            "data": "Drawer Guide Mounting Locations"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Guide Mounting Locations - DGL001"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Guide Mounting Locations"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Guide Mounting Locations - DGL002"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Guide Mounting Locations - Drawer lip measurement always in millimeters."
+        },
+        {
+            "type": "text",
+            "data": "Drawer List"
+        },
+        {
+            "type": "text",
+            "data": "Drawer List - DRL001"
+        },
+        {
+            "type": "text",
+            "data": "Drawer List - Displays the overall drawer box sizes, sorted by drawer type then by cabinet number."
+        },
+        {
+            "type": "text",
+            "data": "Drawer List - DRL002"
+        },
+        {
+            "type": "text",
+            "data": "Drawer List - Displays the overall drawer box sizes, sorted by drawer type then by depth ascending, height ascending then width ascending."
+        },
+        {
+            "type": "text",
+            "data": "Drawer List - DRL003"
+        },
+        {
+            "type": "text",
+            "data": "Drawer List - Displays the overall drawer box sizes, sorted by drawer type then by depth ascending, width ascending then height ascending."
+        },
+        {
+            "type": "text",
+            "data": "Drawer List - DRL004"
+        },
+        {
+            "type": "text",
+            "data": "Drawer List - Displays the overall drawer box sizes, sorted by drawer type then by depth descending, height descending then width descending."
+        },
+        {
+            "type": "text",
+            "data": "Drawer List - DRL005"
+        },
+        {
+            "type": "text",
+            "data": "Drawer List - Displays the overall drawer box sizes, sorted by drawer type then by depth descending, width descending then height descending."
+        },
+        {
+            "type": "text",
+            "data": "Drawer List - DRL006"
+        },
+        {
+            "type": "text",
+            "data": "Drawer List - Displays the overall drawer box sizes, sorted by drawer type then by height ascending, depth ascending then width ascending."
+        },
+        {
+            "type": "text",
+            "data": "Drawer List - DRL007"
+        },
+        {
+            "type": "text",
+            "data": "Drawer List - Displays the overall drawer box sizes, sorted by drawer type then by height ascending, width ascending then depth ascending."
+        },
+        {
+            "type": "text",
+            "data": "Drawer List - DRL008"
+        },
+        {
+            "type": "text",
+            "data": "Drawer List - Displays the overall drawer box sizes, sorted by drawer type then by height descending, depth descending then width descending."
+        },
+        {
+            "type": "text",
+            "data": "Drawer List - DRL009"
+        },
+        {
+            "type": "text",
+            "data": "Drawer List - Displays the overall drawer box sizes, sorted by drawer type then by height descending, width descending then depth descending."
+        },
+        {
+            "type": "text",
+            "data": "Drawer List - DRL010"
+        },
+        {
+            "type": "text",
+            "data": "Drawer List - Displays the overall drawer box sizes, sorted by drawer type then by width ascending, depth ascending then height ascending."
+        },
+        {
+            "type": "text",
+            "data": "Drawer List - DRL011"
+        },
+        {
+            "type": "text",
+            "data": "Drawer List - Displays the overall drawer box sizes, sorted by drawer type then by width ascending, height ascending then depth ascending."
+        },
+        {
+            "type": "text",
+            "data": "Drawer List - DRL012"
+        },
+        {
+            "type": "text",
+            "data": "Drawer List - Displays the overall drawer box sizes, sorted by drawer type then by width descending, depth descending then height descending."
+        },
+        {
+            "type": "text",
+            "data": "Drawer List - DRL013"
+        },
+        {
+            "type": "text",
+            "data": "Drawer List - Displays the overall drawer box sizes, sorted by drawer type then by width descending, height descending then depth descending."
+        },
+        {
+            "type": "text",
+            "data": "Drawer / Roll Out List"
+        },
+        {
+            "type": "text",
+            "data": "Drawer/Rollout List - DWRO01"
+        },
+        {
+            "type": "text",
+            "data": "Drawer/Rollout List - presents a summarized list of all drawers and rollouts in a job. \u00a0The drawers and rollouts sections are grouped by Drawer/Rollout type (ascending), Width (ascending), Height (ascending) and finally Depth (ascending)"
+        },
+        {
+            "type": "text",
+            "data": "Face Frame Cut List"
+        },
+        {
+            "type": "text",
+            "data": "Face Frame Cut List - CLFF01"
+        },
+        {
+            "type": "text",
+            "data": "Face Frame Cut List"
+        },
+        {
+            "type": "text",
+            "data": "Face Frame Cut List - CLFF02"
+        },
+        {
+            "type": "text",
+            "data": "Face Frame Cut List - Displays part operations."
+        },
+        {
+            "type": "text",
+            "data": "Face Frame Cut List - CLFF03"
+        },
+        {
+            "type": "text",
+            "data": "Face Frame Cut List - Displays part operations. \u00a0Includes banding code."
+        },
+        {
+            "type": "text",
+            "data": "Face Frame Cut List - CLFF04"
+        },
+        {
+            "type": "text",
+            "data": "Face Frame Cut List - Displays part operations. \u00a0Includes banding code. Rips summary in feet/meters."
+        },
+        {
+            "type": "text",
+            "data": "Face Frame Cut List - CLFF05"
+        },
+        {
+            "type": "text",
+            "data": "Face Frame Cut List - Displays part operations. \u00a0Prints multiple materials per page."
+        },
+        {
+            "type": "text",
+            "data": "Face Frame Cut List - CLFF06"
+        },
+        {
+            "type": "text",
+            "data": "Face Frame Cut List - Displays part operations. \u00a0Prints multiple materials per page. Rips summary in feet/meters."
+        },
+        {
+            "type": "text",
+            "data": "Face Frame Cut List - CLFF07"
+        },
+        {
+            "type": "text",
+            "data": "Face Frame Cut List - Displays part operations. Rips summary in feet/meters."
+        },
+        {
+            "type": "text",
+            "data": "Face Frame Cut List - CLFF08"
+        },
+        {
+            "type": "text",
+            "data": "Face Frame Cut List - Parts are sorted by length in descending order. No rips summary."
+        },
+        {
+            "type": "text",
+            "data": "Face Frame Cut List - CLFF09"
+        },
+        {
+            "type": "text",
+            "data": "Face Frame Cut List - Rips summary in feet/meters."
+        },
+        {
+            "type": "text",
+            "data": "Hinge Mounting and Boring Locations"
+        },
+        {
+            "type": "text",
+            "data": "Hinge Mounting and Boring Locations - HNGL01"
+        },
+        {
+            "type": "text",
+            "data": "Hinge Mounting and Boring Locations"
+        },
+        {
+            "type": "text",
+            "data": "Intelli-Joint List"
+        },
+        {
+            "type": "text",
+            "data": "Intelli-Joint List - IJ0001"
+        },
+        {
+            "type": "text",
+            "data": "Intelli-Joint List - Displays all Intelli-Joints and their respective ID's."
+        },
+        {
+            "type": "text",
+            "data": "Laminate Cut List"
+        },
+        {
+            "type": "text",
+            "data": "Laminate Cut List - CLLA01"
+        },
+        {
+            "type": "text",
+            "data": "Laminate Cut List"
+        },
+        {
+            "type": "text",
+            "data": "Laminate Cut List - CLLA02"
+        },
+        {
+            "type": "text",
+            "data": "Laminate Cut List - Displays part operations."
+        },
+        {
+            "type": "text",
+            "data": "Laminate Cut List - CLLA03"
+        },
+        {
+            "type": "text",
+            "data": "Laminate Cut List - Displays part operations. \u00a0Includes banding code."
+        },
+        {
+            "type": "text",
+            "data": "Laminate Cut List - CLLA04"
+        },
+        {
+            "type": "text",
+            "data": "Laminate Cut List - Displays part operations. \u00a0Includes banding code. Rips summary in feet/meters."
+        },
+        {
+            "type": "text",
+            "data": "Laminate Cut List - CLLA05"
+        },
+        {
+            "type": "text",
+            "data": "Laminate Cut List - Displays part operations. \u00a0Parts are sorted by length then by width."
+        },
+        {
+            "type": "text",
+            "data": "Laminate Cut List - CLLA06"
+        },
+        {
+            "type": "text",
+            "data": "Laminate Cut List - Displays part operations. \u00a0Prints multiple materials per page."
+        },
+        {
+            "type": "text",
+            "data": "Laminate Cut List - CLLA07"
+        },
+        {
+            "type": "text",
+            "data": "Laminate Cut List - Displays part operations. \u00a0Prints multiple materials per page. Rips summary in feet/meters."
+        },
+        {
+            "type": "text",
+            "data": "Laminate Cut List - CLLA08"
+        },
+        {
+            "type": "text",
+            "data": "Laminate Cut List - Displays part operations. Rips summary in feet/meters."
+        },
+        {
+            "type": "text",
+            "data": "Laminate Cut List - CLLA09"
+        },
+        {
+            "type": "text",
+            "data": "Laminate Cut List - Parts are sorted by length then by width."
+        },
+        {
+            "type": "text",
+            "data": "Laminate Cut List - CLLA10"
+        },
+        {
+            "type": "text",
+            "data": "Laminate Cut List - Rips summary in feet/meters."
+        },
+        {
+            "type": "text",
+            "data": "Laminate Cut List - CLLA11"
+        },
+        {
+            "type": "text",
+            "data": "Laminate Cut List - Includes composite 'sub-materials'. \u00a0The parts made of 'sub-material' are marked as such in the report."
+        },
+        {
+            "type": "text",
+            "data": "Line Pricing"
+        },
+        {
+            "type": "text",
+            "data": "Line Pricing - CATLPR"
+        },
+        {
+            "type": "text",
+            "data": "Line Pricing Formulas"
+        },
+        {
+            "type": "text",
+            "data": "Material Catalog List"
+        },
+        {
+            "type": "text",
+            "data": "Material Catalog List - MCL001"
+        },
+        {
+            "type": "text",
+            "data": "Material Catalog List - Displays all custom materials in the Material Manager, including price and vendor information."
+        },
+        {
+            "type": "text",
+            "data": "Material Manager list - MCL002"
+        },
+        {
+            "type": "text",
+            "data": "Provides a list of all of the Materials in the Material Manager grouped by the category they are assigned to"
+        },
+        {
+            "type": "text",
+            "data": "Material Summary"
+        },
+        {
+            "type": "text",
+            "data": "Material Summary - MTOT01"
+        },
+        {
+            "type": "text",
+            "data": "Material Summary - A list of all material required for the job. \u00a0Sorted in alphabetical order. \u00a0Displays rip count."
+        },
+        {
+            "type": "text",
+            "data": "Material Summary (Optimized) - MTOT02"
+        },
+        {
+            "type": "text",
+            "data": "Material Summary (Optimized)- A list of all material required for the job using the built in report center optimizer. \u00a0Sorted in alphabetical order. \u00a0Displays rip count. See the  Option in the Bid Center  to see the restrictions."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Option in the Bid Center",
+                "uuid": "7e1302f3-f822-4514-8966-2dc56ceef32e",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Material Summary (Grouped) - MTOT03"
+        },
+        {
+            "type": "text",
+            "data": "Material Summary - A list of all material required for the job. \u00a0Grouped by Material Manager grouping, giving a cos sub-total for each group, sorted alphabetically"
+        },
+        {
+            "type": "text",
+            "data": "Material Summary (Grouped Optimized) - MTOT04"
+        },
+        {
+            "type": "text",
+            "data": "Material Summary (Optimized)- A list of all material required for the job using the built in report center optimizer. \u00a0Grouped by Material Manager grouping, giving a cost sub-total for each group, sorted alphabetically. See the  Option in the Bid Center  to see the restrictions."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Option in the Bid Center",
+                "uuid": "7e1302f3-f822-4514-8966-2dc56ceef32e",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Material Summary w/Kits - MTOT05"
+        },
+        {
+            "type": "text",
+            "data": "Material Summary - A list of all material required for the job. \u00a0Sorted in alphabetical order. \u00a0Also displays kit parts"
+        },
+        {
+            "type": "text",
+            "data": "Material Summary (Optimized) w/Kits - MTOT06"
+        },
+        {
+            "type": "text",
+            "data": "Material Summary (Optimized)- A list of all material required for the job using the built in report center optimizer. \u00a0Sorted in alphabetical order. \u00a0Lists the kit parts. See the  Option in the Bid Center  to see the restrictions."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Option in the Bid Center",
+                "uuid": "7e1302f3-f822-4514-8966-2dc56ceef32e",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Material Summary w/Kits (Grouped) - MTOT07"
+        },
+        {
+            "type": "text",
+            "data": "Material Summary - A list of all material required for the job. \u00a0Grouped by Material Manager grouping, giving a cos sub-total for each group, sorted alphabetically. \u00a0Displays kit parts"
+        },
+        {
+            "type": "text",
+            "data": "Material Summary w/Kits (Grouped Optimized) - MTOT08"
+        },
+        {
+            "type": "text",
+            "data": "Material Summary (Optimized)- A list of all material required for the job using the built in report center optimizer. \u00a0Grouped by Material Manager grouping, giving a cost sub-total for each group, sorted alphabetically. \u00a0Displays Kit parts. See the  Option in the Bid Center  to see the restrictions."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Option in the Bid Center",
+                "uuid": "7e1302f3-f822-4514-8966-2dc56ceef32e",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Material Vendor List"
+        },
+        {
+            "type": "text",
+            "data": "Material Vendor List - MLST01"
+        },
+        {
+            "type": "text",
+            "data": "Material Vendor List - Provides a list of all of the materials that have a vendor(s) applied to them. \u00a0Displays the material unit type, the material price, as well as the vendor name, \u00a0SKU, account number, cost and markup"
+        },
+        {
+            "type": "text",
+            "data": "Miscellaneous Material Cut List"
+        },
+        {
+            "type": "text",
+            "data": "Miscellaneous Material Cut List - CLMI01"
+        },
+        {
+            "type": "text",
+            "data": "Miscellaneous Material Cut List - This cut list includes all parts built from miscellaneous materials"
+        },
+        {
+            "type": "text",
+            "data": "Miscellaneous Material Cut List - CLMI02"
+        },
+        {
+            "type": "text",
+            "data": "Miscellaneous Material Cut List - This cut list includes all parts built from miscellaneous materials. \u00a0Displays part operations."
+        },
+        {
+            "type": "text",
+            "data": "Miscellaneous Material Cut List - CLMI03"
+        },
+        {
+            "type": "text",
+            "data": "Miscellaneous Material Cut List - This cut list includes all parts built from miscellaneous materials. \u00a0Displays part operations. \u00a0Includes banding code."
+        },
+        {
+            "type": "text",
+            "data": "Miscellaneous Material Cut List - CLMI04"
+        },
+        {
+            "type": "text",
+            "data": "Miscellaneous Material Cut List - This cut list includes all parts built from miscellaneous materials. \u00a0Displays part operations. \u00a0Includes banding code. Rips summary in feet/meters."
+        },
+        {
+            "type": "text",
+            "data": "Miscellaneous Material Cut List - CLMI05"
+        },
+        {
+            "type": "text",
+            "data": "Miscellaneous Material Cut List - This cut list includes all parts built from miscellaneous materials. \u00a0Displays part operations. \u00a0Parts are sorted by length then by width."
+        },
+        {
+            "type": "text",
+            "data": "Miscellaneous Material Cut List - CLMI06"
+        },
+        {
+            "type": "text",
+            "data": "Miscellaneous Material Cut List - This cut list includes all parts built from miscellaneous materials. \u00a0Displays part operations. \u00a0Prints multiple materials per page."
+        },
+        {
+            "type": "text",
+            "data": "Miscellaneous Material Cut List - CLMI07"
+        },
+        {
+            "type": "text",
+            "data": "Miscellaneous Material Cut List - This cut list includes all parts built from miscellaneous materials. \u00a0Displays part operations. \u00a0Prints multiple materials per page. Rips summary in feet/meters."
+        },
+        {
+            "type": "text",
+            "data": "Miscellaneous Material Cut List - CLMI08"
+        },
+        {
+            "type": "text",
+            "data": "Miscellaneous Material Cut List - This cut list includes all parts built from miscellaneous materials. \u00a0Displays part operations. Rips summary in feet/meters."
+        },
+        {
+            "type": "text",
+            "data": "Miscellaneous Material Cut List - CLMI09"
+        },
+        {
+            "type": "text",
+            "data": "Miscellaneous Material Cut List - This cut list includes all parts built from miscellaneous materials. \u00a0Parts are sorted by length then by width."
+        },
+        {
+            "type": "text",
+            "data": "Miscellaneous Material Cut List - CLMI10"
+        },
+        {
+            "type": "text",
+            "data": "Miscellaneous Material Cut List - This cut list includes all parts built from miscellaneous materials. Rips summary in feet/meters."
+        },
+        {
+            "type": "text",
+            "data": "Molding Report"
+        },
+        {
+            "type": "text",
+            "data": "Molding Report - MOLD01"
+        },
+        {
+            "type": "text",
+            "data": "Molding Report - This provides a list, sorted by room, of the lengths of all profiles in the job as well as a 'ordering list' after the molding list"
+        },
+        {
+            "type": "text",
+            "data": "Options"
+        },
+        {
+            "type": "text",
+            "data": "Options - CATOPT"
+        },
+        {
+            "type": "text",
+            "data": "Catalog Options"
+        },
+        {
+            "type": "text",
+            "data": "Panel Stock Cut List"
+        },
+        {
+            "type": "text",
+            "data": "Panel Stock Cut List - CLPS01"
+        },
+        {
+            "type": "text",
+            "data": "Panel Stock Cut List"
+        },
+        {
+            "type": "text",
+            "data": "Panel Stock Cut List - CLPS02"
+        },
+        {
+            "type": "text",
+            "data": "Panel Stock Cut List - Displays part operations."
+        },
+        {
+            "type": "text",
+            "data": "Panel Stock Cut List - CLPS03"
+        },
+        {
+            "type": "text",
+            "data": "Panel Stock Cut List - Displays part operations. \u00a0Includes banding code."
+        },
+        {
+            "type": "text",
+            "data": "Panel Stock Cut List - CLPS04"
+        },
+        {
+            "type": "text",
+            "data": "Panel Stock Cut List - Displays part operations. \u00a0Includes banding code. Rips summary in feet/meters."
+        },
+        {
+            "type": "text",
+            "data": "Panel Stock Cut List - CLPS05"
+        },
+        {
+            "type": "text",
+            "data": "Panel Stock Cut List - Displays part operations. \u00a0Parts are sorted by length then by width."
+        },
+        {
+            "type": "text",
+            "data": "Panel Stock Cut List - CLPS06"
+        },
+        {
+            "type": "text",
+            "data": "Panel Stock Cut List - Displays part operations. \u00a0Parts are sorted by length then by width. \u00a0Prints multiple materials per page."
+        },
+        {
+            "type": "text",
+            "data": "Panel Stock Cut List - CLPS07"
+        },
+        {
+            "type": "text",
+            "data": "Panel Stock Cut List - Displays part operations. \u00a0Prints multiple materials per page."
+        },
+        {
+            "type": "text",
+            "data": "Panel Stock Cut List - CLPS08"
+        },
+        {
+            "type": "text",
+            "data": "Panel Stock Cut List - Displays part operations. \u00a0Prints multiple materials per page. Rips summary in feet/meters."
+        },
+        {
+            "type": "text",
+            "data": "Panel Stock Cut List - CLPS09"
+        },
+        {
+            "type": "text",
+            "data": "Panel Stock Cut List - Displays part operations. Rips summary in feet/meters."
+        },
+        {
+            "type": "text",
+            "data": "Panel Stock Cut List - CLPS10"
+        },
+        {
+            "type": "text",
+            "data": "Panel Stock Cut List - Parts are sorted by length then by width."
+        },
+        {
+            "type": "text",
+            "data": "Panel Stock Cut List - CLPS11"
+        },
+        {
+            "type": "text",
+            "data": "Panel Stock Cut List - Rips summary in feet/meters."
+        },
+        {
+            "type": "text",
+            "data": "Panel Stock Cut List - CLPS12"
+        },
+        {
+            "type": "text",
+            "data": "Panel Stock Cut List - Displays part operations. \u00a0Includes banding code and composite sub-materials"
+        },
+        {
+            "type": "text",
+            "data": "Panel Stock Cut List - CLPS13"
+        },
+        {
+            "type": "text",
+            "data": "Panel Stock Cut List - Includes composite 'sub-materials'. \u00a0The parts made of 'sub-material' are marked as such in the report. \u00a0Any composite materials will have the materials it is made of listed below, in the order they should be placed in the composite"
+        },
+        {
+            "type": "text",
+            "data": "Roll Out Check List"
+        },
+        {
+            "type": "text",
+            "data": "Rollout Check List - CLIST1"
+        },
+        {
+            "type": "text",
+            "data": "Roll Out Check List - List of roll outs sorted first by roll out type then by cabinet. \u00a0This list shows the roll out then the parts associated with it."
+        },
+        {
+            "type": "text",
+            "data": "Roll Out Cut List"
+        },
+        {
+            "type": "text",
+            "data": "Roll Out Cut List - CLRO01"
+        },
+        {
+            "type": "text",
+            "data": "Roll Out Cut List"
+        },
+        {
+            "type": "text",
+            "data": "Roll Out Cut List - CLRO02"
+        },
+        {
+            "type": "text",
+            "data": "Roll Out Cut List - Displays part operations."
+        },
+        {
+            "type": "text",
+            "data": "Roll Out Cut List - CLRO03"
+        },
+        {
+            "type": "text",
+            "data": "Roll Out Cut List - Displays part operations. \u00a0Includes banding code."
+        },
+        {
+            "type": "text",
+            "data": "Roll Out Cut List - CLRO04"
+        },
+        {
+            "type": "text",
+            "data": "Roll Out Cut List - Displays part operations. \u00a0Includes banding code. Rips summary in feet/meters."
+        },
+        {
+            "type": "text",
+            "data": "Roll Out Cut List - CLRO05"
+        },
+        {
+            "type": "text",
+            "data": "Roll Out Cut List - Displays part operations. \u00a0Parts are sorted by length then by width."
+        },
+        {
+            "type": "text",
+            "data": "Roll Out Cut List - CLRO06"
+        },
+        {
+            "type": "text",
+            "data": "Roll Out Cut List - Displays part operations. \u00a0Prints multiple materials per page."
+        },
+        {
+            "type": "text",
+            "data": "Roll Out Cut List - CLRO07"
+        },
+        {
+            "type": "text",
+            "data": "Roll Out Cut List - Displays part operations. \u00a0Prints multiple materials per page. Rips summary in feet/meters."
+        },
+        {
+            "type": "text",
+            "data": "Roll Out Cut List - CLRO08"
+        },
+        {
+            "type": "text",
+            "data": "Roll Out Cut List - Displays part operations. Rips summary in feet/meters."
+        },
+        {
+            "type": "text",
+            "data": "Roll Out Cut List - CLRO09"
+        },
+        {
+            "type": "text",
+            "data": "Roll Out Cut List - Parts are sorted by length then by width."
+        },
+        {
+            "type": "text",
+            "data": "Roll Out Cut List - CLRO10"
+        },
+        {
+            "type": "text",
+            "data": "Roll Out Cut List - Rips summary in feet/meters."
+        },
+        {
+            "type": "text",
+            "data": "Roll Out Cut List - CLRO11"
+        },
+        {
+            "type": "text",
+            "data": "Roll Out Cut List - Displays part operations. \u00a0Includes banding code and composite sub-materials"
+        },
+        {
+            "type": "text",
+            "data": "Roll Out List"
+        },
+        {
+            "type": "text",
+            "data": "Rollout List - ROLL01"
+        },
+        {
+            "type": "text",
+            "data": "Roll Out List - Displays the overall roll out box sizes, sorted by roll out type then by depth ascending, height ascending then width ascending."
+        },
+        {
+            "type": "text",
+            "data": "Rollout List - ROLL02"
+        },
+        {
+            "type": "text",
+            "data": "Roll Out List - Displays the overall roll out box sizes, sorted by roll out type then by depth ascending, width ascending then height ascending."
+        },
+        {
+            "type": "text",
+            "data": "Rollout List - ROLL03"
+        },
+        {
+            "type": "text",
+            "data": "Roll Out List - Displays the overall roll out box sizes, sorted by roll out type then by depth descending, height descending then width descending."
+        },
+        {
+            "type": "text",
+            "data": "Rollout List - ROLL04"
+        },
+        {
+            "type": "text",
+            "data": "Roll Out List - Displays the overall roll out box sizes, sorted by roll out type then by depth descending, width descending then height descending."
+        },
+        {
+            "type": "text",
+            "data": "Rollout List - ROLL05"
+        },
+        {
+            "type": "text",
+            "data": "Roll Out List - Displays the overall roll out box sizes, sorted by roll out type then by height ascending, depth ascending then width ascending."
+        },
+        {
+            "type": "text",
+            "data": "Rollout List - ROLL06"
+        },
+        {
+            "type": "text",
+            "data": "Roll Out List - Displays the overall roll out box sizes, sorted by roll out type then by height ascending, width ascending then depth ascending."
+        },
+        {
+            "type": "text",
+            "data": "Rollout List - ROLL07"
+        },
+        {
+            "type": "text",
+            "data": "Roll Out List - Displays the overall roll out box sizes, sorted by roll out type then by height descending, depth descending then width descending."
+        },
+        {
+            "type": "text",
+            "data": "Rollout List - ROLL08"
+        },
+        {
+            "type": "text",
+            "data": "Roll Out List - Displays the overall roll out box sizes, sorted by roll out type then by height descending, width descending then depth descending."
+        },
+        {
+            "type": "text",
+            "data": "Rollout List - ROLL09"
+        },
+        {
+            "type": "text",
+            "data": "Roll Out List - Displays the overall roll out box sizes, sorted by roll out type then by width ascending, depth ascending then height ascending."
+        },
+        {
+            "type": "text",
+            "data": "Rollout List - ROLL10"
+        },
+        {
+            "type": "text",
+            "data": "Roll Out List - Displays the overall roll out box sizes, sorted by roll out type then by width ascending, height ascending then depth ascending."
+        },
+        {
+            "type": "text",
+            "data": "Rollout List - ROLL11"
+        },
+        {
+            "type": "text",
+            "data": "Roll Out List - Displays the overall roll out box sizes, sorted by roll out type then by width descending, depth descending then height descending."
+        },
+        {
+            "type": "text",
+            "data": "Rollout List - ROLL12"
+        },
+        {
+            "type": "text",
+            "data": "Roll Out List - Displays the overall roll out box sizes, sorted by roll out type then by width descending, height descending then depth descending."
+        },
+        {
+            "type": "text",
+            "data": "Room List"
+        },
+        {
+            "type": "text",
+            "data": "Room List - ROOM01"
+        },
+        {
+            "type": "text",
+            "data": "Room List - Provides a list of all of the rooms in the job, as well as the range of cabinets contained within."
+        },
+        {
+            "type": "text",
+            "data": "Simple Cut List"
+        },
+        {
+            "type": "text",
+            "data": "Simple Cut List - SIM001"
+        },
+        {
+            "type": "text",
+            "data": "Simple Cut List"
+        },
+        {
+            "type": "text",
+            "data": "Single & Pair Door Check List"
+        },
+        {
+            "type": "text",
+            "data": "Single & Pair Door Check List - DCL009"
+        },
+        {
+            "type": "text",
+            "data": "Single & Pair Door Check List - List of doors sorted first by style, then by height descending, then by width descending. \u00a0List displays the overall door size followed by the parts associated with it."
+        },
+        {
+            "type": "text",
+            "data": "Single & Pair Door Check List - DCL010"
+        },
+        {
+            "type": "text",
+            "data": "Single & Pair Door Check List - List of doors sorted first by style, then by width descending, then by height descending. \u00a0List displays the overall door size followed by the parts associated with it."
+        },
+        {
+            "type": "text",
+            "data": "Single & Pair Door List"
+        },
+        {
+            "type": "text",
+            "data": "Single & Pair Door List - DLSP01"
+        },
+        {
+            "type": "text",
+            "data": "Single & Pair Door List - A list of single and pair door sizes. \u00a0Sorted by door style, then by door type, then by height descending, then by width descending. Includes door areas and totals by type."
+        },
+        {
+            "type": "text",
+            "data": "Single & Pair Door List - DLSP02"
+        },
+        {
+            "type": "text",
+            "data": "Single & Pair Door List - A list of single and pair door sizes. \u00a0Sorted by door style, then by door type, then by width descending, then by height descending. Includes door areas and totals by type."
+        },
+        {
+            "type": "text",
+            "data": "Single & Pair Door List - DLSP03"
+        },
+        {
+            "type": "text",
+            "data": "Single & Pair Door List - A list of single and pair door sizes. \u00a0Sorted by door style, then by height descending, then by width descending."
+        },
+        {
+            "type": "text",
+            "data": "Single & Pair Door List - DLSP04"
+        },
+        {
+            "type": "text",
+            "data": "Single & Pair Door List - A list of single and pair door sizes. \u00a0Sorted by door style, then by width descending, then by height descending."
+        },
+        {
+            "type": "text",
+            "data": "Single & Pair Door List with Profiles"
+        },
+        {
+            "type": "text",
+            "data": "Single & Pair Door List - DLSPP1"
+        },
+        {
+            "type": "text",
+            "data": "Single & Pair Door List With Profiles - Displays profile information followed by a list of door sizes. \u00a0Sorted by style, then by height descending, then by width descending."
+        },
+        {
+            "type": "text",
+            "data": "Single & Pair Door List - DLSPP2"
+        },
+        {
+            "type": "text",
+            "data": "Single & Pair Door List With Profiles - Displays profile information followed by a list of door sizes. \u00a0Sorted by style, then by type, then by height descending, then by width descending. Includes door areas and totals by type."
+        },
+        {
+            "type": "text",
+            "data": "Single & Pair Door List - DLSPP3"
+        },
+        {
+            "type": "text",
+            "data": "Single & Pair Door List With Profiles - Displays profile information for the door followed by a list of door sizes. \u00a0Sorted by door style, then by door type. Includes door areas and totals by type."
+        },
+        {
+            "type": "text",
+            "data": "Single & Pair Door List - DLSPP4"
+        },
+        {
+            "type": "text",
+            "data": "Single & Pair Door List With Profiles - Displays profile information for the door followed by a list of door sizes. \u00a0Sorted by door style, then by width descending, then by height descending."
+        },
+        {
+            "type": "text",
+            "data": "Single & Pair Door List with Notes"
+        },
+        {
+            "type": "text",
+            "data": "Single & Pair Door List w/Notes - DLSPN1"
+        },
+        {
+            "type": "text",
+            "data": "Single & Pair Door List w/Notes - A list of single and pair door sizes. \u00a0Sorted by door style, then by door type, then by width descending, then by height descending. Includes door areas and totals by type."
+        },
+        {
+            "type": "text",
+            "data": "Standard Cut List"
+        },
+        {
+            "type": "text",
+            "data": "Standard Cut List - CLSC01"
+        },
+        {
+            "type": "text",
+            "data": "Standard Cut List"
+        },
+        {
+            "type": "text",
+            "data": "Standard Cut List - CLSC02"
+        },
+        {
+            "type": "text",
+            "data": "Standard Cut List - Displays part operations."
+        },
+        {
+            "type": "text",
+            "data": "Standard Cut List - CLSC03"
+        },
+        {
+            "type": "text",
+            "data": "Standard Cut List - Displays part operations. \u00a0Includes banding code."
+        },
+        {
+            "type": "text",
+            "data": "Standard Cut List - CLSC04"
+        },
+        {
+            "type": "text",
+            "data": "Standard Cut List - Displays part operations. \u00a0Includes banding code. Rips summary in feet/meters."
+        },
+        {
+            "type": "text",
+            "data": "Standard Cut List - CLSC05"
+        },
+        {
+            "type": "text",
+            "data": "Standard Cut List - Displays part operations. \u00a0Parts are sorted by length then by width."
+        },
+        {
+            "type": "text",
+            "data": "Standard Cut List - CLSC06"
+        },
+        {
+            "type": "text",
+            "data": "Standard Cut List - Displays part operations. \u00a0Prints multiple materials per page."
+        },
+        {
+            "type": "text",
+            "data": "Standard Cut List - CLSC07"
+        },
+        {
+            "type": "text",
+            "data": "Standard Cut List - Displays part operations. \u00a0Prints multiple materials per page. Rips summary in feet/meters."
+        },
+        {
+            "type": "text",
+            "data": "Standard Cut List - CLSC08"
+        },
+        {
+            "type": "text",
+            "data": "Standard Cut List - Displays part operations. Rips summary in feet/meters."
+        },
+        {
+            "type": "text",
+            "data": "Standard Cut List - CLSC09"
+        },
+        {
+            "type": "text",
+            "data": "Standard Cut List - Parts are sorted by length then by width."
+        },
+        {
+            "type": "text",
+            "data": "Standard Cut List - CLSC10"
+        },
+        {
+            "type": "text",
+            "data": "Standard Cut List - Rips summary in feet/meters."
+        },
+        {
+            "type": "text",
+            "data": "Top Cut List"
+        },
+        {
+            "type": "text",
+            "data": "Top Cut list - CLCT01"
+        },
+        {
+            "type": "text",
+            "data": "Top Cut list - Displays all Counter Top part lists"
+        },
+        {
+            "type": "text",
+            "data": "Top Cut list - CLCT02"
+        },
+        {
+            "type": "text",
+            "data": "Top Cut list - Displays all Counter Top part lists, includes composite material sub materials"
+        },
+        {
+            "type": "text",
+            "data": "User Created Standard List"
+        },
+        {
+            "type": "text",
+            "data": "User Created Standard List - UCS001"
+        },
+        {
+            "type": "text",
+            "data": "User Created Standard List - Displays all User Created Standards, including code."
+        },
+        {
+            "type": "text",
+            "data": "Variables"
+        },
+        {
+            "type": "text",
+            "data": "Variables - CATVAR"
+        },
+        {
+            "type": "text",
+            "data": "Catalog Variables"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\RLSBRC_Report_Name_Content.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

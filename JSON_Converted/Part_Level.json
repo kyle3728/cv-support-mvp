@@ -1,0 +1,22 @@
+{
+    "id": "a76dbff0-4f86-4f41-b6f7-1cc521edc8a9",
+    "title": "Part_Level",
+    "content": [
+        {
+            "type": "text",
+            "data": "Part Level"
+        },
+        {
+            "type": "text",
+            "data": "Click on the areas in the image below for more information"
+        },
+        {
+            "type": "image",
+            "data": "Part_Level.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Part_Level.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

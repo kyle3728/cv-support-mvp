@@ -1,0 +1,815 @@
+{
+    "id": "42c0d82a-22d2-4d44-bfa4-be7e28ca04be",
+    "title": "Add_Locks_to_My_Cabinets",
+    "content": [
+        {
+            "type": "text",
+            "data": "Add Locks to My Cabinets"
+        },
+        {
+            "type": "text",
+            "data": "I want to add locks to a Cabinet. How do I do this?"
+        },
+        {
+            "type": "text",
+            "data": "Creating a Model"
+        },
+        {
+            "type": "text",
+            "data": "In the following example we are going to create a Door Lock Model which includes its machining. To start select the Miscellaneous Group and create a new  Miscellaneous  Material named \"Cam Lock\"."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Miscellaneous",
+                "uuid": "d27a4d19-93c6-4589-bce8-858f34c17ed4",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image837.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Once in the Properties area with this new Material make sure to go to the Miscellaneous area and set the Model option to True."
+        },
+        {
+            "type": "image",
+            "data": "image846.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Select the Model option in the ribbonbar."
+        },
+        {
+            "type": "image",
+            "data": "image857.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "From the sidebar select the \"Assembly\" Object. This Object is simply a sample part to help you orient your Graphic. This object is displayed in brown on screen. For the following Tutorial go ahead and change the DZ (Thickness) of the Assembly Object to .75\"."
+        },
+        {
+            "type": "image",
+            "data": "image872.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "From the sidebar select the \"Primary Work Plane\" Object. This is the default Work Plane and also represents the insertion (Reference Point) of the Model. Think of this as the container for your Model, everything will be referenced from this Object. The center of the Work Plane object is the insertion (Reference Point). Change the X and Y of the \"Primary Work Plane\" to 4\". The true position of the \"Primary Work Plane' will be set when the Model is placed within a Job whether automatically, manually, or via UCS."
+        },
+        {
+            "type": "image",
+            "data": "image873.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Set the View Mode to Front."
+        },
+        {
+            "type": "text",
+            "data": "Set the View Mode to Front."
+        },
+        {
+            "type": "text",
+            "data": "Set the View Mode to Front."
+        },
+        {
+            "type": "image",
+            "data": "image917.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "With the \"Primary Work Plane\" object selected in the sidebar click the Add Work Plane   option in the ribbonbar. \n \n \n Set the \"Front WP\" X and Y to 0. \n \n \n Click the Add Hardware   option in the ribbonbar. \n \n \n Simply browse to the 3D Model you wish to import making sure to set the appropriate file type (highlighted below) then click Open."
+        },
+        {
+            "type": "text",
+            "data": "With the \"Primary Work Plane\" object selected in the sidebar click the Add Work Plane   option in the ribbonbar."
+        },
+        {
+            "type": "text",
+            "data": "With the \"Primary Work Plane\" object selected in the sidebar click the Add Work Plane   option in the ribbonbar."
+        },
+        {
+            "type": "image",
+            "data": "image938.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Set the \"Front WP\" X and Y to 0."
+        },
+        {
+            "type": "text",
+            "data": "Set the \"Front WP\" X and Y to 0."
+        },
+        {
+            "type": "text",
+            "data": "Click the Add Hardware   option in the ribbonbar."
+        },
+        {
+            "type": "text",
+            "data": "Click the Add Hardware   option in the ribbonbar."
+        },
+        {
+            "type": "image",
+            "data": "image946.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Simply browse to the 3D Model you wish to import making sure to set the appropriate file type (highlighted below) then click Open."
+        },
+        {
+            "type": "text",
+            "data": "Simply browse to the 3D Model you wish to import making sure to set the appropriate file type (highlighted below) then click Open."
+        },
+        {
+            "type": "text",
+            "data": "The model used in this tutorial are available in the installation extraction folderat: \n    C:\\Users\\Public\\Documents\\CABINET VISION\\Download\\CV_2023_n_nnnn_nnn_SetupDvdFiles\\Support\\Sample Models\\"
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image963.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The next screen offers several modification options you can perform prior to importing the 3D Model. Click OK to import your model."
+        },
+        {
+            "type": "text",
+            "data": "The next screen offers several modification options you can perform prior to importing the 3D Model. Click OK to import your model."
+        },
+        {
+            "type": "text",
+            "data": "The next screen offers several modification options you can perform prior to importing the 3D Model. Click OK to import your model."
+        },
+        {
+            "type": "image",
+            "data": "image971.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "See the topics on  Importing DXF  or  Importing SketchUp Models  for more information on the modification options on this screen as well as information about the formatting requirements of 3D DXF files."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Importing DXF",
+                "uuid": "23a719d6-57fa-4339-a38c-6354d69e40da",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Importing SketchUp Models",
+                "uuid": "53fd1282-1975-4f55-811e-8e3d62ec310f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Once imported I am going to change the following Properties for the Cam Lock: \n \n \n Name = LOCK \n \n \n Description = Cam Lock \n \n \n Finish = Chrome \n \n \n Finish Type = Metal - Matte \n \n \n X =  -15/32  (This will center my lock horizontally on the Plane) \n \n \n Y =  -15/32  (This will center the cylinder of my lock vertically on the Plane) \n \n \n Z =  -1 7/32  (This will place the lock face flush to the door face)"
+        },
+        {
+            "type": "text",
+            "data": "Once imported I am going to change the following Properties for the Cam Lock: \n \n \n Name = LOCK \n \n \n Description = Cam Lock \n \n \n Finish = Chrome \n \n \n Finish Type = Metal - Matte \n \n \n X =  -15/32  (This will center my lock horizontally on the Plane) \n \n \n Y =  -15/32  (This will center the cylinder of my lock vertically on the Plane) \n \n \n Z =  -1 7/32  (This will place the lock face flush to the door face)"
+        },
+        {
+            "type": "text",
+            "data": "Once imported I am going to change the following Properties for the Cam Lock:"
+        },
+        {
+            "type": "text",
+            "data": "Name = LOCK \n \n \n Description = Cam Lock \n \n \n Finish = Chrome \n \n \n Finish Type = Metal - Matte \n \n \n X =  -15/32  (This will center my lock horizontally on the Plane) \n \n \n Y =  -15/32  (This will center the cylinder of my lock vertically on the Plane) \n \n \n Z =  -1 7/32  (This will place the lock face flush to the door face)"
+        },
+        {
+            "type": "text",
+            "data": "Name = LOCK"
+        },
+        {
+            "type": "text",
+            "data": "Name = LOCK"
+        },
+        {
+            "type": "text",
+            "data": "Description = Cam Lock"
+        },
+        {
+            "type": "text",
+            "data": "Description = Cam Lock"
+        },
+        {
+            "type": "text",
+            "data": "Finish = Chrome"
+        },
+        {
+            "type": "text",
+            "data": "Finish = Chrome"
+        },
+        {
+            "type": "text",
+            "data": "Finish Type = Metal - Matte"
+        },
+        {
+            "type": "text",
+            "data": "Finish Type = Metal - Matte"
+        },
+        {
+            "type": "text",
+            "data": "X =  -15/32  (This will center my lock horizontally on the Plane)"
+        },
+        {
+            "type": "text",
+            "data": "X =  -15/32  (This will center my lock horizontally on the Plane)"
+        },
+        {
+            "type": "text",
+            "data": "Y =  -15/32  (This will center the cylinder of my lock vertically on the Plane)"
+        },
+        {
+            "type": "text",
+            "data": "Y =  -15/32  (This will center the cylinder of my lock vertically on the Plane)"
+        },
+        {
+            "type": "text",
+            "data": "Z =  -1 7/32  (This will place the lock face flush to the door face)"
+        },
+        {
+            "type": "text",
+            "data": "Z =  -1 7/32  (This will place the lock face flush to the door face)"
+        },
+        {
+            "type": "image",
+            "data": "image999.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Now we need to add some machining for the Lock. \n \n \n Right click on the \"Front WP\" Object and select Edit. \n \n \n Select Work Plane - Front from the sidebar to add Operations to it. \n \n \n Now we will add the hole for the cylinder."
+        },
+        {
+            "type": "text",
+            "data": "Now we need to add some machining for the Lock."
+        },
+        {
+            "type": "text",
+            "data": "Now we need to add some machining for the Lock."
+        },
+        {
+            "type": "text",
+            "data": "Right click on the \"Front WP\" Object and select Edit."
+        },
+        {
+            "type": "text",
+            "data": "Right click on the \"Front WP\" Object and select Edit."
+        },
+        {
+            "type": "text",
+            "data": "Select Work Plane - Front from the sidebar to add Operations to it."
+        },
+        {
+            "type": "text",
+            "data": "Select Work Plane - Front from the sidebar to add Operations to it."
+        },
+        {
+            "type": "text",
+            "data": "Now we will add the hole for the cylinder."
+        },
+        {
+            "type": "text",
+            "data": "Now we will add the hole for the cylinder."
+        },
+        {
+            "type": "image",
+            "data": "image1013.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "See the  CAM View Main Tab  topic for more information on adding CAM (Machining) Operations."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "CAM View Main Tab",
+                "uuid": "25377d2e-3fdc-4931-aa7b-5c3588b8a469",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Click the Return ribbonoption to leave CAM mode. \n \n \n Switch to 3D Mode to see the Operation that was added. If you switch the Render Mode to Fill Mode then select the Front Hole in the sidebar you can see the Operation more clearly."
+        },
+        {
+            "type": "text",
+            "data": "Click the Return ribbonoption to leave CAM mode."
+        },
+        {
+            "type": "text",
+            "data": "Click the Return ribbonoption to leave CAM mode."
+        },
+        {
+            "type": "text",
+            "data": "Switch to 3D Mode to see the Operation that was added. If you switch the Render Mode to Fill Mode then select the Front Hole in the sidebar you can see the Operation more clearly."
+        },
+        {
+            "type": "text",
+            "data": "Switch to 3D Mode to see the Operation that was added. If you switch the Render Mode to Fill Mode then select the Front Hole in the sidebar you can see the Operation more clearly."
+        },
+        {
+            "type": "image",
+            "data": "image1014.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Click the Return option in the ribbonbar to save your new Model."
+        },
+        {
+            "type": "text",
+            "data": "Click the Return option in the ribbonbar to save your new Model."
+        },
+        {
+            "type": "text",
+            "data": "Now lets place this piece of hardware on a Part in CABINET VISION."
+        },
+        {
+            "type": "text",
+            "data": "Save the Model and close the Material Manager. \n \n \n Now let's create a Part in the Part Manager to associate this Cam Lock to. Open the Part Manager and select the Pull Group."
+        },
+        {
+            "type": "text",
+            "data": "Save the Model and close the Material Manager."
+        },
+        {
+            "type": "text",
+            "data": "Save the Model and close the Material Manager."
+        },
+        {
+            "type": "text",
+            "data": "Now let's create a Part in the Part Manager to associate this Cam Lock to. Open the Part Manager and select the Pull Group."
+        },
+        {
+            "type": "text",
+            "data": "Now let's create a Part in the Part Manager to associate this Cam Lock to. Open the Part Manager and select the Pull Group."
+        },
+        {
+            "type": "image",
+            "data": "image1016.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Click the New option in the ribbon. \n \n \n Type \"CAMLOCK\" for the Name and give it a Description of \"Cam Lock\". \n \n \n Close the Part Manager. \n \n \n Open Material Schedules. \n \n \n Select the Pull Material Schedule Type, and pick a specific Material Schedule. \n \n \n Now assign the Cam Lock Material we created earlier to the Cam Lock Part. \n \n \n Start a new Job making sure that Pull Material Schedule is active. \n \n \n Draw a Wall. \n \n \n Place the Empty Base Object from the  Custom Cabinets | Base Cabinets  group. \n \n \n Re-size the Empty Base Object to 24\" wide, 30\" high, and 3/4\" deep. \n \n \n Take the Empty base Object to the  Assembly Level | Face Ortho View . \n \n \n Click New Part in the sidebar. \n \n \n Select Board from the Part Type list. \n \n \n Click Next. \n \n \n Make the Length 30\" and the Width 24\". \n \n \n Click Next. \n \n \n Select Front for the Orientation. \n \n \n The default Finishes and Textures are OK here so click Finish. \n \n \n Change the Left/Right for the new Part to 0 in the sidebar. \n \n \n Click anywhere on the screen to de-select the New Part."
+        },
+        {
+            "type": "text",
+            "data": "Click the New option in the ribbon."
+        },
+        {
+            "type": "text",
+            "data": "Click the New option in the ribbon."
+        },
+        {
+            "type": "text",
+            "data": "Type \"CAMLOCK\" for the Name and give it a Description of \"Cam Lock\"."
+        },
+        {
+            "type": "text",
+            "data": "Type \"CAMLOCK\" for the Name and give it a Description of \"Cam Lock\"."
+        },
+        {
+            "type": "text",
+            "data": "Close the Part Manager."
+        },
+        {
+            "type": "text",
+            "data": "Close the Part Manager."
+        },
+        {
+            "type": "text",
+            "data": "Open Material Schedules."
+        },
+        {
+            "type": "text",
+            "data": "Open Material Schedules."
+        },
+        {
+            "type": "text",
+            "data": "Select the Pull Material Schedule Type, and pick a specific Material Schedule."
+        },
+        {
+            "type": "text",
+            "data": "Select the Pull Material Schedule Type, and pick a specific Material Schedule."
+        },
+        {
+            "type": "text",
+            "data": "Now assign the Cam Lock Material we created earlier to the Cam Lock Part."
+        },
+        {
+            "type": "text",
+            "data": "Now assign the Cam Lock Material we created earlier to the Cam Lock Part."
+        },
+        {
+            "type": "text",
+            "data": "Start a new Job making sure that Pull Material Schedule is active."
+        },
+        {
+            "type": "text",
+            "data": "Start a new Job making sure that Pull Material Schedule is active."
+        },
+        {
+            "type": "text",
+            "data": "Draw a Wall."
+        },
+        {
+            "type": "text",
+            "data": "Draw a Wall."
+        },
+        {
+            "type": "text",
+            "data": "Place the Empty Base Object from the  Custom Cabinets | Base Cabinets  group."
+        },
+        {
+            "type": "text",
+            "data": "Place the Empty Base Object from the  Custom Cabinets | Base Cabinets  group."
+        },
+        {
+            "type": "text",
+            "data": "Re-size the Empty Base Object to 24\" wide, 30\" high, and 3/4\" deep."
+        },
+        {
+            "type": "text",
+            "data": "Re-size the Empty Base Object to 24\" wide, 30\" high, and 3/4\" deep."
+        },
+        {
+            "type": "text",
+            "data": "Take the Empty base Object to the  Assembly Level | Face Ortho View ."
+        },
+        {
+            "type": "text",
+            "data": "Take the Empty base Object to the  Assembly Level | Face Ortho View ."
+        },
+        {
+            "type": "text",
+            "data": "Click New Part in the sidebar."
+        },
+        {
+            "type": "text",
+            "data": "Click New Part in the sidebar."
+        },
+        {
+            "type": "text",
+            "data": "Select Board from the Part Type list."
+        },
+        {
+            "type": "text",
+            "data": "Select Board from the Part Type list."
+        },
+        {
+            "type": "text",
+            "data": "Click Next."
+        },
+        {
+            "type": "text",
+            "data": "Click Next."
+        },
+        {
+            "type": "text",
+            "data": "Make the Length 30\" and the Width 24\"."
+        },
+        {
+            "type": "text",
+            "data": "Make the Length 30\" and the Width 24\"."
+        },
+        {
+            "type": "text",
+            "data": "Click Next."
+        },
+        {
+            "type": "text",
+            "data": "Click Next."
+        },
+        {
+            "type": "text",
+            "data": "Select Front for the Orientation."
+        },
+        {
+            "type": "text",
+            "data": "Select Front for the Orientation."
+        },
+        {
+            "type": "text",
+            "data": "The default Finishes and Textures are OK here so click Finish."
+        },
+        {
+            "type": "text",
+            "data": "The default Finishes and Textures are OK here so click Finish."
+        },
+        {
+            "type": "text",
+            "data": "Change the Left/Right for the new Part to 0 in the sidebar."
+        },
+        {
+            "type": "text",
+            "data": "Change the Left/Right for the new Part to 0 in the sidebar."
+        },
+        {
+            "type": "text",
+            "data": "Click anywhere on the screen to de-select the New Part."
+        },
+        {
+            "type": "text",
+            "data": "Click anywhere on the screen to de-select the New Part."
+        },
+        {
+            "type": "text",
+            "data": "Now that we have a new Part in place let's put our Cam Lock on it."
+        },
+        {
+            "type": "text",
+            "data": "Click New Part in the sidebar. \n \n \n For Part Group select Pull. \n \n \n Select Cam Lock from the Part Type list. \n \n \n Click Next until you get to Finish then click Finish. \n \n \n With the Cam Lock selected set the Left/Right to 2\". \n \n \n Set the Up/Down to 2\"."
+        },
+        {
+            "type": "text",
+            "data": "Click New Part in the sidebar."
+        },
+        {
+            "type": "text",
+            "data": "Click New Part in the sidebar."
+        },
+        {
+            "type": "text",
+            "data": "For Part Group select Pull."
+        },
+        {
+            "type": "text",
+            "data": "For Part Group select Pull."
+        },
+        {
+            "type": "text",
+            "data": "Select Cam Lock from the Part Type list."
+        },
+        {
+            "type": "text",
+            "data": "Select Cam Lock from the Part Type list."
+        },
+        {
+            "type": "text",
+            "data": "Click Next until you get to Finish then click Finish."
+        },
+        {
+            "type": "text",
+            "data": "Click Next until you get to Finish then click Finish."
+        },
+        {
+            "type": "text",
+            "data": "With the Cam Lock selected set the Left/Right to 2\"."
+        },
+        {
+            "type": "text",
+            "data": "With the Cam Lock selected set the Left/Right to 2\"."
+        },
+        {
+            "type": "text",
+            "data": "Set the Up/Down to 2\"."
+        },
+        {
+            "type": "text",
+            "data": "Set the Up/Down to 2\"."
+        },
+        {
+            "type": "text",
+            "data": "You will see that your Cam Lock is placed along with all the machining necessary for mounting."
+        },
+        {
+            "type": "image",
+            "data": "image4510.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Now you can write a  User Created Standard  to add the Lock to the Cabinets you need it to be listed under. Below is the text to utilize in your UCS:"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "User Created Standard",
+                "uuid": "db3cc5fc-c4e0-45cd-bc5f-74f2e8778eaf",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": ";Links Cam Lock to Door"
+        },
+        {
+            "type": "text",
+            "data": "For Each  DOR Part"
+        },
+        {
+            "type": "text",
+            "data": "If  LOCK   =   1  Then"
+        },
+        {
+            "type": "text",
+            "data": "Dim  CAMLOCK as New Pull"
+        },
+        {
+            "type": "text",
+            "data": "CAMLOCK . Visible < bool >   =   True"
+        },
+        {
+            "type": "text",
+            "data": "CAMLOCK . DX   =   0"
+        },
+        {
+            "type": "text",
+            "data": "CAMLOCK . DY   =   0"
+        },
+        {
+            "type": "text",
+            "data": "CAMLOCK . DZ   =   0"
+        },
+        {
+            "type": "text",
+            "data": "CAMLOCK . Y   =   : DY   -   1.25"
+        },
+        {
+            "type": "text",
+            "data": "CAMLOCK . Z   =   0"
+        },
+        {
+            "type": "text",
+            "data": "CAMLOCK . AX   =   0"
+        },
+        {
+            "type": "text",
+            "data": "CAMLOCK . AY   =   0"
+        },
+        {
+            "type": "text",
+            "data": "CAMLOCK . AZ   =   0"
+        },
+        {
+            "type": "text",
+            "data": "CAMLOCK . QTY   =   1"
+        },
+        {
+            "type": "text",
+            "data": "CAMLOCK . MatID   =   1134"
+        },
+        {
+            "type": "text",
+            "data": "If  : HNG   =   1  Then ;Hinged Left Door"
+        },
+        {
+            "type": "text",
+            "data": "CAMLOCK . X   = : DX   -   2.75"
+        },
+        {
+            "type": "text",
+            "data": "End If"
+        },
+        {
+            "type": "text",
+            "data": "If  : HNG   =   2  Then  ;Hinged Right Door"
+        },
+        {
+            "type": "text",
+            "data": "CAMLOCK . X  =  2.75"
+        },
+        {
+            "type": "text",
+            "data": "End If"
+        },
+        {
+            "type": "text",
+            "data": "End If"
+        },
+        {
+            "type": "text",
+            "data": "It is not required to define the Size (DX, DY, DZ) of a Material Model, unless you have written your own sizing Parametrics on the Model)."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Now let's setup the LOCK Parameter to appear in the interface for Cabinets. From the System Level go to  Utilities | Parameters ."
+        },
+        {
+            "type": "text",
+            "data": "Now let's setup the LOCK Parameter to appear in the interface for Cabinets. From the System Level go to  Utilities | Parameters ."
+        },
+        {
+            "type": "text",
+            "data": "Now let's setup the LOCK Parameter to appear in the interface for Cabinets. From the System Level go to  Utilities | Parameters ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Utilities | Parameters",
+                "uuid": "732c3654-3fc4-4e88-80b9-01c7cb38c0fb",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Setup the new Parameter as the image below demonstrates."
+        },
+        {
+            "type": "text",
+            "data": "Setup the new Parameter as the image below demonstrates."
+        },
+        {
+            "type": "text",
+            "data": "Setup the new Parameter as the image below demonstrates."
+        },
+        {
+            "type": "image",
+            "data": "image1017.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Now go to a  new  Job and Place a Cabinet on a Wall. \n \n \n Click on the Cabinet and you will see your new \"Add Locks to Cabinet?\" prompt in the sidebar."
+        },
+        {
+            "type": "text",
+            "data": "Now go to a  new  Job and Place a Cabinet on a Wall."
+        },
+        {
+            "type": "text",
+            "data": "Now go to a  new  Job and Place a Cabinet on a Wall."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "new",
+                "uuid": "35caccb2-7ea3-4b54-af55-90bae347a1f4",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Click on the Cabinet and you will see your new \"Add Locks to Cabinet?\" prompt in the sidebar."
+        },
+        {
+            "type": "text",
+            "data": "Click on the Cabinet and you will see your new \"Add Locks to Cabinet?\" prompt in the sidebar."
+        },
+        {
+            "type": "image",
+            "data": "image4514.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Set this Attribute to True."
+        },
+        {
+            "type": "text",
+            "data": "Set this Attribute to True."
+        },
+        {
+            "type": "text",
+            "data": "Set this Attribute to True."
+        },
+        {
+            "type": "image",
+            "data": "image4515.gif",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\FAQs\\HDI-Advanced_Features\\Add_Locks_to_My_Cabinets.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

@@ -1,0 +1,230 @@
+{
+    "id": "59a297ae-0bcb-41bb-9bce-b7760ead48b1",
+    "title": "Edit",
+    "content": [
+        {
+            "type": "text",
+            "data": "Edit"
+        },
+        {
+            "type": "image",
+            "data": "Edit_Parts_Main_Screen.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Ribbonbar"
+        },
+        {
+            "type": "text",
+            "data": "Return -  Leaves the Part Editor and Returns to the Parts List View."
+        },
+        {
+            "type": "image",
+            "data": "image116.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Zoom \n Group"
+        },
+        {
+            "type": "image",
+            "data": "image118.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Zoom \n Group",
+                "uuid": "dd9fc58d-4386-48a7-bdd6-61ace173c4f2",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Help"
+        },
+        {
+            "type": "image",
+            "data": "image120.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Help",
+                "uuid": "91dbd6dc-e6a9-4304-9193-ad73bd518891",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Sidebar"
+        },
+        {
+            "type": "text",
+            "data": "There is one option in the sidebar:"
+        },
+        {
+            "type": "text",
+            "data": "Edgeband"
+        },
+        {
+            "type": "image",
+            "data": "image124.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Edgeband \n Editor allows you to assign Edgebanding to your Parts. You must have Edgeband \n Materials and have setup  Edgeband \n Indicators  in the  Material \n Catalog  in order to fully utilize this facility."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Edgeband \n Indicators",
+                "uuid": "4df5e5de-820e-4c2f-87d5-1ee7da07279c",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Material \n Catalog",
+                "uuid": "d2033866-5d17-44c3-842e-3c12d56bb472",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "Edge_Band_Main_Screen.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Edge \n Banding option allows you define which edge of a Part gets edge banded \n with which  edgeband \n indicator . Once the Edge Band option is active you will be placed \n in Edge Band mode with the following 4 options in the ribbonbar."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "edgeband \n indicator",
+                "uuid": "4df5e5de-820e-4c2f-87d5-1ee7da07279c",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image125.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Select -  When entering Edgeband mode this tool is selected \n\t by default. Simply click on the edge you would like to apply the Edgeband \n\t to and then select its type in the sidebar."
+        },
+        {
+            "type": "text",
+            "data": "Select -  When entering Edgeband mode this tool is selected \n\t by default. Simply click on the edge you would like to apply the Edgeband \n\t to and then select its type in the sidebar."
+        },
+        {
+            "type": "text",
+            "data": "Select -  When entering Edgeband mode this tool is selected \n\t by default. Simply click on the edge you would like to apply the Edgeband \n\t to and then select its type in the sidebar."
+        },
+        {
+            "type": "image",
+            "data": "image126.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image127.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "You can use Windows  \n + Click  to select multiple edges."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "ctrl_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Select All -  \n\t To quickly change all Edges to a specific Edgeband select this option \n\t then select their type in the sidebar. \n \n Remove Banding -  \n\t Will remove Edgebanding from the selected edge(s). \n \n Set Banding -  \n\t Will expose the Edgeband type selector in the sidebar without having \n\t to select an edge first."
+        },
+        {
+            "type": "text",
+            "data": "Select All -  \n\t To quickly change all Edges to a specific Edgeband select this option \n\t then select their type in the sidebar."
+        },
+        {
+            "type": "text",
+            "data": "Select All -  \n\t To quickly change all Edges to a specific Edgeband select this option \n\t then select their type in the sidebar."
+        },
+        {
+            "type": "image",
+            "data": "image128.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Remove Banding -  \n\t Will remove Edgebanding from the selected edge(s)."
+        },
+        {
+            "type": "text",
+            "data": "Remove Banding -  \n\t Will remove Edgebanding from the selected edge(s)."
+        },
+        {
+            "type": "image",
+            "data": "image129.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Set Banding -  \n\t Will expose the Edgeband type selector in the sidebar without having \n\t to select an edge first."
+        },
+        {
+            "type": "text",
+            "data": "Set Banding -  \n\t Will expose the Edgeband type selector in the sidebar without having \n\t to select an edge first."
+        },
+        {
+            "type": "image",
+            "data": "image131.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image127.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "It is important to note that the default values in the sidebar options \n are NOT representative of the current Edge Banding on the selected Part. \n To use this function simply select which Edgebanding type you would like."
+        },
+        {
+            "type": "text",
+            "data": "Once the Banding options are chosen simply select any of the Part Edges \n you would like these Edgeband properties assigned to. In the image below \n the Front Edge of the End has been selected."
+        },
+        {
+            "type": "image",
+            "data": "image132.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Note that the front edge is now red which indicates an Edgeband has \n been applied. Once you are through defining the Edges simply click the \n Return   option \n to save the new Edge Properties."
+        },
+        {
+            "type": "image",
+            "data": "image116.gif",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "NCEnglish_Optimizer\\Ribbonbar\\Main_Tab\\Parts\\Edit.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

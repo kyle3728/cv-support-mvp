@@ -1,0 +1,32 @@
+{
+    "id": "f523a9ab-5508-4ea6-a8af-fce311b33242",
+    "title": "PL_SB_CAM_Face_Selector",
+    "content": [
+        {
+            "type": "text",
+            "data": "CAM Face Selector -"
+        },
+        {
+            "type": "image",
+            "data": "image300.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "1AllUltimate.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This area allows you to select which Work Plane to place your Operations are placed on."
+        },
+        {
+            "type": "image",
+            "data": "image2986.gif",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\PL_SB_CAM_Face_Selector.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

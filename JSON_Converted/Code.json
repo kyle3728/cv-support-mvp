@@ -1,0 +1,947 @@
+{
+    "id": "5c4ada12-9a9a-4f21-bc25-6fefc1cbe9f2",
+    "title": "Code",
+    "content": [
+        {
+            "type": "text",
+            "data": "Code"
+        },
+        {
+            "type": "image",
+            "data": "image71.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This Code option\u00a0opens the currently selected UCS in the UCS Editor. This allows manual changes to be made to the UCS."
+        },
+        {
+            "type": "text",
+            "data": "When defining Parameters manually in the UCS Editor you will be prompted by Intelli-sense with a list of available Parameters. There will also be a pop-up displayed explaining the use of the Parameter. See image below for example. See  Monikers  below for more information."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Monikers",
+                "uuid": "5c4ada12-9a9a-4f21-bc25-6fefc1cbe9f2",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "If you do not wish to select a Parameter from the list simply press:"
+        },
+        {
+            "type": "image",
+            "data": "esc_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "If you would like to force the list to appear you can use the following keyboard key combination:"
+        },
+        {
+            "type": "text",
+            "data": "+"
+        },
+        {
+            "type": "image",
+            "data": "ctrl_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "space_key_l.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image104.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Toolbar Tools"
+        },
+        {
+            "type": "text",
+            "data": "Save\u00a0-  Saves the UCS."
+        },
+        {
+            "type": "image",
+            "data": "image105.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Cut -  The Cut option allows you to cut text to the Windows Clipboard so you can move it to another location, select the text, then click the Cut tool."
+        },
+        {
+            "type": "image",
+            "data": "image106.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "+"
+        },
+        {
+            "type": "image",
+            "data": "ctrl_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "letter_x.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Copy -  The Copy option allows you to copy text so you can paste it in another location, select the text, and then on the Right Click Menu click Copy."
+        },
+        {
+            "type": "image",
+            "data": "image107.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "+"
+        },
+        {
+            "type": "image",
+            "data": "ctrl_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "letter_c.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Paste -  The Paste option allows you to paste text you have cut or copied, place the cursor where you want to paste the text, and then on the Right Click Menu click Paste."
+        },
+        {
+            "type": "image",
+            "data": "image108.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "+"
+        },
+        {
+            "type": "image",
+            "data": "ctrl_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "letter_v.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Find -  You can quickly search for every occurrence of a specific word or phrase. In the Find field, enter the text that you want to search for. Select any other options that you want."
+        },
+        {
+            "type": "image",
+            "data": "image109.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "+"
+        },
+        {
+            "type": "image",
+            "data": "ctrl_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "letter_f.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "To find only text with uppercase and lowercase characters, as specified in the Find field, select Match case."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "You can specify which direction to search starting from the insertion point in the document. In Direction, click Up to search from the insertion point to the top. Click Down to search from the insertion point to the bottom."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Find Next -  This will allow you to Find the next instance of the Text string entered in the Find option."
+        },
+        {
+            "type": "image",
+            "data": "image110.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "f3_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Replace -  In the Find field, enter the text that you want to search for. In the Replace with field, enter the replacement text. Select any other options that you want. Click Replace to replace the first instance, or Replace All to replace all the matching text found."
+        },
+        {
+            "type": "image",
+            "data": "image3344.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "+"
+        },
+        {
+            "type": "image",
+            "data": "ctrl_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "letter_h.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Undo -  You can reverse the last action in the UCS Editor by using the Undo command. Each click reverses one more action. Continue clicking Undo to remove as many of the previous changes as necessary."
+        },
+        {
+            "type": "image",
+            "data": "image3345.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "+"
+        },
+        {
+            "type": "image",
+            "data": "ctrl_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "letter_z.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Redo -  This option will reverse the last Undo operation."
+        },
+        {
+            "type": "image",
+            "data": "image3346.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "+"
+        },
+        {
+            "type": "image",
+            "data": "ctrl_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "letter_a.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Toggle Bookmark -  Adds or removes a Bookmark from the selected line"
+        },
+        {
+            "type": "image",
+            "data": "image3347.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "f4_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Next Bookmark -  Moves the active line to the Next Bookmark."
+        },
+        {
+            "type": "image",
+            "data": "image3348.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "f8_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Previous Bookmark -  Moves the active line to the Previous Bookmark."
+        },
+        {
+            "type": "image",
+            "data": "image3349.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "f9_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Clear All Bookmarks -  Removes all Bookmarks from the UCS."
+        },
+        {
+            "type": "image",
+            "data": "image3350.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "f5_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Line Numbers -  Enables or disables Line Numbers."
+        },
+        {
+            "type": "image",
+            "data": "image111.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Right Click Options"
+        },
+        {
+            "type": "text",
+            "data": "All the toolbar tools above are available in the Right Click menu."
+        },
+        {
+            "type": "image",
+            "data": "image114.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image112.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Other Keystroke Options"
+        },
+        {
+            "type": "text",
+            "data": "Go to End of UCS"
+        },
+        {
+            "type": "text",
+            "data": "+"
+        },
+        {
+            "type": "image",
+            "data": "ctrl_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "end.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Go to Start of UCS"
+        },
+        {
+            "type": "text",
+            "data": "+"
+        },
+        {
+            "type": "image",
+            "data": "ctrl_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "home.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Go to a Specific Line Number"
+        },
+        {
+            "type": "text",
+            "data": "+"
+        },
+        {
+            "type": "image",
+            "data": "ctrl_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "letter_g.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image113.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Cut Entire Line to Windows Clipboard"
+        },
+        {
+            "type": "text",
+            "data": "+"
+        },
+        {
+            "type": "image",
+            "data": "ctrl_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "letter_y.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Change Selected Text from Upper Case to Lower Case Text"
+        },
+        {
+            "type": "text",
+            "data": "+"
+        },
+        {
+            "type": "image",
+            "data": "ctrl_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "letter_u.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Toggle the Display of Whitespace"
+        },
+        {
+            "type": "text",
+            "data": "+   +"
+        },
+        {
+            "type": "image",
+            "data": "ctrl_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "alt_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "letter_t.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Change Selected Text from Lower Case to Upper Case Text"
+        },
+        {
+            "type": "text",
+            "data": "+   +"
+        },
+        {
+            "type": "image",
+            "data": "ctrl_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "shift_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "letter_u.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Scroll Up"
+        },
+        {
+            "type": "text",
+            "data": "+"
+        },
+        {
+            "type": "image",
+            "data": "ctrl_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "Arrow_Up.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Scroll Down"
+        },
+        {
+            "type": "text",
+            "data": "+"
+        },
+        {
+            "type": "image",
+            "data": "ctrl_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "Arrow_Down.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Scroll Left"
+        },
+        {
+            "type": "text",
+            "data": "+"
+        },
+        {
+            "type": "image",
+            "data": "ctrl_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "page_up.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Scroll Right"
+        },
+        {
+            "type": "text",
+            "data": "+"
+        },
+        {
+            "type": "image",
+            "data": "ctrl_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "page_down.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Move the Cursor from its Current Position to the Start of the Word"
+        },
+        {
+            "type": "text",
+            "data": "+"
+        },
+        {
+            "type": "image",
+            "data": "ctrl_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "Arrow_Left.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Highlight Text from the Cursor's Current Position to the Start of the Word"
+        },
+        {
+            "type": "text",
+            "data": "+   +"
+        },
+        {
+            "type": "image",
+            "data": "ctrl_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "shift_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "Arrow_Left.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Move the Cursor from its Current Position to the End of the Word"
+        },
+        {
+            "type": "text",
+            "data": "+"
+        },
+        {
+            "type": "image",
+            "data": "ctrl_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "Arrow_Right.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Highlight Text from the Cursor's Current Position to the End of the Word"
+        },
+        {
+            "type": "text",
+            "data": "+   +"
+        },
+        {
+            "type": "image",
+            "data": "ctrl_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "shift_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "Arrow_Right.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Using the Mouse in the UCS Editor"
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Mouse Action",
+                    "Result"
+                ],
+                "rows": [
+                    [
+                        "Left Click Over Text",
+                        "Changes the caret position"
+                    ],
+                    [
+                        "Right Click",
+                        "Displays the right click menu"
+                    ],
+                    [
+                        "Left Click over selection, and drag",
+                        "Moves text"
+                    ],
+                    [
+                        "Ctrl  + Left Click Over Selection, and Drag",
+                        "Copies text"
+                    ],
+                    [
+                        "Left Click Over Left Margin",
+                        "Selects line"
+                    ],
+                    [
+                        "Left Click Over Left Margin, and Drag",
+                        "Selects multiple lines"
+                    ],
+                    [
+                        "Double Left Click Over Text",
+                        "Select word under cursor"
+                    ],
+                    [
+                        "Spin Scroll Wheel",
+                        "Scroll the window vertically"
+                    ],
+                    [
+                        "Left Double Click",
+                        "Select the word under the cursor"
+                    ],
+                    [
+                        "Left Click in Bookmark Margin",
+                        "Select the entire line"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Mouse Action"
+        },
+        {
+            "type": "text",
+            "data": "Result"
+        },
+        {
+            "type": "text",
+            "data": "Left Click Over Text"
+        },
+        {
+            "type": "text",
+            "data": "Changes the caret position"
+        },
+        {
+            "type": "text",
+            "data": "Right Click"
+        },
+        {
+            "type": "text",
+            "data": "Displays the right click menu"
+        },
+        {
+            "type": "text",
+            "data": "Left Click over selection, and drag"
+        },
+        {
+            "type": "text",
+            "data": "Moves text"
+        },
+        {
+            "type": "text",
+            "data": "Ctrl  + Left Click Over Selection, and Drag"
+        },
+        {
+            "type": "text",
+            "data": "Copies text"
+        },
+        {
+            "type": "text",
+            "data": "Left Click Over Left Margin"
+        },
+        {
+            "type": "text",
+            "data": "Selects line"
+        },
+        {
+            "type": "text",
+            "data": "Left Click Over Left Margin, and Drag"
+        },
+        {
+            "type": "text",
+            "data": "Selects multiple lines"
+        },
+        {
+            "type": "text",
+            "data": "Double Left Click Over Text"
+        },
+        {
+            "type": "text",
+            "data": "Select word under cursor"
+        },
+        {
+            "type": "text",
+            "data": "Spin Scroll Wheel"
+        },
+        {
+            "type": "text",
+            "data": "Scroll the window vertically"
+        },
+        {
+            "type": "text",
+            "data": "Left Double Click"
+        },
+        {
+            "type": "text",
+            "data": "Select the word under the cursor"
+        },
+        {
+            "type": "text",
+            "data": "Left Click in Bookmark Margin"
+        },
+        {
+            "type": "text",
+            "data": "Select the entire line"
+        },
+        {
+            "type": "text",
+            "data": "Monikers"
+        },
+        {
+            "type": "text",
+            "data": "There are several Monikers you can use with Intelli-sense in order to quickly pick up items from your setup for reference."
+        },
+        {
+            "type": "text",
+            "data": "As stated at the beginning of this topic you can open Intelli-sense manually in the UCS Editor by pressing the following Keyboard keys:"
+        },
+        {
+            "type": "text",
+            "data": "+"
+        },
+        {
+            "type": "image",
+            "data": "ctrl_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "space_key_l.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "You can also simply type the Monikers name and as soon as you open the parentheses Intelli-sense will open to that area so you can browse your available data. Following is the list of Monikers you can use in the UCS Editor:"
+        },
+        {
+            "type": "text",
+            "data": "MaterialID("
+        },
+        {
+            "type": "text",
+            "data": "TopConstID("
+        },
+        {
+            "type": "text",
+            "data": "DoorStyleID("
+        },
+        {
+            "type": "text",
+            "data": "AsmConstID("
+        },
+        {
+            "type": "text",
+            "data": "DrawerConstID("
+        },
+        {
+            "type": "text",
+            "data": "RollOutConstID("
+        },
+        {
+            "type": "text",
+            "data": "IJointID("
+        },
+        {
+            "type": "text",
+            "data": "AsmScheduleID("
+        },
+        {
+            "type": "text",
+            "data": "SlideRailScheduleID("
+        },
+        {
+            "type": "text",
+            "data": "TopScheduleID("
+        },
+        {
+            "type": "text",
+            "data": "DrawerScheduleID("
+        },
+        {
+            "type": "text",
+            "data": "RollOutScheduleID("
+        },
+        {
+            "type": "text",
+            "data": "ColorScheduleID("
+        },
+        {
+            "type": "text",
+            "data": "RoomScheduleID("
+        },
+        {
+            "type": "text",
+            "data": "DoorScheduleID("
+        },
+        {
+            "type": "text",
+            "data": "PullScheduleID("
+        },
+        {
+            "type": "text",
+            "data": "HingeScheduleID("
+        },
+        {
+            "type": "text",
+            "data": "GuideScheduleID("
+        },
+        {
+            "type": "text",
+            "data": "MoldingScheduleID("
+        },
+        {
+            "type": "text",
+            "data": "WireBasketScheduleID("
+        },
+        {
+            "type": "text",
+            "data": "ClosetRodScheduleID("
+        },
+        {
+            "type": "text",
+            "data": "FinishID("
+        },
+        {
+            "type": "text",
+            "data": "TextureID("
+        },
+        {
+            "type": "text",
+            "data": "See the  UCS Evaluation Order ,  Parameters and Functions , and  Parameters & UCS's  topics in the Tips, Tricks, & FAQ's Section for more information."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "UCS Evaluation Order",
+                "uuid": "431476be-aea9-433e-a9c4-cddc18e6c927",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Parameters and Functions",
+                "uuid": "64910180-651d-4a1a-a6a9-ff64f36e7ea4",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Parameters & UCS's",
+                "uuid": "ab489e60-ddc1-442d-b43a-701ebf17a7dc",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Code.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

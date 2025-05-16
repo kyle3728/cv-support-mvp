@@ -1,0 +1,356 @@
+{
+    "id": "d808c9d4-af7e-4f14-830b-5b3ce733008c",
+    "title": "SLMMP_Hinges",
+    "content": [
+        {
+            "type": "text",
+            "data": "Hinges"
+        },
+        {
+            "type": "text",
+            "data": "This topic covers all the Properties for the Hinge Material Type."
+        },
+        {
+            "type": "image",
+            "data": "Hinge_Material_Props.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Material Group"
+        },
+        {
+            "type": "text",
+            "data": "Previously covered in the  Banding Material Type  topic."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Banding Material Type",
+                "uuid": "a7630d33-1a29-4e4d-b54e-e6b16c30e227",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Hinge Group"
+        },
+        {
+            "type": "image",
+            "data": "Hinge_Hinge_Props.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Type -  Type defines the style of Hinge Plate as either Concealed, Double Door, or Exposed. \n \n \n Horizontal Overlay -  The value input here controls the amount that the Door Overlays the Face Frame at the top and bottom of the Door. Therefore, this value only applies to hinges used on  Face Frame Style Cabinets ."
+        },
+        {
+            "type": "text",
+            "data": "Type -  Type defines the style of Hinge Plate as either Concealed, Double Door, or Exposed."
+        },
+        {
+            "type": "text",
+            "data": "Type -  Type defines the style of Hinge Plate as either Concealed, Double Door, or Exposed."
+        },
+        {
+            "type": "text",
+            "data": "Horizontal Overlay -  The value input here controls the amount that the Door Overlays the Face Frame at the top and bottom of the Door. Therefore, this value only applies to hinges used on  Face Frame Style Cabinets ."
+        },
+        {
+            "type": "text",
+            "data": "Horizontal Overlay -  The value input here controls the amount that the Door Overlays the Face Frame at the top and bottom of the Door. Therefore, this value only applies to hinges used on  Face Frame Style Cabinets ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Face Frame Style Cabinets",
+                "uuid": "e4cbc02a-f458-4c6d-8725-3c8322a55d94",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image3815.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Vertical Overlay -  The value input here controls the amount that the Door Overlays the Face Frame at the left and right of the Door. Therefore, this value only applies to hinges used on  Face Frame Style Cabinets ."
+        },
+        {
+            "type": "text",
+            "data": "Vertical Overlay -  The value input here controls the amount that the Door Overlays the Face Frame at the left and right of the Door. Therefore, this value only applies to hinges used on  Face Frame Style Cabinets ."
+        },
+        {
+            "type": "text",
+            "data": "Vertical Overlay -  The value input here controls the amount that the Door Overlays the Face Frame at the left and right of the Door. Therefore, this value only applies to hinges used on  Face Frame Style Cabinets ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Face Frame Style Cabinets",
+                "uuid": "e4cbc02a-f458-4c6d-8725-3c8322a55d94",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image3816.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Door End to Hinge -  References the distance from the Ends (Top and Bottom) of the Door to the center of the Hinge. Sets the  Graphic Reference Point  placement."
+        },
+        {
+            "type": "text",
+            "data": "Door End to Hinge -  References the distance from the Ends (Top and Bottom) of the Door to the center of the Hinge. Sets the  Graphic Reference Point  placement."
+        },
+        {
+            "type": "text",
+            "data": "Door End to Hinge -  References the distance from the Ends (Top and Bottom) of the Door to the center of the Hinge. Sets the  Graphic Reference Point  placement."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Graphic Reference Point",
+                "uuid": "80226667-3248-4b47-b7ea-bc1e7f16cabb",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image3817.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Inset -  A \"0\" (zero) value \u00a0would result in the Door being forward of the face frame or face of the case by the thickness of the Door. The amount entered in this field moves the Door backwards, to within the Face Frame or Case, depending on Construction Style. A negative value here will outset the Door away from the Face of the Cabinet."
+        },
+        {
+            "type": "text",
+            "data": "Inset -  A \"0\" (zero) value \u00a0would result in the Door being forward of the face frame or face of the case by the thickness of the Door. The amount entered in this field moves the Door backwards, to within the Face Frame or Case, depending on Construction Style. A negative value here will outset the Door away from the Face of the Cabinet."
+        },
+        {
+            "type": "text",
+            "data": "Inset -  A \"0\" (zero) value \u00a0would result in the Door being forward of the face frame or face of the case by the thickness of the Door. The amount entered in this field moves the Door backwards, to within the Face Frame or Case, depending on Construction Style. A negative value here will outset the Door away from the Face of the Cabinet."
+        },
+        {
+            "type": "image",
+            "data": "image3814.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Maximum Spacing -  This value controls how far apart Hinges will be placed before Solid will add another Hinge to the Door."
+        },
+        {
+            "type": "text",
+            "data": "Maximum Spacing -  This value controls how far apart Hinges will be placed before Solid will add another Hinge to the Door."
+        },
+        {
+            "type": "text",
+            "data": "Maximum Spacing -  This value controls how far apart Hinges will be placed before Solid will add another Hinge to the Door."
+        },
+        {
+            "type": "image",
+            "data": "image3818.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Opening Angle -  The value you enter here, represents the maximum opening angle of the Hinge in degrees. When working in Solid you will be able to open Doors and Drawers. This value should represent the angle of the Door to the Cabinet when you have opened the Door the maximum amount."
+        },
+        {
+            "type": "text",
+            "data": "Opening Angle -  The value you enter here, represents the maximum opening angle of the Hinge in degrees. When working in Solid you will be able to open Doors and Drawers. This value should represent the angle of the Door to the Cabinet when you have opened the Door the maximum amount."
+        },
+        {
+            "type": "text",
+            "data": "Opening Angle -  The value you enter here, represents the maximum opening angle of the Hinge in degrees. When working in Solid you will be able to open Doors and Drawers. This value should represent the angle of the Door to the Cabinet when you have opened the Door the maximum amount."
+        },
+        {
+            "type": "image",
+            "data": "image3819.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Door Edge To Reference Point -  When defining a \"Graphic\" for your Hinge the Graphic will shift when used in an Assembly by this value. This value typically represents the distance from the Edges (Sides) of your Door to the Hinge Center. Sets the  Graphic Reference Point  placement."
+        },
+        {
+            "type": "text",
+            "data": "Door Edge To Reference Point -  When defining a \"Graphic\" for your Hinge the Graphic will shift when used in an Assembly by this value. This value typically represents the distance from the Edges (Sides) of your Door to the Hinge Center. Sets the  Graphic Reference Point  placement."
+        },
+        {
+            "type": "text",
+            "data": "Door Edge To Reference Point -  When defining a \"Graphic\" for your Hinge the Graphic will shift when used in an Assembly by this value. This value typically represents the distance from the Edges (Sides) of your Door to the Hinge Center. Sets the  Graphic Reference Point  placement."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Graphic Reference Point",
+                "uuid": "80226667-3248-4b47-b7ea-bc1e7f16cabb",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image3808.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Roll Out Clearance -  If you place a Roll Out in the same location as a Hinge Solid will automatically space the Roll Out the amount you specify here."
+        },
+        {
+            "type": "text",
+            "data": "Roll Out Clearance -  If you place a Roll Out in the same location as a Hinge Solid will automatically space the Roll Out the amount you specify here."
+        },
+        {
+            "type": "text",
+            "data": "Roll Out Clearance -  If you place a Roll Out in the same location as a Hinge Solid will automatically space the Roll Out the amount you specify here."
+        },
+        {
+            "type": "image",
+            "data": "image3820.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Layer Group"
+        },
+        {
+            "type": "text",
+            "data": "Previously covered in the  Banding Material Type  topic."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Banding Material Type",
+                "uuid": "a7630d33-1a29-4e4d-b54e-e6b16c30e227",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Operations Tab"
+        },
+        {
+            "type": "text",
+            "data": "The Operations Tab includes Operations that are System Generated. For more information on these options see the  Hinge  section of the New Material topic."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Hinge",
+                "uuid": "4cf3a5bd-1d52-4637-83d0-35f25ab668dd",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "Hinge_Operations.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Alias Properties"
+        },
+        {
+            "type": "text",
+            "data": "Name \n \n \n Description \n \n \n Vendor \n \n \n Default Cost \n \n \n Sell Price \n \n \n Default Markup \n \n \n Sales Tax \n \n \n Default Tax Rate \n \n \n Finishes \n \n \n Finish Types \n \n \n Textures"
+        },
+        {
+            "type": "text",
+            "data": "Name"
+        },
+        {
+            "type": "text",
+            "data": "Name"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "Vendor"
+        },
+        {
+            "type": "text",
+            "data": "Vendor"
+        },
+        {
+            "type": "text",
+            "data": "Default Cost"
+        },
+        {
+            "type": "text",
+            "data": "Default Cost"
+        },
+        {
+            "type": "text",
+            "data": "Sell Price"
+        },
+        {
+            "type": "text",
+            "data": "Sell Price"
+        },
+        {
+            "type": "text",
+            "data": "Default Markup"
+        },
+        {
+            "type": "text",
+            "data": "Default Markup"
+        },
+        {
+            "type": "text",
+            "data": "Sales Tax"
+        },
+        {
+            "type": "text",
+            "data": "Sales Tax"
+        },
+        {
+            "type": "text",
+            "data": "Default Tax Rate"
+        },
+        {
+            "type": "text",
+            "data": "Default Tax Rate"
+        },
+        {
+            "type": "text",
+            "data": "Finishes"
+        },
+        {
+            "type": "text",
+            "data": "Finishes"
+        },
+        {
+            "type": "text",
+            "data": "Finish Types"
+        },
+        {
+            "type": "text",
+            "data": "Finish Types"
+        },
+        {
+            "type": "text",
+            "data": "Textures"
+        },
+        {
+            "type": "text",
+            "data": "Textures"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\SLMMP_Hinges.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

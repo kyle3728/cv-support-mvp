@@ -1,0 +1,166 @@
+{
+    "id": "a7bf05b7-7373-4375-bc9c-5e1a89a11150",
+    "title": "new_topic3",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top"
+        },
+        {
+            "type": "text",
+            "data": "This is where you configure the scenarios where aTop Connects to Parts."
+        },
+        {
+            "type": "image",
+            "data": "image854.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The following diagramshow the Connections available for the Toe Kick."
+        },
+        {
+            "type": "image",
+            "data": "image869.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Top - Top Rail (Standard #763)"
+        },
+        {
+            "type": "image",
+            "data": "image856.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Top - Finished End (Standard #688)"
+        },
+        {
+            "type": "image",
+            "data": "image857.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Top - Skin End (Standard #881)"
+        },
+        {
+            "type": "image",
+            "data": "image858.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Top - Unfinished End (Standard #694)"
+        },
+        {
+            "type": "image",
+            "data": "image859.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Top - Applied End (Standard #785)"
+        },
+        {
+            "type": "image",
+            "data": "image860.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Top - Applied End (Standard #791)"
+        },
+        {
+            "type": "image",
+            "data": "image861.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Top - Sub End (Standard #695)"
+        },
+        {
+            "type": "image",
+            "data": "image862.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Top - Finished Back (Standard #689)"
+        },
+        {
+            "type": "image",
+            "data": "image863.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Top - Unfinished Back (Standard #782)"
+        },
+        {
+            "type": "image",
+            "data": "image864.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Top - Unfinished Back (Standard #693)"
+        },
+        {
+            "type": "image",
+            "data": "image865.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Top - Nailer (Standard #703)"
+        },
+        {
+            "type": "image",
+            "data": "image867.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Top - Clipped Back (Standard #870)"
+        },
+        {
+            "type": "image",
+            "data": "image868.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Top - Partition (Standard #701)"
+        },
+        {
+            "type": "image",
+            "data": "image870.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Top - Divider (Standard #702)"
+        },
+        {
+            "type": "image",
+            "data": "image871.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Top - Part (Standard #812)"
+        },
+        {
+            "type": "image",
+            "data": "image872.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Cabinetmaker\\System_Level\\Ribbonbar\\Main_Tab\\Construction_Group\\Assembly_Manager\\Assembly\\Branches\\Connection\\new_topic3.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

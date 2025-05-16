@@ -1,0 +1,140 @@
+{
+    "id": "f4a43f08-b40b-442c-8f03-a96c2a64640f",
+    "title": "SL_Part_Manager",
+    "content": [
+        {
+            "type": "text",
+            "data": "Part Manager"
+        },
+        {
+            "type": "image",
+            "data": "image2195.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "Part_Manager.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Part Manager is relatively straight forward in design and usage. It is primarily responsible for holding information on Parts that you need within Solid. It is relatively complete as it stands, containing the majority of Parts that most shops will use."
+        },
+        {
+            "type": "text",
+            "data": "Part Tab"
+        },
+        {
+            "type": "text",
+            "data": "Name"
+        },
+        {
+            "type": "text",
+            "data": "The Name is an abbreviated code assigned by Cabinet Vision to the Part. Although you can change the Part Description, you can never change this Name once it is entered."
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "The Description of the Part can be changed by changing the text here. The Description of the Part here is the \"Name\" used throughout Cabinet Vision including all output such as Cut Lists."
+        },
+        {
+            "type": "text",
+            "data": "This will change the name of the Part everywhere it is used."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "CNC Tab -"
+        },
+        {
+            "type": "image",
+            "data": "S2M.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Optimize"
+        },
+        {
+            "type": "text",
+            "data": "The Optimize column is a toggle. Assuming you have the Optimizer or Nesting, you can toggle Parts on or off as to Optimizing/Nesting."
+        },
+        {
+            "type": "text",
+            "data": "Ignore Grain"
+        },
+        {
+            "type": "text",
+            "data": "The Ignore Grain column is a toggle. Assuming you have the Optimizer or Nesting, you can toggle Parts on or off as to whether honoring Grain rules for the Part is required."
+        },
+        {
+            "type": "text",
+            "data": "CNC"
+        },
+        {
+            "type": "text",
+            "data": "The CNC column is a toggle. If you have CNC capabilities, you can choose which Parts are outputted to CNC by toggling them off or on."
+        },
+        {
+            "type": "text",
+            "data": "Finishes Tab"
+        },
+        {
+            "type": "text",
+            "data": "Exterior Face Finish, Exterior Back Finish, Exterior End Finish, and Exterior Edge Finish"
+        },
+        {
+            "type": "text",
+            "data": "The next columns determine whether the Part uses the Exterior (enabled) or Interior (disabled) Finish is used for the Parts Face, Back, End and/or Edge. The choices are Enabled (match Exterior Finish in the Job/Room/Assembly) or Disabled (match Interior Finish in the Job/Room/Assembly)."
+        },
+        {
+            "type": "text",
+            "data": "Exterior Face Texture, Exterior Back Texture, Exterior End Texture, and Exterior Edge Texture"
+        },
+        {
+            "type": "text",
+            "data": "The next columns determine whether the Part uses the Exterior (enabled) or Interior (disabled) Texture is used for the Parts Face, Back, End and/or Edge. The choices are Enabled (match Exterior Texture in the Job/Room/Assembly) or Disabled (match Interior Texture in the Job/Room/Assembly)."
+        },
+        {
+            "type": "text",
+            "data": "Right Click Options"
+        },
+        {
+            "type": "text",
+            "data": "Right clicking the Column Headers will bring up the Columns window allowing you to hide and rearrange (drag) the Columns displayed."
+        },
+        {
+            "type": "image",
+            "data": "image231.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Ribbonbar"
+        },
+        {
+            "type": "image",
+            "data": "image2196.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Return -  Closes the Part Manager and returns you to the Splash Screen."
+        },
+        {
+            "type": "image",
+            "data": "image2197.gif",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\System_Level\\Ribbonbar\\Main_Tab\\Catalogs_Group\\SL_Part_Manager.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

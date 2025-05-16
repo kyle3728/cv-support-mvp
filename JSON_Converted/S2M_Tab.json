@@ -1,0 +1,22 @@
+{
+    "id": "63b68063-eea8-4f58-be83-b59eb00178fb",
+    "title": "S2M_Tab",
+    "content": [
+        {
+            "type": "text",
+            "data": "S2M Tab"
+        },
+        {
+            "type": "text",
+            "data": "Click the options below for more information"
+        },
+        {
+            "type": "image",
+            "data": "S2M_Tab.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "NCEnglish\\Ribbonbar\\Main_Tab\\S2M_for_Alphacam\\S2M_Tab.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

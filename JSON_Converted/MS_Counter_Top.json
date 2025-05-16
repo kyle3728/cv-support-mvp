@@ -1,0 +1,142 @@
+{
+    "id": "50517e2b-9dc7-4c8a-9e3c-2bea39a66706",
+    "title": "MS_Counter_Top",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top \n > \n \n \n System Level \n > \n \n Ribbonbar \n > \n \n Main Tab \n > \n \n Catalogs Group \n > \n \n Material Schedule Manager \n > \n \n Counter Top"
+        },
+        {
+            "type": "text",
+            "data": "Top \n >"
+        },
+        {
+            "type": "text",
+            "data": "System Level \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "System Level",
+                "uuid": "4450866f-fd9c-46df-abf3-7843c5a1ef37",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Ribbonbar \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Ribbonbar",
+                "uuid": "3bbac75c-2b61-42af-9bce-b90335e66dde",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Main Tab \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Main Tab",
+                "uuid": "3bbac75c-2b61-42af-9bce-b90335e66dde",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Catalogs Group \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Catalogs Group",
+                "uuid": "f4a43f08-b40b-442c-8f03-a96c2a64640f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Material Schedule Manager \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Material Schedule Manager",
+                "uuid": "7a64057c-ee14-4724-b490-38009af08adb",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Counter Top"
+        },
+        {
+            "type": "text",
+            "data": "Counter Top"
+        },
+        {
+            "type": "text",
+            "data": "Counter Top"
+        },
+        {
+            "type": "text",
+            "data": "Counter Top Material Schedules are set up in the same manner as  Assembly Parts ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Assembly Parts",
+                "uuid": "d549fa6c-c6de-4ac1-9837-a3bb3e6af7a5",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "MS_Counter_Top.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Sidebar/Properties"
+        },
+        {
+            "type": "text",
+            "data": "The following Properties are available for Counter Top Parts:"
+        },
+        {
+            "type": "text",
+            "data": "ID -  The ID number for the selected Material Schedule. \n \n \n Name -  The Name of the selected Material Schedule. \n \n \n Description -  The Description of the selected Material Schedule."
+        },
+        {
+            "type": "text",
+            "data": "ID -  The ID number for the selected Material Schedule."
+        },
+        {
+            "type": "text",
+            "data": "ID -  The ID number for the selected Material Schedule."
+        },
+        {
+            "type": "text",
+            "data": "Name -  The Name of the selected Material Schedule."
+        },
+        {
+            "type": "text",
+            "data": "Name -  The Name of the selected Material Schedule."
+        },
+        {
+            "type": "text",
+            "data": "Description -  The Description of the selected Material Schedule."
+        },
+        {
+            "type": "text",
+            "data": "Description -  The Description of the selected Material Schedule."
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\System_Level\\Ribbonbar\\Main_Tab\\Catalogs_Group\\Material_Schedules\\MS_Counter_Top.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

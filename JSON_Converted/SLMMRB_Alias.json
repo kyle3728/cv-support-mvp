@@ -1,0 +1,402 @@
+{
+    "id": "b7d7e9de-30be-4964-a4a2-b7ba5680ae3d",
+    "title": "SLMMRB_Alias",
+    "content": [
+        {
+            "type": "text",
+            "data": "Alias\u00a0-"
+        },
+        {
+            "type": "image",
+            "data": "image3801.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "SolidStandard.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "SolidStandardforClosets.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "SolidAdvanced.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "SolidAdvancedforClosets.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "SolidUltimate.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "SolidUltimateforClosets.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option will add an Alias for your selected Material. Aliases are Material which get most of their Properties from the Parent Material with a few Properties that are unique (differentiators). This allows you to do things like create Panel Stock which would be the same with the exception of their Name, Sheet Size, and Cost. Most Material Types have special Properties used as differentiators."
+        },
+        {
+            "type": "text",
+            "data": "Simply type the unique Name and Description for your Alias."
+        },
+        {
+            "type": "image",
+            "data": "image4836.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Alias will be available as a sub-item to its parent Material."
+        },
+        {
+            "type": "image",
+            "data": "image4837.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Certain fields will be available for editing (differentiators) while other will be locked indicating they are derived from the parent Material."
+        },
+        {
+            "type": "text",
+            "data": "Click the Material Types below to see their differentiators."
+        },
+        {
+            "type": "text",
+            "data": "Banding \n \n \n Board Stock \n \n \n Caster \n \n \n Composite \n \n \n Connector \n \n \n Drawer Guides \n \n \n Hinge Plates \n \n \n Hinges \n \n \n Laminate \n \n \n Leg \n \n \n Leg Leveler \n \n \n Miscellaneous \n \n \n Molding \n \n \n Molding Set \n \n \n Panel Stock \n \n \n Pulls \n \n \n Rods \n \n \n Sliding Door Rails \n \n \n Sliding Door Rollers \n \n \n Wire Baskets"
+        },
+        {
+            "type": "text",
+            "data": "Banding"
+        },
+        {
+            "type": "text",
+            "data": "Banding"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Banding",
+                "uuid": "a7630d33-1a29-4e4d-b54e-e6b16c30e227",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Board Stock"
+        },
+        {
+            "type": "text",
+            "data": "Board Stock"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Board Stock",
+                "uuid": "91574e70-0e35-4ca5-b4b0-33382d0731b5",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Caster"
+        },
+        {
+            "type": "text",
+            "data": "Caster"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Caster",
+                "uuid": "440a600c-ae6e-4aaa-a308-818be3df8108",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Composite"
+        },
+        {
+            "type": "text",
+            "data": "Composite"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Composite",
+                "uuid": "cfaddc40-b5e5-4828-8bb7-ac27aaddfc7c",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Connector"
+        },
+        {
+            "type": "text",
+            "data": "Connector"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Connector",
+                "uuid": "cfcbe9b1-8feb-45d5-ac6b-ae75eb0d21e7",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Drawer Guides"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Guides"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Drawer Guides",
+                "uuid": "aee88f7e-5cca-418f-ac2d-2a2392fdf64c",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Hinge Plates"
+        },
+        {
+            "type": "text",
+            "data": "Hinge Plates"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Hinge Plates",
+                "uuid": "a95280c7-a23a-4c73-8975-6f414c829eae",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Hinges"
+        },
+        {
+            "type": "text",
+            "data": "Hinges"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Hinges",
+                "uuid": "d808c9d4-af7e-4f14-830b-5b3ce733008c",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Laminate"
+        },
+        {
+            "type": "text",
+            "data": "Laminate"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Laminate",
+                "uuid": "4b2419aa-15e6-47b5-9985-2f6bd03d699b",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Leg"
+        },
+        {
+            "type": "text",
+            "data": "Leg"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Leg",
+                "uuid": "13806fff-7b8f-4101-85af-094baaa17d5f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Leg Leveler"
+        },
+        {
+            "type": "text",
+            "data": "Leg Leveler"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Leg Leveler",
+                "uuid": "df6654f1-ccc3-4987-a063-dfba7aae8954",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Miscellaneous"
+        },
+        {
+            "type": "text",
+            "data": "Miscellaneous"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Miscellaneous",
+                "uuid": "d27a4d19-93c6-4589-bce8-858f34c17ed4",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Molding"
+        },
+        {
+            "type": "text",
+            "data": "Molding"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Molding",
+                "uuid": "21675ddf-9180-45f7-8c97-4823c35d6be9",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Molding Set"
+        },
+        {
+            "type": "text",
+            "data": "Molding Set"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Molding Set",
+                "uuid": "267b2c02-15a7-4304-86ae-bce462233537",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Panel Stock"
+        },
+        {
+            "type": "text",
+            "data": "Panel Stock"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Panel Stock",
+                "uuid": "19324bd9-09f9-4208-89eb-9a15bb3b8457",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Pulls"
+        },
+        {
+            "type": "text",
+            "data": "Pulls"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Pulls",
+                "uuid": "90833dd1-a8d1-462b-bf37-a15497d3d9be",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Rods"
+        },
+        {
+            "type": "text",
+            "data": "Rods"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Rods",
+                "uuid": "d94f56da-9459-4c49-a1d4-d789ed1feccd",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Sliding Door Rails"
+        },
+        {
+            "type": "text",
+            "data": "Sliding Door Rails"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Sliding Door Rails",
+                "uuid": "e5520c90-c7af-4a21-baf3-981137acf036",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Sliding Door Rollers"
+        },
+        {
+            "type": "text",
+            "data": "Sliding Door Rollers"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Sliding Door Rollers",
+                "uuid": "408d43f3-0f87-45b4-8970-7a954d3dc179",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Wire Baskets"
+        },
+        {
+            "type": "text",
+            "data": "Wire Baskets"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Wire Baskets",
+                "uuid": "2e9f4b07-13cc-4112-b097-9ba0ad2d210d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\SLMMRB_Alias.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

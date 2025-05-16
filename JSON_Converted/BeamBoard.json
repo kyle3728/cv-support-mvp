@@ -1,0 +1,17 @@
+{
+    "id": "120ad1b9-4ab4-4d47-83ea-f87ecb69b665",
+    "title": "BeamBoard",
+    "content": [
+        {
+            "type": "text",
+            "data": "BeamBoard"
+        },
+        {
+            "type": "text",
+            "data": "Saw link to create Beamboard XML"
+        }
+    ],
+    "source_file": "NCEnglish\\Ribbonbar\\Main_Tab\\Machine\\NC_Links\\Saw_Links\\BeamBoard.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

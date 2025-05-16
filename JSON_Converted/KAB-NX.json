@@ -1,0 +1,103 @@
+{
+    "id": "7c5ba3b2-261a-4891-bde2-406ab0b364ad",
+    "title": "KAB-NX",
+    "content": [
+        {
+            "type": "text",
+            "data": "KAB-NX"
+        },
+        {
+            "type": "text",
+            "data": "To use the KAB-NX CAD Import Link you will need to get the Import Link License added to your License by from your local S2M CENTER supplier."
+        },
+        {
+            "type": "text",
+            "data": "If you are using KAB-NX to create the DXF files you want to process in the S2M CENTERthen this is the Scheme you need to have selected prior to importing KAB-NX DXF files."
+        },
+        {
+            "type": "image",
+            "data": "image264.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "When you output your DXF's from KAB-NX it will create a  JobName .txt file which is what you would use to Import the DXF files into the S2M CENTER. Simply change the File Type in the Open Dialog to KAB-NX (*.txt)."
+        },
+        {
+            "type": "image",
+            "data": "image268.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Following is the format for the KAB-NX Part List text file."
+        },
+        {
+            "type": "text",
+            "data": "KAB-NX Part List"
+        },
+        {
+            "type": "text",
+            "data": "JobName.txt File Structure"
+        },
+        {
+            "type": "text",
+            "data": "Typical Part Entry"
+        },
+        {
+            "type": "text",
+            "data": "End_Left_0_f.dxf ,  End_Left ,  12 ,  30 ,  0.75 ,  3/4 Melamine ,\n     1 ,  1 ,  1 ,  0 ,  F"
+        },
+        {
+            "type": "text",
+            "data": "Field Contents"
+        },
+        {
+            "type": "text",
+            "data": "1  DXF filename"
+        },
+        {
+            "type": "text",
+            "data": "2  Part description"
+        },
+        {
+            "type": "text",
+            "data": "3  Part width (x)"
+        },
+        {
+            "type": "text",
+            "data": "4  Part length (y)"
+        },
+        {
+            "type": "text",
+            "data": "5  Part thickness (zz)"
+        },
+        {
+            "type": "text",
+            "data": "6  Part material name"
+        },
+        {
+            "type": "text",
+            "data": "7  Cabinet or unit number"
+        },
+        {
+            "type": "text",
+            "data": "8  Quantity to be generated"
+        },
+        {
+            "type": "text",
+            "data": "9  Rotation flag (0=no 1=yes)"
+        },
+        {
+            "type": "text",
+            "data": "10  Part Mirrored (0=no 1=yes)"
+        },
+        {
+            "type": "text",
+            "data": "11  Part Face (F=Front B=Back )"
+        }
+    ],
+    "source_file": "NCEnglish\\Ribbonbar\\Main_Tab\\Import_DXF\\Other_CAD_Importers\\KAB-NX.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

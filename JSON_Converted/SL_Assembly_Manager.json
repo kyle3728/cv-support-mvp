@@ -1,0 +1,204 @@
+{
+    "id": "e4cbc02a-f458-4c6d-8725-3c8322a55d94",
+    "title": "SL_Assembly_Manager",
+    "content": [
+        {
+            "type": "text",
+            "data": "Assembly Manager"
+        },
+        {
+            "type": "image",
+            "data": "image1861.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Assembly Manager is the utility that you will use to \"teach\" CABINET VISION the manner in which you build your Assemblies. The following  Assembly Types can be configured here:"
+        },
+        {
+            "type": "text",
+            "data": "Assembly \u00a0-  Includes both Cabinets and Closets \n Drawer Box - Roll Out \u00a0-\u00a0 Includes both Drawers and Roll Outs"
+        },
+        {
+            "type": "text",
+            "data": "Assembly \u00a0-  Includes both Cabinets and Closets"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Assembly",
+                "uuid": "8b8eb538-238e-4e6c-a59e-e983c45e0d0f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Drawer Box - Roll Out \u00a0-\u00a0 Includes both Drawers and Roll Outs"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Drawer Box - Roll Out",
+                "uuid": "0ce090fb-3d1d-400c-bbed-a30c2e8f2fa7",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "The answers that you give to the questions in this area will create a set of rules that your Assemblies will follow when they are constructed. If you have a situation where you need a specific Job, Room, or even an Assembly to follow a different set of rules, there are several ways that you can make changes to each of those levels. Therefore, the set of rules that you create in the Assembly Manager should reflect the \"normal\" manner in which Assemblies of this type are built."
+        },
+        {
+            "type": "text",
+            "data": "You are not limited to a certain number of different Construction Methods, therefore, you may create as many different Construction Methods as you may need to cover all the types of construction that you use."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Ribbonbar"
+        },
+        {
+            "type": "image",
+            "data": "image497.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Following are the options available in the Assembly Manager ribbonbar."
+        },
+        {
+            "type": "text",
+            "data": "Return"
+        },
+        {
+            "type": "image",
+            "data": "image135.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Closes the Assembly Manager and returns you to the CABINET VISION opening screen."
+        },
+        {
+            "type": "text",
+            "data": "New"
+        },
+        {
+            "type": "image",
+            "data": "image136.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option is used\u00a0to create a new Construction Method."
+        },
+        {
+            "type": "text",
+            "data": "Copy"
+        },
+        {
+            "type": "image",
+            "data": "image137.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option is u sed to copy the current Construction Method."
+        },
+        {
+            "type": "text",
+            "data": "Rename"
+        },
+        {
+            "type": "image",
+            "data": "image138.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option is u sed to\u00a0rename the current Construction Method."
+        },
+        {
+            "type": "text",
+            "data": "Delete"
+        },
+        {
+            "type": "image",
+            "data": "image139.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option is u sed to delete the current Construction Method.."
+        },
+        {
+            "type": "text",
+            "data": "Assembly Type Selector"
+        },
+        {
+            "type": "image",
+            "data": "image498.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option is used to select the Assembly Type you want to work with. There are three options here:"
+        },
+        {
+            "type": "text",
+            "data": "Assembly \u00a0-  Used to define Cabinet and Closet Construction Methods."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Assembly",
+                "uuid": "8b8eb538-238e-4e6c-a59e-e983c45e0d0f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Drawer Box - Roll Out \u00a0-  Used to define Drawer and Roll Out Construction Methods."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Drawer Box - Roll Out",
+                "uuid": "0ce090fb-3d1d-400c-bbed-a30c2e8f2fa7",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Construction Method Selector"
+        },
+        {
+            "type": "image",
+            "data": "image499.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option is used to select which of your Construction Methods you want to edit."
+        },
+        {
+            "type": "text",
+            "data": "Modify"
+        },
+        {
+            "type": "image",
+            "data": "image143.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Used to modify\u00a0the selected Part/Branch."
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\System_Level\\Ribbonbar\\Main_Tab\\Construction_Group\\Assembly_Manager\\SL_Assembly_Manager.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

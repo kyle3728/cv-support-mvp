@@ -1,0 +1,58 @@
+{
+    "id": "5ab547a4-2bff-44be-bb22-472927537e82",
+    "title": "Top_Rail",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top Rail"
+        },
+        {
+            "type": "text",
+            "data": "This is where you configure the scenarios where aTop Rail Connects to Parts."
+        },
+        {
+            "type": "image",
+            "data": "image873.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The following diagramshow the Connections available for the Top Rail."
+        },
+        {
+            "type": "image",
+            "data": "image874.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Top Rail - End Stile (Standard #755)"
+        },
+        {
+            "type": "image",
+            "data": "image875.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Top Rail - Mid Stile (Standard #756)"
+        },
+        {
+            "type": "image",
+            "data": "image876.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Top Rail - Top (Standard #763)"
+        },
+        {
+            "type": "image",
+            "data": "image877.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Cabinetmaker\\System_Level\\Ribbonbar\\Main_Tab\\Construction_Group\\Assembly_Manager\\Assembly\\Branches\\Connection\\Top_Rail.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

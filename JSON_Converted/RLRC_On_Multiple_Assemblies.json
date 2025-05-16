@@ -1,0 +1,104 @@
+{
+    "id": "25717f38-1ad9-4bfe-a52c-610628e21023",
+    "title": "RLRC_On_Multiple_Assemblies",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top \n > \n \n \n Room Level \n > \n \n Right Click Options \n > \n \n Right Click on Multiple Assemblies"
+        },
+        {
+            "type": "text",
+            "data": "Top \n >"
+        },
+        {
+            "type": "text",
+            "data": "Room Level \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Room Level",
+                "uuid": "9eaa492c-0405-4da7-8e0f-a6ff4e047890",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Right Click Options \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Right Click Options",
+                "uuid": "3ea2c40b-e3fc-4eac-9114-cf8a3365c62a",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Right Click on Multiple Assemblies"
+        },
+        {
+            "type": "text",
+            "data": "Right Click on Multiple Assemblies"
+        },
+        {
+            "type": "text",
+            "data": "Right Click On Multiple Assemblies -"
+        },
+        {
+            "type": "image",
+            "data": "image70.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image71.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There are 4 Options when right clicking on multiple Assemblies in Plan and/or Elevation View:"
+        },
+        {
+            "type": "image",
+            "data": "image1203.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Equalize Widths"
+        },
+        {
+            "type": "text",
+            "data": "This option will Equalize the Widths of the selected Objects."
+        },
+        {
+            "type": "text",
+            "data": "Combine"
+        },
+        {
+            "type": "text",
+            "data": "This option will Combine the selected Assemblies into one Assembly."
+        },
+        {
+            "type": "text",
+            "data": "Delete"
+        },
+        {
+            "type": "text",
+            "data": "This option will Delete the selected Objects."
+        },
+        {
+            "type": "text",
+            "data": "Move"
+        },
+        {
+            "type": "text",
+            "data": "This option will allow you to Move the selected Objects"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Room_Level\\Right_Click_Options\\RLRC_On_Multiple_Assemblies.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

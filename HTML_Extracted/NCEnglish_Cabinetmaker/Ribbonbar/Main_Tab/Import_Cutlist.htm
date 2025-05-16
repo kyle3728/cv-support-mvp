@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head><link rel="stylesheet" type="text/css" href="../../_rhdefault.css"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=WINDOWS-1252"/>
+  <meta name="generator" content="Adobe RoboHelp 2020"/>
+  <title>Import Cutlist</title>
+  <link rel="StyleSheet" href="../../assets/css/default.css" type="text/css"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/><script type="text/javascript" src="../../ehlpdhtm.js"></script></head>
+<body>
+  <h1><img src="../../assets/images/image85.png"/> Import Cutlist</h1>
+  <p>Import Cutlist allows you to bring in a list of Parts in a CSV format for Nesting/Optimization. You can use your favorite spreadsheet application or design application to create a CSV that can be imported directly into the S2M Center.</p>
+  <p>This utility examines the text file that you are importing and helps you ensure that the data is imported in the way that you want. You can use this Utility to define what each field in your Text file represents so it is imported properly.</p>
+  <p><img alt="" border="0" src="../../assets/images/image498.gif" style="border: none;"/></p>
+  <h2>Toolbar</h2>
+  <p>There are four options in the toolbar:</p>
+  <p><img alt="" border="0" src="../../assets/images/image85.gif" style="border: none;"/></p>
+  <h3 style="margin-left: 40px;"><img alt="" border="0" src="../../assets/images/image86.gif" style="border: none;"/> Select Configuration</h3>
+  <p style="margin-left: 40px;">Allows you to select which of your Saved data field configurations to use.</p>
+  <h3 style="margin-left: 40px;"><img alt="" border="0" src="../../assets/images/image87.gif" style="border: none;"/> Save</h3>
+  <p style="margin-left: 40px;">Allows you to Save the current configuration for re-use.</p>
+  <h3 style="margin-left: 40px;"><img alt="" border="0" src="../../assets/images/image88.gif" style="border: none;"/> Rename</h3>
+  <p style="margin-left: 40px;">Allows you to rename the currently selected configuration.</p>
+  <h3 style="margin-left: 40px;"><img alt="" border="0" src="../../assets/images/image90.gif" style="border: none;"/> Delete</h3>
+  <p style="margin-left: 40px;">Allows you to delete the currently selected configuration.</p>
+  <h2>General Options</h2>
+  <p>There are four general options available to configure your Text file:</p>
+  <p><img alt="" border="0" src="../../assets/images/image499.gif" style="border: none;"/></p>
+  <p><span style="font-weight: bold;">Fields -</span> This option allows you to establish how the fields in the Text file are defined. <span style="margin-left: 40px;">If items in the text file are separated by tabs, colons, semicolons, spaces, or other characters, select Delimited; then select what the delimiter is (Tab, Comma, Semicolon, Space, Other).</span> If all of the items in each column are the same length, select Fixed width.</p>
+  <p><span style="font-weight: bold;">Text Qualifier -</span> Select the character that encloses values in your text file. When Solid encounters the text qualifier character, all of the text that follows that character and precedes the next occurrence of that character is imported as one value, even if the text contains a delimiter character. For example, if the delimiter is a comma (,) and the text qualifier is a quotation mark (&quot;), &quot;Tuscaloosa, Alabama&quot; is imported into one field as Tuscaloosa, Alabama.</p>
+  <p><span style="font-weight: bold;">Dimensions -</span> Select whether the file you are importing is Inches or Metric.</p>
+  <p><span style="font-weight: bold;">Start Import at Line -</span> Type or select a line number to specify the first line of the data that you want to import.</p>
+  <h2>Import Preview Area</h2>
+  <p><img alt="" border="0" src="../../assets/images/image503.gif" style="border: none;"/></p>
+  <p>In this area you will see all of the columns that the S2M Optimizer has available for your Text file. Click the column header of the column(s) that you do not want Ignored and set its type. There are eleven options:</p>
+  <p><img alt="" border="0" src="../../assets/images/image93.gif" style="border: none;"/></p>
+  <p><span style="font-weight: bold;">Ignore -</span> Will ignore this column when importing.</p>
+  <p><span style="font-weight: bold;">Name -</span> The Part&#39;s Name/Description.</p>
+  <p><span style="font-weight: bold;">Width -</span> The Part&#39;s Width.</p>
+  <p><span style="font-weight: bold;">Length -</span> The Part&#39;s Length.</p>
+  <p><span style="font-weight: bold;">Thickness -</span> The Part&#39;s Thickness.</p>
+  <p><span style="font-weight: bold;">Quantity -</span> The Part&#39;s Quantity.</p>
+  <p><span style="font-weight: bold;">Material -</span> The Material the Part will be cut from.</p>
+  <p><span style="font-weight: bold;">Grain -</span> Establishes if the Part is Grained or not.</p>
+  <p><span style="font-weight: bold;">Assembly -</span> The Name/Description of the Assembly the Part is used in.</p>
+  <p><span style="font-weight: bold;">Assembly Number -</span> The Assembly Number of the Assembly the Part is used in.</p>
+  <p><span style="font-weight: bold;">Banding -</span> The <a href="../Utilities_Tab/Label-IT_Setup/Designing_Label-IT_Labels.htm#Banding_Flag">Banding Flag</a> for the Part. The Banding Flag should only include Banding Codes you have defined either in your design package (typically upper case letters) or within the S2M Center Material Catalog (lower case letters). 0 (zero) would equal an Edge with no Banding.</p>
+
+</body></html>

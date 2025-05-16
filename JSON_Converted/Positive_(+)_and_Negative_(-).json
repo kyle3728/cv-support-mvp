@@ -1,0 +1,95 @@
+{
+    "id": "64c51c6d-41bb-4c01-b6bd-3fad3d4ef8c7",
+    "title": "Positive_(+)_and_Negative_(-)",
+    "content": [
+        {
+            "type": "text",
+            "data": "Positive (+) and Negative (-)"
+        },
+        {
+            "type": "text",
+            "data": "With the AX, AY, & AZ parameters, if you are  facing the reference point , a positive number will rotate the object counter clockwise and a negative number will rotate the object clockwise."
+        },
+        {
+            "type": "text",
+            "data": "Facing the Reference Point"
+        },
+        {
+            "type": "image",
+            "data": "ebd_Ebd8.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "It is important to know how to face the reference point so you will know if you need to enter a positive amount or negative amount to cause the Part to rotate in the correct direction."
+        },
+        {
+            "type": "text",
+            "data": "Notice the graphic above, notice also the X, Y, and Z-axis; say you wanted to rotate this Part toward you so that the face of the Part was facing down. It would be the X-axis that would act like a hinge, so that the Part could lay face down. To know if we needed to enter a positive amount, or a negative amount, to lay this Part face down. We would have to face the reference point. So we must look down the X-axis toward the \"Reference point\". In order to look down the X-axis toward the \"Reference Point\" we will have to look at the Part from a right side view. Or visualize that we are looking at the Part from a right side view. Looking at it this way we would have to enter a positive amount for the Part to lay face down, or a negative amount if we wanted the Part to lay face up."
+        },
+        {
+            "type": "text",
+            "data": "Ortho View"
+        },
+        {
+            "type": "text",
+            "data": "You can look at the Part in a right side view by going to what is called an \"Ortho\" view."
+        },
+        {
+            "type": "image",
+            "data": "image181.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image182.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image183.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Right click on an Assembly and select \"Edit\". Once you are at the  Assembly Level  click on the right side \"Ortho\" view, using the \"View\" buttons across the top of your screen. The views are as follows: Face View, Top View, and Right Side View."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Assembly Level",
+                "uuid": "b0552ea2-b430-4836-aa5e-42dfd04f9eda",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Say you wanted to tip this Part to the right so that the top of this Part faced to the right. It would be the Z-axis that would act like a hinge, so that the Part could rotate to the right. To know if we needed to enter a positive amount, or a negative amount, we would have to face the reference point. So we must look down the Z-axis toward the \"Reference point\". In order to look down the Z-axis toward the \"Reference Point\" we will have to look at the Part from a front view. Or visualize that we are looking at the Part from a front view. Looking at it this way we would have to enter a negatives amount for the Part to tip to the right or a positive amount if we wanted the Part to tip to the left."
+        },
+        {
+            "type": "text",
+            "data": "Say you wanted to rotate this Part so that the face of the Part was facing to the left. It would be the Y-axis that would act like a hinge, so that the Part could face toward the left. To know if we needed to enter a positive amount, or a negative amount, we would have to face the reference point. So we must look down the Y-axis toward the \"Reference point\". In order to look down the Y-axis toward the \"Reference Point\" we will have to look at the Part from a top view. Or visualize that we are looking at the Part from a top view. Looking at it this way we would have to enter a negative amount for the Part to turn to the left or a positive amount if we wanted the Part to turn to the right."
+        },
+        {
+            "type": "text",
+            "data": "The dimensions of a Part do not change when a Part is rotated. No matter how a Part is rotated, the DX of a Part is always the width, the DY of a Part is always the length, and the DZ of a Part is always the thickness. It's just like if you picked up a board from your shop and you turned it different ways, the length (DY) of that board would always be the length no matter what direction the board was pointed it in."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The X, Y, and Z-axis do not change when a Part is rotated. In other words just because a Part is rotated the X is still left and right, the Y is still up and down, and the Z is still front to back, if the Part is in reference to an Assembly."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\Parametric_Editing\\Intelligence_Workshop\\The_Basics\\Positive_(+)_and_Negative_(-).htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

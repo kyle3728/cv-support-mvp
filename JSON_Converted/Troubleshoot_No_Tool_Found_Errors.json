@@ -1,0 +1,54 @@
+{
+    "id": "678684e4-5bcf-419b-a499-8108fd235955",
+    "title": "Troubleshoot_No_Tool_Found_Errors",
+    "content": [
+        {
+            "type": "text",
+            "data": "Troubleshoot No Tool Found Errors"
+        },
+        {
+            "type": "image",
+            "data": "Machining.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Why am I getting this message after I Optimize saying, \"No Tool found for dado or bore...\"?"
+        },
+        {
+            "type": "text",
+            "data": "For Line Boring:"
+        },
+        {
+            "type": "text",
+            "data": "Make sure the diameter of a Tool in the Tool Catalog is an exact Diameter match for the Operation. If you defined the Operation in millimeters make sure you also define the Tool in the Tool Catalog in millimeters and vice versa."
+        },
+        {
+            "type": "text",
+            "data": "Make sure the Vertical Drill tool in the Tool Catalog is assigned to the Machine you are using in the S2M CENTER. The safest assignment is N/A which means any Machine defined in the Machine Catalog can utilize the Tool."
+        },
+        {
+            "type": "text",
+            "data": "Make sure there is a valid Tool in the Tool Catalog available for this operation."
+        },
+        {
+            "type": "text",
+            "data": "For Dadoes:"
+        },
+        {
+            "type": "text",
+            "data": "Make sure the width of the Dado is not smaller than the width of the smallest diameter Flat Router bit in the Tool Catalog."
+        },
+        {
+            "type": "text",
+            "data": "Make sure the Flat Router bit in the Tool Catalog is assigned to the Machine you are using in the S2M CENTER. The safest assignment is N/A which means any Machine defined in the Machine Catalog can utilize the Tool."
+        },
+        {
+            "type": "text",
+            "data": "Make sure there is a valid Tool in the Tool Catalog available for this operation."
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\FAQs\\HDI-CNC\\Troubleshoot_No_Tool_Found_Errors.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

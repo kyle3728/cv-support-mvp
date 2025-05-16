@@ -1,0 +1,717 @@
+{
+    "id": "e553d4be-b00b-406b-9e19-714756fc5959",
+    "title": "Create_a_Roll_Out_Butcher_Block",
+    "content": [
+        {
+            "type": "text",
+            "data": "Create a Roll Out Butcher Block"
+        },
+        {
+            "type": "text",
+            "data": "I want to do Roll-Out butcher blocks with flip down drawers on one of my Cabinets; what is the best way to achieve this?"
+        },
+        {
+            "type": "text",
+            "data": "From the Solid Splash Screen g o to the  Material Manager ."
+        },
+        {
+            "type": "text",
+            "data": "From the Solid Splash Screen g o to the  Material Manager ."
+        },
+        {
+            "type": "text",
+            "data": "From the Solid Splash Screen g o to the  Material Manager ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Material Manager",
+                "uuid": "2fed939d-ba55-4f35-94da-993f0e1b392e",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Go to the  Texture Manager . \n \n \n Go to the Search box and search for Butcher Block. \n \n \n Make sure the \"Decal\" option is enabled. \n \n \n Make sure Tile option is enabled. \n \n \n Set both the Width and Height to 24\" (610mm). \n \n \n \n \n Click OK to exit the Texture Manager. \n \n \n Modify a Board Stock Material you are not using to the following. \n \n \n For the Material name type Butcher Block. \n \n \n With the Butcher Block Material selected go to the Size tab and give it a thickness of 1.5\" (38.1mm). \n \n \n Go to the Finishes tab and verify that the Face/Back/Edge/End Finishes are set to Automatic. \n \n \n Go to the Textures tab and set the Face, Back, Edges, and Ends to Butcher Block. \n \n \n \n \n Modify a Drawer Guide Material you are not using to the following. \n \n \n For the Material Name type Butcher Block. \n \n \n Go to the Guide tab and verify the Type is Side Mount. \n \n \n Make the Length 22\" (550mm). \n \n \n Make the Extension 22\" (550mm). \n \n \n Go to the Clearance tab and enter the required \u201cSide Clearance\u201d for your Drawer Guide. \n \n \n Enter 3 (76mm) for the Minimum Below Box. \n \n \n Enter \u00be (19mm) for the Minimum Above Box. \n \n \n \n \n Close the Material Manager and go to the Material Schedule Manager."
+        },
+        {
+            "type": "text",
+            "data": "Go to the  Texture Manager ."
+        },
+        {
+            "type": "text",
+            "data": "Go to the  Texture Manager ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Texture Manager",
+                "uuid": "aa224566-2adf-4eb7-a169-5b2371d5571d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Go to the Search box and search for Butcher Block. \n \n \n Make sure the \"Decal\" option is enabled. \n \n \n Make sure Tile option is enabled. \n \n \n Set both the Width and Height to 24\" (610mm)."
+        },
+        {
+            "type": "text",
+            "data": "Go to the Search box and search for Butcher Block."
+        },
+        {
+            "type": "text",
+            "data": "Make sure the \"Decal\" option is enabled. \n \n \n Make sure Tile option is enabled. \n \n \n Set both the Width and Height to 24\" (610mm)."
+        },
+        {
+            "type": "text",
+            "data": "Make sure the \"Decal\" option is enabled."
+        },
+        {
+            "type": "text",
+            "data": "Make sure the \"Decal\" option is enabled."
+        },
+        {
+            "type": "text",
+            "data": "Make sure Tile option is enabled."
+        },
+        {
+            "type": "text",
+            "data": "Make sure Tile option is enabled."
+        },
+        {
+            "type": "text",
+            "data": "Set both the Width and Height to 24\" (610mm)."
+        },
+        {
+            "type": "text",
+            "data": "Set both the Width and Height to 24\" (610mm)."
+        },
+        {
+            "type": "text",
+            "data": "Click OK to exit the Texture Manager."
+        },
+        {
+            "type": "text",
+            "data": "Click OK to exit the Texture Manager."
+        },
+        {
+            "type": "text",
+            "data": "Modify a Board Stock Material you are not using to the following. \n \n \n For the Material name type Butcher Block. \n \n \n With the Butcher Block Material selected go to the Size tab and give it a thickness of 1.5\" (38.1mm). \n \n \n Go to the Finishes tab and verify that the Face/Back/Edge/End Finishes are set to Automatic. \n \n \n Go to the Textures tab and set the Face, Back, Edges, and Ends to Butcher Block."
+        },
+        {
+            "type": "text",
+            "data": "Modify a Board Stock Material you are not using to the following."
+        },
+        {
+            "type": "text",
+            "data": "For the Material name type Butcher Block. \n \n \n With the Butcher Block Material selected go to the Size tab and give it a thickness of 1.5\" (38.1mm). \n \n \n Go to the Finishes tab and verify that the Face/Back/Edge/End Finishes are set to Automatic. \n \n \n Go to the Textures tab and set the Face, Back, Edges, and Ends to Butcher Block."
+        },
+        {
+            "type": "text",
+            "data": "For the Material name type Butcher Block."
+        },
+        {
+            "type": "text",
+            "data": "For the Material name type Butcher Block."
+        },
+        {
+            "type": "text",
+            "data": "With the Butcher Block Material selected go to the Size tab and give it a thickness of 1.5\" (38.1mm)."
+        },
+        {
+            "type": "text",
+            "data": "With the Butcher Block Material selected go to the Size tab and give it a thickness of 1.5\" (38.1mm)."
+        },
+        {
+            "type": "text",
+            "data": "Go to the Finishes tab and verify that the Face/Back/Edge/End Finishes are set to Automatic."
+        },
+        {
+            "type": "text",
+            "data": "Go to the Finishes tab and verify that the Face/Back/Edge/End Finishes are set to Automatic."
+        },
+        {
+            "type": "text",
+            "data": "Go to the Textures tab and set the Face, Back, Edges, and Ends to Butcher Block."
+        },
+        {
+            "type": "text",
+            "data": "Go to the Textures tab and set the Face, Back, Edges, and Ends to Butcher Block."
+        },
+        {
+            "type": "text",
+            "data": "Modify a Drawer Guide Material you are not using to the following. \n \n \n For the Material Name type Butcher Block. \n \n \n Go to the Guide tab and verify the Type is Side Mount. \n \n \n Make the Length 22\" (550mm). \n \n \n Make the Extension 22\" (550mm). \n \n \n Go to the Clearance tab and enter the required \u201cSide Clearance\u201d for your Drawer Guide. \n \n \n Enter 3 (76mm) for the Minimum Below Box. \n \n \n Enter \u00be (19mm) for the Minimum Above Box."
+        },
+        {
+            "type": "text",
+            "data": "Modify a Drawer Guide Material you are not using to the following."
+        },
+        {
+            "type": "text",
+            "data": "For the Material Name type Butcher Block. \n \n \n Go to the Guide tab and verify the Type is Side Mount. \n \n \n Make the Length 22\" (550mm). \n \n \n Make the Extension 22\" (550mm). \n \n \n Go to the Clearance tab and enter the required \u201cSide Clearance\u201d for your Drawer Guide. \n \n \n Enter 3 (76mm) for the Minimum Below Box. \n \n \n Enter \u00be (19mm) for the Minimum Above Box."
+        },
+        {
+            "type": "text",
+            "data": "For the Material Name type Butcher Block."
+        },
+        {
+            "type": "text",
+            "data": "For the Material Name type Butcher Block."
+        },
+        {
+            "type": "text",
+            "data": "Go to the Guide tab and verify the Type is Side Mount."
+        },
+        {
+            "type": "text",
+            "data": "Go to the Guide tab and verify the Type is Side Mount."
+        },
+        {
+            "type": "text",
+            "data": "Make the Length 22\" (550mm)."
+        },
+        {
+            "type": "text",
+            "data": "Make the Length 22\" (550mm)."
+        },
+        {
+            "type": "text",
+            "data": "Make the Extension 22\" (550mm)."
+        },
+        {
+            "type": "text",
+            "data": "Make the Extension 22\" (550mm)."
+        },
+        {
+            "type": "text",
+            "data": "Go to the Clearance tab and enter the required \u201cSide Clearance\u201d for your Drawer Guide."
+        },
+        {
+            "type": "text",
+            "data": "Go to the Clearance tab and enter the required \u201cSide Clearance\u201d for your Drawer Guide."
+        },
+        {
+            "type": "text",
+            "data": "Enter 3 (76mm) for the Minimum Below Box."
+        },
+        {
+            "type": "text",
+            "data": "Enter 3 (76mm) for the Minimum Below Box."
+        },
+        {
+            "type": "text",
+            "data": "Enter \u00be (19mm) for the Minimum Above Box."
+        },
+        {
+            "type": "text",
+            "data": "Enter \u00be (19mm) for the Minimum Above Box."
+        },
+        {
+            "type": "text",
+            "data": "Close the Material Manager and go to the Material Schedule Manager."
+        },
+        {
+            "type": "text",
+            "data": "Close the Material Manager and go to the Material Schedule Manager."
+        },
+        {
+            "type": "text",
+            "data": "Go to the Roll Out Material Schedules. \n \n \n Create a new Roll Out Material Schedule and name it Butcher Block. \n \n \n F or the Roll Out Back, Front, Laminate and Sides select the None Material from the Banding Material Group. \n \n \n For the Roll Out Bottom select the Butcher Block Material from the Material Group where you created it. \n \n \n \n \n Go to the Drawer Guide Material Schedules and create a new Drawer Guide Schedule and name it B Block Guide. \n \n \n For Drawer Guide and Roll Out Shelf Guide leave the MATERIAL NOT ASSIGNED selection. \n \n \n For Roll Out Guide select the Butcher Block Guide you created. \n \n \n \n \n Exit the Material Schedule Manager. \n \n \n Go to the  Door Catalog ."
+        },
+        {
+            "type": "text",
+            "data": "Go to the Roll Out Material Schedules."
+        },
+        {
+            "type": "text",
+            "data": "Go to the Roll Out Material Schedules."
+        },
+        {
+            "type": "text",
+            "data": "Create a new Roll Out Material Schedule and name it Butcher Block. \n \n \n F or the Roll Out Back, Front, Laminate and Sides select the None Material from the Banding Material Group. \n \n \n For the Roll Out Bottom select the Butcher Block Material from the Material Group where you created it."
+        },
+        {
+            "type": "text",
+            "data": "Create a new Roll Out Material Schedule and name it Butcher Block."
+        },
+        {
+            "type": "text",
+            "data": "F or the Roll Out Back, Front, Laminate and Sides select the None Material from the Banding Material Group. \n \n \n For the Roll Out Bottom select the Butcher Block Material from the Material Group where you created it."
+        },
+        {
+            "type": "text",
+            "data": "F or the Roll Out Back, Front, Laminate and Sides select the None Material from the Banding Material Group."
+        },
+        {
+            "type": "text",
+            "data": "F or the Roll Out Back, Front, Laminate and Sides select the None Material from the Banding Material Group."
+        },
+        {
+            "type": "text",
+            "data": "For the Roll Out Bottom select the Butcher Block Material from the Material Group where you created it."
+        },
+        {
+            "type": "text",
+            "data": "For the Roll Out Bottom select the Butcher Block Material from the Material Group where you created it."
+        },
+        {
+            "type": "text",
+            "data": "Go to the Drawer Guide Material Schedules and create a new Drawer Guide Schedule and name it B Block Guide. \n \n \n For Drawer Guide and Roll Out Shelf Guide leave the MATERIAL NOT ASSIGNED selection. \n \n \n For Roll Out Guide select the Butcher Block Guide you created."
+        },
+        {
+            "type": "text",
+            "data": "Go to the Drawer Guide Material Schedules and create a new Drawer Guide Schedule and name it B Block Guide."
+        },
+        {
+            "type": "text",
+            "data": "For Drawer Guide and Roll Out Shelf Guide leave the MATERIAL NOT ASSIGNED selection. \n \n \n For Roll Out Guide select the Butcher Block Guide you created."
+        },
+        {
+            "type": "text",
+            "data": "For Drawer Guide and Roll Out Shelf Guide leave the MATERIAL NOT ASSIGNED selection."
+        },
+        {
+            "type": "text",
+            "data": "For Drawer Guide and Roll Out Shelf Guide leave the MATERIAL NOT ASSIGNED selection."
+        },
+        {
+            "type": "text",
+            "data": "For Roll Out Guide select the Butcher Block Guide you created."
+        },
+        {
+            "type": "text",
+            "data": "For Roll Out Guide select the Butcher Block Guide you created."
+        },
+        {
+            "type": "text",
+            "data": "Exit the Material Schedule Manager."
+        },
+        {
+            "type": "text",
+            "data": "Exit the Material Schedule Manager."
+        },
+        {
+            "type": "text",
+            "data": "Go to the  Door Catalog ."
+        },
+        {
+            "type": "text",
+            "data": "Go to the  Door Catalog ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Door Catalog",
+                "uuid": "2da09610-ccab-42a9-a5ce-4ad5fa83394a",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Click the Select a Door Style tool and select the Drawer Front you use most often. \n \n \n Click the Copy Current Door Style tool. \n \n \n Name it Flip Down Drawer."
+        },
+        {
+            "type": "text",
+            "data": "Click the Select a Door Style tool and select the Drawer Front you use most often."
+        },
+        {
+            "type": "text",
+            "data": "Click the Select a Door Style tool and select the Drawer Front you use most often."
+        },
+        {
+            "type": "text",
+            "data": "Click the Copy Current Door Style tool."
+        },
+        {
+            "type": "text",
+            "data": "Click the Copy Current Door Style tool."
+        },
+        {
+            "type": "text",
+            "data": "Name it Flip Down Drawer."
+        },
+        {
+            "type": "text",
+            "data": "Name it Flip Down Drawer."
+        },
+        {
+            "type": "text",
+            "data": "Click Close to Exit the Door Catalog Editor. \n \n \n Go to  Assembly Manager - Drawers ."
+        },
+        {
+            "type": "text",
+            "data": "Click Close to Exit the Door Catalog Editor."
+        },
+        {
+            "type": "text",
+            "data": "Click Close to Exit the Door Catalog Editor."
+        },
+        {
+            "type": "text",
+            "data": "Go to  Assembly Manager - Drawers ."
+        },
+        {
+            "type": "text",
+            "data": "Go to  Assembly Manager - Drawers ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Assembly Manager - Drawers",
+                "uuid": "0ce090fb-3d1d-400c-bbed-a30c2e8f2fa7",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Create a new Roll Out named Butcher Block."
+        },
+        {
+            "type": "text",
+            "data": "Create a new Roll Out named Butcher Block."
+        },
+        {
+            "type": "text",
+            "data": "Create a new Roll Out named Butcher Block."
+        },
+        {
+            "type": "text",
+            "data": "Double click the General option. \n \n \n Set Standard #003 to a Height of 1.5. \n \n \n \n \n Double click the Bottom option. \n \n \n Set Standard #010 to \"Flush to Bottom\". \n \n \n Set Standard #011 to \"To Outside of Roll Out Side\" with an Adjustment of 0. \n \n \n Set Standard #012 to \"To Outside of Roll Out Back\" with an Adjustment of 0. \n \n \n Set Standard #013 to \"To Outside of Roll Out Front\" with an Adjustment of 0. \n \n \n \n \n Click Close to exit the Drawer/Roll Out Wizard."
+        },
+        {
+            "type": "text",
+            "data": "Double click the General option. \n \n \n Set Standard #003 to a Height of 1.5."
+        },
+        {
+            "type": "text",
+            "data": "Double click the General option."
+        },
+        {
+            "type": "text",
+            "data": "Set Standard #003 to a Height of 1.5."
+        },
+        {
+            "type": "text",
+            "data": "Set Standard #003 to a Height of 1.5."
+        },
+        {
+            "type": "text",
+            "data": "Set Standard #003 to a Height of 1.5."
+        },
+        {
+            "type": "text",
+            "data": "Double click the Bottom option. \n \n \n Set Standard #010 to \"Flush to Bottom\". \n \n \n Set Standard #011 to \"To Outside of Roll Out Side\" with an Adjustment of 0. \n \n \n Set Standard #012 to \"To Outside of Roll Out Back\" with an Adjustment of 0. \n \n \n Set Standard #013 to \"To Outside of Roll Out Front\" with an Adjustment of 0."
+        },
+        {
+            "type": "text",
+            "data": "Double click the Bottom option."
+        },
+        {
+            "type": "text",
+            "data": "Set Standard #010 to \"Flush to Bottom\". \n \n \n Set Standard #011 to \"To Outside of Roll Out Side\" with an Adjustment of 0. \n \n \n Set Standard #012 to \"To Outside of Roll Out Back\" with an Adjustment of 0. \n \n \n Set Standard #013 to \"To Outside of Roll Out Front\" with an Adjustment of 0."
+        },
+        {
+            "type": "text",
+            "data": "Set Standard #010 to \"Flush to Bottom\"."
+        },
+        {
+            "type": "text",
+            "data": "Set Standard #010 to \"Flush to Bottom\"."
+        },
+        {
+            "type": "text",
+            "data": "Set Standard #011 to \"To Outside of Roll Out Side\" with an Adjustment of 0."
+        },
+        {
+            "type": "text",
+            "data": "Set Standard #011 to \"To Outside of Roll Out Side\" with an Adjustment of 0."
+        },
+        {
+            "type": "text",
+            "data": "Set Standard #012 to \"To Outside of Roll Out Back\" with an Adjustment of 0."
+        },
+        {
+            "type": "text",
+            "data": "Set Standard #012 to \"To Outside of Roll Out Back\" with an Adjustment of 0."
+        },
+        {
+            "type": "text",
+            "data": "Set Standard #013 to \"To Outside of Roll Out Front\" with an Adjustment of 0."
+        },
+        {
+            "type": "text",
+            "data": "Set Standard #013 to \"To Outside of Roll Out Front\" with an Adjustment of 0."
+        },
+        {
+            "type": "text",
+            "data": "Click Close to exit the Drawer/Roll Out Wizard."
+        },
+        {
+            "type": "text",
+            "data": "Click Close to exit the Drawer/Roll Out Wizard."
+        },
+        {
+            "type": "text",
+            "data": "Now Let\u2019s Test"
+        },
+        {
+            "type": "text",
+            "data": "Start a  New  Job. \n \n \n Draw a Wall and drag a Std Base Cabinet onto it. \n \n \n Double click on the Cabinet and go to Section Editor in the Section Face view. \n \n \n Click on the Drawer Front and on the sidebar change it to a False Front. \n \n \n Right click on the False Front and select Properties. \n \n \n Click the Change button and select the Flip Down Drawer and it\u2019s options and click OK to leave False Front Properties."
+        },
+        {
+            "type": "text",
+            "data": "Start a  New  Job."
+        },
+        {
+            "type": "text",
+            "data": "Start a  New  Job."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "New",
+                "uuid": "97f79ce6-a63e-47d0-8307-683c21f6052d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Draw a Wall and drag a Std Base Cabinet onto it."
+        },
+        {
+            "type": "text",
+            "data": "Draw a Wall and drag a Std Base Cabinet onto it."
+        },
+        {
+            "type": "text",
+            "data": "Double click on the Cabinet and go to Section Editor in the Section Face view."
+        },
+        {
+            "type": "text",
+            "data": "Double click on the Cabinet and go to Section Editor in the Section Face view."
+        },
+        {
+            "type": "text",
+            "data": "Click on the Drawer Front and on the sidebar change it to a False Front."
+        },
+        {
+            "type": "text",
+            "data": "Click on the Drawer Front and on the sidebar change it to a False Front."
+        },
+        {
+            "type": "text",
+            "data": "Right click on the False Front and select Properties."
+        },
+        {
+            "type": "text",
+            "data": "Right click on the False Front and select Properties."
+        },
+        {
+            "type": "text",
+            "data": "Click the Change button and select the Flip Down Drawer and it\u2019s options and click OK to leave False Front Properties."
+        },
+        {
+            "type": "text",
+            "data": "Click the Change button and select the Flip Down Drawer and it\u2019s options and click OK to leave False Front Properties."
+        },
+        {
+            "type": "text",
+            "data": "Now click on the False Front again so it is highlighted. \n \n \n On the sidebar set the Hinge to Bottom. \n \n \n You may at this point want to Right Click on the Door and go to the Pull and set a Quantity of 1 if you want a Pull. \n \n \n \n \n Click the Section Case option in the ribbonbar. \n \n \n Click in the False Front area to highlight it if you have a Drawer Stretcher otherwise click the Cabinet opening to highlight. \n \n \n Click the Split Opening Horizontal option in the ribbonbar. \n \n \n Highlight the Adjustable Shelf you just created by clicking it once. \n \n \n Change the Shelf Type in the sidebar to Roll Out Tray. \n \n \n Right click on the Roll Out and click Properties. \n \n \n Change the Roll Out Construction to Butcher Block. \n \n \n Change the Roll Out Material to Butcher Block. \n \n \n Click the Change button and select the Butcher Block Guide then click OK."
+        },
+        {
+            "type": "text",
+            "data": "Now click on the False Front again so it is highlighted."
+        },
+        {
+            "type": "text",
+            "data": "Now click on the False Front again so it is highlighted."
+        },
+        {
+            "type": "text",
+            "data": "On the sidebar set the Hinge to Bottom. \n \n \n You may at this point want to Right Click on the Door and go to the Pull and set a Quantity of 1 if you want a Pull."
+        },
+        {
+            "type": "text",
+            "data": "On the sidebar set the Hinge to Bottom."
+        },
+        {
+            "type": "text",
+            "data": "You may at this point want to Right Click on the Door and go to the Pull and set a Quantity of 1 if you want a Pull."
+        },
+        {
+            "type": "text",
+            "data": "You may at this point want to Right Click on the Door and go to the Pull and set a Quantity of 1 if you want a Pull."
+        },
+        {
+            "type": "text",
+            "data": "You may at this point want to Right Click on the Door and go to the Pull and set a Quantity of 1 if you want a Pull."
+        },
+        {
+            "type": "text",
+            "data": "Click the Section Case option in the ribbonbar."
+        },
+        {
+            "type": "text",
+            "data": "Click the Section Case option in the ribbonbar."
+        },
+        {
+            "type": "text",
+            "data": "Click in the False Front area to highlight it if you have a Drawer Stretcher otherwise click the Cabinet opening to highlight."
+        },
+        {
+            "type": "text",
+            "data": "Click in the False Front area to highlight it if you have a Drawer Stretcher otherwise click the Cabinet opening to highlight."
+        },
+        {
+            "type": "text",
+            "data": "Click the Split Opening Horizontal option in the ribbonbar."
+        },
+        {
+            "type": "text",
+            "data": "Click the Split Opening Horizontal option in the ribbonbar."
+        },
+        {
+            "type": "text",
+            "data": "Highlight the Adjustable Shelf you just created by clicking it once."
+        },
+        {
+            "type": "text",
+            "data": "Highlight the Adjustable Shelf you just created by clicking it once."
+        },
+        {
+            "type": "text",
+            "data": "Change the Shelf Type in the sidebar to Roll Out Tray."
+        },
+        {
+            "type": "text",
+            "data": "Change the Shelf Type in the sidebar to Roll Out Tray."
+        },
+        {
+            "type": "text",
+            "data": "Right click on the Roll Out and click Properties. \n \n \n Change the Roll Out Construction to Butcher Block. \n \n \n Change the Roll Out Material to Butcher Block. \n \n \n Click the Change button and select the Butcher Block Guide then click OK."
+        },
+        {
+            "type": "text",
+            "data": "Right click on the Roll Out and click Properties."
+        },
+        {
+            "type": "text",
+            "data": "Change the Roll Out Construction to Butcher Block. \n \n \n Change the Roll Out Material to Butcher Block. \n \n \n Click the Change button and select the Butcher Block Guide then click OK."
+        },
+        {
+            "type": "text",
+            "data": "Change the Roll Out Construction to Butcher Block."
+        },
+        {
+            "type": "text",
+            "data": "Change the Roll Out Construction to Butcher Block."
+        },
+        {
+            "type": "text",
+            "data": "Change the Roll Out Material to Butcher Block."
+        },
+        {
+            "type": "text",
+            "data": "Change the Roll Out Material to Butcher Block."
+        },
+        {
+            "type": "text",
+            "data": "Click the Change button and select the Butcher Block Guide then click OK."
+        },
+        {
+            "type": "text",
+            "data": "Click the Change button and select the Butcher Block Guide then click OK."
+        },
+        {
+            "type": "text",
+            "data": "Now by placing your cursor over the new Butcher Block Roll Out and clicking and dragging, slide the Roll Out up until it is just center of the Drawer opening. \n \n \n Go to the 3D Ortho view and there you have it."
+        },
+        {
+            "type": "text",
+            "data": "Now by placing your cursor over the new Butcher Block Roll Out and clicking and dragging, slide the Roll Out up until it is just center of the Drawer opening."
+        },
+        {
+            "type": "text",
+            "data": "Now by placing your cursor over the new Butcher Block Roll Out and clicking and dragging, slide the Roll Out up until it is just center of the Drawer opening."
+        },
+        {
+            "type": "text",
+            "data": "Go to the 3D Ortho view and there you have it."
+        },
+        {
+            "type": "text",
+            "data": "Go to the 3D Ortho view and there you have it."
+        },
+        {
+            "type": "text",
+            "data": "Want to save this Cabinet for future use?"
+        },
+        {
+            "type": "text",
+            "data": "Click on the Return option in the ribbonbar. \n \n \n Right Click the Cabinet and click  Save\u2026Save As  \u00a0from the pop-up menu. \n \n \n For name type in Butcher Block Cab. \n \n \n Check to make sure you are saving this Cabinet into the correct location. \n \n \n Also select the icon at the right that you want to represent this Cabinet. \n \n \n Click OK."
+        },
+        {
+            "type": "text",
+            "data": "Click on the Return option in the ribbonbar."
+        },
+        {
+            "type": "text",
+            "data": "Click on the Return option in the ribbonbar."
+        },
+        {
+            "type": "text",
+            "data": "Right Click the Cabinet and click  Save\u2026Save As  \u00a0from the pop-up menu."
+        },
+        {
+            "type": "text",
+            "data": "Right Click the Cabinet and click  Save\u2026Save As  \u00a0from the pop-up menu."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Save\u2026Save As",
+                "uuid": "be29a521-2d0f-4030-8911-87f747cacb90",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "For name type in Butcher Block Cab."
+        },
+        {
+            "type": "text",
+            "data": "For name type in Butcher Block Cab."
+        },
+        {
+            "type": "text",
+            "data": "Check to make sure you are saving this Cabinet into the correct location."
+        },
+        {
+            "type": "text",
+            "data": "Check to make sure you are saving this Cabinet into the correct location."
+        },
+        {
+            "type": "text",
+            "data": "Also select the icon at the right that you want to represent this Cabinet."
+        },
+        {
+            "type": "text",
+            "data": "Also select the icon at the right that you want to represent this Cabinet."
+        },
+        {
+            "type": "text",
+            "data": "Click OK."
+        },
+        {
+            "type": "text",
+            "data": "Click OK."
+        },
+        {
+            "type": "text",
+            "data": "This Butcher Block Cabinet will now be available for use in future Jobs."
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Tips_Tricks_&_FAQs\\FAQs\\HDI-Advanced_Features\\Create_a_Roll_Out_Butcher_Block.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

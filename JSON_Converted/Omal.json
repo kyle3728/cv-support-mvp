@@ -1,0 +1,21 @@
+{
+    "id": "3c1e09c8-8121-43bf-9e0f-0f7f64581900",
+    "title": "Omal",
+    "content": [
+        {
+            "type": "text",
+            "data": "Omal"
+        },
+        {
+            "type": "text",
+            "data": "This is a Drill and Dowel Machine Link."
+        },
+        {
+            "type": "text",
+            "data": "This output will create program files for the OMAL Drill / Dowel machines. Each program will represent one side of a part."
+        }
+    ],
+    "source_file": "NCEnglish\\Ribbonbar\\Main_Tab\\Machine\\NC_Links\\Drill_and_Dowel_Links\\Omal.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

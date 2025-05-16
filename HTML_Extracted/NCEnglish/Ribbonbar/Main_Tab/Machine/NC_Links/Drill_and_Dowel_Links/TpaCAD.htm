@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><link rel="stylesheet" type="text/css" href="../../../../../_rhdefault.css"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=WINDOWS-1252"/>
+  <meta name="generator" content="Adobe RoboHelp 2022"/>
+  <title>TpaCAD</title>
+  <meta name="topic-status" content="Draft"/>
+  <link rel="stylesheet" type="text/css" href="../../../../../assets/css/default.css"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/><script type="text/javascript" src="../../../../../ehlpdhtm.js"></script></head>
+<body>
+  <h1>TpaCAD</h1>
+  <p>This is a Drill and Dowel Machine Link.</p>
+  <p>This output will create program files for Drill and Dowel Machines using TpaCAD. The output supports Horizontal Drill / Glue / Dowel and Vertical Boring. Assign tools to this machine and to the boring operations to create output. Additional instructions such as dowel, glue, macro name, programmable depth, and tool number can be set on tools assigned to this machine in tool catalog. One program will be created per edge.</p>
+  <p>If you need to use the pocket screw attachment for this link, create a new horizontal tool, then assign it to the machine using this link, then set the Macro property to pk.tcn (this is case insenstivite). When that is done, the neccessary changes to the output will be made when the pocket screw attachment is needed.</p>
+  <h2>Tool Properties</h2>
+  <p>PSHOWTOOLPROP_ToolNumber</p>
+  <h2>Link Parameters</h2>
+  <ul class="Disc">
+    <li><strong>Add Glue - (_hmGlue) [Bool/Tool]:</strong> Add glue when using this tool</li>
+    <li><strong>Add Dowel - (_hmDowel) [Bool/Tool]:</strong> Add dowel when using this tool</li>
+    <li><strong>Macro - (_hmMacro) [String/Tool]:</strong> The macro name to use for Glue/Dowel operation: forainsert.tmcr</li>
+    <li><strong>Base zone # on Part Size - (_hmZoneOnPrtSize) [Bool/Machine]:</strong> Option to uset he smaller inside zones if the part will fit</li>
+    <li><strong>Dimension &#39;A&#39; - (_hmMaxSizeForZone) [Measurement/Machine]:</strong> Maximum size for the small zone</li>
+    <li><strong>Programmable Depth - (_hmProgDepth) [Bool/Tool]:</strong> When true, this will output operation depth for this tool, when false, depth will equal 0 </li>
+  </ul>
+
+</body></html>

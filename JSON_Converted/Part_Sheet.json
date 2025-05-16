@@ -1,0 +1,45 @@
+{
+    "id": "78d5eb93-73ca-44ab-9294-a7e2bc8205f2",
+    "title": "Part_Sheet",
+    "content": [
+        {
+            "type": "text",
+            "data": "Part Sheet"
+        },
+        {
+            "type": "image",
+            "data": "1AUALL.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image6237.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Following are the Layers that can be edited:"
+        },
+        {
+            "type": "text",
+            "data": "Annotations"
+        },
+        {
+            "type": "image",
+            "data": "image5615.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Dimensions"
+        },
+        {
+            "type": "image",
+            "data": "image5616.gif",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Part_Sheet.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

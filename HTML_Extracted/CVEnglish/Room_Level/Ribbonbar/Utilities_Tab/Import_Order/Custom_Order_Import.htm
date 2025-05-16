@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><link rel="stylesheet" type="text/css" href="../../../../_rhdefault.css"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=WINDOWS-1252"/>
+  <meta name="generator" content="Adobe RoboHelp 2022"/>
+  <title>Custom Order Import</title>
+  <link rel="StyleSheet" href="../../../../assets/css/default.css" type="text/css"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/><script type="text/javascript" src="../../../../ehlpdhtm.js"></script></head>
+<body>
+  <h1>Custom Order Import</h1>
+  <p>When opening a .TXT or .CSV file you will be presented with the custom Data Field Configuration Utility. This utility examines the text file that you are importing and helps you ensure that the data is imported in the way that you want. You can use this Utility to define what each field in your Text file represents so it is imported properly.</p>
+  <p><img src="../../../../assets/images/image574.png"/></p>
+  <h2>Toolbar</h2>
+  <p>There are four options in the toolbar:</p>
+  <p><img src="../../../../assets/images/image575.png"/></p>
+  <p style="font-weight: bold; margin-left: 40px;"><img src="../../../../assets/images/image576.png"/> Save</p>
+  <p style="margin-left: 40px;">Allows you to save the current configuration for re-use.</p>
+  <p style="font-weight: bold; margin-left: 40px;"><img src="../../../../assets/images/image577.png"/> Select Configuration</p>
+  <p style="margin-left: 40px;">Allows you to select which of your predefined configurations to use on the current Text file.</p>
+  <p style="font-weight: bold; margin-left: 40px;"><img src="../../../../assets/images/image578.png"/> Rename</p>
+  <p style="margin-left: 40px;">Allows you to rename the currently selected Configuration.</p>
+  <p style="font-weight: bold; margin-left: 40px;"><img src="../../../../assets/images/image579.png"/> Delete</p>
+  <p style="margin-left: 40px;">Allows you to delete the currently selected Configuration.</p>
+  <h2>General Options</h2>
+  <p>There are five general options available to configure your Text file:</p>
+  <p><img src="../../../../assets/images/image580.png"/></p>
+  <p><span style="font-weight: bold;">Fields -</span> This option allows you to establish how the fields in the Text file are defined. If items in the text file are separated by tabs, colons, semicolons, spaces, or other characters, select Delimited; then select what the delimiter is (Tab, Comma, Semicolon, Space, Other). If all of the items in each column are the same length, select Fixed width.</p>
+  <p><span style="font-weight: bold;">Catalog -</span> Select the CABINET VISION Catalog to utilize.</p>
+  <p><span style="font-weight: bold;">Text Qualifier -</span> Select the character that encloses values in your text file. When Solid encounters the text qualifier character, all of the text that follows that character and precedes the next occurrence of that character is imported as one value, even if the text contains a delimiter character. For example, if the delimiter is a comma (,) and the text qualifier is a quotation mark (&quot;), &quot;Tuscaloosa, Alabama&quot; is imported into one field as Tuscaloosa, Alabama.</p>
+  <p><span style="font-weight: bold;">Dimensions -</span> Select whether the file you are importing is Inches or Metric.</p>
+  <p><span style="font-weight: bold;">Start Import at Line -</span> Type or select a line number to specify the first line of the data that you want to import.</p>
+  <h2>Import Preview Area</h2>
+  <p><img src="../../../../assets/images/image581.png"/></p>
+  <p>In this are you will see all of the columns that CABINET VISION has created for your Text file based on the translation of the Text file. Click the column header  of the column(s) that you do not want Ignored and set its type. There are thirteen options:</p>
+  <p><img src="../../../../assets/images/image582.png"/></p>
+  <p><span style="font-weight: bold;">Ignore -</span> Will ignore this column when importing.</p>
+  <p><span style="font-weight: bold;">Catalog -</span> The Catalog to pull the Object from. The name specified in the Text file must exactly match the Catalog name in Cabinet Vision.</p>
+  <p><span style="font-weight: bold;">Comment -</span> The Objects Comment.</p>
+  <p><span style="font-weight: bold;">Depth -</span> The Objects Width.</p>
+  <p><span style="font-weight: bold;">Description -</span> The Objects Description.</p>
+  <p><span style="font-weight: bold;">Height -</span> The Objects Height.</p>
+  <p><span style="font-weight: bold;">Hinge -</span> The Objects Hinge orientation.</p>
+  <p style="text-align: justify; margin-top: 0pt; margin-bottom: 0pt; margin-left: 40px;">* = Undefined</p>
+  <p style="text-align: justify; margin-top: 0pt; margin-bottom: 0pt; margin-left: 40px;">P = Cabinet has a pair of doors (Ignored*)</p>
+  <p style="text-align: justify; margin-top: 0pt; margin-bottom: 0pt; margin-left: 40px;">L = Cabinet is left hinged (If assembly is saved with a single door L vs R will control hinge direction)</p>
+  <p style="text-align: justify; margin-top: 0pt; margin-bottom: 0pt; margin-left: 40px;">R = Cabinet is right hinged (If assembly is saved with a single door L vs R will control hinge direction)</p>
+  <p style="text-align: justify; margin-top: 0pt; margin-bottom: 0pt; margin-left: 40px;">T = Cabinet is top hinged (Ignored*)</p>
+  <p style="text-align: justify; margin-top: 0pt; margin-bottom: 0pt; margin-left: 40px;">B = Cabinet is bottom hinged (Ignored*)</p>
+  <p style="text-align: justify; margin-top: 0pt; margin-bottom: 0pt; margin-left: 40px;"> </p>
+  <p style="text-align: justify; margin-top: 0pt; margin-bottom: 0pt; margin-left: 40px;">Ignored* - Changing this value will not change the hinge type on the saved catalog object.</p>
+  <p><span style="font-weight: bold;">ID -</span> The Objects line item number.</p>
+  <p><span style="font-weight: bold;">Finish -</span> The Objects End Type.</p>
+  <p style="text-align: justify; margin-top: 0pt; margin-bottom: 0pt; margin-left: 40px;">* = Undefined</p>
+  <p style="text-align: justify; margin-top: 0pt; margin-bottom: 0pt; margin-left: 40px;">B = Cabinet has both ends finished</p>
+  <p style="text-align: justify; margin-top: 0pt; margin-bottom: 0pt; margin-left: 40px;">L = Cabinet has left finished end</p>
+  <p style="text-align: justify; margin-top: 0pt; margin-bottom: 0pt; margin-left: 40px;">R = Cabinet has right finished end</p>
+  <p style="text-align: justify; margin-top: 0pt; margin-bottom: 0pt; margin-left: 40px;">N = Cabinet has both ends unfinished</p>
+  <p><span style="font-weight: bold;">Name -</span> The Objects Name.</p>
+  <p><span style="font-weight: bold;">Price -</span> The Objects Price.</p>
+  <p><span style="font-weight: bold;">Quantity -</span> The Objects Quantity.</p>
+  <p><span style="font-weight: bold;">Width -</span> The Objects Width.</p>
+
+</body></html>

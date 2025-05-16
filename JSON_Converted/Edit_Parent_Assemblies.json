@@ -1,0 +1,27 @@
+{
+    "id": "2fee2f71-ae2b-4596-82b6-9230de85ac15",
+    "title": "Edit_Parent_Assemblies",
+    "content": [
+        {
+            "type": "text",
+            "data": "Edit Parent Assemblies"
+        },
+        {
+            "type": "image",
+            "data": "image59.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option will open the Assembly Level of CABINET VISION with direct access to edit all of the Parent Assemblies in the currently selected Catalog. For more information on Parent Assemblies, see the CABINET VISION Help Topic on Aliases. The drop down box (highlighted yellow below) allows for the selection of any of the parent Assemblies in the selected Catalog. For more information on the Assembly Level, see the CABINET VISION Help Files."
+        },
+        {
+            "type": "image",
+            "data": "image154.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CEEnglish\\Explorer_View\\Ribbonbar\\Main_Tab\\Tools_Group\\Edit_Parent_Assemblies.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

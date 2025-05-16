@@ -1,0 +1,422 @@
+{
+    "id": "fb89246a-4580-4601-b7a3-f2b762ec77c0",
+    "title": "Constraint_Tutorial",
+    "content": [
+        {
+            "type": "text",
+            "data": "Constraint Tutorial"
+        },
+        {
+            "type": "text",
+            "data": "This Tutorial assumes you understand the Constraint tools and how each Constraint type is applied. See the  Constraints  topic for more information."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Constraints",
+                "uuid": "afc380bc-16e1-4555-9193-7d73e523bf8d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Constraints are a method of applying intelligent parametric rules to Parts. If you are shaping a Part which does not need to ever change size it is unnecessary for you to apply Constraints to it. However, if you want to control the Parts Shape you will need to utilize Constraints."
+        },
+        {
+            "type": "text",
+            "data": "Part 1 - Automatic Constraints"
+        },
+        {
+            "type": "text",
+            "data": "The best way to learn Constraints and how they are applied is to see how the system applies them."
+        },
+        {
+            "type": "text",
+            "data": "Let's start by editing the shape of a Standard Base Cabinet."
+        },
+        {
+            "type": "image",
+            "data": "image902.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "With the Select Tool active let's select the left-most line and take a look at the Constraints tied to it. There are three Constraints applied to this line. At each end we have  Coincidence  Constraints which locks the ends of the lines to the ends of the respective lines that they touch. There is also a  Vertical  Constraint which aligns this line Vertically (Aligned with the Y Axis)."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Coincidence",
+                "uuid": "afc380bc-16e1-4555-9193-7d73e523bf8d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Vertical",
+                "uuid": "afc380bc-16e1-4555-9193-7d73e523bf8d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image904.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "We can also see the Side Type assigned to this selected line in the sidebar. The Type can be changed here."
+        },
+        {
+            "type": "image",
+            "data": "image5991.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Next let's select the line representing the back of the Cabinet. There are three Constraints applied to this line. At each end we have  Coincidence  Constraints which locks the ends of the lines to the ends of the respective lines that they touch. There is also an  X-Axis  Constraint which aligns this line with the X Axis."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Coincidence",
+                "uuid": "afc380bc-16e1-4555-9193-7d73e523bf8d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "X-Axis",
+                "uuid": "afc380bc-16e1-4555-9193-7d73e523bf8d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image906.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "We can also see the Side Type assigned to this selected line in the sidebar. The Type can be changed here."
+        },
+        {
+            "type": "image",
+            "data": "image5992.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Next let's select the right-most line and take a look at the Constraints tied to it. There are three Constraints applied to this line. At each end we have  Coincidence  Constraints which locks the ends of the lines to the ends of the respective lines that they touch. There is also a  Y-Axis  Constraint which aligns this line with the Y Axis."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Coincidence",
+                "uuid": "afc380bc-16e1-4555-9193-7d73e523bf8d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Y-Axis",
+                "uuid": "afc380bc-16e1-4555-9193-7d73e523bf8d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image908.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "We can also see the Side Type assigned to this selected line in the sidebar. The Type can be changed here."
+        },
+        {
+            "type": "image",
+            "data": "image5993.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Next let's select the line representing the front of the Cabinet. There are three Constraints applied to this line. At each end we have  Coincidence  Constraints which locks the ends of the lines to the ends of the respective lines that they touch. There is also an  X-Axis  Constraint which aligns this line with the X Axis."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Coincidence",
+                "uuid": "afc380bc-16e1-4555-9193-7d73e523bf8d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "X-Axis",
+                "uuid": "afc380bc-16e1-4555-9193-7d73e523bf8d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image910.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "We can also see the Side Type assigned to this selected line in the sidebar. The Type can be changed here."
+        },
+        {
+            "type": "image",
+            "data": "image5994.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Part 2 - Constrained Assembly Shaping"
+        },
+        {
+            "type": "text",
+            "data": "In Part 2 we are going to setup a 90 Degree Corner Cabinet in a way that allows us to control the Leg Depth separate from the Cabinet Size. The first thing we need to do is create a Parameter we can use to control the Leg Depth,"
+        },
+        {
+            "type": "text",
+            "data": "From the System Level go to  Utilities | Parameters ."
+        },
+        {
+            "type": "image",
+            "data": "image1286.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Configure the Parameter as illustrated in the image below."
+        },
+        {
+            "type": "image",
+            "data": "image5996.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Now let's start a new Job and place a 90 Base Corner Cabinet."
+        },
+        {
+            "type": "image",
+            "data": "image1123.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Right Click on the 90 Corner Cabinet and select Edit Shape."
+        },
+        {
+            "type": "image",
+            "data": "image1124.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The first thing we need to do is add a Logical Fix Constraint instructing Solid from where this Cabinet need to change size."
+        },
+        {
+            "type": "image",
+            "data": "image3096.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "We want this Cabinet to change size from the corner so we need to add the Fix Constraint at the Cabinets origin."
+        },
+        {
+            "type": "image",
+            "data": "image1126.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Now we just need to add Length Constraints to the two legs of this Cabinet using LEGDEP as the Text."
+        },
+        {
+            "type": "image",
+            "data": "image1127.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "After Saving the Cabinet Shape you can select the Cabinet and change the LEGDEP Parameter in the sidebar to see the result."
+        },
+        {
+            "type": "text",
+            "data": "Part 3 - Constrained Part Shaping"
+        },
+        {
+            "type": "text",
+            "data": "In Part 3 we are going to add a Rear Notch to a Left Finished End that is driven by the TOEH System Parameter. The first thing we need to do is expose the TOEH Parameter by setting it up as a System Parameter."
+        },
+        {
+            "type": "text",
+            "data": "From the Splash Screen go to  Utilities | Parameters ."
+        },
+        {
+            "type": "image",
+            "data": "image1287.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Configure the Parameter as illustrated in the image below."
+        },
+        {
+            "type": "image",
+            "data": "image5997.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Now let's start a new Job and place a Base Cabinet, making sure you are using a Construction Method that has Notched Toes. We will take the Base Cabinet to an End Ortho View at the Assembly Level."
+        },
+        {
+            "type": "image",
+            "data": "image1128.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Right Click on the Left Finished End and select Edit."
+        },
+        {
+            "type": "image",
+            "data": "image5998.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Go to the Front View of the Part and click the Edit Shape button in the sidebar."
+        },
+        {
+            "type": "image",
+            "data": "image1130.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The first thing we need to do is add a Logical Fix Constraint instructing Solid from where this Part need to change size."
+        },
+        {
+            "type": "image",
+            "data": "image3096.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "We want this Part to change size from the bottom left corner so we need to add the Fix Constraint at the Parts origin."
+        },
+        {
+            "type": "image",
+            "data": "image1132.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Next, I am going to use the Chained Line Tool to draw a Notch at the Back of the End."
+        },
+        {
+            "type": "image",
+            "data": "image1133.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "And next I will Trim out the pieces I do not want using the Trim Delete tool ending up with a rear Notch."
+        },
+        {
+            "type": "image",
+            "data": "image1134.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Now we need to add our Dimensional Constraints to this Part."
+        },
+        {
+            "type": "text",
+            "data": "First let's setup the overall Length of this Part using the Ortho Distance Constraint. Once you activate the Ortho Distance option click the two points indicated in yellow in the image below."
+        },
+        {
+            "type": "image",
+            "data": "image3096.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image3098.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Once you have placed the Constraint you will be presented with the Dimension window. Activate the Text option and type DY as the value. Click  Test to verify the result is as you expect."
+        },
+        {
+            "type": "image",
+            "data": "image5999.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "You should now see your Constraint on the Part."
+        },
+        {
+            "type": "image",
+            "data": "image1136.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Next we need to do the same thing for the Part Width using DX as the Text value."
+        },
+        {
+            "type": "image",
+            "data": "image1137.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Now that we have the overall Part size Constrained we need to set the Height of our two Toe Notches. For this we will use the Dimension Length Constraint and simply pick the Vertical Line representing the Toe Height and use TOEH as the Text."
+        },
+        {
+            "type": "image",
+            "data": "image1138.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This Part is now fully Constrained."
+        },
+        {
+            "type": "text",
+            "data": "Let's return to the Room Level. From the Room Level I will change the Toe Kick Height to 8\" in the sidebar."
+        },
+        {
+            "type": "image",
+            "data": "image6000.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "And from 3D View you can see our Left End has changed the Toe Kick Height appropriately."
+        },
+        {
+            "type": "image",
+            "data": "image1140.gif",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Constraint_Tutorial.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

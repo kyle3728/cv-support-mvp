@@ -1,0 +1,458 @@
+{
+    "id": "bfe68937-3f37-4ce3-b3c5-5a417c5182c6",
+    "title": "RL_Layers",
+    "content": [
+        {
+            "type": "text",
+            "data": "Layers"
+        },
+        {
+            "type": "image",
+            "data": "image1429.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "1AUALL.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This is the section of CABINET VISION where you can create, edit, copy, rename, and remove  Layer Schedules ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Layer Schedules",
+                "uuid": "41b1dd33-6928-4b99-8d6d-4b7c042a3f92",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image5587.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "New"
+        },
+        {
+            "type": "image",
+            "data": "image5588.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Clicking 'New' will result in the addition of a new Layer Schedule. The new Schedule will appear at the bottom of the list and will be named 'New Schedule' until you click Rename and type in a new name for the Schedule."
+        },
+        {
+            "type": "text",
+            "data": "Edit"
+        },
+        {
+            "type": "image",
+            "data": "image5589.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Click on the Advanced   button for additional options:"
+        },
+        {
+            "type": "image",
+            "data": "image1433.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image5590.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "To Drawings:  These Options Apply to Sending The Current View to the Drawings Page"
+        },
+        {
+            "type": "text",
+            "data": "Template  - Select Change to select a  Scene Template  to use when sending the View \" To Drawing \"."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Scene Template",
+                "uuid": "42693001-e896-4fb4-bab5-90f16894ad62",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "To Drawing",
+                "uuid": "3ea2c40b-e3fc-4eac-9114-cf8a3365c62a",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Force drawing to Black  - This causes all views that are sent to the drawings page to be sent using all black lines. This is helpful if you do not have a color printer and want all of the lines of a printing to be dark."
+        },
+        {
+            "type": "text",
+            "data": "On"
+        },
+        {
+            "type": "image",
+            "data": "image1224.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Off"
+        },
+        {
+            "type": "image",
+            "data": "image1225.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Include Wall Hatching  - When a floor plan view is sent to the drawings page, use this option to determine whether the cross hatch pattern inside the walls will be sent as well."
+        },
+        {
+            "type": "text",
+            "data": "On"
+        },
+        {
+            "type": "image",
+            "data": "image1226.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Off"
+        },
+        {
+            "type": "image",
+            "data": "image1227.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Check for overlapped lines  - Objects such as Cabinets in CABINET VISION are three dimensional objects. However, when two dimensional views of these Objects are sent to the drawings page there will be lines that are \"stacked\" on top of each other because they represent the top edge and bottom edge of the same Object. Check this option to remove those redundant lines."
+        },
+        {
+            "type": "text",
+            "data": "Checking this option will greatly increase the time that it takes to send a view to drawings. If this option is not important to you it is best to leave it unchecked."
+        },
+        {
+            "type": "image",
+            "data": "Warning.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Check for intersecting surfaces  - Use this option to cause CABINET VISION to add a line that represents the intersection of two Objects. See the example below:"
+        },
+        {
+            "type": "text",
+            "data": "On"
+        },
+        {
+            "type": "image",
+            "data": "image534.bmp",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Off"
+        },
+        {
+            "type": "image",
+            "data": "image533.bmp",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Hide Concealed Lines -  Selecting this option will hide lines that are concealed in the view. See the example below and note the difference."
+        },
+        {
+            "type": "text",
+            "data": "On"
+        },
+        {
+            "type": "image",
+            "data": "image1222.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Off"
+        },
+        {
+            "type": "image",
+            "data": "image1223.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Assembly Outlines Only  - Check this option if you want no detail of the Cabinets to show except an outline of where the Cabinets are in the plan view."
+        },
+        {
+            "type": "text",
+            "data": "On"
+        },
+        {
+            "type": "image",
+            "data": "image1229.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Off"
+        },
+        {
+            "type": "image",
+            "data": "image1228.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Door Swings  - There are three options for Door Swings which are illustrated below:"
+        },
+        {
+            "type": "text",
+            "data": "None"
+        },
+        {
+            "type": "image",
+            "data": "image900.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Outline"
+        },
+        {
+            "type": "image",
+            "data": "image901.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Annotation"
+        },
+        {
+            "type": "image",
+            "data": "image903.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Top Outlines Only  - \u00a0This option shows no details of the Counter Top but simply shows the outline of the location of the Counter Tops."
+        },
+        {
+            "type": "text",
+            "data": "On"
+        },
+        {
+            "type": "image",
+            "data": "image1231.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Off"
+        },
+        {
+            "type": "image",
+            "data": "image1232.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Show Simple Doors -  This option, when enabled, shows a simple outline of the Door rather than a full detail of the Door."
+        },
+        {
+            "type": "text",
+            "data": "On"
+        },
+        {
+            "type": "image",
+            "data": "image1234.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Off"
+        },
+        {
+            "type": "image",
+            "data": "image1233.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Show Simple Drawer Box -  This option, when enabled, shows a simple dashed outline of the Drawer Box rather than a full detail of the Drawer Box."
+        },
+        {
+            "type": "text",
+            "data": "On"
+        },
+        {
+            "type": "image",
+            "data": "image1235.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Off"
+        },
+        {
+            "type": "image",
+            "data": "image1236.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Show Curve Tessellation -  When Enabled turns on the display of Curve Tessellations. The frequency of Curve Tesselations can be controlled via the  Detail Tab in Preferences ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Detail Tab in Preferences",
+                "uuid": "a6c6d306-c8da-4df8-8440-33f2f24a9c1d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "On"
+        },
+        {
+            "type": "image",
+            "data": "image734.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Off"
+        },
+        {
+            "type": "image",
+            "data": "image735.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Show Axis Indicator -  When enabled will turn on the Axis Indicator in the current View."
+        },
+        {
+            "type": "image",
+            "data": "image1237.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Background Color -  Allows you to establish the background color for the view you are currently in."
+        },
+        {
+            "type": "text",
+            "data": "Show Sections Outline -  Allows you to turn on highlighting for the Section outline."
+        },
+        {
+            "type": "text",
+            "data": "On"
+        },
+        {
+            "type": "image",
+            "data": "image1238.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Off"
+        },
+        {
+            "type": "image",
+            "data": "image1239.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Hatch Case Parts -  This option turns hatching on for Case Parts."
+        },
+        {
+            "type": "text",
+            "data": "On"
+        },
+        {
+            "type": "image",
+            "data": "image1242.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Off"
+        },
+        {
+            "type": "image",
+            "data": "image1241.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Hatch Internal Parts -  This option turns hatching on for Internal Parts."
+        },
+        {
+            "type": "text",
+            "data": "On"
+        },
+        {
+            "type": "image",
+            "data": "image1243.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Off"
+        },
+        {
+            "type": "image",
+            "data": "image1240.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Copy"
+        },
+        {
+            "type": "image",
+            "data": "image5591.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "If you click Copy, you will create a duplicate of the current Layer Schedule which will be named 'Copy of [Layer Schedule name]' until you click Rename and type in a new name for the Schedule."
+        },
+        {
+            "type": "text",
+            "data": "Rename"
+        },
+        {
+            "type": "text",
+            "data": "The Rename button allows you to type in a new name for the selected Layer Schedule."
+        },
+        {
+            "type": "text",
+            "data": "Remove"
+        },
+        {
+            "type": "text",
+            "data": "Remove allows you to delete the selected Layer Schedule."
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\RL_Layers.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

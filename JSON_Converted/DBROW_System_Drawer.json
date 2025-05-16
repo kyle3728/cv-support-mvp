@@ -1,0 +1,79 @@
+{
+    "id": "dcfade24-db5d-4e5f-bcb0-31300f89b73d",
+    "title": "DBROW_System_Drawer",
+    "content": [
+        {
+            "type": "text",
+            "data": "System Drawer"
+        },
+        {
+            "type": "text",
+            "data": "The System Drawer Box Construction Style has the following objects:"
+        },
+        {
+            "type": "image",
+            "data": "image1359.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Click the Object names below for more information"
+        },
+        {
+            "type": "text",
+            "data": "General"
+        },
+        {
+            "type": "text",
+            "data": "Bottom"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Bottom",
+                "uuid": "c08b0bf8-4db3-4419-a3d0-414780a15cd7",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Back"
+        },
+        {
+            "type": "text",
+            "data": "Partition"
+        },
+        {
+            "type": "text",
+            "data": "Divider"
+        },
+        {
+            "type": "text",
+            "data": "Box Connection"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Box Connection",
+                "uuid": "c08b0bf8-4db3-4419-a3d0-414780a15cd7",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "General"
+        },
+        {
+            "type": "text",
+            "data": "The following diagram shows the options available in the General object. Click a specific option in the diagram for more information or continue through this topic for information on all Objects and options."
+        },
+        {
+            "type": "image",
+            "data": "image822.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\System_Level\\Ribbonbar\\Main_Tab\\Construction_Group\\Assembly_Manager\\Drawer_-_Roll_Out\\Construction_Styles\\DBROW_System_Drawer.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

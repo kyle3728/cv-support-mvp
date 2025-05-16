@@ -1,0 +1,264 @@
+{
+    "id": "11c79443-4f9d-4113-a606-0d195828557a",
+    "title": "JavaScript_Functions",
+    "content": [
+        {
+            "type": "text",
+            "data": "JavaScript Functions"
+        },
+        {
+            "type": "text",
+            "data": "The table below represents global functions that are exposed in the CV JS API. Additional function will be added based on user requests."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Methods"
+                ],
+                "rows": [
+                    [
+                        "alert(string message)"
+                    ],
+                    [
+                        "Displays a message box with the given message \n example: \n var name = John Doe; \n alert('Hello ' + name);"
+                    ],
+                    [
+                        "string message",
+                        "Text to display"
+                    ],
+                    [
+                        "Imperial(double value)"
+                    ],
+                    [
+                        "Convert a value to imperial (value / 25.4) \n example: \n var result = Imperial(32);"
+                    ],
+                    [
+                        "double value",
+                        "Value to convert to an imperial value"
+                    ],
+                    [
+                        "Metric(double value)"
+                    ],
+                    [
+                        "Convert a value to metric (value * 25.4) \n example: \n var result = Metric(1);"
+                    ],
+                    [
+                        "double value",
+                        "Value to convert to a metric value"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Displays a message box with the given message"
+        },
+        {
+            "type": "text",
+            "data": "example:"
+        },
+        {
+            "type": "text",
+            "data": "var name = John Doe;"
+        },
+        {
+            "type": "text",
+            "data": "alert('Hello ' + name);"
+        },
+        {
+            "type": "text",
+            "data": "Convert a value to imperial (value / 25.4)"
+        },
+        {
+            "type": "text",
+            "data": "example:"
+        },
+        {
+            "type": "text",
+            "data": "var result = Imperial(32);"
+        },
+        {
+            "type": "text",
+            "data": "Convert a value to metric (value * 25.4)"
+        },
+        {
+            "type": "text",
+            "data": "example:"
+        },
+        {
+            "type": "text",
+            "data": "var result = Metric(1);"
+        },
+        {
+            "type": "text",
+            "data": "A _cvMath API is available for exposing  CABINET VISION  internal math functions. These are currently limited to conditional checks that are an issue because of the way  IEEE  floating point numbers work. Because of the quirks of  IEEE  numbers, safe conditional checks need to be carried out with a tolerance.  CABINET VISION  Internally uses a conditional tolerance of 1.19e-04 for parameter evaluation."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "_cvMath API Methods"
+                ],
+                "rows": [
+                    [
+                        "isEQ(double value1, double value2)"
+                    ],
+                    [
+                        "Determines if the 2 values are equal within the Epsilon tolerance. \n example: \n var isequal = _cvMath.isEQ(5.12, 5.12);"
+                    ],
+                    [
+                        "bool",
+                        "Values are equal, true or false"
+                    ],
+                    [
+                        "isGT(double value1, double value2)"
+                    ],
+                    [
+                        "Determines if value1 is greater than value2 within an Epsilon tolerance. \n example: \n var isgt = _cvMath.isGT(5.12, 5.15);"
+                    ],
+                    [
+                        "bool",
+                        "Value 1 > value 2, true or false"
+                    ],
+                    [
+                        "isGTE(double value1, double vlaue2)"
+                    ],
+                    [
+                        "Determines if value1 is greater or equal to value2 within an Epsilon tolerance. \n example: \n var isgte = _cvMath.isGTE(5.12, 5.13);"
+                    ],
+                    [
+                        "bool",
+                        "Value 1 >= value 2, true or false"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Determines if the 2 values are equal within the Epsilon tolerance."
+        },
+        {
+            "type": "text",
+            "data": "example:"
+        },
+        {
+            "type": "text",
+            "data": "var isequal = _cvMath.isEQ(5.12, 5.12);"
+        },
+        {
+            "type": "text",
+            "data": "Determines if value1 is greater than value2 within an Epsilon tolerance."
+        },
+        {
+            "type": "text",
+            "data": "example:"
+        },
+        {
+            "type": "text",
+            "data": "var isgt = _cvMath.isGT(5.12, 5.15);"
+        },
+        {
+            "type": "text",
+            "data": "Determines if value1 is greater or equal to value2 within an Epsilon tolerance."
+        },
+        {
+            "type": "text",
+            "data": "example:"
+        },
+        {
+            "type": "text",
+            "data": "var isgte = _cvMath.isGTE(5.12, 5.13);"
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "isLT(double vlaue1, double value2)"
+                ],
+                "rows": [
+                    [
+                        "Determines if value1 is less than value2 within an Epsilon tolerance. \n example: \n var islt = _cvMath.isLT(5.12, 5.15);"
+                    ],
+                    [
+                        "bool",
+                        "Value 1 < value 2, true or false"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Determines if value1 is less than value2 within an Epsilon tolerance."
+        },
+        {
+            "type": "text",
+            "data": "example:"
+        },
+        {
+            "type": "text",
+            "data": "var islt = _cvMath.isLT(5.12, 5.15);"
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "isLTE(double vlaue1, double vlaue2)"
+                ],
+                "rows": [
+                    [
+                        "Determines if value1 is less or equal to value2 within an Epsilon tolerance. \n example: \n var islte = _cvMath.isLTE(5.12, 5.13);"
+                    ],
+                    [
+                        "bool",
+                        "Value 1 <= value 2, true or false"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Determines if value1 is less or equal to value2 within an Epsilon tolerance."
+        },
+        {
+            "type": "text",
+            "data": "example:"
+        },
+        {
+            "type": "text",
+            "data": "var islte = _cvMath.isLTE(5.12, 5.13);"
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "isZero(double value)"
+                ],
+                "rows": [
+                    [
+                        "Determines if value is equal to 0 within an Epsilon tolerance. \n example: \n var zero = _cvMath.isZero(0.01);"
+                    ],
+                    [
+                        "bool",
+                        "Value = 0. true or false"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Determines if value is equal to 0 within an Epsilon tolerance."
+        },
+        {
+            "type": "text",
+            "data": "example:"
+        },
+        {
+            "type": "text",
+            "data": "var zero = _cvMath.isZero(0.01);"
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\UCS\\JavaScript_User_Created_Standards\\JavaScript_Functions.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

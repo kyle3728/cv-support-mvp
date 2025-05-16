@@ -1,0 +1,21 @@
+{
+    "id": "67b527f3-8dce-4c7f-8dba-8e130f683ea9",
+    "title": "Omal_Velox",
+    "content": [
+        {
+            "type": "text",
+            "data": "Omal Velox"
+        },
+        {
+            "type": "text",
+            "data": "This is a Drill and Dowel Machine Link."
+        },
+        {
+            "type": "text",
+            "data": "Output for the Omal Velox Drill & Dowel machine"
+        }
+    ],
+    "source_file": "NCEnglish\\Ribbonbar\\Main_Tab\\Machine\\NC_Links\\Drill_and_Dowel_Links\\Omal_Velox.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

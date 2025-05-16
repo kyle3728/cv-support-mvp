@@ -1,0 +1,26 @@
+{
+    "id": "819ba63d-e300-459d-b129-3708a2d1766d",
+    "title": "Molding",
+    "content": [
+        {
+            "type": "text",
+            "data": "Molding"
+        },
+        {
+            "type": "text",
+            "data": "This Layer allows you to turn off specific Molding from display. You can turn these off in certain views where they are not necessary to visualize."
+        },
+        {
+            "type": "text",
+            "data": "Simply disable/enable specific Molding items by type here:"
+        },
+        {
+            "type": "image",
+            "data": "MoldingType.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish\\Room_Level\\Ribbonbar\\Main_Tab\\View_Group\\Layers\\Editable_Layers\\Molding.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

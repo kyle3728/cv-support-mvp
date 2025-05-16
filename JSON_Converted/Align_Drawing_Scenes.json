@@ -1,0 +1,53 @@
+{
+    "id": "47fb3e7e-a8a2-49c1-a8ec-a1129cc15b59",
+    "title": "Align_Drawing_Scenes",
+    "content": [
+        {
+            "type": "text",
+            "data": "Align Drawing Scenes"
+        },
+        {
+            "type": "text",
+            "data": "Is there a way to get Scenes to line up with other Scenes on a sheet (besides \"eye balling it\")?"
+        },
+        {
+            "type": "text",
+            "data": "Yes, you can use the Point or Grid Snap settings to \"Snap\" the Scenes where you want them."
+        },
+        {
+            "type": "text",
+            "data": "To use Point Snaps, use the  Snap Marks  option to place points where you need them, then change to \u201cSnap to Point\u201d on your  Snap settings  statusbar button. Now you can \"Snap\" your Scenes to the Points you've placed."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Snap Marks",
+                "uuid": "f16b39b1-a7e8-4fd9-af99-0b437d3e2fda",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Snap settings",
+                "uuid": "ab1790c8-4275-4839-a647-d5a131c27144",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "To use the Grid Points, right click on the screen to turn your Grid pattern on and to modify the Grid Snap spacing and Grid spacing, then change to \u201c Snap to Grid \u201d on your Snap settings toolbar button. Now you can \"Snap\" your Scenes based on the Grid space settings you've chosen."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Snap to Grid",
+                "uuid": "57b3d47f-75a4-49bd-8143-55ece48609f2",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Tips_Tricks_&_FAQs\\FAQs\\HDI-Presentation\\Align_Drawing_Scenes.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

@@ -1,0 +1,48 @@
+{
+    "id": "d2033866-5d17-44c3-842e-3c12d56bb472",
+    "title": "Material_Catalog",
+    "content": [
+        {
+            "type": "text",
+            "data": "Material Catalog"
+        },
+        {
+            "type": "image",
+            "data": "image1327.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "When first entering the Material Catalog in the S2M Optimizer you will see a screen similar to the one below with no Materials."
+        },
+        {
+            "type": "image",
+            "data": "image82.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Simply click the  New Material  tool in the toolbar to start creating your Materials."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "New Material",
+                "uuid": "f37dbce2-5c63-4926-92f2-85c0c4db4c01",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Click one of the highlighted areas for more Information"
+        },
+        {
+            "type": "image",
+            "data": "image83.gif",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "NCEnglish_Optimizer\\Ribbonbar\\Utilities_Tab\\Material_Catalog\\Material_Catalog.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

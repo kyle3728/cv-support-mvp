@@ -1,0 +1,25 @@
+{
+    "id": "fa3f394a-5645-41a1-812d-ac49f29e3f79",
+    "title": "Creating_an_S2M_Center_Part_List",
+    "content": [
+        {
+            "type": "text",
+            "data": "Creating an S2M CENTER Part List"
+        },
+        {
+            "type": "text",
+            "data": "The S2M Part List Creator application has been supplied in theInstallation extraction folderwhich can be used to easily create the CncRun.txt file to simplify the process of bringing your DXF's into the S2M CENTER. The installation file is located\n    in the Installation extraction folderat \\Support\\PartListCreator\\. Simply double click Setup.exe to install the Part List Creator on your computer."
+        },
+        {
+            "type": "text",
+            "data": "S2M CENTER Part List Creator"
+        },
+        {
+            "type": "text",
+            "data": "Open the S2M Part List Creator and see its Help file for information on its use."
+        }
+    ],
+    "source_file": "NCEnglish\\Ribbonbar\\Main_Tab\\Import_DXF\\Other_CAD_Importers\\S2M_Part_List\\Creating_an_S2M_Center_Part_List.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

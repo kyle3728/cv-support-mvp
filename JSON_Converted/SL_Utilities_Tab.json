@@ -1,0 +1,74 @@
+{
+    "id": "94979bff-d3a8-464b-9cdb-11ee66b83af6",
+    "title": "SL_Utilities_Tab",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top \n > \n \n \n System Level \n > \n \n Ribbonbar \n > \n \n Utilities Tab \n > \n \n Utilities Tab"
+        },
+        {
+            "type": "text",
+            "data": "Top \n >"
+        },
+        {
+            "type": "text",
+            "data": "System Level \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "System Level",
+                "uuid": "4450866f-fd9c-46df-abf3-7843c5a1ef37",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Ribbonbar \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Ribbonbar",
+                "uuid": "3bbac75c-2b61-42af-9bce-b90335e66dde",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Utilities Tab \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Utilities Tab",
+                "uuid": "94979bff-d3a8-464b-9cdb-11ee66b83af6",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Utilities Tab"
+        },
+        {
+            "type": "text",
+            "data": "Utilities Tab"
+        },
+        {
+            "type": "text",
+            "data": "Utilities Tab"
+        },
+        {
+            "type": "text",
+            "data": "Click the options below for more information"
+        },
+        {
+            "type": "image",
+            "data": "image1834.gif",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\System_Level\\Ribbonbar\\Utilities_Tab\\SL_Utilities_Tab.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

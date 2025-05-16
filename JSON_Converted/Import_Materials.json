@@ -1,0 +1,35 @@
+{
+    "id": "fc500a88-ad88-4a3e-add7-25b012ddc200",
+    "title": "Import_Materials",
+    "content": [
+        {
+            "type": "text",
+            "data": "Import Materials"
+        },
+        {
+            "type": "image",
+            "data": "image124.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This tool will allow you to Import Materials from your design software."
+        },
+        {
+            "type": "image",
+            "data": "image117.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Select the application to pull Material from. If you are using multiple Versions of the selected application click on the application icon to select the path to the Materials you want to import."
+        },
+        {
+            "type": "text",
+            "data": "Select which Materials you would like to import then click the Import button."
+        }
+    ],
+    "source_file": "NCEnglish_Cabinetmaker\\Ribbonbar\\Utilities_Tab\\Material_Catalog\\Toolbar\\Import_Materials.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

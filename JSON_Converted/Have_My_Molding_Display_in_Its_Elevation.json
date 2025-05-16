@@ -1,0 +1,26 @@
+{
+    "id": "7ba854ac-82db-4d46-a027-9d0cdc3cc3c8",
+    "title": "Have_My_Molding_Display_in_Its_Elevation",
+    "content": [
+        {
+            "type": "text",
+            "data": "Have My Molding Display in Its Elevation"
+        },
+        {
+            "type": "text",
+            "data": "Why doesn't my Counter Top or Molding show in Elevation but it shows in 3D?"
+        },
+        {
+            "type": "text",
+            "data": "Make sure the Wall that you are placing the Top or Molding on is the \"active Wall\". The \"active Wall\" is the Wall that has a red dashed line around it when in Tops or Molding mode. To change which Wall is active, simply click on the Wall and then begin placing Tops or Moldings. Otherwise the Top or Molding will be associated with whichever Wall was active when it was drawn."
+        },
+        {
+            "type": "image",
+            "data": "image974.gif",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Tips_Tricks_&_FAQs\\FAQs\\HDI-Presentation\\Have_My_Molding_Display_in_Its_Elevation.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

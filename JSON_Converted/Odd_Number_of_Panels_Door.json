@@ -1,0 +1,22 @@
+{
+    "id": "a733e8eb-020c-4c73-bf2f-af4a8fbbee93",
+    "title": "Odd_Number_of_Panels_Door",
+    "content": [
+        {
+            "type": "text",
+            "data": "Creating a Door with an Multiple Panels"
+        },
+        {
+            "type": "text",
+            "data": "With the Panel selected click either the \"Add Multiple Mid Rails\" tool or the \"Add Multiple Mid Stiles\" tool and enter the number of Equal Panels you need and click \"OK\"."
+        },
+        {
+            "type": "image",
+            "data": "image989.gif",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Tips_Tricks_&_FAQs\\The_Door_Catalog\\Sample_Door_Types\\Odd_Number_of_Panels_Door.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

@@ -1,0 +1,333 @@
+{
+    "id": "752d49ac-38fc-41ab-a19e-94795d6fe980",
+    "title": "RLSBBC_Simple_Reports",
+    "content": [
+        {
+            "type": "text",
+            "data": "Simple Reports"
+        },
+        {
+            "type": "image",
+            "data": "image6168.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Simple Reports sidebar button takes you to the Report Viewing/Editing \n area. These are the Reports you use to create a hard copy of your Bid \n either for interoffice use or for Bid Presentation to your prospective \n Customer."
+        },
+        {
+            "type": "image",
+            "data": "Simple_Reports_1.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Upon first entering the Report area you are presented with the Printable \n copy of the selected Report."
+        },
+        {
+            "type": "text",
+            "data": "Following are the options available in the Bid Center Reports area:"
+        },
+        {
+            "type": "text",
+            "data": "Report Selector"
+        },
+        {
+            "type": "image",
+            "data": "image2592.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This is where you select which Report is \n active."
+        },
+        {
+            "type": "text",
+            "data": "Report Mode"
+        },
+        {
+            "type": "text",
+            "data": "There are two options for how to View your \n Report here:"
+        },
+        {
+            "type": "image",
+            "data": "image2593.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "View Mode"
+        },
+        {
+            "type": "image",
+            "data": "image2595.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The default View for Reports."
+        },
+        {
+            "type": "text",
+            "data": "Setup Mode"
+        },
+        {
+            "type": "image",
+            "data": "image2594.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "To customize your Reports you need to click \n the Setup Mode Report Mode option. You will immediately notice the look \n of the selected Report will change. Instead of showing the values it shows \n the variables that store and display those values."
+        },
+        {
+            "type": "image",
+            "data": "Simple_Reports_Setup.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There is one more change you will see in \n Setup Mode. There is a list of the Report Variables you can add to your \n Report in the sidebar. This list includes predefined variables; you can \n not create your own. See the  Report \n Variables  topic for more information."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Report \n Variables",
+                "uuid": "cda7cd49-e8cc-4db7-9ad3-fc9cf329fabd",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "If you need \n to perform calculations against variables you can do that as well by using \n the evaluate[] function. For example if I wanted to display the Number \n of Doors x 2 I would simply enter the following:"
+        },
+        {
+            "type": "text",
+            "data": "evaluate[ *2]"
+        },
+        {
+            "type": "text",
+            "data": "Open in Word"
+        },
+        {
+            "type": "image",
+            "data": "image2596.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option allows you to edit your Report \n in Microsoft Word. When first using this tool you will be prompted to \n browse to the location of the Microsoft Word executable."
+        },
+        {
+            "type": "text",
+            "data": "Export to RTF"
+        },
+        {
+            "type": "image",
+            "data": "image2597.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option allows you to export the selected \n Report in a Rich Text Format."
+        },
+        {
+            "type": "text",
+            "data": "New Report"
+        },
+        {
+            "type": "image",
+            "data": "image2598.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option allows you to create a new Bid \n Report from scratch."
+        },
+        {
+            "type": "text",
+            "data": "Copy Report"
+        },
+        {
+            "type": "image",
+            "data": "image2599.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option allows you to make a copy of \n the current Report."
+        },
+        {
+            "type": "text",
+            "data": "Delete Report"
+        },
+        {
+            "type": "image",
+            "data": "image2600.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option allows you to delete the current \n Report."
+        },
+        {
+            "type": "text",
+            "data": "Font Selector"
+        },
+        {
+            "type": "image",
+            "data": "image2601.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option allows you to change the Font \n for the selected text in your Report."
+        },
+        {
+            "type": "text",
+            "data": "Font Size"
+        },
+        {
+            "type": "image",
+            "data": "image2602.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option allows you to change the Font \n Size for the selected text in your Report."
+        },
+        {
+            "type": "text",
+            "data": "Bold"
+        },
+        {
+            "type": "image",
+            "data": "image2603.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option allows you to change the selected \n text in your Report to Bold."
+        },
+        {
+            "type": "text",
+            "data": "Italic"
+        },
+        {
+            "type": "image",
+            "data": "image2604.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option allows you to change the selected \n text in your Report to Italic."
+        },
+        {
+            "type": "text",
+            "data": "Underline"
+        },
+        {
+            "type": "image",
+            "data": "image2605.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option allows you to change the selected \n text in your Report to Underline."
+        },
+        {
+            "type": "text",
+            "data": "Left"
+        },
+        {
+            "type": "image",
+            "data": "image2606.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option allows you to change the selected \n texts Justification in your Report to Left."
+        },
+        {
+            "type": "text",
+            "data": "Center"
+        },
+        {
+            "type": "image",
+            "data": "image2607.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option allows you to change the selected \n texts Justification in your Report to Center."
+        },
+        {
+            "type": "text",
+            "data": "Right"
+        },
+        {
+            "type": "image",
+            "data": "image2608.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option allows you to change the selected \n texts Justification in your Report to Right."
+        },
+        {
+            "type": "text",
+            "data": "Indent"
+        },
+        {
+            "type": "image",
+            "data": "image2609.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option allows you to Indent the selected \n text."
+        },
+        {
+            "type": "text",
+            "data": "Outdent"
+        },
+        {
+            "type": "image",
+            "data": "image2610.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option allows you to Outdent the selected \n text."
+        },
+        {
+            "type": "text",
+            "data": "Bullets"
+        },
+        {
+            "type": "image",
+            "data": "image2611.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option allows you to change the selected \n text in your Report to a Bulleted List."
+        },
+        {
+            "type": "text",
+            "data": "Numbering"
+        },
+        {
+            "type": "image",
+            "data": "image2612.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option allows you to change the selected \n text in your Report to a Numbered List."
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\RLSBBC_Simple_Reports.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

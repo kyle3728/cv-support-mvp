@@ -1,0 +1,40 @@
+{
+    "id": "7d9f506d-8abc-40ea-a0f5-235962bfcef4",
+    "title": "RLRC_On_A_Counter_Top_Cutout",
+    "content": [
+        {
+            "type": "text",
+            "data": "Right Click On A Counter Top Cutout"
+        },
+        {
+            "type": "text",
+            "data": "When Right Clicking on Counter Top Cutout in addition to the standard Right Click on a Counter Top options you get the additional option to Edit Cut Out Shape."
+        },
+        {
+            "type": "image",
+            "data": "image2753.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image2993.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This menu option allows you to edit the shape of your Counter Top Cut Out by bringing up the Shape Editor options."
+        },
+        {
+            "type": "text",
+            "data": "Click the options below for more information"
+        },
+        {
+            "type": "image",
+            "data": "Shape_Editor_1.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish\\Room_Level\\Right_Click_Options\\RLRC_On_A_Counter_Top_Cutout.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

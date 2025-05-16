@@ -1,0 +1,153 @@
+{
+    "id": "f2493ed2-03be-40ec-b7d1-d0a24e4e63ef",
+    "title": "RLRC_In_A_Corner",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top \n > \n \n \n Room Level \n > \n \n Right Click Options \n > \n \n Right Click in a Corner"
+        },
+        {
+            "type": "text",
+            "data": "Top \n >"
+        },
+        {
+            "type": "text",
+            "data": "Room Level \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Room Level",
+                "uuid": "9eaa492c-0405-4da7-8e0f-a6ff4e047890",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Right Click Options \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Right Click Options",
+                "uuid": "3ea2c40b-e3fc-4eac-9114-cf8a3365c62a",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Right Click in a Corner"
+        },
+        {
+            "type": "text",
+            "data": "Right Click in a Corner"
+        },
+        {
+            "type": "text",
+            "data": "Right Click In A Corner -"
+        },
+        {
+            "type": "image",
+            "data": "image70.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Solid has the capability of allowing you to very easily create Extended/Return Corner situations based on your choices here. From within a Job place two Cabinets in a Corner leaving a void equal to the Cabinets Depth as demonstrated in the image below:"
+        },
+        {
+            "type": "image",
+            "data": "image861.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Once you have established this \"void\" Right Click in it. And you will receive the Right Click In a Corner menu."
+        },
+        {
+            "type": "text",
+            "data": "Face Frame Assemblies"
+        },
+        {
+            "type": "image",
+            "data": "image1204.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Frameless Assemblies"
+        },
+        {
+            "type": "image",
+            "data": "image1205.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There are 7 possible options:"
+        },
+        {
+            "type": "text",
+            "data": "Extend Left End -  Will make an Extend Left/Return Right Corner scenario based on your Construction Method settings for the  End Stile  and  Unfinished Ends ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "End Stile",
+                "uuid": "cb1f1b29-9c7c-4ec4-a35e-c0815c5e4c16",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Unfinished Ends",
+                "uuid": "39aa51f5-7d26-46a0-b69b-6aab562164fb",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Extend Right End -  Will make an Extend Right/Return Left Corner scenario based on your Construction Method settings for the  End Stile  and  Unfinished Ends ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "End Stile",
+                "uuid": "cb1f1b29-9c7c-4ec4-a35e-c0815c5e4c16",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Unfinished Ends",
+                "uuid": "39aa51f5-7d26-46a0-b69b-6aab562164fb",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Make Void -  Will return the Corner to a void."
+        },
+        {
+            "type": "text",
+            "data": "Mitre Corner -  Will Miter the Cabinets into the Corner."
+        },
+        {
+            "type": "text",
+            "data": "Mitre Frame Both -  Will Miter the Stiles at the Corner."
+        },
+        {
+            "type": "text",
+            "data": "Mitre Frame Left End -  Will Miter the Left Stile into the Right at the Corner."
+        },
+        {
+            "type": "text",
+            "data": "Mitre Frame Right End -  Will Miter the Right Stile into the Left at the Corner."
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Room_Level\\Right_Click_Options\\RLRC_In_A_Corner.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

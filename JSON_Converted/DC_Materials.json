@@ -1,0 +1,140 @@
+{
+    "id": "b1b2b0b9-168a-4751-811e-13ee2332681b",
+    "title": "DC_Materials",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top \n > \n \n \n System Level \n > \n \n Ribbonbar \n > \n \n Main Tab \n > \n \n Catalogs Group \n > \n \n Door Catalog \n > \n \n Menu Options \n > \n \n Setup Menu \n > \n \n Materials"
+        },
+        {
+            "type": "text",
+            "data": "Top \n >"
+        },
+        {
+            "type": "text",
+            "data": "System Level \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "System Level",
+                "uuid": "4450866f-fd9c-46df-abf3-7843c5a1ef37",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Ribbonbar \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Ribbonbar",
+                "uuid": "3bbac75c-2b61-42af-9bce-b90335e66dde",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Main Tab \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Main Tab",
+                "uuid": "3bbac75c-2b61-42af-9bce-b90335e66dde",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Catalogs Group \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Catalogs Group",
+                "uuid": "f4a43f08-b40b-442c-8f03-a96c2a64640f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Door Catalog \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Door Catalog",
+                "uuid": "2da09610-ccab-42a9-a5ce-4ad5fa83394a",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Menu Options \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Menu Options",
+                "uuid": "2e25ff21-1b0a-4d66-be31-5c4538e809c0",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Setup Menu \n >"
+        },
+        {
+            "type": "text",
+            "data": "Materials"
+        },
+        {
+            "type": "text",
+            "data": "Materials"
+        },
+        {
+            "type": "text",
+            "data": "Materials"
+        },
+        {
+            "type": "image",
+            "data": "Mats_1.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This is simply another place that you can go to create and change Material Schedules for Doors. This window works in exactly the same manner as the primary  Door Material Schedule Editor ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Door Material Schedule Editor",
+                "uuid": "94b9f888-f73f-4e07-b5c4-a992aa50b3ee",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "You will notice in the sidebar there are Laminate and Banding options. What you do is select a Material Schedule to work on by clicking on the drop down list. You then turn on and off the laminate and banding options by enabling or disabling the options you want. For example, in the window above I have my \"Alder\" Material Schedule picked and none of the \"Laminate Options\" are enabled. So when I use the \"Alder\" Material Schedule for a Door it will not laminate the face, laminate the back, or band the edges. In the following picture I have selected my \"Alder Band\" Material Schedule, you will note that the \"Band Edges\" option has been enabled. So when I use this Material Schedule for a Door the Door will be banded with whatever I selected for \"Door Edge Banding\" when I setup the \"Alder Band\" Material Schedule."
+        },
+        {
+            "type": "image",
+            "data": "Mats_2.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "In the following picture I have selected my \"Solid Laminate\" Material Schedule. You will note that the \"Laminate Face\", \"Laminate Back\", and the \"Band Edges\" options have all been checked. \u00a0So when I use this Material Schedule for a Door it will laminate the face of the Door, the back of the Door, and band the edges of the Door with whatever I selected for \"Door Face Laminate\", \"Door Back Laminate\", and \"Door Edge Banding\", when I setup the \"Solid Laminate\" Material Schedule. \u00a0I will have to be careful which Doors I use this Schedule for, as it will laminate the face and band the edges no matter what kind of Door it is."
+        },
+        {
+            "type": "image",
+            "data": "Mats_3.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\System_Level\\Ribbonbar\\Main_Tab\\Catalogs_Group\\Door_Catalog\\Menu_Options\\Setup_Menu\\DC_Materials.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

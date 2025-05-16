@@ -1,0 +1,1264 @@
+{
+    "id": "4ae8bbe7-e6a3-4c3c-94f2-2d124598b926",
+    "title": "Edit_Operations",
+    "content": [
+        {
+            "type": "text",
+            "data": "Edit Operations"
+        },
+        {
+            "type": "image",
+            "data": "image117.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Operations Editor consists of several tools designed to allow editing and adding of Operations to Parts in the S2M Center."
+        },
+        {
+            "type": "text",
+            "data": "Click the ribbonbar options below for more information"
+        },
+        {
+            "type": "image",
+            "data": "Edit_Operations_Main_Tab.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Layer Selector"
+        },
+        {
+            "type": "image",
+            "data": "image165.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image166.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There are two options in the Edit Shape Layer selector:"
+        },
+        {
+            "type": "text",
+            "data": "CAM -  The default Layer and the one all Operations must be drawn on."
+        },
+        {
+            "type": "text",
+            "data": "Construction -  This Layer allows you to draw Construction/Reference Lines to assist in creating/editing your Operations."
+        },
+        {
+            "type": "text",
+            "data": "Depending on which Layer is active some options in the Modify section of the ribbonbar may or may not be available."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "See the  Edit Shape  topic for more information on the Zoom, Inquiry and Modify groups."
+        },
+        {
+            "type": "text",
+            "data": "Line Bore"
+        },
+        {
+            "type": "image",
+            "data": "image167.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "When selecting the Line Bore option you will left click to establish the start point of your row of Line Bores then drag and left click to establish the end point."
+        },
+        {
+            "type": "text",
+            "data": "When selecting a Line Bore operation there are thirteen options in the sidebar Properties area:"
+        },
+        {
+            "type": "image",
+            "data": "image882.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Pos X -  Establishes the X Position of the start point for the Line Bore. \n \n \n Pos Y -  Establishes the Y Position of the start point for the Line Bore. \n \n \n Pos Z -  Establishes the Z Position for the Line Bore. \n \n \n End X -  Establishes the X Position of the end point for the Line Bore. \n \n \n End Y -  Establishes the Y Position of the end point for the Line Bore. \n \n \n Length -  Establishes the Length of the Line Bore. \n \n \n Diameter -  Establishes the Line Bore Diameter. \n \n \n Depth -  Establishes the Line Bore Depth. \n \n \n Angle -  Establishes the Line Bore angle. Rotation occurs around the start point. \n \n \n Spacing -  Establishes the Line Bore spacing. \n \n \n Repeat -  Establishes the number of Line Bores. \n \n \n Tool -  Allows you to assign a specific tool to the Line Bore. \n \n \n Description -  The Description of this Line Bore."
+        },
+        {
+            "type": "text",
+            "data": "Pos X -  Establishes the X Position of the start point for the Line Bore."
+        },
+        {
+            "type": "text",
+            "data": "Pos X -  Establishes the X Position of the start point for the Line Bore."
+        },
+        {
+            "type": "text",
+            "data": "Pos Y -  Establishes the Y Position of the start point for the Line Bore."
+        },
+        {
+            "type": "text",
+            "data": "Pos Y -  Establishes the Y Position of the start point for the Line Bore."
+        },
+        {
+            "type": "text",
+            "data": "Pos Z -  Establishes the Z Position for the Line Bore."
+        },
+        {
+            "type": "text",
+            "data": "Pos Z -  Establishes the Z Position for the Line Bore."
+        },
+        {
+            "type": "text",
+            "data": "End X -  Establishes the X Position of the end point for the Line Bore."
+        },
+        {
+            "type": "text",
+            "data": "End X -  Establishes the X Position of the end point for the Line Bore."
+        },
+        {
+            "type": "text",
+            "data": "End Y -  Establishes the Y Position of the end point for the Line Bore."
+        },
+        {
+            "type": "text",
+            "data": "End Y -  Establishes the Y Position of the end point for the Line Bore."
+        },
+        {
+            "type": "text",
+            "data": "Length -  Establishes the Length of the Line Bore."
+        },
+        {
+            "type": "text",
+            "data": "Length -  Establishes the Length of the Line Bore."
+        },
+        {
+            "type": "text",
+            "data": "Diameter -  Establishes the Line Bore Diameter."
+        },
+        {
+            "type": "text",
+            "data": "Diameter -  Establishes the Line Bore Diameter."
+        },
+        {
+            "type": "text",
+            "data": "Depth -  Establishes the Line Bore Depth."
+        },
+        {
+            "type": "text",
+            "data": "Depth -  Establishes the Line Bore Depth."
+        },
+        {
+            "type": "text",
+            "data": "Angle -  Establishes the Line Bore angle. Rotation occurs around the start point."
+        },
+        {
+            "type": "text",
+            "data": "Angle -  Establishes the Line Bore angle. Rotation occurs around the start point."
+        },
+        {
+            "type": "text",
+            "data": "Spacing -  Establishes the Line Bore spacing."
+        },
+        {
+            "type": "text",
+            "data": "Spacing -  Establishes the Line Bore spacing."
+        },
+        {
+            "type": "text",
+            "data": "Repeat -  Establishes the number of Line Bores."
+        },
+        {
+            "type": "text",
+            "data": "Repeat -  Establishes the number of Line Bores."
+        },
+        {
+            "type": "text",
+            "data": "Tool -  Allows you to assign a specific tool to the Line Bore."
+        },
+        {
+            "type": "text",
+            "data": "Tool -  Allows you to assign a specific tool to the Line Bore."
+        },
+        {
+            "type": "text",
+            "data": "Description -  The Description of this Line Bore."
+        },
+        {
+            "type": "text",
+            "data": "Description -  The Description of this Line Bore."
+        },
+        {
+            "type": "text",
+            "data": "Hole"
+        },
+        {
+            "type": "image",
+            "data": "image168.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "When selecting the Hole option you will left click to establish the center-point of the Hole."
+        },
+        {
+            "type": "text",
+            "data": "When selecting a Hole operation there are seven options in the sidebar Properties area:"
+        },
+        {
+            "type": "image",
+            "data": "image884.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Pos X -  Establishes the X Position of the start point for the Hole. \n \n \n Pos Y -  Establishes the Y Position of the start point for the Hole. \n \n \n Pos Z -  Establishes the Z Position for the Hole. \n \n \n Diameter -  Establishes the Hole Diameter. \n \n \n Depth -  Establishes the Hole Depth. \n \n \n Tool -  Allows you to assign a specific tool to the Hole. \n \n \n Description -  The Description of this Hole."
+        },
+        {
+            "type": "text",
+            "data": "Pos X -  Establishes the X Position of the start point for the Hole."
+        },
+        {
+            "type": "text",
+            "data": "Pos X -  Establishes the X Position of the start point for the Hole."
+        },
+        {
+            "type": "text",
+            "data": "Pos Y -  Establishes the Y Position of the start point for the Hole."
+        },
+        {
+            "type": "text",
+            "data": "Pos Y -  Establishes the Y Position of the start point for the Hole."
+        },
+        {
+            "type": "text",
+            "data": "Pos Z -  Establishes the Z Position for the Hole."
+        },
+        {
+            "type": "text",
+            "data": "Pos Z -  Establishes the Z Position for the Hole."
+        },
+        {
+            "type": "text",
+            "data": "Diameter -  Establishes the Hole Diameter."
+        },
+        {
+            "type": "text",
+            "data": "Diameter -  Establishes the Hole Diameter."
+        },
+        {
+            "type": "text",
+            "data": "Depth -  Establishes the Hole Depth."
+        },
+        {
+            "type": "text",
+            "data": "Depth -  Establishes the Hole Depth."
+        },
+        {
+            "type": "text",
+            "data": "Tool -  Allows you to assign a specific tool to the Hole."
+        },
+        {
+            "type": "text",
+            "data": "Tool -  Allows you to assign a specific tool to the Hole."
+        },
+        {
+            "type": "text",
+            "data": "Description -  The Description of this Hole."
+        },
+        {
+            "type": "text",
+            "data": "Description -  The Description of this Hole."
+        },
+        {
+            "type": "text",
+            "data": "Dado"
+        },
+        {
+            "type": "image",
+            "data": "image169.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "When selecting the Dado option you will left click to establish the start point of your Dado then drag and left click to establish the end point."
+        },
+        {
+            "type": "text",
+            "data": "When selecting a Dado operation there are eleven options in the sidebar Properties area:"
+        },
+        {
+            "type": "image",
+            "data": "image886.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Pos X -  Establishes the X Position of the start point for the Dado. \n \n \n Pos Y -  Establishes the Y Position of the start point for the Dado. \n \n \n Pos Z -  Establishes the Z Position for the Dado. \n \n \n End X -  Establishes the X Position of the end point for the Dado. \n \n \n End Y -  Establishes the Y Position of the end point for the Dado. \n \n \n Width -  Establishes the Width of the Dado. \n \n \n Length -  Establishes the Length of the Dado. \n \n \n Depth -  Establishes the Dado Depth. \n \n \n Angle -  Establishes the Dado angle. Rotation occurs around the start point. \n \n \n Tool -  Allows you to assign a specific tool to the Dado. \n \n \n Description -  The Description of this Dado."
+        },
+        {
+            "type": "text",
+            "data": "Pos X -  Establishes the X Position of the start point for the Dado."
+        },
+        {
+            "type": "text",
+            "data": "Pos X -  Establishes the X Position of the start point for the Dado."
+        },
+        {
+            "type": "text",
+            "data": "Pos Y -  Establishes the Y Position of the start point for the Dado."
+        },
+        {
+            "type": "text",
+            "data": "Pos Y -  Establishes the Y Position of the start point for the Dado."
+        },
+        {
+            "type": "text",
+            "data": "Pos Z -  Establishes the Z Position for the Dado."
+        },
+        {
+            "type": "text",
+            "data": "Pos Z -  Establishes the Z Position for the Dado."
+        },
+        {
+            "type": "text",
+            "data": "End X -  Establishes the X Position of the end point for the Dado."
+        },
+        {
+            "type": "text",
+            "data": "End X -  Establishes the X Position of the end point for the Dado."
+        },
+        {
+            "type": "text",
+            "data": "End Y -  Establishes the Y Position of the end point for the Dado."
+        },
+        {
+            "type": "text",
+            "data": "End Y -  Establishes the Y Position of the end point for the Dado."
+        },
+        {
+            "type": "text",
+            "data": "Width -  Establishes the Width of the Dado."
+        },
+        {
+            "type": "text",
+            "data": "Width -  Establishes the Width of the Dado."
+        },
+        {
+            "type": "text",
+            "data": "Length -  Establishes the Length of the Dado."
+        },
+        {
+            "type": "text",
+            "data": "Length -  Establishes the Length of the Dado."
+        },
+        {
+            "type": "text",
+            "data": "Depth -  Establishes the Dado Depth."
+        },
+        {
+            "type": "text",
+            "data": "Depth -  Establishes the Dado Depth."
+        },
+        {
+            "type": "text",
+            "data": "Angle -  Establishes the Dado angle. Rotation occurs around the start point."
+        },
+        {
+            "type": "text",
+            "data": "Angle -  Establishes the Dado angle. Rotation occurs around the start point."
+        },
+        {
+            "type": "text",
+            "data": "Tool -  Allows you to assign a specific tool to the Dado."
+        },
+        {
+            "type": "text",
+            "data": "Tool -  Allows you to assign a specific tool to the Dado."
+        },
+        {
+            "type": "text",
+            "data": "Description -  The Description of this Dado."
+        },
+        {
+            "type": "text",
+            "data": "Description -  The Description of this Dado."
+        },
+        {
+            "type": "text",
+            "data": "Clamex"
+        },
+        {
+            "type": "image",
+            "data": "image170.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Use this option to place machining for Lamello Clamex connectors."
+        },
+        {
+            "type": "text",
+            "data": "When selecting a Clamex operation there are ten options in the sidebar Properties area:"
+        },
+        {
+            "type": "image",
+            "data": "image95.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Pos X -  Establishes the X Position of the Clamex. \n \n \n Pos Y -  Establishes the Y Position of the Clamex. \n \n \n Pos Z -  Establishes the Z Position of the Clamex. \n \n \n Width -  Displays the Width of the Clamex. The Type selected determines its Width. \n \n \n Length -  Displays the Length of the Clamex.The Type selected determines its Length. \n \n \n Depth -  Displays the Clamex Depth.The Type selected determines its Depth. \n \n \n Type -  Establishes the Type of Clamex to machine for. There are four types available: \n \n \n \n \n P10 \n \n \n P15 \n \n \n P14 \n \n \n 15/10 \n \n \n \n \n Tool -  Allows you to assign a specific tool to the Clamex. \n \n \n Description -  The Description of this Clamex."
+        },
+        {
+            "type": "text",
+            "data": "Pos X -  Establishes the X Position of the Clamex."
+        },
+        {
+            "type": "text",
+            "data": "Pos X -  Establishes the X Position of the Clamex."
+        },
+        {
+            "type": "text",
+            "data": "Pos Y -  Establishes the Y Position of the Clamex."
+        },
+        {
+            "type": "text",
+            "data": "Pos Y -  Establishes the Y Position of the Clamex."
+        },
+        {
+            "type": "text",
+            "data": "Pos Z -  Establishes the Z Position of the Clamex."
+        },
+        {
+            "type": "text",
+            "data": "Pos Z -  Establishes the Z Position of the Clamex."
+        },
+        {
+            "type": "text",
+            "data": "Width -  Displays the Width of the Clamex. The Type selected determines its Width."
+        },
+        {
+            "type": "text",
+            "data": "Width -  Displays the Width of the Clamex. The Type selected determines its Width."
+        },
+        {
+            "type": "text",
+            "data": "Length -  Displays the Length of the Clamex.The Type selected determines its Length."
+        },
+        {
+            "type": "text",
+            "data": "Length -  Displays the Length of the Clamex.The Type selected determines its Length."
+        },
+        {
+            "type": "text",
+            "data": "Depth -  Displays the Clamex Depth.The Type selected determines its Depth."
+        },
+        {
+            "type": "text",
+            "data": "Depth -  Displays the Clamex Depth.The Type selected determines its Depth."
+        },
+        {
+            "type": "text",
+            "data": "Type -  Establishes the Type of Clamex to machine for. There are four types available:"
+        },
+        {
+            "type": "text",
+            "data": "Type -  Establishes the Type of Clamex to machine for. There are four types available:"
+        },
+        {
+            "type": "text",
+            "data": "P10 \n \n \n P15 \n \n \n P14 \n \n \n 15/10"
+        },
+        {
+            "type": "text",
+            "data": "P10 \n \n \n P15 \n \n \n P14 \n \n \n 15/10"
+        },
+        {
+            "type": "text",
+            "data": "P10"
+        },
+        {
+            "type": "text",
+            "data": "P10"
+        },
+        {
+            "type": "text",
+            "data": "P15"
+        },
+        {
+            "type": "text",
+            "data": "P15"
+        },
+        {
+            "type": "text",
+            "data": "P14"
+        },
+        {
+            "type": "text",
+            "data": "P14"
+        },
+        {
+            "type": "text",
+            "data": "15/10"
+        },
+        {
+            "type": "text",
+            "data": "15/10"
+        },
+        {
+            "type": "text",
+            "data": "Tool -  Allows you to assign a specific tool to the Clamex."
+        },
+        {
+            "type": "text",
+            "data": "Tool -  Allows you to assign a specific tool to the Clamex."
+        },
+        {
+            "type": "text",
+            "data": "Description -  The Description of this Clamex."
+        },
+        {
+            "type": "text",
+            "data": "Description -  The Description of this Clamex."
+        },
+        {
+            "type": "text",
+            "data": "Line"
+        },
+        {
+            "type": "image",
+            "data": "image171.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Using the Line option allows you to draw one Line at a time by selecting the start point then the end point. See the Line option in the  Edit Shape  topic for more information."
+        },
+        {
+            "type": "text",
+            "data": "When selecting a Line there are ten options in the sidebar Properties area:"
+        },
+        {
+            "type": "image",
+            "data": "image887.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Pos X -  Establishes the X Position of the start point for the Line. \n \n \n Pos Y -  Establishes the Y Position of the start point for the Line. \n \n \n Pos Z -  Establishes the Z Position for the Line. \n \n \n End X -  Allows you to set the Ending X position for the Line. \n \n \n End Y -  Allows you to set the Ending Y position for the Line. \n \n \n Length -  Establishes the Length of the Line. \n \n \n Depth -  Establishes the Line Depth. \n \n \n Angle -  Establishes the Line angle. Rotation occurs around the start point. \n \n \n Cut -  There are three options for Cut: \n \n \n \n \n Centerline -  Cuts along the Centerline of the Line. \n \n \n Inside -  Cuts along the Inside of the Line. \n \n \n Outside -  Cuts along the Inside of the Line. \n \n \n \n \n Tool -  Allows you to assign a specific tool to the Line. \n \n \n Description -  The Description of this Line."
+        },
+        {
+            "type": "text",
+            "data": "Pos X -  Establishes the X Position of the start point for the Line."
+        },
+        {
+            "type": "text",
+            "data": "Pos X -  Establishes the X Position of the start point for the Line."
+        },
+        {
+            "type": "text",
+            "data": "Pos Y -  Establishes the Y Position of the start point for the Line."
+        },
+        {
+            "type": "text",
+            "data": "Pos Y -  Establishes the Y Position of the start point for the Line."
+        },
+        {
+            "type": "text",
+            "data": "Pos Z -  Establishes the Z Position for the Line."
+        },
+        {
+            "type": "text",
+            "data": "Pos Z -  Establishes the Z Position for the Line."
+        },
+        {
+            "type": "text",
+            "data": "End X -  Allows you to set the Ending X position for the Line."
+        },
+        {
+            "type": "text",
+            "data": "End X -  Allows you to set the Ending X position for the Line."
+        },
+        {
+            "type": "text",
+            "data": "End Y -  Allows you to set the Ending Y position for the Line."
+        },
+        {
+            "type": "text",
+            "data": "End Y -  Allows you to set the Ending Y position for the Line."
+        },
+        {
+            "type": "text",
+            "data": "Length -  Establishes the Length of the Line."
+        },
+        {
+            "type": "text",
+            "data": "Length -  Establishes the Length of the Line."
+        },
+        {
+            "type": "text",
+            "data": "Depth -  Establishes the Line Depth."
+        },
+        {
+            "type": "text",
+            "data": "Depth -  Establishes the Line Depth."
+        },
+        {
+            "type": "text",
+            "data": "Angle -  Establishes the Line angle. Rotation occurs around the start point."
+        },
+        {
+            "type": "text",
+            "data": "Angle -  Establishes the Line angle. Rotation occurs around the start point."
+        },
+        {
+            "type": "text",
+            "data": "Cut -  There are three options for Cut:"
+        },
+        {
+            "type": "text",
+            "data": "Cut -  There are three options for Cut:"
+        },
+        {
+            "type": "text",
+            "data": "Centerline -  Cuts along the Centerline of the Line. \n \n \n Inside -  Cuts along the Inside of the Line. \n \n \n Outside -  Cuts along the Inside of the Line."
+        },
+        {
+            "type": "text",
+            "data": "Centerline -  Cuts along the Centerline of the Line. \n \n \n Inside -  Cuts along the Inside of the Line. \n \n \n Outside -  Cuts along the Inside of the Line."
+        },
+        {
+            "type": "text",
+            "data": "Centerline -  Cuts along the Centerline of the Line."
+        },
+        {
+            "type": "text",
+            "data": "Centerline -  Cuts along the Centerline of the Line."
+        },
+        {
+            "type": "text",
+            "data": "Inside -  Cuts along the Inside of the Line."
+        },
+        {
+            "type": "text",
+            "data": "Inside -  Cuts along the Inside of the Line."
+        },
+        {
+            "type": "text",
+            "data": "Outside -  Cuts along the Inside of the Line."
+        },
+        {
+            "type": "text",
+            "data": "Outside -  Cuts along the Inside of the Line."
+        },
+        {
+            "type": "text",
+            "data": "Tool -  Allows you to assign a specific tool to the Line."
+        },
+        {
+            "type": "text",
+            "data": "Tool -  Allows you to assign a specific tool to the Line."
+        },
+        {
+            "type": "text",
+            "data": "Description -  The Description of this Line."
+        },
+        {
+            "type": "text",
+            "data": "Description -  The Description of this Line."
+        },
+        {
+            "type": "text",
+            "data": "Arcs"
+        },
+        {
+            "type": "image",
+            "data": "image172.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image173.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Using the Arc option allows you to draw Arcs. See the Arcs option in the  Edit Shape  topic for more information."
+        },
+        {
+            "type": "text",
+            "data": "When selecting an Arc there are fourteen possible options in the sidebar Properties area:"
+        },
+        {
+            "type": "image",
+            "data": "image891.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Pos X -  Establishes the X Position of the start point for the Arc. \n \n \n Pos Y -  Establishes the Y Position of the start point for the Arc. \n \n \n Pos Z -  Establishes the Z Position for the Arc. \n \n \n Radius -  Allows you to set the Radius of the Arc. \n \n \n Start X -  Allows you to set the Starting X position of the Arc. \n \n \n Start Y -  Allows you to set the Starting Y position of the Arc. \n \n \n End X -  Allows you to set the Ending X position of the Arc. \n \n \n End Y -  Allows you to set the Ending Y position of the Arc. \n \n \n Begin Angle -  Allows you to set the Begin Angle for the Arc. \n \n \n End Angle -  Allows you to set the End Angle for the Arc. \n \n \n Depth -  Establishes the Arc Depth. \n \n \n Cut -  There are three options for Cut: \n \n \n \n \n Centerline -  Cuts along the Centerline of the Arc. \n \n \n Inside -  Cuts along the Inside of the Arc. \n \n \n Outside -  Cuts along the Inside of the Arc. \n \n \n \n \n Tool -  Allows you to assign a specific tool to the Arc. \n \n \n Description -  The Description of this Arc."
+        },
+        {
+            "type": "text",
+            "data": "Pos X -  Establishes the X Position of the start point for the Arc."
+        },
+        {
+            "type": "text",
+            "data": "Pos X -  Establishes the X Position of the start point for the Arc."
+        },
+        {
+            "type": "text",
+            "data": "Pos Y -  Establishes the Y Position of the start point for the Arc."
+        },
+        {
+            "type": "text",
+            "data": "Pos Y -  Establishes the Y Position of the start point for the Arc."
+        },
+        {
+            "type": "text",
+            "data": "Pos Z -  Establishes the Z Position for the Arc."
+        },
+        {
+            "type": "text",
+            "data": "Pos Z -  Establishes the Z Position for the Arc."
+        },
+        {
+            "type": "text",
+            "data": "Radius -  Allows you to set the Radius of the Arc."
+        },
+        {
+            "type": "text",
+            "data": "Radius -  Allows you to set the Radius of the Arc."
+        },
+        {
+            "type": "text",
+            "data": "Start X -  Allows you to set the Starting X position of the Arc."
+        },
+        {
+            "type": "text",
+            "data": "Start X -  Allows you to set the Starting X position of the Arc."
+        },
+        {
+            "type": "text",
+            "data": "Start Y -  Allows you to set the Starting Y position of the Arc."
+        },
+        {
+            "type": "text",
+            "data": "Start Y -  Allows you to set the Starting Y position of the Arc."
+        },
+        {
+            "type": "text",
+            "data": "End X -  Allows you to set the Ending X position of the Arc."
+        },
+        {
+            "type": "text",
+            "data": "End X -  Allows you to set the Ending X position of the Arc."
+        },
+        {
+            "type": "text",
+            "data": "End Y -  Allows you to set the Ending Y position of the Arc."
+        },
+        {
+            "type": "text",
+            "data": "End Y -  Allows you to set the Ending Y position of the Arc."
+        },
+        {
+            "type": "text",
+            "data": "Begin Angle -  Allows you to set the Begin Angle for the Arc."
+        },
+        {
+            "type": "text",
+            "data": "Begin Angle -  Allows you to set the Begin Angle for the Arc."
+        },
+        {
+            "type": "text",
+            "data": "End Angle -  Allows you to set the End Angle for the Arc."
+        },
+        {
+            "type": "text",
+            "data": "End Angle -  Allows you to set the End Angle for the Arc."
+        },
+        {
+            "type": "text",
+            "data": "Depth -  Establishes the Arc Depth."
+        },
+        {
+            "type": "text",
+            "data": "Depth -  Establishes the Arc Depth."
+        },
+        {
+            "type": "text",
+            "data": "Cut -  There are three options for Cut:"
+        },
+        {
+            "type": "text",
+            "data": "Cut -  There are three options for Cut:"
+        },
+        {
+            "type": "text",
+            "data": "Centerline -  Cuts along the Centerline of the Arc. \n \n \n Inside -  Cuts along the Inside of the Arc. \n \n \n Outside -  Cuts along the Inside of the Arc."
+        },
+        {
+            "type": "text",
+            "data": "Centerline -  Cuts along the Centerline of the Arc. \n \n \n Inside -  Cuts along the Inside of the Arc. \n \n \n Outside -  Cuts along the Inside of the Arc."
+        },
+        {
+            "type": "text",
+            "data": "Centerline -  Cuts along the Centerline of the Arc."
+        },
+        {
+            "type": "text",
+            "data": "Centerline -  Cuts along the Centerline of the Arc."
+        },
+        {
+            "type": "text",
+            "data": "Inside -  Cuts along the Inside of the Arc."
+        },
+        {
+            "type": "text",
+            "data": "Inside -  Cuts along the Inside of the Arc."
+        },
+        {
+            "type": "text",
+            "data": "Outside -  Cuts along the Inside of the Arc."
+        },
+        {
+            "type": "text",
+            "data": "Outside -  Cuts along the Inside of the Arc."
+        },
+        {
+            "type": "text",
+            "data": "Tool -  Allows you to assign a specific tool to the Arc."
+        },
+        {
+            "type": "text",
+            "data": "Tool -  Allows you to assign a specific tool to the Arc."
+        },
+        {
+            "type": "text",
+            "data": "Description -  The Description of this Arc."
+        },
+        {
+            "type": "text",
+            "data": "Description -  The Description of this Arc."
+        },
+        {
+            "type": "text",
+            "data": "Circle"
+        },
+        {
+            "type": "image",
+            "data": "image174.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option allows you to create Circles. Click in the place where you want the center of the circle and pull the mouse to one side or the other and a Circle will develop. The area in the sidebar allows modifying the radius by numerically entering a value."
+        },
+        {
+            "type": "text",
+            "data": "When selecting an Circle there are eight options in the sidebar Properties area:"
+        },
+        {
+            "type": "image",
+            "data": "image893.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Pos X -  Establishes the X Position of the center-point for the Circle. \n \n \n Pos Y -  Establishes the Y Position of the center-point for the Circle. \n \n \n Pos Z -  Establishes the Z Position for the Circle. \n \n \n Diameter -  Establishes the Diameter of the Circle. \n \n \n Depth -  Establishes Circle Depth. \n \n \n Cut -  There are three options for Cut: \n \n \n Tool -  Allows you to assign a specific tool to the Circle. \n \n \n Description -  The Description of this Circle."
+        },
+        {
+            "type": "text",
+            "data": "Pos X -  Establishes the X Position of the center-point for the Circle."
+        },
+        {
+            "type": "text",
+            "data": "Pos X -  Establishes the X Position of the center-point for the Circle."
+        },
+        {
+            "type": "text",
+            "data": "Pos Y -  Establishes the Y Position of the center-point for the Circle."
+        },
+        {
+            "type": "text",
+            "data": "Pos Y -  Establishes the Y Position of the center-point for the Circle."
+        },
+        {
+            "type": "text",
+            "data": "Pos Z -  Establishes the Z Position for the Circle."
+        },
+        {
+            "type": "text",
+            "data": "Pos Z -  Establishes the Z Position for the Circle."
+        },
+        {
+            "type": "text",
+            "data": "Diameter -  Establishes the Diameter of the Circle."
+        },
+        {
+            "type": "text",
+            "data": "Diameter -  Establishes the Diameter of the Circle."
+        },
+        {
+            "type": "text",
+            "data": "Depth -  Establishes Circle Depth."
+        },
+        {
+            "type": "text",
+            "data": "Depth -  Establishes Circle Depth."
+        },
+        {
+            "type": "text",
+            "data": "Cut -  There are three options for Cut:"
+        },
+        {
+            "type": "text",
+            "data": "Cut -  There are three options for Cut:"
+        },
+        {
+            "type": "text",
+            "data": "Tool -  Allows you to assign a specific tool to the Circle."
+        },
+        {
+            "type": "text",
+            "data": "Tool -  Allows you to assign a specific tool to the Circle."
+        },
+        {
+            "type": "text",
+            "data": "Description -  The Description of this Circle."
+        },
+        {
+            "type": "text",
+            "data": "Description -  The Description of this Circle."
+        },
+        {
+            "type": "text",
+            "data": "Rectangle"
+        },
+        {
+            "type": "image",
+            "data": "image175.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This tool provides for creating a Rectangle (or square) by clicking the point where it is to start and clicking on the point where it is to finish. It can thereafter be adjusted by using the Select tool. The area in the sidebar is similar to the one for the Line tool."
+        },
+        {
+            "type": "text",
+            "data": "Pressing   + Left Mouse Drag will force the Rectangle to be a Square."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "shift_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "When selecting an Rectangle there are eleven options in the sidebar Properties area:"
+        },
+        {
+            "type": "image",
+            "data": "image895.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Pos X -  Establishes the X Position of the start point for the Rectangle. \n \n \n Pos Y -  Establishes the Y Position of the start point for the Rectangle. \n \n \n Pos Z -  Establishes the Z Position for the Rectangle. \n \n \n Width -  Establishes the Width of the Rectangle. \n \n \n Length -  Establishes the Length of the Rectangle. \n \n \n Depth -  Establishes the Rectangle Depth. \n \n \n Angle -  Establishes the Rectangle angle. Rotation occurs around the start point. \n \n \n Type -  There are two choices for Type: \n \n \n \n \n Outline -  Will cut an Outline of the Rectangle. \n \n \n Pocket -  Will Pocket out the Rectangle. \n \n \n \n \n Cut -  There are three options for Cut: \n \n \n \n \n Centerline -  Cuts along the Centerline of the Rectangle. \n \n \n Inside -  Cuts along the Inside of the Rectangle. \n \n \n Outside -  Cuts along the Inside of the Rectangle. \n \n \n \n \n Tool -  Allows you to assign a specific tool to the Rectangle. \n \n \n Description -  The Description of this Rectangle."
+        },
+        {
+            "type": "text",
+            "data": "Pos X -  Establishes the X Position of the start point for the Rectangle."
+        },
+        {
+            "type": "text",
+            "data": "Pos X -  Establishes the X Position of the start point for the Rectangle."
+        },
+        {
+            "type": "text",
+            "data": "Pos Y -  Establishes the Y Position of the start point for the Rectangle."
+        },
+        {
+            "type": "text",
+            "data": "Pos Y -  Establishes the Y Position of the start point for the Rectangle."
+        },
+        {
+            "type": "text",
+            "data": "Pos Z -  Establishes the Z Position for the Rectangle."
+        },
+        {
+            "type": "text",
+            "data": "Pos Z -  Establishes the Z Position for the Rectangle."
+        },
+        {
+            "type": "text",
+            "data": "Width -  Establishes the Width of the Rectangle."
+        },
+        {
+            "type": "text",
+            "data": "Width -  Establishes the Width of the Rectangle."
+        },
+        {
+            "type": "text",
+            "data": "Length -  Establishes the Length of the Rectangle."
+        },
+        {
+            "type": "text",
+            "data": "Length -  Establishes the Length of the Rectangle."
+        },
+        {
+            "type": "text",
+            "data": "Depth -  Establishes the Rectangle Depth."
+        },
+        {
+            "type": "text",
+            "data": "Depth -  Establishes the Rectangle Depth."
+        },
+        {
+            "type": "text",
+            "data": "Angle -  Establishes the Rectangle angle. Rotation occurs around the start point."
+        },
+        {
+            "type": "text",
+            "data": "Angle -  Establishes the Rectangle angle. Rotation occurs around the start point."
+        },
+        {
+            "type": "text",
+            "data": "Type -  There are two choices for Type:"
+        },
+        {
+            "type": "text",
+            "data": "Type -  There are two choices for Type:"
+        },
+        {
+            "type": "text",
+            "data": "Outline -  Will cut an Outline of the Rectangle. \n \n \n Pocket -  Will Pocket out the Rectangle."
+        },
+        {
+            "type": "text",
+            "data": "Outline -  Will cut an Outline of the Rectangle. \n \n \n Pocket -  Will Pocket out the Rectangle."
+        },
+        {
+            "type": "text",
+            "data": "Outline -  Will cut an Outline of the Rectangle."
+        },
+        {
+            "type": "text",
+            "data": "Outline -  Will cut an Outline of the Rectangle."
+        },
+        {
+            "type": "text",
+            "data": "Pocket -  Will Pocket out the Rectangle."
+        },
+        {
+            "type": "text",
+            "data": "Pocket -  Will Pocket out the Rectangle."
+        },
+        {
+            "type": "text",
+            "data": "Cut -  There are three options for Cut:"
+        },
+        {
+            "type": "text",
+            "data": "Cut -  There are three options for Cut:"
+        },
+        {
+            "type": "text",
+            "data": "Centerline -  Cuts along the Centerline of the Rectangle. \n \n \n Inside -  Cuts along the Inside of the Rectangle. \n \n \n Outside -  Cuts along the Inside of the Rectangle."
+        },
+        {
+            "type": "text",
+            "data": "Centerline -  Cuts along the Centerline of the Rectangle. \n \n \n Inside -  Cuts along the Inside of the Rectangle. \n \n \n Outside -  Cuts along the Inside of the Rectangle."
+        },
+        {
+            "type": "text",
+            "data": "Centerline -  Cuts along the Centerline of the Rectangle."
+        },
+        {
+            "type": "text",
+            "data": "Centerline -  Cuts along the Centerline of the Rectangle."
+        },
+        {
+            "type": "text",
+            "data": "Inside -  Cuts along the Inside of the Rectangle."
+        },
+        {
+            "type": "text",
+            "data": "Inside -  Cuts along the Inside of the Rectangle."
+        },
+        {
+            "type": "text",
+            "data": "Outside -  Cuts along the Inside of the Rectangle."
+        },
+        {
+            "type": "text",
+            "data": "Outside -  Cuts along the Inside of the Rectangle."
+        },
+        {
+            "type": "text",
+            "data": "Tool -  Allows you to assign a specific tool to the Rectangle."
+        },
+        {
+            "type": "text",
+            "data": "Tool -  Allows you to assign a specific tool to the Rectangle."
+        },
+        {
+            "type": "text",
+            "data": "Description -  The Description of this Rectangle."
+        },
+        {
+            "type": "text",
+            "data": "Description -  The Description of this Rectangle."
+        },
+        {
+            "type": "text",
+            "data": "Polyline"
+        },
+        {
+            "type": "image",
+            "data": "image176.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option creates a joined line with multiple segments. Left click to start, and at intermediate points. Right click to set the Polyline. The example below shows a polyline that has three line segments that have been set and a fourth being drawn."
+        },
+        {
+            "type": "image",
+            "data": "image353.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "When selecting a Polyline there are ten options in the sidebar Properties area:"
+        },
+        {
+            "type": "image",
+            "data": "image897.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Pos X -  Establishes the X Position of the start point for the Polyline. \n \n \n Pos Y -  Establishes the Y Position of the start point for the Polyline. \n \n \n Pos Z -  Establishes the Z Position for the Polyline. \n \n \n Width -  Establishes the Width of the Polyline. \n \n \n Length -  Establishes the Length of the Polyline. \n \n \n Depth -  Establishes the Polyline Depth. \n \n \n Angle -  Establishes the Polyline angle. Rotation occurs around the start point. \n \n \n Cut -  There are three options for Cut: \n \n \n \n \n Centerline -  Cuts along the Centerline of the Polyline. \n \n \n Inside -  Cuts along the Inside of the Polyline. \n \n \n \n \n Tool -  Allows you to assign a specific tool to the Polyline. \n \n \n Description -  The Description of this Polyline."
+        },
+        {
+            "type": "text",
+            "data": "Pos X -  Establishes the X Position of the start point for the Polyline."
+        },
+        {
+            "type": "text",
+            "data": "Pos X -  Establishes the X Position of the start point for the Polyline."
+        },
+        {
+            "type": "text",
+            "data": "Pos Y -  Establishes the Y Position of the start point for the Polyline."
+        },
+        {
+            "type": "text",
+            "data": "Pos Y -  Establishes the Y Position of the start point for the Polyline."
+        },
+        {
+            "type": "text",
+            "data": "Pos Z -  Establishes the Z Position for the Polyline."
+        },
+        {
+            "type": "text",
+            "data": "Pos Z -  Establishes the Z Position for the Polyline."
+        },
+        {
+            "type": "text",
+            "data": "Width -  Establishes the Width of the Polyline."
+        },
+        {
+            "type": "text",
+            "data": "Width -  Establishes the Width of the Polyline."
+        },
+        {
+            "type": "text",
+            "data": "Length -  Establishes the Length of the Polyline."
+        },
+        {
+            "type": "text",
+            "data": "Length -  Establishes the Length of the Polyline."
+        },
+        {
+            "type": "text",
+            "data": "Depth -  Establishes the Polyline Depth."
+        },
+        {
+            "type": "text",
+            "data": "Depth -  Establishes the Polyline Depth."
+        },
+        {
+            "type": "text",
+            "data": "Angle -  Establishes the Polyline angle. Rotation occurs around the start point."
+        },
+        {
+            "type": "text",
+            "data": "Angle -  Establishes the Polyline angle. Rotation occurs around the start point."
+        },
+        {
+            "type": "text",
+            "data": "Cut -  There are three options for Cut:"
+        },
+        {
+            "type": "text",
+            "data": "Cut -  There are three options for Cut:"
+        },
+        {
+            "type": "text",
+            "data": "Centerline -  Cuts along the Centerline of the Polyline. \n \n \n Inside -  Cuts along the Inside of the Polyline."
+        },
+        {
+            "type": "text",
+            "data": "Centerline -  Cuts along the Centerline of the Polyline. \n \n \n Inside -  Cuts along the Inside of the Polyline."
+        },
+        {
+            "type": "text",
+            "data": "Centerline -  Cuts along the Centerline of the Polyline."
+        },
+        {
+            "type": "text",
+            "data": "Centerline -  Cuts along the Centerline of the Polyline."
+        },
+        {
+            "type": "text",
+            "data": "Inside -  Cuts along the Inside of the Polyline."
+        },
+        {
+            "type": "text",
+            "data": "Inside -  Cuts along the Inside of the Polyline."
+        },
+        {
+            "type": "text",
+            "data": "Tool -  Allows you to assign a specific tool to the Polyline."
+        },
+        {
+            "type": "text",
+            "data": "Tool -  Allows you to assign a specific tool to the Polyline."
+        },
+        {
+            "type": "text",
+            "data": "Description -  The Description of this Polyline."
+        },
+        {
+            "type": "text",
+            "data": "Description -  The Description of this Polyline."
+        }
+    ],
+    "source_file": "NCEnglish\\Ribbonbar\\Main_Tab\\Parts\\Edit\\Edit_Operations.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

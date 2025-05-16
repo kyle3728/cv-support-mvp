@@ -1,0 +1,183 @@
+{
+    "id": "f85b0a07-e86c-4090-84a6-53ebf5f0129a",
+    "title": "Connections",
+    "content": [
+        {
+            "type": "text",
+            "data": "Connection Manager"
+        },
+        {
+            "type": "text",
+            "data": "The Connection Manager is where you will setup your Connection Machining for use on Part Connections for  Assemblies \u00a0and\u00a0 Drawers and Roll Outs  in the Assembly Manager."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Assemblies",
+                "uuid": "190e20aa-379a-4917-a647-6ad47f825039",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Drawers and Roll Outs",
+                "uuid": "c08b0bf8-4db3-4419-a3d0-414780a15cd7",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image1341.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "When selecting the New option in the ribbonbar you are given the choice of creating a Connection or a  Connection Set ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Connection Set",
+                "uuid": "f85b0a07-e86c-4090-84a6-53ebf5f0129a",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Following are the Connections that can be created in the Connection Manager."
+        },
+        {
+            "type": "image",
+            "data": "image1342.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Click the Connection Types below for more information."
+        },
+        {
+            "type": "text",
+            "data": "Boring"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Boring",
+                "uuid": "3e23e9ca-3aa4-4df6-8da6-78640aba9721",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Connector"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Connector",
+                "uuid": "58398677-83ba-485e-a378-2ce08b4e870a",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Dado"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Dado",
+                "uuid": "02922774-5524-46f1-8ec1-2adc03a62b0e",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Dovetail"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Dovetail",
+                "uuid": "145cb927-3a64-4aef-b065-f3459136c9fc",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "I-Joint"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "I-Joint",
+                "uuid": "07b32acd-c12c-407a-851e-b6ada633a724",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Line Bore"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Line Bore",
+                "uuid": "8a6d2bd9-6fae-4748-9e0a-304d3756ae40",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Mortise & Tenon"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Mortise & Tenon",
+                "uuid": "0b0880f1-d625-4665-a286-d3d4b751ed40",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Set"
+        },
+        {
+            "type": "text",
+            "data": "Connection Sets allow you to tie multiple Connections together. Maybe you have a Connection that defines dowel boring and you also have one which performs pre-drills. You can tie these two together create a single Connection Set which creates both."
+        },
+        {
+            "type": "image",
+            "data": "image1343.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Simply add any existing Connections (leftmost pane) to the Connection Set (rightmost pane)."
+        },
+        {
+            "type": "text",
+            "data": "You can also Copy\u00a0 , Delete\u00a0  or Modify\u00a0  an existing Connection of Connection Set here."
+        },
+        {
+            "type": "image",
+            "data": "image902.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image903.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image904.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\System_Level\\Ribbonbar\\Main_Tab\\Construction_Group\\Connections\\Connections.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

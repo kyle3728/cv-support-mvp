@@ -1,0 +1,790 @@
+{
+    "id": "b7e6f627-bbca-4ffc-8c53-7ea042504eb4",
+    "title": "Specialized_Drill_and_Dowel",
+    "content": [
+        {
+            "type": "text",
+            "data": "Specialized Drill and Dowel"
+        },
+        {
+            "type": "text",
+            "data": "This Machine Type is specifically for Drill and Dowel Machines. Following \n are the Setup Tab options for Specialized Drill and Dowel:"
+        },
+        {
+            "type": "text",
+            "data": "Setup Tab - Specialized Drill & Dowel"
+        },
+        {
+            "type": "text",
+            "data": "The fields defined below will only be available if your Drill & \n Dowel supports the feature the field defines."
+        },
+        {
+            "type": "text",
+            "data": "Depth Match Group"
+        },
+        {
+            "type": "text",
+            "data": "Face Up -  This setting \n\t will force the program to be written either face up or down regardless \n\t of if the part is face up/down on the nest or saw."
+        },
+        {
+            "type": "text",
+            "data": "Face Up -  This setting \n\t will force the program to be written either face up or down regardless \n\t of if the part is face up/down on the nest or saw."
+        },
+        {
+            "type": "text",
+            "data": "Face Up -  This setting \n\t will force the program to be written either face up or down regardless \n\t of if the part is face up/down on the nest or saw."
+        },
+        {
+            "type": "image",
+            "data": "image688.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "You can override the up/down flag on an individual part with the DNDFLIP \n parameter."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Face Up \n with Label-IT"
+        },
+        {
+            "type": "text",
+            "data": "Below is sample output for 2 different edge \n machines. Each machine has a different Face Up setting."
+        },
+        {
+            "type": "text",
+            "data": "The arrows will indicate how the part should \n be fed into the machine and since this part was on the saw Face Down that \n the Face Up program(s) require the part to be flipped."
+        },
+        {
+            "type": "text",
+            "data": "When two programs share the same name but \n different Face Up/Down requirements then multiple arrows will be shown \n to accommodate. The arrows will coincide with the machine tags field."
+        },
+        {
+            "type": "text",
+            "data": "Note that when this part is BU (back up) \n it has a Left and Bottom program. When it is flipped Face Up, it has a \n Right and Bottom program. The L,R,B,T programs are always relative to \n the primary edge of the part and if the parts is Face Up/Down."
+        },
+        {
+            "type": "image",
+            "data": "image89.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "In the past the Label was always rotated \n so that the Arrow pointed to the primary edge of the part. However there \n was a disconnect with this rotation and how the part appears on the Label \n in Label-IT. In Label-IT the part is always rotated 90 degrees since parts \n are typically longer then they are wide to maximize the part image."
+        },
+        {
+            "type": "text",
+            "data": "Now the label is always rotated so that it \n points to a part length."
+        },
+        {
+            "type": "text",
+            "data": "In the image depicted below we have the same \n part with 4 different primary edges. The primary edge corresponds with \n the part number. In the past the 2nd parts label would point to the right \n and the 4th parts label would point left. In the new scheme the part with \n the primary edge of 2 or 4 have the same rotation as a part with 1 or \n 3 respectively."
+        },
+        {
+            "type": "text",
+            "data": "Note that the position of the label has not \n changed, only the rotation."
+        },
+        {
+            "type": "image",
+            "data": "image341.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Silent \n Mirrored Programs"
+        },
+        {
+            "type": "text",
+            "data": "If a part is shaped there may be difficulty \n lining up the part on the fence of the machine on its shaped side. We \n now output a silent mirrored program for all shaped parts. The mirrored \n program can be run on the opposite fence if needed."
+        },
+        {
+            "type": "text",
+            "data": "Note that the mirrored program will still \n have the same Face Up/Down orientation as the primary program. In essence \n only the X-Position is mirrored (not the Z)."
+        },
+        {
+            "type": "text",
+            "data": "These additional programs will only occur \n for shaped parts."
+        },
+        {
+            "type": "text",
+            "data": "The Barcodes on the Label Image will be for \n the primary edge program. The operator will need to be trained/informed \n that there is an additional program if necessary."
+        },
+        {
+            "type": "text",
+            "data": "The edge program has a new naming convention:"
+        },
+        {
+            "type": "text",
+            "data": "Previously"
+        },
+        {
+            "type": "text",
+            "data": "R010011L (Run Number R01) (PartID 0011) \n (Edge L = Left)"
+        },
+        {
+            "type": "text",
+            "data": "New"
+        },
+        {
+            "type": "text",
+            "data": "R01P00BL (Run Number R01) (Primary or Mirrored \n P/M) (PartID in base 36 00B) (Edge L = Left)"
+        },
+        {
+            "type": "text",
+            "data": "R01M00BL (Run Number R01) (Primary or Mirrored \n P/M) (PartID in base 36 00B) (Edge L = Left)"
+        },
+        {
+            "type": "text",
+            "data": "With Base 36, the three 3 characters reserved \n for PartID can now store 46,655 unique IDs from 000 to ZZZ"
+        },
+        {
+            "type": "text",
+            "data": "If the part is shaped the program will output \n a R01M* program in addition to the R01P*"
+        },
+        {
+            "type": "text",
+            "data": "All D & D output except for the  Weeke \n BEK  that describes the entire part now feature the mirrored programs."
+        },
+        {
+            "type": "text",
+            "data": "EXAMPLE OUTPUT"
+        },
+        {
+            "type": "text",
+            "data": "R78P00DL:"
+        },
+        {
+            "type": "text",
+            "data": "Edge \n Width"
+        },
+        {
+            "type": "text",
+            "data": "4.50000"
+        },
+        {
+            "type": "text",
+            "data": "Number \n Of Holes"
+        },
+        {
+            "type": "text",
+            "data": "2"
+        },
+        {
+            "type": "text",
+            "data": "Hole \n 1"
+        },
+        {
+            "type": "text",
+            "data": "0.75000 \n 1 0 1"
+        },
+        {
+            "type": "text",
+            "data": "Hole \n 2"
+        },
+        {
+            "type": "text",
+            "data": "1.25000 \n 1 0 1"
+        },
+        {
+            "type": "text",
+            "data": "R78M00DL:"
+        },
+        {
+            "type": "text",
+            "data": "Edge \n Width"
+        },
+        {
+            "type": "text",
+            "data": "4.50000"
+        },
+        {
+            "type": "text",
+            "data": "Number \n Of Holes"
+        },
+        {
+            "type": "text",
+            "data": "2"
+        },
+        {
+            "type": "text",
+            "data": "Hole \n 1"
+        },
+        {
+            "type": "text",
+            "data": "3.75000 \n 1 0 1"
+        },
+        {
+            "type": "text",
+            "data": "Hole \n 2"
+        },
+        {
+            "type": "text",
+            "data": "3.25000 \n 1 0 1"
+        },
+        {
+            "type": "text",
+            "data": "Drill Match Depth \n\t -  Specifies to the S2M Center when to send a Drill only code \n\t to your Drill and Dowel. Match Depths are used to specify a trigger \n\t to output the correct codes to your Machine. See Match Depth explanation \n\t below."
+        },
+        {
+            "type": "text",
+            "data": "Drill Match Depth \n\t -  Specifies to the S2M Center when to send a Drill only code \n\t to your Drill and Dowel. Match Depths are used to specify a trigger \n\t to output the correct codes to your Machine. See Match Depth explanation \n\t below."
+        },
+        {
+            "type": "text",
+            "data": "Drill Match Depth \n\t -  Specifies to the S2M Center when to send a Drill only code \n\t to your Drill and Dowel. Match Depths are used to specify a trigger \n\t to output the correct codes to your Machine. See Match Depth explanation \n\t below."
+        },
+        {
+            "type": "image",
+            "data": "image1487.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Dowel Match Depth \n\t -  Specifies to the S2M Center when to send a Drill and Dowel \n\t code to your Drill and Dowel. See Match Depth explanation below."
+        },
+        {
+            "type": "text",
+            "data": "Dowel Match Depth \n\t -  Specifies to the S2M Center when to send a Drill and Dowel \n\t code to your Drill and Dowel. See Match Depth explanation below."
+        },
+        {
+            "type": "text",
+            "data": "Dowel Match Depth \n\t -  Specifies to the S2M Center when to send a Drill and Dowel \n\t code to your Drill and Dowel. See Match Depth explanation below."
+        },
+        {
+            "type": "image",
+            "data": "image1488.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "KD Match Depth -  \n\t Specifies to the S2M Center when to send a Drill and KD Insert code \n\t to your Gannomat Index Drill and Dowel. See Match Depth explanation \n\t below."
+        },
+        {
+            "type": "text",
+            "data": "KD Match Depth -  \n\t Specifies to the S2M Center when to send a Drill and KD Insert code \n\t to your Gannomat Index Drill and Dowel. See Match Depth explanation \n\t below."
+        },
+        {
+            "type": "text",
+            "data": "KD Match Depth -  \n\t Specifies to the S2M Center when to send a Drill and KD Insert code \n\t to your Gannomat Index Drill and Dowel. See Match Depth explanation \n\t below."
+        },
+        {
+            "type": "image",
+            "data": "image1489.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Glue Match Depth -  \n\t Specifies to the S2M Center when to send a Drill, Glue, and Dowel \n\t code to your Drill and Dowel. See Match Depth explanation below."
+        },
+        {
+            "type": "text",
+            "data": "Glue Match Depth -  \n\t Specifies to the S2M Center when to send a Drill, Glue, and Dowel \n\t code to your Drill and Dowel. See Match Depth explanation below."
+        },
+        {
+            "type": "text",
+            "data": "Glue Match Depth -  \n\t Specifies to the S2M Center when to send a Drill, Glue, and Dowel \n\t code to your Drill and Dowel. See Match Depth explanation below."
+        },
+        {
+            "type": "image",
+            "data": "image1490.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Match \n Depth Explanation"
+        },
+        {
+            "type": "text",
+            "data": "In the grid below I have defined 4 different \n Match Depths (Triggers) for each Operation Type. The dimension used here \n are a bit extreme. You would probably define them with about .001 difference \n when you actually utilize it."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Drill Match \n\t\t Depth",
+                    "0.125"
+                ],
+                "rows": [
+                    [
+                        "Dowel Match \n\t\t Depth",
+                        "0.25"
+                    ],
+                    [
+                        "KD Match \n\t\t Depth",
+                        "0.375"
+                    ],
+                    [
+                        "Glue Match \n\t\t Depth",
+                        "0.5"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Drill Match \n\t\t Depth"
+        },
+        {
+            "type": "text",
+            "data": "0.125"
+        },
+        {
+            "type": "text",
+            "data": "Dowel Match \n\t\t Depth"
+        },
+        {
+            "type": "text",
+            "data": "0.25"
+        },
+        {
+            "type": "text",
+            "data": "KD Match \n\t\t Depth"
+        },
+        {
+            "type": "text",
+            "data": "0.375"
+        },
+        {
+            "type": "text",
+            "data": "Glue Match \n\t\t Depth"
+        },
+        {
+            "type": "text",
+            "data": "0.5"
+        },
+        {
+            "type": "text",
+            "data": "In this situation if I passed a Horizontal \n Bore Operation through the S2M Center that was 1/8 Deep the Machine would \n Drill Only."
+        },
+        {
+            "type": "text",
+            "data": "If I passed a  Deep Operation it would \n Drill and Insert a Dowel. This would be used for inserting glue-less dowels."
+        },
+        {
+            "type": "text",
+            "data": "If I passed a 3/8 Deep Operation it would \n Drill and Insert a KD Fitting (If your Machine supports it, otherwise \n this field will not be available.)"
+        },
+        {
+            "type": "text",
+            "data": "If I passed a  Deep Operation it would \n Drill, Inject Glue, and Insert a Dowel."
+        },
+        {
+            "type": "text",
+            "data": "Glue \n\t Duration (milliseconds) -  Allows you to specify the Glue Duration \n\t on your Drill and Dowel Machine in milliseconds."
+        },
+        {
+            "type": "text",
+            "data": "Glue \n\t Duration (milliseconds) -  Allows you to specify the Glue Duration \n\t on your Drill and Dowel Machine in milliseconds."
+        },
+        {
+            "type": "text",
+            "data": "Glue \n\t Duration (milliseconds) -  Allows you to specify the Glue Duration \n\t on your Drill and Dowel Machine in milliseconds."
+        },
+        {
+            "type": "image",
+            "data": "image1491.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Label Format Group"
+        },
+        {
+            "type": "text",
+            "data": "See Sheet \n Router"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "See Sheet \n Router",
+                "uuid": "182915c0-9ef6-44fd-a187-3e7e81401ebc",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Output Options"
+        },
+        {
+            "type": "text",
+            "data": "Allow \n\t Horizontal Dado -  Specifies if the Machine is setup (allowed) \n\t to machine Horizontal Dadoes with the  Gannomat \n\t Index Pro  and  Omal \n\t Frame TpaEdi32  Drill and Dowel Link. \n Allow \n\t Horizontal Route -  Specifies if the Machine is setup (allowed) \n\t to machine Horizontal Routes with the  Gannomat \n\t Index Pro  Drill and Dowel Link. \n Allow \n\t Vertical Bore -  Specifies if the Machine is setup (allowed) \n\t to machine Vertical Bores with the  Gannomat \n\t Index Pro ,  Koch \n\t Sprint Plus ,  Omal \n\t TPAEdi32 , and  Weeke \n\t ABD  Drill and Dowel Link. \n Allow \n\t Vertical Dado -  Specifies if the Machine is setup (allowed) \n\t to machine Vertical Dadoes with the  Accu-Systems \n\t HPJ XML  and  Gannomat \n\t Index Pro  Drill and Dowel Link.."
+        },
+        {
+            "type": "text",
+            "data": "Allow \n\t Horizontal Dado -  Specifies if the Machine is setup (allowed) \n\t to machine Horizontal Dadoes with the  Gannomat \n\t Index Pro  and  Omal \n\t Frame TpaEdi32  Drill and Dowel Link."
+        },
+        {
+            "type": "text",
+            "data": "Allow \n\t Horizontal Dado -  Specifies if the Machine is setup (allowed) \n\t to machine Horizontal Dadoes with the  Gannomat \n\t Index Pro  and  Omal \n\t Frame TpaEdi32  Drill and Dowel Link."
+        },
+        {
+            "type": "text",
+            "data": "Allow \n\t Horizontal Route -  Specifies if the Machine is setup (allowed) \n\t to machine Horizontal Routes with the  Gannomat \n\t Index Pro  Drill and Dowel Link."
+        },
+        {
+            "type": "text",
+            "data": "Allow \n\t Horizontal Route -  Specifies if the Machine is setup (allowed) \n\t to machine Horizontal Routes with the  Gannomat \n\t Index Pro  Drill and Dowel Link."
+        },
+        {
+            "type": "text",
+            "data": "Allow \n\t Vertical Bore -  Specifies if the Machine is setup (allowed) \n\t to machine Vertical Bores with the  Gannomat \n\t Index Pro ,  Koch \n\t Sprint Plus ,  Omal \n\t TPAEdi32 , and  Weeke \n\t ABD  Drill and Dowel Link."
+        },
+        {
+            "type": "text",
+            "data": "Allow \n\t Vertical Bore -  Specifies if the Machine is setup (allowed) \n\t to machine Vertical Bores with the  Gannomat \n\t Index Pro ,  Koch \n\t Sprint Plus ,  Omal \n\t TPAEdi32 , and  Weeke \n\t ABD  Drill and Dowel Link."
+        },
+        {
+            "type": "text",
+            "data": "Allow \n\t Vertical Dado -  Specifies if the Machine is setup (allowed) \n\t to machine Vertical Dadoes with the  Accu-Systems \n\t HPJ XML  and  Gannomat \n\t Index Pro  Drill and Dowel Link.."
+        },
+        {
+            "type": "text",
+            "data": "Allow \n\t Vertical Dado -  Specifies if the Machine is setup (allowed) \n\t to machine Vertical Dadoes with the  Accu-Systems \n\t HPJ XML  and  Gannomat \n\t Index Pro  Drill and Dowel Link.."
+        },
+        {
+            "type": "text",
+            "data": "Parameters Group"
+        },
+        {
+            "type": "text",
+            "data": "Zone \n\t Count -   Specifies the number \n\t of available Zones with the  Accu-Systems , \n\t  Accu-Systems \n\t HPJ ,  Accu-Systems \n\t HVVP , and the  Accu-Systems Junior \n\t Series  Drill and Dowel Link."
+        },
+        {
+            "type": "text",
+            "data": "Zone \n\t Count -   Specifies the number \n\t of available Zones with the  Accu-Systems , \n\t  Accu-Systems \n\t HPJ ,  Accu-Systems \n\t HVVP , and the  Accu-Systems Junior \n\t Series  Drill and Dowel Link."
+        },
+        {
+            "type": "text",
+            "data": "Zone \n\t Count -   Specifies the number \n\t of available Zones with the  Accu-Systems , \n\t  Accu-Systems \n\t HPJ ,  Accu-Systems \n\t HVVP , and the  Accu-Systems Junior \n\t Series  Drill and Dowel Link."
+        },
+        {
+            "type": "image",
+            "data": "image698.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Version \n\t -  Allows you to specify the control version for the  Accu-Systems ,  Accu-Systems \n\t HPJ ,  Accu-Systems \n\t HPMTH ,  Accu-Systems \n\t HVVP , and  Accu-Systems Junior Series  Drill \n\t and Dowel Link. \n Output \n\t Acc -  Sets ACC as the output type for the  Accu-Systems  \n\t and  Accu-Systems \n\t Junior Series  Drill and Dowel Link. \n Base \n\t Zone# On Part Size -  Sets the Zone assignment to be based on \n\t the Part size for the  Accu-Systems \n\t HPJ ,  Accu-Systems \n\t HVVP ,  Omal \n\t TPAEdi32 , and  Vitap \n\t Thunder  Drill and Dowel Link. \n Dimension \n\t 'A' -  Sets the width of Zone A for the  Accu-Systems \n\t HPJ ,  Accu-Systems \n\t HVVP ,  Omal \n\t TPAEdi32 , and  Vitap \n\t Thunder  Drill and Dowel Link. \n Drill \n\t Match Depth 2 -  Specifies to the S2M Center when to send a \n\t Drill 2 only code to your  Accu-Systems \n\t HPJ  and  Gannomat \n\t Index  Drill and Dowel. Match Depths are used to specify a trigger \n\t to output the correct codes to your Machine. See  Match \n\t Depth  explanation above. \n Output \n\t Rcm -  Sets RCM as the output type for the  Accu-Systems \n\t Junior Series  Drill and Dowel Link. \n Ouptut \n\t Mcm -  Sets MCM as the output type for the  Accu-Systems \n\t Junior Series  Drill and Dowel Link. \n Name Output [JobName].mdb -  \n\t Specifies whether your  Gannomat \n\t Index  supports unique output names. \n Output \n\t Drill Depth -  Allows you to Output the Drill Depth for the \n\t  Gannomat \n\t Index  Drill and Dowel Link. \n Use \n\t Zone 2 and 3 -  Allows you to disable Zones 2 & 3 for the \n\t  Gannomat \n\t Index  and  Gannomat \n\t Index Pro  Drill and Dowel Link. \n Verticals \n\t In Pos Flat -  Output vertical operations in PositionsFlat rather \n\t than PositionsFront for the  Gannomat \n\t Index . \n 8mm Dowel Length -  Allows you to \n\t set the 8mm Dowel Lengthfor the  Gannomat \n\t Index  Drill and Dowel Link. \n 6mm Dowel Length -  Allows you to \n\t set the 6mm Dowel Lengthfor the  Gannomat \n\t Index  Drill and Dowel Link. \n Glue Gap -  Allows you to set the \n\t Glue Gapfor the  Gannomat \n\t Index  and  Gannomat \n\t Index Pro  Drill and Dowel Link. \n Glue Match Depth 2 -  Specifies to \n\t the S2M Center when to send a Glue 2 only code to your  Gannomat \n\t Index  Drill and Dowel. Match Depths are used to specify a trigger \n\t to output the correct codes to your Machine. See  Match \n\t Depth  explanation above. \n Fixed Dowel Outstanding -  If 0 the \n\t output value will be based on the depth of hole, dowel length and \n\t glue gap for your  Gannomat \n\t Index  Drill and Dowel. Otherwise enter the required value. \n Dowel \n\t Diameter -  Allows you to set the \n\t Dowel Diameterfor the  Gannomat \n\t Index Pro  Drill and Dowel Link. \n Dowel \n\t Length -  Allows you to set the \n\t Dowel Length for the  Gannomat Index \n\t Pro  Drill and Dowel Link. \n Saw Diameter -  Allows you to set \n\t the Saw Diameterfor the  Gannomat \n\t Index Pro  Drill and Dowel Link. You will only see the Output Options \n\t for this machine if the Saw has a valid (non zero) Diameter. \n One \n\t Program Per Part -  Allows you to output one program per Part \n\t with the  Koch \n\t Sprint Plus ,  Laguna \n\t Lockdowel ,  Weeke \n\t ABD , and  Weeke \n\t BEK  Drill and Dowel Link. \n Output P1 -  Allows you to output \n\t P1 with the  Omal  \n\t Drill and Dowel Link. \n Read Easy -  Allows Read Easy \n\t output for the  Omal  \n\t Drill and Dowel Link. \n Use Number From Tool Cat -  Use the \n\t tool number from the tool catalog for the value of #8530 on the  Omal Albatros . \n Barcode Format -  Allows you to set \n\t the Barcode Format for the  Omal \n\t Frame  Drill and Dowel Link. \n Interior Zone Max -  Allows you to \n\t set the Interior Zone Maxfor the  Omal \n\t Frame  Drill and Dowel Link. \n Zone 2-1 -  Allows you to set Zone \n\t 2-1for the  Omal \n\t Frame  Drill and Dowel Link. \n Zone 3-4 -  Allows you to set Zone \n\t 3-4for the  Omal \n\t Frame  Drill and Dowel Link. \n Vertical Bore Reach -  Allows you \n\t to set the Vertical Bores reachfor the  Omal \n\t Frame  Drill and Dowel Link. \n Path to Subs -  Allows you to specify \n\t the Path To Subs for the  Omal \n\t Frame TpaEdi32  Drill and Dowel Link. \n Drill  \n\t  Applied to a tool that is assigned to the  Omal \n\t Velox  machine, this specifies that this tool should include a \n\t drilling operation. \n Glue  \n\t  Applied to a tool that is assigned to the  Omal \n\t Velox  machine, this specifies that this tool should include a \n\t gluing operation. \n Dowel  \n\t  Applied to a tool that is assigned to the  Omal \n\t Velox  machine, this specifies that this tool should include a \n\t dowel insertion operation. \n Remove \n\t Z Pos -  Allows you to Remove the Z Position value for the  Sprint  Drill \n\t and Dowel Link. \n Use Part Len as Prog Len -  Allows \n\t you to set the Program Length to match the Parts Length for the  Sprint \n\t PTP2 Beckhoff  Drill and Dowel Link. \n One .dat File Per Part -  Allows \n\t you to output one prgram per Part withthe  Sprint \n\t PTP2 Beckhoff  Drill and Dowel Link."
+        },
+        {
+            "type": "text",
+            "data": "Version \n\t -  Allows you to specify the control version for the  Accu-Systems ,  Accu-Systems \n\t HPJ ,  Accu-Systems \n\t HPMTH ,  Accu-Systems \n\t HVVP , and  Accu-Systems Junior Series  Drill \n\t and Dowel Link."
+        },
+        {
+            "type": "text",
+            "data": "Version \n\t -  Allows you to specify the control version for the  Accu-Systems ,  Accu-Systems \n\t HPJ ,  Accu-Systems \n\t HPMTH ,  Accu-Systems \n\t HVVP , and  Accu-Systems Junior Series  Drill \n\t and Dowel Link."
+        },
+        {
+            "type": "text",
+            "data": "Output \n\t Acc -  Sets ACC as the output type for the  Accu-Systems  \n\t and  Accu-Systems \n\t Junior Series  Drill and Dowel Link."
+        },
+        {
+            "type": "text",
+            "data": "Output \n\t Acc -  Sets ACC as the output type for the  Accu-Systems  \n\t and  Accu-Systems \n\t Junior Series  Drill and Dowel Link."
+        },
+        {
+            "type": "text",
+            "data": "Base \n\t Zone# On Part Size -  Sets the Zone assignment to be based on \n\t the Part size for the  Accu-Systems \n\t HPJ ,  Accu-Systems \n\t HVVP ,  Omal \n\t TPAEdi32 , and  Vitap \n\t Thunder  Drill and Dowel Link."
+        },
+        {
+            "type": "text",
+            "data": "Base \n\t Zone# On Part Size -  Sets the Zone assignment to be based on \n\t the Part size for the  Accu-Systems \n\t HPJ ,  Accu-Systems \n\t HVVP ,  Omal \n\t TPAEdi32 , and  Vitap \n\t Thunder  Drill and Dowel Link."
+        },
+        {
+            "type": "text",
+            "data": "Dimension \n\t 'A' -  Sets the width of Zone A for the  Accu-Systems \n\t HPJ ,  Accu-Systems \n\t HVVP ,  Omal \n\t TPAEdi32 , and  Vitap \n\t Thunder  Drill and Dowel Link."
+        },
+        {
+            "type": "text",
+            "data": "Dimension \n\t 'A' -  Sets the width of Zone A for the  Accu-Systems \n\t HPJ ,  Accu-Systems \n\t HVVP ,  Omal \n\t TPAEdi32 , and  Vitap \n\t Thunder  Drill and Dowel Link."
+        },
+        {
+            "type": "text",
+            "data": "Drill \n\t Match Depth 2 -  Specifies to the S2M Center when to send a \n\t Drill 2 only code to your  Accu-Systems \n\t HPJ  and  Gannomat \n\t Index  Drill and Dowel. Match Depths are used to specify a trigger \n\t to output the correct codes to your Machine. See  Match \n\t Depth  explanation above."
+        },
+        {
+            "type": "text",
+            "data": "Drill \n\t Match Depth 2 -  Specifies to the S2M Center when to send a \n\t Drill 2 only code to your  Accu-Systems \n\t HPJ  and  Gannomat \n\t Index  Drill and Dowel. Match Depths are used to specify a trigger \n\t to output the correct codes to your Machine. See  Match \n\t Depth  explanation above."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Match \n\t Depth",
+                "uuid": "b7e6f627-bbca-4ffc-8c53-7ea042504eb4",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Output \n\t Rcm -  Sets RCM as the output type for the  Accu-Systems \n\t Junior Series  Drill and Dowel Link."
+        },
+        {
+            "type": "text",
+            "data": "Output \n\t Rcm -  Sets RCM as the output type for the  Accu-Systems \n\t Junior Series  Drill and Dowel Link."
+        },
+        {
+            "type": "text",
+            "data": "Ouptut \n\t Mcm -  Sets MCM as the output type for the  Accu-Systems \n\t Junior Series  Drill and Dowel Link."
+        },
+        {
+            "type": "text",
+            "data": "Ouptut \n\t Mcm -  Sets MCM as the output type for the  Accu-Systems \n\t Junior Series  Drill and Dowel Link."
+        },
+        {
+            "type": "text",
+            "data": "Name Output [JobName].mdb -  \n\t Specifies whether your  Gannomat \n\t Index  supports unique output names."
+        },
+        {
+            "type": "text",
+            "data": "Name Output [JobName].mdb -  \n\t Specifies whether your  Gannomat \n\t Index  supports unique output names."
+        },
+        {
+            "type": "text",
+            "data": "Output \n\t Drill Depth -  Allows you to Output the Drill Depth for the \n\t  Gannomat \n\t Index  Drill and Dowel Link."
+        },
+        {
+            "type": "text",
+            "data": "Output \n\t Drill Depth -  Allows you to Output the Drill Depth for the \n\t  Gannomat \n\t Index  Drill and Dowel Link."
+        },
+        {
+            "type": "text",
+            "data": "Use \n\t Zone 2 and 3 -  Allows you to disable Zones 2 & 3 for the \n\t  Gannomat \n\t Index  and  Gannomat \n\t Index Pro  Drill and Dowel Link."
+        },
+        {
+            "type": "text",
+            "data": "Use \n\t Zone 2 and 3 -  Allows you to disable Zones 2 & 3 for the \n\t  Gannomat \n\t Index  and  Gannomat \n\t Index Pro  Drill and Dowel Link."
+        },
+        {
+            "type": "text",
+            "data": "Verticals \n\t In Pos Flat -  Output vertical operations in PositionsFlat rather \n\t than PositionsFront for the  Gannomat \n\t Index ."
+        },
+        {
+            "type": "text",
+            "data": "Verticals \n\t In Pos Flat -  Output vertical operations in PositionsFlat rather \n\t than PositionsFront for the  Gannomat \n\t Index ."
+        },
+        {
+            "type": "text",
+            "data": "8mm Dowel Length -  Allows you to \n\t set the 8mm Dowel Lengthfor the  Gannomat \n\t Index  Drill and Dowel Link."
+        },
+        {
+            "type": "text",
+            "data": "8mm Dowel Length -  Allows you to \n\t set the 8mm Dowel Lengthfor the  Gannomat \n\t Index  Drill and Dowel Link."
+        },
+        {
+            "type": "text",
+            "data": "6mm Dowel Length -  Allows you to \n\t set the 6mm Dowel Lengthfor the  Gannomat \n\t Index  Drill and Dowel Link."
+        },
+        {
+            "type": "text",
+            "data": "6mm Dowel Length -  Allows you to \n\t set the 6mm Dowel Lengthfor the  Gannomat \n\t Index  Drill and Dowel Link."
+        },
+        {
+            "type": "text",
+            "data": "Glue Gap -  Allows you to set the \n\t Glue Gapfor the  Gannomat \n\t Index  and  Gannomat \n\t Index Pro  Drill and Dowel Link."
+        },
+        {
+            "type": "text",
+            "data": "Glue Gap -  Allows you to set the \n\t Glue Gapfor the  Gannomat \n\t Index  and  Gannomat \n\t Index Pro  Drill and Dowel Link."
+        },
+        {
+            "type": "text",
+            "data": "Glue Match Depth 2 -  Specifies to \n\t the S2M Center when to send a Glue 2 only code to your  Gannomat \n\t Index  Drill and Dowel. Match Depths are used to specify a trigger \n\t to output the correct codes to your Machine. See  Match \n\t Depth  explanation above."
+        },
+        {
+            "type": "text",
+            "data": "Glue Match Depth 2 -  Specifies to \n\t the S2M Center when to send a Glue 2 only code to your  Gannomat \n\t Index  Drill and Dowel. Match Depths are used to specify a trigger \n\t to output the correct codes to your Machine. See  Match \n\t Depth  explanation above."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Match \n\t Depth",
+                "uuid": "b7e6f627-bbca-4ffc-8c53-7ea042504eb4",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Fixed Dowel Outstanding -  If 0 the \n\t output value will be based on the depth of hole, dowel length and \n\t glue gap for your  Gannomat \n\t Index  Drill and Dowel. Otherwise enter the required value."
+        },
+        {
+            "type": "text",
+            "data": "Fixed Dowel Outstanding -  If 0 the \n\t output value will be based on the depth of hole, dowel length and \n\t glue gap for your  Gannomat \n\t Index  Drill and Dowel. Otherwise enter the required value."
+        },
+        {
+            "type": "text",
+            "data": "Dowel \n\t Diameter -  Allows you to set the \n\t Dowel Diameterfor the  Gannomat \n\t Index Pro  Drill and Dowel Link."
+        },
+        {
+            "type": "text",
+            "data": "Dowel \n\t Diameter -  Allows you to set the \n\t Dowel Diameterfor the  Gannomat \n\t Index Pro  Drill and Dowel Link."
+        },
+        {
+            "type": "text",
+            "data": "Dowel \n\t Length -  Allows you to set the \n\t Dowel Length for the  Gannomat Index \n\t Pro  Drill and Dowel Link."
+        },
+        {
+            "type": "text",
+            "data": "Dowel \n\t Length -  Allows you to set the \n\t Dowel Length for the  Gannomat Index \n\t Pro  Drill and Dowel Link."
+        },
+        {
+            "type": "text",
+            "data": "Saw Diameter -  Allows you to set \n\t the Saw Diameterfor the  Gannomat \n\t Index Pro  Drill and Dowel Link. You will only see the Output Options \n\t for this machine if the Saw has a valid (non zero) Diameter."
+        },
+        {
+            "type": "text",
+            "data": "Saw Diameter -  Allows you to set \n\t the Saw Diameterfor the  Gannomat \n\t Index Pro  Drill and Dowel Link. You will only see the Output Options \n\t for this machine if the Saw has a valid (non zero) Diameter."
+        },
+        {
+            "type": "text",
+            "data": "One \n\t Program Per Part -  Allows you to output one program per Part \n\t with the  Koch \n\t Sprint Plus ,  Laguna \n\t Lockdowel ,  Weeke \n\t ABD , and  Weeke \n\t BEK  Drill and Dowel Link."
+        },
+        {
+            "type": "text",
+            "data": "One \n\t Program Per Part -  Allows you to output one program per Part \n\t with the  Koch \n\t Sprint Plus ,  Laguna \n\t Lockdowel ,  Weeke \n\t ABD , and  Weeke \n\t BEK  Drill and Dowel Link."
+        },
+        {
+            "type": "text",
+            "data": "Output P1 -  Allows you to output \n\t P1 with the  Omal  \n\t Drill and Dowel Link."
+        },
+        {
+            "type": "text",
+            "data": "Output P1 -  Allows you to output \n\t P1 with the  Omal  \n\t Drill and Dowel Link."
+        },
+        {
+            "type": "text",
+            "data": "Read Easy -  Allows Read Easy \n\t output for the  Omal  \n\t Drill and Dowel Link."
+        },
+        {
+            "type": "text",
+            "data": "Read Easy -  Allows Read Easy \n\t output for the  Omal  \n\t Drill and Dowel Link."
+        },
+        {
+            "type": "text",
+            "data": "Use Number From Tool Cat -  Use the \n\t tool number from the tool catalog for the value of #8530 on the  Omal Albatros ."
+        },
+        {
+            "type": "text",
+            "data": "Use Number From Tool Cat -  Use the \n\t tool number from the tool catalog for the value of #8530 on the  Omal Albatros ."
+        },
+        {
+            "type": "text",
+            "data": "Barcode Format -  Allows you to set \n\t the Barcode Format for the  Omal \n\t Frame  Drill and Dowel Link."
+        },
+        {
+            "type": "text",
+            "data": "Barcode Format -  Allows you to set \n\t the Barcode Format for the  Omal \n\t Frame  Drill and Dowel Link."
+        },
+        {
+            "type": "text",
+            "data": "Interior Zone Max -  Allows you to \n\t set the Interior Zone Maxfor the  Omal \n\t Frame  Drill and Dowel Link."
+        },
+        {
+            "type": "text",
+            "data": "Interior Zone Max -  Allows you to \n\t set the Interior Zone Maxfor the  Omal \n\t Frame  Drill and Dowel Link."
+        },
+        {
+            "type": "text",
+            "data": "Zone 2-1 -  Allows you to set Zone \n\t 2-1for the  Omal \n\t Frame  Drill and Dowel Link."
+        },
+        {
+            "type": "text",
+            "data": "Zone 2-1 -  Allows you to set Zone \n\t 2-1for the  Omal \n\t Frame  Drill and Dowel Link."
+        },
+        {
+            "type": "text",
+            "data": "Zone 3-4 -  Allows you to set Zone \n\t 3-4for the  Omal \n\t Frame  Drill and Dowel Link."
+        },
+        {
+            "type": "text",
+            "data": "Zone 3-4 -  Allows you to set Zone \n\t 3-4for the  Omal \n\t Frame  Drill and Dowel Link."
+        },
+        {
+            "type": "text",
+            "data": "Vertical Bore Reach -  Allows you \n\t to set the Vertical Bores reachfor the  Omal \n\t Frame  Drill and Dowel Link."
+        },
+        {
+            "type": "text",
+            "data": "Vertical Bore Reach -  Allows you \n\t to set the Vertical Bores reachfor the  Omal \n\t Frame  Drill and Dowel Link."
+        },
+        {
+            "type": "text",
+            "data": "Path to Subs -  Allows you to specify \n\t the Path To Subs for the  Omal \n\t Frame TpaEdi32  Drill and Dowel Link."
+        },
+        {
+            "type": "text",
+            "data": "Path to Subs -  Allows you to specify \n\t the Path To Subs for the  Omal \n\t Frame TpaEdi32  Drill and Dowel Link."
+        },
+        {
+            "type": "text",
+            "data": "Drill  \n\t  Applied to a tool that is assigned to the  Omal \n\t Velox  machine, this specifies that this tool should include a \n\t drilling operation."
+        },
+        {
+            "type": "text",
+            "data": "Drill  \n\t  Applied to a tool that is assigned to the  Omal \n\t Velox  machine, this specifies that this tool should include a \n\t drilling operation."
+        },
+        {
+            "type": "text",
+            "data": "Glue  \n\t  Applied to a tool that is assigned to the  Omal \n\t Velox  machine, this specifies that this tool should include a \n\t gluing operation."
+        },
+        {
+            "type": "text",
+            "data": "Glue  \n\t  Applied to a tool that is assigned to the  Omal \n\t Velox  machine, this specifies that this tool should include a \n\t gluing operation."
+        },
+        {
+            "type": "text",
+            "data": "Dowel  \n\t  Applied to a tool that is assigned to the  Omal \n\t Velox  machine, this specifies that this tool should include a \n\t dowel insertion operation."
+        },
+        {
+            "type": "text",
+            "data": "Dowel  \n\t  Applied to a tool that is assigned to the  Omal \n\t Velox  machine, this specifies that this tool should include a \n\t dowel insertion operation."
+        },
+        {
+            "type": "text",
+            "data": "Remove \n\t Z Pos -  Allows you to Remove the Z Position value for the  Sprint  Drill \n\t and Dowel Link."
+        },
+        {
+            "type": "text",
+            "data": "Remove \n\t Z Pos -  Allows you to Remove the Z Position value for the  Sprint  Drill \n\t and Dowel Link."
+        },
+        {
+            "type": "text",
+            "data": "Use Part Len as Prog Len -  Allows \n\t you to set the Program Length to match the Parts Length for the  Sprint \n\t PTP2 Beckhoff  Drill and Dowel Link."
+        },
+        {
+            "type": "text",
+            "data": "Use Part Len as Prog Len -  Allows \n\t you to set the Program Length to match the Parts Length for the  Sprint \n\t PTP2 Beckhoff  Drill and Dowel Link."
+        },
+        {
+            "type": "text",
+            "data": "One .dat File Per Part -  Allows \n\t you to output one prgram per Part withthe  Sprint \n\t PTP2 Beckhoff  Drill and Dowel Link."
+        },
+        {
+            "type": "text",
+            "data": "One .dat File Per Part -  Allows \n\t you to output one prgram per Part withthe  Sprint \n\t PTP2 Beckhoff  Drill and Dowel Link."
+        },
+        {
+            "type": "text",
+            "data": "Zones Group"
+        },
+        {
+            "type": "text",
+            "data": "See Parts Router"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "See Parts Router",
+                "uuid": "c5139260-24c6-4c4a-99f8-32fd8fa9af11",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "NCEnglish\\Ribbonbar\\Main_Tab\\Machine\\Machine_Types\\Specialized_Drill_and_Dowel.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

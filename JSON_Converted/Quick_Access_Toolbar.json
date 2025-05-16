@@ -1,0 +1,111 @@
+{
+    "id": "a5146ac1-ab67-41ca-b968-c6ff4a1450d1",
+    "title": "Quick_Access_Toolbar",
+    "content": [
+        {
+            "type": "text",
+            "data": "Quick Access Toolbar"
+        },
+        {
+            "type": "image",
+            "data": "image141.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There are five possible options in the Quick Access Toolbar."
+        },
+        {
+            "type": "text",
+            "data": "New"
+        },
+        {
+            "type": "image",
+            "data": "image818.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Open"
+        },
+        {
+            "type": "image",
+            "data": "image819.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Print"
+        },
+        {
+            "type": "image",
+            "data": "image820.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Undo"
+        },
+        {
+            "type": "image",
+            "data": "image821.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "+"
+        },
+        {
+            "type": "image",
+            "data": "image674.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image675.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This menu option allows you to \" Undo \" \n the last several changes you made."
+        },
+        {
+            "type": "text",
+            "data": "Redo"
+        },
+        {
+            "type": "image",
+            "data": "image822.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "+"
+        },
+        {
+            "type": "image",
+            "data": "image674.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image676.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This menu option allows you to \" Redo \" \n the last \"Undo\" you initiated."
+        },
+        {
+            "type": "text",
+            "data": "Customize Quick Access Toolbar"
+        },
+        {
+            "type": "text",
+            "data": "See the  Understanding \n the S2M Optimizer Window topic  for more information."
+        }
+    ],
+    "source_file": "NCEnglish_Optimizer\\Introduction\\Quick_Access_Toolbar.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

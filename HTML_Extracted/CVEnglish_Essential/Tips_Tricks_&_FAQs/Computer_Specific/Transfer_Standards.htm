@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head><link rel="stylesheet" type="text/css" href="../../_rhdefault.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="Originator" content="ImportDoc"/>
+<meta name="OriginalFile" content="4_0 Transfer Standards.doc"/>
+<meta name="generator" content="Adobe RoboHelp 2019"/>
+<title>Transferring Your Standards</title>
+<link rel="StyleSheet" href="../../assets/css/default.css" type="text/css"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/><script type="text/javascript" src="../../ehlpdhtm.js"></script></head>
+<body lang="EN-US" xml:lang="EN-US">
+<h1>Transferring Your Standards</h1>
+<p style="color: #ff0000; font-weight: bold; text-decoration: underline;">NOTICE: This Topic assumes you are familiar with File Management in the Windows Operating System.</p>
+<p>Follow these instructions to transfer files into Solid Essential 10 from previous versions or different computers.</p>
+<p>The local hard drive is being referred to as &quot;C&quot; since that is the most common drive designation, however, it simply represents the drive where Solid has been installed. If Solid has been installed on a different drive on your computer, then that is the one you will use.</p>
+<p>This topic describes the procedures for a standalone computer, but it will be the same if you are using a network server.</p>
+<h2>Step 1:</h2>
+<p>Open the Solid Backup Utility. From the Solid Splash Screen, click <span class="Note">Utilities</span> and then <span class="Note">Backup Utility.</span></p>
+<p class="GraphicCentered"><img src="../../assets/images/Tips_Tricks_&amp;_FAQs/Computer_Specific/BUP_1.png" alt="" style="border: none; width: 100%; max-width: 478px;" border="0"/></p>
+<h2>Step 2:</h2>
+<p>From the left side of the screen, check all the choices.</p>
+<p style="margin-left: 40px;"><span style="font-style: italic; font-weight: bold;"><img src="../../assets/images/zGraphics/Extras/Information.png" alt="" style="border: none; width: 100%; max-width: 32px;" border="0"/></span> If you do not use the S2M Center, then do not check CNC Database or Posts.</p>
+<p style="margin-left: 0px;">From the Right side of the screen, check &quot;Default.dat&quot; and any new Catalogs (.cvc) that you have added or any that you have modified.</p>
+<p style="margin-left: 0px;">Click OK.</p>
+<p class="GraphicCentered"><img src="../../assets/images/image956.gif" alt="" style="border: none; width: 100%; max-width: 413px;" border="0"/></p>
+<p>When the backup utility is finished running you must <span class="Note">CLOSE SOLID.</span></p>
+<h2>Step 3:</h2>
+<p>This creates a folder that contains each of these selected files plus a zipped file called &quot;backup.zip&quot; which contains all the files in a compressed format. This new folder will be labeled with today’s date and time and will be placed within the Automatic Backups folder. This folder is located on your hard drive under the Planit\Solid_10_0 folder.</p>
+<p>Now we need to transfer this newly created backup folder to the Automatic Backups folder within Solid Essential 10. If both versions of Solid are on the same computer, simply copy and paste this folder from the older Automatic Backups folder to the Solid 10_0 \ Automatic Backups folder.</p>
+<p>If you are transferring these files from one computer to another, simply copy and paste this backup folder to a USB memory stick or whatever method of transfer you prefer, then copy and paste it to the Solid 10_0 \ Automatic Backups folder on the new computer.</p>
+<p style="margin-left: 40px;"><span style="font-style: italic; font-weight: bold;"><img src="../../assets/images/zGraphics/Extras/Information.png" alt="" style="border: none; width: 100%; max-width: 32px;" border="0"/></span> At this point, make sure that Solid Essential 10 is closed.</p>
+<p>Now that the new folder has been copied to the C: \ Planit \ Solid 10_0 \ Automatic Backups folder, follow these steps:</p>
+<ol style="list-style: decimal;">
+<li>
+<p class="Indent_1_Bulllet">On your computer, go to the Start button.</p>
+</li>
+<li>
+<p class="Indent_1_Bulllet">Go to All Programs Solid Essential \ Restore Settings. The following screen will appear:</p>
+</li>
+</ol>
+<p style="margin-left: 40px;"><img src="../../assets/images/image192.gif" alt="" style="border: none; width: 100%; max-width: 459px;" border="0"/></p>
+<ol start="3" style="list-style: decimal;">
+<li>
+<p class="Indent_1_Bulllet">The screen that pops up shows the available Backup folders on the left and the Files within each folder on the right.</p>
+</li>
+<li>
+<p class="Indent_1_Bulllet">Make sure you have the folder you just transferred highlighted on the left.</p>
+</li>
+<li>
+<p class="Indent_1_Bulllet">Now check which (or all) files you want to restore (transfer) on the right.</p>
+</li>
+<li>
+<p class="Indent_1_Bulllet">Click OK</p>
+</li>
+</ol>
+<p>This will copy the selected files into the appropriate Database folder and run the appropriate update routine.  Once the update routine has finished running, Solid is now ready for use and will contain the updated information.</p>
+<h2>Moving Existing Jobs</h2>
+<p>If you want to also move your existing jobs, you can simply copy and paste all the existing job files (.cvj files) from one computer or folder location to another for use in Solid 10. These job files are usually contained within the C: \ Planit \ Solid 10.x \ Jobs folder, but they may be stored in any folder you have designated.</p>
+<p style="margin-left: 40px;"><img src="../../assets/images/zGraphics/Extras/Warning.png" alt="" style="border: none; width: 100%; max-width: 32px;" border="0"/>  A job that is edited in Solid 10 can no longer be used in an earlier version. Use a copy of that original job for safety. No update routine has to be run after copying these files.</p>
+<h2>Door Catalog</h2>
+<p>Now that the new Door catalog has been copied over, you will need to update the Door icons. Open Solid Essential 10, go to Door Catalog \ Setup and run Regenerate Door icons.</p>
+<p><img src="../../assets/images/image958.gif" alt="" style="border: none; width: 100%; max-width: 329px;" border="0"/></p>
+<h2>Usability of new files</h2>
+<p>While we make our best effort at making the older files compatible with the newer version of our software, we can’t guarantee all files will work exactly as they did in the older version due to the updates and additions to the new version. Existing jobs may not perform as expected. Also, the Construction Methods and User Created Standards will have to be reviewed to account for new or updated routines. Sometimes, older User Created Standards no longer work or are no longer needed. <span style="font-weight: bold;">Please test the new information thoroughly before beginning production.</span></p>
+<h2>Files and Descriptions</h2>
+<div style="text-align: center;"><div align="left">
+<table class="NormalTable" style="margin-left: 5.4pt; border: none; left: 144px; top: 4492px;" cellspacing="1" width="1103" cellpadding="1">
+<colgroup><col style="width: 13.136%;"/>
+<col style="width: 29.601%;"/>
+<col style="width: 56.794%;"/>
+</colgroup><tbody><tr style="height: 23px;">
+<td style="vertical-align: top; border: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p style="font-weight: bold;">File Name</p>
+</td>
+<td style="vertical-align: top; border: solid #000000 1.0pt; border-left: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p><span class="Note">Location</span></p>
+</td>
+<td style="vertical-align: top; border: solid #000000 1.0pt; border-left: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p><span class="Note">Purpose</span></p>
+</td>
+</tr>
+<tr style="height: 21px;">
+<td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="Indent_1_Bulllet"><span class="Note">Default.dat</span></p>
+</td>
+<td style="vertical-align: top; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="Indent_1_Bulllet">C:\Planit\Solid_10_0\</p>
+</td>
+<td style="vertical-align: top; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="Indent_1_Bulllet">This file contains all your Layer Schedules and Dimension Styles.</p>
+</td>
+</tr>
+<tr style="height: 21px;">
+<td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="Indent_1_Bulllet"><span class="Note">.cvj files</span></p>
+</td>
+<td style="vertical-align: top; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="Indent_1_Bulllet">C:\Planit\Solid_10_0\Jobs\</p>
+</td>
+<td style="vertical-align: top; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="Indent_1_Bulllet">These are your Job files.</p>
+</td>
+</tr>
+<tr style="height: 21px;">
+<td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="Indent_1_Bulllet"><span class="Note">*.cvc files</span></p>
+</td>
+<td style="vertical-align: top; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="Indent_1_Bulllet">C:\Planit\Solid_10_0\Database\</p>
+</td>
+<td style="vertical-align: top; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="Indent_1_Bulllet">These are the Cabinet\Object Catalogs</p>
+</td>
+</tr>
+<tr style="height: 21px;">
+<td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="Indent_1_Bulllet"><span class="Note">*.ddb files</span></p>
+</td>
+<td style="vertical-align: top; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="Indent_1_Bulllet">C:\Planit\Solid_10_0\Database\</p>
+</td>
+<td style="vertical-align: top; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="Indent_1_Bulllet">These are the Door Catalogs. Door.ddb is the default Custom Door Catalog.</p>
+</td>
+</tr>
+<tr style="height: 21px;">
+<td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="Indent_1_Bulllet"><span class="Note">Drawings.sym</span></p>
+</td>
+<td style="vertical-align: top; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="Indent_1_Bulllet">C:\Planit\Solid_10_0\Database\</p>
+</td>
+<td style="vertical-align: top; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="Indent_1_Bulllet">This is where your CAD Symbols and Titleblocks are stored.</p>
+</td>
+</tr>
+<tr style="height: 21px;">
+<td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="Indent_1_Bulllet"><span class="Note">CxMaterials.accdb<br/>
+OR<br/>
+CxMaterials.mdf</span><br/></p>
+</td>
+<td style="vertical-align: top; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="Indent_1_Bulllet">C:\Planit\Solid_10_0\Database\</p>
+</td>
+<td style="vertical-align: top; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="Indent_1_Bulllet">This is where all Materials and Material Schedules are stored.</p>
+</td>
+</tr>
+<tr style="height: 21px;">
+<td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="Indent_1_Bulllet"><span class="Note">Report.mdb</span></p>
+</td>
+<td style="vertical-align: top; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="Indent_1_Bulllet">C:\Planit\Solid_10_0\Database\</p>
+</td>
+<td style="vertical-align: top; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="Indent_1_Bulllet">This is where all Report Groups and Bid Methods are stored.</p>
+</td>
+</tr>
+<tr style="height: 21px;">
+<td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="Indent_1_Bulllet"><span class="Note">Wiz_Data.wdb</span></p>
+</td>
+<td style="vertical-align: top; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="Indent_1_Bulllet">C:\Planit\Solid_10_0\Database\</p>
+</td>
+<td style="vertical-align: top; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="Indent_1_Bulllet">This is where Construction Methods, UCS’s, and Intelli-Joints are stored.</p>
+</td>
+</tr>
+<tr style="height: 21px;">
+<td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="Indent_1_Bulllet">.jpg</p>
+</td>
+<td style="vertical-align: top; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="Indent_1_Bulllet">C:\Planit\Solid_10_0\Database\Graphics\</p>
+</td>
+<td style="vertical-align: top; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="Indent_1_Bulllet">These are your custom textures that have been imported.</p>
+</td>
+</tr>
+<tr style="height: 21px;">
+<td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="Indent_1_Bulllet"><span class="Note">.bmp files</span></p>
+</td>
+<td style="vertical-align: top; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="Indent_1_Bulllet">C:\Planit\Solid_10_0\Database\Graphics\</p>
+</td>
+<td style="vertical-align: top; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="Indent_1_Bulllet">These are your custom textures that have been imported.</p>
+</td>
+</tr>
+</tbody></table>
+</div></div>
+
+
+</body></html>

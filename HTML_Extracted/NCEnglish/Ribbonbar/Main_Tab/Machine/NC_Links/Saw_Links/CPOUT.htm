@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><link rel="stylesheet" type="text/css" href="../../../../../_rhdefault.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=WINDOWS-1252"/>
+<meta name="topic-status" content="Complete"/>
+<meta name="topic-check-list" content="First Draft,Added To TOC,Links,Index keywords,Images,Tested,Finalized,Reviewed,Ran Smart Index"/>
+<meta name="topic-priority" content="0"/>
+<meta name="topic-time-estimate" content="0"/>
+<meta name="topic-comment" content=""/>
+<meta name="topic-id" content=""/>
+<meta name="generator" content="Adobe RoboHelp 2022"/>
+<title>CPOUT</title>
+<link rel="StyleSheet" href="../../../../../assets/css/default.css" type="text/css"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/><meta name="description" content=""/><script type="text/javascript" src="../../../../../ehlpdhtm.js"></script></head>
+<body>
+<h1>CPOUT</h1>
+<p>This is a <span class="glossterm">Panel Saw</span> Link.</p>
+<p>This link creates a standard CPOUT file with additional formatting conventions as outlined by CADCode. Following is the file specification:</p>
+<p><b style="font-weight: bold;"><span style="font-size: 16.0pt; font-family: Arial;">Pattern Export File Specification (CPOUT)</span></b></p>
+<p><span style="font-family: Arial;">The first three lines describe the header information as follows:</span></p>
+<p><span style="font-family: Arial;">The <b>HDR1</b> line contains the cutlist number, Job name and Materials in the following format:</span></p>
+<p><b style="font-weight: bold;"><span style="font-family: Arial;">HDR1,cnum,jobmat</span></b></p>
+<p style="text-indent: .5in;"><span style="font-family: Arial;"><b style="font-weight: bold;">HDR1             </b>is the line descriptor</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><b style="font-weight: bold;"><span style="font-family: Arial;">cnum</span></b><b><span style="font-family: Arial;">             </span></b><span style="font-family: Arial;">indicates the cutlist number, a string with leading zeros included.</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><b style="font-weight: bold;"><span style="font-family: Arial;">jobmat</span></b><span style="font-family: Arial;">           indicates the cutlist title, an ASCII string of length 50 or less, composed of the Material Name and Job Information.</span></p>
+<p><span style="font-family: Arial;">The <b>HDR2</b> line contains information regarding the date and time the cutlist was optimized in the following format:</span></p>
+<p><b style="font-weight: bold;"><span style="font-family: Arial;">HDR2,date,time</span></b></p>
+<p style="text-indent: .5in;"><span style="font-family: Arial;"><b style="font-weight: bold;">HDR2             </b>is the line descriptor</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><b style="font-weight: bold;"><span style="font-family: Arial;">date</span></b><b><span style="font-family: Arial;">                </span></b><span style="font-family: Arial;">indicates the date of optimization. It is an ASCII string of length 12. [Dec 08, 2006]</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><b style="font-weight: bold;"><span style="font-family: Arial;">time</span></b><b><span style="font-family: Arial;">                </span></b><span style="font-family: Arial;">indicates the time of optimization. It is an ASCII string of length 8. [01:12 PM]</span></p>
+<p><span style="font-family: Arial;">The <b>HDR3</b> line contains information about the product that produced the pattern data file in the following format:</span></p>
+<p><b style="font-weight: bold;"><span style="font-family: Arial;">HDR3,bnum,ver,pcode,sawid</span></b></p>
+<p style="text-indent: .5in;"><span style="font-family: Arial;"><b style="font-weight: bold;">HDR3</b>             is the line descriptor</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><b style="font-weight: bold;"><span style="font-family: Arial;">bnum</span></b><b><span style="font-family: Arial;">             </span></b><span style="font-family: Arial;">indicates the Build number of the product used. It is an ASCII string of length 6.</span></p>
+<p style="text-indent: .5in;"><b style="font-weight: bold;"><span style="font-family: Arial;">ver</span></b><span style="font-family: Arial;">                  CPOUT Version [2.01]</span></p>
+<p style="text-indent: .5in;"><b style="font-weight: bold;"><span style="font-family: Arial;">pcode</span></b><span style="font-family: Arial;">            indicates product code [CVI]</span></p>
+<p style="text-indent: .5in;"><b style="font-weight: bold;"><span style="font-family: Arial;">sawid</span></b><span style="font-family: Arial;">             indicates the SawLink ID used [0009]</span></p>
+<p><span style="font-family: Arial;">The next three lines describe the controls used in the pattern making process.</span></p>
+<p><span style="font-family: Arial;">The <b>CTL1</b> line contains the dimensional unit of the cutlist, the output unit, the grain indicator, area reporting, and saw type in the following format:</span></p>
+<p><b style="font-weight: bold;"><span style="font-family: Arial;">CTL1,unit1,unit2,grain,areafac,sawtype</span></b></p>
+<p style="text-indent: .5in;"><span style="font-family: Arial;"><b style="font-weight: bold;">CTL1</b>              is the line descriptor.</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><b style="font-weight: bold;"><span style="font-family: Arial;">unit1</span></b><span style="font-family: Arial;">               indicates dimensional Unit of Measure. It is a one character field as follows:</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><span style="font-family: Arial;">                                    F = Fractional Units</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><span style="font-family: Arial;">                                    D = Decimal Inches</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><span style="font-family: Arial;">                                    M = Millimeters</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><b style="font-weight: bold;"><span style="font-family: Arial;">unit2</span></b><span style="font-family: Arial;">               indicates cutting instruction Unit of Measure. It is a one character field as described for unit1 and also always matches unit1.</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><b style="font-weight: bold;"><span style="font-family: Arial;">grain</span></b><span style="font-family: Arial;">              indicates the graining control. It is a one character field as follows:</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><span style="font-family: Arial;">                                    Y = Cutlist is grained</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><span style="font-family: Arial;">                                    N = Cutlist is not grained</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><b style="font-weight: bold;"><span style="font-family: Arial;">areafac</span></b><span style="font-family: Arial;">          indicates the area unit throughout the file. *Planit always outputs 1. 1 = SqFT in Imperial and SqM in Mtric based on the <b>unit1</b> setting.</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><b style="font-weight: bold;"><span style="font-family: Arial;">sawtype</span></b><span style="font-family: Arial;">        indicates the type of saw specified. It is a one character field as follows:</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><span style="font-family: Arial;">                                    0 = no saw type specified</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><span style="font-family: Arial;">                                    1 = single axis saw</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><span style="font-family: Arial;">                                    2 = two axis saw with single feeder</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><span style="font-family: Arial;">                                    3 = two axis saw with multiple feeder</span></p>
+<p><span style="font-family: Arial;">The <b>CTL2</b> line describes dimensional content in the following format:</span></p>
+<p><b style="font-weight: bold;"><span style="font-family: Arial;">CTL2,rkerf,xkerf,maxsw,minsw,pwadj,pladj</span></b></p>
+<p><span style="font-family: Arial;">            <b>CTL2</b>              is the line descriptor</span></p>
+<p><span style="font-family: Arial;">            <b>rkerf</b>               indicates the rip cut kerf</span></p>
+<p><span style="font-family: Arial;">            <b>xkerf</b>               indicates the cross cut kerf</span></p>
+<p><span style="font-family: Arial;">            <b>maxsw</b>           indicates the maximum strip section width</span></p>
+<p><span style="font-family: Arial;">            <b>minsw</b>            indicates the minimum strip section width</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><b style="font-weight: bold;"><span style="font-family: Arial;">pwadj</span></b><span style="font-family: Arial;">            indicates the part width adjustment. *Planit always outputs 0.</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><b style="font-weight: bold;"><span style="font-family: Arial;">pladj</span></b><span style="font-family: Arial;">               indicates the part length adjustment. *Planit always outputs 0.</span></p>
+<p><span style="font-family: Arial;">The <b>CTL3</b> line describes the Front Trim value in the following format:</span></p>
+<p><b style="font-weight: bold;"><span style="font-family: Arial;">CTL3,ftrim</span></b></p>
+<p><span style="font-family: Arial;">            <b>CTL3</b>              is the line descriptor</span></p>
+<p><span style="font-family: Arial;">            <b>ftrim</b>                indicates the value for the Front Trim.</span></p>
+<p><span style="font-family: Arial;">The <b>THK1</b> line specifies the sheet stock thickness and stack (book) height in the following format:</span></p>
+<p><b style="font-weight: bold;"><span style="font-family: Arial;">THK1,sthick,stackh</span></b></p>
+<p><span style="font-family: Arial;">            <b>THK1</b>             is the line descriptor</span></p>
+<p><span style="font-family: Arial;">            <b>sthick</b> indicates the sheet stock thickness</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><b style="font-weight: bold;"><span style="font-family: Arial;">stackh</span></b><span style="font-family: Arial;">           indicates the maximum stack height. This is a measurement not the number of sheets.</span></p>
+<p><span style="font-family: Arial;">The next two lines describe cutting statistics.</span></p>
+<p><span style="font-family: Arial;">The <b>STA1</b> line specifies the total number of cuts, grouped by each phase type, as indicated below. Each field is right justified and has a length of 6 digits, and is in the following format:</span></p>
+<p><b style="font-weight: bold;"><span style="font-family: Arial;">STA1,nrcut,nxcut,n3cut</span></b></p>
+<p><span style="font-family: Arial;">            <b>STA1</b>              is the line descriptor</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><b style="font-weight: bold;"><span style="font-family: Arial;">nrcut</span></b><span style="font-family: Arial;">              indicates the number of rip cuts in the cutlist and includes the leading trim cut in the calculation.</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><b style="font-weight: bold;"><span style="font-family: Arial;">nxcut</span></b><span style="font-family: Arial;">             indicates the number of cross cuts in the cutlist and includes the trim cut. If there are identical strips then the cross cuts are not counted on the additional strips.</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><b style="font-weight: bold;"><span style="font-family: Arial;">n3cut</span></b><span style="font-family: Arial;">             indicates the number of third or greater phase cuts in the cut list.</span></p>
+<p><span style="font-family: Arial;">The <b>STA2</b> line specifies the total distances cut, grouped by each phase type. The distances are a function of the dimensional units (unit1). If the dimensional units are fractional or decimal inches, the distances are in feet, If the dimensional units are millimeters, the distances are in meters. Each field is right justified to eleven characters and has the form ‘xxxxxxx.yyy’.</span></p>
+<p><span style="font-family: Arial;">The <b>STA2</b> line has the following format:</span></p>
+<p><b style="font-weight: bold;"><span style="font-family: Arial;">STA2,drcut,dxcut,d3cut</span></b></p>
+<p><span style="font-family: Arial;">            <b>STA2</b>              is the line descriptor</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><b style="font-weight: bold;"><span style="font-family: Arial;">drcut</span></b><span style="font-family: Arial;">              indicates the total distance of rip cuts in the cutlist including the leading trim cut.</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><b style="font-weight: bold;"><span style="font-family: Arial;">dxcut</span></b><span style="font-family: Arial;">             indicates the total distance of cross cuts in the cutlist including the trim cut. Unlike the nxcut field in STA1, the cross cut distance does not skip identical strips.</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><b style="font-weight: bold;"><span style="font-family: Arial;">d3cut</span></b><span style="font-family: Arial;">             indicates the total distance of third or greater phase cuts in the cutlist.</span></p>
+<p><span style="font-family: Arial;">The next three lines describe sheet stock records.</span></p>
+<p><span style="font-family: Arial;">The <b>INV1</b> record for each sheet stock item has the following format:</span></p>
+<p><b style="font-weight: bold;"><span style="font-family: Arial;">INV1,supply,used,ucost,width,length,trim1,trim2,trim3,trim4</span></b></p>
+<p><span style="font-family: Arial;">            <b>INV1</b>               is the line descriptor</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><b style="font-weight: bold;"><span style="font-family: Arial;">supply</span></b><span style="font-family: Arial;">           indicates the available supply of the sheet. It is a right justified numeric field of length 5. A supply of ‘*****’ indicates an infinite supply.</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><b style="font-weight: bold;"><span style="font-family: Arial;">used</span></b><span style="font-family: Arial;">               indicates the quantity of the sheet used in the cutlist. It is aright justified numeric field of length 5.</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><b style="font-weight: bold;"><span style="font-family: Arial;">ucost</span></b><span style="font-family: Arial;">             indicates the unit cost per square foot/meter. It is a right justified field of length 9 in the form ‘xxx.yyyy’.</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><b style="font-weight: bold;"><span style="font-family: Arial;">width</span></b><span style="font-family: Arial;">              indicates the width of the sheet.</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><b style="font-weight: bold;"><span style="font-family: Arial;">length</span></b><span style="font-family: Arial;">            indicates the length of the sheet.</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><b style="font-weight: bold;"><span style="font-family: Arial;">trim1</span></b><span style="font-family: Arial;">               indicates the leading width trim.</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><b style="font-weight: bold;"><span style="font-family: Arial;">trim2</span></b><span style="font-family: Arial;">               indicates the leading length trim.</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><b style="font-weight: bold;"><span style="font-family: Arial;">trim3</span></b><span style="font-family: Arial;">               indicates the trailing width trim.</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><b style="font-weight: bold;"><span style="font-family: Arial;">trim4</span></b><span style="font-family: Arial;">               indicates the trailing length trim.</span></p>
+<p><span style="font-family: Arial;">The <b>INV2</b> record for each sheet stock item has the following format:</span></p>
+<p><b style="font-weight: bold;"><span style="font-family: Arial;">INV2,desc,areacut,finparts,lpfin</span></b></p>
+<p><span style="font-family: Arial;">            <b>INV2</b>               is the line descriptor</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><b style="font-weight: bold;"><span style="font-family: Arial;">desc</span></b><span style="font-family: Arial;">               indicates the description of the sheet. It is a character field of length 24.</span></p>
+<p><span style="font-family: Arial;">            <b>areacut</b>          indicates the total area cut of the sheet. [xxxxxxxxx.yyyy]</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><b style="font-weight: bold;"><span style="font-family: Arial;">finparts</span></b><span style="font-family: Arial;">          indicates the total area finished (parts in sheet). [xxxxxxxxx.yyyy]</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><b style="font-weight: bold;"><span style="font-family: Arial;">lpfin</span></b><span style="font-family: Arial;">                indicates the total low priority area finished. *Planit always outputs 0.</span></p>
+<p><span style="font-family: Arial;">The <b>INV3</b> record is used to describe extra information about the sheet stock and has the following format:</span></p>
+<p><b style="font-weight: bold;"><span style="font-family: Arial;">INV3,vendor,location,ori</span></b></p>
+<p><span style="font-family: Arial;">            <b>INV3</b>               is the line descriptor</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><b style="font-weight: bold;"><span style="font-family: Arial;">vendor</span></b><span style="font-family: Arial;">           indicates the vendor from which the sheet stock was purchased. *Planit does not use this field.</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><b style="font-weight: bold;"><span style="font-family: Arial;">location</span></b><span style="font-family: Arial;">         indicates the physical location in the shop for the sheet stock. *Planit does not use this field.</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><b style="font-weight: bold;"><span style="font-family: Arial;">ori</span></b><span style="font-family: Arial;">                   is the orientation that the user prefers for the first cut on the sheet. It is a one character field as follows:</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><span style="font-family: Arial;">                                    0 = don’t care</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><span style="font-family: Arial;">                                    1 = first cut along length</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><span style="font-family: Arial;">                                    2 = first cut along width</span></p>
+<p><span style="font-family: Arial;">The next two lines describe part cut sizes.</span></p>
+<p><span style="font-family: Arial;">The <b>ORD1</b> record for each cut size has the following format:</span></p>
+<p><b style="font-weight: bold;"><span style="font-family: Arial;">ORD1,demand,supply,width,length,prio,grain</span></b></p>
+<p><span style="font-family: Arial;">            <b>ORD1</b>             is the line descriptor</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><b style="font-weight: bold;"><span style="font-family: Arial;">demand</span></b><span style="font-family: Arial;">         indicates the quantity requested for the cut size. It is a right justified field of length 5.</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><b style="font-weight: bold;"><span style="font-family: Arial;">supply</span></b><span style="font-family: Arial;">           indicates the quantity supplied/produced of the cut size. It is a right justified field of length 5.</span></p>
+<p><span style="font-family: Arial;">            <b>width</b>              indicates the width.</span></p>
+<p><span style="font-family: Arial;">            <b>length</b>            indicates the length.</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><b style="font-weight: bold;"><span style="font-family: Arial;">prio</span></b><span style="font-family: Arial;">                 indicates the priority of the part. It is a one character field where:</span></p>
+<p style="margin-left: 2.0in;"><span style="font-family: Arial;">H or Blank indicates high priority (NcCenter always outputs an H</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><span style="font-family: Arial;">                                    L indicates low priority</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><b style="font-weight: bold;"><span style="font-family: Arial;">grain</span></b><span style="font-family: Arial;">              *Planit leaves blank because it is indicated in CTL1.</span></p>
+<p><span style="font-family: Arial;">The <b>ORD2</b> record for each cut size has the following format:</span></p>
+<p><b style="font-weight: bold;"><span style="font-family: Arial;">ORD2,pcost,desc1,desc2</span></b></p>
+<p><span style="font-family: Arial;">            <b>ORD2</b>             is the line descriptor</span></p>
+<p><span style="font-family: Arial;">            <b>pcost</b>             cost per part to 1/10 of a cent. [dddd.ccc]</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><b style="font-weight: bold;"><span style="font-family: Arial;">desc1</span></b><span style="font-family: Arial;">             indicates the primary part description. *Planit leaves blank because it is described in PRT</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><b style="font-weight: bold;"><span style="font-family: Arial;">desc2</span></b><span style="font-family: Arial;">             indicates the secondary part description. *Planit leaves blank because it is described in PRT</span></p>
+<p><span style="font-family: Arial;">The <b>ORD3</b> record is used to access the part information for each cut size and has the following format:</span></p>
+<p><b style="font-weight: bold;"><span style="font-family: Arial;">ORD3,nparts,index</span></b></p>
+<p><span style="font-family: Arial;">            <b>ORD3</b>             is the line descriptor</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><b style="font-weight: bold;"><span style="font-family: Arial;">nparts</span></b><span style="font-family: Arial;">            This is the number of parts that have been combined into this cut size.</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><b style="font-weight: bold;"><span style="font-family: Arial;">index</span></b><span style="font-family: Arial;">              This is the index into the list of parts where this cut size begins.</span></p>
+<p><span style="font-family: Arial;">The next five records are for the parts that make up the above cut sizes.</span></p>
+<p><span style="font-family: Arial;">The <b>PRT1</b> record for each part has the following format:</span></p>
+<p><b style="font-weight: bold;"><span style="font-family: Arial;">PRT1,dmnd,ordno,width,length,dolabel,prtname,jobname,partcom,</span></b></p>
+<p><b style="font-weight: bold;"><span style="font-family: Arial;">cncprg</span></b></p>
+<p><span style="font-family: Arial;">            <b>PRT1</b>             is the line descriptor</span></p>
+<p><span style="font-family: Arial;">            <b>dmnd</b>             is the quantity the user specified for this part</span></p>
+<p><span style="font-family: Arial;">            <b>ordno</b>             is the index or offset into the cut sizes specified above</span></p>
+<p><span style="font-family: Arial;">            <b>width</b>              is the width for this part</span></p>
+<p><span style="font-family: Arial;">            <b>length</b>            is the length for this part</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><b style="font-weight: bold;"><span style="font-family: Arial;">dolabel</span></b><span style="font-family: Arial;">          indicates if user wants a label made for this Part. *Planit always outputs 1 (True).</span></p>
+<p><span style="font-family: Arial;">            <b>prtname</b>        is the name of this part</span></p>
+<p><span style="font-family: Arial;">            <b>jobname</b>       is the name of the Job this part is in</span></p>
+<p><span style="font-family: Arial;">            <b>partcom</b>        is the name of the Label Graphic for Real-Time Label printing</span></p>
+<p><span style="font-family: Arial;">            <b>cncprg</b>           CNC Program Name – 07/06/06(date) – Primary Barcode</span></p>
+<p><span style="font-family: Arial;">The <b>PRT2</b> record for each part has the following format:</span></p>
+<p><b style="font-weight: bold;">PRT2,postlam,</b><b>secprog</b><b style="font-weight: bold;">,roomname</b></p>
+<p><span style="font-family: Arial;">            <b>PRT2</b>             is the line descriptor</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><b style="font-weight: bold;"><span style="font-family: Arial;">postlam</span></b><span style="font-family: Arial;">         indicates post laminating instructions. *Planit always outputs 0.</span></p>
+<p>            <b>secprog</b>      is the Secondary CNC Program Name</p>
+<p><span style="font-family: Arial;">            <b>rmname</b>         is the name of the Room the part is in</span></p>
+<p><span style="font-family: Arial;">The <b>PRT3</b> record for each part has the following format:</span></p>
+<p><b style="font-weight: bold;"><span style="font-family: Arial;">PRT3,edges,priprog,wmatl1,wcolor1,prizone,lmatl1,lcolor1,secprog,</span></b><b style="font-weight: bold;"><span style="font-family: Arial;">wmatl2,wcolor2,seczone,lmatl2,lcolor2</span></b></p>
+<p><span style="font-family: Arial;">            <b>PRT3</b>             is the line descriptor</span></p>
+<p><span style="font-family: Arial;">            <b>edges</b>            is the edge banding codes for the Part [W1,L1,W2,L2]</span></p>
+<p style="margin-left: 200px;"><span style="font-family: Arial;">0 = No Banding</span></p>
+<p style="margin-left: 200px;"><span style="font-family: Arial;">1 = Door Banding</span></p>
+<p style="margin-left: 200px;"><span style="font-family: Arial;">2 = Exterior Banding</span></p>
+<p style="margin-left: 200px;">3 = Interior Banding</p>
+<p style="margin-left: 200px;">4 = BandingB</p>
+<p style="margin-left: 200px;">5 = BandingC</p>
+<p style="margin-left: 200px;">6 = BandingF</p>
+<p style="margin-left: 200px;">7 = BandingG</p>
+<p style="margin-left: 200px;">8 = BandingH</p>
+<p style="margin-left: 200px;">9 = BandingJ</p>
+<p style="margin-left: 240px;"><img src="../../../../../assets/images/zGraphics/Extras/Warning.png" alt="" style="border: none;" border="0"/> Other Banding letters are ignored as CPOUT only has placeholders for 0 - 9 identifiers.</p>
+<p><span style="font-family: Arial;">            <b>priprog</b>          is the Primary CNC Program Name</span></p>
+<p><span style="font-family: Arial;">            <b>wmatl1</b>           is the Edge Band Material for W1</span></p>
+<p><span style="font-family: Arial;">            <b>wcolor1</b>         is the Edge Band Finish Color for W1</span></p>
+<p><span style="font-family: Arial;">            <b>prizone</b>          is the Primary CNC Program Zone</span></p>
+<p><span style="font-family: Arial;">            <b>lmatl1</b> is the Edge Band Material Name for L1</span></p>
+<p><span style="font-family: Arial;">            <b>lcolor1</b>           is the Edge Band Finish Color for L1</span></p>
+<p><span style="font-family: Arial;">            <b>secprog</b>        is the Secondary CNC Program Name</span></p>
+<p><span style="font-family: Arial;">            <b>wmatl2</b>           is the Edge Band Material for W2</span></p>
+<p><span style="font-family: Arial;">            <b>wcolor2</b>         is the Edge Band Finish Color for W2</span></p>
+<p><span style="font-family: Arial;">            <b>seczone</b>        is the Secondary CNC Program Zone</span></p>
+<p><span style="font-family: Arial;">            <b>lmatl2</b> is the Edge Band Material for L2</span></p>
+<p><span style="font-family: Arial;">            <b>lcolor2</b>           is the Edge Band Finish Color for L2</span></p>
+<p><span style="font-family: Arial;">The <b>PRT4</b> record for each part has the following format:</span></p>
+<p><b style="font-weight: bold;"><span style="font-family: Arial;">PRT4,dname,cwidth,cheight,cdepth,ddesc,comments</span></b></p>
+<p style="text-indent: .5in;"><span style="font-family: Arial;"><b style="font-weight: bold;">PRT4</b>             is the line descriptor</span></p>
+<p><span style="font-family: Arial;">            <b>cname</b>           is the name of the Cabinet this part is in</span></p>
+<p><span style="font-family: Arial;">            <b>cwidth</b>           is the width of the Cabinet this part is in</span></p>
+<p><span style="font-family: Arial;">            <b>cheight</b>          is the height of the Cabinet this part is in</span></p>
+<p><span style="font-family: Arial;">            <b>cdepth</b>           is the depth of the Cabinet this part is in</span></p>
+<p><span style="font-family: Arial;">            <b>cdesc</b>             is the description of the Cabinet this part is in</span></p>
+<p><span style="font-family: Arial;">            <b>comments</b>    are the comments on the Cabinet this part is in</span></p>
+<p><span style="font-family: Arial;">The <b>PRT5</b> record for each part has the following format:</span></p>
+<p><b style="font-weight: bold;"><span style="font-family: Arial;">PRT5,prio,grain,qty,qtyover</span></b></p>
+<p><span style="font-family: Arial;">            <b>PRT5</b>             is the line descriptor</span></p>
+<p><span style="font-family: Arial;">            <b>prio</b>                 is the priority which is always set to high (H)</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><b style="font-weight: bold;"><span style="font-family: Arial;">grain</span></b><span style="font-family: Arial;">              indicates grain [Y or N] – Blank indicates use the global setting as defined in <b>CTL1</b></span></p>
+<p><span style="font-family: Arial;">            <b>qty</b>                  this parts quantity</span></p>
+<p><span style="font-family: Arial;">            <b>qtyover</b>          this parts quantity plus overmake</span></p>
+<p><span style="font-family: Arial;">Following the part records are the drop records. There is one record for each drop. The number of the drop items what will appear in the file is specified in the second line of the file as described above.</span></p>
+<p><span style="font-family: Arial;">The format of the drop record is as follows:</span></p>
+<p><b style="font-weight: bold;"><span style="font-family: Arial;">OFF1,supply,width,length</span></b></p>
+<p><span style="font-family: Arial;">            <b>OFF1</b>              is the line descriptor</span></p>
+<p><span style="font-family: Arial;">            <b>supply</b>           is the quantity of the drop</span></p>
+<p><span style="font-family: Arial;">            <b>width</b>              is the width of the drop</span></p>
+<p><span style="font-family: Arial;">            <b>length</b>            is the length of the drop</span></p>
+<p><span style="font-family: Arial;">Following the drop records are the pattern description records.</span></p>
+<p><span style="font-family: Arial;">For each pattern in the file there are five header records. Following the header records are the cut type records.</span></p>
+<p><span style="font-family: Arial;">The five pattern records are as follows:</span></p>
+<p><span style="font-family: Arial;">The first pattern record has the following format:</span></p>
+<p><b style="font-weight: bold;"><span style="font-family: Arial;">PAT1,invn,pat_type,repeat,cycles</span></b></p>
+<p><span style="font-family: Arial;">            <b>PAT1</b>              is the line descriptor</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><b style="font-weight: bold;"><span style="font-family: Arial;">invn</span></b><span style="font-family: Arial;">                indicates the sequence number of the sheet stock item used to cut the pattern, It is a string length of 2. with the leading zeros included.</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><b style="font-weight: bold;"><span style="font-family: Arial;">pat_type</span></b><span style="font-family: Arial;">        indicates a one character field indicating the type of pattern as follows:</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><span style="font-family: Arial;">                                    L = Long rip pattern</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><span style="font-family: Arial;">                                    S = Short rip pattern</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><span style="font-family: Arial;">                                    H = Head cut pattern</span></p>
+<p><span style="font-family: Arial;">            <b>repeat</b>            indicates the number of sheets in the book (stack)</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><b style="font-weight: bold;"><span style="font-family: Arial;">cycles</span></b><span style="font-family: Arial;">            indicates the number of cycles (books/stacks cut). i.e. If you have 11 sheets, but the book height is 3 sheets, the cycle would be 4 indicating (3 + 3 + 3 + 2). With the NcCenter’s current output the cycle is always 1 because the NcCenter pre-groups the materials by maximum book (stack) height.</span></p>
+<p style="margin-left: 1.0in; text-indent: -1.0in;"><i style="font-style: italic;"><span style="font-size: 8.0pt; font-family: Arial;">                                NOTE: A long rip pattern indicates that the rip cuts are made parallel to the larger dimension of the sheet. i.e. If the width dimension entered is less than the length dimension entered for the sheet, this indicates that the rip cuts are parallel to the length dimension of the sheet, But, if the width dimension is larger that the length dimension, the rip cuts are made parallel to the width dimension entered.</span></i></p>
+<p style="margin-left: 1.0in; text-indent: -1.0in;"><i style="font-style: italic;"><span style="font-size: 8.0pt; font-family: Arial;">                                A short rip pattern indicates that the rip cuts are made parallel to the shorter dimension of the sheet. i.e. If the width dimension entered is less than the length dimension for the sheet, this indicates that the rip cuts are made parallel to the width of the sheet. But, if the width dimension is larger that the length dimension, the rip cuts are made parallel to the length dimension.</span></i></p>
+<p style="margin-left: 1.0in; text-indent: -1.0in;"><i style="font-style: italic;"><span style="font-size: 8.0pt; font-family: Arial;">                                A head cut pattern has the first cut across the width of the sheet (like a short rip) but after the initial head cut the rest of the pattern looks like a long rip. The strips within the head section are identical. The size of the head section is controlled by the cutting rules.</span></i></p>
+<p><span style="font-family: Arial;">The second pattern header record has the following format:</span></p>
+<p><b style="font-weight: bold;"><span style="font-family: Arial;">PAT2,yield,uarea,uareah,uareal,cpua</span></b></p>
+<p><span style="font-family: Arial;">            <b>PAT2</b>              is the line descriptor</span></p>
+<p><span style="font-family: Arial;">            <b>yield</b>               indicates the percentage of yield</span></p>
+<p><span style="font-family: Arial;">            <b>uarea</b>             indicates the used area per panel</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><b style="font-weight: bold;"><span style="font-family: Arial;">uareah</span></b><span style="font-family: Arial;">           indicates the used area by high priority parts. *All Planit Parts are high priority so this field always matches the value in <b>uarea</b>.</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><b style="font-weight: bold;"><span style="font-family: Arial;">uareal</span></b><span style="font-family: Arial;">            indicates the used area by low priority parts. *All Planit parts are high priority so this field is always 0.</span></p>
+<p><span style="font-family: Arial;">            <b>cpua</b>               indicates the cost of the used area per panel</span></p>
+<p><span style="font-family: Arial;">The third pattern header record has the format below. Each field is right justified to a length of 5.</span></p>
+<p><b style="font-weight: bold;"><span style="font-family: Arial;">PAT3,nrcut,nxcut,n3cut,mnxcut</span></b></p>
+<p><span style="font-family: Arial;">            <b>PAT3</b>              is the line descriptor</span></p>
+<p><span style="font-family: Arial;">            <b>nrcut</b>              indicates the number of rip cuts per cycle</span></p>
+<p><span style="font-family: Arial;">            <b>nxcut</b>             indicates the number of cross cuts per cycle</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><b style="font-weight: bold;"><span style="font-family: Arial;">n3cut</span></b><span style="font-family: Arial;">             indicates the number of 3<sup>rd</sup> and higher phase cuts per cycle</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><b style="font-weight: bold;"><span style="font-family: Arial;">mnxcut</span></b><span style="font-family: Arial;">          indicates the number of cross cuts in the worst strip in the pattern</span></p>
+<p><span style="font-family: Arial;">The fourth pattern header record has the format below. Each field in the record is right justified and is 11 characters in length with the format ‘XXXXXXX.YYY’.</span></p>
+<p><b style="font-weight: bold;"><span style="font-family: Arial;">PAT4,drcut,dxcut,d3cut</span></b></p>
+<p><span style="font-family: Arial;">            <b>PAT4</b>              is the line descriptor</span></p>
+<p><span style="font-family: Arial;">            <b>drcut</b>              indicates the total rip cut distance per cycle</span></p>
+<p><span style="font-family: Arial;">            <b>dxcut</b>             indicates the total cross cut distance per cycle</span></p>
+<p><span style="font-family: Arial;">            <b>d3cut</b>             indicates the total of 3<sup>rd</sup> and higher phase cuts per cycle</span></p>
+<p><span style="font-family: Arial;">The fifth pattern header record has the following format:</span></p>
+<p><b style="font-weight: bold;"><span style="font-family: Arial;">PAT5,ton,toff,con,coff</span></b></p>
+<p><span style="font-family: Arial;">            <b>PAT5</b>              is the line descriptor</span></p>
+<p><span style="font-family: Arial;">            <b>ton</b>                  indicates the on-line time in minutes for all cycles</span></p>
+<p><span style="font-family: Arial;">            <b>toff</b>                  indicates the off-line time in minutes for all panels</span></p>
+<p><span style="font-family: Arial;">            <b>con</b>                 indicates the on-line operating cost</span></p>
+<p><span style="font-family: Arial;">            <b>coff</b>                 indicates the off-line operating cost</span></p>
+<p><span style="font-family: Arial;">Following the <b>PAT5</b> record will be one of the following record types.</span></p>
+<p><span style="font-family: Arial;">Patterns that have head cuts are divided into two sections. We call these sections the “head section” and the “body section”. The cutting instructions (the <b>CUT1</b> records) do not change for the head section, they still have codes for rip cuts, cross cuts, and 3<sup>rd</sup> and higher phase cuts. The head section will be preceded by a record that starts with the keyword “<b>HCUT</b>”, followed by the <b>CUT1</b> records. At the end of the head section (or at the start of the body section) you will have a record that starts with the keyword “<b>BCUT</b>”, followed by the <b>CUT1</b> records for this part of the pattern.</span></p>
+<p><b style="font-weight: bold;"><span style="font-family: Arial;">HCUT</span></b></p>
+<p style="margin-left: .5in;"><span style="font-family: Arial;">The presence of this record means that this pattern has a head section and the <b>CUT1</b> records for the head section will follow this record.</span></p>
+<p style="margin-left: .5in;"><span style="font-family: Arial;">Note that this record is OPTIONAL and will NOT appear for patterns that do not have head cuts.</span></p>
+<p><b style="font-weight: bold;"><span style="font-family: Arial;">BCUT</span></b></p>
+<p style="margin-left: .5in;"><span style="font-family: Arial;">This record will precede the <b>CUT1</b> records for the pattern. If the pattern contains head cuts then this record will precede the <b>CUT1</b> records for the body section.</span></p>
+<span style="font-family: Arial;">Following the above <b>HCUT</b> or <b>BCUT</b> records are pattern description records, which indicate how to cut the sheet. This record has the following format:</span>
+<p><b style="font-weight: bold;"><span style="font-family: Arial;">CUT1,level,dist,otype,onum</span></b></p>
+<p><span style="font-family: Arial;">            <b>CUT1</b>             this is the line descriptor</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><b style="font-weight: bold;"><span style="font-family: Arial;">level</span></b><span style="font-family: Arial;">               indicates the phase number of the cut. It is a two character field with leading zeros included, i.e.,</span></p>
+<p><span style="font-family: Arial;">                                                01 = rip cut</span></p>
+<p><span style="font-family: Arial;">                                                02 = cross cut</span></p>
+<p><span style="font-family: Arial;">                                                03 = 3<sup>rd</sup> phase cut</span></p>
+<p><span style="font-family: Arial;">                                                04 = 4<sup>th</sup> phase cut, etc.</span></p>
+<p><span style="font-family: Arial;">            <b>dist</b>                 indicates the dimensional distance of the cut</span></p>
+<p><span style="font-family: Arial;">            <b>otype</b>             indicates the part type. It is a one character field where:</span></p>
+<p><span style="font-family: Arial;">                                                0 = Part not produced with cut</span></p>
+<p><span style="font-family: Arial;">                                                1 = Scheduled part</span></p>
+<p><span style="font-family: Arial;">                                                2 = Drop part</span></p>
+<p style="margin-left: 1.5in; text-indent: -1.0in;"><b style="font-weight: bold;"><span style="font-family: Arial;">onum</span></b><span style="font-family: Arial;">             indicates the sequence number of the size produced with this cut. If additional cuts are required before a cut size is produced with a cut, a zero is supplied for <b>onum</b>. Thus a value of ‘5’ means that this cut results in a finished cut size whose index is ‘5’ in the <b>ORD</b> records (the first <b>ORD</b> record is ‘1’).</span></p>
+<p style="margin-left: .5in;"><i style="font-style: italic;"><span style="font-size: 8.0pt; font-family: Arial;">NOTE: Instructions are not provided for leading trim cuts. They must be determined from the corresponding sheet stock item and the head cut trim setting.</span></i></p>
+<p><span style="font-family: Arial;">The following indicates the end of the file:</span></p>
+<p><b style="font-weight: bold;"><span style="font-family: Arial;">END</span></b></p>
+<p><i style="font-style: italic;"><span style="font-size: 8.0pt; font-family: Arial;">Based on CPOUT specification by Pattern Systems International.</span></i> <i style="font-style: italic;"><span style="font-size: 8.0pt; font-family: Arial;">Revised to meet CADCode specifications.</span></i> <i style="font-style: italic;"><span style="font-size: 8.0pt; font-family: Arial;">Revised to meet Planit NcCenter specifications.</span></i></p>
+
+
+</body></html>

@@ -1,0 +1,180 @@
+{
+    "id": "6f070c5d-9cc1-4b56-b1a4-7c1f9184513c",
+    "title": "new_topic",
+    "content": [
+        {
+            "type": "text",
+            "data": "Connection Manager"
+        },
+        {
+            "type": "image",
+            "data": "image1001.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Connection Manager is where you will setup your Connection Machining for use on Part Connections for  Assemblies and Drawers and Roll Outs  in the Assembly Manager."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Assemblies",
+                "uuid": "8b8eb538-238e-4e6c-a59e-e983c45e0d0f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Drawers and Roll Outs",
+                "uuid": "020811aa-fb56-4b1a-8d29-51bf53c40ec6",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image1002.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "When selecting the New option in the ribbonbar you are given the choice of creating a Connection or a  Connection Set ."
+        },
+        {
+            "type": "text",
+            "data": "Following are the Connections that can be created in the Connection Manager."
+        },
+        {
+            "type": "image",
+            "data": "image1003.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Click the Connection Types below for more information."
+        },
+        {
+            "type": "text",
+            "data": "Boring"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Boring",
+                "uuid": "68f3091a-2c23-4de6-b9b6-22d39a0d20db",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Connector"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Connector",
+                "uuid": "58398677-83ba-485e-a378-2ce08b4e870a",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Dado"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Dado",
+                "uuid": "02922774-5524-46f1-8ec1-2adc03a62b0e",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Dovetail"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Dovetail",
+                "uuid": "145cb927-3a64-4aef-b065-f3459136c9fc",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "I-Joint"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "I-Joint",
+                "uuid": "2b8f4c9c-3867-4d51-abb4-5b55ac91040d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Line Bore"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Line Bore",
+                "uuid": "8a6d2bd9-6fae-4748-9e0a-304d3756ae40",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Mortise and Tenon"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Mortise and Tenon",
+                "uuid": "0b0880f1-d625-4665-a286-d3d4b751ed40",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Set"
+        },
+        {
+            "type": "text",
+            "data": "Connection Sets allow you to tie multiple Connections together. Maybe you have a Connection that defines dowel boring and you also have one which performs pre-drills. You can tie these two together create a single Connection Set which creates both."
+        },
+        {
+            "type": "image",
+            "data": "image1004.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Simply add any existing Connections (leftmost pane) to the Connection Set (rightmost pane)."
+        },
+        {
+            "type": "text",
+            "data": "You can also Copy , Delete  or Modify  an existing Connection of Connection Set here."
+        },
+        {
+            "type": "image",
+            "data": "image1005.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image1006.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image1007.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Cabinetmaker\\System_Level\\Ribbonbar\\Main_Tab\\Construction_Group\\Connections\\new_topic.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

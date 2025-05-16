@@ -1,0 +1,26 @@
+{
+    "id": "583484ff-e086-42a0-b1db-a9396a7b43af",
+    "title": "Utilities_Tab",
+    "content": [
+        {
+            "type": "text",
+            "data": "Utilities Tab"
+        },
+        {
+            "type": "text",
+            "data": "Click \n the options below for more Information"
+        },
+        {
+            "type": "text",
+            "data": "At Parts and Materials View"
+        },
+        {
+            "type": "image",
+            "data": "image289.gif",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "NCEnglish_Optimizer\\Ribbonbar\\Utilities_Tab\\Utilities_Tab.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

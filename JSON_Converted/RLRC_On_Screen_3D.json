@@ -1,0 +1,424 @@
+{
+    "id": "0ad3196e-bba5-47a3-81a7-6da9389cca5d",
+    "title": "RLRC_On_Screen_3D",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top \n > \n \n \n Room Level \n > \n \n Right Click Options \n > \n \n Right Click On Screen \n > \n \n Right Click on Screen 3D"
+        },
+        {
+            "type": "text",
+            "data": "Top \n >"
+        },
+        {
+            "type": "text",
+            "data": "Room Level \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Room Level",
+                "uuid": "9eaa492c-0405-4da7-8e0f-a6ff4e047890",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Right Click Options \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Right Click Options",
+                "uuid": "3ea2c40b-e3fc-4eac-9114-cf8a3365c62a",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Right Click On Screen \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Right Click On Screen",
+                "uuid": "3ea2c40b-e3fc-4eac-9114-cf8a3365c62a",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Right Click on Screen 3D"
+        },
+        {
+            "type": "text",
+            "data": "Right Click on Screen 3D"
+        },
+        {
+            "type": "text",
+            "data": "Right Click on Screen -"
+        },
+        {
+            "type": "image",
+            "data": "image72.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There are three options when right clicking on the screen in 3D view:"
+        },
+        {
+            "type": "image",
+            "data": "image1172.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "To Drawing"
+        },
+        {
+            "type": "text",
+            "data": "This option will create a static Drawing Scene of the current view."
+        },
+        {
+            "type": "text",
+            "data": "Show/Hide Walls"
+        },
+        {
+            "type": "text",
+            "data": "If you would like to Show or Hide Walls for more clear \n 3D Views you can do so by selecting this option. Simply enable or disable \n the Walls in the list to Show/Hide them."
+        },
+        {
+            "type": "image",
+            "data": "image867.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Properties"
+        },
+        {
+            "type": "text",
+            "data": "Following are the tabs on the View Properties screen:"
+        },
+        {
+            "type": "text",
+            "data": "General"
+        },
+        {
+            "type": "text",
+            "data": "There are three areas in the General Tab:"
+        },
+        {
+            "type": "image",
+            "data": "image1109.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "To Drawing"
+        },
+        {
+            "type": "text",
+            "data": "There are two options in the To Drawing area:"
+        },
+        {
+            "type": "text",
+            "data": "Bitmap \n -  This will export a Bitmap image of your 3D scene when using the \n Right Click Option \"To Drawing\". Use this option to send Rendered \n views to the Drawings page. It is important to note that when in the Drawings \n area and you drop your 3D Bitmap scene onto your page it will be hidden \n (this is to conserve system resources). Simply Right Click on the Scene \n click Properties and remove the check from the Hide Scene option."
+        },
+        {
+            "type": "text",
+            "data": "Hidden \n Line -  This option will send a Hidden Line Scene to the Drawings \n area when you select the Right Click \"To Drawing\" option."
+        },
+        {
+            "type": "text",
+            "data": "Enable Auto \n Spin -  With this option selected you can, in a 3D view left click \n on your view and rotate your Room/Assembly. When you release the Left \n Click your Room/Assembly will continue rotating until you click on the \n view again."
+        },
+        {
+            "type": "text",
+            "data": "Change to \n Line Drawing on View Move -  With this option disabled when in Render \n or Texture View the view will remain Rendered and will not revert to a \n Line Drawing."
+        },
+        {
+            "type": "text",
+            "data": "Solid Render \n Tab"
+        },
+        {
+            "type": "text",
+            "data": "The options here only impact the Solid Render (Red Cube) \n Renders."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Following are the options on \n the Solid Render Tab:"
+        },
+        {
+            "type": "image",
+            "data": "image1110.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "General \n - Outline Filled -  With this option enabled Solid draws a black \n outline around all part edges."
+        },
+        {
+            "type": "text",
+            "data": "Outline \n Filled = On"
+        },
+        {
+            "type": "image",
+            "data": "image28311.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Outline \n Filled = Off"
+        },
+        {
+            "type": "image",
+            "data": "image28411.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Enhance \n - Watch Enhancements -  The Watch Enhancements option updates the \n screen as the rendering enhancements are performed. If this option is \n not set, the screen will only update after the render enhancements are \n complete."
+        },
+        {
+            "type": "text",
+            "data": "Enhance \n - Enhanced Lighting -  The Enhanced Lighting option will add lighting \n calculations for actual beam width, position, and intensity. The lighting \n settings may be set at the  Lights  \n option in the sidebar in a 3D View."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Lights",
+                "uuid": "51646282-1cfd-405d-ab11-340e38effbe3",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Enhance \n - Dithering -  The Dithering option adds a significant amount of \n processing time and is only helpful for close up rendering of  Textures ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Textures",
+                "uuid": "aa224566-2adf-4eb7-a169-5b2371d5571d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Enhance \n - Anti Alias -  This options allows you to smooth the jagged lines \n typically associated with Rendering when using the  Enhance  \n option. The farther right the slider the \"smoother\" the edges \n of the Renderings will be."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Enhance",
+                "uuid": "9296be88-1f9a-40cf-b9ca-eba8f723003e",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Ambient \n Light - Brightness -  Use this option to control the Brightness \n of the Ambient Light. The farther right the slider the \"Brighter\" \n the Ambient Light will be. The Ambient Light serves to set the base level \n of light of the scene. \u00a0It evenly illuminates all surfaces in the \n scene, including the insides of cabinets. \u00a0However, it will never \n cast shadows. \u00a0Increasing its brightness will increase the overall \n illumination of the scene, as well as decrease the overall contrast. \u00a0Setting \n the Ambient Light too high will make your image look flat."
+        },
+        {
+            "type": "text",
+            "data": "Head \n Light - Brightness -  Use this option to control the Brightness \n of the Head Light. The farther right the slider the \"Brighter\" \n the Head Light will be. The Head Light is a Light which always shines \n from your Viewing perspective (all other Lights move with the view's rotation.). \n Basically, imagine this as a Light shining from your computer screen onto \n the scene as this is what it simulates."
+        },
+        {
+            "type": "text",
+            "data": "Photovision \n Tab"
+        },
+        {
+            "type": "text",
+            "data": "The options here only impact the Photovision (Blue Cube) Renders."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Following are the options on the Photovision \n Tab:"
+        },
+        {
+            "type": "image",
+            "data": "Photovision_Tab.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "General \n - Light Geometry -  A global switch to turn on/off light geometry, \n for light geometry to show, it must be \u201con\u201d both here and \u201con\u201d in the \n light itself. See the  Lights  \n topic for more information."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Lights",
+                "uuid": "51646282-1cfd-405d-ab11-340e38effbe3",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image1112.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Render \n - Anti Alias -  This setting defines the quality of sharp edges."
+        },
+        {
+            "type": "text",
+            "data": "Render \n - Light Sampling -  Reduces noise in direct light areas. The default \n value should be sufficient in most cases. Increasing this value will significantly \n increase Rendering time and may have no real impact on the Render."
+        },
+        {
+            "type": "text",
+            "data": "Render \n - Reflection Detail -  This setting determines the number of bounces \n a reflection makes. A lower setting will only reflect off maybe one surface, \n with a higher value the reflection will bounce onto more surfaces. The \n default value should be sufficient in most cases. Increasing this value \n will significantly increase Rendering time and may have no real impact \n on the Render."
+        },
+        {
+            "type": "image",
+            "data": "image1113.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Post \n Process - Image Editing -  Enables the manipulation of the Post \n Process Properties defined below in the sidebar after the Render is complete. \n This gives you a lot of control over the final Render and is highly recommended \n when high quality renders are desired."
+        },
+        {
+            "type": "text",
+            "data": "Post \n Process - Exposure -  The exposure is a multiplicative term applied \n to the colors of processed image during tone mapping. Increase the exposure \n to light up your tone mapped image, or decrease it if you want to make \n it darker."
+        },
+        {
+            "type": "text",
+            "data": "Post \n Process - Gamma -  A non-linear operation used to encode and decode \n luminance or tristimulus values in an image."
+        },
+        {
+            "type": "text",
+            "data": "Post \n Process - Temperature Adjust -  Enables/Disables White Balance."
+        },
+        {
+            "type": "text",
+            "data": "Post \n Process - White Balance -  White balance changes the overall mixture \n of colors in an image and is used for color correction. HSL is an alternative \n color space to RGB. It is a cylindrical-coordinate representation of color \n points."
+        },
+        {
+            "type": "image",
+            "data": "Hue_Saturation.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Post \n Process - Brightness -  This option allows you to increase (Brightness \n > 0) or decrease (Brightness < 0) the image brightness."
+        },
+        {
+            "type": "text",
+            "data": "Post \n Process - Contrast -  This option allows you to increase (Contrast \n > 0) or decrease (Contrast < 0) the image contrast."
+        },
+        {
+            "type": "text",
+            "data": "Post \n Process - Burn -  In a tone-mapped image, pixel luminances have \n been transformed to the unit interval [0, 1] making feasible to best display \n it on any device. The pixels having the biggest luminance (Lmax) in the \n source image are mapped to pixels having luminance = 1 in the tone mapped \n image. However, sometimes it is desirable to reproduce some kind of burning \n into the tone-mapped image. It's a way to reflect how some sensors can \n saturate (e.g the eye) under too bright light. This is the purpose of \n the burn factor which expresses how much of the range between [0, Lmax] \n will burn into the tone-mapped image."
+        },
+        {
+            "type": "text",
+            "data": "Post \n Process - Sharpen -  The Sharpen option is used for enhancing the \n definition of edges in the image. The sharpen filter kernel size is 3x3 \n pixels."
+        },
+        {
+            "type": "text",
+            "data": "Post \n Process - Glow -  The Glow option is used for increasing the white \n areas intensity in the image. The glow filter kernel size is 11x11 pixels."
+        },
+        {
+            "type": "text",
+            "data": "Post \n Process - Blur -  The Blur option applies a gaussian blur filter \n on the final image. The blur filter kernel size varies from 1x1 pixels \n to 11x11 pixels depending on the slider position."
+        },
+        {
+            "type": "image",
+            "data": "PV_Background.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Background \n - Style -  Select the Background Style from the following options:"
+        },
+        {
+            "type": "text",
+            "data": "Plain-  \n\t\t\t\t Renders the background color behind your scene. \n Graduated-  \n\t\t\t\t Renders a gradient running vertically from background \n\t\t\t\t to foreground color. \n Image-  \n\t\t\t\t Allows you to use a Bitmap image as the background."
+        },
+        {
+            "type": "text",
+            "data": "Plain-  \n\t\t\t\t Renders the background color behind your scene. \n Graduated-  \n\t\t\t\t Renders a gradient running vertically from background \n\t\t\t\t to foreground color. \n Image-  \n\t\t\t\t Allows you to use a Bitmap image as the background."
+        },
+        {
+            "type": "text",
+            "data": "Plain-  \n\t\t\t\t Renders the background color behind your scene. \n Graduated-  \n\t\t\t\t Renders a gradient running vertically from background \n\t\t\t\t to foreground color. \n Image-  \n\t\t\t\t Allows you to use a Bitmap image as the background."
+        },
+        {
+            "type": "text",
+            "data": "Plain-  \n\t\t\t\t Renders the background color behind your scene. \n Graduated-  \n\t\t\t\t Renders a gradient running vertically from background \n\t\t\t\t to foreground color. \n Image-  \n\t\t\t\t Allows you to use a Bitmap image as the background."
+        },
+        {
+            "type": "text",
+            "data": "Plain-  \n\t\t\t\t Renders the background color behind your scene. \n Graduated-  \n\t\t\t\t Renders a gradient running vertically from background \n\t\t\t\t to foreground color. \n Image-  \n\t\t\t\t Allows you to use a Bitmap image as the background."
+        },
+        {
+            "type": "text",
+            "data": "Plain-  \n\t\t\t\t Renders the background color behind your scene."
+        },
+        {
+            "type": "text",
+            "data": "Plain-  \n\t\t\t\t Renders the background color behind your scene."
+        },
+        {
+            "type": "text",
+            "data": "Graduated-  \n\t\t\t\t Renders a gradient running vertically from background \n\t\t\t\t to foreground color."
+        },
+        {
+            "type": "text",
+            "data": "Graduated-  \n\t\t\t\t Renders a gradient running vertically from background \n\t\t\t\t to foreground color."
+        },
+        {
+            "type": "text",
+            "data": "Image-  \n\t\t\t\t Allows you to use a Bitmap image as the background."
+        },
+        {
+            "type": "text",
+            "data": "Image-  \n\t\t\t\t Allows you to use a Bitmap image as the background."
+        },
+        {
+            "type": "text",
+            "data": "Background \n - Back -  Select the Background color here."
+        },
+        {
+            "type": "text",
+            "data": "Background \n - Fore -  Select the Foreground color here."
+        },
+        {
+            "type": "text",
+            "data": "Background \n - Image -  Select the Background Image, if the Style is set to Image, \n here."
+        },
+        {
+            "type": "image",
+            "data": "PV_File.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Image \n - Size -  This option sets what pixel resolution the images will \n be rendered out at when you use the Photovision to File options. You can \n use the pre-set image sizes, or set your own by using Custom. \u00a0The \n higher the resolution, the longer it will take to render the image."
+        },
+        {
+            "type": "text",
+            "data": "Image \n - Width -  If Custom is selected for Image Size then set the Custom \n Image Width here."
+        },
+        {
+            "type": "text",
+            "data": "Image \n - Height - \u00a0If Custom is selected for Image Size then set the \n Custom Image Height here."
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Room_Level\\Right_Click_Options\\Right_Click_On_Screen\\RLRC_On_Screen_3D.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

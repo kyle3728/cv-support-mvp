@@ -1,0 +1,17 @@
+{
+    "id": "2b050106-8185-49a6-ba06-ad7d1eb7ed7d",
+    "title": "Populate_Database_Only",
+    "content": [
+        {
+            "type": "text",
+            "data": "Populate Database Only"
+        },
+        {
+            "type": "text",
+            "data": "The Ardis Optimizer (a third party Optimizer) can directly read the PSNC-NC (-CV-AC).MDB file which is populated with machining information. This link will populate the data for the Ardis Optimizer or any other 3rd Party Application to read."
+        }
+    ],
+    "source_file": "NCEnglish\\Ribbonbar\\Main_Tab\\Machine\\NC_Links\\Miscellaneous_Links\\Populate_Database_Only.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

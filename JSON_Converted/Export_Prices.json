@@ -1,0 +1,22 @@
+{
+    "id": "12c6a93f-795a-4bd9-9a68-8e5b4f3f4b8a",
+    "title": "Export_Prices",
+    "content": [
+        {
+            "type": "text",
+            "data": "Export Prices"
+        },
+        {
+            "type": "image",
+            "data": "image49.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option exports the pricing for the currently selected Catalog into a comma separated file. The name of the file will be the Catalog name with a .csv extension, for example: Generic.csv. This file may then be opened in Microsoft Excel or a similar program and the prices may be updated there and subsequently imported back into the Catalog using the  Import  function."
+        }
+    ],
+    "source_file": "CEEnglish\\Explorer_View\\Ribbonbar\\Main_Tab\\Pricing_Group\\Export_Prices.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

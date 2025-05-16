@@ -1,0 +1,208 @@
+{
+    "id": "4a9e45c0-035c-40b8-abaf-ecce4bd2184c",
+    "title": "Tool_Catalog",
+    "content": [
+        {
+            "type": "text",
+            "data": "Overview of the Tool Catalog"
+        },
+        {
+            "type": "image",
+            "data": "image57.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The  Tool Catalog  is used in creating and defining tools for use in your CNC operations. The Tool Catalog also allows an unlimited quantity of tools, of various types, in any combination, to be assigned to a user-defined \"Tool Set\"."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Tool Catalog",
+                "uuid": "9e73329a-4965-4788-a023-336257c01689",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image58.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The following is a brief introduction to the Tool Catalogs features:"
+        },
+        {
+            "type": "text",
+            "data": "Toolbar"
+        },
+        {
+            "type": "image",
+            "data": "image59.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "New"
+        },
+        {
+            "type": "image",
+            "data": "image60.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Allows you to create a New Tool."
+        },
+        {
+            "type": "image",
+            "data": "image61.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Following are the  possible Tool Types you can create in the Tool Catalog:"
+        },
+        {
+            "type": "text",
+            "data": "Vertical Drill   - Used for Boring Part Faces/Backs. \n \n \n Horizontal Drill   - Used for Boring into Part Edges. Will always be output as a Secondary Operation. \n \n \n Flat Router  - Covers the wide range of Standard Straight router bits."
+        },
+        {
+            "type": "text",
+            "data": "Vertical Drill   - Used for Boring Part Faces/Backs. \n \n \n Horizontal Drill   - Used for Boring into Part Edges. Will always be output as a Secondary Operation. \n \n \n Flat Router  - Covers the wide range of Standard Straight router bits."
+        },
+        {
+            "type": "text",
+            "data": "Vertical Drill   - Used for Boring Part Faces/Backs. \n \n \n Horizontal Drill   - Used for Boring into Part Edges. Will always be output as a Secondary Operation. \n \n \n Flat Router  - Covers the wide range of Standard Straight router bits."
+        },
+        {
+            "type": "text",
+            "data": "Vertical Drill   - Used for Boring Part Faces/Backs. \n \n \n Horizontal Drill   - Used for Boring into Part Edges. Will always be output as a Secondary Operation. \n \n \n Flat Router  - Covers the wide range of Standard Straight router bits."
+        },
+        {
+            "type": "text",
+            "data": "Vertical Drill   - Used for Boring Part Faces/Backs. \n \n \n Horizontal Drill   - Used for Boring into Part Edges. Will always be output as a Secondary Operation. \n \n \n Flat Router  - Covers the wide range of Standard Straight router bits."
+        },
+        {
+            "type": "text",
+            "data": "Vertical Drill   - Used for Boring Part Faces/Backs."
+        },
+        {
+            "type": "text",
+            "data": "Vertical Drill   - Used for Boring Part Faces/Backs."
+        },
+        {
+            "type": "text",
+            "data": "Horizontal Drill   - Used for Boring into Part Edges. Will always be output as a Secondary Operation."
+        },
+        {
+            "type": "text",
+            "data": "Horizontal Drill   - Used for Boring into Part Edges. Will always be output as a Secondary Operation."
+        },
+        {
+            "type": "text",
+            "data": "Flat Router  - Covers the wide range of Standard Straight router bits."
+        },
+        {
+            "type": "text",
+            "data": "Flat Router  - Covers the wide range of Standard Straight router bits."
+        },
+        {
+            "type": "text",
+            "data": "Copy"
+        },
+        {
+            "type": "image",
+            "data": "image62.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Allows you to Copy the current Tool."
+        },
+        {
+            "type": "text",
+            "data": "Delete"
+        },
+        {
+            "type": "image",
+            "data": "image63.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Allows you to Delete the current Tool."
+        },
+        {
+            "type": "text",
+            "data": "Tool Display Filter"
+        },
+        {
+            "type": "image",
+            "data": "image64.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option allows you to control which Tools are displayed by Machine assignment. The Any option will show Tools which are available for  Any Machine . Selecting a Machine from the list will show Only Tools that are assigned to that Machine and/or Tools available for that Machine (Tools available for Any Machine)."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Any Machine",
+                "uuid": "9e73329a-4965-4788-a023-336257c01689",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Tool Type Filter"
+        },
+        {
+            "type": "image",
+            "data": "image65.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option allows you to control which Tools are available by Tool Type."
+        },
+        {
+            "type": "text",
+            "data": "Tool Selector"
+        },
+        {
+            "type": "image",
+            "data": "image66.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option allows you to select which Tool is active for editing here."
+        },
+        {
+            "type": "text",
+            "data": "Tool Properties"
+        },
+        {
+            "type": "text",
+            "data": "See the  Tool Catalog Setup  topic for more information."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Tool Catalog Setup",
+                "uuid": "9e73329a-4965-4788-a023-336257c01689",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image67.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "NCEnglish_Cabinetmaker\\Ribbonbar\\Main_Tab\\Tool\\Tool_Catalog.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

@@ -1,0 +1,31 @@
+{
+    "id": "3f6acba2-7829-4a9f-9a4a-55910f674259",
+    "title": "Update_Offcuts",
+    "content": [
+        {
+            "type": "text",
+            "data": "Update Offcuts"
+        },
+        {
+            "type": "image",
+            "data": "image347.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "When used from the Patterns View the Update Offcuts option will take all Offcuts in your Patterns and Add them to the  Offcut Manager ."
+        },
+        {
+            "type": "image",
+            "data": "image348.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "You can click Print here, allowing you to communicate to your Machine Operator what needs to be placed in Offcut Inventory."
+        }
+    ],
+    "source_file": "NCEnglish\\Ribbonbar\\Main_Tab\\Update_Offcuts.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

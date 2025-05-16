@@ -1,0 +1,37 @@
+{
+    "id": "216e7064-be01-4440-918d-14409313b108",
+    "title": "zBoard@3_Answer_DX",
+    "content": [
+        {
+            "type": "text",
+            "data": "Board@3 Answer DX"
+        },
+        {
+            "type": "text",
+            "data": "The width is related to the depth of"
+        },
+        {
+            "type": "text",
+            "data": "the cabinet. If we change the depth of"
+        },
+        {
+            "type": "text",
+            "data": "the cabinet we want the width of the part"
+        },
+        {
+            "type": "text",
+            "data": "to change. Therefore, we need a"
+        },
+        {
+            "type": "text",
+            "data": "formula. We used this formula when"
+        },
+        {
+            "type": "text",
+            "data": "we sized the part."
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\Parametric_Editing\\Intelligence_Workshop\\5th_Exercise\\zBoard@3_Answer_DX.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

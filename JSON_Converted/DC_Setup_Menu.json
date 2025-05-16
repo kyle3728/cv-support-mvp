@@ -1,0 +1,122 @@
+{
+    "id": "e6871af0-da9a-4b9e-a604-2dcf51f72624",
+    "title": "dc_setup_menu",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top \n > \n \n \n System Level \n > \n \n Ribbonbar \n > \n \n Main Tab \n > \n \n Catalogs Group \n > \n \n Door Catalog \n > \n \n Menu Options \n > \n \n Setup Menu \n > \n \n Setup Menu"
+        },
+        {
+            "type": "text",
+            "data": "Top \n >"
+        },
+        {
+            "type": "text",
+            "data": "System Level \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "System Level",
+                "uuid": "4450866f-fd9c-46df-abf3-7843c5a1ef37",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Ribbonbar \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Ribbonbar",
+                "uuid": "3bbac75c-2b61-42af-9bce-b90335e66dde",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Main Tab \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Main Tab",
+                "uuid": "3bbac75c-2b61-42af-9bce-b90335e66dde",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Catalogs Group \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Catalogs Group",
+                "uuid": "f4a43f08-b40b-442c-8f03-a96c2a64640f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Door Catalog \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Door Catalog",
+                "uuid": "2da09610-ccab-42a9-a5ce-4ad5fa83394a",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Menu Options \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Menu Options",
+                "uuid": "2e25ff21-1b0a-4d66-be31-5c4538e809c0",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Setup Menu \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Setup Menu",
+                "uuid": "e6871af0-da9a-4b9e-a604-2dcf51f72624",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Setup Menu"
+        },
+        {
+            "type": "text",
+            "data": "Setup Menu"
+        },
+        {
+            "type": "text",
+            "data": "Setup"
+        },
+        {
+            "type": "text",
+            "data": "Click on the menu options below for more information."
+        },
+        {
+            "type": "image",
+            "data": "image1388.gif",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\System_Level\\Ribbonbar\\Main_Tab\\Catalogs_Group\\Door_Catalog\\Menu_Options\\Setup_Menu\\dc_setup_menu.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

@@ -1,0 +1,93 @@
+{
+    "id": "bfc7d9c2-6985-4871-9d50-fe9d7a9edf50",
+    "title": "Biesse_Rover",
+    "content": [
+        {
+            "type": "text",
+            "data": "Biesse Rover"
+        },
+        {
+            "type": "text",
+            "data": "This is a Parts Router and/or Point-to-Point Link."
+        },
+        {
+            "type": "text",
+            "data": "On the NC4x  x    only, starting from the release 4.24, it is possible to add more information to the DXF. These DXF files will support tool compensation for routers and selection of routers by tool names. This output does not support tool compensation for saws. All saw tools should be set to output Center Line paths. The following information from the Tool Catalog can not be used in this output and are therefore ignored: Tool Numbers, Feed Rate, Descent Rate, Maximum Depth Per Pass. Layer names will be ignored for all tools except routers. Router tools should have a layer name that matches the tool name on the machine. The following are the standard layer names:"
+        },
+        {
+            "type": "text",
+            "data": "Panel dimensions: PANEL + Part Thickness \n \n \n Vertical drills: VERTICAL + Depth \n \n \n Horizontal drills on left side: SIDEA + Z Position \n \n \n Horizontal drills on front side: SIDEB + Z Position \n \n \n Horizontal drills on right side: SIDEC + Z Position \n \n \n Horizontal drills on back side: SIDED + Z Position \n \n \n Grooving operations: BLADE + Depth \n \n \n Generic routing operations: Layer Name + Depth + Tool Comp + Lead In/Out"
+        },
+        {
+            "type": "text",
+            "data": "Panel dimensions: PANEL + Part Thickness"
+        },
+        {
+            "type": "text",
+            "data": "Panel dimensions: PANEL + Part Thickness"
+        },
+        {
+            "type": "text",
+            "data": "Vertical drills: VERTICAL + Depth"
+        },
+        {
+            "type": "text",
+            "data": "Vertical drills: VERTICAL + Depth"
+        },
+        {
+            "type": "text",
+            "data": "Horizontal drills on left side: SIDEA + Z Position"
+        },
+        {
+            "type": "text",
+            "data": "Horizontal drills on left side: SIDEA + Z Position"
+        },
+        {
+            "type": "text",
+            "data": "Horizontal drills on front side: SIDEB + Z Position"
+        },
+        {
+            "type": "text",
+            "data": "Horizontal drills on front side: SIDEB + Z Position"
+        },
+        {
+            "type": "text",
+            "data": "Horizontal drills on right side: SIDEC + Z Position"
+        },
+        {
+            "type": "text",
+            "data": "Horizontal drills on right side: SIDEC + Z Position"
+        },
+        {
+            "type": "text",
+            "data": "Horizontal drills on back side: SIDED + Z Position"
+        },
+        {
+            "type": "text",
+            "data": "Horizontal drills on back side: SIDED + Z Position"
+        },
+        {
+            "type": "text",
+            "data": "Grooving operations: BLADE + Depth"
+        },
+        {
+            "type": "text",
+            "data": "Grooving operations: BLADE + Depth"
+        },
+        {
+            "type": "text",
+            "data": "Generic routing operations: Layer Name + Depth + Tool Comp + Lead In/Out"
+        },
+        {
+            "type": "text",
+            "data": "Generic routing operations: Layer Name + Depth + Tool Comp + Lead In/Out"
+        },
+        {
+            "type": "text",
+            "data": "Tool selection, for all tools but routers, is made by a size match between the tool and the operation. Lead In / Out will be added based on tool compensation and if the router operation is on the interior or exterior of the part."
+        }
+    ],
+    "source_file": "NCEnglish\\Ribbonbar\\Main_Tab\\Machine\\NC_Links\\Parts_Router_P-2-P_Links\\Biesse_Rover.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

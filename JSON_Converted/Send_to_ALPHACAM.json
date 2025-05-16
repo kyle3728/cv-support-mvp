@@ -1,0 +1,22 @@
+{
+    "id": "303a2a0b-2741-4562-854e-ff0a26ae5ff2",
+    "title": "Send_to_ALPHACAM",
+    "content": [
+        {
+            "type": "text",
+            "data": "Send to ALPHACAM"
+        },
+        {
+            "type": "text",
+            "data": "This option will output all the Parts as individual ARD files to the selected location."
+        },
+        {
+            "type": "image",
+            "data": "image1379.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Casebuilder\\Room_Level\\Sidebar\\Send_to_ALPHACAM.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

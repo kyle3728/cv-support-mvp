@@ -1,0 +1,22 @@
+{
+    "id": "432140c3-9824-4356-b828-5d21f7e2e719",
+    "title": "Camera_Move",
+    "content": [
+        {
+            "type": "text",
+            "data": "Camera Move"
+        },
+        {
+            "type": "image",
+            "data": "image1014.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Camera Move option changes Panning to actually 'moving' the Camera \n rather than normal Panning. It also changes Scroll Wheel Zooming to 'moving' \n the Camera in and out allowing youm with the combination of Panning and \n Zooming, to control the Camera's position and perspective of the View."
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Room_Level\\Ribbonbar\\Main_Tab\\Camera_Group\\Camera_Move.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

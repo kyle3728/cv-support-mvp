@@ -1,0 +1,114 @@
+{
+    "id": "1732ba64-fbc0-4dbc-b52e-a5e451b3d7aa",
+    "title": "Fourth_Exercise_Formula_for_the_X_(Left_Right)",
+    "content": [
+        {
+            "type": "text",
+            "data": "Formula for the X (Left/Right)"
+        },
+        {
+            "type": "text",
+            "data": "Look at your cabinet in 3D. Look at it from a Face   ortho view and click on BOARD@4. Notice where the reference point is located. Click on the other boards and notice where their reference points are located. See if you can come up with the formula for the X of BOARD@4 yourself. Hint; you already know what the formula is because you placed the board left and right in the cabinet to start off with. Click Here To See Formula."
+        },
+        {
+            "type": "image",
+            "data": "image181.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Add a part. Size the part correctly and place the part correctly. You've already done that. \n \n \n Select a part to work on. We are working on BOARD@4. \n \n \n What is it you are trying to do to this part? We are trying to place it left and right. Write your formula out in English first! Make sure you write it down so you won't get confused later. Use the formula you used to manually place the part. Try to figure it out yourself but if you can't,  Click Here to see Formula . \n \n \n Trace it through the Object Tree, and write it down! The first level is always \"CAB\" no matter what the name of the object is. Try to trace it out yourself but if you can't,  Click Here to See the Code . \n \n \n Go back to the part you are working on (board@4 - After you have traced it through the tree and written the code down). \n \n \n Select the parameter you want to work on. We are working on the X. \n \n \n Select \"Edit\". \n \n \n Change from a \"Value\" to an \"Equation\". \n \n \n Write your code on the \"THEN\" line.  Click Here to see Code . \n \n \n \"Test\" you code. \n \n \n Always go back and look at your cabinet in 3D (at the cabinet level) and see if it still looks OK."
+        },
+        {
+            "type": "text",
+            "data": "Add a part. Size the part correctly and place the part correctly. You've already done that."
+        },
+        {
+            "type": "text",
+            "data": "Add a part. Size the part correctly and place the part correctly. You've already done that."
+        },
+        {
+            "type": "text",
+            "data": "Select a part to work on. We are working on BOARD@4."
+        },
+        {
+            "type": "text",
+            "data": "Select a part to work on. We are working on BOARD@4."
+        },
+        {
+            "type": "text",
+            "data": "What is it you are trying to do to this part? We are trying to place it left and right. Write your formula out in English first! Make sure you write it down so you won't get confused later. Use the formula you used to manually place the part. Try to figure it out yourself but if you can't,  Click Here to see Formula ."
+        },
+        {
+            "type": "text",
+            "data": "What is it you are trying to do to this part? We are trying to place it left and right. Write your formula out in English first! Make sure you write it down so you won't get confused later. Use the formula you used to manually place the part. Try to figure it out yourself but if you can't,  Click Here to see Formula ."
+        },
+        {
+            "type": "text",
+            "data": "Trace it through the Object Tree, and write it down! The first level is always \"CAB\" no matter what the name of the object is. Try to trace it out yourself but if you can't,  Click Here to See the Code ."
+        },
+        {
+            "type": "text",
+            "data": "Trace it through the Object Tree, and write it down! The first level is always \"CAB\" no matter what the name of the object is. Try to trace it out yourself but if you can't,  Click Here to See the Code ."
+        },
+        {
+            "type": "text",
+            "data": "Go back to the part you are working on (board@4 - After you have traced it through the tree and written the code down)."
+        },
+        {
+            "type": "text",
+            "data": "Go back to the part you are working on (board@4 - After you have traced it through the tree and written the code down)."
+        },
+        {
+            "type": "text",
+            "data": "Select the parameter you want to work on. We are working on the X."
+        },
+        {
+            "type": "text",
+            "data": "Select the parameter you want to work on. We are working on the X."
+        },
+        {
+            "type": "text",
+            "data": "Select \"Edit\"."
+        },
+        {
+            "type": "text",
+            "data": "Select \"Edit\"."
+        },
+        {
+            "type": "text",
+            "data": "Change from a \"Value\" to an \"Equation\"."
+        },
+        {
+            "type": "text",
+            "data": "Change from a \"Value\" to an \"Equation\"."
+        },
+        {
+            "type": "text",
+            "data": "Write your code on the \"THEN\" line.  Click Here to see Code ."
+        },
+        {
+            "type": "text",
+            "data": "Write your code on the \"THEN\" line.  Click Here to see Code ."
+        },
+        {
+            "type": "text",
+            "data": "\"Test\" you code."
+        },
+        {
+            "type": "text",
+            "data": "\"Test\" you code."
+        },
+        {
+            "type": "text",
+            "data": "Always go back and look at your cabinet in 3D (at the cabinet level) and see if it still looks OK."
+        },
+        {
+            "type": "text",
+            "data": "Always go back and look at your cabinet in 3D (at the cabinet level) and see if it still looks OK."
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\Parametric_Editing\\Intelligence_Workshop\\4th_Exercise\\Fourth_Exercise_Formula_for_the_X_(Left_Right).htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

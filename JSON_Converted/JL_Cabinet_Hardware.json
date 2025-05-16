@@ -1,0 +1,111 @@
+{
+    "id": "3c5f0e59-c063-486b-98bd-ef1ce1869261",
+    "title": "JL_Cabinet_Hardware",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top \n > \n \n \n Job Level \n > \n \n Job Properties \n > \n \n Cabinet \n > \n \n Hardware"
+        },
+        {
+            "type": "text",
+            "data": "Top \n >"
+        },
+        {
+            "type": "text",
+            "data": "Job Level \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Job Level",
+                "uuid": "2e24aee5-8ffc-491f-a322-45ce46c2c253",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Job Properties \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Job Properties",
+                "uuid": "d5f88ec0-9e69-49f4-a75a-16eae2e2707d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Cabinet \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Cabinet",
+                "uuid": "d7782e75-15a3-44c9-b2f6-bd655d519497",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Hardware"
+        },
+        {
+            "type": "text",
+            "data": "Hardware"
+        },
+        {
+            "type": "text",
+            "data": "Cabinet Hardware"
+        },
+        {
+            "type": "text",
+            "data": "Click on the categories or tabs below for more information"
+        },
+        {
+            "type": "image",
+            "data": "JP_Cabinet_Hardware.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Select the hardware Material Schedules for Pulls, Drawer Guides. Hinges, and Sliding Door Rails at this tab. These Material Schedules can be modified for this Job by clicking the Modify for this Job button and making the appropriate changes."
+        },
+        {
+            "type": "text",
+            "data": "Beaded Frames -"
+        },
+        {
+            "type": "image",
+            "data": "S2M.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "If the Hinge in the selected  Hinge Schedule  has an inset Value you can select one of the stock Bead Profile's to use on your Face Frame Openings."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Hinge Schedule",
+                "uuid": "6fb1782e-5d60-4ae1-9801-55624a1651eb",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "See the  Set As System Defaults  topic for more information on it."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Set As System Defaults",
+                "uuid": "e5b1c38f-2747-41a5-a7b8-9aefa6986ede",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Job_Level\\Job_Properties\\Cabinet\\JL_Cabinet_Hardware.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

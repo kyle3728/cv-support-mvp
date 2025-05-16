@@ -1,0 +1,82 @@
+{
+    "id": "fb1723e4-36a9-436c-94cb-70155cf489b7",
+    "title": "DBROW_Construction_Definition",
+    "content": [
+        {
+            "type": "text",
+            "data": "Construction Definition"
+        },
+        {
+            "type": "text",
+            "data": "The selected Construction Style determines which Objects are definable for your Drawer/Roll Out. There are five possible Drawer and Roll Out Construction Styles."
+        },
+        {
+            "type": "image",
+            "data": "image740.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Five Piece Drawer"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Five Piece Drawer",
+                "uuid": "c08b0bf8-4db3-4419-a3d0-414780a15cd7",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Four Piece Drawer"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Four Piece Drawer",
+                "uuid": "9841de91-5643-44c8-b3c2-6922f7c91632",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Roll Out"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Roll Out",
+                "uuid": "700c1d26-7e9f-49f8-985b-58f2d5af9d27",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "System Drawer Box"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "System Drawer Box",
+                "uuid": "dcfade24-db5d-4e5f-bcb0-31300f89b73d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "System Roll Out"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "System Roll Out",
+                "uuid": "83b22835-5fbb-4a6a-b77b-55028b3fc2a4",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\System_Level\\Ribbonbar\\Main_Tab\\Construction_Group\\Assembly_Manager\\Drawer_-_Roll_Out\\Construction_Styles\\DBROW_Construction_Definition.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

@@ -1,0 +1,21 @@
+{
+    "id": "652ea37a-1060-4261-a1fc-23b3b51704c0",
+    "title": "zBoard@1_Formula_Y",
+    "content": [
+        {
+            "type": "text",
+            "data": "Board@1 Formula Y"
+        },
+        {
+            "type": "text",
+            "data": "The up and down is equal to"
+        },
+        {
+            "type": "text",
+            "data": "the height of the cabinet."
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\Parametric_Editing\\Intelligence_Workshop\\5th_Exercise\\zBoard@1_Formula_Y.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

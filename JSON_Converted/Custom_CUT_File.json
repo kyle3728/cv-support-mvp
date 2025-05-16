@@ -1,0 +1,224 @@
+{
+    "id": "cf1ad31f-6428-49fb-aa35-79203444d27d",
+    "title": "Custom_CUT_File",
+    "content": [
+        {
+            "type": "text",
+            "data": "Custom CUT File"
+        },
+        {
+            "type": "text",
+            "data": "User configurable ASCII file output of part sizes to be used by 3rd party optimizers."
+        },
+        {
+            "type": "text",
+            "data": "When this Saw NC Link is selected there will be a new Tab in the Machine Catalog named \"CUT Fields\"."
+        },
+        {
+            "type": "image",
+            "data": "image1317.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "File Properties Area"
+        },
+        {
+            "type": "text",
+            "data": "There are ten general options available to configure your output:"
+        },
+        {
+            "type": "image",
+            "data": "image1318.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "File Name -  This field will allow you to specify a specific or partial file name. You may choose to use {JobName} as a variable. Any use of {JobName} will be replaced by the current job."
+        },
+        {
+            "type": "text",
+            "data": "Example settings:"
+        },
+        {
+            "type": "text",
+            "data": "{JobName}.txt \u25ba Smith.txt"
+        },
+        {
+            "type": "text",
+            "data": "MyOutput.csv \u25ba MyOutput.csv"
+        },
+        {
+            "type": "text",
+            "data": "Out-{JobName}.lst \u25ba Out-Smith.lst"
+        },
+        {
+            "type": "text",
+            "data": "Header -  The header is optional. If specified it will be placed once at the top of the file. It can be left blank to omit. Any use of \\n will be replaced with a carriage return."
+        },
+        {
+            "type": "text",
+            "data": "Example Setting:  ;This is a heading\\nThis is the second line\\nThis is the 3rd line."
+        },
+        {
+            "type": "text",
+            "data": ";This is a heading"
+        },
+        {
+            "type": "text",
+            "data": "This is the second line"
+        },
+        {
+            "type": "text",
+            "data": "This is the 3rd line."
+        },
+        {
+            "type": "text",
+            "data": "Fixed Width -  This will determine if each field will use a specific number of characters in the output. If the actual data has fewer characters then that specified the remaining characters will be padded with space. If the actual data exceeds the character limit then the value will be truncated."
+        },
+        {
+            "type": "text",
+            "data": "String Length includes the Text Qualifier. If the Field Length is set to 4 and the String is \u201cABCDEFG\u201d the output will be \u201cAB\u201d. If there is no text qualifier the output would be ABCD."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "To set the length of the output field first select the field on the right then enter the Fixed Length at the bottom of the list."
+        },
+        {
+            "type": "image",
+            "data": "image1320.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "If Fixed Width is false then the Text Length indicates the maximum length of any field. This by default can be left at zero, but can be set to a number it you wish to limit the output length. Unlike Fixed Width, the max length does not include the text qualifier. A max length of 4 with the string ABCDEF would result \u201cABCD\u201d"
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Delimiter -  This is an optional single character to separate each field. It is commonly a comma (,)."
+        },
+        {
+            "type": "text",
+            "data": "Text Qualifier -  This is an optional single character that will surround and text or memo output. Typical values are (\u201c) and (\u2018)."
+        },
+        {
+            "type": "text",
+            "data": "When the output type is not fixed width if the text qualifier character is found in a text or memo field it will be replaced with either \u201c or \u2018 (whichever is NOT the text qualifier character). The example below uses a double quote (\u201c) as the text qualifier."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "A \u201csample\u201d string with \u201cdouble\u201d and \u2018single\u2019 quotes: \u201cA \u2018sample\u2019 string with \u2018double\u2019 and \u2018single\u2019 quotes.\u201d"
+        },
+        {
+            "type": "text",
+            "data": "Units -  The unit can either be Inches or MM. As an option the unit may also be multiplied by a factor of 10, 100, or 1000."
+        },
+        {
+            "type": "image",
+            "data": "image1321.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Units Precision -  This option specifies the unit precision. Value will be rounded to the nearest selection. The unit precision applies to measurements as well as singles and doubles."
+        },
+        {
+            "type": "image",
+            "data": "image1322.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Boolean Format -  This option allows for multiple Boolean formats."
+        },
+        {
+            "type": "image",
+            "data": "image1323.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Date Format -  A string value using (M)onth, (D)ay & (Y)ear as variables. Example settings:"
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "M/D/YY",
+                    "10/4/13"
+                ],
+                "rows": [
+                    [
+                        "DD-MM-YYYY",
+                        "04-10-2013"
+                    ],
+                    [
+                        "DDD DD-MM-YYYY",
+                        "Mon 04-10-2013"
+                    ],
+                    [
+                        "DDD, MMM DD/YY",
+                        "Mon, Oct 04/13"
+                    ],
+                    [
+                        "DDDD, MMMM DD of YYYY",
+                        "Monday, October 04 of 2013"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Currency Precision -  Similar to unit precision, the value will be rounded to the specified precision."
+        },
+        {
+            "type": "image",
+            "data": "image1324.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Field Definition Area"
+        },
+        {
+            "type": "image",
+            "data": "image1325.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The list on the left are all of the Fields that you can include in your output file. Simply select the fields you would like then click the Right Arrow button to add them to the list on the right. Once a field has been moved over to the list on the right it\u2019s order can be modified by selecting the Up or Down arrow buttons. Multiple fields can be moved at the same time by 1st selecting multiple fields then selecting the Up/Down buttons."
+        },
+        {
+            "type": "text",
+            "data": "It may be required to output a value that it not represented in the available data list from Cabinet Vision. This type of output is typically not-critical data but is still required by the importing software to fill a space in the output format."
+        },
+        {
+            "type": "text",
+            "data": "To add a fixed text field click on the Green Plus Button then enter in the text:"
+        },
+        {
+            "type": "image",
+            "data": "image1326.gif",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "NCEnglish_Optimizer\\Ribbonbar\\Main_Tab\\Machine\\NC_Links\\Saw_Links\\Custom_CUT_File.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

@@ -1,0 +1,453 @@
+{
+    "id": "8c16a782-a4df-4ce8-a4e5-f69db6a3561d",
+    "title": "Create_Wainscoting",
+    "content": [
+        {
+            "type": "text",
+            "data": "Create Wainscoting"
+        },
+        {
+            "type": "text",
+            "data": "Step #1"
+        },
+        {
+            "type": "text",
+            "data": "In the  Assembly Manager :"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Assembly Manager",
+                "uuid": "e4cbc02a-f458-4c6d-8725-3c8322a55d94",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Setup a new or copy an existing Assembly Construction Method that will produce the Door Frame parts in the widths and joint configuration that you need. \n \n \n Use a Mortise &Tenon Connection in the  Connection | Top Rail  Branch so your cut list will indicate correct lengths\n        for stiles and rails. (Allows for coping) \n \n \n Note any differences in the Toe, as you may want this panel to go to the floor. \n \n \n Save this Construction Method with a unique name (Wainscot Method)."
+        },
+        {
+            "type": "text",
+            "data": "Setup a new or copy an existing Assembly Construction Method that will produce the Door Frame parts in the widths and joint configuration that you need."
+        },
+        {
+            "type": "text",
+            "data": "Setup a new or copy an existing Assembly Construction Method that will produce the Door Frame parts in the widths and joint configuration that you need."
+        },
+        {
+            "type": "text",
+            "data": "Use a Mortise &Tenon Connection in the  Connection | Top Rail  Branch so your cut list will indicate correct lengths\n        for stiles and rails. (Allows for coping)"
+        },
+        {
+            "type": "text",
+            "data": "Use a Mortise &Tenon Connection in the  Connection | Top Rail  Branch so your cut list will indicate correct lengths\n        for stiles and rails. (Allows for coping)"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Mortise &Tenon Connection",
+                "uuid": "0b0880f1-d625-4665-a286-d3d4b751ed40",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Note any differences in the Toe, as you may want this panel to go to the floor."
+        },
+        {
+            "type": "text",
+            "data": "Note any differences in the Toe, as you may want this panel to go to the floor."
+        },
+        {
+            "type": "text",
+            "data": "Save this Construction Method with a unique name (Wainscot Method)."
+        },
+        {
+            "type": "text",
+            "data": "Save this Construction Method with a unique name (Wainscot Method)."
+        },
+        {
+            "type": "text",
+            "data": "Step #2"
+        },
+        {
+            "type": "text",
+            "data": "In the  Door Manager :"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Door Manager",
+                "uuid": "2da09610-ccab-42a9-a5ce-4ad5fa83394a",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Create a new Door with no stiles and rails. \n \n \n Set the Panel Type to be a Raised Panel. \n \n \n Save the Door with a unique name (Wainscot Panel)."
+        },
+        {
+            "type": "text",
+            "data": "Create a new Door with no stiles and rails."
+        },
+        {
+            "type": "text",
+            "data": "Create a new Door with no stiles and rails."
+        },
+        {
+            "type": "text",
+            "data": "Set the Panel Type to be a Raised Panel."
+        },
+        {
+            "type": "text",
+            "data": "Set the Panel Type to be a Raised Panel."
+        },
+        {
+            "type": "text",
+            "data": "Save the Door with a unique name (Wainscot Panel)."
+        },
+        {
+            "type": "text",
+            "data": "Save the Door with a unique name (Wainscot Panel)."
+        },
+        {
+            "type": "text",
+            "data": "Step #3"
+        },
+        {
+            "type": "text",
+            "data": "In the  Material Manager :"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Material Manager",
+                "uuid": "2fed939d-ba55-4f35-94da-993f0e1b392e",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Create a new Hinge, call it \"nohinge\" \n \n \n Set it to have a Vertical and Horizontal Offset, use a value like .375 so the Panel will Mortise into the Frame. \n \n \n Give it an inset of 3/4\"."
+        },
+        {
+            "type": "text",
+            "data": "Create a new Hinge, call it \"nohinge\""
+        },
+        {
+            "type": "text",
+            "data": "Create a new Hinge, call it \"nohinge\""
+        },
+        {
+            "type": "text",
+            "data": "Set it to have a Vertical and Horizontal Offset, use a value like .375 so the Panel will Mortise into the Frame."
+        },
+        {
+            "type": "text",
+            "data": "Set it to have a Vertical and Horizontal Offset, use a value like .375 so the Panel will Mortise into the Frame."
+        },
+        {
+            "type": "text",
+            "data": "Give it an inset of 3/4\"."
+        },
+        {
+            "type": "text",
+            "data": "Give it an inset of 3/4\"."
+        },
+        {
+            "type": "text",
+            "data": "Step #4"
+        },
+        {
+            "type": "text",
+            "data": "In the  Material Schedule Manager :"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Material Schedule Manager",
+                "uuid": "7a64057c-ee14-4724-b490-38009af08adb",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Go to Hinges, create a new Hinge Schedule, call it Wainscot, and use the \"nohinge\" Hinge for this Schedule."
+        },
+        {
+            "type": "text",
+            "data": "Go to Hinges, create a new Hinge Schedule, call it Wainscot, and use the \"nohinge\" Hinge for this Schedule."
+        },
+        {
+            "type": "text",
+            "data": "Go to Hinges, create a new Hinge Schedule, call it Wainscot, and use the \"nohinge\" Hinge for this Schedule."
+        },
+        {
+            "type": "text",
+            "data": "Step #5"
+        },
+        {
+            "type": "text",
+            "data": "In the  Material Schedule Manager :"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Material Schedule Manager",
+                "uuid": "7a64057c-ee14-4724-b490-38009af08adb",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "If you do not have the shipping \"No Pulls/Knobs\" Pull Material Schedule do the following:"
+        },
+        {
+            "type": "text",
+            "data": "Go to Pulls, create a new Pull Schedule, call it Wainscot, and use the \"MATERIAL NOT ASSIGNED\" Pull for this Schedule."
+        },
+        {
+            "type": "text",
+            "data": "Go to Pulls, create a new Pull Schedule, call it Wainscot, and use the \"MATERIAL NOT ASSIGNED\" Pull for this Schedule."
+        },
+        {
+            "type": "text",
+            "data": "Go to Pulls, create a new Pull Schedule, call it Wainscot, and use the \"MATERIAL NOT ASSIGNED\" Pull for this Schedule."
+        },
+        {
+            "type": "text",
+            "data": "Step #6"
+        },
+        {
+            "type": "text",
+            "data": "Set the  Job Properties :"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Job Properties",
+                "uuid": "35caccb2-7ea3-4b54-af55-90bae347a1f4",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Start a new Job. \n \n \n Choose anything but the \"nopulls\" Pull Schedule. (Job Properties/Cabinet/Hardware) \n \n \n Choose anything but the \"nohinge\" Hinge Schedule. (Job properties/Cabinet/Hardware) \n \n \n Choose anything but the \"Wainscot\" Door Style. (Job Properties/Cabinet/Doors) \n \n \n Choose anything but the \"Wainscot\" Construction Method. (Job Properties/Cabinet/Construction) \n \n \n We will establish an Override later for each of these selections."
+        },
+        {
+            "type": "text",
+            "data": "Start a new Job."
+        },
+        {
+            "type": "text",
+            "data": "Start a new Job."
+        },
+        {
+            "type": "text",
+            "data": "Choose anything but the \"nopulls\" Pull Schedule. (Job Properties/Cabinet/Hardware)"
+        },
+        {
+            "type": "text",
+            "data": "Choose anything but the \"nopulls\" Pull Schedule. (Job Properties/Cabinet/Hardware)"
+        },
+        {
+            "type": "text",
+            "data": "Choose anything but the \"nohinge\" Hinge Schedule. (Job properties/Cabinet/Hardware)"
+        },
+        {
+            "type": "text",
+            "data": "Choose anything but the \"nohinge\" Hinge Schedule. (Job properties/Cabinet/Hardware)"
+        },
+        {
+            "type": "text",
+            "data": "Choose anything but the \"Wainscot\" Door Style. (Job Properties/Cabinet/Doors)"
+        },
+        {
+            "type": "text",
+            "data": "Choose anything but the \"Wainscot\" Door Style. (Job Properties/Cabinet/Doors)"
+        },
+        {
+            "type": "text",
+            "data": "Choose anything but the \"Wainscot\" Construction Method. (Job Properties/Cabinet/Construction)"
+        },
+        {
+            "type": "text",
+            "data": "Choose anything but the \"Wainscot\" Construction Method. (Job Properties/Cabinet/Construction)"
+        },
+        {
+            "type": "text",
+            "data": "We will establish an Override later for each of these selections."
+        },
+        {
+            "type": "text",
+            "data": "We will establish an Override later for each of these selections."
+        },
+        {
+            "type": "text",
+            "data": "Step #7"
+        },
+        {
+            "type": "text",
+            "data": "Create the Assembly:"
+        },
+        {
+            "type": "text",
+            "data": "Place a Base Assembly (you will need to go through all of the following steps again to create an Upper Wainscot panel if necessary) on a Wall and then take it to the Assembly Level, Section View. \n \n \n At the Section View, choose  Modifications | Hide Parts ; Hide all Parts except the Door and Frame\n        Parts. \n \n \n Go to the Properties Tab, select Construction and change it to Wainscot. \n \n \n Select the Doors Tab and change the door style to Wainscot Panel. \n \n \n Select the Hardware Tab and change the Pulls and Hinges schedules each to Wainscot. \n \n \n All of these choices place overrides on the Assembly. This in effect locks the Construction for this object to Wainscot Method, as well as locking overrides on the doors, hinges, and pulls. This is beneficial because when we save this assembly to\n        a Catalog it will always have these options selected whether the Room it is placed in matches them or not. \n \n \n Section the assembly as necessary and confirm by looking at all other views that this assembly is correct."
+        },
+        {
+            "type": "text",
+            "data": "Place a Base Assembly (you will need to go through all of the following steps again to create an Upper Wainscot panel if necessary) on a Wall and then take it to the Assembly Level, Section View."
+        },
+        {
+            "type": "text",
+            "data": "Place a Base Assembly (you will need to go through all of the following steps again to create an Upper Wainscot panel if necessary) on a Wall and then take it to the Assembly Level, Section View."
+        },
+        {
+            "type": "text",
+            "data": "At the Section View, choose  Modifications | Hide Parts ; Hide all Parts except the Door and Frame\n        Parts."
+        },
+        {
+            "type": "text",
+            "data": "At the Section View, choose  Modifications | Hide Parts ; Hide all Parts except the Door and Frame\n        Parts."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Modifications | Hide Parts",
+                "uuid": "6d896be3-732c-442a-a6f8-1fc1087514ec",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Go to the Properties Tab, select Construction and change it to Wainscot."
+        },
+        {
+            "type": "text",
+            "data": "Go to the Properties Tab, select Construction and change it to Wainscot."
+        },
+        {
+            "type": "text",
+            "data": "Select the Doors Tab and change the door style to Wainscot Panel."
+        },
+        {
+            "type": "text",
+            "data": "Select the Doors Tab and change the door style to Wainscot Panel."
+        },
+        {
+            "type": "text",
+            "data": "Select the Hardware Tab and change the Pulls and Hinges schedules each to Wainscot."
+        },
+        {
+            "type": "text",
+            "data": "Select the Hardware Tab and change the Pulls and Hinges schedules each to Wainscot."
+        },
+        {
+            "type": "text",
+            "data": "All of these choices place overrides on the Assembly. This in effect locks the Construction for this object to Wainscot Method, as well as locking overrides on the doors, hinges, and pulls. This is beneficial because when we save this assembly to\n        a Catalog it will always have these options selected whether the Room it is placed in matches them or not."
+        },
+        {
+            "type": "text",
+            "data": "All of these choices place overrides on the Assembly. This in effect locks the Construction for this object to Wainscot Method, as well as locking overrides on the doors, hinges, and pulls. This is beneficial because when we save this assembly to\n        a Catalog it will always have these options selected whether the Room it is placed in matches them or not."
+        },
+        {
+            "type": "text",
+            "data": "Section the assembly as necessary and confirm by looking at all other views that this assembly is correct."
+        },
+        {
+            "type": "text",
+            "data": "Section the assembly as necessary and confirm by looking at all other views that this assembly is correct."
+        },
+        {
+            "type": "text",
+            "data": "Step #8"
+        },
+        {
+            "type": "text",
+            "data": "Saving the Assembly:"
+        },
+        {
+            "type": "text",
+            "data": "From the Room Level Plan view, set the depth of the Object to 3/4\" (or whatever depth yours will be). \n \n \n Right click on the Object and choose  Save As . \n \n \n Choose a Catalog to save the Object in. \n \n \n Check Preserve Depth. \n \n \n Name the Subassembly (Wainscot). \n \n \n Go to Advanced/Preserve. \n \n \n Make sure that all of these are checked: Pull Material, Hinge Material, Assembly Construction, Door/Applied End Door Style. \n \n \n Click on OK, and then OK again to save the Assembly."
+        },
+        {
+            "type": "text",
+            "data": "From the Room Level Plan view, set the depth of the Object to 3/4\" (or whatever depth yours will be)."
+        },
+        {
+            "type": "text",
+            "data": "From the Room Level Plan view, set the depth of the Object to 3/4\" (or whatever depth yours will be)."
+        },
+        {
+            "type": "text",
+            "data": "Right click on the Object and choose  Save As ."
+        },
+        {
+            "type": "text",
+            "data": "Right click on the Object and choose  Save As ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Save As",
+                "uuid": "be29a521-2d0f-4030-8911-87f747cacb90",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Choose a Catalog to save the Object in."
+        },
+        {
+            "type": "text",
+            "data": "Choose a Catalog to save the Object in."
+        },
+        {
+            "type": "text",
+            "data": "Check Preserve Depth."
+        },
+        {
+            "type": "text",
+            "data": "Check Preserve Depth."
+        },
+        {
+            "type": "text",
+            "data": "Name the Subassembly (Wainscot)."
+        },
+        {
+            "type": "text",
+            "data": "Name the Subassembly (Wainscot)."
+        },
+        {
+            "type": "text",
+            "data": "Go to Advanced/Preserve."
+        },
+        {
+            "type": "text",
+            "data": "Go to Advanced/Preserve."
+        },
+        {
+            "type": "text",
+            "data": "Make sure that all of these are checked: Pull Material, Hinge Material, Assembly Construction, Door/Applied End Door Style."
+        },
+        {
+            "type": "text",
+            "data": "Make sure that all of these are checked: Pull Material, Hinge Material, Assembly Construction, Door/Applied End Door Style."
+        },
+        {
+            "type": "text",
+            "data": "Click on OK, and then OK again to save the Assembly."
+        },
+        {
+            "type": "text",
+            "data": "Click on OK, and then OK again to save the Assembly."
+        },
+        {
+            "type": "text",
+            "data": "Now whenever you pull the Wainscot panel out, resection it, stretch it or otherwise modify it, it will work flawlessly."
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\FAQs\\HDI-Advanced_Features\\Create_Wainscoting.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

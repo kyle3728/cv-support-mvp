@@ -1,0 +1,149 @@
+{
+    "id": "a2e9036e-18bf-4d81-be4b-ac9be3388150",
+    "title": "What_s_New_in_Version_4_1",
+    "content": [
+        {
+            "type": "text",
+            "data": "What's New in Version 4.1 (2012 R2)"
+        },
+        {
+            "type": "text",
+            "data": "General"
+        },
+        {
+            "type": "text",
+            "data": "Overwrite All Options in Setup Package Utility \n \n \n Logic to Identify and Machine Only One Bore if Multiple of the Same Diameter Occupy the Same Space \n \n \n General Improvements to Multi-drill Utilization"
+        },
+        {
+            "type": "text",
+            "data": "Overwrite All Options in Setup Package Utility"
+        },
+        {
+            "type": "text",
+            "data": "Overwrite All Options in Setup Package Utility"
+        },
+        {
+            "type": "text",
+            "data": "Logic to Identify and Machine Only One Bore if Multiple of the Same Diameter Occupy the Same Space"
+        },
+        {
+            "type": "text",
+            "data": "Logic to Identify and Machine Only One Bore if Multiple of the Same Diameter Occupy the Same Space"
+        },
+        {
+            "type": "text",
+            "data": "General Improvements to Multi-drill Utilization"
+        },
+        {
+            "type": "text",
+            "data": "General Improvements to Multi-drill Utilization"
+        },
+        {
+            "type": "text",
+            "data": "Label-IT"
+        },
+        {
+            "type": "text",
+            "data": "Auto-lookup for Text Variables in Label-IT Label Designer \n \n \n {Part.ID} Variable Added to Label-IT \n \n \n Expanded Available Fields for Label-IT Label Designer"
+        },
+        {
+            "type": "text",
+            "data": "Auto-lookup for Text Variables in Label-IT Label Designer"
+        },
+        {
+            "type": "text",
+            "data": "Auto-lookup for Text Variables in Label-IT Label Designer"
+        },
+        {
+            "type": "text",
+            "data": "{Part.ID} Variable Added to Label-IT"
+        },
+        {
+            "type": "text",
+            "data": "{Part.ID} Variable Added to Label-IT"
+        },
+        {
+            "type": "text",
+            "data": "Expanded Available Fields for Label-IT Label Designer"
+        },
+        {
+            "type": "text",
+            "data": "Expanded Available Fields for Label-IT Label Designer"
+        },
+        {
+            "type": "text",
+            "data": "Machine Catalog"
+        },
+        {
+            "type": "text",
+            "data": "Option for Sloped Arc Leads for Pockets \n \n \n Setup Sheet Boundaries for Small and Very Small Parts  (True Shape Nesting Only) \n \n \n Specify ZPL Template Directory"
+        },
+        {
+            "type": "text",
+            "data": "Option for Sloped Arc Leads for Pockets"
+        },
+        {
+            "type": "text",
+            "data": "Option for Sloped Arc Leads for Pockets"
+        },
+        {
+            "type": "text",
+            "data": "Setup Sheet Boundaries for Small and Very Small Parts  (True Shape Nesting Only)"
+        },
+        {
+            "type": "text",
+            "data": "Setup Sheet Boundaries for Small and Very Small Parts  (True Shape Nesting Only)"
+        },
+        {
+            "type": "text",
+            "data": "Specify ZPL Template Directory"
+        },
+        {
+            "type": "text",
+            "data": "Specify ZPL Template Directory"
+        },
+        {
+            "type": "text",
+            "data": "Nesting"
+        },
+        {
+            "type": "text",
+            "data": "Ignore Operations Outside Part's Nest Boundary \n \n \n Minimize 6th Face Patterns"
+        },
+        {
+            "type": "text",
+            "data": "Ignore Operations Outside Part's Nest Boundary"
+        },
+        {
+            "type": "text",
+            "data": "Ignore Operations Outside Part's Nest Boundary"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Ignore Operations Outside Part's Nest Boundary",
+                "uuid": "a6c6d306-c8da-4df8-8440-33f2f24a9c1d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Minimize 6th Face Patterns"
+        },
+        {
+            "type": "text",
+            "data": "Minimize 6th Face Patterns"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Minimize 6th Face Patterns",
+                "uuid": "a6c6d306-c8da-4df8-8440-33f2f24a9c1d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "NCEnglish\\Introduction\\Whats_New_Previous_Versions\\What_s_New_in_Version_4_1.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

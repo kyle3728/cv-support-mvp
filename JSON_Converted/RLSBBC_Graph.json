@@ -1,0 +1,235 @@
+{
+    "id": "baa715d7-2724-49e1-9dae-2d65347af65c",
+    "title": "RLSBBC_Graph",
+    "content": [
+        {
+            "type": "text",
+            "data": "Graph"
+        },
+        {
+            "type": "image",
+            "data": "image2586.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Graph sidebar button changes the Bid Center to Graph Mode. The Graph button is only available when in Internal Mode. Graphs split your current Bid into three Parts:"
+        },
+        {
+            "type": "text",
+            "data": "Cost -  The Cost item represents your Cost as defined by the active Rate Table(s)."
+        },
+        {
+            "type": "text",
+            "data": "Tax -  The Tax item represents the Tax on the Job."
+        },
+        {
+            "type": "text",
+            "data": "Profit -  The Profit item represents your Profit on the Job as defined by the Markup used for the Job."
+        },
+        {
+            "type": "text",
+            "data": "Graph Side Bar Options"
+        },
+        {
+            "type": "text",
+            "data": "There are several options in the sidebar to alter the look and feel of the Graph that is displayed in the Main Screen."
+        },
+        {
+            "type": "image",
+            "data": "image2614.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Main Title"
+        },
+        {
+            "type": "text",
+            "data": "This is where you define the Title of the displayed Graph. The area where this is displayed is highlighted in the following image."
+        },
+        {
+            "type": "image",
+            "data": "image1184.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Left Title"
+        },
+        {
+            "type": "text",
+            "data": "This field allows you to place a Left Title on your Graph. This is very handy when displaying Bar Graphs. The area where this is displayed is highlighted in the following image."
+        },
+        {
+            "type": "image",
+            "data": "image1186.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Bottom Title"
+        },
+        {
+            "type": "text",
+            "data": "This field allows you to place a Bottom Title on your Graph. This is very handy when displaying Bar Graphs. The area where this is displayed is highlighted in the following image."
+        },
+        {
+            "type": "image",
+            "data": "image1187.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Style"
+        },
+        {
+            "type": "text",
+            "data": "There are five different Graph Styles to choose from as well as the option to display the Graph Flat or in 3D. The five styles are:"
+        },
+        {
+            "type": "text",
+            "data": "Vertical Bars"
+        },
+        {
+            "type": "text",
+            "data": "Vertical Bars"
+        },
+        {
+            "type": "text",
+            "data": "Vertical Bars"
+        },
+        {
+            "type": "image",
+            "data": "image1188.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Horizontal Bars"
+        },
+        {
+            "type": "text",
+            "data": "Horizontal Bars"
+        },
+        {
+            "type": "text",
+            "data": "Horizontal Bars"
+        },
+        {
+            "type": "image",
+            "data": "image1189.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Pie"
+        },
+        {
+            "type": "text",
+            "data": "Pie"
+        },
+        {
+            "type": "text",
+            "data": "Pie"
+        },
+        {
+            "type": "image",
+            "data": "image1190.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Pie Data Labels"
+        },
+        {
+            "type": "text",
+            "data": "Pie Data Labels"
+        },
+        {
+            "type": "text",
+            "data": "Pie Data Labels"
+        },
+        {
+            "type": "image",
+            "data": "image1190.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Pie Percent Labels"
+        },
+        {
+            "type": "text",
+            "data": "Pie Percent Labels"
+        },
+        {
+            "type": "text",
+            "data": "Pie Percent Labels"
+        },
+        {
+            "type": "image",
+            "data": "image1191.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Information"
+        },
+        {
+            "type": "text",
+            "data": "There are two options in the Information section:"
+        },
+        {
+            "type": "text",
+            "data": "Labels -  Allows you to suppress the display of Labels on your Graph. \n \n \n Legends -  Allows you to suppress the display of Legends on your Graph."
+        },
+        {
+            "type": "text",
+            "data": "Labels -  Allows you to suppress the display of Labels on your Graph."
+        },
+        {
+            "type": "text",
+            "data": "Labels -  Allows you to suppress the display of Labels on your Graph."
+        },
+        {
+            "type": "text",
+            "data": "Legends -  Allows you to suppress the display of Legends on your Graph."
+        },
+        {
+            "type": "text",
+            "data": "Legends -  Allows you to suppress the display of Legends on your Graph."
+        },
+        {
+            "type": "text",
+            "data": "Grid"
+        },
+        {
+            "type": "text",
+            "data": "There are two options in the Grid section:"
+        },
+        {
+            "type": "text",
+            "data": "Vertical Lines -  Allows you to display Vertical Grids on your Bar Graphs. \n \n \n Horizontal Lines -  Allows you to display Horizontal Grids on your Bar Graphs."
+        },
+        {
+            "type": "text",
+            "data": "Vertical Lines -  Allows you to display Vertical Grids on your Bar Graphs."
+        },
+        {
+            "type": "text",
+            "data": "Vertical Lines -  Allows you to display Vertical Grids on your Bar Graphs."
+        },
+        {
+            "type": "text",
+            "data": "Horizontal Lines -  Allows you to display Horizontal Grids on your Bar Graphs."
+        },
+        {
+            "type": "text",
+            "data": "Horizontal Lines -  Allows you to display Horizontal Grids on your Bar Graphs."
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\RLSBBC_Graph.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

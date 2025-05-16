@@ -1,0 +1,17 @@
+{
+    "id": "ce2d18be-b941-427b-b374-49163fe7e857",
+    "title": "Fimal_P3200",
+    "content": [
+        {
+            "type": "text",
+            "data": "Fimal P3200"
+        },
+        {
+            "type": "text",
+            "data": "Saw output for Fimal P3200."
+        }
+    ],
+    "source_file": "NCEnglish\\Ribbonbar\\Main_Tab\\Machine\\NC_Links\\Saw_Links\\Fimal_P3200.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

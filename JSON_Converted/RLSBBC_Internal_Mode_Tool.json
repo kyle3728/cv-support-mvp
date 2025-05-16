@@ -1,0 +1,47 @@
+{
+    "id": "d53d04c5-9929-4f50-a90d-7b83595d804d",
+    "title": "RLSBBC_Internal_Mode_Tool",
+    "content": [
+        {
+            "type": "text",
+            "data": "Internal Mode"
+        },
+        {
+            "type": "image",
+            "data": "image2566.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option will set the display mode of the Bid Center to show all the values used to calculate the current Bid. Basically, this provides the full costing break down of your current Bid."
+        },
+        {
+            "type": "image",
+            "data": "image5686.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The default password is:"
+        },
+        {
+            "type": "text",
+            "data": "solid"
+        },
+        {
+            "type": "text",
+            "data": "You can change this Password in Bid Center  Options ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Options",
+                "uuid": "7e1302f3-f822-4514-8966-2dc56ceef32e",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\RLSBBC_Internal_Mode_Tool.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

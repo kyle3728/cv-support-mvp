@@ -1,0 +1,21 @@
+{
+    "id": "68a11869-5acc-477c-a6cb-9aa9a017d04f",
+    "title": "CPOUT_-_Mayer",
+    "content": [
+        {
+            "type": "text",
+            "data": "CPOUT - Mayer"
+        },
+        {
+            "type": "text",
+            "data": "This is a  Panel Saw  Link."
+        },
+        {
+            "type": "text",
+            "data": "This link outputs CPOUT file for Mayer beam saws. This output is compatible with Mayer's CPRead 9/99."
+        }
+    ],
+    "source_file": "NCEnglish_Optimizer\\Ribbonbar\\Main_Tab\\Machine\\NC_Links\\Saw_Links\\CPOUT_-_Mayer.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

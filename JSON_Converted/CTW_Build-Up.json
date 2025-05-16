@@ -1,0 +1,313 @@
+{
+    "id": "8ef4a973-72e5-439d-8df9-6e8a841cb705",
+    "title": "CTW_Build-Up",
+    "content": [
+        {
+            "type": "text",
+            "data": "Build-Up"
+        },
+        {
+            "type": "image",
+            "data": "image846.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The following diagram shows the options available in the Build Up object. Click a specific option in the diagram for more information or continue through this topic for information on all the Build Up options."
+        },
+        {
+            "type": "image",
+            "data": "image829.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Build Up Joint Type (Std #4)"
+        },
+        {
+            "type": "image",
+            "data": "image847.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Specify whether you Butt your Build-Up together or Miter it. If you select Miter you will need to enter the Build-Up's Width here."
+        },
+        {
+            "type": "text",
+            "data": "Overlap Build Up at Joint (Std #5)"
+        },
+        {
+            "type": "image",
+            "data": "image848.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Select either to Miter or Overlap build up on a joint edge."
+        },
+        {
+            "type": "text",
+            "data": "Build Up Joint Priority (Std #44)"
+        },
+        {
+            "type": "image",
+            "data": "image849.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option allows you to prioritize your Build-Up. The first Build-Up in the List is always run long. Each subsequent Edge in the list is given priority for running long after it. Simply left click drag the items in the list to prioritize them to your needs."
+        },
+        {
+            "type": "text",
+            "data": "Build Up Width on Profile Edge (Std #45)"
+        },
+        {
+            "type": "image",
+            "data": "image850.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option allows you to specify the Width of your Build-Up on a Profile Edge. Select None if you do not use Build-Up on your Profile Edges."
+        },
+        {
+            "type": "text",
+            "data": "Build Up Recess on Profile Edge (Std #46)"
+        },
+        {
+            "type": "image",
+            "data": "image851.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option allows you to specify whether your Profile Edge Build-Up is Recessed or not and what the Recess (Gap) is."
+        },
+        {
+            "type": "text",
+            "data": "Build Up Width on Finished Edge (Std #47)"
+        },
+        {
+            "type": "image",
+            "data": "image852.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option allows you to specify the Width of your Build-Up on a Finished Edge. Select None if you do not use Build-Up on your Finished Edges."
+        },
+        {
+            "type": "text",
+            "data": "Build Up Recess on Finished Edge (Std #48)"
+        },
+        {
+            "type": "image",
+            "data": "image853.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option allows you to specify whether your Finished Edge Build-Up is Recessed or not and what the Recess (Gap) is."
+        },
+        {
+            "type": "text",
+            "data": "Build Up On Joint Edges (Std #6)"
+        },
+        {
+            "type": "image",
+            "data": "image854.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option allows you to specify the Width of your Build-Up on a Joint Edge. Select None if you do not use Build-Up on your Joint Edges."
+        },
+        {
+            "type": "text",
+            "data": "Build Up Recess on Joint Edges (Std #49)"
+        },
+        {
+            "type": "text",
+            "data": "This option allows you to specify whether your Joint Edge Build-Up is Recessed or not and what the Recess (Gap) is."
+        },
+        {
+            "type": "text",
+            "data": "Build Up Width on Unfinished Edge (Std #50)"
+        },
+        {
+            "type": "image",
+            "data": "image855.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option allows you to specify the Width of your Build-Up on an Unfinished Edge. Select None if you do not use Build-Up on your Unfinished Edges."
+        },
+        {
+            "type": "text",
+            "data": "Build Up Recess on Unfinished Edge (Std #51)"
+        },
+        {
+            "type": "image",
+            "data": "image856.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option allows you to specify whether your Unfinished Edge Build-Up is Recessed or Prepped for Scribe and what the Recess (Gap) is."
+        },
+        {
+            "type": "text",
+            "data": "Unfinished Edge Top Operation Start Position (Std #52)"
+        },
+        {
+            "type": "image",
+            "data": "image862.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Enter the span on the top untouched by the back operation."
+        },
+        {
+            "type": "text",
+            "data": "Unfinished Edge Top Scribe Thickness (Std #53)"
+        },
+        {
+            "type": "image",
+            "data": "image863.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Enter the thickness of the top scribe."
+        },
+        {
+            "type": "text",
+            "data": "Build Up Width on Splash Edge (Std #54)"
+        },
+        {
+            "type": "image",
+            "data": "image857.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option allows you to specify the Width of your Build-Up on a Splash Edge. Select None if you do not use Build-Up on your Splash Edges."
+        },
+        {
+            "type": "text",
+            "data": "Top Recess on Splash Edge (Std #37)"
+        },
+        {
+            "type": "image",
+            "data": "image858.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There are five options for the Top Recess on Splash Edge:"
+        },
+        {
+            "type": "text",
+            "data": "No Change  - This would be flush as demonstrated in the image for the selection in the Wizard. \n \n \n Recess Top  - The Splash is against the Wall and you specify the distance the Top and Build Up is away from the Wall. See sample image for selection in the Wizard. \n \n \n Pre-Scribe Edge  - The Splash is against the Wall and you specify the distance the Top and Build Up is away from the Wall. You will next be prompted for the Span which will be cut fully through the Top Surface. See sample image for selection in the Wizard. \n \n \n Prep Edge For Scribe  - The Splash is against the Wall and you specify the distance the Top and Build Up is away from the Wall. You will next be prompted for the Span which will be cut to Depth based on an additional prompt for the Top scribe Thickness. See sample image for selection in the Wizard. \n \n \n Recess Build Up  - The Splash and Top is against the Wall and you specify the distance the Build Up is away from the Wall. See sample image for selection in the Wizard."
+        },
+        {
+            "type": "text",
+            "data": "No Change  - This would be flush as demonstrated in the image for the selection in the Wizard."
+        },
+        {
+            "type": "text",
+            "data": "No Change  - This would be flush as demonstrated in the image for the selection in the Wizard."
+        },
+        {
+            "type": "text",
+            "data": "Recess Top  - The Splash is against the Wall and you specify the distance the Top and Build Up is away from the Wall. See sample image for selection in the Wizard."
+        },
+        {
+            "type": "text",
+            "data": "Recess Top  - The Splash is against the Wall and you specify the distance the Top and Build Up is away from the Wall. See sample image for selection in the Wizard."
+        },
+        {
+            "type": "text",
+            "data": "Pre-Scribe Edge  - The Splash is against the Wall and you specify the distance the Top and Build Up is away from the Wall. You will next be prompted for the Span which will be cut fully through the Top Surface. See sample image for selection in the Wizard."
+        },
+        {
+            "type": "text",
+            "data": "Pre-Scribe Edge  - The Splash is against the Wall and you specify the distance the Top and Build Up is away from the Wall. You will next be prompted for the Span which will be cut fully through the Top Surface. See sample image for selection in the Wizard."
+        },
+        {
+            "type": "text",
+            "data": "Prep Edge For Scribe  - The Splash is against the Wall and you specify the distance the Top and Build Up is away from the Wall. You will next be prompted for the Span which will be cut to Depth based on an additional prompt for the Top scribe Thickness. See sample image for selection in the Wizard."
+        },
+        {
+            "type": "text",
+            "data": "Prep Edge For Scribe  - The Splash is against the Wall and you specify the distance the Top and Build Up is away from the Wall. You will next be prompted for the Span which will be cut to Depth based on an additional prompt for the Top scribe Thickness. See sample image for selection in the Wizard."
+        },
+        {
+            "type": "text",
+            "data": "Recess Build Up  - The Splash and Top is against the Wall and you specify the distance the Build Up is away from the Wall. See sample image for selection in the Wizard."
+        },
+        {
+            "type": "text",
+            "data": "Recess Build Up  - The Splash and Top is against the Wall and you specify the distance the Build Up is away from the Wall. See sample image for selection in the Wizard."
+        },
+        {
+            "type": "text",
+            "data": "Top Operation Start Position (Std #38)"
+        },
+        {
+            "type": "image",
+            "data": "image864.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Specify the Span for the blind Scribe. This option is only available if the \"Pre-Scribe Edge\" or \"Prep Edge For Scribe\" options were selected for \"Top Recess on Splash Edge (#037)."
+        },
+        {
+            "type": "text",
+            "data": "Top Scribe Thickness (Std #39)"
+        },
+        {
+            "type": "image",
+            "data": "image865.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Specify the Thickness for the Top Scribe. This option is only available if the \"Prep Edge For Scribe\" option was selected for \"Top Recess on Splash Edge (#037)."
+        },
+        {
+            "type": "text",
+            "data": "Radius Build Up Width (Std #7)"
+        },
+        {
+            "type": "image",
+            "data": "image860.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Additional width is required to radius build up. Enter the maximum width you will allow for radius build up. Note: This value must be greater than standard build up."
+        },
+        {
+            "type": "text",
+            "data": "Radius Interior (Std #8)"
+        },
+        {
+            "type": "image",
+            "data": "image861.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Radius the interior edge of radius build up or leave a straight edge?"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\CTW_Build-Up.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

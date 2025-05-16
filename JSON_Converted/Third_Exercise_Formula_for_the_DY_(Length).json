@@ -1,0 +1,126 @@
+{
+    "id": "96bc86d7-d5fe-4e53-9c86-df121c123876",
+    "title": "Third_Exercise_Formula_for_the_DY_(Length)",
+    "content": [
+        {
+            "type": "text",
+            "data": "Third Exercise Formula for the DY (Length)"
+        },
+        {
+            "type": "text",
+            "data": "Look at your cabinet in 3D. Look at it from a Face   ortho view and click on the BOARD. Notice where the reference point is located. Click on several of the other parts and notice where their reference points are located."
+        },
+        {
+            "type": "image",
+            "data": "image181.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There are several formulas that will work. We could say the width of the cabinet minus the thickness of the ends minus the width of Board@2 the whole thing divided by 2. But we want to stay away from the ends so we wont use that. Try to figure out the formula on your own."
+        },
+        {
+            "type": "text",
+            "data": "Add a part. Size the part correctly and place the part correctly. You've already done that. \n \n \n Select a part to work on. We are working on BOARD@3. \n \n \n What is it you are trying to do to this part? We are trying to figure the length of Board@3. \n \n \n Write your formula out in English first! Use the formula you used to manually place the part. Try to figure it out yourself but if you cant,  Click Here to see the Formula . \n \n \n Trace it through the object tree, and write your code down! Try to trace it out yourself but if you cant,  Click Here to See the Code . \n \n \n Go back to the part you are working on (board@3 - After you have traced it through the tree and written your code down). \n \n \n Select the parameter you want to work on. You are working on the DY. \n \n \n Select \"Edit\". \n \n \n Change from a \"Value\" to an \"Equation\". \n \n \n Write your code on the \"THEN\" line.  Click Here to See the Code . \n \n \n \"Test\" you code. \n \n \n Always go back and look at your cabinet in 3D (at the Assembly Level) and see if it still looks OK."
+        },
+        {
+            "type": "text",
+            "data": "Add a part. Size the part correctly and place the part correctly. You've already done that."
+        },
+        {
+            "type": "text",
+            "data": "Add a part. Size the part correctly and place the part correctly. You've already done that."
+        },
+        {
+            "type": "text",
+            "data": "Select a part to work on. We are working on BOARD@3."
+        },
+        {
+            "type": "text",
+            "data": "Select a part to work on. We are working on BOARD@3."
+        },
+        {
+            "type": "text",
+            "data": "What is it you are trying to do to this part? We are trying to figure the length of Board@3."
+        },
+        {
+            "type": "text",
+            "data": "What is it you are trying to do to this part? We are trying to figure the length of Board@3."
+        },
+        {
+            "type": "text",
+            "data": "Write your formula out in English first! Use the formula you used to manually place the part. Try to figure it out yourself but if you cant,  Click Here to see the Formula ."
+        },
+        {
+            "type": "text",
+            "data": "Write your formula out in English first! Use the formula you used to manually place the part. Try to figure it out yourself but if you cant,  Click Here to see the Formula ."
+        },
+        {
+            "type": "text",
+            "data": "Trace it through the object tree, and write your code down! Try to trace it out yourself but if you cant,  Click Here to See the Code ."
+        },
+        {
+            "type": "text",
+            "data": "Trace it through the object tree, and write your code down! Try to trace it out yourself but if you cant,  Click Here to See the Code ."
+        },
+        {
+            "type": "text",
+            "data": "Go back to the part you are working on (board@3 - After you have traced it through the tree and written your code down)."
+        },
+        {
+            "type": "text",
+            "data": "Go back to the part you are working on (board@3 - After you have traced it through the tree and written your code down)."
+        },
+        {
+            "type": "text",
+            "data": "Select the parameter you want to work on. You are working on the DY."
+        },
+        {
+            "type": "text",
+            "data": "Select the parameter you want to work on. You are working on the DY."
+        },
+        {
+            "type": "text",
+            "data": "Select \"Edit\"."
+        },
+        {
+            "type": "text",
+            "data": "Select \"Edit\"."
+        },
+        {
+            "type": "text",
+            "data": "Change from a \"Value\" to an \"Equation\"."
+        },
+        {
+            "type": "text",
+            "data": "Change from a \"Value\" to an \"Equation\"."
+        },
+        {
+            "type": "text",
+            "data": "Write your code on the \"THEN\" line.  Click Here to See the Code ."
+        },
+        {
+            "type": "text",
+            "data": "Write your code on the \"THEN\" line.  Click Here to See the Code ."
+        },
+        {
+            "type": "text",
+            "data": "\"Test\" you code."
+        },
+        {
+            "type": "text",
+            "data": "\"Test\" you code."
+        },
+        {
+            "type": "text",
+            "data": "Always go back and look at your cabinet in 3D (at the Assembly Level) and see if it still looks OK."
+        },
+        {
+            "type": "text",
+            "data": "Always go back and look at your cabinet in 3D (at the Assembly Level) and see if it still looks OK."
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\Parametric_Editing\\Intelligence_Workshop\\3rd_Exercise\\Third_Exercise_Formula_for_the_DY_(Length).htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

@@ -1,0 +1,33 @@
+{
+    "id": "19a862fa-8946-45f4-9b63-d5638240be75",
+    "title": "zBoard@3_Answer_DY",
+    "content": [
+        {
+            "type": "text",
+            "data": "Board@3 Answer DY"
+        },
+        {
+            "type": "text",
+            "data": "The length of the part is related to"
+        },
+        {
+            "type": "text",
+            "data": "the depth of the cabinet. If the depth"
+        },
+        {
+            "type": "text",
+            "data": "of the cabinet changes, we want the"
+        },
+        {
+            "type": "text",
+            "data": "length of the part to change. Therefore,"
+        },
+        {
+            "type": "text",
+            "data": "we need a formula."
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\Parametric_Editing\\Intelligence_Workshop\\5th_Exercise\\zBoard@3_Answer_DY.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

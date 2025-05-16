@@ -1,0 +1,249 @@
+{
+    "id": "931be44f-e76f-4989-892a-eaefedbbe813",
+    "title": "S2M_Part_List",
+    "content": [
+        {
+            "type": "text",
+            "data": "S2M Part List"
+        },
+        {
+            "type": "text",
+            "data": "To use the S2M Part List CAD Import Link you will need to get the Import Link License added to your License by from your local S2M CENTER supplier."
+        },
+        {
+            "type": "text",
+            "data": "If you are using a 3rd Party CAD Application, other than those predefined for the S2M CENTER, to create the DXF files you want to process then the S2M Part List is the Scheme you need to have selected prior to importing DXF files."
+        },
+        {
+            "type": "image",
+            "data": "image274.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "When you output your DXF's from your CAD Application you can make the Batch Import of these DXF's more seamless by creating a CncRun.txt file (See the Creating an S2M Part List topic for more information). Simply change the File Type in the\n    Open Dialog to S2M Part List (CncRun.txt)."
+        },
+        {
+            "type": "image",
+            "data": "image275.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "S2M Part List  CncRun.txt File Structure"
+        },
+        {
+            "type": "text",
+            "data": "F ollowing is the format for the S2M Part List text file."
+        },
+        {
+            "type": "text",
+            "data": "Typical Header Layout"
+        },
+        {
+            "type": "text",
+            "data": "^Job : Test Job 1"
+        },
+        {
+            "type": "text",
+            "data": "^Description: My First Test Job"
+        },
+        {
+            "type": "text",
+            "data": "^Date: 08-18-2010 (01:03 PM)"
+        },
+        {
+            "type": "text",
+            "data": "^Parts: 5"
+        },
+        {
+            "type": "text",
+            "data": "^Unit: IN"
+        },
+        {
+            "type": "text",
+            "data": "Banding , E , Oak EB , Honey , .01"
+        },
+        {
+            "type": "text",
+            "data": "The Banding listing is only necessary for defining Banding coming from Cabinet Vision if you are mixing an Imported List of files with existing Cabinet\n    Vision Parts. This section is no longer part of the S2M Part List Creator application and would need to be added manually. The S2M Part List Creator only defines S2M CENTER Material Catalog Banding through  Banding Indicators ."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Header Layout Field Contents"
+        },
+        {
+            "type": "text",
+            "data": "Job: Text"
+        },
+        {
+            "type": "text",
+            "data": "Description :Text"
+        },
+        {
+            "type": "text",
+            "data": "Date: Date"
+        },
+        {
+            "type": "text",
+            "data": "Parts: Indicates Number of Part Line Items in the File"
+        },
+        {
+            "type": "text",
+            "data": "Unit: Can be either IN (Inches) or MM (Metric)"
+        },
+        {
+            "type": "text",
+            "data": "1 Banding  (the word \"Banding\" must be the first field when defining Banding)"
+        },
+        {
+            "type": "text",
+            "data": "2 Banding Code  (A single letter code you use to identify the Edgeband used to build the Banding Flag described below)"
+        },
+        {
+            "type": "text",
+            "data": "3 Banding Material"
+        },
+        {
+            "type": "text",
+            "data": "4 Banding Color"
+        },
+        {
+            "type": "text",
+            "data": "5 Banding Thickness"
+        },
+        {
+            "type": "text",
+            "data": "Typical Part Entry"
+        },
+        {
+            "type": "text",
+            "data": "LeftEnd.dxf ,  End Left ,  12 ,  30 ,  0.75 ,  3/4 Melamine ,\n     1 ,  1 ,  0 ,  b ,  0 , EEEE ,\n     1 , .5 , .5"
+        },
+        {
+            "type": "text",
+            "data": "Part Entry Field Contents"
+        },
+        {
+            "type": "text",
+            "data": "1 DXF filename"
+        },
+        {
+            "type": "text",
+            "data": "2 Part description"
+        },
+        {
+            "type": "text",
+            "data": "3 Part width  (x)"
+        },
+        {
+            "type": "text",
+            "data": "4 Part length  (y)"
+        },
+        {
+            "type": "text",
+            "data": "5 Part thickness  (z)"
+        },
+        {
+            "type": "text",
+            "data": "6 Part material name"
+        },
+        {
+            "type": "text",
+            "data": "7 Cabinet or unit number"
+        },
+        {
+            "type": "text",
+            "data": "8 Quantity to be generated"
+        },
+        {
+            "type": "text",
+            "data": "9 Grain flag  (0=no, can rotate, 1=yes, cannot rotate)"
+        },
+        {
+            "type": "text",
+            "data": "The Grain flag is by Material which means a Grain and Non-Grained Material must exist and be assigned for Parts where this setting is different."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "10 Face Identifier  (b=Back Face f=Front Face)"
+        },
+        {
+            "type": "text",
+            "data": "11 Face Dependency  (0=non face dependent, 1=face dependent)"
+        },
+        {
+            "type": "text",
+            "data": "12 Banding Flag  (Optional field containing the banding indicators for each edge.)"
+        },
+        {
+            "type": "text",
+            "data": "See the  Banding Flag  section of the Designing Label-IT\n    Labels topic for more information."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "13 Grain Match Group  (Leave at 0 (or blank) if not grain matched. This number can begin at an index of 1.)"
+        },
+        {
+            "type": "text",
+            "data": "When imported this number may be modified so it doesnt conflict with any parts that already have a grain match group."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "14 Grain Match Position X  (Establishes the X Position of the Part within the Grain Match Group)"
+        },
+        {
+            "type": "text",
+            "data": "This field is required to have a valid value if Grain Match Group has a number greater than 0."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "15 Grain Match Position Y  (Establishes the Y Position of the Part within the Grain Match Group)"
+        },
+        {
+            "type": "text",
+            "data": "This field is required to have a valid value if Grain Match Group has a number greater than 0."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Importing Parts with no DXF File"
+        },
+        {
+            "type": "text",
+            "data": "The CAD Import routine does not require a DXF file too import a part. If no DXF file is specified it will assume the part has no operations and will import it as a rectangle."
+        }
+    ],
+    "source_file": "NCEnglish\\Ribbonbar\\Main_Tab\\Import_DXF\\Other_CAD_Importers\\S2M_Part_List\\S2M_Part_List.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

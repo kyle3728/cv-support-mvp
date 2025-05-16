@@ -1,0 +1,21 @@
+{
+    "id": "8fe7730b-3463-48b5-a043-00817545d6fc",
+    "title": "Casadei_CN04",
+    "content": [
+        {
+            "type": "text",
+            "data": "Casadei CN04"
+        },
+        {
+            "type": "text",
+            "data": "This is a  Panel Saw  Link."
+        },
+        {
+            "type": "text",
+            "data": "This link is for the Casadei rear loading beam saw for CN04 and similar controllers."
+        }
+    ],
+    "source_file": "NCEnglish_Optimizer\\Ribbonbar\\Main_Tab\\Machine\\NC_Links\\Saw_Links\\Casadei_CN04.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

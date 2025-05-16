@@ -1,0 +1,25 @@
+{
+    "id": "1127db40-6a53-4387-a44a-e39a04e3aa2a",
+    "title": "Solid_Wood_Door",
+    "content": [
+        {
+            "type": "text",
+            "data": "Creating a Solid Wood Door"
+        },
+        {
+            "type": "text",
+            "data": "Follow the steps for creating a \" Plywood Door \" just make sure to change the panel type to \"Raised Panel\" and to use a Material Schedule that has solid wood selected for the \"Raised Panel\". \u00a0If you want the grain on the wood to run left and right instead of up and down click on the panel at the Construction tab and check \"Horizontal Grain\"."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Plywood Door",
+                "uuid": "5eaa63d4-3483-49c7-9fac-1254c23893d0",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Tips_Tricks_&_FAQs\\The_Door_Catalog\\Sample_Door_Types\\Solid_Wood_Door.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

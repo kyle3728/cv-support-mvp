@@ -1,0 +1,114 @@
+{
+    "id": "ef203b70-f9ec-4c09-84f8-9534ce5eabcf",
+    "title": "SLMSM_Wire_Baskets",
+    "content": [
+        {
+            "type": "text",
+            "data": "Wire Basket"
+        },
+        {
+            "type": "image",
+            "data": "SolidDrafterforClosets.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "AllClosets.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Wire Basket Material Schedule allows selecting Wire Baskets with different overall sizes for different applications in your Assemblies."
+        },
+        {
+            "type": "image",
+            "data": "SLMSM_Wire_Baskets.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Sidebar/Properties"
+        },
+        {
+            "type": "text",
+            "data": "The following Properties are available for Wire Baskets:"
+        },
+        {
+            "type": "text",
+            "data": "ID -  The ID number for the selected Material Schedule."
+        },
+        {
+            "type": "text",
+            "data": "Name -  The Name of the selected Material Schedule."
+        },
+        {
+            "type": "text",
+            "data": "Description -  The Description of the selected Material Schedule."
+        },
+        {
+            "type": "text",
+            "data": "Upcharge -  The \"Upcharge\" value will only be added in a Rate Table that uses the  Bid Method  \" Use Part Catalog Pricing \". This value is a Percentage Upcharge you charge above your Standard Part Catalog Price as entered in the  Part Manager  when this Material Schedule is in use."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Bid Method",
+                "uuid": "4a3d36f8-0f2e-45c7-856e-38dabd76074d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Use Part Catalog Pricing",
+                "uuid": "4a3d36f8-0f2e-45c7-856e-38dabd76074d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Part Manager",
+                "uuid": "f4a43f08-b40b-442c-8f03-a96c2a64640f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Multi-Size Wire Basket Schedule"
+        },
+        {
+            "type": "text",
+            "data": "The logic built in to Solid will find the optimal size Wire Basket from your Wire Basket Schedule to fit in the Opening that a Wire Basket from the Schedule is placed in. Follow the following steps to setup the Wire Basket Schedule:"
+        },
+        {
+            "type": "text",
+            "data": "First , make sure that the parent (the line that is labeled Wire Baskets) is highlighted."
+        },
+        {
+            "type": "text",
+            "data": "Next , browse in the Material List to find the Wire Basket you would like to add and click the assign   button."
+        },
+        {
+            "type": "image",
+            "data": "image3721.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "You can also use drag & drop to add new Wire Basket Materials."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Then , continue adding new Wire Baskets until you have complete coverage for your needs."
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\SLMSM_Wire_Baskets.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

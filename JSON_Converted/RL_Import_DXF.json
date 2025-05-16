@@ -1,0 +1,487 @@
+{
+    "id": "23a719d6-57fa-4339-a38c-6354d69e40da",
+    "title": "RL_Import_DXF",
+    "content": [
+        {
+            "type": "text",
+            "data": "Import DXF"
+        },
+        {
+            "type": "image",
+            "data": "image1608.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "1AUALL.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Objects Imported with this method are not machinable and are only useful as visual representations inside CABINET VISION."
+        },
+        {
+            "type": "image",
+            "data": "Warning.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "If you are accessing the Import DXF option from the CAD area see the  CAD Import DXF  topic."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "CAD Import DXF",
+                "uuid": "b2e0e61a-3db8-4e05-86e8-8de0e1729d3d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "See the bottom of this topic for information on  format requirements for 3D DXF's ."
+        },
+        {
+            "type": "text",
+            "data": "Find the .DXF file that you want to import, click on that file and then click Open."
+        },
+        {
+            "type": "image",
+            "data": "Browse_DXF_Import.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This will bring your 3D DXF into the DXF Import window."
+        },
+        {
+            "type": "image",
+            "data": "image5637.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "DXF Import Options"
+        },
+        {
+            "type": "text",
+            "data": "Following are the options in the DXF Import area:"
+        },
+        {
+            "type": "text",
+            "data": "Browse and Select -  The Browse and Select button brings up the Windows Browse window that allows you to select the DXF you would like to import. \n \n \n  Import -  The Import button will Import the DXF selected by the Browse and Select button."
+        },
+        {
+            "type": "text",
+            "data": "Browse and Select -  The Browse and Select button brings up the Windows Browse window that allows you to select the DXF you would like to import."
+        },
+        {
+            "type": "text",
+            "data": "Browse and Select -  The Browse and Select button brings up the Windows Browse window that allows you to select the DXF you would like to import."
+        },
+        {
+            "type": "image",
+            "data": "image1612.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Import -  The Import button will Import the DXF selected by the Browse and Select button."
+        },
+        {
+            "type": "text",
+            "data": "Import -  The Import button will Import the DXF selected by the Browse and Select button."
+        },
+        {
+            "type": "image",
+            "data": "image1613.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "If nothing happens when you click the Import button then that signifies that the DXF does not meet the criteria required by CABINET VISION. See the bottom of this topic for information on  format requirements for 3D DXF's ."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Line Mode -  Displays the Imported DXF Part in wire frame. This is the default Preview Window view. As illustrated below."
+        },
+        {
+            "type": "text",
+            "data": "Line Mode -  Displays the Imported DXF Part in wire frame. This is the default Preview Window view. As illustrated below."
+        },
+        {
+            "type": "text",
+            "data": "Line Mode -  Displays the Imported DXF Part in wire frame. This is the default Preview Window view. As illustrated below."
+        },
+        {
+            "type": "image",
+            "data": "image1614.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image5638.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Fill Mode -  Displays the Imported DXF Part with the selected Part Types Finish (Exterior or Interior). As illustrated below."
+        },
+        {
+            "type": "text",
+            "data": "Fill Mode -  Displays the Imported DXF Part with the selected Part Types Finish (Exterior or Interior). As illustrated below."
+        },
+        {
+            "type": "text",
+            "data": "Fill Mode -  Displays the Imported DXF Part with the selected Part Types Finish (Exterior or Interior). As illustrated below."
+        },
+        {
+            "type": "image",
+            "data": "image1615.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image5639.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Solid Render Mode -  Displays the Imported DXF Part with the selected Part Types Finish and Texture. As illustrated below."
+        },
+        {
+            "type": "text",
+            "data": "Solid Render Mode -  Displays the Imported DXF Part with the selected Part Types Finish and Texture. As illustrated below."
+        },
+        {
+            "type": "text",
+            "data": "Solid Render Mode -  Displays the Imported DXF Part with the selected Part Types Finish and Texture. As illustrated below."
+        },
+        {
+            "type": "image",
+            "data": "image1616.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image5640.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Flip X -  Will Flip the Imported DXF 90 degrees along the X axis. \n \n \n  Flip Y -  Will Flip the Imported DXF 90 degrees along the Y axis. \n \n \n  Flip Z -  Will Flip the Imported DXF 90 degrees along the Z axis. \n \n \n  Scale -  Allows you to Scale the size of the Imported DXF. It is typically a good idea to create the DXF the size you will be using it. However, if that is not possible you can use this option to Scale the Imported Part to the value you enter in the box below it. \n \n \n  Type -  Allows you to select the CABINET VISION Part Type to associate the Imported Part to. \n \n \n  Texture Map -  This option allows you to specify how  Textures  are applied to the Imported Part. There are seven possible map types. They are demonstrated in the images below."
+        },
+        {
+            "type": "text",
+            "data": "Flip X -  Will Flip the Imported DXF 90 degrees along the X axis."
+        },
+        {
+            "type": "text",
+            "data": "Flip X -  Will Flip the Imported DXF 90 degrees along the X axis."
+        },
+        {
+            "type": "image",
+            "data": "image1617.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Flip Y -  Will Flip the Imported DXF 90 degrees along the Y axis."
+        },
+        {
+            "type": "text",
+            "data": "Flip Y -  Will Flip the Imported DXF 90 degrees along the Y axis."
+        },
+        {
+            "type": "image",
+            "data": "image1618.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Flip Z -  Will Flip the Imported DXF 90 degrees along the Z axis."
+        },
+        {
+            "type": "text",
+            "data": "Flip Z -  Will Flip the Imported DXF 90 degrees along the Z axis."
+        },
+        {
+            "type": "image",
+            "data": "image1619.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Scale -  Allows you to Scale the size of the Imported DXF. It is typically a good idea to create the DXF the size you will be using it. However, if that is not possible you can use this option to Scale the Imported Part to the value you enter in the box below it."
+        },
+        {
+            "type": "text",
+            "data": "Scale -  Allows you to Scale the size of the Imported DXF. It is typically a good idea to create the DXF the size you will be using it. However, if that is not possible you can use this option to Scale the Imported Part to the value you enter in the box below it."
+        },
+        {
+            "type": "image",
+            "data": "image1620.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Type -  Allows you to select the CABINET VISION Part Type to associate the Imported Part to."
+        },
+        {
+            "type": "text",
+            "data": "Type -  Allows you to select the CABINET VISION Part Type to associate the Imported Part to."
+        },
+        {
+            "type": "image",
+            "data": "image1621.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Texture Map -  This option allows you to specify how  Textures  are applied to the Imported Part. There are seven possible map types. They are demonstrated in the images below."
+        },
+        {
+            "type": "text",
+            "data": "Texture Map -  This option allows you to specify how  Textures  are applied to the Imported Part. There are seven possible map types. They are demonstrated in the images below."
+        },
+        {
+            "type": "image",
+            "data": "image1622.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Textures",
+                "uuid": "5b219bde-9151-423b-829c-071f7a823888",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image1623.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Arbitrary"
+        },
+        {
+            "type": "image",
+            "data": "image907.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "AutoAxis"
+        },
+        {
+            "type": "image",
+            "data": "image901.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Cylindrical"
+        },
+        {
+            "type": "image",
+            "data": "image902.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Local Auto Axis"
+        },
+        {
+            "type": "image",
+            "data": "image901.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Spherical"
+        },
+        {
+            "type": "image",
+            "data": "image903.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "X Plane"
+        },
+        {
+            "type": "image",
+            "data": "image904.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Y Plane"
+        },
+        {
+            "type": "image",
+            "data": "image905.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Z Plane"
+        },
+        {
+            "type": "image",
+            "data": "image908.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Smooth Surface -  This option will smooth the surface of some DXF Parts. The Sphere below demonstrates this functionality."
+        },
+        {
+            "type": "text",
+            "data": "Smooth Surface -  This option will smooth the surface of some DXF Parts. The Sphere below demonstrates this functionality."
+        },
+        {
+            "type": "text",
+            "data": "Smooth Surface -  This option will smooth the surface of some DXF Parts. The Sphere below demonstrates this functionality."
+        },
+        {
+            "type": "image",
+            "data": "image1624.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Smoothing Off  \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 Smoothing On"
+        },
+        {
+            "type": "image",
+            "data": "image909.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image472.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Single Sided Faces -  Some applications used to create 3D DXF's will output them with single sided faces. If your DXF appears distorted or vague in the Preview window this option maybe required. \n \n \n  Reverse Faces -  This option becomes available and may be necessary when Importing Single Side Face DXF's."
+        },
+        {
+            "type": "text",
+            "data": "Single Sided Faces -  Some applications used to create 3D DXF's will output them with single sided faces. If your DXF appears distorted or vague in the Preview window this option maybe required."
+        },
+        {
+            "type": "text",
+            "data": "Single Sided Faces -  Some applications used to create 3D DXF's will output them with single sided faces. If your DXF appears distorted or vague in the Preview window this option maybe required."
+        },
+        {
+            "type": "image",
+            "data": "image1625.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Reverse Faces -  This option becomes available and may be necessary when Importing Single Side Face DXF's."
+        },
+        {
+            "type": "text",
+            "data": "Reverse Faces -  This option becomes available and may be necessary when Importing Single Side Face DXF's."
+        },
+        {
+            "type": "image",
+            "data": "image1626.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "3D DXF Rules for Import"
+        },
+        {
+            "type": "text",
+            "data": "CABINET VISION\u00a0imports AutoCAD Release 12 and 13 DXF\u2019s. Most other CAD and modeling programs should work just fine as long as they generate polygon based DXF models. Any non-polygon information within the file (lines, arcs, text, blocks, etc\u2026) is ignored. \u00a0While there haven't been any reported problems so far, AutoCAD R14 does have the option to export Release 12 and 13 DXF\u2019s."
+        },
+        {
+            "type": "text",
+            "data": "Object Types"
+        },
+        {
+            "type": "text",
+            "data": "The main compatibility problem with importing DXF\u2019s into CABINET VISION is that the DXF file specification has several ways to describe polygon-based models."
+        },
+        {
+            "type": "text",
+            "data": "Polyface Mesh"
+        },
+        {
+            "type": "text",
+            "data": "This object type defines a group of polygons as a single object. \u00a0This kind of polygon model can be easily imported to CABINET VISION."
+        },
+        {
+            "type": "text",
+            "data": "3D Face"
+        },
+        {
+            "type": "text",
+            "data": "This defines each polygon as a separate object. These import into CABINET VISION as well."
+        },
+        {
+            "type": "text",
+            "data": "3D Mesh"
+        },
+        {
+            "type": "text",
+            "data": "Similar, but internally very different, to Polyface Meshes, this type of polygon object can't be directly imported into CABINET VISION. Fortunately, most DXF models exported out of other modeling programs usually produce either Polyface Mesh or 3D Face models. The one huge exception to this is AutoCAD itself: most of their polygons modeling tools create 3D Mesh objects. In AutoCAD, it is possible to convert 3D Mesh objects to 3D Face by using the \"Explode\" command."
+        },
+        {
+            "type": "text",
+            "data": "Materials"
+        },
+        {
+            "type": "text",
+            "data": "The other major compatibility issue is how the DXF file specification indicates what materials go on each object. There are three basic ways: by object, by layer, and by color. Models that can be imported into Solid must have unique materials distinguished BY LAYER. In the CABINET VISION import dialog, what you are seeing is not individual objects but a list of all the layers within the model. Multiple objects that use the same material are on the same layer. The majority of existing models distinguish materials by layer, but some use the other methods. In fact, it is not uncommon for models to use combinations. For instance, a model may have multiple objects on a single layer, each with a different color. CABINET VISION would import such a model with all objects being the same material: the color information is ignored."
+        },
+        {
+            "type": "text",
+            "data": "The 3DS conversion technique described below can be used to convert these to layer based models. In step 2, instead of deriving 3DS objects BY LAYER, select BY OBJECT, or BY COLOR, as appropriate. It may require some trial and error to find what works best. If all else fails, AutoCAD provides many tools for manually editing objects, colors, and layers."
+        },
+        {
+            "type": "text",
+            "data": "Solids"
+        },
+        {
+            "type": "text",
+            "data": "Another common way to create models in AutoCAD and other programs is as \"solids\". While similar appearing, solid models are very different from polygon models. Solid cannot import AutoCAD or other types of solids directly. Your program must be able to convert the solid models into polygon models. In AutoCAD this can be done by using the 3DS conversion technique described below. The 3DS filter automatically converts solids into polygons."
+        },
+        {
+            "type": "text",
+            "data": "3DS Conversion Technique:"
+        },
+        {
+            "type": "text",
+            "data": "Load a DXF or DWG model into AutoCAD."
+        },
+        {
+            "type": "text",
+            "data": "Export the model as a 3D Studio (3ds) model. When AutoCAD prompts for it, check the box to derive 3DS objects BY LAYER, all other settings default."
+        },
+        {
+            "type": "text",
+            "data": "Clear out the current model and re-import the 3DS model back into AutoCAD. When prompted, set \u201dr;Available Materials\u201d to ADD ALL, \"Save to Layer\" should be set to BY OBJECT, other settings should be default. The imported model will imported as a Polyface Mesh."
+        },
+        {
+            "type": "text",
+            "data": "Now export it as a DXF."
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\RL_Import_DXF.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

@@ -1,0 +1,157 @@
+{
+    "id": "53b6e76f-f5d9-4b82-891e-70c58ff2cae0",
+    "title": "conn_Unfinished_Back",
+    "content": [
+        {
+            "type": "text",
+            "data": "Unfinished Back"
+        },
+        {
+            "type": "text",
+            "data": "This is where you configure the scenarios where an Unfinished Back Connects to Parts."
+        },
+        {
+            "type": "image",
+            "data": "image475.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The following diagram\u00a0show the Connections available for the Unfinished Back. Click a specific option in the diagram for more information or continue through this topic for information on all the options."
+        },
+        {
+            "type": "image",
+            "data": "image705.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Unfinished Back - Top (Standard #782)"
+        },
+        {
+            "type": "image",
+            "data": "image706.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Unfinished Back - Top (Standard #693)"
+        },
+        {
+            "type": "image",
+            "data": "image707.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Nailer - Top (Standard #703)"
+        },
+        {
+            "type": "image",
+            "data": "image708.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Unfinished Back - Deck (Standard #783)"
+        },
+        {
+            "type": "image",
+            "data": "image709.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Unfinished Back - Deck (Standard #696)"
+        },
+        {
+            "type": "image",
+            "data": "image710.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Deck - Nailer (Standard #784)"
+        },
+        {
+            "type": "image",
+            "data": "image711.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Unfinished Back - Finished End (Standard #699)"
+        },
+        {
+            "type": "image",
+            "data": "image712.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Unfinished Back - Unfinished End (Standard #709)"
+        },
+        {
+            "type": "image",
+            "data": "image713.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Unfinished Back - Applied End (Standard #787)"
+        },
+        {
+            "type": "image",
+            "data": "image714.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Unfinished Back - Applied End (Standard #790)"
+        },
+        {
+            "type": "image",
+            "data": "image715.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Unfinished Back -\u00a0Sub End (Standard #710)"
+        },
+        {
+            "type": "image",
+            "data": "image716.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Unfinished Back - Partition (Standard #713)"
+        },
+        {
+            "type": "image",
+            "data": "image717.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Unfinished Back - Divider (Standard #712)"
+        },
+        {
+            "type": "image",
+            "data": "image718.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Unfinished Back - Fixed Shelf (Standard #714)"
+        },
+        {
+            "type": "image",
+            "data": "image719.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\System_Level\\Ribbonbar\\Main_Tab\\Construction_Group\\Assembly_Manager\\Assembly\\Branches\\Connection\\conn_Unfinished_Back.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

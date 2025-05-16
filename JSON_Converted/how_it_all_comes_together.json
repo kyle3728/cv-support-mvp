@@ -1,0 +1,79 @@
+{
+    "id": "1359cb76-61c8-44c2-9eba-b177be938e2c",
+    "title": "how_it_all_comes_together",
+    "content": [
+        {
+            "type": "text",
+            "data": "How It All Comes Together"
+        },
+        {
+            "type": "text",
+            "data": "The core of Solid is setup in levels. The levels of Solid are in yellow below:"
+        },
+        {
+            "type": "image",
+            "data": "image15.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "When starting a Job, Solid copies the System Files into the Job Level and they become part of the Job file. Changes made at any level of a Job will only affect that level and will have no effect on System Level settings, unless you wish them to. Changes made in one Job will not affect any other Job. Changes made in one Room will have no affect on any other Room. And finally changes made to one Assembly will have no affect on any other Assembly."
+        },
+        {
+            "type": "text",
+            "data": "When Solid looks for instructions on building your Assembly it starts at the lowest level and works its way up. When Solid finds the instruction(s) it is looking for it stops and does not look any higher. If changes are made to an Assembly and then changes are made at the Room Level all Assemblies in the Room will use the Room level changes  except  the Assembly that had changes made at the Assembly Level."
+        },
+        {
+            "type": "text",
+            "data": "Example: If the Doors for one Assembly were changed, at the Assembly Level, and then the Doors for the Room were changed, at the Room Level, to a different Door Style, all Assemblies in the Room would use the Room Level Door changes, except for the Assembly that had its Door Style changed at the Assembly Level."
+        },
+        {
+            "type": "text",
+            "data": "The System Level"
+        },
+        {
+            "type": "image",
+            "data": "image16.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The key to successfully using Solid is proper setup of the System level properties. System level properties control the way Assemblies are constructed and the Materials and Hardware those Assemblies utilize. To setup Solid, the first place to start is setting up your  Parts  and  Materials ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Parts",
+                "uuid": "f4a43f08-b40b-442c-8f03-a96c2a64640f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Materials",
+                "uuid": "2fed939d-ba55-4f35-94da-993f0e1b392e",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "The Hierarchy of Solid"
+        },
+        {
+            "type": "text",
+            "data": "A topic that is related to the Hierarchy of Solid is the concept of Global and Local when referencing the reach of information within your system. These concepts are important enough that they are mentioned in many places as they apply to a particular subject."
+        },
+        {
+            "type": "text",
+            "data": "Applying these concepts to the hierarchy of Solid might be explained using a map of the United States. We have a map of the entire country, which has 48 contiguous states. Those states have multiple counties composed of multiple cities. Those cities probably have subdivisions, etc. That Country, State, County, etc. organization would be the hierarchy of the country. Now, if a change is made to a Global law, say a law covering the entire United States, it applies to all the lesser divisions below it, even the lowest subdivisions."
+        },
+        {
+            "type": "text",
+            "data": "Let's assume King County, in California passes a law outlawing raising cattle. That would be a local law, and it would have no reach to a neighboring county, another state, etc. However it would effect the cities within it. \u00a0If you look at the United States as the Global portion of Solid, and a State as the Job portion of Solid, and the entering of data in your databases as the equivalent to the laws in the above example, then the Global, or Local reach within the hierarchy. A Setup modification made to your databases, (wizard, schedules, etc) would have maximum reach over all future Jobs. Those changes would not be required of existing Jobs. However, if they were such great changes that the existing Jobs would benefit from them, then those changes can be  IMPORTED  into Solid. If on the other hand, something less than a State, say a County in our example, then we would need to do so without effecting other neighboring counties. A county here would be like a Room in Solid. The ability to freely change Rooms to be different from other Rooms, in Material and Construction is necessary for those instances when you have an oak kitchen, with a cherry dining room, with a plastic laminate laundry room, and melamine garage cabinets in the same Job. By organizing each of these portions of the project into the appropriate Room, you have guaranteed that the Material, the Construction, the hardware, the counter tops, etc are unique and particular to that area."
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Introduction\\Getting_Started\\how_it_all_comes_together.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

@@ -1,0 +1,71 @@
+{
+    "id": "cfe6e251-e2fd-40a2-b556-1bc30f4c8b6c",
+    "title": "Multiple_Faces",
+    "content": [
+        {
+            "type": "text",
+            "data": "Multiple Faces"
+        },
+        {
+            "type": "text",
+            "data": "It is quite simple to add additional faces to an Assembly using the side selector in the Section Editor. The side selector appears in the sidebar of the Section Editor when no Parts of the Assembly have been selected (NOTE: The side selector is not\n    available when you are editing in one of the orthographic views). If you do not see the side selector, simply click somewhere outside of the Assembly itself in the white space that surrounds it."
+        },
+        {
+            "type": "image",
+            "data": "image1146.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The side selector represents a plan type view of the Assembly that you are editing and the current side appears as a red line. The other sides of the Assembly appear as dotted lines. To edit one of the other sides of the Assembly, simply click on that\n    side in the side selector and you will see that the Section Editor will then show that side and it will also appear as a red line in the side selector. Notice that in the screen below I have clicked on the right side of the Assembly in the side selector\n    and so that side appears in the Section Editor. Also notice that the right side in the side selector is now appearing in red."
+        },
+        {
+            "type": "image",
+            "data": "image1147.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image1148.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "You now have the option to choose any end type for the selected side of the Assembly."
+        },
+        {
+            "type": "text",
+            "data": "When you want to change an existing end to a face, simply click the Face radio button under Side Types (see below)."
+        },
+        {
+            "type": "image",
+            "data": "image1149.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "When you have more than one face on an Assembly, the side selector will show a number next to each face. This number is the priority ranking of that face. The face priority controls how the internal parts of the Assembly react to each other."
+        },
+        {
+            "type": "text",
+            "data": "For example: A partition that is placed in the face with priority of 1 (the Highest Priority) will go through the entire Assembly while the Partition placed from the face with priority of 2 will end when it comes in contact with the priority 1 Partition.\n    Below is a view looking down into an Assembly with 2 faces with a Partition in each face. Notice the way that the Partitions meet due to the face priorities."
+        },
+        {
+            "type": "image",
+            "data": "image653.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "And below is the same Assembly with the face priorities switched...."
+        },
+        {
+            "type": "image",
+            "data": "image654.gif",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\The_Section_Editor\\Multiple_Faces.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

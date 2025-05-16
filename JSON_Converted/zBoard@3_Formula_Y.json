@@ -1,0 +1,29 @@
+{
+    "id": "2a430287-7e9a-436b-be45-8b2fba805b7a",
+    "title": "zBoard@3_Formula_Y",
+    "content": [
+        {
+            "type": "text",
+            "data": "Board@3 Formula Y"
+        },
+        {
+            "type": "text",
+            "data": "You have already changed the"
+        },
+        {
+            "type": "text",
+            "data": "value of board@3.Y to .5\" by"
+        },
+        {
+            "type": "text",
+            "data": "clicking on the Y and selecting"
+        },
+        {
+            "type": "text",
+            "data": "edit."
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\Parametric_Editing\\Intelligence_Workshop\\5th_Exercise\\zBoard@3_Formula_Y.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

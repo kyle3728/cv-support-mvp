@@ -1,0 +1,57 @@
+{
+    "id": "65bfe638-1a97-4d4b-853f-b07f359bf5d1",
+    "title": "Assign_a_Specific_Outline_Tool_to_a_Material",
+    "content": [
+        {
+            "type": "text",
+            "data": "Assign a Specific Outline Tool to a Material"
+        },
+        {
+            "type": "text",
+            "data": "I need to run a specific Outline Tool on a certain Material and the Tool is not my default Outline Tool. How do I do this?"
+        },
+        {
+            "type": "text",
+            "data": "This can be handled easily via a UCS. Lets say you wanted to use your 3/8 compression bit which is not your Outline Tool to always cut out your 1/4 Unfinished Backs. The first thing you need to do is identify the 3/8 Compression Tools Tool ID Number.\n    The Tool ID# is in a grayed out field in your Tool Catalog. Once you have this number lets say its 13 then your UCS would look like this:"
+        },
+        {
+            "type": "text",
+            "data": ";Make the 3/8 Compression the Unfinished Back Outline Tool"
+        },
+        {
+            "type": "text",
+            "data": "For Each  UB Part"
+        },
+        {
+            "type": "text",
+            "data": "TOOLID  =  13"
+        },
+        {
+            "type": "text",
+            "data": "If your Unfinished Backs, depending on selected Material Schedule, could be also made out of 3/4\" Material that you would want to use your default Outline Tool on. You could add an additional Material filter to the UCS. First you will need to get\n    the Material ID# for your 1/4\" Material from the Material Manager. Then write your UCS like this:"
+        },
+        {
+            "type": "text",
+            "data": ";Make the 3/8 Compression the Unfinished Back Outline Tool"
+        },
+        {
+            "type": "text",
+            "data": "For Each  UB Part"
+        },
+        {
+            "type": "text",
+            "data": "If  _M:MatID  =  123  Then"
+        },
+        {
+            "type": "text",
+            "data": "TOOLID       =  13"
+        },
+        {
+            "type": "text",
+            "data": "End If"
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\FAQs\\HDI-CNC\\Assign_a_Specific_Outline_Tool_to_a_Material.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

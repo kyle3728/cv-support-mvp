@@ -1,0 +1,83 @@
+{
+    "id": "09995bfc-4023-4464-a3cd-7cd1773af6ce",
+    "title": "Pattern_Navigation",
+    "content": [
+        {
+            "type": "text",
+            "data": "Pattern Navigation Option"
+        },
+        {
+            "type": "image",
+            "data": "image1172.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "First Page"
+        },
+        {
+            "type": "image",
+            "data": "image1173.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Clicking the First Page option will display the first Pattern the Pattern View."
+        },
+        {
+            "type": "text",
+            "data": "Previous Page"
+        },
+        {
+            "type": "image",
+            "data": "image1174.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Clicking the Previous Page option will display the previous Pattern the Pattern View."
+        },
+        {
+            "type": "text",
+            "data": "Current Page Display"
+        },
+        {
+            "type": "image",
+            "data": "image1175.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Current Page Display option displays the current Pattern as well as the total number of patterns in the selected group (material). Clicking in here and changing the first number will allow you to type a specific Pattern number to navigate to."
+        },
+        {
+            "type": "text",
+            "data": "Next Page"
+        },
+        {
+            "type": "image",
+            "data": "image1176.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Clicking the Next Page tool will display the next Pattern in the Pattern View."
+        },
+        {
+            "type": "text",
+            "data": "Last Page"
+        },
+        {
+            "type": "image",
+            "data": "image1177.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Clicking the Last Page tool will display the last Pattern in the Pattern View."
+        }
+    ],
+    "source_file": "NCEnglish_Optimizer\\Ribbonbar\\Main_Tab\\Pattern_Navigation.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

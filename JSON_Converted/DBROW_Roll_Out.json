@@ -1,0 +1,380 @@
+{
+    "id": "700c1d26-7e9f-49f8-985b-58f2d5af9d27",
+    "title": "DBROW_Roll_Out",
+    "content": [
+        {
+            "type": "text",
+            "data": "Roll Out"
+        },
+        {
+            "type": "text",
+            "data": "The Roll Out Construction Style has the following objects."
+        },
+        {
+            "type": "image",
+            "data": "image1358.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Click the Object names below for more information"
+        },
+        {
+            "type": "text",
+            "data": "General"
+        },
+        {
+            "type": "text",
+            "data": "Bottom"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Bottom",
+                "uuid": "c08b0bf8-4db3-4419-a3d0-414780a15cd7",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Back"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Back",
+                "uuid": "c08b0bf8-4db3-4419-a3d0-414780a15cd7",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Roll Out Front"
+        },
+        {
+            "type": "text",
+            "data": "Side"
+        },
+        {
+            "type": "text",
+            "data": "Partition"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Partition",
+                "uuid": "c08b0bf8-4db3-4419-a3d0-414780a15cd7",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Divider"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Divider",
+                "uuid": "c08b0bf8-4db3-4419-a3d0-414780a15cd7",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Box Connection"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Box Connection",
+                "uuid": "c08b0bf8-4db3-4419-a3d0-414780a15cd7",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "General"
+        },
+        {
+            "type": "text",
+            "data": "The following diagram shows the options available in the General object. Click a specific option in the diagram for more information or continue through this topic for information on all Objects and options."
+        },
+        {
+            "type": "image",
+            "data": "image803.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Roll Out Height Specifications (Standard #3)"
+        },
+        {
+            "type": "text",
+            "data": "Because the Height of the Roll Out cannot be controlled by the opening size, there is only one box to be filled out for the Height of the Roll Out. Enter the most common height for a Roll Out in this area. Then, if a specific Roll Out needs to be a different Height, it can be changed in the  Section Editor ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Section Editor",
+                "uuid": "a2e00542-f792-4b94-8de1-73305a59d475",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image804.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Roll Out Set Back (Standard #117)"
+        },
+        {
+            "type": "text",
+            "data": "Use this option to establish a Set Back dimension to set the Roll Out back from the the Face of the Assembly."
+        },
+        {
+            "type": "image",
+            "data": "image805.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Roll Out Front"
+        },
+        {
+            "type": "text",
+            "data": "The following diagram shows the options available in the Roll Out Front object. Click a specific option in the diagram for more information or continue through this topic for information on all Objects and options."
+        },
+        {
+            "type": "image",
+            "data": "image806.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Roll Out Front Banding Definition (Standard #153)"
+        },
+        {
+            "type": "image",
+            "data": "image807.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Roll Out Front Laminate (Standard #36)"
+        },
+        {
+            "type": "text",
+            "data": "Specify here whether you Laminate your Roll-Out Front or not."
+        },
+        {
+            "type": "image",
+            "data": "image808.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Roll Out Swoop Shape (Standard #37)"
+        },
+        {
+            "type": "text",
+            "data": "You have two options for the Swoop option:"
+        },
+        {
+            "type": "text",
+            "data": "No  - Use this option if you do not Swoop your Roll Out Front."
+        },
+        {
+            "type": "text",
+            "data": "No  - Use this option if you do not Swoop your Roll Out Front."
+        },
+        {
+            "type": "image",
+            "data": "image810.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Yes  - Use this option if you do Swoop your Roll Out Front. Once this option is selected you will see the Edit button, click this button to control the shape of your Roll Out Swoop."
+        },
+        {
+            "type": "text",
+            "data": "Yes  - Use this option if you do Swoop your Roll Out Front. Once this option is selected you will see the Edit button, click this button to control the shape of your Roll Out Swoop."
+        },
+        {
+            "type": "image",
+            "data": "image809.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Swoop Part Shaper"
+        },
+        {
+            "type": "image",
+            "data": "image812.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "See the  Shape Editor Topic  for more information."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Shape Editor Topic",
+                "uuid": "44e32c02-bc4b-47e1-a681-21c422325448",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Roll Out Front Scribe (Standard #38)"
+        },
+        {
+            "type": "text",
+            "data": "You have two options for the Front Scribe:"
+        },
+        {
+            "type": "text",
+            "data": "Touches Box Front"
+        },
+        {
+            "type": "text",
+            "data": "Touches Box Front"
+        },
+        {
+            "type": "image",
+            "data": "image813.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Space  - A positive number represents how far in your want the Roll Out Front to be from the front of the Box. A negative number represents how far outside the front of the Box you want the Roll Out Front to be located."
+        },
+        {
+            "type": "text",
+            "data": "Space  - A positive number represents how far in your want the Roll Out Front to be from the front of the Box. A negative number represents how far outside the front of the Box you want the Roll Out Front to be located."
+        },
+        {
+            "type": "image",
+            "data": "image814.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Roll Out Front Top Reference (Standard #41)"
+        },
+        {
+            "type": "text",
+            "data": "You have two options for the Roll Out Front Top Reference:"
+        },
+        {
+            "type": "text",
+            "data": "Flush to Roll Out Top"
+        },
+        {
+            "type": "text",
+            "data": "Flush to Roll Out Top"
+        },
+        {
+            "type": "image",
+            "data": "image815.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Space  - A positive value adjusts the Roll Out Front below the top of the Box. A negative value adjusts the Roll Out Front above the top of the Roll Out."
+        },
+        {
+            "type": "text",
+            "data": "Space  - A positive value adjusts the Roll Out Front below the top of the Box. A negative value adjusts the Roll Out Front above the top of the Roll Out."
+        },
+        {
+            "type": "image",
+            "data": "image816.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Roll Out Front Face Machining (Standard #131)"
+        },
+        {
+            "type": "image",
+            "data": "image817.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Side"
+        },
+        {
+            "type": "text",
+            "data": "The following diagram shows the options available in the Side object. Click a specific option in the diagram for more information or continue through this topic for information on all Objects and options."
+        },
+        {
+            "type": "image",
+            "data": "image818.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Roll Out Side Shape (Standard #45)"
+        },
+        {
+            "type": "text",
+            "data": "You have two options for the Side Shape option:"
+        },
+        {
+            "type": "text",
+            "data": "No  - Use this option if you do not shape your Roll Out Side."
+        },
+        {
+            "type": "text",
+            "data": "No  - Use this option if you do not shape your Roll Out Side."
+        },
+        {
+            "type": "image",
+            "data": "image819.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Yes  - Use this option if you do shape your Roll Out Side. Once this option is selected you will see the Edit button, click this button to control the shape of your Roll Out Side."
+        },
+        {
+            "type": "text",
+            "data": "Yes  - Use this option if you do shape your Roll Out Side. Once this option is selected you will see the Edit button, click this button to control the shape of your Roll Out Side."
+        },
+        {
+            "type": "image",
+            "data": "image820.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Side Part Shaper"
+        },
+        {
+            "type": "image",
+            "data": "image821.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "See the  Shape Editor Topic  for more information."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Shape Editor Topic",
+                "uuid": "44e32c02-bc4b-47e1-a681-21c422325448",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\System_Level\\Ribbonbar\\Main_Tab\\Construction_Group\\Assembly_Manager\\Drawer_-_Roll_Out\\Construction_Styles\\DBROW_Roll_Out.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

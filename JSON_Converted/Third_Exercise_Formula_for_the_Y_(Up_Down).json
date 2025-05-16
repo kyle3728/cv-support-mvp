@@ -1,0 +1,122 @@
+{
+    "id": "abba4b14-4776-40ca-8d07-310b78e623b6",
+    "title": "Third_Exercise_Formula_for_the_Y_(Up_Down)",
+    "content": [
+        {
+            "type": "text",
+            "data": "Third Exercise Formula for the Y (Up/Down)"
+        },
+        {
+            "type": "text",
+            "data": "Look at your cabinet in 3D. Look at it from a Face   ortho view and click on BOARD@3. Notice where the reference point is located. Click on the other boards and notice where their reference points are located."
+        },
+        {
+            "type": "image",
+            "data": "image181.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "See if you can come up with the formula for the Y of the board yourself. Hint; you already know what the formula is because you placed the board up and down in the cabinet to start off with, step @8 of manually placing the part."
+        },
+        {
+            "type": "text",
+            "data": "Add a part. Size the part correctly and place the part correctly. Youve already done that. \n \n \n Select a part to work on. We are working on BOARD@3. \n \n \n What is it you are trying to do to this part? We are trying to place it up and down so it is centered between the deck and BOARD@1. \n \n \n Write your formula out in English first! Use the formula you used to manually place the part. Try to figure it out yourself but if you cant,  Click Here to see the Formula . \n \n \n Trace it through the object tree, and write your code down! Try to trace it out yourself but if you cant,  Click Here to see the Code . \n \n \n Go back to the part you are working on (board@3). \n \n \n Select the parameter you want to work on. You are working on the Y. \n \n \n Select \"Edit\". \n \n \n Change from a \"Value\" to an \"Equation\". \n \n \n Write your code on the \"THEN\" line. Try to figure it out yourself but if you cant,  Click Here to see the Code. \n \n \n \"Test\" your code."
+        },
+        {
+            "type": "text",
+            "data": "Add a part. Size the part correctly and place the part correctly. Youve already done that."
+        },
+        {
+            "type": "text",
+            "data": "Add a part. Size the part correctly and place the part correctly. Youve already done that."
+        },
+        {
+            "type": "text",
+            "data": "Select a part to work on. We are working on BOARD@3."
+        },
+        {
+            "type": "text",
+            "data": "Select a part to work on. We are working on BOARD@3."
+        },
+        {
+            "type": "text",
+            "data": "What is it you are trying to do to this part? We are trying to place it up and down so it is centered between the deck and BOARD@1."
+        },
+        {
+            "type": "text",
+            "data": "What is it you are trying to do to this part? We are trying to place it up and down so it is centered between the deck and BOARD@1."
+        },
+        {
+            "type": "text",
+            "data": "Write your formula out in English first! Use the formula you used to manually place the part. Try to figure it out yourself but if you cant,  Click Here to see the Formula ."
+        },
+        {
+            "type": "text",
+            "data": "Write your formula out in English first! Use the formula you used to manually place the part. Try to figure it out yourself but if you cant,  Click Here to see the Formula ."
+        },
+        {
+            "type": "text",
+            "data": "Trace it through the object tree, and write your code down! Try to trace it out yourself but if you cant,  Click Here to see the Code ."
+        },
+        {
+            "type": "text",
+            "data": "Trace it through the object tree, and write your code down! Try to trace it out yourself but if you cant,  Click Here to see the Code ."
+        },
+        {
+            "type": "text",
+            "data": "Go back to the part you are working on (board@3)."
+        },
+        {
+            "type": "text",
+            "data": "Go back to the part you are working on (board@3)."
+        },
+        {
+            "type": "text",
+            "data": "Select the parameter you want to work on. You are working on the Y."
+        },
+        {
+            "type": "text",
+            "data": "Select the parameter you want to work on. You are working on the Y."
+        },
+        {
+            "type": "text",
+            "data": "Select \"Edit\"."
+        },
+        {
+            "type": "text",
+            "data": "Select \"Edit\"."
+        },
+        {
+            "type": "text",
+            "data": "Change from a \"Value\" to an \"Equation\"."
+        },
+        {
+            "type": "text",
+            "data": "Change from a \"Value\" to an \"Equation\"."
+        },
+        {
+            "type": "text",
+            "data": "Write your code on the \"THEN\" line. Try to figure it out yourself but if you cant,  Click Here to see the Code."
+        },
+        {
+            "type": "text",
+            "data": "Write your code on the \"THEN\" line. Try to figure it out yourself but if you cant,  Click Here to see the Code."
+        },
+        {
+            "type": "text",
+            "data": "\"Test\" your code."
+        },
+        {
+            "type": "text",
+            "data": "\"Test\" your code."
+        },
+        {
+            "type": "text",
+            "data": "Always go back and look at your cabinet in 3D (at the Assembly Level) and see if it still looks OK."
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\Parametric_Editing\\Intelligence_Workshop\\3rd_Exercise\\Third_Exercise_Formula_for_the_Y_(Up_Down).htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

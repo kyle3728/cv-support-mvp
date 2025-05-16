@@ -1,0 +1,91 @@
+{
+    "id": "fa24d85a-c353-43bc-b38c-5b684878f0f2",
+    "title": "Right_Click_on_Wall_Elevation_View",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top \n > \n \n \n Room Level \n > \n \n Right Click Options \n > \n \n Right Click on Wall Elevation View"
+        },
+        {
+            "type": "text",
+            "data": "Top \n >"
+        },
+        {
+            "type": "text",
+            "data": "Room Level \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Room Level",
+                "uuid": "9eaa492c-0405-4da7-8e0f-a6ff4e047890",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Right Click Options \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Right Click Options",
+                "uuid": "3ea2c40b-e3fc-4eac-9114-cf8a3365c62a",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Right Click on Wall Elevation View"
+        },
+        {
+            "type": "text",
+            "data": "Right Click on Wall Elevation View"
+        },
+        {
+            "type": "text",
+            "data": "Right Click on Wall Elevation View -"
+        },
+        {
+            "type": "image",
+            "data": "image71.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "When Right Clicking on a Wall in Elevation View you will have two options:"
+        },
+        {
+            "type": "image",
+            "data": "image1187.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "To Drawing"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "To Drawing",
+                "uuid": "3ea2c40b-e3fc-4eac-9114-cf8a3365c62a",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Properties"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Properties",
+                "uuid": "d7979e24-0312-4722-9109-b5687a5aa11f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Room_Level\\Right_Click_Options\\Right_Click_on_Wall_Elevation_View.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

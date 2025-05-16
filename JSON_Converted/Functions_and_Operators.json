@@ -1,0 +1,2422 @@
+{
+    "id": "64910180-651d-4a1a-a6a9-ff64f36e7ea4",
+    "title": "Functions_and_Operators",
+    "content": [
+        {
+            "type": "text",
+            "data": "Functions and Operators"
+        },
+        {
+            "type": "image",
+            "data": "1AUALL.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Supported Operators and Mathematical Functions Computation Operations"
+        },
+        {
+            "type": "text",
+            "data": "Operators may be binary or unary. \u00a0Binary operators have two operands such as in A * B. \u00a0A and B are the two operands in that expression. \u00a0A unary operator has only one operand such as in !B. \u00a0In that expression, the (!) is a unary operator (meaning Boolean Not), because it has only one operand (B)."
+        },
+        {
+            "type": "text",
+            "data": "( - ) - Unary Minus"
+        },
+        {
+            "type": "text",
+            "data": "Example:  - X"
+        },
+        {
+            "type": "text",
+            "data": "( - ) - Binary Minus"
+        },
+        {
+            "type": "text",
+            "data": "Example: X  -  Y = Z"
+        },
+        {
+            "type": "text",
+            "data": "( + ) - Unary Plus"
+        },
+        {
+            "type": "text",
+            "data": "Example:  + X"
+        },
+        {
+            "type": "text",
+            "data": "( + ) - Binary Plus"
+        },
+        {
+            "type": "text",
+            "data": "Example: X  +  Y = Z"
+        },
+        {
+            "type": "text",
+            "data": "( * ) - Multiplication"
+        },
+        {
+            "type": "text",
+            "data": "Example: X \u00a0= X  *  2Y"
+        },
+        {
+            "type": "text",
+            "data": "( / ) - Division"
+        },
+        {
+            "type": "text",
+            "data": "Example: X = DX / 2"
+        },
+        {
+            "type": "text",
+            "data": "( % ) - Modulus"
+        },
+        {
+            "type": "text",
+            "data": "Example: X = Y  %  Z"
+        },
+        {
+            "type": "text",
+            "data": "( ^ ) - Exponential"
+        },
+        {
+            "type": "text",
+            "data": "Example: X = Y  ^  Z \u00a0\u00a0\u00a0\u00a0(Raises Y to the power of Z)"
+        },
+        {
+            "type": "text",
+            "data": "Comparison Operators"
+        },
+        {
+            "type": "text",
+            "data": "Comparison Operators return a Boolean Value (True or False) depending on the comparison being made. \u00a0For example, the expression 1 == 2 would return False."
+        },
+        {
+            "type": "text",
+            "data": "( ! ) - Logical NOT"
+        },
+        {
+            "type": "text",
+            "data": "Example:  ! a"
+        },
+        {
+            "type": "text",
+            "data": "( < ) - Less Than"
+        },
+        {
+            "type": "text",
+            "data": "Example: X  <  Y"
+        },
+        {
+            "type": "text",
+            "data": "( > ) - Greater Than"
+        },
+        {
+            "type": "text",
+            "data": "Example: Y  >  X"
+        },
+        {
+            "type": "text",
+            "data": "( <= ) - Less Than or Equal To"
+        },
+        {
+            "type": "text",
+            "data": "Example: X  <=  Y"
+        },
+        {
+            "type": "text",
+            "data": "( >= ) - Greater Than or Equal To"
+        },
+        {
+            "type": "text",
+            "data": "Example: Y  >=  X"
+        },
+        {
+            "type": "text",
+            "data": "( == ) - Equivalence"
+        },
+        {
+            "type": "text",
+            "data": "Example \u00a0\u00a0\u00a0\u00a0X  ==  1  (Must be used in Object Tree IF statements)"
+        },
+        {
+            "type": "text",
+            "data": "( != ) - Inequality"
+        },
+        {
+            "type": "text",
+            "data": "Example: X  !=  Y"
+        },
+        {
+            "type": "text",
+            "data": "( & ) - Logical And"
+        },
+        {
+            "type": "text",
+            "data": "Example; X  &  Y"
+        },
+        {
+            "type": "text",
+            "data": "( | ) - Logical OR"
+        },
+        {
+            "type": "text",
+            "data": "Example: X  |  Y"
+        },
+        {
+            "type": "text",
+            "data": "Checking for Null Values or a Parameters Existence"
+        },
+        {
+            "type": "text",
+            "data": "( null ) - Null"
+        },
+        {
+            "type": "text",
+            "data": "Example: \u00a0\u00a0 If  DX  =   null Then"
+        },
+        {
+            "type": "text",
+            "data": "DoSomething"
+        },
+        {
+            "type": "text",
+            "data": "End If"
+        },
+        {
+            "type": "text",
+            "data": "Assignment Operators"
+        },
+        {
+            "type": "text",
+            "data": "An assignment operator sets or re-sets the value assigned to a variable."
+        },
+        {
+            "type": "text",
+            "data": "Valid assignment operators in CABINET VISION are:"
+        },
+        {
+            "type": "text",
+            "data": "( = ) - Equals"
+        },
+        {
+            "type": "text",
+            "data": "Example: \u00a0X  =  2 + 2; \u00a0In this example, the variable (X) is assigned the value 2 + 2."
+        },
+        {
+            "type": "text",
+            "data": "( := ) - Compute Now"
+        },
+        {
+            "type": "text",
+            "data": "Example: \u00a0X  :=  2 + 2; \u00a0In this example, the variable (X) is assigned the value 4. \u00a0This assignment operator varies from the ( = ) assignment operator in that with ( := ):"
+        },
+        {
+            "type": "text",
+            "data": "The expression is evaluated in the current state of the program, and \n \n \n The variable is assigned the  computed value , replacing the prior value of that variable."
+        },
+        {
+            "type": "text",
+            "data": "The expression is evaluated in the current state of the program, and"
+        },
+        {
+            "type": "text",
+            "data": "The expression is evaluated in the current state of the program, and"
+        },
+        {
+            "type": "text",
+            "data": "The variable is assigned the  computed value , replacing the prior value of that variable."
+        },
+        {
+            "type": "text",
+            "data": "The variable is assigned the  computed value , replacing the prior value of that variable."
+        },
+        {
+            "type": "text",
+            "data": "( += ) -  A djust Add"
+        },
+        {
+            "type": "text",
+            "data": "Example: DX  +=  2 \u00a0(This adds 2 to the current DX value)"
+        },
+        {
+            "type": "text",
+            "data": "( -= ) - Adjust Subtract"
+        },
+        {
+            "type": "text",
+            "data": "Example: DX  -=  2 \u00a0(This subtracts 2 from the current DX value)"
+        },
+        {
+            "type": "text",
+            "data": "( *= ) - Adjust Multiply"
+        },
+        {
+            "type": "text",
+            "data": "Example: DX  *=  2 \u00a0(This multiplies the current DX value by 2)"
+        },
+        {
+            "type": "text",
+            "data": "( /= ) - Adjust Divide"
+        },
+        {
+            "type": "text",
+            "data": "Example: DX  /=  2 \u00a0(This divides the current DX value by 2)"
+        },
+        {
+            "type": "text",
+            "data": "Deleting a Parameter (Via UCS)"
+        },
+        {
+            "type": "text",
+            "data": "( Delete ) - Delete"
+        },
+        {
+            "type": "text",
+            "data": "Example:  Delete  DX (This will remove the DX Parameter from the Object)"
+        },
+        {
+            "type": "text",
+            "data": "The \"This\" Object"
+        },
+        {
+            "type": "text",
+            "data": "The \"this\" object is a substitute for what is in the For Each statement. The example below shows the difference in using it:"
+        },
+        {
+            "type": "text",
+            "data": ";Not Using the THIS Object"
+        },
+        {
+            "type": "text",
+            "data": "For Each  DWR_OPEN|DOR_OPEN Part"
+        },
+        {
+            "type": "text",
+            "data": "If  DWR_OPEN.DOR.S_DSLAB.DX  >  5  Then"
+        },
+        {
+            "type": "text",
+            "data": "Do Something"
+        },
+        {
+            "type": "text",
+            "data": "End if"
+        },
+        {
+            "type": "text",
+            "data": "If  DOR_OPEN.DOR.S_DSLAB.DX  >  5  Then"
+        },
+        {
+            "type": "text",
+            "data": "Do The Same Something As Above"
+        },
+        {
+            "type": "text",
+            "data": "End if"
+        },
+        {
+            "type": "text",
+            "data": "The code above when using the \"this\" object could be replaced with:"
+        },
+        {
+            "type": "text",
+            "data": ";Using the THIS Object"
+        },
+        {
+            "type": "text",
+            "data": "For Each DWR_OPEN|DOR_OPEN Part"
+        },
+        {
+            "type": "text",
+            "data": "If  this.DOR.S_DSLAB.DX  >  5  Then"
+        },
+        {
+            "type": "text",
+            "data": "Do It All"
+        },
+        {
+            "type": "text",
+            "data": "End if"
+        },
+        {
+            "type": "text",
+            "data": "Define Value types in a UCS"
+        },
+        {
+            "type": "text",
+            "data": "You can define the following Value types via a UCS."
+        },
+        {
+            "type": "text",
+            "data": "Currency <crncy>"
+        },
+        {
+            "type": "text",
+            "data": "Measurement <meas>"
+        },
+        {
+            "type": "text",
+            "data": "Degrees <deg>"
+        },
+        {
+            "type": "text",
+            "data": "Integer <int>"
+        },
+        {
+            "type": "text",
+            "data": "Boolean <bool>"
+        },
+        {
+            "type": "text",
+            "data": "Decimal <dec>"
+        },
+        {
+            "type": "text",
+            "data": "Text <text>"
+        },
+        {
+            "type": "text",
+            "data": "You can also build strings of Text in CABINET VISION from the results of existing  Parameters  or  AutoText  Values. Such as the three examples below:"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Parameters",
+                "uuid": "a4e1b750-0c06-4170-b06e-a29aa6f022c2",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "AutoText",
+                "uuid": "fa988f54-7863-4352-b1a7-3aaf7bca6e58",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "NAME = w{DX}h{DY}d{DZ}"
+        },
+        {
+            "type": "text",
+            "data": "PARTMAT  = {material}"
+        },
+        {
+            "type": "text",
+            "data": "COMMENT = {name} ({job.name})"
+        },
+        {
+            "type": "text",
+            "data": "Style <style>"
+        },
+        {
+            "type": "text",
+            "data": "There are three possible settings for the <style> value:"
+        },
+        {
+            "type": "text",
+            "data": "0 = Value"
+        },
+        {
+            "type": "text",
+            "data": "Values act as previous Parameter definitions, only displayed in the Object Tree and hard set by the UCS."
+        },
+        {
+            "type": "text",
+            "data": "1 = Attribute"
+        },
+        {
+            "type": "text",
+            "data": "Attributes act as triggers that can be user prompted from the sidebar for the Object or via Job/Room Parameters tabs. Use <desc> (below) to set the prompt description."
+        },
+        {
+            "type": "text",
+            "data": "2 \u00a0= Note"
+        },
+        {
+            "type": "text",
+            "data": "Notes are a user defined Note which will be displayed on the Notes pages for the Object and available as CAD text look-ups. The text entered for Notes are defau lt values which can be edited from the prompt. Use <desc> (below) to set the prompt description."
+        },
+        {
+            "type": "text",
+            "data": "Description  <desc>"
+        },
+        {
+            "type": "text",
+            "data": "Description allows you to display a user prompt for Attribute and Note Parameters."
+        },
+        {
+            "type": "text",
+            "data": "Below is a sample UCS showing how to format utilizing these functions:"
+        },
+        {
+            "type": "text",
+            "data": ";Assigning Value Types in a UCS"
+        },
+        {
+            "type": "text",
+            "data": "For Each  CAB Assembly"
+        },
+        {
+            "type": "text",
+            "data": "If  U_DWStrip  =   null then   \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 ;Checks to see if the U_DWStrip already exists on the Cabinet"
+        },
+        {
+            "type": "text",
+            "data": "U_DWStrip < bool > =  0 \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 ;Sets the Parameter Type to Boolean (True/False) with a default of False"
+        },
+        {
+            "type": "text",
+            "data": "U_DWStrip < style > =  1 \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 ;Sets the Parameter Style to Attribute"
+        },
+        {
+            "type": "text",
+            "data": "U_DWStrip < desc > =   'Add Dishwasher Strip' \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 ;Adds a user prompt at the sidebar for the Cabinet"
+        },
+        {
+            "type": "text",
+            "data": "End If"
+        },
+        {
+            "type": "text",
+            "data": "If  Cab . U_DWStrip  =  1  Then  \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 ;Checks to see if the User said Yes to Add Dishwasher Strip Question"
+        },
+        {
+            "type": "text",
+            "data": "Dim  BOARD as New Part"
+        },
+        {
+            "type": "text",
+            "data": "BOARD . X < meas > =  0 \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 ;meas = Measurement"
+        },
+        {
+            "type": "text",
+            "data": "BOARD . Y < meas > =  Cab.DY \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 ;meas = Measurement"
+        },
+        {
+            "type": "text",
+            "data": "BOARD . Z < meas > =  0 \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 ;meas = Measurement"
+        },
+        {
+            "type": "text",
+            "data": "BOARD . DX < meas > =  1.75 \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 ;meas = Measurement"
+        },
+        {
+            "type": "text",
+            "data": "BOARD . DY < meas > =  24 \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 ;meas = Measurement"
+        },
+        {
+            "type": "text",
+            "data": "BOARD . AX < deg > =  0 \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0;deg \u00a0= Degrees"
+        },
+        {
+            "type": "text",
+            "data": "BOARD . AY < deg > =  0 \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 ;deg \u00a0= Degrees"
+        },
+        {
+            "type": "text",
+            "data": "BOARD . AZ < deg > =  -90 \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 ;deg \u00a0= Degrees"
+        },
+        {
+            "type": "text",
+            "data": "BOARD . QTY < int > =  3 \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0\u00a0;int \u00a0= Integer"
+        },
+        {
+            "type": "text",
+            "data": "BOARD . WEIGHT < dec > =  23.25 \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 ;dec \u00a0= Decimal"
+        },
+        {
+            "type": "text",
+            "data": "NOTE <t ext > =   'Extra Board for Mounting Dishwasher Included'  \u00a0\u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0 ;defines the text contained in NOTE"
+        },
+        {
+            "type": "text",
+            "data": "NOTE < style > =  2\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0  ;sets the Parameter NOTE as a Note on the CAB in For Each"
+        },
+        {
+            "type": "text",
+            "data": "End If"
+        },
+        {
+            "type": "text",
+            "data": "You can also define a list of values for a user to select from. See the  Parameters topic  for more information."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Parameters topic",
+                "uuid": "732c3654-3fc4-4e88-80b9-01c7cb38c0fb",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Common Functions"
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "ABS",
+                    "ABS(X)",
+                    "Returns the absolute value of a number, which is a number without its sign."
+                ],
+                "rows": [
+                    [
+                        "ACOS",
+                        "ACOS(X)",
+                        "Returns the arccosine of a number, in degrees. The arccosine  is the angle whose cosine is Number."
+                    ],
+                    [
+                        "ASIN",
+                        "ASIN(X)",
+                        "Returns the arcsine of a number in degrees."
+                    ],
+                    [
+                        "ATAN",
+                        "ATAN(X)",
+                        "Returns the arctangent of a number in degrees."
+                    ],
+                    [
+                        "COS",
+                        "COS(X)",
+                        "Returns the cosine of an angle."
+                    ],
+                    [
+                        "COSH",
+                        "COSH(X)",
+                        "Returns the hyperbolic cosine of a number."
+                    ],
+                    [
+                        "EXP",
+                        "EXP(X)",
+                        "Returns e raised to the power of a given number."
+                    ],
+                    [
+                        "IMP",
+                        "Imp(X)",
+                        "Conversion for MM to Imperial. To use any of these functions for Metric... ABS(Imp(100))"
+                    ],
+                    [
+                        "in",
+                        "Xin",
+                        "Establishes the value you are typing is an Imperial Measurement... 12in"
+                    ],
+                    [
+                        "LOG",
+                        "LOG(X)",
+                        "Returns the logarithm of a number to the base e. \u00a0e is a constant whose value is approximately 2.718282."
+                    ],
+                    [
+                        "LOG10",
+                        "LOG10(X)",
+                        "Returns the base-10 logarithm of a number."
+                    ],
+                    [
+                        "mm",
+                        "Xmm",
+                        "Establishes the value you are typing is a Metric Measurement... 300mm"
+                    ],
+                    [
+                        "ROUND",
+                        "ROUND(X)",
+                        "Rounds a number to the nearest whole number using standard rounding rules."
+                    ],
+                    [
+                        "RPREC",
+                        "RPREC(X)",
+                        "Returns rounded value of argument rounded as per the unit precision system setting."
+                    ],
+                    [
+                        "SIN",
+                        "SIN(X)",
+                        "Returns the sine of an angle."
+                    ],
+                    [
+                        "SINH",
+                        "SINH(X)",
+                        "Returns the hyperbolic sine of a number."
+                    ],
+                    [
+                        "SQR",
+                        "SQR(X)",
+                        "Returns a square of a number."
+                    ],
+                    [
+                        "SQRT",
+                        "SQRT(X)",
+                        "Returns a square root of a number."
+                    ],
+                    [
+                        "TAN",
+                        "TAN(X)",
+                        "Returns the tangent of an angle."
+                    ],
+                    [
+                        "TANH",
+                        "TANH(X)",
+                        "Returns the hyperbolic tangent of a number."
+                    ],
+                    [
+                        "TRUNC",
+                        "TRUNC(X)",
+                        "Truncates a number to an integer by removing the decimal, or fractional, part of  the number."
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "ABS"
+        },
+        {
+            "type": "text",
+            "data": "ABS(X)"
+        },
+        {
+            "type": "text",
+            "data": "Returns the absolute value of a number, which is a number without its sign."
+        },
+        {
+            "type": "text",
+            "data": "ACOS"
+        },
+        {
+            "type": "text",
+            "data": "ACOS(X)"
+        },
+        {
+            "type": "text",
+            "data": "Returns the arccosine of a number, in degrees. The arccosine  is the angle whose cosine is Number."
+        },
+        {
+            "type": "text",
+            "data": "ASIN"
+        },
+        {
+            "type": "text",
+            "data": "ASIN(X)"
+        },
+        {
+            "type": "text",
+            "data": "Returns the arcsine of a number in degrees."
+        },
+        {
+            "type": "text",
+            "data": "ATAN"
+        },
+        {
+            "type": "text",
+            "data": "ATAN(X)"
+        },
+        {
+            "type": "text",
+            "data": "Returns the arctangent of a number in degrees."
+        },
+        {
+            "type": "text",
+            "data": "COS"
+        },
+        {
+            "type": "text",
+            "data": "COS(X)"
+        },
+        {
+            "type": "text",
+            "data": "Returns the cosine of an angle."
+        },
+        {
+            "type": "text",
+            "data": "COSH"
+        },
+        {
+            "type": "text",
+            "data": "COSH(X)"
+        },
+        {
+            "type": "text",
+            "data": "Returns the hyperbolic cosine of a number."
+        },
+        {
+            "type": "text",
+            "data": "EXP"
+        },
+        {
+            "type": "text",
+            "data": "EXP(X)"
+        },
+        {
+            "type": "text",
+            "data": "Returns e raised to the power of a given number."
+        },
+        {
+            "type": "text",
+            "data": "IMP"
+        },
+        {
+            "type": "text",
+            "data": "Imp(X)"
+        },
+        {
+            "type": "text",
+            "data": "Conversion for MM to Imperial. To use any of these functions for Metric... ABS(Imp(100))"
+        },
+        {
+            "type": "text",
+            "data": "in"
+        },
+        {
+            "type": "text",
+            "data": "Xin"
+        },
+        {
+            "type": "text",
+            "data": "Establishes the value you are typing is an Imperial Measurement... 12in"
+        },
+        {
+            "type": "text",
+            "data": "LOG"
+        },
+        {
+            "type": "text",
+            "data": "LOG(X)"
+        },
+        {
+            "type": "text",
+            "data": "Returns the logarithm of a number to the base e. \u00a0e is a constant whose value is approximately 2.718282."
+        },
+        {
+            "type": "text",
+            "data": "LOG10"
+        },
+        {
+            "type": "text",
+            "data": "LOG10(X)"
+        },
+        {
+            "type": "text",
+            "data": "Returns the base-10 logarithm of a number."
+        },
+        {
+            "type": "text",
+            "data": "mm"
+        },
+        {
+            "type": "text",
+            "data": "Xmm"
+        },
+        {
+            "type": "text",
+            "data": "Establishes the value you are typing is a Metric Measurement... 300mm"
+        },
+        {
+            "type": "text",
+            "data": "ROUND"
+        },
+        {
+            "type": "text",
+            "data": "ROUND(X)"
+        },
+        {
+            "type": "text",
+            "data": "Rounds a number to the nearest whole number using standard rounding rules."
+        },
+        {
+            "type": "text",
+            "data": "RPREC"
+        },
+        {
+            "type": "text",
+            "data": "RPREC(X)"
+        },
+        {
+            "type": "text",
+            "data": "Returns rounded value of argument rounded as per the unit precision system setting."
+        },
+        {
+            "type": "text",
+            "data": "SIN"
+        },
+        {
+            "type": "text",
+            "data": "SIN(X)"
+        },
+        {
+            "type": "text",
+            "data": "Returns the sine of an angle."
+        },
+        {
+            "type": "text",
+            "data": "SINH"
+        },
+        {
+            "type": "text",
+            "data": "SINH(X)"
+        },
+        {
+            "type": "text",
+            "data": "Returns the hyperbolic sine of a number."
+        },
+        {
+            "type": "text",
+            "data": "SQR"
+        },
+        {
+            "type": "text",
+            "data": "SQR(X)"
+        },
+        {
+            "type": "text",
+            "data": "Returns a square of a number."
+        },
+        {
+            "type": "text",
+            "data": "SQRT"
+        },
+        {
+            "type": "text",
+            "data": "SQRT(X)"
+        },
+        {
+            "type": "text",
+            "data": "Returns a square root of a number."
+        },
+        {
+            "type": "text",
+            "data": "TAN"
+        },
+        {
+            "type": "text",
+            "data": "TAN(X)"
+        },
+        {
+            "type": "text",
+            "data": "Returns the tangent of an angle."
+        },
+        {
+            "type": "text",
+            "data": "TANH"
+        },
+        {
+            "type": "text",
+            "data": "TANH(X)"
+        },
+        {
+            "type": "text",
+            "data": "Returns the hyperbolic tangent of a number."
+        },
+        {
+            "type": "text",
+            "data": "TRUNC"
+        },
+        {
+            "type": "text",
+            "data": "TRUNC(X)"
+        },
+        {
+            "type": "text",
+            "data": "Truncates a number to an integer by removing the decimal, or fractional, part of  the number."
+        },
+        {
+            "type": "text",
+            "data": "Valid For Each Statement Types"
+        },
+        {
+            "type": "text",
+            "data": "The For Each statement is used to state the Objects and Object Types that you want the UCS to act upon. The first portion of the statement (in red below) states the Object by Internal Name. The second portion states the Objects Type (in blue below). The valid types are defined below:"
+        },
+        {
+            "type": "text",
+            "data": "For Each  CAB  Assembly"
+        },
+        {
+            "type": "text",
+            "data": "ACAMDwg"
+        },
+        {
+            "type": "text",
+            "data": "Arc"
+        },
+        {
+            "type": "text",
+            "data": "Assembly"
+        },
+        {
+            "type": "text",
+            "data": "Dado"
+        },
+        {
+            "type": "text",
+            "data": "DadoEx"
+        },
+        {
+            "type": "text",
+            "data": "Door"
+        },
+        {
+            "type": "text",
+            "data": "DoveTail"
+        },
+        {
+            "type": "text",
+            "data": "DrwFront"
+        },
+        {
+            "type": "text",
+            "data": "Guide"
+        },
+        {
+            "type": "text",
+            "data": "Hardware"
+        },
+        {
+            "type": "text",
+            "data": "Hinge"
+        },
+        {
+            "type": "text",
+            "data": "HingePlate"
+        },
+        {
+            "type": "text",
+            "data": "Hole"
+        },
+        {
+            "type": "text",
+            "data": "IJoint"
+        },
+        {
+            "type": "text",
+            "data": "Line"
+        },
+        {
+            "type": "text",
+            "data": "Linebore"
+        },
+        {
+            "type": "text",
+            "data": "MBlindDado"
+        },
+        {
+            "type": "text",
+            "data": "MDado"
+        },
+        {
+            "type": "text",
+            "data": "MDadoEx"
+        },
+        {
+            "type": "text",
+            "data": "MHole"
+        },
+        {
+            "type": "text",
+            "data": "MLinebore"
+        },
+        {
+            "type": "text",
+            "data": "Molding"
+        },
+        {
+            "type": "text",
+            "data": "Opening"
+        },
+        {
+            "type": "text",
+            "data": "Operation"
+        },
+        {
+            "type": "text",
+            "data": "NGAcsry"
+        },
+        {
+            "type": "text",
+            "data": "Part"
+        },
+        {
+            "type": "text",
+            "data": "Pull"
+        },
+        {
+            "type": "text",
+            "data": "Route"
+        },
+        {
+            "type": "text",
+            "data": "Valid Statements"
+        },
+        {
+            "type": "text",
+            "data": "If...Then...End If"
+        },
+        {
+            "type": "text",
+            "data": "If <condition> Then"
+        },
+        {
+            "type": "text",
+            "data": "<User Defined Action>"
+        },
+        {
+            "type": "text",
+            "data": "End If"
+        },
+        {
+            "type": "text",
+            "data": "While...Do...End While"
+        },
+        {
+            "type": "text",
+            "data": "While <condition> Do"
+        },
+        {
+            "type": "text",
+            "data": "<User Defined Action>"
+        },
+        {
+            "type": "text",
+            "data": "End While"
+        },
+        {
+            "type": "text",
+            "data": "If...Then...Else...End If"
+        },
+        {
+            "type": "text",
+            "data": "If <condition> Then"
+        },
+        {
+            "type": "text",
+            "data": "<User Defined Action>"
+        },
+        {
+            "type": "text",
+            "data": "Else"
+        },
+        {
+            "type": "text",
+            "data": "<User Defined Action>"
+        },
+        {
+            "type": "text",
+            "data": "End If"
+        },
+        {
+            "type": "text",
+            "data": "If...Then...Exit...End If"
+        },
+        {
+            "type": "text",
+            "data": "If <condition> Then"
+        },
+        {
+            "type": "text",
+            "data": "Exit"
+        },
+        {
+            "type": "text",
+            "data": "End If"
+        },
+        {
+            "type": "text",
+            "data": "It is possible to process variables in-line. The variables should be within {} braces. The following demonstrates the use of a variable in \u00a0\"while...end\" and \"if...then\" statements."
+        },
+        {
+            "type": "text",
+            "data": "For Each  AS Part"
+        },
+        {
+            "type": "text",
+            "data": "_COUNT  =  1"
+        },
+        {
+            "type": "text",
+            "data": "_NAME < text > =   'AS'"
+        },
+        {
+            "type": "text",
+            "data": "While  CAB . INTERIOR . {_NAME}@{_COUNT} . DX  >  0  Do"
+        },
+        {
+            "type": "text",
+            "data": "If  CAB . INTERIOR . {_NAME}@{_COUNT} . ID  ==  ID  Then"
+        },
+        {
+            "type": "text",
+            "data": "_FOUND  :=  ID"
+        },
+        {
+            "type": "text",
+            "data": "Exit"
+        },
+        {
+            "type": "text",
+            "data": "End If"
+        },
+        {
+            "type": "text",
+            "data": "_COUNT  +=  1"
+        },
+        {
+            "type": "text",
+            "data": "End While"
+        },
+        {
+            "type": "text",
+            "data": "Valid Dim Statement Types"
+        },
+        {
+            "type": "text",
+            "data": "The DIM statement instructs the UCS to create a new Object. The first portion of the statement (in red below) names the new Object. The second portion states the new Objects Type (in blue below). The valid types are defined below:"
+        },
+        {
+            "type": "text",
+            "data": "Dim  BOARD  as New  Part"
+        },
+        {
+            "type": "text",
+            "data": "ACAMDwg"
+        },
+        {
+            "type": "text",
+            "data": "Arc"
+        },
+        {
+            "type": "text",
+            "data": "BlindDado"
+        },
+        {
+            "type": "text",
+            "data": "Dado"
+        },
+        {
+            "type": "text",
+            "data": "DadoEx"
+        },
+        {
+            "type": "text",
+            "data": "DadoExMaster"
+        },
+        {
+            "type": "text",
+            "data": "DadoMaster"
+        },
+        {
+            "type": "text",
+            "data": "Door"
+        },
+        {
+            "type": "text",
+            "data": "DoveTail"
+        },
+        {
+            "type": "text",
+            "data": "DrwFront"
+        },
+        {
+            "type": "text",
+            "data": "Guide"
+        },
+        {
+            "type": "text",
+            "data": "Hardware  - Must be used with Connectors"
+        },
+        {
+            "type": "text",
+            "data": "Hinge"
+        },
+        {
+            "type": "text",
+            "data": "Hole"
+        },
+        {
+            "type": "text",
+            "data": "HoleMaster"
+        },
+        {
+            "type": "text",
+            "data": "IJoint"
+        },
+        {
+            "type": "text",
+            "data": "LBoreMaster"
+        },
+        {
+            "type": "text",
+            "data": "Line"
+        },
+        {
+            "type": "text",
+            "data": "Linebore"
+        },
+        {
+            "type": "text",
+            "data": "MDado"
+        },
+        {
+            "type": "text",
+            "data": "MHole"
+        },
+        {
+            "type": "text",
+            "data": "MLinebore"
+        },
+        {
+            "type": "text",
+            "data": "Molding"
+        },
+        {
+            "type": "text",
+            "data": "NGAcsry"
+        },
+        {
+            "type": "text",
+            "data": "Part"
+        },
+        {
+            "type": "text",
+            "data": "Pull"
+        },
+        {
+            "type": "text",
+            "data": "Route"
+        },
+        {
+            "type": "text",
+            "data": "Object Classes and Types"
+        },
+        {
+            "type": "text",
+            "data": "Below is a list of all valid Object Classes and their associated Object Types."
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_ACSRY"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_MISC"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_PART"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_APPL"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_COOKTOP"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_DISHWASHER"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_HOOD"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_MICRO"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_OVEN"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_RANGE"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_REFER"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_SINK"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_TRASHCOMP"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_WASH_DRY"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_BASE"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_BLINDL"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_BLINDR"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_CORNER45"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_CORNER90"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_DESK"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_FILLER"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_PART"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_STANDARD"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_TOEASSEMBLY"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_BATH"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_BATH_SINK"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_SHOWER"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_TOILET"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_TUB"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_CEILING"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_CLOSET"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_CLOSET_DOOR_DWR"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_CLOSET_HORZ"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_CLOSET_VERT"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_CORNER45"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_CORNER90"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_FILLER"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_STANDARD"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_TOEASSEMBLY"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_CLOSETBASE"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_CLOSET_DOOR_DWR"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_CLOSET_HORZ"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_CLOSET_VERT"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_CORNER45"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_CORNER90"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_FILLER"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_STANDARD"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_TOEASSEMBLY"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_CLOSETUPPER"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_CLOSET_DOOR_DWR"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_CLOSET_HORZ"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_CLOSET_VERT"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_CORNER45"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_CORNER90"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_FILLER"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_STANDARD"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_DECORATIVE"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_EDOOR"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_MISC"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_OPENING"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_PART"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_PICTURE"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_TWALL"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_WINDOW"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_DOOR"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_FIXTURE"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_ELECTRICAL"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_PLUMBING"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_FLOOR"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_MOLDING"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_NG_ACSRY"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_SPLASH"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_TALL"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_BLINDL"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_BLINDR"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_CORNER45"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_FILLER"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_PART"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_STANDARD"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_CORNER90"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_TOP"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_SPLASH"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_TOP"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_UPPER"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_APPPLGARAGE"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_BLINDL"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_BLINDR"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_CORNER45"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_CORNER90"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_FILLER"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_HOOD"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_PART"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_STANDARD"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_USER_LIGHT"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_VANITY"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_BLINDL"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_BLINDR"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_CORNER45"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_CORNER90"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_FILLER"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_PART"
+        },
+        {
+            "type": "text",
+            "data": "ASM_TYPE_STANDARD"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_WALL"
+        },
+        {
+            "type": "text",
+            "data": "ASM_CLASS_WALLFAC"
+        },
+        {
+            "type": "text",
+            "data": "Operation Names and Descriptions"
+        },
+        {
+            "type": "text",
+            "data": "Below is a list of Operations created by the system along with a brief description of each."
+        },
+        {
+            "type": "text",
+            "data": "LFVBORE-Front Line Bore"
+        },
+        {
+            "type": "text",
+            "data": "LRVBORE-Rear Line Bore"
+        },
+        {
+            "type": "text",
+            "data": "LMVBORE-Mid Line Bore"
+        },
+        {
+            "type": "text",
+            "data": "LEFHBORE-Construction Hole Left Front"
+        },
+        {
+            "type": "text",
+            "data": "LEMHBORE-Construction Hole Left Mid"
+        },
+        {
+            "type": "text",
+            "data": "LERHBORE-Construction Hole Left Rear"
+        },
+        {
+            "type": "text",
+            "data": "REFHBORE-Construction Hole Right Front"
+        },
+        {
+            "type": "text",
+            "data": "REMHBORE-Construction Hole Right Mid"
+        },
+        {
+            "type": "text",
+            "data": "RERHBORE-Construction Hole Right Rear"
+        },
+        {
+            "type": "text",
+            "data": "TEFHBORE-Construction Hole Top Front"
+        },
+        {
+            "type": "text",
+            "data": "TEMHBORE-Construction Hole Top Mid"
+        },
+        {
+            "type": "text",
+            "data": "TERHBORE-Construction Hole Top Rear"
+        },
+        {
+            "type": "text",
+            "data": "BEFHBORE-Construction Hole Bottom Front"
+        },
+        {
+            "type": "text",
+            "data": "BEMHBORE-Construction Hole Bottom Mid"
+        },
+        {
+            "type": "text",
+            "data": "BERHBORE-Construction Hole Bottom Rear"
+        },
+        {
+            "type": "text",
+            "data": "LRLBORE-Rod Left Linebore"
+        },
+        {
+            "type": "text",
+            "data": "RRLBORE-Rod Right Linebore"
+        },
+        {
+            "type": "text",
+            "data": "LRVBORE-Rod Left Vertical Bore"
+        },
+        {
+            "type": "text",
+            "data": "RRVBORE-Rod Right Vertical Bore"
+        },
+        {
+            "type": "text",
+            "data": "LRHBORE-Rod Left Horizontal Bore"
+        },
+        {
+            "type": "text",
+            "data": "RRHBORE-Rod Right Horizontal Bore"
+        },
+        {
+            "type": "text",
+            "data": "WBFVBORE-Wire Basket Guide Hole 1"
+        },
+        {
+            "type": "text",
+            "data": "WBMVBORE-Wire Basket Guide Hole 2"
+        },
+        {
+            "type": "text",
+            "data": "WBRVBORE-Wire Basket Guide Hole 3"
+        },
+        {
+            "type": "text",
+            "data": "WBVBORE4-Wire Basket Guide Hole 4"
+        },
+        {
+            "type": "text",
+            "data": "WBVBORE5-Wire Basket Guide Hole 5"
+        },
+        {
+            "type": "text",
+            "data": "WBVBORE6-Wire Basket Guide Hole 6"
+        },
+        {
+            "type": "text",
+            "data": "GFVBORE-Drawer Guide Hole 1"
+        },
+        {
+            "type": "text",
+            "data": "GMVBORE-Drawer Guide Hole 2"
+        },
+        {
+            "type": "text",
+            "data": "GRVBORE-Drawer Guide Hole 3"
+        },
+        {
+            "type": "text",
+            "data": "GVBORE4-Drawer Guide Hole 4"
+        },
+        {
+            "type": "text",
+            "data": "GVBORE5-Drawer Guide Hole 5"
+        },
+        {
+            "type": "text",
+            "data": "GVBORE6-Drawer Guide Hole 6"
+        },
+        {
+            "type": "text",
+            "data": "GFRVBORE-Drawer Guide Front Bracket Hole"
+        },
+        {
+            "type": "text",
+            "data": "GBKVBORE-Drawer Guide Back Bracket Hole"
+        },
+        {
+            "type": "text",
+            "data": "PTDADO-Partition Dado"
+        },
+        {
+            "type": "text",
+            "data": "DIVDADO-Divider Dado"
+        },
+        {
+            "type": "text",
+            "data": "UBXHBORE-Back Construction Hole"
+        },
+        {
+            "type": "text",
+            "data": "BBACKBORE-Back - Back Construction Hole"
+        },
+        {
+            "type": "text",
+            "data": "UBDADO-Unfinished Back Dado"
+        },
+        {
+            "type": "text",
+            "data": "TODADO-Top Dado"
+        },
+        {
+            "type": "text",
+            "data": "BODADO-Bottom Dado"
+        },
+        {
+            "type": "text",
+            "data": "NATDADO-Nailer - Top Dado"
+        },
+        {
+            "type": "text",
+            "data": "NABDADO-Nailer - Bottom Dado"
+        },
+        {
+            "type": "text",
+            "data": "NAEDADO-Nailer - End Dado"
+        },
+        {
+            "type": "text",
+            "data": "SHDADO-Shelf Dado"
+        },
+        {
+            "type": "text",
+            "data": "SHFRDADO-Shelf - Frame Dado"
+        },
+        {
+            "type": "text",
+            "data": "LEFHBORE-Left Front Construction Hole Top"
+        },
+        {
+            "type": "text",
+            "data": "LEMHBORE-Left Mid Construction Hole Top"
+        },
+        {
+            "type": "text",
+            "data": "LERHBORE-Left Rear Construction Hole Top"
+        },
+        {
+            "type": "text",
+            "data": "REFHBORE-Right Front Construction Hole Top"
+        },
+        {
+            "type": "text",
+            "data": "REMHBORE-Right Mid Construction Hole Top"
+        },
+        {
+            "type": "text",
+            "data": "RERHBORE-Right Rear Construction Hole Top"
+        },
+        {
+            "type": "text",
+            "data": "STFDADO-Stretcher - Face Dado"
+        },
+        {
+            "type": "text",
+            "data": "STRDADO-Stretcher - Back Dado"
+        },
+        {
+            "type": "text",
+            "data": "STEDADO-Stretcher - End Dado"
+        },
+        {
+            "type": "text",
+            "data": "LSFDADO-Left Side - Front Dado"
+        },
+        {
+            "type": "text",
+            "data": "LSBDADO-Left Side - Back Dado"
+        },
+        {
+            "type": "text",
+            "data": "RSFDADO-Right Side - Front Dado"
+        },
+        {
+            "type": "text",
+            "data": "RSBDADO-Right Side - Back Dado"
+        },
+        {
+            "type": "text",
+            "data": "FLSDADO-Front - Left Side Dado"
+        },
+        {
+            "type": "text",
+            "data": "FRSDADO-Front - Right Side Dado"
+        },
+        {
+            "type": "text",
+            "data": "BLSDADO-Back - Left Side Dado"
+        },
+        {
+            "type": "text",
+            "data": "BRSDADO-Back - Right Side Dado"
+        },
+        {
+            "type": "text",
+            "data": "BTLSDADO-Bottom - Left Side Dado"
+        },
+        {
+            "type": "text",
+            "data": "BTRSDADO-Bottom - Right Side Dado"
+        },
+        {
+            "type": "text",
+            "data": "BTFDADO-Bottom - Front Dado"
+        },
+        {
+            "type": "text",
+            "data": "BTBDADO-Bottom - Back Dado"
+        },
+        {
+            "type": "text",
+            "data": "PTFDADO-Partition - Front Dado"
+        },
+        {
+            "type": "text",
+            "data": "PTBDADO-Partition - Back Dado"
+        },
+        {
+            "type": "text",
+            "data": "PTBTFDADO-Partition - Bottom Dado"
+        },
+        {
+            "type": "text",
+            "data": "PTDVDADO-Partition - Divider Dado"
+        },
+        {
+            "type": "text",
+            "data": "DVLSDADO-Divider - Left Side Dado"
+        },
+        {
+            "type": "text",
+            "data": "DVRSDADO-Divider - Right Side Dado"
+        },
+        {
+            "type": "text",
+            "data": "DVBTDADO-Divider - Bottom Dado"
+        },
+        {
+            "type": "text",
+            "data": "DVPTDADO-Divider - Partition Dado"
+        },
+        {
+            "type": "text",
+            "data": "LFSSDADO-Left Front Dado"
+        },
+        {
+            "type": "text",
+            "data": "LRSSDADO-Left Rear Dado"
+        },
+        {
+            "type": "text",
+            "data": "RFSSDADO-Right Front Dado"
+        },
+        {
+            "type": "text",
+            "data": "RRSSDADO-Right Rear Dado"
+        },
+        {
+            "type": "text",
+            "data": "LSFDOVE-Left Side Front Dovetail"
+        },
+        {
+            "type": "text",
+            "data": "LSBKDOVE-Left Side Back Dovetail"
+        },
+        {
+            "type": "text",
+            "data": "RSFDOVE-Right Side Front Dovetail"
+        },
+        {
+            "type": "text",
+            "data": "RSBKDOVE-Right Side Back Dovetail"
+        },
+        {
+            "type": "text",
+            "data": "FLSDOVE-Front Left Side Dovetail"
+        },
+        {
+            "type": "text",
+            "data": "BKLSDOVE-Back Left Side Dovetail"
+        },
+        {
+            "type": "text",
+            "data": "FRSDOVE-Front Right Side Dovetail"
+        },
+        {
+            "type": "text",
+            "data": "BKRSDOVE-Back Right Side Dovetail"
+        },
+        {
+            "type": "text",
+            "data": "BTLMTBORE-Bottom Left Mount Bore"
+        },
+        {
+            "type": "text",
+            "data": "BTRMTBORE-Bottom Right Mount Bore"
+        },
+        {
+            "type": "text",
+            "data": "BTLMTGRV-Bottom Left Mount Groove"
+        },
+        {
+            "type": "text",
+            "data": "BTRMTGRV-Bottom Right Mount Groove"
+        },
+        {
+            "type": "text",
+            "data": "LSFTBXBORE-Left Side Front Top Box Bore"
+        },
+        {
+            "type": "text",
+            "data": "LSFMBXBORE-Left Side Front Mid Box Bore"
+        },
+        {
+            "type": "text",
+            "data": "LSFBBXBORE-Left Side Front Bottom Box Bore"
+        },
+        {
+            "type": "text",
+            "data": "RSFTBXBORE-Right Side Front Top Box Bore"
+        },
+        {
+            "type": "text",
+            "data": "RSFMBXBORE-Right Side Front Mid Box Bore"
+        },
+        {
+            "type": "text",
+            "data": "RSFBBXBORE-Right Side Front Bottom Box Bore"
+        },
+        {
+            "type": "text",
+            "data": "LSBTBXBORE-Left Side Back Top Box Bore"
+        },
+        {
+            "type": "text",
+            "data": "LSBMBXBORE-Left Side Back Mid Box Bore"
+        },
+        {
+            "type": "text",
+            "data": "LSBBBXBORE-Left Side Back Bottom Box Bore"
+        },
+        {
+            "type": "text",
+            "data": "RSBTBXBORE-Right Side Back Top Box Bore"
+        },
+        {
+            "type": "text",
+            "data": "RSBMBXBORE-Right Side Back Mid Box Bore"
+        },
+        {
+            "type": "text",
+            "data": "RSBBBXBORE-Right Side Back Bottom Box Bore"
+        },
+        {
+            "type": "text",
+            "data": "FLSTBXBORE-Front Left Side Top Box Bore"
+        },
+        {
+            "type": "text",
+            "data": "FLSMBXBORE-Front Left Side Mid Box Bore"
+        },
+        {
+            "type": "text",
+            "data": "FLSBBXBORE-Front Left Side Bottom Box Bore"
+        },
+        {
+            "type": "text",
+            "data": "FRSTBXBORE-Front Right Side Top Box Bore"
+        },
+        {
+            "type": "text",
+            "data": "FRSMBXBORE-Front Right Side Mid Box Bore"
+        },
+        {
+            "type": "text",
+            "data": "FRSBBXBORE-Front Right Side Bottom Box Bore"
+        },
+        {
+            "type": "text",
+            "data": "BLSTBXBORE-Back Left Side Top Box Bore"
+        },
+        {
+            "type": "text",
+            "data": "BLSMBXBORE-Back Left Side Mid Box Bore"
+        },
+        {
+            "type": "text",
+            "data": "BLSBBXBORE-Back Left Side Bottom Box Bore"
+        },
+        {
+            "type": "text",
+            "data": "BRSTBXBORE-Back Right Side Top Box Bore"
+        },
+        {
+            "type": "text",
+            "data": "BRSMBXBORE-Back Right Side Mid Box Bore"
+        },
+        {
+            "type": "text",
+            "data": "BRSBBXBORE-Back Right Side Bottom Box Bore"
+        },
+        {
+            "type": "text",
+            "data": "BLFBXBORE-Bottom Left Front Box Bore"
+        },
+        {
+            "type": "text",
+            "data": "BLMBXBORE-Bottom Left Mid Box Bore"
+        },
+        {
+            "type": "text",
+            "data": "BLRBXBORE-Bottom Left Rear Box Bore"
+        },
+        {
+            "type": "text",
+            "data": "BRFBXBORE-Bottom Right Front Box Bore"
+        },
+        {
+            "type": "text",
+            "data": "BRMBXBORE-Bottom Right Mid Box Bore"
+        },
+        {
+            "type": "text",
+            "data": "BRRBXBORE-Bottom Right Rear Box Bore"
+        },
+        {
+            "type": "text",
+            "data": "HOLE-Hole Operation"
+        },
+        {
+            "type": "text",
+            "data": "DADO-Dado Operation"
+        },
+        {
+            "type": "text",
+            "data": "BSFMTBOREL-Left Sub Front Mount Hole"
+        },
+        {
+            "type": "text",
+            "data": "BSFMTBORER-Right Sub Front Mount Hole"
+        },
+        {
+            "type": "text",
+            "data": "BDFMTBOREL-Left Drawer Front Mount Hole"
+        },
+        {
+            "type": "text",
+            "data": "BDFMTBORER-Right Drawer Front Mount Hole"
+        },
+        {
+            "type": "text",
+            "data": "DLBXBORE-Box Divider Left Top Bore"
+        },
+        {
+            "type": "text",
+            "data": "DLMBXBORE-Box Divider Left Mid Bore"
+        },
+        {
+            "type": "text",
+            "data": "DLBBXBORE-Box Divider Left Bottom Bore"
+        },
+        {
+            "type": "text",
+            "data": "DRBXBORE-Box Divider Right Top Bore"
+        },
+        {
+            "type": "text",
+            "data": "DRMBXBORE-Box Divider Right Mid Bore"
+        },
+        {
+            "type": "text",
+            "data": "DRBBXBORE-Box Divider Right Bottom Bore"
+        },
+        {
+            "type": "text",
+            "data": "PLTBXBORE-Box Partition Left Top Bore"
+        },
+        {
+            "type": "text",
+            "data": "PLMBXBORE-Box Partition Left Mid Bore"
+        },
+        {
+            "type": "text",
+            "data": "PLBBXBORE-Box Partition Left Bottom Bore"
+        },
+        {
+            "type": "text",
+            "data": "PRTBXBORE-Box Partition Right Top Bore"
+        },
+        {
+            "type": "text",
+            "data": "PRMBXBORE-Box Partition Right Mid Bore"
+        },
+        {
+            "type": "text",
+            "data": "PRBBXBORE-Box Partition Right Bottom Bore"
+        },
+        {
+            "type": "text",
+            "data": "BFLBXBORE-Bottom Front Left Box Bore"
+        },
+        {
+            "type": "text",
+            "data": "BFMBXBORE-Bottom Front Mid Box Bore"
+        },
+        {
+            "type": "text",
+            "data": "BFRBXBORE-Bottom Front Right Box Bore"
+        },
+        {
+            "type": "text",
+            "data": "BBLBXBORE-Bottom Back Left Box Bore"
+        },
+        {
+            "type": "text",
+            "data": "BBMBXBORE-Bottom Back Mid Box Bore"
+        },
+        {
+            "type": "text",
+            "data": "BBRBXBORE-Bottom Back Right Box Bore"
+        },
+        {
+            "type": "text",
+            "data": "HPBORE-Hinge Plate Hole"
+        },
+        {
+            "type": "text",
+            "data": "HCBORE-Hinge Cup"
+        },
+        {
+            "type": "text",
+            "data": "HCABORE-Hinge Cup Anchor Hole"
+        },
+        {
+            "type": "text",
+            "data": "SLDRGRVE-Slide Door Groove"
+        },
+        {
+            "type": "text",
+            "data": "SLDRRLBORE-Slide Door Mount Hole"
+        },
+        {
+            "type": "text",
+            "data": "SLDMNTBORE1-Slide Door Mount Plate Hole 1"
+        },
+        {
+            "type": "text",
+            "data": "SLDMNTBORE2-Slide Door Mount Plate Hole 2"
+        },
+        {
+            "type": "text",
+            "data": "SLDMNTBORE3-Slide Door Mount Plate Hole 3"
+        },
+        {
+            "type": "text",
+            "data": "SLDMNTBORE4-Slide Door Mount Plate Hole 4"
+        },
+        {
+            "type": "text",
+            "data": "SLDMNTBORE5-Slide Door Mount Plate Hole 5"
+        },
+        {
+            "type": "text",
+            "data": "SLDBOTMNTBORE1-Slide Door Bottom Mount Plate Hole 1"
+        },
+        {
+            "type": "text",
+            "data": "SLDBOTMNTBORE2-Slide Door Bottom Mount Plate Hole 2"
+        },
+        {
+            "type": "text",
+            "data": "SLDBOTMNTBORE3-Slide Door Bottom Mount Plate Hole 3"
+        },
+        {
+            "type": "text",
+            "data": "SLDBOTMNTBORE4-Slide Door Bottom Mount Plate Hole 4"
+        },
+        {
+            "type": "text",
+            "data": "SLDBOTMNTBORE5-Slide Door Bottom Mount Plate Hole 5"
+        },
+        {
+            "type": "text",
+            "data": "SLDTOPDADO-Slide Door Top Dado"
+        },
+        {
+            "type": "text",
+            "data": "SLDBOTDADO-Slide Door Bottom Dado"
+        },
+        {
+            "type": "text",
+            "data": "SLDTOPCHNL-Slide Door Top Channel"
+        },
+        {
+            "type": "text",
+            "data": "SLDBOTCHNL-Slide Door Bottom Channel"
+        },
+        {
+            "type": "text",
+            "data": "SLDRLBORE-Slide Door Rail Boring"
+        },
+        {
+            "type": "text",
+            "data": "PULL_HOLE-Pull Hole"
+        },
+        {
+            "type": "text",
+            "data": "TPULLBORE-Top Pull Hole"
+        },
+        {
+            "type": "text",
+            "data": "BPULLBORE-Bottom Pull Hole"
+        },
+        {
+            "type": "text",
+            "data": "TFRAMEBORE-Top Frame Bore"
+        },
+        {
+            "type": "text",
+            "data": "BFRAMEBORE-Bottom Frame Bore"
+        },
+        {
+            "type": "text",
+            "data": "LEFRAMEBORE-Left End Frame Bore"
+        },
+        {
+            "type": "text",
+            "data": "REFRAMEBORE-Right End Frame Bore"
+        },
+        {
+            "type": "text",
+            "data": "CLRBORE-Closet Rod Bore"
+        },
+        {
+            "type": "text",
+            "data": "OP-Operation"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Functions_and_Operators.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

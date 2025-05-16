@@ -1,0 +1,25 @@
+{
+    "id": "f4577f73-c2d7-4c2a-af29-ba0cb5e358d7",
+    "title": "JavaScript_Libraries",
+    "content": [
+        {
+            "type": "text",
+            "data": "JavaScript Libraries"
+        },
+        {
+            "type": "text",
+            "data": "See the  UCS topic  for information on JavaScript Libraries."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "UCS topic",
+                "uuid": "db3cc5fc-c4e0-45cd-bc5f-74f2e8778eaf",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\UCS\\JavaScript_User_Created_Standards\\JavaScript_Libraries.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

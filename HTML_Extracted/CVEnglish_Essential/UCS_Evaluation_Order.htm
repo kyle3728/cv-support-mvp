@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head><link rel="stylesheet" type="text/css" href="../../../../RHTMP/Microsoft%20HTML%20HelpLvLZav/_rhdefault.css"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="generator" content="Adobe RoboHelp 2019"/>
+  <title>UCS Evaluation Order</title>
+  <link rel="StyleSheet" href="../../assets/css/default.css" type="text/css"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/><script type="text/javascript" src="../../../../RHTMP/Microsoft%20HTML%20HelpLvLZav/ehlpdhtm.js"></script></head>
+<body>
+  <h1>UCS Evaluation Order</h1>
+  <p><img alt="" border="0" src="../../assets/images/zGraphics/1Products/1AUALL.png" style="border: none; width: 100%; max-width: 102px;"/></p>
+  <p>This topic is a look into the way that CABINET VISION generates Assemblies and the order that it evaluates parameters. There are three basic steps that CABINET VISION goes through to generate an Assembly. These steps are:</p>
+  <ol style="list-style: decimal;">
+    <li class="p">
+      <p class="Indent_1_Bulllet">The Assembly is generated according to the <a href="../../System_Level/Ribbonbar/Main_Tab/Construction_Group/Assembly_Manager/SL_Assembly_Manager.htm">Construction Method</a>.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet"><a href="../../System_Level/Ribbonbar/Utilities_Tab/Tools_Group/User_Created_Standards/UCS_UCS.htm">User Created Standards</a> are processed for that Assembly. See below for details about the way that User Created Standards are processed for an Assembly.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">The Graphics for the Assembly are generated.</p>
+    </li>
+  </ol>
+  <h2>UCS Evaluation For a Assembly</h2>
+  <p>When User Created Standards are evaluated for an Assembly, they are evaluated in the order that they (User Created Standards) occur in the list of User Created Standards. UCS #1 is evaluated for the current Assembly, then UCS #2 is evaluated for the current Assembly, etc.</p>
+  <p>Each User Created Standard processes the Assembly in Object Tree order. Children of a higher branch will have a higher priority than the parent of a lower branch. For example, consider the following fictional Object Tree:</p>
+  <p><img alt="" border="0" src="../../assets/images/zGraphics/image1451.gif" style="border: none; width: 100%; max-width: 130px;"/></p>
+  <p>In the above example, the Assembly Parts will be evaluated in the following order:</p>
+  <p><span style="font-weight: bold;">Part A 1</span>, <span style="font-weight: bold;">Part B 1</span>, <span style="font-weight: bold;">Part A 2</span>, <span style="font-weight: bold;">Part B 2</span>, <span style="font-weight: bold;">Part C 1</span>, <span style="font-weight: bold;">Part A 3</span>, <span style="font-weight: bold;">Part B 3</span></p>
+
+</body></html>

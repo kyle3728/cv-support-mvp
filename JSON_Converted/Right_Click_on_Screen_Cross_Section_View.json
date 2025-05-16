@@ -1,0 +1,114 @@
+{
+    "id": "ef454825-7e7c-4dba-aa39-dde18bbecff1",
+    "title": "Right_Click_on_Screen_Cross_Section_View",
+    "content": [
+        {
+            "type": "text",
+            "data": "Right Click on Screen Cross Section View\u00a0-"
+        },
+        {
+            "type": "image",
+            "data": "image70.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image71.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There are four options when right clicking on the screen in Cross Section View:"
+        },
+        {
+            "type": "image",
+            "data": "image6351.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image1161.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "To Drawing"
+        },
+        {
+            "type": "image",
+            "data": "image1147.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Sends a static image of the current View to  Drawing Scenes ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Drawing Scenes",
+                "uuid": "7534a4f7-8686-44aa-96b1-7ac305ab0a61",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "To Live Drawing -"
+        },
+        {
+            "type": "image",
+            "data": "image1148.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "1AUALL.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Sends a live view of the current View to  Drawing Scenes ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Drawing Scenes",
+                "uuid": "7534a4f7-8686-44aa-96b1-7ac305ab0a61",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Save Section"
+        },
+        {
+            "type": "image",
+            "data": "image1162.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option allows you to save the current Cross Section View as a Section View. This option saves the Section position of the current Cross Section View. Use the Saved Sections controls in the ribbonbar to work with Saved Sections you have created."
+        },
+        {
+            "type": "text",
+            "data": "Properties"
+        },
+        {
+            "type": "image",
+            "data": "image1149.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Properties",
+                "uuid": "3ea2c40b-e3fc-4eac-9114-cf8a3365c62a",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Right_Click_on_Screen_Cross_Section_View.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head><link rel="stylesheet" type="text/css" href="../../../../../../../../RHTMP/Microsoft%20HTML%20HelpLvLZav/_rhdefault.css"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="topic-status" content="Complete"/>
+  <meta name="generator" content="Adobe RoboHelp 2019"/>
+  <title>Bid Methods</title>
+  <link rel="StyleSheet" href="../../../../../../assets/css/default.css" type="text/css"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/><script type="text/javascript" src="../../../../../../../../RHTMP/Microsoft%20HTML%20HelpLvLZav/ehlpdhtm.js"></script></head>
+<body>
+  <p><span data-condition="Others:Print">
+      <?rh-placeholder type="breadcrumbs" 
+ ph-align="2" sep-char="&gt;" home="Top" usetopicformat="1" ph-style="font-family:Arial;font-size:12pt;font-weight: normal;font-style: normal;text-decoration: none;" ?></span></p>
+  <h1>Bid Methods</h1>
+  <p>This is a list of the Bid Methods used by the Bid Center. The value that each item returns is typically multiplied by a value you enter during setup.</p>
+  <p style="margin-left: 40px;"><img alt="" border="0" src="../../../../../../assets/images/Information.png" style="border: none; width: 100%; max-width: 32px;"/> New Bid Methods cannot be created by a user in CABINET VISION, nor can the existing ones be changed.  </p>
+  <p>There are over one hundred Bid Methods plus any Custom Labor Schemes you have created, that you can select from; they are as follows:</p>
+  <h2><a name="PercentMatCost" id="PercentMatCost"></a>% of Material Cost</h2>
+  <p>This Bid Method takes the value you enter (Whole Number representing the Percentage) and multiplies it by the Total Cost of Materials used in the Job. Material Cost is returned and calculated from the highlighted settings below in the Material Manager.</p>
+  <p><img alt="" border="0" src="../../../../../../assets/images/Room_Level/Side_Bar/Bid_Center/Ribbonbar/Main_Tab/Rate_Tables/Percent_of_Material_Cost.png" style="border: none; width: 100%; max-width: 629px;"/></p>
+  <p>Let’s break these highlighted areas down.</p>
+  <p>First let’s start with the Default Markup and Default Tax Rate. The Default Tax Rate comes from the Tax Rate either entered here by you for the Material or is brought over by the <a href="../../../../../../System_Level/Ribbonbar/Main_Tab/Catalogs_Group/Material_Manager/Ribbonbar/SLMM_Vendor.htm">Vendor</a> selected for the Material. The Default Markup is either entered by you or brought over by the <a href="../../../../../../System_Level/Ribbonbar/Main_Tab/Catalogs_Group/Material_Manager/Ribbonbar/Properties/SLMMRB_Vendors.htm">Vendor</a> selected for the Material.</p>
+  <p>The Tax Rate percentage is only applied to individual Materials if the Sales Tax field is set to True for that Material. Typically, you will only select Tax for those Materials that &quot;you&quot; pay tax on. There is a separate area in the Bid Center to calculate the Tax your &quot;customer&quot; pays.</p>
+  <p>The Default Cost field in the Materials Properties area represents the selected Units Cost. So, in the example above the Cost is per Sheet. This Cost is either entered by you or is brought over by the <a href="../../../../../../System_Level/Ribbonbar/Main_Tab/Catalogs_Group/Material_Manager/Ribbonbar/Properties/SLMMRB_Vendors.htm">Vendor</a> selected for the Material.</p>
+  <p>The example below represents one Sheet of the Material we have been looking at. In this case the price will come through to the Bid Center for one Sheet as:</p>
+  <ul style="list-style: circle;">
+    <li class="p">
+      <p class="Indent_1_Bulllet">1.00 Sheets x $17.00 = $17.00</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">2% Default Markup = $.34</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">0% Tax = $0.00 (Because Sales Tax is False)</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">Total = $17.34</p>
+    </li>
+  </ul>
+  <p>The final Material Property that will affect % of Material Cost is the Waste field. The Waste Percentage entered for the Material in the Material Manager will be added, in this case, to the number of Sheets represented in the Job.</p>
+  <h2><a name="PercentRunningTotal" id="PercentRunningTotal"></a>% of Running Total</h2>
+  <p>This Bid Method will allow you to specify a % of the Running Total of the Bid Methods directly above it in the list of Bid Methods in the Rate Table.</p>
+  <p style="margin-left: 40px;"><img alt="" border="0" src="../../../../../../assets/images/Information.png" style="border: none; width: 100%; max-width: 32px;"/> This Bid Method is similar to % of Sub Total below but does not have a restriction for Catalog assignment.</p>
+  <h2><a name="PercentSubTotal" id="PercentSubTotal"></a>% of Sub Total</h2>
+  <p>This Bid Method will allow you to specify a % of the Subtotal of the Bid Method directly above it in the list of Bid Methods in the Rate Table.</p>
+  <p style="margin-left: 40px;"><img alt="" border="0" src="../../../../../../assets/images/Information.png" style="border: none; width: 100%; max-width: 32px;"/> This Bid Method only works when the Rate Table is assigned to your specific Catalog(s). To do this click Catalogs in the sidebar from inside the Bid Center. Go into Internal Mode and select the Catalog. You will see the Rate Table option here. Simply click in this field and select the Rate Table utilizing % of Sub Total in it.</p>
+  <p><img alt="" border="0" src="../../../../../../assets/images/Room_Level/Side_Bar/Bid_Center/Ribbonbar/Main_Tab/Rate_Tables/PercentOfSubTotal.png" style="border: none; width: 100%; max-width: 559px;"/></p>
+  <h2><a name="SpecificAmount" id="SpecificAmount"></a>A Specific Amount</h2>
+  <p>This Bid Method takes the value you enter and adds it to your Bid as a line item.</p>
+  <h2><a name="Labor" id="Labor"></a>Labor: (Name of your Custom Labor Scheme)</h2>
+  <p>This Bid Method takes the Labor calculations from your selected <a href="../RLBC_View_Mode.htm">Labor Scheme</a> and adds it to your Bid.</p>
+  <h2 style="background-color: Transparent;"><a name="Per_45_Corner_Assembly" id="Per_45_Corner_Assembly"></a>Per 45 Corner Assembly</h2>
+  <p style="background-color: Transparent;">This Bid Method takes the value you enter and multiplies it by the total number of 45 Corner Assemblies in the Job.</p>
+  <h2 style="background-color: Transparent;"><a name="Per_90_Corner_Assembly" id="Per_90_Corner_Assembly"></a>Per 90 Corner Assembly</h2>
+  <p style="background-color: Transparent;">This Bid Method takes the value you enter and multiplies it by the total number of 90 Corner Assemblies in the Job.</p>
+  <h2 style="background-color: Transparent;"><a name="Per_Adjustable_Shelf" id="Per_Adjustable_Shelf"></a>Per Adjustable Shelf</h2>
+  <p style="background-color: Transparent;">This Bid Method takes the value you enter and multiplies it by the total number of Adjustable Shelves in the Job.</p>
+  <h2><a name="PerAppliedMoldingMiter" id="PerAppliedMoldingMiter"></a>Per Applied Molding Miter</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the total number of Miter Joints on Moldings Classified as Applied in the Job.</p>
+  <h2 style="background-color: Transparent;"><a name="Per_Arc_In_Part_Shape" id="Per_Arc_In_Part_Shape"></a>Per Arc In Part Shape</h2>
+  <p style="background-color: Transparent;">This Bid Method takes the value you enter and multiplies it by the total number of Arcs in Part Shapes in the Job.</p>
+  <h2 style="background-color: Transparent;"><a name="Per_Arc_In_Top_Shape" id="Per_Arc_In_Top_Shape"></a>Per Arc In Top Shape</h2>
+  <p style="background-color: Transparent;">This Bid Method takes the value you enter and multiplies it by the total number of Arcs in Counter Top Shapes in the Job.</p>
+  <h2><a name="PerAssembly" id="PerAssembly"></a>Per Assembly</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the Total number of Assemblies in your Job.</p>
+  <h2><a name="PerAssemblyOpening" id="PerAssemblyOpening"></a>Per Assembly Opening</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the total number of Face Openings in all Assemblies in the Job.</p>
+  <h2><a name="PerBaseAssembly" id="PerBaseAssembly"></a>Per Base Assembly</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the Total number of Assemblies Classified as Base in your Job.</p>
+  <h2><a name="PerBaseBoardMiter" id="PerBaseBoardMiter"></a>Per Base Board Miter</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the total number of Miter Joints on Moldings Classified as Base Board in the Job.</p>
+  <h2><a name="PerBeadMoldingMiter" id="PerBeadMoldingMiter"></a>Per Bead Molding Miter</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the total number of Miter Joints on Moldings Classified as Bead in the Job.</p>
+  <h2><a name="PerCasingMiter" id="PerCasingMiter"></a>Per Casing Miter</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the total number of Miter Joints on Moldings Classified as Casing in the Job.</p>
+  <h2><a name="PerCeilingMoldingMiter" id="PerCeilingMoldingMiter"></a>Per Ceiling Molding Miter</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the total number of Miter Joints on Moldings Classified as Ceiling in the Job.</p>
+  <h2><a name="PerChairRailMiter" id="PerChairRailMiter"></a>Per Chair Rail Miter</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the total number of Miter Joints on Moldings Classified as Chair Rail in the Job.</p>
+  <h2 style="background-color: Transparent;"><a name="Per_Closet_Door_Drawer_Assembly" id="Per_Closet_Door_Drawer_Assembly"></a>Per Closet Door/Drawer Assembly</h2>
+  <p style="background-color: Transparent;">This Bid Method takes the value you enter and multiplies it by the total number of Closet Door/Drawer Assemblies in the Job.</p>
+  <h2 style="background-color: Transparent;"><a name="Per_Closet_Horizontal_Assembly" id="Per_Closet_Horizontal_Assembly"></a>Per Closet Horizontal Assembly</h2>
+  <p style="background-color: Transparent;">This Bid Method takes the value you enter and multiplies it by the total number of Closet Horizontal Assemblies in the Job.</p>
+  <h2 style="background-color: Transparent;"><a name="Per_Closet_Vertical_Assembly" id="Per_Closet_Vertical_Assembly"></a>Per Closet Vertical Assembly</h2>
+  <p style="background-color: Transparent;">This Bid Method takes the value you enter and multiplies it by the total number of Closet Vertical Assemblies in the Job.</p>
+  <h2><a name="PerCrownMiter" id="PerCrownMiter"></a>Per Crown Miter</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the total number of Miter Joints on Moldings Classified as Crown in the Job.</p>
+  <h2><a name="PerCube" id="PerCube"></a><img alt="" border="0" src="../../../../../../assets/images/Warning.png" style="border: none; width: 100%; max-width: 32px;"/> Per Cube</h2>
+  <p>This Bid Method is only available to Stock Catalogs.</p>
+  <h2><a name="Per_Cubic_Foot_of_Assemblies" id="Per_Cubic_Foot_of_Assemblies"></a>Per Cubic Foot of Assemblies</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the Cubic Foot of Assemblies in the Job.</p>
+  <h2><a name="Per_Cubic_Meter_of_Assemblies" id="Per_Cubic_Meter_of_Assemblies"></a>Per Cubic Meter of Assemblies</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the Cubic Meter of Assemblies in the Job.</p>
+  <h2><a name="PerDadoOperation" id="PerDadoOperation"></a>Per Dado Operation</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the total number of Operations Classified Dadoes in the Job.</p>
+  <h2><a name="PerDoor" id="PerDoor"></a>Per Door</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the Total number of Doors in the Job. If you want Drawer Fronts and False Fronts included in this Method make sure to enable these options in <a href="../RLBC_Options.htm" style="font-weight: bold;">Options</a>.</p>
+  <h2><a name="PerDoorPull" id="PerDoorPull"></a>Per Door Pull</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the total number of Door Knobs/Pulls in the Job.</p>
+  <h2><a name="PerDrawer" id="PerDrawer"></a>Per Drawer</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the Total number of Drawer Boxes in the Job.</p>
+  <h2><a name="PerDrawerFront" id="PerDrawerFront"></a>Per Drawer Front</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the total number of Drawer Fronts in the Job.</p>
+  <h2><a name="PerDrawerGuide" id="PerDrawerGuide"></a>Per Drawer Guide</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the total number of Drawer Guides in the Job. Keep in mind this Bid Method counts &quot;each” Drawer Guide not each &quot;pair” of Drawer Guides.</p>
+  <h2><a name="PerDrawerPull" id="PerDrawerPull"></a>Per Drawer Pull</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the total number of Drawer Knobs/Pulls in the Job.</p>
+  <h2 style="background-color: Transparent;"><a name="Per_Drawer_Stretcher" id="Per_Drawer_Stretcher"></a>Per Drawer Stretcher</h2>
+  <p style="background-color: Transparent;">This Bid Method takes the value you enter and multiplies it by the total number of Drawer Stretchers in the Job.</p>
+  <h2><a name="PerDrillPunch" id="PerDrillPunch"></a>Per Drill Punch Operation</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the total number of Operations Classified as Drills/Boring in the Job.</p>
+  <h2 style="background-color: Transparent;"><a name="Per_Face_Blank_Panel_Section" id="Per_Face_Blank_Panel_Section"></a>Per Face Blank Panel Section</h2>
+  <p style="background-color: Transparent;">This Bid Method takes the value you enter and multiplies it by the total number of Blank Panel Face Sections in the Job.</p>
+  <h2 style="background-color: Transparent;"><a name="Per_Face_Open_Section" id="Per_Face_Open_Section"></a>Per Face Open Section</h2>
+  <p style="background-color: Transparent;">This Bid Method takes the value you enter and multiplies it by the total number of Open Face Sections in the Job.</p>
+  <h2 style="background-color: Transparent;"><a name="Per_Face_Panels_Section" id="Per_Face_Panels_Section"></a>Per Face Panels Section</h2>
+  <p style="background-color: Transparent;">This Bid Method takes the value you enter and multiplies it by the total number of Panel Face Sections in the Job.</p>
+  <h2><a name="PerFalseFront" id="PerFalseFront"></a>Per False Front</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the total number of False Fronts in the Job.</p>
+  <h2><a name="PerFiller" id="PerFiller"></a>Per Filler</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the total number of Objects Classified as Filler in the Job.</p>
+  <h2><a name="PerFinishedBack" id="PerFinishedBack"></a>Per Finished Back</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the total number of Finished Backs in the Job.</p>
+  <h2><a name="PerFinishedEnd" id="PerFinishedEnd"></a>Per Finished End</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the total number of Finished Ends in the Job.</p>
+  <h2 style="background-color: Transparent;"><a name="Per_Fixed_Shelf" id="Per_Fixed_Shelf"></a>Per Fixed Shelf</h2>
+  <p style="background-color: Transparent;">This Bid Method takes the value you enter and multiplies it by the total number of Fixed Shelves in the Job.</p>
+  <h2 style="background-color: Transparent;"><a name="Per_Glass_Adj_Shelf" id="Per_Glass_Adj_Shelf"></a>Per Glass Adj Shelf</h2>
+  <p style="background-color: Transparent;">This Bid Method takes the value you enter and multiplies it by the total number of Glass Adjustable Shelves in the Job.</p>
+  <h2 style="background-color: Transparent;"><a name="Per_Gusset" id="Per_Gusset"></a>Per Gusset</h2>
+  <p style="background-color: Transparent;">This Bid Method takes the value you enter and multiplies it by the total number of Gussets in the Job.</p>
+  <h2 style="background-color: Transparent;"><a name="Per_Hanging_Rod" id="Per_Hanging_Rod"></a>Per Hanging Rod</h2>
+  <p style="background-color: Transparent;">This Bid Method takes the value you enter and multiplies it by the total number of Hanging Rods in the Job.</p>
+  <h2><a name="PerHinge" id="PerHinge"></a>Per Hinge</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the total number of Hinges in the Job.</p>
+  <h2><a name="PerHourAccessoryLabor" id="PerHourAccessoryLabor"></a>Per Hour of Accessory Labor</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the total Labor Hours calculated by CABINET VISION. Labor Values for Accessories come from the Accessory.</p>
+  <p><img alt="" border="0" src="../../../../../../assets/images/Room_Level/Side_Bar/Bid_Center/Ribbonbar/Main_Tab/Rate_Tables/PerHourOfAccessoryLabor.png" style="border: none; width: 100%; max-width: 365px;"/></p>
+  <h2><a name="PerHourAssemblyLabor" id="PerHourAssemblyLabor"></a>Per Hour of Assembly Labor</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the total Labor Hours calculated by CABINET VISION. Labor Values for Assembly come from the Object’s Labor Property.</p>
+  <p><img alt="" border="0" src="../../../../../../assets/images/Room_Level/Side_Bar/Bid_Center/Ribbonbar/Main_Tab/Rate_Tables/PerHourOfAssemblyLabor.png" style="border: none; width: 100%; max-width: 430px;"/></p>
+  <h2><a name="PerHourDrawerLabor" id="PerHourDrawerLabor"></a>Per Hour of Drawer Labor</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the total Labor Hours calculated by CABINET VISION. Labor Values for Drawer Boxes come from the Drawer/Roll-Out Construction&#39;s Labor Per Box value used for the Drawer.</p>
+  <p><img src="../../../../../../assets/images/image745.png" style="width: 100%; max-width: 625px;"/></p>
+  <h2><a name="PerHourPartsLabor" id="PerHourPartsLabor"></a>Per Hour of Parts Labor</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the total Labor Hours calculated by CABINET VISION. Labor Values for Parts come from the <a href="../../../../../../System_Level/Ribbonbar/Main_Tab/Catalogs_Group/Part_Manager/SL_Part_Manager.htm">Part Manager</a>. Each Part contained in the Part Catalog has two Labor Settings. The first setting is Labor Setup, this value represents a one time Labor Cost in minutes for this Part per Job. The next setting is Labor Each, this value represents an incremental value based on each of these Parts within the Job.</p>
+  <h2><a name="PerHourRollOutLabor" id="PerHourRollOutLabor"></a>Per Hour of Roll Out Labor</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the total Labor Hours calculated by CABINET VISION. Labor Values for Roll-Outs come from the Drawer - Roll-Out Construction&#39;s Labor Per Box value used for the Roll-Out.</p>
+  <p><img src="../../../../../../assets/images/image745.png" style="width: 100%; max-width: 625px;"/></p>
+  <h2><a name="PerHourTotalLabor" id="PerHourTotalLabor"></a>Per Hour of Total Labor</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the total Labor Hours calculated by CABINET VISION. Labor Values for Total Labor come from a Total of all the above Labor Bid Methods.</p>
+  <h2 style="background-color: Transparent;"><a name="Per_Interior_Hanging_Section" id="Per_Interior_Hanging_Section"></a>Per Interior Hanging Section</h2>
+  <p style="background-color: Transparent;">This Bid Method takes the value you enter and multiplies it by the total number of Hanging Interior Sections in the Job.</p>
+  <h2 style="background-color: Transparent;"><a name="Per_Interior_Open_Section" id="Per_Interior_Open_Section"></a>Per Interior Open Section</h2>
+  <p style="background-color: Transparent;">This Bid Method takes the value you enter and multiplies it by the total number of Open Interior Sections in the Job.</p>
+  <h2><a name="PerLightRailMiter" id="PerLightRailMiter"></a>Per Light Rail Miter</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the total number of Miter Joints on Moldings Classified as Light Rail in the Job.</p>
+  <h2 style="background-color: Transparent;"><a name="Per_Lineal_Foot_of_45_Corner" id="Per_Lineal_Foot_of_45_Corner"></a>Per Lineal Foot of 45 Corner</h2>
+  <p style="background-color: Transparent;">This Bid Method takes the value you enter and multiplies it by the total Lineal Feet of Assemblies Classified as 45 Corner in your Job.</p>
+  <h2 style="background-color: Transparent;"><a name="Per_Lineal_Foot_of_90_Corner" id="Per_Lineal_Foot_of_90_Corner"></a>Per Lineal Foot of 90 Corner</h2>
+  <p style="background-color: Transparent;">This Bid Method takes the value you enter and multiplies it by the total Lineal Feet of Assemblies Classified as 90 Corner in your Job.</p>
+  <h2><a name="PerLFTAppliedMolding" id="PerLFTAppliedMolding"></a>Per Lineal Foot of Applied Molding</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the Lineal Feet of Molding Classified as Applied in the Job.</p>
+  <h2><a name="PerLFTCabinetry" id="PerLFTCabinetry"></a>Per Lineal Foot of Assemblies</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the total Lineal Feet of all Assemblies in your Job. The Lineal Feet of Assemblies is calculated automatically by Solid by adding the Length of all Assemblies in the Job together.</p>
+  <h2><a name="PerLFTBase" id="PerLFTBase"></a>Per Lineal Foot of Base</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the total Lineal Feet of Assemblies Classified as Base in your Job. The Lineal Feet of Base Class Assemblies is calculated automatically by CABINET VISION by adding the Length of all Base Classed Assemblies in the Job together.</p>
+  <h2><a name="PerLFTBaseBoard" id="PerLFTBaseBoard"></a>Per Lineal Foot of Base Board</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the Lineal Foot of Molding Classified as Base Board in the Job.</p>
+  <h2><a name="PerLFTBeadMolding" id="PerLFTBeadMolding"></a>Per Lineal Foot of Bead Molding</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the Lineal Feet of Molding Classified as Bead in the Job.</p>
+  <h2><a name="PerLFTCasing" id="PerLFTCasing"></a>Per Lineal Foot of Casing</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the Lineal Feet of Molding Classified as Casing in the Job.</p>
+  <h2><a name="PerLFTCeilingMolding" id="PerLFTCeilingMolding"></a>Per Lineal Foot of Ceiling Molding</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the Lineal Feet of Molding Classified as Ceiling in the Job.</p>
+  <h2><a name="PerLFTChairRail" id="PerLFTChairRail"></a>Per Lineal Foot of Chair Rail</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the Lineal Feet of Molding Classified as Chair Rail in the Job.</p>
+  <h2 style="background-color: Transparent;"><a name="Per_Lineal_Foot_of_Closet_Door_Drawer" id="Per_Lineal_Foot_of_Closet_Door_Drawer"></a>Per Lineal Foot of Closet Door/Drawer</h2>
+  <p style="background-color: Transparent;">This Bid Method takes the value you enter and multiplies it by the total Lineal Feet of Assemblies Classified as Closet Door/Drawer in your Job.</p>
+  <h2 style="background-color: Transparent;"><a name="Per_Lineal_Foot_of_Closet_Horizontal" id="Per_Lineal_Foot_of_Closet_Horizontal"></a>Per Lineal Foot of Closet Horizontal</h2>
+  <p style="background-color: Transparent;">This Bid Method takes the value you enter and multiplies it by the total Lineal Feet of Assemblies Classified as Closet Horizontal in your Job.</p>
+  <h2 style="background-color: Transparent;"><a name="Per_Lineal_Foot_of_Closet_Vertical" id="Per_Lineal_Foot_of_Closet_Vertical"></a>Per Lineal Foot of Closet Vertical</h2>
+  <p style="background-color: Transparent;">This Bid Method takes the value you enter and multiplies it by the total Lineal Feet of Assemblies Classified as Closet Vertical in your Job.</p>
+  <h2><a name="PerLinealFootCounterTop" id="PerLinealFootCounterTop"></a>Per Lineal Foot of Counter Top</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the Lineal Foot of the Counter Top.</p>
+  <h2><a name="PerLFTCrown" id="PerLFTCrown"></a>Per Lineal Foot of Crown</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the Lineal Feet of Molding Classified as Crown in the Job.</p>
+  <h2><a name="PerLFTEdgeBanding" id="PerLFTEdgeBanding"></a>Per Lineal Foot of Edge Banding</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the Lineal Foot of Edge Banding used in the Job.</p>
+  <h2 style="background-color: Transparent;"><a name="Per_Lineal_Foot_of_Filler" id="Per_Lineal_Foot_of_Filler"></a>Per Lineal Foot of Filler</h2>
+  <p style="background-color: Transparent;">This Bid Method takes the value you enter and multiplies it by the total Lineal Feet of Assemblies Classified as Filler in your Job.</p>
+  <h2><a name="PerLFTLightRail" id="PerLFTLightRail"></a>Per Lineal Foot of Light Rail</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the Lineal Feet of Molding Classified as Light Rail in the Job.</p>
+  <h2><a name="PerLFTMolding" id="PerLFTMolding"></a>Per Lineal Foot of Molding</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the Lineal Feet of Molding used in the Job. This is a Lump Sum of all Molding Types in the Job.</p>
+  <h2><a name="PerLFTScribe" id="PerLFTScribe"></a>Per Lineal Foot of Scribe</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the Lineal Feet of Molding Classified as Scribe in the Job.</p>
+  <h2><a name="PerLFTSplash" id="PerLFTSplash"></a>Per Lineal Foot of Splash</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the Lineal Feet of Splash in the Job.</p>
+  <h2 style="background-color: Transparent;"><a name="Per_Lineal_Foot_of_Standard" id="Per_Lineal_Foot_of_Standard"></a>Per Lineal Foot of Standard</h2>
+  <p style="background-color: Transparent;">This Bid Method takes the value you enter and multiplies it by the total Lineal Feet of Assemblies Classified as Standard in your Job.</p>
+  <h2><a name="PerLFTTall" id="PerLFTTall"></a>Per Lineal Foot of Tall</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the total Lineal Feet of Assemblies Classified as Tall in your Job. The Lineal Feet of Tall Assemblies is calculated automatically by CABINET VISION by adding the Length of all Tall Assemblies in the Job together.</p>
+  <h2 style="background-color: Transparent;"><a name="Per_Lineal_Foot_of_Toe_Assembly" id="Per_Lineal_Foot_of_Toe_Assembly"></a>Per Lineal Foot of Toe Assembly</h2>
+  <p style="background-color: Transparent;">This Bid Method takes the value you enter and multiplies it by the total Lineal Feet of Assemblies Classified as Toe Assembly in your Job.</p>
+  <h2><a name="PerLFTToeKick" id="PerLFTToeKick"></a>Per Lineal Foot of Toe Kick</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the total Lineal Feet of Toe Kick in the Job.</p>
+  <h2><a name="PerLFTTopEdging" id="PerLFTTopEdging"></a>Per Lineal Foot of Top Edging</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the Lineal Feet of Counter Top Edging in the Job.</p>
+  <h2><a name="PerLFTUpper" id="PerLFTUpper"></a>Per Lineal Foot of Upper</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the total Lineal Feet of Assemblies Classified as Wall in your Job. The Lineal Feet of Upper is calculated automatically by CABINET VISION by adding the Length of all Wall Assemblies in the Job together.</p>
+  <h2><a name="PerLFTVanity" id="PerLFTVanity"></a>Per Lineal Foot of Vanity</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the total Lineal Feet of Assemblies Classified as Vanity in your Job. The Lineal Feet of Vanity is calculated automatically by CABINET VISION by adding the Length of all Vanity Assemblies in the Job together.</p>
+  <h2 style="background-color: Transparent;"><a name="Per_Lineal_Meter_of_45_Corner" id="Per_Lineal_Meter_of_45_Corner"></a>Per Lineal Meter of 45 Corner</h2>
+  <p style="background-color: Transparent;">This Bid Method takes the value you enter and multiplies it by the total Lineal Meter of Assemblies Classified as 45 Corner in your Job.</p>
+  <h2 style="background-color: Transparent;"><a name="Per_Lineal_Meter_of_90_Corner" id="Per_Lineal_Meter_of_90_Corner"></a>Per Lineal Meter of 90 Corner</h2>
+  <p style="background-color: Transparent;">This Bid Method takes the value you enter and multiplies it by the total Lineal Meter of Assemblies Classified as 90 Corner in your Job.</p>
+  <h2><a name="PerLMAppliedMolding" id="PerLMAppliedMolding"></a>Per Lineal Meter of Applied Molding</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the Lineal Meter of Molding Classified as Applied in the Job.</p>
+  <h2><a name="PerLMAssemblies" id="PerLMAssemblies"></a>Per Lineal Meter of Assemblies</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the total Lineal Meter of all Assemblies in your Job. The Lineal Meter of Assemblies is calculated automatically by CABINET VISION by adding the Length of all Assemblies in the Job together.</p>
+  <h2><a name="PerLMBase" id="PerLMBase"></a>Per Lineal Meter of Base</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the total Lineal Meter of all Assemblies Classified as Base in your Job. The Lineal Meter of Base is calculated automatically by CABINET VISION by adding the Length of all Base Assemblies in the Job together.</p>
+  <h2><a name="PerLMBaseBoard" id="PerLMBaseBoard"></a>Per Lineal Meter of Base Board</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the Lineal Meter of Molding Classified as Base Board in the Job.</p>
+  <h2><a name="PerLMBeadMolding" id="PerLMBeadMolding"></a>Per Lineal Meter of Bead Molding</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the Lineal Meter of Molding Classified as Bead in the Job.</p>
+  <h2><a name="PerLMCasing" id="PerLMCasing"></a>Per Lineal Meter of Casing</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the Lineal Meter of Molding Classified as Casing in the Job.</p>
+  <h2><a name="PerLMCeilingMolding" id="PerLMCeilingMolding"></a>Per Lineal Meter of Ceiling Molding</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the Lineal Meter of Molding Classified as Ceiling in the Job.</p>
+  <h2><a name="PerLMChairRail" id="PerLMChairRail"></a>Per Lineal Meter of Chair Rail</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the Lineal Meter of Molding Classified as Chair Rail in the Job.</p>
+  <h2 style="background-color: Transparent;"><a name="Per_Lineal_Meter_of_Closet_Door_Drawer" id="Per_Lineal_Meter_of_Closet_Door_Drawer"></a>Per Lineal Meter of Closet Door/Drawer</h2>
+  <p style="background-color: Transparent;">This Bid Method takes the value you enter and multiplies it by the total Lineal Meter of Assemblies Classified as Closet Door/Drawer in your Job.</p>
+  <h2 style="background-color: Transparent;"><a name="Per_Lineal_Meter_of_Closet_Horizontal" id="Per_Lineal_Meter_of_Closet_Horizontal"></a>Per Lineal Meter of Closet Horizontal</h2>
+  <p style="background-color: Transparent;">This Bid Method takes the value you enter and multiplies it by the total Lineal Meter of Assemblies Classified as Closet Horizontal in your Job.</p>
+  <h2 style="background-color: Transparent;"><a name="Per_Lineal_Meter_of_Closet_Vertical" id="Per_Lineal_Meter_of_Closet_Vertical"></a>Per Lineal Meter of Closet Vertical</h2>
+  <p style="background-color: Transparent;">This Bid Method takes the value you enter and multiplies it by the total Lineal Meter of Assemblies Classified as Closet Vertical in your Job.</p>
+  <h2><a name="PerLMCounterTop" id="PerLMCounterTop"></a>Per Lineal Meter of Counter Top</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the Lineal Meter of the Counter Top.</p>
+  <h2><a name="PerLMCrown" id="PerLMCrown"></a>Per Lineal Meter of Crown</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the Lineal Meter of Molding Classified as Crown in the Job.</p>
+  <h2><a name="PerLMEdgeBanding" id="PerLMEdgeBanding"></a>Per Lineal Meter of Edge Banding</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the Lineal Meter of Edge Banding used in the Job.</p>
+  <h2 style="background-color: Transparent;"><a name="Per_Lineal_Meter_of_Filler" id="Per_Lineal_Meter_of_Filler"></a>Per Lineal Meter of Filler</h2>
+  <p style="background-color: Transparent;">This Bid Method takes the value you enter and multiplies it by the total Lineal Meter of Assemblies Classified as Filler in your Job.</p>
+  <h2><a name="PerLMLightRail" id="PerLMLightRail"></a>Per Lineal Meter of Light Rail</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the Lineal Meter of Molding Classified as Light Rail in the Job.</p>
+  <h2><a name="PerLMMolding" id="PerLMMolding"></a>Per Lineal Meter of Molding</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the Lineal Meter of Molding used in the Job. This is a Lump Sum of all Molding Types in the Job.</p>
+  <h2><a name="PerLMScribe" id="PerLMScribe"></a>Per Lineal Meter of Scribe</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the Lineal Meter of Molding Classified as Scribe in the Job.</p>
+  <h2><a name="PerLMSplash" id="PerLMSplash"></a>Per Lineal Meter of Splash</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the Lineal Meter of Splash in the Job.</p>
+  <h2 style="background-color: Transparent;"><a name="Per_Lineal_Meter_of_Standard" id="Per_Lineal_Meter_of_Standard"></a>Per Lineal Meter of Standard</h2>
+  <p style="background-color: Transparent;">This Bid Method takes the value you enter and multiplies it by the total Lineal Meter of Assemblies Classified as Standard in your Job.</p>
+  <h2><a name="PerLMTall" id="PerLMTall"></a>Per Lineal Meter of Tall</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the total Lineal Meter of all Assemblies Classified as Tall in your Job. The Lineal Meter of Tall is calculated automatically by CABINET VISION by adding the Length of all Tall Assemblies in the Job together.</p>
+  <h2 style="background-color: Transparent;"><a name="Per_Lineal_Meter_of_Toe_Assembly" id="Per_Lineal_Meter_of_Toe_Assembly"></a>Per Lineal Meter of Toe Assembly</h2>
+  <p style="background-color: Transparent;">This Bid Method takes the value you enter and multiplies it by the total Lineal Meter of Assemblies Classified as Toe Assembly in your Job.</p>
+  <h2><a name="PerLMToeKick" id="PerLMToeKick"></a>Per Lineal Meter of Toe Kick</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the total Lineal Meter of Toe Kick in the Job.</p>
+  <h2><a name="PerLMTopEdging" id="PerLMTopEdging"></a>Per Lineal Meter of Top Edging</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the Lineal Meter of Counter Top Edging in the Job.</p>
+  <h2><a name="PerLMUpper" id="PerLMUpper"></a>Per Lineal Meter of Upper</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the total Lineal Meter of all Assemblies Classified as Wall in your Job. The Lineal Meter of Upper is calculated automatically by CABINET VISION by adding the Length of all Upper Assemblies in the Job together.</p>
+  <h2><a name="PerLMVanity" id="PerLMVanity"></a>Per Lineal Meter of Vanity</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the total Lineal Meter of all Assemblies Classified as Vanity in your Job. The Lineal Meter of Vanity is calculated automatically by CABINET VISION by adding the Length of all Vanity Assemblies in the Job together.</p>
+  <h2><a name="PerMoldingMiter" id="PerMoldingMiter"></a>Per Molding Miter</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the total number of Molding Miter Joints in the Job.</p>
+  <h2><a name="PerPart" id="PerPart"></a>Per Part</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the Total number of Parts in your Job.</p>
+  <h2><a name="PerPieceMolding" id="PerPieceMolding"></a>Per Piece of Molding</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the total pieces of Molding used in the Job. This is a Lump Sum of all Molding Types in the Job.</p>
+  <h2><a name="PerPound" id="PerPound"></a><img alt="" border="0" src="../../../../../../assets/images/Warning.png" style="border: none; width: 100%; max-width: 32px;"/> Per Pound</h2>
+  <p>This Bid Method is only available to Stock Catalogs.</p>
+  <h2><a name="PerPull" id="PerPull"></a>Per Pull</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the total number of Knobs/Pulls in the Job.</p>
+  <h2><a name="PerRollOut" id="PerRollOut"></a>Per Roll Out</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the total number of Roll-Outs in your Job.</p>
+  <h2 style="background-color: Transparent;"><a name="Per_Roll_Out_Shelf" id="Per_Roll_Out_Shelf"></a>Per Roll Out Shelf</h2>
+  <p style="background-color: Transparent;">This Bid Method takes the value you enter and multiplies it by the total number of Roll Out Shelves in your Job.</p>
+  <h2 style="background-color: Transparent;"><a name="Per_Route_Operation" id="Per_Route_Operation"></a>Per Route Operation</h2>
+  <p style="background-color: Transparent;">This Bid Method takes the value you enter and multiplies it by the total number of Route Operations in your Job.</p>
+  <h2><a name="PerScribeMiter" id="PerScribeMiter"></a>Per Scribe Miter</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the total number of Miter Joints on Moldings Classified as Scribe in the Job.</p>
+  <h2 style="background-color: Transparent;"><a name="Per_Shelf" id="Per_Shelf"></a>Per Shelf</h2>
+  <p style="background-color: Transparent;">This Bid Method takes the value you enter and multiplies it by the Total number of Shelves in your Job.</p>
+  <h2><a name="Per_Shoe_Cubbie" id="Per_Shoe_Cubbie"></a>Per Shoe Cubbie</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the total number of Closet Shoe Cubbies in the Job.</p>
+  <h2 style="background-color: Transparent;"><a name="Per_Shoe_Shelf" id="Per_Shoe_Shelf"></a>Per Shoe Shelf</h2>
+  <p style="background-color: Transparent;">This Bid Method takes the value you enter and multiplies it by the total number of Shoe Shelves in your Job.</p>
+  <h2><a name="Per_Sliding_Door_Plate" id="Per_Sliding_Door_Plate"></a>Per Sliding Door Plate</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the total number of Sliding Door Plates in the Job.</p>
+  <h2><a name="Per_Sliding_Door_Rail" id="Per_Sliding_Door_Rail"></a>Per Sliding Door Rail</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the total number of Sliding Door Rails in the Job.</p>
+  <h2><a name="PerSqFtAssemblyFace" id="PerSqFtAssemblyFace"></a>Per Square Foot of Assembly Face</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the Square Foot of the Assemblies Face. CABINET VISION considers the entire Length and Width of the Assembly Face to calculate this value. See the figure of the Base Cabinet below. The highlighted area of the Cabinet is what CABINET VISION considers the &quot;Face”.</p>
+  <p><img alt="" border="0" src="../../../../../../assets/images/zGraphics/image608.gif" style="border: none; width: 100%; max-width: 403px;"/></p>
+  <h2><a name="PerSqFtCounterTop" id="PerSqFtCounterTop"></a>Per Square Foot of Counter Top</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the Square Foot of the Counter Tops overall Surface area. CABINET VISION considers the entire Length and Width of the Counter’s top surface to calculate this value.</p>
+  <h2><a name="PerSqFtDoors" id="PerSqFtDoors"></a>Per Square Foot of Doors</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the Total Square Feet of Doors in the Job. If you want Drawer Fronts and False Fronts included in this Method make sure to enable these options in <a href="../RLBC_Options.htm" style="font-weight: bold;">Options</a>.</p>
+  <h2><a name="PerSqFtFinishedArea" id="PerSqFtFinishedArea"></a>Per Square Foot of Finished Area</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the Total Square Feet of Finished Area in the Job. Finished Area is calculated automatically by CABINET VISION and includes Finished Ends and Finished Backs. It will also include all Interior Surfaces if the Cabinet is marked as Exposed Interior.</p>
+  <h2><a name="PerSqFtFinishedBack" id="PerSqFtFinishedBack"></a>Per Square Foot of Finished Back</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the total Square Feet of Finished Backs in the Job.</p>
+  <h2><a name="PerSqFtFinishedEnd" id="PerSqFtFinishedEnd"></a>Per Square Foot of Finished End</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the total Square Feet of Finished Ends in the Job.</p>
+  <h2><a name="PerSqFtSplash" id="PerSqFtSplash"></a>Per Square Foot of Splash</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the Square Feet of Splash in the Job.</p>
+  <h2><a name="PerSqMAssemblyFace" id="PerSqMAssemblyFace"></a>Per Square Meter of Assembly Face</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the Square Meter of the Assemblies Face. CABINET VISION considers the entire Length and Width of the Assembly Face to calculate this value. See the figure of the Base Cabinet above. The highlighted area of the Cabinet is what CABINET VISION considers the &quot;Face”.</p>
+  <h2><a name="PerSqMCounterTop" id="PerSqMCounterTop"></a>Per Square Meter of Counter Top</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the Square Meter of the Counter Tops overall Surface area. CABINET VISION considers the entire Length and Width of the Counter’s top surface to calculate this value.</p>
+  <h2><a name="PerSqMDoors" id="PerSqMDoors"></a>Per Square Meter of Doors</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the Total Square Meter of Doors in the Job. If you want Drawer Fronts and False Fronts included in this Method make sure to enable these options in <a href="../RLBC_Options.htm" style="font-weight: bold;">Options</a>.</p>
+  <h2><a name="PerSqMFinishedArea" id="PerSqMFinishedArea"></a>Per Square Meter of Finished Area</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the Total Square Meter of Finished Area in the Job. Finished Area is calculated automatically by CABINET VISION and includes Finished Ends and Finished Backs. It will also include all Interior Surfaces if the Cabinet is marked as Exposed Interior.</p>
+  <h2><a name="PerSqMFinishedBack" id="PerSqMFinishedBack"></a>Per Square Meter of Finished Back</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the total Square Meter of Finished Backs in the Job.</p>
+  <h2><a name="PerSqMFinishedEnd" id="PerSqMFinishedEnd"></a>Per Square Meter of Finished End</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the total Square Meter of Finished Ends in the Job.</p>
+  <h2><a name="PerSqMSPlash" id="PerSqMSPlash"></a>Per Square Meter of Splash</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the Square Meter of Splash in the Job.</p>
+  <h2 style="background-color: Transparent;"><a name="Per_Standard_Assembly" id="Per_Standard_Assembly"></a>Per Standard Assembly</h2>
+  <p style="background-color: Transparent;">This Bid Method takes the value you enter and multiplies it by the Total number of Assemblies Classified as Standard in your Job.</p>
+  <h2><a name="PerTallAssembly" id="PerTallAssembly"></a>Per Tall Assembly</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the Total number of Assemblies Classified as Tall in your Job.</p>
+  <h2 style="background-color: Transparent;"><a name="Per_Toe_Assembly" id="Per_Toe_Assembly"></a>Per Toe Assembly</h2>
+  <p style="background-color: Transparent;">This Bid Method takes the value you enter and multiplies it by the Total number of Assemblies Classified as Toe Assembly in your Job.</p>
+  <h2><a name="PerTop" id="PerTop"></a>Per Top</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the total number of Counter Tops in the Job.</p>
+  <h2><a name="PerTopCutout" id="PerTopCutout"></a>Per Top Cutout</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the total number of Counter Top Cut Outs in the Job.</p>
+  <h2><a name="PerTopEdgeMiter" id="PerTopEdgeMiter"></a>Per Top Edge Miter</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the total number of Miter Joints on Counter Top Edging in the Job.</p>
+  <h2><a name="PerTopMiter" id="PerTopMiter"></a>Per Top Miter</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the total number of Miter Joints on Counter Tops in the Job.</p>
+  <h2 style="background-color: Transparent;"><a name="Per_Top_Part" id="Per_Top_Part"></a>Per Top Part</h2>
+  <p style="background-color: Transparent;">This Bid Method takes the value you enter and multiplies it by the total number of Assembly Tops in the Job.</p>
+  <h2><a name="PerUpperAssembly" id="PerUpperAssembly"></a>Per Upper Assembly</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the Total number of Assemblies Classified as Upper in your Job.</p>
+  <h2><a name="PerVanityAssembly" id="PerVanityAssembly"></a>Per Vanity Assembly</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the Total number of Cabinets Classified as Vanity in your Job.</p>
+  <h2 style="background-color: Transparent;"><a name="Per_Web_Frame" id="Per_Web_Frame"></a>Per Web Frame</h2>
+  <p style="background-color: Transparent;">This Bid Method takes the value you enter and multiplies it by the total number of Web Frames in the Job.</p>
+  <h2><a name="Per_Wire_Basket" id="Per_Wire_Basket"></a>Per Wire Basket</h2>
+  <p>This Bid Method takes the value you enter and multiplies it by the Total number of Wire Baskets in your Job.</p>
+  <h2><a name="UseCabinetCatalogPricing" id="UseCabinetCatalogPricing"></a>Use Assembly Catalog Pricing</h2>
+  <p>This Bid Method can be used to set an Up-charge or Discount to Assembly Pricing that is brought over to the Bid Center. By Default any Assembly that has a Value for Price in its Properties will come over and be added to the Bid by default. <span style="color: #ff0000;">This Bid Method, if used with no values, would actually double the Price values applied to the Assemblies.</span> The best way to explain this Bid Method is by example. The image below represents what you would see with no active Rate Table and you bring in a Std Base with a Price of $100.00.</p>
+  <p><img alt="" border="0" src="../../../../../../assets/images/image3566.gif" style="border: none; width: 100%; max-width: 653px;"/></p>
+  <p>Without utilizing this Bid Method in your Rate Table there is no way to either Up-charge or Discount this price. The graphic below demonstrates how to use this Bid Method using the Markup field to give a 20% (-120 Markup) discount on the Assembly demonstrated above.</p>
+  <p><img alt="" border="0" src="../../../../../../assets/images/Room_Level/Side_Bar/Bid_Center/Ribbonbar/Main_Tab/Rate_Tables/Discount.png" style="border: none; width: 100%; max-width: 559px;"/></p>
+  <p>And here is the result:</p>
+  <p><img alt="" border="0" src="../../../../../../assets/images/image3567.gif" style="border: none; width: 100%; max-width: 653px;"/></p>
+  <p>You could do a 20% Up-Charge utilizing the same Method. You would set the Markup to 80% instead.</p>
+  <h2><a name="UseDoorCatalogPriceBidMethod" id="UseDoorCatalogPriceBidMethod"></a>Use Door Catalog Pricing</h2>
+  <p>This Bid Method does not use the Value field. It takes the Prices you enter for Doors, Drawer Fronts, False Fronts, and Panels and their sub-components and totals them for the Job.</p>
+  <p>There are several places where this data is retrieved.</p>
+  <h4>Door Catalog</h4>
+  <p>The first area where Door Catalog Pricing is retrieved is from the Door Styles Price fields. You can add a price either &quot;Per Door” or &quot;Per SqFt” or even a combination of both. The highlighted portion of the image below shows these fields.</p>
+  <p><img alt="" border="0" src="../../../../../../assets/images/Room_Level/Side_Bar/Bid_Center/Ribbonbar/Main_Tab/Rate_Tables/Door_Catalog_Cost.png" style="border: none; width: 100%; max-width: 629px;"/></p>
+  <h4>Door/Drawer Front Material Schedules</h4>
+  <p>The next area where Door Catalog Pricing is retrieved is from the Material Schedule(s) assigned to the Door Style. You can add a price either Per Door (Cost/Door) or Per Square Foot or Meter (Cost/SqFt/SqM) or even a combination of both. These fields can be used to add Door Pricing Up-charges based on the Material(s) utilized by the Door Style. The highlighted portion of the image below shows these fields.</p>
+  <p><img alt="" border="0" src="../../../../../../assets/images/Room_Level/Side_Bar/Bid_Center/Ribbonbar/Main_Tab/Rate_Tables/Door_MatSched_Cost.png" style="border: none; width: 100%; max-width: 1036px;"/></p>
+  <h3>Door Profiles</h3>
+  <p>The next area where Door Catalog Pricing is retrieved is from the Profile(s) assigned to the Door Style. You can add a price either &quot;Per Door” or &quot;Per SqFt” or even a combination of both. These fields can be used to add Door Pricing Up-charges based on the Profile(s) utilized by the Door Style. The highlighted portion of the image below shows these fields.</p>
+  <p style="margin-left: 40px;"><img alt="" border="0" src="../../../../../../assets/images/Information.png" style="border: none; width: 100%; max-width: 32px;"/> The Per SqFt Price entered here represents the Square Footage of the Door that the Profile is assigned to.</p>
+  <p><img alt="" border="0" src="../../../../../../assets/images/image5696.gif" style="border: none; width: 100%; max-width: 499px;"/></p>
+  <h2><a name="UseDrawerCatalogPricing" id="UseDrawerCatalogPricing"></a>Use Drawer Catalog Pricing</h2>
+  <p>This Bid Method does not use the Value field. It takes the Price you enter for Drawer Box(es) in the Drawer/Roll Out Construction and totals them for the Job. The highlighted portion of the image below shows the entry field.</p>
+  <p><img src="../../../../../../assets/images/image1105.png" style="width: 100%; max-width: 673px;"/></p>
+  <h2 style="background-color: Transparent;"><a name="Use_Molding_Catalog_Pricing" id="Use_Molding_Catalog_Pricing"></a>Use Molding Catalog Pricing</h2>
+  <p style="background-color: Transparent;">Similar to % of Material Cost this Bid Method pulls pricing from Molding Materials (Molding you Buy) in the Material Manager. See the Use Profile Catalog Bid Method for Molding you make from the Molding Manager.</p>
+  <h2><a name="UsePartCatalogPricing" id="UsePartCatalogPricing"></a>Use Part Catalog Pricing</h2>
+  <p>This Bid Method does not use the Value field. It takes the Price and or Formula you enter for Part(s) in the <a href="../../../../../../System_Level/Ribbonbar/Main_Tab/Catalogs_Group/Part_Manager/SL_Part_Manager.htm">Part Manager</a> and totals them for the Job. When you are in <a href="../RLSBBC_Internal_Mode_Tool.htm">Internal Mode</a> the Part Pricing will be broken out at the main level of the Bid Center. Parts will be sorted in the list alphabetically by the Part name.</p>
+  <p><img alt="" border="0" src="../../../../../../assets/images/zGraphics/image833.gif" style="border: none; width: 100%; max-width: 604px;"/></p>
+  <p>Parts are also broken out for each Cabinet in the Catalog Level of the Bid Center.</p>
+  <p><img alt="" border="0" src="../../../../../../assets/images/zGraphics/image834.gif" style="border: none; width: 100%; max-width: 606px;"/></p>
+  <h2><a name="UseProfileCatalogPricing" id="UseProfileCatalogPricing"></a>Use Profile Catalog Pricing</h2>
+  <p>This Bid Method does not use the Value field. It takes the Price you enter for Molding(s) in the <a href="../../../../../../System_Level/Ribbonbar/Main_Tab/Catalogs_Group/SL_Molding_Manager.htm">Molding Manager</a> and totals them for the Job. The Cost Per Job field would be a one time Cost when the selected Molding is used in a Job. Cost Per Strip would represent each Piece of Molding. Cost Per FT/Meter would represent the Price you charge for each Foot/Meter of Molding. The highlighted portion of the image below shows the entry fields.</p>
+  <p><img alt="" border="0" src="../../../../../../assets/images/Room_Level/Side_Bar/Bid_Center/Ribbonbar/Main_Tab/Rate_Tables/Molding_Manager_Pricing.png" style="border: none; width: 100%; max-width: 1036px;"/></p>
+  <h2><a name="UseRollOutCatalogPricing" id="UseRollOutCatalogPricing"></a>Use Roll Out Catalog Pricing</h2>
+  <p>This Bid Method does not use the Value field. It takes the Price you enter for Roll-Out(s) in the Drawer/Roll Out Construction and totals them for the Job. The highlighted portion of the image below shows the entry field.</p>
+  <p><img src="../../../../../../assets/images/image1106.png" style="width: 100%; max-width: 673px;"/></p>
+
+</body></html>

@@ -1,0 +1,21 @@
+{
+    "id": "86b3b14e-8615-42e2-875e-bcb1f728ae98",
+    "title": "Building_Blocks_Nest",
+    "content": [
+        {
+            "type": "text",
+            "data": "Building Blocks Nest"
+        },
+        {
+            "type": "text",
+            "data": "This is a Parts Router and/or Point-to-Point Link."
+        },
+        {
+            "type": "text",
+            "data": "The ASCII output for Building Blocks follows the AutoSoftware version 2.0 file format. Tool compensation for router paths are supported. All saws should be set to output Center Line paths. Tool Number, Feed Rate, Layer Name & Pen Number from the Tool Catalog will be ignored. Tool selection is made by a diameter match between the tool and the operation. Since some tools are selected by matching the width of the tool and the operation, the output unit should match that of your machines tool catalog. This is typically metric."
+        }
+    ],
+    "source_file": "NCEnglish\\Ribbonbar\\Main_Tab\\Machine\\NC_Links\\Parts_Router_P-2-P_Links\\Building_Blocks_Nest.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

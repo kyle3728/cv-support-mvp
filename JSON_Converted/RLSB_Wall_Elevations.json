@@ -1,0 +1,102 @@
+{
+    "id": "4171ad63-e6d8-48fa-94a7-daf871687021",
+    "title": "RLSB_Wall_Elevations",
+    "content": [
+        {
+            "type": "text",
+            "data": "Plan & Elevation Sheet -"
+        },
+        {
+            "type": "image",
+            "data": "image185.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image603.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Plan and Elevation Sheets are special reports designed for your Installers. They will have a picture of a Wall Elevation, with a list of all the Assemblies that go on that Wall across the bottom of the printout, as well as other Job/Room/Wall information. See the  Plan & Elevation Sheet Layout topic  for more information."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Plan & Elevation Sheet Layout topic",
+                "uuid": "69e66c65-79f5-4654-b9ce-e276aff5d0b6",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "You also have the ability to create your own Plan & Elevation Sheets which are stored as  Templates  in the Drawing Library and can be retrieved by clicking the Change... button in this area."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Templates",
+                "uuid": "42693001-e896-4fb4-bab5-90f16894ad62",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image1380.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "You can Print or send \"To Drawing\" either Plan or Elevation or both by simply enabling or disabling their respective options at the top of this window. When both are selected you will see the the Plan then the Elevation(s) for each Room printed in order before the next Room is printed."
+        },
+        {
+            "type": "text",
+            "data": "To Print or send \"To Drawing\" a Plan and/or Wall Elevation sheet for one Wall in a Room, select the Plan or Wall to print, and then click on Print or To Drawing."
+        },
+        {
+            "type": "text",
+            "data": "To Print or send \"To Drawing\" multiple Plan and/or Wall Elevation sheets for only some of the Walls in a Room; select the Walls to print with your mouse while holding down the \"Ctrl\" key, and then click on Print or To Drawing."
+        },
+        {
+            "type": "text",
+            "data": "To Print or send \"To Drawing\" Plan and/or Elevation sheets for all Walls in the Job, select the \"Entire Job\" option and then click on Print or To Drawing."
+        },
+        {
+            "type": "text",
+            "data": "To Print or send \"To Drawing\" Plan and/or Wall Elevation sheets for all Walls in a Room, select the \"Current Room\" option and then click on Print or To Drawing."
+        },
+        {
+            "type": "text",
+            "data": "By default CABINET VISION will place only Walls that have Objects placed on them in the list of Walls to Print. If you would like the ability to Print all Walls including Empty Walls select the \"Include Empty Walls\" option."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Controlling Wall Elevation Face View Layers"
+        },
+        {
+            "type": "image",
+            "data": "image1381.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "You can access the Wall Elevations Layers to edit the content from the Reports area by right clicking on an open area and selecting Properties. The screen pictured above should then appear. This view is editable in the same way that you can make changes to  Layers . The printer icon will be used to determine whether that particular item is visible on the printed page. If the printer icon is lit, that item will appear, if it is dark, that item will not be printed. The color block can be used to determine the color that will be used for that item. The line type can be selected by clicking on the small sample line and then choosing a line type. Finally, some items will be editable. You can click on Shop Annotations, Annotations, or Dimensions and the edit button will become active. By clicking on Edit, you can control details of that item."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Layers",
+                "uuid": "9c8e2b12-0f70-4c19-8d8c-a84158788365",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish\\Room_Level\\Side_Bar\\Wall_Elevations\\RLSB_Wall_Elevations.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

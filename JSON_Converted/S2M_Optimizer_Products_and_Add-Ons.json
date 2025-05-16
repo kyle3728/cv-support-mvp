@@ -1,0 +1,35 @@
+{
+    "id": "fddd3960-2e1e-48d2-8527-d0d2d321c471",
+    "title": "S2M_Optimizer_Products_and_Add-Ons",
+    "content": [
+        {
+            "type": "text",
+            "data": "S2M Optimizer Products and Add-Ons"
+        },
+        {
+            "type": "text",
+            "data": "The following S2M Optimizer Products are available. The icons below will represent them throughout the Help file. This is how the Help file will identify which features are available in which Products."
+        },
+        {
+            "type": "text",
+            "data": "- Optimizer"
+        },
+        {
+            "type": "image",
+            "data": "S2M_OPT.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "- Optimizer NC Output"
+        },
+        {
+            "type": "image",
+            "data": "S2M_ONC.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "NCEnglish_Optimizer\\Introduction\\S2M_Optimizer_Products_and_Add-Ons.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

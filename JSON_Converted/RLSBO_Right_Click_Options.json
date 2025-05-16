@@ -1,0 +1,167 @@
+{
+    "id": "229787a1-85f0-457c-8d46-c4a4ae873ccf",
+    "title": "RLSBO_Right_Click_Options",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top \n > \n \n \n Room Level \n > \n \n Sidebar \n > \n \n Objects \n > \n \n Right Click Options"
+        },
+        {
+            "type": "text",
+            "data": "Top \n >"
+        },
+        {
+            "type": "text",
+            "data": "Room Level \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Room Level",
+                "uuid": "9eaa492c-0405-4da7-8e0f-a6ff4e047890",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Sidebar \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Sidebar",
+                "uuid": "f07520a2-0645-4a40-b8d9-a72c15b5c147",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Objects \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Objects",
+                "uuid": "0bd2a0d3-bb98-4ed4-a525-50de1e025937",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Right Click Options"
+        },
+        {
+            "type": "text",
+            "data": "Right Click Options"
+        },
+        {
+            "type": "text",
+            "data": "Right Click Options"
+        },
+        {
+            "type": "text",
+            "data": "When you right-click either on an Object or in an empty space on the sidebar. Each option will include in its description where it would be available."
+        },
+        {
+            "type": "image",
+            "data": "image340.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Add Category - (Right-Click on Item/Right-Click in Empty Space)"
+        },
+        {
+            "type": "text",
+            "data": "This option allows you to add another Category to the list of Objects. You will have the option to enter a label (name) for the Category and select an icon from the list on the right. Click OK to complete the process."
+        },
+        {
+            "type": "image",
+            "data": "image844.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Edit Item - (Right-Click on Item)"
+        },
+        {
+            "type": "text",
+            "data": "This option allows the user to edit the label and icon for the currently selected item."
+        },
+        {
+            "type": "image",
+            "data": "image845.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "If the item is an Assembly, the Edit Item option will open the  Save Object  dialog box for the Assembly."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Save Object",
+                "uuid": "be29a521-2d0f-4030-8911-87f747cacb90",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Move Item"
+        },
+        {
+            "type": "text",
+            "data": "This option allows the user to change the position of this item in the list."
+        },
+        {
+            "type": "text",
+            "data": "Delete Item"
+        },
+        {
+            "type": "text",
+            "data": "This option will remove the item from the list of objects."
+        },
+        {
+            "type": "image",
+            "data": "image846.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Add Accessory (Right-Click on Item/Right-Click in Empty Space)"
+        },
+        {
+            "type": "text",
+            "data": "This option allows the user to add a Non-Graphic Accessory (NGA) to the list of Objects. The user can then drag that Accessory out of the Object Catalog and add it to the Room or to another Object. When the user creates a new Accessory in this manner, they will see the window displayed below. In this window, the user may enter values for all of the parameters shown."
+        },
+        {
+            "type": "image",
+            "data": "image847.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Add to Favorites (Right-Click on Item)"
+        },
+        {
+            "type": "text",
+            "data": "This option allows the user to add the currently selected object to the  Favorites Bar  at the bottom of the screen."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Favorites Bar",
+                "uuid": "57b3d47f-75a4-49bd-8143-55ece48609f2",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Room_Level\\Side_Bar\\Objects\\RLSBO_Right_Click_Options.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

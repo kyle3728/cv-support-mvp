@@ -1,0 +1,488 @@
+{
+    "id": "91363747-b884-439e-a329-04e5fd458d74",
+    "title": "What_s_New_2022.x",
+    "content": [
+        {
+            "type": "text",
+            "data": "What's New in 2022.x"
+        },
+        {
+            "type": "text",
+            "data": "Click the links below to get more information on these new features. For quick demonstrations of these new features you can visit the CABINET VISION 2022 area of the  CABINET VISIONYouTube Channel ."
+        },
+        {
+            "type": "image",
+            "data": "YouTube.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Assembly Level"
+        },
+        {
+            "type": "text",
+            "data": "Define dimensions for sectioned doors \n To Drawing added to door section editor \n Beaded Frames work smartly with zero width mid stiles and mid rails - \n Interior and Exterior Banding av ailable via New Part option \n New Molding - Molding Profile drop down alphabetized \n Section Editor Overrides window relocated Remove button and added a Cancel button"
+        },
+        {
+            "type": "text",
+            "data": "Define dimensions for sectioned doors"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Define dimensions for sectioned doors",
+                "uuid": "2eee8329-0615-42cf-b88c-791aee10ee2a",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "To Drawing added to door section editor"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "To Drawing added to door section editor",
+                "uuid": "2eee8329-0615-42cf-b88c-791aee10ee2a",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Beaded Frames work smartly with zero width mid stiles and mid rails -"
+        },
+        {
+            "type": "image",
+            "data": "Cabinets.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Interior and Exterior Banding av ailable via New Part option"
+        },
+        {
+            "type": "text",
+            "data": "New Molding - Molding Profile drop down alphabetized"
+        },
+        {
+            "type": "text",
+            "data": "Section Editor Overrides window relocated Remove button and added a Cancel button"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Section Editor Overrides window relocated Remove button and added a Cancel button",
+                "uuid": "6d896be3-732c-442a-a6f8-1fc1087514ec",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Assembly Manager"
+        },
+        {
+            "type": "text",
+            "data": "Conditions for Drawer Construction \n Finished Side Orientation for Sub Ends \n Finished Side Orientation for Unfinished Ends \n No End Connection for Cabinet Parts: \n \n Adjustable Shelf \n Bottom/Deck \n Drawer Stretcher \n Fixed Shelf \n Nailer \n Shelf \n Shelf Nailer \n Shoe Section \n Sink Skirt \n Toe Kick \n \n Back Toe \n Front Toe \n \n \n Top \n \n \n Option for Shelf Nose to Miter, sit under with setback, and define connection machining \n \n Adjustable Shelf \n Fixed Shelf \n Shelf \n \n \n Associate toe kick position to leg position (fixed position for leg clip) \n Front Skirt Part definition"
+        },
+        {
+            "type": "text",
+            "data": "Conditions for Drawer Construction"
+        },
+        {
+            "type": "text",
+            "data": "Finished Side Orientation for Sub Ends"
+        },
+        {
+            "type": "text",
+            "data": "Finished Side Orientation for Unfinished Ends"
+        },
+        {
+            "type": "text",
+            "data": "No End Connection for Cabinet Parts: \n \n Adjustable Shelf \n Bottom/Deck \n Drawer Stretcher \n Fixed Shelf \n Nailer \n Shelf \n Shelf Nailer \n Shoe Section \n Sink Skirt \n Toe Kick \n \n Back Toe \n Front Toe \n \n \n Top"
+        },
+        {
+            "type": "text",
+            "data": "Adjustable Shelf \n Bottom/Deck \n Drawer Stretcher \n Fixed Shelf \n Nailer \n Shelf \n Shelf Nailer \n Shoe Section \n Sink Skirt \n Toe Kick \n \n Back Toe \n Front Toe \n \n \n Top"
+        },
+        {
+            "type": "text",
+            "data": "Adjustable Shelf"
+        },
+        {
+            "type": "text",
+            "data": "Bottom/Deck"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Stretcher"
+        },
+        {
+            "type": "text",
+            "data": "Fixed Shelf"
+        },
+        {
+            "type": "text",
+            "data": "Nailer"
+        },
+        {
+            "type": "text",
+            "data": "Shelf"
+        },
+        {
+            "type": "text",
+            "data": "Shelf Nailer"
+        },
+        {
+            "type": "text",
+            "data": "Shoe Section"
+        },
+        {
+            "type": "text",
+            "data": "Sink Skirt"
+        },
+        {
+            "type": "text",
+            "data": "Toe Kick \n \n Back Toe \n Front Toe"
+        },
+        {
+            "type": "text",
+            "data": "Back Toe \n Front Toe"
+        },
+        {
+            "type": "text",
+            "data": "Back Toe"
+        },
+        {
+            "type": "text",
+            "data": "Front Toe"
+        },
+        {
+            "type": "text",
+            "data": "Top"
+        },
+        {
+            "type": "text",
+            "data": "Option for Shelf Nose to Miter, sit under with setback, and define connection machining \n \n Adjustable Shelf \n Fixed Shelf \n Shelf"
+        },
+        {
+            "type": "text",
+            "data": "Adjustable Shelf \n Fixed Shelf \n Shelf"
+        },
+        {
+            "type": "text",
+            "data": "Adjustable Shelf"
+        },
+        {
+            "type": "text",
+            "data": "Fixed Shelf"
+        },
+        {
+            "type": "text",
+            "data": "Shelf"
+        },
+        {
+            "type": "text",
+            "data": "Associate toe kick position to leg position (fixed position for leg clip)"
+        },
+        {
+            "type": "text",
+            "data": "Front Skirt Part definition"
+        },
+        {
+            "type": "text",
+            "data": "Bid Center"
+        },
+        {
+            "type": "text",
+            "data": "Set default Rate Table(s) -"
+        },
+        {
+            "type": "text",
+            "data": "Set default Rate Table(s) -"
+        },
+        {
+            "type": "image",
+            "data": "Bidding.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "CAD"
+        },
+        {
+            "type": "text",
+            "data": "When placing a CAD Symbol it will continue to place until right click to end placement - \n The Symbol Library will remember your last selection location - \n Alphabetize molding in CAD Symbols - \n Add the following profiles to CAD Symbols - \n \n Door Applied \n Finger Pull \n Inside Edge \n Outside Edge \n Raised Panel \n Route \n \n \n Crossing (right to left window) selection in CAD"
+        },
+        {
+            "type": "text",
+            "data": "When placing a CAD Symbol it will continue to place until right click to end placement -"
+        },
+        {
+            "type": "image",
+            "data": "2DCAD.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Symbol Library will remember your last selection location -"
+        },
+        {
+            "type": "image",
+            "data": "2DCAD.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Alphabetize molding in CAD Symbols -"
+        },
+        {
+            "type": "image",
+            "data": "2DCAD.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Add the following profiles to CAD Symbols - \n \n Door Applied \n Finger Pull \n Inside Edge \n Outside Edge \n Raised Panel \n Route"
+        },
+        {
+            "type": "image",
+            "data": "2DCAD.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Door Applied \n Finger Pull \n Inside Edge \n Outside Edge \n Raised Panel \n Route"
+        },
+        {
+            "type": "text",
+            "data": "Door Applied"
+        },
+        {
+            "type": "text",
+            "data": "Finger Pull"
+        },
+        {
+            "type": "text",
+            "data": "Inside Edge"
+        },
+        {
+            "type": "text",
+            "data": "Outside Edge"
+        },
+        {
+            "type": "text",
+            "data": "Raised Panel"
+        },
+        {
+            "type": "text",
+            "data": "Route"
+        },
+        {
+            "type": "text",
+            "data": "Crossing (right to left window) selection in CAD"
+        },
+        {
+            "type": "text",
+            "data": "Drawings"
+        },
+        {
+            "type": "text",
+            "data": "Specify sectioned door illustrations on assembly sheet containers - \n Copy sheet option in Drawings View \n Define Floor Plan Templates"
+        },
+        {
+            "type": "text",
+            "data": "Specify sectioned door illustrations on assembly sheet containers -"
+        },
+        {
+            "type": "image",
+            "data": "Reporting.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Copy sheet option in Drawings View"
+        },
+        {
+            "type": "text",
+            "data": "Define Floor Plan Templates"
+        },
+        {
+            "type": "text",
+            "data": "General"
+        },
+        {
+            "type": "text",
+            "data": "VORTEKSpaces export option - \n TEVA 3Dexport option - \n Seperate All Graphics and Assigned Material Textures Backup Options \n Option to disable Zip creation in Backup \n Protected Assembly Catalog added to Package Utility \n Distributed Assembly Catalog added to Package Utility \n Texture Manager thumbnail view uses sorting method selected from list view \n Create backup copies of autosave files (abv, abs, abr, abz) \n Export Room uses Room Name as the default filename \n All list views, such as the Report view, use alternating color bars for easier legibility \n Measure tool option for picking measurements added to most dimension fields in sidebar \n Print Floor Plan Sheets along with Elevation Sheets \n Define alternate letters, numbers, or even symbols for edgebanding \n Door Sectioning data added to ORDX"
+        },
+        {
+            "type": "text",
+            "data": "VORTEKSpaces export option -"
+        },
+        {
+            "type": "image",
+            "data": "Render.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "TEVA 3Dexport option -"
+        },
+        {
+            "type": "image",
+            "data": "Render.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Seperate All Graphics and Assigned Material Textures Backup Options"
+        },
+        {
+            "type": "text",
+            "data": "Option to disable Zip creation in Backup"
+        },
+        {
+            "type": "text",
+            "data": "Protected Assembly Catalog added to Package Utility"
+        },
+        {
+            "type": "text",
+            "data": "Distributed Assembly Catalog added to Package Utility"
+        },
+        {
+            "type": "text",
+            "data": "Texture Manager thumbnail view uses sorting method selected from list view"
+        },
+        {
+            "type": "text",
+            "data": "Create backup copies of autosave files (abv, abs, abr, abz)"
+        },
+        {
+            "type": "text",
+            "data": "Export Room uses Room Name as the default filename"
+        },
+        {
+            "type": "text",
+            "data": "All list views, such as the Report view, use alternating color bars for easier legibility"
+        },
+        {
+            "type": "text",
+            "data": "Measure tool option for picking measurements added to most dimension fields in sidebar"
+        },
+        {
+            "type": "text",
+            "data": "Print Floor Plan Sheets along with Elevation Sheets"
+        },
+        {
+            "type": "text",
+            "data": "Define alternate letters, numbers, or even symbols for edgebanding"
+        },
+        {
+            "type": "text",
+            "data": "Door Sectioning data added to ORDX"
+        },
+        {
+            "type": "text",
+            "data": "Layout"
+        },
+        {
+            "type": "text",
+            "data": "Added an option to place the object anyway when getting the \"sorry object in the way\" error \n When placing a Catalog Object it will continue to place until right click to end placement \n Molding is ignored when modifying objects at the room level \n Cabinet width change dialog defaults to stretch right instead of left \n Room Level - Molding Properties Material and Profile drop downs alphabetized \n New Room option opens Room Properties with Room Name field active \n Support for Leica X- Series devices"
+        },
+        {
+            "type": "text",
+            "data": "Added an option to place the object anyway when getting the \"sorry object in the way\" error"
+        },
+        {
+            "type": "text",
+            "data": "When placing a Catalog Object it will continue to place until right click to end placement"
+        },
+        {
+            "type": "text",
+            "data": "Molding is ignored when modifying objects at the room level"
+        },
+        {
+            "type": "text",
+            "data": "Cabinet width change dialog defaults to stretch right instead of left"
+        },
+        {
+            "type": "text",
+            "data": "Room Level - Molding Properties Material and Profile drop downs alphabetized"
+        },
+        {
+            "type": "text",
+            "data": "New Room option opens Room Properties with Room Name field active"
+        },
+        {
+            "type": "text",
+            "data": "Support for Leica X- Series devices"
+        },
+        {
+            "type": "text",
+            "data": "User Created Standards"
+        },
+        {
+            "type": "text",
+            "data": "BAND and LIBPART parameter now support in-line evaluation \n Parameter to specify primary edge per machine (MACHID_EDGE_ nn )"
+        },
+        {
+            "type": "text",
+            "data": "BAND and LIBPART parameter now support in-line evaluation"
+        },
+        {
+            "type": "text",
+            "data": "Parameter to specify primary edge per machine (MACHID_EDGE_ nn )"
+        },
+        {
+            "type": "text",
+            "data": "Legend"
+        },
+        {
+            "type": "text",
+            "data": "- Cabinets"
+        },
+        {
+            "type": "image",
+            "data": "Cabinets.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "- x2D CAD"
+        },
+        {
+            "type": "image",
+            "data": "2DCAD.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "- xBidding"
+        },
+        {
+            "type": "image",
+            "data": "Bidding.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "- xRendering"
+        },
+        {
+            "type": "image",
+            "data": "Render.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "- xReporting"
+        },
+        {
+            "type": "image",
+            "data": "Reporting.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish\\Introduction\\Whats_New_Previous_Versions\\What_s_New_2022.x.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

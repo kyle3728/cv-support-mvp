@@ -1,0 +1,34 @@
+{
+    "id": "4b0bfb7a-6f41-4efa-9c33-824dea4af293",
+    "title": "Catalog_Editor_Overview",
+    "content": [
+        {
+            "type": "text",
+            "data": "Catalog Editor Overview"
+        },
+        {
+            "type": "text",
+            "data": "The Catalog Editor is an interface that may be used to create and edit Object Catalogs. Before studying the Catalog Editor it is important that you have a thorough understanding of CABINET VISION and that you have already completed the setup of Materials, Construction, and Manufacturing standards."
+        },
+        {
+            "type": "text",
+            "data": "The full Catalog Editor is an add-on option. If you do not have the add-on, the activities you have the ability to perform in the Catalog Editor are limited."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Origins"
+        },
+        {
+            "type": "text",
+            "data": "The Catalog Editor began as what was called the Library Explorer. The Library Explorer functioned much as Windows Explorer in that the user was able to browse, copy, paste, delete, and rename Objects in a Library (or Catalog). Over time, more functions were added to the Library Explorer and it slowly became more of a Catalog creation and maintenance tool. Therefore, the name was changed to better reflect the functionality of this utility and the Catalog Editor was born."
+        }
+    ],
+    "source_file": "CEEnglish\\Introduction\\Catalog_Editor_Overview.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

@@ -1,0 +1,168 @@
+{
+    "id": "8ce649b0-d364-432d-87aa-a8138b2f2e0c",
+    "title": "SLMM_Vendor",
+    "content": [
+        {
+            "type": "text",
+            "data": "Vendor\u00a0-"
+        },
+        {
+            "type": "image",
+            "data": "image3802.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "SolidStandard.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "SolidStandardforClosets.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "SolidAdvanced.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "SolidAdvancedforClosets.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "SolidUltimate.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "SolidUltimateforClosets.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Vendor utility allows you to add new or edit existing Vendors."
+        },
+        {
+            "type": "image",
+            "data": "Vendor_1.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Ribbonbar"
+        },
+        {
+            "type": "text",
+            "data": "Return"
+        },
+        {
+            "type": "image",
+            "data": "image3847.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Closes the Vendor utility and returns you to the Material Manager."
+        },
+        {
+            "type": "text",
+            "data": "New"
+        },
+        {
+            "type": "image",
+            "data": "image4261.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Creates a new Vendor."
+        },
+        {
+            "type": "text",
+            "data": "Delete"
+        },
+        {
+            "type": "image",
+            "data": "image3784.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Deletes the selected Vendor."
+        },
+        {
+            "type": "text",
+            "data": "Working Area"
+        },
+        {
+            "type": "text",
+            "data": "The following Properties can be set for a Vendor."
+        },
+        {
+            "type": "text",
+            "data": "Name -  The Name of the selected Vendor."
+        },
+        {
+            "type": "text",
+            "data": "Address 1 -  Address #1 for the selected Vendor."
+        },
+        {
+            "type": "text",
+            "data": "Address 2 -  Address #2 for the selected Vendor."
+        },
+        {
+            "type": "text",
+            "data": "City -  The City for the selected Vendor."
+        },
+        {
+            "type": "text",
+            "data": "State -  The State for the selected Vendor."
+        },
+        {
+            "type": "text",
+            "data": "Zip Code -  The Zip Code for the selected Vendor."
+        },
+        {
+            "type": "text",
+            "data": "Country -  The Country for the selected Vendor."
+        },
+        {
+            "type": "text",
+            "data": "Phone -  The Phone number for the selected Vendor."
+        },
+        {
+            "type": "text",
+            "data": "Mobile Phone -  The Mobile Phone number for the primary contact at the selected Vendor."
+        },
+        {
+            "type": "text",
+            "data": "Fax -  The Fax number for the selected Vendor."
+        },
+        {
+            "type": "text",
+            "data": "Email -  The email address for the primary contact at the selected Vendor."
+        },
+        {
+            "type": "text",
+            "data": "Contact -  The primary contact at the selected Vendor."
+        },
+        {
+            "type": "text",
+            "data": "Comment -  Any comments about the selected Vendor."
+        },
+        {
+            "type": "text",
+            "data": "Account Number -  Your Account Number for the selected Vendor."
+        },
+        {
+            "type": "text",
+            "data": "Sales Tax -  The Sales Tax you pay when purchasing items from the selected Vendor."
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\SLMM_Vendor.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

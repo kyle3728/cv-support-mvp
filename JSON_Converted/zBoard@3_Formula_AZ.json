@@ -1,0 +1,33 @@
+{
+    "id": "a5b1eafd-35c8-4a54-af83-714aced9424e",
+    "title": "zBoard@3_Formula_AZ",
+    "content": [
+        {
+            "type": "text",
+            "data": "Board@3 Formula AZ"
+        },
+        {
+            "type": "text",
+            "data": "It is very rare to write a formula to rotate"
+        },
+        {
+            "type": "text",
+            "data": "a part as once you have placed the part"
+        },
+        {
+            "type": "text",
+            "data": "in a cabinet and rotated it into proper"
+        },
+        {
+            "type": "text",
+            "data": "position, you normally don't need the angle"
+        },
+        {
+            "type": "text",
+            "data": "of rotation to change."
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\Parametric_Editing\\Intelligence_Workshop\\5th_Exercise\\zBoard@3_Formula_AZ.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

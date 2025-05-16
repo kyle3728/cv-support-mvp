@@ -1,0 +1,92 @@
+{
+    "id": "e2c47e6a-9bb1-4f69-a53d-aa4ce2e1050c",
+    "title": "RL_Window_Mode",
+    "content": [
+        {
+            "type": "text",
+            "data": "Window Mode"
+        },
+        {
+            "type": "image",
+            "data": "image1413.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "1AUALL.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "CABINET VISION allows viewing of your work in three views simultaneously. This Split Screen feature allows you to alternate between windows as you work, while seeing real time changes in the other windows. Simply select the appropriate orientation from the Split Horizontal or Split Vertical option allowed."
+        },
+        {
+            "type": "text",
+            "data": "Normal Window"
+        },
+        {
+            "type": "image",
+            "data": "image1416.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The default single Window Mode."
+        },
+        {
+            "type": "text",
+            "data": "Split Horizontal"
+        },
+        {
+            "type": "image",
+            "data": "image1414.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "View_Split_Horizontal.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Split Vertical"
+        },
+        {
+            "type": "image",
+            "data": "image1415.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "View_Split_Vertical.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Choosing the Window View"
+        },
+        {
+            "type": "text",
+            "data": "Each window will allow access to the views available at this level, I.E., the Plan, Elevation, 3D and Report views. Click in a window to activate it, and select the View Tab representing the view you would like for that window."
+        },
+        {
+            "type": "text",
+            "data": "Choosing an Active Window"
+        },
+        {
+            "type": "text",
+            "data": "You will notice that the color band on top of the \u00a0window is highlighted when it is the active window. If you wish to work in a window that is not the active window, you must first click in the window to make it the active window. You will have access to the features normally found in that window once it is active."
+        },
+        {
+            "type": "text",
+            "data": "Maximizing a Particular Window"
+        },
+        {
+            "type": "text",
+            "data": "Each window has a small square button in the upper right hand corner. If this button is clicked, the window will maximize and occupy the entire screen."
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\RL_Window_Mode.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

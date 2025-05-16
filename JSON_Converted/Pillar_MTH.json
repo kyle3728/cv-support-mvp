@@ -1,0 +1,17 @@
+{
+    "id": "6b1ebc86-4999-496f-b42f-9b2ed7079fd0",
+    "title": "Pillar_MTH",
+    "content": [
+        {
+            "type": "text",
+            "data": "Pillar MTH"
+        },
+        {
+            "type": "text",
+            "data": "Output for Pillar MTH Machine. This machine can haunch stiles and rails. \n Each program will represent one edge of the part. Tools should be \n assigned to this machine then linked to an operation. (see  PillarMTH.pkg  \n for examples)."
+        }
+    ],
+    "source_file": "NCEnglish\\Ribbonbar\\Main_Tab\\Machine\\NC_Links\\Other\\Pillar_MTH.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

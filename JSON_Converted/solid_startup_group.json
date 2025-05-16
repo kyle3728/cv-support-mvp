@@ -1,0 +1,347 @@
+{
+    "id": "ec7015d2-171e-47fa-983d-b845f3b7dda2",
+    "title": "solid_startup_group",
+    "content": [
+        {
+            "type": "text",
+            "data": "Solid Essential Start Group"
+        },
+        {
+            "type": "text",
+            "data": "In Windows 10 click the Windows Start Button   then select All Apps   then scroll to the Solid Essential Group."
+        },
+        {
+            "type": "image",
+            "data": "image187.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image188.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "In previous version of Windows go to  Start | All Programs | Solid Essential"
+        },
+        {
+            "type": "text",
+            "data": "Following are options in the Startup Group:"
+        },
+        {
+            "type": "text",
+            "data": "Backup Solid Essential Settings -  Allows the creation of a backup of the Solid Database Files. This option also gives access to the settings for the  Solid Backup Utility . You can also add switches to the short-cut for options when running the Backup Settings from the Start Group: \n \n \n To add switches to Backup Settings right click on the Backup Solid Essential Settings icon in the Start bar and click  More | Open file location ."
+        },
+        {
+            "type": "text",
+            "data": "Backup Solid Essential Settings -  Allows the creation of a backup of the Solid Database Files. This option also gives access to the settings for the  Solid Backup Utility . You can also add switches to the short-cut for options when running the Backup Settings from the Start Group: \n \n \n To add switches to Backup Settings right click on the Backup Solid Essential Settings icon in the Start bar and click  More | Open file location ."
+        },
+        {
+            "type": "text",
+            "data": "Backup Solid Essential Settings -  Allows the creation of a backup of the Solid Database Files. This option also gives access to the settings for the  Solid Backup Utility . You can also add switches to the short-cut for options when running the Backup Settings from the Start Group:"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Solid Backup Utility",
+                "uuid": "f60036b5-a245-4d06-be70-aadde1f1c194",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "To add switches to Backup Settings right click on the Backup Solid Essential Settings icon in the Start bar and click  More | Open file location ."
+        },
+        {
+            "type": "text",
+            "data": "To add switches to Backup Settings right click on the Backup Solid Essential Settings icon in the Start bar and click  More | Open file location ."
+        },
+        {
+            "type": "text",
+            "data": "To add switches to Backup Settings right click on the Backup Solid Essential Settings icon in the Start bar and click  More | Open file location ."
+        },
+        {
+            "type": "image",
+            "data": "image189.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Right click the Backup Solid Essential Settings icon in File Explorer and select Properties."
+        },
+        {
+            "type": "text",
+            "data": "Right click the Backup Solid Essential Settings icon in File Explorer and select Properties."
+        },
+        {
+            "type": "text",
+            "data": "Right click the Backup Solid Essential Settings icon in File Explorer and select Properties."
+        },
+        {
+            "type": "text",
+            "data": "Right click the Backup Solid Essential Settings icon in File Explorer and select Properties."
+        },
+        {
+            "type": "text",
+            "data": "Right click the Backup Solid Essential Settings icon in File Explorer and select Properties."
+        },
+        {
+            "type": "image",
+            "data": "image190.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Click to place your cursor after the .exe in the Target field."
+        },
+        {
+            "type": "text",
+            "data": "Click to place your cursor after the .exe in the Target field."
+        },
+        {
+            "type": "text",
+            "data": "Click to place your cursor after the .exe in the Target field."
+        },
+        {
+            "type": "image",
+            "data": "image1365.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The following switches (command line arguments) are available: \n \n \n \n \n /e Create email (will automatically create a mail message and attach a zip file for email) \n \n \n \n \n Example:  C:\\Cabinet Vision\\Solid_12\\CVBackup.exe /e \n \n \n \n \n /d Delete backups (useful option when you are just emailing) \n \n \n \n \n Example:  C:\\Cabinet Vision\\Solid_12\\CVBackup.exe /e /d \n \n \n \n \n /g Suppress GUI (Silent backup that uses last settings) \n \n \n \n \n Example:  C:\\Cabinet Vision\\Solid_12\\CVBackup.exe /g \n \n \n \n \n /p Suppress prompt when you have exceeded backup settings (useful option to use with /g) \n \n \n \n \n Example:  C:\\Cabinet Vision\\Solid_12\\CVBackup.exe /g /p \n \n \n \n \n /r Make files read only \n \n \n \n \n Example:  C:\\Cabinet Vision\\Solid_12\\CVBackup.exe /r \n \n \n \n \n /z Creates a Zip file of the Backup \n \n \n \n \n Example:  C:\\Cabinet Vision\\Solid_12\\CVBackup.exe /z"
+        },
+        {
+            "type": "text",
+            "data": "The following switches (command line arguments) are available:"
+        },
+        {
+            "type": "text",
+            "data": "The following switches (command line arguments) are available:"
+        },
+        {
+            "type": "text",
+            "data": "/e Create email (will automatically create a mail message and attach a zip file for email) \n \n \n \n \n Example:  C:\\Cabinet Vision\\Solid_12\\CVBackup.exe /e \n \n \n \n \n /d Delete backups (useful option when you are just emailing) \n \n \n \n \n Example:  C:\\Cabinet Vision\\Solid_12\\CVBackup.exe /e /d \n \n \n \n \n /g Suppress GUI (Silent backup that uses last settings) \n \n \n \n \n Example:  C:\\Cabinet Vision\\Solid_12\\CVBackup.exe /g \n \n \n \n \n /p Suppress prompt when you have exceeded backup settings (useful option to use with /g) \n \n \n \n \n Example:  C:\\Cabinet Vision\\Solid_12\\CVBackup.exe /g /p \n \n \n \n \n /r Make files read only \n \n \n \n \n Example:  C:\\Cabinet Vision\\Solid_12\\CVBackup.exe /r \n \n \n \n \n /z Creates a Zip file of the Backup \n \n \n \n \n Example:  C:\\Cabinet Vision\\Solid_12\\CVBackup.exe /z"
+        },
+        {
+            "type": "text",
+            "data": "/e Create email (will automatically create a mail message and attach a zip file for email) \n \n \n \n \n Example:  C:\\Cabinet Vision\\Solid_12\\CVBackup.exe /e \n \n \n \n \n /d Delete backups (useful option when you are just emailing) \n \n \n \n \n Example:  C:\\Cabinet Vision\\Solid_12\\CVBackup.exe /e /d \n \n \n \n \n /g Suppress GUI (Silent backup that uses last settings) \n \n \n \n \n Example:  C:\\Cabinet Vision\\Solid_12\\CVBackup.exe /g \n \n \n \n \n /p Suppress prompt when you have exceeded backup settings (useful option to use with /g) \n \n \n \n \n Example:  C:\\Cabinet Vision\\Solid_12\\CVBackup.exe /g /p \n \n \n \n \n /r Make files read only \n \n \n \n \n Example:  C:\\Cabinet Vision\\Solid_12\\CVBackup.exe /r \n \n \n \n \n /z Creates a Zip file of the Backup \n \n \n \n \n Example:  C:\\Cabinet Vision\\Solid_12\\CVBackup.exe /z"
+        },
+        {
+            "type": "text",
+            "data": "/e Create email (will automatically create a mail message and attach a zip file for email)"
+        },
+        {
+            "type": "text",
+            "data": "/e Create email (will automatically create a mail message and attach a zip file for email)"
+        },
+        {
+            "type": "text",
+            "data": "Example:  C:\\Cabinet Vision\\Solid_12\\CVBackup.exe /e"
+        },
+        {
+            "type": "text",
+            "data": "Example:  C:\\Cabinet Vision\\Solid_12\\CVBackup.exe /e"
+        },
+        {
+            "type": "text",
+            "data": "Example:  C:\\Cabinet Vision\\Solid_12\\CVBackup.exe /e"
+        },
+        {
+            "type": "text",
+            "data": "Example:  C:\\Cabinet Vision\\Solid_12\\CVBackup.exe /e"
+        },
+        {
+            "type": "text",
+            "data": "/d Delete backups (useful option when you are just emailing)"
+        },
+        {
+            "type": "text",
+            "data": "/d Delete backups (useful option when you are just emailing)"
+        },
+        {
+            "type": "text",
+            "data": "Example:  C:\\Cabinet Vision\\Solid_12\\CVBackup.exe /e /d"
+        },
+        {
+            "type": "text",
+            "data": "Example:  C:\\Cabinet Vision\\Solid_12\\CVBackup.exe /e /d"
+        },
+        {
+            "type": "text",
+            "data": "Example:  C:\\Cabinet Vision\\Solid_12\\CVBackup.exe /e /d"
+        },
+        {
+            "type": "text",
+            "data": "Example:  C:\\Cabinet Vision\\Solid_12\\CVBackup.exe /e /d"
+        },
+        {
+            "type": "text",
+            "data": "/g Suppress GUI (Silent backup that uses last settings)"
+        },
+        {
+            "type": "text",
+            "data": "/g Suppress GUI (Silent backup that uses last settings)"
+        },
+        {
+            "type": "text",
+            "data": "Example:  C:\\Cabinet Vision\\Solid_12\\CVBackup.exe /g"
+        },
+        {
+            "type": "text",
+            "data": "Example:  C:\\Cabinet Vision\\Solid_12\\CVBackup.exe /g"
+        },
+        {
+            "type": "text",
+            "data": "Example:  C:\\Cabinet Vision\\Solid_12\\CVBackup.exe /g"
+        },
+        {
+            "type": "text",
+            "data": "Example:  C:\\Cabinet Vision\\Solid_12\\CVBackup.exe /g"
+        },
+        {
+            "type": "text",
+            "data": "/p Suppress prompt when you have exceeded backup settings (useful option to use with /g)"
+        },
+        {
+            "type": "text",
+            "data": "/p Suppress prompt when you have exceeded backup settings (useful option to use with /g)"
+        },
+        {
+            "type": "text",
+            "data": "Example:  C:\\Cabinet Vision\\Solid_12\\CVBackup.exe /g /p"
+        },
+        {
+            "type": "text",
+            "data": "Example:  C:\\Cabinet Vision\\Solid_12\\CVBackup.exe /g /p"
+        },
+        {
+            "type": "text",
+            "data": "Example:  C:\\Cabinet Vision\\Solid_12\\CVBackup.exe /g /p"
+        },
+        {
+            "type": "text",
+            "data": "Example:  C:\\Cabinet Vision\\Solid_12\\CVBackup.exe /g /p"
+        },
+        {
+            "type": "text",
+            "data": "/r Make files read only"
+        },
+        {
+            "type": "text",
+            "data": "/r Make files read only"
+        },
+        {
+            "type": "text",
+            "data": "Example:  C:\\Cabinet Vision\\Solid_12\\CVBackup.exe /r"
+        },
+        {
+            "type": "text",
+            "data": "Example:  C:\\Cabinet Vision\\Solid_12\\CVBackup.exe /r"
+        },
+        {
+            "type": "text",
+            "data": "Example:  C:\\Cabinet Vision\\Solid_12\\CVBackup.exe /r"
+        },
+        {
+            "type": "text",
+            "data": "Example:  C:\\Cabinet Vision\\Solid_12\\CVBackup.exe /r"
+        },
+        {
+            "type": "text",
+            "data": "/z Creates a Zip file of the Backup"
+        },
+        {
+            "type": "text",
+            "data": "/z Creates a Zip file of the Backup"
+        },
+        {
+            "type": "text",
+            "data": "Example:  C:\\Cabinet Vision\\Solid_12\\CVBackup.exe /z"
+        },
+        {
+            "type": "text",
+            "data": "Example:  C:\\Cabinet Vision\\Solid_12\\CVBackup.exe /z"
+        },
+        {
+            "type": "text",
+            "data": "Example:  C:\\Cabinet Vision\\Solid_12\\CVBackup.exe /z"
+        },
+        {
+            "type": "text",
+            "data": "Example:  C:\\Cabinet Vision\\Solid_12\\CVBackup.exe /z"
+        },
+        {
+            "type": "text",
+            "data": "Help -  Opens this Help System. \n \n \n Restore Settings -  Allows the Restoration of backups created by using the Solid Backup Utility or Automatic Backups that are created automatically during Installations."
+        },
+        {
+            "type": "text",
+            "data": "Help -  Opens this Help System."
+        },
+        {
+            "type": "text",
+            "data": "Help -  Opens this Help System."
+        },
+        {
+            "type": "text",
+            "data": "Restore Settings -  Allows the Restoration of backups created by using the Solid Backup Utility or Automatic Backups that are created automatically during Installations."
+        },
+        {
+            "type": "text",
+            "data": "Restore Settings -  Allows the Restoration of backups created by using the Solid Backup Utility or Automatic Backups that are created automatically during Installations."
+        },
+        {
+            "type": "image",
+            "data": "image192.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Solid Essential -  Launches Solid Essential. \n \n \n System Information  -  A utility utilized by Technical Support to diagnose, troubleshoot, and repair Vero Software Settings. \n \n \n Update Version   -  Launches the Update Version Utility which compacts and repairs Solid Database Files."
+        },
+        {
+            "type": "text",
+            "data": "Solid Essential -  Launches Solid Essential."
+        },
+        {
+            "type": "text",
+            "data": "Solid Essential -  Launches Solid Essential."
+        },
+        {
+            "type": "text",
+            "data": "System Information  -  A utility utilized by Technical Support to diagnose, troubleshoot, and repair Vero Software Settings."
+        },
+        {
+            "type": "text",
+            "data": "System Information  -  A utility utilized by Technical Support to diagnose, troubleshoot, and repair Vero Software Settings."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "System Information",
+                "uuid": "dec1572a-3dd5-46b5-b4db-087a822a122e",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Update Version   -  Launches the Update Version Utility which compacts and repairs Solid Database Files."
+        },
+        {
+            "type": "text",
+            "data": "Update Version   -  Launches the Update Version Utility which compacts and repairs Solid Database Files."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Update Version",
+                "uuid": "1ff46104-d826-4aff-b77d-a787cd89077d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Introduction\\Solid_Startup_Group\\solid_startup_group.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

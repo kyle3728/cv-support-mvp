@@ -1,0 +1,246 @@
+{
+    "id": "8596e3db-054a-4eb9-b724-6b6fca567e27",
+    "title": "MS_Drawer_Guides",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top \n > \n \n \n System Level \n > \n \n Ribbonbar \n > \n \n Main Tab \n > \n \n Catalogs Group \n > \n \n Material Schedule Manager \n > \n \n Drawer Guide"
+        },
+        {
+            "type": "text",
+            "data": "Top \n >"
+        },
+        {
+            "type": "text",
+            "data": "System Level \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "System Level",
+                "uuid": "4450866f-fd9c-46df-abf3-7843c5a1ef37",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Ribbonbar \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Ribbonbar",
+                "uuid": "3bbac75c-2b61-42af-9bce-b90335e66dde",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Main Tab \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Main Tab",
+                "uuid": "3bbac75c-2b61-42af-9bce-b90335e66dde",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Catalogs Group \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Catalogs Group",
+                "uuid": "f4a43f08-b40b-442c-8f03-a96c2a64640f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Material Schedule Manager \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Material Schedule Manager",
+                "uuid": "7a64057c-ee14-4724-b490-38009af08adb",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Drawer Guide"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Guide"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Guide"
+        },
+        {
+            "type": "text",
+            "data": "The Drawer Guides Material Schedule allows selecting Guides with different properties for different applications in your Assemblies. By choosing this Drawer Guide Material Schedule within a Job you will assign the Drawer Guide listed in the Schedule to the object it is selected for."
+        },
+        {
+            "type": "image",
+            "data": "MS_Drawer_Guides.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Sidebar/Properties"
+        },
+        {
+            "type": "text",
+            "data": "The following Properties are available for Drawer Guides:"
+        },
+        {
+            "type": "text",
+            "data": "ID -  The ID number for the selected Material Schedule. \n \n \n Name -  The Name of the selected Material Schedule. \n \n \n Description -  The Description of the selected Material Schedule."
+        },
+        {
+            "type": "text",
+            "data": "ID -  The ID number for the selected Material Schedule."
+        },
+        {
+            "type": "text",
+            "data": "ID -  The ID number for the selected Material Schedule."
+        },
+        {
+            "type": "text",
+            "data": "Name -  The Name of the selected Material Schedule."
+        },
+        {
+            "type": "text",
+            "data": "Name -  The Name of the selected Material Schedule."
+        },
+        {
+            "type": "text",
+            "data": "Description -  The Description of the selected Material Schedule."
+        },
+        {
+            "type": "text",
+            "data": "Description -  The Description of the selected Material Schedule."
+        },
+        {
+            "type": "text",
+            "data": "Multi-Length Drawer Guide Schedules"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Guide Length is based off of the Drawer Box Depth. The first step in the process is to verify that  Drawer Box Depths  are being calculated correctly. Once you have verified that the Depths of the Drawer Boxes are correct then focus on the Drawer Guide Lengths."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Drawer Box Depths",
+                "uuid": "8dc8d249-bf95-4e42-b01a-d8229c93d0f0",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Steps to set up a Multi-Length Schedule"
+        },
+        {
+            "type": "text",
+            "data": "First , make sure that the parent (the line that is labeled Drawer Guide) is set to either the \"no guide for this size\" Material or the shortest guide that you would use in this Material Schedule."
+        },
+        {
+            "type": "text",
+            "data": "Next , right click the Drawer Guide Category and select  Variable Sizing | Add Size ."
+        },
+        {
+            "type": "text",
+            "data": "You will then be prompted to enter the minimum Depth Drawer Box that the new Guide will be used on. In the example above, the first depth is 10. When you click OK, you will have a line under Drawer Guide that says \">= 10.\" This means that any Drawer Box that is less than 10\" deep will use the parent guide and any Drawer Box that is 12\" deep or greater will use the >= 12 guide (12\" guide)."
+        },
+        {
+            "type": "image",
+            "data": "image9.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Then , continue adding new Drawer Box Depths until you have complete coverage for your needs."
+        },
+        {
+            "type": "text",
+            "data": "Multi-Height Drawer Guide Schedules"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Guide Height is based off of the Drawer Box Height when using System Drawer Box and System Roll Out Construction Methods."
+        },
+        {
+            "type": "text",
+            "data": "Steps to set up a Multi-Height Schedule"
+        },
+        {
+            "type": "text",
+            "data": "First , make sure you have created your Lengths (above). Each Drawer Guide Height needs to correspond to a Length."
+        },
+        {
+            "type": "text",
+            "data": "Next , right click the Length breakout you want to add a Height to and select  Variable Sizing | Add Size ."
+        },
+        {
+            "type": "text",
+            "data": "Next , enter a Height this Guide is available for. If you enable the \"Add this height for each length of this part\" option, this New Guide Height will be added to every Guide Length in the Schedule you are in."
+        },
+        {
+            "type": "image",
+            "data": "image252.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image253.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Then , continue adding new Drawer Box Heights until you have complete coverage for your needs."
+        },
+        {
+            "type": "text",
+            "data": "Multi-Height Drawer Guide Schedules"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Guide Height is based off of the Drawer Box Height when using System Drawer Box and System Roll Out Construction Methods."
+        },
+        {
+            "type": "text",
+            "data": "Steps to set up a Multi-Height Schedule"
+        },
+        {
+            "type": "text",
+            "data": "First , make sure you have created your Lengths (above). Each Drawer Guide Height needs to correspond to a Length."
+        },
+        {
+            "type": "text",
+            "data": "Next , right click the Length breakout you want to add a Height to and select  Variable Sizing | Add Size ."
+        },
+        {
+            "type": "text",
+            "data": "Next , enter a Height this Guide is available for. If you enable the \"Add this height for each length of this part\" option, this New Guide Height will be added to every Guide Length in the Schedule you are in."
+        },
+        {
+            "type": "image",
+            "data": "image254.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Then , continue adding new Drawer Box Heights until you have complete coverage for your needs."
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\System_Level\\Ribbonbar\\Main_Tab\\Catalogs_Group\\Material_Schedules\\MS_Drawer_Guides.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

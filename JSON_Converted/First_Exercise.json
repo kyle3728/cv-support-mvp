@@ -1,0 +1,422 @@
+{
+    "id": "294542a6-b92d-4c57-ab46-1812c759d39c",
+    "title": "First_Exercise",
+    "content": [
+        {
+            "type": "text",
+            "data": "First Exercise"
+        },
+        {
+            "type": "text",
+            "data": "Writing Formulas"
+        },
+        {
+            "type": "text",
+            "data": "If you read the beginning of this document and you work your way through the following \"Exercises\". You will be well on your way to understanding how to add intelligence to parts you add to an object. Be that object a cabinet or something you are creating from scratch like a corbel, a wood top, a can goods rack, a fireplace mantel, a store fixture of some kind, or whatever. Understanding formulas will also help you with any \"User Created Standards\" (UCS) you may wish to write. \"User Created Standards\" can do a lot, but they can do a lot more when you know a little about writing formulas. So it is going to be well worth your time to read the beginning of this document and to work your way through all the exercises presented."
+        },
+        {
+            "type": "text",
+            "data": "First Exercise"
+        },
+        {
+            "type": "text",
+            "data": "So lets add a part to a cabinet and give it intelligence by writing formulas for its placement and sizing. We will not need to write a formula for the rotation, as once we get the part rotated into place, it will not need to rotate again. What we are going to do is start a Frameless job and place a base cabinet. Once the base cabinet is placed we will turn it into a sink cabinet. The sink cabinet will have a false front and a butt pair of doors. We will then add a part behind the false front so we can screw through it to hold the false front in place. And then we will give it intelligence by writing formulas for it placement and sizing."
+        },
+        {
+            "type": "image",
+            "data": "image67.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Very Important! Preliminary Setup for the Exercises"
+        },
+        {
+            "type": "text",
+            "data": "Before we start it is  very important  that you setup a Frameless construction method, for base cabinets, that has what is called a \"Standard End\". When you run the Part Wizard for the finished ends select \"Standard End\" as the end type. See picture below."
+        },
+        {
+            "type": "image",
+            "data": "image1309.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Under the \"Top\" area set your construction to use \"Top Stretchers\", and set them to butt into the sides of the cabinet. The \"Bottom\" must also be set to butt into the sides of the cabinet. Set your \"Toe Kick Height\" to 4 1/4\" high."
+        },
+        {
+            "type": "text",
+            "data": "Also it is important that you setup a cabinet part \"Material Schedule\" that is using 3/4\" material for the finished and unfinished ends, the Deck, the Top Stretchers, and 3/4\" material for the part called \"Board\". The part called \"Board\" can be found under \"Face\" and then \"Face Frame\". This way we will all be on the same page and you will be able to follow along with the sample code we will be writing."
+        },
+        {
+            "type": "text",
+            "data": "Start a new job and on the \"Construction\" tab make sure that you select the Frameless \"Construction Method\" you setup. \n \n \n On the \"Material\" tab make sure that you select the cabinet part material schedule that you setup earlier. \n \n \n Draw a wall and place a base cabinet on the wall. \n \n \n Click on the cabinet and in the sidebar change the \"Width\" to 36 inches. Change the \"Height\" to 34-1/2 inches, Change the \"Depth\" to 24 inches (dont skip any steps). \n \n \n Right click on the cabinet and select \"Edit\"."
+        },
+        {
+            "type": "text",
+            "data": "Start a new job and on the \"Construction\" tab make sure that you select the Frameless \"Construction Method\" you setup."
+        },
+        {
+            "type": "text",
+            "data": "Start a new job and on the \"Construction\" tab make sure that you select the Frameless \"Construction Method\" you setup."
+        },
+        {
+            "type": "text",
+            "data": "On the \"Material\" tab make sure that you select the cabinet part material schedule that you setup earlier."
+        },
+        {
+            "type": "text",
+            "data": "On the \"Material\" tab make sure that you select the cabinet part material schedule that you setup earlier."
+        },
+        {
+            "type": "text",
+            "data": "Draw a wall and place a base cabinet on the wall."
+        },
+        {
+            "type": "text",
+            "data": "Draw a wall and place a base cabinet on the wall."
+        },
+        {
+            "type": "text",
+            "data": "Click on the cabinet and in the sidebar change the \"Width\" to 36 inches. Change the \"Height\" to 34-1/2 inches, Change the \"Depth\" to 24 inches (dont skip any steps)."
+        },
+        {
+            "type": "text",
+            "data": "Click on the cabinet and in the sidebar change the \"Width\" to 36 inches. Change the \"Height\" to 34-1/2 inches, Change the \"Depth\" to 24 inches (dont skip any steps)."
+        },
+        {
+            "type": "text",
+            "data": "Right click on the cabinet and select \"Edit\"."
+        },
+        {
+            "type": "text",
+            "data": "Right click on the cabinet and select \"Edit\"."
+        },
+        {
+            "type": "image",
+            "data": "Edit_Assembly.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "When you get to the cabinet editor click on the \"Section\" Tab  . \n \n \n Click on the \"Section Face\"   option in the ribbonbar. \n \n \n Click on \"Modifications\" from the ribbonand then click on \"Default Assembly\"."
+        },
+        {
+            "type": "text",
+            "data": "When you get to the cabinet editor click on the \"Section\" Tab  ."
+        },
+        {
+            "type": "text",
+            "data": "When you get to the cabinet editor click on the \"Section\" Tab  ."
+        },
+        {
+            "type": "image",
+            "data": "image180.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Click on the \"Section Face\"   option in the ribbonbar."
+        },
+        {
+            "type": "text",
+            "data": "Click on the \"Section Face\"   option in the ribbonbar."
+        },
+        {
+            "type": "image",
+            "data": "image3153.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Click on \"Modifications\" from the ribbonand then click on \"Default Assembly\"."
+        },
+        {
+            "type": "text",
+            "data": "Click on \"Modifications\" from the ribbonand then click on \"Default Assembly\"."
+        },
+        {
+            "type": "image",
+            "data": "image1129.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Answer yes when it asks you if you want to continue."
+        },
+        {
+            "type": "image",
+            "data": "image1128.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Click on the \"Horizontal Split\"   option and then click in the Cabinet opening approximately where the crack between the false front and the doors would be. You should now have a Cabinet with a drawer above a door. \n \n \n Click on the drawer opening and then select \"False Front\" from the sidebar."
+        },
+        {
+            "type": "text",
+            "data": "Click on the \"Horizontal Split\"   option and then click in the Cabinet opening approximately where the crack between the false front and the doors would be. You should now have a Cabinet with a drawer above a door."
+        },
+        {
+            "type": "text",
+            "data": "Click on the \"Horizontal Split\"   option and then click in the Cabinet opening approximately where the crack between the false front and the doors would be. You should now have a Cabinet with a drawer above a door."
+        },
+        {
+            "type": "image",
+            "data": "image2791.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Click on the drawer opening and then select \"False Front\" from the sidebar."
+        },
+        {
+            "type": "text",
+            "data": "Click on the drawer opening and then select \"False Front\" from the sidebar."
+        },
+        {
+            "type": "image",
+            "data": "image3171.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Click on the door opening and then select \"Pair Door\" from the sidebar."
+        },
+        {
+            "type": "text",
+            "data": "Click on the door opening and then select \"Pair Door\" from the sidebar."
+        },
+        {
+            "type": "text",
+            "data": "Click on the door opening and then select \"Pair Door\" from the sidebar."
+        },
+        {
+            "type": "image",
+            "data": "image3172.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Click on the \"Section Interior\"   option. If you have a Drawer Stretcher\" showing, click on it and then delete it using the Delete   option. \n \n \n Click on the \"3D\"   tab in the View Menu and rotate the Cabinet around, look at the Cabinet. It should have top stretchers, a false front, no shelves, and a pair of doors."
+        },
+        {
+            "type": "text",
+            "data": "Click on the \"Section Interior\"   option. If you have a Drawer Stretcher\" showing, click on it and then delete it using the Delete   option."
+        },
+        {
+            "type": "text",
+            "data": "Click on the \"Section Interior\"   option. If you have a Drawer Stretcher\" showing, click on it and then delete it using the Delete   option."
+        },
+        {
+            "type": "image",
+            "data": "image2790.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image2799.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Click on the \"3D\"   tab in the View Menu and rotate the Cabinet around, look at the Cabinet. It should have top stretchers, a false front, no shelves, and a pair of doors."
+        },
+        {
+            "type": "text",
+            "data": "Click on the \"3D\"   tab in the View Menu and rotate the Cabinet around, look at the Cabinet. It should have top stretchers, a false front, no shelves, and a pair of doors."
+        },
+        {
+            "type": "image",
+            "data": "image184.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image98.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Click on the \"Face\"   ortho view tab, and then click on the \"New Part\" button."
+        },
+        {
+            "type": "text",
+            "data": "Click on the \"Face\"   ortho view tab, and then click on the \"New Part\" button."
+        },
+        {
+            "type": "text",
+            "data": "Click on the \"Face\"   ortho view tab, and then click on the \"New Part\" button."
+        },
+        {
+            "type": "image",
+            "data": "image181.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image1130.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "When the \"New Part\" screen comes up, under the \"Part Type\" area select \"Board\". Under the \"Material\" area it should have a material listed that is 3/4\" thick. If not  DO NOT  click on \"Change\". Changing the material here instead of in your material schedule will \"Lock\" the material to always use the material you select here. If you later changed the Material Schedule expecting the material for this board to change with the Material Schedule  it would not change .  Stop now , exit the job, go to the Material Catalog, click on \"Schedule\" at the top of the screen, then select \"Cabinet Parts\". When the \"Setup Material Schedule\" screen comes up, select one of your material schedules to work on. Click on the Plus (+) in front of \"Face\" to open it then click on the plus (+) in front of \"Face Frame\". Select a material for \"Board\" that is 3/4\" thick.  Then start over from step #1  or you could reopen this job and use the \"Update Materials\" option. When you get to the \"Job Properties\" screen be sure to go to the \"Materials\" tab and select the material schedule that you worked on."
+        },
+        {
+            "type": "text",
+            "data": "When the \"New Part\" screen comes up, under the \"Part Type\" area select \"Board\". Under the \"Material\" area it should have a material listed that is 3/4\" thick. If not  DO NOT  click on \"Change\". Changing the material here instead of in your material schedule will \"Lock\" the material to always use the material you select here. If you later changed the Material Schedule expecting the material for this board to change with the Material Schedule  it would not change .  Stop now , exit the job, go to the Material Catalog, click on \"Schedule\" at the top of the screen, then select \"Cabinet Parts\". When the \"Setup Material Schedule\" screen comes up, select one of your material schedules to work on. Click on the Plus (+) in front of \"Face\" to open it then click on the plus (+) in front of \"Face Frame\". Select a material for \"Board\" that is 3/4\" thick.  Then start over from step #1  or you could reopen this job and use the \"Update Materials\" option. When you get to the \"Job Properties\" screen be sure to go to the \"Materials\" tab and select the material schedule that you worked on."
+        },
+        {
+            "type": "text",
+            "data": "When the \"New Part\" screen comes up, under the \"Part Type\" area select \"Board\". Under the \"Material\" area it should have a material listed that is 3/4\" thick. If not  DO NOT  click on \"Change\". Changing the material here instead of in your material schedule will \"Lock\" the material to always use the material you select here. If you later changed the Material Schedule expecting the material for this board to change with the Material Schedule  it would not change .  Stop now , exit the job, go to the Material Catalog, click on \"Schedule\" at the top of the screen, then select \"Cabinet Parts\". When the \"Setup Material Schedule\" screen comes up, select one of your material schedules to work on. Click on the Plus (+) in front of \"Face\" to open it then click on the plus (+) in front of \"Face Frame\". Select a material for \"Board\" that is 3/4\" thick.  Then start over from step #1  or you could reopen this job and use the \"Update Materials\" option. When you get to the \"Job Properties\" screen be sure to go to the \"Materials\" tab and select the material schedule that you worked on."
+        },
+        {
+            "type": "image",
+            "data": "NewPart_Board.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "After you have selected \"Board\" and the thickness is OK, click on \"Next\". This will bring you to the \"Size\" tab. For the sake of argument the length will be 34 1/2\", and the \"Width\" will be 4\". The \"Thickness\" in the grayed out box should be 3/4\". You could change it here (by clicking on \"Material Thickness\" and entering a value) but it would  \"lock\"  the thickness to what ever you entered and it wouldnt change when you changed your Material Schedule. You will notice something called \"Relate to Cabinet Part\" you will not check this. This is used to give a part intelligence without you having to write formulas. For now we will do it the old fashioned way. Which is actually better because  you will need to know how to do this for yourself, anyway . And because when you let the computer do it for you it doesnt always write the most flexible formula. When done entering the length and width click on \"Next\"."
+        },
+        {
+            "type": "text",
+            "data": "After you have selected \"Board\" and the thickness is OK, click on \"Next\". This will bring you to the \"Size\" tab. For the sake of argument the length will be 34 1/2\", and the \"Width\" will be 4\". The \"Thickness\" in the grayed out box should be 3/4\". You could change it here (by clicking on \"Material Thickness\" and entering a value) but it would  \"lock\"  the thickness to what ever you entered and it wouldnt change when you changed your Material Schedule. You will notice something called \"Relate to Cabinet Part\" you will not check this. This is used to give a part intelligence without you having to write formulas. For now we will do it the old fashioned way. Which is actually better because  you will need to know how to do this for yourself, anyway . And because when you let the computer do it for you it doesnt always write the most flexible formula. When done entering the length and width click on \"Next\"."
+        },
+        {
+            "type": "text",
+            "data": "After you have selected \"Board\" and the thickness is OK, click on \"Next\". This will bring you to the \"Size\" tab. For the sake of argument the length will be 34 1/2\", and the \"Width\" will be 4\". The \"Thickness\" in the grayed out box should be 3/4\". You could change it here (by clicking on \"Material Thickness\" and entering a value) but it would  \"lock\"  the thickness to what ever you entered and it wouldnt change when you changed your Material Schedule. You will notice something called \"Relate to Cabinet Part\" you will not check this. This is used to give a part intelligence without you having to write formulas. For now we will do it the old fashioned way. Which is actually better because  you will need to know how to do this for yourself, anyway . And because when you let the computer do it for you it doesnt always write the most flexible formula. When done entering the length and width click on \"Next\"."
+        },
+        {
+            "type": "image",
+            "data": "BoardSizeEx1.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "On the \"Orientation\" tab select \"Front\" orientation. It is easier for most people, when first starting out, to add your parts in \"Front\" orientation and then later rotate them into position at an ortho view. Click on \"Next\"."
+        },
+        {
+            "type": "text",
+            "data": "On the \"Orientation\" tab select \"Front\" orientation. It is easier for most people, when first starting out, to add your parts in \"Front\" orientation and then later rotate them into position at an ortho view. Click on \"Next\"."
+        },
+        {
+            "type": "text",
+            "data": "On the \"Orientation\" tab select \"Front\" orientation. It is easier for most people, when first starting out, to add your parts in \"Front\" orientation and then later rotate them into position at an ortho view. Click on \"Next\"."
+        },
+        {
+            "type": "image",
+            "data": "Ex1FrontOreintation.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "You should now be at the \"Finish\" tab. The finish should probably be set to all \"Interior\" as this part is inside the cabinet. But for this demonstration it doesn't matter. Click on \"Finish\"."
+        },
+        {
+            "type": "text",
+            "data": "You should now be at the \"Finish\" tab. The finish should probably be set to all \"Interior\" as this part is inside the cabinet. But for this demonstration it doesn't matter. Click on \"Finish\"."
+        },
+        {
+            "type": "text",
+            "data": "You should now be at the \"Finish\" tab. The finish should probably be set to all \"Interior\" as this part is inside the cabinet. But for this demonstration it doesn't matter. Click on \"Finish\"."
+        },
+        {
+            "type": "image",
+            "data": "Ex1Finish.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "You will note that the part came in with a \"Left/Right\" of -18\". Whenever a part is manually added to a cabinet it will always come in with a \"Left/Right\" equal to one half the width of whatever cabinet it is add to. This is to get the part out of the way so you can find it."
+        },
+        {
+            "type": "text",
+            "data": "The first thing we are going to do is to manually rotate this part so it is going in the correct direction. We want to it to lay to the right with the length going left and right. Then we will manually place it where it needs to go in the cabinet. We will then begin to write formulas for it. In step #14 you were supposed to click on a front ortho view, so if you are not at a face ortho view,   click on it now."
+        },
+        {
+            "type": "image",
+            "data": "image181.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "To rotate the part so that it is laying on its right side."
+        },
+        {
+            "type": "text",
+            "data": "Click on the part to highlight it. On the left side of your screen where it says, \"Rotate part by\" we will need to enter a negative (-) 90 degrees. The part will be hinging on the Z-axis to rotate down to the right. We are already  facing the reference point  so to rotate the part clockwise it needs to be a negative amount. See \" Positive (+) and Negative (-) Rotation  \". Enter 90 and press enter."
+        },
+        {
+            "type": "text",
+            "data": "Click on the part to highlight it. On the left side of your screen where it says, \"Rotate part by\" we will need to enter a negative (-) 90 degrees. The part will be hinging on the Z-axis to rotate down to the right. We are already  facing the reference point  so to rotate the part clockwise it needs to be a negative amount. See \" Positive (+) and Negative (-) Rotation  \". Enter 90 and press enter."
+        },
+        {
+            "type": "text",
+            "data": "Click on the part to highlight it. On the left side of your screen where it says, \"Rotate part by\" we will need to enter a negative (-) 90 degrees. The part will be hinging on the Z-axis to rotate down to the right. We are already  facing the reference point  so to rotate the part clockwise it needs to be a negative amount. See \" Positive (+) and Negative (-) Rotation  \". Enter 90 and press enter."
+        },
+        {
+            "type": "image",
+            "data": "image1453.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The part is now going in the correct direction but it needs to move to the right by the thickness of the left end. The thickness of the left end is supposed to be 3/4\". So in the \"Left/Right\" area type in 3/4 and press enter."
+        },
+        {
+            "type": "text",
+            "data": "The part is now going in the correct direction but it needs to move to the right by the thickness of the left end. The thickness of the left end is supposed to be 3/4\". So in the \"Left/Right\" area type in 3/4 and press enter."
+        },
+        {
+            "type": "text",
+            "data": "The part is now going in the correct direction but it needs to move to the right by the thickness of the left end. The thickness of the left end is supposed to be 3/4\". So in the \"Left/Right\" area type in 3/4 and press enter."
+        },
+        {
+            "type": "image",
+            "data": "image1454.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "It now needs to move up to the top of the cabinet so it fits under the top stretcher. 34.5 - .75 = 33.75 so we enter 33 3/4 in the \"Up/Down\" area and press enter."
+        },
+        {
+            "type": "text",
+            "data": "It now needs to move up to the top of the cabinet so it fits under the top stretcher. 34.5 - .75 = 33.75 so we enter 33 3/4 in the \"Up/Down\" area and press enter."
+        },
+        {
+            "type": "text",
+            "data": "It now needs to move up to the top of the cabinet so it fits under the top stretcher. 34.5 - .75 = 33.75 so we enter 33 3/4 in the \"Up/Down\" area and press enter."
+        },
+        {
+            "type": "image",
+            "data": "image1455.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "It now needs to move to the front of the cabinet 24 - .75 = 23.25 so we enter 23 1/4\" were it says \"In/Out\" and press enter."
+        },
+        {
+            "type": "text",
+            "data": "It now needs to move to the front of the cabinet 24 - .75 = 23.25 so we enter 23 1/4\" were it says \"In/Out\" and press enter."
+        },
+        {
+            "type": "text",
+            "data": "It now needs to move to the front of the cabinet 24 - .75 = 23.25 so we enter 23 1/4\" were it says \"In/Out\" and press enter."
+        },
+        {
+            "type": "image",
+            "data": "image1456.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The part is now rotated and positioned correctly and we are ready to give the part intelligence."
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\Parametric_Editing\\Intelligence_Workshop\\1st_Exercise\\First_Exercise.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

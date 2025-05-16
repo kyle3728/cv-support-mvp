@@ -1,0 +1,3 @@
+Get-ChildItem "C:\CV_Help\HTML_Extracted" -Recurse -Filter *.png,*.jpg,*.jpeg,*.bmp | ForEach-Object {
+    "$($_.Name)|$($_.FullName)"
+} | Out-File "C:\CV_Help\Metadata\all_images_with_paths.txt"

@@ -1,0 +1,111 @@
+{
+    "id": "2b18fe61-9e07-4a6b-8cbf-c066fd95327e",
+    "title": "RLSB_Finishes",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top \n > \n \n \n Room Level \n > \n \n Sidebar \n > \n \n Finishes"
+        },
+        {
+            "type": "text",
+            "data": "Top \n >"
+        },
+        {
+            "type": "text",
+            "data": "Room Level \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Room Level",
+                "uuid": "9eaa492c-0405-4da7-8e0f-a6ff4e047890",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Sidebar \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Sidebar",
+                "uuid": "f07520a2-0645-4a40-b8d9-a72c15b5c147",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Finishes"
+        },
+        {
+            "type": "text",
+            "data": "Finishes"
+        },
+        {
+            "type": "text",
+            "data": "Finishes -"
+        },
+        {
+            "type": "image",
+            "data": "image72.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image2404.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Change Finishes by clicking the desired \"Color\" swatch and selecting the item whose Finish you desire to change."
+        },
+        {
+            "type": "text",
+            "data": "These Finishes will appear in the \"Fill Mode\"."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Finishes Window offers several options depending on the items that are listed. For example, the Finish Window for Appliances is shown below. Notice that there is a drop down list for Appliance where you can select whether you want the finish choice to affect all Appliances or you can choose finishes for each Appliance individually. Also, there is a drop down that covers Objects such as the Appliance Panels and the Handles or Pulls."
+        },
+        {
+            "type": "image",
+            "data": "image849.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "In the image above \"Use Material Finish\" is enabled. With this option enabled you can see what Finishes are assigned to the Objects by the Material Schedule. To change Finishes disable this option."
+        },
+        {
+            "type": "image",
+            "data": "image850.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Now you can select and Finishes that exist on your system. There is an option to quickly Search for a Finish."
+        },
+        {
+            "type": "text",
+            "data": "You also have the ability to create a New Finish from here."
+        },
+        {
+            "type": "image",
+            "data": "Color_Picker.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "You can use the sliders to set the color you would like to create or if you know the colors RGB value you can enter it here. Give the new Finish a Name and it will be added to your list of available Finishes."
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Room_Level\\Side_Bar\\RLSB_Finishes.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

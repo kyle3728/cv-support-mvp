@@ -1,0 +1,53 @@
+{
+    "id": "20769ca3-73f9-4deb-b386-13243dbe725e",
+    "title": "Add_Applied_Door_Molding",
+    "content": [
+        {
+            "type": "text",
+            "data": "Add Applied Door Molding"
+        },
+        {
+            "type": "text",
+            "data": "Create an Applied Door Molding Material in the Material Manager. \n \n \n Take that Material to Properties then run the Profile Editor and give it the shape you need. \n \n \n In a Door Material Schedule assign your new Applied Door Molding to the \"Applied Inside Edge Molding\" Part. \n \n \n In a Job use that Door Material Schedule on a Door that is using an Inside Edge Profile."
+        },
+        {
+            "type": "text",
+            "data": "Create an Applied Door Molding Material in the Material Manager."
+        },
+        {
+            "type": "text",
+            "data": "Create an Applied Door Molding Material in the Material Manager."
+        },
+        {
+            "type": "text",
+            "data": "Take that Material to Properties then run the Profile Editor and give it the shape you need."
+        },
+        {
+            "type": "text",
+            "data": "Take that Material to Properties then run the Profile Editor and give it the shape you need."
+        },
+        {
+            "type": "text",
+            "data": "In a Door Material Schedule assign your new Applied Door Molding to the \"Applied Inside Edge Molding\" Part."
+        },
+        {
+            "type": "text",
+            "data": "In a Door Material Schedule assign your new Applied Door Molding to the \"Applied Inside Edge Molding\" Part."
+        },
+        {
+            "type": "text",
+            "data": "In a Job use that Door Material Schedule on a Door that is using an Inside Edge Profile."
+        },
+        {
+            "type": "text",
+            "data": "In a Job use that Door Material Schedule on a Door that is using an Inside Edge Profile."
+        },
+        {
+            "type": "text",
+            "data": "You should see your Applied Door Molding."
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\FAQs\\HDI-Advanced_Features\\Add_Applied_Door_Molding.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

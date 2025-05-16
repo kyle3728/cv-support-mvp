@@ -1,0 +1,37 @@
+{
+    "id": "6471c915-299a-4499-b523-5210c9103649",
+    "title": "Define_Inset_Cabinet_Doors",
+    "content": [
+        {
+            "type": "text",
+            "data": "Define Inset Cabinet Doors"
+        },
+        {
+            "type": "text",
+            "data": "Is there a way to inset my Doors into the Face Frame?"
+        },
+        {
+            "type": "text",
+            "data": "Yes, in the  Material Manager  select the Hinge you will be using. Go to the Hinge Tab and change the Inset value to 3/4\" (or whatever you face frame thickness is). You might also want to create a  Material Schedule  using your Inset Hinge, and then you'll be able to use it for a whole Job as well as change on a per Assembly basis."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Material Manager",
+                "uuid": "2fed939d-ba55-4f35-94da-993f0e1b392e",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Material Schedule",
+                "uuid": "299ec266-8919-4cda-be6a-21e8e2e8a9d1",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\FAQs\\HDI-Advanced_Features\\Define_Inset_Cabinet_Doors.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

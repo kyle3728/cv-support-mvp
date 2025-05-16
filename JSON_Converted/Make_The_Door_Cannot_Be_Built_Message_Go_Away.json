@@ -1,0 +1,33 @@
+{
+    "id": "d44de6a4-053b-4db1-a4a7-ad31593bcd36",
+    "title": "Make_The_Door_Cannot_Be_Built_Message_Go_Away",
+    "content": [
+        {
+            "type": "text",
+            "data": "Make \"The Door Cannot Be Built\" Message Go Away"
+        },
+        {
+            "type": "text",
+            "data": "What does the message \"Door Cannot Be Built\"mean when I use certain Cabinets?"
+        },
+        {
+            "type": "text",
+            "data": "There is a conflict with the Door parts, meaning the Door can not physically be built at the desired size for the Cabinet."
+        },
+        {
+            "type": "text",
+            "data": "Go to the  Door Catalog , select the Door or Drawer Front used when the message occurs. Check the  Door Associations  to see if you've selected a Door for CABINET VISION to switch to when it reaches a size where that Door can not be built. Also, go to the  Construction tab  and check the stiles, rails, and inside edge profiles. Add them up to see if the Door/Drawer can be built at a certain size. Remember, inside edge profile width's are added to the width of stiles and rails unless the Profile is designated as  Extended ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Door Catalog",
+                "uuid": "2da09610-ccab-42a9-a5ce-4ad5fa83394a",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\FAQs\\HDI-Advanced_Features\\Make_The_Door_Cannot_Be_Built_Message_Go_Away.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

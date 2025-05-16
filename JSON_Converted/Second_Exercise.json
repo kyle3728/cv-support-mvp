@@ -1,0 +1,118 @@
+{
+    "id": "f29eb0a5-9dd2-4fff-81aa-349ba706c19c",
+    "title": "Second_Exercise",
+    "content": [
+        {
+            "type": "text",
+            "data": "Second Exercise"
+        },
+        {
+            "type": "text",
+            "data": "So lets add another part to the cabinet. This time we will add a BOARD but it will be going up and down and it will fit between the BOARD we have already placed and the deck. Also it will be centered in the cabinet left to right. See following picture. In order to see what we are doing we will delete the false front and the pair of butt doors."
+        },
+        {
+            "type": "image",
+            "data": "image76.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Click on the \"Section\" button and then make sure the \"Section Face\" button is selected. \n \n \n Click on the big red X and answer yes when it says \"Warning: Do you want to erase ALL Face and Case parts?\" Look at the cabinet in 3D, rotate it around a little and you will clearly see the first BOARD we added. \n \n \n Click on the \"Face\" ortho view tab, and then click on the \"New Part\" button. When the \"add a new part\" screen comes up (it will say \"General\" in the upper left hand corner), under the \"Part Type\" area select \"BOARD\". \n \n \n Click on \"Next\". This will bring you to the \"Size\" tab. \n \n \n If you where to measure the distance from the bottom of the BOARD to the deck it would be 24 3/4\" (proved you did the preliminary setup you where supposed to do). So set the length to 24 3/4\", set the \"Width\" to 4\". Leave the thickness alone. Click on \"Next\". \n \n \n On the \"Orientation\" tab select \"Front\" orientation. It is easier for most people to add parts in \"Front\" orientation and then later rotate them into position at an ortho view. Click on \"Next\". \n \n \n You should now be at the \"Finish\" tab. For this demonstration the finish doesnt matter. Click on the \"Finish\" button."
+        },
+        {
+            "type": "text",
+            "data": "Click on the \"Section\" button and then make sure the \"Section Face\" button is selected."
+        },
+        {
+            "type": "text",
+            "data": "Click on the \"Section\" button and then make sure the \"Section Face\" button is selected."
+        },
+        {
+            "type": "text",
+            "data": "Click on the big red X and answer yes when it says \"Warning: Do you want to erase ALL Face and Case parts?\" Look at the cabinet in 3D, rotate it around a little and you will clearly see the first BOARD we added."
+        },
+        {
+            "type": "text",
+            "data": "Click on the big red X and answer yes when it says \"Warning: Do you want to erase ALL Face and Case parts?\" Look at the cabinet in 3D, rotate it around a little and you will clearly see the first BOARD we added."
+        },
+        {
+            "type": "text",
+            "data": "Click on the \"Face\" ortho view tab, and then click on the \"New Part\" button. When the \"add a new part\" screen comes up (it will say \"General\" in the upper left hand corner), under the \"Part Type\" area select \"BOARD\"."
+        },
+        {
+            "type": "text",
+            "data": "Click on the \"Face\" ortho view tab, and then click on the \"New Part\" button. When the \"add a new part\" screen comes up (it will say \"General\" in the upper left hand corner), under the \"Part Type\" area select \"BOARD\"."
+        },
+        {
+            "type": "text",
+            "data": "Click on \"Next\". This will bring you to the \"Size\" tab."
+        },
+        {
+            "type": "text",
+            "data": "Click on \"Next\". This will bring you to the \"Size\" tab."
+        },
+        {
+            "type": "text",
+            "data": "If you where to measure the distance from the bottom of the BOARD to the deck it would be 24 3/4\" (proved you did the preliminary setup you where supposed to do). So set the length to 24 3/4\", set the \"Width\" to 4\". Leave the thickness alone. Click on \"Next\"."
+        },
+        {
+            "type": "text",
+            "data": "If you where to measure the distance from the bottom of the BOARD to the deck it would be 24 3/4\" (proved you did the preliminary setup you where supposed to do). So set the length to 24 3/4\", set the \"Width\" to 4\". Leave the thickness alone. Click on \"Next\"."
+        },
+        {
+            "type": "text",
+            "data": "On the \"Orientation\" tab select \"Front\" orientation. It is easier for most people to add parts in \"Front\" orientation and then later rotate them into position at an ortho view. Click on \"Next\"."
+        },
+        {
+            "type": "text",
+            "data": "On the \"Orientation\" tab select \"Front\" orientation. It is easier for most people to add parts in \"Front\" orientation and then later rotate them into position at an ortho view. Click on \"Next\"."
+        },
+        {
+            "type": "text",
+            "data": "You should now be at the \"Finish\" tab. For this demonstration the finish doesnt matter. Click on the \"Finish\" button."
+        },
+        {
+            "type": "text",
+            "data": "You should now be at the \"Finish\" tab. For this demonstration the finish doesnt matter. Click on the \"Finish\" button."
+        },
+        {
+            "type": "text",
+            "data": "You will note that the part came in with a \"Left/Right\" of -18\". Whenever a part is manually added to a cabinet it will always come in with a \"Left/Right\" equal to one half the width of whatever cabinet it is added to. This is to get the part out of the way so you can find it."
+        },
+        {
+            "type": "text",
+            "data": "The part is all ready going in the correct direction. But it needs to be centered in the cabinet,  one half of the width of the cabinet  (the cabinet should be 36\") is 18\" but the reference point for the BOARD is on the left side, so we cant just say the \"Left/Right is 18, because the BOARD would be off center. So we must  subtract one half the width of the part  from the 18\". 18  2 = 16 so we enter 16 into the \"Left/Right\" and press enter. \n \n \n It now needs to move up to the top of the deck. If you set your \"Toe Kick\" height to 4 1/4\" and your bottom material to 3/4\" thick, this adds up to 5\", type 5\" into the \"Up/Down\" area and press enter. \n \n \n It now needs to move to the front of the cabinet (24 - .75 = 23.25), so we enter 23 1/4\" were it says \"In/Out\" and press enter."
+        },
+        {
+            "type": "text",
+            "data": "The part is all ready going in the correct direction. But it needs to be centered in the cabinet,  one half of the width of the cabinet  (the cabinet should be 36\") is 18\" but the reference point for the BOARD is on the left side, so we cant just say the \"Left/Right is 18, because the BOARD would be off center. So we must  subtract one half the width of the part  from the 18\". 18  2 = 16 so we enter 16 into the \"Left/Right\" and press enter."
+        },
+        {
+            "type": "text",
+            "data": "The part is all ready going in the correct direction. But it needs to be centered in the cabinet,  one half of the width of the cabinet  (the cabinet should be 36\") is 18\" but the reference point for the BOARD is on the left side, so we cant just say the \"Left/Right is 18, because the BOARD would be off center. So we must  subtract one half the width of the part  from the 18\". 18  2 = 16 so we enter 16 into the \"Left/Right\" and press enter."
+        },
+        {
+            "type": "text",
+            "data": "It now needs to move up to the top of the deck. If you set your \"Toe Kick\" height to 4 1/4\" and your bottom material to 3/4\" thick, this adds up to 5\", type 5\" into the \"Up/Down\" area and press enter."
+        },
+        {
+            "type": "text",
+            "data": "It now needs to move up to the top of the deck. If you set your \"Toe Kick\" height to 4 1/4\" and your bottom material to 3/4\" thick, this adds up to 5\", type 5\" into the \"Up/Down\" area and press enter."
+        },
+        {
+            "type": "text",
+            "data": "It now needs to move to the front of the cabinet (24 - .75 = 23.25), so we enter 23 1/4\" were it says \"In/Out\" and press enter."
+        },
+        {
+            "type": "text",
+            "data": "It now needs to move to the front of the cabinet (24 - .75 = 23.25), so we enter 23 1/4\" were it says \"In/Out\" and press enter."
+        },
+        {
+            "type": "text",
+            "data": "The part is now rotated and positioned correctly and we are ready to give the part intelligence."
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\Parametric_Editing\\Intelligence_Workshop\\2nd_Exercise\\Second_Exercise.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

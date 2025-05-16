@@ -1,0 +1,522 @@
+{
+    "id": "44e32c02-bc4b-47e1-a681-21c422325448",
+    "title": "The_Shape_Editor",
+    "content": [
+        {
+            "type": "text",
+            "data": "The Shape Editor (In General)"
+        },
+        {
+            "type": "text",
+            "data": "The Shape Editor consists of several tools designed to allow editing of the shapes of Assemblies, Parts, and Operations. All tools within each Shape Editor work the same, yet not all Shape Editors contain all the tools shown. The Shape Editor will not appear until you are in the \"shape edit mode\" for the object you are working on. Typically, a right click on the item produces a menu with the \"Edit Shape\" option. Selecting this option will cause the Shape Editor to display."
+        },
+        {
+            "type": "text",
+            "data": "The tools defined below are from different Shape Editors, and may not appear in all Shape Editors."
+        },
+        {
+            "type": "text",
+            "data": "Layer Selector"
+        },
+        {
+            "type": "image",
+            "data": "image152.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There are two options in the Edit Shape Layer selector:"
+        },
+        {
+            "type": "text",
+            "data": "Shape -  The default Layer and the one all Shapes must be drawn on."
+        },
+        {
+            "type": "text",
+            "data": "Construction -  This Layer allows you to draw Construction/Reference Lines to assist in creating your shape."
+        },
+        {
+            "type": "text",
+            "data": "Depending on which Layer is active some options in the Modify section of the Ribbonbar may or may not be available."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Select"
+        },
+        {
+            "type": "image",
+            "data": "image3046.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This will change the cursor to an arrowhead and allow selection of lines, arcs, etc. After selecting the item, you will be able to change properties by selecting the desired property off the list in the sidebar and selecting the item to apply it to. Lines can be moved, re-sized, etc."
+        },
+        {
+            "type": "text",
+            "data": "Select All"
+        },
+        {
+            "type": "image",
+            "data": "image3048.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The  Select All  menu option will select all objects in the Shape Editor."
+        },
+        {
+            "type": "text",
+            "data": "Measure"
+        },
+        {
+            "type": "image",
+            "data": "image3049.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option allows you to  Measure  Objects without leaving a dimension on the drawing."
+        },
+        {
+            "type": "text",
+            "data": "Add Split"
+        },
+        {
+            "type": "image",
+            "data": "image2373.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option allows you to  Add  a  Split  to a Counter Top."
+        },
+        {
+            "type": "text",
+            "data": "Delete Split"
+        },
+        {
+            "type": "image",
+            "data": "image3036.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option allows you to  Delete  a Counter Top  Split  you have added."
+        },
+        {
+            "type": "text",
+            "data": "Move Split"
+        },
+        {
+            "type": "image",
+            "data": "image2374.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option allows you to  Move  a Counter Top  Split  you have added."
+        },
+        {
+            "type": "text",
+            "data": "Delete"
+        },
+        {
+            "type": "image",
+            "data": "image3050.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option will allow you to  Delete  the selected CAD Object(s)."
+        },
+        {
+            "type": "text",
+            "data": "Fillet"
+        },
+        {
+            "type": "image",
+            "data": "image44.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option allows you to  Fillet  two lines together. Specify the Fillet Radius in the sidebar..."
+        },
+        {
+            "type": "image",
+            "data": "image46.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "...then Left Click the first line then Left Click the second to connect them."
+        },
+        {
+            "type": "text",
+            "data": "In the following example, two lines were drawn at a 90 degree angle to one another and the radius in the field on the left of the screen was set to 5\u201d. The dashed lines represent where the lines used to extend."
+        },
+        {
+            "type": "image",
+            "data": "image47.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Chamfer"
+        },
+        {
+            "type": "image",
+            "data": "image45.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option allows you to  Chamfer  two lines together. Specify the Chamfer Length in the sidebar..."
+        },
+        {
+            "type": "image",
+            "data": "image48.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "...then Left Click the first line then Left Click the second to connect them."
+        },
+        {
+            "type": "text",
+            "data": "The example below shows a 5\u201d Chamfer, the dashed lines represent where the lines used to extend."
+        },
+        {
+            "type": "image",
+            "data": "image49.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Bend"
+        },
+        {
+            "type": "image",
+            "data": "image2371.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This tool allows you to select a Line and turn it into an Arc by dragging it to  Bend  it."
+        },
+        {
+            "type": "text",
+            "data": "Line"
+        },
+        {
+            "type": "image",
+            "data": "image3058.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This tool allows the creation of  Line s to define the shape of your Assembly or Part. \u00a0After selecting and placing a line, the line properties window will display in the sidebar. \u00a0Clicking on the items listed in this window will allow modification of that item."
+        },
+        {
+            "type": "image",
+            "data": "image614.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Chained Line"
+        },
+        {
+            "type": "image",
+            "data": "image3059.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This tool allows the continuous creation of connected Lines. Similar to the  Polyline  option in CAD."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Polyline",
+                "uuid": "b2e0e61a-3db8-4e05-86e8-8de0e1729d3d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Line Box"
+        },
+        {
+            "type": "image",
+            "data": "image3060.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This tool allows the creation of a Rectangle. Similar to the  Rectangle  option in CAD."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Rectangle",
+                "uuid": "b2e0e61a-3db8-4e05-86e8-8de0e1729d3d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Polygon"
+        },
+        {
+            "type": "image",
+            "data": "image3441.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This tool allows the creation of a fully enclosed  Polygon ."
+        },
+        {
+            "type": "text",
+            "data": "Arcs"
+        },
+        {
+            "type": "image",
+            "data": "image2372.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Arc By Radius"
+        },
+        {
+            "type": "image",
+            "data": "image3062.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option allows definition of a point where a radius begins, the radius, and the degrees of radius. \u00a0The first mouse click marks the center of the radius, pull the radius that you want and click again."
+        },
+        {
+            "type": "image",
+            "data": "image619.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "A circle will appear with a radius line within it. Move the cursor and the circle opening becomes an arc as you do so."
+        },
+        {
+            "type": "image",
+            "data": "image620.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "When you reach the correct position, a third click will set the arc at the selected point."
+        },
+        {
+            "type": "image",
+            "data": "image621.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "3 Points Arc"
+        },
+        {
+            "type": "image",
+            "data": "image3063.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option lets you place two points to define the opening of the arc, and the third point pulls the arc increasing the radius. \u00a0A 3 Points Arc is very handy when you have three known points to Snap to."
+        },
+        {
+            "type": "text",
+            "data": "In the example below I want to create the Arc shown in red."
+        },
+        {
+            "type": "image",
+            "data": "image983.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "To begin I select the Arcs|3 Points Arc option from the Ribbonbar then Left Click the End Point (With Snap To Points on) of the first line."
+        },
+        {
+            "type": "image",
+            "data": "image984.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Next I Left Click the Mid Point of the second line."
+        },
+        {
+            "type": "image",
+            "data": "image985.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "And the last and third point I Left Click the End point of the third line."
+        },
+        {
+            "type": "image",
+            "data": "image986.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "And now I have the Arc."
+        },
+        {
+            "type": "image",
+            "data": "image983.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Check"
+        },
+        {
+            "type": "image",
+            "data": "image3065.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option will  Check  your Assembly, Part, or Operations Shape to make sure it is valid. Objects that are valid will be Green and objects which are not will be Red. Usually a Shape is judged as invalid if it is not a complete enclosed shape. See illustrations below for examples."
+        },
+        {
+            "type": "text",
+            "data": "Invalid"
+        },
+        {
+            "type": "image",
+            "data": "image955.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Valid"
+        },
+        {
+            "type": "image",
+            "data": "image3067.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Set Start"
+        },
+        {
+            "type": "image",
+            "data": "image55.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Available only with open Molding, this option allows you to set the Start Point for the Molding. The start point is indicated visually by a blue circle with an arrow pointing in its direction."
+        },
+        {
+            "type": "text",
+            "data": "Simple Constraints -"
+        },
+        {
+            "type": "image",
+            "data": "S2M.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Simple Constraints are available when selecting a Point or CAD entity."
+        },
+        {
+            "type": "image",
+            "data": "image80.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Simply click on the little button associated to a selected entity to sequentially change its Simple Constraints:"
+        },
+        {
+            "type": "text",
+            "data": "- The position will be kept at the same distance from the left edge of the Object."
+        },
+        {
+            "type": "image",
+            "data": "image84.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "- The position will be kept at the same distance from the right edge of the Object."
+        },
+        {
+            "type": "image",
+            "data": "image82.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "- The position will be kept at the same distance from the center (Horizontally) of the Object."
+        },
+        {
+            "type": "image",
+            "data": "image83.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "- The position will be kept at the same distance from the top edge of the Object."
+        },
+        {
+            "type": "image",
+            "data": "image85.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "- The position will be kept at the same distance from the bottom edge of the Object."
+        },
+        {
+            "type": "image",
+            "data": "image86.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "- The position will be kept at the same distance from the center (Vertically) of the Object."
+        },
+        {
+            "type": "image",
+            "data": "image87.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "- The position will adjust proportionally to the Object Size."
+        },
+        {
+            "type": "image",
+            "data": "image81.gif",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Tips_Tricks_&_FAQs\\The_Shape_Editor.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

@@ -1,0 +1,144 @@
+{
+    "id": "b12e0cee-f5bb-496a-9465-155159faf1d5",
+    "title": "Parts",
+    "content": [
+        {
+            "type": "text",
+            "data": "Parts"
+        },
+        {
+            "type": "image",
+            "data": "image825.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This is the default opening view for the S2M Optimizer."
+        },
+        {
+            "type": "image",
+            "data": "image35.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "You will notice in the figure above that the \"Left End\" has a Red icon next to it on the Left. Any parts in the list denoted with a red icon is a part that will not be optimized. In this case the part is longer than the 96\" long Material that is specified."
+        },
+        {
+            "type": "text",
+            "data": "To find the exact meaning of a particular Part icon simply hover over it to receive a description."
+        },
+        {
+            "type": "text",
+            "data": "By default all items that can be sent to the Optimizer will be sent to them. However, if you just wanted to send certain items to the Optimizer you can select them individually. To select a part simply click the icon next to the part. To select more than one simply hold   while selecting. You can also select a range of parts by selecting the first part in the list you would like to send and then hold   and select the last part. This will select all parts in between the first and last parts selected."
+        },
+        {
+            "type": "image",
+            "data": "ctrl_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "shift_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "You can also change the Material of any part in the list. Simply click on the Material Name and a drop down will appear and allow you to change the current Part to any other Material available in the current Job."
+        },
+        {
+            "type": "text",
+            "data": "Any item in the list can be modified. You can change the Quantity of parts, the parts size, you can even add an Overage using the Over column."
+        },
+        {
+            "type": "text",
+            "data": "The red arrow in the view above is there to let you know you can add a new Part to this Part list."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Right Click Options"
+        },
+        {
+            "type": "text",
+            "data": "Right clicking on a Part in the Part list brings up the following menu:"
+        },
+        {
+            "type": "image",
+            "data": "image36.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There are three possible commands available in this Right Click menu:"
+        },
+        {
+            "type": "text",
+            "data": "Edit \n \n \n Delete  - Clicking the Delete command will delete the selected part from the Parts List. \n \n \n OK to Optimize -  This option allows you to determine if the selected Part is OK to go to the Optimizer."
+        },
+        {
+            "type": "text",
+            "data": "Edit \n \n \n Delete  - Clicking the Delete command will delete the selected part from the Parts List. \n \n \n OK to Optimize -  This option allows you to determine if the selected Part is OK to go to the Optimizer."
+        },
+        {
+            "type": "text",
+            "data": "Edit \n \n \n Delete  - Clicking the Delete command will delete the selected part from the Parts List. \n \n \n OK to Optimize -  This option allows you to determine if the selected Part is OK to go to the Optimizer."
+        },
+        {
+            "type": "text",
+            "data": "Edit"
+        },
+        {
+            "type": "text",
+            "data": "Edit"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Edit",
+                "uuid": "59a297ae-0bcb-41bb-9bce-b7760ead48b1",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Delete  - Clicking the Delete command will delete the selected part from the Parts List."
+        },
+        {
+            "type": "text",
+            "data": "Delete  - Clicking the Delete command will delete the selected part from the Parts List."
+        },
+        {
+            "type": "text",
+            "data": "OK to Optimize -  This option allows you to determine if the selected Part is OK to go to the Optimizer."
+        },
+        {
+            "type": "text",
+            "data": "OK to Optimize -  This option allows you to determine if the selected Part is OK to go to the Optimizer."
+        },
+        {
+            "type": "text",
+            "data": "If you do not see this option check to make sure Show Parts Not Set for Optimization or Output is enabled in  Preferences ."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Preferences",
+                "uuid": "a6c6d306-c8da-4df8-8440-33f2f24a9c1d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "NCEnglish_Optimizer\\Ribbonbar\\Main_Tab\\Parts\\Parts.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

@@ -1,0 +1,21 @@
+{
+    "id": "0282ebf0-e78a-410d-9e37-6e464a2df7d1",
+    "title": "Winstore",
+    "content": [
+        {
+            "type": "text",
+            "data": "Winstore"
+        },
+        {
+            "type": "text",
+            "data": "Output for the Biesse Winstore Material Handling system."
+        },
+        {
+            "type": "text",
+            "data": "Biesse Winstore Material Handling system.Materials can by synchronized with this system in the  Offcut Manager ."
+        }
+    ],
+    "source_file": "NCEnglish\\Ribbonbar\\Main_Tab\\Machine\\NC_Links\\Material_Handling\\Winstore.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

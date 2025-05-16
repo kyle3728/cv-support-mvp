@@ -1,0 +1,110 @@
+{
+    "id": "a8b6e6cc-145c-49e9-b396-fe670589f460",
+    "title": "AW_Bottom",
+    "content": [
+        {
+            "type": "text",
+            "data": "Deck"
+        },
+        {
+            "type": "text",
+            "data": "Typically, \"Deck\" is reserved for the 'bottom' of a BaseCabinet, where the 'bottom' of an UpperCabinet is referred to as the Bottom."
+        },
+        {
+            "type": "image",
+            "data": "image495.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The following diagrams show the options available in the Bottom Branch."
+        },
+        {
+            "type": "image",
+            "data": "image496.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Bottom/Deck Banding Definition (Standard #676)"
+        },
+        {
+            "type": "image",
+            "data": "image497.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Bottom/Deck Placement to Case (Standard #586)"
+        },
+        {
+            "type": "image",
+            "data": "image498.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Deck Bottom Rail Position (Standard #135)"
+        },
+        {
+            "type": "image",
+            "data": "image499.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Notch Deck for Sub-Frame (Standard #9)"
+        },
+        {
+            "type": "image",
+            "data": "image500.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Delete Bottom/Deck On Drawer Bank (Standard #12)"
+        },
+        {
+            "type": "text",
+            "data": "You have the option to set up your Construction Method to remove the Deck from a Drawer Bank Cabinet."
+        },
+        {
+            "type": "image",
+            "data": "image501.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Bottom/Deck Finished Side Orientation (Standard #136)"
+        },
+        {
+            "type": "text",
+            "data": "For Bottoms/Decks in a Corner sub-branch, you have the ability to determine the Material face orientation if you are using 2 sided Materials for the Bottom of a Cabinet. You can select whether the \"good side\" faces in or out (up or down on the Bottom). Remember to add  break outs  if needed for the different Classes of Cabinets."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "break outs",
+                "uuid": "6dcde6cd-5026-4a03-830b-fec7a1ea4630",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image502.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Machining Face at Deck (Standard #574)"
+        },
+        {
+            "type": "image",
+            "data": "image503.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Cabinetmaker\\System_Level\\Ribbonbar\\Main_Tab\\Construction_Group\\Assembly_Manager\\Assembly\\Branches\\Exterior_Case\\AW_Bottom.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

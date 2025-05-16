@@ -1,0 +1,21 @@
+{
+    "id": "9cf230ec-254d-4da0-8ed9-33b596a8b115",
+    "title": "Omal_Albatros",
+    "content": [
+        {
+            "type": "text",
+            "data": "Omal Albatros"
+        },
+        {
+            "type": "text",
+            "data": "This is a Drill and Dowel Machine Link."
+        },
+        {
+            "type": "text",
+            "data": "This output will create program files for Omal with the Albatros control. Each program will represent one side of a part. Assign Tools to this Machine with Tool Catalog to set additional parameters."
+        }
+    ],
+    "source_file": "NCEnglish\\Ribbonbar\\Main_Tab\\Machine\\NC_Links\\Drill_and_Dowel_Links\\Omal_Albatros.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

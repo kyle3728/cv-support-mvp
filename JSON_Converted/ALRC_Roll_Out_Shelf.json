@@ -1,0 +1,117 @@
+{
+    "id": "43f30d98-7f80-45b8-be10-da0208a7dc8c",
+    "title": "ALRC_Roll_Out_Shelf",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top \n > \n \n \n Assembly Level \n > \n \n Right Click Options \n > \n \n Right Click Roll Out Shelf"
+        },
+        {
+            "type": "text",
+            "data": "Top \n >"
+        },
+        {
+            "type": "text",
+            "data": "Assembly Level \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Assembly Level",
+                "uuid": "b0552ea2-b430-4836-aa5e-42dfd04f9eda",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Right Click Options \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Right Click Options",
+                "uuid": "4db52af7-38c4-4c87-bc5e-fcd44fba5f73",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Right Click Roll Out Shelf"
+        },
+        {
+            "type": "text",
+            "data": "Right Click Roll Out Shelf"
+        },
+        {
+            "type": "text",
+            "data": "Right Click Roll Out Shelf Section View   -   Section Interior"
+        },
+        {
+            "type": "image",
+            "data": "image180.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image2522.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image1302.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There are two options when right clicking on a Roll Out Shelf in the Section Case view:"
+        },
+        {
+            "type": "text",
+            "data": "Delete -  Deletes the selected Roll Out Shelf. \n \n \n Properties -  There is one option on the Roll Out Shelf Tab:"
+        },
+        {
+            "type": "text",
+            "data": "Delete -  Deletes the selected Roll Out Shelf."
+        },
+        {
+            "type": "text",
+            "data": "Delete -  Deletes the selected Roll Out Shelf."
+        },
+        {
+            "type": "text",
+            "data": "Properties -  There is one option on the Roll Out Shelf Tab:"
+        },
+        {
+            "type": "text",
+            "data": "Properties -  There is one option on the Roll Out Shelf Tab:"
+        },
+        {
+            "type": "image",
+            "data": "image946.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Change   -  Will bring up the Drawer Guide selector and allow you to change the Drawer Guide for the selected Drawer."
+        },
+        {
+            "type": "text",
+            "data": "Change   -  Will bring up the Drawer Guide selector and allow you to change the Drawer Guide for the selected Drawer."
+        },
+        {
+            "type": "text",
+            "data": "Change   -  Will bring up the Drawer Guide selector and allow you to change the Drawer Guide for the selected Drawer."
+        },
+        {
+            "type": "text",
+            "data": "Change   -  Will bring up the Drawer Guide selector and allow you to change the Drawer Guide for the selected Drawer."
+        },
+        {
+            "type": "text",
+            "data": "Change   -  Will bring up the Drawer Guide selector and allow you to change the Drawer Guide for the selected Drawer."
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Assembly_Level\\Right_Click_Options\\ALRC_Roll_Out_Shelf.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

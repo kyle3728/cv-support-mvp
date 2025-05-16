@@ -1,0 +1,197 @@
+{
+    "id": "ff330d7b-0c6c-43e4-ad62-b04f42f43d4a",
+    "title": "Fifth_Exercise_Formulas_for_Board__3",
+    "content": [
+        {
+            "type": "text",
+            "data": "Fifth Exercise Formulas for Board #3"
+        },
+        {
+            "type": "text",
+            "data": "Board#3- Formula for the X (Left/Right)"
+        },
+        {
+            "type": "text",
+            "data": "Do we need a formula for the X?"
+        },
+        {
+            "type": "text",
+            "data": "Answer"
+        },
+        {
+            "type": "text",
+            "data": "Formula"
+        },
+        {
+            "type": "text",
+            "data": "Code"
+        },
+        {
+            "type": "text",
+            "data": "Board#3- Formula for the Y (Up/Down)"
+        },
+        {
+            "type": "text",
+            "data": "Do we need a formula for the Y?"
+        },
+        {
+            "type": "text",
+            "data": "Answer"
+        },
+        {
+            "type": "text",
+            "data": "Formula"
+        },
+        {
+            "type": "text",
+            "data": "Code"
+        },
+        {
+            "type": "text",
+            "data": "Board#3- Formula for the Z (Front/Back)"
+        },
+        {
+            "type": "text",
+            "data": "Do we need a formula for the Z?"
+        },
+        {
+            "type": "text",
+            "data": "Answer"
+        },
+        {
+            "type": "text",
+            "data": "Formula"
+        },
+        {
+            "type": "text",
+            "data": "Code"
+        },
+        {
+            "type": "text",
+            "data": "Board#3- Formula for the DX (Width)"
+        },
+        {
+            "type": "text",
+            "data": "Do we need a formula for the DX?"
+        },
+        {
+            "type": "text",
+            "data": "Answer"
+        },
+        {
+            "type": "text",
+            "data": "Formula"
+        },
+        {
+            "type": "text",
+            "data": "Code"
+        },
+        {
+            "type": "text",
+            "data": "Board#3- Formula for the DY (Length)"
+        },
+        {
+            "type": "text",
+            "data": "Do we need a formula for the DY?"
+        },
+        {
+            "type": "text",
+            "data": "Answer"
+        },
+        {
+            "type": "text",
+            "data": "Formula"
+        },
+        {
+            "type": "text",
+            "data": "Code"
+        },
+        {
+            "type": "text",
+            "data": "Board#3- Formula for the DZ (Thickness)"
+        },
+        {
+            "type": "text",
+            "data": "Do we need a formula for the DZ?"
+        },
+        {
+            "type": "text",
+            "data": "Answer"
+        },
+        {
+            "type": "text",
+            "data": "Formula"
+        },
+        {
+            "type": "text",
+            "data": "Code"
+        },
+        {
+            "type": "text",
+            "data": "Board#3- Formula for the AX (Rotation on X-axis)"
+        },
+        {
+            "type": "text",
+            "data": "Do we need a formula for the AX?"
+        },
+        {
+            "type": "text",
+            "data": "Answer"
+        },
+        {
+            "type": "text",
+            "data": "Formula"
+        },
+        {
+            "type": "text",
+            "data": "Code"
+        },
+        {
+            "type": "text",
+            "data": "Board#3- Formula for the AY (Rotation on Y-axis)"
+        },
+        {
+            "type": "text",
+            "data": "Do we need a formula for the AY?"
+        },
+        {
+            "type": "text",
+            "data": "Answer"
+        },
+        {
+            "type": "text",
+            "data": "Formula"
+        },
+        {
+            "type": "text",
+            "data": "Code"
+        },
+        {
+            "type": "text",
+            "data": "Board#3- Formula for the AZ (Rotation on Z-axis)"
+        },
+        {
+            "type": "text",
+            "data": "Do we need a formula for the AZ?"
+        },
+        {
+            "type": "text",
+            "data": "Answer"
+        },
+        {
+            "type": "text",
+            "data": "Formula"
+        },
+        {
+            "type": "text",
+            "data": "Code"
+        },
+        {
+            "type": "text",
+            "data": "If you like, you could save this back into your library so that you could use it whenever you need a Counter Top support. When you save it into your library be sure to use \"Save\" and then \"Save As\". Also you will want to check where it says \"Preserve Size\" and you will want to go to \"Advanced\" and on the \"Placement\" tab check \"Under Counter Top\"."
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\Parametric_Editing\\Intelligence_Workshop\\5th_Exercise\\Fifth_Exercise_Formulas_for_Board__3.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

@@ -1,0 +1,165 @@
+{
+    "id": "15bb9d1b-ea62-447b-abee-7fe45f8728cc",
+    "title": "RLRC_Right_Click_on_a_Ceiling",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top \n > \n \n \n Room Level \n > \n \n Right Click Options \n > \n \n Right Click on a Ceiling"
+        },
+        {
+            "type": "text",
+            "data": "Top \n >"
+        },
+        {
+            "type": "text",
+            "data": "Room Level \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Room Level",
+                "uuid": "9eaa492c-0405-4da7-8e0f-a6ff4e047890",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Right Click Options \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Right Click Options",
+                "uuid": "3ea2c40b-e3fc-4eac-9114-cf8a3365c62a",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Right Click on a Ceiling"
+        },
+        {
+            "type": "text",
+            "data": "Right Click on a Ceiling"
+        },
+        {
+            "type": "text",
+            "data": "Right Click on a Ceiling"
+        },
+        {
+            "type": "text",
+            "data": "There are four options when Right Clicking on a Ceiling in the Ceiling Editor."
+        },
+        {
+            "type": "image",
+            "data": "image1209.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Delete"
+        },
+        {
+            "type": "text",
+            "data": "This option will Delete the selected Ceiling."
+        },
+        {
+            "type": "text",
+            "data": "Delete All"
+        },
+        {
+            "type": "text",
+            "data": "This option will Delete all Ceilings in the Room."
+        },
+        {
+            "type": "text",
+            "data": "Edit Shape"
+        },
+        {
+            "type": "text",
+            "data": "This option will allow you to Edit the Shape of the Ceiling using the Shape Editor options."
+        },
+        {
+            "type": "text",
+            "data": "Click the Options below for more information"
+        },
+        {
+            "type": "image",
+            "data": "Shape_Tools_1.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Properties"
+        },
+        {
+            "type": "text",
+            "data": "There are three Tabs in the Ceiling Properties area."
+        },
+        {
+            "type": "text",
+            "data": "Ceiling Tab"
+        },
+        {
+            "type": "text",
+            "data": "There are three options in the Ceiling Tab:"
+        },
+        {
+            "type": "image",
+            "data": "image897.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Description -  The Description of the Ceiling. \n \n \n Texture -  Click the Texture button to select a specific Texture for use with the selected Ceiling. If you leave the Texture undefined then Solid will apply the Global Ceiling  Texture  specified for the Room. \n \n \n Elevation -  Allows you to establish the Elevation of the Ceiling."
+        },
+        {
+            "type": "text",
+            "data": "Description -  The Description of the Ceiling."
+        },
+        {
+            "type": "text",
+            "data": "Description -  The Description of the Ceiling."
+        },
+        {
+            "type": "text",
+            "data": "Texture -  Click the Texture button to select a specific Texture for use with the selected Ceiling. If you leave the Texture undefined then Solid will apply the Global Ceiling  Texture  specified for the Room."
+        },
+        {
+            "type": "text",
+            "data": "Texture -  Click the Texture button to select a specific Texture for use with the selected Ceiling. If you leave the Texture undefined then Solid will apply the Global Ceiling  Texture  specified for the Room."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Texture",
+                "uuid": "6a615e19-4bd1-4c68-be0e-68557c747175",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Elevation -  Allows you to establish the Elevation of the Ceiling."
+        },
+        {
+            "type": "text",
+            "data": "Elevation -  Allows you to establish the Elevation of the Ceiling."
+        },
+        {
+            "type": "text",
+            "data": "Comment Tab"
+        },
+        {
+            "type": "text",
+            "data": "This Tab will allow you to add Comments to your Ceiling."
+        },
+        {
+            "type": "image",
+            "data": "image898.gif",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Room_Level\\Right_Click_Options\\RLRC_Right_Click_on_a_Ceiling.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

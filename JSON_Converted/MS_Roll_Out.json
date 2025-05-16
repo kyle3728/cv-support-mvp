@@ -1,0 +1,142 @@
+{
+    "id": "439e7638-f3a7-4998-a96a-79ffd8fd49fb",
+    "title": "MS_Roll_Out",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top \n > \n \n \n System Level \n > \n \n Ribbonbar \n > \n \n Main Tab \n > \n \n Catalogs Group \n > \n \n Material Schedule Manager \n > \n \n Roll Out"
+        },
+        {
+            "type": "text",
+            "data": "Top \n >"
+        },
+        {
+            "type": "text",
+            "data": "System Level \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "System Level",
+                "uuid": "4450866f-fd9c-46df-abf3-7843c5a1ef37",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Ribbonbar \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Ribbonbar",
+                "uuid": "3bbac75c-2b61-42af-9bce-b90335e66dde",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Main Tab \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Main Tab",
+                "uuid": "3bbac75c-2b61-42af-9bce-b90335e66dde",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Catalogs Group \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Catalogs Group",
+                "uuid": "f4a43f08-b40b-442c-8f03-a96c2a64640f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Material Schedule Manager \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Material Schedule Manager",
+                "uuid": "7a64057c-ee14-4724-b490-38009af08adb",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Roll Out"
+        },
+        {
+            "type": "text",
+            "data": "Roll Out"
+        },
+        {
+            "type": "text",
+            "data": "Roll Out"
+        },
+        {
+            "type": "text",
+            "data": "Roll Out Materials are assigned to the various Roll Out Parts via the Roll Out Material Schedule. The image below defines the Materials necessary to build Roll Outs from 1/2 inch Melamine."
+        },
+        {
+            "type": "image",
+            "data": "MS_Roll_Out.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "S idebar/Properties"
+        },
+        {
+            "type": "text",
+            "data": "The following Properties are available for Roll Out Parts:"
+        },
+        {
+            "type": "text",
+            "data": "ID -  The ID number for the selected Material Schedule. \n \n \n Name -  The Name of the selected Material Schedule. \n \n \n Description -  The Description of the selected Material Schedule. \n \n \n Buy Out -  Enable this option if you Buy-Out the Drawer rather than building it yourself. This will tie in to your Reports (No Parts for Cut Lists) and Bids (No Material Calculation for Roll Out Parts)."
+        },
+        {
+            "type": "text",
+            "data": "ID -  The ID number for the selected Material Schedule."
+        },
+        {
+            "type": "text",
+            "data": "ID -  The ID number for the selected Material Schedule."
+        },
+        {
+            "type": "text",
+            "data": "Name -  The Name of the selected Material Schedule."
+        },
+        {
+            "type": "text",
+            "data": "Name -  The Name of the selected Material Schedule."
+        },
+        {
+            "type": "text",
+            "data": "Description -  The Description of the selected Material Schedule."
+        },
+        {
+            "type": "text",
+            "data": "Description -  The Description of the selected Material Schedule."
+        },
+        {
+            "type": "text",
+            "data": "Buy Out -  Enable this option if you Buy-Out the Drawer rather than building it yourself. This will tie in to your Reports (No Parts for Cut Lists) and Bids (No Material Calculation for Roll Out Parts)."
+        },
+        {
+            "type": "text",
+            "data": "Buy Out -  Enable this option if you Buy-Out the Drawer rather than building it yourself. This will tie in to your Reports (No Parts for Cut Lists) and Bids (No Material Calculation for Roll Out Parts)."
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\System_Level\\Ribbonbar\\Main_Tab\\Catalogs_Group\\Material_Schedules\\MS_Roll_Out.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

@@ -1,0 +1,121 @@
+{
+    "id": "76fd2a92-7fa9-4a02-be36-b8997a1cde9f",
+    "title": "Main_Screen",
+    "content": [
+        {
+            "type": "text",
+            "data": "Main Screen"
+        },
+        {
+            "type": "text",
+            "data": "When bringing a scene from CABINET VISION into the xRender app this is the screen you will see."
+        },
+        {
+            "type": "image",
+            "data": "image73.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Quick Access Toolbar"
+        },
+        {
+            "type": "text",
+            "data": "Titlebar"
+        },
+        {
+            "type": "image",
+            "data": "image109.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This section displays the current Render name."
+        },
+        {
+            "type": "text",
+            "data": "Minimize, Maximize, and Close Buttons"
+        },
+        {
+            "type": "image",
+            "data": "image48.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "These buttons hide the xRender window, enlarge it to fill the whole screen, and close it, respectively."
+        },
+        {
+            "type": "text",
+            "data": "Style Selection"
+        },
+        {
+            "type": "image",
+            "data": "image49.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Allows you to choose the Style that the xRender interface will utilize. There are fourchoices."
+        },
+        {
+            "type": "text",
+            "data": "Colorful \n \n \n White \n \n \n Dark Gray \n \n \n Black"
+        },
+        {
+            "type": "text",
+            "data": "Colorful"
+        },
+        {
+            "type": "text",
+            "data": "Colorful"
+        },
+        {
+            "type": "text",
+            "data": "White"
+        },
+        {
+            "type": "text",
+            "data": "White"
+        },
+        {
+            "type": "text",
+            "data": "Dark Gray"
+        },
+        {
+            "type": "text",
+            "data": "Dark Gray"
+        },
+        {
+            "type": "text",
+            "data": "Black"
+        },
+        {
+            "type": "text",
+            "data": "Black"
+        },
+        {
+            "type": "text",
+            "data": "File Menu"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "File Menu",
+                "uuid": "9218c5a1-bd2f-44d7-93a0-ae6212dca7ed",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Ribbonbar"
+        },
+        {
+            "type": "text",
+            "data": "Statusbar"
+        }
+    ],
+    "source_file": "CREnglish\\Main_Screen.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

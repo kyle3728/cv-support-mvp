@@ -1,0 +1,125 @@
+{
+    "id": "cfaddc40-b5e5-4828-8bb7-ac27aaddfc7c",
+    "title": "SLMMP_Composite",
+    "content": [
+        {
+            "type": "text",
+            "data": "Composite\u00a0-"
+        },
+        {
+            "type": "image",
+            "data": "1AUALL.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This topic covers all the Properties for the Composite Material Type."
+        },
+        {
+            "type": "image",
+            "data": "Composite_Material_Props.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Material Group"
+        },
+        {
+            "type": "text",
+            "data": "Previously covered in the  Banding Material Type  topic."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Banding Material Type",
+                "uuid": "a7630d33-1a29-4e4d-b54e-e6b16c30e227",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Composite Group"
+        },
+        {
+            "type": "image",
+            "data": "Composite_Composite_Props.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Pre-Assembled -  Establishes if the Composite is assembled before or after Cutting/Machining. If it is not pre-assembled then the each Material that makes up the Compostie a Part is cut and machined from is treated separately."
+        },
+        {
+            "type": "text",
+            "data": "Pre-Assembled -  Establishes if the Composite is assembled before or after Cutting/Machining. If it is not pre-assembled then the each Material that makes up the Compostie a Part is cut and machined from is treated separately."
+        },
+        {
+            "type": "text",
+            "data": "Pre-Assembled -  Establishes if the Composite is assembled before or after Cutting/Machining. If it is not pre-assembled then the each Material that makes up the Compostie a Part is cut and machined from is treated separately."
+        },
+        {
+            "type": "text",
+            "data": "Size Group"
+        },
+        {
+            "type": "image",
+            "data": "Composite_Size_Props.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Length -  Displays the overall Length of the Composite.\u00a0Not available for editing. This is a system calculated value based on the Materials making up the Composite. \n \n \n Width -  Displays the overall Width of the Composite.\u00a0Not available for editing.\u00a0This is a system calculated value based on the Materials making up the Composite. \n \n \n Thickness -  Displays the overall Thickness of the Composite.\u00a0Not available for editing.\u00a0This is a system calculated value based on the Materials making up the Composite."
+        },
+        {
+            "type": "text",
+            "data": "Length -  Displays the overall Length of the Composite.\u00a0Not available for editing. This is a system calculated value based on the Materials making up the Composite."
+        },
+        {
+            "type": "text",
+            "data": "Length -  Displays the overall Length of the Composite.\u00a0Not available for editing. This is a system calculated value based on the Materials making up the Composite."
+        },
+        {
+            "type": "text",
+            "data": "Width -  Displays the overall Width of the Composite.\u00a0Not available for editing.\u00a0This is a system calculated value based on the Materials making up the Composite."
+        },
+        {
+            "type": "text",
+            "data": "Width -  Displays the overall Width of the Composite.\u00a0Not available for editing.\u00a0This is a system calculated value based on the Materials making up the Composite."
+        },
+        {
+            "type": "text",
+            "data": "Thickness -  Displays the overall Thickness of the Composite.\u00a0Not available for editing.\u00a0This is a system calculated value based on the Materials making up the Composite."
+        },
+        {
+            "type": "text",
+            "data": "Thickness -  Displays the overall Thickness of the Composite.\u00a0Not available for editing.\u00a0This is a system calculated value based on the Materials making up the Composite."
+        },
+        {
+            "type": "text",
+            "data": "CNC Group"
+        },
+        {
+            "type": "text",
+            "data": "Previously covered in the  Board Stock  topic."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Board Stock",
+                "uuid": "91574e70-0e35-4ca5-b4b0-33382d0731b5",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Alias Properties"
+        },
+        {
+            "type": "text",
+            "data": "N/A"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\SLMMP_Composite.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

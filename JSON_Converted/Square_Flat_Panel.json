@@ -1,0 +1,114 @@
+{
+    "id": "8ef471c2-efba-46cf-8c3c-cc776e0fc2de",
+    "title": "Square_Flat_Panel",
+    "content": [
+        {
+            "type": "image",
+            "data": "image274.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Creating a Square Flat Panel Door"
+        },
+        {
+            "type": "text",
+            "data": "To create a Square Flat Panel Door with cope & stick construction you must first have an \"Inside Edge Profile\" that matches your Door cutters. See \"Checking Door Stile Sizes\", \" Inside Edge Profile \" and \"Checking Door Rail Sizes\"."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Inside Edge Profile",
+                "uuid": "9699cc3e-8177-4d7c-8dd1-72bd718f0b6f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Click on the \"Create A New Door Style\" tool. \n \n \n Name the Door. \n \n \n Select a Category to store the Door on, use the \"Flat Panel\" category. \n \n \n Click on the \"Construction\" tab. \n \n \n Click in the middle of the Door and select \"Flat Panel\" as the panel type for this Door. \n \n \n Select a sample \"Inside Edge Profile\" to use with this Door. \n \n \n Click the \"Add Top and Bottom Rail, Left and Right Stile\" tool. \n \n \n Check the Door part sizes. \n \n \n Click on the \"Profiles\" tab and select the appropriate Profiles to use with this Door. \n \n \n Click on the \"Materials\" tab and select the appropriate Material Schedules to use with this Door."
+        },
+        {
+            "type": "text",
+            "data": "Click on the \"Create A New Door Style\" tool."
+        },
+        {
+            "type": "text",
+            "data": "Click on the \"Create A New Door Style\" tool."
+        },
+        {
+            "type": "text",
+            "data": "Name the Door."
+        },
+        {
+            "type": "text",
+            "data": "Name the Door."
+        },
+        {
+            "type": "text",
+            "data": "Select a Category to store the Door on, use the \"Flat Panel\" category."
+        },
+        {
+            "type": "text",
+            "data": "Select a Category to store the Door on, use the \"Flat Panel\" category."
+        },
+        {
+            "type": "text",
+            "data": "Click on the \"Construction\" tab."
+        },
+        {
+            "type": "text",
+            "data": "Click on the \"Construction\" tab."
+        },
+        {
+            "type": "text",
+            "data": "Click in the middle of the Door and select \"Flat Panel\" as the panel type for this Door."
+        },
+        {
+            "type": "text",
+            "data": "Click in the middle of the Door and select \"Flat Panel\" as the panel type for this Door."
+        },
+        {
+            "type": "text",
+            "data": "Select a sample \"Inside Edge Profile\" to use with this Door."
+        },
+        {
+            "type": "text",
+            "data": "Select a sample \"Inside Edge Profile\" to use with this Door."
+        },
+        {
+            "type": "text",
+            "data": "Click the \"Add Top and Bottom Rail, Left and Right Stile\" tool."
+        },
+        {
+            "type": "text",
+            "data": "Click the \"Add Top and Bottom Rail, Left and Right Stile\" tool."
+        },
+        {
+            "type": "text",
+            "data": "Check the Door part sizes."
+        },
+        {
+            "type": "text",
+            "data": "Check the Door part sizes."
+        },
+        {
+            "type": "text",
+            "data": "Click on the \"Profiles\" tab and select the appropriate Profiles to use with this Door."
+        },
+        {
+            "type": "text",
+            "data": "Click on the \"Profiles\" tab and select the appropriate Profiles to use with this Door."
+        },
+        {
+            "type": "text",
+            "data": "Click on the \"Materials\" tab and select the appropriate Material Schedules to use with this Door."
+        },
+        {
+            "type": "text",
+            "data": "Click on the \"Materials\" tab and select the appropriate Material Schedules to use with this Door."
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Tips_Tricks_&_FAQs\\The_Door_Catalog\\Sample_Door_Types\\Square_Flat_Panel.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

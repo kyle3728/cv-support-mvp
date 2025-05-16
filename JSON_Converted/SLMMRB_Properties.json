@@ -1,0 +1,267 @@
+{
+    "id": "b92d2565-8c22-4349-8341-edd3def3b9db",
+    "title": "SLMMRB_Properties",
+    "content": [
+        {
+            "type": "text",
+            "data": "Properties"
+        },
+        {
+            "type": "image",
+            "data": "image3678.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "When you have a Material selected in the Material Manager you can get to it's Properties by clicking this option in the ribbonbar (alternatively double click the Material or right click and select Properties from the menu)."
+        },
+        {
+            "type": "image",
+            "data": "Properties_1.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Ribbonbar"
+        },
+        {
+            "type": "text",
+            "data": "Following are the ribbonbar options in the Material Properties area:"
+        },
+        {
+            "type": "text",
+            "data": "Return"
+        },
+        {
+            "type": "image",
+            "data": "image1399.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option will return you to the  Material Manager ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Material Manager",
+                "uuid": "2fed939d-ba55-4f35-94da-993f0e1b392e",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "New"
+        },
+        {
+            "type": "image",
+            "data": "image3649.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The New option allows you to create a New Material in the Material Properties area. See the  Material Manager New  topic for more information."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Material Manager New",
+                "uuid": "4cf3a5bd-1d52-4637-83d0-35f25ab668dd",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image4800.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The new Material will be placed in the same Category as the currently selected Material."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Copy"
+        },
+        {
+            "type": "image",
+            "data": "image3653.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Allows you to Copy the currently selected Material."
+        },
+        {
+            "type": "text",
+            "data": "Delete"
+        },
+        {
+            "type": "image",
+            "data": "image3660.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Allows you to Delete the currently selected Material. After clicking the Delete option you will be prompted to Confirm the Delete operation. If you no longer want to be prompted you can enable the \"Do not ask me again\" option."
+        },
+        {
+            "type": "image",
+            "data": "image4838.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Select"
+        },
+        {
+            "type": "image",
+            "data": "image3686.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Allows you to Select a different Material to work with in Material Properties."
+        },
+        {
+            "type": "image",
+            "data": "Material_Utility.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The sidebar in the Select Material window allows you to  Search  for a Material or browse for Materials via the  Material Categories . Once you have located your Material simply select it from the list of Materials in the Work Area and click OK. If you need access to System (non-User Materials) you can click the System Materials tool  . System Materials will be red in the list."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Search",
+                "uuid": "ca2dde60-b199-4f82-b7d7-4d14cb21f1a4",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Material Categories",
+                "uuid": "ca2dde60-b199-4f82-b7d7-4d14cb21f1a4",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image4843.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Kit"
+        },
+        {
+            "type": "image",
+            "data": "image3690.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Kit",
+                "uuid": "55ec4285-295e-4ecf-ac64-2acf86513c56",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Composite"
+        },
+        {
+            "type": "image",
+            "data": "image3691.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Composite",
+                "uuid": "607e53af-3013-4342-95e8-48c795a6ca98",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Profile"
+        },
+        {
+            "type": "image",
+            "data": "image4460.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Profile",
+                "uuid": "b98d103f-95ab-4b88-b86d-d6a5ea4198f7",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Model"
+        },
+        {
+            "type": "image",
+            "data": "image4461.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Model",
+                "uuid": "80226667-3248-4b47-b7ea-bc1e7f16cabb",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Parameters"
+        },
+        {
+            "type": "image",
+            "data": "image3692.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Parameters",
+                "uuid": "418a1666-0be5-42b4-a9f1-b585950e49ad",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Vendors"
+        },
+        {
+            "type": "image",
+            "data": "image3693.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Vendors",
+                "uuid": "ed3b4968-12b1-4a78-b222-a9db08d24be7",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\SLMMRB_Properties.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

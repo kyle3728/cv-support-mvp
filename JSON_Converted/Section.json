@@ -1,0 +1,459 @@
+{
+    "id": "e39a062e-4245-4be1-8ccd-733398711246",
+    "title": "Section",
+    "content": [
+        {
+            "type": "text",
+            "data": "Section"
+        },
+        {
+            "type": "image",
+            "data": "image1068.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Section option is only available for Multi Piece and Slab Door Types."
+        },
+        {
+            "type": "image",
+            "data": "image1069.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Ribbonbar"
+        },
+        {
+            "type": "image",
+            "data": "image1070.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Return"
+        },
+        {
+            "type": "image",
+            "data": "image1071.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Closes the Door Editorand returns you to Door Properties."
+        },
+        {
+            "type": "text",
+            "data": "Zoom Group"
+        },
+        {
+            "type": "image",
+            "data": "image1072.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Zoom Group",
+                "uuid": "e7615284-fc2b-4e06-92a5-400c3db012f5",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "3D View"
+        },
+        {
+            "type": "image",
+            "data": "image1073.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "In the 3D View you will see a graphic representation of the Door that is similar to the graphic representation that will appear in a Job. This view may be rotated, zoomed, and rendered as if it were in a Job. Also, the Door may be exploded or bent to\n    give you a more detailed view. Following are the sidebar options when in 3D View."
+        },
+        {
+            "type": "text",
+            "data": "Sample Material - Material -  Use this option to specify the Material to view this Door in this 3D View. \n Sample Profiles - Outside -  Use this option to specify the Outside Edge Profile on this Door in this 3D View. This option will apply only to those Edges defined as Outside in the  Door's Properties . \n Sample Profiles - Inside - Use this option to specify the Inside Edge Profile on this Door in this 3D View. \n Sample Profiles - Panel - Use this option to specify the PanelEdge Profile on this Door in this 3D View. \n Sample Profiles - Route - Use this option to specify the Route to assign to a Route Pathon this Door in this 3D View. \n Sample Profiles - Fingerpull - Use this option to specify the Finger Pull Profile on this Door in this 3D View.This option will apply only to those Edges defined as Finger Pull in the  Door's Properties . \n Width -  This slider allows you to change the visual width the Door is displayed in this 3D View. \n Height - This slider allows you to change the visual height the Door is displayed in this 3D View. \n Explode - This slider allows you to incrementally Explode your Door. \n Curve - This slider allows you to incrementally Curve/Bend your Door."
+        },
+        {
+            "type": "text",
+            "data": "Sample Material - Material -  Use this option to specify the Material to view this Door in this 3D View."
+        },
+        {
+            "type": "text",
+            "data": "Sample Profiles - Outside -  Use this option to specify the Outside Edge Profile on this Door in this 3D View. This option will apply only to those Edges defined as Outside in the  Door's Properties ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Door's Properties",
+                "uuid": "bd6cf661-3a2e-4600-afa9-33a56ce45fa6",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Sample Profiles - Inside - Use this option to specify the Inside Edge Profile on this Door in this 3D View."
+        },
+        {
+            "type": "text",
+            "data": "Sample Profiles - Panel - Use this option to specify the PanelEdge Profile on this Door in this 3D View."
+        },
+        {
+            "type": "text",
+            "data": "Sample Profiles - Route - Use this option to specify the Route to assign to a Route Pathon this Door in this 3D View."
+        },
+        {
+            "type": "text",
+            "data": "Sample Profiles - Fingerpull - Use this option to specify the Finger Pull Profile on this Door in this 3D View.This option will apply only to those Edges defined as Finger Pull in the  Door's Properties ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Door's Properties",
+                "uuid": "bd6cf661-3a2e-4600-afa9-33a56ce45fa6",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Width -  This slider allows you to change the visual width the Door is displayed in this 3D View."
+        },
+        {
+            "type": "text",
+            "data": "Height - This slider allows you to change the visual height the Door is displayed in this 3D View."
+        },
+        {
+            "type": "text",
+            "data": "Explode - This slider allows you to incrementally Explode your Door."
+        },
+        {
+            "type": "text",
+            "data": "Curve - This slider allows you to incrementally Curve/Bend your Door."
+        },
+        {
+            "type": "text",
+            "data": "Section"
+        },
+        {
+            "type": "image",
+            "data": "image1067.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Section View is is where your Door will be designed by adding Stiles and Rails if required, as well as modifying their size, shape, and joinery."
+        },
+        {
+            "type": "text",
+            "data": "The idea behind the Door Section Editoris that you would add Stiles and Rails, if that were the type of Door you are working on. And then you would click on each Part (Stiles, Rails, Panel) one at a time and make sure that they are the size you would\n    cut them if you were going to make this sample size Door. CABINET VISION will then use these sample Part sizes to give you the correct cut-list for whatever size Doors your Job requires."
+        },
+        {
+            "type": "text",
+            "data": "When entering the sample Part sizes you should enter finished Part sizes not\n    rough cut Part sizes. The exception being, that some parts have an \"Extra box, so you can add in an extra amount to the Part."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "If you are buying your Doors you dont need to worry about the Parts being the correct size. Just make the Door look like the Door you want."
+        },
+        {
+            "type": "text",
+            "data": "Panel Type"
+        },
+        {
+            "type": "text",
+            "data": "The first step in the Door Section Editorwould be to click in the middle of the Door and select the \"Type\" of panel for your Door. In the screen below I have selected \"Raised Panel\" as the type of panel for this Door."
+        },
+        {
+            "type": "image",
+            "data": "image1075.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "You can also right click in the middle of the Door to select the panel type."
+        },
+        {
+            "type": "text",
+            "data": "By selecting \"Raised Panel\" as my panel type, I have performed two functions. First I have told CABINET VISION I want this Panel to be a Raised Panel \"Type\" Panel. And second I have told CABINET VISION that I want to make this Panel\n    out of whatever Material I selected for \"Raised Panel\" when I filled out my  Door Material Schedules ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Door Material Schedules",
+                "uuid": "9bd79628-7459-40a6-9084-cd8f5cfd0763",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "There are seven panel types to choose from"
+        },
+        {
+            "type": "text",
+            "data": "None  -  Most commonly used if your Door has no Panel and consists only of Stiles and Rails. \n \n \n Raised - most commonly used for solid lumber. \n \n \n Flat - most commonly used for thin plywood or thin panel stock. \n \n \n Glass - most commonly used for glass. \n \n \n HSlats - most commonly used for tambour Doors with the slats going left and right. If you never use this type of panel you could assign it as cloth or some other Material that you do use. \n \n \n VSlats - most commonly used for tambour door with the slats going up and down. If you never use this type of panel you could assign it as cloth or some other Material that you do use. \n \n \n Slab - most commonly used for thick plywood or thick panel stock."
+        },
+        {
+            "type": "text",
+            "data": "None  -  Most commonly used if your Door has no Panel and consists only of Stiles and Rails."
+        },
+        {
+            "type": "text",
+            "data": "None  -  Most commonly used if your Door has no Panel and consists only of Stiles and Rails."
+        },
+        {
+            "type": "text",
+            "data": "Raised - most commonly used for solid lumber."
+        },
+        {
+            "type": "text",
+            "data": "Raised - most commonly used for solid lumber."
+        },
+        {
+            "type": "text",
+            "data": "Flat - most commonly used for thin plywood or thin panel stock."
+        },
+        {
+            "type": "text",
+            "data": "Flat - most commonly used for thin plywood or thin panel stock."
+        },
+        {
+            "type": "text",
+            "data": "Glass - most commonly used for glass."
+        },
+        {
+            "type": "text",
+            "data": "Glass - most commonly used for glass."
+        },
+        {
+            "type": "text",
+            "data": "HSlats - most commonly used for tambour Doors with the slats going left and right. If you never use this type of panel you could assign it as cloth or some other Material that you do use."
+        },
+        {
+            "type": "text",
+            "data": "HSlats - most commonly used for tambour Doors with the slats going left and right. If you never use this type of panel you could assign it as cloth or some other Material that you do use."
+        },
+        {
+            "type": "text",
+            "data": "VSlats - most commonly used for tambour door with the slats going up and down. If you never use this type of panel you could assign it as cloth or some other Material that you do use."
+        },
+        {
+            "type": "text",
+            "data": "VSlats - most commonly used for tambour door with the slats going up and down. If you never use this type of panel you could assign it as cloth or some other Material that you do use."
+        },
+        {
+            "type": "text",
+            "data": "Slab - most commonly used for thick plywood or thick panel stock."
+        },
+        {
+            "type": "text",
+            "data": "Slab - most commonly used for thick plywood or thick panel stock."
+        },
+        {
+            "type": "text",
+            "data": "With the panel highlighted by clicking on it, the Door Properties in the sidebar display the width and height of the panel. Additionally, you may change the amount of inset the Panel has. Panel Inset is that portion of the panel which fits into the\n    Stile and Rail. The values you enter here is the overall inset."
+        },
+        {
+            "type": "text",
+            "data": "Horizontal Grain"
+        },
+        {
+            "type": "text",
+            "data": "This option is only available when the panel is highlighted. The default value is vertical grain. Selecting Yes in this box will change the panel to horizontal grain."
+        },
+        {
+            "type": "text",
+            "data": "Panel Height/Width Locking"
+        },
+        {
+            "type": "text",
+            "data": "If your Door has more than one panel and you select one of them, there will be twosidebar propertiesnamed Lock Width  and  Lock Height . These propertiesallowyou to lock the width and/or height of a panel so that when\n    you are in a Job the locked panel will remain the same size when the Door grows or shrinks in width or height."
+        },
+        {
+            "type": "text",
+            "data": "Once you have checked the part sizes for the sample Door. The next step is to click on the \"Profile\" tab and select the Profiles you wish to use with this Door."
+        },
+        {
+            "type": "text",
+            "data": "Stiles & Rails"
+        },
+        {
+            "type": "text",
+            "data": "The second step is to add any necessary Mid-Stiles and/or Mid-Rails. To do this simply select the Panel and use the Split options in the ribbonbar."
+        },
+        {
+            "type": "text",
+            "data": "The order in which you add the parts determines their joinery. If you add the Rails before the Stiles, the Rails will run long."
+        },
+        {
+            "type": "text",
+            "data": "If you choose, you can miter the Stiles and Rails by clicking off of the Door and onto the screen enabling the  Miter Corner Property in the sidebar."
+        },
+        {
+            "type": "text",
+            "data": "Section Splits"
+        },
+        {
+            "type": "image",
+            "data": "image1076.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Following are the Section options in the ribbonbar:"
+        },
+        {
+            "type": "text",
+            "data": "Horizontal Split -  Will split the selected panel with a Mid Rail. \n Vertical Split -  Will split the selected panel with a Mid Stile. \n Horizontal Split -  Will split the selected panel with Mid Rails creating the number of specified Sections/Panels. \n Vertical Multi Split -  Will split the selected panel with Mid Stiles creating the number of specified Sections/Panels. \n Delete -  Allows the deletion of the selected Stile/Rail."
+        },
+        {
+            "type": "text",
+            "data": "Horizontal Split -  Will split the selected panel with a Mid Rail."
+        },
+        {
+            "type": "text",
+            "data": "Vertical Split -  Will split the selected panel with a Mid Stile."
+        },
+        {
+            "type": "text",
+            "data": "Horizontal Split -  Will split the selected panel with Mid Rails creating the number of specified Sections/Panels."
+        },
+        {
+            "type": "text",
+            "data": "Vertical Multi Split -  Will split the selected panel with Mid Stiles creating the number of specified Sections/Panels."
+        },
+        {
+            "type": "text",
+            "data": "Delete -  Allows the deletion of the selected Stile/Rail."
+        },
+        {
+            "type": "text",
+            "data": "Part List"
+        },
+        {
+            "type": "image",
+            "data": "image1077.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Use the Part List are to double check your Part Sizes for the current Door Style. You can select your Inside Edge Profile here because it can,depending upon the Extended setting, impact your part list. When you first enter the Part List window the\n    sample Door Size will be used. Simply change the Door Width and/or Height and click Apply to test other Door Sizes."
+        },
+        {
+            "type": "text",
+            "data": "Right Click Menu"
+        },
+        {
+            "type": "text",
+            "data": "When right clicking the screen in 3D or Section View you will be presented with View Properties."
+        },
+        {
+            "type": "image",
+            "data": "image1078.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "When in Section View and you right click a Stile or Mid Stile you will get the  Edit  option which will take the Part to the  CAM Editor ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "CAM Editor",
+                "uuid": "25377d2e-3fdc-4931-aa7b-5c3588b8a469",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "When in Section View and you right click a Rail or Mid Rail you will get the following possible options:"
+        },
+        {
+            "type": "image",
+            "data": "image1079.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Edit -  Takes the selected Part to the  CAM Editor . \n Remove Shape -  Removes any shape that has been applied to the selected Rail. \n Arch -  Adds an Arch to the bottom of the selected Rail. \n Edit Shape -  Take the selected Part to the  Shape Editor . Lines that are red can not be edited."
+        },
+        {
+            "type": "text",
+            "data": "Edit -  Takes the selected Part to the  CAM Editor ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "CAM Editor",
+                "uuid": "25377d2e-3fdc-4931-aa7b-5c3588b8a469",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Remove Shape -  Removes any shape that has been applied to the selected Rail."
+        },
+        {
+            "type": "text",
+            "data": "Arch -  Adds an Arch to the bottom of the selected Rail."
+        },
+        {
+            "type": "text",
+            "data": "Edit Shape -  Take the selected Part to the  Shape Editor . Lines that are red can not be edited."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Shape Editor",
+                "uuid": "44e32c02-bc4b-47e1-a681-21c422325448",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "When in Section VIew and you right click on a Panel or Mid Panel you will get the following possible options:"
+        },
+        {
+            "type": "image",
+            "data": "image1080.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Edit - Takes the selected Part to the  CAM Editor . \n Lock Width -  Locks the Width of the selected Panel. \n Lock Height -  Locks the Height of the selected Panel. \n Panel -  Allows you to select the Panel Type for the Panel."
+        },
+        {
+            "type": "text",
+            "data": "Edit - Takes the selected Part to the  CAM Editor ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "CAM Editor",
+                "uuid": "25377d2e-3fdc-4931-aa7b-5c3588b8a469",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Lock Width -  Locks the Width of the selected Panel."
+        },
+        {
+            "type": "text",
+            "data": "Lock Height -  Locks the Height of the selected Panel."
+        },
+        {
+            "type": "text",
+            "data": "Panel -  Allows you to select the Panel Type for the Panel."
+        }
+    ],
+    "source_file": "CVEnglish_Casebuilder\\System_Level\\Ribbonbar\\Main_Tab\\Catalogs_Group\\Door_Manager\\Ribbonbar\\Section.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

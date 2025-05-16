@@ -1,0 +1,143 @@
+{
+    "id": "897b0e53-7ab7-4805-ab0f-d2aa534e504d",
+    "title": "RLSBRC_Setup_Reports_Ribbonbar",
+    "content": [
+        {
+            "type": "text",
+            "data": "Ribbonbar"
+        },
+        {
+            "type": "image",
+            "data": "Main_Tab.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Report Mode"
+        },
+        {
+            "type": "image",
+            "data": "image2624.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Before adding a Report to a Report Group, you may wish to preview that Report to determine whether it is the correct format for your needs. To preview a Report, simply click on that Report and then click the View Mode option in the Report Mode drop-down. As a preview of the Report, you will see a the Report with the information from the current Job."
+        },
+        {
+            "type": "text",
+            "data": "Magnify"
+        },
+        {
+            "type": "image",
+            "data": "image4311.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Only active in View Mode this option allows you to Zoom In and Out on the Preview."
+        },
+        {
+            "type": "text",
+            "data": "New Report"
+        },
+        {
+            "type": "image",
+            "data": "image4606.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "New Report",
+                "uuid": "989ec808-7a50-4d19-993b-07bda276f88f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "This ribbonbar option is used to create a new Report from scratch. See the  New Report  topic for more information."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "New Report",
+                "uuid": "989ec808-7a50-4d19-993b-07bda276f88f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Design Report"
+        },
+        {
+            "type": "image",
+            "data": "image4608.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This ribbonbar option opens the Report Designer. See the Report Designer Help file for more information. The Report Designer Help file is accessible via the help button at the top right as illustrated below."
+        },
+        {
+            "type": "image",
+            "data": "Edit_Report_Help.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Report Properties"
+        },
+        {
+            "type": "image",
+            "data": "image4317.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option allows you to edit the Properties for the selected Report. See the  New Report  topic for more information."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "New Report",
+                "uuid": "989ec808-7a50-4d19-993b-07bda276f88f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image1108.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Copy Report"
+        },
+        {
+            "type": "image",
+            "data": "image4319.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Will Copy the selected Report giving you the ability to give it a new Title and Description."
+        },
+        {
+            "type": "text",
+            "data": "Delete Report"
+        },
+        {
+            "type": "image",
+            "data": "image4320.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Will Delete the selected Report. Only available for User Reports."
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\RLSBRC_Setup_Reports_Ribbonbar.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

@@ -1,0 +1,21 @@
+{
+    "id": "3c41f411-8c01-4cd7-8a8a-7ca1342a72d8",
+    "title": "CimTech",
+    "content": [
+        {
+            "type": "text",
+            "data": "CimTech"
+        },
+        {
+            "type": "text",
+            "data": "This is a Primary Machine Link."
+        },
+        {
+            "type": "text",
+            "data": "Use this output when using CimTech as a post when CNC Center has nested the parts. CimTech knowledge must be setup to match the layer names output by CNC Center. To ensure proper output, the router diameters in the tool catalog should be slightly less then the required dado width. Tool compensation is recommended for this output. The following information from the tool catalog can not be used by CimTech and is therefore ignored: Feed rate, descent rate, and maximum depth per pass."
+        }
+    ],
+    "source_file": "NCEnglish\\Ribbonbar\\Main_Tab\\Machine\\NC_Links\\Nest_Router\\CimTech.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

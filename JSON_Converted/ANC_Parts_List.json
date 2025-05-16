@@ -1,0 +1,39 @@
+{
+    "id": "cf662647-6caf-4ab5-acc8-1e7963a85b9f",
+    "title": "ANC_Parts_List",
+    "content": [
+        {
+            "type": "text",
+            "data": "Parts List"
+        },
+        {
+            "type": "text",
+            "data": "To display the Parts List simply click the Show Parts List button   in the sidebar."
+        },
+        {
+            "type": "image",
+            "data": "image1117.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image656.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The same Right Click Options are available here as in the normal  S2M CENTER ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "S2M CENTER",
+                "uuid": "b12e0cee-f5bb-496a-9465-155159faf1d5",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "NCEnglish\\Ribbonbar\\Main_Tab\\S2M_for_Alphacam\\ANC_Parts_List.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

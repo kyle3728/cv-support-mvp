@@ -1,0 +1,63 @@
+{
+    "id": "e7012a6a-563d-4f97-a177-76782ef67891",
+    "title": "RLLA_Wall_Face_Cross_Section_View",
+    "content": [
+        {
+            "type": "text",
+            "data": "Wall Face Cross Section View"
+        },
+        {
+            "type": "image",
+            "data": "1AUALL.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image6216.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Following are the Layers that can be edited:"
+        },
+        {
+            "type": "text",
+            "data": "Hardware"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Hardware",
+                "uuid": "e69c8fa7-a9ee-4ffb-8937-668917fc1f66",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Shop Annotations"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Shop Annotations",
+                "uuid": "7bd261f2-8c9a-4e0c-ae45-cdce1f11871f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Dimensions"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Dimensions",
+                "uuid": "8eba597e-b494-4a38-89b6-ffa9c68c6110",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\RLLA_Wall_Face_Cross_Section_View.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

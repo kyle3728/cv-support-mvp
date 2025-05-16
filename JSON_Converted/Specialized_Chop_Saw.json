@@ -1,0 +1,101 @@
+{
+    "id": "8a46b0ad-5afa-47d4-a32a-811d35fe5f51",
+    "title": "Specialized_Chop_Saw",
+    "content": [
+        {
+            "type": "text",
+            "data": "Specialized Chop Saw"
+        },
+        {
+            "type": "text",
+            "data": "This Machine Type is specifically for Chop Saws with automated fence systems. Following are the Setup Tab options for Specialized Chop Saw:"
+        },
+        {
+            "type": "text",
+            "data": "Setup Tab - Chop Saw"
+        },
+        {
+            "type": "text",
+            "data": "Parameters Group"
+        },
+        {
+            "type": "text",
+            "data": "Output for T421 SNC -  Establishes if the output needs to be for a T4212 SNC when the  Omga T 421/521  NC Link is selected. \n \n \n Output Material Name -  Establishes whether the Material Name should be output when the  Pistorius BF-A  NC Link is selected. \n \n \n Mirror Output -  Establishes whether Mirrored Output should be produced when the  Pistorius BF-A  NC Link is selected. \n \n \n Output to Hoffmann CNC -  Enable this option if you are outputting to the Hoffmann CNC with the  RazorGage  link. \n \n \n Swap A/B Notches -  Enable this option to Swap the A/B Notches for the  RazorGage  link. \n \n \n Add Part ID -  Establishes whether the Part ID is output when the  RazorGage  NC Link is selected. \n \n \n Add Job Description - Establishes whether the Job Description is output when the  RazorGage  NC Link is selected. \n \n \n Add Program Name - Establishes whether the Program Name is output when the  RazorGage  NC Link is selected. \n \n \n Strip Quotes -  Enable this option to remove Quotation Marks as the Text Qualifier in output when using the  TigerStop  NC Link."
+        },
+        {
+            "type": "text",
+            "data": "Output for T421 SNC -  Establishes if the output needs to be for a T4212 SNC when the  Omga T 421/521  NC Link is selected."
+        },
+        {
+            "type": "text",
+            "data": "Output for T421 SNC -  Establishes if the output needs to be for a T4212 SNC when the  Omga T 421/521  NC Link is selected."
+        },
+        {
+            "type": "text",
+            "data": "Output Material Name -  Establishes whether the Material Name should be output when the  Pistorius BF-A  NC Link is selected."
+        },
+        {
+            "type": "text",
+            "data": "Output Material Name -  Establishes whether the Material Name should be output when the  Pistorius BF-A  NC Link is selected."
+        },
+        {
+            "type": "text",
+            "data": "Mirror Output -  Establishes whether Mirrored Output should be produced when the  Pistorius BF-A  NC Link is selected."
+        },
+        {
+            "type": "text",
+            "data": "Mirror Output -  Establishes whether Mirrored Output should be produced when the  Pistorius BF-A  NC Link is selected."
+        },
+        {
+            "type": "text",
+            "data": "Output to Hoffmann CNC -  Enable this option if you are outputting to the Hoffmann CNC with the  RazorGage  link."
+        },
+        {
+            "type": "text",
+            "data": "Output to Hoffmann CNC -  Enable this option if you are outputting to the Hoffmann CNC with the  RazorGage  link."
+        },
+        {
+            "type": "text",
+            "data": "Swap A/B Notches -  Enable this option to Swap the A/B Notches for the  RazorGage  link."
+        },
+        {
+            "type": "text",
+            "data": "Swap A/B Notches -  Enable this option to Swap the A/B Notches for the  RazorGage  link."
+        },
+        {
+            "type": "text",
+            "data": "Add Part ID -  Establishes whether the Part ID is output when the  RazorGage  NC Link is selected."
+        },
+        {
+            "type": "text",
+            "data": "Add Part ID -  Establishes whether the Part ID is output when the  RazorGage  NC Link is selected."
+        },
+        {
+            "type": "text",
+            "data": "Add Job Description - Establishes whether the Job Description is output when the  RazorGage  NC Link is selected."
+        },
+        {
+            "type": "text",
+            "data": "Add Job Description - Establishes whether the Job Description is output when the  RazorGage  NC Link is selected."
+        },
+        {
+            "type": "text",
+            "data": "Add Program Name - Establishes whether the Program Name is output when the  RazorGage  NC Link is selected."
+        },
+        {
+            "type": "text",
+            "data": "Add Program Name - Establishes whether the Program Name is output when the  RazorGage  NC Link is selected."
+        },
+        {
+            "type": "text",
+            "data": "Strip Quotes -  Enable this option to remove Quotation Marks as the Text Qualifier in output when using the  TigerStop  NC Link."
+        },
+        {
+            "type": "text",
+            "data": "Strip Quotes -  Enable this option to remove Quotation Marks as the Text Qualifier in output when using the  TigerStop  NC Link."
+        }
+    ],
+    "source_file": "NCEnglish\\Ribbonbar\\Main_Tab\\Machine\\Machine_Types\\Specialized_Chop_Saw.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

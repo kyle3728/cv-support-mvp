@@ -1,0 +1,25 @@
+{
+    "id": "8e89a4e3-90a8-4fb4-bfac-cfd8946bfc61",
+    "title": "zThird_Exercise_Code_X",
+    "content": [
+        {
+            "type": "text",
+            "data": "Third Exercise Code X"
+        },
+        {
+            "type": "text",
+            "data": "Cab.DX/2 + Cab.Board@2.DX/2"
+        },
+        {
+            "type": "text",
+            "data": "OR"
+        },
+        {
+            "type": "text",
+            "data": "(Cab.DX + Cab.Board@2.DX)/2"
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\Parametric_Editing\\Intelligence_Workshop\\3rd_Exercise\\zThird_Exercise_Code_X.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

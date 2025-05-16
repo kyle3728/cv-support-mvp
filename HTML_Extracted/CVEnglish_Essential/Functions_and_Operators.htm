@@ -1,0 +1,798 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!DOCTYPE html>
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns="http://www.w3.org/1999/xhtml"><head><link rel="stylesheet" type="text/css" href="../../../../RHTMP/Microsoft%20HTML%20HelpLvLZav/_rhdefault.css"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="ProgId" content="Word.Document"/>
+  <meta name="Originator" content="Microsoft Word 9"/>
+  <meta name="date" content="08 2, 2002 4:11:18 PM"/>
+  <meta name="topic-priority" content="0"/>
+  <meta name="topic-time-estimate" content="0"/>
+  <meta name="topic-comment" content=""/>
+  <meta name="topic-id" content="System_Level\Utilities\Edit_UCS\Parameters and Functions.htm"/>
+  <meta name="topic-status" content="Complete"/>
+  <meta name="generator" content="Adobe RoboHelp 2019"/>
+  <title>Functions and Operators</title>
+  <link rel="StyleSheet" href="../../assets/css/default.css" type="text/css"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/><script type="text/javascript" src="../../../../RHTMP/Microsoft%20HTML%20HelpLvLZav/ehlpdhtm.js"></script></head>
+<body lang="EN-US" xml:lang="EN-US" style="tab-interval: .5in;">
+  <h1 style="font-weight: bold; font-size: 18pt; text-decoration: none; "><b><u><span style="font-weight: bold; text-decoration: none; ">Functions and Operators</span></u></b></h1>
+  <h2><img alt="" border="0" src="../../assets/images/zGraphics/1Products/1AUALL.png" style="border: none; width: 100%; max-width: 102px;"/></h2>
+  <h2>Supported Operators and Mathematical Functions Computation Operations</h2>
+  <p>Operators may be binary or unary.  Binary operators have two operands such as in A * B.  A and B are the two operands in that expression.  A unary operator has only one operand such as in !B.  In that expression, the (!) is a unary operator (meaning Boolean Not), because it has only one operand (B).</p>
+  <p style="font-weight: bold;">(<span style="color: #ff0000;">-</span>) - Unary Minus</p>
+  <p style="margin-left: 40px;">Example: <span style="color: #ff0000;">-</span>X</p>
+  <p style="font-weight: bold;">(<span style="color: #ff0000;">-</span>) - Binary Minus</p>
+  <p style="margin-left: 40px;">Example: X <span style="color: #ff0000;">-</span> Y = Z</p>
+  <p style="font-weight: bold;">(<span style="color: #ff0000;">+</span>) - Unary Plus</p>
+  <p style="margin-left: 40px;">Example: <span style="color: #ff0000;">+</span>X</p>
+  <p style="font-weight: bold;">(<span style="color: #ff0000;">+</span>) - Binary Plus</p>
+  <p style="margin-left: 40px;">Example: X <span style="color: #ff0000;">+</span> Y = Z</p>
+  <p style="font-weight: bold;">(<span style="color: #ff0000;">*</span>) - Multiplication</p>
+  <p style="margin-left: 40px;">Example: X  = X <span style="color: #ff0000;">*</span> 2Y</p>
+  <p style="font-weight: bold;">(<span style="color: #ff0000;">/</span>) - Division</p>
+  <p style="margin-left: 40px;">Example: X = DX<span style="color: #ff0000;">/</span>2</p>
+  <p style="font-weight: bold;">(<span style="color: #ff0000;">%</span>) - Modulus</p>
+  <p style="margin-left: 40px;">Example: X = Y <span style="color: #ff0000;">%</span> Z</p>
+  <p style="font-weight: bold;">(<span style="color: #ff0000;">^</span>) - Exponential</p>
+  <p style="margin-left: 40px;">Example: X = Y <span style="color: #ff0000;">^</span> Z     (Raises Y to the power of Z)</p>
+  <h2> </h2>
+  <h2>Comparison Operators</h2>
+  <p>Comparison Operators return a Boolean Value (True or False) depending on the comparison being made.  For example, the expression 1 == 2 would return False.</p>
+  <p style="font-weight: bold;">(<span style="color: #ff0000;">!</span>) - Logical NOT</p>
+  <p style="margin-left: 40px;">Example: <span style="color: #ff0000;">!</span>a</p>
+  <p style="font-weight: bold;">(<span style="color: #ff0000;">&lt;</span>) - Less Than</p>
+  <p style="margin-left: 40px;">Example: X <span style="color: #ff0000;">&lt;</span> Y</p>
+  <p style="font-weight: bold;">(<span style="color: #ff0000;">&gt;</span>) - Greater Than</p>
+  <p style="margin-left: 40px;">Example: Y <span style="color: #ff0000;">&gt;</span> X</p>
+  <p style="font-weight: bold;">(<span style="color: #ff0000;">&lt;=</span>) - Less Than or Equal To</p>
+  <p style="margin-left: 40px;">Example: X <span style="color: #ff0000;">&lt;=</span> Y</p>
+  <p style="font-weight: bold;">(<span style="color: #ff0000;">&gt;=</span>) - Greater Than or Equal To</p>
+  <p style="margin-left: 40px;">Example: Y <span style="color: #ff0000;">&gt;=</span> X</p>
+  <p style="font-weight: bold;">(<span style="color: #ff0000;">==</span>) - Equivalence</p>
+  <p style="margin-left: 40px;">Example     X <span style="color: #ff0000;">==</span> 1 <span style="color: #ff0000;">(Must be used in Object Tree IF statements)</span></p>
+  <p style="font-weight: bold;">(<span style="color: #ff0000;">!=</span>) - Inequality</p>
+  <p style="margin-left: 40px;">Example: X <span style="color: #ff0000;">!=</span> Y</p>
+  <p style="font-weight: bold;">(<span style="color: #ff0000;">&amp;</span>) - Logical And</p>
+  <p style="margin-left: 40px;">Example; X <span style="color: #ff0000;">&amp;</span> Y</p>
+  <p style="font-weight: bold;">(<span style="color: #ff0000;">|</span>) - Logical OR</p>
+  <p style="margin-left: 40px;">Example: X <span style="color: #ff0000;">|</span> Y</p>
+  <h2> </h2>
+  <h2><a name="Checking_for_Null_Values_or_a_Parameters_Existence" id="Checking_for_Null_Values_or_a_Parameters_Existence"></a>Checking for Null Values or a Parameters Existence</h2>
+  <p style="font-weight: bold;">(<span style="color: #ff0000;">null</span>) - Null</p>
+  <p style="margin-left: 40px;">Example:   <span style="color: #0000ff;">If</span> DX <span style="color: #ff0000;">=</span> <span style="color: #0000ff;">null Then</span></p>
+  <p style="margin-left: 120px; color: #ff0000;">DoSomething</p>
+  <p style="margin-left: 120px; color: #0000ff;">End If</p>
+  <h2>Assignment Operators</h2>
+  <p>An assignment operator sets or re-sets the value assigned to a variable.</p>
+  <p>Valid assignment operators in CABINET VISION are:</p>
+  <p style="font-weight: bold;">(<span style="color: #ff0000;">=</span>) - Equals</p>
+  <p style="margin-left: 40px;">Example:  X <span style="color: #ff0000;">=</span> 2 + 2;  In this example, the variable (X) is assigned the value 2 + 2.</p>
+  <p style="font-weight: bold;">(<span style="color: #ff0000;">:=</span>) - Compute Now</p>
+  <p style="margin-left: 40px;">Example:  X <span style="color: #ff0000;">:=</span> 2 + 2;  In this example, the variable (X) is assigned the value 4.  This assignment operator varies from the (<span style="font-weight: bold;">=</span>) assignment operator in that with (<span style="font-weight: bold; color: #ff0000;">:=</span>):</p>
+  <ol style="list-style: decimal;">
+    <li class="p">
+      <p style="margin-left: 40px;">The expression is evaluated in the current state of the program, and</p>
+    </li>
+    <li class="p">
+      <p style="margin-left: 40px;">The variable is assigned the <span style="font-style: italic;">computed value</span>, replacing the prior value of that variable.</p>
+    </li>
+  </ol>
+  <p style="font-weight: bold;">(<span style="color: #ff0000;">+=</span>) - <b><u><span style="font-size: 12pt; font-weight: bold; text-decoration: none; ">A</span></u></b>djust Add</p>
+  <p style="margin-left: 40px;">Example: DX <span style="color: #ff0000;">+=</span> 2  (This adds 2 to the current DX value)</p>
+  <p style="font-weight: bold;">(<span style="color: #ff0000;">-=</span>) - Adjust Subtract</p>
+  <p style="margin-left: 40px;">Example: DX <span style="color: #ff0000;">-=</span> 2  (This subtracts 2 from the current DX value)</p>
+  <p style="font-weight: bold;">(<span style="color: #ff0000;">*=</span>) - Adjust Multiply</p>
+  <p style="margin-left: 40px;">Example: DX <span style="color: #ff0000;">*=</span> 2  (This multiplies the current DX value by 2)</p>
+  <p style="font-weight: bold;">(<span style="color: #ff0000;">/=</span>) - Adjust Divide</p>
+  <p style="margin-left: 40px;">Example: DX <span style="color: #ff0000;">/=</span> 2  (This divides the current DX value by 2)</p>
+  <p style="font-weight: bold;"> </p>
+  <p style="font-weight: bold;"><a name="Deleting_a_Parameter" id="Deleting_a_Parameter"></a>Deleting a Parameter (Via UCS)</p>
+  <p style="font-weight: bold;">(<span style="color: #ff0000;">Delete</span>) - Delete</p>
+  <p style="margin-left: 40px;">Example: <span style="color: #ff0000;">Delete</span> DX (This will remove the DX Parameter from the Object)</p>
+  <h2> </h2>
+  <h2>The &quot;This&quot; Object</h2>
+  <p>The &quot;this&quot; object is a substitute for what is in the For Each statement. The example below shows the difference in using it:</p>
+  <p style="color: #008000;">;Not Using the THIS Object</p>
+  <p><span style="color: #0000ff;">For Each</span> DWR_OPEN|DOR_OPEN Part</p>
+  <p style="margin-left: 40px;"><span style="color: #0000ff;">If</span> DWR_OPEN.DOR.S_DSLAB.DX <span style="color: #ff0000;">&gt;</span> 5 <span style="color: #0000ff;">Then</span></p>
+  <p style="margin-left: 80px;">Do Something</p>
+  <p style="color: #0000ff; margin-left: 40px;">End if</p>
+  <p style="margin-left: 40px;"><span style="color: #0000ff;">If</span> DOR_OPEN.DOR.S_DSLAB.DX <span style="color: #ff0000;">&gt;</span> 5 <span style="color: #0000ff;">Then</span></p>
+  <p style="margin-left: 80px;">Do The Same Something As Above</p>
+  <p style="color: #0000ff; margin-left: 40px;">End if</p>
+  <p>The code above when using the &quot;this&quot; object could be replaced with:</p>
+  <p style="color: #008000;">;Using the THIS Object</p>
+  <p>For Each DWR_OPEN|DOR_OPEN Part</p>
+  <p style="margin-left: 40px;"><span style="color: #0000ff;">If</span> this.DOR.S_DSLAB.DX <span style="color: #ff0000;">&gt;</span> 5 <span style="color: #0000ff;">Then</span></p>
+  <p style="margin-left: 80px;">Do It All</p>
+  <p style="margin-left: 40px; color: #0000ff;">End if</p>
+  <h2> </h2>
+  <h2>Define Value types in a UCS</h2>
+  <p>You can define the following Value types via a UCS.</p>
+  <p style="font-weight: bold;"><a name="Currency" id="Currency"></a>Currency &lt;crncy&gt;<span style="color: #ff0000;">
+      <crncy></crncy>
+    </span></p>
+  <p style="font-weight: bold;">Measurement &lt;meas&gt;</p>
+  <p style="font-weight: bold;">Degrees &lt;deg&gt;<span style="color: #ff0000;">
+      <deg></deg>
+    </span></p>
+  <p style="font-weight: bold;">Integer &lt;int&gt;<span style="color: #ff0000;">
+      <int></int>
+    </span></p>
+  <p style="font-weight: bold;">Boolean &lt;bool&gt; <span style="color: #ff0000;">
+      <bool></bool>
+    </span></p>
+  <p style="font-weight: bold;">Decimal &lt;dec&gt; <span style="color: #ff0000;">
+      <dec></dec>
+    </span></p>
+  <p style="font-weight: bold;"><a name="Text" id="Text"></a>Text &lt;text&gt; <span style="color: #ff0000;"><text></text></span></p>
+  <p style="margin-left: 40px; font-weight: normal;">You can also build strings of Text in CABINET VISION from the results of existing <a href="System_Parameters.htm">Parameters</a> or <a href="../../Room_Level/Side_Bar/CAD/Ribbonbar/Main_Tab/RLCAD_CAD_Automatic_Text.htm">AutoText</a> Values. Such as the three examples below:</p>
+  <p style="margin-left: 40px; font-weight: normal;">NAME = w{DX}h{DY}d{DZ}</p>
+  <p style="margin-left: 40px; font-weight: normal;">PARTMAT<text> = {material}</text></p>
+  <p style="margin-left: 40px; font-weight: normal;">COMMENT = {name} ({job.name})</p>
+  <p style="font-weight: bold;"><a name="Style" id="Style"></a>Style &lt;style&gt; <span style="color: #ff0000;"> </span></p>
+  <p style="margin-left: 40px">There are three possible settings for the &lt;style&gt; value:</p>
+  <p><strong><span style="margin-left:40px;">0 = Value</span></strong></p>
+  <p><span style="margin-left:40px;">Values act as previous Parameter definitions, only displayed in the Object Tree and hard set by the UCS.</span></p>
+  <p><strong><span style="margin-left:40px;">1 = Attribute</span></strong></p>
+  <p><span style="margin-left:40px;">Attributes act as triggers that can be user prompted from the sidebar for the Object or via Job/Room Parameters tabs. Use &lt;desc&gt; (below) to set the prompt description.</span></p>
+  <p><strong><span style="margin-left:40px;">2  = Note</span></strong></p>
+  <p><span style="margin-left:40px;">Notes are a user defined Note which will be displayed on the Notes pages for the Object and available as CAD text look-ups. The text entered for Notes are defau</span>lt values which can be edited from the prompt. Use &lt;desc&gt; (below) to set the prompt description.</p>
+  <p><a id="User_Prompt" name="User_Prompt"></a><strong>Description <span>&lt;desc&gt;</span></strong></p>
+  <p style="margin-left: 40px">Description allows you to display a user prompt for Attribute and Note Parameters.</p>
+  <p> </p>
+  <p>Below is a sample UCS showing how to format utilizing these functions:</p>
+  <p><span style="color:rgb(127,196,127)">;Assigning Value Types in a UCS</span></p>
+  <p><span style="color:rgb(56,85,249)">For Each</span> CAB Assembly</p>
+  <p> </p>
+  <p><span style="color:#3855f9;">If </span>U_DWStrip <span>=</span> <span style="color:#3855f9;">null then</span> <span>                                             <span style="color:#7fc47f;">;Checks to see if the U_DWStrip already exists on the Cabinet</span></span></p>
+  <p>     U_DWStrip<span>&lt;</span>bool<span>&gt; =</span> 0                                            <span style="color:#7fc47f;">;Sets the Parameter Type to Boolean (True/False) with a default of False</span></p>
+  <p>     U_DWStrip<span>&lt;</span>style<span>&gt; =</span> 1                                           <span style="color:#7fc47f;">;Sets the Parameter Style to Attribute</span></p>
+  <p><span>     </span>U_DWStrip<span>&lt;</span>desc<span>&gt; =</span> <span>&#39;Add Dishwasher Strip&#39;</span>         <span style="color:#7fc47f;">;Adds a user prompt at the sidebar for the Cabinet</span>  </p>
+  <p><span style="color:#3855f9;">End If</span></p>
+  <p> </p>
+  <p><span style="color:#3855f9;">If</span> Cab<span>.</span>U_DWStrip <span>=</span> 1 <span style="color:#3855f9;">Then</span>                                         <span style="color:#7fc47f;">;Checks to see if the User said Yes to Add Dishwasher Strip Question</span></p>
+  <p>  <span>Dim</span> BOARD as New Part</p>
+  <p>  BOARD<span>.</span>X<span>&lt;</span>meas<span>&gt; =</span> 0                                                <span style="color:#7fc47f;">;meas = Measurement</span></p>
+  <p>  BOARD<span>.</span>Y<span>&lt;</span>meas<span>&gt; =</span> Cab.DY                                     <span></span><span style="color:#7fc47f;">;meas = Measurement</span></p>
+  <p>  BOARD<span>.</span>Z<span>&lt;</span>meas<span>&gt; =</span> 0                                                <span style="color:#7fc47f;">;meas = Measurement</span><span></span></p>
+  <p>  BOARD<span>.</span>DX<span>&lt;</span>meas<span>&gt; =</span> 1.75                                        <span><span style="color:#7fc47f;">;meas = Measurement</span></span></p>
+  <p>  BOARD<span>.</span>DY<span>&lt;</span>meas<span>&gt; =</span> 24                                           <span style="color:#7fc47f;">;meas = Measurement</span><span></span></p>
+  <p>  BOARD<span>.</span>AX<span>&lt;</span>deg<span>&gt; =</span> 0                                 <span style="color:#7fc47f;">               ;deg  = Degrees</span></p>
+  <p>  BOARD<span>.</span>AY<span>&lt;</span>deg<span>&gt; =</span> 0                                      <span>          <span style="color:#7fc47f;">;deg  = Degrees</span></span></p>
+  <p>  BOARD<span>.</span>AZ<span>&lt;</span>deg<span>&gt; =</span> -90                                       <span>      <span style="color:#7fc47f;">;deg  = Degrees</span></span></p>
+  <p>  BOARD<span>.</span>QTY<span>&lt;</span>int<span>&gt; =</span> 3                                            <span style="color:#7fc47f;">    ;int  = Integer</span></p>
+  <p>  BOARD<span>.</span>WEIGHT<span>&lt;</span>dec<span>&gt; =</span> 23.25                   <span>             <span style="color:#7fc47f;">;dec  = Decimal</span></span></p>
+  <p> </p>
+  <p>  NOTE<span>&lt;t</span>ext<span>&gt; =</span> <span>&#39;Extra Board for Mounting Dishwasher Included&#39;</span>     <span>   <span style="color:#7fc47f;">;defines the text contained in NOTE</span></span></p>
+  <p>  NOTE<span>&lt;</span>style<span>&gt; =</span> 2                                                                                <span style="color:#7fc47f;">;sets the Parameter NOTE as a Note on the CAB in For Each</span></p>
+  <p><span style="color:#3855f9;">End If</span></p>
+  <p> </p>
+  <p>You can also define a list of values for a user to select from. See the <a href="../../System_Level/Ribbonbar/Utilities_Tab/Tools_Group/SL_Parameters.htm#Choice_Lists_UCS">Parameters topic</a> for more information.</p>
+  <h2><b><u><span><a id="Common_Functions" name="Common_Functions"></a>Common Functions</span></u></b></h2>
+  <table cellspacing="0" width="82.2%">
+    <tbody>
+      <tr>
+        <td>
+          <p>ABS</p>
+        </td>
+        <td>
+          <p>ABS(X)</p>
+        </td>
+        <td>
+          <p>Returns the absolute value of a number, which is a number without its sign.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>ACOS</p>
+        </td>
+        <td>
+          <p>ACOS(X)</p>
+        </td>
+        <td>
+          <p>Returns the arccosine of a number, in degrees. The arccosine <span>is the angle whose cosine is Number.</span></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>ASIN</p>
+        </td>
+        <td>
+          <p>ASIN(X)</p>
+        </td>
+        <td>
+          <p>Returns the arcsine of a number in degrees.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>ATAN</p>
+        </td>
+        <td>
+          <p>ATAN(X)</p>
+        </td>
+        <td>
+          <p>Returns the arctangent of a number in degrees.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>COS</p>
+        </td>
+        <td>
+          <p>COS(X)</p>
+        </td>
+        <td>
+          <p>Returns the cosine of an angle.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>COSH</p>
+        </td>
+        <td>
+          <p>COSH(X)</p>
+        </td>
+        <td>
+          <p>Returns the hyperbolic cosine of a number.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>EXP</p>
+        </td>
+        <td>
+          <p>EXP(X)</p>
+        </td>
+        <td>
+          <p>Returns e raised to the power of a given number.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>IMP</p>
+        </td>
+        <td>
+          <p>Imp(X)</p>
+        </td>
+        <td>
+          <p>Conversion for MM to Imperial. To use any of these functions for Metric... ABS(Imp(100))</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>in</p>
+        </td>
+        <td>
+          <p>Xin</p>
+        </td>
+        <td>
+          <p>Establishes the value you are typing is an Imperial Measurement... 12in</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>LOG</p>
+        </td>
+        <td>
+          <p>LOG(X)</p>
+        </td>
+        <td>
+          <p>Returns the logarithm of a number to the base e.  e is a constant whose value is approximately 2.718282.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>LOG10</p>
+        </td>
+        <td>
+          <p>LOG10(X)</p>
+        </td>
+        <td>
+          <p>Returns the base-10 logarithm of a number.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>mm</p>
+        </td>
+        <td>
+          <p>Xmm</p>
+        </td>
+        <td>
+          <p>Establishes the value you are typing is a Metric Measurement... 300mm</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>ROUND</p>
+        </td>
+        <td>
+          <p>ROUND(X)</p>
+        </td>
+        <td>
+          <p>Rounds a number to the nearest whole number using standard rounding rules.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>RPREC</p>
+        </td>
+        <td>
+          <p>RPREC(X)</p>
+        </td>
+        <td>
+          <p>Returns rounded value of argument rounded as per the unit precision system setting.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>SIN</p>
+        </td>
+        <td>
+          <p>SIN(X)</p>
+        </td>
+        <td>
+          <p>Returns the sine of an angle.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>SINH</p>
+        </td>
+        <td>
+          <p>SINH(X)</p>
+        </td>
+        <td>
+          <p>Returns the hyperbolic sine of a number.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>SQR</p>
+        </td>
+        <td>
+          <p>SQR(X)</p>
+        </td>
+        <td>
+          <p>Returns a square of a number.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>SQRT</p>
+        </td>
+        <td>
+          <p>SQRT(X)</p>
+        </td>
+        <td>
+          <p>Returns a square root of a number.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>TAN</p>
+        </td>
+        <td>
+          <p>TAN(X)</p>
+        </td>
+        <td>
+          <p>Returns the tangent of an angle.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>TANH</p>
+        </td>
+        <td>
+          <p>TANH(X)</p>
+        </td>
+        <td>
+          <p>Returns the hyperbolic tangent of a number.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>TRUNC</p>
+        </td>
+        <td>
+          <p>TRUNC(X)</p>
+        </td>
+        <td>
+          <p>Truncates a number to an integer by removing the decimal, or fractional, part of <span>the number.</span></p>
+        </td>
+      </tr>
+    </tbody>
+    <colgroup>
+      <col/>
+      <col/>
+      <col/>
+    </colgroup>
+  </table>
+  <h2> </h2>
+  <h2>Valid For Each Statement Types</h2>
+  <p>The For Each statement is used to state the Objects and Object Types that you want the UCS to act upon. The first portion of the statement (in red below) states the Object by Internal Name. The second portion states the Objects Type (in blue below). The valid types are defined below:</p>
+  <p>For Each <strong><span style="color:rgb(255,0,0)">CAB </span><span style="color:rgb(0,0,255)">Assembly</span></strong></p>
+  <p><span style="padding-bottom:1px;padding-left:1px;padding-right:1px;padding-top:1px;">ACAMDwg</span></p>
+  <p><span style="padding-bottom:1px;padding-left:1px;padding-right:1px;padding-top:1px;">Arc</span></p>
+  <p><span style="padding-bottom:1px;padding-left:1px;padding-right:1px;padding-top:1px;">Assembly</span></p>
+  <p><span style="padding-bottom:1px;padding-left:1px;padding-right:1px;padding-top:1px;">Dado</span></p>
+  <p><span style="padding-bottom:1px;padding-left:1px;padding-right:1px;padding-top:1px;">DadoEx</span></p>
+  <p><span style="padding-bottom:1px;padding-left:1px;padding-right:1px;padding-top:1px;">Door</span></p>
+  <p><span style="padding-bottom:1px;padding-left:1px;padding-right:1px;padding-top:1px;">DoveTail</span></p>
+  <p><span style="padding-bottom:1px;padding-left:1px;padding-right:1px;padding-top:1px;">DrwFront</span></p>
+  <p><span style="padding-bottom:1px;padding-left:1px;padding-right:1px;padding-top:1px;">Guide</span></p>
+  <p><span style="padding-bottom:1px;padding-left:1px;padding-right:1px;padding-top:1px;">Hardware</span></p>
+  <p><span style="padding-bottom:1px;padding-left:1px;padding-right:1px;padding-top:1px;">Hinge</span></p>
+  <p><span style="padding-bottom:1px;padding-left:1px;padding-right:1px;padding-top:1px;">HingePlate</span></p>
+  <p><span style="padding-bottom:1px;padding-left:1px;padding-right:1px;padding-top:1px;">Hole</span></p>
+  <p><span style="padding-bottom:1px;padding-left:1px;padding-right:1px;padding-top:1px;">IJoint</span></p>
+  <p><span style="padding-bottom:1px;padding-left:1px;padding-right:1px;padding-top:1px;">Line</span></p>
+  <p><span style="padding-bottom:1px;padding-left:1px;padding-right:1px;padding-top:1px;">Linebore</span></p>
+  <p><span style="padding-bottom:1px;padding-left:1px;padding-right:1px;padding-top:1px;">MBlindDado</span></p>
+  <p><span style="padding-bottom:1px;padding-left:1px;padding-right:1px;padding-top:1px;">MDado</span></p>
+  <p><span style="padding-bottom:1px;padding-left:1px;padding-right:1px;padding-top:1px;">MDadoEx</span></p>
+  <p><span style="padding-bottom:1px;padding-left:1px;padding-right:1px;padding-top:1px;">MHole</span></p>
+  <p><span style="padding-bottom:1px;padding-left:1px;padding-right:1px;padding-top:1px;">MLinebore</span></p>
+  <p><span style="padding-bottom:1px;padding-left:1px;padding-right:1px;padding-top:1px;">Molding</span></p>
+  <p><span style="padding-bottom:1px;padding-left:1px;padding-right:1px;padding-top:1px;">Opening</span></p>
+  <p><span style="padding-bottom:1px;padding-left:1px;padding-right:1px;padding-top:1px;">Operation</span></p>
+  <p><span style="padding-bottom:1px;padding-left:1px;padding-right:1px;padding-top:1px;">NGAcsry</span></p>
+  <p><span style="padding-bottom:1px;padding-left:1px;padding-right:1px;padding-top:1px;">Part</span></p>
+  <p><span style="padding-bottom:1px;padding-left:1px;padding-right:1px;padding-top:1px;">Pull</span></p>
+  <p><span style="padding-bottom:1px;padding-left:1px;padding-right:1px;padding-top:1px;">Route</span></p>
+  <h2> </h2>
+  <h2><a id="ValidUCSStatements" name="ValidUCSStatements"></a>Valid Statements</h2>
+  <p><strong>If...Then...End If</strong></p>
+  <p style="margin-left: 40px">If &lt;condition&gt; Then</p>
+  <p><span style="margin-left:40px;">&lt;User Defined Action&gt;</span></p>
+  <p><span style="margin-left:40px;">End If</span></p>
+  <p><a id="While_Do_End_While" name="While_Do_End_While"></a><strong>While...Do...End While</strong></p>
+  <p><span style="margin-left:40px;">While &lt;condition&gt; Do</span></p>
+  <p><span style="margin-left:40px;">&lt;User Defined Action&gt;</span></p>
+  <p><span style="margin-left:40px;">End While</span></p>
+  <p><a id="If_Then_Else_End_If" name="If_Then_Else_End_If"></a><strong>If...Then...Else...End If</strong></p>
+  <p><span style="margin-left:40px;">If &lt;condition&gt; Then</span></p>
+  <p><span style="margin-left:40px;">&lt;User Defined Action&gt;</span></p>
+  <p><span style="margin-left:40px;">Else</span></p>
+  <p><span style="margin-left:40px;">&lt;User Defined Action&gt;</span></p>
+  <p><span style="margin-left:40px;">End If</span></p>
+  <p><a id="If_Then_Exit_End_If" name="If_Then_Exit_End_If"></a><strong>If...Then...Exit...End If</strong></p>
+  <p><span style="margin-left:40px;">If &lt;condition&gt; Then</span></p>
+  <p><span style="margin-left:40px;">Exit</span></p>
+  <p><span style="margin-left:40px;">End If</span></p>
+  <p> </p>
+  <p><a id="process_variables_during_condition_evaluation" name="process_variables_during_condition_evaluation"></a>It is possible to process variables in-line. The variables should be within {} braces. The following demonstrates the use of a variable in  &quot;while...end&quot; and &quot;if...then&quot; statements.</p>
+  <p> </p>
+  <p><span style="color:#3855f9;">For Each</span> AS Part</p>
+  <p> </p>
+  <p>_COUNT <span>=</span> 1</p>
+  <p>_NAME<span>&lt;</span>text<span>&gt; =</span> <span>&#39;AS&#39;</span></p>
+  <p> </p>
+  <p><span style="color:#3855f9;">While </span>CAB<span>.</span>INTERIOR<span>.</span>{_NAME}@{_COUNT}<span>.</span>DX <span>&gt;</span> 0 <span style="color:#3855f9;">Do</span></p>
+  <p>     <span style="color:#3855f9;">If</span> CAB<span>.</span>INTERIOR<span>.</span>{_NAME}@{_COUNT}<span>.</span>ID <span>==</span> ID <span>Then</span></p>
+  <p>          _FOUND <span>:=</span> ID</p>
+  <p>          <span style="color:#3855f9;">Exit</span></p>
+  <p>     <span style="color:#3855f9;">End If</span></p>
+  <p>     _COUNT <span>+=</span> 1</p>
+  <p><span style="color:#3855f9;">End While</span></p>
+  <h2>Valid Dim Statement Types</h2>
+  <p>The DIM statement instructs the UCS to create a new Object. The first portion of the statement (in red below) names the new Object. The second portion states the new Objects Type (in blue below). The valid types are defined below:</p>
+  <p>Dim <strong><span style="color:#ff0000;">BOARD </span></strong>as New <strong><span style="color:#0000ff;">Part</span></strong></p>
+  <p>ACAMDwg</p>
+  <p>Arc</p>
+  <p>BlindDado</p>
+  <p>Dado</p>
+  <p>DadoEx</p>
+  <p>DadoExMaster</p>
+  <p>DadoMaster</p>
+  <p>Door</p>
+  <p><a id="DoveTail" name="DoveTail"></a>DoveTail</p>
+  <p>DrwFront</p>
+  <p>Guide</p>
+  <p>Hardware <strong><span>- Must be used with Connectors</span></strong></p>
+  <p>Hinge</p>
+  <p>Hole</p>
+  <p>HoleMaster</p>
+  <p>IJoint</p>
+  <p>LBoreMaster</p>
+  <p>Line</p>
+  <p>Linebore</p>
+  <p>MDado</p>
+  <p>MHole</p>
+  <p>MLinebore</p>
+  <p>Molding</p>
+  <p>NGAcsry</p>
+  <p>Part</p>
+  <p>Pull</p>
+  <p>Route</p>
+  <p> </p>
+  <h2>Object Classes and Types</h2>
+  <p>Below is a list of all valid Object Classes and their associated Object Types.</p>
+  <p><strong>ASM_CLASS_ACSRY</strong></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_MISC</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_PART</span></p>
+  <p><strong>ASM_CLASS_APPL</strong></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_COOKTOP</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_DISHWASHER</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_HOOD</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_MICRO</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_OVEN</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_RANGE</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_REFER</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_SINK</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_TRASHCOMP</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_WASH_DRY</span></p>
+  <p><strong>ASM_CLASS_BASE</strong></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_BLINDL</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_BLINDR</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_CORNER45</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_CORNER90</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_DESK</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_FILLER</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_PART</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_STANDARD</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_TOEASSEMBLY</span></p>
+  <p><strong>ASM_CLASS_BATH</strong></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_BATH_SINK</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_SHOWER</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_TOILET</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_TUB</span></p>
+  <p><strong>ASM_CLASS_CEILING</strong></p>
+  <p><strong>ASM_CLASS_CLOSET</strong></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_CLOSET_DOOR_DWR</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_CLOSET_HORZ</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_CLOSET_VERT</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_CORNER45</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_CORNER90</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_FILLER</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_STANDARD</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_TOEASSEMBLY</span></p>
+  <p><strong>ASM_CLASS_CLOSETBASE</strong></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_CLOSET_DOOR_DWR</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_CLOSET_HORZ</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_CLOSET_VERT</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_CORNER45</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_CORNER90</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_FILLER</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_STANDARD</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_TOEASSEMBLY</span></p>
+  <p><strong>ASM_CLASS_CLOSETUPPER</strong></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_CLOSET_DOOR_DWR</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_CLOSET_HORZ</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_CLOSET_VERT</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_CORNER45</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_CORNER90</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_FILLER</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_STANDARD</span></p>
+  <p><strong>ASM_CLASS_DECORATIVE</strong></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_EDOOR</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_MISC</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_OPENING</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_PART</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_PICTURE</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_TWALL</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_WINDOW</span></p>
+  <p><strong>ASM_CLASS_DOOR</strong></p>
+  <p><strong>ASM_CLASS_FIXTURE</strong></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_ELECTRICAL</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_PLUMBING</span></p>
+  <p><strong>ASM_CLASS_FLOOR</strong></p>
+  <p><strong>ASM_CLASS_MOLDING</strong></p>
+  <p><strong>ASM_CLASS_NG_ACSRY</strong></p>
+  <p><strong>ASM_CLASS_SPLASH</strong></p>
+  <p><strong>ASM_CLASS_TALL</strong></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_BLINDL</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_BLINDR</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_CORNER45</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_FILLER</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_PART</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_STANDARD</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_CORNER90</span></p>
+  <p><strong>ASM_CLASS_TOP</strong></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_SPLASH</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_TOP</span></p>
+  <p><strong>ASM_CLASS_UPPER</strong></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_APPPLGARAGE</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_BLINDL</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_BLINDR</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_CORNER45</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_CORNER90</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_FILLER</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_HOOD</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_PART</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_STANDARD</span></p>
+  <p><strong>ASM_CLASS_USER_LIGHT</strong></p>
+  <p><strong>ASM_CLASS_VANITY</strong></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_BLINDL</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_BLINDR</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_CORNER45</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_CORNER90</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_FILLER</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_PART</span></p>
+  <p><span style="margin-left:40px;">ASM_TYPE_STANDARD</span></p>
+  <p><strong>ASM_CLASS_WALL</strong></p>
+  <p><strong>ASM_CLASS_WALLFAC</strong></p>
+  <h2> </h2>
+  <h2>Operation Names and Descriptions</h2>
+  <p>Below is a list of Operations created by the system along with a brief description of each.</p>
+  <p>LFVBORE-Front Line Bore</p>
+  <p>LRVBORE-Rear Line Bore</p>
+  <p>LMVBORE-Mid Line Bore</p>
+  <p>LEFHBORE-Construction Hole Left Front</p>
+  <p>LEMHBORE-Construction Hole Left Mid</p>
+  <p>LERHBORE-Construction Hole Left Rear</p>
+  <p>REFHBORE-Construction Hole Right Front</p>
+  <p>REMHBORE-Construction Hole Right Mid</p>
+  <p>RERHBORE-Construction Hole Right Rear</p>
+  <p>TEFHBORE-Construction Hole Top Front</p>
+  <p>TEMHBORE-Construction Hole Top Mid</p>
+  <p>TERHBORE-Construction Hole Top Rear</p>
+  <p>BEFHBORE-Construction Hole Bottom Front</p>
+  <p>BEMHBORE-Construction Hole Bottom Mid</p>
+  <p>BERHBORE-Construction Hole Bottom Rear</p>
+  <p>LRLBORE-Rod Left Linebore</p>
+  <p>RRLBORE-Rod Right Linebore</p>
+  <p>LRVBORE-Rod Left Vertical Bore</p>
+  <p>RRVBORE-Rod Right Vertical Bore</p>
+  <p>LRHBORE-Rod Left Horizontal Bore</p>
+  <p>RRHBORE-Rod Right Horizontal Bore</p>
+  <p>WBFVBORE-Wire Basket Guide Hole 1</p>
+  <p>WBMVBORE-Wire Basket Guide Hole 2</p>
+  <p>WBRVBORE-Wire Basket Guide Hole 3</p>
+  <p>WBVBORE4-Wire Basket Guide Hole 4</p>
+  <p>WBVBORE5-Wire Basket Guide Hole 5</p>
+  <p>WBVBORE6-Wire Basket Guide Hole 6</p>
+  <p>GFVBORE-Drawer Guide Hole 1</p>
+  <p>GMVBORE-Drawer Guide Hole 2</p>
+  <p>GRVBORE-Drawer Guide Hole 3</p>
+  <p>GVBORE4-Drawer Guide Hole 4</p>
+  <p>GVBORE5-Drawer Guide Hole 5</p>
+  <p>GVBORE6-Drawer Guide Hole 6</p>
+  <p>GFRVBORE-Drawer Guide Front Bracket Hole</p>
+  <p>GBKVBORE-Drawer Guide Back Bracket Hole</p>
+  <p>PTDADO-Partition Dado</p>
+  <p>DIVDADO-Divider Dado</p>
+  <p>UBXHBORE-Back Construction Hole</p>
+  <p>BBACKBORE-Back - Back Construction Hole</p>
+  <p>UBDADO-Unfinished Back Dado</p>
+  <p>TODADO-Top Dado</p>
+  <p>BODADO-Bottom Dado</p>
+  <p>NATDADO-Nailer - Top Dado</p>
+  <p>NABDADO-Nailer - Bottom Dado</p>
+  <p>NAEDADO-Nailer - End Dado</p>
+  <p>SHDADO-Shelf Dado</p>
+  <p>SHFRDADO-Shelf - Frame Dado</p>
+  <p>LEFHBORE-Left Front Construction Hole Top</p>
+  <p>LEMHBORE-Left Mid Construction Hole Top</p>
+  <p>LERHBORE-Left Rear Construction Hole Top</p>
+  <p>REFHBORE-Right Front Construction Hole Top</p>
+  <p>REMHBORE-Right Mid Construction Hole Top</p>
+  <p>RERHBORE-Right Rear Construction Hole Top</p>
+  <p>STFDADO-Stretcher - Face Dado</p>
+  <p>STRDADO-Stretcher - Back Dado</p>
+  <p>STEDADO-Stretcher - End Dado</p>
+  <p>LSFDADO-Left Side - Front Dado</p>
+  <p>LSBDADO-Left Side - Back Dado</p>
+  <p>RSFDADO-Right Side - Front Dado</p>
+  <p>RSBDADO-Right Side - Back Dado</p>
+  <p>FLSDADO-Front - Left Side Dado</p>
+  <p>FRSDADO-Front - Right Side Dado</p>
+  <p>BLSDADO-Back - Left Side Dado</p>
+  <p>BRSDADO-Back - Right Side Dado</p>
+  <p>BTLSDADO-Bottom - Left Side Dado</p>
+  <p>BTRSDADO-Bottom - Right Side Dado</p>
+  <p>BTFDADO-Bottom - Front Dado</p>
+  <p>BTBDADO-Bottom - Back Dado</p>
+  <p>PTFDADO-Partition - Front Dado</p>
+  <p>PTBDADO-Partition - Back Dado</p>
+  <p>PTBTFDADO-Partition - Bottom Dado</p>
+  <p>PTDVDADO-Partition - Divider Dado</p>
+  <p>DVLSDADO-Divider - Left Side Dado</p>
+  <p>DVRSDADO-Divider - Right Side Dado</p>
+  <p>DVBTDADO-Divider - Bottom Dado</p>
+  <p>DVPTDADO-Divider - Partition Dado</p>
+  <p>LFSSDADO-Left Front Dado</p>
+  <p>LRSSDADO-Left Rear Dado</p>
+  <p>RFSSDADO-Right Front Dado</p>
+  <p>RRSSDADO-Right Rear Dado</p>
+  <p>LSFDOVE-Left Side Front Dovetail</p>
+  <p>LSBKDOVE-Left Side Back Dovetail</p>
+  <p>RSFDOVE-Right Side Front Dovetail</p>
+  <p>RSBKDOVE-Right Side Back Dovetail</p>
+  <p>FLSDOVE-Front Left Side Dovetail</p>
+  <p>BKLSDOVE-Back Left Side Dovetail</p>
+  <p>FRSDOVE-Front Right Side Dovetail</p>
+  <p>BKRSDOVE-Back Right Side Dovetail</p>
+  <p>BTLMTBORE-Bottom Left Mount Bore</p>
+  <p>BTRMTBORE-Bottom Right Mount Bore</p>
+  <p>BTLMTGRV-Bottom Left Mount Groove</p>
+  <p>BTRMTGRV-Bottom Right Mount Groove</p>
+  <p>LSFTBXBORE-Left Side Front Top Box Bore</p>
+  <p>LSFMBXBORE-Left Side Front Mid Box Bore</p>
+  <p>LSFBBXBORE-Left Side Front Bottom Box Bore</p>
+  <p>RSFTBXBORE-Right Side Front Top Box Bore</p>
+  <p>RSFMBXBORE-Right Side Front Mid Box Bore</p>
+  <p>RSFBBXBORE-Right Side Front Bottom Box Bore</p>
+  <p>LSBTBXBORE-Left Side Back Top Box Bore</p>
+  <p>LSBMBXBORE-Left Side Back Mid Box Bore</p>
+  <p>LSBBBXBORE-Left Side Back Bottom Box Bore</p>
+  <p>RSBTBXBORE-Right Side Back Top Box Bore</p>
+  <p>RSBMBXBORE-Right Side Back Mid Box Bore</p>
+  <p>RSBBBXBORE-Right Side Back Bottom Box Bore</p>
+  <p>FLSTBXBORE-Front Left Side Top Box Bore</p>
+  <p>FLSMBXBORE-Front Left Side Mid Box Bore</p>
+  <p>FLSBBXBORE-Front Left Side Bottom Box Bore</p>
+  <p>FRSTBXBORE-Front Right Side Top Box Bore</p>
+  <p>FRSMBXBORE-Front Right Side Mid Box Bore</p>
+  <p>FRSBBXBORE-Front Right Side Bottom Box Bore</p>
+  <p>BLSTBXBORE-Back Left Side Top Box Bore</p>
+  <p>BLSMBXBORE-Back Left Side Mid Box Bore</p>
+  <p>BLSBBXBORE-Back Left Side Bottom Box Bore</p>
+  <p>BRSTBXBORE-Back Right Side Top Box Bore</p>
+  <p>BRSMBXBORE-Back Right Side Mid Box Bore</p>
+  <p>BRSBBXBORE-Back Right Side Bottom Box Bore</p>
+  <p>BLFBXBORE-Bottom Left Front Box Bore</p>
+  <p>BLMBXBORE-Bottom Left Mid Box Bore</p>
+  <p>BLRBXBORE-Bottom Left Rear Box Bore</p>
+  <p>BRFBXBORE-Bottom Right Front Box Bore</p>
+  <p>BRMBXBORE-Bottom Right Mid Box Bore</p>
+  <p>BRRBXBORE-Bottom Right Rear Box Bore</p>
+  <p>HOLE-Hole Operation</p>
+  <p>DADO-Dado Operation</p>
+  <p>BSFMTBOREL-Left Sub Front Mount Hole</p>
+  <p>BSFMTBORER-Right Sub Front Mount Hole</p>
+  <p>BDFMTBOREL-Left Drawer Front Mount Hole</p>
+  <p>BDFMTBORER-Right Drawer Front Mount Hole</p>
+  <p>DLBXBORE-Box Divider Left Top Bore</p>
+  <p>DLMBXBORE-Box Divider Left Mid Bore</p>
+  <p>DLBBXBORE-Box Divider Left Bottom Bore</p>
+  <p>DRBXBORE-Box Divider Right Top Bore</p>
+  <p>DRMBXBORE-Box Divider Right Mid Bore</p>
+  <p>DRBBXBORE-Box Divider Right Bottom Bore</p>
+  <p>PLTBXBORE-Box Partition Left Top Bore</p>
+  <p>PLMBXBORE-Box Partition Left Mid Bore</p>
+  <p>PLBBXBORE-Box Partition Left Bottom Bore</p>
+  <p>PRTBXBORE-Box Partition Right Top Bore</p>
+  <p>PRMBXBORE-Box Partition Right Mid Bore</p>
+  <p>PRBBXBORE-Box Partition Right Bottom Bore</p>
+  <p>BFLBXBORE-Bottom Front Left Box Bore</p>
+  <p>BFMBXBORE-Bottom Front Mid Box Bore</p>
+  <p>BFRBXBORE-Bottom Front Right Box Bore</p>
+  <p>BBLBXBORE-Bottom Back Left Box Bore</p>
+  <p>BBMBXBORE-Bottom Back Mid Box Bore</p>
+  <p>BBRBXBORE-Bottom Back Right Box Bore</p>
+  <p>HPBORE-Hinge Plate Hole</p>
+  <p>HCBORE-Hinge Cup</p>
+  <p>HCABORE-Hinge Cup Anchor Hole</p>
+  <p>SLDRGRVE-Slide Door Groove</p>
+  <p>SLDRRLBORE-Slide Door Mount Hole</p>
+  <p>SLDMNTBORE1-Slide Door Mount Plate Hole 1</p>
+  <p>SLDMNTBORE2-Slide Door Mount Plate Hole 2</p>
+  <p>SLDMNTBORE3-Slide Door Mount Plate Hole 3</p>
+  <p>SLDMNTBORE4-Slide Door Mount Plate Hole 4</p>
+  <p>SLDMNTBORE5-Slide Door Mount Plate Hole 5</p>
+  <p>SLDBOTMNTBORE1-Slide Door Bottom Mount Plate Hole 1</p>
+  <p>SLDBOTMNTBORE2-Slide Door Bottom Mount Plate Hole 2</p>
+  <p>SLDBOTMNTBORE3-Slide Door Bottom Mount Plate Hole 3</p>
+  <p>SLDBOTMNTBORE4-Slide Door Bottom Mount Plate Hole 4</p>
+  <p>SLDBOTMNTBORE5-Slide Door Bottom Mount Plate Hole 5</p>
+  <p>SLDTOPDADO-Slide Door Top Dado</p>
+  <p>SLDBOTDADO-Slide Door Bottom Dado</p>
+  <p>SLDTOPCHNL-Slide Door Top Channel</p>
+  <p>SLDBOTCHNL-Slide Door Bottom Channel</p>
+  <p>SLDRLBORE-Slide Door Rail Boring</p>
+  <p>PULL_HOLE-Pull Hole</p>
+  <p>TPULLBORE-Top Pull Hole</p>
+  <p>BPULLBORE-Bottom Pull Hole</p>
+  <p>TFRAMEBORE-Top Frame Bore</p>
+  <p>BFRAMEBORE-Bottom Frame Bore</p>
+  <p>LEFRAMEBORE-Left End Frame Bore</p>
+  <p>REFRAMEBORE-Right End Frame Bore</p>
+  <p>CLRBORE-Closet Rod Bore</p>
+  <p>OP-Operation</p>
+  <p> </p>
+
+</body></html>

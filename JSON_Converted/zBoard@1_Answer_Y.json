@@ -1,0 +1,29 @@
+{
+    "id": "2d02cdd5-f87a-41c8-bf79-73103db16612",
+    "title": "zBoard@1_Answer_Y",
+    "content": [
+        {
+            "type": "text",
+            "data": "Board@1 Answer Y"
+        },
+        {
+            "type": "text",
+            "data": "The Y is not 0\" therefore we need a"
+        },
+        {
+            "type": "text",
+            "data": "formula. The Y of this part is related to"
+        },
+        {
+            "type": "text",
+            "data": "the height of the cabinet. When the height of the cabinet"
+        },
+        {
+            "type": "text",
+            "data": "changes, we want this part to move up and down."
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\Parametric_Editing\\Intelligence_Workshop\\5th_Exercise\\zBoard@1_Answer_Y.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

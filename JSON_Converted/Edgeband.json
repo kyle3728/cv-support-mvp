@@ -1,0 +1,150 @@
+{
+    "id": "68ed5263-6c3e-4b34-88a3-9dee580acdcd",
+    "title": "Edgeband",
+    "content": [
+        {
+            "type": "text",
+            "data": "Edgeband"
+        },
+        {
+            "type": "image",
+            "data": "image37.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Edgeband Editor allows you to assign Edgebanding to your Parts. You must have Edgeband Materials and have setup Edgeband Indicators in the  Material Catalog  in order to fully utilize this facility."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Material Catalog",
+                "uuid": "d2033866-5d17-44c3-842e-3c12d56bb472",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image38.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Edge Banding option allows you define which edge of a Part gets edge banded with which edgeband indicator. Once the Edge Band option is active you will be placed in Edge Band mode with the following 4 options in the ribbonbar."
+        },
+        {
+            "type": "image",
+            "data": "image39.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Select -  When entering Edgeband mode this tool is selected by default. Simply click on the edge you would like to apply the Edgeband to and then select its type in the sidebar."
+        },
+        {
+            "type": "text",
+            "data": "Select -  When entering Edgeband mode this tool is selected by default. Simply click on the edge you would like to apply the Edgeband to and then select its type in the sidebar."
+        },
+        {
+            "type": "text",
+            "data": "Select -  When entering Edgeband mode this tool is selected by default. Simply click on the edge you would like to apply the Edgeband to and then select its type in the sidebar."
+        },
+        {
+            "type": "image",
+            "data": "image40.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image32.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "You can use Windows    + Click  to select multiple edges."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "ctrl_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Select All -  To quickly change all Edges to a specific Edgeband select this option then select their type in the sidebar. \n \n \n  Remove Banding -  Will remove Edgebanding from the selected edge(s). \n \n \n  Set Banding -  Will expose the Edgeband type selector in the sidebar without having to select an edge first."
+        },
+        {
+            "type": "text",
+            "data": "Select All -  To quickly change all Edges to a specific Edgeband select this option then select their type in the sidebar."
+        },
+        {
+            "type": "text",
+            "data": "Select All -  To quickly change all Edges to a specific Edgeband select this option then select their type in the sidebar."
+        },
+        {
+            "type": "image",
+            "data": "image41.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Remove Banding -  Will remove Edgebanding from the selected edge(s)."
+        },
+        {
+            "type": "text",
+            "data": "Remove Banding -  Will remove Edgebanding from the selected edge(s)."
+        },
+        {
+            "type": "image",
+            "data": "image42.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Set Banding -  Will expose the Edgeband type selector in the sidebar without having to select an edge first."
+        },
+        {
+            "type": "text",
+            "data": "Set Banding -  Will expose the Edgeband type selector in the sidebar without having to select an edge first."
+        },
+        {
+            "type": "image",
+            "data": "image43.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image32.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "It is important to note that the default values in the sidebar options are NOT representative of the current Edge Banding on the selected Part. To use this function simply select which Edgebanding type you would like."
+        },
+        {
+            "type": "text",
+            "data": "Once the Banding options are chosen simply select any of the Part Edges you would like these Edgeband properties assigned to. In the image below the Front Edge of the End has been selected."
+        },
+        {
+            "type": "image",
+            "data": "image33.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Note that the front edge is now red which indicates an Edgeband has been applied. Once you are through defining the Edges simply click the Return   option to save the new Edge Properties."
+        },
+        {
+            "type": "image",
+            "data": "image26.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "NCEnglish_Cabinetmaker\\Ribbonbar\\Main_Tab\\Parts\\Edit\\Edgeband.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

@@ -1,0 +1,106 @@
+{
+    "id": "289d1675-1948-4b4f-82c1-17ffeb53b098",
+    "title": "JL_Room_General",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top \n > \n \n \n Job Level \n > \n \n Job Properties \n > \n \n Room \n > \n \n General"
+        },
+        {
+            "type": "text",
+            "data": "Top \n >"
+        },
+        {
+            "type": "text",
+            "data": "Job Level \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Job Level",
+                "uuid": "2e24aee5-8ffc-491f-a322-45ce46c2c253",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Job Properties \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Job Properties",
+                "uuid": "d5f88ec0-9e69-49f4-a75a-16eae2e2707d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Room \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Room",
+                "uuid": "289d1675-1948-4b4f-82c1-17ffeb53b098",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "General"
+        },
+        {
+            "type": "text",
+            "data": "General"
+        },
+        {
+            "type": "text",
+            "data": "Room General"
+        },
+        {
+            "type": "text",
+            "data": "Click on the categories or tabs below for more information"
+        },
+        {
+            "type": "image",
+            "data": "JP_Room_Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The General Tab allows changing the name from the default \"Room 1\" to a more descriptive name. \u00a0Above the Room Name has been changed by clicking the \"Name\" box, and typing the new name in. Also, the Type of \"Room\" has been changed to \"Floor\" indicating that \"Jim's Office\" is an entire floor of \u00a0a multi-floored job-site. This is a cosmetic feature and changes as shown are not necessary in order to do a Job. If you do choose to change the Name, it will appear at the Layout Level."
+        },
+        {
+            "type": "text",
+            "data": "Material"
+        },
+        {
+            "type": "text",
+            "data": "This option allows you to select the  Rooms Material Schedule  this Job will use."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Rooms Material Schedule",
+                "uuid": "cf3aae71-eba1-438b-ac18-c6867f001d85",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "See the  Set As System Defaults  topic for more information on it."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Set As System Defaults",
+                "uuid": "e5b1c38f-2747-41a5-a7b8-9aefa6986ede",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Job_Level\\Job_Properties\\Room\\JL_Room_General.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

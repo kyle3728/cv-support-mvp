@@ -1,0 +1,21 @@
+{
+    "id": "badc2fe2-1f88-45f5-a745-09792351210c",
+    "title": "Casadei_MX39",
+    "content": [
+        {
+            "type": "text",
+            "data": "Casadei MX39"
+        },
+        {
+            "type": "text",
+            "data": "This is a  Panel Saw  Link."
+        },
+        {
+            "type": "text",
+            "data": "This link is for the Casadei MX39 using the NPS400 Controller."
+        }
+    ],
+    "source_file": "NCEnglish_Optimizer\\Ribbonbar\\Main_Tab\\Machine\\NC_Links\\Saw_Links\\Casadei_MX39.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

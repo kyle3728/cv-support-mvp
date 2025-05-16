@@ -1,0 +1,81 @@
+{
+    "id": "a0fed6d6-1a97-4a25-ae87-bbaa294008b5",
+    "title": "Laminate_Door",
+    "content": [
+        {
+            "type": "text",
+            "data": "Creating a Laminate Door"
+        },
+        {
+            "type": "text",
+            "data": "Click on the \"Create A New Door Style\" tool. \n \n \n Name the Door. \n \n \n Select a Category to store the Door on, use the \"Slab\" category. \n \n \n Click on the \"Construction\" tab. \n \n \n Click in the middle of the Door and select \"Slab\" as the Panel Type for this Door. \n \n \n Check the Door panel size, it should match the size of the sample Door. \n \n \n Click on the \"Profiles\" tab and select the appropriate Profiles to use with this Door (you most likely will not select any profiles). \n \n \n Click on the \"Materials\" tab and select the appropriate Material Schedules to use with this Door. Be sure to pick Material Schedules that have had the laminate options you want turned on and that have the correct Material selected for \"Slab\"."
+        },
+        {
+            "type": "text",
+            "data": "Click on the \"Create A New Door Style\" tool."
+        },
+        {
+            "type": "text",
+            "data": "Click on the \"Create A New Door Style\" tool."
+        },
+        {
+            "type": "text",
+            "data": "Name the Door."
+        },
+        {
+            "type": "text",
+            "data": "Name the Door."
+        },
+        {
+            "type": "text",
+            "data": "Select a Category to store the Door on, use the \"Slab\" category."
+        },
+        {
+            "type": "text",
+            "data": "Select a Category to store the Door on, use the \"Slab\" category."
+        },
+        {
+            "type": "text",
+            "data": "Click on the \"Construction\" tab."
+        },
+        {
+            "type": "text",
+            "data": "Click on the \"Construction\" tab."
+        },
+        {
+            "type": "text",
+            "data": "Click in the middle of the Door and select \"Slab\" as the Panel Type for this Door."
+        },
+        {
+            "type": "text",
+            "data": "Click in the middle of the Door and select \"Slab\" as the Panel Type for this Door."
+        },
+        {
+            "type": "text",
+            "data": "Check the Door panel size, it should match the size of the sample Door."
+        },
+        {
+            "type": "text",
+            "data": "Check the Door panel size, it should match the size of the sample Door."
+        },
+        {
+            "type": "text",
+            "data": "Click on the \"Profiles\" tab and select the appropriate Profiles to use with this Door (you most likely will not select any profiles)."
+        },
+        {
+            "type": "text",
+            "data": "Click on the \"Profiles\" tab and select the appropriate Profiles to use with this Door (you most likely will not select any profiles)."
+        },
+        {
+            "type": "text",
+            "data": "Click on the \"Materials\" tab and select the appropriate Material Schedules to use with this Door. Be sure to pick Material Schedules that have had the laminate options you want turned on and that have the correct Material selected for \"Slab\"."
+        },
+        {
+            "type": "text",
+            "data": "Click on the \"Materials\" tab and select the appropriate Material Schedules to use with this Door. Be sure to pick Material Schedules that have had the laminate options you want turned on and that have the correct Material selected for \"Slab\"."
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Tips_Tricks_&_FAQs\\The_Door_Catalog\\Sample_Door_Types\\Laminate_Door.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

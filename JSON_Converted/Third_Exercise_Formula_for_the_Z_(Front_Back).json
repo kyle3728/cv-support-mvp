@@ -1,0 +1,77 @@
+{
+    "id": "70029b74-01a2-48a0-a753-3eddf9cb599e",
+    "title": "Third_Exercise_Formula_for_the_Z_(Front_Back)",
+    "content": [
+        {
+            "type": "text",
+            "data": "Third Exercise Formula for the Z (Front/Back)"
+        },
+        {
+            "type": "text",
+            "data": "Look at your cabinet from a side ortho view and click on BOARD@3. Notice where the reference point is located. Click on some of the other parts in the cabinet (especially the first and second board). Notice where the reference point is located."
+        },
+        {
+            "type": "text",
+            "data": "There are several formulas that will work. We could say the Z of Board@3 is equal to  the Z of the deck minus the thickness of board@3 . We could say it is equal to  the depth of the cabinet minus the thickness of board@3 . We could say it is equal to  the Z position of the front stretcher plus the width of the front stretcher minus the thickness of board@3 . We could say the Z of board@3 is equal to the  Z of board@1 (or board@2) . I think well use this last one; the Z of board@3 is equal to  the Z of board@1 . When we trace the Z of board@1 through the tree it is  Cab.Board@1.Z  or just  Cab.Board.Z  we dont have to put in the \"@\" symbol for the first part in a list of similarly named parts."
+        },
+        {
+            "type": "text",
+            "data": "Go to the object tree and click on the first BOARD. Then click on the Z parameter. \n \n \n When we trace the Z of board@1 through the tree it is  Cab.Board@1.Z  or just  Cab.Board.Z  we dont have to put in the \"@\" symbol for the first part in a list if we dont want to. \n \n \n Click on BOARD@3. Then click on the Z parameter. \n \n \n Click on \"Edit\" and change from a \"Value\" to an \"Equation\". \n \n \n On the THEN line type the code you traced through the tree. \n \n \n Click the \"Test\" button and it should say \"Condition returned: True. Equation returned: 23 1/4 or whatever value you were expecting. Click on OK."
+        },
+        {
+            "type": "text",
+            "data": "Go to the object tree and click on the first BOARD. Then click on the Z parameter."
+        },
+        {
+            "type": "text",
+            "data": "Go to the object tree and click on the first BOARD. Then click on the Z parameter."
+        },
+        {
+            "type": "text",
+            "data": "When we trace the Z of board@1 through the tree it is  Cab.Board@1.Z  or just  Cab.Board.Z  we dont have to put in the \"@\" symbol for the first part in a list if we dont want to."
+        },
+        {
+            "type": "text",
+            "data": "When we trace the Z of board@1 through the tree it is  Cab.Board@1.Z  or just  Cab.Board.Z  we dont have to put in the \"@\" symbol for the first part in a list if we dont want to."
+        },
+        {
+            "type": "text",
+            "data": "Click on BOARD@3. Then click on the Z parameter."
+        },
+        {
+            "type": "text",
+            "data": "Click on BOARD@3. Then click on the Z parameter."
+        },
+        {
+            "type": "text",
+            "data": "Click on \"Edit\" and change from a \"Value\" to an \"Equation\"."
+        },
+        {
+            "type": "text",
+            "data": "Click on \"Edit\" and change from a \"Value\" to an \"Equation\"."
+        },
+        {
+            "type": "text",
+            "data": "On the THEN line type the code you traced through the tree."
+        },
+        {
+            "type": "text",
+            "data": "On the THEN line type the code you traced through the tree."
+        },
+        {
+            "type": "text",
+            "data": "Click the \"Test\" button and it should say \"Condition returned: True. Equation returned: 23 1/4 or whatever value you were expecting. Click on OK."
+        },
+        {
+            "type": "text",
+            "data": "Click the \"Test\" button and it should say \"Condition returned: True. Equation returned: 23 1/4 or whatever value you were expecting. Click on OK."
+        },
+        {
+            "type": "text",
+            "data": "Always go back and look at your cabinet in 3D (at the Assembly Level) and see if it still looks OK."
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\Parametric_Editing\\Intelligence_Workshop\\3rd_Exercise\\Third_Exercise_Formula_for_the_Z_(Front_Back).htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

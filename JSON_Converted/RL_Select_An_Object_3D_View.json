@@ -1,0 +1,412 @@
+{
+    "id": "3d57fca3-40e1-4439-adb2-61c483b154ab",
+    "title": "RL_Select_An_Object_3D_View",
+    "content": [
+        {
+            "type": "text",
+            "data": "Select An Object 3D View"
+        },
+        {
+            "type": "text",
+            "data": "When selecting an Object in 3D View, depending upon the Object Type selected, you gain the ability to change some of that Objects Visual and Material Properties. You can select more than one Object at a time by using   + Left Mouse Click ."
+        },
+        {
+            "type": "image",
+            "data": "ctrl_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "See the  Right Click on an Object 3D View  topic for more 3D Object selection options."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Right Click on an Object 3D View",
+                "uuid": "ea288bb9-a851-47ef-ad9e-81a4931ad871",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "The Finish or Texture that is selected will only affect parts using materials that do not have a Finish or Texture assigned."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Selecting a Cabinet or Group of Cabinets"
+        },
+        {
+            "type": "text",
+            "data": "When selecting a Cabinet or a group of Cabinets you get the following options in the Room Level sidebar:"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "",
+                "uuid": "3d57fca3-40e1-4439-adb2-61c483b154ab",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image599.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Visual - Exterior Finish -  Changes the Exterior Finish on the selected Object(s). \n \n \n Visual - Interior Finish -  Changes the Interior Finish on the selected Object(s). \n \n \n Visual - Texture -  Changes the Exterior Texture on the selected Object(s). \n \n \n Visual - Interior Texture -  Changes the Interior Texture on the selected Objects(s). \n \n \n Materials - Assembly -  Changes the Assembly Material Schedule used for the selected Cabinet. \n \n \n Materials - Pulls -  Changes the Pull Material Schedule used for the selected Cabinet."
+        },
+        {
+            "type": "text",
+            "data": "Visual - Exterior Finish -  Changes the Exterior Finish on the selected Object(s)."
+        },
+        {
+            "type": "text",
+            "data": "Visual - Exterior Finish -  Changes the Exterior Finish on the selected Object(s)."
+        },
+        {
+            "type": "text",
+            "data": "Visual - Interior Finish -  Changes the Interior Finish on the selected Object(s)."
+        },
+        {
+            "type": "text",
+            "data": "Visual - Interior Finish -  Changes the Interior Finish on the selected Object(s)."
+        },
+        {
+            "type": "text",
+            "data": "Visual - Texture -  Changes the Exterior Texture on the selected Object(s)."
+        },
+        {
+            "type": "text",
+            "data": "Visual - Texture -  Changes the Exterior Texture on the selected Object(s)."
+        },
+        {
+            "type": "text",
+            "data": "Visual - Interior Texture -  Changes the Interior Texture on the selected Objects(s)."
+        },
+        {
+            "type": "text",
+            "data": "Visual - Interior Texture -  Changes the Interior Texture on the selected Objects(s)."
+        },
+        {
+            "type": "text",
+            "data": "Materials - Assembly -  Changes the Assembly Material Schedule used for the selected Cabinet."
+        },
+        {
+            "type": "text",
+            "data": "Materials - Assembly -  Changes the Assembly Material Schedule used for the selected Cabinet."
+        },
+        {
+            "type": "text",
+            "data": "Materials - Pulls -  Changes the Pull Material Schedule used for the selected Cabinet."
+        },
+        {
+            "type": "text",
+            "data": "Materials - Pulls -  Changes the Pull Material Schedule used for the selected Cabinet."
+        },
+        {
+            "type": "text",
+            "data": "Selecting a Closet Object"
+        },
+        {
+            "type": "image",
+            "data": "image6515.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Visual - Exterior Finish -  Changes the Exterior Finish on the selected Object(s). \n \n \n Visual - Interior Finish -  Changes the Interior Finish on the selected Object(s). \n \n \n Visual - Texture -  Changes the Exterior Texture on the selected Object(s). \n \n \n Visual - Interior Texture -  Changes the Interior Texture on the selected Objects(s). \n \n \n Materials - Assembly -  Changes the Assembly Material Schedule used for the selected Closet Object. \n \n \n Materials - Pulls -  Changes the Pull Material Schedule used for the selected Closet Object."
+        },
+        {
+            "type": "text",
+            "data": "Visual - Exterior Finish -  Changes the Exterior Finish on the selected Object(s)."
+        },
+        {
+            "type": "text",
+            "data": "Visual - Exterior Finish -  Changes the Exterior Finish on the selected Object(s)."
+        },
+        {
+            "type": "text",
+            "data": "Visual - Interior Finish -  Changes the Interior Finish on the selected Object(s)."
+        },
+        {
+            "type": "text",
+            "data": "Visual - Interior Finish -  Changes the Interior Finish on the selected Object(s)."
+        },
+        {
+            "type": "text",
+            "data": "Visual - Texture -  Changes the Exterior Texture on the selected Object(s)."
+        },
+        {
+            "type": "text",
+            "data": "Visual - Texture -  Changes the Exterior Texture on the selected Object(s)."
+        },
+        {
+            "type": "text",
+            "data": "Visual - Interior Texture -  Changes the Interior Texture on the selected Objects(s)."
+        },
+        {
+            "type": "text",
+            "data": "Visual - Interior Texture -  Changes the Interior Texture on the selected Objects(s)."
+        },
+        {
+            "type": "text",
+            "data": "Materials - Assembly -  Changes the Assembly Material Schedule used for the selected Closet Object."
+        },
+        {
+            "type": "text",
+            "data": "Materials - Assembly -  Changes the Assembly Material Schedule used for the selected Closet Object."
+        },
+        {
+            "type": "text",
+            "data": "Materials - Pulls -  Changes the Pull Material Schedule used for the selected Closet Object."
+        },
+        {
+            "type": "text",
+            "data": "Materials - Pulls -  Changes the Pull Material Schedule used for the selected Closet Object."
+        },
+        {
+            "type": "text",
+            "data": "Selecting an Appliance"
+        },
+        {
+            "type": "image",
+            "data": "image6516.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Visual - Appliance Finish -  Changes the selected Appliance's Finish. \n \n \n Visual - Handle Finish -  Changes the Handle Finish on the selected Appliance. \n \n \n Visual - Finish Type -  Changes the Finish Type on the selected Appliance."
+        },
+        {
+            "type": "text",
+            "data": "Visual - Appliance Finish -  Changes the selected Appliance's Finish."
+        },
+        {
+            "type": "text",
+            "data": "Visual - Appliance Finish -  Changes the selected Appliance's Finish."
+        },
+        {
+            "type": "text",
+            "data": "Visual - Handle Finish -  Changes the Handle Finish on the selected Appliance."
+        },
+        {
+            "type": "text",
+            "data": "Visual - Handle Finish -  Changes the Handle Finish on the selected Appliance."
+        },
+        {
+            "type": "text",
+            "data": "Visual - Finish Type -  Changes the Finish Type on the selected Appliance."
+        },
+        {
+            "type": "text",
+            "data": "Visual - Finish Type -  Changes the Finish Type on the selected Appliance."
+        },
+        {
+            "type": "text",
+            "data": "Selecting a Counter Top"
+        },
+        {
+            "type": "image",
+            "data": "image6517.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Visual - Finish -  Changes the Finish on the selected Object(s). \n \n \n Visual - Texture -  Changes the Texture on the selected Object(s). \n \n \n Materials - Counter -  Changes the Counter Top Material Schedule used for the selected Counter Top."
+        },
+        {
+            "type": "text",
+            "data": "Visual - Finish -  Changes the Finish on the selected Object(s)."
+        },
+        {
+            "type": "text",
+            "data": "Visual - Finish -  Changes the Finish on the selected Object(s)."
+        },
+        {
+            "type": "text",
+            "data": "Visual - Texture -  Changes the Texture on the selected Object(s)."
+        },
+        {
+            "type": "text",
+            "data": "Visual - Texture -  Changes the Texture on the selected Object(s)."
+        },
+        {
+            "type": "text",
+            "data": "Materials - Counter -  Changes the Counter Top Material Schedule used for the selected Counter Top."
+        },
+        {
+            "type": "text",
+            "data": "Materials - Counter -  Changes the Counter Top Material Schedule used for the selected Counter Top."
+        },
+        {
+            "type": "text",
+            "data": "Selecting Molding"
+        },
+        {
+            "type": "image",
+            "data": "image6518.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Visual - Finish -  Changes the Finish on the selected Object(s). \n \n \n Visual - Texture -  Changes the Texture on the selected Object(s). \n \n \n Visual - Finish Type -  Changes the Finish Type on the selected Object(s). \n \n \n Molding - Profile -  Changes the Profile used for the selected Molding."
+        },
+        {
+            "type": "text",
+            "data": "Visual - Finish -  Changes the Finish on the selected Object(s)."
+        },
+        {
+            "type": "text",
+            "data": "Visual - Finish -  Changes the Finish on the selected Object(s)."
+        },
+        {
+            "type": "text",
+            "data": "Visual - Texture -  Changes the Texture on the selected Object(s)."
+        },
+        {
+            "type": "text",
+            "data": "Visual - Texture -  Changes the Texture on the selected Object(s)."
+        },
+        {
+            "type": "text",
+            "data": "Visual - Finish Type -  Changes the Finish Type on the selected Object(s)."
+        },
+        {
+            "type": "text",
+            "data": "Visual - Finish Type -  Changes the Finish Type on the selected Object(s)."
+        },
+        {
+            "type": "text",
+            "data": "Molding - Profile -  Changes the Profile used for the selected Molding."
+        },
+        {
+            "type": "text",
+            "data": "Molding - Profile -  Changes the Profile used for the selected Molding."
+        },
+        {
+            "type": "text",
+            "data": "Selecting a Wall"
+        },
+        {
+            "type": "image",
+            "data": "image6519.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Visual - Finish -  Changes the Finish on the selected Object(s). \n \n \n Visual - Texture -  Changes the Texture on the selected Object(s). \n \n \n Visual - Finish Type -  Changes the Finish Type on the selected Object(s)."
+        },
+        {
+            "type": "text",
+            "data": "Visual - Finish -  Changes the Finish on the selected Object(s)."
+        },
+        {
+            "type": "text",
+            "data": "Visual - Finish -  Changes the Finish on the selected Object(s)."
+        },
+        {
+            "type": "text",
+            "data": "Visual - Texture -  Changes the Texture on the selected Object(s)."
+        },
+        {
+            "type": "text",
+            "data": "Visual - Texture -  Changes the Texture on the selected Object(s)."
+        },
+        {
+            "type": "text",
+            "data": "Visual - Finish Type -  Changes the Finish Type on the selected Object(s)."
+        },
+        {
+            "type": "text",
+            "data": "Visual - Finish Type -  Changes the Finish Type on the selected Object(s)."
+        },
+        {
+            "type": "text",
+            "data": "Selecting a Ceiling"
+        },
+        {
+            "type": "image",
+            "data": "image6520.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Visual - Finish -  Changes the Color (Finish) on the selected Object(s). \n \n \n Visual - Texture -  Changes the Texture on the selected Object(s). \n \n \n Visual - Finish Type -  Changes the Finish Type on the selected Object(s)."
+        },
+        {
+            "type": "text",
+            "data": "Visual - Finish -  Changes the Color (Finish) on the selected Object(s)."
+        },
+        {
+            "type": "text",
+            "data": "Visual - Finish -  Changes the Color (Finish) on the selected Object(s)."
+        },
+        {
+            "type": "text",
+            "data": "Visual - Texture -  Changes the Texture on the selected Object(s)."
+        },
+        {
+            "type": "text",
+            "data": "Visual - Texture -  Changes the Texture on the selected Object(s)."
+        },
+        {
+            "type": "text",
+            "data": "Visual - Finish Type -  Changes the Finish Type on the selected Object(s)."
+        },
+        {
+            "type": "text",
+            "data": "Visual - Finish Type -  Changes the Finish Type on the selected Object(s)."
+        },
+        {
+            "type": "text",
+            "data": "Selecting a Floor"
+        },
+        {
+            "type": "image",
+            "data": "image6521.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Visual - Finish -  Changes the Color (Finish) on the selected Object(s). \n \n \n Visual - Texture -  Changes the Texture on the selected Object(s). \n \n \n Visual - Finish Type -  Changes the Finish Type on the selected Object(s)."
+        },
+        {
+            "type": "text",
+            "data": "Visual - Finish -  Changes the Color (Finish) on the selected Object(s)."
+        },
+        {
+            "type": "text",
+            "data": "Visual - Finish -  Changes the Color (Finish) on the selected Object(s)."
+        },
+        {
+            "type": "text",
+            "data": "Visual - Texture -  Changes the Texture on the selected Object(s)."
+        },
+        {
+            "type": "text",
+            "data": "Visual - Texture -  Changes the Texture on the selected Object(s)."
+        },
+        {
+            "type": "text",
+            "data": "Visual - Finish Type -  Changes the Finish Type on the selected Object(s)."
+        },
+        {
+            "type": "text",
+            "data": "Visual - Finish Type -  Changes the Finish Type on the selected Object(s)."
+        }
+    ],
+    "source_file": "CVEnglish\\Room_Level\\Side_Bar\\RL_Select_An_Object_3D_View.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

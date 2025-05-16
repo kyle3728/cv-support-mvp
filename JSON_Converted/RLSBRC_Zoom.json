@@ -1,0 +1,143 @@
+{
+    "id": "31360c75-73b9-4294-b165-d26ea9029ab0",
+    "title": "RLSBRC_Zoom",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top \n > \n \n \n Room Level \n > \n \n Sidebar \n > \n \n Report Center \n > \n \n Ribbonbar \n > \n \n Main Tab \n > \n \n Zoom"
+        },
+        {
+            "type": "text",
+            "data": "Top \n >"
+        },
+        {
+            "type": "text",
+            "data": "Room Level \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Room Level",
+                "uuid": "9eaa492c-0405-4da7-8e0f-a6ff4e047890",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Sidebar \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Sidebar",
+                "uuid": "f07520a2-0645-4a40-b8d9-a72c15b5c147",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Report Center \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Report Center",
+                "uuid": "f37a0f09-5935-418f-ad21-77bc271f86ad",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Ribbonbar \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Ribbonbar",
+                "uuid": "5339f99d-053e-4eae-88d6-3004f61f716a",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Main Tab \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Main Tab",
+                "uuid": "5339f99d-053e-4eae-88d6-3004f61f716a",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Zoom"
+        },
+        {
+            "type": "text",
+            "data": "Zoom"
+        },
+        {
+            "type": "text",
+            "data": "Zoom"
+        },
+        {
+            "type": "image",
+            "data": "image120.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Following are the options in the Zoom Group."
+        },
+        {
+            "type": "text",
+            "data": "In -  Will incrementally Zoom In your Report."
+        },
+        {
+            "type": "image",
+            "data": "image121.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Out -  Will incrementally Zoom Out your Report."
+        },
+        {
+            "type": "image",
+            "data": "image122.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Zooming Out far enough will show multiple pages in the viewing are if your Report contains multiple pages."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Page -  Will Zoom to fit the entire page in the viewing area."
+        },
+        {
+            "type": "image",
+            "data": "image123.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Page Width -  Will Zoom to fit the page's Width in the viewing area."
+        },
+        {
+            "type": "image",
+            "data": "image124.gif",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Room_Level\\Side_Bar\\Report_Center\\Ribbonbar\\Main_Tab\\RLSBRC_Zoom.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

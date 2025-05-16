@@ -1,0 +1,229 @@
+{
+    "id": "0a462cfc-b189-482e-a63b-efd35fa074b4",
+    "title": "What_s_New_2022_x",
+    "content": [
+        {
+            "type": "text",
+            "data": "What's New 2022.x"
+        },
+        {
+            "type": "text",
+            "data": "General"
+        },
+        {
+            "type": "text",
+            "data": "Compatibility with CABINET VISION Version 2022.1 \n \n \n Compatibility with CABINET VISION Version 2022.2 \n \n \n Compatibility with CABINET VISION Version 2022.3"
+        },
+        {
+            "type": "text",
+            "data": "Compatibility with CABINET VISION Version 2022.1"
+        },
+        {
+            "type": "text",
+            "data": "Compatibility with CABINET VISION Version 2022.1"
+        },
+        {
+            "type": "text",
+            "data": "Compatibility with CABINET VISION Version 2022.2"
+        },
+        {
+            "type": "text",
+            "data": "Compatibility with CABINET VISION Version 2022.2"
+        },
+        {
+            "type": "text",
+            "data": "Compatibility with CABINET VISION Version 2022.3"
+        },
+        {
+            "type": "text",
+            "data": "Compatibility with CABINET VISION Version 2022.3"
+        },
+        {
+            "type": "text",
+            "data": "Links"
+        },
+        {
+            "type": "text",
+            "data": "Holzher Power Label - Auto Labelling \n \n \n Schelling HPO - Option to define final part size with/without banding \n \n \n Saw Link - Mayer PC6200 \n \n \n Saw Link - Mayer PC7000"
+        },
+        {
+            "type": "text",
+            "data": "Holzher Power Label - Auto Labelling"
+        },
+        {
+            "type": "text",
+            "data": "Holzher Power Label - Auto Labelling"
+        },
+        {
+            "type": "text",
+            "data": "Schelling HPO - Option to define final part size with/without banding"
+        },
+        {
+            "type": "text",
+            "data": "Schelling HPO - Option to define final part size with/without banding"
+        },
+        {
+            "type": "text",
+            "data": "Saw Link - Mayer PC6200"
+        },
+        {
+            "type": "text",
+            "data": "Saw Link - Mayer PC6200"
+        },
+        {
+            "type": "text",
+            "data": "Saw Link - Mayer PC7000"
+        },
+        {
+            "type": "text",
+            "data": "Saw Link - Mayer PC7000"
+        },
+        {
+            "type": "text",
+            "data": "Optimization/Nesting"
+        },
+        {
+            "type": "text",
+            "data": "Optimizer priority: Offer a greater range of values for Yield vs Labor \n \n \n Saw/Block Nest Offcut improvements \n \n \n Give preference to offcut vs the whole sheet \n \n \n Only use an offcut if it does not create a new offcut from it \n \n \n If offcuts are used prefer similar from Offcut Manager \n \n \n Prefer biggest offcut from Offcut Manager \n \n \n Add Bin Name and option to save pieces as smallest size"
+        },
+        {
+            "type": "text",
+            "data": "Optimizer priority: Offer a greater range of values for Yield vs Labor"
+        },
+        {
+            "type": "text",
+            "data": "Optimizer priority: Offer a greater range of values for Yield vs Labor"
+        },
+        {
+            "type": "text",
+            "data": "Saw/Block Nest Offcut improvements \n \n \n Give preference to offcut vs the whole sheet \n \n \n Only use an offcut if it does not create a new offcut from it \n \n \n If offcuts are used prefer similar from Offcut Manager \n \n \n Prefer biggest offcut from Offcut Manager \n \n \n Add Bin Name and option to save pieces as smallest size"
+        },
+        {
+            "type": "text",
+            "data": "Saw/Block Nest Offcut improvements"
+        },
+        {
+            "type": "text",
+            "data": "Give preference to offcut vs the whole sheet \n \n \n Only use an offcut if it does not create a new offcut from it \n \n \n If offcuts are used prefer similar from Offcut Manager \n \n \n Prefer biggest offcut from Offcut Manager \n \n \n Add Bin Name and option to save pieces as smallest size"
+        },
+        {
+            "type": "text",
+            "data": "Give preference to offcut vs the whole sheet"
+        },
+        {
+            "type": "text",
+            "data": "Give preference to offcut vs the whole sheet"
+        },
+        {
+            "type": "text",
+            "data": "Only use an offcut if it does not create a new offcut from it"
+        },
+        {
+            "type": "text",
+            "data": "Only use an offcut if it does not create a new offcut from it"
+        },
+        {
+            "type": "text",
+            "data": "If offcuts are used prefer similar from Offcut Manager"
+        },
+        {
+            "type": "text",
+            "data": "If offcuts are used prefer similar from Offcut Manager"
+        },
+        {
+            "type": "text",
+            "data": "Prefer biggest offcut from Offcut Manager"
+        },
+        {
+            "type": "text",
+            "data": "Prefer biggest offcut from Offcut Manager"
+        },
+        {
+            "type": "text",
+            "data": "Add Bin Name and option to save pieces as smallest size"
+        },
+        {
+            "type": "text",
+            "data": "Add Bin Name and option to save pieces as smallest size"
+        },
+        {
+            "type": "text",
+            "data": "xLabel App"
+        },
+        {
+            "type": "text",
+            "data": "xLabel App User Experience refreshed : \n \n \n Option to display part size on parts in pattern view \n \n \n Show CutWidth x CutLength In xLabel Part Selector \n \n \n Swipe navigation between patterns in pattern view \n \n \n Swipe navigation between labels in label view \n \n \n Switch from old buttonbar to ribbonbar \n \n \n New improved colors in user interface \n \n \n \n \n Material names in xLabel jobs no longer truncated and match name length from CV Material Manager"
+        },
+        {
+            "type": "text",
+            "data": "xLabel App User Experience refreshed : \n \n \n Option to display part size on parts in pattern view \n \n \n Show CutWidth x CutLength In xLabel Part Selector \n \n \n Swipe navigation between patterns in pattern view \n \n \n Swipe navigation between labels in label view \n \n \n Switch from old buttonbar to ribbonbar \n \n \n New improved colors in user interface"
+        },
+        {
+            "type": "text",
+            "data": "xLabel App User Experience refreshed :"
+        },
+        {
+            "type": "text",
+            "data": "Option to display part size on parts in pattern view \n \n \n Show CutWidth x CutLength In xLabel Part Selector \n \n \n Swipe navigation between patterns in pattern view \n \n \n Swipe navigation between labels in label view \n \n \n Switch from old buttonbar to ribbonbar \n \n \n New improved colors in user interface"
+        },
+        {
+            "type": "text",
+            "data": "Option to display part size on parts in pattern view"
+        },
+        {
+            "type": "text",
+            "data": "Option to display part size on parts in pattern view"
+        },
+        {
+            "type": "text",
+            "data": "Show CutWidth x CutLength In xLabel Part Selector"
+        },
+        {
+            "type": "text",
+            "data": "Show CutWidth x CutLength In xLabel Part Selector"
+        },
+        {
+            "type": "text",
+            "data": "Swipe navigation between patterns in pattern view"
+        },
+        {
+            "type": "text",
+            "data": "Swipe navigation between patterns in pattern view"
+        },
+        {
+            "type": "text",
+            "data": "Swipe navigation between labels in label view"
+        },
+        {
+            "type": "text",
+            "data": "Swipe navigation between labels in label view"
+        },
+        {
+            "type": "text",
+            "data": "Switch from old buttonbar to ribbonbar"
+        },
+        {
+            "type": "text",
+            "data": "Switch from old buttonbar to ribbonbar"
+        },
+        {
+            "type": "text",
+            "data": "New improved colors in user interface"
+        },
+        {
+            "type": "text",
+            "data": "New improved colors in user interface"
+        },
+        {
+            "type": "text",
+            "data": "Material names in xLabel jobs no longer truncated and match name length from CV Material Manager"
+        },
+        {
+            "type": "text",
+            "data": "Material names in xLabel jobs no longer truncated and match name length from CV Material Manager"
+        }
+    ],
+    "source_file": "NCEnglish\\Introduction\\Whats_New_Previous_Versions\\What_s_New_2022_x.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

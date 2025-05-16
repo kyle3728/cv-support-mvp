@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><link rel="stylesheet" type="text/css" href="../../_rhdefault.css"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=WINDOWS-1252"/>
+  <meta name="generator" content="Adobe RoboHelp 2022"/>
+  <title>Public Variables</title>
+  <link rel="StyleSheet" href="../../assets/css/default.css" type="text/css"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/><script type="text/javascript" src="../../ehlpdhtm.js"></script></head>
+<body>
+  <h1>Public Variables</h1>
+  <h2>Overview</h2>
+  <p>You have the ability to declare a variable as Public in a User Created Standard. This will allow for easy editing of the variables values without modifying the UCS Code.</p>
+  <h2>Syntax</h2>
+  <p>Each public variable must be declared on a single line of code. The syntax is as follows:</p>
+  <p>Public VariableName[ <type>] [:]= DefaultValue [;Variable Description]</type>
+  </p>
+  <p style="font-weight: bold; margin-left: 40px;">Examples:</p>
+  <p style="margin-left: 40px;">Public BSpacing = imp(32) ;Bore spacing</p>
+  <p style="margin-left: 40px;">Public Oversized <bool> := DX &gt; 40 ;When is the cabinet oversized?</bool>
+  </p>
+  <h2>Modifying a Public Variable</h2>
+  <p>Note the public variable declaration at the top of this standard.</p>
+  <p><img src="../../assets/images/image1187.png" style="cursor: nesw-resize;"/></p>
+  <p>These variables are exposed in the public variables property list on the left when that UCS is selected.</p>
+  <p><img src="../../assets/images/image1189.png"/></p>
+  <p>You can modify a variables value in the code or directly at the property list.</p>
+  <p style="margin-left: 40px;"><img alt="" border="0" src="../../assets/images/zGraphics/Extras/Information.png" style="border: none;"/> Once you have modified the variable from the property list the modified flag in the database will be set. From this point on the variable will always get its value from the property list. A workaround for this behavior is to modify the variable name in the Code editor.</p>
+
+</body></html>

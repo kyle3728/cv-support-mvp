@@ -1,0 +1,40 @@
+{
+    "id": "f7714881-814c-43a5-bac7-8ebebc8be2b5",
+    "title": "AW_Machining",
+    "content": [
+        {
+            "type": "text",
+            "data": "Machining"
+        },
+        {
+            "type": "text",
+            "data": "This option sets Machiningoptions."
+        },
+        {
+            "type": "image",
+            "data": "image656.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The following diagram shows the options available in the Machining Branch."
+        },
+        {
+            "type": "image",
+            "data": "image657.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Miter Joints (#639)"
+        },
+        {
+            "type": "image",
+            "data": "image658.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Cabinetmaker\\System_Level\\Ribbonbar\\Main_Tab\\Construction_Group\\Assembly_Manager\\Assembly\\Branches\\Operations\\AW_Machining.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

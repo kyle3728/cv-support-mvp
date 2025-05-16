@@ -1,0 +1,70 @@
+{
+    "id": "fdd2a3ae-e9bf-4fdb-99b9-8300a36412e1",
+    "title": "Overview_of_Assembly_Editing_",
+    "content": [
+        {
+            "type": "text",
+            "data": "Overview of Editing Assemblies"
+        },
+        {
+            "type": "text",
+            "data": "An understanding of the  Hierarchy of Solid  is necessary before you will fully appreciate the editing potential of Solid. Assembly Editing requires an understanding of the various areas that editing is possible, as well as which areas allow for Assemblies or Parts to retain their logic (I.E., stretch, etc). Editing is the process of sectioning an Assembly or object so that it acquires the look and status of the new Assembly. Typically, this is accomplished by two methods of editing. Section editing is the process where an Assembly is divided into vertical or horizontal areas that are assigned properties, such as Door, Drawer, or Roll Out. Orthographic editing is the process of adding or replacing Parts, and thereafter re-establishing intelligence, or allowing an Override on that Part to exist. These two methods also represent the \u00a0two main editing views:"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Hierarchy of Solid",
+                "uuid": "1359cb76-61c8-44c2-9eba-b177be938e2c",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Section Editing -  This allows for intelligent editing of the Face and interior (Case) of an Assembly. This also includes menu options for rapidly changing Assembly Properties and attributes. Section Editing is the favored method of Assembly editing. It allows for modifications to the Assembly Face as well as the Assembly interior (Case). All editing performed in the Section Editing views retains intelligence with the Assembly. The retention of intelligence allows the edited Part or area to respond to changes in an Assemblies dimensions. Access to the \"Section Face\" view is gained via the Section   tab, and the Section Face   option."
+        },
+        {
+            "type": "image",
+            "data": "image180.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image2038.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "SE_1.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Section Case option is typical to the above graphic, with the exception that the Section Interior   option is selected while in the section window, the Section   tab must be clicked before either the \"Section Face\" or \"Section Interior\" Section tools appear."
+        },
+        {
+            "type": "image",
+            "data": "image2039.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image180.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Section Editing is a feature of the Assembly Level of Solid. Therefore the changes you are making to the Assembly in this level are limited to that Assembly, and will not appear on other Assemblies within that Room. If you desire the changes to be available for additional Assemblies, consider saving the Assembly to your library."
+        },
+        {
+            "type": "text",
+            "data": "Access Via the \"Section\" View Menu Option"
+        },
+        {
+            "type": "text",
+            "data": "Another method that allows section editing of an Assembly and has as an additional feature; the Elevation from which the Assembly exists at shown, is the \"Section\" option available at the \"Layout\" level. \u00a0Access this option by right clicking on an Assembly in the Elevation View of the Layout Level, and select the menu option \"Section\". You will then be able to Section Edit the Assembly live in the Elevation View without having to go to the Assembly Level."
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Tips_Tricks_&_FAQs\\The_Section_Editor\\Overview_of_Assembly_Editing_.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

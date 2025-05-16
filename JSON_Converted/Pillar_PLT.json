@@ -1,0 +1,455 @@
+{
+    "id": "84a30e90-07b2-4c4e-a0cb-4dc96536bfa6",
+    "title": "Pillar_PLT",
+    "content": [
+        {
+            "type": "text",
+            "data": "Pillar PLT"
+        },
+        {
+            "type": "text",
+            "data": "This outptus an xml file that can be used with the Pillar PLT machine."
+        },
+        {
+            "type": "text",
+            "data": "Following are the Link Parameters:"
+        },
+        {
+            "type": "text",
+            "data": "Print data 1 variable - (_varPrintData1) [String/Machine]: Variable text for print data field 1 \n Print data 2 variable - (_varPrintData2) [String/Machine]: Variable text for print data field 2 \n Print data 3 variable - (_varPrintData3) [String/Machine]: Variable text for print data field 3 \n Print data 4 variable - (_varPrintData4) [String/Machine]: Variable text for print data field 4 \n Print data 5 variable - (_varPrintData5) [String/Machine]: Variable text for print data field 5 \n Print data 6 variable - (_varPrintData6) [String/Machine]: Variable text for print data field 6 \n Print data 7 variable - (_varPrintData7) [String/Machine]: Variable text for print data field 7 \n Print data 8 variable - (_varPrintData8) [String/Machine]: Variable text for print data field 8 \n Print data 9 variable - (_varPrintData9) [String/Machine]: Variable text for print data field 9 \n Print data 10 variable - (_varPrintData10) [String/Machine]: Variable text for print data field 10"
+        },
+        {
+            "type": "text",
+            "data": "Print data 1 variable - (_varPrintData1) [String/Machine]: Variable text for print data field 1"
+        },
+        {
+            "type": "text",
+            "data": "Print data 2 variable - (_varPrintData2) [String/Machine]: Variable text for print data field 2"
+        },
+        {
+            "type": "text",
+            "data": "Print data 3 variable - (_varPrintData3) [String/Machine]: Variable text for print data field 3"
+        },
+        {
+            "type": "text",
+            "data": "Print data 4 variable - (_varPrintData4) [String/Machine]: Variable text for print data field 4"
+        },
+        {
+            "type": "text",
+            "data": "Print data 5 variable - (_varPrintData5) [String/Machine]: Variable text for print data field 5"
+        },
+        {
+            "type": "text",
+            "data": "Print data 6 variable - (_varPrintData6) [String/Machine]: Variable text for print data field 6"
+        },
+        {
+            "type": "text",
+            "data": "Print data 7 variable - (_varPrintData7) [String/Machine]: Variable text for print data field 7"
+        },
+        {
+            "type": "text",
+            "data": "Print data 8 variable - (_varPrintData8) [String/Machine]: Variable text for print data field 8"
+        },
+        {
+            "type": "text",
+            "data": "Print data 9 variable - (_varPrintData9) [String/Machine]: Variable text for print data field 9"
+        },
+        {
+            "type": "text",
+            "data": "Print data 10 variable - (_varPrintData10) [String/Machine]: Variable text for print data field 10"
+        },
+        {
+            "type": "text",
+            "data": "Following are the valid Variables to use:"
+        },
+        {
+            "type": "text",
+            "data": "Each variable should be enclosed in a set of curly braces ({ }) otherwise the text will be considered a string literal."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Name",
+                    "Type",
+                    "Size"
+                ],
+                "rows": [
+                    [
+                        "ID",
+                        "Long Integer",
+                        "4"
+                    ],
+                    [
+                        "JobID",
+                        "Long Integer",
+                        "4"
+                    ],
+                    [
+                        "MatDBID",
+                        "Long Integer",
+                        "4"
+                    ],
+                    [
+                        "Name",
+                        "Short Text",
+                        "50"
+                    ],
+                    [
+                        "InternalName",
+                        "Short Text",
+                        "25"
+                    ],
+                    [
+                        "Optimize",
+                        "Yes/No",
+                        "1"
+                    ],
+                    [
+                        "CNC",
+                        "Yes/No",
+                        "1"
+                    ],
+                    [
+                        "Width",
+                        "Double",
+                        "8"
+                    ],
+                    [
+                        "Length",
+                        "Double",
+                        "8"
+                    ],
+                    [
+                        "WidthString",
+                        "Short Text",
+                        "12"
+                    ],
+                    [
+                        "LengthString",
+                        "Short Text",
+                        "12"
+                    ],
+                    [
+                        "NominalWidth",
+                        "Double",
+                        "8"
+                    ],
+                    [
+                        "NominalLength",
+                        "Double",
+                        "8"
+                    ],
+                    [
+                        "Comment",
+                        "Long Text",
+                        "N/A"
+                    ],
+                    [
+                        "Qty",
+                        "Integer",
+                        "2"
+                    ],
+                    [
+                        "OverMake",
+                        "Integer",
+                        "2"
+                    ],
+                    [
+                        "RoomID",
+                        "Long Integer",
+                        "4"
+                    ],
+                    [
+                        "AssemblyID",
+                        "Long Integer",
+                        "4"
+                    ],
+                    [
+                        "PrimaryEdge",
+                        "Byte",
+                        "1"
+                    ],
+                    [
+                        "Mirror",
+                        "Yes/No",
+                        "1"
+                    ],
+                    [
+                        "Shaped",
+                        "Yes/No",
+                        "1"
+                    ],
+                    [
+                        "Outline",
+                        "Long Text",
+                        "N/A"
+                    ],
+                    [
+                        "OutlineToolID",
+                        "Long Integer",
+                        "4"
+                    ],
+                    [
+                        "GangBore",
+                        "Yes/No",
+                        "1"
+                    ],
+                    [
+                        "HorizontalBore",
+                        "Yes/No",
+                        "1"
+                    ],
+                    [
+                        "PriMachineID",
+                        "Long Integer",
+                        "4"
+                    ],
+                    [
+                        "SecMachineID",
+                        "Long Integer",
+                        "4"
+                    ],
+                    [
+                        "HorMachineID",
+                        "Long Integer",
+                        "4"
+                    ],
+                    [
+                        "CutMachineID",
+                        "Long Integer",
+                        "4"
+                    ],
+                    [
+                        "PrefPriMachineID",
+                        "Long Integer",
+                        "4"
+                    ],
+                    [
+                        "PrefSecMachineID",
+                        "Long Integer",
+                        "4"
+                    ],
+                    [
+                        "Margin",
+                        "Double",
+                        "8"
+                    ],
+                    [
+                        "HasBanding",
+                        "Yes/No",
+                        "1"
+                    ],
+                    [
+                        "Banding",
+                        "Short Text",
+                        "4"
+                    ],
+                    [
+                        "BandingCode",
+                        "Short Text",
+                        "50"
+                    ],
+                    [
+                        "BandingFlags",
+                        "Short Text",
+                        "50"
+                    ],
+                    [
+                        "FinishFace",
+                        "Short Text",
+                        "25"
+                    ],
+                    [
+                        "FinishBack",
+                        "Short Text",
+                        "25"
+                    ],
+                    [
+                        "FinishEdge",
+                        "Short Text",
+                        "25"
+                    ],
+                    [
+                        "Parameters",
+                        "Long Text",
+                        "N/A"
+                    ],
+                    [
+                        "Composite",
+                        "Yes/No",
+                        "1"
+                    ],
+                    [
+                        "CompositeID",
+                        "Long Integer",
+                        "4"
+                    ],
+                    [
+                        "MatName",
+                        "Short Text",
+                        "60"
+                    ],
+                    [
+                        "Thick",
+                        "Double",
+                        "8"
+                    ],
+                    [
+                        "JobName",
+                        "Short Text",
+                        "50"
+                    ],
+                    [
+                        "JobDesc",
+                        "Short Text",
+                        "255"
+                    ],
+                    [
+                        "RunID",
+                        "Long Integer",
+                        "4"
+                    ],
+                    [
+                        "PartID",
+                        "Long Integer",
+                        "4"
+                    ],
+                    [
+                        "Output",
+                        "Long Integer",
+                        "4"
+                    ],
+                    [
+                        "GroupID",
+                        "Long Integer",
+                        "4"
+                    ],
+                    [
+                        "FrProgram",
+                        "Short Text",
+                        "8"
+                    ],
+                    [
+                        "BaProgram",
+                        "Short Text",
+                        "8"
+                    ],
+                    [
+                        "FrMirror",
+                        "Yes/No",
+                        "1"
+                    ],
+                    [
+                        "BaMirror",
+                        "Yes/No",
+                        "1"
+                    ],
+                    [
+                        "FrBarCode",
+                        "Short Text",
+                        "20"
+                    ],
+                    [
+                        "BaBarCode",
+                        "Short Text",
+                        "20"
+                    ],
+                    [
+                        "FrWorkZone",
+                        "Short Text",
+                        "10"
+                    ],
+                    [
+                        "BaWorkZone",
+                        "Short Text",
+                        "10"
+                    ],
+                    [
+                        "LeBarCode",
+                        "Short Text",
+                        "20"
+                    ],
+                    [
+                        "RiBarCode",
+                        "Short Text",
+                        "20"
+                    ],
+                    [
+                        "ToBarCode",
+                        "Short Text",
+                        "20"
+                    ],
+                    [
+                        "BoBarCode",
+                        "Short Text",
+                        "20"
+                    ],
+                    [
+                        "IntBandBarCode",
+                        "Short Text",
+                        "15"
+                    ],
+                    [
+                        "ExtBandBarCode",
+                        "Short Text",
+                        "15"
+                    ],
+                    [
+                        "Image",
+                        "OLE Object",
+                        "N/A"
+                    ],
+                    [
+                        "ImageName",
+                        "Short Text",
+                        "255"
+                    ],
+                    [
+                        "RunMargin",
+                        "Double",
+                        "8"
+                    ],
+                    [
+                        "RunPrimaryEdge",
+                        "Byte",
+                        "1"
+                    ],
+                    [
+                        "RunQty",
+                        "Integer",
+                        "2"
+                    ],
+                    [
+                        "CutWidth",
+                        "Double",
+                        "8"
+                    ],
+                    [
+                        "CutLength",
+                        "Double",
+                        "8"
+                    ],
+                    [
+                        "Orientation",
+                        "Long Integer",
+                        "4"
+                    ],
+                    [
+                        "BandedWidth",
+                        "Double",
+                        "8"
+                    ],
+                    [
+                        "BandedLength",
+                        "Double",
+                        "8"
+                    ]
+                ]
+            }
+        }
+    ],
+    "source_file": "NCEnglish\\Ribbonbar\\Main_Tab\\Machine\\NC_Links\\Other\\Pillar_PLT.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

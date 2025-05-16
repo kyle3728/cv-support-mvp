@@ -1,0 +1,31 @@
+{
+    "id": "eefb8cc2-6551-4196-b183-31d666da14ef",
+    "title": "Return",
+    "content": [
+        {
+            "type": "text",
+            "data": "Return"
+        },
+        {
+            "type": "image",
+            "data": "image824.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Return option returns you to the main S2M Center screen."
+        },
+        {
+            "type": "text",
+            "data": "Keystroke"
+        },
+        {
+            "type": "image",
+            "data": "esc_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "NCEnglish_Optimizer\\Ribbonbar\\Main_Tab\\Return.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

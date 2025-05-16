@@ -1,0 +1,2424 @@
+{
+    "id": "afc380bc-16e1-4555-9193-7d73e523bf8d",
+    "title": "Constraints",
+    "content": [
+        {
+            "type": "text",
+            "data": "Constraints"
+        },
+        {
+            "type": "text",
+            "data": "When editing the shape of an Assembly, Part or Route Operation, you have the option to apply 2D constraints to the Lines and Arcs making up the shape that must meet critical design specifications or exhibit different kinds of parametric behavior. Solid maintains these constraints when you edit these objects. You can apply the following types of constraints:"
+        },
+        {
+            "type": "text",
+            "data": "Simple Constraints -  These constraints are applied in the sidebar when selecting either a Point or a CAD entity that defines a shape."
+        },
+        {
+            "type": "text",
+            "data": "The other two types, if available, are in the ribbonbar when the Shape editor is active."
+        },
+        {
+            "type": "image",
+            "data": "image3072.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Logical Constraints -  Let you maintain logical geometric relationships between lines and arcs. You can apply these relationships between lines and arcs that belong to the same shape."
+        },
+        {
+            "type": "text",
+            "data": "Dimension Constraints -  Let you apply fixed dimension distances or angles between lines and arcs within the shape to meet critical design specifications. You can control these dimensions via Object Tree Parameters as well as UCS's."
+        },
+        {
+            "type": "text",
+            "data": "Dimension Constraints are not intended for detailing and dimensioning drawing layouts. See  CAD Dimensioning  for more information on adding detail dimensions."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "CAD Dimensioning",
+                "uuid": "ec9a2591-d5cd-4037-9e70-f1b82addf3fe",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Basic constraints are applied automatically by Solid as you shape your object."
+        },
+        {
+            "type": "text",
+            "data": "Right clicking on the screen while in Edit Shape gives you a few options:"
+        },
+        {
+            "type": "image",
+            "data": "image3431.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Paste \n \n \n Select All \n \n \n Reverse Selection \n \n \n Auto-Constraints -  Will apply all the Auto-Constraints you have  setup . \n \n \n Remove Constraints -  Will remove all Constraints from the Object. \n \n \n Properties"
+        },
+        {
+            "type": "text",
+            "data": "Paste"
+        },
+        {
+            "type": "text",
+            "data": "Paste"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Paste",
+                "uuid": "522714fd-7dde-462a-abb5-79fd0e7bad8e",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Select All"
+        },
+        {
+            "type": "text",
+            "data": "Select All"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Select All",
+                "uuid": "522714fd-7dde-462a-abb5-79fd0e7bad8e",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Reverse Selection"
+        },
+        {
+            "type": "text",
+            "data": "Reverse Selection"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Reverse Selection",
+                "uuid": "522714fd-7dde-462a-abb5-79fd0e7bad8e",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Auto-Constraints -  Will apply all the Auto-Constraints you have  setup ."
+        },
+        {
+            "type": "text",
+            "data": "Auto-Constraints -  Will apply all the Auto-Constraints you have  setup ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "setup",
+                "uuid": "a6c6d306-c8da-4df8-8440-33f2f24a9c1d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Remove Constraints -  Will remove all Constraints from the Object."
+        },
+        {
+            "type": "text",
+            "data": "Remove Constraints -  Will remove all Constraints from the Object."
+        },
+        {
+            "type": "text",
+            "data": "Properties"
+        },
+        {
+            "type": "text",
+            "data": "Properties"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Properties",
+                "uuid": "522714fd-7dde-462a-abb5-79fd0e7bad8e",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "You can add your own Constraints by using the following tools:"
+        },
+        {
+            "type": "text",
+            "data": "Simple Constraints"
+        },
+        {
+            "type": "text",
+            "data": "Simple Constraints are available when selecting a Point or CAD entity."
+        },
+        {
+            "type": "image",
+            "data": "image3047.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Simply click on the little button associated to a selected entity to sequentially change its Simple Constraints:"
+        },
+        {
+            "type": "text",
+            "data": "- The position will be kept at the same distance from the left edge of the Object."
+        },
+        {
+            "type": "image",
+            "data": "image1560.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "- The position will be kept at the same distance from the right edge of the Object."
+        },
+        {
+            "type": "image",
+            "data": "image1561.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "- The position will be kept at the same distance from the center (Horizontally) of the Object."
+        },
+        {
+            "type": "image",
+            "data": "image1714.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "- The position will be kept at the same distance from the top edge of the Object."
+        },
+        {
+            "type": "image",
+            "data": "image1563.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "- The position will be kept at the same distance from the bottom edge of the Object."
+        },
+        {
+            "type": "image",
+            "data": "image1564.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "- The position will be kept at the same distance from the center (Vertically) of the Object."
+        },
+        {
+            "type": "image",
+            "data": "image1565.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "NONE - The position will adjust proportionally to the Object Size."
+        },
+        {
+            "type": "text",
+            "data": "There are two types of Constraints available in the ribbonbar Constraints Group."
+        },
+        {
+            "type": "text",
+            "data": "Dimension Constraints"
+        },
+        {
+            "type": "image",
+            "data": "image3073.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image3074.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There are five Dimension Constraints:"
+        },
+        {
+            "type": "text",
+            "data": "Distance"
+        },
+        {
+            "type": "image",
+            "data": "image715.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Distance option allows you to set a Distance between two CAD elements."
+        },
+        {
+            "type": "text",
+            "data": "After you select the Distance option, you are prompted to select\u00a0(in the  statusbar ) the first CAD Object."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "statusbar",
+                "uuid": "57b3d47f-75a4-49bd-8143-55ece48609f2",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image5943.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The status bar now instructs you to select the CAD Object to Constrain the first selected CAD Object to..."
+        },
+        {
+            "type": "image",
+            "data": "image5944.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The status bar now instructs you to select the Constraint position..."
+        },
+        {
+            "type": "image",
+            "data": "image5945.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Once you have selected the Constraint position you will be presented with the following dialog box. There are two options here:"
+        },
+        {
+            "type": "image",
+            "data": "image5946.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Dimension -  Allows you to set the fixed value (Distance) of the selected elements."
+        },
+        {
+            "type": "text",
+            "data": "Text -  Allows you to enter a Formula (such as DX/2) or a Parameter that establishes the value for the Distance of the Constraint."
+        },
+        {
+            "type": "text",
+            "data": "Now you can see the Distance Constraint has been applied."
+        },
+        {
+            "type": "image",
+            "data": "image5947.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Valid Distance Selection types"
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "End Point of Line/Arc",
+                    "Mid Point of Line",
+                    "Center Point of Arc/Circle",
+                    "Origin",
+                    "Line",
+                    "Arc/Circle",
+                    "Single Select",
+                    "Double Select on Different Entities",
+                    "Double Select on Same Entity"
+                ],
+                "rows": [
+                    [
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "End Point of Line/Arc"
+        },
+        {
+            "type": "text",
+            "data": "Mid Point of Line"
+        },
+        {
+            "type": "text",
+            "data": "Center Point of Arc/Circle"
+        },
+        {
+            "type": "text",
+            "data": "Origin"
+        },
+        {
+            "type": "text",
+            "data": "Line"
+        },
+        {
+            "type": "text",
+            "data": "Arc/Circle"
+        },
+        {
+            "type": "text",
+            "data": "Single Select"
+        },
+        {
+            "type": "text",
+            "data": "Double Select on Different Entities"
+        },
+        {
+            "type": "text",
+            "data": "Double Select on Same Entity"
+        },
+        {
+            "type": "image",
+            "data": "image928.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image929.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image930.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image931.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image933.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image934.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image935.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image936.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Ortho Distance"
+        },
+        {
+            "type": "image",
+            "data": "image716.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Ortho Distance allows you to constrain the distance between two CAD Objects to a Fixed or Parametric value along the X or Y axes."
+        },
+        {
+            "type": "text",
+            "data": "After you select the Ortho Distance option, you are prompted to select\u00a0(in the  statusbar ) the first CAD Object."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "statusbar",
+                "uuid": "57b3d47f-75a4-49bd-8143-55ece48609f2",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image5948.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The status bar now instructs you to select the CAD Object to Constrain the first selected CAD Object to..."
+        },
+        {
+            "type": "image",
+            "data": "image5949.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The status bar now instructs you to select the Constraint position..."
+        },
+        {
+            "type": "image",
+            "data": "image5950.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Once you have selected the Constraint position you will be presented with the following dialog box. There are three main options here:"
+        },
+        {
+            "type": "image",
+            "data": "image5951.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Dimension -  Allows you to set the fixed value (Ortho Distance) of the selected elements."
+        },
+        {
+            "type": "text",
+            "data": "Text -  Allows you to enter a Formula (such as DX/2) or a Parameter that establishes the value for the Ortho Distance of the Constraint."
+        },
+        {
+            "type": "text",
+            "data": "Now you can see the Ortho Distance Constraint has been applied."
+        },
+        {
+            "type": "image",
+            "data": "image5952.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Valid Ortho Distance Selection types"
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "End Point of Line/Arc",
+                    "Mid Point of Line",
+                    "Center Point of Arc/Circle",
+                    "Origin",
+                    "Line",
+                    "Arc/Circle",
+                    "Single Select",
+                    "Double Select on Different Entities",
+                    "Double Select on Same Entity"
+                ],
+                "rows": [
+                    [
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "End Point of Line/Arc"
+        },
+        {
+            "type": "text",
+            "data": "Mid Point of Line"
+        },
+        {
+            "type": "text",
+            "data": "Center Point of Arc/Circle"
+        },
+        {
+            "type": "text",
+            "data": "Origin"
+        },
+        {
+            "type": "text",
+            "data": "Line"
+        },
+        {
+            "type": "text",
+            "data": "Arc/Circle"
+        },
+        {
+            "type": "text",
+            "data": "Single Select"
+        },
+        {
+            "type": "text",
+            "data": "Double Select on Different Entities"
+        },
+        {
+            "type": "text",
+            "data": "Double Select on Same Entity"
+        },
+        {
+            "type": "image",
+            "data": "image933.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image933.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image933.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image933.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image933.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image933.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Length"
+        },
+        {
+            "type": "image",
+            "data": "image717.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Length option allows you to constrain the Length of a Line."
+        },
+        {
+            "type": "text",
+            "data": "After you select the Length option, you are prompted to select\u00a0(in the  statusbar ) the Line that you would like to Constrain it's Length."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "statusbar",
+                "uuid": "57b3d47f-75a4-49bd-8143-55ece48609f2",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image5953.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The status bar now instructs you to select the Constraint position..."
+        },
+        {
+            "type": "image",
+            "data": "image5954.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Once you have selected the Constraint position you will be presented with the following dialog box. There are three main options here:"
+        },
+        {
+            "type": "image",
+            "data": "image5955.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Dimension -  Allows you to set the fixed value (Length) of the selected Line."
+        },
+        {
+            "type": "text",
+            "data": "Text -  Allows you to enter a Formula (such as DX/2) or a Parameter that establishes the value for the Length of the Line."
+        },
+        {
+            "type": "text",
+            "data": "Now you can see the Length Constraint has been applied."
+        },
+        {
+            "type": "image",
+            "data": "image5956.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Valid Length Selection types"
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "End Point of Line/Arc",
+                    "Mid Point of Line",
+                    "Center Point of Arc/Circle",
+                    "Origin",
+                    "Line",
+                    "Arc/Circle",
+                    "Single Select",
+                    "Double Select on Different Entities",
+                    "Double Select on Same Entity"
+                ],
+                "rows": [
+                    [
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "End Point of Line/Arc"
+        },
+        {
+            "type": "text",
+            "data": "Mid Point of Line"
+        },
+        {
+            "type": "text",
+            "data": "Center Point of Arc/Circle"
+        },
+        {
+            "type": "text",
+            "data": "Origin"
+        },
+        {
+            "type": "text",
+            "data": "Line"
+        },
+        {
+            "type": "text",
+            "data": "Arc/Circle"
+        },
+        {
+            "type": "text",
+            "data": "Single Select"
+        },
+        {
+            "type": "text",
+            "data": "Double Select on Different Entities"
+        },
+        {
+            "type": "text",
+            "data": "Double Select on Same Entity"
+        },
+        {
+            "type": "image",
+            "data": "image933.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image935.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Radius"
+        },
+        {
+            "type": "image",
+            "data": "image718.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Radius option allows you to constrain the Radius of an Arc or Circle."
+        },
+        {
+            "type": "text",
+            "data": "After you select the Radius option, you are prompted to select\u00a0(in the  statusbar ) the Arc or Circle that you would like to Constrain it's Radius."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "statusbar",
+                "uuid": "57b3d47f-75a4-49bd-8143-55ece48609f2",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image5957.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The statusbar now instructs you to select the Constraint position..."
+        },
+        {
+            "type": "image",
+            "data": "image5958.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Once you have selected the Constraint position you will be presented with the following dialog box. There are three main options here:"
+        },
+        {
+            "type": "image",
+            "data": "image5959.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Dimension -  Allows you to set the fixed value (Radius) of the selected Arc or Circle."
+        },
+        {
+            "type": "text",
+            "data": "Text -  Allows you to enter a Formula (such as DX/2) or a Parameter that establishes the value for the Radius of the Arc or Circle."
+        },
+        {
+            "type": "text",
+            "data": "Now you can see the Radius Constraint has been applied."
+        },
+        {
+            "type": "image",
+            "data": "image5960.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Valid Radius Selection types"
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "End Point of Line/Arc",
+                    "Mid Point of Line",
+                    "Center Point of Arc/Circle",
+                    "Origin",
+                    "Line",
+                    "Arc/Circle",
+                    "Single Select",
+                    "Double Select on Different Entities",
+                    "Double Select on Same Entity"
+                ],
+                "rows": [
+                    [
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "End Point of Line/Arc"
+        },
+        {
+            "type": "text",
+            "data": "Mid Point of Line"
+        },
+        {
+            "type": "text",
+            "data": "Center Point of Arc/Circle"
+        },
+        {
+            "type": "text",
+            "data": "Origin"
+        },
+        {
+            "type": "text",
+            "data": "Line"
+        },
+        {
+            "type": "text",
+            "data": "Arc/Circle"
+        },
+        {
+            "type": "text",
+            "data": "Single Select"
+        },
+        {
+            "type": "text",
+            "data": "Double Select on Different Entities"
+        },
+        {
+            "type": "text",
+            "data": "Double Select on Same Entity"
+        },
+        {
+            "type": "image",
+            "data": "image934.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image934.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Angle"
+        },
+        {
+            "type": "image",
+            "data": "image719.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Angle option allows you to constrain the Angle of a Line to another Line."
+        },
+        {
+            "type": "text",
+            "data": "After you select the Angle option, you are prompted to select\u00a0(in the  statusbar ) the Line that you would like to Constrain it's Angle."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "statusbar",
+                "uuid": "57b3d47f-75a4-49bd-8143-55ece48609f2",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image5961.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The status bar now instructs you to select the Line to Constrain the first selected Line to..."
+        },
+        {
+            "type": "image",
+            "data": "image5962.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The status bar now instructs you to select the Constraint position..."
+        },
+        {
+            "type": "image",
+            "data": "image5963.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Once you have selected the Constraint position you will be presented with the following dialog box. There are three main options here:"
+        },
+        {
+            "type": "image",
+            "data": "image5964.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Dimension -  Allows you to set the fixed value (Angle) of the selected Lines."
+        },
+        {
+            "type": "text",
+            "data": "Text -  Allows you to enter a Formula (such as DX/2) or a Parameter that establishes the value for the Angle of the Lines."
+        },
+        {
+            "type": "text",
+            "data": "Now you can see the Angle Constraint has been applied."
+        },
+        {
+            "type": "image",
+            "data": "image5965.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Valid Angle Selection types"
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "End Point of Line/Arc",
+                    "Mid Point of Line",
+                    "Center Point of Arc/Circle",
+                    "Origin",
+                    "Line",
+                    "Arc/Circle",
+                    "Single Select",
+                    "Double Select on Different Entities",
+                    "Double Select on Same Entity"
+                ],
+                "rows": [
+                    [
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "End Point of Line/Arc"
+        },
+        {
+            "type": "text",
+            "data": "Mid Point of Line"
+        },
+        {
+            "type": "text",
+            "data": "Center Point of Arc/Circle"
+        },
+        {
+            "type": "text",
+            "data": "Origin"
+        },
+        {
+            "type": "text",
+            "data": "Line"
+        },
+        {
+            "type": "text",
+            "data": "Arc/Circle"
+        },
+        {
+            "type": "text",
+            "data": "Single Select"
+        },
+        {
+            "type": "text",
+            "data": "Double Select on Different Entities"
+        },
+        {
+            "type": "text",
+            "data": "Double Select on Same Entity"
+        },
+        {
+            "type": "image",
+            "data": "image933.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image935.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Logical\u00a0Constraints"
+        },
+        {
+            "type": "image",
+            "data": "image3082.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image3083.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There are ten Logical Constraints:"
+        },
+        {
+            "type": "text",
+            "data": "Fix"
+        },
+        {
+            "type": "image",
+            "data": "image3084.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Fix option allows you to fix a Line, Arc, or point to a specific location."
+        },
+        {
+            "type": "text",
+            "data": "After you select the Fix option, you are prompted to select\u00a0(in the  statusbar ) the Line or Arc that you would like to fix to it's current location."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "statusbar",
+                "uuid": "57b3d47f-75a4-49bd-8143-55ece48609f2",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Now you can see the Fix Constraint has been applied."
+        },
+        {
+            "type": "image",
+            "data": "image5966.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "If a Fix Constraint is applied to an entity, you are just fixing that the entity should be somewhere along the trajectory of the entity. In the diagram below the black lines are the fixed entities and the magenta represent the possible locations of the entity. There is no guarantee of length or position along the magenta line."
+        },
+        {
+            "type": "image",
+            "data": "image4.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "A line with its center point fixed, basically spins about the center and can be on any angle of rotation. There is no guarantee of length or angle."
+        },
+        {
+            "type": "image",
+            "data": "image5.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "A line with its end fixed, will spin about the fixed end point. There is no guarantee of length or direction."
+        },
+        {
+            "type": "image",
+            "data": "image23.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Valid Fix Selection types"
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "End Point of Line/Arc",
+                    "Mid Point of Line",
+                    "Center Point of Arc/Circle",
+                    "Origin",
+                    "Line",
+                    "Arc/Circle",
+                    "Single Select",
+                    "Double Select on Different Entities",
+                    "Double Select on Same Entity"
+                ],
+                "rows": [
+                    [
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "End Point of Line/Arc"
+        },
+        {
+            "type": "text",
+            "data": "Mid Point of Line"
+        },
+        {
+            "type": "text",
+            "data": "Center Point of Arc/Circle"
+        },
+        {
+            "type": "text",
+            "data": "Origin"
+        },
+        {
+            "type": "text",
+            "data": "Line"
+        },
+        {
+            "type": "text",
+            "data": "Arc/Circle"
+        },
+        {
+            "type": "text",
+            "data": "Single Select"
+        },
+        {
+            "type": "text",
+            "data": "Double Select on Different Entities"
+        },
+        {
+            "type": "text",
+            "data": "Double Select on Same Entity"
+        },
+        {
+            "type": "image",
+            "data": "image928.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image929.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image930.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image933.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image934.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image935.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "X Axis"
+        },
+        {
+            "type": "image",
+            "data": "image3085.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The X Axis option allows you to constrain a Line so that it must remain parallel to the X Axis."
+        },
+        {
+            "type": "text",
+            "data": "After you select the Horizontal option, you are prompted to\u00a0(in the  statusbar ) select the Line that you would like to Constrain in the X Axis."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "statusbar",
+                "uuid": "57b3d47f-75a4-49bd-8143-55ece48609f2",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Now you can see the X Axis Constraint has been applied."
+        },
+        {
+            "type": "image",
+            "data": "image5967.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Valid Horizontal Selection types"
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "End Point of Line/Arc",
+                    "Mid Point of Line",
+                    "Center Point of Arc/Circle",
+                    "Origin",
+                    "Line",
+                    "Arc/Circle",
+                    "Single Select",
+                    "Double Select on Different Entities",
+                    "Double Select on Same Entity"
+                ],
+                "rows": [
+                    [
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "End Point of Line/Arc"
+        },
+        {
+            "type": "text",
+            "data": "Mid Point of Line"
+        },
+        {
+            "type": "text",
+            "data": "Center Point of Arc/Circle"
+        },
+        {
+            "type": "text",
+            "data": "Origin"
+        },
+        {
+            "type": "text",
+            "data": "Line"
+        },
+        {
+            "type": "text",
+            "data": "Arc/Circle"
+        },
+        {
+            "type": "text",
+            "data": "Single Select"
+        },
+        {
+            "type": "text",
+            "data": "Double Select on Different Entities"
+        },
+        {
+            "type": "text",
+            "data": "Double Select on Same Entity"
+        },
+        {
+            "type": "image",
+            "data": "image933.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image934.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Y Axis"
+        },
+        {
+            "type": "image",
+            "data": "image3086.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Y Axis option allows you to constrain a Line so that it must remain parallel to the Y Axis."
+        },
+        {
+            "type": "text",
+            "data": "After you select the Y Axis option, you are prompted to\u00a0(in the  statusbar ) select the Line that you would like to Constrain in the Y Axis."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "statusbar",
+                "uuid": "57b3d47f-75a4-49bd-8143-55ece48609f2",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Now you can see the Y Axis Constraint has been applied."
+        },
+        {
+            "type": "image",
+            "data": "image5968.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Valid Vertical Selection types"
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "End Point of Line/Arc",
+                    "Mid Point of Line",
+                    "Center Point of Arc/Circle",
+                    "Origin",
+                    "Line",
+                    "Arc/Circle",
+                    "Single Select",
+                    "Double Select on Different Entities",
+                    "Double Select on Same Entity"
+                ],
+                "rows": [
+                    [
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "End Point of Line/Arc"
+        },
+        {
+            "type": "text",
+            "data": "Mid Point of Line"
+        },
+        {
+            "type": "text",
+            "data": "Center Point of Arc/Circle"
+        },
+        {
+            "type": "text",
+            "data": "Origin"
+        },
+        {
+            "type": "text",
+            "data": "Line"
+        },
+        {
+            "type": "text",
+            "data": "Arc/Circle"
+        },
+        {
+            "type": "text",
+            "data": "Single Select"
+        },
+        {
+            "type": "text",
+            "data": "Double Select on Different Entities"
+        },
+        {
+            "type": "text",
+            "data": "Double Select on Same Entity"
+        },
+        {
+            "type": "image",
+            "data": "image933.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image934.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Coincidence"
+        },
+        {
+            "type": "image",
+            "data": "image3087.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Coincidence option allows you to Constrain a Line or Arcs endpoint to another Line or Arcs endpoint so that it is coincident (similar to) to the other. To maintain a closed (valid) Shape each end-point should be Constrained Coincident to the other."
+        },
+        {
+            "type": "text",
+            "data": "After you select the Coincidence option you are prompted (in the  statusbar ) to select the first CAD Object."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "statusbar",
+                "uuid": "57b3d47f-75a4-49bd-8143-55ece48609f2",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image5969.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The status bar now instructs you to select the next CAD Object...The second CAD object selected is always the one that moves (Shrinks/Stretches) to meet the first CAD object selected."
+        },
+        {
+            "type": "image",
+            "data": "image5970.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Now you can see the Coincidence Constraint has been applied. Notice the Lines endpoint, which was not Coincident to the other Line's endpoint, is now Coincident to the Line's endpoint. And because we applied the Coincidence Constraint these Line's endpoints will remain Coincident when the object changes its size."
+        },
+        {
+            "type": "image",
+            "data": "image5971.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "To make it simpler to create and maintain your shapes, Coincidence Constraints are automatically applied to the endpoints of Lines and Arcs endpoints where they meet. That way, connected Lines and Arcs stay connected when you edit the shape of the object. It will seldom be necessary for you to apply them manually."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Valid Coincidence Selection types"
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "End Point of Line/Arc",
+                    "Mid Point of Line",
+                    "Center Point of Arc/Circle",
+                    "Origin",
+                    "Line",
+                    "Arc/Circle",
+                    "Single Select",
+                    "Double Select on Different Entities",
+                    "Double Select on Same Entity"
+                ],
+                "rows": [
+                    [
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "End Point of Line/Arc"
+        },
+        {
+            "type": "text",
+            "data": "Mid Point of Line"
+        },
+        {
+            "type": "text",
+            "data": "Center Point of Arc/Circle"
+        },
+        {
+            "type": "text",
+            "data": "Origin"
+        },
+        {
+            "type": "text",
+            "data": "Line"
+        },
+        {
+            "type": "text",
+            "data": "Arc/Circle"
+        },
+        {
+            "type": "text",
+            "data": "Single Select"
+        },
+        {
+            "type": "text",
+            "data": "Double Select on Different Entities"
+        },
+        {
+            "type": "text",
+            "data": "Double Select on Same Entity"
+        },
+        {
+            "type": "image",
+            "data": "image928.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image929.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image930.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image931.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image933.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image934.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image935.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Concentric"
+        },
+        {
+            "type": "image",
+            "data": "image3088.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Concentric option allows you to Constrain multiple Arcs or Circles Center to each other so the Center Points are shared."
+        },
+        {
+            "type": "text",
+            "data": "After you select the Concentric option, you are prompted to\u00a0(in the  statusbar ) select the Arc or Circle that you would like to Constrain Concentric."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "statusbar",
+                "uuid": "57b3d47f-75a4-49bd-8143-55ece48609f2",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image5972.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The statusbar now instructs you to select the next CAD Object..."
+        },
+        {
+            "type": "image",
+            "data": "image5973.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Now you can see the Concentric Constraint has been applied. Because we applied the Concentric Constraint these Arc's will remain Concentric to each other when this object changes its size."
+        },
+        {
+            "type": "image",
+            "data": "image5974.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Valid Concentric Selection types"
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "End Point of Line/Arc",
+                    "Mid Point of Line",
+                    "Center Point of Arc/Circle",
+                    "Origin",
+                    "Line",
+                    "Arc/Circle",
+                    "Single Select",
+                    "Double Select on Different Entities",
+                    "Double Select on Same Entity"
+                ],
+                "rows": [
+                    [
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "End Point of Line/Arc"
+        },
+        {
+            "type": "text",
+            "data": "Mid Point of Line"
+        },
+        {
+            "type": "text",
+            "data": "Center Point of Arc/Circle"
+        },
+        {
+            "type": "text",
+            "data": "Origin"
+        },
+        {
+            "type": "text",
+            "data": "Line"
+        },
+        {
+            "type": "text",
+            "data": "Arc/Circle"
+        },
+        {
+            "type": "text",
+            "data": "Single Select"
+        },
+        {
+            "type": "text",
+            "data": "Double Select on Different Entities"
+        },
+        {
+            "type": "text",
+            "data": "Double Select on Same Entity"
+        },
+        {
+            "type": "image",
+            "data": "image934.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image935.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Parallel"
+        },
+        {
+            "type": "image",
+            "data": "image3089.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Parallel option allows you to constrain a Line so that it must remain Parallel to another Line."
+        },
+        {
+            "type": "text",
+            "data": "After you select the Parallel option, you are prompted to\u00a0(in the  statusbar ) select the Line that you would like to Constrain Parallel."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "statusbar",
+                "uuid": "57b3d47f-75a4-49bd-8143-55ece48609f2",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image5975.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The status bar now instructs you to select the next CAD Object..."
+        },
+        {
+            "type": "image",
+            "data": "image5976.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Now you can see the Parallel Constraint has been applied. Because we applied the Parallel Constraint these Line's will remain Parallel to each other when this object changes its size."
+        },
+        {
+            "type": "image",
+            "data": "image5977.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Valid Parallel Selection types"
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "End Point of Line/Arc",
+                    "Mid Point of Line",
+                    "Center Point of Arc/Circle",
+                    "Origin",
+                    "Line",
+                    "Arc/Circle",
+                    "Single Select",
+                    "Double Select on Different Entities",
+                    "Double Select on Same Entity"
+                ],
+                "rows": [
+                    [
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "End Point of Line/Arc"
+        },
+        {
+            "type": "text",
+            "data": "Mid Point of Line"
+        },
+        {
+            "type": "text",
+            "data": "Center Point of Arc/Circle"
+        },
+        {
+            "type": "text",
+            "data": "Origin"
+        },
+        {
+            "type": "text",
+            "data": "Line"
+        },
+        {
+            "type": "text",
+            "data": "Arc/Circle"
+        },
+        {
+            "type": "text",
+            "data": "Single Select"
+        },
+        {
+            "type": "text",
+            "data": "Double Select on Different Entities"
+        },
+        {
+            "type": "text",
+            "data": "Double Select on Same Entity"
+        },
+        {
+            "type": "image",
+            "data": "image933.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image935.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Tangent"
+        },
+        {
+            "type": "image",
+            "data": "image3090.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Tangent option allows you to constrain a Line or Arc so that it is tangential to an Arc."
+        },
+        {
+            "type": "text",
+            "data": "After you select the Tangent option you are prompted (in the  statusbar ) to select the first CAD Object."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "statusbar",
+                "uuid": "57b3d47f-75a4-49bd-8143-55ece48609f2",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "You can start by selecting the Arc or the Line. In the example below the Line is selected first."
+        },
+        {
+            "type": "image",
+            "data": "image5978.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The status bar now instructs you to select the next CAD Object...Next the Arc is selected."
+        },
+        {
+            "type": "image",
+            "data": "image5979.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Now you can see the Tangent Constraint has been applied. Notice the Arc, which was not Tangent to the line, is now Tangent to the Line. And because we applied the Tangent Constraint the Arc will remain Tangent to the Line when this object changes its size."
+        },
+        {
+            "type": "image",
+            "data": "image5980.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "If you select an Arc, you will be able to select either a Line or an Arc as the next geometry. \u00a0If you select a Line, then you must select an Arc as the next geometry."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Valid Tangent Selection types"
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "End Point of Line/Arc",
+                    "Mid Point of Line",
+                    "Center Point of Arc/Circle",
+                    "Origin",
+                    "Line",
+                    "Arc/Circle",
+                    "Single Select",
+                    "Double Select on Different Entities",
+                    "Double Select on Same Entity"
+                ],
+                "rows": [
+                    [
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "End Point of Line/Arc"
+        },
+        {
+            "type": "text",
+            "data": "Mid Point of Line"
+        },
+        {
+            "type": "text",
+            "data": "Center Point of Arc/Circle"
+        },
+        {
+            "type": "text",
+            "data": "Origin"
+        },
+        {
+            "type": "text",
+            "data": "Line"
+        },
+        {
+            "type": "text",
+            "data": "Arc/Circle"
+        },
+        {
+            "type": "text",
+            "data": "Single Select"
+        },
+        {
+            "type": "text",
+            "data": "Double Select on Different Entities"
+        },
+        {
+            "type": "text",
+            "data": "Double Select on Same Entity"
+        },
+        {
+            "type": "image",
+            "data": "image933.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image934.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image935.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Perpendicular"
+        },
+        {
+            "type": "image",
+            "data": "image3091.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Perpendicular option allows you to set a Line so that its angle (in relation to another Line) is 90\u00ba."
+        },
+        {
+            "type": "text",
+            "data": "After you select the Perpendicular option, you are prompted to\u00a0(in the  statusbar ) select the Line that you would like to Constrain Perpendicular to. The first line you select is the Line that you want to base the other lines Angle to."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "statusbar",
+                "uuid": "57b3d47f-75a4-49bd-8143-55ece48609f2",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image5981.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The status bar now instructs you to select the next CAD Object..."
+        },
+        {
+            "type": "image",
+            "data": "image5982.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The status bar now instructs you to select the Constraint position..."
+        },
+        {
+            "type": "image",
+            "data": "image5983.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Now you can see the Perpendicular Constraint has been applied. Notice the Line, which was not Perpendicular to the other Line, is now Perpendicular to the Line. And because we applied the Perpendicular Constraint the Line will remain Perpendicular to the other Line when this object changes its size."
+        },
+        {
+            "type": "image",
+            "data": "image5984.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Valid Perpendicular Selection types"
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "End Point of Line/Arc",
+                    "Mid Point of Line",
+                    "Center Point of Arc/Circle",
+                    "Origin",
+                    "Line",
+                    "Arc/Circle",
+                    "Single Select",
+                    "Double Select on Different Entities",
+                    "Double Select on Same Entity"
+                ],
+                "rows": [
+                    [
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "End Point of Line/Arc"
+        },
+        {
+            "type": "text",
+            "data": "Mid Point of Line"
+        },
+        {
+            "type": "text",
+            "data": "Center Point of Arc/Circle"
+        },
+        {
+            "type": "text",
+            "data": "Origin"
+        },
+        {
+            "type": "text",
+            "data": "Line"
+        },
+        {
+            "type": "text",
+            "data": "Arc/Circle"
+        },
+        {
+            "type": "text",
+            "data": "Single Select"
+        },
+        {
+            "type": "text",
+            "data": "Double Select on Different Entities"
+        },
+        {
+            "type": "text",
+            "data": "Double Select on Same Entity"
+        },
+        {
+            "type": "image",
+            "data": "image933.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image935.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Equal Radius"
+        },
+        {
+            "type": "image",
+            "data": "image3092.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Equal Radius option allows you to constrain multiple Arcs or Circle to have equal radii."
+        },
+        {
+            "type": "text",
+            "data": "After you select the Equal Radius option you are prompted (in the  statusbar ) to select the first CAD Object. The first Arc or Circle you select is the Arc or Circle that you want to base the other Arc or Circles radii on."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "statusbar",
+                "uuid": "57b3d47f-75a4-49bd-8143-55ece48609f2",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image5985.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The status bar now instructs you to select the next CAD Object..."
+        },
+        {
+            "type": "image",
+            "data": "image5986.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Now you can see the Equal Radius Constraint has been applied. Notice the Arc, which was not the same radius as the other Arc, is now the same. And because we applied the Equal Radius Constraint the Arc's radii will remain the same when this object changes its size."
+        },
+        {
+            "type": "image",
+            "data": "image5987.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Valid Equal Radius Selection types"
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "End Point of Line/Arc",
+                    "Mid Point of Line",
+                    "Center Point of Arc/Circle",
+                    "Origin",
+                    "Line",
+                    "Arc/Circle",
+                    "Single Select",
+                    "Double Select on Different Entities",
+                    "Double Select on Same Entity"
+                ],
+                "rows": [
+                    [
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "End Point of Line/Arc"
+        },
+        {
+            "type": "text",
+            "data": "Mid Point of Line"
+        },
+        {
+            "type": "text",
+            "data": "Center Point of Arc/Circle"
+        },
+        {
+            "type": "text",
+            "data": "Origin"
+        },
+        {
+            "type": "text",
+            "data": "Line"
+        },
+        {
+            "type": "text",
+            "data": "Arc/Circle"
+        },
+        {
+            "type": "text",
+            "data": "Single Select"
+        },
+        {
+            "type": "text",
+            "data": "Double Select on Different Entities"
+        },
+        {
+            "type": "text",
+            "data": "Double Select on Same Entity"
+        },
+        {
+            "type": "image",
+            "data": "image934.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image935.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Equal Length"
+        },
+        {
+            "type": "image",
+            "data": "image3093.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Equal Length option allows you to constrain multiple Lines to have equal Lengths."
+        },
+        {
+            "type": "text",
+            "data": "After you select the Equal Length option you are prompted (in the  statusbar ) to select the first CAD Object. The first Line you select is the Line that you want to base the other Line's Length on."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "statusbar",
+                "uuid": "57b3d47f-75a4-49bd-8143-55ece48609f2",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image5988.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The status bar now instructs you to select the next CAD Object..."
+        },
+        {
+            "type": "image",
+            "data": "image5989.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Now you can see the Equal Length Constraint has been applied. Notice the Line, which was not the same length as the other Line, is now the same. And because we applied the Equal Length Constraint the Line's length will remain the same when this object changes its size."
+        },
+        {
+            "type": "image",
+            "data": "image5990.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Valid Equal Length Selection types"
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "End Point of Line/Arc",
+                    "Mid Point of Line",
+                    "Center Point of Arc/Circle",
+                    "Origin",
+                    "Line",
+                    "Arc/Circle",
+                    "Single Select",
+                    "Double Select on Different Entities",
+                    "Double Select on Same Entity"
+                ],
+                "rows": [
+                    [
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "End Point of Line/Arc"
+        },
+        {
+            "type": "text",
+            "data": "Mid Point of Line"
+        },
+        {
+            "type": "text",
+            "data": "Center Point of Arc/Circle"
+        },
+        {
+            "type": "text",
+            "data": "Origin"
+        },
+        {
+            "type": "text",
+            "data": "Line"
+        },
+        {
+            "type": "text",
+            "data": "Arc/Circle"
+        },
+        {
+            "type": "text",
+            "data": "Single Select"
+        },
+        {
+            "type": "text",
+            "data": "Double Select on Different Entities"
+        },
+        {
+            "type": "text",
+            "data": "Double Select on Same Entity"
+        },
+        {
+            "type": "image",
+            "data": "image933.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image935.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "See the  Constraint Tutorial  topic for more information on Constraints."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Constraint Tutorial",
+                "uuid": "fb89246a-4580-4601-b7a3-f2b762ec77c0",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Constraints.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

@@ -1,0 +1,100 @@
+{
+    "id": "813b7042-19f4-4555-94c2-b900f454060e",
+    "title": "Second_Exercise_for_the_X_Part_3",
+    "content": [
+        {
+            "type": "text",
+            "data": "Second Exercise for the X Part 3"
+        },
+        {
+            "type": "text",
+            "data": "Our formula is  one half the width of the cabinet minus one half the width of the BOARD , or  width of cabinet /2  width of second BOARD /2."
+        },
+        {
+            "type": "text",
+            "data": "We could also say  width of cabinet minus width of second BOARD then the whole thing divided by two."
+        },
+        {
+            "type": "text",
+            "data": "When you trace it through the tree:"
+        },
+        {
+            "type": "text",
+            "data": "Width of cabinet / 2  width of second BOARD / 2  it equals  Cab.Dx/2  Cab.BOARD@2.DX/2"
+        },
+        {
+            "type": "text",
+            "data": "Width of cabinet minus width of second BOARD then the whole thing divided by two  would equal  (Cab.Dx  Cab.BOARD@2.Dx) / 2  same thing really."
+        },
+        {
+            "type": "text",
+            "data": "Well use the first one  Cab.Dx/2  Cab.BOARD@2.DX/2  as our code."
+        },
+        {
+            "type": "text",
+            "data": "Go to the Object Tree from the Assembly Level (click on one of the ortho   views and then click on \"Object Tree\"). \n \n \n Click on the second board (the bottom one). Click on the X parameter. Click on \"Edit\". \n \n \n Change it from a \"Value\" to an \"Equation\". \n \n \n On the \"THEN\" line type the code.  Cab.Dx/2  Cab.BOARD@2.DX/2 . \n \n \n Click on the test button and it should say \"Condition returned: True. Equation returned: 16 or whatever value you were expecting. Click on OK."
+        },
+        {
+            "type": "text",
+            "data": "Go to the Object Tree from the Assembly Level (click on one of the ortho   views and then click on \"Object Tree\")."
+        },
+        {
+            "type": "text",
+            "data": "Go to the Object Tree from the Assembly Level (click on one of the ortho   views and then click on \"Object Tree\")."
+        },
+        {
+            "type": "image",
+            "data": "image181.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image182.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image183.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Click on the second board (the bottom one). Click on the X parameter. Click on \"Edit\"."
+        },
+        {
+            "type": "text",
+            "data": "Click on the second board (the bottom one). Click on the X parameter. Click on \"Edit\"."
+        },
+        {
+            "type": "text",
+            "data": "Change it from a \"Value\" to an \"Equation\"."
+        },
+        {
+            "type": "text",
+            "data": "Change it from a \"Value\" to an \"Equation\"."
+        },
+        {
+            "type": "text",
+            "data": "On the \"THEN\" line type the code.  Cab.Dx/2  Cab.BOARD@2.DX/2 ."
+        },
+        {
+            "type": "text",
+            "data": "On the \"THEN\" line type the code.  Cab.Dx/2  Cab.BOARD@2.DX/2 ."
+        },
+        {
+            "type": "text",
+            "data": "Click on the test button and it should say \"Condition returned: True. Equation returned: 16 or whatever value you were expecting. Click on OK."
+        },
+        {
+            "type": "text",
+            "data": "Click on the test button and it should say \"Condition returned: True. Equation returned: 16 or whatever value you were expecting. Click on OK."
+        },
+        {
+            "type": "text",
+            "data": "Look at your cabinet in 3D does it look OK? If not you will have to trouble shoot what you just did."
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\Parametric_Editing\\Intelligence_Workshop\\2nd_Exercise\\Second_Exercise_for_the_X_Part_3.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

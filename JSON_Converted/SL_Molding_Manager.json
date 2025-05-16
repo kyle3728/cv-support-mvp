@@ -1,0 +1,1148 @@
+{
+    "id": "f10529ba-0568-4858-98c8-258ccf936097",
+    "title": "SL_Molding_Manager",
+    "content": [
+        {
+            "type": "text",
+            "data": "Molding Manager"
+        },
+        {
+            "type": "image",
+            "data": "image3701.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "1AllButEssential.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Molding Manager is where you create and edit the Profiles for Molding you manufacture. See the  Material Manager  for information on defining Molding you buy-out."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Material Manager",
+                "uuid": "21675ddf-9180-45f7-8c97-4823c35d6be9",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "Molding_Manager.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Sidebar"
+        },
+        {
+            "type": "text",
+            "data": "There are several options in the Molding Manager sidebar:"
+        },
+        {
+            "type": "text",
+            "data": "Name  - Allows you to Name or rename the selected Molding. The character limit for the Molding Name is 50. \n \n \n Type  - Allows you to set the Type for the selected Molding. Following are the available Molding Types: \n \n \n \n \n Applied \n \n \n Base Board \n \n \n Casing \n \n \n Ceiling \n \n \n Chair Rail \n \n \n Crown \n \n \n Light Rail \n \n \n Scribe \n \n \n \n \n Set   - Indicates whether the current is a Molding Set or not. \n \n \n Thickness  - This value is controlled by the Shape of your Molding. \n \n \n Height  - This value is controlled by the Shape of your Molding. \n \n \n Cost Per Job  -   - Allows you to set a Cost Per Job for the selected Molding. This value will be used by the  Use Profile Catalog Pricing  Bid Method in the  Bid Center . \n \n \n Cost Per Strip  -   - Allows you to set a Cost Per Strip for the selected Molding. This value will be used by the  Use Profile Catalog Pricing  Bid Method in the  Bid Center . A \"Strip\" is determined by how the molding is designed in your Layout. Each separate connected run including returns is considered one \"Strip\". \n \n \n Cost Per FT  -   - Allows you to set a Cost Per Foot for the selected Molding. This value will be used by the  Use Profile Catalog Pricing  Bid Method in the  Bid Center . \n \n \n Sample - Length  - A sample Length you can enter to get a preview of your Molding in 3D Mode."
+        },
+        {
+            "type": "text",
+            "data": "Name  - Allows you to Name or rename the selected Molding. The character limit for the Molding Name is 50."
+        },
+        {
+            "type": "text",
+            "data": "Name  - Allows you to Name or rename the selected Molding. The character limit for the Molding Name is 50."
+        },
+        {
+            "type": "text",
+            "data": "Type  - Allows you to set the Type for the selected Molding. Following are the available Molding Types:"
+        },
+        {
+            "type": "text",
+            "data": "Type  - Allows you to set the Type for the selected Molding. Following are the available Molding Types:"
+        },
+        {
+            "type": "text",
+            "data": "Applied \n \n \n Base Board \n \n \n Casing \n \n \n Ceiling \n \n \n Chair Rail \n \n \n Crown \n \n \n Light Rail \n \n \n Scribe"
+        },
+        {
+            "type": "text",
+            "data": "Applied \n \n \n Base Board \n \n \n Casing \n \n \n Ceiling \n \n \n Chair Rail \n \n \n Crown \n \n \n Light Rail \n \n \n Scribe"
+        },
+        {
+            "type": "text",
+            "data": "Applied"
+        },
+        {
+            "type": "text",
+            "data": "Applied"
+        },
+        {
+            "type": "text",
+            "data": "Base Board"
+        },
+        {
+            "type": "text",
+            "data": "Base Board"
+        },
+        {
+            "type": "text",
+            "data": "Casing"
+        },
+        {
+            "type": "text",
+            "data": "Casing"
+        },
+        {
+            "type": "text",
+            "data": "Ceiling"
+        },
+        {
+            "type": "text",
+            "data": "Ceiling"
+        },
+        {
+            "type": "text",
+            "data": "Chair Rail"
+        },
+        {
+            "type": "text",
+            "data": "Chair Rail"
+        },
+        {
+            "type": "text",
+            "data": "Crown"
+        },
+        {
+            "type": "text",
+            "data": "Crown"
+        },
+        {
+            "type": "text",
+            "data": "Light Rail"
+        },
+        {
+            "type": "text",
+            "data": "Light Rail"
+        },
+        {
+            "type": "text",
+            "data": "Scribe"
+        },
+        {
+            "type": "text",
+            "data": "Scribe"
+        },
+        {
+            "type": "text",
+            "data": "Set   - Indicates whether the current is a Molding Set or not."
+        },
+        {
+            "type": "text",
+            "data": "Set   - Indicates whether the current is a Molding Set or not."
+        },
+        {
+            "type": "text",
+            "data": "Thickness  - This value is controlled by the Shape of your Molding."
+        },
+        {
+            "type": "text",
+            "data": "Thickness  - This value is controlled by the Shape of your Molding."
+        },
+        {
+            "type": "text",
+            "data": "Height  - This value is controlled by the Shape of your Molding."
+        },
+        {
+            "type": "text",
+            "data": "Height  - This value is controlled by the Shape of your Molding."
+        },
+        {
+            "type": "text",
+            "data": "Cost Per Job  -   - Allows you to set a Cost Per Job for the selected Molding. This value will be used by the  Use Profile Catalog Pricing  Bid Method in the  Bid Center ."
+        },
+        {
+            "type": "text",
+            "data": "Cost Per Job  -   - Allows you to set a Cost Per Job for the selected Molding. This value will be used by the  Use Profile Catalog Pricing  Bid Method in the  Bid Center ."
+        },
+        {
+            "type": "image",
+            "data": "1AUALL.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Use Profile Catalog Pricing",
+                "uuid": "4a3d36f8-0f2e-45c7-856e-38dabd76074d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Bid Center",
+                "uuid": "9bf291cf-b833-4950-a899-2c17927d7a53",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Cost Per Strip  -   - Allows you to set a Cost Per Strip for the selected Molding. This value will be used by the  Use Profile Catalog Pricing  Bid Method in the  Bid Center . A \"Strip\" is determined by how the molding is designed in your Layout. Each separate connected run including returns is considered one \"Strip\"."
+        },
+        {
+            "type": "text",
+            "data": "Cost Per Strip  -   - Allows you to set a Cost Per Strip for the selected Molding. This value will be used by the  Use Profile Catalog Pricing  Bid Method in the  Bid Center . A \"Strip\" is determined by how the molding is designed in your Layout. Each separate connected run including returns is considered one \"Strip\"."
+        },
+        {
+            "type": "image",
+            "data": "1AUALL.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Use Profile Catalog Pricing",
+                "uuid": "4a3d36f8-0f2e-45c7-856e-38dabd76074d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Bid Center",
+                "uuid": "9bf291cf-b833-4950-a899-2c17927d7a53",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Cost Per FT  -   - Allows you to set a Cost Per Foot for the selected Molding. This value will be used by the  Use Profile Catalog Pricing  Bid Method in the  Bid Center ."
+        },
+        {
+            "type": "text",
+            "data": "Cost Per FT  -   - Allows you to set a Cost Per Foot for the selected Molding. This value will be used by the  Use Profile Catalog Pricing  Bid Method in the  Bid Center ."
+        },
+        {
+            "type": "image",
+            "data": "1AUALL.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Use Profile Catalog Pricing",
+                "uuid": "4a3d36f8-0f2e-45c7-856e-38dabd76074d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Bid Center",
+                "uuid": "9bf291cf-b833-4950-a899-2c17927d7a53",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Sample - Length  - A sample Length you can enter to get a preview of your Molding in 3D Mode."
+        },
+        {
+            "type": "text",
+            "data": "Sample - Length  - A sample Length you can enter to get a preview of your Molding in 3D Mode."
+        },
+        {
+            "type": "text",
+            "data": "Ribbonbar"
+        },
+        {
+            "type": "image",
+            "data": "Molding_Manager_Ribbonbar.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Return"
+        },
+        {
+            "type": "image",
+            "data": "image3606.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option will Return you from the Shape Edit area. If changes were made to the Shape you will be prompted if you want to Save those changes."
+        },
+        {
+            "type": "text",
+            "data": "Zoom Group"
+        },
+        {
+            "type": "image",
+            "data": "image3605.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Zoom Group",
+                "uuid": "e7615284-fc2b-4e06-92a5-400c3db012f5",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "New"
+        },
+        {
+            "type": "image",
+            "data": "image4393.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There are two New options:"
+        },
+        {
+            "type": "text",
+            "data": "Molding"
+        },
+        {
+            "type": "image",
+            "data": "image4394.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option creates a new Molding."
+        },
+        {
+            "type": "text",
+            "data": "Molding Set"
+        },
+        {
+            "type": "image",
+            "data": "image4395.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Each of the Molding Types above can also be defined as a Molding Set by selecting the Molding Set option when creating a new Molding. A Molding Set is a grouping of multiple Moldings you have created, put together so they can be placed in your designs easily as one. The Moldings are broken out independently in Reporting."
+        },
+        {
+            "type": "text",
+            "data": "Copy"
+        },
+        {
+            "type": "image",
+            "data": "image3610.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Copies the selected Molding."
+        },
+        {
+            "type": "text",
+            "data": "Delete"
+        },
+        {
+            "type": "image",
+            "data": "image3611.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Deletes the selected Molding from the Molding Manager."
+        },
+        {
+            "type": "text",
+            "data": "This Delete action can not be reversed."
+        },
+        {
+            "type": "image",
+            "data": "Warning.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Molding Type Selector"
+        },
+        {
+            "type": "image",
+            "data": "image3612.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Allows you to select the Molding Type you wish to work with."
+        },
+        {
+            "type": "text",
+            "data": "Molding Selector"
+        },
+        {
+            "type": "image",
+            "data": "image3613.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Allows you to select the Molding you wish to work with."
+        },
+        {
+            "type": "text",
+            "data": "Render Mode"
+        },
+        {
+            "type": "image",
+            "data": "image3708.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Render Mode",
+                "uuid": "9780083a-59ba-4e4d-a3f2-4e4fccf798d3",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "2D Mode"
+        },
+        {
+            "type": "image",
+            "data": "image3709.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Shows the Molding in a 2D View looking at the end of the Molding."
+        },
+        {
+            "type": "text",
+            "data": "3D Mode"
+        },
+        {
+            "type": "image",
+            "data": "image3710.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Shows the Molding in a 3D View."
+        },
+        {
+            "type": "text",
+            "data": "Import"
+        },
+        {
+            "type": "image",
+            "data": "image3711.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Allows you to import a 3D Model to represent a Molding with a repeat, such as Dentil or Egg & Dart."
+        },
+        {
+            "type": "text",
+            "data": "Click the Import   option in the ribbonbar. \n Browse to, select, and Open your 3D Model."
+        },
+        {
+            "type": "text",
+            "data": "Click the Import   option in the ribbonbar."
+        },
+        {
+            "type": "image",
+            "data": "image3711.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Browse to, select, and Open your 3D Model."
+        },
+        {
+            "type": "image",
+            "data": "Select_SKP.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "You can import either Trimble Sketchup or DXF Models."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "SKPorDXF.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "If you are satisfied with your 3D Model click OK. For more information on the options in this screen see the  Import Sketchup Model  topic."
+        },
+        {
+            "type": "text",
+            "data": "If you are satisfied with your 3D Model click OK. For more information on the options in this screen see the  Import Sketchup Model  topic."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Import Sketchup Model",
+                "uuid": "53fd1282-1975-4f55-811e-8e3d62ec310f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "ImportEgg-Dart.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "You should now see your Model. The model will repeat itself to fill the length of the molding drawn in your Job. You can switch to 3D Mode and change the Sample Length to see how it will react to Length changes."
+        },
+        {
+            "type": "text",
+            "data": "Reset"
+        },
+        {
+            "type": "image",
+            "data": "image3614.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Will remove all Shaping that has been applied to the current Molding."
+        },
+        {
+            "type": "text",
+            "data": "This Reset action can not be reversed."
+        },
+        {
+            "type": "image",
+            "data": "Warning.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Edit"
+        },
+        {
+            "type": "image",
+            "data": "image3615.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Takes the current Molding to the Shape Editor to allow you to define the Shape of your Molding (or the Position of Multiple Moldings within a Molding Set)."
+        },
+        {
+            "type": "image",
+            "data": "Molding_Manager_Edit_Screen.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Shape Editor Ribbonbar has the following options available when creating/editing a Molding:"
+        },
+        {
+            "type": "text",
+            "data": "Click the options in the ribbonbar below for more information"
+        },
+        {
+            "type": "image",
+            "data": "Profile_Manager_Edit_Ribbonar.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image3617.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "You will probably want to turn of Auto-Connect and Remove Connections before drawing or modifying a shape. See the Right Click options section later in this topic for more information."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Right Click Options"
+        },
+        {
+            "type": "text",
+            "data": "In the main window there is one Right Click Options."
+        },
+        {
+            "type": "image",
+            "data": "image4422.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image1274.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Properties -  Allows you to control  Draw Tool  and  Layer  settings."
+        },
+        {
+            "type": "image",
+            "data": "image1099.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Draw Tool",
+                "uuid": "3ea2c40b-e3fc-4eac-9114-cf8a3365c62a",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Layer",
+                "uuid": "3ea2c40b-e3fc-4eac-9114-cf8a3365c62a",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "In the Edit window you have the following Right Click options."
+        },
+        {
+            "type": "image",
+            "data": "image4424.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image1278.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Cut"
+        },
+        {
+            "type": "image",
+            "data": "image1077.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Cut",
+                "uuid": "522714fd-7dde-462a-abb5-79fd0e7bad8e",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Copy"
+        },
+        {
+            "type": "image",
+            "data": "image1078.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Copy",
+                "uuid": "522714fd-7dde-462a-abb5-79fd0e7bad8e",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Paste"
+        },
+        {
+            "type": "image",
+            "data": "image1079.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Paste",
+                "uuid": "522714fd-7dde-462a-abb5-79fd0e7bad8e",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Delete"
+        },
+        {
+            "type": "image",
+            "data": "image1080.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Delete",
+                "uuid": "522714fd-7dde-462a-abb5-79fd0e7bad8e",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Break..."
+        },
+        {
+            "type": "image",
+            "data": "image1081.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Break...",
+                "uuid": "522714fd-7dde-462a-abb5-79fd0e7bad8e",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Transform"
+        },
+        {
+            "type": "image",
+            "data": "image1084.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Transform",
+                "uuid": "522714fd-7dde-462a-abb5-79fd0e7bad8e",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Select All"
+        },
+        {
+            "type": "image",
+            "data": "image1095.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Select All",
+                "uuid": "522714fd-7dde-462a-abb5-79fd0e7bad8e",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Reverse Selection"
+        },
+        {
+            "type": "image",
+            "data": "image1097.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Reverse Selection",
+                "uuid": "522714fd-7dde-462a-abb5-79fd0e7bad8e",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Add Connections -  Used in conjunction with Auto-Connect it will analyze your Shape and add all the necessary Connections."
+        },
+        {
+            "type": "image",
+            "data": "image1159.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Remove Connections -  Will Remove all current Connections. This is highly recommended if you are altering an existing shape."
+        },
+        {
+            "type": "image",
+            "data": "image1160.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Properties -  Allows you to control  Draw Tool  and  Layer  settings."
+        },
+        {
+            "type": "image",
+            "data": "image1099.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Draw Tool",
+                "uuid": "3ea2c40b-e3fc-4eac-9114-cf8a3365c62a",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Layer",
+                "uuid": "3ea2c40b-e3fc-4eac-9114-cf8a3365c62a",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Techniques for Creating Molding Shapes"
+        },
+        {
+            "type": "text",
+            "data": "The easiest method of adding a Molding Shape is to import it into the Molding Manager. Editing is similar, and uses the same editing tools common to Solid to create the final shape."
+        },
+        {
+            "type": "text",
+            "data": "Importing A DXF file to Define A Molding"
+        },
+        {
+            "type": "image",
+            "data": "1AUALL.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "In the following example, a DXF file such as the one shown, will be imported into Molding Shape for use as a Light Rail."
+        },
+        {
+            "type": "image",
+            "data": "image3626.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Take your new Molding to the Shape Editor  . \n \n \n Click Select All   then click Delete  . \n \n \n Click Insert DXF  . \n \n \n Click the browse button to browse to the location of your DXF file."
+        },
+        {
+            "type": "text",
+            "data": "Take your new Molding to the Shape Editor  . \n \n \n Click Select All   then click Delete  . \n \n \n Click Insert DXF  . \n \n \n Click the browse button to browse to the location of your DXF file."
+        },
+        {
+            "type": "text",
+            "data": "Take your new Molding to the Shape Editor  . \n \n \n Click Select All   then click Delete  . \n \n \n Click Insert DXF  . \n \n \n Click the browse button to browse to the location of your DXF file."
+        },
+        {
+            "type": "text",
+            "data": "Take your new Molding to the Shape Editor  ."
+        },
+        {
+            "type": "text",
+            "data": "Take your new Molding to the Shape Editor  ."
+        },
+        {
+            "type": "image",
+            "data": "image3615.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Click Select All   then click Delete  ."
+        },
+        {
+            "type": "text",
+            "data": "Click Select All   then click Delete  ."
+        },
+        {
+            "type": "image",
+            "data": "image3048.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image3050.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Click Insert DXF  ."
+        },
+        {
+            "type": "text",
+            "data": "Click Insert DXF  ."
+        },
+        {
+            "type": "image",
+            "data": "image3627.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Click the browse button to browse to the location of your DXF file."
+        },
+        {
+            "type": "text",
+            "data": "Click the browse button to browse to the location of your DXF file."
+        },
+        {
+            "type": "image",
+            "data": "image4857.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Once you have Opened your DXF file from the Browse dialog click Import."
+        },
+        {
+            "type": "text",
+            "data": "Once you have Opened your DXF file from the Browse dialog click Import."
+        },
+        {
+            "type": "text",
+            "data": "Once you have Opened your DXF file from the Browse dialog click Import."
+        },
+        {
+            "type": "text",
+            "data": "Once you have Opened your DXF file from the Browse dialog click Import."
+        },
+        {
+            "type": "text",
+            "data": "Once you have Opened your DXF file from the Browse dialog click Import."
+        },
+        {
+            "type": "image",
+            "data": "image4858.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Click OK to Import the DXF into the Shape Editor. \n \n \n Pick its location in the Shape Editor. It doesn't really matter where you place it. \n \n \n Once placed select the Reference option and pick the point which you want to be the Reference point on the Molding. See the  Shape Editor  topic for more information on the Reference option."
+        },
+        {
+            "type": "text",
+            "data": "Click OK to Import the DXF into the Shape Editor. \n \n \n Pick its location in the Shape Editor. It doesn't really matter where you place it. \n \n \n Once placed select the Reference option and pick the point which you want to be the Reference point on the Molding. See the  Shape Editor  topic for more information on the Reference option."
+        },
+        {
+            "type": "text",
+            "data": "Click OK to Import the DXF into the Shape Editor. \n \n \n Pick its location in the Shape Editor. It doesn't really matter where you place it. \n \n \n Once placed select the Reference option and pick the point which you want to be the Reference point on the Molding. See the  Shape Editor  topic for more information on the Reference option."
+        },
+        {
+            "type": "text",
+            "data": "Click OK to Import the DXF into the Shape Editor."
+        },
+        {
+            "type": "text",
+            "data": "Click OK to Import the DXF into the Shape Editor."
+        },
+        {
+            "type": "text",
+            "data": "Pick its location in the Shape Editor. It doesn't really matter where you place it."
+        },
+        {
+            "type": "text",
+            "data": "Pick its location in the Shape Editor. It doesn't really matter where you place it."
+        },
+        {
+            "type": "text",
+            "data": "Once placed select the Reference option and pick the point which you want to be the Reference point on the Molding. See the  Shape Editor  topic for more information on the Reference option."
+        },
+        {
+            "type": "text",
+            "data": "Once placed select the Reference option and pick the point which you want to be the Reference point on the Molding. See the  Shape Editor  topic for more information on the Reference option."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Shape Editor",
+                "uuid": "44e32c02-bc4b-47e1-a681-21c422325448",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image3630.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Click Return to Save the shape of your new Molding."
+        },
+        {
+            "type": "text",
+            "data": "Click Return to Save the shape of your new Molding."
+        },
+        {
+            "type": "text",
+            "data": "Click Return to Save the shape of your new Molding."
+        },
+        {
+            "type": "text",
+            "data": "Keep in mind you have full CAD editing capability here so you can Flip, Mirror, Rotate, Scale, Stretch, and modify the imported shape in any way prior to saving it."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Importing an Image file to Define A Molding"
+        },
+        {
+            "type": "text",
+            "data": "When Importing an Image file you bring in an Image that will allow you to get the general shape of the Molding by tracing it utilizing the Shape Editor Tools. There are two additional Tools available when a Bitmap is imported that allow you to  Scale  and/or  Align  the Bitmap to facilitate proper tracing. Once you have the Bitmap sized as you need simply use the CAD tools to trace the image to get the final shape you desire."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Scale",
+                "uuid": "44e32c02-bc4b-47e1-a681-21c422325448",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Align",
+                "uuid": "44e32c02-bc4b-47e1-a681-21c422325448",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Molding Sets"
+        },
+        {
+            "type": "image",
+            "data": "1AUALL.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Molding Shape Editor, when dealing with a Molding Set, allows you to add Moldings to the Set as well as control the added Molding's positions within the Molding Set."
+        },
+        {
+            "type": "text",
+            "data": "Make sure you have \"Snap To Points\" turned on as it will make placement of the Moldings within the Molding Set more accurate."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Once you click the Insert option you will be able to select your Category and Molding from the sidebar and drag it into the Shape Editor. Unlike when shaping a Molding you can not control the position of the Reference point but instead must build your Molding Set around the Reference Point. That is the placement point for the Molding when laying it out in your Job. You can drag as many existing Moldings into your Molding Set as you like."
+        },
+        {
+            "type": "image",
+            "data": "Crown_Set.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "When selecting a specific Molding within the Molding Set you will have the following Property options in the sidebar:"
+        },
+        {
+            "type": "image",
+            "data": "image6195.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "ID -  Displays the ID of the selected Molding. \n \n \n Name -  Displays the Name of the selected Molding. \n \n \n Origin X -  Controls the X Position of the selected Molding. \n \n \n Origin Y -  Controls the Y Position of the selected Molding. \n \n \n Width -  Displays the Width of the selected Molding. \n \n \n Height -  Displays the Height of the selected Molding. \n \n \n Angle -  Controls the rotation angle for the selected Molding. \n \n \n Mirror -  Will Mirror the selected Molding."
+        },
+        {
+            "type": "text",
+            "data": "ID -  Displays the ID of the selected Molding. \n \n \n Name -  Displays the Name of the selected Molding. \n \n \n Origin X -  Controls the X Position of the selected Molding. \n \n \n Origin Y -  Controls the Y Position of the selected Molding. \n \n \n Width -  Displays the Width of the selected Molding. \n \n \n Height -  Displays the Height of the selected Molding. \n \n \n Angle -  Controls the rotation angle for the selected Molding. \n \n \n Mirror -  Will Mirror the selected Molding."
+        },
+        {
+            "type": "text",
+            "data": "ID -  Displays the ID of the selected Molding. \n \n \n Name -  Displays the Name of the selected Molding. \n \n \n Origin X -  Controls the X Position of the selected Molding. \n \n \n Origin Y -  Controls the Y Position of the selected Molding. \n \n \n Width -  Displays the Width of the selected Molding. \n \n \n Height -  Displays the Height of the selected Molding. \n \n \n Angle -  Controls the rotation angle for the selected Molding. \n \n \n Mirror -  Will Mirror the selected Molding."
+        },
+        {
+            "type": "text",
+            "data": "ID -  Displays the ID of the selected Molding."
+        },
+        {
+            "type": "text",
+            "data": "ID -  Displays the ID of the selected Molding."
+        },
+        {
+            "type": "text",
+            "data": "Name -  Displays the Name of the selected Molding."
+        },
+        {
+            "type": "text",
+            "data": "Name -  Displays the Name of the selected Molding."
+        },
+        {
+            "type": "text",
+            "data": "Origin X -  Controls the X Position of the selected Molding."
+        },
+        {
+            "type": "text",
+            "data": "Origin X -  Controls the X Position of the selected Molding."
+        },
+        {
+            "type": "text",
+            "data": "Origin Y -  Controls the Y Position of the selected Molding."
+        },
+        {
+            "type": "text",
+            "data": "Origin Y -  Controls the Y Position of the selected Molding."
+        },
+        {
+            "type": "text",
+            "data": "Width -  Displays the Width of the selected Molding."
+        },
+        {
+            "type": "text",
+            "data": "Width -  Displays the Width of the selected Molding."
+        },
+        {
+            "type": "text",
+            "data": "Height -  Displays the Height of the selected Molding."
+        },
+        {
+            "type": "text",
+            "data": "Height -  Displays the Height of the selected Molding."
+        },
+        {
+            "type": "text",
+            "data": "Angle -  Controls the rotation angle for the selected Molding."
+        },
+        {
+            "type": "text",
+            "data": "Angle -  Controls the rotation angle for the selected Molding."
+        },
+        {
+            "type": "text",
+            "data": "Mirror -  Will Mirror the selected Molding."
+        },
+        {
+            "type": "text",
+            "data": "Mirror -  Will Mirror the selected Molding."
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\SL_Molding_Manager.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

@@ -1,0 +1,21 @@
+{
+    "id": "802a66e3-6342-42bb-a6d3-d20b1a64cc6a",
+    "title": "Accu-Systems_2S",
+    "content": [
+        {
+            "type": "text",
+            "data": "Accu-Systems 2S"
+        },
+        {
+            "type": "text",
+            "data": "Output for Accu-Systems 2S Machine."
+        },
+        {
+            "type": "text",
+            "data": "Output is one program per job. The 2S is a multi axis, multi function CNC horizontal machine, designed to size & square edge glued panels."
+        }
+    ],
+    "source_file": "NCEnglish\\Ribbonbar\\Main_Tab\\Machine\\NC_Links\\Other\\Accu-Systems_2S.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

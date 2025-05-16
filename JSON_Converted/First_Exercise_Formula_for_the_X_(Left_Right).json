@@ -1,0 +1,234 @@
+{
+    "id": "871aa85b-bbda-47aa-b788-71820e8a8fa0",
+    "title": "First_Exercise_Formula_for_the_X_(Left_Right)",
+    "content": [
+        {
+            "type": "text",
+            "data": "First Exercise Formula for the X (Left/Right)"
+        },
+        {
+            "type": "text",
+            "data": "Look at your cabinet in 3D. Look at it from a Face   ortho view and click on the BOARD. Notice where the reference point is located. Look at it from a side view, click on the BOARD. Notice where the reference point is located. When writing code for the position of a part it is important to know where the reference point is."
+        },
+        {
+            "type": "image",
+            "data": "image181.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image6089.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "We will need a formula for the X (Left/Right) because if the thickness of the end changes this part will need to move left or right."
+        },
+        {
+            "type": "text",
+            "data": "As far as a formula for the X position of the BOARD, there are several that could work. We could say that the X of the Board was equal to the thickness of the left end. However, when writing formulas it is best to  avoid using the ends in your code if at all possible . The reason for this is that there are 10 different end \"Types\". We would have to write 10 formulas, one for each end type. See the following picture."
+        },
+        {
+            "type": "image",
+            "data": "image1692.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Example if we said the X position of the Board was equal to the thickness of the left unfinished end and there was no left unfinished end, our code would not work. The part could end up positioned wrong or not appearing in the cabinet at all. So we need to think up a different formula."
+        },
+        {
+            "type": "text",
+            "data": "When writing formulas the easiest thing to do is just to find something in the cabinet that already has the value you need and that will change in the way you want the parameter you are working on to change."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "If you look at the cabinet in 3D you can see that the Deck, the Top Stretchers, and the Nailers are all butted into the left side of the cabinet the same as this BOARD. If the thickness of the end changes the Deck, the Top Stretchers, and the Nailers will all move in relation to the thickness of the end. So we could use the X position of any of these parts as the X position of our board."
+        },
+        {
+            "type": "text",
+            "data": "When choosing what you want to use as the reference for adding intelligence, be sure that you do not choose something that may change later on. As an example, if you relate a part to the size of a mid stile, and later on, you delete the mid stile from the cabinet, the formula you wrote will be invalid."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "We will use the X position of the Deck as the X position of our Board. So our formula will be the X of the Board =  the X of the Deck . Now that we know what our formula is, we only have to trace it through the Object Tree. So we can put it in a language the computer can understand."
+        },
+        {
+            "type": "text",
+            "data": "Open the Object Tree by clicking on one of the ortho   views, then click on \"Object Tree\". We then open the tree up until we find the Deck (notice the BOARD we added is showing right under the cabinet), we highlight the deck and then we click on the parameter we want, the X. We then trace it (the X of the Deck) through the tree starting at the top and working our way down to the X, and the code we come up with is \"CAB.CASE.DE.X\". We write this down so we don't forget it, or highlight the path in the Object Tree path bar (highlighted in the illustration below) to the Windows Clipboard."
+        },
+        {
+            "type": "text",
+            "data": "Open the Object Tree by clicking on one of the ortho   views, then click on \"Object Tree\". We then open the tree up until we find the Deck (notice the BOARD we added is showing right under the cabinet), we highlight the deck and then we click on the parameter we want, the X. We then trace it (the X of the Deck) through the tree starting at the top and working our way down to the X, and the code we come up with is \"CAB.CASE.DE.X\". We write this down so we don't forget it, or highlight the path in the Object Tree path bar (highlighted in the illustration below) to the Windows Clipboard."
+        },
+        {
+            "type": "text",
+            "data": "Open the Object Tree by clicking on one of the ortho   views, then click on \"Object Tree\". We then open the tree up until we find the Deck (notice the BOARD we added is showing right under the cabinet), we highlight the deck and then we click on the parameter we want, the X. We then trace it (the X of the Deck) through the tree starting at the top and working our way down to the X, and the code we come up with is \"CAB.CASE.DE.X\". We write this down so we don't forget it, or highlight the path in the Object Tree path bar (highlighted in the illustration below) to the Windows Clipboard."
+        },
+        {
+            "type": "image",
+            "data": "image181.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image182.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image183.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "Ex1XTrace.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Now we go to the part we want to write the formula for. So while still in the Object Tree click on the BOARD. Then click on the X, this is the parameter we wish to write the formula for."
+        },
+        {
+            "type": "text",
+            "data": "Now we go to the part we want to write the formula for. So while still in the Object Tree click on the BOARD. Then click on the X, this is the parameter we wish to write the formula for."
+        },
+        {
+            "type": "text",
+            "data": "Now we go to the part we want to write the formula for. So while still in the Object Tree click on the BOARD. Then click on the X, this is the parameter we wish to write the formula for."
+        },
+        {
+            "type": "image",
+            "data": "Ex1BoardX.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "With the X highlighted, click on the \"Edit parameter\" button in the Object Tree. This will open the \"Parameter Edit\" screen. Notice the \"Name\" of the parameter is \"X\" and notice that it is set to a \"Value\" of 3/4\"."
+        },
+        {
+            "type": "text",
+            "data": "With the X highlighted, click on the \"Edit parameter\" button in the Object Tree. This will open the \"Parameter Edit\" screen. Notice the \"Name\" of the parameter is \"X\" and notice that it is set to a \"Value\" of 3/4\"."
+        },
+        {
+            "type": "text",
+            "data": "With the X highlighted, click on the \"Edit parameter\" button in the Object Tree. This will open the \"Parameter Edit\" screen. Notice the \"Name\" of the parameter is \"X\" and notice that it is set to a \"Value\" of 3/4\"."
+        },
+        {
+            "type": "image",
+            "data": "Ex1EditX1.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Select Equation, the \"Add\", \"Delete\", and \"Test\" buttons will all be highlighted. And the \"IF\" line and the \"THEN\" line will also be highlighted."
+        },
+        {
+            "type": "text",
+            "data": "Select Equation, the \"Add\", \"Delete\", and \"Test\" buttons will all be highlighted. And the \"IF\" line and the \"THEN\" line will also be highlighted."
+        },
+        {
+            "type": "text",
+            "data": "Select Equation, the \"Add\", \"Delete\", and \"Test\" buttons will all be highlighted. And the \"IF\" line and the \"THEN\" line will also be highlighted."
+        },
+        {
+            "type": "image",
+            "data": "Ex1EditX2.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The IF Line"
+        },
+        {
+            "type": "text",
+            "data": "The \"If\" line, and the \"THEN\" line, are the lines you will be writing your formula, or code on.  The \"IF\" line is used to set a \"condition\" that must be true before your code will execute . For example you could say  Cab.Name = 'Sink' this means that the name of the cabinet must be \"Sink\" or the program will not execute the code on the THEN line. We are not going to go into it that deep at this time, so we will not be changing anything on the IF line. You will notice that the IF line has a 1 on it, 1 means true, so anything we write on the THEN line will execute."
+        },
+        {
+            "type": "text",
+            "data": "The THEN Line"
+        },
+        {
+            "type": "text",
+            "data": "The \"THEN\" line is where we write what we want the program to do, if the condition on the IF line is true. This is where we will write the code that we wrote down earlier."
+        },
+        {
+            "type": "text",
+            "data": "Click on the \"THEN\" line and remove the \"0\". Then type in the code we wrote down earlier \"CAB.CASE.DE.X\", do not type in the quotation marks."
+        },
+        {
+            "type": "text",
+            "data": "Click on the \"THEN\" line and remove the \"0\". Then type in the code we wrote down earlier \"CAB.CASE.DE.X\", do not type in the quotation marks."
+        },
+        {
+            "type": "text",
+            "data": "Click on the \"THEN\" line and remove the \"0\". Then type in the code we wrote down earlier \"CAB.CASE.DE.X\", do not type in the quotation marks."
+        },
+        {
+            "type": "text",
+            "data": "Note:  It makes no difference to the computer if you type your code all in upper case letters, or all in lower case letters, or in some \"Combination\" of the two."
+        },
+        {
+            "type": "text",
+            "data": "Testing your Formula"
+        },
+        {
+            "type": "text",
+            "data": "After typing in the code you always want to \"Test\" your code to make sure it is working."
+        },
+        {
+            "type": "text",
+            "data": "Click on the \"Test\" Button. In the \"Test Result\" area it should say \"Condition returned: True. Equation returned: 3/4.\" Or whatever value you were expecting."
+        },
+        {
+            "type": "text",
+            "data": "Click on the \"Test\" Button. In the \"Test Result\" area it should say \"Condition returned: True. Equation returned: 3/4.\" Or whatever value you were expecting."
+        },
+        {
+            "type": "text",
+            "data": "Click on the \"Test\" Button. In the \"Test Result\" area it should say \"Condition returned: True. Equation returned: 3/4.\" Or whatever value you were expecting."
+        },
+        {
+            "type": "image",
+            "data": "image3177.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Click on \"OK\". This will return you to the Object Tree and you will see the result of your equation."
+        },
+        {
+            "type": "text",
+            "data": "Click on \"OK\". This will return you to the Object Tree and you will see the result of your equation."
+        },
+        {
+            "type": "text",
+            "data": "Click on \"OK\". This will return you to the Object Tree and you will see the result of your equation."
+        },
+        {
+            "type": "text",
+            "data": "Look at your cabinet in 3D does it look OK? If not you typed something wrong. See \" Troubleshooting Error Messages \"."
+        },
+        {
+            "type": "text",
+            "data": "Look at your cabinet in 3D does it look OK? If not you typed something wrong. See \" Troubleshooting Error Messages \"."
+        },
+        {
+            "type": "text",
+            "data": "Look at your cabinet in 3D does it look OK? If not you typed something wrong. See \" Troubleshooting Error Messages \"."
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\Parametric_Editing\\Intelligence_Workshop\\1st_Exercise\\First_Exercise_Formula_for_the_X_(Left_Right).htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

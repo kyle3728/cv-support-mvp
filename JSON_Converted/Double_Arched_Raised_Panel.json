@@ -1,0 +1,30 @@
+{
+    "id": "79dc156e-5876-4102-bd21-dd5d6bbb0f93",
+    "title": "Double_Arched_Raised_Panel",
+    "content": [
+        {
+            "type": "image",
+            "data": "image27611.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Creating a Double Arched Raised Panel Door"
+        },
+        {
+            "type": "text",
+            "data": "Follow the steps for creating an  Arched Raised Panel Door  and shape the Top and Bottom Rails."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Arched Raised Panel Door",
+                "uuid": "db5276c5-9c9f-4900-9b13-73dd1549292e",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Tips_Tricks_&_FAQs\\The_Door_Catalog\\Sample_Door_Types\\Double_Arched_Raised_Panel.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

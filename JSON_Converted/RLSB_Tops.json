@@ -1,0 +1,144 @@
+{
+    "id": "f78c6801-8dc2-496e-b62a-b47c77cec8cc",
+    "title": "RLSB_Tops",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top \n > \n \n \n Room Level \n > \n \n Sidebar \n > \n \n Tops"
+        },
+        {
+            "type": "text",
+            "data": "Top \n >"
+        },
+        {
+            "type": "text",
+            "data": "Room Level \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Room Level",
+                "uuid": "9eaa492c-0405-4da7-8e0f-a6ff4e047890",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Sidebar \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Sidebar",
+                "uuid": "f07520a2-0645-4a40-b8d9-a72c15b5c147",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Tops"
+        },
+        {
+            "type": "text",
+            "data": "Tops"
+        },
+        {
+            "type": "text",
+            "data": "Tops -"
+        },
+        {
+            "type": "image",
+            "data": "image70.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image1922.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "After selecting this feature, you will see your Room, with an outline around your Assemblies that are Classified as Base or Vanity and a red dashed outline that appears to be a Counter Top on one of the Walls. This red outline represents the Wall that is  active . The  active  Wall is the Wall that the Counter Top is attached to in the hierarchy of Solid. If you draw a Counter Top with an active Wall other than the Wall the Counter Top is on, and later delete the Wall that was active, you will loose that Counter Top even though it appeared to be attached to a Wall that still exists. Always give thought to which Wall should be the active Wall when creating your Counter Tops."
+        },
+        {
+            "type": "text",
+            "data": "Selecting the correct active Wall (the red outline) is  VERY  important. If you have a different Wall activated than the one you are drawing your Counter Top on you will not see your Counter Top in the proper Elevation view. Another  VERY  important point to note is when using the Bid Center and using /FT the calculation is based on the active Wall. Not having the correct active Wall selected can cause  ERRORS IN YOUR BID ."
+        },
+        {
+            "type": "image",
+            "data": "Warning.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "To change the active Wall, simply click in front of the Wall that you would like to be active. This works equally well on Wall faces and Wall backs."
+        },
+        {
+            "type": "image",
+            "data": "Tops_1.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Creating Counter Tops for your Job requires choosing whether you would like to use the AutoBuild Tops sidebar button or build the Counter Tops using the New Top sidebar button. Simple plans, are easily accomplished using the AutoBuild feature. Click the AutoBuild button, then choose whether you wish the Counter Tops built for the entire Room, or just a single Wall. If you choose the single Wall option, be sure that you have selected the correct Wall as the active Wall."
+        },
+        {
+            "type": "text",
+            "data": "If you choose to use the New Top method, you will see the same outline with a reference to the active Wall as shown above, however, you will be required to use the Counter Top  Shape Editor  that will appear in the ribbonbar."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Shape Editor",
+                "uuid": "44e32c02-bc4b-47e1-a681-21c422325448",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "It is possible to use both methods in a Job, however, if you choose to do so, you must build using the AutoBuild feature before building any Counter Tops by the New Top feature."
+        },
+        {
+            "type": "text",
+            "data": "The AutoBuild feature will delete any existing Counter Tops in the current Room."
+        },
+        {
+            "type": "image",
+            "data": "Warning.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The following graphic is an example of Counter Tops that would require being built using the New Top feature. Note the unique shapes involved, and the different Elevations."
+        },
+        {
+            "type": "image",
+            "data": "image497.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "These Counter Tops were created, one at a time, using the New Top sidebar option. The image below shows the lower Counter Top with the edge attributes defined below."
+        },
+        {
+            "type": "image",
+            "data": "image2500.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "See the  Right Click on a Counter Top  topic for more information on editing your Floors."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Right Click on a Counter Top",
+                "uuid": "f1b21f88-5094-48bb-a0f6-86e01e85b081",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Room_Level\\Side_Bar\\RLSB_Tops.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

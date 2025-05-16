@@ -1,0 +1,87 @@
+# 05\_CHM\_Extraction\_and\_Processing
+
+Execution Mandate\:ChatGPT acts as the lead programmer & auditor for this phase of the project. These guidelines provide the initial structure and direction, but the system should remain flexible to adapt as the project evolves. Prioritize accuracy and long-term maintainability, and proactively identify opportunities for optimization without losing sight of the overall project goals.
+
+> **Context Anchor:**
+> This file defines the supporting knowledge layer for a natural language processing system. The database serves as a **context provider**, not a standalone query engine.
+> The LLM must **always** verify responses against this data and provide **reasoning** for its conclusions.
+> Assume the LLM is the **primary** reasoning engine, but the database is the **final** authority for technical accuracy.
+> Responses should be weighted based on **relevance** and **confidence**, with a clear explanation of logic where possible.
+
+## 📁 Key Objectives
+
+* Extract structured data from CHM files for use in the AI agent framework.
+* Implement automated processing pipelines for extracting text, tables, and code snippets directly from CHM files.
+* Use NLP and text parsing algorithms to improve data quality and consistency.
+* Ensure extracted data is properly cross-referenced with UCS scripts and forum threads.
+* Plan for long-term maintainability and scalability.
+
+---
+
+## 📄 CHM File Conversion and Extraction
+
+### **Tools and Frameworks**
+
+* **CHM Decompiler:** For extracting HTML and image assets from CHM files.
+* **PowerShell:** For batch file scanning and text extraction.
+* **Python (BeautifulSoup, html2text):** For detailed parsing and HTML to plain text conversion.
+* **Pandoc:** For converting between document formats as needed.
+
+### **Extraction Workflow**
+
+1. **Directory Scanning:** Recursively scan all Cabinet Vision help folders for supported file types (e.g., .chm, .htm, .html).
+2. **CHM Decompilation:** Use a CHM decompiler to extract HTML, CSS, JS, and image assets.
+3. **Text Extraction:** Use BeautifulSoup to extract main body text, headers, and bullet points from the extracted HTML.
+4. **Table and List Handling:** Implement custom parsing rules to preserve table structures and nested lists.
+5. **Code Block Identification:** Use regex or custom parsing logic to correctly identify and format code blocks.
+6. **Metadata Extraction:** Capture file paths, titles, and section headers for use in the database index.
+7. **Link Normalization:** Standardize internal links to prevent broken references.
+8. **Batch Processing:** Use multiprocessing to speed up large directory processing.
+9. **Error Handling:** Log and capture parsing errors for manual review.
+
+---
+
+## 🔄 Data Normalization
+
+* Strip HTML tags and unnecessary formatting.
+* Deduplicate entries to prevent data bloat.
+* Normalize headers and section titles for consistency.
+* Implement automated validation checks for data integrity.
+* Use regular expressions to filter out unwanted characters and malformed data.
+
+---
+
+## 🔗 Cross-Referencing
+
+* Use extracted keywords and metadata to link extracted CHM content with UCS scripts and forum threads.
+* Pre-build index files for fast cross-referencing during chatbot queries.
+* Implement automated tagging for improved search accuracy.
+
+---
+
+## 🛠️ Database Integration
+
+* Design a flexible schema to store CHM files, including headers, lists, tables, and code blocks.
+* Use SQLite or PostgreSQL for structured data storage.
+* Implement efficient indexing for fast lookup and cross-referencing.
+
+---
+
+## 🚧 Error Handling
+
+* Capture and log parsing errors to prevent data corruption.
+* Implement automatic retries for transient errors.
+* Use regex and data validation to catch malformed data early in the pipeline.
+* Regularly review error logs for patterns indicating recurring issues.
+
+---
+
+## 📅 Next Steps
+
+* Finalize directory structure for CHM files and extracted assets.
+* Implement batch processing scripts for large data sets.
+* Set up initial database schema for storing extracted files.
+* Test end-to-end data flow from CHM extraction to database storage.
+* Implement automated cross-referencing and data validation.
+* Plan for long-term scalability and data partitioning if needed.
+* Refine text parsing algorithms for more accurate context extraction.

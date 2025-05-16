@@ -1,0 +1,61 @@
+{
+    "id": "028a611c-3c90-4cba-bf9d-9ac17ed15d12",
+    "title": "RL_Lock_Unlock_Numbers",
+    "content": [
+        {
+            "type": "text",
+            "data": "/  Lock/Unlock Assembly Numbers"
+        },
+        {
+            "type": "image",
+            "data": "image376.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image375.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Normal Assembly numbering begins with Assembly #1. Which, is the first Assembly to appear in the Job. However, if an Assembly is added to the Room and it is added to a Wall with a lower number, it will renumber the Assemblies within the Job. Typically,\n    Base Assemblies are numbered before Upper Assemblies. Lower numbers are on the left of a Wall, and the Upper Assemblies continue the numbering sequence that the last Base Assembly was using. If Wall #1 had 5 Assemblies, then Wall #2 would start with\n    Assembly #6, and running left to right, Base then Upper Assemblies, assign numbers to those Assemblies. The next Room will start where the previous Room left off. Deleting or adding Assemblies to an earlier Wall or Room results in renumbering of all\n    subsequent Assemblies, which can sometimes present problems. The lock Assembly Numbers feature prevents this potential problem."
+        },
+        {
+            "type": "text",
+            "data": "CABINET VISION allows locking Assembly numbers that are program generated, or user selected, as well as assigning and locking a unique number to an Assembly."
+        },
+        {
+            "type": "text",
+            "data": "Once locked, the numbers on the Assemblies will not change regardless of where other Assemblies are added or deleted within the Room. If Assembly numbers are locked, and an Assembly is added to that Room, it will receive the next higher number in sequence,\n    assuming the number is not used elsewhere, as in another Room. Assemblies with unlocked numbers all start numbering from the lower left side of Wall #1 in Room #1 and proceed left to right, then left to right for Upper Assemblies on the same Wall,\n    and then to the next Wall following the same numbering sequence. If an Assembly is added to the Base Assemblies on Wall #1, Room #1, ALL Assemblies renumber in all subsequent Rooms. This is prevented if Assembly Numbers are locked."
+        },
+        {
+            "type": "text",
+            "data": "To lock a Job access the Utility/Lock Assembly Numbers as shown below. To unlock, access the same utility, and select the Unlock feature."
+        },
+        {
+            "type": "text",
+            "data": "Remember, this is a Job Level feature, therefore, all Rooms are locked."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Assigning a unique number to specific Assembly"
+        },
+        {
+            "type": "text",
+            "data": "An Assembly can have a unique number assigned to it and locked. The only requirement is that the number is not previously used in the Job. An Assembly number can only exist one time in any Job. To lock a number to a specific Assembly, right click on\n    the Assembly, and select the \"Properties\" option. The \"General\" tab allows assigning a number and locking that number by clicking on the box next to the number. If you wish to assign a unique number, providing it is not previously\n    used, you can do so by replacing the number in the box with the unique number then checking the box. To unlock, remove the check mark. The graphic below shows this option."
+        },
+        {
+            "type": "image",
+            "data": "image377.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish\\Room_Level\\Ribbonbar\\Main_Tab\\View_Group\\RL_Lock_Unlock_Numbers.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

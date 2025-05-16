@@ -1,0 +1,1621 @@
+{
+    "id": "4a3d36f8-0f2e-45c7-856e-38dabd76074d",
+    "title": "RLSBBC_Bid_Methods",
+    "content": [
+        {
+            "type": "text",
+            "data": "Bid Methods"
+        },
+        {
+            "type": "text",
+            "data": "This is a list of the Bid Methods used by the Bid Center. The value that each item returns is typically multiplied by a value you enter during setup."
+        },
+        {
+            "type": "text",
+            "data": "New Bid Methods cannot be created by a user in CABINET VISION, nor can the existing ones be changed."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There are over one hundred Bid Methods plus any Custom Labor Schemes you have created, that you can select from; they are as follows:"
+        },
+        {
+            "type": "text",
+            "data": "% of Material Cost"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter (Whole Number representing the Percentage) and multiplies it by the Total Cost of Materials used in the Job. Material Cost is returned and calculated from the highlighted settings below in the Material Manager."
+        },
+        {
+            "type": "image",
+            "data": "Percent_of_Material_Cost.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Let\u2019s break these highlighted areas down."
+        },
+        {
+            "type": "text",
+            "data": "First let\u2019s start with the Default Markup and Default Tax Rate. The Default Tax Rate comes from the Tax Rate either entered here by you for the Material or is brought over by the  Vendor  selected for the Material. The Default Markup is either entered by you or brought over by the  Vendor  selected for the Material."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Vendor",
+                "uuid": "8ce649b0-d364-432d-87aa-a8138b2f2e0c",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Vendor",
+                "uuid": "ed3b4968-12b1-4a78-b222-a9db08d24be7",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "The Tax Rate percentage is only applied to individual Materials if the Sales Tax field is set to True for that Material. Typically, you will only select Tax for those Materials that \"you\" pay tax on. There is a separate area in the Bid Center to calculate the Tax your \"customer\" pays."
+        },
+        {
+            "type": "text",
+            "data": "The Default Cost field in the Materials Properties area represents the selected Units Cost. So, in the example above the Cost is per Sheet. This Cost is either entered by you or is brought over by the  Vendor  selected for the Material."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Vendor",
+                "uuid": "ed3b4968-12b1-4a78-b222-a9db08d24be7",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "The example below represents one Sheet of the Material we have been looking at. In this case the price will come through to the Bid Center for one Sheet as:"
+        },
+        {
+            "type": "text",
+            "data": "1.00 Sheets x $17.00 = $17.00 \n \n \n 2% Default Markup = $.34 \n \n \n 0% Tax = $0.00 (Because Sales Tax is False) \n \n \n Total = $17.34"
+        },
+        {
+            "type": "text",
+            "data": "1.00 Sheets x $17.00 = $17.00"
+        },
+        {
+            "type": "text",
+            "data": "1.00 Sheets x $17.00 = $17.00"
+        },
+        {
+            "type": "text",
+            "data": "2% Default Markup = $.34"
+        },
+        {
+            "type": "text",
+            "data": "2% Default Markup = $.34"
+        },
+        {
+            "type": "text",
+            "data": "0% Tax = $0.00 (Because Sales Tax is False)"
+        },
+        {
+            "type": "text",
+            "data": "0% Tax = $0.00 (Because Sales Tax is False)"
+        },
+        {
+            "type": "text",
+            "data": "Total = $17.34"
+        },
+        {
+            "type": "text",
+            "data": "Total = $17.34"
+        },
+        {
+            "type": "text",
+            "data": "The final Material Property that will affect % of Material Cost is the Waste field. The Waste Percentage entered for the Material in the Material Manager will be added, in this case, to the number of Sheets represented in the Job."
+        },
+        {
+            "type": "text",
+            "data": "% of Running Total"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method will allow you to specify a % of the Running Total of the Bid Methods directly above it in the list of Bid Methods in the Rate Table."
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method is similar to % of Sub Total below but does not have a restriction for Catalog assignment."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "% of Sub Total"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method will allow you to specify a % of the Subtotal of the Bid Method directly above it in the list of Bid Methods in the Rate Table."
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method only works when the Rate Table is assigned to your specific Catalog(s). To do this click Catalogs in the sidebar from inside the Bid Center. Go into Internal Mode and select the Catalog. You will see the Rate Table option here. Simply click in this field and select the Rate Table utilizing % of Sub Total in it."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "PercentOfSubTotal.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "A Specific Amount"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and adds it to your Bid as a line item."
+        },
+        {
+            "type": "text",
+            "data": "Labor: (Name of your Custom Labor Scheme)"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the Labor calculations from your selected  Labor Scheme  and adds it to your Bid."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Labor Scheme",
+                "uuid": "a956a93c-6976-4d6b-abe5-332081492e4b",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Per 45 Corner Assembly"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total number of 45 Corner Assemblies in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per 90 Corner Assembly"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total number of 90 Corner Assemblies in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Adjustable Shelf"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total number of Adjustable Shelves in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Applied Molding Miter"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total number of Miter Joints on Moldings Classified as Applied in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Arc In Part Shape"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total number of Arcs in Part Shapes in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Arc In Top Shape"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total number of Arcs in Counter Top Shapes in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Assembly"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the Total number of Assemblies in your Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Assembly Opening"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total number of Face Openings in all Assemblies in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Base Assembly"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the Total number of Assemblies Classified as Base in your Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Base Board Miter"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total number of Miter Joints on Moldings Classified as Base Board in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Bead Molding Miter"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total number of Miter Joints on Moldings Classified as Bead in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Casing Miter"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total number of Miter Joints on Moldings Classified as Casing in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Ceiling Molding Miter"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total number of Miter Joints on Moldings Classified as Ceiling in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Chair Rail Miter"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total number of Miter Joints on Moldings Classified as Chair Rail in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Closet Door/Drawer Assembly"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total number of Closet Door/Drawer Assemblies in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Closet Horizontal Assembly"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total number of Closet Horizontal Assemblies in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Closet Vertical Assembly"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total number of Closet Vertical Assemblies in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Crown Miter"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total number of Miter Joints on Moldings Classified as Crown in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Cube"
+        },
+        {
+            "type": "image",
+            "data": "Warning.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method is only available to Stock Catalogs."
+        },
+        {
+            "type": "text",
+            "data": "Per Cubic Foot of Assemblies"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the Cubic Foot of Assemblies in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Cubic Meter of Assemblies"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the Cubic Meter of Assemblies in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Dado Operation"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total number of Operations Classified Dadoes in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Door"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the Total number of Doors in the Job. If you want Drawer Fronts and False Fronts included in this Method make sure to enable these options in  Options ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Options",
+                "uuid": "7e1302f3-f822-4514-8966-2dc56ceef32e",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Per Door Pull"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total number of Door Knobs/Pulls in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Drawer"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the Total number of Drawer Boxes in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Drawer Front"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total number of Drawer Fronts in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Drawer Guide"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total number of Drawer Guides in the Job. Keep in mind this Bid Method counts \"each\u201d Drawer Guide not each \"pair\u201d of Drawer Guides."
+        },
+        {
+            "type": "text",
+            "data": "Per Drawer Pull"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total number of Drawer Knobs/Pulls in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Drawer Stretcher"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total number of Drawer Stretchers in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Drill Punch Operation"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total number of Operations Classified as Drills/Boring in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Face Blank Panel Section"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total number of Blank Panel Face Sections in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Face Open Section"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total number of Open Face Sections in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Face Panels Section"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total number of Panel Face Sections in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per False Front"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total number of False Fronts in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Filler"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total number of Objects Classified as Filler in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Finished Back"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total number of Finished Backs in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Finished End"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total number of Finished Ends in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Fixed Shelf"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total number of Fixed Shelves in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Glass Adj Shelf"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total number of Glass Adjustable Shelves in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Gusset"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total number of Gussets in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Hanging Rod"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total number of Hanging Rods in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Hinge"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total number of Hinges in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Hour of Accessory Labor"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total Labor Hours calculated by CABINET VISION. Labor Values for Accessories come from the Accessory."
+        },
+        {
+            "type": "image",
+            "data": "PerHourOfAccessoryLabor.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Per Hour of Assembly Labor"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total Labor Hours calculated by CABINET VISION. Labor Values for Assembly come from the Object\u2019s Labor Property."
+        },
+        {
+            "type": "image",
+            "data": "PerHourOfAssemblyLabor.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Per Hour of Drawer Labor"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total Labor Hours calculated by CABINET VISION. Labor Values for Drawer Boxes come from the Drawer/Roll-Out Construction's Labor Per Box value used for the Drawer."
+        },
+        {
+            "type": "image",
+            "data": "image745.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Per Hour of Parts Labor"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total Labor Hours calculated by CABINET VISION. Labor Values for Parts come from the  Part Manager . Each Part contained in the Part Catalog has two Labor Settings. The first setting is Labor Setup, this value represents a one time Labor Cost in minutes for this Part per Job. The next setting is Labor Each, this value represents an incremental value based on each of these Parts within the Job."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Part Manager",
+                "uuid": "f4a43f08-b40b-442c-8f03-a96c2a64640f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Per Hour of Roll Out Labor"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total Labor Hours calculated by CABINET VISION. Labor Values for Roll-Outs come from the Drawer - Roll-Out Construction's Labor Per Box value used for the Roll-Out."
+        },
+        {
+            "type": "image",
+            "data": "image745.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Per Hour of Total Labor"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total Labor Hours calculated by CABINET VISION. Labor Values for Total Labor come from a Total of all the above Labor Bid Methods."
+        },
+        {
+            "type": "text",
+            "data": "Per Interior Hanging Section"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total number of Hanging Interior Sections in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Interior Open Section"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total number of Open Interior Sections in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Light Rail Miter"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total number of Miter Joints on Moldings Classified as Light Rail in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Lineal Foot of 45 Corner"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total Lineal Feet of Assemblies Classified as 45 Corner in your Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Lineal Foot of 90 Corner"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total Lineal Feet of Assemblies Classified as 90 Corner in your Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Lineal Foot of Applied Molding"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the Lineal Feet of Molding Classified as Applied in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Lineal Foot of Assemblies"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total Lineal Feet of all Assemblies in your Job. The Lineal Feet of Assemblies is calculated automatically by Solid by adding the Length of all Assemblies in the Job together."
+        },
+        {
+            "type": "text",
+            "data": "Per Lineal Foot of Base"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total Lineal Feet of Assemblies Classified as Base in your Job. The Lineal Feet of Base Class Assemblies is calculated automatically by CABINET VISION by adding the Length of all Base Classed Assemblies in the Job together."
+        },
+        {
+            "type": "text",
+            "data": "Per Lineal Foot of Base Board"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the Lineal Foot of Molding Classified as Base Board in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Lineal Foot of Bead Molding"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the Lineal Feet of Molding Classified as Bead in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Lineal Foot of Casing"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the Lineal Feet of Molding Classified as Casing in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Lineal Foot of Ceiling Molding"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the Lineal Feet of Molding Classified as Ceiling in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Lineal Foot of Chair Rail"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the Lineal Feet of Molding Classified as Chair Rail in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Lineal Foot of Closet Door/Drawer"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total Lineal Feet of Assemblies Classified as Closet Door/Drawer in your Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Lineal Foot of Closet Horizontal"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total Lineal Feet of Assemblies Classified as Closet Horizontal in your Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Lineal Foot of Closet Vertical"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total Lineal Feet of Assemblies Classified as Closet Vertical in your Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Lineal Foot of Counter Top"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the Lineal Foot of the Counter Top."
+        },
+        {
+            "type": "text",
+            "data": "Per Lineal Foot of Crown"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the Lineal Feet of Molding Classified as Crown in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Lineal Foot of Edge Banding"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the Lineal Foot of Edge Banding used in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Lineal Foot of Filler"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total Lineal Feet of Assemblies Classified as Filler in your Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Lineal Foot of Light Rail"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the Lineal Feet of Molding Classified as Light Rail in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Lineal Foot of Molding"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the Lineal Feet of Molding used in the Job. This is a Lump Sum of all Molding Types in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Lineal Foot of Scribe"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the Lineal Feet of Molding Classified as Scribe in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Lineal Foot of Splash"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the Lineal Feet of Splash in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Lineal Foot of Standard"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total Lineal Feet of Assemblies Classified as Standard in your Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Lineal Foot of Tall"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total Lineal Feet of Assemblies Classified as Tall in your Job. The Lineal Feet of Tall Assemblies is calculated automatically by CABINET VISION by adding the Length of all Tall Assemblies in the Job together."
+        },
+        {
+            "type": "text",
+            "data": "Per Lineal Foot of Toe Assembly"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total Lineal Feet of Assemblies Classified as Toe Assembly in your Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Lineal Foot of Toe Kick"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total Lineal Feet of Toe Kick in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Lineal Foot of Top Edging"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the Lineal Feet of Counter Top Edging in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Lineal Foot of Upper"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total Lineal Feet of Assemblies Classified as Wall in your Job. The Lineal Feet of Upper is calculated automatically by CABINET VISION by adding the Length of all Wall Assemblies in the Job together."
+        },
+        {
+            "type": "text",
+            "data": "Per Lineal Foot of Vanity"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total Lineal Feet of Assemblies Classified as Vanity in your Job. The Lineal Feet of Vanity is calculated automatically by CABINET VISION by adding the Length of all Vanity Assemblies in the Job together."
+        },
+        {
+            "type": "text",
+            "data": "Per Lineal Meter of 45 Corner"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total Lineal Meter of Assemblies Classified as 45 Corner in your Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Lineal Meter of 90 Corner"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total Lineal Meter of Assemblies Classified as 90 Corner in your Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Lineal Meter of Applied Molding"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the Lineal Meter of Molding Classified as Applied in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Lineal Meter of Assemblies"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total Lineal Meter of all Assemblies in your Job. The Lineal Meter of Assemblies is calculated automatically by CABINET VISION by adding the Length of all Assemblies in the Job together."
+        },
+        {
+            "type": "text",
+            "data": "Per Lineal Meter of Base"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total Lineal Meter of all Assemblies Classified as Base in your Job. The Lineal Meter of Base is calculated automatically by CABINET VISION by adding the Length of all Base Assemblies in the Job together."
+        },
+        {
+            "type": "text",
+            "data": "Per Lineal Meter of Base Board"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the Lineal Meter of Molding Classified as Base Board in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Lineal Meter of Bead Molding"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the Lineal Meter of Molding Classified as Bead in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Lineal Meter of Casing"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the Lineal Meter of Molding Classified as Casing in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Lineal Meter of Ceiling Molding"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the Lineal Meter of Molding Classified as Ceiling in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Lineal Meter of Chair Rail"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the Lineal Meter of Molding Classified as Chair Rail in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Lineal Meter of Closet Door/Drawer"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total Lineal Meter of Assemblies Classified as Closet Door/Drawer in your Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Lineal Meter of Closet Horizontal"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total Lineal Meter of Assemblies Classified as Closet Horizontal in your Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Lineal Meter of Closet Vertical"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total Lineal Meter of Assemblies Classified as Closet Vertical in your Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Lineal Meter of Counter Top"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the Lineal Meter of the Counter Top."
+        },
+        {
+            "type": "text",
+            "data": "Per Lineal Meter of Crown"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the Lineal Meter of Molding Classified as Crown in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Lineal Meter of Edge Banding"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the Lineal Meter of Edge Banding used in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Lineal Meter of Filler"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total Lineal Meter of Assemblies Classified as Filler in your Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Lineal Meter of Light Rail"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the Lineal Meter of Molding Classified as Light Rail in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Lineal Meter of Molding"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the Lineal Meter of Molding used in the Job. This is a Lump Sum of all Molding Types in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Lineal Meter of Scribe"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the Lineal Meter of Molding Classified as Scribe in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Lineal Meter of Splash"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the Lineal Meter of Splash in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Lineal Meter of Standard"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total Lineal Meter of Assemblies Classified as Standard in your Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Lineal Meter of Tall"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total Lineal Meter of all Assemblies Classified as Tall in your Job. The Lineal Meter of Tall is calculated automatically by CABINET VISION by adding the Length of all Tall Assemblies in the Job together."
+        },
+        {
+            "type": "text",
+            "data": "Per Lineal Meter of Toe Assembly"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total Lineal Meter of Assemblies Classified as Toe Assembly in your Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Lineal Meter of Toe Kick"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total Lineal Meter of Toe Kick in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Lineal Meter of Top Edging"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the Lineal Meter of Counter Top Edging in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Lineal Meter of Upper"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total Lineal Meter of all Assemblies Classified as Wall in your Job. The Lineal Meter of Upper is calculated automatically by CABINET VISION by adding the Length of all Upper Assemblies in the Job together."
+        },
+        {
+            "type": "text",
+            "data": "Per Lineal Meter of Vanity"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total Lineal Meter of all Assemblies Classified as Vanity in your Job. The Lineal Meter of Vanity is calculated automatically by\u00a0CABINET VISION by adding the Length of all Vanity Assemblies in the Job together."
+        },
+        {
+            "type": "text",
+            "data": "Per Molding Miter"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total number of Molding Miter Joints in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Part"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the Total number of Parts in your Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Piece of Molding"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total pieces of Molding used in the Job. This is a Lump Sum of all Molding Types in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Pound"
+        },
+        {
+            "type": "image",
+            "data": "Warning.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method is only available to Stock Catalogs."
+        },
+        {
+            "type": "text",
+            "data": "Per Pull"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total number of Knobs/Pulls in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Roll Out"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total number of Roll-Outs in your Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Roll Out Shelf"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total number of Roll Out Shelves in your Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Route Operation"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total number of Route Operations in your Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Scribe Miter"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total number of Miter Joints on Moldings Classified as Scribe in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Shelf"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the Total number of Shelves in your Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Shoe Cubbie"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total number of Closet Shoe Cubbies in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Shoe Shelf"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total number of Shoe Shelves in your Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Sliding Door Plate"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total number of Sliding Door Plates in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Sliding Door Rail"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total number of Sliding Door Rails in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Square Foot of Assembly Face"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the Square Foot of the Assemblies Face. CABINET VISION considers the entire Length and Width of the Assembly Face to calculate this value. See the figure of the Base Cabinet below. The highlighted area of the Cabinet is what CABINET VISION considers the \"Face\u201d."
+        },
+        {
+            "type": "image",
+            "data": "image608.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Per Square Foot of Counter Top"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the Square Foot of the Counter Tops overall Surface area. CABINET VISION considers the entire Length and Width of the Counter\u2019s top surface to calculate this value."
+        },
+        {
+            "type": "text",
+            "data": "Per Square Foot of Doors"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the Total Square Feet of Doors in the Job. If you want Drawer Fronts and False Fronts included in this Method make sure to enable these options in  Options ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Options",
+                "uuid": "7e1302f3-f822-4514-8966-2dc56ceef32e",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Per Square Foot of Finished Area"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the Total Square Feet of Finished Area in the Job. Finished Area is calculated automatically by CABINET VISION and includes Finished Ends and Finished Backs. It will also include all Interior Surfaces if the Cabinet is marked as Exposed Interior."
+        },
+        {
+            "type": "text",
+            "data": "Per Square Foot of Finished Back"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total Square Feet of Finished Backs in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Square Foot of Finished End"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total Square Feet of Finished Ends in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Square Foot of Splash"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the Square Feet of Splash in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Square Meter of Assembly Face"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the Square Meter of the Assemblies Face. CABINET VISION considers the entire Length and Width of the Assembly Face to calculate this value. See the figure of the Base Cabinet above. The highlighted area of the Cabinet is what CABINET VISION considers the \"Face\u201d."
+        },
+        {
+            "type": "text",
+            "data": "Per Square Meter of Counter Top"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the Square Meter of the Counter Tops overall Surface area. CABINET VISION considers the entire Length and Width of the Counter\u2019s top surface to calculate this value."
+        },
+        {
+            "type": "text",
+            "data": "Per Square Meter of Doors"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the Total Square Meter of Doors in the Job. If you want Drawer Fronts and False Fronts included in this Method make sure to enable these options in  Options ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Options",
+                "uuid": "7e1302f3-f822-4514-8966-2dc56ceef32e",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Per Square Meter of Finished Area"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the Total Square Meter of Finished Area in the Job. Finished Area is calculated automatically by CABINET VISION and includes Finished Ends and Finished Backs. It will also include all Interior Surfaces if the Cabinet is marked as Exposed Interior."
+        },
+        {
+            "type": "text",
+            "data": "Per Square Meter of Finished Back"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total Square Meter of Finished Backs in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Square Meter of Finished End"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total Square Meter of Finished Ends in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Square Meter of Splash"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the Square Meter of Splash in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Standard Assembly"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the Total number of Assemblies Classified as Standard in your Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Tall Assembly"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the Total number of Assemblies Classified as Tall in your Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Toe Assembly"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the Total number of Assemblies Classified as Toe Assembly in your Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Top"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total number of Counter Tops in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Top Cutout"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total number of Counter Top Cut Outs in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Top Edge Miter"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total number of Miter Joints on Counter Top Edging in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Top Miter"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total number of Miter Joints on Counter Tops in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Top Part"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total number of Assembly Tops in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Upper Assembly"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the Total number of Assemblies Classified as Upper in your Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Vanity Assembly"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the Total number of Cabinets Classified as Vanity in your Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Web Frame"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the total number of Web Frames in the Job."
+        },
+        {
+            "type": "text",
+            "data": "Per Wire Basket"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method takes the value you enter and multiplies it by the Total number of Wire Baskets in your Job."
+        },
+        {
+            "type": "text",
+            "data": "Use Assembly Catalog Pricing"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method can be used to set an Up-charge or Discount to Assembly Pricing that is brought over to the Bid Center. By Default any Assembly that has a Value for Price in its Properties will come over and be added to the Bid by default.  This Bid Method, if used with no values, would actually double the Price values applied to the Assemblies.  The best way to explain this Bid Method is by example. The image below represents what you would see with no active Rate Table and you bring in a Std Base with a Price of $100.00."
+        },
+        {
+            "type": "image",
+            "data": "image3566.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Without utilizing this Bid Method in your Rate Table there is no way to either Up-charge or Discount this price. The graphic below demonstrates how to use this Bid Method using the Markup field to give a 20% (-120 Markup) discount on the Assembly demonstrated above."
+        },
+        {
+            "type": "image",
+            "data": "Discount.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "And here is the result:"
+        },
+        {
+            "type": "image",
+            "data": "image3567.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "You could do a 20% Up-Charge utilizing the same Method. You would set the Markup to 80% instead."
+        },
+        {
+            "type": "text",
+            "data": "Use Door Catalog Pricing"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method does not use the Value field. It takes the Prices you enter for Doors, Drawer Fronts, False Fronts, and Panels and their sub-components and totals them for the Job."
+        },
+        {
+            "type": "text",
+            "data": "There are several places where this data is retrieved."
+        },
+        {
+            "type": "text",
+            "data": "Door Catalog"
+        },
+        {
+            "type": "text",
+            "data": "The first area where Door Catalog Pricing is retrieved is from the Door Styles Price fields. You can add a price either \"Per Door\u201d or \"Per SqFt\u201d or even a combination of both. The highlighted portion of the image below shows these fields."
+        },
+        {
+            "type": "image",
+            "data": "Door_Catalog_Cost.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Door/Drawer Front Material Schedules"
+        },
+        {
+            "type": "text",
+            "data": "The next area where Door Catalog Pricing is retrieved is from the Material Schedule(s) assigned to the Door Style. You can add a price either Per Door (Cost/Door) or Per Square Foot or Meter (Cost/SqFt/SqM) or even a combination of both. These fields can be used to add Door Pricing Up-charges based on the Material(s) utilized by the Door Style. The highlighted portion of the image below shows these fields."
+        },
+        {
+            "type": "image",
+            "data": "Door_MatSched_Cost.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Door Profiles"
+        },
+        {
+            "type": "text",
+            "data": "The next area where Door Catalog Pricing is retrieved is from the Profile(s) assigned to the Door Style. You can add a price either \"Per Door\u201d or \"Per SqFt\u201d or even a combination of both. These fields can be used to add Door Pricing Up-charges based on the Profile(s) utilized by the Door Style. The highlighted portion of the image below shows these fields."
+        },
+        {
+            "type": "text",
+            "data": "The Per SqFt Price entered here represents the Square Footage of the Door that the Profile is assigned to."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image5696.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Use Drawer Catalog Pricing"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method does not use the Value field. It takes the Price you enter for Drawer Box(es) in the Drawer/Roll Out Construction and totals them for the Job. The highlighted portion of the image below shows the entry field."
+        },
+        {
+            "type": "image",
+            "data": "image1105.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Use Molding Catalog Pricing"
+        },
+        {
+            "type": "text",
+            "data": "Similar to % of Material Cost this Bid Method pulls pricing from Molding Materials (Molding you Buy) in the Material Manager. See the Use Profile Catalog Bid Method for Molding you make from the Molding Manager."
+        },
+        {
+            "type": "text",
+            "data": "Use Part Catalog Pricing"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method does not use the Value field. It takes the Price and or Formula you enter for Part(s) in the  Part Manager  and totals them for the Job. When you are in  Internal Mode  the Part Pricing will be broken out at the main level of the Bid Center. Parts will be sorted in the list alphabetically by the Part name."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Part Manager",
+                "uuid": "f4a43f08-b40b-442c-8f03-a96c2a64640f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Internal Mode",
+                "uuid": "d53d04c5-9929-4f50-a90d-7b83595d804d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image833.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Parts are also broken out for each Cabinet in the Catalog Level of the Bid Center."
+        },
+        {
+            "type": "image",
+            "data": "image834.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Use Profile Catalog Pricing"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method does not use the Value field. It takes the Price you enter for Molding(s) in the  Molding Manager  and totals them for the Job. The Cost Per Job field would be a one time Cost when the selected Molding is used in a Job. Cost Per Strip would represent each Piece of Molding. Cost Per FT/Meter would represent the Price you charge for each Foot/Meter of Molding. The highlighted portion of the image below shows the entry fields."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Molding Manager",
+                "uuid": "f10529ba-0568-4858-98c8-258ccf936097",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "Molding_Manager_Pricing.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Use Roll Out Catalog Pricing"
+        },
+        {
+            "type": "text",
+            "data": "This Bid Method does not use the Value field. It takes the Price you enter for Roll-Out(s) in the Drawer/Roll Out Construction and totals them for the Job. The highlighted portion of the image below shows the entry field."
+        },
+        {
+            "type": "image",
+            "data": "image1106.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\RLSBBC_Bid_Methods.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><link rel="stylesheet" type="text/css" href="../../../_rhdefault.css"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=WINDOWS-1252"/>
+  <meta name="generator" content="Adobe RoboHelp 2022"/>
+  <title>JavaScript Functions</title>
+  <meta name="topic-status" content="Draft"/>
+  <link rel="stylesheet" type="text/css" href="../../../assets/css/default.css"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/><script type="text/javascript" src="../../../ehlpdhtm.js"></script></head>
+<body>
+  <h1>JavaScript Functions</h1>
+  <p data-renderer-start-pos="1">The table below represents “global” functions that are exposed in the CV JS API. Additional function will be added based on user requests.</p>
+  <table border="1" cellpadding="1" cellspacing="1" style="border-collapse:collapse; width:100%">
+    <colgroup>
+      <col style="width: 179px;"/>
+      <col style="width: 904px;"/>
+    </colgroup>
+    <tbody>
+      <tr>
+        <td colspan="2" style="background-color: #6FC7C7"><strong data-renderer-mark="true">Methods</strong></td>
+      </tr>
+      <tr>
+        <td colspan="2" style="background-color: #808080"><strong data-renderer-mark="true">alert(string message)</strong></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>Displays a message box with the given message</p>
+          <p>example:</p>
+          <p><code>var name = ‘John Doe’;</code></p>
+          <p><code>alert(&#39;Hello &#39; + name);</code></p>
+        </td>
+      </tr>
+      <tr>
+        <td style="">string message</td>
+        <td style="">Text to display</td>
+      </tr>
+      <tr>
+        <td colspan="2" style="background-color: #808080"><strong data-renderer-mark="true">Imperial(double value)</strong></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>Convert a value to imperial (value / 25.4)</p>
+          <p>example:</p>
+          <p><code>var result = Imperial(32);</code></p>
+        </td>
+      </tr>
+      <tr>
+        <td>double value</td>
+        <td>Value to convert to an imperial value</td>
+      </tr>
+      <tr>
+        <td colspan="2" style="background-color: #808080"><strong data-renderer-mark="true">Metric(double value)</strong></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>Convert a value to metric (value * 25.4)</p>
+          <p>example:</p>
+          <p><code>var result = Metric(1);</code></p>
+        </td>
+      </tr>
+      <tr>
+        <td>double value</td>
+        <td>Value to convert to a metric value</td>
+      </tr>
+    </tbody>
+  </table>
+  <p data-renderer-start-pos="1"><br/>
+    <span><a id="_cvMath_API"></a>A _cvMath API is available for exposing </span><span data-highlighted="true" data-vc="highlighted-text">CABINET VISION</span><span> internal math functions. These are currently limited to conditional checks that are an issue because of the way </span><span data-highlighted="true" data-vc="highlighted-text"><span data-testid="acronym-highlight">IEEE</span></span><span> floating point numbers work. Because of the quirks of </span><span data-highlighted="true" data-vc="highlighted-text">IEEE</span><span> numbers, safe conditional checks need to be carried out with a tolerance. </span><span data-highlighted="true" data-vc="highlighted-text">CABINET VISION</span><span> Internally uses a conditional tolerance of 1.19e-04 for parameter evaluation.</span>
+  </p>
+  <table border="1" cellpadding="1" cellspacing="1" style="border-collapse:collapse; width:100%">
+    <colgroup>
+      <col/>
+      <col/>
+    </colgroup>
+    <tbody>
+      <tr>
+        <td colspan="2" style="background-color: #6FC7C7"><strong data-renderer-mark="true">_cvMath API Methods</strong></td>
+      </tr>
+      <tr>
+        <td colspan="2" style="background-color: #808080"><strong data-renderer-mark="true">isEQ(double value1, double value2)</strong></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>Determines if the 2 values are equal within the Epsilon tolerance.</p>
+          <p>example:</p>
+          <p style="font-family: &#39;Courier New&#39;;margin-top: 13.5pt;margin-bottom: 13.5pt;margin-left: 15px">var isequal = _cvMath.isEQ(5.12, 5.12);</p>
+        </td>
+      </tr>
+      <tr>
+        <td>bool</td>
+        <td>Values are equal, true or false</td>
+      </tr>
+      <tr>
+        <td colspan="2" style="background-color: #808080"><strong data-renderer-mark="true">isGT(double value1, double value2)</strong></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>Determines if value1 is greater than value2 within an Epsilon tolerance.</p>
+          <p>example:</p>
+          <p style="font-family: &#39;Courier New&#39;;margin-top: 13.5pt;margin-bottom: 13.5pt;margin-left: 15px">var isgt = _cvMath.isGT(5.12, 5.15);</p>
+        </td>
+      </tr>
+      <tr>
+        <td>bool</td>
+        <td>Value 1 &gt; value 2, true or false</td>
+      </tr>
+      <tr>
+        <td colspan="2" style="background-color: #808080"><strong data-renderer-mark="true">isGTE(double value1, double vlaue2)</strong></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>Determines if value1 is greater or equal to value2 within an Epsilon tolerance.</p>
+          <p>example:</p>
+          <p><span style="font-family:&#39;Courier New&#39;;margin-left:15px">var isgte = _cvMath.isGTE(5.12, 5.13);</span></p>
+        </td>
+      </tr>
+      <tr>
+        <td>bool</td>
+        <td>Value 1 &gt;= value 2, true or false</td>
+      </tr>
+    </tbody>
+  </table>
+  <table border="1" cellpadding="1" cellspacing="1" style="border-collapse:collapse; width:100%">
+    <tbody>
+      <tr>
+        <td colspan="2" style="background-color: #808080"><strong data-renderer-mark="true">isLT(double vlaue1, double value2)</strong></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>Determines if value1 is less than value2 within an Epsilon tolerance.</p>
+          <p>example:</p>
+          <p style="font-family: &#39;Courier New&#39;;margin-top: 13.5pt;margin-bottom: 13.5pt;margin-left: 15px">var islt = _cvMath.isLT(5.12, 5.15);</p>
+        </td>
+      </tr>
+      <tr>
+        <td>bool</td>
+        <td>Value 1 &lt; value 2, true or false</td>
+      </tr>
+    </tbody>
+  </table>
+  <table border="1" cellpadding="1" cellspacing="1" style="border-collapse:collapse; width:100%">
+    <tbody>
+      <tr>
+        <td colspan="2" style="background-color: #808080"><strong data-renderer-mark="true">isLTE(double vlaue1, double vlaue2)</strong></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>Determines if value1 is less or equal to value2 within an Epsilon tolerance.</p>
+          <p>example:</p>
+          <p style="font-family: &#39;Courier New&#39;;margin-top: 13.5pt;margin-bottom: 13.5pt;margin-left: 15px">var islte = _cvMath.isLTE(5.12, 5.13);</p>
+        </td>
+      </tr>
+      <tr>
+        <td>bool</td>
+        <td>Value 1 &lt;= value 2, true or false</td>
+      </tr>
+    </tbody>
+  </table>
+  <table border="1" cellpadding="1" cellspacing="1" style="border-collapse:collapse; width:100%">
+    <tbody>
+      <tr>
+        <td colspan="2" style="background-color: #808080"><strong data-renderer-mark="true">isZero(double value)</strong></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>Determines if value is equal to 0 within an Epsilon tolerance.</p>
+          <p>example:</p>
+          <p style="font-family: &#39;Courier New&#39;;margin-top: 13.5pt;margin-bottom: 13.5pt;margin-left: 15px">var zero = _cvMath.isZero(0.01);</p>
+        </td>
+      </tr>
+      <tr>
+        <td>bool</td>
+        <td>Value = 0. true or false</td>
+      </tr>
+    </tbody>
+  </table>
+  <p> </p>
+
+</body></html>

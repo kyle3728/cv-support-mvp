@@ -1,0 +1,77 @@
+{
+    "id": "5430aeaf-8be9-4338-ba1f-505341ecf284",
+    "title": "SL_Door_Sizing",
+    "content": [
+        {
+            "type": "text",
+            "data": "Door Sizing"
+        },
+        {
+            "type": "text",
+            "data": "Door sizing refers to the overall size of a finished Door, not to the dimensions of the individual parts of the Door. \u00a0If you are searching for information on dimensioning of the component Parts, see the  Door Catalog ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Door Catalog",
+                "uuid": "2da09610-ccab-42a9-a5ce-4ad5fa83394a",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Doors are sized in two ways, depending on the  Construction Style  of the Assembly."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Construction Style",
+                "uuid": "e4cbc02a-f458-4c6d-8725-3c8322a55d94",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "For Face Frame Cabinets, the Doors are sized according to the following formula."
+        },
+        {
+            "type": "text",
+            "data": "Clear opening of the Face Frame + \u00a0Door Overlay = \u00a0Door size. Drawer Fronts adopt the same Overlay as the Door."
+        },
+        {
+            "type": "text",
+            "data": "Overlay is a property of a Hinge. As such, it is found on the Hinge Tab of the  Material Manager . A single Door that was to cover a 20\" x 20\" Face Frame opening, using a Hinge with a 1/2\" overlay, would produce a Door that was 21\" x 21\"."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Material Manager",
+                "uuid": "2fed939d-ba55-4f35-94da-993f0e1b392e",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "The Frameless  Style  Assemblies do not use overlay to size Doors. These Assemblies look to the values you have entered in the Assembly Wizard for  Reveals  to determine the Door and Drawer face size. The formula for sizing these Doors is as follows:"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Reveals",
+                "uuid": "3a33e00e-182e-449d-8fa0-b3e602a017ef",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Overall Asembly dimension - Reveals = Door Size(s)."
+        },
+        {
+            "type": "text",
+            "data": "A 20\" (overall dimension) Assembly with 1/8\" reveals all around, would produce a 19 3/4\" x 19 3/4\" Door."
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Tips_Tricks_&_FAQs\\The_Door_Catalog\\SL_Door_Sizing.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

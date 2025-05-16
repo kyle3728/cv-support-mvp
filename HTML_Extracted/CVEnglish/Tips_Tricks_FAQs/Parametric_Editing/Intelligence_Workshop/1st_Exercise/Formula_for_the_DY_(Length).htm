@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><link rel="stylesheet" type="text/css" href="../../../../_rhdefault.css"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=WINDOWS-1252"/>
+  <meta name="topic-status" content="Complete"/>
+  <meta name="generator" content="Adobe RoboHelp 2022"/>
+  <title>First Exercise Formula for the DY (Length)</title>
+  <link rel="StyleSheet" href="../../../../assets/css/default.css" type="text/css"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/><script type="text/javascript" src="../../../../ehlpdhtm.js"></script></head>
+<body>
+  <h1>Formula for the DY (Length)</h1>
+  <p>Look at your cabinet in 3D. Look at it from a front ortho view and click on the BOARD.  Notice where the reference point is located.  When writing code that sizes a part it is important to know where the reference point is.  Because when the part changes size it could also change position, if your not careful how you orient the part.</p>
+  <p>There are several formulas that will work for the DY of the BOARD.  We could say <span style="font-weight: bold;">the width of the cabinet minus the thickness of the two ends</span>.  But we already know to stay away from the ends if we can.  We could say <span style="font-weight: bold;">the width of the cabinet minus 1 1/2&quot;</span>, but if the thickness of the ends changed this code wouldn’t work very well.  Like I said earlier the easiest thing to do is find something in the cabinet that all ready has the value you need and that will change in the way you want the parameter you are working on to change.</p>
+  <p>If you look at the cabinet in 3D you can see that the Deck, the Top Stretchers, and the Nailers are all butted between the sides of the cabinet, the same as this BOARD.  If the thickness of ether end changes the Deck, the Top Stretchers, and the Nailers will all change size in relation to the thickness of the ends.  Also, if the cabinet is stretched so that it is wider, these parts will grow.  So we could use the DY of any of these parts as the DY of our board.  We will use <span style="font-weight: bold;">the DY of the deck</span> for the DY of our BOARD.  So our formula is: <span style="font-weight: bold;">the length of the deck</span>.  So now that we have our formula.  We need to trace it through the object tree to get our code.</p>
+  <ol style="list-style: decimal;">
+    <li class="p">
+      <p class="Indent_1_Bulllet">Click on one of the ortho <img alt="" border="0" height="21" src="../../../../assets/images/image181.gif" style="border: none;" width="45"/><img alt="" border="0" height="21" src="../../../../assets/images/image182.gif" style="border: none;" width="44"/><img alt="" border="0" height="21" src="../../../../assets/images/image183.gif" style="border: none;" width="42"/> views.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">Click on &quot;Object Tree&quot;.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">Open the object tree until you can see the Deck.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">Click on the DY parameter.  Trace it through the tree and it is <span style="font-weight: bold;">Cab.Case.De.Dy</span> write this down, this is the code we need.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">Click on the BOARD and then click on the length (the DY) then click on &quot;Edit&quot;.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">Change from a &quot;Value&quot; to an &quot;Equation&quot;.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">On the THEN line type in the code we came up with <span style="font-weight: bold;">Cab.Case.De.Dy</span>.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">Click on the &quot;Test&quot; button and it should say &quot;Condition returned: True. Equation returned: 34 1/2 or whatever value you were expecting. Click on OK.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">Look at your cabinet in 3D does it look OK?  If not you typed something wrong.  See &quot;<a href="Troubleshooting_Error_Messages.htm">Troubleshooting Error Messages</a>&quot;.</p>
+    </li>
+  </ol>
+  <p>Try changing the size of the cabinet the width, the height and the depth.  The BOARD we added should move and size correctly.  When done put it back to the original size.  You might want to save the cabinet back into your library so you can do the second example exercise later.</p>
+
+</body></html>

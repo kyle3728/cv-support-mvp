@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><link rel="stylesheet" type="text/css" href="../../_rhdefault.css"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=WINDOWS-1252"/>
+  <meta name="generator" content="Adobe RoboHelp 2022"/>
+  <title>Object Snapping</title>
+  <link rel="StyleSheet" href="../../assets/css/default.css" type="text/css"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/><script type="text/javascript" src="../../ehlpdhtm.js"></script></head>
+<body>
+  <h1>Object Snapping</h1>
+  <p>CABINET VISION provides a special kind of cursor snap in addition to the typical grid snap. This allows the cursor to automatically snap to different hot-points on or adjacent to an object; for example, end-points, mid-points, center-points, and intersections. These locations are commonly referenced when creating or editing geometry. For most functions, the cursor will also snap to the origin of the object.</p>
+  <p style="margin-left: 40px;">For example, you may want to create a line that is connected to the end of an arc. Start creating the line by locating the endpoint of the arc. When located, a round <a href="Intro_Object_Snapping.htm#HotPointMarkers">hot-point</a> marker appears on the arc endpoint.</p>
+  <p style="margin-left: 40px;"><img alt="" border="0" height="200" src="../../assets/images/image375.gif" style="border: none;" width="204"/></p>
+  <p style="margin-left: 40px;">Click the hot-point marker to start the line there. The start of the line snaps precisely to the end of the arc, connecting these objects end-to-end.</p>
+  <p>You can choose what types of positions and conditions will automatically be located by enabling or disabling options in <span style="font-weight: bold;"><a href="../File_Menu/Preferences.htm#ToolsTab">Preferences | Tools</a></span>.</p>
+  <h2>General Snapping Shortcut Keys</h2>
+  <p><img alt="" border="0" height="40" src="../../assets/images/zGraphics/Keyboard/alt_key.png" style="border: none;" width="59"/></p>
+  <p>Ignores snap to Grid and Points, and leaves the Smart-Lines angle snap on.</p>
+  <p><img alt="" border="0" height="40" src="../../assets/images/zGraphics/Keyboard/shift_key.png" style="border: none;" width="99"/></p>
+  <p>Activates the &quot;full grid snap&quot; mode, forcing snap to the Grid over a position just aligned with a Point.</p>
+  <p><img alt="" border="0" height="40" src="../../assets/images/zGraphics/Keyboard/ctrl_key.png" style="border: none;" width="67"/></p>
+  <p>Completely ignores snap, including Smart-Lines.</p>
+  <p style="font-weight: bold;"><img alt="" border="0" height="40" src="../../assets/images/zGraphics/Keyboard/ctrl_key.png" style="border: none;" width="67"/> + <img alt="" border="0" height="40" src="../../assets/images/zGraphics/Keyboard/shift_key.png" style="border: none;" width="99"/></p>
+  <p style="font-weight: normal;">Using the <a href="../../Tips_Tricks_FAQs/CAD_Dimensioning.htm">CAD Dimension Tool</a>,  allows the automatic dimensioning of a CAD object when clicking on it.</p>
+  <h2>Dynamic Snapping</h2>
+  <p style="font-weight: normal;">CABINET VISION also has the ability to Snap Dynamically (also known as Assumptive Snapping). When you are in line with a Snap Point on another Object within the Drawing space CABINET VISION will project that position to your location. When this projection along with the associated <a href="Intro_Object_Snapping.htm#HotPointMarkers">hot-point marker</a> is displayed you can be assured that the Object will be placed in-line with that Objects Snap Point.</p>
+  <p style="margin-left: 40px;">For Example you would like to draw two line Parallel to each other. After drawing the first line simply move your cursor in-line with the first lines Start Point and you will see a Snap Line projection assuring you they are in-line.</p>
+  <p style="margin-left: 40px;"><img alt="" border="0" height="228" src="../../assets/images/image376.gif" style="border: none;" width="266"/></p>
+  <h2><a name="HotPointMarkers" id="HotPointMarkers"></a>Hot-point Markers</h2>
+  <p>When the cursor moves over a valid snap location, the located position displays with a hot-point marker and a special cursor appears to identify the type of location.</p>
+  <p>Note: The system will not display a hot-point marker for a particular location type if it is disabled in <span style="font-weight: bold;"><a href="../File_Menu/Preferences.htm#ToolsTab">Preferences | Tools</a></span>.</p>
+  <p>The list below identifies these special cursors:</p>
+  <p> <img alt="" border="0" height="32" src="../../assets/images/image363.gif" style="border: none;" width="32"/> Cursor is snapping to one of the extremities (End Point) of an object.</p>
+  <p> <img alt="" border="0" height="32" src="../../assets/images/image364.gif" style="border: none;" width="32"/> Cursor is snapping to the middle position (Mid Point) of an object.</p>
+  <p> <img alt="" border="0" height="32" src="../../assets/images/image365.gif" style="border: none;" width="32"/> Cursor is snapping to the center of an arc or circle.</p>
+  <p> <img alt="" border="0" height="32" src="../../assets/images/image366.gif" style="border: none;" width="32"/> Cursor is snapping to the intersection of two objects.</p>
+  <p> <img alt="" border="0" height="32" src="../../assets/images/image367.gif" style="border: none;" width="32"/> Cursor has one coordinate aligned with any of the snap points.</p>
+  <p> <img alt="" border="0" height="32" src="../../assets/images/image368.gif" style="border: none;" width="32"/> Editing CAD line is extending along the original angle.</p>
+  <p> <img alt="" border="0" height="32" src="../../assets/images/image369.gif" style="border: none;" width="32"/> Editing CAD line is snapping to one of the smart line angles.</p>
+  <p> <img alt="" border="0" height="32" src="../../assets/images/image370.gif" style="border: none;" width="32"/> Editing CAD line has a locked angle.</p>
+  <p> <img alt="" border="0" height="32" src="../../assets/images/image371.gif" style="border: none;" width="32"/> Cursor is snapping to any of the points in the editing shape.</p>
+  <p> <img alt="" border="0" height="32" src="../../assets/images/image372.gif" style="border: none;" width="32"/> Cursor is snapping to the grid.</p>
+  <p> <img alt="" border="0" height="32" src="../../assets/images/image373.gif" style="border: none;" width="32"/> Cursor is snapping to a <a href="../../Room_Level/Ribbonbar/Main_Tab/Tools_Group/RL_Measure_Tools.htm">Snap Mark</a>.</p>
+  <p> <img alt="" border="0" height="32" src="../../assets/images/image374.gif" style="border: none;" width="32"/> Cursor is snapping to the origin (0,0 position) in the view.</p>
+
+</body></html>

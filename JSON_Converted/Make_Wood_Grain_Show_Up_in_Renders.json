@@ -1,0 +1,31 @@
+{
+    "id": "87b39fdb-008c-4ef2-8e32-b02334ba8f0a",
+    "title": "Make_Wood_Grain_Show_Up_in_Renders",
+    "content": [
+        {
+            "type": "text",
+            "data": "Make Wood Grain Show Up in Renders"
+        },
+        {
+            "type": "text",
+            "data": "Why can't I see any wood grain when rendering?"
+        },
+        {
+            "type": "text",
+            "data": "Make sure you use the Solid Render   tool or the PhotoVision Render   option."
+        },
+        {
+            "type": "image",
+            "data": "image1719.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image1720.gif",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Tips_Tricks_&_FAQs\\FAQs\\HDI-Presentation\\Make_Wood_Grain_Show_Up_in_Renders.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

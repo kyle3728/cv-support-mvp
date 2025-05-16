@@ -1,0 +1,55 @@
+{
+    "id": "570f3a87-c60b-45fb-a5e7-bb0e9310f4e7",
+    "title": "Reports",
+    "content": [
+        {
+            "type": "text",
+            "data": "Reports"
+        },
+        {
+            "type": "image",
+            "data": "image1297.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image104.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The S2M Center comes with thirteen predefined reports, simply select the report from the sidebar you would like to view."
+        },
+        {
+            "type": "text",
+            "data": "Material Summary -   Material summary that groups the sheets used in this run by the material name, than provides a breakout of the sheet sizes used. \n \n \n Part Labels (Opt)  - Part labels (for optimized parts) for Avery label style 5366. \n \n \n Part Labels (Opt)  - Part labels (for optimized parts) with enlarged bar-code field for Avery label style 4013."
+        },
+        {
+            "type": "text",
+            "data": "Material Summary -   Material summary that groups the sheets used in this run by the material name, than provides a breakout of the sheet sizes used."
+        },
+        {
+            "type": "text",
+            "data": "Material Summary -   Material summary that groups the sheets used in this run by the material name, than provides a breakout of the sheet sizes used."
+        },
+        {
+            "type": "text",
+            "data": "Part Labels (Opt)  - Part labels (for optimized parts) for Avery label style 5366."
+        },
+        {
+            "type": "text",
+            "data": "Part Labels (Opt)  - Part labels (for optimized parts) for Avery label style 5366."
+        },
+        {
+            "type": "text",
+            "data": "Part Labels (Opt)  - Part labels (for optimized parts) with enlarged bar-code field for Avery label style 4013."
+        },
+        {
+            "type": "text",
+            "data": "Part Labels (Opt)  - Part labels (for optimized parts) with enlarged bar-code field for Avery label style 4013."
+        }
+    ],
+    "source_file": "NCEnglish_Optimizer\\Sidebar\\Reports.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

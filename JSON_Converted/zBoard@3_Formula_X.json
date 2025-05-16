@@ -1,0 +1,25 @@
+{
+    "id": "8baeeaa3-5a6c-4b6d-8a05-2a29cdee89c5",
+    "title": "zBoard@3_Formula_X",
+    "content": [
+        {
+            "type": "text",
+            "data": "Board@3 Formula X"
+        },
+        {
+            "type": "text",
+            "data": "One half the width of the"
+        },
+        {
+            "type": "text",
+            "data": "cabinet plus one half the thickness"
+        },
+        {
+            "type": "text",
+            "data": "of board@3."
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\Parametric_Editing\\Intelligence_Workshop\\5th_Exercise\\zBoard@3_Formula_X.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

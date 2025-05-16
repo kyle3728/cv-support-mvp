@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head><link rel="stylesheet" type="text/css" href="../../../../RHTMP/Microsoft%20HTML%20HelpLvLZav/_rhdefault.css"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="topic-priority" content="0"/>
+  <meta name="topic-time-estimate" content="0"/>
+  <meta name="topic-comment" content=""/>
+  <meta name="topic-id" content="Writing Formulas"/>
+  <meta name="topic-status" content="Complete"/>
+  <meta name="generator" content="Adobe RoboHelp 2019"/>
+  <title>Writing Formulas</title>
+  <link rel="StyleSheet" href="../../assets/css/default.css" type="text/css"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/><script type="text/javascript" src="../../../../RHTMP/Microsoft%20HTML%20HelpLvLZav/ehlpdhtm.js"></script></head>
+<body>
+  <h1>Writing Formulas</h1>
+  <p><img alt="" border="0" src="../../assets/images/zGraphics/1Products/1AUALL.png" style="border: none; width: 100%; max-width: 102px;"/></p>
+  <p style="font-weight: bold; font-size: 14pt;">Introduction</p>
+  <p>Formulas are used to provide the intelligence to a Part that needs to respond to changes in an Assemblies dimensions. Formulas can be used to position a Part within an Assembly so that the Part remains relative to a pre-selected position. They can also used to provide the Part you have added to an Assembly with logic so that the Part becomes an integral Part and intelligent to the changes in the Assembly.</p>
+  <p>Formulas can also  be used to add  to the dimension of a Part for cut list purposes, yet have the Part remain represented graphically in its proper size.</p>
+  <p><span style="font-weight: bold;">Example:</span> A formula to have a Part appear on the cut list ½ inch larger than the finished size, but have the Part display correct graphically.</p>
+  <p style="font-size: 14pt; font-weight: bold;">Position References</p>
+  <p>Position references vary somewhat depending on whether the item being positioned is a Part, an Assembly, a Wall, or other object. The reference to the Part is as follows:</p>
+  <p><img alt="" border="0" src="../../assets/images/zGraphics/Imported%20Graphics/image415.gif" style="border: none; width: 100%; max-width: 408px;"/></p>
+  <p style="font-weight: bold; font-size: 14pt;"><a name="Nine_Parameters" id="Nine_Parameters"></a>The 9 Basic Parameters</p>
+  <p style="margin-left: 40px;"><span style="font-weight: bold;">X</span> = the horizontal axis</p>
+  <p style="margin-left: 40px;"><span style="font-weight: bold;">Y</span> = the vertical axis</p>
+  <p style="margin-left: 40px;"><span style="font-weight: bold;">Z</span> = the axis perpendicular to X and Y</p>
+  <p style="margin-left: 40px;"><span style="font-weight: bold;">DX</span> = the variable representing width</p>
+  <p style="margin-left: 40px;"><span style="font-weight: bold;">DY</span> = the variable representing length</p>
+  <p style="margin-left: 40px;"><span style="font-weight: bold;">DZ</span> = the variable representing depth or thickness</p>
+  <p style="margin-left: 40px;"><span style="font-weight: bold;">AX</span> = the variable representing rotation on the x axis</p>
+  <p style="margin-left: 40px;"><span style="font-weight: bold;">AY</span> =  the variable representing rotation on the y axis</p>
+  <p style="margin-left: 40px;"><span style="font-weight: bold;">AZ</span> = the variable representing rotation on the z axis</p>
+  <p>These 9 basic parameters define the location and size of all objects within CABINET VISION. Their use is demonstrated below.</p>
+  <p style="font-weight: bold; font-size: 14pt;">Adding Parts</p>
+  <p>To add a Part in an Assembly, complete the following steps.</p>
+  <ol style="list-style: decimal;">
+    <li class="p">
+      <p class="Indent_1_Bulllet">From the Assembly Level Face Ortho View, select the Add Part button in the sidebar.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">Select a Part name from the list on the left. Then press Next. We will use &quot;Board&quot; in the example, however, you may use any Part name. You may also add Part names to the <a href="../../System_Level/Ribbonbar/Main_Tab/Catalogs_Group/Part_Manager/SL_Part_Manager.htm">Parts Manager</a> for use here.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">The next screen is for the Parts Dimension. Change this to the dimensions needed. We will leave this alone, for our example as the dimensions are fine for our use.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">The next screen is how you want the Part Oriented in relationship to the Assembly initially. You can rotate the Part any way you want, so this just saves some time by selecting approximately how you want the Part to come into the picture.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">Review the <a href="../../System_Level/Ribbonbar/Main_Tab/Catalogs_Group/Material_Manager/Ribbonbar/SLMMRB_Finish.htm">Finish</a> for the Part. If you want to change any one of these, select the Finish Type dot. From the right side, pick the appropriate Finish.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">By selecting Finish, you will now return to the orthographic view with the Part showing next to the Assembly.</p>
+    </li>
+  </ol>
+  <p style="font-weight: bold; font-size: 14pt;">Positioning Parts</p>
+  <p>We will now position the Part so it will show properly and have some intelligence when the Assembly is re-sized.</p>
+  <p>If you wish to follow the text below, bring your new Part into the face view of the orthographic views, and position it &quot;to Front&quot;. Leave the dimensions as they are.</p>
+  <p>The initial placement of this Part (&quot;Board&quot;) will be at the bottom, back, left side of the Assembly.   </p>
+  <p>Typically, the Assembly Bottom, Back, and Left End are positioned at X=0, Y=0, and Z=0. The DX, DY, and DZ values are variables. All Objects have a DX, DY, or DZ value. These variables represent the dimensions of the Assembly as well as the Part.</p>
+  <p>The variable DX represents the width of the Assembly, but the value of DX may differ from one Assembly to another. Because we can change the value of DX, until we determine the actual width of an Assembly, DX remains a variable. Once an Assembly is placed on the screen and is sized to 30 inches wide, then and only then does the value of DX = 30.  </p>
+  <p>The same is true for DY, which represents the height of an Assembly. An Assembly with a DY value of 34 ½ would be 34 ½ inches high. DZ represents the depth of an Assembly.</p>
+  <p><span style="font-weight: bold; font-size: 14pt;">The Object Tree</span></p>
+  <p>The <a href="../../Room_Level/Ribbonbar/Main_Tab/Tools_Group/RL_Object_Tree.htm">Object Tree</a> represents the hierarchy of a Job or an Assembly. The Object Tree is similar to an outline of a book. The structure of a book outline gives you major headings (chapter titles), sub-headings (section titles), and sub-sub-headings (paragraph titles), etc. The Job or Assembly tree can also be analogous to the outline of a book, and to a tree and its branching structure. Hence the title &quot;Tree&quot;. Each item of a Job occupies a particular place on the tree and its branching structure similar to the outline described above. If we were to isolate the Assembly, then at the Assembly Level, the same tree structure applies, but to the local, or Assembly Level.</p>
+  <p>The Object tree at the Assembly Level is a ribbonbar option found in a Section or Orthographic View (one of the three faces). From the ribbonbar, select the <a href="../../Room_Level/Ribbonbar/Main_Tab/Tools_Group/RL_Object_Tree.htm" style="font-weight: bold;">Object Tree</a> option.</p>
+  <p>Highlight the name of the Assembly that you are viewing, and you&#39;ll see information regarding its  size. Our 30&quot;W x 34 ½&quot;H x 24&quot;D Assembly would be referred to in the Object Tree as follows:</p>
+  <p style="margin-left: 40px;">DX = 30(Static)</p>
+  <p style="margin-left: 40px;">DY = 34.5(Static)</p>
+  <p style="margin-left: 40px;">DZ = 24(Static)</p>
+  <p style="margin-left: 40px;">X=   represent the starting position of the Assembly along the Wall (from left)</p>
+  <p style="margin-left: 40px;">Y=   represents the elevation of the Assembly (from floor)</p>
+  <p style="margin-left: 40px;">Z=   represents the distance from the back Wall (if any) if any.</p>
+  <p style="margin-left: 40px;">AX   A rotation on the X axis would be listed in degrees here.</p>
+  <p style="margin-left: 40px;">AY   A rotation on the Y axis would be listed in degrees here.</p>
+  <p style="margin-left: 40px;">AZ   A rotation on the Z axis would be listed in degrees here.</p>
+  <p style="margin-left: 40px;"><img alt="" border="0" src="../../assets/images/zGraphics/Extras/Information.png" style="border: none; width: 100%; max-width: 32px;"/>   Assembly rotation is typically limited to the Y axis, if at all.</p>
+  <p>Individual Parts can be viewed in outline form by finding them on the Object Tree menu and highlighting them. When the Part is highlighted, the values represented here are relative to the Part.</p>
+  <p>The X, Y, and Z values, with no other letter designation in front of them, represent the location of the Part on (or In) the Assembly relative to the Assembly.</p>
+  <p>The &quot;D?&quot; (where &quot;?&quot; represents an X, Y, or Z) values represent the overall dimension of the Part. The &quot;A?&quot; values represent any angle of rotation that the Part has undergone.</p>
+  <p style="font-weight: bold; font-size: 14pt;">Writing Formulas</p>
+  <p>Formulas are used to position a Part and to add intelligence to the Part.</p>
+  <p>From the Assembly Level Face Ortho View bring in a Board, (new Part, Board, etc)</p>
+  <p>You will see this Board to the left of your Assembly. It will be positioned so that it sits on the narrow end, and its length (which is along the &quot;Y&quot; Axis) is represented by the variable &quot;DY&quot; on the object tree. It&#39;s width is represented by the variable &quot;DX&quot;, and it&#39;s thickness, by the variable &quot;DZ&quot;.</p>
+  <p>We are going to position this Part in our Assembly as if it were a Mid Stile. To do this, we need to give the Part intelligence in the following areas:</p>
+  <ol style="list-style: decimal;">
+    <li class="p">
+      <p class="Indent_1_Bulllet">It&#39;s height above the floor (Y + Some value so it sits above the deck).</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">It&#39;s position in the middle of the Assembly.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">It&#39;s position at the face of the Assembly.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">It&#39;s relationship in length to the length of the opening it fills.</p>
+    </li>
+  </ol>
+  <p>By providing formulas for these 4 items, we will have given logic to the Part sufficient for it to respond to Assembly dimension changes and remain in the same relative position.</p>
+  <p style="font-weight: bold; font-size: 14pt;">Height of a Part</p>
+  <p>To set height of our new Part,  or the &quot;Y&quot; position, do the following:</p>
+  <ol style="list-style: decimal;">
+    <li class="p">
+      <p class="Indent_1_Bulllet">From the Assembly Level Face Ortho View, select the ribbonbar option<span style="font-weight: bold;"> Object Tree</span>.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">Highlight the Part, &quot;Board&quot;.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">From the small window to the right, highlight the &quot;Y&quot; value.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">Click the Edit button.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">Click the Equation dot.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">Click the Add button.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">Enter a &quot;1&quot; (no quotes though) in the first box. This means &quot;if true&quot;.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">Enter &quot;case.y +4.75&quot; in the second box (again, no quotes). This entry means this. Substitute the &quot;Y value of the case, plus 4  ¾ inches&quot; as the value of &quot;Y&quot; for the board.</p>
+    </li>
+  </ol>
+  <p>The board now looks to the case, and finds its &quot;Y&quot; value, and adds 4 ¾ inches to it for its own value.</p>
+  <p> </p>
+  <p style="font-weight: bold; font-size: 14pt;">Horizontal Position of Part (left to right)</p>
+  <p>To set our new Part to remain in the center of the Assembly, (the &quot;X&quot; position), do the following:</p>
+  <p>From the Assembly Level Face Ortho View, select the ribbonbar option<span style="font-weight: bold;"> Object Tree</span>.</p>
+  <ol style="list-style: decimal;">
+    <li class="p">
+      <p class="Indent_1_Bulllet">Highlight the Part &quot;Board&quot;.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">From the small window to the right, highlight the &quot;X&quot; value.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">Click the Edit button.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">Click the Equation dot.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">Click the Add button</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">Enter a &quot;1&quot; (no quotes though) in the first box. This means &quot;if true&quot;</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">Enter &quot;case.dx/2 - (board.dx/2)&quot; in the second box (again, no quotes).</p>
+    </li>
+  </ol>
+  <p>This entry means this. Use the full length of the case (dx), divided by 2 which represents the &quot;center&quot; of the case. Because we are positioning the &quot;X&quot; position of a Part that is 2 ½ inches wide, ( an &quot;X&quot; position of &quot;0&quot; and a DX of 2 ½&quot; for the board), we need to set the center of the board  to the center of the case. The last part of the equation ( - board.dx/2) provides that  ½ of the DX of the board, (or 1.25&quot;) will be subtracted from the value returned by case.dx/2 value.</p>
+  <p>In the case of the 30 inch wide Assembly, the actual math will be as follows</p>
+  <p style="font-weight: bold;">case.dx/2 = 30/2 or 15&quot;, minus board.dx/2 =2.5/2 or 1.25</p>
+  <p>OR</p>
+  <p style="font-weight: bold;">15-1.25 = 13.75</p>
+  <p>If you click the &quot;Test&quot; button  it should return &quot;condition returned = TRUE&quot; and &quot;formula returned = 13 3/4&quot;.</p>
+  <p>This was one of the more difficult formulas in that we used ½ the value of the case size, not the 0 value of the case X to get our Part positioned.</p>
+  <p>We used the DX value of the board instead on using the numeric value to protect against future changes to the Assembly where the board width might be changed to 3&quot;. By using ½ of the DX value, whatever future width the board assumes, the equation remains valid. No matter how wide the Assembly becomes, our board will always be in the center.</p>
+  <p style="margin-left: 40px;"><img alt="" border="0" src="../../assets/images/zGraphics/Extras/Information.png" style="border: none; width: 100%; max-width: 32px;"/> Whenever possible, use a variable (DX, DY, or DZ) of a Part rather than the constant (the actual dimension of the Part) to modify the position of the Part. That way you add even more flexibility to the formulas of the Assembly.</p>
+  <p style="font-weight: bold; font-size: 14pt;"> </p>
+  <p style="font-weight: bold; font-size: 14pt;">Horizontal Position of Part (front to back)</p>
+  <p>To set depth of our new part,  or the &quot;Z&quot; position, do the following:</p>
+  <ol style="list-style: decimal;">
+    <li class="p">
+      <p class="Indent_1_Bulllet">From the Assembly Level Face Ortho View, select the ribbonbar option <span style="font-weight: bold;"><a href="../../Room_Level/Ribbonbar/Main_Tab/Tools_Group/RL_Object_Tree.htm">Object Tree</a></span>.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">Highlight the Part &quot;Board&quot;.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">From the small window to the right, highlight the &quot;Z&quot; value.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">Click the Edit button.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">Click the Equation dot.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">Click the Add button</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">Enter a &quot;1&quot; (no quotes though) in the first box. This means &quot;if true&quot;</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">Enter &quot;case.dz - board.dz&quot; in the second box (again, no quotes).</p>
+    </li>
+  </ol>
+  <p>This equation provides the following information to Solid.</p>
+  <p>&quot;Position the board at the full depth of the case (DZ) minus the Thickness (DZ) of the board. This assumes a Frameless Cabinet, if the Cabinet had a Face Frame, the &quot;-board.dz&quot; would not be needed.</p>
+  <p style="font-weight: bold; font-size: 14pt;"> </p>
+  <p style="font-weight: bold; font-size: 14pt;">Establish Length of Part</p>
+  <p>To set the length of our new Part,  or the &quot;DY&quot;, do the following:</p>
+  <ol style="list-style: decimal;">
+    <li class="p">
+      <p class="Indent_1_Bulllet">From the Assembly Level Face Ortho View, select the ribbonbar option<span style="font-weight: bold;"> Object Tree</span>.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">Highlight the Part &quot;Board&quot;.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">From the small window to the right, highlight the &quot;DY&quot; value.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">Click the Edit button.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">Click the Equation  dot.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">Click the Add button</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">Enter a &quot;1&quot; (no quotes though) in the first box. This means &quot;if true&quot;</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">Enter &quot;case.dy&quot; in the second box (again, no quotes).</p>
+    </li>
+  </ol>
+  <p>This equation provides the following information to Solid.</p>
+  <p>&quot;Adjust the length of the board to equal the length of the case.&quot; This may be adjusted by adding or subtracting a value from the result returned by following the equation with a plus or minus sign and a value. The result of this equation will cause the board to maintain its size relative to the case.</p>
+  <p style="margin-left: 40px;"><img alt="" border="0" src="../../assets/images/zGraphics/Extras/Information.png" style="border: none; width: 100%; max-width: 32px;"/> When choosing what you want to use as the reference for adding logic, be sure that you do not choose something that may change later on. As an example, if you relate a Part to the size of a Mid Stile, and later on, you delete the Mid Stile from this Cabinet for a Job, the formulas you wrote will be invalid.</p>
+  <p style="font-weight: bold; font-size: 14pt;">Troubleshooting Error Messages</p>
+  <p>There are three reasons for 95% of the errors returned when writing a formula.</p>
+  <p>A Part name (or code) has been entered incorrectly or misspelled.</p>
+  <p>The periods within your &quot;then&quot; statement have been left out, or a comma was entered.</p>
+  <p>The path to the Part is not correct. For instance looking at the Object Tree, you&#39;ll see that the Adjustable Shelf (code AS) is under the &quot;Interior&quot;, not the &quot;Case&quot; Branch. If your statement used &quot;case.as&quot;, to refer to the Adjustable Shelf, an error would be returned. The correct statement would be &quot;interior.as&quot;.</p>
+  <p>The path is evident by looking at the Object Tree, and looking &quot;Up&quot; to the parent of the Part in question. It is structured much like a &quot;directory, sub-directory&quot; tree structure.</p>
+
+</body></html>

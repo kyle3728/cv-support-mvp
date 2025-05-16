@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><link rel="stylesheet" type="text/css" href="../../../../../_rhdefault.css"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=WINDOWS-1252"/>
+  <meta name="generator" content="Adobe RoboHelp 2022"/>
+  <title>Machine Set</title>
+  <link rel="StyleSheet" href="../../../../../assets/css/default.css" type="text/css"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/><script type="text/javascript" src="../../../../../ehlpdhtm.js"></script></head>
+<body>
+  <h1>Machine Set</h1>
+  <p>Machine Sets allow you to group together Machines you have created in the Machine Catalog. Machine Sets are specifically designed for an &quot;automated&quot; factory where operations are being performed in line on multiple machines and operations are being consumed until no operations remain. Machine Sets are also a very flexible solution even if you are not running a fully automated factory allowing you to set machine sets to focus certain Materials, Part Types, Operations, etc... onto multiple machines using the Filtering capability. You can also use Machine Sets to send Programs to different Machines and based on workload decide which machine to work them through (see Example 3 below).</p>
+  <p style="margin-left: 80px;"><b><u>Example 1</u></b></p>
+  <p style="margin-left: 80px;">Let’s say you have a Saw, D&amp;D, and a P2P. The P2P has 5mm Horizontal Bores and the D&amp;D has 8mm Horizontal Bores.</p>
+  <p style="margin-left: 80px;">A Part with only 8mm Horizontal Bores will never get to the P2P because the D&amp;D will consume them first.</p>
+  <p style="margin-left: 80px;">A Part with both 5mm and 8mm Horizontal bores will get a program for the D&amp;D which consumes the 8mm Horizontal bores and then get a program for the P2P which consumes the 5mm Horizontal bores.</p>
+  <p style="margin-left: 80px;"><b><u>Example 2</u></b></p>
+  <p style="margin-left: 80px;">If you had three machines where machine 1 has 3mm HBores, machine 2 has 5mm HBores, and machine 3 has 8mm HBores.</p>
+  <p style="margin-left: 80px;">A Part with 3mm, 5mm, and 8mm HBores would have programs generated for all 3 Machines.</p>
+  <p style="margin-left: 80px;"><b><u>Example 3</u></b></p>
+  <p style="margin-left: 80px; font-weight: normal; text-decoration: none; "><b><u style="font-weight: normal;"><span style="text-decoration: none; ">Let&#39;s say you</span> <span style="font-weight: normal; text-decoration: none; ">have a Saw and 2 Point-to-Point Machines and you want to spread production load across the 2 Point-to-Point machines and let the shop make the decision for which Point-to-Point to run the programs on. Simply add your 2 Point-to-Point Machines to the Machine Set with your Saw and enable the &quot;</span><span style="font-weight: bold; text-decoration: none; ">Operations Pass Through</span><span style="font-weight: normal; text-decoration: none; ">&quot; option for the first of the two Point-to-Point Machines and programs will be created for the job for both Point-to-Point Machines.</span></u></b></p>
+  <p><a name="Workflow_String" id="Workflow_String"></a>Having each Machine within a Machine Set uniquely Tagged is extremely important especially to get good workflow reporting. The workflow string is the series of machines the part needs to move through.  The workflow string is available in <a href="../../../../Utilities_Tab/xLabel_Setup/Designing_Label-IT_Labels.htm#LIT_Workflow">xLabel</a> and for Reports in the <a href="../../../../../Tid-Bits/The_Databases/Specification_psnc-ac-cv-cw-nc_Label-IT_Databases.htm#PartWorkFlow">PSNC-xx.mdb</a>. It combines the machine tags of each machine in the workflow process some examples are SAW-DND-P2P, SAW-(PP1/PP2)-(DD1/DD2).  Machines in () means the part can be milled from any machine in the brackets.  If a part normally can go to a (group) but not all the operations can be milled at each machine in the group then the machines that can&#39;t do all the operations will be eliminated.  If the only way to get all the operations milled in a (group) is to mill some operations at one machine and other operations at another then the machines will no longer be grouped and only the 1st instance of the operation will be milled.</p>
+  <p>See the <a href="Workflow.htm">Workflow</a> topic for more information.</p>
+  <p><a name="Machine_Set" id="Machine_Set"></a>When selecting a Machine Set you have the following options on the Machine tab:</p>
+  <p><img src="../../../../../assets/images/image663.png"/></p>
+  <p style="margin-left: 40px;"><span style="font-weight: bold;">Tag -</span> This is a short name for the currently selected Machine Set. This option helps a machine operator identify which Barcode on a Label goes with which Machine (Setup). For example the following three examples demonstrate how it is used (displayed). The tags are highlighted in yellow.</p>
+  <p style="margin-left: 40px; text-decoration: underline; ">Label for one Secondary Machine</p>
+  <p style="margin-left: 40px;"><img alt="" border="0" src="../../../../../assets/images/image7.jpg" style="border: none;"/></p>
+  <p style="margin-left: 40px; text-decoration: underline; ">Same Barcode Sent to Two Different Machines (Machine Set)</p>
+  <p style="margin-left: 40px;"><img alt="" border="0" src="../../../../../assets/images/image8.jpg" style="border: none;"/></p>
+  <p style="margin-left: 40px; text-decoration: underline; ">Different Barcode to Two Different Machines (Machine Set)</p>
+  <p style="margin-left: 40px;"><img alt="" border="0" src="../../../../../assets/images/image9.jpg" style="border: none;"/></p>
+  <p style="margin-left: 40px;"><span style="font-weight: bold;">Available -</span> Determines whether the Machine Set is available for Output.</p>
+  <p style="margin-left: 40px;"><span style="font-weight: bold;"><a id="Machines_In_Set"></a>Machines In Set -</span> This area is where you assign Machines to your Machine Set. A Machine set can only have one Primary Machine but any number of the other Machine Types. Once you have a Primary Machine included the --BAND PARTS-- option is added to the list and can be used to establish when in the Machine Set process edgebanding is applied to your Parts. This lets the Machine Set know which Machines need to be compensated for Banding and which do not. Those Machines afer the --BAND PARTS-- sequence need to be machined with Edgeband included.</p>
+  <p style="margin-left: 40px;"><span style="font-weight: bold;">Available Machines -</span> These are all the Available Machines in your Machine Catalog. Simply highlight the Machine you want to add to the Machine Set and click the left arrow button to add it.</p>
+  <p style="margin-left: 40px;"><span style="font-weight: bold;"><a name="Operations_Pass_Through" id="Operations_Pass_Through"></a>Operations Pass Through -</span> The default action of a Machine Set is to consume operations and once consumed not be passed to the next Machine. With this option enabled the Operations will pass through to all the Machines within the Machine Set. This is a good solution if you want to output programs to multiple Machines and then allow the shop to choose which machine they want to run the programs on.</p>
+  <p style="margin-left: 40px;"><span style="font-weight: bold;">Filters -</span> Any <a href="../../../../../Sidebar/Filter_Parts.htm">Filters</a> you have saved can be applied to a Machine Set in the Filters area. Simply select your saved Filter from the selector (highlighted yellow below) then click the Add button to make it part of the Machine Set.</p>
+  <p style="margin-left: 40px;"><img src="../../../../../assets/images/image213.png"/></p>
+
+</body></html>

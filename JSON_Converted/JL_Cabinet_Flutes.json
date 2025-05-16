@@ -1,0 +1,47 @@
+{
+    "id": "b0cff8c8-2a5d-44c9-9088-2ff39b77e08e",
+    "title": "JL_Cabinet_Flutes",
+    "content": [
+        {
+            "type": "text",
+            "data": "Cabinet Flutes"
+        },
+        {
+            "type": "image",
+            "data": "1AU.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Click on the Categories or Tabs below for more information"
+        },
+        {
+            "type": "image",
+            "data": "Flutes.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Select Regular for Flutes of an even length, or Diamond for Flutes that are longer in the center of the Stile. Configure the dimensions in the data boxes for placement of the Flutes. This feature works on Left and Right Stiles in Face Frame Construction. The Flutes are applied via the  Flutes Tab  in Assembly Properties in the Section Editor or to other Parts via  Right Click Part Ortho Properties  and are machine (CNC) ready."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Flutes Tab",
+                "uuid": "5f33eae7-676e-44c4-b218-3644bcfb6cd2",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Right Click Part Ortho Properties",
+                "uuid": "56d7935f-7e10-41ff-8ac3-2dc6df61ae86",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\JL_Cabinet_Flutes.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

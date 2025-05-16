@@ -1,0 +1,33 @@
+{
+    "id": "d5954a11-00fe-42b8-ac3f-bb34a55be442",
+    "title": "Copy_a_View_into_Word",
+    "content": [
+        {
+            "type": "text",
+            "data": "Copy a View into Word"
+        },
+        {
+            "type": "text",
+            "data": "How can I copy a Plan, Elevation, or 3D view to a 3rd party application?"
+        },
+        {
+            "type": "text",
+            "data": "Go the desired view. Click on the ribbonbar option  Clipboard | Copy ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Clipboard | Copy",
+                "uuid": "c442daed-e295-4777-9383-500cb9f71f2f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "This will Copy the view in the active window in Solid. \u00a0Open the desired application, right click where you'd like to place the view and select Paste."
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Tips_Tricks_&_FAQs\\FAQs\\HDI-Presentation\\Copy_a_View_into_Word.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

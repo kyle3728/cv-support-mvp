@@ -1,0 +1,862 @@
+{
+    "id": "04d37d76-e4b9-4d6b-a085-3b85a1e25714",
+    "title": "Tool Selection Logic",
+    "content": [
+        {
+            "type": "text",
+            "data": "Enhanced Tool Selection Logic for CNC Output"
+        },
+        {
+            "type": "text",
+            "data": "The following represents \n the automatic tool selection logic, which, the S2M Center employs when \n parts are output to CNC and is organized by operation type. This, in part, \n is made possible by the many properties that can be assigned to a particular \n tool in the Tool Catalog. If you are unfamiliar with the properties \n that can be assigned to particular tools in the Tool Catalog, it may be \n best to review the information presented in the  Tool \n Catalog Setup  topic in this help file before reviewing the information \n below."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Tool \n Catalog Setup",
+                "uuid": "9e73329a-4965-4788-a023-336257c01689",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Part \n Outline Operation   - See \n Chart #6 at the end of this topic"
+        },
+        {
+            "type": "text",
+            "data": "Search tools for flat routers with Outline = True"
+        },
+        {
+            "type": "text",
+            "data": "If found then select tool \n\t in this order \n \n Up \n\t\t / Down Shear bit that matches sheet requirements \n Compression \n\t\t bit \n Down \n\t\t Shear bit \n Up Shear bit \n Expansion \n\t\t bit (Up Shear & Down Shear = False) \n \n No match \n ERROR"
+        },
+        {
+            "type": "text",
+            "data": "If found then select tool \n\t in this order \n \n Up \n\t\t / Down Shear bit that matches sheet requirements \n Compression \n\t\t bit \n Down \n\t\t Shear bit \n Up Shear bit \n Expansion \n\t\t bit (Up Shear & Down Shear = False)"
+        },
+        {
+            "type": "text",
+            "data": "If found then select tool \n\t in this order"
+        },
+        {
+            "type": "text",
+            "data": "Up \n\t\t / Down Shear bit that matches sheet requirements \n Compression \n\t\t bit \n Down \n\t\t Shear bit \n Up Shear bit \n Expansion \n\t\t bit (Up Shear & Down Shear = False)"
+        },
+        {
+            "type": "text",
+            "data": "Up \n\t\t / Down Shear bit that matches sheet requirements"
+        },
+        {
+            "type": "text",
+            "data": "Up \n\t\t / Down Shear bit that matches sheet requirements"
+        },
+        {
+            "type": "text",
+            "data": "Compression \n\t\t bit"
+        },
+        {
+            "type": "text",
+            "data": "Compression \n\t\t bit"
+        },
+        {
+            "type": "text",
+            "data": "Down \n\t\t Shear bit"
+        },
+        {
+            "type": "text",
+            "data": "Down \n\t\t Shear bit"
+        },
+        {
+            "type": "text",
+            "data": "Up Shear bit"
+        },
+        {
+            "type": "text",
+            "data": "Up Shear bit"
+        },
+        {
+            "type": "text",
+            "data": "Expansion \n\t\t bit (Up Shear & Down Shear = False)"
+        },
+        {
+            "type": "text",
+            "data": "Expansion \n\t\t bit (Up Shear & Down Shear = False)"
+        },
+        {
+            "type": "text",
+            "data": "No match \n ERROR"
+        },
+        {
+            "type": "text",
+            "data": "No match \n ERROR"
+        },
+        {
+            "type": "text",
+            "data": "Vertical Hole Operation   - \n See Chart #1 at the end of this topic"
+        },
+        {
+            "type": "text",
+            "data": "Search tools for vertical drill bit with exact size match"
+        },
+        {
+            "type": "text",
+            "data": "If found then select tool \n\t in this order"
+        },
+        {
+            "type": "text",
+            "data": "If found then select tool \n\t in this order"
+        },
+        {
+            "type": "text",
+            "data": "If found then select tool \n\t in this order"
+        },
+        {
+            "type": "text",
+            "data": "Through \n\t\t bore setting matches hole requirements 1st drill with size match \n Check \n\t\t if Drill Bit is in Gang Drill Head. \n \n If found - Check \n\t\t\t if hold position is in gang drill head limits \n \n If \n\t\t no match   WARNING   Search flat routers for size match \n \n If found then select \n\t\t\t tool in this order to create hole in one drop \n \n Down Shear bit \n Compression bit \n Up Shear bit \n Expansion \n\t\t\t\t bit (Up Shear & Down Shear = False) \n \n \n If \n\t\t no exact size match then search for flat router with diameter \n\t\t smaller than hole size \n \n If found then select \n\t\t\t tool in this order to create pocket to match hole size \n \n  Down \n\t\t\t\t Shear bit \n Compression bit \n Up Shear bit \n Expansion \n\t\t\t\t bit (Up Shear & Down Shear = False)"
+        },
+        {
+            "type": "text",
+            "data": "Through \n\t\t bore setting matches hole requirements 1st drill with size match \n Check \n\t\t if Drill Bit is in Gang Drill Head. \n \n If found - Check \n\t\t\t if hold position is in gang drill head limits \n \n If \n\t\t no match   WARNING   Search flat routers for size match \n \n If found then select \n\t\t\t tool in this order to create hole in one drop \n \n Down Shear bit \n Compression bit \n Up Shear bit \n Expansion \n\t\t\t\t bit (Up Shear & Down Shear = False) \n \n \n If \n\t\t no exact size match then search for flat router with diameter \n\t\t smaller than hole size \n \n If found then select \n\t\t\t tool in this order to create pocket to match hole size \n \n  Down \n\t\t\t\t Shear bit \n Compression bit \n Up Shear bit \n Expansion \n\t\t\t\t bit (Up Shear & Down Shear = False)"
+        },
+        {
+            "type": "text",
+            "data": "Through \n\t\t bore setting matches hole requirements 1st drill with size match \n Check \n\t\t if Drill Bit is in Gang Drill Head. \n \n If found - Check \n\t\t\t if hold position is in gang drill head limits \n \n If \n\t\t no match   WARNING   Search flat routers for size match \n \n If found then select \n\t\t\t tool in this order to create hole in one drop \n \n Down Shear bit \n Compression bit \n Up Shear bit \n Expansion \n\t\t\t\t bit (Up Shear & Down Shear = False) \n \n \n If \n\t\t no exact size match then search for flat router with diameter \n\t\t smaller than hole size \n \n If found then select \n\t\t\t tool in this order to create pocket to match hole size \n \n  Down \n\t\t\t\t Shear bit \n Compression bit \n Up Shear bit \n Expansion \n\t\t\t\t bit (Up Shear & Down Shear = False)"
+        },
+        {
+            "type": "text",
+            "data": "Through \n\t\t bore setting matches hole requirements 1st drill with size match"
+        },
+        {
+            "type": "text",
+            "data": "Through \n\t\t bore setting matches hole requirements 1st drill with size match"
+        },
+        {
+            "type": "text",
+            "data": "Check \n\t\t if Drill Bit is in Gang Drill Head."
+        },
+        {
+            "type": "text",
+            "data": "Check \n\t\t if Drill Bit is in Gang Drill Head."
+        },
+        {
+            "type": "text",
+            "data": "If found - Check \n\t\t\t if hold position is in gang drill head limits"
+        },
+        {
+            "type": "text",
+            "data": "If found - Check \n\t\t\t if hold position is in gang drill head limits"
+        },
+        {
+            "type": "text",
+            "data": "If found - Check \n\t\t\t if hold position is in gang drill head limits"
+        },
+        {
+            "type": "text",
+            "data": "If found - Check \n\t\t\t if hold position is in gang drill head limits"
+        },
+        {
+            "type": "text",
+            "data": "If \n\t\t no match   WARNING   Search flat routers for size match"
+        },
+        {
+            "type": "text",
+            "data": "If \n\t\t no match   WARNING   Search flat routers for size match"
+        },
+        {
+            "type": "text",
+            "data": "If found then select \n\t\t\t tool in this order to create hole in one drop \n \n Down Shear bit \n Compression bit \n Up Shear bit \n Expansion \n\t\t\t\t bit (Up Shear & Down Shear = False)"
+        },
+        {
+            "type": "text",
+            "data": "If found then select \n\t\t\t tool in this order to create hole in one drop \n \n Down Shear bit \n Compression bit \n Up Shear bit \n Expansion \n\t\t\t\t bit (Up Shear & Down Shear = False)"
+        },
+        {
+            "type": "text",
+            "data": "If found then select \n\t\t\t tool in this order to create hole in one drop"
+        },
+        {
+            "type": "text",
+            "data": "If found then select \n\t\t\t tool in this order to create hole in one drop"
+        },
+        {
+            "type": "text",
+            "data": "Down Shear bit \n Compression bit \n Up Shear bit \n Expansion \n\t\t\t\t bit (Up Shear & Down Shear = False)"
+        },
+        {
+            "type": "text",
+            "data": "Down Shear bit \n Compression bit \n Up Shear bit \n Expansion \n\t\t\t\t bit (Up Shear & Down Shear = False)"
+        },
+        {
+            "type": "text",
+            "data": "Down Shear bit"
+        },
+        {
+            "type": "text",
+            "data": "Down Shear bit"
+        },
+        {
+            "type": "text",
+            "data": "Compression bit"
+        },
+        {
+            "type": "text",
+            "data": "Compression bit"
+        },
+        {
+            "type": "text",
+            "data": "Up Shear bit"
+        },
+        {
+            "type": "text",
+            "data": "Up Shear bit"
+        },
+        {
+            "type": "text",
+            "data": "Expansion \n\t\t\t\t bit (Up Shear & Down Shear = False)"
+        },
+        {
+            "type": "text",
+            "data": "Expansion \n\t\t\t\t bit (Up Shear & Down Shear = False)"
+        },
+        {
+            "type": "text",
+            "data": "If \n\t\t no exact size match then search for flat router with diameter \n\t\t smaller than hole size"
+        },
+        {
+            "type": "text",
+            "data": "If \n\t\t no exact size match then search for flat router with diameter \n\t\t smaller than hole size"
+        },
+        {
+            "type": "text",
+            "data": "If found then select \n\t\t\t tool in this order to create pocket to match hole size \n \n  Down \n\t\t\t\t Shear bit \n Compression bit \n Up Shear bit \n Expansion \n\t\t\t\t bit (Up Shear & Down Shear = False)"
+        },
+        {
+            "type": "text",
+            "data": "If found then select \n\t\t\t tool in this order to create pocket to match hole size \n \n  Down \n\t\t\t\t Shear bit \n Compression bit \n Up Shear bit \n Expansion \n\t\t\t\t bit (Up Shear & Down Shear = False)"
+        },
+        {
+            "type": "text",
+            "data": "If found then select \n\t\t\t tool in this order to create pocket to match hole size"
+        },
+        {
+            "type": "text",
+            "data": "If found then select \n\t\t\t tool in this order to create pocket to match hole size"
+        },
+        {
+            "type": "text",
+            "data": "Down \n\t\t\t\t Shear bit \n Compression bit \n Up Shear bit \n Expansion \n\t\t\t\t bit (Up Shear & Down Shear = False)"
+        },
+        {
+            "type": "text",
+            "data": "Down \n\t\t\t\t Shear bit \n Compression bit \n Up Shear bit \n Expansion \n\t\t\t\t bit (Up Shear & Down Shear = False)"
+        },
+        {
+            "type": "text",
+            "data": "Down \n\t\t\t\t Shear bit"
+        },
+        {
+            "type": "text",
+            "data": "Down \n\t\t\t\t Shear bit"
+        },
+        {
+            "type": "text",
+            "data": "Compression bit"
+        },
+        {
+            "type": "text",
+            "data": "Compression bit"
+        },
+        {
+            "type": "text",
+            "data": "Up Shear bit"
+        },
+        {
+            "type": "text",
+            "data": "Up Shear bit"
+        },
+        {
+            "type": "text",
+            "data": "Expansion \n\t\t\t\t bit (Up Shear & Down Shear = False)"
+        },
+        {
+            "type": "text",
+            "data": "Expansion \n\t\t\t\t bit (Up Shear & Down Shear = False)"
+        },
+        {
+            "type": "text",
+            "data": "No \n\t match   ERROR"
+        },
+        {
+            "type": "text",
+            "data": "No \n\t match   ERROR"
+        },
+        {
+            "type": "text",
+            "data": "No \n\t match   ERROR"
+        },
+        {
+            "type": "text",
+            "data": "Horizontal \n Hole Operation   - See Chart \n #2 at the end of this topic"
+        },
+        {
+            "type": "text",
+            "data": "Search horizontal drill bits for a size and direction match"
+        },
+        {
+            "type": "text",
+            "data": "If found then select that \n\t horizontal drill \n No match -  ERROR"
+        },
+        {
+            "type": "text",
+            "data": "If found then select that \n\t horizontal drill"
+        },
+        {
+            "type": "text",
+            "data": "If found then select that \n\t horizontal drill"
+        },
+        {
+            "type": "text",
+            "data": "No match -  ERROR"
+        },
+        {
+            "type": "text",
+            "data": "No match -  ERROR"
+        },
+        {
+            "type": "text",
+            "data": "Dado \n Operation   - See Chart #3 \n and Chart #4 at the end of this topic"
+        },
+        {
+            "type": "text",
+            "data": "Use router"
+        },
+        {
+            "type": "text",
+            "data": "Use router"
+        },
+        {
+            "type": "text",
+            "data": "Use router"
+        },
+        {
+            "type": "text",
+            "data": "Search flat routers for \n\t\t size match and Up Shear / Down Shear match (Will Select Down Shear \n\t\t for a Dado)"
+        },
+        {
+            "type": "text",
+            "data": "Search flat routers for \n\t\t size match and Up Shear / Down Shear match (Will Select Down Shear \n\t\t for a Dado)"
+        },
+        {
+            "type": "text",
+            "data": "Search flat routers for \n\t\t size match and Up Shear / Down Shear match (Will Select Down Shear \n\t\t for a Dado)"
+        },
+        {
+            "type": "text",
+            "data": "Search flat routers for \n\t\t size match and Up Shear / Down Shear match (Will Select Down Shear \n\t\t for a Dado)"
+        },
+        {
+            "type": "text",
+            "data": "Search flat routers for \n\t\t size match and Up Shear / Down Shear match (Will Select Down Shear \n\t\t for a Dado)"
+        },
+        {
+            "type": "text",
+            "data": "If found then create \n\t single path using router"
+        },
+        {
+            "type": "text",
+            "data": "If found then create \n\t single path using router"
+        },
+        {
+            "type": "text",
+            "data": "If found then create \n\t single path using router"
+        },
+        {
+            "type": "text",
+            "data": "If no size match then \n\t\t search for flat router with smaller diameter than dado width \n If \n\t\t found and tool diameter is greater than or equal to  dado width \n\t\t then create 4-pass route using tool selected in this order \n \n Up / Down shear bit \n\t\t\t that matches sheet requirements \n Down Shear bit \n Compression \n\t\t\t bit \n Expansion bit (Up \n\t\t\t Shear & Down Shear = False) \n Up Shear bit \n \n If found and tool diameter \n\t\t <  dado width then create multi-pass route (starting from \n\t\t the outside and then moving inward concentrically) using tool \n\t\t in this order \n \n Up \n\t\t\t / Down shear bit that matches sheet requirements \n Down Shear bit \n Compression bit \n Expansion \n\t\t\t bit (Up Shear & Down Shear = False) \n Up \n\t\t\t Shear bit"
+        },
+        {
+            "type": "text",
+            "data": "If no size match then \n\t\t search for flat router with smaller diameter than dado width \n If \n\t\t found and tool diameter is greater than or equal to  dado width \n\t\t then create 4-pass route using tool selected in this order \n \n Up / Down shear bit \n\t\t\t that matches sheet requirements \n Down Shear bit \n Compression \n\t\t\t bit \n Expansion bit (Up \n\t\t\t Shear & Down Shear = False) \n Up Shear bit \n \n If found and tool diameter \n\t\t <  dado width then create multi-pass route (starting from \n\t\t the outside and then moving inward concentrically) using tool \n\t\t in this order \n \n Up \n\t\t\t / Down shear bit that matches sheet requirements \n Down Shear bit \n Compression bit \n Expansion \n\t\t\t bit (Up Shear & Down Shear = False) \n Up \n\t\t\t Shear bit"
+        },
+        {
+            "type": "text",
+            "data": "If no size match then \n\t\t search for flat router with smaller diameter than dado width \n If \n\t\t found and tool diameter is greater than or equal to  dado width \n\t\t then create 4-pass route using tool selected in this order \n \n Up / Down shear bit \n\t\t\t that matches sheet requirements \n Down Shear bit \n Compression \n\t\t\t bit \n Expansion bit (Up \n\t\t\t Shear & Down Shear = False) \n Up Shear bit \n \n If found and tool diameter \n\t\t <  dado width then create multi-pass route (starting from \n\t\t the outside and then moving inward concentrically) using tool \n\t\t in this order \n \n Up \n\t\t\t / Down shear bit that matches sheet requirements \n Down Shear bit \n Compression bit \n Expansion \n\t\t\t bit (Up Shear & Down Shear = False) \n Up \n\t\t\t Shear bit"
+        },
+        {
+            "type": "text",
+            "data": "If no size match then \n\t\t search for flat router with smaller diameter than dado width"
+        },
+        {
+            "type": "text",
+            "data": "If no size match then \n\t\t search for flat router with smaller diameter than dado width"
+        },
+        {
+            "type": "text",
+            "data": "If \n\t\t found and tool diameter is greater than or equal to  dado width \n\t\t then create 4-pass route using tool selected in this order"
+        },
+        {
+            "type": "text",
+            "data": "If \n\t\t found and tool diameter is greater than or equal to  dado width \n\t\t then create 4-pass route using tool selected in this order"
+        },
+        {
+            "type": "text",
+            "data": "Up / Down shear bit \n\t\t\t that matches sheet requirements \n Down Shear bit \n Compression \n\t\t\t bit \n Expansion bit (Up \n\t\t\t Shear & Down Shear = False) \n Up Shear bit"
+        },
+        {
+            "type": "text",
+            "data": "Up / Down shear bit \n\t\t\t that matches sheet requirements \n Down Shear bit \n Compression \n\t\t\t bit \n Expansion bit (Up \n\t\t\t Shear & Down Shear = False) \n Up Shear bit"
+        },
+        {
+            "type": "text",
+            "data": "Up / Down shear bit \n\t\t\t that matches sheet requirements"
+        },
+        {
+            "type": "text",
+            "data": "Up / Down shear bit \n\t\t\t that matches sheet requirements"
+        },
+        {
+            "type": "text",
+            "data": "Down Shear bit"
+        },
+        {
+            "type": "text",
+            "data": "Down Shear bit"
+        },
+        {
+            "type": "text",
+            "data": "Compression \n\t\t\t bit"
+        },
+        {
+            "type": "text",
+            "data": "Compression \n\t\t\t bit"
+        },
+        {
+            "type": "text",
+            "data": "Expansion bit (Up \n\t\t\t Shear & Down Shear = False)"
+        },
+        {
+            "type": "text",
+            "data": "Expansion bit (Up \n\t\t\t Shear & Down Shear = False)"
+        },
+        {
+            "type": "text",
+            "data": "Up Shear bit"
+        },
+        {
+            "type": "text",
+            "data": "Up Shear bit"
+        },
+        {
+            "type": "text",
+            "data": "If found and tool diameter \n\t\t <  dado width then create multi-pass route (starting from \n\t\t the outside and then moving inward concentrically) using tool \n\t\t in this order"
+        },
+        {
+            "type": "text",
+            "data": "If found and tool diameter \n\t\t <  dado width then create multi-pass route (starting from \n\t\t the outside and then moving inward concentrically) using tool \n\t\t in this order"
+        },
+        {
+            "type": "text",
+            "data": "Up \n\t\t\t / Down shear bit that matches sheet requirements \n Down Shear bit \n Compression bit \n Expansion \n\t\t\t bit (Up Shear & Down Shear = False) \n Up \n\t\t\t Shear bit"
+        },
+        {
+            "type": "text",
+            "data": "Up \n\t\t\t / Down shear bit that matches sheet requirements \n Down Shear bit \n Compression bit \n Expansion \n\t\t\t bit (Up Shear & Down Shear = False) \n Up \n\t\t\t Shear bit"
+        },
+        {
+            "type": "text",
+            "data": "Up \n\t\t\t / Down shear bit that matches sheet requirements"
+        },
+        {
+            "type": "text",
+            "data": "Up \n\t\t\t / Down shear bit that matches sheet requirements"
+        },
+        {
+            "type": "text",
+            "data": "Down Shear bit"
+        },
+        {
+            "type": "text",
+            "data": "Down Shear bit"
+        },
+        {
+            "type": "text",
+            "data": "Compression bit"
+        },
+        {
+            "type": "text",
+            "data": "Compression bit"
+        },
+        {
+            "type": "text",
+            "data": "Expansion \n\t\t\t bit (Up Shear & Down Shear = False)"
+        },
+        {
+            "type": "text",
+            "data": "Expansion \n\t\t\t bit (Up Shear & Down Shear = False)"
+        },
+        {
+            "type": "text",
+            "data": "Up \n\t\t\t Shear bit"
+        },
+        {
+            "type": "text",
+            "data": "Up \n\t\t\t Shear bit"
+        },
+        {
+            "type": "text",
+            "data": "No match   ERROR"
+        },
+        {
+            "type": "text",
+            "data": "No match   ERROR"
+        },
+        {
+            "type": "text",
+            "data": "No match   ERROR"
+        },
+        {
+            "type": "text",
+            "data": "Cutout \n / Pocket Route Operation   - \n See Chart #5 at the end of this topic"
+        },
+        {
+            "type": "text",
+            "data": "Search flat routers for size \n\t match and Up Shear / Down Shear match"
+        },
+        {
+            "type": "text",
+            "data": "Search flat routers for size \n\t match and Up Shear / Down Shear match"
+        },
+        {
+            "type": "text",
+            "data": "Search flat routers for size \n\t match and Up Shear / Down Shear match"
+        },
+        {
+            "type": "text",
+            "data": "If \n\t\t found then create single path using tool \n If no size match \n\t\t then search for smaller diameter flat router with Up Shear / Down \n\t\t Shear match \n \n If found and tool \n\t\t\t diameter is greater than or equal to  dado width then create \n\t\t\t 4-pass route \n If \n\t\t\t found and tool diameter <  dado width then create multi-pass \n\t\t\t route \n \n If \n\t\t\t\t no match found then search for any flat router with smaller \n\t\t\t\t diameter then the route operation \n If \n\t\t\t\t found and tool diameter is greater than or equal to  \n\t\t\t\t dado width then select tool in this order to create 4-pass \n\t\t\t\t route \n \n Cutout \n\t\t\t\t\t route operation \n \n Compression \n\t\t\t\t\t\t bit \n Down \n\t\t\t\t\t\t Shear bit \n Up Shear \n\t\t\t\t\t\t bit \n Expansion \n\t\t\t\t\t\t bit (Up Shear & Down Shear = False) \n \n Pocket \n\t\t\t\t\t route operation \n \n Down \n\t\t\t\t\t\t Shear bit \n Compression \n\t\t\t\t\t\t bit \n Expansion \n\t\t\t\t\t\t bit (Up Shear & Down Shear = False) \n Up Shear \n\t\t\t\t\t\t bit \n \n \n  If \n\t\t\t\t found and tool diameter <  dado width then select \n\t\t\t\t tool in this order to create multi-pass route \n \n Cutout route \n\t\t\t\t\t operation \n \n Compression \n\t\t\t\t\t\t bit \n Down \n\t\t\t\t\t\t Shear bit \n Up Shear \n\t\t\t\t\t\t bit \n Expansion \n\t\t\t\t\t\t bit (Up Shear & Down Shear = False) \n \n Pocket \n\t\t\t\t\t route operation \n \n Down \n\t\t\t\t\t\t Shear bit \n Compression \n\t\t\t\t\t\t bit \n Expansion \n\t\t\t\t\t\t bit (Up Shear & Down Shear = False) \n Up Shear \n\t\t\t\t\t\t bit"
+        },
+        {
+            "type": "text",
+            "data": "If \n\t\t found then create single path using tool \n If no size match \n\t\t then search for smaller diameter flat router with Up Shear / Down \n\t\t Shear match \n \n If found and tool \n\t\t\t diameter is greater than or equal to  dado width then create \n\t\t\t 4-pass route \n If \n\t\t\t found and tool diameter <  dado width then create multi-pass \n\t\t\t route \n \n If \n\t\t\t\t no match found then search for any flat router with smaller \n\t\t\t\t diameter then the route operation \n If \n\t\t\t\t found and tool diameter is greater than or equal to  \n\t\t\t\t dado width then select tool in this order to create 4-pass \n\t\t\t\t route \n \n Cutout \n\t\t\t\t\t route operation \n \n Compression \n\t\t\t\t\t\t bit \n Down \n\t\t\t\t\t\t Shear bit \n Up Shear \n\t\t\t\t\t\t bit \n Expansion \n\t\t\t\t\t\t bit (Up Shear & Down Shear = False) \n \n Pocket \n\t\t\t\t\t route operation \n \n Down \n\t\t\t\t\t\t Shear bit \n Compression \n\t\t\t\t\t\t bit \n Expansion \n\t\t\t\t\t\t bit (Up Shear & Down Shear = False) \n Up Shear \n\t\t\t\t\t\t bit \n \n \n  If \n\t\t\t\t found and tool diameter <  dado width then select \n\t\t\t\t tool in this order to create multi-pass route \n \n Cutout route \n\t\t\t\t\t operation \n \n Compression \n\t\t\t\t\t\t bit \n Down \n\t\t\t\t\t\t Shear bit \n Up Shear \n\t\t\t\t\t\t bit \n Expansion \n\t\t\t\t\t\t bit (Up Shear & Down Shear = False) \n \n Pocket \n\t\t\t\t\t route operation \n \n Down \n\t\t\t\t\t\t Shear bit \n Compression \n\t\t\t\t\t\t bit \n Expansion \n\t\t\t\t\t\t bit (Up Shear & Down Shear = False) \n Up Shear \n\t\t\t\t\t\t bit"
+        },
+        {
+            "type": "text",
+            "data": "If \n\t\t found then create single path using tool \n If no size match \n\t\t then search for smaller diameter flat router with Up Shear / Down \n\t\t Shear match \n \n If found and tool \n\t\t\t diameter is greater than or equal to  dado width then create \n\t\t\t 4-pass route \n If \n\t\t\t found and tool diameter <  dado width then create multi-pass \n\t\t\t route \n \n If \n\t\t\t\t no match found then search for any flat router with smaller \n\t\t\t\t diameter then the route operation \n If \n\t\t\t\t found and tool diameter is greater than or equal to  \n\t\t\t\t dado width then select tool in this order to create 4-pass \n\t\t\t\t route \n \n Cutout \n\t\t\t\t\t route operation \n \n Compression \n\t\t\t\t\t\t bit \n Down \n\t\t\t\t\t\t Shear bit \n Up Shear \n\t\t\t\t\t\t bit \n Expansion \n\t\t\t\t\t\t bit (Up Shear & Down Shear = False) \n \n Pocket \n\t\t\t\t\t route operation \n \n Down \n\t\t\t\t\t\t Shear bit \n Compression \n\t\t\t\t\t\t bit \n Expansion \n\t\t\t\t\t\t bit (Up Shear & Down Shear = False) \n Up Shear \n\t\t\t\t\t\t bit \n \n \n  If \n\t\t\t\t found and tool diameter <  dado width then select \n\t\t\t\t tool in this order to create multi-pass route \n \n Cutout route \n\t\t\t\t\t operation \n \n Compression \n\t\t\t\t\t\t bit \n Down \n\t\t\t\t\t\t Shear bit \n Up Shear \n\t\t\t\t\t\t bit \n Expansion \n\t\t\t\t\t\t bit (Up Shear & Down Shear = False) \n \n Pocket \n\t\t\t\t\t route operation \n \n Down \n\t\t\t\t\t\t Shear bit \n Compression \n\t\t\t\t\t\t bit \n Expansion \n\t\t\t\t\t\t bit (Up Shear & Down Shear = False) \n Up Shear \n\t\t\t\t\t\t bit"
+        },
+        {
+            "type": "text",
+            "data": "If \n\t\t found then create single path using tool"
+        },
+        {
+            "type": "text",
+            "data": "If \n\t\t found then create single path using tool"
+        },
+        {
+            "type": "text",
+            "data": "If no size match \n\t\t then search for smaller diameter flat router with Up Shear / Down \n\t\t Shear match"
+        },
+        {
+            "type": "text",
+            "data": "If no size match \n\t\t then search for smaller diameter flat router with Up Shear / Down \n\t\t Shear match"
+        },
+        {
+            "type": "text",
+            "data": "If found and tool \n\t\t\t diameter is greater than or equal to  dado width then create \n\t\t\t 4-pass route \n If \n\t\t\t found and tool diameter <  dado width then create multi-pass \n\t\t\t route \n \n If \n\t\t\t\t no match found then search for any flat router with smaller \n\t\t\t\t diameter then the route operation \n If \n\t\t\t\t found and tool diameter is greater than or equal to  \n\t\t\t\t dado width then select tool in this order to create 4-pass \n\t\t\t\t route \n \n Cutout \n\t\t\t\t\t route operation \n \n Compression \n\t\t\t\t\t\t bit \n Down \n\t\t\t\t\t\t Shear bit \n Up Shear \n\t\t\t\t\t\t bit \n Expansion \n\t\t\t\t\t\t bit (Up Shear & Down Shear = False) \n \n Pocket \n\t\t\t\t\t route operation \n \n Down \n\t\t\t\t\t\t Shear bit \n Compression \n\t\t\t\t\t\t bit \n Expansion \n\t\t\t\t\t\t bit (Up Shear & Down Shear = False) \n Up Shear \n\t\t\t\t\t\t bit \n \n \n  If \n\t\t\t\t found and tool diameter <  dado width then select \n\t\t\t\t tool in this order to create multi-pass route \n \n Cutout route \n\t\t\t\t\t operation \n \n Compression \n\t\t\t\t\t\t bit \n Down \n\t\t\t\t\t\t Shear bit \n Up Shear \n\t\t\t\t\t\t bit \n Expansion \n\t\t\t\t\t\t bit (Up Shear & Down Shear = False) \n \n Pocket \n\t\t\t\t\t route operation \n \n Down \n\t\t\t\t\t\t Shear bit \n Compression \n\t\t\t\t\t\t bit \n Expansion \n\t\t\t\t\t\t bit (Up Shear & Down Shear = False) \n Up Shear \n\t\t\t\t\t\t bit"
+        },
+        {
+            "type": "text",
+            "data": "If found and tool \n\t\t\t diameter is greater than or equal to  dado width then create \n\t\t\t 4-pass route \n If \n\t\t\t found and tool diameter <  dado width then create multi-pass \n\t\t\t route \n \n If \n\t\t\t\t no match found then search for any flat router with smaller \n\t\t\t\t diameter then the route operation \n If \n\t\t\t\t found and tool diameter is greater than or equal to  \n\t\t\t\t dado width then select tool in this order to create 4-pass \n\t\t\t\t route \n \n Cutout \n\t\t\t\t\t route operation \n \n Compression \n\t\t\t\t\t\t bit \n Down \n\t\t\t\t\t\t Shear bit \n Up Shear \n\t\t\t\t\t\t bit \n Expansion \n\t\t\t\t\t\t bit (Up Shear & Down Shear = False) \n \n Pocket \n\t\t\t\t\t route operation \n \n Down \n\t\t\t\t\t\t Shear bit \n Compression \n\t\t\t\t\t\t bit \n Expansion \n\t\t\t\t\t\t bit (Up Shear & Down Shear = False) \n Up Shear \n\t\t\t\t\t\t bit \n \n \n  If \n\t\t\t\t found and tool diameter <  dado width then select \n\t\t\t\t tool in this order to create multi-pass route \n \n Cutout route \n\t\t\t\t\t operation \n \n Compression \n\t\t\t\t\t\t bit \n Down \n\t\t\t\t\t\t Shear bit \n Up Shear \n\t\t\t\t\t\t bit \n Expansion \n\t\t\t\t\t\t bit (Up Shear & Down Shear = False) \n \n Pocket \n\t\t\t\t\t route operation \n \n Down \n\t\t\t\t\t\t Shear bit \n Compression \n\t\t\t\t\t\t bit \n Expansion \n\t\t\t\t\t\t bit (Up Shear & Down Shear = False) \n Up Shear \n\t\t\t\t\t\t bit"
+        },
+        {
+            "type": "text",
+            "data": "If found and tool \n\t\t\t diameter is greater than or equal to  dado width then create \n\t\t\t 4-pass route"
+        },
+        {
+            "type": "text",
+            "data": "If found and tool \n\t\t\t diameter is greater than or equal to  dado width then create \n\t\t\t 4-pass route"
+        },
+        {
+            "type": "text",
+            "data": "If \n\t\t\t found and tool diameter <  dado width then create multi-pass \n\t\t\t route \n \n If \n\t\t\t\t no match found then search for any flat router with smaller \n\t\t\t\t diameter then the route operation \n If \n\t\t\t\t found and tool diameter is greater than or equal to  \n\t\t\t\t dado width then select tool in this order to create 4-pass \n\t\t\t\t route \n \n Cutout \n\t\t\t\t\t route operation \n \n Compression \n\t\t\t\t\t\t bit \n Down \n\t\t\t\t\t\t Shear bit \n Up Shear \n\t\t\t\t\t\t bit \n Expansion \n\t\t\t\t\t\t bit (Up Shear & Down Shear = False) \n \n Pocket \n\t\t\t\t\t route operation \n \n Down \n\t\t\t\t\t\t Shear bit \n Compression \n\t\t\t\t\t\t bit \n Expansion \n\t\t\t\t\t\t bit (Up Shear & Down Shear = False) \n Up Shear \n\t\t\t\t\t\t bit \n \n \n  If \n\t\t\t\t found and tool diameter <  dado width then select \n\t\t\t\t tool in this order to create multi-pass route \n \n Cutout route \n\t\t\t\t\t operation \n \n Compression \n\t\t\t\t\t\t bit \n Down \n\t\t\t\t\t\t Shear bit \n Up Shear \n\t\t\t\t\t\t bit \n Expansion \n\t\t\t\t\t\t bit (Up Shear & Down Shear = False) \n \n Pocket \n\t\t\t\t\t route operation \n \n Down \n\t\t\t\t\t\t Shear bit \n Compression \n\t\t\t\t\t\t bit \n Expansion \n\t\t\t\t\t\t bit (Up Shear & Down Shear = False) \n Up Shear \n\t\t\t\t\t\t bit"
+        },
+        {
+            "type": "text",
+            "data": "If \n\t\t\t found and tool diameter <  dado width then create multi-pass \n\t\t\t route"
+        },
+        {
+            "type": "text",
+            "data": "If \n\t\t\t\t no match found then search for any flat router with smaller \n\t\t\t\t diameter then the route operation \n If \n\t\t\t\t found and tool diameter is greater than or equal to  \n\t\t\t\t dado width then select tool in this order to create 4-pass \n\t\t\t\t route \n \n Cutout \n\t\t\t\t\t route operation \n \n Compression \n\t\t\t\t\t\t bit \n Down \n\t\t\t\t\t\t Shear bit \n Up Shear \n\t\t\t\t\t\t bit \n Expansion \n\t\t\t\t\t\t bit (Up Shear & Down Shear = False) \n \n Pocket \n\t\t\t\t\t route operation \n \n Down \n\t\t\t\t\t\t Shear bit \n Compression \n\t\t\t\t\t\t bit \n Expansion \n\t\t\t\t\t\t bit (Up Shear & Down Shear = False) \n Up Shear \n\t\t\t\t\t\t bit \n \n \n  If \n\t\t\t\t found and tool diameter <  dado width then select \n\t\t\t\t tool in this order to create multi-pass route \n \n Cutout route \n\t\t\t\t\t operation \n \n Compression \n\t\t\t\t\t\t bit \n Down \n\t\t\t\t\t\t Shear bit \n Up Shear \n\t\t\t\t\t\t bit \n Expansion \n\t\t\t\t\t\t bit (Up Shear & Down Shear = False) \n \n Pocket \n\t\t\t\t\t route operation \n \n Down \n\t\t\t\t\t\t Shear bit \n Compression \n\t\t\t\t\t\t bit \n Expansion \n\t\t\t\t\t\t bit (Up Shear & Down Shear = False) \n Up Shear \n\t\t\t\t\t\t bit"
+        },
+        {
+            "type": "text",
+            "data": "If \n\t\t\t\t no match found then search for any flat router with smaller \n\t\t\t\t diameter then the route operation"
+        },
+        {
+            "type": "text",
+            "data": "If \n\t\t\t\t no match found then search for any flat router with smaller \n\t\t\t\t diameter then the route operation"
+        },
+        {
+            "type": "text",
+            "data": "If \n\t\t\t\t found and tool diameter is greater than or equal to  \n\t\t\t\t dado width then select tool in this order to create 4-pass \n\t\t\t\t route"
+        },
+        {
+            "type": "text",
+            "data": "If \n\t\t\t\t found and tool diameter is greater than or equal to  \n\t\t\t\t dado width then select tool in this order to create 4-pass \n\t\t\t\t route"
+        },
+        {
+            "type": "text",
+            "data": "Cutout \n\t\t\t\t\t route operation \n \n Compression \n\t\t\t\t\t\t bit \n Down \n\t\t\t\t\t\t Shear bit \n Up Shear \n\t\t\t\t\t\t bit \n Expansion \n\t\t\t\t\t\t bit (Up Shear & Down Shear = False) \n \n Pocket \n\t\t\t\t\t route operation \n \n Down \n\t\t\t\t\t\t Shear bit \n Compression \n\t\t\t\t\t\t bit \n Expansion \n\t\t\t\t\t\t bit (Up Shear & Down Shear = False) \n Up Shear \n\t\t\t\t\t\t bit"
+        },
+        {
+            "type": "text",
+            "data": "Cutout \n\t\t\t\t\t route operation \n \n Compression \n\t\t\t\t\t\t bit \n Down \n\t\t\t\t\t\t Shear bit \n Up Shear \n\t\t\t\t\t\t bit \n Expansion \n\t\t\t\t\t\t bit (Up Shear & Down Shear = False) \n \n Pocket \n\t\t\t\t\t route operation \n \n Down \n\t\t\t\t\t\t Shear bit \n Compression \n\t\t\t\t\t\t bit \n Expansion \n\t\t\t\t\t\t bit (Up Shear & Down Shear = False) \n Up Shear \n\t\t\t\t\t\t bit"
+        },
+        {
+            "type": "text",
+            "data": "Cutout \n\t\t\t\t\t route operation"
+        },
+        {
+            "type": "text",
+            "data": "Cutout \n\t\t\t\t\t route operation"
+        },
+        {
+            "type": "text",
+            "data": "Compression \n\t\t\t\t\t\t bit \n Down \n\t\t\t\t\t\t Shear bit \n Up Shear \n\t\t\t\t\t\t bit \n Expansion \n\t\t\t\t\t\t bit (Up Shear & Down Shear = False)"
+        },
+        {
+            "type": "text",
+            "data": "Compression \n\t\t\t\t\t\t bit \n Down \n\t\t\t\t\t\t Shear bit \n Up Shear \n\t\t\t\t\t\t bit \n Expansion \n\t\t\t\t\t\t bit (Up Shear & Down Shear = False)"
+        },
+        {
+            "type": "text",
+            "data": "Compression \n\t\t\t\t\t\t bit"
+        },
+        {
+            "type": "text",
+            "data": "Compression \n\t\t\t\t\t\t bit"
+        },
+        {
+            "type": "text",
+            "data": "Down \n\t\t\t\t\t\t Shear bit"
+        },
+        {
+            "type": "text",
+            "data": "Down \n\t\t\t\t\t\t Shear bit"
+        },
+        {
+            "type": "text",
+            "data": "Up Shear \n\t\t\t\t\t\t bit"
+        },
+        {
+            "type": "text",
+            "data": "Up Shear \n\t\t\t\t\t\t bit"
+        },
+        {
+            "type": "text",
+            "data": "Expansion \n\t\t\t\t\t\t bit (Up Shear & Down Shear = False)"
+        },
+        {
+            "type": "text",
+            "data": "Expansion \n\t\t\t\t\t\t bit (Up Shear & Down Shear = False)"
+        },
+        {
+            "type": "text",
+            "data": "Pocket \n\t\t\t\t\t route operation"
+        },
+        {
+            "type": "text",
+            "data": "Pocket \n\t\t\t\t\t route operation"
+        },
+        {
+            "type": "text",
+            "data": "Down \n\t\t\t\t\t\t Shear bit \n Compression \n\t\t\t\t\t\t bit \n Expansion \n\t\t\t\t\t\t bit (Up Shear & Down Shear = False) \n Up Shear \n\t\t\t\t\t\t bit"
+        },
+        {
+            "type": "text",
+            "data": "Down \n\t\t\t\t\t\t Shear bit \n Compression \n\t\t\t\t\t\t bit \n Expansion \n\t\t\t\t\t\t bit (Up Shear & Down Shear = False) \n Up Shear \n\t\t\t\t\t\t bit"
+        },
+        {
+            "type": "text",
+            "data": "Down \n\t\t\t\t\t\t Shear bit"
+        },
+        {
+            "type": "text",
+            "data": "Down \n\t\t\t\t\t\t Shear bit"
+        },
+        {
+            "type": "text",
+            "data": "Compression \n\t\t\t\t\t\t bit"
+        },
+        {
+            "type": "text",
+            "data": "Compression \n\t\t\t\t\t\t bit"
+        },
+        {
+            "type": "text",
+            "data": "Expansion \n\t\t\t\t\t\t bit (Up Shear & Down Shear = False)"
+        },
+        {
+            "type": "text",
+            "data": "Expansion \n\t\t\t\t\t\t bit (Up Shear & Down Shear = False)"
+        },
+        {
+            "type": "text",
+            "data": "Up Shear \n\t\t\t\t\t\t bit"
+        },
+        {
+            "type": "text",
+            "data": "Up Shear \n\t\t\t\t\t\t bit"
+        },
+        {
+            "type": "text",
+            "data": "If \n\t\t\t\t found and tool diameter <  dado width then select \n\t\t\t\t tool in this order to create multi-pass route"
+        },
+        {
+            "type": "text",
+            "data": "If \n\t\t\t\t found and tool diameter <  dado width then select \n\t\t\t\t tool in this order to create multi-pass route"
+        },
+        {
+            "type": "text",
+            "data": "Cutout route \n\t\t\t\t\t operation \n \n Compression \n\t\t\t\t\t\t bit \n Down \n\t\t\t\t\t\t Shear bit \n Up Shear \n\t\t\t\t\t\t bit \n Expansion \n\t\t\t\t\t\t bit (Up Shear & Down Shear = False) \n \n Pocket \n\t\t\t\t\t route operation \n \n Down \n\t\t\t\t\t\t Shear bit \n Compression \n\t\t\t\t\t\t bit \n Expansion \n\t\t\t\t\t\t bit (Up Shear & Down Shear = False) \n Up Shear \n\t\t\t\t\t\t bit"
+        },
+        {
+            "type": "text",
+            "data": "Cutout route \n\t\t\t\t\t operation \n \n Compression \n\t\t\t\t\t\t bit \n Down \n\t\t\t\t\t\t Shear bit \n Up Shear \n\t\t\t\t\t\t bit \n Expansion \n\t\t\t\t\t\t bit (Up Shear & Down Shear = False) \n \n Pocket \n\t\t\t\t\t route operation \n \n Down \n\t\t\t\t\t\t Shear bit \n Compression \n\t\t\t\t\t\t bit \n Expansion \n\t\t\t\t\t\t bit (Up Shear & Down Shear = False) \n Up Shear \n\t\t\t\t\t\t bit"
+        },
+        {
+            "type": "text",
+            "data": "Cutout route \n\t\t\t\t\t operation"
+        },
+        {
+            "type": "text",
+            "data": "Cutout route \n\t\t\t\t\t operation"
+        },
+        {
+            "type": "text",
+            "data": "Compression \n\t\t\t\t\t\t bit \n Down \n\t\t\t\t\t\t Shear bit \n Up Shear \n\t\t\t\t\t\t bit \n Expansion \n\t\t\t\t\t\t bit (Up Shear & Down Shear = False)"
+        },
+        {
+            "type": "text",
+            "data": "Compression \n\t\t\t\t\t\t bit \n Down \n\t\t\t\t\t\t Shear bit \n Up Shear \n\t\t\t\t\t\t bit \n Expansion \n\t\t\t\t\t\t bit (Up Shear & Down Shear = False)"
+        },
+        {
+            "type": "text",
+            "data": "Compression \n\t\t\t\t\t\t bit"
+        },
+        {
+            "type": "text",
+            "data": "Compression \n\t\t\t\t\t\t bit"
+        },
+        {
+            "type": "text",
+            "data": "Down \n\t\t\t\t\t\t Shear bit"
+        },
+        {
+            "type": "text",
+            "data": "Down \n\t\t\t\t\t\t Shear bit"
+        },
+        {
+            "type": "text",
+            "data": "Up Shear \n\t\t\t\t\t\t bit"
+        },
+        {
+            "type": "text",
+            "data": "Up Shear \n\t\t\t\t\t\t bit"
+        },
+        {
+            "type": "text",
+            "data": "Expansion \n\t\t\t\t\t\t bit (Up Shear & Down Shear = False)"
+        },
+        {
+            "type": "text",
+            "data": "Expansion \n\t\t\t\t\t\t bit (Up Shear & Down Shear = False)"
+        },
+        {
+            "type": "text",
+            "data": "Pocket \n\t\t\t\t\t route operation"
+        },
+        {
+            "type": "text",
+            "data": "Pocket \n\t\t\t\t\t route operation"
+        },
+        {
+            "type": "text",
+            "data": "Down \n\t\t\t\t\t\t Shear bit \n Compression \n\t\t\t\t\t\t bit \n Expansion \n\t\t\t\t\t\t bit (Up Shear & Down Shear = False) \n Up Shear \n\t\t\t\t\t\t bit"
+        },
+        {
+            "type": "text",
+            "data": "Down \n\t\t\t\t\t\t Shear bit \n Compression \n\t\t\t\t\t\t bit \n Expansion \n\t\t\t\t\t\t bit (Up Shear & Down Shear = False) \n Up Shear \n\t\t\t\t\t\t bit"
+        },
+        {
+            "type": "text",
+            "data": "Down \n\t\t\t\t\t\t Shear bit"
+        },
+        {
+            "type": "text",
+            "data": "Down \n\t\t\t\t\t\t Shear bit"
+        },
+        {
+            "type": "text",
+            "data": "Compression \n\t\t\t\t\t\t bit"
+        },
+        {
+            "type": "text",
+            "data": "Compression \n\t\t\t\t\t\t bit"
+        },
+        {
+            "type": "text",
+            "data": "Expansion \n\t\t\t\t\t\t bit (Up Shear & Down Shear = False)"
+        },
+        {
+            "type": "text",
+            "data": "Expansion \n\t\t\t\t\t\t bit (Up Shear & Down Shear = False)"
+        },
+        {
+            "type": "text",
+            "data": "Up Shear \n\t\t\t\t\t\t bit"
+        },
+        {
+            "type": "text",
+            "data": "Up Shear \n\t\t\t\t\t\t bit"
+        },
+        {
+            "type": "text",
+            "data": "No \n\t match   ERROR"
+        },
+        {
+            "type": "text",
+            "data": "No \n\t match   ERROR"
+        },
+        {
+            "type": "text",
+            "data": "No \n\t match   ERROR"
+        },
+        {
+            "type": "image",
+            "data": "image289.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image290.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image291.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image293.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image294.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "NCEnglish_Cabinetmaker\\Ribbonbar\\Main_Tab\\Tool\\Tool Selection Logic.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

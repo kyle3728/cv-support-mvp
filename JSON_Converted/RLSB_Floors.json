@@ -1,0 +1,113 @@
+{
+    "id": "89c9ee1f-fa34-401d-b62b-9e7fdb93161d",
+    "title": "RLSB_Floors",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top \n > \n \n \n Room Level \n > \n \n Sidebar \n > \n \n Floors"
+        },
+        {
+            "type": "text",
+            "data": "Top \n >"
+        },
+        {
+            "type": "text",
+            "data": "Room Level \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Room Level",
+                "uuid": "9eaa492c-0405-4da7-8e0f-a6ff4e047890",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Sidebar \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Sidebar",
+                "uuid": "f07520a2-0645-4a40-b8d9-a72c15b5c147",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Floors"
+        },
+        {
+            "type": "text",
+            "data": "Floors"
+        },
+        {
+            "type": "text",
+            "data": "Floors -"
+        },
+        {
+            "type": "image",
+            "data": "image70.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image1920.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Clicking the Floors sidebar button will put you in Floor Creation/Editing mode and will bring up two new sidebar buttons:"
+        },
+        {
+            "type": "text",
+            "data": "AutoBuild Floors"
+        },
+        {
+            "type": "image",
+            "data": "image1940.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Click this option to have Solid automatically build a Floor for you. Solid will evaluate your overall Room size and Build a Floor sized for it. You can also use this option to rebuild a Floor you have modified back to the default."
+        },
+        {
+            "type": "text",
+            "data": "New Floor"
+        },
+        {
+            "type": "image",
+            "data": "image1941.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This button allows you to add additional manual Floors to your Room. This option brings you into the  Shape Editor ; simply define the boundary of your Floor(s)."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Shape Editor",
+                "uuid": "44e32c02-bc4b-47e1-a681-21c422325448",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "See the  Right Click on a Floor  topic for more information on editing your Floors."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Right Click on a Floor",
+                "uuid": "ff7c9466-836e-4125-92a1-2a918f53ba82",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Room_Level\\Side_Bar\\RLSB_Floors.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

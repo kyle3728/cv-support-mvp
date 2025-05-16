@@ -1,0 +1,29 @@
+{
+    "id": "3b6962fe-c9f7-4bfa-8b20-c106deca3ab5",
+    "title": "zBoard@1_Answer_DZ",
+    "content": [
+        {
+            "type": "text",
+            "data": "Board@1 Answer DZ"
+        },
+        {
+            "type": "text",
+            "data": "The thickness of a part comes"
+        },
+        {
+            "type": "text",
+            "data": "from the material the part is"
+        },
+        {
+            "type": "text",
+            "data": "made of, therefore you don't need"
+        },
+        {
+            "type": "text",
+            "data": "a formula for the thickness."
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\Parametric_Editing\\Intelligence_Workshop\\5th_Exercise\\zBoard@1_Answer_DZ.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

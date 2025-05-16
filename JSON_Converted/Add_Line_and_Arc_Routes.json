@@ -1,0 +1,285 @@
+{
+    "id": "0fbccc6f-4d02-4836-a01c-45a40f913cb4",
+    "title": "Add_Line_and_Arc_Routes",
+    "content": [
+        {
+            "type": "text",
+            "data": "Add Line and Arc Routes"
+        },
+        {
+            "type": "text",
+            "data": "It is possible to add Line and Arc Routes through a UCS. Below is an example of a UCS adding the different types of Route Operations."
+        },
+        {
+            "type": "text",
+            "data": ";Adds a Line Operation"
+        },
+        {
+            "type": "text",
+            "data": "For Each  RF Part"
+        },
+        {
+            "type": "text",
+            "data": ";Adds Line"
+        },
+        {
+            "type": "text",
+            "data": "Dim  LIN as New Line"
+        },
+        {
+            "type": "text",
+            "data": "LIN . _FACEWP  =  1"
+        },
+        {
+            "type": "text",
+            "data": "LIN . Visible < bool >   =  True"
+        },
+        {
+            "type": "text",
+            "data": "LIN . DX  =  0"
+        },
+        {
+            "type": "text",
+            "data": "LIN . DY  =  10"
+        },
+        {
+            "type": "text",
+            "data": "LIN . DZ  =  0.25"
+        },
+        {
+            "type": "text",
+            "data": "LIN . X  =  5"
+        },
+        {
+            "type": "text",
+            "data": "LIN . Y  =  5"
+        },
+        {
+            "type": "text",
+            "data": "LIN . Z  =  0"
+        },
+        {
+            "type": "text",
+            "data": "LIN . AX  =  0"
+        },
+        {
+            "type": "text",
+            "data": "LIN . AY  =  0"
+        },
+        {
+            "type": "text",
+            "data": "LIN . AZ  =  -45"
+        },
+        {
+            "type": "text",
+            "data": "LIN . _RCUT  =  2"
+        },
+        {
+            "type": "text",
+            "data": "LIN . TOOLID  =  5"
+        },
+        {
+            "type": "text",
+            "data": ";Adds Circle"
+        },
+        {
+            "type": "text",
+            "data": "Dim  CIR as New Arc"
+        },
+        {
+            "type": "text",
+            "data": "CIR . _FACEWP  =  1"
+        },
+        {
+            "type": "text",
+            "data": "CIR . Visible < bool >   =  True"
+        },
+        {
+            "type": "text",
+            "data": "CIR . DX  =  8"
+        },
+        {
+            "type": "text",
+            "data": "CIR . DY  =  8"
+        },
+        {
+            "type": "text",
+            "data": "CIR . DZ  =  0.25"
+        },
+        {
+            "type": "text",
+            "data": "CIR . X  =  15"
+        },
+        {
+            "type": "text",
+            "data": "CIR . Y  =  5"
+        },
+        {
+            "type": "text",
+            "data": "CIR . Z  =  0"
+        },
+        {
+            "type": "text",
+            "data": "CIR . AX  =  0"
+        },
+        {
+            "type": "text",
+            "data": "CIR . AY  =  0"
+        },
+        {
+            "type": "text",
+            "data": "CIR . AZ  =  0"
+        },
+        {
+            "type": "text",
+            "data": "CIR . _RCUT  =  2"
+        },
+        {
+            "type": "text",
+            "data": "CIR . TOOLID  =  5"
+        },
+        {
+            "type": "text",
+            "data": ";Adds Counter Clockwise Arc (Default)"
+        },
+        {
+            "type": "text",
+            "data": "Dim  CCARC as New Arc"
+        },
+        {
+            "type": "text",
+            "data": "CCARC . _FACEWP  =  1"
+        },
+        {
+            "type": "text",
+            "data": "CCARC . Visible < bool >   =  False"
+        },
+        {
+            "type": "text",
+            "data": "CCARC . DX  =  10"
+        },
+        {
+            "type": "text",
+            "data": "CCARC . DY  =  10"
+        },
+        {
+            "type": "text",
+            "data": "CCARC . DZ  =  0.25"
+        },
+        {
+            "type": "text",
+            "data": "CCARC . X  =  5"
+        },
+        {
+            "type": "text",
+            "data": "CCARC . Y  =  15"
+        },
+        {
+            "type": "text",
+            "data": "CCARC . Z  =  0"
+        },
+        {
+            "type": "text",
+            "data": "CCARC . AX  =  0"
+        },
+        {
+            "type": "text",
+            "data": "CCARC . AY  =  0"
+        },
+        {
+            "type": "text",
+            "data": "CCARC . AZ  =  0"
+        },
+        {
+            "type": "text",
+            "data": "CCARC . _ANG1  =  315"
+        },
+        {
+            "type": "text",
+            "data": "CCARC . _ANG2  =  45"
+        },
+        {
+            "type": "text",
+            "data": "CCARC . _RCUT  =  1"
+        },
+        {
+            "type": "text",
+            "data": "CCARC . TOOLID  =  5"
+        },
+        {
+            "type": "text",
+            "data": ";Adds Clockwise Arc"
+        },
+        {
+            "type": "text",
+            "data": "Dim  CWARC as New Arc"
+        },
+        {
+            "type": "text",
+            "data": "CWARC . _FACEWP  =  1"
+        },
+        {
+            "type": "text",
+            "data": "CWARC . Visible < bool >   =  False"
+        },
+        {
+            "type": "text",
+            "data": "CWARC . DX  =  10"
+        },
+        {
+            "type": "text",
+            "data": "CWARC . DY  =  10"
+        },
+        {
+            "type": "text",
+            "data": "CWARC . DZ  =  0.25"
+        },
+        {
+            "type": "text",
+            "data": "CWARC . X  =  15"
+        },
+        {
+            "type": "text",
+            "data": "CWARC . Y  =  15"
+        },
+        {
+            "type": "text",
+            "data": "CWARC . Z  =  0"
+        },
+        {
+            "type": "text",
+            "data": "CWARC . AX  =  0"
+        },
+        {
+            "type": "text",
+            "data": "CWARC . AY  =  0"
+        },
+        {
+            "type": "text",
+            "data": "CWARC . AZ  =  0"
+        },
+        {
+            "type": "text",
+            "data": "CWARC . _ANG1  =  45"
+        },
+        {
+            "type": "text",
+            "data": "CWARC . _ANG2  =  315"
+        },
+        {
+            "type": "text",
+            "data": "CWARC . _CWARC  =  1"
+        },
+        {
+            "type": "text",
+            "data": "CWARC . _RCUT  =  1"
+        },
+        {
+            "type": "text",
+            "data": "CWARC . TOOLID   =   5"
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\UCS\\Samples\\Add_Line_and_Arc_Routes.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

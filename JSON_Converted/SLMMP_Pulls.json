@@ -1,0 +1,250 @@
+{
+    "id": "90833dd1-a8d1-462b-bf37-a15497d3d9be",
+    "title": "SLMMP_Pulls",
+    "content": [
+        {
+            "type": "text",
+            "data": "Pulls"
+        },
+        {
+            "type": "text",
+            "data": "This topic covers all the Properties for the Pulls Material Type."
+        },
+        {
+            "type": "image",
+            "data": "Pulls_Material_Props.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Material Group"
+        },
+        {
+            "type": "text",
+            "data": "Previously covered in the  Banding Material Type  topic."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Banding Material Type",
+                "uuid": "a7630d33-1a29-4e4d-b54e-e6b16c30e227",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Pull Group"
+        },
+        {
+            "type": "image",
+            "data": "Pulls_Pull_Props.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Type -  The  Type  of Pull being defined."
+        },
+        {
+            "type": "text",
+            "data": "Type -  The  Type  of Pull being defined."
+        },
+        {
+            "type": "text",
+            "data": "Type -  The  Type  of Pull being defined."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Type",
+                "uuid": "4cf3a5bd-1d52-4637-83d0-35f25ab668dd",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Horizontal Inset -  The Horizontal Position of the Pull (Reference Point of Graphic) on the Door/Drawer Front. Sets the  Graphic Reference Point  placement."
+        },
+        {
+            "type": "text",
+            "data": "Horizontal Inset -  The Horizontal Position of the Pull (Reference Point of Graphic) on the Door/Drawer Front. Sets the  Graphic Reference Point  placement."
+        },
+        {
+            "type": "text",
+            "data": "Horizontal Inset -  The Horizontal Position of the Pull (Reference Point of Graphic) on the Door/Drawer Front. Sets the  Graphic Reference Point  placement."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Graphic Reference Point",
+                "uuid": "80226667-3248-4b47-b7ea-bc1e7f16cabb",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image3919.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Vertical Inset -  The Vertical Position of the Pull (Reference Point of Graphic) on the Door/Drawer Front. Sets the  Graphic Reference Point  placement."
+        },
+        {
+            "type": "text",
+            "data": "Vertical Inset -  The Vertical Position of the Pull (Reference Point of Graphic) on the Door/Drawer Front. Sets the  Graphic Reference Point  placement."
+        },
+        {
+            "type": "text",
+            "data": "Vertical Inset -  The Vertical Position of the Pull (Reference Point of Graphic) on the Door/Drawer Front. Sets the  Graphic Reference Point  placement."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Graphic Reference Point",
+                "uuid": "80226667-3248-4b47-b7ea-bc1e7f16cabb",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image3920.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Layer Group"
+        },
+        {
+            "type": "text",
+            "data": "Previously covered in the  Banding Material Type  topic."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Banding Material Type",
+                "uuid": "a7630d33-1a29-4e4d-b54e-e6b16c30e227",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Operations Tab"
+        },
+        {
+            "type": "text",
+            "data": "The Operations Tab includes Operations that are System Generated. For more information on these options see the  Pull  section of the New Material topic."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Pull",
+                "uuid": "4cf3a5bd-1d52-4637-83d0-35f25ab668dd",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "Pull_Operations.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Alias Properties"
+        },
+        {
+            "type": "text",
+            "data": "Name \n \n \n Description \n \n \n Vendor \n \n \n Default Cost \n \n \n Sell Price \n \n \n Default Markup \n \n \n Sales Tax \n \n \n Default Tax Rate \n \n \n Finishes \n \n \n Finish Types \n \n \n Textures"
+        },
+        {
+            "type": "text",
+            "data": "Name"
+        },
+        {
+            "type": "text",
+            "data": "Name"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "Vendor"
+        },
+        {
+            "type": "text",
+            "data": "Vendor"
+        },
+        {
+            "type": "text",
+            "data": "Default Cost"
+        },
+        {
+            "type": "text",
+            "data": "Default Cost"
+        },
+        {
+            "type": "text",
+            "data": "Sell Price"
+        },
+        {
+            "type": "text",
+            "data": "Sell Price"
+        },
+        {
+            "type": "text",
+            "data": "Default Markup"
+        },
+        {
+            "type": "text",
+            "data": "Default Markup"
+        },
+        {
+            "type": "text",
+            "data": "Sales Tax"
+        },
+        {
+            "type": "text",
+            "data": "Sales Tax"
+        },
+        {
+            "type": "text",
+            "data": "Default Tax Rate"
+        },
+        {
+            "type": "text",
+            "data": "Default Tax Rate"
+        },
+        {
+            "type": "text",
+            "data": "Finishes"
+        },
+        {
+            "type": "text",
+            "data": "Finishes"
+        },
+        {
+            "type": "text",
+            "data": "Finish Types"
+        },
+        {
+            "type": "text",
+            "data": "Finish Types"
+        },
+        {
+            "type": "text",
+            "data": "Textures"
+        },
+        {
+            "type": "text",
+            "data": "Textures"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\SLMMP_Pulls.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

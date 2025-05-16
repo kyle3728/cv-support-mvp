@@ -1,0 +1,197 @@
+{
+    "id": "e2255999-2c8e-44bf-b851-7811a58b9cec",
+    "title": "Koch_Maxi_5",
+    "content": [
+        {
+            "type": "text",
+            "data": "Koch Maxi 5"
+        },
+        {
+            "type": "text",
+            "data": "This is a Chop Saw Machine Link."
+        },
+        {
+            "type": "text",
+            "data": "Output for Koch/Paul Maxi 5 Premium Control."
+        },
+        {
+            "type": "text",
+            "data": "Only selected parts made of board stock are output."
+        },
+        {
+            "type": "text",
+            "data": "Structure of Cutting List To Be Imported into MAXI 5 Premium Control"
+        },
+        {
+            "type": "text",
+            "data": "The file to be imported must start with the order details comprising 9 lines, each with a maximum of 100 characters. This line will start with #; and end with ;"
+        },
+        {
+            "type": "text",
+            "data": "Then follow the individual lists."
+        },
+        {
+            "type": "text",
+            "data": "Each list may contain a 'project' line with a maximum of 100 characters. The project name will start with #; and end with ;"
+        },
+        {
+            "type": "text",
+            "data": "Each list may contain max. 400 sizes."
+        },
+        {
+            "type": "text",
+            "data": "Data have to be in ASCII code, i.e. ASCII characters, hex 20 to hex 7E. Not allowed are: $ , @ ,\\ ."
+        },
+        {
+            "type": "text",
+            "data": "Decimals to be separated by a point, not by a comma, each line to end with <CRLF> (Carriage return / line feed)."
+        },
+        {
+            "type": "text",
+            "data": "File name: nnnnnnnnnnnn.stk . Any name with the ending stk."
+        },
+        {
+            "type": "text",
+            "data": "Line structure:"
+        },
+        {
+            "type": "text",
+            "data": "P xx; Active; Control; Length; Number of Pieces; Sorting Station; Priority; Printing Code; <CRLF>"
+        },
+        {
+            "type": "text",
+            "data": "Thereby:"
+        },
+        {
+            "type": "text",
+            "data": "P xx: Cutting list number 1 .. 60"
+        },
+        {
+            "type": "text",
+            "data": "Active: If the lengths in this line are to be used, set this value to 1, otherwise to 0"
+        },
+        {
+            "type": "text",
+            "data": "Control: For special applications, always set to 1"
+        },
+        {
+            "type": "text",
+            "data": "Length: in millimeters with one decimal place, e.g. 1000.2 mm, min. 20.0 mm, max. 7000.0 mm"
+        },
+        {
+            "type": "text",
+            "data": "Number of pcs. 1 to 5 000000"
+        },
+        {
+            "type": "text",
+            "data": "Sorting station: 1 to 48"
+        },
+        {
+            "type": "text",
+            "data": "Priority: 1 to 300 in %, standard value is 100%"
+        },
+        {
+            "type": "text",
+            "data": "Printing code: If not used, then send  ; (2 blanks and semicolon)."
+        },
+        {
+            "type": "text",
+            "data": "Printing code may comprise max. 30 ASCII characters (no semicolon, no @ within the character string)"
+        },
+        {
+            "type": "text",
+            "data": "Example: Test cutting list_220304.stk"
+        },
+        {
+            "type": "text",
+            "data": "#; 'Order' line1;"
+        },
+        {
+            "type": "text",
+            "data": "#; Client: Muller Timber;"
+        },
+        {
+            "type": "text",
+            "data": "#; Species: Oak;"
+        },
+        {
+            "type": "text",
+            "data": "#; Timber section 33*45;"
+        },
+        {
+            "type": "text",
+            "data": "#; Completion. Xx.yy.zzzz;"
+        },
+        {
+            "type": "text",
+            "data": "#; STATISTICS: 3345;"
+        },
+        {
+            "type": "text",
+            "data": "#;"
+        },
+        {
+            "type": "text",
+            "data": "#; Further information;"
+        },
+        {
+            "type": "text",
+            "data": "#; Line 9;"
+        },
+        {
+            "type": "text",
+            "data": "P1; #; 'Project' text cutting list 1, max. 100 characters;"
+        },
+        {
+            "type": "text",
+            "data": "P1; 1; 1; 567.3; 125; 2; 100; 70.47.45 42 front jamb;"
+        },
+        {
+            "type": "text",
+            "data": "P1; 1; 1; 825.6; 222; 3; 95; 10.39.45 651 rear jamb ;"
+        },
+        {
+            "type": "text",
+            "data": "P1; 1; 1; 925.6; 322; 4; 105; 71.43.45 600 upright ;"
+        },
+        {
+            "type": "text",
+            "data": "P2; #;'Project' text 2;"
+        },
+        {
+            "type": "text",
+            "data": "P2; 1; 1; 456.7; 222; 4; 100; TTTT ;"
+        },
+        {
+            "type": "text",
+            "data": "P2; 1; 1; 625.6; 347; 3; 95; rail Q2 ;"
+        },
+        {
+            "type": "text",
+            "data": "P3; #; Additional components Q3;"
+        },
+        {
+            "type": "text",
+            "data": "P3; 1; 1; 555.7; 225; 2; 90; GHZF;"
+        },
+        {
+            "type": "text",
+            "data": "P3; 1; 1; 721.6; 1347; 9; 100; batten 567.34 ;"
+        },
+        {
+            "type": "text",
+            "data": "..."
+        },
+        {
+            "type": "text",
+            "data": "..."
+        },
+        {
+            "type": "text",
+            "data": "P60;"
+        }
+    ],
+    "source_file": "NCEnglish\\Ribbonbar\\Main_Tab\\Machine\\NC_Links\\Chop_Saw_Links\\Koch_Maxi_5.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

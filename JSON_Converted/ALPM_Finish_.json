@@ -1,0 +1,112 @@
+{
+    "id": "59e472c3-9457-4639-ae36-a90e88dce882",
+    "title": "ALPM_Finish_",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top \n > \n \n \n Assembly Level \n > \n \n Ribbonbar \n > \n \n Main Tab \n > \n \n Properties Group \n > \n \n Finish"
+        },
+        {
+            "type": "text",
+            "data": "Top \n >"
+        },
+        {
+            "type": "text",
+            "data": "Assembly Level \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Assembly Level",
+                "uuid": "b0552ea2-b430-4836-aa5e-42dfd04f9eda",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Ribbonbar \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Ribbonbar",
+                "uuid": "a095688d-3b5c-4aba-8f35-bdc4541dcc7f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Main Tab \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Main Tab",
+                "uuid": "a095688d-3b5c-4aba-8f35-bdc4541dcc7f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Properties Group \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Properties Group",
+                "uuid": "6f52466f-ffa6-4f56-b4cd-6f5da81e612d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Finish"
+        },
+        {
+            "type": "text",
+            "data": "Finish"
+        },
+        {
+            "type": "text",
+            "data": "Finish"
+        },
+        {
+            "type": "image",
+            "data": "image2063.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image938.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Finishes Tab at Cabinet Properties is the same as Job Level."
+        },
+        {
+            "type": "text",
+            "data": "See the  Job Level Finishes  topic for more information."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Job Level Finishes",
+                "uuid": "11c07c60-bb56-4d5a-b436-618fa74daff2",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Remember changes made here will only affect the current Assembly. Also, changes made here are attached as permanent (unless you remove them) overrides on the Assembly; which means that if you Save this Assembly into a Catalog these overrides will also be Saved."
+        },
+        {
+            "type": "image",
+            "data": "Warning.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Assembly_Level\\Ribbonbar\\Main_Tab\\Properties_Group\\ALPM_Finish_.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

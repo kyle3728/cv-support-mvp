@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><link rel="stylesheet" type="text/css" href="../../../../../_rhdefault.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=WINDOWS-1252"/>
+<meta name="topic-status" content="Complete"/>
+<meta name="topic-check-list" content="First Draft,Added To TOC,Links,Index keywords,Images,Tested,Finalized,Reviewed,Ran Smart Index"/>
+<meta name="topic-priority" content="0"/>
+<meta name="topic-time-estimate" content="0"/>
+<meta name="topic-comment" content=""/>
+<meta name="topic-id" content=""/>
+<meta name="generator" content="Adobe RoboHelp 2022"/>
+<title>WoodWop 4</title>
+<link rel="StyleSheet" href="../../../../../assets/css/default.css" type="text/css"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/><meta name="description" content=""/><script type="text/javascript" src="../../../../../ehlpdhtm.js"></script></head>
+<body>
+<h1>WoodWop 4</h1>
+<p>This is a Parts Router and/or Point-to-Point Link.</p>
+<p>WoodWop version 4 does not support Tool Compensation for saws. All saw tools should be set to output Center Line paths. Routers can be output with Tool Compensation. The following information from the Tool Catalog can not be used by WoodWop 4 and is therefore ignored: Feed Rate, Descent Rate, Maximum Depth Per Pass. Layer names will be generated automatically to the default settings:</p>
+<ol style="list-style: decimal;">
+<li class="p">
+<p class="1_List">Panel Dimensions: S_ + Part Thickness</p>
+</li>
+<li class="p">
+<p class="1_List">Routing: FK + Distance Off Table + T + Tool Number + Tool Comp</p>
+</li>
+<li class="p">
+<p class="1_List">Grooving Operations:  NZ + Depth</p>
+</li>
+<li class="p">
+<p class="1_List">Vertical Boring: ZG + Depth</p>
+</li>
+<li class="p">
+<p class="1_List">Vertical Through Boring: ZD + Depth</p>
+</li>
+<li class="p">
+<p class="1_List">Horizontal Boring: HO + Z Position</p>
+</li>
+</ol>
+<p>Tool selection for routing is made by Tool Number. Be sure to have accurate tool numbers for all routers in the Tool Catalog. Tool selection for boring is made by a size match between the tool and the operation. This output will create a JobName_40.bat file that can be used to automate the process of running BPP and converting the DXF files to the WoodWop file format.</p>
+
+
+</body></html>

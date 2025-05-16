@@ -1,0 +1,25 @@
+{
+    "id": "da12c7ce-150b-4904-9a42-67286b5a4902",
+    "title": "zBoard@3_Formula_DX",
+    "content": [
+        {
+            "type": "text",
+            "data": "Board@3 Formula DX"
+        },
+        {
+            "type": "text",
+            "data": "The depth of the cabinet minus"
+        },
+        {
+            "type": "text",
+            "data": "the thickness of board@2 minus"
+        },
+        {
+            "type": "text",
+            "data": ".5\" so it looks better."
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\Parametric_Editing\\Intelligence_Workshop\\5th_Exercise\\zBoard@3_Formula_DX.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

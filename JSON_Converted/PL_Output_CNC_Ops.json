@@ -1,0 +1,69 @@
+{
+    "id": "7ed1816c-4acd-4ff7-83b7-1db099414869",
+    "title": "PL_Output_CNC_Ops",
+    "content": [
+        {
+            "type": "text",
+            "data": "Output CNC Operations -"
+        },
+        {
+            "type": "image",
+            "data": "image2984.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image234.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "+ + or or"
+        },
+        {
+            "type": "image",
+            "data": "Shaping.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "Machining.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "Router.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "PointToPoint.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "DXF.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This button allows you to output the current Part to the selected Secondary and/or Specialty Machines. See the  S2M CENTER for more Help on this."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "S2M CENTER",
+                "uuid": "0f4b7036-db39-458b-b796-3430537a4816",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image5901.gif",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish\\Part_Level\\Ribbonbar\\Utilities_Tab\\PL_Output_CNC_Ops.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

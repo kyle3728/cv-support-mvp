@@ -1,0 +1,93 @@
+{
+    "id": "a83816df-2e7a-4ff6-ae9c-a89388210f64",
+    "title": "AlphaCAM_P2P",
+    "content": [
+        {
+            "type": "text",
+            "data": "Alphacam P2P"
+        },
+        {
+            "type": "text",
+            "data": "This is a Parts Router and/or Point-to-Point Link."
+        },
+        {
+            "type": "text",
+            "data": "Use this output when using Alphacam with a Point to Point machine. Alphacam supports tool compensation for routers and saws. The following information from the Tool Catalog can not be used by Alphacam and is therefore ignored: Descent rate and Maximum Depth Per Pass. Layer names from the Tool Catalog are ignored and will be generated automatically to the default settings:"
+        },
+        {
+            "type": "text",
+            "data": "Panel Dimensions: PL + Part Thickness \n \n \n Routing: RT_Z + Depth + _T + Tool Number + _D + Tool Diameter + _F + Feed Rate + Tool Comp \n \n \n Grooving Operations: SW_Z + Depth + _T + Tool Number + _D + Kerf + _F + Feed Rate + Tool Comp \n \n \n Vertical Boring: VD_Z + Depth + _T + Tool Number + _D + Tool Diameter \n \n \n Horizontal Boring On Left: HL_Z + Z Position + _T + Tool Number + _D + Tool Size \n \n \n Horizontal Boring On Right: HR_Z + Z Position + _T + Tool Number + _D + Tool Size \n \n \n Horizontal Boring On Top: HT_Z + Z Position + _T + Tool Number + _D + Tool Size \n \n \n Horizontal Boring On Bottom: HB_Z + Z Position + _T + Tool Number + _D + Tool Size"
+        },
+        {
+            "type": "text",
+            "data": "Panel Dimensions: PL + Part Thickness"
+        },
+        {
+            "type": "text",
+            "data": "Panel Dimensions: PL + Part Thickness"
+        },
+        {
+            "type": "text",
+            "data": "Routing: RT_Z + Depth + _T + Tool Number + _D + Tool Diameter + _F + Feed Rate + Tool Comp"
+        },
+        {
+            "type": "text",
+            "data": "Routing: RT_Z + Depth + _T + Tool Number + _D + Tool Diameter + _F + Feed Rate + Tool Comp"
+        },
+        {
+            "type": "text",
+            "data": "Grooving Operations: SW_Z + Depth + _T + Tool Number + _D + Kerf + _F + Feed Rate + Tool Comp"
+        },
+        {
+            "type": "text",
+            "data": "Grooving Operations: SW_Z + Depth + _T + Tool Number + _D + Kerf + _F + Feed Rate + Tool Comp"
+        },
+        {
+            "type": "text",
+            "data": "Vertical Boring: VD_Z + Depth + _T + Tool Number + _D + Tool Diameter"
+        },
+        {
+            "type": "text",
+            "data": "Vertical Boring: VD_Z + Depth + _T + Tool Number + _D + Tool Diameter"
+        },
+        {
+            "type": "text",
+            "data": "Horizontal Boring On Left: HL_Z + Z Position + _T + Tool Number + _D + Tool Size"
+        },
+        {
+            "type": "text",
+            "data": "Horizontal Boring On Left: HL_Z + Z Position + _T + Tool Number + _D + Tool Size"
+        },
+        {
+            "type": "text",
+            "data": "Horizontal Boring On Right: HR_Z + Z Position + _T + Tool Number + _D + Tool Size"
+        },
+        {
+            "type": "text",
+            "data": "Horizontal Boring On Right: HR_Z + Z Position + _T + Tool Number + _D + Tool Size"
+        },
+        {
+            "type": "text",
+            "data": "Horizontal Boring On Top: HT_Z + Z Position + _T + Tool Number + _D + Tool Size"
+        },
+        {
+            "type": "text",
+            "data": "Horizontal Boring On Top: HT_Z + Z Position + _T + Tool Number + _D + Tool Size"
+        },
+        {
+            "type": "text",
+            "data": "Horizontal Boring On Bottom: HB_Z + Z Position + _T + Tool Number + _D + Tool Size"
+        },
+        {
+            "type": "text",
+            "data": "Horizontal Boring On Bottom: HB_Z + Z Position + _T + Tool Number + _D + Tool Size"
+        },
+        {
+            "type": "text",
+            "data": "Tool selection for routing is made by Tool Number. Be sure to have accurate tool numbers for all Flat and Shaped Router Bits in the Tool Catalog."
+        }
+    ],
+    "source_file": "NCEnglish\\Ribbonbar\\Main_Tab\\Machine\\NC_Links\\Parts_Router_P-2-P_Links\\AlphaCAM_P2P.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

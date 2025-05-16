@@ -1,0 +1,69 @@
+{
+    "id": "84eb9fa9-a49e-4a2c-86b8-a9535ef94fbe",
+    "title": "CNC_Factory_Scorpion",
+    "content": [
+        {
+            "type": "text",
+            "data": "CNC Factory Scorpion"
+        },
+        {
+            "type": "text",
+            "data": "This is a Drill and Dowel Machine Link."
+        },
+        {
+            "type": "text",
+            "data": "This output will create program files for the CNC Factory Scorpion CNC Drill & Dowel Machine. Assign tools to this machine to create the correct output. In the tool parameters you can provide information such as tool height offset id, tool number, whether or not the tool is an insertion tool, as well as the insertion depth, insertion offset id, and the insertion gun offset."
+        },
+        {
+            "type": "text",
+            "data": "When assigning a Tool to a CNC Factory Scorpion Machine you will get the following additional Tool options:"
+        },
+        {
+            "type": "text",
+            "data": "Tool Number \n Height Offset ID \n Descent Rate"
+        },
+        {
+            "type": "text",
+            "data": "Tool Number"
+        },
+        {
+            "type": "text",
+            "data": "Height Offset ID"
+        },
+        {
+            "type": "text",
+            "data": "Descent Rate"
+        },
+        {
+            "type": "text",
+            "data": "They will also have the following Parameters added:"
+        },
+        {
+            "type": "text",
+            "data": "Insert Dowel(Yes/No) - Denotes this tool as an insertion tool \n Insert Depth(Measurement) - Provides the insertion Depth for this tool \n Insert Offset (Integer) - The insertion offset id for the tool \n Gun Offset (Integer) - The gun insertion offset id \n Safe Rapid Level (Measurement) - Provide safe z level for rapid movement"
+        },
+        {
+            "type": "text",
+            "data": "Insert Dowel(Yes/No) - Denotes this tool as an insertion tool"
+        },
+        {
+            "type": "text",
+            "data": "Insert Depth(Measurement) - Provides the insertion Depth for this tool"
+        },
+        {
+            "type": "text",
+            "data": "Insert Offset (Integer) - The insertion offset id for the tool"
+        },
+        {
+            "type": "text",
+            "data": "Gun Offset (Integer) - The gun insertion offset id"
+        },
+        {
+            "type": "text",
+            "data": "Safe Rapid Level (Measurement) - Provide safe z level for rapid movement"
+        }
+    ],
+    "source_file": "NCEnglish\\Ribbonbar\\Main_Tab\\Machine\\NC_Links\\Drill_and_Dowel_Links\\CNC_Factory_Scorpion.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

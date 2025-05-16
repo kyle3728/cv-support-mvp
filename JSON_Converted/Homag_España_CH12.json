@@ -1,0 +1,21 @@
+{
+    "id": "0018dd1d-42e0-4fe2-bf99-bd6bc1de6c92",
+    "title": "Homag_Espa\u00f1a_CH12",
+    "content": [
+        {
+            "type": "text",
+            "data": "Homag Espa\u00f1a CH12"
+        },
+        {
+            "type": "text",
+            "data": "This is a  Panel Saw  Link."
+        },
+        {
+            "type": "text",
+            "data": "This link is for the Homag Espa\u00f1a CH12 with the CNI Controller, model NPS400."
+        }
+    ],
+    "source_file": "NCEnglish_Optimizer\\Ribbonbar\\Main_Tab\\Machine\\NC_Links\\Saw_Links\\Homag_Espa\u00f1a_CH12.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

@@ -1,0 +1,29 @@
+{
+    "id": "58e60a79-b0b3-455b-9624-c34bc648941f",
+    "title": "zBoard@3_Formula_DZ",
+    "content": [
+        {
+            "type": "text",
+            "data": "Board@3 Formula DZ"
+        },
+        {
+            "type": "text",
+            "data": "Because the thickness of a part comes"
+        },
+        {
+            "type": "text",
+            "data": "from the material the part is made of, you"
+        },
+        {
+            "type": "text",
+            "data": "almost never have to write a formula for a"
+        },
+        {
+            "type": "text",
+            "data": "part's DZ."
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\Parametric_Editing\\Intelligence_Workshop\\5th_Exercise\\zBoard@3_Formula_DZ.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

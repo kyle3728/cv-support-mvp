@@ -1,0 +1,488 @@
+{
+    "id": "95ab1892-6ae3-406c-ae51-5d4025c77f84",
+    "title": "STDDXFSetup_Tab",
+    "content": [
+        {
+            "type": "text",
+            "data": "Standard DXF Machine Catalog Setup Tab"
+        },
+        {
+            "type": "text",
+            "data": "Use this tab to customize a DXF file for your particular CAM package. The Standard DXF is available for both Point to Point machines and Routers."
+        },
+        {
+            "type": "image",
+            "data": "image914.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There are several options available when setting up the Standard DXF Link for a Point to Point and/or Parts Router."
+        },
+        {
+            "type": "text",
+            "data": "DXF - Layer Format Group"
+        },
+        {
+            "type": "text",
+            "data": "Board Layer Name  - Define the name of the Layer representing the rough size or border of the part being cut."
+        },
+        {
+            "type": "text",
+            "data": "Board Layer Name  - Define the name of the Layer representing the rough size or border of the part being cut."
+        },
+        {
+            "type": "text",
+            "data": "Board Layer Name  - Define the name of the Layer representing the rough size or border of the part being cut."
+        },
+        {
+            "type": "image",
+            "data": "image917.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "You can use text variables to define your Layer Name."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Variable",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "{TS}",
+                        "Tool Size"
+                    ],
+                    [
+                        "{DZ}",
+                        "Tool Depth"
+                    ],
+                    [
+                        "{ZP}",
+                        "Tool Z Pos (measured from work piece top/front face)"
+                    ],
+                    [
+                        "{ZB}",
+                        "Tool Z Pos (measured from work piece bottom/back face)"
+                    ],
+                    [
+                        "{TC}",
+                        "Tool Comp"
+                    ],
+                    [
+                        "{TN}",
+                        "Tool Number"
+                    ],
+                    [
+                        "{PN}",
+                        "Pen Number"
+                    ],
+                    [
+                        "{FD}",
+                        "Feed Rate"
+                    ],
+                    [
+                        "{DR}",
+                        "Descent Rate"
+                    ],
+                    [
+                        "{PR}",
+                        "CNC Program"
+                    ],
+                    [
+                        "{ZO}",
+                        "Zone/Run Field"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Variable"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "{TS}"
+        },
+        {
+            "type": "text",
+            "data": "Tool Size"
+        },
+        {
+            "type": "text",
+            "data": "{DZ}"
+        },
+        {
+            "type": "text",
+            "data": "Tool Depth"
+        },
+        {
+            "type": "text",
+            "data": "{ZP}"
+        },
+        {
+            "type": "text",
+            "data": "Tool Z Pos (measured from work piece top/front face)"
+        },
+        {
+            "type": "text",
+            "data": "{ZB}"
+        },
+        {
+            "type": "text",
+            "data": "Tool Z Pos (measured from work piece bottom/back face)"
+        },
+        {
+            "type": "text",
+            "data": "{TC}"
+        },
+        {
+            "type": "text",
+            "data": "Tool Comp"
+        },
+        {
+            "type": "text",
+            "data": "{TN}"
+        },
+        {
+            "type": "text",
+            "data": "Tool Number"
+        },
+        {
+            "type": "text",
+            "data": "{PN}"
+        },
+        {
+            "type": "text",
+            "data": "Pen Number"
+        },
+        {
+            "type": "text",
+            "data": "{FD}"
+        },
+        {
+            "type": "text",
+            "data": "Feed Rate"
+        },
+        {
+            "type": "text",
+            "data": "{DR}"
+        },
+        {
+            "type": "text",
+            "data": "Descent Rate"
+        },
+        {
+            "type": "text",
+            "data": "{PR}"
+        },
+        {
+            "type": "text",
+            "data": "CNC Program"
+        },
+        {
+            "type": "text",
+            "data": "{ZO}"
+        },
+        {
+            "type": "text",
+            "data": "Zone/Run Field"
+        },
+        {
+            "type": "text",
+            "data": "Border Color #  - Enter the color number you would like to use for Board's Layer."
+        },
+        {
+            "type": "text",
+            "data": "Border Color #  - Enter the color number you would like to use for Board's Layer."
+        },
+        {
+            "type": "text",
+            "data": "Border Color #  - Enter the color number you would like to use for Board's Layer."
+        },
+        {
+            "type": "image",
+            "data": "image918.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "# Decimals in Layer Name  - Enter the number of decimal places you would like exported in the Layer names to your CAM package."
+        },
+        {
+            "type": "text",
+            "data": "# Decimals in Layer Name  - Enter the number of decimal places you would like exported in the Layer names to your CAM package."
+        },
+        {
+            "type": "text",
+            "data": "# Decimals in Layer Name  - Enter the number of decimal places you would like exported in the Layer names to your CAM package."
+        },
+        {
+            "type": "image",
+            "data": "image919.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Output \"_\" for Decimal Point  - A \"Yes\" here will output an underscore \"_\" to represent the decimal place, a \"No\" here will output a letter \"p\" to represent the decimal place."
+        },
+        {
+            "type": "text",
+            "data": "Output \"_\" for Decimal Point  - A \"Yes\" here will output an underscore \"_\" to represent the decimal place, a \"No\" here will output a letter \"p\" to represent the decimal place."
+        },
+        {
+            "type": "text",
+            "data": "Output \"_\" for Decimal Point  - A \"Yes\" here will output an underscore \"_\" to represent the decimal place, a \"No\" here will output a letter \"p\" to represent the decimal place."
+        },
+        {
+            "type": "image",
+            "data": "image920.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "DXF - Geometry Group"
+        },
+        {
+            "type": "text",
+            "data": "Break Polylines into Lines  - A \"Yes\" here will break route operations into separate lines, a \"No\" will output the route operations as a continuous polyline."
+        },
+        {
+            "type": "text",
+            "data": "Break Polylines into Lines  - A \"Yes\" here will break route operations into separate lines, a \"No\" will output the route operations as a continuous polyline."
+        },
+        {
+            "type": "text",
+            "data": "Break Polylines into Lines  - A \"Yes\" here will break route operations into separate lines, a \"No\" will output the route operations as a continuous polyline."
+        },
+        {
+            "type": "image",
+            "data": "image922.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Rectangles for Side Bores  - A \"Yes\" here will output Horizontal boring as rectangles, a \"No\" will output them as circles."
+        },
+        {
+            "type": "text",
+            "data": "Rectangles for Side Bores  - A \"Yes\" here will output Horizontal boring as rectangles, a \"No\" will output them as circles."
+        },
+        {
+            "type": "text",
+            "data": "Rectangles for Side Bores  - A \"Yes\" here will output Horizontal boring as rectangles, a \"No\" will output them as circles."
+        },
+        {
+            "type": "image",
+            "data": "image923.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Use Thick on Rect Side Bore For Z Position -  A \"Yes\" here will use the Thickness of the Rectangle Side Bore for the Z Position of the side bore."
+        },
+        {
+            "type": "text",
+            "data": "Use Thick on Rect Side Bore For Z Position -  A \"Yes\" here will use the Thickness of the Rectangle Side Bore for the Z Position of the side bore."
+        },
+        {
+            "type": "text",
+            "data": "Use Thick on Rect Side Bore For Z Position -  A \"Yes\" here will use the Thickness of the Rectangle Side Bore for the Z Position of the side bore."
+        },
+        {
+            "type": "image",
+            "data": "image924.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Apply Depths to Output  - A \"Yes\" here will output your DXF's with depths, a \"No\" will output a 2D representation of your machining."
+        },
+        {
+            "type": "text",
+            "data": "Apply Depths to Output  - A \"Yes\" here will output your DXF's with depths, a \"No\" will output a 2D representation of your machining."
+        },
+        {
+            "type": "text",
+            "data": "Apply Depths to Output  - A \"Yes\" here will output your DXF's with depths, a \"No\" will output a 2D representation of your machining."
+        },
+        {
+            "type": "image",
+            "data": "image925.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Set Base of Board as 0 Z  - A \"Yes\" here will set the base of your outputted board to a Z of 0 (Mic @ Spoil Board), a \"No\" here will set the top of your outputted board to the top of your material."
+        },
+        {
+            "type": "text",
+            "data": "Set Base of Board as 0 Z  - A \"Yes\" here will set the base of your outputted board to a Z of 0 (Mic @ Spoil Board), a \"No\" here will set the top of your outputted board to the top of your material."
+        },
+        {
+            "type": "text",
+            "data": "Set Base of Board as 0 Z  - A \"Yes\" here will set the base of your outputted board to a Z of 0 (Mic @ Spoil Board), a \"No\" here will set the top of your outputted board to the top of your material."
+        },
+        {
+            "type": "image",
+            "data": "image926.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Set Bottom Edge as 0 Y  - A \"Yes\" here will set the bottom edge of your outputted parts at a Y of 0, a \"No\" will set the top edge to 0."
+        },
+        {
+            "type": "text",
+            "data": "Set Bottom Edge as 0 Y  - A \"Yes\" here will set the bottom edge of your outputted parts at a Y of 0, a \"No\" will set the top edge to 0."
+        },
+        {
+            "type": "text",
+            "data": "Set Bottom Edge as 0 Y  - A \"Yes\" here will set the bottom edge of your outputted parts at a Y of 0, a \"No\" will set the top edge to 0."
+        },
+        {
+            "type": "image",
+            "data": "image927.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "DXF - Mirror Group"
+        },
+        {
+            "type": "text",
+            "data": "Positive Mirrored X Value  - See image below."
+        },
+        {
+            "type": "text",
+            "data": "Positive Mirrored X Value  - See image below."
+        },
+        {
+            "type": "text",
+            "data": "Positive Mirrored X Value  - See image below."
+        },
+        {
+            "type": "image",
+            "data": "image928.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Mirror Parts  - A \"Yes\" here turns on part mirroring."
+        },
+        {
+            "type": "text",
+            "data": "Mirror Parts  - A \"Yes\" here turns on part mirroring."
+        },
+        {
+            "type": "text",
+            "data": "Mirror Parts  - A \"Yes\" here turns on part mirroring."
+        },
+        {
+            "type": "image",
+            "data": "image929.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "DXF - Outline Group"
+        },
+        {
+            "type": "text",
+            "data": "Output All Parts  - A \"Yes\" here tells Solid to output \"All Parts\" to your machine. Utilize this for nesting all of your parts."
+        },
+        {
+            "type": "text",
+            "data": "Output All Parts  - A \"Yes\" here tells Solid to output \"All Parts\" to your machine. Utilize this for nesting all of your parts."
+        },
+        {
+            "type": "text",
+            "data": "Output All Parts  - A \"Yes\" here tells Solid to output \"All Parts\" to your machine. Utilize this for nesting all of your parts."
+        },
+        {
+            "type": "image",
+            "data": "image930.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Output Broken Outline  - See image below."
+        },
+        {
+            "type": "text",
+            "data": "Output Broken Outline  - See image below."
+        },
+        {
+            "type": "text",
+            "data": "Output Broken Outline  - See image below."
+        },
+        {
+            "type": "image",
+            "data": "image931.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Label Format Group"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Label Format Group",
+                "uuid": "182915c0-9ef6-44fd-a187-3e7e81401ebc",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Zone Sizes Group"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Zone Sizes Group",
+                "uuid": "c5139260-24c6-4c4a-99f8-32fd8fa9af11",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Zone Labels Front"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Zone Labels Front",
+                "uuid": "c5139260-24c6-4c4a-99f8-32fd8fa9af11",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Zone Labels Rear"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Zone Labels Rear",
+                "uuid": "c5139260-24c6-4c4a-99f8-32fd8fa9af11",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "NCEnglish\\Ribbonbar\\Main_Tab\\Machine\\NC_Links\\Parts_Router_P-2-P_Links\\Standard_DXF\\STDDXFSetup_Tab.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

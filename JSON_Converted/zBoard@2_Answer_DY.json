@@ -1,0 +1,37 @@
+{
+    "id": "5c43feeb-86ee-42c0-ba73-5137bb405303",
+    "title": "zBoard@2_Answer_DY",
+    "content": [
+        {
+            "type": "text",
+            "data": "Board@2 Answer DY"
+        },
+        {
+            "type": "text",
+            "data": "The length of the part is"
+        },
+        {
+            "type": "text",
+            "data": "related to the height of the"
+        },
+        {
+            "type": "text",
+            "data": "cabinet. If we change the"
+        },
+        {
+            "type": "text",
+            "data": "height of the cabinet, we want"
+        },
+        {
+            "type": "text",
+            "data": "the length of the part to change."
+        },
+        {
+            "type": "text",
+            "data": "Therefore, we need a formula."
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\Parametric_Editing\\Intelligence_Workshop\\5th_Exercise\\zBoard@2_Answer_DY.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

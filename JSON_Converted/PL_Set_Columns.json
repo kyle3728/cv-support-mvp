@@ -1,0 +1,321 @@
+{
+    "id": "e521df33-c66b-4609-831a-1de530f7578e",
+    "title": "PL_Set_Columns",
+    "content": [
+        {
+            "type": "text",
+            "data": "Set Columns -"
+        },
+        {
+            "type": "image",
+            "data": "image2957.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image1170.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "1AllUltimate.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Allows you to set the Order and choose which Columns in the Reports   View to display. Simply drag the Column name to its new location."
+        },
+        {
+            "type": "image",
+            "data": "image1170.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image2959.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image5894.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Column Definitions"
+        },
+        {
+            "type": "text",
+            "data": "Operation Icons"
+        },
+        {
+            "type": "text",
+            "data": "The first column in the Reports View can not be moved and represents both the Type and Origin of the Operation."
+        },
+        {
+            "type": "text",
+            "data": "There are 13 Icon shapes representing the Operation Type:"
+        },
+        {
+            "type": "text",
+            "data": "Route"
+        },
+        {
+            "type": "image",
+            "data": "image1172.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Line Bore"
+        },
+        {
+            "type": "image",
+            "data": "image1173.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Hole"
+        },
+        {
+            "type": "image",
+            "data": "image1174.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Dado"
+        },
+        {
+            "type": "image",
+            "data": "image1175.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Intelli-Joint"
+        },
+        {
+            "type": "image",
+            "data": "image1176.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Alphacam Drawing"
+        },
+        {
+            "type": "image",
+            "data": "image1177.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Dado Master"
+        },
+        {
+            "type": "image",
+            "data": "image1178.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Blind Dado Master"
+        },
+        {
+            "type": "image",
+            "data": "image1179.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Line Bore Master"
+        },
+        {
+            "type": "image",
+            "data": "image1180.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Hole Master"
+        },
+        {
+            "type": "image",
+            "data": "image1181.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Dove Tail Master"
+        },
+        {
+            "type": "image",
+            "data": "image1182.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "FastenLink \u2122"
+        },
+        {
+            "type": "image",
+            "data": "image5902.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Lamello \u2122  Clamex \u2122"
+        },
+        {
+            "type": "image",
+            "data": "image5903.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "These icons can be represented by one of 4 colors that represent the Operations Origin:"
+        },
+        {
+            "type": "text",
+            "data": "Red -  System created operation"
+        },
+        {
+            "type": "text",
+            "data": "Red Speck -  User modified System created operation"
+        },
+        {
+            "type": "text",
+            "data": "Yellow -  User created operation"
+        },
+        {
+            "type": "text",
+            "data": "Blue -  Slave/UCS created operation"
+        },
+        {
+            "type": "text",
+            "data": "Operation"
+        },
+        {
+            "type": "text",
+            "data": "The name of the Operation."
+        },
+        {
+            "type": "text",
+            "data": "Pos X"
+        },
+        {
+            "type": "text",
+            "data": "The X Position of the Operation."
+        },
+        {
+            "type": "text",
+            "data": "Pos Y"
+        },
+        {
+            "type": "text",
+            "data": "The Y Position of the Operation."
+        },
+        {
+            "type": "text",
+            "data": "Pos Z"
+        },
+        {
+            "type": "text",
+            "data": "The Z Position of the Operation."
+        },
+        {
+            "type": "text",
+            "data": "Width"
+        },
+        {
+            "type": "text",
+            "data": "The Width of the Operation."
+        },
+        {
+            "type": "text",
+            "data": "Length"
+        },
+        {
+            "type": "text",
+            "data": "The Length of the Operation."
+        },
+        {
+            "type": "text",
+            "data": "Depth"
+        },
+        {
+            "type": "text",
+            "data": "The Depth of the Operation."
+        },
+        {
+            "type": "text",
+            "data": "Rept."
+        },
+        {
+            "type": "text",
+            "data": "The Repetition of the Operation. Only used for Line Bore."
+        },
+        {
+            "type": "text",
+            "data": "Dir X"
+        },
+        {
+            "type": "text",
+            "data": "The X Direction of the Operation."
+        },
+        {
+            "type": "text",
+            "data": "Dir Y"
+        },
+        {
+            "type": "text",
+            "data": "The Y Direction of the Operation."
+        },
+        {
+            "type": "text",
+            "data": "Dir Z"
+        },
+        {
+            "type": "text",
+            "data": "The Z Direction of the Operation."
+        },
+        {
+            "type": "text",
+            "data": "Priority"
+        },
+        {
+            "type": "text",
+            "data": "Establish the Order in which the Operations will be machined. This is typically not necessary to establish as the S2M CENTER will handle this automatically."
+        },
+        {
+            "type": "text",
+            "data": "See the  Priority  and  Group  Parameter documentation in the System parameters topic for more advanced information on setting Order of Operations."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Priority",
+                "uuid": "a4e1b750-0c06-4170-b06e-a29aa6f022c2",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Group",
+                "uuid": "a4e1b750-0c06-4170-b06e-a29aa6f022c2",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\PL_Set_Columns.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

@@ -1,0 +1,48 @@
+{
+    "id": "05061b61-1876-4305-93d4-b09f0aa73a9c",
+    "title": "Adding_an_Object_at_the_Assembly_Level",
+    "content": [
+        {
+            "type": "text",
+            "data": "Adding an Object at the Assembly Level"
+        },
+        {
+            "type": "text",
+            "data": "While in any of the Orthographic Views, you may add a Part from your Object Catalog in the same manner as Objects are added from the Floor Plan or Elevation Views."
+        },
+        {
+            "type": "image",
+            "data": "image399.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "While in one of the Orthographic views (End Orthoview pictured above), click the Objects button in the sidebar."
+        },
+        {
+            "type": "image",
+            "data": "image421.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "",
+                "uuid": "f709ca68-bf0f-4b79-bffc-5215f19a9dbd",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "The Object library will appear in the sidebar. Simply select the objects that you want to add and then drag them out into the right side of the screen. Use the position and placement fields in the sidebar to place the object in the correct location."
+        },
+        {
+            "type": "image",
+            "data": "image3102.gif",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\Assembly_Level_Ortho_Views\\Adding_an_Object_at_the_Assembly_Level.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

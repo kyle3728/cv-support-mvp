@@ -1,0 +1,25 @@
+{
+    "id": "b1af4b5d-598f-4f99-be4b-d5e36e54110d",
+    "title": "zThird_Exercise_Code_DY",
+    "content": [
+        {
+            "type": "text",
+            "data": "Third Exercise Code DY"
+        },
+        {
+            "type": "text",
+            "data": "Cab.Board@1.DY/2 - Cab.Board@2.Dx/2"
+        },
+        {
+            "type": "text",
+            "data": "OR"
+        },
+        {
+            "type": "text",
+            "data": "(Cab.Board@1.DY - Cab.Board@2.DX)/2"
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\Parametric_Editing\\Intelligence_Workshop\\3rd_Exercise\\zThird_Exercise_Code_DY.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

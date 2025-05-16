@@ -1,0 +1,21 @@
+{
+    "id": "3c5a4098-2e06-41be-9159-0753ee9a5bac",
+    "title": "IntelliCAM_-_Parts_(Mirror)",
+    "content": [
+        {
+            "type": "text",
+            "data": "Intelli-CAM - Parts (Mirror)"
+        },
+        {
+            "type": "text",
+            "data": "This is a Parts Router and/or Point-to-Point Link."
+        },
+        {
+            "type": "text",
+            "data": "Intelli-CAM Parts (Mirror) - Some parts will be mirrored. This is the preferred method if your parts were milled with a saw the sent to a P2P machining center."
+        }
+    ],
+    "source_file": "NCEnglish\\Ribbonbar\\Main_Tab\\Machine\\NC_Links\\Parts_Router_P-2-P_Links\\IntelliCAM_-_Parts_(Mirror).htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

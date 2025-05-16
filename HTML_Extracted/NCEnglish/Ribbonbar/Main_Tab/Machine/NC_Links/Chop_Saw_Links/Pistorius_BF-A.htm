@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><link rel="stylesheet" type="text/css" href="../../../../../_rhdefault.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=WINDOWS-1252"/>
+<meta name="generator" content="Adobe RoboHelp 2022"/>
+<title>Pistorius BF-A</title>
+<link rel="StyleSheet" href="../../../../../assets/css/default.css" type="text/css"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/><script type="text/javascript" src="../../../../../ehlpdhtm.js"></script></head>
+<body>
+<h1>Pistorius BF-A</h1>
+<p>This is a Chop Saw Machine Link.</p>
+<p>Output for Pistorius BF-A CNC Sawing and Notching (Haunching) Machine. Only parts made of board stock are output. Output can include machining mortise and tenons for stiles and rails when operations are linked to parts using a specific tool (see the eSupport Tech Packages area for examples of using this NcLink with Cabinet Vision Solid).</p>
+<p>Valid feed rates for the tool are 1 - 5 in/sec.</p>
+<p> </p>
+<h2>Output File Specifications</h2>
+<p>The are 3 sections in the file, Cabinets, Parts and Materials:</p>
+<h3>[Cabinets]</h3>
+<h3 style="font-weight: normal;">The Cabinets section is not used.</h3>
+<h3>[Parts]</h3>
+<p>The Parts section has the following structure:</p>
+<p><span style="font-weight: bold;">PartID</span> - Unique identifier for the part (Data type: long integer)</p>
+<p><span style="font-weight: bold;">CabinetID</span> - Not used. Must be 0.</p>
+<p><span style="font-weight: bold;">PartName</span> - Name of part (not the part type) (Data type: string 50 characters max)</p>
+<p><span style="font-weight: bold;">MaterialID</span> - Unique identifier from [Materials] section that defines the parts material (Data type: long integer)</p>
+<p><span style="font-weight: bold;">PartTypeID</span> - Identifies the part type (Data type: long integer, 1-Right style, 2-Bottom rail, 3-Left style, 4-Top rail, 5-Mid style, 6-Mid rail)</p>
+<p><span style="font-weight: bold;">ParentID</span> - Not used. Must be 0.</p>
+<p><span style="font-weight: bold;">ChildID</span> - Not used. Must be 0.</p>
+<p><span style="font-weight: bold;">Side1Data</span> - Notch locations (Data type: string 255 characters max, see notes below)</p>
+<p><span style="font-weight: bold;">Side2Data</span> - Notch locations (Data type: string 255 characters max, see notes below)</p>
+<p><span style="font-weight: bold;">PartNumber</span> - Not used. Must be 0.</p>
+<p><span style="font-weight: bold;">Left</span> - Not used. Must be 0.</p>
+<p><span style="font-weight: bold;">Right</span> - Set to length of part not including extra length required due to bead (Data type: string 16 characters max)</p>
+<p><span style="font-weight: bold;">Bottom</span> - Set to length of part not including extra length required due to bead (Data type: string 16 characters max)</p>
+<p><span style="font-weight: bold;">Top</span> - Always set to zero for your import file</p>
+<p style="font-weight: bold; text-decoration: underline;">Notes on format of Side1Data and Side2Data:</p>
+<p>Each notch on the side has the following format</p>
+<p>&quot;;MaterialID:NotchStart,NotchEnd;&quot;</p>
+<p>Each entry is surrounded by a semicolon. If no notching is required there will just be a <span style="font-weight: bold;">;</span> in the field.</p>
+<p>The MaterialID comes from Materials section with width of the material matching the width of the notch.</p>
+<p> </p>
+<h3>[Materials]</h3>
+<p>The Materials section has the following structure:</p>
+<p><span style="font-weight: bold;">MaterialID</span> - Unique identifier for the material (Data type: long integer)</p>
+<p><span style="font-weight: bold;">MaterialName</span> - Name of material (Data type: string 20 characters max)</p>
+<p><span style="font-weight: bold;">NumberOfBeads</span> - 0, 1, or 2 (Data type: integer)</p>
+<p><span style="font-weight: bold;">Width</span>  - Overall width of material including bead dimension (Data type: string 10 characters max)</p>
+<p><span style="font-weight: bold;">Bead</span> - Size of bead (Data type: single)</p>
+<p><span style="font-weight: bold;">CutSpeed</span> - Speed material will be cut. (Data type: string 10 characters max,1-5in/sec 3 seems to work with everything)</p>
+
+
+</body></html>

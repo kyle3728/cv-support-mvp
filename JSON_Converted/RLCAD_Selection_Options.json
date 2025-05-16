@@ -1,0 +1,2611 @@
+{
+    "id": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+    "title": "RLCAD_Selection_Options",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top \n > \n \n \n Room Level \n > \n \n Sidebar \n > \n \n CAD \n > \n \n Selection Options"
+        },
+        {
+            "type": "text",
+            "data": "Top \n >"
+        },
+        {
+            "type": "text",
+            "data": "Room Level \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Room Level",
+                "uuid": "9eaa492c-0405-4da7-8e0f-a6ff4e047890",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Sidebar \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Sidebar",
+                "uuid": "f07520a2-0645-4a40-b8d9-a72c15b5c147",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "CAD \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "CAD",
+                "uuid": "c364cda2-94c1-45c4-950a-125c6e19bd95",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Selection Options"
+        },
+        {
+            "type": "text",
+            "data": "Selection Options"
+        },
+        {
+            "type": "text",
+            "data": "CAD Selection Options"
+        },
+        {
+            "type": "text",
+            "data": "There are several methods to select CAD objects as well as several functions you can perform on CAD Objects once they are selected."
+        },
+        {
+            "type": "text",
+            "data": "Left Click Select"
+        },
+        {
+            "type": "text",
+            "data": "Simply Left Click on a single CAD Object to select it."
+        },
+        {
+            "type": "text",
+            "data": "+ Left Click Select"
+        },
+        {
+            "type": "image",
+            "data": "ctrl_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "To select multiple CAD Objects simply hold the   key while Left Clicking."
+        },
+        {
+            "type": "image",
+            "data": "ctrl_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "+ Left clicking on a single CAD entity and selecting a CAD node for it will also put that item into Scale/Stretch/Move mode just like using the multi-select options."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "ctrl_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Window Selection"
+        },
+        {
+            "type": "text",
+            "data": "You can also Left Click the screen and drag a Window to enclose all of the CAD Objects you want to Select."
+        },
+        {
+            "type": "text",
+            "data": "Selecting Single CAD Objects"
+        },
+        {
+            "type": "text",
+            "data": "+ Left clicking on a single CAD entity and selecting a CAD node for it will also put that item into Scale/Stretch/Move mode just like using the multi-select options. See the  Selecting a Group of CAD Objects  section below for more information on Scale/Stretch/Move."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "ctrl_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Selecting a Group of CAD Objects",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Selecting a Line"
+        },
+        {
+            "type": "image",
+            "data": "image1971.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There are ten options when selecting a  Line ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Line",
+                "uuid": "b2e0e61a-3db8-4e05-86e8-8de0e1729d3d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Color -  Allows you to set the Color of the selected Line. \n \n \n Layer -  Allows you to set the  CAD Layer  the selected CAD Object is using. \n \n \n Line Type -  Allows you to set the Line Type the selected CAD Object is using. \n \n \n Line Width -  Allows you to set the Line Width the selected CAD Object is using. \n \n \n Start X -  Allows you to set the Starting X position of the selected CAD Object . \n \n \n Start Y -  Allows you to set the Starting Y position of the selected CAD Object . \n \n \n End X -  Allows you to set the Ending X position of the selected CAD Object . \n \n \n End Y -  Allows you to set the Ending Y position of the selected CAD Object . \n \n \n Length -  Allows you to set the Length of the selected CAD Object . \n \n \n Angle -  Allows you to set the Angle of the selected CAD Object ."
+        },
+        {
+            "type": "text",
+            "data": "Color -  Allows you to set the Color of the selected Line."
+        },
+        {
+            "type": "text",
+            "data": "Color -  Allows you to set the Color of the selected Line."
+        },
+        {
+            "type": "text",
+            "data": "Layer -  Allows you to set the  CAD Layer  the selected CAD Object is using."
+        },
+        {
+            "type": "text",
+            "data": "Layer -  Allows you to set the  CAD Layer  the selected CAD Object is using."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "CAD Layer",
+                "uuid": "1e708006-de8a-46e7-9ece-5580cad3d4cd",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Line Type -  Allows you to set the Line Type the selected CAD Object is using."
+        },
+        {
+            "type": "text",
+            "data": "Line Type -  Allows you to set the Line Type the selected CAD Object is using."
+        },
+        {
+            "type": "text",
+            "data": "Line Width -  Allows you to set the Line Width the selected CAD Object is using."
+        },
+        {
+            "type": "text",
+            "data": "Line Width -  Allows you to set the Line Width the selected CAD Object is using."
+        },
+        {
+            "type": "text",
+            "data": "Start X -  Allows you to set the Starting X position of the selected CAD Object ."
+        },
+        {
+            "type": "text",
+            "data": "Start X -  Allows you to set the Starting X position of the selected CAD Object ."
+        },
+        {
+            "type": "text",
+            "data": "Start Y -  Allows you to set the Starting Y position of the selected CAD Object ."
+        },
+        {
+            "type": "text",
+            "data": "Start Y -  Allows you to set the Starting Y position of the selected CAD Object ."
+        },
+        {
+            "type": "text",
+            "data": "End X -  Allows you to set the Ending X position of the selected CAD Object ."
+        },
+        {
+            "type": "text",
+            "data": "End X -  Allows you to set the Ending X position of the selected CAD Object ."
+        },
+        {
+            "type": "text",
+            "data": "End Y -  Allows you to set the Ending Y position of the selected CAD Object ."
+        },
+        {
+            "type": "text",
+            "data": "End Y -  Allows you to set the Ending Y position of the selected CAD Object ."
+        },
+        {
+            "type": "text",
+            "data": "Length -  Allows you to set the Length of the selected CAD Object ."
+        },
+        {
+            "type": "text",
+            "data": "Length -  Allows you to set the Length of the selected CAD Object ."
+        },
+        {
+            "type": "text",
+            "data": "Angle -  Allows you to set the Angle of the selected CAD Object ."
+        },
+        {
+            "type": "text",
+            "data": "Angle -  Allows you to set the Angle of the selected CAD Object ."
+        },
+        {
+            "type": "text",
+            "data": "Selecting a Rectangle"
+        },
+        {
+            "type": "image",
+            "data": "image1972.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There are sixteen options when selecting a  Rectangle :"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Rectangle",
+                "uuid": "b2e0e61a-3db8-4e05-86e8-8de0e1729d3d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Color -   Previously covered \n \n \n Layer -   Previously covered \n \n \n Line Type -   Previously covered \n \n \n Line Width -   Previously covered \n \n \n Left -  Sets the Left position of the CAD Object. \n \n \n Right -  Sets the Right position of the selected CAD Object. \n \n \n Top -  Sets the Top position of the selected CAD Object. \n \n \n Bottom -  Sets the Top position of the selected CAD Object. \n \n \n Center X  - Sets the Center X position of the selected CAD Object. \n \n \n Center Y  - Sets the Center Y position of the selected CAD Object. \n \n \n Angle -   Previously covered \n \n \n Width -  Sets the Width of the selected CAD Object. \n \n \n Height -  Sets the Height of the selected CAD Object. \n \n \n Hatch -  Allows you to select the Hatch to use in the selected CAD Object."
+        },
+        {
+            "type": "text",
+            "data": "Color -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Color -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Layer -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Layer -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Line Type -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Line Type -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Line Width -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Line Width -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Left -  Sets the Left position of the CAD Object."
+        },
+        {
+            "type": "text",
+            "data": "Left -  Sets the Left position of the CAD Object."
+        },
+        {
+            "type": "text",
+            "data": "Right -  Sets the Right position of the selected CAD Object."
+        },
+        {
+            "type": "text",
+            "data": "Right -  Sets the Right position of the selected CAD Object."
+        },
+        {
+            "type": "text",
+            "data": "Top -  Sets the Top position of the selected CAD Object."
+        },
+        {
+            "type": "text",
+            "data": "Top -  Sets the Top position of the selected CAD Object."
+        },
+        {
+            "type": "text",
+            "data": "Bottom -  Sets the Top position of the selected CAD Object."
+        },
+        {
+            "type": "text",
+            "data": "Bottom -  Sets the Top position of the selected CAD Object."
+        },
+        {
+            "type": "text",
+            "data": "Center X  - Sets the Center X position of the selected CAD Object."
+        },
+        {
+            "type": "text",
+            "data": "Center X  - Sets the Center X position of the selected CAD Object."
+        },
+        {
+            "type": "text",
+            "data": "Center Y  - Sets the Center Y position of the selected CAD Object."
+        },
+        {
+            "type": "text",
+            "data": "Center Y  - Sets the Center Y position of the selected CAD Object."
+        },
+        {
+            "type": "text",
+            "data": "Angle -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Angle -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Width -  Sets the Width of the selected CAD Object."
+        },
+        {
+            "type": "text",
+            "data": "Width -  Sets the Width of the selected CAD Object."
+        },
+        {
+            "type": "text",
+            "data": "Height -  Sets the Height of the selected CAD Object."
+        },
+        {
+            "type": "text",
+            "data": "Height -  Sets the Height of the selected CAD Object."
+        },
+        {
+            "type": "text",
+            "data": "Hatch -  Allows you to select the Hatch to use in the selected CAD Object."
+        },
+        {
+            "type": "text",
+            "data": "Hatch -  Allows you to select the Hatch to use in the selected CAD Object."
+        },
+        {
+            "type": "text",
+            "data": "For the Hatch option to be available for a selected Object it must be an enclosed geometry which is fully connected. By default, system CAD Shapes ( Rectangle  and  Circle ) will be enclosed."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Rectangle",
+                "uuid": "b2e0e61a-3db8-4e05-86e8-8de0e1729d3d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Circle",
+                "uuid": "b2e0e61a-3db8-4e05-86e8-8de0e1729d3d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Selecting a Circle"
+        },
+        {
+            "type": "image",
+            "data": "image1975.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There are ten options when selecting a  Circle :"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Circle",
+                "uuid": "b2e0e61a-3db8-4e05-86e8-8de0e1729d3d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Color -   Previously covered \n \n \n Layer -   Previously covered \n \n \n Line Type -   Previously covered \n \n \n Line Width -   Previously covered \n \n \n Center X -   Previously covered \n \n \n Center Y -   Previously covered \n \n \n Radius -  Allows you to set the Radius of the selected CAD Object. \n \n \n Hatch -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Color -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Color -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Layer -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Layer -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Line Type -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Line Type -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Line Width -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Line Width -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Center X -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Center X -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Center Y -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Center Y -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Radius -  Allows you to set the Radius of the selected CAD Object."
+        },
+        {
+            "type": "text",
+            "data": "Radius -  Allows you to set the Radius of the selected CAD Object."
+        },
+        {
+            "type": "text",
+            "data": "Hatch -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Hatch -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Selecting an Arc (Arc)"
+        },
+        {
+            "type": "image",
+            "data": "image1998.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There are nine options when selecting an Arc ( Arc ):"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Arc",
+                "uuid": "b2e0e61a-3db8-4e05-86e8-8de0e1729d3d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Color -   Previously covered \n \n \n Layer -   Previously covered \n \n \n Line Type -   Previously covered \n \n \n Line Width -   Previously covered \n \n \n Center X -   Previously covered \n \n \n Center Y -   Previously covered \n \n \n Arc Point X  - Allows you set the Arc Point X position for the selected Arc. \n \n \n Arc Point Y  - Allows you set the Arc Point Y position for the selected Arc. \n \n \n Angle -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Color -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Color -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Layer -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Layer -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Line Type -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Line Type -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Line Width -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Line Width -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Center X -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Center X -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Center Y -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Center Y -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Arc Point X  - Allows you set the Arc Point X position for the selected Arc."
+        },
+        {
+            "type": "text",
+            "data": "Arc Point X  - Allows you set the Arc Point X position for the selected Arc."
+        },
+        {
+            "type": "text",
+            "data": "Arc Point Y  - Allows you set the Arc Point Y position for the selected Arc."
+        },
+        {
+            "type": "text",
+            "data": "Arc Point Y  - Allows you set the Arc Point Y position for the selected Arc."
+        },
+        {
+            "type": "text",
+            "data": "Angle -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Angle -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Selecting an Arc ( Arc by Radius )"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Arc by Radius",
+                "uuid": "b2e0e61a-3db8-4e05-86e8-8de0e1729d3d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image1999.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There are nine editable options when selecting an Arc (Arc by Radius):"
+        },
+        {
+            "type": "text",
+            "data": "Color -   Previously covered \n \n \n Layer -   Previously covered \n \n \n Line Type -   Previously covered \n \n \n Line Width -   Previously covered \n \n \n Center X -   Previously covered \n \n \n Center Y -   Previously covered \n \n \n Begin Angle -  Allows you to set the Begin Angle for the selected CAD Object. \n \n \n End Angle -  Allows you to set the End Angle for the selected CAD Object. \n \n \n Radius -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Color -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Color -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Layer -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Layer -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Line Type -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Line Type -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Line Width -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Line Width -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Center X -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Center X -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Center Y -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Center Y -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Begin Angle -  Allows you to set the Begin Angle for the selected CAD Object."
+        },
+        {
+            "type": "text",
+            "data": "Begin Angle -  Allows you to set the Begin Angle for the selected CAD Object."
+        },
+        {
+            "type": "text",
+            "data": "End Angle -  Allows you to set the End Angle for the selected CAD Object."
+        },
+        {
+            "type": "text",
+            "data": "End Angle -  Allows you to set the End Angle for the selected CAD Object."
+        },
+        {
+            "type": "text",
+            "data": "Radius -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Radius -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Selecting an Arc (3 Points Arc)"
+        },
+        {
+            "type": "image",
+            "data": "image2000.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There are 15 options when selecting an Arc ( 3 Points Arc )"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "3 Points Arc",
+                "uuid": "b2e0e61a-3db8-4e05-86e8-8de0e1729d3d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Color -   Previously covered \n \n \n Layer -   Previously covered \n \n \n Line Type -   Previously covered \n \n \n Line Width -   Previously covered \n \n \n Start X  -  Previously covered \n \n \n Start Y  -  Previously covered \n \n \n End X  -  Previously covered \n \n \n End Y  -  Previously covered \n \n \n Arc Point X  -  Previously covered \n \n \n Arc Point Y  -  Previously covered \n \n \n Center X -   Previously covered \n \n \n Center Y -   Previously covered \n \n \n Begin Angle  -  Previously covered \n \n \n End Angle  -  Previously covered \n \n \n Radius -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Color -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Color -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Layer -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Layer -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Line Type -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Line Type -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Line Width -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Line Width -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Start X  -  Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Start X  -  Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Start Y  -  Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Start Y  -  Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "End X  -  Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "End X  -  Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "End Y  -  Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "End Y  -  Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Arc Point X  -  Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Arc Point X  -  Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Arc Point Y  -  Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Arc Point Y  -  Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Center X -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Center X -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Center Y -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Center Y -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Begin Angle  -  Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Begin Angle  -  Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "End Angle  -  Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "End Angle  -  Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Radius -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Radius -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Selecting a Hatch Object"
+        },
+        {
+            "type": "image",
+            "data": "image2001.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There are ten options when selecting a CAD Object:"
+        },
+        {
+            "type": "text",
+            "data": "Color -   Previously covered \n \n \n Layer -   Previously covered \n \n \n Line Type -   Previously covered \n \n \n Line Width -   Previously covered \n \n \n Pos X -  Allows you to set the X Position of the selected Node. \n \n \n Pos Y -  Allows you to set the Y Position of the selected Node. \n \n \n Node -  Allows you to navigate through the available Node points on the selected CAD Object. \n \n \n Hatch -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Color -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Color -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Layer -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Layer -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Line Type -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Line Type -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Line Width -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Line Width -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Pos X -  Allows you to set the X Position of the selected Node."
+        },
+        {
+            "type": "text",
+            "data": "Pos X -  Allows you to set the X Position of the selected Node."
+        },
+        {
+            "type": "text",
+            "data": "Pos Y -  Allows you to set the Y Position of the selected Node."
+        },
+        {
+            "type": "text",
+            "data": "Pos Y -  Allows you to set the Y Position of the selected Node."
+        },
+        {
+            "type": "text",
+            "data": "Node -  Allows you to navigate through the available Node points on the selected CAD Object."
+        },
+        {
+            "type": "text",
+            "data": "Node -  Allows you to navigate through the available Node points on the selected CAD Object."
+        },
+        {
+            "type": "text",
+            "data": "Hatch -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Hatch -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Selecting a Polyline"
+        },
+        {
+            "type": "image",
+            "data": "image2002.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There are nine options when selecting a Polyline:"
+        },
+        {
+            "type": "text",
+            "data": "Color -   Previously covered \n \n \n Layer -   Previously covered \n \n \n Line Type -   Previously covered \n \n \n Line Width -   Previously covered \n \n \n Pos X -   Previously covered \n \n \n Pos Y -   Previously covered \n \n \n Node -   Previously covered \n \n \n Arrow Type -  Allows you to select the Type of Arrow pointer to use on the selected CAD Object. \n \n \n Arrow Size -  Allows you to select the Size of Arrow to use on the selected CAD Object. \n \n \n Text -  See  Selecting a Text Object  for more information."
+        },
+        {
+            "type": "text",
+            "data": "Color -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Color -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Layer -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Layer -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Line Type -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Line Type -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Line Width -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Line Width -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Pos X -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Pos X -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Pos Y -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Pos Y -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Node -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Node -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Arrow Type -  Allows you to select the Type of Arrow pointer to use on the selected CAD Object."
+        },
+        {
+            "type": "text",
+            "data": "Arrow Type -  Allows you to select the Type of Arrow pointer to use on the selected CAD Object."
+        },
+        {
+            "type": "text",
+            "data": "Arrow Size -  Allows you to select the Size of Arrow to use on the selected CAD Object."
+        },
+        {
+            "type": "text",
+            "data": "Arrow Size -  Allows you to select the Size of Arrow to use on the selected CAD Object."
+        },
+        {
+            "type": "text",
+            "data": "Text -  See  Selecting a Text Object  for more information."
+        },
+        {
+            "type": "text",
+            "data": "Text -  See  Selecting a Text Object  for more information."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Selecting a Text Object",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Selecting a Dimension (Linear and Angular)"
+        },
+        {
+            "type": "image",
+            "data": "image2005.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There are 26 possible options when selecting a Dimension (Linear):"
+        },
+        {
+            "type": "text",
+            "data": "Color -   Previously covered \n \n \n Layer -   Previously covered \n \n \n Dimension Style -  Allows you to select the Dimension Style to use for the selected Dimension. \n \n \n Line -  Allows you to show the dimension line or not. \n \n \n Line Width -   Previously covered \n \n \n Ticks Height -  Sets the Height of Ticks. \n \n \n Lines Extension -  Sets the Line Extension. \n \n \n Tail Offset -  Sets the Tail Offset. \n \n \n Left Arrow -  Sets the Left Arrow Style. \n \n \n Right Arrow -  Sets the Right Arrow Style. \n \n \n Arrow Size -   Previously covered \n \n \n Internal Left -  Allows you to add or remove the Extension Line (Tail) on the Left end of the selected Dimension. \n \n \n Internal Right -  Allows you to add or remove the Extension Line (Tail) on the Right end of the selected Dimension. \n \n \n Tailed -  Allows you to turn Extension Lines (Tails) on or off for the selected Dimension. \n \n \n Chain -  Will remove the Left Extension Line on the selected Dimension when Chaining Dimensions together. \n \n \n Alignment -  Sets the Text's Alignment. \n \n \n V Placement -  Sets the Text's Vertical Placement. \n \n \n H Placement -  Sets the Text's Horizontal Placement. \n \n \n Offset -  Sets the Text's Offset. \n \n \n Clearance -  Sets the Text's Clearance. \n \n \n Lock Text -  Will Lock the Text on the selected Dimension. \n \n \n Frame -  Determines whether to show a Frame around the Text. \n \n \n Font -  Sets the Text's Font. \n \n \n Bold -  Sets whether the Text is Bold or not. \n \n \n Height -   Previously covered \n \n \n Show Text -  Allows you to turn off the Text on the selected Dimension."
+        },
+        {
+            "type": "text",
+            "data": "Color -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Color -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Layer -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Layer -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Dimension Style -  Allows you to select the Dimension Style to use for the selected Dimension."
+        },
+        {
+            "type": "text",
+            "data": "Dimension Style -  Allows you to select the Dimension Style to use for the selected Dimension."
+        },
+        {
+            "type": "text",
+            "data": "Line -  Allows you to show the dimension line or not."
+        },
+        {
+            "type": "text",
+            "data": "Line -  Allows you to show the dimension line or not."
+        },
+        {
+            "type": "text",
+            "data": "Line Width -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Line Width -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Ticks Height -  Sets the Height of Ticks."
+        },
+        {
+            "type": "text",
+            "data": "Ticks Height -  Sets the Height of Ticks."
+        },
+        {
+            "type": "text",
+            "data": "Lines Extension -  Sets the Line Extension."
+        },
+        {
+            "type": "text",
+            "data": "Lines Extension -  Sets the Line Extension."
+        },
+        {
+            "type": "text",
+            "data": "Tail Offset -  Sets the Tail Offset."
+        },
+        {
+            "type": "text",
+            "data": "Tail Offset -  Sets the Tail Offset."
+        },
+        {
+            "type": "text",
+            "data": "Left Arrow -  Sets the Left Arrow Style."
+        },
+        {
+            "type": "text",
+            "data": "Left Arrow -  Sets the Left Arrow Style."
+        },
+        {
+            "type": "text",
+            "data": "Right Arrow -  Sets the Right Arrow Style."
+        },
+        {
+            "type": "text",
+            "data": "Right Arrow -  Sets the Right Arrow Style."
+        },
+        {
+            "type": "text",
+            "data": "Arrow Size -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Arrow Size -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Internal Left -  Allows you to add or remove the Extension Line (Tail) on the Left end of the selected Dimension."
+        },
+        {
+            "type": "text",
+            "data": "Internal Left -  Allows you to add or remove the Extension Line (Tail) on the Left end of the selected Dimension."
+        },
+        {
+            "type": "text",
+            "data": "Internal Right -  Allows you to add or remove the Extension Line (Tail) on the Right end of the selected Dimension."
+        },
+        {
+            "type": "text",
+            "data": "Internal Right -  Allows you to add or remove the Extension Line (Tail) on the Right end of the selected Dimension."
+        },
+        {
+            "type": "text",
+            "data": "Tailed -  Allows you to turn Extension Lines (Tails) on or off for the selected Dimension."
+        },
+        {
+            "type": "text",
+            "data": "Tailed -  Allows you to turn Extension Lines (Tails) on or off for the selected Dimension."
+        },
+        {
+            "type": "text",
+            "data": "Chain -  Will remove the Left Extension Line on the selected Dimension when Chaining Dimensions together."
+        },
+        {
+            "type": "text",
+            "data": "Chain -  Will remove the Left Extension Line on the selected Dimension when Chaining Dimensions together."
+        },
+        {
+            "type": "text",
+            "data": "Alignment -  Sets the Text's Alignment."
+        },
+        {
+            "type": "text",
+            "data": "Alignment -  Sets the Text's Alignment."
+        },
+        {
+            "type": "text",
+            "data": "V Placement -  Sets the Text's Vertical Placement."
+        },
+        {
+            "type": "text",
+            "data": "V Placement -  Sets the Text's Vertical Placement."
+        },
+        {
+            "type": "text",
+            "data": "H Placement -  Sets the Text's Horizontal Placement."
+        },
+        {
+            "type": "text",
+            "data": "H Placement -  Sets the Text's Horizontal Placement."
+        },
+        {
+            "type": "text",
+            "data": "Offset -  Sets the Text's Offset."
+        },
+        {
+            "type": "text",
+            "data": "Offset -  Sets the Text's Offset."
+        },
+        {
+            "type": "text",
+            "data": "Clearance -  Sets the Text's Clearance."
+        },
+        {
+            "type": "text",
+            "data": "Clearance -  Sets the Text's Clearance."
+        },
+        {
+            "type": "text",
+            "data": "Lock Text -  Will Lock the Text on the selected Dimension."
+        },
+        {
+            "type": "text",
+            "data": "Lock Text -  Will Lock the Text on the selected Dimension."
+        },
+        {
+            "type": "text",
+            "data": "Frame -  Determines whether to show a Frame around the Text."
+        },
+        {
+            "type": "text",
+            "data": "Frame -  Determines whether to show a Frame around the Text."
+        },
+        {
+            "type": "text",
+            "data": "Font -  Sets the Text's Font."
+        },
+        {
+            "type": "text",
+            "data": "Font -  Sets the Text's Font."
+        },
+        {
+            "type": "text",
+            "data": "Bold -  Sets whether the Text is Bold or not."
+        },
+        {
+            "type": "text",
+            "data": "Bold -  Sets whether the Text is Bold or not."
+        },
+        {
+            "type": "text",
+            "data": "Height -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Height -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Show Text -  Allows you to turn off the Text on the selected Dimension."
+        },
+        {
+            "type": "text",
+            "data": "Show Text -  Allows you to turn off the Text on the selected Dimension."
+        },
+        {
+            "type": "text",
+            "data": "Selecting a Dimension (Radial)"
+        },
+        {
+            "type": "image",
+            "data": "image2007.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There are 18 options when selecting a Dimension (Radial):"
+        },
+        {
+            "type": "text",
+            "data": "Color -   Previously covered \n \n \n Layer -   Previously covered \n \n \n Dimension Style -   Previously covered \n \n \n Line -   Previously covered \n \n \n Line Width -   Previously covered \n \n \n Arrow -  Sets the Arrow Style.. \n \n \n Arrow/Mark Size -   Previously covered \n \n \n Alignment -   Previously covered \n \n \n V Placement -   Previously covered \n \n \n Offset -   Previously covered \n \n \n Clearance -   Previously covered \n \n \n Lock Text -   Previously covered \n \n \n Frame -   Previously covered \n \n \n Font -   Previously covered \n \n \n Bold -   Previously covered \n \n \n Height -   Previously covered \n \n \n Show Text -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Color -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Color -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Layer -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Layer -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Dimension Style -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Dimension Style -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Line -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Line -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Line Width -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Line Width -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Arrow -  Sets the Arrow Style.."
+        },
+        {
+            "type": "text",
+            "data": "Arrow -  Sets the Arrow Style.."
+        },
+        {
+            "type": "text",
+            "data": "Arrow/Mark Size -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Arrow/Mark Size -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Alignment -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Alignment -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "V Placement -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "V Placement -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Offset -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Offset -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Clearance -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Clearance -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Lock Text -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Lock Text -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Frame -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Frame -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Font -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Font -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Bold -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Bold -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Height -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Height -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Show Text -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Show Text -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Selecting a Leader"
+        },
+        {
+            "type": "image",
+            "data": "image1991.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There are nine options when selecting a Leader:"
+        },
+        {
+            "type": "text",
+            "data": "Color -   Previously covered \n \n \n Layer -   Previously covered \n \n \n Line Type -   Previously covered \n \n \n Line Width -   Previously covered \n \n \n Pos X -   Previously covered \n \n \n Pos Y -   Previously covered \n \n \n Node -   Previously covered \n \n \n Arrow Type -   Previously covered \n \n \n Arrow Size -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Color -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Color -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Layer -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Layer -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Line Type -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Line Type -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Line Width -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Line Width -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Pos X -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Pos X -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Pos Y -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Pos Y -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Node -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Node -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Arrow Type -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Arrow Type -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Arrow Size -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Arrow Size -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Selecting a Text Object"
+        },
+        {
+            "type": "image",
+            "data": "image2008.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There are 13 options when selecting a Text Object:"
+        },
+        {
+            "type": "text",
+            "data": "Color -   Previously covered \n \n \n Layer -   Previously covered \n \n \n Origin X -  Allows you to set the position of the Objects Origin Point in X. \n \n \n Origin Y -  Allows you to set the position of the Objects Origin Point in Y. \n \n \n Angle -   Previously covered \n \n \n Vertical -  Allows you to set the Text to be written Vertically rather than Horizontally (default). \n \n \n VAlign -  Allows you to set the Vertical Alignment of the Text. \n \n \n HAlign -  Allows you to set the Horizontal Alignment of the Text. \n \n \n Font -   Previously covered \n \n \n Bold -   Previously covered \n \n \n Height -   Previously covered \n \n \n Text -  Allows you to edit the Text for the Text Object."
+        },
+        {
+            "type": "text",
+            "data": "Color -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Color -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Layer -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Layer -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Origin X -  Allows you to set the position of the Objects Origin Point in X."
+        },
+        {
+            "type": "text",
+            "data": "Origin X -  Allows you to set the position of the Objects Origin Point in X."
+        },
+        {
+            "type": "text",
+            "data": "Origin Y -  Allows you to set the position of the Objects Origin Point in Y."
+        },
+        {
+            "type": "text",
+            "data": "Origin Y -  Allows you to set the position of the Objects Origin Point in Y."
+        },
+        {
+            "type": "text",
+            "data": "Angle -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Angle -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Vertical -  Allows you to set the Text to be written Vertically rather than Horizontally (default)."
+        },
+        {
+            "type": "text",
+            "data": "Vertical -  Allows you to set the Text to be written Vertically rather than Horizontally (default)."
+        },
+        {
+            "type": "text",
+            "data": "VAlign -  Allows you to set the Vertical Alignment of the Text."
+        },
+        {
+            "type": "text",
+            "data": "VAlign -  Allows you to set the Vertical Alignment of the Text."
+        },
+        {
+            "type": "text",
+            "data": "HAlign -  Allows you to set the Horizontal Alignment of the Text."
+        },
+        {
+            "type": "text",
+            "data": "HAlign -  Allows you to set the Horizontal Alignment of the Text."
+        },
+        {
+            "type": "text",
+            "data": "Font -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Font -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Bold -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Bold -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Height -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Height -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Text -  Allows you to edit the Text for the Text Object."
+        },
+        {
+            "type": "text",
+            "data": "Text -  Allows you to edit the Text for the Text Object."
+        },
+        {
+            "type": "text",
+            "data": "Selecting a Bitmap (Image)"
+        },
+        {
+            "type": "image",
+            "data": "image2009.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There are nine options when selecting a Bitmap (Image):"
+        },
+        {
+            "type": "text",
+            "data": "Layer -   Previously covered \n \n \n Left -   Previously covered \n \n \n Right -   Previously covered \n \n \n Top -   Previously covered \n \n \n Bottom -   Previously covered \n \n \n Center X -   Previously covered \n \n \n Center Y -   Previously covered \n \n \n Width -   Previously covered \n \n \n Height -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Layer -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Layer -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Left -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Left -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Right -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Right -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Top -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Top -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Bottom -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Bottom -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Center X -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Center X -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Center Y -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Center Y -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Width -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Width -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Height -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Height -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Selecting a Group of CAD Objects"
+        },
+        {
+            "type": "image",
+            "data": "image2010.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There are twelve options when selecting a Group of CAD Objects:"
+        },
+        {
+            "type": "text",
+            "data": "Color -   Previously covered \n \n \n Layer -   Previously covered \n \n \n Line Type -   Previously covered \n \n \n Line Width -   Previously covered \n \n \n Left -   Previously covered \n \n \n Right -   Previously covered \n \n \n Top -   Previously covered \n \n \n Bottom -   Previously covered \n \n \n Center X -   Previously covered \n \n \n Center Y -   Previously covered \n \n \n Width -   Previously covered \n \n \n Height -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Color -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Color -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Layer -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Layer -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Line Type -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Line Type -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Line Width -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Line Width -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Left -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Left -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Right -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Right -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Top -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Top -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Bottom -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Bottom -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Center X -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Center X -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Center Y -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Center Y -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Width -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Width -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Height -   Previously covered"
+        },
+        {
+            "type": "text",
+            "data": "Height -   Previously covered"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered",
+                "uuid": "5eb7a552-3b23-49da-8b48-6a50f2df37f8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "There are several options when selecting CAD Objects you can initiate by simply clicking points on screen around the selected CAD Object(s)."
+        },
+        {
+            "type": "text",
+            "data": "Move"
+        },
+        {
+            "type": "text",
+            "data": "Once a Group of CAD Objects is selected simply left click any point within the object to use that as the Move point, this will allow you to Move an Object or Group of Objects from one known (snap point) position to another (snap point position). You can also Move the selected Group of Objects by using the Tab key to change values in the sidebar."
+        },
+        {
+            "type": "image",
+            "data": "image2011.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Since Scale and Stretch are also available by clicking the corners of selected CAD make sure the proper cursor prompt is used."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Scale/Stretch"
+        },
+        {
+            "type": "image",
+            "data": "image403.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Move from End Point"
+        },
+        {
+            "type": "image",
+            "data": "image404.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "When using Copy and Paste on CAD Objects, upon Pasting the Objects, they remain selected to allow you to use the three (Scale, Stretch and/or Move) options described above."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Room_Level\\Side_Bar\\CAD\\RLCAD_Selection_Options.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

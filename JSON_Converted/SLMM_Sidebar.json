@@ -1,0 +1,265 @@
+{
+    "id": "ca2dde60-b199-4f82-b7d7-4d14cb21f1a4",
+    "title": "SLMM_Sidebar",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top \n > \n \n \n System Level \n > \n \n Ribbonbar \n > \n \n Main Tab \n > \n \n Catalogs Group \n > \n \n Material Manager \n > \n \n Sidebar"
+        },
+        {
+            "type": "text",
+            "data": "Top \n >"
+        },
+        {
+            "type": "text",
+            "data": "System Level \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "System Level",
+                "uuid": "4450866f-fd9c-46df-abf3-7843c5a1ef37",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Ribbonbar \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Ribbonbar",
+                "uuid": "3bbac75c-2b61-42af-9bce-b90335e66dde",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Main Tab \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Main Tab",
+                "uuid": "3bbac75c-2b61-42af-9bce-b90335e66dde",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Catalogs Group \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Catalogs Group",
+                "uuid": "f4a43f08-b40b-442c-8f03-a96c2a64640f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Material Manager \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Material Manager",
+                "uuid": "2fed939d-ba55-4f35-94da-993f0e1b392e",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Sidebar"
+        },
+        {
+            "type": "text",
+            "data": "Sidebar"
+        },
+        {
+            "type": "text",
+            "data": "Sidebar"
+        },
+        {
+            "type": "image",
+            "data": "image2274.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There are two panes in the Material Manager sidebar:"
+        },
+        {
+            "type": "text",
+            "data": "Search Pane"
+        },
+        {
+            "type": "image",
+            "data": "image2275.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "At the top of the Search Pane is a quick Search. Simply enter your keywords and the Quick Search will Search through Material Names, Material Descriptions, and Material ID's to bring up Materials containing them. To activate the Quick Search after typing your Search terms press   on the key board or click the Filter   button."
+        },
+        {
+            "type": "image",
+            "data": "enter_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image2276.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The lower section of the Search Pane displays any Saved Searches you have created. To create a Saved Search click the New Saved Search   button. The Search window will display."
+        },
+        {
+            "type": "image",
+            "data": "image2277.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The New Saved Search   button can also be used to open the Search window to modify existing Saved Searches."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image2277.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Click the New tool in the toolbar to create a New Search and give it a Name. In the example we are going to create a Saved Search to show any Material Names or Material Descriptions containing the word Oak."
+        },
+        {
+            "type": "image",
+            "data": "image241.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The first line will  Search On  \"Name\"  Compare using  \"similar to\"  Compare to  \"Oak\"  Group by  \"and\"."
+        },
+        {
+            "type": "image",
+            "data": "image242.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The second line will  Search On  \"Description\"  Compare using  \"similar to\"  Compare to  \"Oak\"  Group by  \"none\"."
+        },
+        {
+            "type": "image",
+            "data": "image243.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Click OK and you will see your Saved Search in the list."
+        },
+        {
+            "type": "image",
+            "data": "image117.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "To activate it simple select it from the list."
+        },
+        {
+            "type": "image",
+            "data": "image118.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Group Pane"
+        },
+        {
+            "type": "image",
+            "data": "image2281.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Group Pane allows you to easily organize your Materials into an unlimited number of Groups and Sub-Groups. Simply click the Create Group   button to create a new Group or Sub-Group."
+        },
+        {
+            "type": "image",
+            "data": "image2282.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "To Delete an empty Group or Sub-Group simply select it and click the Delete Group   button."
+        },
+        {
+            "type": "image",
+            "data": "image2283.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Moving Groups and Sub-Groups can be easily accomplished using either Drag and Drop or by selecting the Group/Sub-Group and clicking the Move   buttons."
+        },
+        {
+            "type": "image",
+            "data": "image2284.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "To place Materials in a different Group simply select them and use Drag and Drop to put them in the selected Group."
+        },
+        {
+            "type": "text",
+            "data": "You can use standard Windows selection to Move (or Delete) multiple Materials from one Group to another."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "+ Click"
+        },
+        {
+            "type": "image",
+            "data": "ctrl_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "+ Click"
+        },
+        {
+            "type": "image",
+            "data": "shift_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "You can also right click in the Group Pane to Create or Delete a Group."
+        },
+        {
+            "type": "image",
+            "data": "image2285.gif",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\System_Level\\Ribbonbar\\Main_Tab\\Catalogs_Group\\Material_Manager\\SLMM_Sidebar.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

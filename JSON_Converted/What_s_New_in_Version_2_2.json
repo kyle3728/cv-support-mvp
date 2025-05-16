@@ -1,0 +1,133 @@
+{
+    "id": "48b5ac9f-6a27-4862-9c93-6aa54df632ff",
+    "title": "What_s_New_in_Version_2_2",
+    "content": [
+        {
+            "type": "text",
+            "data": "What's New in Version 2.2"
+        },
+        {
+            "type": "text",
+            "data": "General"
+        },
+        {
+            "type": "text",
+            "data": "Go To Pattern Option in Pattern Navigator \n \n \n Create and Save DXF Layer Schemes \n \n \n Batch Import DXF's \n \n \n Material Catalog Added to S2M Ultimate \n \n \n Specify UNC Paths for Machine Output Directories \n \n \n Renamed NcCenter to S2M Center \n \n \n New Ribbonbar Interface \n \n \n Grain Matching Capability for Nested Routers and Saws"
+        },
+        {
+            "type": "text",
+            "data": "Go To Pattern Option in Pattern Navigator"
+        },
+        {
+            "type": "text",
+            "data": "Go To Pattern Option in Pattern Navigator"
+        },
+        {
+            "type": "text",
+            "data": "Create and Save DXF Layer Schemes"
+        },
+        {
+            "type": "text",
+            "data": "Create and Save DXF Layer Schemes"
+        },
+        {
+            "type": "text",
+            "data": "Batch Import DXF's"
+        },
+        {
+            "type": "text",
+            "data": "Batch Import DXF's"
+        },
+        {
+            "type": "text",
+            "data": "Material Catalog Added to S2M Ultimate"
+        },
+        {
+            "type": "text",
+            "data": "Material Catalog Added to S2M Ultimate"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Material Catalog Added to S2M Ultimate",
+                "uuid": "d2033866-5d17-44c3-842e-3c12d56bb472",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Specify UNC Paths for Machine Output Directories"
+        },
+        {
+            "type": "text",
+            "data": "Specify UNC Paths for Machine Output Directories"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Specify UNC Paths for Machine Output Directories",
+                "uuid": "8f3db61d-fccb-46e0-8dbf-d316d2e1d1b7",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Renamed NcCenter to S2M Center"
+        },
+        {
+            "type": "text",
+            "data": "Renamed NcCenter to S2M Center"
+        },
+        {
+            "type": "text",
+            "data": "New Ribbonbar Interface"
+        },
+        {
+            "type": "text",
+            "data": "New Ribbonbar Interface"
+        },
+        {
+            "type": "text",
+            "data": "Grain Matching Capability for Nested Routers and Saws"
+        },
+        {
+            "type": "text",
+            "data": "Grain Matching Capability for Nested Routers and Saws"
+        },
+        {
+            "type": "text",
+            "data": "Label-IT"
+        },
+        {
+            "type": "text",
+            "data": "Option to Display Part Position Within Nest Graphic on Label-IT Labels"
+        },
+        {
+            "type": "text",
+            "data": "Option to Display Part Position Within Nest Graphic on Label-IT Labels"
+        },
+        {
+            "type": "text",
+            "data": "Option to Display Part Position Within Nest Graphic on Label-IT Labels"
+        },
+        {
+            "type": "text",
+            "data": "Links"
+        },
+        {
+            "type": "text",
+            "data": "CUT File Export NC Link for 3rd Part Optimizers"
+        },
+        {
+            "type": "text",
+            "data": "CUT File Export NC Link for 3rd Part Optimizers"
+        },
+        {
+            "type": "text",
+            "data": "CUT File Export NC Link for 3rd Part Optimizers"
+        }
+    ],
+    "source_file": "NCEnglish\\Introduction\\Whats_New_Previous_Versions\\What_s_New_in_Version_2_2.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

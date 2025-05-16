@@ -1,0 +1,93 @@
+{
+    "id": "24882b11-cb63-4b38-9ae2-948816e8e442",
+    "title": "Position_a_Wall_in_a_Specific_Location",
+    "content": [
+        {
+            "type": "text",
+            "data": "Position a Wall in a Specific Location"
+        },
+        {
+            "type": "text",
+            "data": "How do I place a Peninsula Wall in an exact location within my layout?"
+        },
+        {
+            "type": "text",
+            "data": "There is an easy way to do this in Solid, using the Snap Points. Snap Points allow you to place points in exact locations, and then attach Walls, Cabinets or other Objects to the points."
+        },
+        {
+            "type": "text",
+            "data": "Snap points can be placed by using the  Measure Tools | Snap Marks  ribbonbar option. They can be placed so they snap to objects, to the grid, other snap points or placed freely without snapping to anything by changing the  Snap Setting Options  (the buttons with magnets in the statusbar menu)."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Measure Tools | Snap Marks",
+                "uuid": "f16b39b1-a7e8-4fd9-af99-0b437d3e2fda",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Snap Setting Options",
+                "uuid": "ab1790c8-4275-4839-a647-d5a131c27144",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Placing the Points:"
+        },
+        {
+            "type": "text",
+            "data": "After choosing Snap Marks. Move the cross hair/cursor to where you want your start point, left click one time to place the point. Next use the keyboard to tab through the Horizontal and Vertical position fields in the side of the screen to pace the next point."
+        },
+        {
+            "type": "text",
+            "data": "Use   to move from one field to another and to cause the cursor to move to the location you want to place a point. This will allow you to see where the point will be before you press   and place the point."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "tab_key2.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "enter_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Once you have your snap points placed then change your snap setting options to the  Snap to Points    tool."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Snap to Points",
+                "uuid": "57b3d47f-75a4-49bd-8143-55ece48609f2",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image1716.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Now, whatever you place will snap to these points."
+        },
+        {
+            "type": "text",
+            "data": "Click the Reset Ruler option in the statusbar menu to remove the Snap Marks from your screen."
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Tips_Tricks_&_FAQs\\FAQs\\HDI-Layout\\Position_a_Wall_in_a_Specific_Location.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

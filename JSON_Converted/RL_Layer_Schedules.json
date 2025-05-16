@@ -1,0 +1,154 @@
+{
+    "id": "41b1dd33-6928-4b99-8d6d-4b7c042a3f92",
+    "title": "RL_Layer_Schedules",
+    "content": [
+        {
+            "type": "text",
+            "data": "Layer Schedules"
+        },
+        {
+            "type": "image",
+            "data": "1AUALL.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "You have four main options you can modify on each Layer:"
+        },
+        {
+            "type": "text",
+            "data": "The first option is represented by a light bulb  . This determines if the Layer is On or Off (On  = Visible/Off  = Invisible) in the  Viewing  area of CABINET VISION. If the light is lit ( Yellow) then the Layer is On, if the light is not lit (  grey) then the Layer is Off. Simply clicking on the Light Bulb will toggle the value. \n \n \n The second option is represented by a pencil   . This determines if the Layer is On or Off (On  = Visible/Off  = Invisible) in the  Drawing  area of CABINET VISION. If the pencil is Yellow   then the Layer is ON, if the pencil is grey   then the Layer is off. Simply clicking on the Pencil will toggle the value. \n \n \n The third option is represented by a colored square  . This determines the Color of the Layer. Simply clicking on the colored square will bring up the Color Selector dialog box, click on the new color and it will now be reflected in the Layer."
+        },
+        {
+            "type": "text",
+            "data": "The first option is represented by a light bulb  . This determines if the Layer is On or Off (On  = Visible/Off  = Invisible) in the  Viewing  area of CABINET VISION. If the light is lit ( Yellow) then the Layer is On, if the light is not lit (  grey) then the Layer is Off. Simply clicking on the Light Bulb will toggle the value."
+        },
+        {
+            "type": "text",
+            "data": "The first option is represented by a light bulb  . This determines if the Layer is On or Off (On  = Visible/Off  = Invisible) in the  Viewing  area of CABINET VISION. If the light is lit ( Yellow) then the Layer is On, if the light is not lit (  grey) then the Layer is Off. Simply clicking on the Light Bulb will toggle the value."
+        },
+        {
+            "type": "image",
+            "data": "image4149.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image4150.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image4152.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image4151.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image4153.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The second option is represented by a pencil   . This determines if the Layer is On or Off (On  = Visible/Off  = Invisible) in the  Drawing  area of CABINET VISION. If the pencil is Yellow   then the Layer is ON, if the pencil is grey   then the Layer is off. Simply clicking on the Pencil will toggle the value."
+        },
+        {
+            "type": "text",
+            "data": "The second option is represented by a pencil   . This determines if the Layer is On or Off (On  = Visible/Off  = Invisible) in the  Drawing  area of CABINET VISION. If the pencil is Yellow   then the Layer is ON, if the pencil is grey   then the Layer is off. Simply clicking on the Pencil will toggle the value."
+        },
+        {
+            "type": "image",
+            "data": "image4154.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image4155.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image4157.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image4156.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image4158.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The third option is represented by a colored square  . This determines the Color of the Layer. Simply clicking on the colored square will bring up the Color Selector dialog box, click on the new color and it will now be reflected in the Layer."
+        },
+        {
+            "type": "text",
+            "data": "The third option is represented by a colored square  . This determines the Color of the Layer. Simply clicking on the colored square will bring up the Color Selector dialog box, click on the new color and it will now be reflected in the Layer."
+        },
+        {
+            "type": "image",
+            "data": "image105.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image5592.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The forth option is represented by a Line  . This determines the Line-Type for the Layer. Simply clicking on the Line will bring up the Line Type Selector dialog box, click on the new Line-Type and it will now be reflected in the Layer."
+        },
+        {
+            "type": "text",
+            "data": "The forth option is represented by a Line  . This determines the Line-Type for the Layer. Simply clicking on the Line will bring up the Line Type Selector dialog box, click on the new Line-Type and it will now be reflected in the Layer."
+        },
+        {
+            "type": "text",
+            "data": "The forth option is represented by a Line  . This determines the Line-Type for the Layer. Simply clicking on the Line will bring up the Line Type Selector dialog box, click on the new Line-Type and it will now be reflected in the Layer."
+        },
+        {
+            "type": "image",
+            "data": "image106.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image5593.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "You can also control the Weight (Width) of the line here. There are sixteen weight options."
+        },
+        {
+            "type": "image",
+            "data": "image595.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Notice in the image below that the Edit button is unavailable. When you select a Layer that can be edited, the Edit button becomes available."
+        },
+        {
+            "type": "text",
+            "data": "Click on the folders on the left side below for more information"
+        },
+        {
+            "type": "image",
+            "data": "image5594.gif",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\RL_Layer_Schedules.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

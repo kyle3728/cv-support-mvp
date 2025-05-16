@@ -1,0 +1,321 @@
+{
+    "id": "4b7b778d-79e3-40cd-b945-3190bc716d57",
+    "title": "MCE_Finish_Type",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top \n > \n \n \n System Level \n > \n \n Ribbonbar \n > \n \n Main Tab \n > \n \n Catalogs Group \n > \n \n Material Manager \n > \n \n Ribbonbar \n > \n \n Finish Type"
+        },
+        {
+            "type": "text",
+            "data": "Top \n >"
+        },
+        {
+            "type": "text",
+            "data": "System Level \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "System Level",
+                "uuid": "4450866f-fd9c-46df-abf3-7843c5a1ef37",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Ribbonbar \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Ribbonbar",
+                "uuid": "3bbac75c-2b61-42af-9bce-b90335e66dde",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Main Tab \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Main Tab",
+                "uuid": "3bbac75c-2b61-42af-9bce-b90335e66dde",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Catalogs Group \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Catalogs Group",
+                "uuid": "f4a43f08-b40b-442c-8f03-a96c2a64640f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Material Manager \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Material Manager",
+                "uuid": "2fed939d-ba55-4f35-94da-993f0e1b392e",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Ribbonbar \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Ribbonbar",
+                "uuid": "afe34400-22a2-4d51-9383-a40dbf0ad041",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Finish Type"
+        },
+        {
+            "type": "text",
+            "data": "Finish Type"
+        },
+        {
+            "type": "text",
+            "data": "Finish Type"
+        },
+        {
+            "type": "image",
+            "data": "image2261.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "Finish_Types.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Toolbar"
+        },
+        {
+            "type": "text",
+            "data": "The toolbar has the following options:"
+        },
+        {
+            "type": "text",
+            "data": "Finish Type Selector -  Allows you to select an existing Finish Type to edit."
+        },
+        {
+            "type": "image",
+            "data": "image2263.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "New -  Allows you to create a New Finish Type."
+        },
+        {
+            "type": "image",
+            "data": "image2264.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Copy -  Copies the currently selected Finish Type."
+        },
+        {
+            "type": "image",
+            "data": "image2265.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Delete -  Deletes the currently selected Finish Type."
+        },
+        {
+            "type": "image",
+            "data": "image2266.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Finish Type Properties"
+        },
+        {
+            "type": "text",
+            "data": "The following options can be used to control the Finish Types properties:"
+        },
+        {
+            "type": "text",
+            "data": "Name -  The Name of the current Finish. \n \n \n Description -  The Description of the current Finish. \n \n \n Shader -  There are six Shaders you can choose from. These simulate the real-world reflectance of the stated Material Types. \n \n \n \n \n Glass \n \n \n Gloss Metal \n \n \n Metal \n \n \n Mirror \n \n \n Plastic \n \n \n Wood \n \n \n \n \n Ambient -  Defines an Ambient Lights affect on the Material. This is typically set to a high value for complex surfaces to help shade or define folds and creases on the Materials surface. \n \n \n Diffuse -  Defines how light reflected from the Material strikes other objects in the surrounding area, illuminating them. The Diffuse Factor describes light reflected from surfaces which are not shiny or specular. In real life terms what this means is that light is reflected off non-shiny surfaces such as the ground, walls, or fabric, to reach areas not directly in view of a light source. \n \n \n Specular -  The Specular Factor is distinct from the Diffuse Factor, where incoming light is reflected in a broad range of directions. The most familiar example of the distinction between Specular and Diffuse reflection would be glossy and matte paints. While both exhibit a combination of Specular and Diffuse reflection, matte paints have a higher proportion of Diffuse reflection and glossy paints have a greater proportion of Specular reflection. Very highly polished surfaces, such as high quality mirrors, can exhibit almost complete Specular reflection. \n \n \n Emmisive -  Defines the luminance or glow of a Material. The higher the value the more luminescent the Material is. \n \n \n Shininess -  This setting sets the smoothness of the surface. Shininess references the Materials ability to reflect. The more towards the right you set the slider the more the Material will reflect."
+        },
+        {
+            "type": "text",
+            "data": "Name -  The Name of the current Finish."
+        },
+        {
+            "type": "text",
+            "data": "Name -  The Name of the current Finish."
+        },
+        {
+            "type": "text",
+            "data": "Description -  The Description of the current Finish."
+        },
+        {
+            "type": "text",
+            "data": "Description -  The Description of the current Finish."
+        },
+        {
+            "type": "text",
+            "data": "Shader -  There are six Shaders you can choose from. These simulate the real-world reflectance of the stated Material Types."
+        },
+        {
+            "type": "text",
+            "data": "Shader -  There are six Shaders you can choose from. These simulate the real-world reflectance of the stated Material Types."
+        },
+        {
+            "type": "text",
+            "data": "Glass \n \n \n Gloss Metal \n \n \n Metal \n \n \n Mirror \n \n \n Plastic \n \n \n Wood"
+        },
+        {
+            "type": "text",
+            "data": "Glass \n \n \n Gloss Metal \n \n \n Metal \n \n \n Mirror \n \n \n Plastic \n \n \n Wood"
+        },
+        {
+            "type": "text",
+            "data": "Glass"
+        },
+        {
+            "type": "text",
+            "data": "Glass"
+        },
+        {
+            "type": "text",
+            "data": "Gloss Metal"
+        },
+        {
+            "type": "text",
+            "data": "Gloss Metal"
+        },
+        {
+            "type": "text",
+            "data": "Metal"
+        },
+        {
+            "type": "text",
+            "data": "Metal"
+        },
+        {
+            "type": "text",
+            "data": "Mirror"
+        },
+        {
+            "type": "text",
+            "data": "Mirror"
+        },
+        {
+            "type": "text",
+            "data": "Plastic"
+        },
+        {
+            "type": "text",
+            "data": "Plastic"
+        },
+        {
+            "type": "text",
+            "data": "Wood"
+        },
+        {
+            "type": "text",
+            "data": "Wood"
+        },
+        {
+            "type": "text",
+            "data": "Ambient -  Defines an Ambient Lights affect on the Material. This is typically set to a high value for complex surfaces to help shade or define folds and creases on the Materials surface."
+        },
+        {
+            "type": "text",
+            "data": "Ambient -  Defines an Ambient Lights affect on the Material. This is typically set to a high value for complex surfaces to help shade or define folds and creases on the Materials surface."
+        },
+        {
+            "type": "text",
+            "data": "Diffuse -  Defines how light reflected from the Material strikes other objects in the surrounding area, illuminating them. The Diffuse Factor describes light reflected from surfaces which are not shiny or specular. In real life terms what this means is that light is reflected off non-shiny surfaces such as the ground, walls, or fabric, to reach areas not directly in view of a light source."
+        },
+        {
+            "type": "text",
+            "data": "Diffuse -  Defines how light reflected from the Material strikes other objects in the surrounding area, illuminating them. The Diffuse Factor describes light reflected from surfaces which are not shiny or specular. In real life terms what this means is that light is reflected off non-shiny surfaces such as the ground, walls, or fabric, to reach areas not directly in view of a light source."
+        },
+        {
+            "type": "text",
+            "data": "Specular -  The Specular Factor is distinct from the Diffuse Factor, where incoming light is reflected in a broad range of directions. The most familiar example of the distinction between Specular and Diffuse reflection would be glossy and matte paints. While both exhibit a combination of Specular and Diffuse reflection, matte paints have a higher proportion of Diffuse reflection and glossy paints have a greater proportion of Specular reflection. Very highly polished surfaces, such as high quality mirrors, can exhibit almost complete Specular reflection."
+        },
+        {
+            "type": "text",
+            "data": "Specular -  The Specular Factor is distinct from the Diffuse Factor, where incoming light is reflected in a broad range of directions. The most familiar example of the distinction between Specular and Diffuse reflection would be glossy and matte paints. While both exhibit a combination of Specular and Diffuse reflection, matte paints have a higher proportion of Diffuse reflection and glossy paints have a greater proportion of Specular reflection. Very highly polished surfaces, such as high quality mirrors, can exhibit almost complete Specular reflection."
+        },
+        {
+            "type": "text",
+            "data": "Emmisive -  Defines the luminance or glow of a Material. The higher the value the more luminescent the Material is."
+        },
+        {
+            "type": "text",
+            "data": "Emmisive -  Defines the luminance or glow of a Material. The higher the value the more luminescent the Material is."
+        },
+        {
+            "type": "text",
+            "data": "Shininess -  This setting sets the smoothness of the surface. Shininess references the Materials ability to reflect. The more towards the right you set the slider the more the Material will reflect."
+        },
+        {
+            "type": "text",
+            "data": "Shininess -  This setting sets the smoothness of the surface. Shininess references the Materials ability to reflect. The more towards the right you set the slider the more the Material will reflect."
+        },
+        {
+            "type": "text",
+            "data": "Shininess in and of itself will not control Reflection specifically. The roughness of the Finish plays a role in \"how\" something reflects. A mirror is perfectly smooth and with it reflection is reflection. First you establish a surface is reflective by selecting the Mirror Type then you must tweak the other Finish Properties in order to fully define how the finish reacts to lighting."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Transparency -  Transparency references the ability of the Material to allow the Texture below it to show through. Wood grain shows through a transparent color to give a wood tone finish when set correctly. \u00a0If the slider bar is moved to the full transparent side (the right side), the Finish will appear as a tint. This may be useful for glass type Finishes, but is too transparent for stain type Finishes."
+        },
+        {
+            "type": "text",
+            "data": "Transparency -  Transparency references the ability of the Material to allow the Texture below it to show through. Wood grain shows through a transparent color to give a wood tone finish when set correctly. \u00a0If the slider bar is moved to the full transparent side (the right side), the Finish will appear as a tint. This may be useful for glass type Finishes, but is too transparent for stain type Finishes."
+        },
+        {
+            "type": "text",
+            "data": "Transparency -  Transparency references the ability of the Material to allow the Texture below it to show through. Wood grain shows through a transparent color to give a wood tone finish when set correctly. \u00a0If the slider bar is moved to the full transparent side (the right side), the Finish will appear as a tint. This may be useful for glass type Finishes, but is too transparent for stain type Finishes."
+        },
+        {
+            "type": "text",
+            "data": "Preview"
+        },
+        {
+            "type": "image",
+            "data": "Finish_Types_Preview.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Preview area (highlighted above) allows you to preview the active Finish Type using different Finishes, Textures, Light Types, and Brightness."
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\System_Level\\Ribbonbar\\Main_Tab\\Catalogs_Group\\Material_Manager\\Ribbonbar\\MCE_Finish_Type.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

@@ -1,0 +1,277 @@
+{
+    "id": "556d8d3b-2bcb-4f69-8c62-0c72827b825b",
+    "title": "RLRB_Render_Group",
+    "content": [
+        {
+            "type": "text",
+            "data": "Render Group"
+        },
+        {
+            "type": "text",
+            "data": "There are three\u00a0main options in the Render Group."
+        },
+        {
+            "type": "text",
+            "data": "Realtime"
+        },
+        {
+            "type": "image",
+            "data": "image545.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Takes your current  Material  and  Lighting  settings and renders a view with realistic  Textures  right on the screen. Because it is a PhotoVision Render  Lighting  is applied. This view is simplified Lighting with no Shadows. It is also a Realtime view so can be rotated and panned while Rendered. See the  Realtime 3D Properties tab  for more information."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Material",
+                "uuid": "2fed939d-ba55-4f35-94da-993f0e1b392e",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Lighting",
+                "uuid": "51646282-1cfd-405d-ab11-340e38effbe3",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Textures",
+                "uuid": "5b219bde-9151-423b-829c-071f7a823888",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Lighting",
+                "uuid": "51646282-1cfd-405d-ab11-340e38effbe3",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Realtime 3D Properties tab",
+                "uuid": "0ad3196e-bba5-47a3-81a7-6da9389cca5d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Below is an example of a Render in this mode."
+        },
+        {
+            "type": "image",
+            "data": "image1064.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Advanced"
+        },
+        {
+            "type": "image",
+            "data": "image1591.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Takes your current  Material  and  Lighting  settings and renders a view with realistic  Textures  and shadows right on the screen. Because it is a PhotoVision Render  Lighting  is applied."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Material",
+                "uuid": "2fed939d-ba55-4f35-94da-993f0e1b392e",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Lighting",
+                "uuid": "51646282-1cfd-405d-ab11-340e38effbe3",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Textures",
+                "uuid": "5b219bde-9151-423b-829c-071f7a823888",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Lighting",
+                "uuid": "51646282-1cfd-405d-ab11-340e38effbe3",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "There are three modes in this option."
+        },
+        {
+            "type": "text",
+            "data": "Preview -  This view gives you a quick Rendering with no anti-aliasing. \n \n \n Full -  This is a full rendering which includes anti-aliasing. \n \n \n Save -  This option allows you to Save the Render. See the  Saving Renders  topic for more information."
+        },
+        {
+            "type": "text",
+            "data": "Preview -  This view gives you a quick Rendering with no anti-aliasing."
+        },
+        {
+            "type": "text",
+            "data": "Preview -  This view gives you a quick Rendering with no anti-aliasing."
+        },
+        {
+            "type": "text",
+            "data": "Full -  This is a full rendering which includes anti-aliasing."
+        },
+        {
+            "type": "text",
+            "data": "Full -  This is a full rendering which includes anti-aliasing."
+        },
+        {
+            "type": "text",
+            "data": "Save -  This option allows you to Save the Render. See the  Saving Renders  topic for more information."
+        },
+        {
+            "type": "text",
+            "data": "Save -  This option allows you to Save the Render. See the  Saving Renders  topic for more information."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Saving Renders",
+                "uuid": "39e8815b-5ddd-431e-b882-bd6bda78a3da",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "See the  Right Click On Screen 3D  topic for information on editing this options custom settings."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Right Click On Screen 3D",
+                "uuid": "0ad3196e-bba5-47a3-81a7-6da9389cca5d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Below is an example of a Full Render in this mode."
+        },
+        {
+            "type": "image",
+            "data": "Advanced_Render.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Architectural"
+        },
+        {
+            "type": "image",
+            "data": "image1592.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Adds realistic reflections to the scene, which surfaces will cast reflections is determined by the  Ray-trace Tab  in the View Properties dialog box."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Ray-trace Tab",
+                "uuid": "0ad3196e-bba5-47a3-81a7-6da9389cca5d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "There are three modes in this option."
+        },
+        {
+            "type": "text",
+            "data": "Preview -  This view gives you a quick Rendering with no anti-aliasing. \n \n \n Full -  This is a full rendering which includes anti-aliasing. \n \n \n Save -  This option allows you to Save the Render. See the  Saving Renders  topic for more information."
+        },
+        {
+            "type": "text",
+            "data": "Preview -  This view gives you a quick Rendering with no anti-aliasing."
+        },
+        {
+            "type": "text",
+            "data": "Preview -  This view gives you a quick Rendering with no anti-aliasing."
+        },
+        {
+            "type": "text",
+            "data": "Full -  This is a full rendering which includes anti-aliasing."
+        },
+        {
+            "type": "text",
+            "data": "Full -  This is a full rendering which includes anti-aliasing."
+        },
+        {
+            "type": "text",
+            "data": "Save -  This option allows you to Save the Render. See the  Saving Renders  topic for more information."
+        },
+        {
+            "type": "text",
+            "data": "Save -  This option allows you to Save the Render. See the  Saving Renders  topic for more information."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Saving Renders",
+                "uuid": "39e8815b-5ddd-431e-b882-bd6bda78a3da",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "See the  Right Click On Screen 3D  topic for information on editing this options custom settings."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Right Click On Screen 3D",
+                "uuid": "0ad3196e-bba5-47a3-81a7-6da9389cca5d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Below is an example of a Full Render in this mode."
+        },
+        {
+            "type": "image",
+            "data": "Architecutral_Render.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Room_Level\\Ribbonbar\\PhotoVision_Tab\\RLRB_Render_Group.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

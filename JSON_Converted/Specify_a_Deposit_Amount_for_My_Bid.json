@@ -1,0 +1,39 @@
+{
+    "id": "af63ff4e-739a-4c9a-94d8-3ba11ae08121",
+    "title": "Specify_a_Deposit_Amount_for_My_Bid",
+    "content": [
+        {
+            "type": "text",
+            "data": "Specify a Deposit Amount for My Bid"
+        },
+        {
+            "type": "image",
+            "data": "Bidding.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "How do I enter a default deposit for my jobs?"
+        },
+        {
+            "type": "text",
+            "data": "Go to  Options    in the ribbonand enter the default deposit percentage\n    in the Totals tab."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Options",
+                "uuid": "7e1302f3-f822-4514-8966-2dc56ceef32e",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image1092.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\FAQs\\HDI-Bid_Center\\Specify_a_Deposit_Amount_for_My_Bid.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

@@ -1,0 +1,47 @@
+{
+    "id": "44e20fab-224a-4625-a5ec-dbd8854e77a4",
+    "title": "Navigation_Keys",
+    "content": [
+        {
+            "type": "text",
+            "data": "Navigation Keys"
+        },
+        {
+            "type": "text",
+            "data": "The   key and   key will move the camera position up and down. Use   and , to move the scene to the left and right. Use   and   key to walk the camera in and out."
+        },
+        {
+            "type": "image",
+            "data": "shift_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "ctrl_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "letter_a.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "letter_d.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "letter_wn.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "letter_z.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CREnglish\\Navigation_Keys.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

@@ -1,0 +1,77 @@
+{
+    "id": "b98d103f-95ab-4b88-b86d-d6a5ea4198f7",
+    "title": "Profile",
+    "content": [
+        {
+            "type": "text",
+            "data": "Profile"
+        },
+        {
+            "type": "image",
+            "data": "image4460.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option is only available for the  Molding  and/or  Molding Set  Material Types. This utility allows you to associate a Profile shape with the Molding Material."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Molding",
+                "uuid": "21675ddf-9180-45f7-8c97-4823c35d6be9",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Molding Set",
+                "uuid": "267b2c02-15a7-4304-86ae-bce462233537",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "Profile.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There is one option here that is only available for Material Molding:"
+        },
+        {
+            "type": "image",
+            "data": "image4591.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Import > Profile option allows you to import a Profile Shape from the System Level Molding Manager. Once the option is selected your Molding Library of Profile Shapes will be available in the sidebar."
+        },
+        {
+            "type": "image",
+            "data": "image4592.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Simply double click the Profile in the sidebar to replace the current Profile shape."
+        },
+        {
+            "type": "text",
+            "data": "See the  Molding Manager  topic for more information."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Molding Manager",
+                "uuid": "f10529ba-0568-4858-98c8-258ccf936097",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Profile.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}
