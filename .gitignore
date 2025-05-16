@@ -1,0 +1,14 @@
+# .gitignore
+*.chm
+*.exe
+*.zip
+*.rar
+*.7z
+*.tar.gz
+*.iso
+*.log
+*.bak
+.DS_Store
+node_modules/
+.vscode/
+.env
