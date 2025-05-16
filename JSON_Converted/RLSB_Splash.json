@@ -1,0 +1,84 @@
+{
+    "id": "b29527a8-1297-4851-82e9-170edc822e81",
+    "title": "RLSB_Splash",
+    "content": [
+        {
+            "type": "text",
+            "data": "Splash -"
+        },
+        {
+            "type": "image",
+            "data": "image71.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image593.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "Countertops.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Splashes can not only be added when creating Counter Tops in Plan view but can also be added to your Designs from the Elevation View. From Elevation View simply click the Splash button in the sidebar. Adding a New splash uses the  Shape Editor .\n    You can also modify the Shape of Splashes placed via the Counter Top tool from Elevation view simply by right clicking on them in Splash mode and selecting Edit Shape."
+        },
+        {
+            "type": "text",
+            "data": "To access the options for changing the Splashes Thickness and other properties, right click on the Splash as soon as you enter the Editing window. The following menu will appear if you have performed this correctly."
+        },
+        {
+            "type": "image",
+            "data": "image2539.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image797.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "If the Splash you are attempting to Edit was placed using the Tops tool, you will need to Edit the Splash in this area before having access to Splash Properties."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Selecting  Delete  will delete the selected Splash."
+        },
+        {
+            "type": "text",
+            "data": "Selecting  Delete All  will delete all the Splashes on the current Wall."
+        },
+        {
+            "type": "text",
+            "data": "Selecting  Edit  will take the Splash to the Assembly Level. There is very limited access to modify Splashes at the Assembly Level."
+        },
+        {
+            "type": "text",
+            "data": "Selecting the  Edit Shape  right click option will open  The Shape Editor  options in the ribbonbar allowing you to Edit the Shape of the\n    Splash."
+        },
+        {
+            "type": "text",
+            "data": "After Clicking  Properties  the following menu appears:"
+        },
+        {
+            "type": "image",
+            "data": "image798.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This area allows setting the Thickness of the selected Splash. Note that the Material and Texture can also be adjusted here."
+        }
+    ],
+    "source_file": "CVEnglish\\Room_Level\\Side_Bar\\RLSB_Splash.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

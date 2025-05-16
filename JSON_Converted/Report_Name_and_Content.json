@@ -1,0 +1,131 @@
+{
+    "id": "95fbea14-1d8f-46fb-89b1-d25c446882fb",
+    "title": "Report_Name_and_Content",
+    "content": [
+        {
+            "type": "text",
+            "data": "Report Name and Content List"
+        },
+        {
+            "type": "text",
+            "data": "Report Name Contents of Each Report Grouped by category"
+        },
+        {
+            "type": "text",
+            "data": "Review the list noting which Reports potentially meet your requirements. Use the Preview tool in the Report window to view the presentation of each Report and further narrow your selection."
+        },
+        {
+            "type": "text",
+            "data": "Use this as a reference in setting up the Report options that fit your needs. Each heading will be in bold text, and followed by Report options for that heading."
+        },
+        {
+            "type": "text",
+            "data": "Reports"
+        },
+        {
+            "type": "text",
+            "data": "Quote Form - QTAG"
+        },
+        {
+            "type": "text",
+            "data": "Simple Quote Form"
+        },
+        {
+            "type": "text",
+            "data": "Designed for use with Stock/Modular Catalogs."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Sample Bid Report - SBTAG"
+        },
+        {
+            "type": "text",
+            "data": "Sample Bid Report"
+        },
+        {
+            "type": "text",
+            "data": "Designed for use with Custom Catalogs."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Order Form - ORDER"
+        },
+        {
+            "type": "text",
+            "data": "Simple Order Form"
+        },
+        {
+            "type": "text",
+            "data": "Designed for use with Stock/Modular Catalogs."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Acceptance Form - ACCEPT"
+        },
+        {
+            "type": "text",
+            "data": "Simple Acceptance Form"
+        },
+        {
+            "type": "text",
+            "data": "Designed for use with Stock/Modular Catalogs."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Packing List - PACK"
+        },
+        {
+            "type": "text",
+            "data": "Simple Packing List"
+        },
+        {
+            "type": "text",
+            "data": "Designed for use with Stock/Modular Catalogs."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Sample Bid Form - BID02"
+        },
+        {
+            "type": "text",
+            "data": "Simple Bid Form"
+        },
+        {
+            "type": "text",
+            "data": "Designed for use with Stock/Modular Catalogs."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Report_Name_and_Content.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

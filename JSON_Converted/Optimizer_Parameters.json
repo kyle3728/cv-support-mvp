@@ -1,0 +1,248 @@
+{
+    "id": "f8b1d42d-8071-490b-af3f-b0bde2e3edee",
+    "title": "Optimizer_Parameters",
+    "content": [
+        {
+            "type": "text",
+            "data": "Optimizer Parameters"
+        },
+        {
+            "type": "image",
+            "data": "image1262.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There are three tabs in the Saw Optimization Optimize Properties screen:"
+        },
+        {
+            "type": "text",
+            "data": "Patterns Tab"
+        },
+        {
+            "type": "image",
+            "data": "image292.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Save option here will \n allow you to Save any changes made in this area directly to your selected \n Primary Machine in the Machine Catalog."
+        },
+        {
+            "type": "image",
+            "data": "image1264.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Following are the options in the Patterns Tab:"
+        },
+        {
+            "type": "text",
+            "data": "You \n\t can control whether you want your first cut on the saw to be a Rip \n\t (Cut with the grain), a Cross Cut (Cut across the grain), or Either. \n You \n\t can control how you want your Strips sorted. The image below has 2 \n\t Strip sets, the vertical containing a single strip and the horizontal \n\t containing 5 strips."
+        },
+        {
+            "type": "text",
+            "data": "You \n\t can control whether you want your first cut on the saw to be a Rip \n\t (Cut with the grain), a Cross Cut (Cut across the grain), or Either."
+        },
+        {
+            "type": "text",
+            "data": "You \n\t can control whether you want your first cut on the saw to be a Rip \n\t (Cut with the grain), a Cross Cut (Cut across the grain), or Either."
+        },
+        {
+            "type": "text",
+            "data": "You \n\t can control how you want your Strips sorted. The image below has 2 \n\t Strip sets, the vertical containing a single strip and the horizontal \n\t containing 5 strips."
+        },
+        {
+            "type": "text",
+            "data": "You \n\t can control how you want your Strips sorted. The image below has 2 \n\t Strip sets, the vertical containing a single strip and the horizontal \n\t containing 5 strips."
+        },
+        {
+            "type": "image",
+            "data": "image446.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "A Strip is single element from a Strip Set. \n A Strip will always have Cross-Cuts or (Y-Cuts) and possibly Z-Cuts."
+        },
+        {
+            "type": "image",
+            "data": "image447.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "All the cuts that produce a part on this \n pattern are Y-Cuts except the Z-Cut displayed in red. A Y-Cut or Cross-Cut \n runs in the opposite direction of a strip producing either a Part or setting \n up to produce a Part."
+        },
+        {
+            "type": "text",
+            "data": "You \n\t can control how you want your Parts within the each Strip to be sorted."
+        },
+        {
+            "type": "text",
+            "data": "You \n\t can control how you want your Parts within the each Strip to be sorted."
+        },
+        {
+            "type": "text",
+            "data": "You \n\t can control how you want your Parts within the each Strip to be sorted."
+        },
+        {
+            "type": "text",
+            "data": "Yield \n\t and Labor are used to determine how well the job will be booked. A \n\t selection of Labor would favor fewer cycles over Material optimization. \n\t A selection of Yield would favor less Material over fewer cycles."
+        },
+        {
+            "type": "text",
+            "data": "Yield \n\t and Labor are used to determine how well the job will be booked. A \n\t selection of Labor would favor fewer cycles over Material optimization. \n\t A selection of Yield would favor less Material over fewer cycles."
+        },
+        {
+            "type": "text",
+            "data": "Yield \n\t and Labor are used to determine how well the job will be booked. A \n\t selection of Labor would favor fewer cycles over Material optimization. \n\t A selection of Yield would favor less Material over fewer cycles."
+        },
+        {
+            "type": "text",
+            "data": "Make certain to set \n up  Booking  \n for your Saw in the Machine Catalog Setup Tab."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Booking",
+                "uuid": "8f3db61d-fccb-46e0-8dbf-d316d2e1d1b7",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "You \n\t can eliminate Z-Cuts. A Z-Cut is the \u201cThird Phase\u201d cut on any given \n\t strip. A \u201cZ-Cut\u201d and \u201cThird Phase Cut\u201d are the same as long as they \n\t are cut from the 1st strip set in a pattern. However, we allow the \n\t strip series to change directions a maximum of 6 times, the Z-Cut \n\t could occur on the 3rd, 4th, 5th,6th, 7th, or 8th phase. Allowing \n\t Z-Cuts can cause a dramatic improvement in Yield but at the cost of \n\t time spent on the Saw. This can cause the operator to make multiple \n\t cuts to bring a part to its finished size."
+        },
+        {
+            "type": "text",
+            "data": "You \n\t can eliminate Z-Cuts. A Z-Cut is the \u201cThird Phase\u201d cut on any given \n\t strip. A \u201cZ-Cut\u201d and \u201cThird Phase Cut\u201d are the same as long as they \n\t are cut from the 1st strip set in a pattern. However, we allow the \n\t strip series to change directions a maximum of 6 times, the Z-Cut \n\t could occur on the 3rd, 4th, 5th,6th, 7th, or 8th phase. Allowing \n\t Z-Cuts can cause a dramatic improvement in Yield but at the cost of \n\t time spent on the Saw. This can cause the operator to make multiple \n\t cuts to bring a part to its finished size."
+        },
+        {
+            "type": "text",
+            "data": "You \n\t can eliminate Z-Cuts. A Z-Cut is the \u201cThird Phase\u201d cut on any given \n\t strip. A \u201cZ-Cut\u201d and \u201cThird Phase Cut\u201d are the same as long as they \n\t are cut from the 1st strip set in a pattern. However, we allow the \n\t strip series to change directions a maximum of 6 times, the Z-Cut \n\t could occur on the 3rd, 4th, 5th,6th, 7th, or 8th phase. Allowing \n\t Z-Cuts can cause a dramatic improvement in Yield but at the cost of \n\t time spent on the Saw. This can cause the operator to make multiple \n\t cuts to bring a part to its finished size."
+        },
+        {
+            "type": "image",
+            "data": "image443.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Eliminating Z-Cuts will \n affect the type of patterns that are generated but it will not reduce \n the phase count. Make certain to set up the Phase Count for your Saw in \n the Machine Catalog Setup Tab."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "You \n\t can eliminate T-Cuts."
+        },
+        {
+            "type": "text",
+            "data": "You \n\t can eliminate T-Cuts."
+        },
+        {
+            "type": "text",
+            "data": "You \n\t can eliminate T-Cuts."
+        },
+        {
+            "type": "text",
+            "data": "T-Cuts are cuts made \n to break a sheet apart prior to Ripping and/or Cross-Cutting. Allowing \n T-Cuts can cause an improvement in Yield but like Third Phase Cuts can \n also cost time spent on the Saw."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "You \n\t can control the Quality of your Optimization. Moving the slider to \n\t the Right improves the results of the Optimization. \n With Offcut/Waste Order you \n\t can set whether you want them cut First or Last."
+        },
+        {
+            "type": "text",
+            "data": "You \n\t can control the Quality of your Optimization. Moving the slider to \n\t the Right improves the results of the Optimization."
+        },
+        {
+            "type": "text",
+            "data": "You \n\t can control the Quality of your Optimization. Moving the slider to \n\t the Right improves the results of the Optimization."
+        },
+        {
+            "type": "text",
+            "data": "With Offcut/Waste Order you \n\t can set whether you want them cut First or Last."
+        },
+        {
+            "type": "text",
+            "data": "With Offcut/Waste Order you \n\t can set whether you want them cut First or Last."
+        },
+        {
+            "type": "text",
+            "data": "Restrictions Tab"
+        },
+        {
+            "type": "image",
+            "data": "image293.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There are two main option in the Restrictions Tab:"
+        },
+        {
+            "type": "text",
+            "data": "You \n\t can control the Minimum and Maximum Strip Lengths and Widths the Optimization \n\t returns. Some Saws have limitations, this allows you to instruct the \n\t S2M Center Optimizer on your Saws limitations. \n You \n\t can control the Minimum and Maximum T-Cuts Lengths and Widths the \n\t Optimization returns. Some Saws have limitations, this allows you \n\t to instruct the S2M Center Optimizer on your Saws limitations."
+        },
+        {
+            "type": "text",
+            "data": "You \n\t can control the Minimum and Maximum Strip Lengths and Widths the Optimization \n\t returns. Some Saws have limitations, this allows you to instruct the \n\t S2M Center Optimizer on your Saws limitations."
+        },
+        {
+            "type": "text",
+            "data": "You \n\t can control the Minimum and Maximum Strip Lengths and Widths the Optimization \n\t returns. Some Saws have limitations, this allows you to instruct the \n\t S2M Center Optimizer on your Saws limitations."
+        },
+        {
+            "type": "text",
+            "data": "You \n\t can control the Minimum and Maximum T-Cuts Lengths and Widths the \n\t Optimization returns. Some Saws have limitations, this allows you \n\t to instruct the S2M Center Optimizer on your Saws limitations."
+        },
+        {
+            "type": "text",
+            "data": "You \n\t can control the Minimum and Maximum T-Cuts Lengths and Widths the \n\t Optimization returns. Some Saws have limitations, this allows you \n\t to instruct the S2M Center Optimizer on your Saws limitations."
+        },
+        {
+            "type": "text",
+            "data": "Trim Tab"
+        },
+        {
+            "type": "image",
+            "data": "image294.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There is one main option in the Waste/Trim Tab:"
+        },
+        {
+            "type": "text",
+            "data": "You \n\t can control the width of Trim (Dust Cut) around each edge of your \n\t sheet."
+        },
+        {
+            "type": "text",
+            "data": "You \n\t can control the width of Trim (Dust Cut) around each edge of your \n\t sheet."
+        },
+        {
+            "type": "text",
+            "data": "You \n\t can control the width of Trim (Dust Cut) around each edge of your \n\t sheet."
+        }
+    ],
+    "source_file": "NCEnglish_Optimizer\\Sidebar\\Optimizer_Parameters.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

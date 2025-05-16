@@ -1,0 +1,114 @@
+{
+    "id": "636bc910-3667-47fa-880c-64f9aa58e5da",
+    "title": "Sizing_Parameters",
+    "content": [
+        {
+            "type": "text",
+            "data": "Sizing Parameters"
+        },
+        {
+            "type": "text",
+            "data": "The \"Sizing\" parameters are DX, DY, and DZ these parameters are used to size an object. The letter D in DX, DY, and DZ stands for Dimension. Any time you are doing anything with the dimensions of a Part the parameter will start with a D."
+        },
+        {
+            "type": "text",
+            "data": "DX = the width of an object"
+        },
+        {
+            "type": "text",
+            "data": "If the object is a Cabinet then DX is the width of the Cabinet, if the object is a Part then DX is the width of the Part. The DX measurement is always across the grain of a Part."
+        },
+        {
+            "type": "text",
+            "data": "DY = the length or the height of an object"
+        },
+        {
+            "type": "text",
+            "data": "If the object is a Cabinet then DY is the height of the Cabinet, if the object is a Part then DY is the length of the Part. The DY measurement is always with the grain of a Part."
+        },
+        {
+            "type": "text",
+            "data": "DZ = the thickness or depth of the object"
+        },
+        {
+            "type": "text",
+            "data": "If the object is a Cabinet then DZ is the depth of the Cabinet, if the object is a Part then DZ is the thickness of the Part. The DZ measurement is always from the \"Back\" of the Part toward the \"Face\" of the Part."
+        },
+        {
+            "type": "text",
+            "data": "If the object is a Part, you will most likely never write a formula for its thickness as the thickness of a Part is determined by the thickness of the Material the Part is made from."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Sizing Parameters For an Assembly"
+        },
+        {
+            "type": "text",
+            "data": "DX = the width of the Assembly. \n \n \n DY = the height of the Assembly. \n \n \n DZ = the depth of the Assembly."
+        },
+        {
+            "type": "text",
+            "data": "DX = the width of the Assembly."
+        },
+        {
+            "type": "text",
+            "data": "DX = the width of the Assembly."
+        },
+        {
+            "type": "text",
+            "data": "DY = the height of the Assembly."
+        },
+        {
+            "type": "text",
+            "data": "DY = the height of the Assembly."
+        },
+        {
+            "type": "text",
+            "data": "DZ = the depth of the Assembly."
+        },
+        {
+            "type": "text",
+            "data": "DZ = the depth of the Assembly."
+        },
+        {
+            "type": "text",
+            "data": "Sizing Parameters For a Part"
+        },
+        {
+            "type": "text",
+            "data": "DX = the width of the Part, across the grain. \n \n \n DY = the length of the Part, with the grain. \n \n \n DZ = the thickness of the Part."
+        },
+        {
+            "type": "text",
+            "data": "DX = the width of the Part, across the grain."
+        },
+        {
+            "type": "text",
+            "data": "DX = the width of the Part, across the grain."
+        },
+        {
+            "type": "text",
+            "data": "DY = the length of the Part, with the grain."
+        },
+        {
+            "type": "text",
+            "data": "DY = the length of the Part, with the grain."
+        },
+        {
+            "type": "text",
+            "data": "DZ = the thickness of the Part."
+        },
+        {
+            "type": "text",
+            "data": "DZ = the thickness of the Part."
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\Parametric_Editing\\Intelligence_Workshop\\The_Basics\\Sizing_Parameters.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

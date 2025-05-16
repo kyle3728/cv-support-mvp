@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><link rel="stylesheet" type="text/css" href="../../../../../../../_rhdefault.css"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=WINDOWS-1252"/>
+  <meta name="generator" content="Adobe RoboHelp 2022"/>
+  <title>Parameters</title>
+  <link rel="StyleSheet" href="../../../../../../../assets/css/default.css" type="text/css"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/><script type="text/javascript" src="../../../../../../../ehlpdhtm.js"></script></head>
+<body>
+  <h1><strong><img src="../../../../../../../assets/images/image1601.png"/></strong> Parameters</h1>
+  <p>Opens the Parameter Editor allowing you to add a Parameter to the currently selected Material. See the <a href="../../../../../Utilities_Tab/Tools_Group/SL_Parameters.htm">Parameters</a> topic for more information on the Parameter Editor interface.</p>
+  <p><img src="../../../../../../../assets/images/image2911.png"/></p>
+  <p style="margin-left: 40px;"><img alt="" border="0" src="../../../../../../../assets/images/zGraphics/Extras/Information.png" style="border: none;"/> To query these Parameters via UCS you will need to use <span style="font-weight: bold;">_M:ParameterName</span> on the Object using the Material. The Parameter will not be visible in the Object Tree.</p>
+  <p>When editing Parameters for a Connector Material you have an additional tool in the toolbar.</p>
+  <p><img src="../../../../../../../assets/images/image2912.png"/></p>
+  <p>When a Connector primary operation creates a secondary operation, the primary operation notifies the Connector a secondary operation has been created. The Connector in response then runs a UCS that has been created for it here. This will allow you to create a UCS to adjust the Z Position of operations after all the internal processing has taken place so the Connector Operations can be adjusted to different thickness Secondary parts.</p>
+  <p>There is an example within the UCS editor when you click the New tool. See the <a href="../../../../../Utilities_Tab/Tools_Group/User_Created_Standards/UCS_UCS.htm">User Created Standards</a> topic for more information on the UCS interface.</p>
+  <p><img src="../../../../../../../assets/images/image1676.png"/></p>
+  <p>Notice you have the ability to create multiple UCS&#39;s here. To actually have a specific Connector UCS run you would use a normal UCS within CABINET VISION to call it. You would assign the normal UCS to the Primary Operation within the Connector and set _MACRO = <span style="font-weight: bold; font-style: italic;">n</span>. <span style="font-style: italic; font-weight: bold;">n</span> being the Order number for the UCS in the Connector UCS Editor.</p>
+  <p><img src="../../../../../../../assets/images/image1677.png"/></p>
+
+</body></html>

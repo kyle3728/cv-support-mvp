@@ -1,0 +1,21 @@
+{
+    "id": "33b531f6-4796-4b93-892b-0e7b4772fc56",
+    "title": "Storemaster",
+    "content": [
+        {
+            "type": "text",
+            "data": "Storemaster"
+        },
+        {
+            "type": "text",
+            "data": "Output for the Holz-Her Storemaster material handler."
+        },
+        {
+            "type": "text",
+            "data": "Materials can by synchronized with this system in the  Offcut Manager ."
+        }
+    ],
+    "source_file": "NCEnglish\\Ribbonbar\\Main_Tab\\Machine\\NC_Links\\Material_Handling\\Storemaster.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

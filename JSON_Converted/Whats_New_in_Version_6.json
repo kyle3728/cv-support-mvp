@@ -1,0 +1,393 @@
+{
+    "id": "2dbb58bd-9f35-425a-8792-553e1bec20c2",
+    "title": "Whats_New_in_Version_6",
+    "content": [
+        {
+            "type": "text",
+            "data": "What's New in Version 6"
+        },
+        {
+            "type": "text",
+            "data": "General"
+        },
+        {
+            "type": "text",
+            "data": "Miter Machining \n \n \n Define Edge Miters via DXF Import \n \n \n Output Z Position As Thickness For DXF Side Bore Rectangles \n \n \n Apply Edgebanding to Parts \n \n \n Create Clamex Operations in the Operation Editor \n \n \n Import Cutlist \n \n \n New Integrated Reporting Engine (Removed Crystal Reports) \n \n \n Quick Thumbnail and Group Navigation Through Reports \n \n \n Report Editor \n \n \n Improved Printing Options \n \n \n Setup Report Groups \n \n \n Updated and Improved Export Options \n \n \n Composites Support Added to Label-IT \n \n \n Syncing with SCM Flexstore \n \n \n Set a Fixed Pre-Mill Amount for Edgebanding \n \n \n Pre-Band Option Added for Drill and Dowel Machines \n \n \n Ignore Grain Column in Part List View \n \n \n Grain Column in Material View"
+        },
+        {
+            "type": "text",
+            "data": "Miter Machining"
+        },
+        {
+            "type": "text",
+            "data": "Miter Machining"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Miter Machining",
+                "uuid": "a6c6d306-c8da-4df8-8440-33f2f24a9c1d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Define Edge Miters via DXF Import"
+        },
+        {
+            "type": "text",
+            "data": "Define Edge Miters via DXF Import"
+        },
+        {
+            "type": "text",
+            "data": "Output Z Position As Thickness For DXF Side Bore Rectangles"
+        },
+        {
+            "type": "text",
+            "data": "Output Z Position As Thickness For DXF Side Bore Rectangles"
+        },
+        {
+            "type": "text",
+            "data": "Apply Edgebanding to Parts"
+        },
+        {
+            "type": "text",
+            "data": "Apply Edgebanding to Parts"
+        },
+        {
+            "type": "text",
+            "data": "Create Clamex Operations in the Operation Editor"
+        },
+        {
+            "type": "text",
+            "data": "Create Clamex Operations in the Operation Editor"
+        },
+        {
+            "type": "text",
+            "data": "Import Cutlist"
+        },
+        {
+            "type": "text",
+            "data": "Import Cutlist"
+        },
+        {
+            "type": "text",
+            "data": "New Integrated Reporting Engine (Removed Crystal Reports)"
+        },
+        {
+            "type": "text",
+            "data": "New Integrated Reporting Engine (Removed Crystal Reports)"
+        },
+        {
+            "type": "text",
+            "data": "Quick Thumbnail and Group Navigation Through Reports"
+        },
+        {
+            "type": "text",
+            "data": "Quick Thumbnail and Group Navigation Through Reports"
+        },
+        {
+            "type": "text",
+            "data": "Report Editor"
+        },
+        {
+            "type": "text",
+            "data": "Report Editor"
+        },
+        {
+            "type": "text",
+            "data": "Improved Printing Options"
+        },
+        {
+            "type": "text",
+            "data": "Improved Printing Options"
+        },
+        {
+            "type": "text",
+            "data": "Setup Report Groups"
+        },
+        {
+            "type": "text",
+            "data": "Setup Report Groups"
+        },
+        {
+            "type": "text",
+            "data": "Updated and Improved Export Options"
+        },
+        {
+            "type": "text",
+            "data": "Updated and Improved Export Options"
+        },
+        {
+            "type": "text",
+            "data": "Composites Support Added to Label-IT"
+        },
+        {
+            "type": "text",
+            "data": "Composites Support Added to Label-IT"
+        },
+        {
+            "type": "text",
+            "data": "Syncing with SCM Flexstore"
+        },
+        {
+            "type": "text",
+            "data": "Syncing with SCM Flexstore"
+        },
+        {
+            "type": "text",
+            "data": "Set a Fixed Pre-Mill Amount for Edgebanding"
+        },
+        {
+            "type": "text",
+            "data": "Set a Fixed Pre-Mill Amount for Edgebanding"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Set a Fixed Pre-Mill Amount for Edgebanding",
+                "uuid": "a6c6d306-c8da-4df8-8440-33f2f24a9c1d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Pre-Band Option Added for Drill and Dowel Machines"
+        },
+        {
+            "type": "text",
+            "data": "Pre-Band Option Added for Drill and Dowel Machines"
+        },
+        {
+            "type": "text",
+            "data": "Ignore Grain Column in Part List View"
+        },
+        {
+            "type": "text",
+            "data": "Ignore Grain Column in Part List View"
+        },
+        {
+            "type": "text",
+            "data": "Grain Column in Material View"
+        },
+        {
+            "type": "text",
+            "data": "Grain Column in Material View"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Grain Column in Material View",
+                "uuid": "1b1c04ca-fd74-4085-9dbc-56ec7ca38948",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Label-IT"
+        },
+        {
+            "type": "text",
+            "data": "Simplified and Expanded Flexibility of Calling Out Edgebanding \n \n \n \n Banding: List Variable \n \n \n Filtering Banding Letters"
+        },
+        {
+            "type": "text",
+            "data": "Simplified and Expanded Flexibility of Calling Out Edgebanding"
+        },
+        {
+            "type": "text",
+            "data": "Banding: List Variable \n \n \n Filtering Banding Letters"
+        },
+        {
+            "type": "text",
+            "data": "Banding: List Variable \n \n \n Filtering Banding Letters"
+        },
+        {
+            "type": "text",
+            "data": "Banding: List Variable"
+        },
+        {
+            "type": "text",
+            "data": "Banding: List Variable"
+        },
+        {
+            "type": "text",
+            "data": "Filtering Banding Letters"
+        },
+        {
+            "type": "text",
+            "data": "Filtering Banding Letters"
+        },
+        {
+            "type": "text",
+            "data": "Specify Labels for Offcuts"
+        },
+        {
+            "type": "text",
+            "data": "Specify Labels for Offcuts"
+        },
+        {
+            "type": "text",
+            "data": "Links"
+        },
+        {
+            "type": "text",
+            "data": "Grecon Dimter Opticut 104R Chop Saw NC Link \n \n \n Dimter S90"
+        },
+        {
+            "type": "text",
+            "data": "Grecon Dimter Opticut 104R Chop Saw NC Link"
+        },
+        {
+            "type": "text",
+            "data": "Grecon Dimter Opticut 104R Chop Saw NC Link"
+        },
+        {
+            "type": "text",
+            "data": "Dimter S90"
+        },
+        {
+            "type": "text",
+            "data": "Dimter S90"
+        },
+        {
+            "type": "text",
+            "data": "Machine Catalog"
+        },
+        {
+            "type": "text",
+            "data": "Material Handling Machine Type \n \n \n Part Program Matching for Like Parts \n \n \n Output Part Geometry with Tool Compensation without Sloping Leads \n \n \n Spoil Board Z Breach Checking"
+        },
+        {
+            "type": "text",
+            "data": "Material Handling Machine Type"
+        },
+        {
+            "type": "text",
+            "data": "Material Handling Machine Type"
+        },
+        {
+            "type": "text",
+            "data": "Part Program Matching for Like Parts"
+        },
+        {
+            "type": "text",
+            "data": "Part Program Matching for Like Parts"
+        },
+        {
+            "type": "text",
+            "data": "Output Part Geometry with Tool Compensation without Sloping Leads"
+        },
+        {
+            "type": "text",
+            "data": "Output Part Geometry with Tool Compensation without Sloping Leads"
+        },
+        {
+            "type": "text",
+            "data": "Spoil Board Z Breach Checking"
+        },
+        {
+            "type": "text",
+            "data": "Spoil Board Z Breach Checking"
+        },
+        {
+            "type": "text",
+            "data": "Material Catalog"
+        },
+        {
+            "type": "text",
+            "data": "Define Edgeband Indicators"
+        },
+        {
+            "type": "text",
+            "data": "Define Edgeband Indicators"
+        },
+        {
+            "type": "text",
+            "data": "Define Edgeband Indicators"
+        },
+        {
+            "type": "text",
+            "data": "Optimizer"
+        },
+        {
+            "type": "text",
+            "data": "Program Number Displayed In Pattern View for Optimized Sheets \n \n \n Use the Left and Right Keyboard Arrow Keys for Pattern Navigation"
+        },
+        {
+            "type": "text",
+            "data": "Program Number Displayed In Pattern View for Optimized Sheets"
+        },
+        {
+            "type": "text",
+            "data": "Program Number Displayed In Pattern View for Optimized Sheets"
+        },
+        {
+            "type": "text",
+            "data": "Use the Left and Right Keyboard Arrow Keys for Pattern Navigation"
+        },
+        {
+            "type": "text",
+            "data": "Use the Left and Right Keyboard Arrow Keys for Pattern Navigation"
+        },
+        {
+            "type": "text",
+            "data": "Nesting"
+        },
+        {
+            "type": "text",
+            "data": "Specify Bridge Overlap For Linked Part Outlines"
+        },
+        {
+            "type": "text",
+            "data": "Specify Bridge Overlap For Linked Part Outlines"
+        },
+        {
+            "type": "text",
+            "data": "Specify Bridge Overlap For Linked Part Outlines"
+        },
+        {
+            "type": "text",
+            "data": "Tool Catalog"
+        },
+        {
+            "type": "text",
+            "data": "Define 5-Axis Saw Tool for Machining Miters with 4  Axis Machines \n \n \n Define V Router Bit for Machining Miters with 2  Axis Machines"
+        },
+        {
+            "type": "text",
+            "data": "Define 5-Axis Saw Tool for Machining Miters with 4  Axis Machines"
+        },
+        {
+            "type": "text",
+            "data": "Define 5-Axis Saw Tool for Machining Miters with 4  Axis Machines"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Define 5-Axis Saw Tool for Machining Miters with 4  Axis Machines",
+                "uuid": "4a9e45c0-035c-40b8-abaf-ecce4bd2184c",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Define V Router Bit for Machining Miters with 2  Axis Machines"
+        },
+        {
+            "type": "text",
+            "data": "Define V Router Bit for Machining Miters with 2  Axis Machines"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Define V Router Bit for Machining Miters with 2  Axis Machines",
+                "uuid": "4a9e45c0-035c-40b8-abaf-ecce4bd2184c",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "NCEnglish\\Introduction\\Whats_New_Previous_Versions\\Whats_New_in_Version_6.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

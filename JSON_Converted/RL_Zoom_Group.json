@@ -1,0 +1,125 @@
+{
+    "id": "e7615284-fc2b-4e06-92a5-400c3db012f5",
+    "title": "RL_Zoom_Group",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top \n > \n \n \n Room Level \n > \n \n Ribbonbar \n > \n \n Main Tab \n > \n \n Zoom Group"
+        },
+        {
+            "type": "text",
+            "data": "Top \n >"
+        },
+        {
+            "type": "text",
+            "data": "Room Level \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Room Level",
+                "uuid": "9eaa492c-0405-4da7-8e0f-a6ff4e047890",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Ribbonbar \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Ribbonbar",
+                "uuid": "a095688d-3b5c-4aba-8f35-bdc4541dcc7f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Main Tab \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Main Tab",
+                "uuid": "a095688d-3b5c-4aba-8f35-bdc4541dcc7f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Zoom Group"
+        },
+        {
+            "type": "text",
+            "data": "Zoom Group"
+        },
+        {
+            "type": "text",
+            "data": "Zoom Group"
+        },
+        {
+            "type": "image",
+            "data": "image1858.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Zoom Group has three options:"
+        },
+        {
+            "type": "text",
+            "data": "Window"
+        },
+        {
+            "type": "image",
+            "data": "image1859.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option is used for increasing the size of an area or Part on your screen to see a detail or examine a condition. By clicking on the Zoom Windows tool, then clicking in the center of the area you would like to Zoom In to, and, while holding the mouse button down, dragging the cursor diagonally across the item you wish to Zoom In on, finally releasing the mouse button at the end of the area, your screen will Zoom In."
+        },
+        {
+            "type": "text",
+            "data": "You can also change the Window from Center out to Corner to Corner in  CV Button | Preferences | Tools Tab ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "CV Button | Preferences | Tools Tab",
+                "uuid": "a6c6d306-c8da-4df8-8440-33f2f24a9c1d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Out"
+        },
+        {
+            "type": "image",
+            "data": "image1860.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option isn't a click and drag task, instead, simply clicking the Zoom Out Tool on the ribbonbar will incrementally Zoom the drawing out."
+        },
+        {
+            "type": "text",
+            "data": "All"
+        },
+        {
+            "type": "image",
+            "data": "image1861.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option will restore the object size to the original size and re-center the object in the process."
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Room_Level\\Ribbonbar\\Main_Tab\\RL_Zoom_Group.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

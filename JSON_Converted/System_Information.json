@@ -1,0 +1,336 @@
+{
+    "id": "dec1572a-3dd5-46b5-b4db-087a822a122e",
+    "title": "System_Information",
+    "content": [
+        {
+            "type": "text",
+            "data": "System Information"
+        },
+        {
+            "type": "text",
+            "data": "The System Information Utility is a support tool that allows the user to view information such as file version and registry data on the Product line."
+        },
+        {
+            "type": "image",
+            "data": "image532.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Application Menu"
+        },
+        {
+            "type": "text",
+            "data": "File"
+        },
+        {
+            "type": "text",
+            "data": "Run Program"
+        },
+        {
+            "type": "text",
+            "data": "This command launches an executable file that is selected in the Application Tree."
+        },
+        {
+            "type": "text",
+            "data": "Open Folder"
+        },
+        {
+            "type": "text",
+            "data": "Launches Windows Explorer opened to the selected directory."
+        },
+        {
+            "type": "text",
+            "data": "Exit"
+        },
+        {
+            "type": "text",
+            "data": "Closes the System Information Utility."
+        },
+        {
+            "type": "text",
+            "data": "Edit"
+        },
+        {
+            "type": "text",
+            "data": "Allow Editing"
+        },
+        {
+            "type": "text",
+            "data": "This feature can be turned on to allow editing .INI files, registering files, un-registering files, and changing the system registry. \u00a0This feature requires a password and should be limited to use by Cabinet Vision technicians."
+        },
+        {
+            "type": "text",
+            "data": "Register"
+        },
+        {
+            "type": "text",
+            "data": "To register a file, first select that file and then select  File | Register  or press F6."
+        },
+        {
+            "type": "text",
+            "data": "Un-register"
+        },
+        {
+            "type": "text",
+            "data": "To un-register a file, first select that file and then select  File \u00a0| Un-Register  or press F7."
+        },
+        {
+            "type": "text",
+            "data": "Find"
+        },
+        {
+            "type": "text",
+            "data": "Selecting Find will open the dialog box shown below. \u00a0This allows the user to more easily find and item in the application tree or information window."
+        },
+        {
+            "type": "image",
+            "data": "image194.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Find Next"
+        },
+        {
+            "type": "text",
+            "data": "This option will allow you to easily find the next instance of the item searched for last with the Find option."
+        },
+        {
+            "type": "text",
+            "data": "View"
+        },
+        {
+            "type": "text",
+            "data": "Register Icon"
+        },
+        {
+            "type": "text",
+            "data": "To assist in identifying what files can be registered, this option may be selected. \u00a0When this option is selected, the icon next to each .dll and .ocx file will contain a small blue box. \u00a0Additionally, a + symbol will appear in the attributes column."
+        },
+        {
+            "type": "text",
+            "data": "Register Confirmation"
+        },
+        {
+            "type": "text",
+            "data": "Selecting the Register Confirmation option will cause you to receive a confirmation (or error) each time that you attempt to register a file."
+        },
+        {
+            "type": "text",
+            "data": "Refresh"
+        },
+        {
+            "type": "text",
+            "data": "This option updates the information pane with the most current data."
+        },
+        {
+            "type": "text",
+            "data": "Tools"
+        },
+        {
+            "type": "text",
+            "data": "Key Test"
+        },
+        {
+            "type": "text",
+            "data": "Opens the Key Test Utility that is used as part of the procedure to troubleshoot problems with the security key."
+        },
+        {
+            "type": "image",
+            "data": "image195.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Job File Version"
+        },
+        {
+            "type": "text",
+            "data": "Displays the Version of Solid Essential the selected CVJ file (Job) was lasted saved in."
+        },
+        {
+            "type": "image",
+            "data": "image533.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Windows System Information"
+        },
+        {
+            "type": "text",
+            "data": "Opens the Windows System Information Utility."
+        },
+        {
+            "type": "image",
+            "data": "Windows_SysInfo.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "File Signature Verification Utility"
+        },
+        {
+            "type": "text",
+            "data": "Opens the Windows File Signature Verification Utility. Not available in newer versions of Windows."
+        },
+        {
+            "type": "image",
+            "data": "image868.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "DirectX Diagnostic Tool"
+        },
+        {
+            "type": "text",
+            "data": "Opens the Windows DirectX Diagnostic Tool."
+        },
+        {
+            "type": "image",
+            "data": "image198.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Event Viewer"
+        },
+        {
+            "type": "text",
+            "data": "Opens the Windows Event Viewer."
+        },
+        {
+            "type": "image",
+            "data": "image199.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "System Configuration Utility"
+        },
+        {
+            "type": "text",
+            "data": "Opens the Windows System Configuration Editor for editing critical system files. Not available in newer versions of Windows."
+        },
+        {
+            "type": "image",
+            "data": "image2198.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Display Property Settings"
+        },
+        {
+            "type": "text",
+            "data": "Opens the Display Properties Window to allow graphics card configuration."
+        },
+        {
+            "type": "image",
+            "data": "Display_Properties.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Registry Editor"
+        },
+        {
+            "type": "text",
+            "data": "Opens the Windows Registry Editor. \u00a0Do not make Registry changes unless you are qualified to do so, catastrophic system damage can occur."
+        },
+        {
+            "type": "image",
+            "data": "image201.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Links"
+        },
+        {
+            "type": "text",
+            "data": "Support"
+        },
+        {
+            "type": "text",
+            "data": "This link opens the Vero eSupport website."
+        },
+        {
+            "type": "image",
+            "data": "image5.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Safe Net"
+        },
+        {
+            "type": "text",
+            "data": "This link opens the Safe Net website."
+        },
+        {
+            "type": "image",
+            "data": "image6.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Windows Update"
+        },
+        {
+            "type": "text",
+            "data": "This link opens the Windows Update Utility if you are using Windows 7. In Windows 10 you will need to click  Start | Settings | Updates & security  then tap or click  Check for updates ."
+        },
+        {
+            "type": "image",
+            "data": "image204.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Help"
+        },
+        {
+            "type": "text",
+            "data": "About"
+        },
+        {
+            "type": "text",
+            "data": "Shows information about the System Information Utility."
+        },
+        {
+            "type": "image",
+            "data": "image800.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Application Tree"
+        },
+        {
+            "type": "text",
+            "data": "Use the Application Tree to navigate through the file structure of the installed Vero Products."
+        },
+        {
+            "type": "text",
+            "data": "Information Window"
+        },
+        {
+            "type": "text",
+            "data": "This area shows the details of items selected in the Application Tree."
+        },
+        {
+            "type": "text",
+            "data": "Information/Status Bar"
+        },
+        {
+            "type": "text",
+            "data": "At the bottom of the System Information Window, the Information/Statusbar shows the current selection. Also, there is a quick filter. The Quick Filter can be used to reduce the contents of the data window. By typing a word in the Quick Filter, the Information Window will only show items that have that word or part of a word in their name. To remove the filter you can either backspace over the text or click the red X to the right of the filter text."
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Introduction\\Solid_Startup_Group\\System_Information.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

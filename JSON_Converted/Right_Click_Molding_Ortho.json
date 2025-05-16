@@ -1,0 +1,368 @@
+{
+    "id": "ae499e5d-6496-4e10-a512-70ac110ddfc1",
+    "title": "Right_Click_Molding_Ortho",
+    "content": [
+        {
+            "type": "text",
+            "data": "Right Click Molding -"
+        },
+        {
+            "type": "image",
+            "data": "image181.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image182.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image183.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image4005.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image3189.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Following are the options when right clicking on a Molding in the Face, Plan, and End views:"
+        },
+        {
+            "type": "text",
+            "data": "Copy"
+        },
+        {
+            "type": "image",
+            "data": "image3164.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option will copy the selected Molding and allow you to place the copied Molding somewhere else within the Assembly."
+        },
+        {
+            "type": "text",
+            "data": "Delete"
+        },
+        {
+            "type": "image",
+            "data": "image3158.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option will delete the selected Molding."
+        },
+        {
+            "type": "text",
+            "data": "Save To Library"
+        },
+        {
+            "type": "image",
+            "data": "image3169.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "Shaping.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Save To Library option allows you to Save the selected Molding to a  Part Library  for retrieval later. Select the Library from the list on the left where you want to save the selected Molding."
+        },
+        {
+            "type": "image",
+            "data": "image3190.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Following are the options here:"
+        },
+        {
+            "type": "text",
+            "data": "Preserve Finish -  This option will Preserve the current Finishes assigned to the Molding. \n \n Preserve Size -  This option will Preserve the current Size of the Part into the Library. Without this option enabled when you use Replace with Library Part the Library Part would take on the sizing characteristics\n      of the Part being Replaced. \n \n Preserve Material -  This option will Preserve the current Material of the Part into the Library. Without this option enabled when you use Replace with Library Part the Library Part would take on the Material\n        characteristics of the Part being Replaced. \n \n \n Preserve Attributes -  This option will Preserve any Attributes you have added to the Part. \n \n \n Preserve Notes -  This option will Preserve any Notes you have added to the Part. \n \n \n Preserve CAD -  This option will Preserve any CAD you have added to the Part. \n \n \n Output to CNC -  This option if selected will send this Library Part to the S2M CENTER when the rest of your Job is sent. If this option is disabled the Library Part will not be transferred to the S2M CENTER."
+        },
+        {
+            "type": "text",
+            "data": "Preserve Finish -  This option will Preserve the current Finishes assigned to the Molding."
+        },
+        {
+            "type": "text",
+            "data": "Preserve Finish -  This option will Preserve the current Finishes assigned to the Molding."
+        },
+        {
+            "type": "text",
+            "data": "Preserve Size -  This option will Preserve the current Size of the Part into the Library. Without this option enabled when you use Replace with Library Part the Library Part would take on the sizing characteristics\n      of the Part being Replaced."
+        },
+        {
+            "type": "text",
+            "data": "Preserve Material -  This option will Preserve the current Material of the Part into the Library. Without this option enabled when you use Replace with Library Part the Library Part would take on the Material\n        characteristics of the Part being Replaced."
+        },
+        {
+            "type": "text",
+            "data": "Preserve Material -  This option will Preserve the current Material of the Part into the Library. Without this option enabled when you use Replace with Library Part the Library Part would take on the Material\n        characteristics of the Part being Replaced."
+        },
+        {
+            "type": "text",
+            "data": "Preserve Attributes -  This option will Preserve any Attributes you have added to the Part."
+        },
+        {
+            "type": "text",
+            "data": "Preserve Attributes -  This option will Preserve any Attributes you have added to the Part."
+        },
+        {
+            "type": "text",
+            "data": "Preserve Notes -  This option will Preserve any Notes you have added to the Part."
+        },
+        {
+            "type": "text",
+            "data": "Preserve Notes -  This option will Preserve any Notes you have added to the Part."
+        },
+        {
+            "type": "text",
+            "data": "Preserve CAD -  This option will Preserve any CAD you have added to the Part."
+        },
+        {
+            "type": "text",
+            "data": "Preserve CAD -  This option will Preserve any CAD you have added to the Part."
+        },
+        {
+            "type": "text",
+            "data": "Output to CNC -  This option if selected will send this Library Part to the S2M CENTER when the rest of your Job is sent. If this option is disabled the Library Part will not be transferred to the S2M CENTER."
+        },
+        {
+            "type": "text",
+            "data": "Output to CNC -  This option if selected will send this Library Part to the S2M CENTER when the rest of your Job is sent. If this option is disabled the Library Part will not be transferred to the S2M CENTER."
+        },
+        {
+            "type": "text",
+            "data": "Edit Shape"
+        },
+        {
+            "type": "image",
+            "data": "image3191.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "Shaping.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Edit Shape option will bring up the Shaping tools to allow you to shape the Molding."
+        },
+        {
+            "type": "text",
+            "data": "Click the options below for more information"
+        },
+        {
+            "type": "image",
+            "data": "Edit_Shape_Tools.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Properties"
+        },
+        {
+            "type": "image",
+            "data": "image3192.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There are five tabs in the Part Properties screen:"
+        },
+        {
+            "type": "text",
+            "data": "General Tab -  Following are the options on the General Tab:"
+        },
+        {
+            "type": "text",
+            "data": "General Tab -  Following are the options on the General Tab:"
+        },
+        {
+            "type": "text",
+            "data": "General Tab -  Following are the options on the General Tab:"
+        },
+        {
+            "type": "image",
+            "data": "image3193.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Molding Type -  Select the Molding Type here. \n \n \n Molding Profile -  Select the Molding Profile here. If a Molding Material has been selected then this option will be disabled as the actual Profile comes from the Molding Material. \n \n \n Description -  By Default, the Description for the Molding will come from the Molding Manager/Molding Material. However, this field is editable and you may change the Description to better describe \"this\"\n            Molding in your Reports. \n \n \n Material Change -  By Default, the Material for the Molding comes from the  Material Schedule . \n \n \n Texture Map -  Allows you to set how a  Texture             is applied to the Molding. See the  Room Level Import DXF Texture Map topic  for more information. \n \n \n Smooth Surface -  Allows you to enable Smooth Surfacing on the Molding. See the  Room Level Import DXF Smooth Surface topic             for more information. \n \n \n Layout Visibility \n \n \n \n \n Hide in Elevation -  Will hide the Molding in Elevation views. \n \n \n Hide in Perspective -  Will hide the Molding in Perspective (3D) views."
+        },
+        {
+            "type": "text",
+            "data": "Molding Type -  Select the Molding Type here. \n \n \n Molding Profile -  Select the Molding Profile here. If a Molding Material has been selected then this option will be disabled as the actual Profile comes from the Molding Material. \n \n \n Description -  By Default, the Description for the Molding will come from the Molding Manager/Molding Material. However, this field is editable and you may change the Description to better describe \"this\"\n            Molding in your Reports. \n \n \n Material Change -  By Default, the Material for the Molding comes from the  Material Schedule . \n \n \n Texture Map -  Allows you to set how a  Texture             is applied to the Molding. See the  Room Level Import DXF Texture Map topic  for more information. \n \n \n Smooth Surface -  Allows you to enable Smooth Surfacing on the Molding. See the  Room Level Import DXF Smooth Surface topic             for more information. \n \n \n Layout Visibility \n \n \n \n \n Hide in Elevation -  Will hide the Molding in Elevation views. \n \n \n Hide in Perspective -  Will hide the Molding in Perspective (3D) views."
+        },
+        {
+            "type": "text",
+            "data": "Molding Type -  Select the Molding Type here. \n \n \n Molding Profile -  Select the Molding Profile here. If a Molding Material has been selected then this option will be disabled as the actual Profile comes from the Molding Material. \n \n \n Description -  By Default, the Description for the Molding will come from the Molding Manager/Molding Material. However, this field is editable and you may change the Description to better describe \"this\"\n            Molding in your Reports. \n \n \n Material Change -  By Default, the Material for the Molding comes from the  Material Schedule . \n \n \n Texture Map -  Allows you to set how a  Texture             is applied to the Molding. See the  Room Level Import DXF Texture Map topic  for more information. \n \n \n Smooth Surface -  Allows you to enable Smooth Surfacing on the Molding. See the  Room Level Import DXF Smooth Surface topic             for more information. \n \n \n Layout Visibility \n \n \n \n \n Hide in Elevation -  Will hide the Molding in Elevation views. \n \n \n Hide in Perspective -  Will hide the Molding in Perspective (3D) views."
+        },
+        {
+            "type": "text",
+            "data": "Molding Type -  Select the Molding Type here."
+        },
+        {
+            "type": "text",
+            "data": "Molding Type -  Select the Molding Type here."
+        },
+        {
+            "type": "text",
+            "data": "Molding Profile -  Select the Molding Profile here. If a Molding Material has been selected then this option will be disabled as the actual Profile comes from the Molding Material."
+        },
+        {
+            "type": "text",
+            "data": "Molding Profile -  Select the Molding Profile here. If a Molding Material has been selected then this option will be disabled as the actual Profile comes from the Molding Material."
+        },
+        {
+            "type": "text",
+            "data": "Description -  By Default, the Description for the Molding will come from the Molding Manager/Molding Material. However, this field is editable and you may change the Description to better describe \"this\"\n            Molding in your Reports."
+        },
+        {
+            "type": "text",
+            "data": "Description -  By Default, the Description for the Molding will come from the Molding Manager/Molding Material. However, this field is editable and you may change the Description to better describe \"this\"\n            Molding in your Reports."
+        },
+        {
+            "type": "text",
+            "data": "Material Change -  By Default, the Material for the Molding comes from the  Material Schedule ."
+        },
+        {
+            "type": "text",
+            "data": "Material Change -  By Default, the Material for the Molding comes from the  Material Schedule ."
+        },
+        {
+            "type": "text",
+            "data": "Texture Map -  Allows you to set how a  Texture             is applied to the Molding. See the  Room Level Import DXF Texture Map topic  for more information."
+        },
+        {
+            "type": "text",
+            "data": "Texture Map -  Allows you to set how a  Texture             is applied to the Molding. See the  Room Level Import DXF Texture Map topic  for more information."
+        },
+        {
+            "type": "text",
+            "data": "Smooth Surface -  Allows you to enable Smooth Surfacing on the Molding. See the  Room Level Import DXF Smooth Surface topic             for more information."
+        },
+        {
+            "type": "text",
+            "data": "Smooth Surface -  Allows you to enable Smooth Surfacing on the Molding. See the  Room Level Import DXF Smooth Surface topic             for more information."
+        },
+        {
+            "type": "text",
+            "data": "Layout Visibility"
+        },
+        {
+            "type": "text",
+            "data": "Layout Visibility"
+        },
+        {
+            "type": "text",
+            "data": "Hide in Elevation -  Will hide the Molding in Elevation views. \n \n \n Hide in Perspective -  Will hide the Molding in Perspective (3D) views."
+        },
+        {
+            "type": "text",
+            "data": "Hide in Elevation -  Will hide the Molding in Elevation views. \n \n \n Hide in Perspective -  Will hide the Molding in Perspective (3D) views."
+        },
+        {
+            "type": "text",
+            "data": "Hide in Elevation -  Will hide the Molding in Elevation views."
+        },
+        {
+            "type": "text",
+            "data": "Hide in Elevation -  Will hide the Molding in Elevation views."
+        },
+        {
+            "type": "text",
+            "data": "Hide in Perspective -  Will hide the Molding in Perspective (3D) views."
+        },
+        {
+            "type": "text",
+            "data": "Hide in Perspective -  Will hide the Molding in Perspective (3D) views."
+        },
+        {
+            "type": "text",
+            "data": "Comment Tab -  You add special notes on this Molding here. Certain cut lists from the  Report Center         will display this information for the shop."
+        },
+        {
+            "type": "text",
+            "data": "Comment Tab -  You add special notes on this Molding here. Certain cut lists from the  Report Center         will display this information for the shop."
+        },
+        {
+            "type": "text",
+            "data": "Comment Tab -  You add special notes on this Molding here. Certain cut lists from the  Report Center         will display this information for the shop."
+        },
+        {
+            "type": "image",
+            "data": "image3194.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Finish Tab -  The Finish Tab allows you to specify what  Finish         and/or  Texture  is applied to the selected Moldings Front Face, Back Face, Edges, and Ends."
+        },
+        {
+            "type": "text",
+            "data": "Finish Tab -  The Finish Tab allows you to specify what  Finish         and/or  Texture  is applied to the selected Moldings Front Face, Back Face, Edges, and Ends."
+        },
+        {
+            "type": "text",
+            "data": "Finish Tab -  The Finish Tab allows you to specify what  Finish         and/or  Texture  is applied to the selected Moldings Front Face, Back Face, Edges, and Ends."
+        },
+        {
+            "type": "image",
+            "data": "image3195.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Overrides Tab -  The Overrides Tab will display and allow removal of any Overrides on the selected Molding."
+        },
+        {
+            "type": "text",
+            "data": "Overrides Tab -  The Overrides Tab will display and allow removal of any Overrides on the selected Molding."
+        },
+        {
+            "type": "text",
+            "data": "Overrides Tab -  The Overrides Tab will display and allow removal of any Overrides on the selected Molding."
+        },
+        {
+            "type": "image",
+            "data": "image3196.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Parameters -  This area allows you to see any Parameters on the current Molding. See the  Intelligence Workshop         for more information on modifying these Parameters."
+        },
+        {
+            "type": "text",
+            "data": "Parameters -  This area allows you to see any Parameters on the current Molding. See the  Intelligence Workshop         for more information on modifying these Parameters."
+        },
+        {
+            "type": "text",
+            "data": "Parameters -  This area allows you to see any Parameters on the current Molding. See the  Intelligence Workshop         for more information on modifying these Parameters."
+        },
+        {
+            "type": "image",
+            "data": "image3197.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish\\Assembly_Level\\Right_Click_Options\\Right_Click_Molding_Ortho.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

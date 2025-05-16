@@ -1,0 +1,303 @@
+{
+    "id": "3a119c67-10a0-4c06-b6f4-bada97c31649",
+    "title": "Supercut",
+    "content": [
+        {
+            "type": "text",
+            "data": "Supercut"
+        },
+        {
+            "type": "text",
+            "data": "This is a Chop Saw Machine Link."
+        },
+        {
+            "type": "text",
+            "data": "This link will create the .asc files that are used by the Salvador SuperCut Series of Chop Saws. There are a number of parameters that are used to generate the output for this link and details on what each parameter means is below."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "JN",
+                    "Adds the job name to the file that is created for this output"
+                ],
+                "rows": [
+                    [
+                        "LAB",
+                        "This is a label that will be applied to all parts, this can contain variable text (i.e. {PartName}). The full variable list will be provided at the end of this text file."
+                    ],
+                    [
+                        "KICK",
+                        "The kicker list, must follow this format: [max length (mm - in)],[kicker (#)];etc. This would look like this: 36,1;59.9,2;75,13"
+                    ],
+                    [
+                        "PM",
+                        "Printing Mode (0 = None)"
+                    ],
+                    [
+                        "SP",
+                        "Speed (0 - 100%)"
+                    ],
+                    [
+                        "TCL",
+                        "Trim Cut Length (mm - in)"
+                    ],
+                    [
+                        "ECL",
+                        "End Cut (mm - in)"
+                    ],
+                    [
+                        "PRI",
+                        "Priority (0 = Length, 1 = Fixed, 3 = Value)"
+                    ],
+                    [
+                        "FO",
+                        "Fast Optimization"
+                    ],
+                    [
+                        "DMC",
+                        "Delete cut between two pieces if their sum is less longer than this value (mm - in)"
+                    ],
+                    [
+                        "SGT",
+                        "Shattering - If the waste is more than (mm)"
+                    ],
+                    [
+                        "SLT",
+                        "Shattering - and less than (mm)"
+                    ],
+                    [
+                        "SHA",
+                        "Shattering - cut it in pieces of (mm)"
+                    ],
+                    [
+                        "WO",
+                        "Cutting Waste Optimization"
+                    ],
+                    [
+                        "DQ2",
+                        "Disable quality from 2nd"
+                    ],
+                    [
+                        "WGT",
+                        "Waste Selection - If waste is more than (mm - in)"
+                    ],
+                    [
+                        "WEJ",
+                        "Waste Selection - eject it on ejector n"
+                    ],
+                    [
+                        "CMEL",
+                        "Cut On Mark - Eject only pieces longer than (mm - in)"
+                    ],
+                    [
+                        "CMP",
+                        "Cut On Mark - Print Length"
+                    ],
+                    [
+                        "ER",
+                        "Ejectors work for length range"
+                    ],
+                    [
+                        "CSP",
+                        "Cut Speed (% of max cut speed)"
+                    ],
+                    [
+                        "MWP",
+                        "Maximum waste allowed"
+                    ],
+                    [
+                        "LAW",
+                        "Least absolute Waste (mm - in)"
+                    ],
+                    [
+                        "MAW",
+                        "Maximum absolute waste (mm - in)"
+                    ],
+                    [
+                        "WST",
+                        "If waste is longer than (mm - in)"
+                    ],
+                    [
+                        "WDB",
+                        "go into width database"
+                    ],
+                    [
+                        "QDB",
+                        "and quality database"
+                    ],
+                    [
+                        "RPW",
+                        "Recover measure on previous waste"
+                    ],
+                    [
+                        "RMPWM",
+                        "Recover measure on previous waste for max (0 = all; mm)"
+                    ],
+                    [
+                        "RMNWM",
+                        "Recover measure on next waste for max (0 = all; mm)"
+                    ],
+                    [
+                        "COMEE",
+                        "Cut only on mark and eject on ejector n"
+                    ],
+                    [
+                        "FJWLT",
+                        "Finger Joint - If the waste is longer than (mm - in)"
+                    ],
+                    [
+                        "FJIW",
+                        "Finger Joint - increase the waste up to (mm - in)"
+                    ],
+                    [
+                        "FJPWM",
+                        "Finger Joint - to produce waste max (mm - in)"
+                    ],
+                    [
+                        "FJEO",
+                        "Finger Joint - and eject on n"
+                    ],
+                    [
+                        "FJPLR",
+                        "Print length on recovers for finger joint"
+                    ],
+                    [
+                        "COMWGT",
+                        "If waste is greater than allowed waste, cut only on mark"
+                    ],
+                    [
+                        "COMEON",
+                        "and eject on ejector n"
+                    ],
+                    [
+                        "PRLEN",
+                        "Print Length"
+                    ],
+                    [
+                        "PREFIX",
+                        "Printing prefix"
+                    ],
+                    [
+                        "SUFFIX",
+                        "Printing suffix"
+                    ],
+                    [
+                        "TPWM",
+                        "To produce waste max (mm - in)"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Label Variables"
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "AsmComment",
+                    "The comment applied to the cabinet"
+                ],
+                "rows": [
+                    [
+                        "AsmDepth",
+                        "The depth of the cabinet"
+                    ],
+                    [
+                        "AsmDesc",
+                        "The Description of the cabinet"
+                    ],
+                    [
+                        "AsmHeight",
+                        "The height of the cabinet"
+                    ],
+                    [
+                        "AsmNo",
+                        "The cabinet id"
+                    ],
+                    [
+                        "AsmName",
+                        "The name of the cabinet"
+                    ],
+                    [
+                        "AsmWidth",
+                        "The Width of the cabinet"
+                    ],
+                    [
+                        "InternalName",
+                        "The part internal name"
+                    ],
+                    [
+                        "JobDesc",
+                        "The job description"
+                    ],
+                    [
+                        "JobName",
+                        "The job name"
+                    ],
+                    [
+                        "MatDesc",
+                        "The material description"
+                    ],
+                    [
+                        "MatLength",
+                        "The material length"
+                    ],
+                    [
+                        "MatName",
+                        "The material name"
+                    ],
+                    [
+                        "MatWidth",
+                        "The material width"
+                    ],
+                    [
+                        "PartComment",
+                        "The comment added to the part"
+                    ],
+                    [
+                        "PartLength",
+                        "The length of the part"
+                    ],
+                    [
+                        "PartName",
+                        "The name of the part"
+                    ],
+                    [
+                        "PartNLength",
+                        "The parts nominal length"
+                    ],
+                    [
+                        "PartNWidth",
+                        "The parts nominal width"
+                    ],
+                    [
+                        "PartThick",
+                        "The parts thickness"
+                    ],
+                    [
+                        "PartWidth",
+                        "The parts Width"
+                    ],
+                    [
+                        "PrimaryEdge",
+                        "The primary edge of the part"
+                    ],
+                    [
+                        "RoomName",
+                        "The name of the room"
+                    ],
+                    [
+                        "WallNo",
+                        "The wall number"
+                    ]
+                ]
+            }
+        }
+    ],
+    "source_file": "NCEnglish\\Ribbonbar\\Main_Tab\\Machine\\NC_Links\\Chop_Saw_Links\\Supercut.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

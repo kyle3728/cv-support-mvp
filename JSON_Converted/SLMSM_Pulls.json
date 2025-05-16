@@ -1,0 +1,86 @@
+{
+    "id": "4c2e70ae-b7cc-4b67-9631-e82d8197bca0",
+    "title": "SLMSM_Pulls",
+    "content": [
+        {
+            "type": "text",
+            "data": "Pull"
+        },
+        {
+            "type": "text",
+            "data": "Use the Pull Material Schedule to assign Pulls to Doors and Drawers. This window functions in the same way as  Assembly Parts ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Assembly Parts",
+                "uuid": "dced9646-d932-493c-b839-76a3e71d1195",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "SLMSM_Pulls.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Sidebar/Properties"
+        },
+        {
+            "type": "text",
+            "data": "The following Properties are available for Pulls:"
+        },
+        {
+            "type": "text",
+            "data": "ID -  The ID number for the selected Material Schedule."
+        },
+        {
+            "type": "text",
+            "data": "Name -  The Name of the selected Material Schedule."
+        },
+        {
+            "type": "text",
+            "data": "Description -  The Description of the selected Material Schedule."
+        },
+        {
+            "type": "text",
+            "data": "Upcharge -  The \"Upcharge\" value will only be added in a Rate Table that uses the  Bid Method  \" Use Part Catalog Pricing \". This value is a Percentage Upcharge you charge above your Standard Part Catalog Price as entered in the  Part Manager  when this Material Schedule is in use."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Bid Method",
+                "uuid": "4a3d36f8-0f2e-45c7-856e-38dabd76074d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Use Part Catalog Pricing",
+                "uuid": "4a3d36f8-0f2e-45c7-856e-38dabd76074d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Part Manager",
+                "uuid": "f4a43f08-b40b-442c-8f03-a96c2a64640f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Rotate Door Pull -  Indicates to rotate your Door Pull by 90 Degrees for the current Pulls Material Schedule."
+        },
+        {
+            "type": "text",
+            "data": "Rotate Drawer Pull -  Indicates to rotate your Drawer Pull by 90 Degrees for the current Pulls Material Schedule."
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\SLMSM_Pulls.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><link rel="stylesheet" type="text/css" href="../../../../../_rhdefault.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=WINDOWS-1252"/>
+<meta name="topic-status" content="Complete"/>
+<meta name="topic-check-list" content="First Draft,Added To TOC,Links,Index keywords,Images,Tested,Finalized,Reviewed,Ran Smart Index"/>
+<meta name="topic-priority" content="0"/>
+<meta name="topic-time-estimate" content="0"/>
+<meta name="topic-comment" content=""/>
+<meta name="topic-id" content=""/>
+<meta name="generator" content="Adobe RoboHelp 2022"/>
+<title>Auto Link</title>
+<link rel="StyleSheet" href="../../../../../assets/css/default.css" type="text/css"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/><meta name="description" content=""/><script type="text/javascript" src="../../../../../ehlpdhtm.js"></script></head>
+<body>
+<h1>Auto Link</h1>
+<p>This is a Parts Router and/or Point-to-Point Link.</p>
+<p>AutoLink supports tool compensation for routers, Tool Numbers, Feed Rate, Descent Rate &amp; Maximum Depth Per Pass.</p>
+<p>Saws should be set to output Center Line paths.  One Saw may be setup with multiple kerf sizes.  If a tool exists in the Tool Catalog with a kerf that matches the dado width the Planit CNC Center will output a single polyline with width. The kerf in AutoLink’s configuration setup will determine the number of passes the saw takes to create the dado width.</p>
+<p>Tool selection, for all tools, is made by Tool Number.  If the Tool Number is 0, then AutoLink will attempt to do a tool match automatically.</p>
+<p>Each Tool is interrogated for it’s maximum depth for a single pass.  If an operation exceeds the maximum depth per pass, multiple passes will be generated automatically.</p>
+<p>Routes are output different for Open and Closed Paths. Open paths are output as line segments. Closed paths are output as polylines. This enables a feature to be used with AutoLink where it splits the distance of the 1st line in a polyline and starts the cut here. This eliminates a common problem of overshot in the corners. Closed Path Route Output adds _RI_RO to the layer name to communicate to AutoLink to synthesize the Lead In / Out  and Ramp In / Out.</p>
+<p>A part description and dimension has been added to a description layer. This description will show next to the file name on the controller for easy identification of the part. The batch.lst is generated so that AutoLink can process the files automatically.</p>
+<p>Layer Name &amp; Pen Number from the Tool Catalog will be ignored. The DXF files created for AutoLink have the following characteristics:</p>
+<ol style="list-style: decimal;">
+<li class="p">
+<p class="1_List">Border: Border + Part Thickness + LL orientation</p>
+</li>
+<li class="p">
+<p class="1_List">Description: Stores part information.  This information will appear in the comment section of Winner90 and Genesis</p>
+</li>
+<li class="p">
+<p class="1_List">Vertical Boring:  Vbore + Depth + Tool Number (If not 0) + Multiple passes</p>
+</li>
+<li class="p">
+<p class="1_List">Horizontal Boring: Hbore + Z position + Tool number (If not 0) + Multiple passes</p>
+</li>
+<li class="p">
+<p class="1_List">Grooving: Groove + Depth + Tool Number (If not 0) + Multiple passes</p>
+</li>
+<li class="p">
+<p class="1_List">Routing: Route + Depth + Tool number (If not 0) + Tool compensation + Feed Rate (If not 0) + Descent Rate (If not 0) + Multiple passes + Ramp In/Out (For closed path routing)</p>
+</li>
+</ol>
+<p>Each unique layer gets a consecutive pen number.</p>
+<p>All entities are output at 0z with No Thickness.</p>
+<p>A _Mn (where n is the number of passes) is added to the layer name automatically to process the instruction with multiple passes.</p>
+<p>Parts are automatically output in the Top Left quadrant + X , +Y to match the interface in AutoLink.</p>
+<p>Dimensions in the layer name use p for a decimal place. They output a maximum of 2 places in the layer name for metric and 5 places for imperial .</p>
+<p>Horizontal boring is created with 3 line segments open to the edge of the part the hole will be generated on. Warning messages will be produced for horizontal boring that is not on the edge of part.</p>
+<p>Tool Number, Feed Rate, Descent Rate &amp; Tool Compensation from the Tool Catalog - will only be used in the layer name if they are not 0.</p>
+
+
+</body></html>

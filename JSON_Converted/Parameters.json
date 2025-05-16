@@ -1,0 +1,22 @@
+{
+    "id": "57d5f0ed-0421-4afe-a788-453ebee559b3",
+    "title": "Parameters",
+    "content": [
+        {
+            "type": "text",
+            "data": "Parameters"
+        },
+        {
+            "type": "image",
+            "data": "image166.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Opens the Parameters Editor. These parameters are similar to CABINET VISION System Parameters with the exception that they are tied to the specific Catalog rather than the entire system. See the CABINET VISION System parameters topic in the CABINET VISION Help file for more information."
+        }
+    ],
+    "source_file": "CEEnglish\\Options_View\\Ribbonbar\\Utilities\\Parameters.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

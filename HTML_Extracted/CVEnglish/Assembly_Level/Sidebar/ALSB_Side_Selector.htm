@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><link rel="stylesheet" type="text/css" href="../../_rhdefault.css"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=WINDOWS-1252"/>
+  <meta name="generator" content="Adobe RoboHelp 2022"/>
+  <title>Side Selector</title>
+  <link rel="StyleSheet" href="../../assets/css/default.css" type="text/css"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/><script type="text/javascript" src="../../ehlpdhtm.js"></script></head>
+<body>
+  <p><span data-condition="Others:Print">
+      <?rh-placeholder type="breadcrumbs" 
+ ph-align="2" sep-char="&gt;" home="Top" usetopicformat="1" ph-style="font-family:Arial;font-size:12pt;font-weight: normal;font-style: normal;text-decoration: none;" ?>
+    </span></p>
+  <h1>Side Selector Section View <img alt="" border="0" height="21" src="../../assets/images/image180.gif" style="border: none;" width="60"/> - <img src="../../assets/images/image3034.png"/> Section Face</h1>
+  <p>This Side Selector interface allows you to select the Side of the Assembly you would like to modify in the Section Editor. In the image below the Assembly was edited in an Ortho View so that the Top and Front of the Assembly were setup to have Faces. When Faces are defined on two different planes it activates the plane selection drop down at the Top. In the View below we have the End View selected so we can define the Top (Priority 1), the Front (Priority 2), the Back, and the Bottom of the Assembly.</p>
+  <p><img alt="" border="0" src="../../assets/images/image2860.gif" style="border: none; cursor: nesw-resize;"/></p>
+  <h2>Face Priority Explanation</h2>
+  <p>The face priority is the order in which the interior of the Assembly will be sectioned. It is done in the order 1, 2, 3, etc. If you put in a Partition on Face priority 1 it will cut all the way through the Assembly. If you then put a Partition on Face priority 2, the Partition will stop where it meets Partition 1. If you change the priorities around so 2 becomes 1, then the old 2 will now go all the way through the Assembly and the old 1 will stop where it meets the other Partition.</p>
+  <p><img alt="" border="0" height="175" src="../../assets/images/zGraphics/image402.gif" style="border: none;" width="250"/></p>
+  <h2>Side Selector with a Standard Assembly</h2>
+  <p>When you first enter the Section Editor with a Standard (Non-Shaped) Assembly you will be presented with the following sidebar view.</p>
+  <p style="font-weight: bold;"><img alt="" border="0" src="../../assets/images/image2861.gif" style="border: none;"/></p>
+  <p>You can select any of the four Sides presented in the Side Selector. By selecting either of the Ends represented by the Side selector you will receive the following options:</p>
+  <p><img alt="" border="0" src="../../assets/images/image2862.gif" style="border: none;"/></p>
+  <ul style="list-style: circle;">
+    <li class="p">
+      <p class="Indent_1_Bulllet"><span style="font-weight: bold;">Side Types -</span> Here you can select whether the selected Side in the Side Selector is defined as a Face or an End. If you select Face you can then Section it just like a standard Assemblies Face.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet"><span style="font-weight: bold;">End -</span> If End is selected in Side Types, as is the case in the image above, you can define the Ends Type. There are eleven options here:</p>
+    </li>
+  </ul>
+  <ol style="list-style: decimal;">
+    <li style="list-style: none; display: inline;">
+      <ol style="list-style: decimal;">
+        <li class="p">
+          <p class="Indent_1_Bulllet"><span style="font-weight: bold; font-style: italic;">Automatic</span> <span style="font-weight: bold;">-</span> When Automatic is selected as the End Type you give Solid control to determine what the End type is based on it’s condition. Basically this means it follows the logic of Unfinished End when against a Wall or other Assembly or Finished end when the End is exposed.</p>
+        </li>
+        <li class="p">
+          <p class="Indent_1_Bulllet"><span style="font-weight: bold; font-style: italic;">Unfinished</span> <span style="font-weight: bold;">-</span> Changes the End type to an <a href="../../System_Level/Ribbonbar/Main_Tab/Construction_Group/Assembly_Manager/Assembly/Branches/Interior_Case/AW_Unfinished_End.htm">Unfinished End</a> following its Properties as defined in whichever Construction Method that is active. This is an <a href="../Ribbonbar/Main_Tab/Tools_Group/AL_Modifications.htm">Override</a> to CABINET VISION’s &quot;Automatic&quot; End Type and will stick with the Assembly under all conditions, even when Saved into your Assembly Catalog.</p>
+        </li>
+        <li class="p">
+          <p class="Indent_1_Bulllet"><span style="font-weight: bold; font-style: italic;">Finished</span> <span style="font-weight: bold;">-</span> Changes the End type to a <a href="../../System_Level/Ribbonbar/Main_Tab/Construction_Group/Assembly_Manager/Assembly/Branches/Exterior_Case/AW_Finished_End.htm">Finished End</a> following its Properties as defined in whichever Construction Method that is active. This is an Override to CABINET VISION’s &quot;Automatic&quot; End Type and will stick with the Assembly under all conditions, even when Saved into your Assembly Catalog.</p>
+        </li>
+        <li class="p">
+          <p class="Indent_1_Bulllet"><span style="font-weight: bold; font-style: italic;">Applied Finished End</span> <span style="font-weight: bold;">-</span> Changes the End type to an <a href="../../System_Level/Ribbonbar/Main_Tab/Construction_Group/Assembly_Manager/Assembly/Branches/Exterior_Case/AW_Finished_End.htm">Applied Finished End</a> following its Properties as defined in whichever Construction Method that is active. This is an Override to CABINET VISION’s &quot;Automatic&quot; End Type and will stick with the Assembly under all conditions, even when Saved into your Assembly Catalog.</p>
+        </li>
+        <li class="p">
+          <p class="Indent_1_Bulllet"><span style="font-weight: bold; font-style: italic;">Applied Door</span> <span style="font-weight: bold;">-</span> Changes the End type to an <a href="../../System_Level/Ribbonbar/Main_Tab/Construction_Group/Assembly_Manager/Assembly/Branches/Exterior_Case/AW_Finished_End.htm">Applied Door Finished End</a> following its Properties as defined in whichever Construction Method that is active, utilizing the selected Door Style for the Classes assigned End Panel. This is an Override to CABINET VISION’s &quot;Automatic&quot; End Type and will stick with the Assembly under all conditions, even when Saved into your Assembly Catalog.</p>
+        </li>
+        <li class="p">
+          <p class="Indent_1_Bulllet">Panelized <span style="font-weight: bold;">-</span> Changes the End type to a <a href="../../System_Level/Ribbonbar/Main_Tab/Construction_Group/Assembly_Manager/Assembly/Branches/Exterior_Case/AW_Finished_End.htm">Panelized Finished End</a> following its Properties as defined in whichever Construction Method that is active, utilizing the selected Door Style for the Classes assigned End Panel. This is an Override to CABINET VISION’s &quot;Automatic&quot; End Type and will stick with the Assembly under all conditions, even when Saved into your Assembly Catalog.</p>
+        </li>
+        <li class="p">
+          <p class="Indent_1_Bulllet"><span style="font-weight: bold; font-style: italic;">Extended –</span> Changes the End type to an <a href="../../System_Level/Ribbonbar/Main_Tab/Construction_Group/Assembly_Manager/Assembly/Branches/Interior_Case/AW_Unfinished_End.htm">Extended Unfinished End</a> following its Properties as defined in whichever Construction Method that is active. This is an Override to CABINET VISION’s &quot;Automatic&quot; End Type and will stick with the Assembly under all conditions, even when Saved into your Assembly Catalog.</p>
+        </li>
+        <li class="p">
+          <p class="Indent_1_Bulllet"><span style="font-weight: bold; font-style: italic;">Return</span> <span style="font-weight: bold;">-</span> Changes the End type to a <a href="../../System_Level/Ribbonbar/Main_Tab/Construction_Group/Assembly_Manager/Assembly/Branches/Interior_Case/AW_Unfinished_End.htm">Return Unfinished End</a> following its Properties as defined in whichever Construction Method that is active. This is an Override to CABINET VISION’s &quot;Automatic&quot; End Type and will stick with the Assembly under all conditions, even when Saved into your Assembly Catalog.</p>
+        </li>
+        <li class="p">
+          <p class="Indent_1_Bulllet"><span style="font-weight: bold; font-style: italic;">Filler</span> <span style="font-weight: bold;">-</span> Changes the End Type to Filler. This is an Override to CABINET VISION’s &quot;Automatic&quot; End Type and will stick with the Assembly under all conditions, even when Saved into your Assembly Catalog.</p>
+        </li>
+        <li class="p" style="font-style: normal; font-weight: normal;">
+          <p class="Indent_1_Bulllet"><span style="font-weight: bold; font-style: italic;"><a name="Skin" id="Skin"></a>Skin -</span> Changes the End Type to Skin. This is an Override to CABINET VISION’s &quot;Automatic&quot; End Type and will stick with the Assembly under all conditions, even when Saved into your Assembly Catalog.</p>
+        </li>
+        <li class="p">
+          <p class="Indent_1_Bulllet"><span style="font-weight: bold; font-style: italic;">No End</span> <span style="font-weight: bold;">-</span> Changes the End Type to No End. This is an Override to CABINET VISION’s &quot;Automatic&quot; End Type and will stick with the Assembly under all conditions, even when Saved into your Assembly Catalog.</p>
+        </li>
+      </ol>
+    </li>
+  </ol>
+  <p>By selecting the Back represented by the Side selector you will receive the following options:</p>
+  <p><img alt="" border="0" src="../../assets/images/image2863.gif" style="border: none;"/></p>
+  <ul style="list-style: circle;">
+    <li class="p">
+      <p class="Indent_1_Bulllet"><span style="font-weight: bold;">Side Types -</span> Here you can select whether the selected Side in the Side Selector is defined as a Face or a Back. If you select Face you can then Section it just like a standard Assemblies Face.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet"><span style="font-weight: bold;">Back -</span> If Back is selected in Side Types, as is the case in the image above, you can define the Backs Type. There are five options here:</p>
+    </li>
+  </ul>
+  <ol style="list-style: decimal;">
+    <li style="list-style: none; display: inline;">
+      <ol style="list-style: decimal;">
+        <li class="p">
+          <p class="Indent_1_Bulllet"><span style="font-weight: bold; font-style: italic;">Automatic</span> <span style="font-weight: bold;">-</span> When Automatic is selected as the Back Type you give CABINET VISION control to determine what the Back type is based on it’s condition. Basically this means it follows the logic of <a href="../../System_Level/Ribbonbar/Main_Tab/Construction_Group/Assembly_Manager/Assembly/Branches/Interior_Case/AW_Unfinished_Back.htm">Unfinished Back</a> when against a Standard Wall or <a href="../../System_Level/Ribbonbar/Main_Tab/Construction_Group/Assembly_Manager/Assembly/Branches/Exterior_Case/AW_Finished_Back.htm">Finished Back</a> or No Back when against a Peninsula Wall, depending on its <a href="../../Room_Level/Side_Bar/RLSB_Walls.htm">Back Type Property</a>.</p>
+        </li>
+        <li class="p">
+          <p class="Indent_1_Bulllet"><span style="font-weight: bold; font-style: italic;">Unfinished</span> <span style="font-weight: bold;">-</span> Changes the Back type to an <a href="../../System_Level/Ribbonbar/Main_Tab/Construction_Group/Assembly_Manager/Assembly/Branches/Interior_Case/AW_Unfinished_Back.htm">Unfinished Back</a> following its Properties as defined in whichever Construction Method that is active. This is an Override to CABINET VISION’s &quot;Automatic&quot; Back Type and will stick with the Assembly under all conditions, even when Saved into your Assembly Catalog.</p>
+        </li>
+        <li class="p">
+          <p class="Indent_1_Bulllet"><span style="font-weight: bold; font-style: italic;">Finished</span> <span style="font-weight: bold;">-</span> Changes the Back type to a <a href="../../System_Level/Ribbonbar/Main_Tab/Construction_Group/Assembly_Manager/Assembly/Branches/Exterior_Case/AW_Finished_Back.htm">Finished Back</a> following its Properties as defined in whichever Construction Method that is active. This is an Override to CABINET VISION’s &quot;Automatic&quot; Back Type and will stick with the Assembly under all conditions, even when Saved into your Assembly Catalog.</p>
+        </li>
+        <li class="p">
+          <p class="Indent_1_Bulllet"><span style="font-weight: bold; font-style: italic;">Clipped Back Support</span> <span style="font-weight: bold;">-</span> Changes the Back Type to a <a href="../../System_Level/Ribbonbar/Main_Tab/Construction_Group/Assembly_Manager/Assembly/Branches/Interior_Case/AW_Unfinished_Back.htm">Clipped Back Support</a> following its Properties as defined in whichever Construction Method that is active. This is an Override to CABINET VISION’s &quot;Automatic&quot; Back Type and will stick with the Assembly under all conditions, even when Saved into your Assembly Catalog.</p>
+        </li>
+        <li class="p">
+          <p class="Indent_1_Bulllet"><span style="font-weight: bold; font-style: italic;">No Back</span> <span style="font-weight: bold;">-</span> Changes the Back Type to No Back. This is an Override to CABINET VISION’s &quot;Automatic&quot; Back Type and will stick with the Assembly under all conditions, even when Saved into your Assembly Catalog.</p>
+        </li>
+      </ol>
+    </li>
+  </ol>
+
+</body></html>

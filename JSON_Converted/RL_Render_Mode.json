@@ -1,0 +1,172 @@
+{
+    "id": "9780083a-59ba-4e4d-a3f2-4e4fccf798d3",
+    "title": "RL_Render_Mode",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top \n > \n \n \n Room Level \n > \n \n Ribbonbar \n > \n \n Main Tab \n > \n \n View Group \n > \n \n Render Mode"
+        },
+        {
+            "type": "text",
+            "data": "Top \n >"
+        },
+        {
+            "type": "text",
+            "data": "Room Level \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Room Level",
+                "uuid": "9eaa492c-0405-4da7-8e0f-a6ff4e047890",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Ribbonbar \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Ribbonbar",
+                "uuid": "a095688d-3b5c-4aba-8f35-bdc4541dcc7f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Main Tab \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Main Tab",
+                "uuid": "a095688d-3b5c-4aba-8f35-bdc4541dcc7f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "View Group \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "View Group",
+                "uuid": "9780083a-59ba-4e4d-a3f2-4e4fccf798d3",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Render Mode"
+        },
+        {
+            "type": "text",
+            "data": "Render Mode"
+        },
+        {
+            "type": "text",
+            "data": "Render Mode"
+        },
+        {
+            "type": "image",
+            "data": "image1862.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Render Mode option gives you access to the following three Render options:"
+        },
+        {
+            "type": "text",
+            "data": "Wire Mode"
+        },
+        {
+            "type": "image",
+            "data": "image2.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This is the default view in Solid. You will see Assemblies as if they had wire lines at the corners."
+        },
+        {
+            "type": "image",
+            "data": "image520.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Fill Mode"
+        },
+        {
+            "type": "image",
+            "data": "image3.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This mode of rendering causes the Assemblies to appear solid, with the selected  Finish  added to them. They do not display wood grain or other enhancements ( Textures ) of the advanced rendering features. This view is useful for viewing Parts and Assemblies when speed is more important than rendering quality."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Finish",
+                "uuid": "4bee5d7d-8710-4804-a69d-48af21e64e11",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Textures",
+                "uuid": "aa224566-2adf-4eb7-a169-5b2371d5571d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image521.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Texture Mode"
+        },
+        {
+            "type": "image",
+            "data": "image1863.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This mode of rendering causes the Assemblies to appear solid, with the selected  Finish  and  Textures  applied to them."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Finish",
+                "uuid": "4bee5d7d-8710-4804-a69d-48af21e64e11",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Textures",
+                "uuid": "aa224566-2adf-4eb7-a169-5b2371d5571d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image522.gif",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Room_Level\\Ribbonbar\\Main_Tab\\View_Group\\RL_Render_Mode.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

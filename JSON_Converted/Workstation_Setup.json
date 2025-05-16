@@ -1,0 +1,124 @@
+{
+    "id": "9ecff4a2-b9bd-48d8-a4c3-9b8b2e346af9",
+    "title": "Workstation_Setup",
+    "content": [
+        {
+            "type": "text",
+            "data": "Workstation Setup"
+        },
+        {
+            "type": "text",
+            "data": "Once a license server has been set up, follow this procedure on the client PCs:"
+        },
+        {
+            "type": "text",
+            "data": "Install the Workstation following the Network Install for a Workstation section Install Help document. \n \n \n From the CV Splash Screen Utilities tab open the  License Manager . \n \n \n On the Server menu, click Search Network to list the Sentinel RMS server(s). \n \n \n Select the server that you wish to connect to and click Change Active Server. \n \n \n Confirm that you wish to change the active server, and close the dialog."
+        },
+        {
+            "type": "text",
+            "data": "Install the Workstation following the Network Install for a Workstation section Install Help document."
+        },
+        {
+            "type": "text",
+            "data": "Install the Workstation following the Network Install for a Workstation section Install Help document."
+        },
+        {
+            "type": "text",
+            "data": "From the CV Splash Screen Utilities tab open the  License Manager ."
+        },
+        {
+            "type": "text",
+            "data": "From the CV Splash Screen Utilities tab open the  License Manager ."
+        },
+        {
+            "type": "text",
+            "data": "On the Server menu, click Search Network to list the Sentinel RMS server(s)."
+        },
+        {
+            "type": "text",
+            "data": "On the Server menu, click Search Network to list the Sentinel RMS server(s)."
+        },
+        {
+            "type": "text",
+            "data": "Select the server that you wish to connect to and click Change Active Server."
+        },
+        {
+            "type": "text",
+            "data": "Select the server that you wish to connect to and click Change Active Server."
+        },
+        {
+            "type": "text",
+            "data": "Confirm that you wish to change the active server, and close the dialog."
+        },
+        {
+            "type": "text",
+            "data": "Confirm that you wish to change the active server, and close the dialog."
+        },
+        {
+            "type": "text",
+            "data": "Selecting Licenses"
+        },
+        {
+            "type": "image",
+            "data": "image6280.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Click on a module license and click <\n      or <\n        to select it."
+        },
+        {
+            "type": "image",
+            "data": "image6281.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image6282.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "You can now run the software using the functionality covered by the selected licenses (seen on the left in the list above.) \n \n \n Please note these licenses are only effectively 'pre-selected' for your PC. To run the software, the licenses must be available on the server at run time."
+        },
+        {
+            "type": "text",
+            "data": "You can now run the software using the functionality covered by the selected licenses (seen on the left in the list above.) \n \n \n Please note these licenses are only effectively 'pre-selected' for your PC. To run the software, the licenses must be available on the server at run time."
+        },
+        {
+            "type": "text",
+            "data": "You can now run the software using the functionality covered by the selected licenses (seen on the left in the list above.) \n \n \n Please note these licenses are only effectively 'pre-selected' for your PC. To run the software, the licenses must be available on the server at run time."
+        },
+        {
+            "type": "text",
+            "data": "You can now run the software using the functionality covered by the selected licenses (seen on the left in the list above.)"
+        },
+        {
+            "type": "text",
+            "data": "You can now run the software using the functionality covered by the selected licenses (seen on the left in the list above.)"
+        },
+        {
+            "type": "text",
+            "data": "Please note these licenses are only effectively 'pre-selected' for your PC. To run the software, the licenses must be available on the server at run time."
+        },
+        {
+            "type": "text",
+            "data": "Please note these licenses are only effectively 'pre-selected' for your PC. To run the software, the licenses must be available on the server at run time."
+        },
+        {
+            "type": "text",
+            "data": "You can setup License Profiles to make this more 'automated'. Please see the  License Profiles  topic for more information."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "License Profiles",
+                "uuid": "0197876b-a287-495b-8e42-1c5e3bc2e910",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish\\System_Level\\Ribbonbar\\Utilities_Tab\\License_Manager\\Network_Licenses\\Workstation_Setup.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

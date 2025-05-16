@@ -1,0 +1,38 @@
+{
+    "id": "7947db80-7270-4085-997c-d20ee21b86e8",
+    "title": "Put_Lights_Inside_a_Cabinet",
+    "content": [
+        {
+            "type": "text",
+            "data": "Put Lights Inside a Cabinet"
+        },
+        {
+            "type": "text",
+            "data": "How do I put lights in my Show Case designs?"
+        },
+        {
+            "type": "text",
+            "data": "Try starting a new job, place a single wall on the floor plan, and then arrange the lighting in this room as if to showcase or spotlight an object on the wall."
+        },
+        {
+            "type": "text",
+            "data": "Use the Light Schedule feature to create multiple lighting scenarios, to create specific effects (daylight, night time, artificial light, or for example, rainy day) Create additional rooms within this job to handle some basic layouts, IE: kitchen, bath, den store, etc."
+        },
+        {
+            "type": "text",
+            "data": "Save this job as a template to be used for anytime you need to quickly render a cabinet you already have in your library, the lighting scheme you use will remain with the job. If after placing cabinets, you need to save the job with these cabinets in it, save it as a copy of the original."
+        },
+        {
+            "type": "text",
+            "data": "To be able to see the effect a particular light has, turn off all the other lights and manipulate each light one at a time, then turn them all back on to check your results. Disable or dim the room light (the green light box) to create striking lighting arrangements."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Tips_Tricks_&_FAQs\\FAQs\\HDI-Presentation\\Put_Lights_Inside_a_Cabinet.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

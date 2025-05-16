@@ -1,0 +1,21 @@
+{
+    "id": "4e3fd2b6-b82d-401c-bcab-2b9c2d5b14ff",
+    "title": "SCMI_Sigma_65",
+    "content": [
+        {
+            "type": "text",
+            "data": "SCMI Sigma 65"
+        },
+        {
+            "type": "text",
+            "data": "This is a  Panel Saw  Link."
+        },
+        {
+            "type": "text",
+            "data": "SCMI Sigma 65 for the Master S124 Controller"
+        }
+    ],
+    "source_file": "NCEnglish_Optimizer\\Ribbonbar\\Main_Tab\\Machine\\NC_Links\\Saw_Links\\SCMI_Sigma_65.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

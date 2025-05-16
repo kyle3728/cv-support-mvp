@@ -1,0 +1,1592 @@
+{
+    "id": "fa988f54-7863-4352-b1a7-3aaf7bca6e58",
+    "title": "RLCAD_CAD_Automatic_Text",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top \n > \n \n \n Room Level \n > \n \n Sidebar \n > \n \n CAD \n > \n \n Ribbonbar \n > \n \n Main Tab \n > \n \n CAD Automatic Text"
+        },
+        {
+            "type": "text",
+            "data": "Top \n >"
+        },
+        {
+            "type": "text",
+            "data": "Room Level \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Room Level",
+                "uuid": "9eaa492c-0405-4da7-8e0f-a6ff4e047890",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Sidebar \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Sidebar",
+                "uuid": "f07520a2-0645-4a40-b8d9-a72c15b5c147",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "CAD \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "CAD",
+                "uuid": "c364cda2-94c1-45c4-950a-125c6e19bd95",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Ribbonbar \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Ribbonbar",
+                "uuid": "b2e0e61a-3db8-4e05-86e8-8de0e1729d3d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Main Tab \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Main Tab",
+                "uuid": "b2e0e61a-3db8-4e05-86e8-8de0e1729d3d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "CAD Automatic Text"
+        },
+        {
+            "type": "text",
+            "data": "CAD Automatic Text"
+        },
+        {
+            "type": "text",
+            "data": "Automatic Text"
+        },
+        {
+            "type": "text",
+            "data": "Whenever you add text through CAD to any area of Solid, you not only have the ability to type your desired Text but also have the ability of selecting from Text Variables of information already within your Job. The auto text appears inside the brackets { \u00a0} and is sometimes accompanied by additional static text. \u00a0The text outside of the brackets may be deleted leaving only that which is inside the brackets to be automatically filled in. \u00a0Automatic text is not limited to but is especially useful in Title Blocks."
+        },
+        {
+            "type": "text",
+            "data": "Clicking the ellipsis   button will bring up the list of available Text Variables. The list of Text Variables will be different depending on whether you are on the Paper or within a Scene."
+        },
+        {
+            "type": "image",
+            "data": "image859.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image858.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Below is a list of the Text Variables and where the values in the variables are being pulled from."
+        },
+        {
+            "type": "text",
+            "data": "The list below represents the text variables listed in the menu system. This list does not include \"ALL\" that are available. In addition to the text variables in the list you can also call out any Parameter in Solid whether it is a System Parameter or a User Parameter by following the format below and replacing the variable name with the Parameter you want to call."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Examples"
+        },
+        {
+            "type": "text",
+            "data": "To call out the AX Rotation of a Cabinet you would simply type {cab.ax}."
+        },
+        {
+            "type": "text",
+            "data": "Text Format Options"
+        },
+        {
+            "type": "text",
+            "data": "There are three formatting options available specifically to Automatic Text:"
+        },
+        {
+            "type": "text",
+            "data": "u : -  Sets first character to upper case."
+        },
+        {
+            "type": "text",
+            "data": "l: -  Sets first character to lower case."
+        },
+        {
+            "type": "text",
+            "data": "n: -  Displays negative numbers within parentheses"
+        },
+        {
+            "type": "text",
+            "data": "Example"
+        },
+        {
+            "type": "text",
+            "data": "{u:cab.cabnote1}"
+        },
+        {
+            "type": "text",
+            "data": "Text Variables - Paper"
+        },
+        {
+            "type": "text",
+            "data": "{ draw.name} - Displays the Drawing Sheet Name."
+        },
+        {
+            "type": "text",
+            "data": "{draw.scale} - Displays the Scale for the Drawing Page."
+        },
+        {
+            "type": "text",
+            "data": "{draw.no} - Displays the page number of the current Drawing page."
+        },
+        {
+            "type": "text",
+            "data": "{draw.total} - Displays the total quantity of Drawing pages."
+        },
+        {
+            "type": "text",
+            "data": "Job"
+        },
+        {
+            "type": "text",
+            "data": "{job.name} - Not Currently Used."
+        },
+        {
+            "type": "text",
+            "data": "{job.descrip} - This information is the Description line in the  Job Information  Tab in Job Properties."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Job Information",
+                "uuid": "d5f88ec0-9e69-49f4-a75a-16eae2e2707d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "{job.comment} - The Comment for the Job."
+        },
+        {
+            "type": "text",
+            "data": "{job.qty} - Not Currently Used."
+        },
+        {
+            "type": "text",
+            "data": "{job.no} - This information is the Job Number line in the  Job Information  Tab in Job Properties."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Job Information",
+                "uuid": "d5f88ec0-9e69-49f4-a75a-16eae2e2707d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "{job.ponumber} - This information is the PO # \u00a0line in the  Job Information  Tab in Job Properties."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Job Information",
+                "uuid": "d5f88ec0-9e69-49f4-a75a-16eae2e2707d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Properties"
+        },
+        {
+            "type": "text",
+            "data": "Finish"
+        },
+        {
+            "type": "text",
+            "data": "{job.extfin} - The Exterior Finish of the current Job."
+        },
+        {
+            "type": "text",
+            "data": "{job.intfin} - The Interior Finish of the current Job."
+        },
+        {
+            "type": "text",
+            "data": "Assembly"
+        },
+        {
+            "type": "text",
+            "data": "{job.asmconst} - The Cabinet Construction Method for the current job."
+        },
+        {
+            "type": "text",
+            "data": "{job.dboxconst} - The Cabinet Drawer Box Construction for the current job."
+        },
+        {
+            "type": "text",
+            "data": "{job.roconst} - The Cabinet Roll Out Construction \u00a0for the current job."
+        },
+        {
+            "type": "text",
+            "data": "{job.basmsched} - The Cabinet Base Standard Material Schedule for the current job."
+        },
+        {
+            "type": "text",
+            "data": "{job.basemxsched} - The Cabinet Base Exposed Interior Material Schedule for the  current job."
+        },
+        {
+            "type": "text",
+            "data": "{job.uasmsched} - The Cabinet Upper Standard Material Schedule for the current job."
+        },
+        {
+            "type": "text",
+            "data": "{job.uasmxsched} - The Cabinet Upper Exposed Interior Material Schedule for the  current job."
+        },
+        {
+            "type": "text",
+            "data": "{job.dboxsched} - The Cabinet Drawer Box Material Schedule for the current job."
+        },
+        {
+            "type": "text",
+            "data": "{job.rosched} - The Cabinet Roll Out Material Schedule for the current job."
+        },
+        {
+            "type": "text",
+            "data": "{job.pullsched} - The Cabinet Pull Material Schedule for the current job."
+        },
+        {
+            "type": "text",
+            "data": "{job.guidesched} - The Cabinet Drawer Guide Material Schedule for the current job."
+        },
+        {
+            "type": "text",
+            "data": "{job.hingesched} - The Cabinet Hinge Material Schedule for the current job."
+        },
+        {
+            "type": "text",
+            "data": "{job.udoorstyle} - The Cabinet Upper Door Style for the current job."
+        },
+        {
+            "type": "text",
+            "data": "{job.udoormat} - The Cabinet Upper Door Material Schedule for the current job."
+        },
+        {
+            "type": "text",
+            "data": "{job.dwrfrstyle} - The Cabinet Drawer Front Style for the current job."
+        },
+        {
+            "type": "text",
+            "data": "{job.dwrfrmat} - The Cabinet Drawer Front Material Schedule for the current job."
+        },
+        {
+            "type": "text",
+            "data": "{job.bdoorstyle} - The Cabinet Base Door Style for the current job."
+        },
+        {
+            "type": "text",
+            "data": "{job.bdoormat} - The Cabinet Base Door Material Schedule for the current job."
+        },
+        {
+            "type": "text",
+            "data": "{job.uendpanstyle} - The Cabinet Upper End Panel Style for the current job."
+        },
+        {
+            "type": "text",
+            "data": "{job.uendpanmat} - The Cabinet Upper End Panel Material Schedule for the current  job."
+        },
+        {
+            "type": "text",
+            "data": "{job.bendpanstyle} - The Cabinet Base End Panel Style for the current job."
+        },
+        {
+            "type": "text",
+            "data": "{job.bendpanmat} - The Cabinet Base End Panel Material Schedule for the current  job."
+        },
+        {
+            "type": "text",
+            "data": "{job.tendpanstyle} - The Cabinet Tall End Panel Style for the current job."
+        },
+        {
+            "type": "text",
+            "data": "{job.tendpanmat} - The Cabinet Tall End Panel Material Schedule for the current  job."
+        },
+        {
+            "type": "text",
+            "data": "Counter Top"
+        },
+        {
+            "type": "text",
+            "data": "{job.topsched} - The Counter Top Material Schedule for the current job."
+        },
+        {
+            "type": "text",
+            "data": "{job.topprof} - The Counter Top Profile for the current job."
+        },
+        {
+            "type": "text",
+            "data": "{job.topprofmat} - The Counter Top Profile Material for the current job."
+        },
+        {
+            "type": "text",
+            "data": "Molding"
+        },
+        {
+            "type": "text",
+            "data": "{job.crownprof} - The Crown Profile for the current job."
+        },
+        {
+            "type": "text",
+            "data": "{job.crownprofmat} - The Crown Profile Material for the current job."
+        },
+        {
+            "type": "text",
+            "data": "{job.lghtrprof} - The Light Rail Profile for the current job."
+        },
+        {
+            "type": "text",
+            "data": "{job.lghtrprofmat} - The Light Rail Profile Material for the current job."
+        },
+        {
+            "type": "text",
+            "data": "{job.scrprof} - The Scribe Profile for the current job."
+        },
+        {
+            "type": "text",
+            "data": "{job.scrprofmat} - The Scribe Profile Material for the current job."
+        },
+        {
+            "type": "text",
+            "data": "{job.bbprof} - The Base Board Profile for the current job."
+        },
+        {
+            "type": "text",
+            "data": "{job.bbprofmat} - The Base Board Profile Material for the current job."
+        },
+        {
+            "type": "text",
+            "data": "{job.crprof} - The Chair Rail Profile for the current job."
+        },
+        {
+            "type": "text",
+            "data": "{job.crprofmat} - The Chair Rail Profile Material for the current job."
+        },
+        {
+            "type": "text",
+            "data": "{job.ceilprof} - The Ceiling Profile for the current job."
+        },
+        {
+            "type": "text",
+            "data": "{job.ceilprofmat} - The Ceiling Profile Material for the current job."
+        },
+        {
+            "type": "text",
+            "data": "Schedule"
+        },
+        {
+            "type": "text",
+            "data": "{job.measure} - The Measure Date specified on the  Schedule Tab  in Job Properties. The date format for this filed is controlled in the  Preferences Format Tab ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Schedule Tab",
+                "uuid": "4ff5899c-6dea-43d8-a99c-cd65a9c8a82b",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Preferences Format Tab",
+                "uuid": "a6c6d306-c8da-4df8-8440-33f2f24a9c1d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "{job.detail} - The Detail Date specified on the  Schedule Tab  in Job Properties. The date format for this filed is controlled in the  Preferences Format Tab ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Schedule Tab",
+                "uuid": "4ff5899c-6dea-43d8-a99c-cd65a9c8a82b",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Preferences Format Tab",
+                "uuid": "a6c6d306-c8da-4df8-8440-33f2f24a9c1d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "{job.production} - The Production Date specified on the  Schedule Tab  in Job Properties. The date format for this filed is controlled in the  Preferences Format Tab ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Schedule Tab",
+                "uuid": "4ff5899c-6dea-43d8-a99c-cd65a9c8a82b",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Preferences Format Tab",
+                "uuid": "a6c6d306-c8da-4df8-8440-33f2f24a9c1d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "{job.delivery} - The Delivery Date specified on the  Schedule Tab  in Job Properties. The date format for this filed is controlled in the  Preferences Format Tab ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Schedule Tab",
+                "uuid": "4ff5899c-6dea-43d8-a99c-cd65a9c8a82b",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Preferences Format Tab",
+                "uuid": "a6c6d306-c8da-4df8-8440-33f2f24a9c1d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "{job.deposit} - The Deposit Date specified on the  Schedule Tab  in Job Properties. The date format for this filed is controlled in the  Preferences Format Tab ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Schedule Tab",
+                "uuid": "4ff5899c-6dea-43d8-a99c-cd65a9c8a82b",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Preferences Format Tab",
+                "uuid": "a6c6d306-c8da-4df8-8440-33f2f24a9c1d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "{job.install} - The Install Date specified on the  Schedule Tab  in Job Properties. The date format for this filed is controlled in the  Preferences Format Tab ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Schedule Tab",
+                "uuid": "4ff5899c-6dea-43d8-a99c-cd65a9c8a82b",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Preferences Format Tab",
+                "uuid": "a6c6d306-c8da-4df8-8440-33f2f24a9c1d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "{job.payment} - The Final Payment Date specified on the  Schedule Tab  in Job Properties. The date format for this filed is controlled in the  Preferences Format Tab ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Schedule Tab",
+                "uuid": "4ff5899c-6dea-43d8-a99c-cd65a9c8a82b",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Preferences Format Tab",
+                "uuid": "a6c6d306-c8da-4df8-8440-33f2f24a9c1d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Customer"
+        },
+        {
+            "type": "text",
+            "data": "{cust.name} - This comes from the Name line under the  Information  Customer tab at Job Properties."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Information",
+                "uuid": "d5f88ec0-9e69-49f4-a75a-16eae2e2707d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "{cust.addr1} - This comes from the first Address line under the  Information  Customer tab at Job Properties."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Information",
+                "uuid": "d5f88ec0-9e69-49f4-a75a-16eae2e2707d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "{cust.addr2} - This comes from the second Address line under the  Information  Customer tab at Job Properties."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Information",
+                "uuid": "d5f88ec0-9e69-49f4-a75a-16eae2e2707d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "{cust.city} - This comes from the City line under the  Information  Customer tab at Job Properties."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Information",
+                "uuid": "d5f88ec0-9e69-49f4-a75a-16eae2e2707d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "{cust.state} - This comes from the State line under the  Information  Customer tab at Job Properties."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Information",
+                "uuid": "d5f88ec0-9e69-49f4-a75a-16eae2e2707d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "{cust.zip} - This comes from the ZIP line under the  Information  Customer tab at Job Properties."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Information",
+                "uuid": "d5f88ec0-9e69-49f4-a75a-16eae2e2707d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "{cust.contact} - This comes from the Contact line under the  Information  Customer tab at Job Properties."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Information",
+                "uuid": "d5f88ec0-9e69-49f4-a75a-16eae2e2707d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "{cust.phone} - This comes from the Phone line under the  Information  Customer tab at Job Properties."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Information",
+                "uuid": "d5f88ec0-9e69-49f4-a75a-16eae2e2707d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "{cust.mobile} - This comes from the Mobile line under the  Information  Customer tab at Job Properties."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Information",
+                "uuid": "d5f88ec0-9e69-49f4-a75a-16eae2e2707d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "{cust.fax} - This comes from the FAX line under the  Information  Customer tab at Job Properties."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Information",
+                "uuid": "d5f88ec0-9e69-49f4-a75a-16eae2e2707d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "{cust.email} - This comes from the Email line under the  Information  Customer tab at Job Properties."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Information",
+                "uuid": "d5f88ec0-9e69-49f4-a75a-16eae2e2707d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "{cust.comment} - This comes from the Customer Comments area under the  Information  Customer tab at Job Properties."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Information",
+                "uuid": "d5f88ec0-9e69-49f4-a75a-16eae2e2707d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Ship To"
+        },
+        {
+            "type": "text",
+            "data": "{ship.name} - This comes from the Name line under the  Information  Ship To tab at Job Properties."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Information",
+                "uuid": "d5f88ec0-9e69-49f4-a75a-16eae2e2707d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "{ship.addr1} - This comes from the first Address line under the  Information  Ship To tab at Job Properties."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Information",
+                "uuid": "d5f88ec0-9e69-49f4-a75a-16eae2e2707d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "{ship.addr2} - This comes from the second Address line under the  Information  Ship To tab at Job Properties."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Information",
+                "uuid": "d5f88ec0-9e69-49f4-a75a-16eae2e2707d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "{ship.city} - This comes from the City line under the  Information  Ship To tab at Job Properties."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Information",
+                "uuid": "d5f88ec0-9e69-49f4-a75a-16eae2e2707d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "{ship.state} - This comes from the State line under the  Information  Ship To tab at Job Properties."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Information",
+                "uuid": "d5f88ec0-9e69-49f4-a75a-16eae2e2707d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "{ship.zip} - This comes from the ZIP line under the  Information  Ship To tab at Job Properties."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Information",
+                "uuid": "d5f88ec0-9e69-49f4-a75a-16eae2e2707d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "{ship.contact} - This comes from the Contact line under the  Information  Ship To tab at Job Properties."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Information",
+                "uuid": "d5f88ec0-9e69-49f4-a75a-16eae2e2707d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "{ship.phone} - This comes from the Phone line under the  Information  Ship To tab at Job Properties."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Information",
+                "uuid": "d5f88ec0-9e69-49f4-a75a-16eae2e2707d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "{ship.mobile} - This comes from the Mobile line under the  Information  Ship To tab at Job Properties."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Information",
+                "uuid": "d5f88ec0-9e69-49f4-a75a-16eae2e2707d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "{ship.fax} - This comes from the FAX line under the  Information  Ship To tab at Job Properties."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Information",
+                "uuid": "d5f88ec0-9e69-49f4-a75a-16eae2e2707d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "{ship.email} - This comes from the Email line under the  Information  Ship To tab at Job Properties."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Information",
+                "uuid": "d5f88ec0-9e69-49f4-a75a-16eae2e2707d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "{ship.comment} - This comes from the Ship To Comments area under the  Information  Ship To tab at Job Properties."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Information",
+                "uuid": "d5f88ec0-9e69-49f4-a75a-16eae2e2707d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "User"
+        },
+        {
+            "type": "text",
+            "data": "{user.name} - This comes from the  System User  Company Name line."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "System User",
+                "uuid": "a6c6d306-c8da-4df8-8440-33f2f24a9c1d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "{user.addr1} - This comes from the  System User  Address 1 line."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "System User",
+                "uuid": "a6c6d306-c8da-4df8-8440-33f2f24a9c1d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "{user.addr2} - This comes from the  System User  Address 2 line."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "System User",
+                "uuid": "a6c6d306-c8da-4df8-8440-33f2f24a9c1d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "{user.city} - This comes from the  System User  City line."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "System User",
+                "uuid": "a6c6d306-c8da-4df8-8440-33f2f24a9c1d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "{user.state} - This comes from the  System User  State line."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "System User",
+                "uuid": "a6c6d306-c8da-4df8-8440-33f2f24a9c1d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "{user.zip} - This comes from the  System User  Zip line."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "System User",
+                "uuid": "a6c6d306-c8da-4df8-8440-33f2f24a9c1d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "{user.contact} - This comes from the  System User  Contact line."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "System User",
+                "uuid": "a6c6d306-c8da-4df8-8440-33f2f24a9c1d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "{user.phone} - This comes from the  System User  Company Phone line."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "System User",
+                "uuid": "a6c6d306-c8da-4df8-8440-33f2f24a9c1d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "{user.mobile} - This comes from the  System User  Company Mobile line."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "System User",
+                "uuid": "a6c6d306-c8da-4df8-8440-33f2f24a9c1d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "{user.fax} - This comes from the  System User  Company FAX line."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "System User",
+                "uuid": "a6c6d306-c8da-4df8-8440-33f2f24a9c1d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "{user.email} - This comes from the  System User  Company E-mail line."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "System User",
+                "uuid": "a6c6d306-c8da-4df8-8440-33f2f24a9c1d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "{user.comment} - This comes from the  System User  Company Comment line."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "System User",
+                "uuid": "a6c6d306-c8da-4df8-8440-33f2f24a9c1d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "File"
+        },
+        {
+            "type": "text",
+            "data": "{file.name} - Displays the file name for the current Job."
+        },
+        {
+            "type": "text",
+            "data": "{file.path} - Displays the file path to the current Job."
+        },
+        {
+            "type": "text",
+            "data": "System"
+        },
+        {
+            "type": "text",
+            "data": "{system.license} - Displays the name burned on your Planit Key."
+        },
+        {
+            "type": "text",
+            "data": "{system.date} - This is the System Date kept by the computer. The date format for this filed is controlled in the  Preferences Format Tab ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Preferences Format Tab",
+                "uuid": "a6c6d306-c8da-4df8-8440-33f2f24a9c1d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "{system.time} - This is the System Date kept by the computer. The date format for this filed is controlled in the  Preferences Format Tab ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Preferences Format Tab",
+                "uuid": "a6c6d306-c8da-4df8-8440-33f2f24a9c1d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Text Variables - Room Level Scene"
+        },
+        {
+            "type": "text",
+            "data": "{scene.name} - Displays the Scene Name."
+        },
+        {
+            "type": "text",
+            "data": "{scene.scale} - Displays the Scale for the Scene."
+        },
+        {
+            "type": "text",
+            "data": "Room"
+        },
+        {
+            "type": "text",
+            "data": "{room.name} - Displays the Room Name for the Room."
+        },
+        {
+            "type": "text",
+            "data": "{room.descrip} - Description of the current Room."
+        },
+        {
+            "type": "text",
+            "data": "{room.comment} - Comment for the current Room."
+        },
+        {
+            "type": "text",
+            "data": "{room.qty} - Quantity of the current Room."
+        },
+        {
+            "type": "text",
+            "data": "{room.no} - Displays the Room Number for the Room."
+        },
+        {
+            "type": "text",
+            "data": "{room.wallcount} - The number of Walls in the current Room"
+        },
+        {
+            "type": "text",
+            "data": "Properties"
+        },
+        {
+            "type": "text",
+            "data": "Finish"
+        },
+        {
+            "type": "text",
+            "data": "{room.extfin} - The Exterior Finish of the current Room."
+        },
+        {
+            "type": "text",
+            "data": "{room.intfin} - The Interior Finish of the current Room."
+        },
+        {
+            "type": "text",
+            "data": "Assembly"
+        },
+        {
+            "type": "text",
+            "data": "{room.asmconst} - The Cabinet Construction Method for the current Room."
+        },
+        {
+            "type": "text",
+            "data": "{room.dboxconst} - The Cabinet Drawer Box Construction for the current Room."
+        },
+        {
+            "type": "text",
+            "data": "{room.roconst} - The Cabinet Roll Out Construction \u00a0for the current Room."
+        },
+        {
+            "type": "text",
+            "data": "{room.basmsched} - The Cabinet Base Standard Material Schedule for the current Room."
+        },
+        {
+            "type": "text",
+            "data": "{room.basemxsched} - The Cabinet Base Exposed Interior Material Schedule for the current Room."
+        },
+        {
+            "type": "text",
+            "data": "{room.uasmsched} - The Cabinet Upper Standard Material Schedule for the current Room."
+        },
+        {
+            "type": "text",
+            "data": "{room.uasmxsched} - The Cabinet Upper Exposed Interior Material Schedule for the current Room."
+        },
+        {
+            "type": "text",
+            "data": "{room.dboxsched} - The Cabinet Drawer Box Material Schedule for the current Room."
+        },
+        {
+            "type": "text",
+            "data": "{room.rosched} - The Cabinet Roll Out Material Schedule for the current Room."
+        },
+        {
+            "type": "text",
+            "data": "{room.pullsched} - The Cabinet Pull Material Schedule for the current Room."
+        },
+        {
+            "type": "text",
+            "data": "{room.guidesched} - The Cabinet Drawer Guide Material Schedule for the current Room."
+        },
+        {
+            "type": "text",
+            "data": "{room.hingesched} - The Cabinet Hinge Material Schedule for the current Room."
+        },
+        {
+            "type": "text",
+            "data": "{room.udoorstyle} - The Cabinet Upper Door Style for the current Room."
+        },
+        {
+            "type": "text",
+            "data": "{room.udoormat} - The Cabinet Upper Door Material Schedule for the current Room."
+        },
+        {
+            "type": "text",
+            "data": "{room.dwrfrstyle} - The Cabinet Drawer Front Style for the current Room."
+        },
+        {
+            "type": "text",
+            "data": "{room.dwrfrmat} - The Cabinet Drawer Front Material Schedule for the current Room."
+        },
+        {
+            "type": "text",
+            "data": "{room.bdoorstyle} - The Cabinet Base Door Style for the current Room."
+        },
+        {
+            "type": "text",
+            "data": "{room.bdoormat} - The Cabinet Base Door Material Schedule for the current Room."
+        },
+        {
+            "type": "text",
+            "data": "{room.uendpanstyle} - The Cabinet Upper End Panel Style for the current Room."
+        },
+        {
+            "type": "text",
+            "data": "{room.uendpanmat} - The Cabinet Upper End Panel Material Schedule for the current Room."
+        },
+        {
+            "type": "text",
+            "data": "{room.bendpanstyle} - The Cabinet Base End Panel Style for the current Room."
+        },
+        {
+            "type": "text",
+            "data": "{room.bendpanmat} - The Cabinet Base End Panel Material Schedule for the current Room."
+        },
+        {
+            "type": "text",
+            "data": "{room.tendpanstyle} - The Cabinet Tall End Panel Style for the current Room."
+        },
+        {
+            "type": "text",
+            "data": "{room.tendpanmat} - The Cabinet Tall End Panel Material Schedule for the current Room."
+        },
+        {
+            "type": "text",
+            "data": "Molding"
+        },
+        {
+            "type": "text",
+            "data": "{room.crownprof} - The Crown Profile for the current Room."
+        },
+        {
+            "type": "text",
+            "data": "{room.crownprofmat} - The Crown Profile Material for the current Room."
+        },
+        {
+            "type": "text",
+            "data": "{room.lghtrprof} - The Light Rail Profile for the current Room."
+        },
+        {
+            "type": "text",
+            "data": "{room.lghtrprofmat} - The Light Rail Profile Material for the current Room."
+        },
+        {
+            "type": "text",
+            "data": "{room.scrprof} - The Scribe Profile for the current Room."
+        },
+        {
+            "type": "text",
+            "data": "{room.scrprofmat} - The Scribe Profile Material for the current Room."
+        },
+        {
+            "type": "text",
+            "data": "{room.bbprof} - The Base Board Profile for the current Room."
+        },
+        {
+            "type": "text",
+            "data": "{room.bbprofmat} - The Base Board Profile Material for the current Room."
+        },
+        {
+            "type": "text",
+            "data": "{room.crprof} - The Chair Rail Profile for the current Room."
+        },
+        {
+            "type": "text",
+            "data": "{room.crprofmat} - The Chair Rail Profile Material for the current Room."
+        },
+        {
+            "type": "text",
+            "data": "{room.caprof} - The Casing Profile for the current Room."
+        },
+        {
+            "type": "text",
+            "data": "{room.caprofmat} - The Casing Profile Material for the current Room."
+        },
+        {
+            "type": "text",
+            "data": "{room.aplprof} - The Applied Profile for the current Room."
+        },
+        {
+            "type": "text",
+            "data": "{room.aplprofmat} - The Applied Profile Material for the current Room."
+        },
+        {
+            "type": "text",
+            "data": "{room.ceilprof} - The Ceiling Profile for the current Room."
+        },
+        {
+            "type": "text",
+            "data": "{room.ceilprofmat} - The Ceiling Profile Material for the current Room."
+        },
+        {
+            "type": "text",
+            "data": "Job"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Job",
+                "uuid": "fa988f54-7863-4352-b1a7-3aaf7bca6e58",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Text Variables - Assembly Level Scene"
+        },
+        {
+            "type": "text",
+            "data": "{scene.name} - Displays the Scene Name."
+        },
+        {
+            "type": "text",
+            "data": "{scene.scale} - Displays the Scale for the Scene."
+        },
+        {
+            "type": "text",
+            "data": "Cabinet"
+        },
+        {
+            "type": "text",
+            "data": "{cab.name} - Displays the Name of the Assembly."
+        },
+        {
+            "type": "text",
+            "data": "{cab.descrip} - Displays the Description of the Assembly."
+        },
+        {
+            "type": "text",
+            "data": "{cab.comment} - Displays the Comment of the Assembly."
+        },
+        {
+            "type": "text",
+            "data": "{cab.qty} - Displays the Quantity of the Assembly."
+        },
+        {
+            "type": "text",
+            "data": "{cab.no} - Displays the Object Number for the Assembly."
+        },
+        {
+            "type": "text",
+            "data": "{cab.dx} - Displays the Cabinet Width."
+        },
+        {
+            "type": "text",
+            "data": "{cab.dy} - Displays the Cabinet Height."
+        },
+        {
+            "type": "text",
+            "data": "{cab.dz} - Displays the Cabinet Depth."
+        },
+        {
+            "type": "text",
+            "data": "Construction"
+        },
+        {
+            "type": "text",
+            "data": "{cab.lend} - Displays the condition of the Left End (Finished, Unfinished, etc...) on the Assembly."
+        },
+        {
+            "type": "text",
+            "data": "{cab.rend} - Displays the condition of the Right End (Finished, Unfinished, etc...) on the Assembly."
+        },
+        {
+            "type": "text",
+            "data": "{cab.back} - Displays the condition of the Back (Finished, Unfinished, etc...) on the Assembly."
+        },
+        {
+            "type": "text",
+            "data": "{cab.revl} - Displays the Left Door Reveal value for the Assembly."
+        },
+        {
+            "type": "text",
+            "data": "{cab.revr} - Displays the Right Door Reveal value for the Assembly."
+        },
+        {
+            "type": "text",
+            "data": "{cab.revt} - Displays the Top Door Reveal value for the Assembly."
+        },
+        {
+            "type": "text",
+            "data": "{cab.revb} - Displays the Bottom Door Reveal value for the Assembly."
+        },
+        {
+            "type": "text",
+            "data": "{cab.revh} - Displays the Horizontal Door Reveal value for the Assembly."
+        },
+        {
+            "type": "text",
+            "data": "{cab.revv} - Displays the Vertical Door Reveal value for the Assembly."
+        },
+        {
+            "type": "text",
+            "data": "{cab.ls} - Displays the Left Stile Width for the Assembly."
+        },
+        {
+            "type": "text",
+            "data": "{cab.rs} - Displays the Right Stile Width for the Assembly."
+        },
+        {
+            "type": "text",
+            "data": "{cab.scl} - Displays the Left Scribe dimension for the Assembly."
+        },
+        {
+            "type": "text",
+            "data": "{cab.scr} - Displays the Right Scribe dimension for the Assembly."
+        },
+        {
+            "type": "text",
+            "data": "{cab.sct} - Displays the Top Scribe dimension for the Assembly."
+        },
+        {
+            "type": "text",
+            "data": "{cab.scb} - Displays the Bottom Scribe dimension for the Assembly."
+        },
+        {
+            "type": "text",
+            "data": "{cab.toeh} - Displays the Toe Height dimension for the Assembly."
+        },
+        {
+            "type": "text",
+            "data": "{cab.toer} - Displays the Toe Recess dimension for the Assembly."
+        },
+        {
+            "type": "text",
+            "data": "Properties"
+        },
+        {
+            "type": "text",
+            "data": "Finish"
+        },
+        {
+            "type": "text",
+            "data": "{cab.extfin} - The Exterior Finish for the Assembly."
+        },
+        {
+            "type": "text",
+            "data": "{cab.intfin} - The Interior Finish for the Assembly."
+        },
+        {
+            "type": "text",
+            "data": "Assembly"
+        },
+        {
+            "type": "text",
+            "data": "{cab.asmconst} - The Cabinet Construction Method for the Assembly."
+        },
+        {
+            "type": "text",
+            "data": "{cab.dboxconst} - The Cabinet Drawer Box Construction for the Assembly."
+        },
+        {
+            "type": "text",
+            "data": "{cab.roconst} - The Cabinet Roll Out Construction \u00a0for the Assembly."
+        },
+        {
+            "type": "text",
+            "data": "{cab.basmsched} - The Cabinet Base Standard Material Schedule for the Assembly."
+        },
+        {
+            "type": "text",
+            "data": "{cab.basemxsched} - The Cabinet Base Exposed Interior Material Schedule for the Assembly."
+        },
+        {
+            "type": "text",
+            "data": "{cab.uasmsched} - The Cabinet Upper Standard Material Schedule for the Assembly."
+        },
+        {
+            "type": "text",
+            "data": "{cab.uasmxsched} - The Cabinet Upper Exposed Interior Material Schedule for the Assembly."
+        },
+        {
+            "type": "text",
+            "data": "{cab.dboxsched} - The Cabinet Drawer Box Material Schedule for the Assembly."
+        },
+        {
+            "type": "text",
+            "data": "{cab.rosched} - The Cabinet Roll Out Material Schedule for the Assembly."
+        },
+        {
+            "type": "text",
+            "data": "{cab.pullsched} - The Cabinet Pull Material Schedule for the Assembly."
+        },
+        {
+            "type": "text",
+            "data": "{cab.guidesched} - The Cabinet Drawer Guide Material Schedule for the Assembly."
+        },
+        {
+            "type": "text",
+            "data": "{cab.hingesched} - The Cabinet Hinge Material Schedule for the Assembly."
+        },
+        {
+            "type": "text",
+            "data": "{cab.udoorstyle} - The Cabinet Upper Door Style for the Assembly."
+        },
+        {
+            "type": "text",
+            "data": "{cab.udoormat} - The Cabinet Upper Door Material Schedule for the Assembly."
+        },
+        {
+            "type": "text",
+            "data": "{cab.dwrfrstyle} - The Cabinet Drawer Front Style for the Assembly."
+        },
+        {
+            "type": "text",
+            "data": "{cab.dwrfrmat} - The Cabinet Drawer Front Material Schedule for the Assembly."
+        },
+        {
+            "type": "text",
+            "data": "{cab.bdoorstyle} - The Cabinet Base Door Style for the Assembly."
+        },
+        {
+            "type": "text",
+            "data": "{cab.bdoormat} - The Cabinet Base Door Material Schedule for the Assembly."
+        },
+        {
+            "type": "text",
+            "data": "{cab.uendpanstyle} - The Cabinet Upper End Panel Style for the Assembly."
+        },
+        {
+            "type": "text",
+            "data": "{cab.uendpanmat} - The Cabinet Upper End Panel Material Schedule for the Assembly."
+        },
+        {
+            "type": "text",
+            "data": "{cab.bendpanstyle} - The Cabinet Base End Panel Style for the Assembly."
+        },
+        {
+            "type": "text",
+            "data": "{cab.bendpanmat} - The Cabinet Base End Panel Material Schedule for the Assembly."
+        },
+        {
+            "type": "text",
+            "data": "{cab.tendpanstyle} - The Cabinet Tall End Panel Style for the Assembly."
+        },
+        {
+            "type": "text",
+            "data": "{cab.tendpanmat} - The Cabinet Tall End Panel Material Schedule for the Assembly."
+        },
+        {
+            "type": "text",
+            "data": "Wall Face"
+        },
+        {
+            "type": "text",
+            "data": "{face.name} - Displays the Wall Face Name for the Wall."
+        },
+        {
+            "type": "text",
+            "data": "{face.descrip} - Displays the Wall Face Description for the Wall."
+        },
+        {
+            "type": "text",
+            "data": "{face.comment} - Displays the Wall Face Comment for the Wall."
+        },
+        {
+            "type": "text",
+            "data": "{face.qty} - Displays the Wall Face Quantity for the Wall."
+        },
+        {
+            "type": "text",
+            "data": "{face.face} - Displays the Wall Face for the Wall."
+        },
+        {
+            "type": "text",
+            "data": "Wall"
+        },
+        {
+            "type": "text",
+            "data": "{wall.name} - Displays the Wall Name for the Wall."
+        },
+        {
+            "type": "text",
+            "data": "{wall.descrip} - Displays the Wall Description for the Wall."
+        },
+        {
+            "type": "text",
+            "data": "{wall.comment} - Displays the Wall Comment for the Wall."
+        },
+        {
+            "type": "text",
+            "data": "{wall.qty} - Displays the Wall Quantity for the Wall."
+        },
+        {
+            "type": "text",
+            "data": "{wall.no} - Displays the Wall Number for the Wall."
+        },
+        {
+            "type": "text",
+            "data": "{wall.angle} - Displays the Wall Angle for the Wall."
+        },
+        {
+            "type": "text",
+            "data": "Room"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Room",
+                "uuid": "fa988f54-7863-4352-b1a7-3aaf7bca6e58",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Job"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Job",
+                "uuid": "fa988f54-7863-4352-b1a7-3aaf7bca6e58",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Room_Level\\Side_Bar\\CAD\\Ribbonbar\\Main_Tab\\RLCAD_CAD_Automatic_Text.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

@@ -1,0 +1,286 @@
+{
+    "id": "190e20aa-379a-4917-a647-6ad47f825039",
+    "title": "Connection",
+    "content": [
+        {
+            "type": "text",
+            "data": "Connection"
+        },
+        {
+            "type": "text",
+            "data": "The Connection Branch is where you define how Parts Connect together."
+        },
+        {
+            "type": "image",
+            "data": "image1352.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Depending on the  Construction Style  selected the following\u00a0Branches\u00a0can be in the Connection Section."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Construction Style",
+                "uuid": "8b8eb538-238e-4e6c-a59e-e983c45e0d0f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Adjustable Shelf"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Adjustable Shelf",
+                "uuid": "305a650d-2ebc-43c1-a1dd-84192366b9c5",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Bottom Rail"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Bottom Rail",
+                "uuid": "65084c98-f915-4b85-985e-8251cae6143c",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Deck"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Deck",
+                "uuid": "8ab6e9c6-178e-4155-91af-4e80d96a33b9",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Divider"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Divider",
+                "uuid": "e8921f4d-ccdd-4eae-902b-98e70e04cb0e",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Drawer Stretcher"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Drawer Stretcher",
+                "uuid": "93990690-3376-4578-af2f-ccd5799a0d6a",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "End Stile"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "End Stile",
+                "uuid": "a5374b90-e104-4b27-abe3-ff1a1471d3f9",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Finished Back"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Finished Back",
+                "uuid": "1f63c6c4-4e96-4f40-9215-55d1f79d53ae",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Finished End"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Finished End",
+                "uuid": "98334e77-be8b-4580-8e09-4ce04d95c2e5",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Fixed Shelf"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Fixed Shelf",
+                "uuid": "ec88ca59-4455-4790-9c89-8ddc5cd0c303",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Mid Rail"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Mid Rail",
+                "uuid": "dad4c70c-f0e2-4fcc-b4ab-79c899719130",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Mid Stile"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Mid Stile",
+                "uuid": "788bc5a3-1d47-4d3c-a6d8-55d5ab1d4ca8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Nailer"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Nailer",
+                "uuid": "4c0bd7ba-5baf-4a6a-b814-1c58fdb15ad2",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Partition"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Partition",
+                "uuid": "157ec898-6d25-4c82-95e6-7abd6da08528",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Shelf"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Shelf",
+                "uuid": "ec49f2da-e96e-49ff-b8ea-3bc73c414830",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Shelf Nailer"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Shelf Nailer",
+                "uuid": "c4698864-7a33-4dd1-81ec-9fdbdff15906",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Shoe Section"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Shoe Section",
+                "uuid": "70cf0f80-88a5-4aed-9e49-c83769d586eb",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Toe Kick"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Toe Kick",
+                "uuid": "75ee02c9-f7ab-4f23-b266-19c981fe6210",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Top"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Top",
+                "uuid": "c32f2aec-73f1-442c-aa0f-aaeae4f57ab5",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Top Rail"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Top Rail",
+                "uuid": "ddb6f46c-67b6-47bf-be93-abf8393aa520",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Unfinished Back"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Unfinished Back",
+                "uuid": "53b6e76f-f5d9-4b82-891e-70c58ff2cae0",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Unfinished End"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Unfinished End",
+                "uuid": "aecc183f-42d6-493b-9a22-81fc5df56c7d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\System_Level\\Ribbonbar\\Main_Tab\\Construction_Group\\Assembly_Manager\\Assembly\\Branches\\Connection\\Connection.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

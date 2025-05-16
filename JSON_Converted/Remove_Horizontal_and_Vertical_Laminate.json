@@ -1,0 +1,53 @@
+{
+    "id": "935d58b7-1f06-4910-b232-0481aae9bf30",
+    "title": "Remove_Horizontal_and_Vertical_Laminate",
+    "content": [
+        {
+            "type": "text",
+            "data": "Remove Horizontal and Vertical Laminate"
+        },
+        {
+            "type": "text",
+            "data": "How do I get rid of Horizontal and Vertical laminate on my Cabinets?"
+        },
+        {
+            "type": "text",
+            "data": "From the Solid Splash Screen go to the  Material Manager  and make sure your \"None\" Banding Material is exactly that - no thickness, no texture, and no color. Anything else in that Material should be unchecked too. \n \n \n Then go to your  Assembly Parts Material Schedule  and make sure that you have the \"None\" laminate selected for both Vertical and Horizontal Laminate."
+        },
+        {
+            "type": "text",
+            "data": "From the Solid Splash Screen go to the  Material Manager  and make sure your \"None\" Banding Material is exactly that - no thickness, no texture, and no color. Anything else in that Material should be unchecked too."
+        },
+        {
+            "type": "text",
+            "data": "From the Solid Splash Screen go to the  Material Manager  and make sure your \"None\" Banding Material is exactly that - no thickness, no texture, and no color. Anything else in that Material should be unchecked too."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Material Manager",
+                "uuid": "2fed939d-ba55-4f35-94da-993f0e1b392e",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Then go to your  Assembly Parts Material Schedule  and make sure that you have the \"None\" laminate selected for both Vertical and Horizontal Laminate."
+        },
+        {
+            "type": "text",
+            "data": "Then go to your  Assembly Parts Material Schedule  and make sure that you have the \"None\" laminate selected for both Vertical and Horizontal Laminate."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Assembly Parts Material Schedule",
+                "uuid": "d549fa6c-c6de-4ac1-9837-a3bb3e6af7a5",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Tips_Tricks_&_FAQs\\FAQs\\HDI-Advanced_Features\\Remove_Horizontal_and_Vertical_Laminate.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

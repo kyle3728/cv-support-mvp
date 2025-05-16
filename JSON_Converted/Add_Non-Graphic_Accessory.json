@@ -1,0 +1,90 @@
+{
+    "id": "aae2c06b-8b21-455a-9198-aa2115733fef",
+    "title": "Add_Non-Graphic_Accessory",
+    "content": [
+        {
+            "type": "text",
+            "data": "Add Non-Graphic Accessory"
+        },
+        {
+            "type": "text",
+            "data": "It is possible to add a non-graphic accessory through a UCS. Below is an example of such a UCS (in red type). Note that the parameters that are available for the non-graphic accessory are the same ones that may be added to a non-graphic accessory\n    that is saved into a catalog (see picture below)."
+        },
+        {
+            "type": "text",
+            "data": ";Adds a Non-Graphic Accessory to a Cabinet"
+        },
+        {
+            "type": "text",
+            "data": "For Each  CAB Assembly"
+        },
+        {
+            "type": "text",
+            "data": "Dim  Addon as New NGAcsry"
+        },
+        {
+            "type": "text",
+            "data": "Addon . Visible  =  False"
+        },
+        {
+            "type": "text",
+            "data": "Addon.Name = 'Non-graphic Accessory'"
+        },
+        {
+            "type": "text",
+            "data": "Addon . Name  =  Addon"
+        },
+        {
+            "type": "text",
+            "data": "Addon . PRICE  =  5"
+        },
+        {
+            "type": "text",
+            "data": "Addon . Weight  =  20"
+        },
+        {
+            "type": "text",
+            "data": "Addon . DX  =  10"
+        },
+        {
+            "type": "text",
+            "data": "Addon . DY  =  15"
+        },
+        {
+            "type": "text",
+            "data": "Addon . DZ  =  6"
+        },
+        {
+            "type": "text",
+            "data": "Addon . Upchg  =  5"
+        },
+        {
+            "type": "text",
+            "data": "Addon . Cubes  =  900"
+        },
+        {
+            "type": "text",
+            "data": "Addon . Labor  =  45"
+        },
+        {
+            "type": "image",
+            "data": "image1190.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Above is a picture of the parameters of an identical non-graphic accessory that was saved to an  Object Catalog ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Object Catalog",
+                "uuid": "0bd2a0d3-bb98-4ed4-a525-50de1e025937",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\UCS\\Samples\\Add_Non-Graphic_Accessory.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

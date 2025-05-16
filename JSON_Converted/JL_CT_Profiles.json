@@ -1,0 +1,90 @@
+{
+    "id": "16fac32c-7b67-4ba7-939e-67bd19d329ce",
+    "title": "JL_CT_Profiles",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top \n > \n \n \n Job Level \n > \n \n Job Properties \n > \n \n Counter Top \n > \n \n Profiles"
+        },
+        {
+            "type": "text",
+            "data": "Top \n >"
+        },
+        {
+            "type": "text",
+            "data": "Job Level \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Job Level",
+                "uuid": "2e24aee5-8ffc-491f-a322-45ce46c2c253",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Job Properties \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Job Properties",
+                "uuid": "d5f88ec0-9e69-49f4-a75a-16eae2e2707d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Counter Top \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Counter Top",
+                "uuid": "daef8019-2841-4aca-89ba-82932056104c",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Profiles"
+        },
+        {
+            "type": "text",
+            "data": "Profiles"
+        },
+        {
+            "type": "text",
+            "data": "Counter Top Profiles"
+        },
+        {
+            "type": "text",
+            "data": "Click on the categories or tabs below for more information"
+        },
+        {
+            "type": "image",
+            "data": "JP_Counter_Top_Profiles.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Profiles tab is where you select the Counter Top Edge Profile."
+        },
+        {
+            "type": "text",
+            "data": "See the  Set As System Defaults  topic for more information on it."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Set As System Defaults",
+                "uuid": "e5b1c38f-2747-41a5-a7b8-9aefa6986ede",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Job_Level\\Job_Properties\\Counter_Top\\JL_CT_Profiles.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

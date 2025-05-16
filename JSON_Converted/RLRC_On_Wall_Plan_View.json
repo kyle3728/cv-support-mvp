@@ -1,0 +1,241 @@
+{
+    "id": "d7979e24-0312-4722-9109-b5687a5aa11f",
+    "title": "RLRC_On_Wall_Plan_View",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top \n > \n \n \n Room Level \n > \n \n Right Click Options \n > \n \n Right Click on Wall Plan View"
+        },
+        {
+            "type": "text",
+            "data": "Top \n >"
+        },
+        {
+            "type": "text",
+            "data": "Room Level \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Room Level",
+                "uuid": "9eaa492c-0405-4da7-8e0f-a6ff4e047890",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Right Click Options \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Right Click Options",
+                "uuid": "3ea2c40b-e3fc-4eac-9114-cf8a3365c62a",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Right Click on Wall Plan View"
+        },
+        {
+            "type": "text",
+            "data": "Right Click on Wall Plan View"
+        },
+        {
+            "type": "text",
+            "data": "Right Click On Wall Plan View -"
+        },
+        {
+            "type": "image",
+            "data": "image70.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "When Right Clicking on a Wall in Plan View you will have 14 options:"
+        },
+        {
+            "type": "image",
+            "data": "image1182.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Cut"
+        },
+        {
+            "type": "text",
+            "data": "Cuts the selected Wall to the Windows Clipboard."
+        },
+        {
+            "type": "text",
+            "data": "Copy"
+        },
+        {
+            "type": "text",
+            "data": "Copies the selected Wall to the Windows Clipboard."
+        },
+        {
+            "type": "text",
+            "data": "Paste"
+        },
+        {
+            "type": "text",
+            "data": "Pastes the contents of the Windows Clipboard."
+        },
+        {
+            "type": "text",
+            "data": "Delete"
+        },
+        {
+            "type": "text",
+            "data": "Deletes the selected Wall."
+        },
+        {
+            "type": "text",
+            "data": "Select All"
+        },
+        {
+            "type": "text",
+            "data": "Selects All Walls."
+        },
+        {
+            "type": "text",
+            "data": "Select None"
+        },
+        {
+            "type": "text",
+            "data": "Deselects any Selected Walls."
+        },
+        {
+            "type": "text",
+            "data": "Reverse Selection"
+        },
+        {
+            "type": "text",
+            "data": "This option will deselect the currently selected Wall(s) and select all other deselected Wall(s)."
+        },
+        {
+            "type": "text",
+            "data": "Hide"
+        },
+        {
+            "type": "text",
+            "data": "Hides the selected Wall and all Objects attached to it in 3D view."
+        },
+        {
+            "type": "text",
+            "data": "Show"
+        },
+        {
+            "type": "text",
+            "data": "Shows the selected Wall and all Objects attached to it in 3D view."
+        },
+        {
+            "type": "text",
+            "data": "Show/Hide Walls"
+        },
+        {
+            "type": "text",
+            "data": "If you would like to Show or Hide Walls for more clear 3D Views you can do so by selecting this option. Simply enable or disable the Walls in the list to Show/Hide them."
+        },
+        {
+            "type": "image",
+            "data": "image867.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Connections"
+        },
+        {
+            "type": "text",
+            "data": "Allows you Connect/Disconnect the selected wall to adjoining Walls."
+        },
+        {
+            "type": "image",
+            "data": "image16711.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Show Dimensions"
+        },
+        {
+            "type": "text",
+            "data": "Will turn Dimensions on for the selected Wall if they have been previously Hidden."
+        },
+        {
+            "type": "text",
+            "data": "Hide Dimensions"
+        },
+        {
+            "type": "text",
+            "data": "Hides all Dimensions associated with the Wall and Objects on the Wall."
+        },
+        {
+            "type": "text",
+            "data": "Properties"
+        },
+        {
+            "type": "text",
+            "data": "Clicking on the option will open the View Properties screen. There are 4 Tabs in the Wall Properties Screen:"
+        },
+        {
+            "type": "text",
+            "data": "General Tab"
+        },
+        {
+            "type": "text",
+            "data": "This Tab allows you to Modify the Name and/or Description of the selected Wall. You can also enter a Labor value in minutes"
+        },
+        {
+            "type": "image",
+            "data": "image880.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Comment Tab"
+        },
+        {
+            "type": "text",
+            "data": "This Tab will allow you to add Comments to the selected Object. This can be displayed in selected Reports you generate."
+        },
+        {
+            "type": "image",
+            "data": "image881.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Finishes Tab"
+        },
+        {
+            "type": "text",
+            "data": "This Tab allows you to modify the Finish or Texture on the Front, Back, and/or Ends of the selected Wall."
+        },
+        {
+            "type": "image",
+            "data": "image882.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Overrides Tab"
+        },
+        {
+            "type": "text",
+            "data": "This Tab allows you to remove any Overrides on the Wall."
+        },
+        {
+            "type": "image",
+            "data": "image883.gif",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Room_Level\\Right_Click_Options\\RLRC_On_Wall_Plan_View.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

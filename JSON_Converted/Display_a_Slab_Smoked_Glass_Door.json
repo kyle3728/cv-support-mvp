@@ -1,0 +1,304 @@
+{
+    "id": "a7ee3fce-2fd2-4dd6-a9e6-2880c5303fde",
+    "title": "Display_a_Slab_Smoked_Glass_Door",
+    "content": [
+        {
+            "type": "text",
+            "data": "Display a Slab Smoked Glass Door"
+        },
+        {
+            "type": "text",
+            "data": "How can I display a slab type smoked glass Door that is semi transparent?"
+        },
+        {
+            "type": "text",
+            "data": "Open Solid. \n \n \n Open the  Material Manager ."
+        },
+        {
+            "type": "text",
+            "data": "Open Solid."
+        },
+        {
+            "type": "text",
+            "data": "Open Solid."
+        },
+        {
+            "type": "text",
+            "data": "Open the  Material Manager ."
+        },
+        {
+            "type": "text",
+            "data": "Open the  Material Manager ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Material Manager",
+                "uuid": "2fed939d-ba55-4f35-94da-993f0e1b392e",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Click the  Finish  option in the ribbonbar. \n \n \n In Finishes click New tool in the toolbar. \n \n \n Type Smoked Glass Dark for the Name and Description. \n \n \n Make sure all the color sliders are to the top and you have a black square showing."
+        },
+        {
+            "type": "text",
+            "data": "Click the  Finish  option in the ribbonbar."
+        },
+        {
+            "type": "text",
+            "data": "Click the  Finish  option in the ribbonbar."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Finish",
+                "uuid": "4bee5d7d-8710-4804-a69d-48af21e64e11",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "In Finishes click New tool in the toolbar."
+        },
+        {
+            "type": "text",
+            "data": "In Finishes click New tool in the toolbar."
+        },
+        {
+            "type": "text",
+            "data": "Type Smoked Glass Dark for the Name and Description."
+        },
+        {
+            "type": "text",
+            "data": "Type Smoked Glass Dark for the Name and Description."
+        },
+        {
+            "type": "text",
+            "data": "Make sure all the color sliders are to the top and you have a black square showing."
+        },
+        {
+            "type": "text",
+            "data": "Make sure all the color sliders are to the top and you have a black square showing."
+        },
+        {
+            "type": "image",
+            "data": "Smoked_Glass_Dark.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Close the Finishes window and click Yes to save your new Finish. \n \n \n Click the  Finish Type  option in the ribbonbar. \n \n \n Select the Glass Finish Type and then click the copy tool in the toolbar. \n \n \n Name your copy Smoked Glass. \n \n \n Set your Shininess and Transparency similar to the illustration below. You may also want to use the Preview pane to see the new Finish Type applied to your new Finish."
+        },
+        {
+            "type": "text",
+            "data": "Close the Finishes window and click Yes to save your new Finish."
+        },
+        {
+            "type": "text",
+            "data": "Close the Finishes window and click Yes to save your new Finish."
+        },
+        {
+            "type": "text",
+            "data": "Click the  Finish Type  option in the ribbonbar."
+        },
+        {
+            "type": "text",
+            "data": "Click the  Finish Type  option in the ribbonbar."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Finish Type",
+                "uuid": "4b7b778d-79e3-40cd-b945-3190bc716d57",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Select the Glass Finish Type and then click the copy tool in the toolbar."
+        },
+        {
+            "type": "text",
+            "data": "Select the Glass Finish Type and then click the copy tool in the toolbar."
+        },
+        {
+            "type": "text",
+            "data": "Name your copy Smoked Glass."
+        },
+        {
+            "type": "text",
+            "data": "Name your copy Smoked Glass."
+        },
+        {
+            "type": "text",
+            "data": "Set your Shininess and Transparency similar to the illustration below. You may also want to use the Preview pane to see the new Finish Type applied to your new Finish."
+        },
+        {
+            "type": "text",
+            "data": "Set your Shininess and Transparency similar to the illustration below. You may also want to use the Preview pane to see the new Finish Type applied to your new Finish."
+        },
+        {
+            "type": "image",
+            "data": "Finish_Type_1.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Close the Finish Types window and click Yes to save your new Finish Type. \n \n \n Select the appropriate Category and select a Miscellaneous Material you are not using and name it Smoked Glass Dark. \n \n \n With your Smoked Glass Dark Material selected go to the Finishes Tab. \n \n \n Select the Smoked Glass Dark Finish for the Front, Back, Edge, and End. \n \n \n Go to the Finish Types tab and select Smoked Glass for the Finish Type for the Front, Back, Edge, and End. \n \n \n Go to the Textures tab and make sure that Blank is selected for the Front, Back, Edge, and End. \n \n \n Close the Material Manager. \n \n \n Open Material Schedules and go to  Doors  Material Schedules. \n \n \n Select your favorite Material Schedule. \n \n \n Expand the Panels branch. \n \n \n Select your Smoked Glass Dark Material from the Material List and drag it to the \"Door Glass Panel\" Part. \n \n \n Close the Material Schedule Manager. \n \n \n Open the Door Catalog."
+        },
+        {
+            "type": "text",
+            "data": "Close the Finish Types window and click Yes to save your new Finish Type."
+        },
+        {
+            "type": "text",
+            "data": "Close the Finish Types window and click Yes to save your new Finish Type."
+        },
+        {
+            "type": "text",
+            "data": "Select the appropriate Category and select a Miscellaneous Material you are not using and name it Smoked Glass Dark."
+        },
+        {
+            "type": "text",
+            "data": "Select the appropriate Category and select a Miscellaneous Material you are not using and name it Smoked Glass Dark."
+        },
+        {
+            "type": "text",
+            "data": "With your Smoked Glass Dark Material selected go to the Finishes Tab."
+        },
+        {
+            "type": "text",
+            "data": "With your Smoked Glass Dark Material selected go to the Finishes Tab."
+        },
+        {
+            "type": "text",
+            "data": "Select the Smoked Glass Dark Finish for the Front, Back, Edge, and End."
+        },
+        {
+            "type": "text",
+            "data": "Select the Smoked Glass Dark Finish for the Front, Back, Edge, and End."
+        },
+        {
+            "type": "text",
+            "data": "Go to the Finish Types tab and select Smoked Glass for the Finish Type for the Front, Back, Edge, and End."
+        },
+        {
+            "type": "text",
+            "data": "Go to the Finish Types tab and select Smoked Glass for the Finish Type for the Front, Back, Edge, and End."
+        },
+        {
+            "type": "text",
+            "data": "Go to the Textures tab and make sure that Blank is selected for the Front, Back, Edge, and End."
+        },
+        {
+            "type": "text",
+            "data": "Go to the Textures tab and make sure that Blank is selected for the Front, Back, Edge, and End."
+        },
+        {
+            "type": "text",
+            "data": "Close the Material Manager."
+        },
+        {
+            "type": "text",
+            "data": "Close the Material Manager."
+        },
+        {
+            "type": "text",
+            "data": "Open Material Schedules and go to  Doors  Material Schedules."
+        },
+        {
+            "type": "text",
+            "data": "Open Material Schedules and go to  Doors  Material Schedules."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Doors",
+                "uuid": "94b9f888-f73f-4e07-b5c4-a992aa50b3ee",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Select your favorite Material Schedule."
+        },
+        {
+            "type": "text",
+            "data": "Select your favorite Material Schedule."
+        },
+        {
+            "type": "text",
+            "data": "Expand the Panels branch."
+        },
+        {
+            "type": "text",
+            "data": "Expand the Panels branch."
+        },
+        {
+            "type": "text",
+            "data": "Select your Smoked Glass Dark Material from the Material List and drag it to the \"Door Glass Panel\" Part."
+        },
+        {
+            "type": "text",
+            "data": "Select your Smoked Glass Dark Material from the Material List and drag it to the \"Door Glass Panel\" Part."
+        },
+        {
+            "type": "text",
+            "data": "Close the Material Schedule Manager."
+        },
+        {
+            "type": "text",
+            "data": "Close the Material Schedule Manager."
+        },
+        {
+            "type": "text",
+            "data": "Open the Door Catalog."
+        },
+        {
+            "type": "text",
+            "data": "Open the Door Catalog."
+        },
+        {
+            "type": "text",
+            "data": "Select one of the Doors you decide to test with from the Glass Category. \n \n \n Go to the Material tab and make sure the Material Schedule you modified is available for the Door. \n \n \n Exit the Door Catalog."
+        },
+        {
+            "type": "text",
+            "data": "Select one of the Doors you decide to test with from the Glass Category."
+        },
+        {
+            "type": "text",
+            "data": "Select one of the Doors you decide to test with from the Glass Category."
+        },
+        {
+            "type": "text",
+            "data": "Go to the Material tab and make sure the Material Schedule you modified is available for the Door."
+        },
+        {
+            "type": "text",
+            "data": "Go to the Material tab and make sure the Material Schedule you modified is available for the Door."
+        },
+        {
+            "type": "text",
+            "data": "Exit the Door Catalog."
+        },
+        {
+            "type": "text",
+            "data": "Exit the Door Catalog."
+        },
+        {
+            "type": "text",
+            "data": "You now have a way to create many different styles of glass and incorporate them into your Assemblies as a solid/transparent Door panel. By experimenting you can also create many new applications to use Finishes with."
+        },
+        {
+            "type": "image",
+            "data": "image2386.gif",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Tips_Tricks_&_FAQs\\FAQs\\HDI-Presentation\\Display_a_Slab_Smoked_Glass_Door.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

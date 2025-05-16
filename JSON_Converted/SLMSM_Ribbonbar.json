@@ -1,0 +1,384 @@
+{
+    "id": "2dd19442-9af5-4019-b47c-e4b35bc22e3d",
+    "title": "SLMSM_Ribbonbar",
+    "content": [
+        {
+            "type": "text",
+            "data": "Ribbonbar"
+        },
+        {
+            "type": "image",
+            "data": "SLMSM_Ribbonbar.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Return"
+        },
+        {
+            "type": "image",
+            "data": "image3847.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Closes the Material Schedule Manager and returns you to the Splash Screen."
+        },
+        {
+            "type": "text",
+            "data": "New"
+        },
+        {
+            "type": "image",
+            "data": "image3793.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "New Material Schedules can be created by clicking this option. The Type of Material Schedule created is determined by the current Type selected in the Material Schedule Type Selector."
+        },
+        {
+            "type": "text",
+            "data": "Copy"
+        },
+        {
+            "type": "image",
+            "data": "image3794.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Copy option will create a new Material Schedule that is a copy of the one currently selected. Use this option when an existing Material Schedule is very similar to one that you need to create. Then, simply change the Name of this copied Material Schedule and make the necessary changes so that it fits your needs."
+        },
+        {
+            "type": "text",
+            "data": "Delete"
+        },
+        {
+            "type": "image",
+            "data": "image3795.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Deletes the currently selected Material Schedule."
+        },
+        {
+            "type": "text",
+            "data": "Parameters\u00a0-"
+        },
+        {
+            "type": "image",
+            "data": "image3796.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "SolidAdvanced.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "SolidAdvancedforClosets.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "SolidUltimate.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "SolidUltimateforClosets.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Opens the Parameter Editor allowing you to add a Parameter to the currently selected Material Schedule. See the  Parameters  topic for more information on the Parameter Editor interface."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Parameters",
+                "uuid": "732c3654-3fc4-4e88-80b9-01c7cb38c0fb",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image5044.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "To query these Parameters via UCS you will need to use  _MS:ParameterName  on the Object using the Material Schedule. The Parameter will not be visible in the Object Tree."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Material Schedule Type Selector"
+        },
+        {
+            "type": "image",
+            "data": "image3717.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Allows selection of the Material Schedule Types you want to work with. Following are the available types, click them for information on how to set them up:"
+        },
+        {
+            "type": "text",
+            "data": "Assembly \n \n \n Closet Rods \n \n \n Counter Top \n \n \n Doors \n \n \n Drawer Box \n \n \n Drawer Guides \n \n \n Hinges \n \n \n Molding \n \n \n Pulls \n \n \n Roll Out \n \n \n Room \n \n \n Sliding Door Rails \n \n \n Wire Baskets"
+        },
+        {
+            "type": "text",
+            "data": "Assembly"
+        },
+        {
+            "type": "text",
+            "data": "Assembly"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Assembly",
+                "uuid": "dced9646-d932-493c-b839-76a3e71d1195",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Closet Rods"
+        },
+        {
+            "type": "text",
+            "data": "Closet Rods"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Closet Rods",
+                "uuid": "1592098b-cf3c-421f-b5d0-0fdb4b041dc3",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Counter Top"
+        },
+        {
+            "type": "text",
+            "data": "Counter Top"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Counter Top",
+                "uuid": "4401e0f3-697e-474e-adf3-ffa14fa4ffbf",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Doors"
+        },
+        {
+            "type": "text",
+            "data": "Doors"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Doors",
+                "uuid": "9bd79628-7459-40a6-9084-cd8f5cfd0763",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Drawer Box"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Box"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Drawer Box",
+                "uuid": "bfdd3171-3d05-4df6-a89a-cdc88d3469cf",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Drawer Guides"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Guides"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Drawer Guides",
+                "uuid": "9da24cba-f8af-447d-8c3a-ec151e221d52",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Hinges"
+        },
+        {
+            "type": "text",
+            "data": "Hinges"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Hinges",
+                "uuid": "299ec266-8919-4cda-be6a-21e8e2e8a9d1",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Molding"
+        },
+        {
+            "type": "text",
+            "data": "Molding"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Molding",
+                "uuid": "0c624af6-f24d-4481-a936-5b7720dab33c",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Pulls"
+        },
+        {
+            "type": "text",
+            "data": "Pulls"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Pulls",
+                "uuid": "4c2e70ae-b7cc-4b67-9631-e82d8197bca0",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Roll Out"
+        },
+        {
+            "type": "text",
+            "data": "Roll Out"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Roll Out",
+                "uuid": "ed01978f-b4e1-46b3-845f-c4d5623a0f36",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Room"
+        },
+        {
+            "type": "text",
+            "data": "Room"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Room",
+                "uuid": "d7d59dae-21fd-4421-b65f-82da46f65307",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Sliding Door Rails"
+        },
+        {
+            "type": "text",
+            "data": "Sliding Door Rails"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Sliding Door Rails",
+                "uuid": "b1ed0966-db74-4310-b31a-9ebd5859f88e",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Wire Baskets"
+        },
+        {
+            "type": "text",
+            "data": "Wire Baskets"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Wire Baskets",
+                "uuid": "ef203b70-f9ec-4c09-84f8-9534ce5eabcf",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Material Schedule Selector"
+        },
+        {
+            "type": "image",
+            "data": "image3718.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Allows selection of the Material Schedule you wish to work with. This list will only show Material Schedules of the Type selected with the Material Schedule Type Selector."
+        },
+        {
+            "type": "text",
+            "data": "System Materials"
+        },
+        {
+            "type": "image",
+            "data": "image4899.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Opens the  Material Manager  to allow you to edit your Materials."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Material Manager",
+                "uuid": "2fed939d-ba55-4f35-94da-993f0e1b392e",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\SLMSM_Ribbonbar.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

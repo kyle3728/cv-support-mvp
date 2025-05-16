@@ -1,0 +1,470 @@
+{
+    "id": "6d864977-c5b1-4fb9-9f4b-d4ce7efd285a",
+    "title": "What_s_New_In_Version_6_1",
+    "content": [
+        {
+            "type": "text",
+            "data": "What's New in Solid Version 6.1 (2011 R2)"
+        },
+        {
+            "type": "text",
+            "data": "Click the links below to get more information on these new features. For quick demonstrations of these new features you can visit the  Cabinet Vision Solid 2011 R2  area of the  Cabinet Vision YouTube Channel ."
+        },
+        {
+            "type": "image",
+            "data": "YouTube.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Assembly Level"
+        },
+        {
+            "type": "text",
+            "data": "Recent Tab is the Default Tab When Setting Part Materials \n \n \n Option to Ignore Edgeband When Exploding an Assembly \n \n \n New Options to Set Line Bore Type by Assembly in Section Editor"
+        },
+        {
+            "type": "text",
+            "data": "Recent Tab is the Default Tab When Setting Part Materials"
+        },
+        {
+            "type": "text",
+            "data": "Recent Tab is the Default Tab When Setting Part Materials"
+        },
+        {
+            "type": "text",
+            "data": "Option to Ignore Edgeband When Exploding an Assembly"
+        },
+        {
+            "type": "text",
+            "data": "Option to Ignore Edgeband When Exploding an Assembly"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Option to Ignore Edgeband When Exploding an Assembly",
+                "uuid": "b5bc0b56-86e4-473b-a1e9-cf656d73b6dc",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "New Options to Set Line Bore Type by Assembly in Section Editor"
+        },
+        {
+            "type": "text",
+            "data": "New Options to Set Line Bore Type by Assembly in Section Editor"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "New Options to Set Line Bore Type by Assembly in Section Editor",
+                "uuid": "9a1f874d-206d-40f1-bc3d-cc0d800e757f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Assembly Wizard"
+        },
+        {
+            "type": "text",
+            "data": "Bore By Opening Available for Closet Objects"
+        },
+        {
+            "type": "text",
+            "data": "Bore By Opening Available for Closet Objects"
+        },
+        {
+            "type": "text",
+            "data": "Bore By Opening Available for Closet Objects"
+        },
+        {
+            "type": "text",
+            "data": "Bid Center"
+        },
+        {
+            "type": "text",
+            "data": "Export Bid Data to a Database for 3rd Party Use"
+        },
+        {
+            "type": "text",
+            "data": "Export Bid Data to a Database for 3rd Party Use"
+        },
+        {
+            "type": "text",
+            "data": "Export Bid Data to a Database for 3rd Party Use"
+        },
+        {
+            "type": "text",
+            "data": "CAD"
+        },
+        {
+            "type": "text",
+            "data": "Shift + Drag Rectangle Forces Square in CAD \n \n \n Reversed Leader Creation (Start Point Establishes Arrow Location) \n \n \n Text Leader Tool \n \n \n Revision Cloud Tool \n \n \n Layers from Symbols Come With Them When Inserted \n \n \n Setup Text Prompts in CAD Symbols \n \n \n Added New Table Groups to Assembly Level/Assembly Sheets \n \n \n \n \n Drawer Box Parts \n \n \n Drawer Boxes \n \n \n Rollout Box Parts \n \n \n Rollout Boxes"
+        },
+        {
+            "type": "text",
+            "data": "Shift + Drag Rectangle Forces Square in CAD"
+        },
+        {
+            "type": "text",
+            "data": "Shift + Drag Rectangle Forces Square in CAD"
+        },
+        {
+            "type": "text",
+            "data": "Reversed Leader Creation (Start Point Establishes Arrow Location)"
+        },
+        {
+            "type": "text",
+            "data": "Reversed Leader Creation (Start Point Establishes Arrow Location)"
+        },
+        {
+            "type": "text",
+            "data": "Text Leader Tool"
+        },
+        {
+            "type": "text",
+            "data": "Text Leader Tool"
+        },
+        {
+            "type": "text",
+            "data": "Revision Cloud Tool"
+        },
+        {
+            "type": "text",
+            "data": "Revision Cloud Tool"
+        },
+        {
+            "type": "text",
+            "data": "Layers from Symbols Come With Them When Inserted"
+        },
+        {
+            "type": "text",
+            "data": "Layers from Symbols Come With Them When Inserted"
+        },
+        {
+            "type": "text",
+            "data": "Setup Text Prompts in CAD Symbols"
+        },
+        {
+            "type": "text",
+            "data": "Setup Text Prompts in CAD Symbols"
+        },
+        {
+            "type": "text",
+            "data": "Added New Table Groups to Assembly Level/Assembly Sheets"
+        },
+        {
+            "type": "text",
+            "data": "Added New Table Groups to Assembly Level/Assembly Sheets"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Box Parts \n \n \n Drawer Boxes \n \n \n Rollout Box Parts \n \n \n Rollout Boxes"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Box Parts \n \n \n Drawer Boxes \n \n \n Rollout Box Parts \n \n \n Rollout Boxes"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Box Parts"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Box Parts"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Boxes"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Boxes"
+        },
+        {
+            "type": "text",
+            "data": "Rollout Box Parts"
+        },
+        {
+            "type": "text",
+            "data": "Rollout Box Parts"
+        },
+        {
+            "type": "text",
+            "data": "Rollout Boxes"
+        },
+        {
+            "type": "text",
+            "data": "Rollout Boxes"
+        },
+        {
+            "type": "text",
+            "data": "Counter Tops"
+        },
+        {
+            "type": "text",
+            "data": "Editing of Automatic Appliance Cut Outs in Counter Top Editor \n \n \n Define Joint Edges via Counter Top Shape Editor"
+        },
+        {
+            "type": "text",
+            "data": "Editing of Automatic Appliance Cut Outs in Counter Top Editor"
+        },
+        {
+            "type": "text",
+            "data": "Editing of Automatic Appliance Cut Outs in Counter Top Editor"
+        },
+        {
+            "type": "text",
+            "data": "Define Joint Edges via Counter Top Shape Editor"
+        },
+        {
+            "type": "text",
+            "data": "Define Joint Edges via Counter Top Shape Editor"
+        },
+        {
+            "type": "text",
+            "data": "Doors"
+        },
+        {
+            "type": "text",
+            "data": "Option to Output Buyout Doors to CNC"
+        },
+        {
+            "type": "text",
+            "data": "Option to Output Buyout Doors to CNC"
+        },
+        {
+            "type": "text",
+            "data": "Option to Output Buyout Doors to CNC"
+        },
+        {
+            "type": "text",
+            "data": "Drawers & Roll Outs"
+        },
+        {
+            "type": "text",
+            "data": "Adjustment for Dovetail Fit"
+        },
+        {
+            "type": "text",
+            "data": "Adjustment for Dovetail Fit"
+        },
+        {
+            "type": "text",
+            "data": "Adjustment for Dovetail Fit"
+        },
+        {
+            "type": "text",
+            "data": "Drawings Area"
+        },
+        {
+            "type": "text",
+            "data": "Selecting a Scene From the Scene List Will Provide a Scene Preview \n \n \n Align Scenes Using Snap Points to Grid, Paper, or Other Scene Points"
+        },
+        {
+            "type": "text",
+            "data": "Selecting a Scene From the Scene List Will Provide a Scene Preview"
+        },
+        {
+            "type": "text",
+            "data": "Selecting a Scene From the Scene List Will Provide a Scene Preview"
+        },
+        {
+            "type": "text",
+            "data": "Align Scenes Using Snap Points to Grid, Paper, or Other Scene Points"
+        },
+        {
+            "type": "text",
+            "data": "Align Scenes Using Snap Points to Grid, Paper, or Other Scene Points"
+        },
+        {
+            "type": "text",
+            "data": "General"
+        },
+        {
+            "type": "text",
+            "data": "Custom Order Imports via TXT/CSV \n \n \n Custom Part List Exports via Text File \n \n \n Drawer Box and Roll Out Material Schedules Added to ORD File \n \n \n Improved 3D Rotation Functionality \n \n \n Change Unit of Measure Precision via Statusbar Menu"
+        },
+        {
+            "type": "text",
+            "data": "Custom Order Imports via TXT/CSV"
+        },
+        {
+            "type": "text",
+            "data": "Custom Order Imports via TXT/CSV"
+        },
+        {
+            "type": "text",
+            "data": "Custom Part List Exports via Text File"
+        },
+        {
+            "type": "text",
+            "data": "Custom Part List Exports via Text File"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Box and Roll Out Material Schedules Added to ORD File"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Box and Roll Out Material Schedules Added to ORD File"
+        },
+        {
+            "type": "text",
+            "data": "Improved 3D Rotation Functionality"
+        },
+        {
+            "type": "text",
+            "data": "Improved 3D Rotation Functionality"
+        },
+        {
+            "type": "text",
+            "data": "Change Unit of Measure Precision via Statusbar Menu"
+        },
+        {
+            "type": "text",
+            "data": "Change Unit of Measure Precision via Statusbar Menu"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Change Unit of Measure Precision via Statusbar Menu",
+                "uuid": "57b3d47f-75a4-49bd-8143-55ece48609f2",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Job Properties"
+        },
+        {
+            "type": "text",
+            "data": "All Combo-boxes (drop downs) Sorted Alphabetically"
+        },
+        {
+            "type": "text",
+            "data": "All Combo-boxes (drop downs) Sorted Alphabetically"
+        },
+        {
+            "type": "text",
+            "data": "All Combo-boxes (drop downs) Sorted Alphabetically"
+        },
+        {
+            "type": "text",
+            "data": "Layers"
+        },
+        {
+            "type": "text",
+            "data": "Turn On/Off Door Drawer Numbering at Section Editor \n \n \n Turn On/Off Door Drawer Numbering at Assembly Sheet \n \n \n Light Layer for User Added Lights"
+        },
+        {
+            "type": "text",
+            "data": "Turn On/Off Door Drawer Numbering at Section Editor"
+        },
+        {
+            "type": "text",
+            "data": "Turn On/Off Door Drawer Numbering at Section Editor"
+        },
+        {
+            "type": "text",
+            "data": "Turn On/Off Door Drawer Numbering at Assembly Sheet"
+        },
+        {
+            "type": "text",
+            "data": "Turn On/Off Door Drawer Numbering at Assembly Sheet"
+        },
+        {
+            "type": "text",
+            "data": "Light Layer for User Added Lights"
+        },
+        {
+            "type": "text",
+            "data": "Light Layer for User Added Lights"
+        },
+        {
+            "type": "text",
+            "data": "Layout (Room) Level"
+        },
+        {
+            "type": "text",
+            "data": "Establish a Vertical Position for Object Placement  (See  Object Placement  Also) \n \n \n 0 Entered for Floor to Upper Above Refer Disables Option \n \n \n 0 Entered for Floor to Upper Above Range Disables Option"
+        },
+        {
+            "type": "text",
+            "data": "Establish a Vertical Position for Object Placement  (See  Object Placement  Also)"
+        },
+        {
+            "type": "text",
+            "data": "Establish a Vertical Position for Object Placement  (See  Object Placement  Also)"
+        },
+        {
+            "type": "text",
+            "data": "0 Entered for Floor to Upper Above Refer Disables Option"
+        },
+        {
+            "type": "text",
+            "data": "0 Entered for Floor to Upper Above Refer Disables Option"
+        },
+        {
+            "type": "text",
+            "data": "0 Entered for Floor to Upper Above Range Disables Option"
+        },
+        {
+            "type": "text",
+            "data": "0 Entered for Floor to Upper Above Range Disables Option"
+        },
+        {
+            "type": "text",
+            "data": "Reports"
+        },
+        {
+            "type": "text",
+            "data": "Assembly ID From CVC Added to Cabinets Table in Report.mdb \n \n \n Hinge Material ID From CVC Added to Doors Table in Report.mdb"
+        },
+        {
+            "type": "text",
+            "data": "Assembly ID From CVC Added to Cabinets Table in Report.mdb"
+        },
+        {
+            "type": "text",
+            "data": "Assembly ID From CVC Added to Cabinets Table in Report.mdb"
+        },
+        {
+            "type": "text",
+            "data": "Hinge Material ID From CVC Added to Doors Table in Report.mdb"
+        },
+        {
+            "type": "text",
+            "data": "Hinge Material ID From CVC Added to Doors Table in Report.mdb"
+        },
+        {
+            "type": "text",
+            "data": "User Created Standards"
+        },
+        {
+            "type": "text",
+            "data": "Delete and Reposition a Licensed UCS \n \n \n _MATCH - Set Local or Global Search for PrimaryOperations"
+        },
+        {
+            "type": "text",
+            "data": "Delete and Reposition a Licensed UCS"
+        },
+        {
+            "type": "text",
+            "data": "Delete and Reposition a Licensed UCS"
+        },
+        {
+            "type": "text",
+            "data": "_MATCH - Set Local or Global Search for PrimaryOperations"
+        },
+        {
+            "type": "text",
+            "data": "_MATCH - Set Local or Global Search for PrimaryOperations"
+        }
+    ],
+    "source_file": "CVEnglish\\Introduction\\Whats_New_Previous_Versions\\What_s_New_In_Version_6_1.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

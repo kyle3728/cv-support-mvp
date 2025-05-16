@@ -1,0 +1,21 @@
+{
+    "id": "134ddca6-be09-4436-a109-e1823a875224",
+    "title": "Accu-Systems_HPJ_XML",
+    "content": [
+        {
+            "type": "text",
+            "data": "Accu-Systems HPJ XML"
+        },
+        {
+            "type": "text",
+            "data": "This is a Drill and Dowel Machine Link."
+        },
+        {
+            "type": "text",
+            "data": "This output will create program files for the Accu-Systemss HPJ Drill / Dowel machines with Vertical Routing. Drill and Dowel operations are determined by matching the horizontal bore depth. Assign tools to this machine and to a dado operation to create vertical grooving output. Additional parameters can be set on tools assigned to this machine in tool catalog."
+        }
+    ],
+    "source_file": "NCEnglish\\Ribbonbar\\Main_Tab\\Machine\\NC_Links\\Drill_and_Dowel_Links\\Accu-Systems_HPJ_XML.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

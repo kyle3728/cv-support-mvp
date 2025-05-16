@@ -1,0 +1,154 @@
+{
+    "id": "b8bb4542-a70d-4527-b271-0e12a5c01e12",
+    "title": "RLSB_Molding",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top \n > \n \n \n Room Level \n > \n \n Sidebar \n > \n \n Molding"
+        },
+        {
+            "type": "text",
+            "data": "Top \n >"
+        },
+        {
+            "type": "text",
+            "data": "Room Level \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Room Level",
+                "uuid": "9eaa492c-0405-4da7-8e0f-a6ff4e047890",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Sidebar \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Sidebar",
+                "uuid": "f07520a2-0645-4a40-b8d9-a72c15b5c147",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Molding"
+        },
+        {
+            "type": "text",
+            "data": "Molding"
+        },
+        {
+            "type": "text",
+            "data": "Molding -"
+        },
+        {
+            "type": "image",
+            "data": "image70.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image71.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image1923.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "First, you must be in the correct view for drawing the type of Molding that you want to draw. Some Molding may be drawn in either (Floor Plan or Elevation) view. In Floor Plan View, you may draw or edit Crown, Light Rail, Base Board, Chair Rail, or Ceiling Molding. In Elevation View, you may draw or edit Crown, Scribe, Chair Rail, or Casing."
+        },
+        {
+            "type": "text",
+            "data": "In the following example, we are drawing Molding from the Plan view."
+        },
+        {
+            "type": "text",
+            "data": "First, click the Molding button. You will see the Molding view."
+        },
+        {
+            "type": "image",
+            "data": "image1946.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The easiest way to create the desired Molding is to select the type in the Molding Type pull down and then click the AutoBuild Molding button."
+        },
+        {
+            "type": "image",
+            "data": "image1947.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Next, you will be asked to select whether to fill the Room with Molding or simply fill the current Wall face."
+        },
+        {
+            "type": "image",
+            "data": "image848.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The current Wall face is represented by a red dotted line running around the perimeter of the Wall. The top Wall in the image below is the current Wall face."
+        },
+        {
+            "type": "image",
+            "data": "image988.bmp",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Manually Drawing Molding:"
+        },
+        {
+            "type": "text",
+            "data": "If you wish to manually draw the Molding in the Room, click the New Molding button instead of the AutoBuild Molding button."
+        },
+        {
+            "type": "image",
+            "data": "image1948.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This will open the  Molding Editor  where you can place the Molding in the desired position."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Molding Editor",
+                "uuid": "44e32c02-bc4b-47e1-a681-21c422325448",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "Molding_Shape_Editor.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "See the  Right Click on a Molding  topic for more information on editing your Molding."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Right Click on a Molding",
+                "uuid": "14e79b53-03bf-46a3-93b7-703249c141be",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Room_Level\\Side_Bar\\RLSB_Molding.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

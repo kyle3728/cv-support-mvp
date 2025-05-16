@@ -1,0 +1,152 @@
+{
+    "id": "466cc45c-0e17-4f47-992a-72a0c2c66dae",
+    "title": "ALSB_Select_Interior_Opening",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top \n > \n \n \n Assembly Level \n > \n \n Sidebar \n > \n \n Select Interior Opening"
+        },
+        {
+            "type": "text",
+            "data": "Top \n >"
+        },
+        {
+            "type": "text",
+            "data": "Assembly Level \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Assembly Level",
+                "uuid": "b0552ea2-b430-4836-aa5e-42dfd04f9eda",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Sidebar \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Sidebar",
+                "uuid": "6b6c7bbb-899f-4d20-9bd6-91a32882ef2b",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Select Interior Opening"
+        },
+        {
+            "type": "text",
+            "data": "Select Interior Opening"
+        },
+        {
+            "type": "text",
+            "data": "Select Interior Opening Section View   -   Section Interior"
+        },
+        {
+            "type": "image",
+            "data": "image180.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image230.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "When selecting an Interior Opening in the Section Editor you are presented with the following sidebar:"
+        },
+        {
+            "type": "image",
+            "data": "image2088.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "You can, if you select one of many Interior Openings within an Assembly, control four different Dimensional properties as well as two Opening Types:"
+        },
+        {
+            "type": "text",
+            "data": "Dimensional Properties"
+        },
+        {
+            "type": "text",
+            "data": "Width -  Allows you to change the Width of the selected Opening, if there is more than one. \n \n \n Height -  Allows you to change the Height of the selected Opening, if there is more than one. \n \n \n Lock Width -  Allows you to lock the Width of the selected Opening, if there is more than one. \n \n \n Lock Height -  Allows you to lock the Height of the selected Opening, if there is more than one."
+        },
+        {
+            "type": "text",
+            "data": "Width -  Allows you to change the Width of the selected Opening, if there is more than one."
+        },
+        {
+            "type": "text",
+            "data": "Width -  Allows you to change the Width of the selected Opening, if there is more than one."
+        },
+        {
+            "type": "text",
+            "data": "Height -  Allows you to change the Height of the selected Opening, if there is more than one."
+        },
+        {
+            "type": "text",
+            "data": "Height -  Allows you to change the Height of the selected Opening, if there is more than one."
+        },
+        {
+            "type": "text",
+            "data": "Lock Width -  Allows you to lock the Width of the selected Opening, if there is more than one."
+        },
+        {
+            "type": "text",
+            "data": "Lock Width -  Allows you to lock the Width of the selected Opening, if there is more than one."
+        },
+        {
+            "type": "text",
+            "data": "Lock Height -  Allows you to lock the Height of the selected Opening, if there is more than one."
+        },
+        {
+            "type": "text",
+            "data": "Lock Height -  Allows you to lock the Height of the selected Opening, if there is more than one."
+        },
+        {
+            "type": "text",
+            "data": "Opening Types"
+        },
+        {
+            "type": "text",
+            "data": "Open -  Selecting this option will change the selected Opening to an Open section."
+        },
+        {
+            "type": "text",
+            "data": "Open -  Selecting this option will change the selected Opening to an Open section."
+        },
+        {
+            "type": "text",
+            "data": "Open -  Selecting this option will change the selected Opening to an Open section."
+        },
+        {
+            "type": "text",
+            "data": "Cubbies -  Selecting this option will change the selected Opening to a  Shoe Section ."
+        },
+        {
+            "type": "text",
+            "data": "Cubbies -  Selecting this option will change the selected Opening to a  Shoe Section ."
+        },
+        {
+            "type": "text",
+            "data": "Cubbies -  Selecting this option will change the selected Opening to a  Shoe Section ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Shoe Section",
+                "uuid": "e9645e6b-d087-45b3-89e4-93569ffaef00",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Assembly_Level\\Sidebar\\ALSB_Select_Interior_Opening.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

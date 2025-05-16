@@ -1,0 +1,42 @@
+{
+    "id": "e820ca9e-d789-4cc3-9365-76dbb9822fa6",
+    "title": "Options_Pane",
+    "content": [
+        {
+            "type": "text",
+            "data": "Options Pane"
+        },
+        {
+            "type": "text",
+            "data": "Options are the actual choices that the user must select from for each particular  Option Type . The Option List pictured below is from the Generic Catalog for the Option Type \"Wood\". Notice that the Options in the list above are therefore all different types of Wood that are available to the user."
+        },
+        {
+            "type": "image",
+            "data": "image99.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "To illustrate, open CABINET VISION, start a new Job, draw a Wall, and select the Generic Catalog. Note the first window contains the list of  Option Types  on the left side of the window. Listed on the right side are the \"AvailableOptions\". These \"AvailableOptions\" are the available choices for each Option Type, and is also what is listed in the bottom window of the Options view in the Catalog Editor."
+        },
+        {
+            "type": "text",
+            "data": "The Value for each Option can be a Price or a Multiplier. This determination must be made based on the pricing structure set up for the catalog. See the  Pricing Group  topics for more information on Catalog Pricing."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Pricing Group",
+                "uuid": "9a8766a2-806a-4e5d-a844-14ef983267a7",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Option fields use the Tab key to move to the next field to the right of the cell, or the Enter key to move to the field below. As with Option Types, the order in which Options are listed can be changed by selecting and highlighting the entire line and holding the SHIFT button while using the Arrow keys on the keyboard to move the item up or down the list."
+        }
+    ],
+    "source_file": "CEEnglish\\Options_View\\Options_Pane.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

@@ -1,0 +1,62 @@
+{
+    "id": "e5589423-a19a-41cb-a10e-21bc17597ae1",
+    "title": "ALRC_On_Screen_Reports",
+    "content": [
+        {
+            "type": "text",
+            "data": "Right Click On Screen -"
+        },
+        {
+            "type": "image",
+            "data": "image32011.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image2914.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image3115.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Following are the options when right clicking the screen in Reports view:"
+        },
+        {
+            "type": "text",
+            "data": "To Drawing -  See the  Room Level To Drawing  topic for more information. \n \n \n \n Properties -  See the  Room Level Properties  topic for more information."
+        },
+        {
+            "type": "text",
+            "data": "To Drawing -  See the  Room Level To Drawing  topic for more information."
+        },
+        {
+            "type": "text",
+            "data": "To Drawing -  See the  Room Level To Drawing  topic for more information."
+        },
+        {
+            "type": "image",
+            "data": "image3116.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Properties -  See the  Room Level Properties  topic for more information."
+        },
+        {
+            "type": "text",
+            "data": "Properties -  See the  Room Level Properties  topic for more information."
+        },
+        {
+            "type": "image",
+            "data": "image3117.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish\\Assembly_Level\\Right_Click_Options\\Right_Click_On_Screen\\ALRC_On_Screen_Reports.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

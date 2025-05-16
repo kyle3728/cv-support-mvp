@@ -1,0 +1,91 @@
+{
+    "id": "431476be-aea9-433e-a9c4-cddc18e6c927",
+    "title": "UCS_Evaluation_Order",
+    "content": [
+        {
+            "type": "text",
+            "data": "UCS Evaluation Order"
+        },
+        {
+            "type": "image",
+            "data": "1AUALL.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This topic is a look into the way that CABINET VISION generates Assemblies and the order that it evaluates parameters. There are three basic steps that CABINET VISION goes through to generate an Assembly. These steps are:"
+        },
+        {
+            "type": "text",
+            "data": "The Assembly is generated according to the  Construction Method . \n \n \n User Created Standards  are processed for that Assembly. See below for details about the way that User Created Standards are processed for an Assembly. \n \n \n The Graphics for the Assembly are generated."
+        },
+        {
+            "type": "text",
+            "data": "The Assembly is generated according to the  Construction Method ."
+        },
+        {
+            "type": "text",
+            "data": "The Assembly is generated according to the  Construction Method ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Construction Method",
+                "uuid": "e4cbc02a-f458-4c6d-8725-3c8322a55d94",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "User Created Standards  are processed for that Assembly. See below for details about the way that User Created Standards are processed for an Assembly."
+        },
+        {
+            "type": "text",
+            "data": "User Created Standards  are processed for that Assembly. See below for details about the way that User Created Standards are processed for an Assembly."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "User Created Standards",
+                "uuid": "db3cc5fc-c4e0-45cd-bc5f-74f2e8778eaf",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "The Graphics for the Assembly are generated."
+        },
+        {
+            "type": "text",
+            "data": "The Graphics for the Assembly are generated."
+        },
+        {
+            "type": "text",
+            "data": "UCS Evaluation For a Assembly"
+        },
+        {
+            "type": "text",
+            "data": "When User Created Standards are evaluated for an Assembly, they are evaluated in the order that they (User Created Standards) occur in the list of User Created Standards. UCS #1 is evaluated for the current Assembly, then UCS #2 is evaluated for the current Assembly, etc."
+        },
+        {
+            "type": "text",
+            "data": "Each User Created Standard processes the Assembly in Object Tree order. Children of a higher branch will have a higher priority than the parent of a lower branch. For example, consider the following fictional Object Tree:"
+        },
+        {
+            "type": "image",
+            "data": "image1451.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "In the above example, the Assembly Parts will be evaluated in the following order:"
+        },
+        {
+            "type": "text",
+            "data": "Part A 1 ,  Part B 1 ,  Part A 2 ,  Part B 2 ,  Part C 1 ,  Part A 3 ,  Part B 3"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\UCS_Evaluation_Order.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

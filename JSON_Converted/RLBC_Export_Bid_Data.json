@@ -1,0 +1,29 @@
+{
+    "id": "5267d2b9-fab9-4518-a637-9253c6fe6d8d",
+    "title": "RLBC_Export_Bid_Data",
+    "content": [
+        {
+            "type": "text",
+            "data": "Export Bid Data"
+        },
+        {
+            "type": "text",
+            "data": "This option allows you to output a Microsoft Access Database (BidData.mdb) which house the state of your current Bid. This database can be helpful when using 3rd Party Applications such as Time Management or ERP for comparing Estimates to Actuals."
+        },
+        {
+            "type": "text",
+            "data": "See the  BidData.mdb  topic for structural information on BidData.mdb."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "BidData.mdb",
+                "uuid": "0c5124d4-e71b-489b-9577-1906653284bf",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\RLBC_Export_Bid_Data.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

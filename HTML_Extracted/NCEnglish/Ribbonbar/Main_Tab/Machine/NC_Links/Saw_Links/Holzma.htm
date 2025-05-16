@@ -1,0 +1,1389 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><link rel="stylesheet" type="text/css" href="../../../../../_rhdefault.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=WINDOWS-1252"/>
+<meta name="topic-status" content="Complete"/>
+<meta name="topic-check-list" content="First Draft,Added To TOC,Links,Index keywords,Images,Tested,Finalized,Reviewed,Ran Smart Index"/>
+<meta name="topic-priority" content="0"/>
+<meta name="topic-time-estimate" content="0"/>
+<meta name="topic-comment" content=""/>
+<meta name="topic-id" content=""/>
+<meta name="generator" content="Adobe RoboHelp 2022"/>
+<title>Holzma</title>
+<link rel="StyleSheet" href="../../../../../assets/css/default.css" type="text/css"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/><meta name="description" content=""/><script type="text/javascript" src="../../../../../ehlpdhtm.js"></script></head>
+<body>
+<h1>Holzma</h1>
+<p>This is a <span class="glossterm">Panel Saw</span> Link.</p>
+<p>This link outputs the file format for the Holzlink interface for all Holzma saws.</p>
+<p> </p>
+<p style="text-align: center; font-weight: bold;">PATTERN EXCHANGE  FILE <span style="font-weight: bold; text-align: center;">SPECIFICATION</span></p>
+<p style="text-align: center; font-weight: bold;">V1.02.4</p>
+<p style="text-align: center; font-weight: bold;">Bath Software Research Ltd</p>
+<p style="text-align: center; font-weight: bold;">04 November 1999</p>
+<p> </p>
+<h2>1. INTRODUCTION</h2>
+<p>This document describes a data structure for the exchange of cutting lists and patterns for sheet material between various design programs, optimising packages, and panel saw controllers.</p>
+<p>This data structure contains the information that is required for transferring cutting lists to an optimising package and for transferring optimised cutting patterns with label information to a panel saw.  The data structure can be created in two formats as follows.</p>
+<ul style="list-style: circle;">
+<li class="p">
+<p class="1_List">ASCII comma-separated file <span style="color: #ff0000;">(Created by the Planit NcCenter)</span></p>
+</li>
+<li class="p">
+<p class="1_List">Access database</p>
+</li>
+</ul>
+<p>The data structure consists of 12 record types each with a number of fields. In the ASCII file each record type is represented by a token which begins each line and in the database each record type is a separate table.</p>
+<p>Each record type and each field name are in uppercase and use underscores between separate words. No table name or field name is more than 10 characters.</p>
+<h2> </h2>
+<h2>2.  RECORD TYPES &amp; TABLE NAMES</h2>
+<p>The ‘cutting list’ record types are as follows.</p>
+<p><span style="font-weight: bold;">HEADER</span> -  general information describing the complete data structure (or file)</p>
+<p><span style="font-weight: bold;">JOBS</span> - header data for each job (cutting list or optimised run)</p>
+<p><span style="font-weight: bold;">PARTS_REQ</span>  -   basic requirement details for each item in the cutting list</p>
+<p><span style="font-weight: bold;">PARTS_INF</span> -    standard information about each part</p>
+<p><span style="font-weight: bold;">PARTS_UDI</span> -   user-defined information about each part</p>
+<p><span style="font-weight: bold;">BOARDS</span>  - information about each item in the board (stock) list</p>
+<p><span style="font-weight: bold;">MATERIALS</span> – information about each material type</p>
+<p><span style="font-weight: bold;">NOTES</span>  - other information for a job</p>
+<p>The ‘post-optimisation’ records are:</p>
+<p><span style="font-weight: bold;">OFFCUTS</span>   - record describing each off-cut produced</p>
+<p><span style="font-weight: bold;">PATTERNS</span>  - pattern header records - one for each cutting pattern</p>
+<p><span style="font-weight: bold;">CUTS</span>   - cutting instructions – occur many times per pattern – once for each cut required</p>
+<p><span style="font-weight: bold;">VECTORS</span> – vector graphics describing the pattern</p>
+<h2> </h2>
+<h2>3. FORMAT</h2>
+<p>The ASCII version of the file uses standard comma-separated format, and has the suffix .PTX (PaTtern eXchange).  The main part of the filename could be the job/order number or batch name if the file contains multiple jobs.</p>
+<p>Examples:-</p>
+<p>01234.PTX                ABC123-1.PTX</p>
+<p>Note that the structure allows for the ASCII file to contain more than 1 cutting list or run if necessary, for example it could contain a batch of runs. Note that there may be restrictions on the file name because some controllers will, for example, only accept 5 digits for the job number.</p>
+<p>All normal CSV format conventions apply, including optional use of quotation marks around text data.  Leading spaces are ignored.  Trailing commas (separators) are not necessary.  Text fields containing commas must be enclosed in quotes, and commas will be replaced by ‘blank’ (ASCII code 32) on import.</p>
+<p>The format and size restrictions for each field are tabulated in section 18.  Note, that the limitations (eg. max length of material code) will vary according to the implementation and specification of the saw.  </p>
+<p>All ‘index numbers’ must be integer values, starting at 1 for the first record, and incrementing consecutively up to the maximum specified.  Note, in particular that all part, board, pattern and cutting records must contain the appropriate job index number showing which job they relate to.</p>
+<p> The Access database version stores each record type in a separate table. The file has the standard extension of MDB.</p>
+<p>Examples:</p>
+<p>01234.MDB                BATCH32.MDB</p>
+<h2> </h2>
+<h2>4.  HEADER - GENERAL INFORMATION</h2>
+<p style="font-weight: bold;">HEADER – VERSION,  TITLE,  UNITS,  ORIGIN,  TRIM_TYPE</p>
+<p>The header record contains descriptive and global information for the job. This record appears as a line in the ASCII file. In the Access database this information will be stored in the database properties.</p>
+<p><span style="font-weight: bold;">VERSION</span> - File version (set to1)</p>
+<p><span style="font-weight: bold;">TITLE</span> - File title</p>
+<p><span style="font-weight: bold;">UNITS</span> - Measurement mode = 0 (metric), 1(decimal inches).</p>
+<p><span style="font-weight: bold;">ORIGIN</span> - This field indicates the origin for the VECTOR drawing records.  The origin for the CUT records is assumed to be 0 (top left).</p>
+<p style="margin-top: 4.5pt; margin-bottom: 4.5pt; margin-left: 40px;">0 = top to bottom - left to right</p>
+<p style="margin-top: 4.5pt; margin-bottom: 4.5pt; margin-left: 40px;">1 =  top to bottom – right to left</p>
+<p style="margin-top: 4.5pt; margin-bottom: 4.5pt; margin-left: 40px;">2 = bottom to top – left to right</p>
+<p style="margin-top: 4.5pt; margin-bottom: 4.5pt; margin-left: 40px;">3 = bottom to top – right to left</p>
+<p><span style="font-weight: bold;">TRIM_TYPE</span>  - Indicates whether the waste strip/piece is cut first or last. That is, is the fixed trim done on the leading edge or as a final trim?   </p>
+<p style="margin-top: 4.5pt; margin-bottom: 4.5pt; margin-left: 40px;">0 = trim waste piece first</p>
+<p style="margin-top: 4.5pt; margin-bottom: 4.5pt; margin-left: 40px;">1 = trim fixed trim first</p>
+<p style="font-weight: bold; text-decoration: underline;">ASCII  &amp; Database examples</p>
+<p>PROPERTIES,1,“This is an example”,0,0,1</p>
+<p>PROPERTIES TABLE</p>
+<table style="vertical-align: top;" cellspacing="1" width="100%" cellpadding="1">
+<colgroup><col style="width: 20%;"/>
+<col style="width: 20%;"/>
+<col style="width: 20%;"/>
+<col style="width: 20%;"/>
+<col style="width: 20%;"/>
+</colgroup><tbody><tr style="vertical-align: top; height: 47px;">
+<td style="border: Solid 1px #000000; width: 20%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">VERSION</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 20%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">TITLE</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 20%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">UNITS</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 20%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">ORIGIN</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 20%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">TRIM_TYPE</p>
+</td>
+</tr>
+<tr style="vertical-align: top; height: 5px;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 20%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">1</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 20%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">This is an example</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 20%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">0</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 20%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">0</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 20%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">1</p>
+</td>
+</tr>
+</tbody></table>
+<h2> </h2>
+<h2>5.  JOBS – JOB RECORD</h2>
+<p style="font-weight: bold;">JOBS, - JOB_INDEX,  NAME,  DESC, ORD_DATE, CUT_DATE, CUSTOMER, STATUS</p>
+<p>This record contains data about each job contained in the file.  These records are optional and in the absence of job records all parts and patterns are assumed to belong to the same job.</p>
+<p><span style="font-weight: bold;">JOB_INDEX</span> - Unique index number used to link other records to an appropriate job</p>
+<p><span style="font-weight: bold;">NAME</span> - Job number/name – reference for job</p>
+<p><span style="font-weight: bold;">DESC</span> - Job description/title - title of job</p>
+<p><span style="font-weight: bold;">ORD_DATE</span> – Date of order  (DD/MM/YYYY)</p>
+<p><span style="font-weight: bold;">CUT_DATE</span> – Date for cutting/delivery (DD/MM/YYYY)</p>
+<p><span style="font-weight: bold;">CUSTOMER</span>  - Customer code or name</p>
+<p><span style="font-weight: bold;">STATUS</span> - Status of the job.</p>
+<p style="margin-top: 4.5pt; margin-bottom: 4.5pt; margin-left: 40px;">0 - not optimised</p>
+<p style="margin-top: 4.5pt; margin-bottom: 4.5pt; margin-left: 40px;">1 - optimised</p>
+<p style="margin-top: 4.5pt; margin-bottom: 4.5pt; margin-left: 40px;">2 - optimise failed</p>
+<p style="margin-top: 4.5pt; margin-bottom: 4.5pt; margin-left: 40px;">Note: there may be a range of other error codes</p>
+<p style="font-weight: bold; text-decoration: underline;">ASCII  &amp; Database examples</p>
+<p>JOBS,1,ORD1234,SAMPLE JOB – CUSTOMER WOODCO,17/01/1999, 22/01/1999,WOODCO,0</p>
+<p>JOBS TABLE</p>
+<table style="vertical-align: top;" cellspacing="1" width="100%" cellpadding="1">
+<colgroup><col style="width: 13.862%;"/>
+<col style="width: 11.946%;"/>
+<col style="width: 49.192%;"/>
+<col style="width: 25%;"/>
+</colgroup><tbody><tr style="vertical-align: top;">
+<td style="border: Solid 1px #000000; width: 13.862%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">JOB_INDEX</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 11.946%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">NAME</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 49.192%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">DESC</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 25%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">DATE</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 13.862%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">1</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 11.946%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">ORD1234</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 49.192%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">SAMPLE JOB - CUSTOMER WOODCO</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 25%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">17/01/1999</p>
+</td>
+</tr>
+</tbody></table>
+<h2> </h2>
+<h2>6.  PARTS_REQ  – PART REQUIREMENT RECORD</h2>
+<p style="font-weight: bold;">PARTS_REQ - JOB_INDEX, PART_ INDEX,  CODE,  MAT_INDEX,  LENGTH,  WIDTH,  QTY_REQ, QTY_OVER, QTY_UNDER,  GRAIN,  QTY_PROD</p>
+<p>This record contains data about each different size (or line item) in the cutting list.  This record is used to provide details about each part (over and above cut sizes).</p>
+<p><span style="font-weight: bold;">JOB_INDEX</span> - Index number used to link this record to other records for this job.</p>
+<p><span style="font-weight: bold;">PART_INDEX</span> - Index number to link this record with other associated part records</p>
+<p><span style="font-weight: bold;">CODE</span> - Part code or description.  </p>
+<p><span style="font-weight: bold;">MAT_INDEX</span> - Index of material used for this part.</p>
+<p><span style="font-weight: bold;">LENGTH</span> - Cut length of part shown in appropriate measurement unit</p>
+<p><span style="font-weight: bold;">WIDTH</span> - Cut length of part shown in appropriate measurement unit</p>
+<p><span style="font-weight: bold;">QTY_REQ</span>  - number of pieces this size</p>
+<p><span style="font-weight: bold;">QTY_OVER</span> - allowed over production</p>
+<p><span style="font-weight: bold;">QTY_UNDER</span> - allowed under production.</p>
+<p><span style="font-weight: bold;">GRAIN</span> - 0=No grain/part can be rotated, 1 = grain/part cannot be rotated.</p>
+<p><span style="font-weight: bold;">QTY_PROD</span> -  quantity of parts produced by patterns</p>
+<p style="font-weight: bold; text-decoration: underline;"> </p>
+<p style="font-weight: bold; text-decoration: underline;">ASCII  &amp; Database examples</p>
+<p>PARTS_REQ,1,1,SD900X,1,890.0,645.5,50,0,2,0,50</p>
+<p>PARTS-REQ TABLE</p>
+<table style="vertical-align: top;" cellspacing="1" width="100%" cellpadding="1">
+<colgroup><col style="width: 14.286%;"/>
+<col style="width: 14.286%;"/>
+<col style="width: 14.286%;"/>
+<col style="width: 14.286%;"/>
+<col style="width: 14.286%;"/>
+<col style="width: 14.286%;"/>
+<col style="width: 14.286%;"/>
+</colgroup><tbody><tr style="vertical-align: top;">
+<td style="border: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">JOB_INDEX</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">PART_INDEX</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">CODE</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">MAT_INDEX</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">LENGTH</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">WIDTH</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">.....</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">1</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">1</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">SD900X</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">1</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">890.0</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">645.5</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">.....</p>
+</td>
+</tr>
+</tbody></table>
+<h2> </h2>
+<h2>7.   PARTS_INF – STANDARD PART INFO RECORD</h2>
+<p style="font-weight: bold;">PARTS_INF - JOB_INDEX,  PART_INDEX,  DESC,  LABEL_QTY,  FIN_LENGTH,  FIN_WIDTH,  ORDER,   EDGE1,  EDGE2,  EDGE3,  EDGE4, EDG_PG1, EDG_PG2, EDG_PG3, EDG_PG4, FACE_LAM,  BACK_LAM,  CORE_MAT, PALLET, DRAWING,  PRODUCT,  PROD_INFO,  PROD_WIDTH,  PROD_HGT, PROD_DEPTH, PROD_NUM, ROOM, BARCODE1, BARCODE2</p>
+<p>This optional record contains standard information about each different size (or line item) in the cutting list. One use of this record is to hold data for label printing.</p>
+<p><span style="font-weight: bold;">JOB_INDEX</span> - Index number used to link this record to other records for this job.</p>
+<p><span style="font-weight: bold;">PART_INDEX</span> - Index number linking this record with other part records.</p>
+<p><span style="font-weight: bold;">DESC</span> - A second part description</p>
+<p><span style="font-weight: bold;">LABEL_QTY</span> - Number of copies of the label for this part.</p>
+<p style="margin-top: 4.5pt; margin-bottom: 4.5pt; margin-left: 40px;">0 = no labels for this part</p>
+<p style="margin-top: 4.5pt; margin-bottom: 4.5pt; margin-left: 40px;">default if not specified =1</p>
+<p><span style="font-weight: bold;">FIN_LENGTH</span> - Length of part after edging and trimming</p>
+<p><span style="font-weight: bold;">FIN_WIDTH</span> - Width of part after edging and trimming</p>
+<p><span style="font-weight: bold;">ORDER</span> - Original order/job/work number which part relates to</p>
+<p><span style="font-weight: bold;">EDGE1</span> - Code or description of edging for bottom (length) edge</p>
+<p><span style="font-weight: bold;">EDGE2</span> - Code or description of edging for top (length) edge</p>
+<p><span style="font-weight: bold;">EDGE3</span> - Code or description of edging for left (width) edge</p>
+<p><span style="font-weight: bold;">EDGE4</span> - Code or description of edging for right (width) edge</p>
+<p><span style="font-weight: bold;">EDG_PG1</span> – Program or operation code for bottom (length) edge</p>
+<p><span style="font-weight: bold;">EDG_PG2</span> - Program or operation code for top (length) edge</p>
+<p><span style="font-weight: bold;">EDG_PG3</span> - Program or operation code left (width) edge</p>
+<p><span style="font-weight: bold;">EDG_PG4</span> - Program or operation code for right (width) edge</p>
+<p><span style="font-weight: bold;">FACE_LAM</span> - Code/description of laminate material for face (topside) of part</p>
+<p><span style="font-weight: bold;">BACK_LAM</span> - Code /description of laminate material for back (underside) of part</p>
+<p><span style="font-weight: bold;">CORE_MAT</span> - Code or description of core material</p>
+<p><span style="font-weight: bold;">PALLET</span> – Pallet layout (stacks in length and width)</p>
+<p><span style="font-weight: bold;">DRAWING</span> - Name of drawing file, drill program or CNC program for machine centre</p>
+<p><span style="font-weight: bold;">PRODUCT</span> - Product or cabinet code or template name to which part belongs</p>
+<p><span style="font-weight: bold;">PROD_INFO</span> - Description of product or cabinet</p>
+<p><span style="font-weight: bold;">PROD_WIDTH</span> - External dimension of product or cabinet</p>
+<p><span style="font-weight: bold;">PROD_HGT</span> - External dimension of product or cabinet</p>
+<p><span style="font-weight: bold;">PROD_DEPTH</span> - External dimension of product or cabinet</p>
+<p><span style="font-weight: bold;">PROD_NUM</span> - Item number of cabinet in room</p>
+<p><span style="font-weight: bold;">ROOM</span> - Room or floor or group item number for cabinet</p>
+<p><span style="font-weight: bold;">BARCODE1</span> - data for 1st barcode – as text string</p>
+<p><span style="font-weight: bold;">BARCODE2</span> - data for second bar code – as text string</p>
+<p> </p>
+<p style="font-weight: bold; text-decoration: underline;">ASCII  &amp; Database examples</p>
+<p>PARTS_INF,1,2,BOTTOM,1,690.0,475.0,ORD1234,GREY-1MMPVC,,</p>
+<p>GREY-1MMPVC,,GREYLAM,GREYLAM,MDF18,BU-SIDE-CNC,BU4DW,</p>
+<p>4 Dwr Base Unit, 600.0, 890.0, 570.0,1,1,0690004750, 0012301</p>
+<p>PARTS-INF TABLE</p>
+<table style="vertical-align: top;" cellspacing="1" width="100%" cellpadding="1">
+<colgroup><col style="width: 14.286%;"/>
+<col style="width: 14.286%;"/>
+<col style="width: 14.286%;"/>
+<col style="width: 14.286%;"/>
+<col style="width: 14.286%;"/>
+<col style="width: 14.286%;"/>
+<col style="width: 14.286%;"/>
+</colgroup><tbody><tr style="vertical-align: top;">
+<td style="border: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">JOB_INDEX</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">PART_INDEX</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">DESC</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">LABEL_QTY</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">FIN_LENGTH</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">FIN_WIDTH</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">.....</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">1</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">2</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">BOTTOM</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">1</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">690.0</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">475.0</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">.....</p>
+</td>
+</tr>
+</tbody></table>
+<h2> </h2>
+<h2>8.   PARTS_UDI - USER DEFINED PART INFO RECORD</h2>
+<p style="font-weight: bold;">PARTS_UDI - JOB_INDEX,  PART_INDEX,  INFO1,  INFO2, ….  INFO30</p>
+<p>This optional record contains user-defined information about each different size (or line item) in the cutting list. One use of this data is for label printing.</p>
+<p><span style="font-weight: bold;">JOB_INDEX</span> - Index number used to link this record to other records for this job.</p>
+<p><span style="font-weight: bold;">PART_INDEX</span> - Index number linking this record with other part records</p>
+<p style="font-weight: bold;">INFO<span style="font-style: italic;">n</span></p>
+<p>There are up to 30 information fields. The name of each field is INFO followed by the field number. The fields may be used for any purpose such as customer details, dates, CNC operations, and other items not included in the other part records.</p>
+<p> </p>
+<p style="font-weight: bold; text-decoration: underline;">ASCII  &amp; Database examples</p>
+<p>PARTS-UDI,1,3,CNC84,Smith &amp; Co,20-APR-1999</p>
+<p>PARTS-UDI TABLE</p>
+<table style="vertical-align: top;" cellspacing="1" width="100%" cellpadding="1">
+<colgroup><col style="width: 14.286%;"/>
+<col style="width: 14.286%;"/>
+<col style="width: 14.286%;"/>
+<col style="width: 14.286%;"/>
+<col style="width: 16.607%;"/>
+<col style="width: 11.817%;"/>
+<col style="width: 14.286%;"/>
+</colgroup><tbody><tr style="vertical-align: top;">
+<td style="border: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">JOB_INDEX</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">PART_INDEX</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">INFO1</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">INFO2</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 16.607%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">INFO3</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 11.817%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">INFO4</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">.....</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">1</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">3</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">CNC84</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">Smith &amp; Co</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 16.607%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">20-APR-1999</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 11.817%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;"> </p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">.....</p>
+</td>
+</tr>
+</tbody></table>
+<h2> </h2>
+<h2>9.  BOARDS – BOARD RECORD</h2>
+<p style="font-weight: bold;">BOARDS - JOB_INDEX, BRD_INDEX,  CODE, MAT_INDEX,  LENGTH,  WIDTH,  QTY_STOCK,  QTY_USED,  COST, STK_FLAG</p>
+<p>These records contain details of the board/sheet sizes to be used; one record for each different size/material.  </p>
+<p><span style="font-weight: bold;">JOB_INDEX</span> - Index number used to link this record to other records for this job.</p>
+<p><span style="font-weight: bold;">BRD_INDEX</span> - index number linking this record with the <span style="font-weight: bold;">PATTERNS</span> records for this job.</p>
+<p><span style="font-weight: bold;">CODE</span> – Board code - usually the stock code for the sheet size.</p>
+<p><span style="font-weight: bold;">MAT_INDEX</span> - Index of material used for this part.</p>
+<p><span style="font-weight: bold;">LENGTH</span> - Size of sheet in appropriate measurement unit.</p>
+<p><span style="font-weight: bold;">WIDTH</span> - Size of sheet in appropriate measurement unit.</p>
+<p><span style="font-weight: bold;">QTY_STOCK</span> - Total number of sheets available  – default 99999 (0=none)</p>
+<p><span style="font-weight: bold;">QTY_USED</span> - Total number of sheets this size used in patterns</p>
+<p><span style="font-weight: bold;">COST</span> - Cost per sq. metre or sq. foot according to measurement unit</p>
+<p><span style="font-weight: bold;">STK_FLAG</span> – Flag to indicate action if insufficient stock</p>
+<p> </p>
+<p style="font-weight: bold; text-decoration: underline;">ASCII  &amp; Database examples</p>
+<p>BOARDS,1,1,WLAM15MM-1,1,2550.0,1525.0,100, 7, 8.50,0</p>
+<p>BOARDS TABLE</p>
+<table style="vertical-align: top;" cellspacing="1" width="100%" cellpadding="1">
+<colgroup><col style="width: 13.533%;"/>
+<col style="width: 14.251%;"/>
+<col style="width: 15.707%;"/>
+<col style="width: 13.653%;"/>
+<col style="width: 14.286%;"/>
+<col style="width: 14.286%;"/>
+<col style="width: 14.286%;"/>
+</colgroup><tbody><tr style="vertical-align: top;">
+<td style="border: Solid 1px #000000; width: 13.533%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">JOB_INDEX</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.251%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;"> BRD_INDEX</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 15.707%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">CODE</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 13.653%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">MAT_INDEX</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">LENGTH</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">WIDTH</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">.....</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 13.533%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">1</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.251%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">1</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 15.707%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">WLAM15MM-1</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 13.653%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">1</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">2550.0</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">1525.0</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">.....</p>
+</td>
+</tr>
+</tbody></table>
+<h2> </h2>
+<h2>10.   MATERIALS – MATERIAL RECORDS</h2>
+<p style="font-weight: bold;">MATERIALS - JOB_INDEX,  MAT_INDEX,  CODE,  DESC,  THICK,  BOOK,  KERF_RIP,  KERF_XCT,  TRIM_FRIP,  TRIM_VRIP,  TRIM_FXCT,  TRIM_VXCT,  TRIM_HEAD,  TRIM_FRCT, TRIM_VRCT,  RULE1,  RULE2,  RULE3,  RULE4</p>
+<p>These records define the different material types. There should be a least one of these records in data structure. This record is used to pass a detailed material description, the thickness and other parameters which may vary according to material type.</p>
+<p><span style="font-weight: bold;">JOB_INDEX</span> - Index number used to link this record to other records for this job.</p>
+<p><span style="font-weight: bold;">MAT_INDEX</span> - Unique index of material used to link this record to other records</p>
+<p><span style="font-weight: bold;">CODE</span> – Material code</p>
+<p><span style="font-weight: bold;">DESC</span> - Material description</p>
+<p><span style="font-weight: bold;">THICK</span> - Material thickness in appropriate measurement mode</p>
+<p><span style="font-weight: bold;">BOOK</span> - Max sheets per book, reflects cutting height of saw</p>
+<p><span style="font-weight: bold;">KERF_RIP</span> - Rip saw kerf – in unit of measurement</p>
+<p><span style="font-weight: bold;">KERF_XCT</span> - Crosscut saw kerf – in unit of measurement</p>
+<p><span style="font-weight: bold;">TRIM_FRIP</span> - Fixed rip trim <span style="font-weight: bold;">(Rear)</span> – includes saw kerf – amount sheet size is reduced by</p>
+<p><span style="font-weight: bold;">TRIM_VRIP</span> - Minimum variable rip trim <span style="font-weight: bold;">(Front)</span> – includes saw kerf  </p>
+<p><span style="font-weight: bold;">TRIM_FXCT</span> - Fixed crosscut trim <span style="font-weight: bold;">(Rear)</span> – includes saw kerf</p>
+<p><span style="font-weight: bold;">TRIM_VXCT</span> - Minimum variable cross cut trim <span style="font-weight: bold;">(Front)</span> – includes saw kerf</p>
+<p><span style="font-weight: bold;">TRIM_HEAD</span> - Internal head cut trim – includes saw kerf</p>
+<p><span style="font-weight: bold;">TRIM_FRCT</span> - Fixed recut trim <span style="font-weight: bold;">(Rear)</span> – includes saw kerf</p>
+<p><span style="font-weight: bold;">TRIM_VRCT</span> - Minimum variable recut trim <span style="font-weight: bold;">(Front)</span> – includes saw kerf</p>
+<p><span style="font-weight: bold;">RULE1</span> - Optimisation rule 1 – cut nesting limit – 1 to 9 (e.g. 3 = allow third phase recuts)</p>
+<p><span style="font-weight: bold;">RULE2</span> - Optimisation rule 2 – head cuts allowed  (0=No, 1 =Yes)</p>
+<p><span style="font-weight: bold;">RULE3</span> - Optimisation rule 3 – board rotation allowed (short rip) (0=No, 1=Yes)</p>
+<p><span style="font-weight: bold;">RULE4</span> - Optimisation rule 4 – show separate patterns for duplicate parts (0=No 1=Yes)</p>
+<p>The saw kerf and trims are optional.   Note that it is assumed that one of the two rip trims will be constant and the other rip trim includes the waste strip.  Either  (a) the leading edge is trimmed and the waste strip comes out last, or (b) the waste strip is removed by the first rip and the last rip is a constant trim.  This assumption also applies to cross cut trims and recut trims.</p>
+<p> </p>
+<p style="font-weight: bold; text-decoration: underline;">ASCII  &amp; Database examples</p>
+<p>MAT,1,1,WHITE18,“White laminate -chipboard18mm”,18,4,4.8,4.8,10,10,8,8,8,8,8,</p>
+<p>4,1,1,1</p>
+<p>MATERIALS TABLE</p>
+<table style="vertical-align: top;" cellspacing="1" width="100%" cellpadding="1">
+<colgroup><col style="width: 13.533%;"/>
+<col style="width: 13.653%;"/>
+<col style="width: 10.898%;"/>
+<col style="width: 33.551%;"/>
+<col style="width: 12.165%;"/>
+<col style="width: 8.503%;"/>
+<col style="width: 7.697%;"/>
+</colgroup><tbody><tr style="vertical-align: top;">
+<td style="border: Solid 1px #000000; width: 13.533%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">JOB_INDEX</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 13.653%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">MAT_INDEX</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 10.898%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">CODE</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 33.551%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">DESC</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 12.165%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">THICK</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 8.503%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">BOOK</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 7.697%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">.....</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 13.533%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">1</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 13.653%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">1</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 10.898%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">WHITE18</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 33.551%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">White Laminate - chipboard 18mm</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 12.165%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">18</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 8.503%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">4</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 7.697%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">.....</p>
+</td>
+</tr>
+</tbody></table>
+<h2> </h2>
+<h2>11.  NOTES - NOTE RECORDS</h2>
+<p style="font-weight: bold;">NOTES - JOB_INDEX,  NOTES_INDEX,  TEXT</p>
+<p>This record is optional and holds any messages or notes that need to be associated with a job, for example customer details, special instructions, etc, or any details that are job related rather than part or material related.  As many lines as required can be stored for each job.</p>
+<p><span style="font-weight: bold;">JOB_INDEX</span> - index linking note to job</p>
+<p><span style="font-weight: bold;">NOTES_INDEX</span> - index storing order of notes</p>
+<p><span style="font-weight: bold;">TEXT</span> - text of note - Maximum  length of text field is 250 characters.</p>
+<p> </p>
+<p style="font-weight: bold; text-decoration: underline;">ASCII  &amp; Database examples</p>
+<p>NOTES,1,1,”Customer ref. A1234-0987 – Smith &amp; Jones Cabinets”</p>
+<p>NOTES TABLE</p>
+<table style="vertical-align: top;" cellspacing="1" width="100%" cellpadding="1">
+<colgroup><col style="width: 13.533%;"/>
+<col style="width: 16.168%;"/>
+<col style="width: 70.299%;"/>
+</colgroup><tbody><tr style="vertical-align: top;">
+<td style="border: Solid 1px #000000; width: 13.533%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">JOB_INDEX</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 16.168%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">NOTES_INDEX</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 70.299%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">TEXT</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 13.533%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">1</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 16.168%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">1</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 70.299%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">Customer ref. A1234-0987 - Smith &amp; Jones Cabinets</p>
+</td>
+</tr>
+</tbody></table>
+<h2> </h2>
+<h2>12.  OFFCUTS – RECORDS FOR OFF-CUTS</h2>
+<p style="font-weight: bold;">OFFCUTS - JOB_INDEX,  OFC_INDEX,  CODE, MAT_INDEX,  LENGTH,  WIDTH, OFC_QTY</p>
+<p>This record is optional and can occur once for each different off-cut size per material created by the cutting patterns.   </p>
+<p><span style="font-weight: bold;">JOB_INDEX</span> - Index number used to link this record to other records for this job.</p>
+<p><span style="font-weight: bold;">OFC_INDEX</span> - Unique index number of offcut used to link this record to the CUT record.</p>
+<p><span style="font-weight: bold;">CODE</span> - Offcut code or description -  used to identify offcut.</p>
+<p><span style="font-weight: bold;">MAT_INDEX</span> - Index of material used for this offcut. Enables offcuts of similar material composition, thickness and colour, but different size to be grouped together.</p>
+<p><span style="font-weight: bold;">LENGTH</span> - Length of offcut in appropriate measurement unit</p>
+<p><span style="font-weight: bold;">WIDTH</span> - Width of offcut in appropriate measurement unit</p>
+<p><span style="font-weight: bold;">OFC_QTY</span> – Quantity of this size produced</p>
+<p> </p>
+<p style="font-weight: bold; text-decoration: underline;">ASCII  &amp; Database examples</p>
+<p>OFFCUT,1,1,WHITE15-123,2,1450.0, 425.0,1</p>
+<p>OFFCUT TABLE</p>
+<table style="vertical-align: top;" cellspacing="1" width="100%" cellpadding="1">
+<colgroup><col style="width: 14.286%;"/>
+<col style="width: 14.286%;"/>
+<col style="width: 20.993%;"/>
+<col style="width: 14.166%;"/>
+<col style="width: 13.567%;"/>
+<col style="width: 13.927%;"/>
+<col style="width: 8.775%;"/>
+</colgroup><tbody><tr style="vertical-align: top;">
+<td style="border: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">JOB_INDEX</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">OFC_INDEX</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 20.993%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">CODE</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.166%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">MAT_INDEX</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 13.567%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">LENGTH</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 13.927%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">WIDTH</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 8.775%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">.....</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">1</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">1</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 20.993%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">WHITE15-123</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.166%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">2</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 13.567%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">1450.0</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 13.927%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">425.0</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 8.775%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">.....</p>
+</td>
+</tr>
+</tbody></table>
+<h2> </h2>
+<h2>13.  PATTERNS – PATTERN RECORDS</h2>
+<p style="font-weight: bold;">PATTERNS - JOB_INDEX,  PTN_INDEX,  BRD_INDEX,  TYPE,  QTY_RUN, CYCLES, MAX _BOOK,  PICTURE</p>
+<p>This record occurs once per pattern. It is used to describe header detail for the pattern, such as board size used, number of sheets to be cut etc.</p>
+<p><span style="font-weight: bold;">JOB_INDEX</span> - Index number used to link this record to other records for this job.</p>
+<p><span style="font-weight: bold;">PTN_INDEX</span> - Sequential number incrementing by 1 for each pattern record for each job.</p>
+<p><span style="font-weight: bold;">BRD_INDEX</span> - Index number from the Boards records.</p>
+<p><span style="font-weight: bold;">TYPE</span> - determines the direction of the first cut, and the type of pattern</p>
+<p style="margin-top: 4.5pt; margin-bottom: 4.5pt; margin-left: 40px;">0 = rip length  first – non-head cut pattern</p>
+<p style="margin-top: 4.5pt; margin-bottom: 4.5pt; margin-left: 40px;">1 = turn board before ripping - non-head cut pattern</p>
+<p style="margin-top: 4.5pt; margin-bottom: 4.5pt; margin-left: 40px;">2 = head cut pattern – head cut across width</p>
+<p style="margin-top: 4.5pt; margin-bottom: 4.5pt; margin-left: 40px;">3 = head cut pattern – head cut along length</p>
+<p style="margin-top: 4.5pt; margin-bottom: 4.5pt; margin-left: 40px;">4 = crosscut only</p>
+<p><span style="font-weight: bold;">QTY_RUN</span> - Run quantity  – number of sheets to be cut to this pattern</p>
+<p><span style="font-weight: bold;">QTY_CYCLES</span>  - Number of cycles or books</p>
+<p><span style="font-weight: bold;">MAX_BOOK</span> – Maximum number of sheets per book (cutting height)</p>
+<p><span style="font-weight: bold;">PICTURE</span> –  Name of file containing picture of cutting pattern</p>
+<p> </p>
+<p style="font-weight: bold; text-decoration: underline;">ASCII  &amp; Database examples</p>
+<p>PATTERNS,1,1,2,0,20,4,5,“Pattern1”</p>
+<p>PATTERNS TABLE</p>
+<table style="vertical-align: top;" cellspacing="1" width="100%" cellpadding="1">
+<colgroup><col style="width: 16.667%;"/>
+<col style="width: 16.667%;"/>
+<col style="width: 16.667%;"/>
+<col style="width: 16.667%;"/>
+<col style="width: 16.667%;"/>
+<col style="width: 16.667%;"/>
+</colgroup><tbody><tr style="vertical-align: top;">
+<td style="border: Solid 1px #000000; width: 16.667%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">JOB_INDEX</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 16.667%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">PTN_INDEX</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 16.667%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">BRD_INDEX</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 16.667%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">TYPE</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 16.667%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">QTY_RUN</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 16.667%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">QTY_CYCLES</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 16.667%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">1</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 16.667%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">1</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 16.667%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">2</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 16.667%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">0</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 16.667%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">20</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 16.667%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">4</p>
+</td>
+</tr>
+</tbody></table>
+<h2> </h2>
+<h2>14.   CUTS - CUTTING INSTRUCTIONS</h2>
+<p style="font-weight: bold;">CUTS - JOB_INDEX,  PTN_INDEX,  CUT_INDEX,  SEQUENCE,  FUNCTION,  DIMENSION,  QTY_RPT,  PART_INDEX,  QTY_PART,  COMMENT</p>
+<p>These records define each cut for the saw and determine the parts produced by each cut. This is used, for example, so that the correct labels can be printed at the saw in synchronisation with the cutting.</p>
+<p><span style="font-weight: bold;">JOB_INDEX</span> - Index number used to link this record to other records for this job.</p>
+<p><span style="font-weight: bold;">PTN_INDEX</span> - Index number used to link this record with pattern records</p>
+<p><span style="font-weight: bold;">CUT_INDEX</span> - Sequential index number incrementing by 1 for each cut</p>
+<p>record for each job</p>
+<p><span style="font-weight: bold;">SEQUENCE</span> - Cut sequence number indicating order in which cuts are processed by saw</p>
+<p><span style="font-weight: bold;">FUNCTION</span> - The type of cut:</p>
+<p style="margin-top: 4.5pt; margin-bottom: 4.5pt; margin-left: 40px;">0 = head cut</p>
+<p style="margin-top: 4.5pt; margin-bottom: 4.5pt; margin-left: 40px;">1 = rip cut</p>
+<p style="margin-top: 4.5pt; margin-bottom: 4.5pt; margin-left: 40px;">2 = cross cut</p>
+<p style="margin-top: 4.5pt; margin-bottom: 4.5pt; margin-left: 40px;">3 = 3rd phase / recut</p>
+<p style="margin-top: 4.5pt; margin-bottom: 4.5pt; margin-left: 40px;">4 = 4th phase /recut</p>
+<p style="margin-top: 4.5pt; margin-bottom: 4.5pt; margin-left: 40px;">90,91,92,93 = trim / waste cut corresponding to phase of cut (to override defaults)</p>
+<p><span style="font-weight: bold;">DIMENSION</span>  - The size of cut in measurement units</p>
+<p><span style="font-weight: bold;">QTY_RPT</span> - The repeat quantity for this cut</p>
+<p><span style="font-weight: bold;">PART_INDEX</span> - 0 if no part produced or part index number in part or offcut records</p>
+<p><span style="font-weight: bold;">QTY_PARTS</span>  - Quantity of this part produced by this cut for all cycles of this pattern.</p>
+<p><span style="font-weight: bold;">COMMENT</span> - optional field to store narrative about the cut instruction</p>
+<p style="font-weight: bold; text-decoration: underline;"> </p>
+<p style="font-weight: bold; text-decoration: underline;">Some points about the cut record</p>
+<p>Note that some cuts produce several parts with different item numbers because although the parts may have the same size they will be labelled uniquely. This can occur when cutting multiple sheets in a book where the parts on different have different item numbers or where a crosscut of two strips side-by-side may produce parts with different identities.</p>
+<p>The Sequence number allows definition of different parts in stack produced from same cut.  Note, the cuts are not listed in cut sequence because it is necessary to nest the 2nd, 3rd and later phase cuts.  The SEQUENCE number is optional, and if not given then the cutting sequence should be determined by the saw or a post-processor.</p>
+<p>The PART_INDEX (if not 0) points to the PARTS_REQ records of relevant part or ‘X’ + OFC_INDEX in OFFCUTS records.</p>
+<p>The QTY_PARTS field allows for the display of the correct part quantities for duplicate parts.  In a pattern with run quantity 20, and cut 6 sheets at a time, then there will be 4 cycles or books (3 with 6 sheets and 1 with 2 sheets).  Say the first part in the top left corner is a mixture of 14 parts item 1, and 6 parts item 2.  The first book at the appropriate cut will produce quantity 6 labels of item 1, the second book also 6 of 1, the third book will produce 2 labels of item1 and 4 of item 2, and the last book will give 2 of item 2.  In this example, the CUTS records would show two cut lines, item 1 quantity 14, and item 2 quantity 6. The saw takes care of counting the cycles.</p>
+<p>Note that the Sequence number will increment by the repeat quantity for that cut.  In example below, CUTS 1,1,2 has repeat 3, indicating three cuts, so sequence number 4 implies 4/5/6 and the next sequence number is incremented by 3.  </p>
+<p style="font-weight: bold; text-decoration: underline;"> </p>
+<p style="font-weight: bold; text-decoration: underline;">ASCII  &amp; database example</p>
+<p>Notes in [] are for information only and not part of the file.</p>
+<p>CUTS,1,1,1,1,1,500.0,2,0,0,”Job 1 - Ptn 1 – Rip”                <span style="font-style: italic;">[rip 2 strips 500 wide]</span></p>
+<p>CUTS,1,1,2,4,2,800.0,3,1,14 <span style="font-style: italic;">[crosscut 500 strips at 800mm x3 &gt;part 1 qty 14]</span></p>
+<p>CUTS,1,1,3,4,2,  0.0,0,2,6                                                        <span style="font-style: italic;">[and part 2  x qty 6]</span></p>
+<p>CUTS,1,1,4,3,1,200.0,1,0,0,”Rip”                                  <span style="font-style: italic;">[rip 1 strip 200mm wide]</span></p>
+<p>CUTS,1,1,5,7,2,1400.0,1,8,20             <span style="font-style: italic;">[crosscut at 1400mm producing part 8]</span></p>
+<p>CUTS,1,1,6,7,2,     0,0,X3,20                                                             <span style="font-style: italic;">and offcut 3]</span></p>
+<p>CUTS TABLE</p>
+<table style="vertical-align: top;" cellspacing="1" width="100%" cellpadding="1">
+<colgroup><col style="width: 14.286%;"/>
+<col style="width: 14.286%;"/>
+<col style="width: 14.286%;"/>
+<col style="width: 14.286%;"/>
+<col style="width: 14.286%;"/>
+<col style="width: 14.286%;"/>
+<col style="width: 14.286%;"/>
+</colgroup><tbody><tr style="vertical-align: top;">
+<td style="border: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">JOB_INDEX</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">PTN_INDEX</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">CUT_INDEX</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">SEQUENCE</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">FUNCTION</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">DIMENSION</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">.....</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">1</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">1</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">1</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">1</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">1</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">500.0</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">.....</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">1</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">1</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">2</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">4</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">2</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">800.0</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">.....</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">1</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">1</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">3</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">4</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">2</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">0.0</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">.....</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">1</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">1</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">4</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">3</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">1</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">200.0</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">.....</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">1</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">1</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">5</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">7</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">2</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">1400.0</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">.....</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">1</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">1</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">6</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">7</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">2</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">0.0</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">.....</p>
+</td>
+</tr>
+</tbody></table>
+<h2> </h2>
+<h2>15.  VECTORS - INSTRUCTIONS FOR PATTERN DRAWING</h2>
+<p style="font-weight: bold;">VECTORS - JOB_INDEX,  PTN_INDEX,  CUT_INDEX,  X_START,  Y_START,  X_END,  Y_END</p>
+<p>This table holds an optional description of the pattern as a set of vectors.  </p>
+<p><span style="font-weight: bold;">JOB_INDEX</span> - Index number used to link this record to other records for this job</p>
+<p><span style="font-weight: bold;">PTN_INDEX</span> - This is an index number used to link this to the PATTERN record</p>
+<p><span style="font-weight: bold;">CUT_INDEX</span> - This is an index number to relate the vector to the CUT record</p>
+<p><span style="font-weight: bold;">X_START</span> - Start co-ordinate of cut in X (always positive)</p>
+<p><span style="font-weight: bold;">Y_START</span> - Start co-ordinate of cut in Y (  “  )</p>
+<p><span style="font-weight: bold;">X_END</span> - Start co-ordinate of cut in X  (  “ )</p>
+<p><span style="font-weight: bold;">Y_END</span> - Start co-ordinate of cut in Y  (  “ )</p>
+<p>The origin of the drawing is defined in the HEADER record.  The x and y positions specify the distance to include the saw kerf, away from origin.   So, a 10 mm trim would result in a vector at x=10, where if saw kerf is 4.5, then waste removed is 5.5.  The position for cuts producing parts must include all saw kerfs.   Note, that unlike the CUT records where all dimensions are relative, in these records all dimensions are absolute values.</p>
+<p>ASCII  &amp; Database examples</p>
+<p style="font-style: italic;">Notes in [] are for information only and not part of the file.</p>
+<p>VECTORS, 1, 1, 1, 0.0,0.0,3660.0,10.0</p>
+<p>VECTORS, 1, 1, 2, 0.0, 315.0,3660.0, 315.0 <span style="font-style: italic;">[rip  300 wide strip - note absolute dimension]</span></p>
+<p>VECTORS, 1, 1, 5,5.2,10.0,10.0,315.0</p>
+<p>VECTORS TABLE</p>
+<p>      </p>
+<table style="vertical-align: top;" cellspacing="1" width="100%" cellpadding="1">
+<colgroup><col style="width: 14.286%;"/>
+<col style="width: 14.286%;"/>
+<col style="width: 14.286%;"/>
+<col style="width: 14.286%;"/>
+<col style="width: 14.286%;"/>
+<col style="width: 14.286%;"/>
+<col style="width: 14.286%;"/>
+</colgroup><tbody><tr style="vertical-align: top;">
+<td style="border: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">JOB_INDEX</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="font-weight: bold;">PTN_INDEX</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="font-weight: bold;">CUT_INDEX</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">X_START</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">Y_START</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">X_END</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center; font-weight: bold;">Y_END</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">1</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">1</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">1</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">0.0</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">0.0</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">3660.0</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">10.0</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">1</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">1</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">2</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">0.0</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">315.0</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">3660.0</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">315.0</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">1</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">1</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">5</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">5.2</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">10.0</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">10.0</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 14.286%; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: center;">315.0</p>
+</td>
+</tr>
+</tbody></table>
+<h2> </h2>
+<h2>16.  EXAMPLE OF PATTERN EXCHANGE STRUCTURE</h2>
+<p>The following example relates to example order batch A123 containing one job number 00011 comprising 6 sample patterns for which printouts are included.  The patterns are designed to show a variety of different cutting situations in as few patterns as possible, and therefore are unusual and non-optimal rather than typical examples. Text in italics enclosed in square brackets[] is for information only. The fields have been spaced out for ease of reading.</p>
+<p style="font-style: italic;">Notes in [] are for information only and not part of the file.</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">Filename = A123.PTX</p>
+<p style="font-style: italic; margin-top: 0pt; margin-bottom: 0pt;"> </p>
+<p style="font-style: italic; margin-top: 0pt; margin-bottom: 0pt;">[file starts with  header  record]</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">HEADER,1,“This is a sample PTX file for batch A123”,0,0,1</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;"> </p>
+<p style="font-style: italic; margin-top: 0pt; margin-bottom: 0pt;">[version1,   millimetres,…     …top-to-bottom, fixed first trim]</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">JOBS,1,00010,”Example run 10”,,,,1</p>
+<p style="font-style: italic; margin-top: 0pt; margin-bottom: 0pt;"> </p>
+<p style="font-style: italic; margin-top: 0pt; margin-bottom: 0pt;">[data for parts – would also include data for label]</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">PARTS_REQ,1,1,P1,1, 1200.0, 725.0, 9,0,0,0,9</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">PARTS_REQ,1,2,P2,1, 1200.0, 725.0, 8,0,0,0,8</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">PARTS_REQ,1,3,P3,1, 1272.6, 600.0, 7,0,0,0,7</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">PARTS_REQ,1,4,P4,1,  790.0, 450.0, 4,0,0,0,4</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">PARTS_REQ,1,5,P5,1,  580.0, 200.0,20,2,0,0,22</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">PARTS_REQ,1,6,P6,2, 1400.0, 300.0, 5,0,0,0,5</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">PARTS_REQ,1,7,P7,2,  650.0, 275.0,14,0,0,0,14</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">PARTS_REQ,1,8,P8,2,  480.0, 230.0,20,5,0,0,23</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">PARTS_REQ,1,9,P9,1,  600.0, 200.0, 7,0,0,0,7</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">PARTS_REQ,1,10,P10,2,480.0, 400.0, 3,0,0,0,3</p>
+<p style="font-style: italic; margin-top: 0pt; margin-bottom: 0pt;"> </p>
+<p style="font-style: italic; margin-top: 0pt; margin-bottom: 0pt;">[data for board (sheet) sizes]</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">BOARDS,1,1,WHLAM15MM-1, 1, 2550.0,  1525.0, 436,  6, 2.540,0</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">BOARDS,1,2,WHLAM15MM-2, 1, 3050.0,  1830.0, 178,  1, 2.430,0</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">BOARDS,1,3,MDF18-97,    2, 2440.0,  1220.0, 371,  3, 4.320,0</p>
+<p style="font-style: italic; margin-top: 0pt; margin-bottom: 0pt;"> </p>
+<p style="font-style: italic; margin-top: 0pt; margin-bottom: 0pt;">[definition of materials]</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">MATERIALS,1,1,WHITE15, “White laminated chipboard 15mm”, 15.0, 4,</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">4.8, 4.8, 10.0, 10.0, 10.0, 10.0, 8.0, 8.0, 8.0, 4, 1, 1, 0</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">MATERIALS,1,2,MDF18,   “Medium density fibreboard 18mm”, 18.0, 3,  </p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">4.8, 4.8, 10.0, 10.0, 10.0, 10.0, 8.0, 8.0, 8.0, 4, 1, 1, 0</p>
+<p style="font-style: italic; margin-top: 0pt; margin-bottom: 0pt;"> </p>
+<p style="font-style: italic; margin-top: 0pt; margin-bottom: 0pt;">[data for off-cut sizes]</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">OFFCUTS,1,1, X00010/0001,1,1830.0,621.0,1</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">OFFCUTS,1,2, X00010/0002,1,1110.4,450.0,1</p>
+<p style="font-style: italic; margin-top: 0pt; margin-bottom: 0pt;"> </p>
+<p style="font-style: italic; margin-top: 0pt; margin-bottom: 0pt;">[patterns]</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">PATTERNS,1,1,1,0,2,1,2    <span style="font-style: italic;">[Job 1, Pattern 1, Board 1, Long rip, Qty 2]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">PATTERNS,1,2,1,1,3,1,3    <span style="font-style: italic;">[Job 1, Pattern 2, Board 1, Short rip, Qty 3]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">PATTERNS,1,3,1,0,1,1,1    <span style="font-style: italic;">[Job 1, Pattern 3, Board 1, Long rip, Qty 1]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">PATTERNS,1,4,2,2,1,1,1   <span style="font-style: italic;"> [Job 1, Pattern 4, Board 2, Head cut, Qty 1]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">PATTERNS,1,5,3,2,2,1,2    <span style="font-style: italic;">[Job 1, Pattern 5, Board 3, Head cut, Qty 2]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">PATTERNS,1,6,3,2,1,1,1   <span style="font-style: italic;"> [Job 1, Pattern 6, Board 3, Head cut, Qty 1]</span></p>
+<p style="font-style: italic; margin-top: 0pt; margin-bottom: 0pt;"> </p>
+<p style="font-style: italic; margin-top: 0pt; margin-bottom: 0pt;">[cuts]</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,1, 1,0, 0,2550.0,0,0,0,”MAIN”</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,1, 2,1,91,   5.2,1,0,0</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,1, 3,2, 1, 725.0,2,0,0,”RIP”                         <span style="font-style: italic;"> [2 rips at 725 mm]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,1, 4,4,92,   5.2,1,0,0                            <span style="font-style: italic;">[cross cut trim 5.2 mm]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,1, 5,5, 2,1200.0,2,1,4     <span style="font-style: italic;"> [crosscuts at 1200 yielding part 1]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;"> </p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,2, 1,0, 0,1525.0,0,0,0,”MAIN”</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,2, 2,1,91,   5.2,1,0,0                                                   <span style="font-style: italic;">[rip trim]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,2, 3,2, 1,1200.0,1,0,0,”RIP”</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,2, 4,4,92,   5.2,1,0,0</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,2, 5,5, 2, 725.0,2,1,1     <span style="font-style: italic;">[2 xcuts at 725 yielding part 1 x 1…</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,2, 6,5, 2,   0.0,0,2,5                                     <span style="font-style: italic;">… and part 2 x 5]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,2, 7,3, 1,1272.6,1,0,0,”RIP”</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,2, 8,7,92,   5.2,1,0,0</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,2, 9,8, 2, 600.0,1,3,3</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,2,10,9, 2, 725.0,1,0,0</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,2,11,10,93,  5.2,1,0,0</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,2,12,11,3,1200.0,1,2,3      <span style="font-style: italic;"> [recut to 1200mm yielding part 2]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;"> </p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,3, 1,0, 0,2550.0,0,0,0,”MAIN”</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,3, 2,1,91,   5.2,1,0,0         <span style="font-style: italic;"> [rip trim]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,3, 3,2, 1, 600.0,1,0,0,”RIP”</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,3, 4,6, 2,1272.6,1,3,2     <span style="font-style: italic;">[no trims &amp; 1 xcut giving part 3 x 2]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,3, 5,3, 1, 450.0,1,0,0,”RIP”</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,3, 6,7,92,   5.2,1,0,0          <span style="font-style: italic;">[xcut trim]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,3, 7,8, 2, 790.0,1,4,1      <span style="font-style: italic;">[cross cut producing part 4 x 1]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,3, 8,9, 2, 630.0,1,0,0</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,3, 9,10,93,  5.2,1,0,0,         <span style="font-style: italic;">[recut trim]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,3,10,11, 3,200.0,1,9,1</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,3 11,12, 3,200.0,1,0,0</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,3,12,13,94,  5.2,1,0,0          <span style="font-style: italic;">[4th phase recut trim]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,3,13,14, 4,580.0,1,5,1      <span style="font-style: italic;">[4th phase cut to produce part 5]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,3,14, 9, 2,  0.0,0,X2,1       <span style="font-style: italic;">[cut 9 also produces off-cut 2]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,3,15, 4, 1,200.0,2,0,0,”RIP”</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,3,16,15,92,  5.2,1,0,0          <span style="font-style: italic;">[xcut trim]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,3,17,16, 2,580.0,4,5,8</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;"> </p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,4, 1, 1, 0,3034.2,1,0,0,”MAIN”</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,4, 2, 2,91,   5.2,1,0,0          <span style="font-style: italic;">[rip trim]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,4, 3, 3, 1, 600.0,1,0,0,”RIP”</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,4, 4, 8,92,   5.2,1,0,0          <span style="font-style: italic;">[xcut trim]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,4, 5, 9, 2,1250.0,2,3,2         <span style="font-style: italic;">[part 3]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,4, 6,11, 2, 200.0,2,0,0</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,4, 7,13,93,   5.2,1,0,0    </p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,4, 8,14, 3, 580.0,1,9,2         <span style="font-style: italic;">[part 9]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,4, 9, 4, 1, 450.0,1,0,0,”RIP”</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,4,10,15,92,   5.2,1,0,0          <span style="font-style: italic;">[xcut trim]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,4,11,16, 2, 790.0,3,4,3</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,4,12,19, 2, 580.0,1,0,0        <span style="font-style: italic;"> [crosscut at 580]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,4,13,20,93,   5.2,1,0,0          <span style="font-style: italic;">[recut trim]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,4,14,21, 3, 200.0,2,5,2   <span style="font-style: italic;">[3rd phase cut 200 x 2 -&gt; part5 x 2]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,4,15, 5, 1, 200.0,3,0,0,”RIP”</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,4,16,23,92,   5.2,1,0,0          <span style="font-style: italic;">[xcut trim]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,4,17,24, 2, 580.0,3,5,9    <span style="font-style: italic;">[part 5 x 9]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,4,18,27, 2, 630.0,2,9,6    <span style="font-style: italic;">[part 9 x 6]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,4,19, 1, 0, 621.0,0,X1,1,“HEAD” <span style="font-style: italic;">[producing offcut 1]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;"> </p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,5, 1, 1, 0,1415.0,1,0,0,”MAIN”          <span style="font-style: italic;">[head cut at 1415.0]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,5, 2, 2,91,   5.2,1,0,0                  <span style="font-style: italic;">[rip trim]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,5, 3, 3, 1, 300.0,2,0,0,”RIP”          <span style="font-style: italic;">[rip main 300 x 2]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,5, 4, 7,92,   5.2,1,0,0                 <span style="font-style: italic;">[xcut trim]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,5, 5, 8, 2,1400.0,1,6,4</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,5, 6, 5, 1, 275.0,2,0,0,”RIP”</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,5, 7, 9,92,   5.2,1,0,0         <span style="font-style: italic;"> [xcut trim]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,5, 8,10, 2, 650.0,2,7,8</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,5, 9, 1, 0,1020.2,0,0,0,”HEAD” <span style="font-style: italic;">[start of head section]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,5,10,12,91,   5.2,1,0,0                 <span style="font-style: italic;"> [rip trim]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,5,11,13, 1, 650.0,1,0,0,”RIP”                           </p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,5,12,16,92,   5.2,1,0,0         <span style="font-style: italic;"> [xcut trim]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,5,13,17, 2, 275.0,3,7,6</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,5,14,14, 1, 230.0,2,0,0,”RIP”</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,5,15,20,92,   5.2,1,0,0          <span style="font-style: italic;">[xcut trim]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,5,16,21, 2, 480.0,2,8,8</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;"> </p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,6, 1, 1, 0,1464.6,1,0,0,”MAIN”       <span style="font-style: italic;">[head cut at 1464.6]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,6, 2, 5,91,   5.2,1,0,0                 <span style="font-style: italic;"> [rip trim]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,6, 3, 6, 1, 300.0,1,0,0,”RIP”          <span style="font-style: italic;">[rip main 300 x 1]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,6, 4,10,92,   5.2,1,0,0                 <span style="font-style: italic;">[xcut trim]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,6, 5,11, 2,1400.0,1,6,1</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,6, 6, 7, 1, 400.0,1,0,0,”RIP”</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,6, 7,12,92,   5.2,1,0,0         <span style="font-style: italic;"> [xcut trim]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,6, 8,13, 2, 480.0,3,10,3</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,6, 9, 8, 1, 230.0,2,0,0,”RIP”</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,6,10,12,92,   5.2,0,0,0  <span style="font-style: italic;"> [trim and cross cuts checkerboard …</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,6,11,13, 2, 480.0,0,8,6     <span style="font-style: italic;">cut with preceding strip]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,6,12, 2, 0, 480.0,1,0,0,”HEAD” <span style="font-style: italic;">[head section]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,6,13,16,91,   5.2,1,0,0                  <span style="font-style: italic;">[rip trim]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,6,14,17, 1, 230.0,5,8,5,”RIP”                           </p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,6,15, 3, 0, 230.0,2,0,0,”HEAD” <span style="font-style: italic;">[head sections]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,6,16,22,91,   5.2,1,0,0                 <span style="font-style: italic;">[rip trim]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,6,17,23, 1, 480.0,2,8,4,”RIP”</p>
+<h2> </h2>
+<h2>17.  EXAMPLES</h2>
+<p style="text-align: left; margin-top: 0pt; margin-bottom: 0pt;"><img src="../../../../../assets/images/image301.gif" alt="" style="border: none;" width="581" height="566" border="0"/></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;"> </p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,1, 1,0, 0,2550.0,0,0,0,”MAIN”</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,1, 2,1,91,   5.2,1,0,0</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,1, 3,2, 1, 725.0,2,0,0,”RIP”              <span style="font-style: italic;"> [2 rips at 725 mm]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,1, 4,4,92,   5.2,1,0,0                <span style="font-style: italic;"> [cross cut trim 5.2 mm]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,1, 5,5, 2,1200.0,2,1,4      <span style="font-style: italic;">[crosscuts at 1200 yielding part 1]</span></p>
+<p> </p>
+<p><img src="../../../../../assets/images/image302.gif" alt="" style="border: none;" width="561" height="707" border="0"/></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,2, 1,0, 0,1525.0,0,0,0,”MAIN”</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,2, 2,1,91,   5.2,1,0,0          <span style="font-style: italic;">[rip trim]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,2, 3,2, 1,1200.0,1,0,0,”RIP”</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,2, 4,4,92,   5.2,1,0,0</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,2, 5,5, 2, 725.0,2,1,1    <span style="font-style: italic;"> [2 xcuts at 725 yielding part 1 x 1…</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,2, 6,5, 2,   0.0,0,2,5                     <span style="font-style: italic;">… and part 2 x 5]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,2, 7,3, 1,1272.6,1,0,0,”RIP”</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,2, 8,7,92,   5.2,1,0,0</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,2, 9,8, 2, 600.0,1,3,3</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,2,10,9, 2, 725.0,1,0,0</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,2,11,10,93,  5.2,1,0,0</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,2,12,11,3,1200.0,1,2,3       <span style="font-style: italic;">[recut to 1200mm yielding part 2]</span></p>
+<p> </p>
+<p><img src="../../../../../assets/images/image303.gif" alt="" style="border: none;" width="558" height="640" border="0"/></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,3, 1,0, 0,2550.0,0,0,0,”MAIN”</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,3, 2,1,91,   5.2,1,0,0          <span style="font-style: italic;">[rip trim]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,3, 3,2, 1, 600.0,1,0,0,”RIP”</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,3, 4,6, 2,1272.6,1,3,2     <span style="font-style: italic;">[no trims &amp; 1 xcut giving part 3 x 2]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,3, 5,3, 1, 450.0,1,0,0,”RIP”</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,3, 6,7,92,   5.2,1,0,0          <span style="font-style: italic;">[xcut trim]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,3, 7,8, 2, 790.0,1,4,1      <span style="font-style: italic;">[cross cut producing part 4 x 1]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,3, 8,9, 2, 630.0,1,0,0</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,3, 9,10,93,  5.2,1,0,0,         <span style="font-style: italic;">[recut trim]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,3,10,11, 3,200.0,1,9,1</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,3 11,12, 3,200.0,1,0,0</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,3,12,13,94,  5.2,1,0,0          <span style="font-style: italic;">[4th phase recut trim]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,3,13,14, 4,580.0,1,5,1     <span style="font-style: italic;"> [4th phase cut to produce part 5]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,3,14, 9, 2,  0.0,0,X2,1       <span style="font-style: italic;">[cut 9 also produces off-cut 2]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,3,15, 4, 1,200.0,2,0,0,”RIP”</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,3,16,15,92,  5.2,1,0,0          <span style="font-style: italic;">[xcut trim]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,3,17,16, 2,580.0,4,5,8</p>
+<p> </p>
+<p><img src="../../../../../assets/images/image304.gif" alt="" style="border: none;" width="560" height="620" border="0"/></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,4, 1, 1, 0,3034.2,1,0,0,”MAIN”</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,4, 2, 2,91,   5.2,1,0,0          <span style="font-style: italic;">[rip trim]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,4, 3, 3, 1, 600.0,1,0,0,”RIP”</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,4, 4, 8,92,   5.2,1,0,0          <span style="font-style: italic;">[xcut trim]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,4, 5, 9, 2,1250.0,2,3,2         <span style="font-style: italic;">[part 3]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,4, 6,11, 2, 200.0,2,0,0</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,4, 7,13,93,   5.2,1,0,0    </p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,4, 8,14, 3, 580.0,1,9,2         <span style="font-style: italic;">[part 9]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,4, 9, 4, 1, 450.0,1,0,0,”RIP”</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,4,10,15,92,   5.2,1,0,0          <span style="font-style: italic;">[xcut trim]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,4,11,16, 2, 790.0,3,4,3</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,4,12,19, 2, 580.0,1,0,0         <span style="font-style: italic;">[crosscut at 580]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,4,13,20,93,   5.2,1,0,0          <span style="font-style: italic;">[recut trim]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,4,14,21, 3, 200.0,2,5,2   <span style="font-style: italic;">[3rd phase cut 200 x 2 -&gt; part5 x 2]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,4,15, 5, 1, 200.0,3,0,0,”RIP”</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,4,16,23,92,   5.2,1,0,0         <span style="font-style: italic;"> [xcut trim]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,4,17,24, 2, 580.0,3,5,9    <span style="font-style: italic;">[part 5 x 9]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,4,18,27, 2, 630.0,2,9,6    <span style="font-style: italic;">[part 9 x 6]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,4,19, 1, 0, 621.0,0,X1,1,“HEAD” <span style="font-style: italic;">[producing offcut 1]</span></p>
+<p> </p>
+<p><img src="../../../../../assets/images/image305.gif" alt="" style="border: none;" width="558" height="639" border="0"/></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,5, 1, 1, 0,1415.0,1,0,0,”MAIN”          <span style="font-style: italic;">[head cut at 1415.0]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,5, 2, 2,91,   5.2,1,0,0                  <span style="font-style: italic;">[rip trim]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,5, 3, 3, 1, 300.0,2,0,0,”RIP”          <span style="font-style: italic;">[rip main 300 x 2]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,5, 4, 7,92,   5.2,1,0,0                <span style="font-style: italic;"> [xcut trim]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,5, 5, 8, 2,1400.0,1,6,4</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,5, 6, 5, 1, 275.0,2,0,0,”RIP”</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,5, 7, 9,92,   5.2,1,0,0          <span style="font-style: italic;">[xcut trim]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,5, 8,10, 2, 650.0,2,7,8</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,5, 9, 1, 0,1020.2,0,0,0,”HEAD” <span style="font-style: italic;">[start of head section]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,5,10,12,91,   5.2,1,0,0                  <span style="font-style: italic;">[rip trim]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,5,11,13, 1, 650.0,1,0,0,”RIP”                           </p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,5,12,16,92,   5.2,1,0,0          <span style="font-style: italic;">[xcut trim]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,5,13,17, 2, 275.0,3,7,6</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,5,14,14, 1, 230.0,2,0,0,”RIP”</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,5,15,20,92,   5.2,1,0,0          <span style="font-style: italic;">[xcut trim]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,5,16,21, 2, 480.0,2,8,8</p>
+<p> </p>
+<p><img src="../../../../../assets/images/image306.gif" alt="" style="border: none;" width="568" height="637" border="0"/></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,6, 1, 1, 0,1464.6,1,0,0,”MAIN”       <span style="font-style: italic;">[head cut at 1464.6]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,6, 2, 5,91,   5.2,1,0,0                  <span style="font-style: italic;">[rip trim]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,6, 3, 6, 1, 300.0,1,0,0,”RIP”         <span style="font-style: italic;"> [rip main 300 x 1]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,6, 4,10,92,   5.2,1,0,0                <span style="font-style: italic;"> [xcut trim]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,6, 5,11, 2,1400.0,1,6,1</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,6, 6, 7, 1, 400.0,1,0,0,”RIP”</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,6, 7,12,92,   5.2,1,0,0          <span style="font-style: italic;">[xcut trim]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,6, 8,13, 2, 480.0,3,10,3</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,6, 9, 8, 1, 230.0,2,0,0,”RIP”</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,6,10,12,92,   5.2,0,0,0   <span style="font-style: italic;">[trim and cross cuts checkerboard …</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,6,11,13, 2, 480.0,0,8,6     <span style="font-style: italic;">cut with preceding strip]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,6,12, 2, 0, 480.0,1,0,0,”HEAD” <span style="font-style: italic;">[head section]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,6,13,16,91,   5.2,1,0,0                  <span style="font-style: italic;">[rip trim]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,6,14,17, 1, 230.0,5,8,5,”RIP”                           </p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,6,15, 3, 0, 230.0,2,0,0,”HEAD” <span style="font-style: italic;">[head sections]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,6,16,22,91,   5.2,1,0,0                 <span style="font-style: italic;">[rip trim]</span></p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">CUTS,1,6,17,23, 1, 480.0,2,8,4,”RIP”</p>
+<h2> </h2>
+<h2>18. SUMMARY OF DATA STRUCTURE</h2>
+<p>This section summarises the position and format of each field in each record type.  The maximum length of each text field is listed in the comment column. The range of acceptable values for other field types is listed where applicable. Please refer to earlier comments for a fuller explanation of fields.</p>
+<p>Each field can be categorised by one of the following types.</p>
+<p style="margin-left: 84px; text-indent: -84px;">DIM           Dimension. Number single. When working in millimetres these range from 0.0 to   9999.9.  When working in decimal inches  dimensions must range from 0.000 to 999.9</p>
+<p>FLT              Number single.  Floating point value.</p>
+<p style="margin-left: 84px; text-indent: -84px;">IDX           Index. Number integer. These are integer values which are used to link records. For example all data for a particular job must have the same job index.</p>
+<p>INT               Number integer.</p>
+<p>QTY             A long integer used to store quantity.  No quantity can be greater than 99999.</p>
+<p>TXT             A text field used to store information</p>
+<p>Note that spaces are not allowed in the material code, and any spaces will be converted to an underscore (‘_’) on import.    Also note that material, part and board codes are converted to upper case on import.</p>
+<p>The job records must have unique job index numbers starting at 1, and incrementing consecutively within specified range.    The part, board and pattern records must each have their respective index numbers unique within the job, and again be numbered from 1 and incremented consecutively.</p>
+<h3>&#39;HEADER&#39; RECORD</h3>
+<h3><img src="../../../../../assets/images/image307.gif" alt="" style="border: none;" width="610" height="104" border="0"/></h3>
+<h3>&#39;JOBS&#39; RECORD</h3>
+<h3><img src="../../../../../assets/images/image308.gif" alt="" style="border: none;" width="613" height="140" border="0"/></h3>
+<h3>&#39;PARTS_REQ&#39; RECORD</h3>
+<p><img src="../../../../../assets/images/image309.gif" alt="" style="border: none;" width="611" height="202" border="0"/></p>
+<h3>&#39;PARTS_INF&#39; RECORD</h3>
+<p><img src="../../../../../assets/images/image310.gif" alt="" style="border: none;" width="623" height="529" border="0"/></p>
+<h3>&#39;PARTS_UDI&#39; RECORD</h3>
+<p><img src="../../../../../assets/images/image311.gif" alt="" style="border: none;" width="612" height="538" border="0"/></p>
+<h3>&#39;BOARDS&#39; RECORD</h3>
+<p><img src="../../../../../assets/images/image312.gif" alt="" style="border: none;" width="614" height="201" border="0"/></p>
+<h3>&#39;MATERIALS&#39; RECORD</h3>
+<p><img src="../../../../../assets/images/image313.gif" alt="" style="border: none;" width="611" height="332" border="0"/></p>
+<h3>&#39;OFFCUTS&#39; RECORD</h3>
+<p><img src="../../../../../assets/images/image314.gif" alt="" style="border: none;" width="610" height="137" border="0"/></p>
+<h3>&#39;PATTERNS&#39; RECORD</h3>
+<p><img src="../../../../../assets/images/image317.gif" alt="" style="border: none;" width="615" height="156" border="0"/></p>
+<h3>&#39;CUTS&#39; RECORD</h3>
+<p><img src="../../../../../assets/images/image316.gif" alt="" style="border: none;" width="628" height="186" border="0"/></p>
+<h3>5766 Import PTX file for Parts and Boards into Cut Rite V7.x</h3>
+<p>The import/export of part and board records in the Pattern Exchange format (.PTX/MDB) has been modified to allow the use of all the part information (PARTS_INF) and user defined part information (PARTS_UDI) records.</p>
+<p>When importing pattern exchange files, all PARTS_UDI records are imported into the corresponding additional information box. System parameter settings for boxes will be observed, so imported text will be truncated to the box length specified in the parameters. If a box is not set the text for that box will be ignored.</p>
+<p>The import of PARTS_INF records is dependant on the necessary information box key letters being set. Each PART_INF value will be imported into the box with the corresponding key letter. These values will override the PARTS_UDI setting. The table below summarises each PARTS_INF record and the corresponding key ‘letter’. Some new characters have been added to allow the use some fields. These characters are marked by a &#39;*&#39; in the following list:-</p>
+<p><img src="../../../../../assets/images/image318.gif" alt="" style="border: none;" width="412" height="398" border="0"/></p>
+<p>The FIN_LENGTH and FIN_WIDTH fields are also used to fill out the combined finished length and width information box (key letter D). The CORE_MAT, FACE_LAM and BACK_LAM are also used to fill out the material combination information box (key letter O).</p>
+<p>The export of pattern exchange (transfer mode 11 and 12) also uses the new key letters above. The FIN_LENGTH and FIN_WIDTH fields are filled using data from the combined length/width information box if the individual finished length and width boxes are undefined. Similarly, the CORE_MAT, FACE_LAM and BACK_LAM fields are filled with data from the material combination box if the individual core material and laminate boxes are undefined.</p>
+<h3>Importing Parts and Grain match templates from Pattern Exchange data</h3>
+<p>Users can now use files in the PTX file format to import grain match template patterns when importing parts/boards. Templates can be imported by adding PATTERNS and CUTS records to the PTX file.</p>
+<p>The PATTERNS record should contain valid JOB_INDEX along with a sequential PTN_INDEX. The BRD_INDEX, QTY_RUN, CYCLES and MAX_BOOK should be set to ‘1’. The TYPE field should be one of four values.</p>
+<p style="margin-bottom: 0pt; margin-top: 0pt;">5 = Create master part - divide at saw</p>
+<p style="margin-bottom: 0pt; margin-top: 0pt;">6 = Create master part - divide at machining centre</p>
+<p style="margin-bottom: 0pt; margin-top: 0pt;">7 = Cut parts in main pattern</p>
+<p style="margin-bottom: 0pt; margin-top: 0pt;">8 = Cut parts in separate pattern</p>
+<p>Each pattern of type 5,6, 7 or 8 a series of CUTS records are used to represent a template pattern. The CUTS records should contain valid part indexes. Grain matching information for parts will be added to additional information fields provided system parameters have been configured for grain matching additional information.</p>
+<p>A MATERIALS record can be used to set parameters for the templates. If this record does not exist, default ‘zero’ values will be used. (e.g. kerf = 0)</p>
+<p>On import template patterns are stored in a part list pattern library (&lt;part list filename&gt;.PTL). This pattern library is used instead of the main pattern library when (a) creating a cutting list  (b) adjusting optimising results for grain matching (i.e. inserting embedded patterns, appending template patterns). Each pattern in this library is named after it’s index in the pattern exchange file (i.e. the first pattern has an index of ‘1’ and so it’s name is ‘1’).</p>
+<p>Users will not have to specify grainmatch info in a PARTS_UDI record. Instead, the patterns will contain valid part indexes relating to the parts. These will get converted on import to valid grain match info.</p>
+<p>Thus the PTX file is like a partial optimisation.</p>
+<p>For example a simple two part template  (A,B) can be imported from the following PTX file:</p>
+<p><img src="../../../../../assets/images/image319.gif" alt="" style="border: none;" width="444" height="186" border="0"/></p>
+<p>Note the use of the MATERIALS line to import parameters into the part list pattern library; parts 1 &amp; 2 both have a material index of ‘1’.</p>
+<p>There are no boards in this file so users will have to add boards after import. In practice other part sizes will also be in the list.</p>
+<p>AF 4 June 2001</p>
+<h3>Pattern Exchange (PTX) changes</h3>
+<p><span style="font-weight: bold;">Importing templates from PTX -</span> Improvements have been made to the import of template patterns from pattern exchange data (PTX). These changes fix a reported problem with recent versions where the fields in the template information dialog are greyed out after import.</p>
+<p>Users can use files in the PTX file format to import grain match template patterns when importing parts/boards. CUTS records are used to represent template patterns. Each template must have a PATTERNS record that contains a valid JOB_INDEX, a PTN_INDEX relating to the relevant CUTS records and the TYPE field must be set to one of the following values:-</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">5 = Standard grain match pattern – appended to be cut on saw</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">6 = Standard grain match pattern – appended to be ‘cut’ on machine centre</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">7 = Embedded grain match pattern</p>
+<p style="margin-top: 0pt; margin-bottom: 0pt;">8 = Separate template pattern</p>
+<p>The other fields in the PATTERNS record must be present but they are ignored.</p>
+<p>A MATERIALS record can be used to set parameters for the templates. If this record does not exist, default ‘zero’ values will be used. (e.g. kerf = 0)</p>
+<p>The CUTS records should contain valid part indexes. Grain matching information for parts will be added to additional information fields provided system parameters have been configured for grain matching additional information.</p>
+<p>Imported template patterns are stored in a temporary pattern library that will be used for grain matching optimisations after import. The template names will be the pattern indices.  Reference: 7527</p>
+<p><span style="font-weight: bold;">Importing PTX patterns with trim cuts producing offcuts/parts -</span> Improvements have been made to the import of patterns in pattern exchange format. These changes improve the import of patterns containing trim cuts producing either parts or offcuts.  Reference: 7511</p>
+<p><span style="font-weight: bold;">Importing part lists from a PTX -</span> This now follows the same rules as importing a batch of part lists. That is, if the import option is selected from the File menu at the main screen the program provides an option to view the first of the imported files. If the import option is selected from the File tree at the main screen the first part list imported is shown without any preceeding prompt. Reference: 7551</p>
+<p><span style="font-weight: bold;">Import parts only PTX and board list files -</span> If an import parts of a PTX file is performed and the PTX file does not contain any board information then no BRD files will be produced.  The minimum requirement of lines in a PTX file is PARTS_REQ and MATERIALS lines. Reference: 7572</p>
+<p><span style="font-weight: bold;">Import PTX for parts -</span> optimising &amp; saw parameters - Importing parts list(s) from a PTX file uses the first available optimising and saw parameters for the part list rather than the Job Name specified in the JOBS record in the PTX file.&#39; Reference: 7583</p>
+<p><span style="font-weight: bold;">Material parameters in PTX -</span> Modifications have been made to the parameter values created in the pattern exchange data generated by the transfer to saw option (transfer modes 11 and 12). These changes fix the reported problem of previous versions, which did not interpret material parameter differences correctly. Reference: 7597, 7595</p>
+
+
+</body></html>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head><link rel="stylesheet" type="text/css" href="../../_rhdefault.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="topic-status" content="Complete"/>
+<meta name="generator" content="Adobe RoboHelp 2019"/>
+<title>Import Cutlist</title>
+<link rel="StyleSheet" href="../../assets/css/default.css" type="text/css"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/><script type="text/javascript" src="../../ehlpdhtm.js"></script></head>
+
+<body>
+<h1><img src="../../assets/images/image68.gif" alt="" style="border: none; width: 100%; max-width: 34px;" border="0"/> 
+ Import Cutlist</h1>
+<p>Import Cutlist allows you to bring in a list of Parts in a CSV format 
+ for Optimization. You can use your favorite spreadsheet application or 
+ design application to create a CSV that can be imported directly into 
+ the S2M Optimizer.</p>
+<p>This utility examines the text file that you are importing and helps 
+ you ensure that the data is imported in the way that you want. You can 
+ use this Utility to define what each field in your Text file represents 
+ so it is imported properly.</p>
+<p><img src="../../assets/images/image256.gif" style="border: none; width: 100%; max-width: 500px;" alt="" border="0"/></p>
+<h2>Toolbar</h2>
+<p style="font-weight: normal;"><span style="font-weight: normal;">There 
+ are four options in the toolbar:</span></p>
+<p style="font-weight: bold;"><img src="../../assets/images/image71.gif" alt="" style="border: none; width: 100%; max-width: 289px;" border="0"/></p>
+<p style="font-weight: bold; margin-left: 40px;"><img src="../../assets/images/image955.gif" alt="" style="border: none; width: 100%; max-width: 143px;" border="0"/> 
+ Select Configuration</p>
+<p style="margin-left: 40px;">Allows you to select which of your Saved 
+ data field configurations to use.</p>
+<p style="font-weight: bold; margin-left: 40px;"><img src="../../assets/images/image72.gif" alt="" style="border: none; width: 100%; max-width: 20px;" border="0"/> 
+ Save</p>
+<p style="margin-left: 40px;">Allows you to Save the current configuration 
+ for re-use.</p>
+<p style="font-weight: bold; margin-left: 40px;"><img src="../../assets/images/image958.gif" alt="" style="border: none; width: 100%; max-width: 22px;" border="0"/> 
+ Rename</p>
+<p style="margin-left: 40px;">Allows you to rename the currently selected 
+ configuration.</p>
+<p style="font-weight: bold; margin-left: 40px;"><img src="../../assets/images/image959.gif" alt="" style="border: none; width: 100%; max-width: 20px;" border="0"/> 
+ Delete</p>
+<p style="margin-left: 40px;">Allows you to delete the currently selected 
+ configuration.</p>
+<h2>General Options</h2>
+<p>There are four general options available to configure your Text file:</p>
+<p><img src="../../assets/images/image257.gif" style="border: none; width: 100%; max-width: 500px;" alt="" border="0"/></p>
+<p><span style="font-weight: bold;">Fields -</span> This option allows 
+ you to establish how the fields in the Text file are defined. <span style="margin-left: 40px;">If 
+ items in the text file are separated by tabs, colons, semicolons, spaces, 
+ or other characters, select Delimited; then select what the delimiter 
+ is (Tab, Comma, Semicolon, Space, Other).</span> If all of the items in 
+ each column are the same length, select Fixed width.</p>
+<p><span style="font-weight: bold;">Text Qualifier -</span> Select the 
+ character that encloses values in your text file. When Solid encounters 
+ the text qualifier character, all of the text that follows that character 
+ and precedes the next occurrence of that character is imported as one 
+ value, even if the text contains a delimiter character. For example, if 
+ the delimiter is a comma (,) and the text qualifier is a quotation mark 
+ (&quot;), &quot;Tuscaloosa, Alabama&quot; is imported into one field as 
+ Tuscaloosa, Alabama.</p>
+<p><span style="font-weight: bold;">Dimensions -</span> Select whether 
+ the file you are importing is Inches or Metric.</p>
+<p><span style="font-weight: bold;">Start Import at Line -</span> Type 
+ or select a line number to specify the first line of the data that you 
+ want to import.</p>
+<h2>Import Preview Area</h2>
+<p><img src="../../assets/images/image258.gif" style="border: none; width: 100%; max-width: 500px;" alt="" border="0"/></p>
+<p>In this are you will see all of the columns that the S2M Optimizer has 
+ available for your Text file. Click the column header of the column(s) 
+ that you do not want Ignored and set its type. There are eleven options:</p>
+<p><img src="../../assets/images/image134.gif" alt="" style="border: none; width: 100%; max-width: 188px;" border="0"/></p>
+<p><span style="font-weight: bold;">Ignore -</span> Will ignore this column 
+ when importing.</p>
+<p><span style="font-weight: bold;">Name -</span> The Part&#39;s Name/Description.</p>
+<p><span style="font-weight: bold;">Width -</span> The Part&#39;s Width.</p>
+<p><span style="font-weight: bold;">Length -</span> The Part&#39;s Length.</p>
+<p><span style="font-weight: bold;">Thickness -</span> The Part&#39;s Thickness.</p>
+<p><span style="font-weight: bold;">Quantity -</span> The Part&#39;s Quantity.</p>
+<p><span style="font-weight: bold;">Material -</span> The Material the 
+ Part will be cut from.</p>
+<p><span style="font-weight: bold;">Grain -</span> Establishes if the Part 
+ is Grained or not.</p>
+<p><span style="font-weight: bold;">Assembly -</span> The Name/Description 
+ of the Assembly the Part is used in.</p>
+<p><span style="font-weight: bold;">Assembly Number -</span> The Assembly 
+ Number of the Assembly the Part is used in.</p>
+<p><span style="font-weight: bold;">Banding -</span> The banding instructions 
+ for the Part. The banding instructions should only include Banding Codes 
+ you have defined within the S2M Center Material Catalog (lower case letters). 
+ N or 0 (zero) would equal an Edge with no Banding. The banding instructions 
+ will only define four edges. In the example below would be the &quot;Banding&quot; 
+ for the illustrated Part.</p>
+<p>4NbNN</p>
+<p><img src="../../assets/images/image135.gif" alt="" style="border: none; width: 100%; max-width: 396px;" border="0"/></p>
+<p>4 Edges starting from the reference point and going clockwise you get 
+ None, b , None, None.</p>
+
+
+</body></html>

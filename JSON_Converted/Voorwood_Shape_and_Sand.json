@@ -1,0 +1,17 @@
+{
+    "id": "4beb27b6-ee9f-41ed-bd06-3501df283fec",
+    "title": "Voorwood_Shape_and_Sand",
+    "content": [
+        {
+            "type": "text",
+            "data": "Voorwood Shape and Sand"
+        },
+        {
+            "type": "text",
+            "data": "This will create the output for the Voorwood Shape and Sand machine. This will be a .csv text file that can be used at the machine.This link requires that the report.mdb be populated prior to output. You can accomplish this by setting the CNCPOPULATEREPORT registry setting for CABINET VISION.Please look to your CABINET VISIONhelp files for more information on how to set this value."
+        }
+    ],
+    "source_file": "NCEnglish\\Ribbonbar\\Main_Tab\\Machine\\NC_Links\\Other\\Voorwood_Shape_and_Sand.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

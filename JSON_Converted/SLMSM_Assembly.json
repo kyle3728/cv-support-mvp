@@ -1,0 +1,168 @@
+{
+    "id": "dced9646-d932-493c-b839-76a3e71d1195",
+    "title": "SLMSM_Assembly",
+    "content": [
+        {
+            "type": "text",
+            "data": "Assembly"
+        },
+        {
+            "type": "text",
+            "data": "This is the area where you will need to assign a Material to each Part of an Assembly."
+        },
+        {
+            "type": "image",
+            "data": "SLMSM_Assembly.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Sidebar/Properties"
+        },
+        {
+            "type": "text",
+            "data": "The following Properties are available for Assembly Parts:"
+        },
+        {
+            "type": "text",
+            "data": "ID -  The ID number for the selected Material Schedule."
+        },
+        {
+            "type": "text",
+            "data": "Name -  The Name of the selected Material Schedule."
+        },
+        {
+            "type": "text",
+            "data": "Description -  The Description of the selected Material Schedule."
+        },
+        {
+            "type": "text",
+            "data": "Upcharge -  The \"Upcharge\" value will only be added in a Rate Table that uses the  Bid Method  \" Use Part Catalog Pricing \". This value is a Percentage Upcharge you charge above your Standard Part Catalog Price as entered in the  Part Manager  when this Material Schedule is in use."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Bid Method",
+                "uuid": "4a3d36f8-0f2e-45c7-856e-38dabd76074d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Use Part Catalog Pricing",
+                "uuid": "4a3d36f8-0f2e-45c7-856e-38dabd76074d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Part Manager",
+                "uuid": "f4a43f08-b40b-442c-8f03-a96c2a64640f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Steps to Creating a New Material Schedule for Assembly Parts"
+        },
+        {
+            "type": "text",
+            "data": "You will notice that when you expand a branch (by clicking the + symbol beside a branch, you will expand that branch to see the underlying levels), there are names of specific Assembly Parts. For each Assembly Part, you need to select a Material that will be used in this Schedule."
+        },
+        {
+            "type": "text",
+            "data": "First , click the New   option in the Ribbonbar."
+        },
+        {
+            "type": "image",
+            "data": "image4278.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "In the sidebar type in a Name for the new Material Schedule. The name should reflect the Materials that you will be selecting for this Schedule so that you can identify the Schedule by the name alone. The Description field is simply for any additional details that you wish to include."
+        },
+        {
+            "type": "text",
+            "data": "Next , you should go down the Part List and make sure to assign Materials to every Part. In this example, we will first click the + symbol to expand the Banding line."
+        },
+        {
+            "type": "image",
+            "data": "SLMSM_Assign_Banding.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "When the Banding line is expanded, you will see a list of the types of banding that are available to you. See the Banding topic for information on creating additional Banding Material."
+        },
+        {
+            "type": "text",
+            "data": "To choose a Material for Exterior Banding, click on the words Exterior Banding and then browse to and select a Material from the Material List. At this point you can either drag and drop the desired Material onto the Part or you can click the assign   button to assign a Material to a selected Part."
+        },
+        {
+            "type": "image",
+            "data": "image3721.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Then , repeat the process for Interior Banding and any additional Banding types that you have created."
+        },
+        {
+            "type": "text",
+            "data": "Next , click the + symbol next to  Case  and then the + symbol next to  Interior  so that you can select Materials for the internal case Parts of the Assembly."
+        },
+        {
+            "type": "image",
+            "data": "SLMSM_Assign_Case_Interior.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "You should notice that there is a Material selected for  Assembly , for  Case  and for  Interior . However, there is no single Cabinet Part called \"Assembly,\" or \"Case,\" or \"Interior.\" Actually, these are Parent lines for all of the Parts that appear underneath. Any Parts that appear in the list which have a red check mark beside them have been changed to something other than the Material that is selected for the parent. The benefit of having a Part that matches the parent's Material is that changing the parent Material will also change the \"child.\" Therefore, you can make a single change to the parent line and subsequently change all of the \"children\" under it without going through the tedious process of changing each Part's Material. The only changes that you would have to then make individually would be any Parts that do not match the parent. If you want a Part to follow the parent's Material, simply right-click on that Part and click  Materials |   Match Parent ."
+        },
+        {
+            "type": "text",
+            "data": "Finally , you should repeat the process for every Part that is listed in the Material Schedule until they are all assigned a proper Material."
+        },
+        {
+            "type": "text",
+            "data": "There are many Parts in the Schedule that you may never use in a Job. For example, if you build Frameless Cabinets, the Face Frame Parts will have Materials assigned but will not appear in a Job unless your Construction Method calls for them. For these types of Parts, you should choose the Material that you would use if you ever did put that Part into a Job."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There is only one way to \"turn off\" Laminate or Banding for a particular Job, and that is to choose the Material named None for Laminate and Banding. The None material is a Material that has no Thickness and no Cost. Solid will see that Material applied to the Laminate or Banding and will leave those items out of the Job."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Your Material Schedules are very flexible. When you are in a particular Job that is similar to the normal Schedule with some minor changes, you can modify the Schedule inside that Job and it will not reach beyond that Job. For more details,  click here ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "click here",
+                "uuid": "76001079-24fa-4a6f-a193-465113a8b432",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "You are not limited in the number of Material Schedules that you may create. However, it is recommended that you create them as you need them rather than trying to anticipate your needs when you start setting up Solid."
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\SLMSM_Assembly.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

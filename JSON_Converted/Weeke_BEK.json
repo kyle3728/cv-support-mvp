@@ -1,0 +1,21 @@
+{
+    "id": "8712cc58-4287-4ccf-a451-d1389e9ebeef",
+    "title": "Weeke_BEK",
+    "content": [
+        {
+            "type": "text",
+            "data": "Weeke BEK"
+        },
+        {
+            "type": "text",
+            "data": "This is a Drill and Dowel Machine Link."
+        },
+        {
+            "type": "text",
+            "data": "This output will create program files for the Weeke BEK. One program will be created for each part or per edge depending on your setup."
+        }
+    ],
+    "source_file": "NCEnglish\\Ribbonbar\\Main_Tab\\Machine\\NC_Links\\Drill_and_Dowel_Links\\Weeke_BEK.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

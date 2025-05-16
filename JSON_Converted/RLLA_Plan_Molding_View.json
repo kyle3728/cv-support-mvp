@@ -1,0 +1,61 @@
+{
+    "id": "582cd30e-c36f-4e84-9757-314019e4dba2",
+    "title": "RLLA_Plan_Molding_View",
+    "content": [
+        {
+            "type": "text",
+            "data": "Plan Molding View"
+        },
+        {
+            "type": "image",
+            "data": "1AUALL.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image6209.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Following are the Layers that can be edited:"
+        },
+        {
+            "type": "text",
+            "data": "Annotations"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Annotations",
+                "uuid": "e19cbe28-bb89-4548-968a-608043886c6e",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image5598.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Dimensions"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Dimensions",
+                "uuid": "8eba597e-b494-4a38-89b6-ffa9c68c6110",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image5600.gif",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\RLLA_Plan_Molding_View.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

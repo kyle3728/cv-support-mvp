@@ -1,0 +1,1313 @@
+{
+    "id": "67923b97-4e03-4793-8c2d-7b616db13a8b",
+    "title": "What_s_New_In_Version_4_2",
+    "content": [
+        {
+            "type": "text",
+            "data": "What's New in Solid Version 4.2"
+        },
+        {
+            "type": "text",
+            "data": "Assembly Level"
+        },
+        {
+            "type": "text",
+            "data": "Ability to Add System Flutes to any Part \n \n \n Option to Allow UCS Modification on New Parts \n \n \n System Parameter Notes at Notes Tab at Assembly Properties for User Modification \n \n \n CAD Added at the Assembly and/or Part Level Optionally Saved with the Assembly \n \n \n Attributes Added to an Assembly Via UCS or Manually Optionally Saved with the Assembly \n \n \n Notes Added to an Assembly Via UCS or Manually Optionally Saved with the Assembly \n \n \n Drawer Section Editor Added (Allows Cutlery Style Divisions in Drawer Boxes and Roll Outs)"
+        },
+        {
+            "type": "text",
+            "data": "Ability to Add System Flutes to any Part"
+        },
+        {
+            "type": "text",
+            "data": "Ability to Add System Flutes to any Part"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Ability to Add System Flutes to any Part",
+                "uuid": "56d7935f-7e10-41ff-8ac3-2dc6df61ae86",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Option to Allow UCS Modification on New Parts"
+        },
+        {
+            "type": "text",
+            "data": "Option to Allow UCS Modification on New Parts"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Option to Allow UCS Modification on New Parts",
+                "uuid": "c3165fbc-169e-4284-92eb-77efe33c4d52",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "System Parameter Notes at Notes Tab at Assembly Properties for User Modification"
+        },
+        {
+            "type": "text",
+            "data": "System Parameter Notes at Notes Tab at Assembly Properties for User Modification"
+        },
+        {
+            "type": "text",
+            "data": "CAD Added at the Assembly and/or Part Level Optionally Saved with the Assembly"
+        },
+        {
+            "type": "text",
+            "data": "CAD Added at the Assembly and/or Part Level Optionally Saved with the Assembly"
+        },
+        {
+            "type": "text",
+            "data": "Attributes Added to an Assembly Via UCS or Manually Optionally Saved with the Assembly"
+        },
+        {
+            "type": "text",
+            "data": "Attributes Added to an Assembly Via UCS or Manually Optionally Saved with the Assembly"
+        },
+        {
+            "type": "text",
+            "data": "Notes Added to an Assembly Via UCS or Manually Optionally Saved with the Assembly"
+        },
+        {
+            "type": "text",
+            "data": "Notes Added to an Assembly Via UCS or Manually Optionally Saved with the Assembly"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Section Editor Added (Allows Cutlery Style Divisions in Drawer Boxes and Roll Outs)"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Section Editor Added (Allows Cutlery Style Divisions in Drawer Boxes and Roll Outs)"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Drawer Section Editor Added (Allows Cutlery Style Divisions in Drawer Boxes and Roll Outs)",
+                "uuid": "e1d30d6f-ba52-4843-a885-197a2175bf92",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Assembly Wizard"
+        },
+        {
+            "type": "text",
+            "data": "Assembly Wizard Standard #30 Allows Butting Gussets Against an Inside Nailer"
+        },
+        {
+            "type": "text",
+            "data": "Assembly Wizard Standard #30 Allows Butting Gussets Against an Inside Nailer"
+        },
+        {
+            "type": "text",
+            "data": "Assembly Wizard Standard #30 Allows Butting Gussets Against an Inside Nailer"
+        },
+        {
+            "type": "text",
+            "data": "Backup & Restore"
+        },
+        {
+            "type": "text",
+            "data": "Added the Ability to Specify a Path for the Automatic Backup Location"
+        },
+        {
+            "type": "text",
+            "data": "Added the Ability to Specify a Path for the Automatic Backup Location"
+        },
+        {
+            "type": "text",
+            "data": "Added the Ability to Specify a Path for the Automatic Backup Location"
+        },
+        {
+            "type": "text",
+            "data": "Bid Center"
+        },
+        {
+            "type": "text",
+            "data": "Multi-level Group Stock/Modular Pricing by Catalog, Room, and/or Door Style in any Combination \n \n \n Break-Out Rate Tables Per Room (Custom Bids) \n \n \n Break-Out Add-Ons Per Room (Custom Bids)"
+        },
+        {
+            "type": "text",
+            "data": "Multi-level Group Stock/Modular Pricing by Catalog, Room, and/or Door Style in any Combination"
+        },
+        {
+            "type": "text",
+            "data": "Multi-level Group Stock/Modular Pricing by Catalog, Room, and/or Door Style in any Combination"
+        },
+        {
+            "type": "text",
+            "data": "Break-Out Rate Tables Per Room (Custom Bids)"
+        },
+        {
+            "type": "text",
+            "data": "Break-Out Rate Tables Per Room (Custom Bids)"
+        },
+        {
+            "type": "text",
+            "data": "Break-Out Add-Ons Per Room (Custom Bids)"
+        },
+        {
+            "type": "text",
+            "data": "Break-Out Add-Ons Per Room (Custom Bids)"
+        },
+        {
+            "type": "text",
+            "data": "CAD"
+        },
+        {
+            "type": "text",
+            "data": "Utility to Allow Importing of 2D DXF's \n \n \n Create Data Tables in CAD \n \n \n CAD Auto-Text Interface Enhanced \n \n \n 242 additional CAD Auto-Text Fields Bringing the Total from 23 to 265 \n \n \n Auto-Text ALL System and User Defined Parameters \n \n \n Formatting Options for AutoText \n \n \n Specify the stack Order of CAD Objects \n \n \n Double Click Any Editable CAD Object in CAD Mode to Edit \n \n \n Walls/Objects to Snap to CAD \n \n \n Display Assembly Level CAD at the Room Level"
+        },
+        {
+            "type": "text",
+            "data": "Utility to Allow Importing of 2D DXF's"
+        },
+        {
+            "type": "text",
+            "data": "Utility to Allow Importing of 2D DXF's"
+        },
+        {
+            "type": "text",
+            "data": "Create Data Tables in CAD"
+        },
+        {
+            "type": "text",
+            "data": "Create Data Tables in CAD"
+        },
+        {
+            "type": "text",
+            "data": "CAD Auto-Text Interface Enhanced"
+        },
+        {
+            "type": "text",
+            "data": "CAD Auto-Text Interface Enhanced"
+        },
+        {
+            "type": "text",
+            "data": "242 additional CAD Auto-Text Fields Bringing the Total from 23 to 265"
+        },
+        {
+            "type": "text",
+            "data": "242 additional CAD Auto-Text Fields Bringing the Total from 23 to 265"
+        },
+        {
+            "type": "text",
+            "data": "Auto-Text ALL System and User Defined Parameters"
+        },
+        {
+            "type": "text",
+            "data": "Auto-Text ALL System and User Defined Parameters"
+        },
+        {
+            "type": "text",
+            "data": "Formatting Options for AutoText"
+        },
+        {
+            "type": "text",
+            "data": "Formatting Options for AutoText"
+        },
+        {
+            "type": "text",
+            "data": "Specify the stack Order of CAD Objects"
+        },
+        {
+            "type": "text",
+            "data": "Specify the stack Order of CAD Objects"
+        },
+        {
+            "type": "text",
+            "data": "Double Click Any Editable CAD Object in CAD Mode to Edit"
+        },
+        {
+            "type": "text",
+            "data": "Double Click Any Editable CAD Object in CAD Mode to Edit"
+        },
+        {
+            "type": "text",
+            "data": "Walls/Objects to Snap to CAD"
+        },
+        {
+            "type": "text",
+            "data": "Walls/Objects to Snap to CAD"
+        },
+        {
+            "type": "text",
+            "data": "Display Assembly Level CAD at the Room Level"
+        },
+        {
+            "type": "text",
+            "data": "Display Assembly Level CAD at the Room Level"
+        },
+        {
+            "type": "text",
+            "data": "Doors"
+        },
+        {
+            "type": "text",
+            "data": "\"None\" Panel Type Added"
+        },
+        {
+            "type": "text",
+            "data": "\"None\" Panel Type Added"
+        },
+        {
+            "type": "text",
+            "data": "\"None\" Panel Type Added"
+        },
+        {
+            "type": "text",
+            "data": "Drawers & Roll Outs"
+        },
+        {
+            "type": "text",
+            "data": "New Drawer Box and Roll Out Wizard Added \n \n \n Drawer Box/Roll Out Construction Not Dependent upon a Specific Material Schedule \n \n \n Added \"System\" Roll Out Type \n \n \n Unlimited Standard Height Designations \n \n \n Unlimited Standard Depth Designations \n \n \n Grain Direction Control for Bottoms \n \n \n Dovetails for Drawer Boxes and Roll Outs \n \n \n Swoop Shape Editor for Roll Out Fronts \n \n \n Side Shape Editor for Roll Out Sides \n \n \n Ability to Define Drawer Box and Roll Out Partitions (Front to Back Split) \n \n \n Ability to Define Drawer Box and Roll Out Dividers (Left to Right Split) \n \n \n Construction Boring Specification (Both full CNC and Fixed (Pattern) Definition) \n \n \n Miter Option for Overlapping Joints \n \n \n Stop and/or Through Dado Definition \n \n \n Drawer Front to Sub-Front Adjustment Machining"
+        },
+        {
+            "type": "text",
+            "data": "New Drawer Box and Roll Out Wizard Added"
+        },
+        {
+            "type": "text",
+            "data": "New Drawer Box and Roll Out Wizard Added"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Box/Roll Out Construction Not Dependent upon a Specific Material Schedule"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Box/Roll Out Construction Not Dependent upon a Specific Material Schedule"
+        },
+        {
+            "type": "text",
+            "data": "Added \"System\" Roll Out Type"
+        },
+        {
+            "type": "text",
+            "data": "Added \"System\" Roll Out Type"
+        },
+        {
+            "type": "text",
+            "data": "Unlimited Standard Height Designations"
+        },
+        {
+            "type": "text",
+            "data": "Unlimited Standard Height Designations"
+        },
+        {
+            "type": "text",
+            "data": "Unlimited Standard Depth Designations"
+        },
+        {
+            "type": "text",
+            "data": "Unlimited Standard Depth Designations"
+        },
+        {
+            "type": "text",
+            "data": "Grain Direction Control for Bottoms"
+        },
+        {
+            "type": "text",
+            "data": "Grain Direction Control for Bottoms"
+        },
+        {
+            "type": "text",
+            "data": "Dovetails for Drawer Boxes and Roll Outs"
+        },
+        {
+            "type": "text",
+            "data": "Dovetails for Drawer Boxes and Roll Outs"
+        },
+        {
+            "type": "text",
+            "data": "Swoop Shape Editor for Roll Out Fronts"
+        },
+        {
+            "type": "text",
+            "data": "Swoop Shape Editor for Roll Out Fronts"
+        },
+        {
+            "type": "text",
+            "data": "Side Shape Editor for Roll Out Sides"
+        },
+        {
+            "type": "text",
+            "data": "Side Shape Editor for Roll Out Sides"
+        },
+        {
+            "type": "text",
+            "data": "Ability to Define Drawer Box and Roll Out Partitions (Front to Back Split)"
+        },
+        {
+            "type": "text",
+            "data": "Ability to Define Drawer Box and Roll Out Partitions (Front to Back Split)"
+        },
+        {
+            "type": "text",
+            "data": "Ability to Define Drawer Box and Roll Out Dividers (Left to Right Split)"
+        },
+        {
+            "type": "text",
+            "data": "Ability to Define Drawer Box and Roll Out Dividers (Left to Right Split)"
+        },
+        {
+            "type": "text",
+            "data": "Construction Boring Specification (Both full CNC and Fixed (Pattern) Definition)"
+        },
+        {
+            "type": "text",
+            "data": "Construction Boring Specification (Both full CNC and Fixed (Pattern) Definition)"
+        },
+        {
+            "type": "text",
+            "data": "Miter Option for Overlapping Joints"
+        },
+        {
+            "type": "text",
+            "data": "Miter Option for Overlapping Joints"
+        },
+        {
+            "type": "text",
+            "data": "Stop and/or Through Dado Definition"
+        },
+        {
+            "type": "text",
+            "data": "Stop and/or Through Dado Definition"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Front to Sub-Front Adjustment Machining"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Front to Sub-Front Adjustment Machining"
+        },
+        {
+            "type": "text",
+            "data": "Drawings Area"
+        },
+        {
+            "type": "text",
+            "data": "Generate \"Live\" Drawing Scenes \n \n \n Convert a \"Live\" Drawing Scene into a \"Static\" Drawing Scene \n \n \n Undo/Redo Activated in Drawings Area \n \n \n Assembly Name and Number from Section Editor added to Drawing Scene \n \n \n Bitmap Drawing Scenes set \"Visible\" By Default \n \n \n Specify Custom Paper Sizes \n \n \n Symbol Library Renamed to Drawings Library to better Represent Enhancements \n \n \n Drawings (Symbol) Library Interface Reorganized \n \n \n Copy Drawings (Symbols) \n \n \n Rename Drawings (Symbols) \n \n \n Drawing (Symbol) Types as well as Multiple Categories for each Type \n \n \n Add, Delete and Rename Symbol Categories from a single area \n \n \n Re-order Drawing Sheets \n \n \n Double Click a Scene to go to CAD \n \n \n Print Landscape and Portrait \"Drawings\" Simultaneously"
+        },
+        {
+            "type": "text",
+            "data": "Generate \"Live\" Drawing Scenes"
+        },
+        {
+            "type": "text",
+            "data": "Generate \"Live\" Drawing Scenes"
+        },
+        {
+            "type": "text",
+            "data": "Convert a \"Live\" Drawing Scene into a \"Static\" Drawing Scene"
+        },
+        {
+            "type": "text",
+            "data": "Convert a \"Live\" Drawing Scene into a \"Static\" Drawing Scene"
+        },
+        {
+            "type": "text",
+            "data": "Undo/Redo Activated in Drawings Area"
+        },
+        {
+            "type": "text",
+            "data": "Undo/Redo Activated in Drawings Area"
+        },
+        {
+            "type": "text",
+            "data": "Assembly Name and Number from Section Editor added to Drawing Scene"
+        },
+        {
+            "type": "text",
+            "data": "Assembly Name and Number from Section Editor added to Drawing Scene"
+        },
+        {
+            "type": "text",
+            "data": "Bitmap Drawing Scenes set \"Visible\" By Default"
+        },
+        {
+            "type": "text",
+            "data": "Bitmap Drawing Scenes set \"Visible\" By Default"
+        },
+        {
+            "type": "text",
+            "data": "Specify Custom Paper Sizes"
+        },
+        {
+            "type": "text",
+            "data": "Specify Custom Paper Sizes"
+        },
+        {
+            "type": "text",
+            "data": "Symbol Library Renamed to Drawings Library to better Represent Enhancements"
+        },
+        {
+            "type": "text",
+            "data": "Symbol Library Renamed to Drawings Library to better Represent Enhancements"
+        },
+        {
+            "type": "text",
+            "data": "Drawings (Symbol) Library Interface Reorganized"
+        },
+        {
+            "type": "text",
+            "data": "Drawings (Symbol) Library Interface Reorganized"
+        },
+        {
+            "type": "text",
+            "data": "Copy Drawings (Symbols)"
+        },
+        {
+            "type": "text",
+            "data": "Copy Drawings (Symbols)"
+        },
+        {
+            "type": "text",
+            "data": "Rename Drawings (Symbols)"
+        },
+        {
+            "type": "text",
+            "data": "Rename Drawings (Symbols)"
+        },
+        {
+            "type": "text",
+            "data": "Drawing (Symbol) Types as well as Multiple Categories for each Type"
+        },
+        {
+            "type": "text",
+            "data": "Drawing (Symbol) Types as well as Multiple Categories for each Type"
+        },
+        {
+            "type": "text",
+            "data": "Add, Delete and Rename Symbol Categories from a single area"
+        },
+        {
+            "type": "text",
+            "data": "Add, Delete and Rename Symbol Categories from a single area"
+        },
+        {
+            "type": "text",
+            "data": "Re-order Drawing Sheets"
+        },
+        {
+            "type": "text",
+            "data": "Re-order Drawing Sheets"
+        },
+        {
+            "type": "text",
+            "data": "Double Click a Scene to go to CAD"
+        },
+        {
+            "type": "text",
+            "data": "Double Click a Scene to go to CAD"
+        },
+        {
+            "type": "text",
+            "data": "Print Landscape and Portrait \"Drawings\" Simultaneously"
+        },
+        {
+            "type": "text",
+            "data": "Print Landscape and Portrait \"Drawings\" Simultaneously"
+        },
+        {
+            "type": "text",
+            "data": "General"
+        },
+        {
+            "type": "text",
+            "data": "New Look And Feel (New Product Icon, Splash, and Buttons) \n \n \n Option for Zoom Window to begin from a Corner instead of Center \n \n \n Zoom via Scroll Wheel all Views \n \n \n Pan via Scroll Wheel Drag in all Views \n \n \n Double Click Scroll Wheel to Zoom All \n \n \n Two-way Communication with Jobsite Companion v2 \n \n \n Set View Level Default for the Part Level \n \n \n Removed Maximum View Detail from Assembly/Part Levels (High View is now Maximum) \n \n \n New Catalog \"Furnishings 2\" Added (Includes Over 800 New Objects) \n \n \n New Catalog \"Appliances 2\" Added (Include Over 400 New Objects) \n \n \n New Fields Added to System Properties User Tab \n \n \n Give a Description to an Intelli-Joint \n \n \n Set a Text \"Type\" Parameter \n \n \n Establish New System Parameters as an Attribute (Normal) or as a Note \n \n \n Construction and Intelli-Joints Added to Update Job Utility"
+        },
+        {
+            "type": "text",
+            "data": "New Look And Feel (New Product Icon, Splash, and Buttons)"
+        },
+        {
+            "type": "text",
+            "data": "New Look And Feel (New Product Icon, Splash, and Buttons)"
+        },
+        {
+            "type": "text",
+            "data": "Option for Zoom Window to begin from a Corner instead of Center"
+        },
+        {
+            "type": "text",
+            "data": "Option for Zoom Window to begin from a Corner instead of Center"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Option for Zoom Window to begin from a Corner instead of Center",
+                "uuid": "a6c6d306-c8da-4df8-8440-33f2f24a9c1d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Zoom via Scroll Wheel all Views"
+        },
+        {
+            "type": "text",
+            "data": "Zoom via Scroll Wheel all Views"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Zoom via Scroll Wheel all Views",
+                "uuid": "6aad7aee-39b5-48df-9e34-4ffc7eb5f963",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Pan via Scroll Wheel Drag in all Views"
+        },
+        {
+            "type": "text",
+            "data": "Pan via Scroll Wheel Drag in all Views"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Pan via Scroll Wheel Drag in all Views",
+                "uuid": "6aad7aee-39b5-48df-9e34-4ffc7eb5f963",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Double Click Scroll Wheel to Zoom All"
+        },
+        {
+            "type": "text",
+            "data": "Double Click Scroll Wheel to Zoom All"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Double Click Scroll Wheel to Zoom All",
+                "uuid": "6aad7aee-39b5-48df-9e34-4ffc7eb5f963",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Two-way Communication with Jobsite Companion v2"
+        },
+        {
+            "type": "text",
+            "data": "Two-way Communication with Jobsite Companion v2"
+        },
+        {
+            "type": "text",
+            "data": "Set View Level Default for the Part Level"
+        },
+        {
+            "type": "text",
+            "data": "Set View Level Default for the Part Level"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Set View Level Default for the Part Level",
+                "uuid": "a6c6d306-c8da-4df8-8440-33f2f24a9c1d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Removed Maximum View Detail from Assembly/Part Levels (High View is now Maximum)"
+        },
+        {
+            "type": "text",
+            "data": "Removed Maximum View Detail from Assembly/Part Levels (High View is now Maximum)"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Removed Maximum View Detail from Assembly/Part Levels (High View is now Maximum)",
+                "uuid": "a6c6d306-c8da-4df8-8440-33f2f24a9c1d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "New Catalog \"Furnishings 2\" Added (Includes Over 800 New Objects)"
+        },
+        {
+            "type": "text",
+            "data": "New Catalog \"Furnishings 2\" Added (Includes Over 800 New Objects)"
+        },
+        {
+            "type": "text",
+            "data": "New Catalog \"Appliances 2\" Added (Include Over 400 New Objects)"
+        },
+        {
+            "type": "text",
+            "data": "New Catalog \"Appliances 2\" Added (Include Over 400 New Objects)"
+        },
+        {
+            "type": "text",
+            "data": "New Fields Added to System Properties User Tab"
+        },
+        {
+            "type": "text",
+            "data": "New Fields Added to System Properties User Tab"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "New Fields Added to System Properties User Tab",
+                "uuid": "a6c6d306-c8da-4df8-8440-33f2f24a9c1d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Give a Description to an Intelli-Joint"
+        },
+        {
+            "type": "text",
+            "data": "Give a Description to an Intelli-Joint"
+        },
+        {
+            "type": "text",
+            "data": "Set a Text \"Type\" Parameter"
+        },
+        {
+            "type": "text",
+            "data": "Set a Text \"Type\" Parameter"
+        },
+        {
+            "type": "text",
+            "data": "Establish New System Parameters as an Attribute (Normal) or as a Note"
+        },
+        {
+            "type": "text",
+            "data": "Establish New System Parameters as an Attribute (Normal) or as a Note"
+        },
+        {
+            "type": "text",
+            "data": "Construction and Intelli-Joints Added to Update Job Utility"
+        },
+        {
+            "type": "text",
+            "data": "Construction and Intelli-Joints Added to Update Job Utility"
+        },
+        {
+            "type": "text",
+            "data": "Job Properties"
+        },
+        {
+            "type": "text",
+            "data": "Control the Automatic End Type Tolerance \n \n \n System Parameters Defined as Notes Appear on Notes Tab at Job Category \n \n \n System Parameters Defined as Notes Appear on Notes Tab at Room Category \n \n \n New Fields added to Customer and Ship To Tabs in Job Information:"
+        },
+        {
+            "type": "text",
+            "data": "Control the Automatic End Type Tolerance"
+        },
+        {
+            "type": "text",
+            "data": "Control the Automatic End Type Tolerance"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Control the Automatic End Type Tolerance",
+                "uuid": "a6c6d306-c8da-4df8-8440-33f2f24a9c1d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "System Parameters Defined as Notes Appear on Notes Tab at Job Category"
+        },
+        {
+            "type": "text",
+            "data": "System Parameters Defined as Notes Appear on Notes Tab at Job Category"
+        },
+        {
+            "type": "text",
+            "data": "System Parameters Defined as Notes Appear on Notes Tab at Room Category"
+        },
+        {
+            "type": "text",
+            "data": "System Parameters Defined as Notes Appear on Notes Tab at Room Category"
+        },
+        {
+            "type": "text",
+            "data": "New Fields added to Customer and Ship To Tabs in Job Information:"
+        },
+        {
+            "type": "text",
+            "data": "New Fields added to Customer and Ship To Tabs in Job Information:"
+        },
+        {
+            "type": "text",
+            "data": "Layers"
+        },
+        {
+            "type": "text",
+            "data": "Control Line Weight used for all Lines Specified via Layers \n \n \n Edit or create Dimension Style from the Dimension Layer Editor"
+        },
+        {
+            "type": "text",
+            "data": "Control Line Weight used for all Lines Specified via Layers"
+        },
+        {
+            "type": "text",
+            "data": "Control Line Weight used for all Lines Specified via Layers"
+        },
+        {
+            "type": "text",
+            "data": "Edit or create Dimension Style from the Dimension Layer Editor"
+        },
+        {
+            "type": "text",
+            "data": "Edit or create Dimension Style from the Dimension Layer Editor"
+        },
+        {
+            "type": "text",
+            "data": "Layout (Room) Level"
+        },
+        {
+            "type": "text",
+            "data": "Access and Modify Job Properties for the Job from within the Job \n \n \n Right Click Option to Turn Off All Dimensions by Wall \n \n \n Outlet/Light Switch/Phone Jack/Plumbing Marker Objects Recognized from Jobsite Companion \n \n \n Fixture Class Objects Ignored for Placement by Other Objects \n \n \n Display Object Depth in Elevation Views \n \n \n Ignore Wall Ends in the Wall Navigator \n \n \n Hold Shift Key to Extend Walls in Displayed Unit Precision Increments \n \n \n Update Materials Utility Expanded to Optionally Re-Load Assembly Construction \n \n \n Update Materials Utility Expanded to Optionally Re-Load Drawer/Roll Out Construction \n \n \n Update Materials Utility Expanded to Optionally Re-Load Intelli-Joints \n \n \n Removed Cabinet Outline Only Layer Limitation in Molding and Counter Top Views"
+        },
+        {
+            "type": "text",
+            "data": "Access and Modify Job Properties for the Job from within the Job"
+        },
+        {
+            "type": "text",
+            "data": "Access and Modify Job Properties for the Job from within the Job"
+        },
+        {
+            "type": "text",
+            "data": "Right Click Option to Turn Off All Dimensions by Wall"
+        },
+        {
+            "type": "text",
+            "data": "Right Click Option to Turn Off All Dimensions by Wall"
+        },
+        {
+            "type": "text",
+            "data": "Outlet/Light Switch/Phone Jack/Plumbing Marker Objects Recognized from Jobsite Companion"
+        },
+        {
+            "type": "text",
+            "data": "Outlet/Light Switch/Phone Jack/Plumbing Marker Objects Recognized from Jobsite Companion"
+        },
+        {
+            "type": "text",
+            "data": "Fixture Class Objects Ignored for Placement by Other Objects"
+        },
+        {
+            "type": "text",
+            "data": "Fixture Class Objects Ignored for Placement by Other Objects"
+        },
+        {
+            "type": "text",
+            "data": "Display Object Depth in Elevation Views"
+        },
+        {
+            "type": "text",
+            "data": "Display Object Depth in Elevation Views"
+        },
+        {
+            "type": "text",
+            "data": "Ignore Wall Ends in the Wall Navigator"
+        },
+        {
+            "type": "text",
+            "data": "Ignore Wall Ends in the Wall Navigator"
+        },
+        {
+            "type": "text",
+            "data": "Hold Shift Key to Extend Walls in Displayed Unit Precision Increments"
+        },
+        {
+            "type": "text",
+            "data": "Hold Shift Key to Extend Walls in Displayed Unit Precision Increments"
+        },
+        {
+            "type": "text",
+            "data": "Update Materials Utility Expanded to Optionally Re-Load Assembly Construction"
+        },
+        {
+            "type": "text",
+            "data": "Update Materials Utility Expanded to Optionally Re-Load Assembly Construction"
+        },
+        {
+            "type": "text",
+            "data": "Update Materials Utility Expanded to Optionally Re-Load Drawer/Roll Out Construction"
+        },
+        {
+            "type": "text",
+            "data": "Update Materials Utility Expanded to Optionally Re-Load Drawer/Roll Out Construction"
+        },
+        {
+            "type": "text",
+            "data": "Update Materials Utility Expanded to Optionally Re-Load Intelli-Joints"
+        },
+        {
+            "type": "text",
+            "data": "Update Materials Utility Expanded to Optionally Re-Load Intelli-Joints"
+        },
+        {
+            "type": "text",
+            "data": "Removed Cabinet Outline Only Layer Limitation in Molding and Counter Top Views"
+        },
+        {
+            "type": "text",
+            "data": "Removed Cabinet Outline Only Layer Limitation in Molding and Counter Top Views"
+        },
+        {
+            "type": "text",
+            "data": "Materials"
+        },
+        {
+            "type": "text",
+            "data": "Added CNC Options to Materials in the Laminate Category \n \n \n Renamed Pull \"Height\" Field to \"Length\" \n \n \n Pull Length Field in Material Catalog Now Represents Pull Hole Center to Center Dimension \n \n \n Part Pricing Upcharge % Added to Material Schedules \n \n \n Specify Drawer Box Edge Banding per Part \n \n \n Specify Roll Out Edge Banding per Part \n \n \n Hinge Allowance For Roll Outs \n \n \n Define Inline Hinge Plate Boring \n \n \n Renamed Drawer Guide \"Depth\" Field to \"Length\" \n \n \n Specify Drawer Guide Bottom Bore Mounting \n \n \n Specify Drawer Guide Bottom Groove Mounting \n \n \n Expanded Drawer Guide Side Mounting Boring from Three to Six Holes \n \n \n Expanded Wire Basket Side Mounting Boring from Three to Six Holes \n \n \n Drawer Guide Side Mounting Boring Can Be Referenced From Top or Bottom of Drawer Box \n \n \n Define Front Fixing Bracket Machining for Drawer Guides \n \n \n Define Drawer Box Back Mounting Machining for Drawer Guides \n \n \n Specify Drawer Guide Notching for Drawer Box Back Mounting"
+        },
+        {
+            "type": "text",
+            "data": "Added CNC Options to Materials in the Laminate Category"
+        },
+        {
+            "type": "text",
+            "data": "Added CNC Options to Materials in the Laminate Category"
+        },
+        {
+            "type": "text",
+            "data": "Renamed Pull \"Height\" Field to \"Length\""
+        },
+        {
+            "type": "text",
+            "data": "Renamed Pull \"Height\" Field to \"Length\""
+        },
+        {
+            "type": "text",
+            "data": "Pull Length Field in Material Catalog Now Represents Pull Hole Center to Center Dimension"
+        },
+        {
+            "type": "text",
+            "data": "Pull Length Field in Material Catalog Now Represents Pull Hole Center to Center Dimension"
+        },
+        {
+            "type": "text",
+            "data": "Part Pricing Upcharge % Added to Material Schedules"
+        },
+        {
+            "type": "text",
+            "data": "Part Pricing Upcharge % Added to Material Schedules"
+        },
+        {
+            "type": "text",
+            "data": "Specify Drawer Box Edge Banding per Part"
+        },
+        {
+            "type": "text",
+            "data": "Specify Drawer Box Edge Banding per Part"
+        },
+        {
+            "type": "text",
+            "data": "Specify Roll Out Edge Banding per Part"
+        },
+        {
+            "type": "text",
+            "data": "Specify Roll Out Edge Banding per Part"
+        },
+        {
+            "type": "text",
+            "data": "Hinge Allowance For Roll Outs"
+        },
+        {
+            "type": "text",
+            "data": "Hinge Allowance For Roll Outs"
+        },
+        {
+            "type": "text",
+            "data": "Define Inline Hinge Plate Boring"
+        },
+        {
+            "type": "text",
+            "data": "Define Inline Hinge Plate Boring"
+        },
+        {
+            "type": "text",
+            "data": "Renamed Drawer Guide \"Depth\" Field to \"Length\""
+        },
+        {
+            "type": "text",
+            "data": "Renamed Drawer Guide \"Depth\" Field to \"Length\""
+        },
+        {
+            "type": "text",
+            "data": "Specify Drawer Guide Bottom Bore Mounting"
+        },
+        {
+            "type": "text",
+            "data": "Specify Drawer Guide Bottom Bore Mounting"
+        },
+        {
+            "type": "text",
+            "data": "Specify Drawer Guide Bottom Groove Mounting"
+        },
+        {
+            "type": "text",
+            "data": "Specify Drawer Guide Bottom Groove Mounting"
+        },
+        {
+            "type": "text",
+            "data": "Expanded Drawer Guide Side Mounting Boring from Three to Six Holes"
+        },
+        {
+            "type": "text",
+            "data": "Expanded Drawer Guide Side Mounting Boring from Three to Six Holes"
+        },
+        {
+            "type": "text",
+            "data": "Expanded Wire Basket Side Mounting Boring from Three to Six Holes"
+        },
+        {
+            "type": "text",
+            "data": "Expanded Wire Basket Side Mounting Boring from Three to Six Holes"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Guide Side Mounting Boring Can Be Referenced From Top or Bottom of Drawer Box"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Guide Side Mounting Boring Can Be Referenced From Top or Bottom of Drawer Box"
+        },
+        {
+            "type": "text",
+            "data": "Define Front Fixing Bracket Machining for Drawer Guides"
+        },
+        {
+            "type": "text",
+            "data": "Define Front Fixing Bracket Machining for Drawer Guides"
+        },
+        {
+            "type": "text",
+            "data": "Define Drawer Box Back Mounting Machining for Drawer Guides"
+        },
+        {
+            "type": "text",
+            "data": "Define Drawer Box Back Mounting Machining for Drawer Guides"
+        },
+        {
+            "type": "text",
+            "data": "Specify Drawer Guide Notching for Drawer Box Back Mounting"
+        },
+        {
+            "type": "text",
+            "data": "Specify Drawer Guide Notching for Drawer Box Back Mounting"
+        },
+        {
+            "type": "text",
+            "data": "Object Tree"
+        },
+        {
+            "type": "text",
+            "data": "Define and Modify Text Parameters (Notes & Attributes)"
+        },
+        {
+            "type": "text",
+            "data": "Define and Modify Text Parameters (Notes & Attributes)"
+        },
+        {
+            "type": "text",
+            "data": "Define and Modify Text Parameters (Notes & Attributes)"
+        },
+        {
+            "type": "text",
+            "data": "Parts"
+        },
+        {
+            "type": "text",
+            "data": "Custom User Specified Price Matrices for Parts \n \n \n Add Primary Dove Tail Via New Operation \n \n \n Select Which Columns Are Displayed in the CNC Operations View \n \n \n Re-Order Columns in the CNC Operations View \n \n \n Last Column Widths Remembered in the CNC Operations View"
+        },
+        {
+            "type": "text",
+            "data": "Custom User Specified Price Matrices for Parts"
+        },
+        {
+            "type": "text",
+            "data": "Custom User Specified Price Matrices for Parts"
+        },
+        {
+            "type": "text",
+            "data": "Add Primary Dove Tail Via New Operation"
+        },
+        {
+            "type": "text",
+            "data": "Add Primary Dove Tail Via New Operation"
+        },
+        {
+            "type": "text",
+            "data": "Select Which Columns Are Displayed in the CNC Operations View"
+        },
+        {
+            "type": "text",
+            "data": "Select Which Columns Are Displayed in the CNC Operations View"
+        },
+        {
+            "type": "text",
+            "data": "Re-Order Columns in the CNC Operations View"
+        },
+        {
+            "type": "text",
+            "data": "Re-Order Columns in the CNC Operations View"
+        },
+        {
+            "type": "text",
+            "data": "Last Column Widths Remembered in the CNC Operations View"
+        },
+        {
+            "type": "text",
+            "data": "Last Column Widths Remembered in the CNC Operations View"
+        },
+        {
+            "type": "text",
+            "data": "Profile Catalog"
+        },
+        {
+            "type": "text",
+            "data": "Mirror Imported DXF Profiles **(No longer valid in Version 9) \n \n \n Rotate Imported DXF Profiles **(No longer valid in Version 9)"
+        },
+        {
+            "type": "text",
+            "data": "Mirror Imported DXF Profiles **(No longer valid in Version 9)"
+        },
+        {
+            "type": "text",
+            "data": "Mirror Imported DXF Profiles **(No longer valid in Version 9)"
+        },
+        {
+            "type": "text",
+            "data": "Rotate Imported DXF Profiles **(No longer valid in Version 9)"
+        },
+        {
+            "type": "text",
+            "data": "Rotate Imported DXF Profiles **(No longer valid in Version 9)"
+        },
+        {
+            "type": "text",
+            "data": "Reports"
+        },
+        {
+            "type": "text",
+            "data": "Construction Method Name Included on Assembly Sheets \n \n \n Select From Your Custom Assembly Sheet Templates \n \n \n Send Assembly Sheets \"To Drawing\" \n \n \n Select From Your Custom Elevation Sheet Template \n \n \n Send Elevation Sheets \"To Drawing\" \n \n \n Report Center Will Remember the Last Printer an Individual Report was Printed To"
+        },
+        {
+            "type": "text",
+            "data": "Construction Method Name Included on Assembly Sheets"
+        },
+        {
+            "type": "text",
+            "data": "Construction Method Name Included on Assembly Sheets"
+        },
+        {
+            "type": "text",
+            "data": "Select From Your Custom Assembly Sheet Templates"
+        },
+        {
+            "type": "text",
+            "data": "Select From Your Custom Assembly Sheet Templates"
+        },
+        {
+            "type": "text",
+            "data": "Send Assembly Sheets \"To Drawing\""
+        },
+        {
+            "type": "text",
+            "data": "Send Assembly Sheets \"To Drawing\""
+        },
+        {
+            "type": "text",
+            "data": "Select From Your Custom Elevation Sheet Template"
+        },
+        {
+            "type": "text",
+            "data": "Select From Your Custom Elevation Sheet Template"
+        },
+        {
+            "type": "text",
+            "data": "Send Elevation Sheets \"To Drawing\""
+        },
+        {
+            "type": "text",
+            "data": "Send Elevation Sheets \"To Drawing\""
+        },
+        {
+            "type": "text",
+            "data": "Report Center Will Remember the Last Printer an Individual Report was Printed To"
+        },
+        {
+            "type": "text",
+            "data": "Report Center Will Remember the Last Printer an Individual Report was Printed To"
+        },
+        {
+            "type": "text",
+            "data": "User Created Standards"
+        },
+        {
+            "type": "text",
+            "data": "Define Public Variables in a UCS \n \n \n Double Clicking a UCS in the UCS List will Open it in the Editor if Previously Modified \n \n \n UCS Editor Macro Recorder (Removed in Version 10) \n \n \n Documented Keyboard and Mouse Shortcuts for the UCS Editor \n \n \n Ability to Set a Parameter's Style via UCS \n \n \n Set A Description (Prompt) for a Parameter via UCS \n \n \n Add Dovetails to Parts Via UCS (Through Wizard or Editor) \n \n \n _MAXTRAD - Specifies the Maximum Tool Radius for a Dado/Route Operation \n \n \n _NESTOP - Specifies that the Operation Should Only be Performed on a Nest \n \n \n _EDGnNPC - Specifies a Nested Part Clearance for the Specified (n) Edge \n \n \n _NESTSIZE - Allows you to Set an Override on Part Size Rules in the S2M Center \n \n \n _DRILLMASK - Allows you to Set a Pattern Mask for Repeat Style Boring Operations \n \n \n CONSTID Parameter Will Now Return Assembly, Drawer, and/or Roll Out Construction ID \n \n \n _BANDMATID - Retunrs Door/Drawer Front Edgeband Material \n \n \n _EDGnRADIUS - Returns Part Edge Radius \n \n \n Remove a Parameter From an Object Via UCS \n \n \n Test for the Existence of a Parameter"
+        },
+        {
+            "type": "text",
+            "data": "Define Public Variables in a UCS"
+        },
+        {
+            "type": "text",
+            "data": "Define Public Variables in a UCS"
+        },
+        {
+            "type": "text",
+            "data": "Double Clicking a UCS in the UCS List will Open it in the Editor if Previously Modified"
+        },
+        {
+            "type": "text",
+            "data": "Double Clicking a UCS in the UCS List will Open it in the Editor if Previously Modified"
+        },
+        {
+            "type": "text",
+            "data": "UCS Editor Macro Recorder (Removed in Version 10)"
+        },
+        {
+            "type": "text",
+            "data": "UCS Editor Macro Recorder (Removed in Version 10)"
+        },
+        {
+            "type": "text",
+            "data": "Documented Keyboard and Mouse Shortcuts for the UCS Editor"
+        },
+        {
+            "type": "text",
+            "data": "Documented Keyboard and Mouse Shortcuts for the UCS Editor"
+        },
+        {
+            "type": "text",
+            "data": "Ability to Set a Parameter's Style via UCS"
+        },
+        {
+            "type": "text",
+            "data": "Ability to Set a Parameter's Style via UCS"
+        },
+        {
+            "type": "text",
+            "data": "Set A Description (Prompt) for a Parameter via UCS"
+        },
+        {
+            "type": "text",
+            "data": "Set A Description (Prompt) for a Parameter via UCS"
+        },
+        {
+            "type": "text",
+            "data": "Add Dovetails to Parts Via UCS (Through Wizard or Editor)"
+        },
+        {
+            "type": "text",
+            "data": "Add Dovetails to Parts Via UCS (Through Wizard or Editor)"
+        },
+        {
+            "type": "text",
+            "data": "_MAXTRAD - Specifies the Maximum Tool Radius for a Dado/Route Operation"
+        },
+        {
+            "type": "text",
+            "data": "_MAXTRAD - Specifies the Maximum Tool Radius for a Dado/Route Operation"
+        },
+        {
+            "type": "text",
+            "data": "_NESTOP - Specifies that the Operation Should Only be Performed on a Nest"
+        },
+        {
+            "type": "text",
+            "data": "_NESTOP - Specifies that the Operation Should Only be Performed on a Nest"
+        },
+        {
+            "type": "text",
+            "data": "_EDGnNPC - Specifies a Nested Part Clearance for the Specified (n) Edge"
+        },
+        {
+            "type": "text",
+            "data": "_EDGnNPC - Specifies a Nested Part Clearance for the Specified (n) Edge"
+        },
+        {
+            "type": "text",
+            "data": "_NESTSIZE - Allows you to Set an Override on Part Size Rules in the S2M Center"
+        },
+        {
+            "type": "text",
+            "data": "_NESTSIZE - Allows you to Set an Override on Part Size Rules in the S2M Center"
+        },
+        {
+            "type": "text",
+            "data": "_DRILLMASK - Allows you to Set a Pattern Mask for Repeat Style Boring Operations"
+        },
+        {
+            "type": "text",
+            "data": "_DRILLMASK - Allows you to Set a Pattern Mask for Repeat Style Boring Operations"
+        },
+        {
+            "type": "text",
+            "data": "CONSTID Parameter Will Now Return Assembly, Drawer, and/or Roll Out Construction ID"
+        },
+        {
+            "type": "text",
+            "data": "CONSTID Parameter Will Now Return Assembly, Drawer, and/or Roll Out Construction ID"
+        },
+        {
+            "type": "text",
+            "data": "_BANDMATID - Retunrs Door/Drawer Front Edgeband Material"
+        },
+        {
+            "type": "text",
+            "data": "_BANDMATID - Retunrs Door/Drawer Front Edgeband Material"
+        },
+        {
+            "type": "text",
+            "data": "_EDGnRADIUS - Returns Part Edge Radius"
+        },
+        {
+            "type": "text",
+            "data": "_EDGnRADIUS - Returns Part Edge Radius"
+        },
+        {
+            "type": "text",
+            "data": "Remove a Parameter From an Object Via UCS"
+        },
+        {
+            "type": "text",
+            "data": "Remove a Parameter From an Object Via UCS"
+        },
+        {
+            "type": "text",
+            "data": "Test for the Existence of a Parameter"
+        },
+        {
+            "type": "text",
+            "data": "Test for the Existence of a Parameter"
+        },
+        {
+            "type": "text",
+            "data": "** Items marked with  **(No longer valid in Version 9)  can be handled in the new CAD Shape Editor."
+        }
+    ],
+    "source_file": "CVEnglish\\Introduction\\Whats_New_Previous_Versions\\What_s_New_In_Version_4_2.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

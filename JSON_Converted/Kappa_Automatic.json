@@ -1,0 +1,17 @@
+{
+    "id": "fbea4c43-dbe2-48f7-8ee2-6c73c172888f",
+    "title": "Kappa_Automatic",
+    "content": [
+        {
+            "type": "text",
+            "data": "Kappa Automatic"
+        },
+        {
+            "type": "text",
+            "data": "This link will create text files (.txt) that can be run on the Kappa Automatic series of panel saws. \u00a0Currently, the ability to output labels to the machine directly has been disabled. \u00a0To get labeling at the machine, you will need to use a standalone license of Label-IT."
+        }
+    ],
+    "source_file": "NCEnglish_Optimizer\\Ribbonbar\\Main_Tab\\Machine\\NC_Links\\Saw_Links\\Kappa_Automatic.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

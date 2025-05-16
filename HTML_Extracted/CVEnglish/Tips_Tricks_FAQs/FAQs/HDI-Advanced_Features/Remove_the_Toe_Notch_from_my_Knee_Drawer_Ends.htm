@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><link rel="stylesheet" type="text/css" href="../../../_rhdefault.css"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=WINDOWS-1252"/>
+  <meta name="generator" content="Adobe RoboHelp 2022"/>
+  <title>Remove the Toe Notch from my Knee Drawer Ends</title>
+  <link rel="StyleSheet" href="../../../assets/css/default.css" type="text/css"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/><script type="text/javascript" src="../../../ehlpdhtm.js"></script></head>
+<body>
+  <h1>Remove the Toe Notch from my Knee Drawer Ends</h1>
+  <p>I have noticed that placing a knee drawer next to a Cabinet, even though the toe is &quot;deleted&quot; it becomes a notched toe on the Unfinished End. How do I keep this from happening?</p>
+  <p>If you are using a <a href="../../../System_Level/Ribbonbar/Main_Tab/Construction_Group/Assembly_Manager/SL_Assembly_Manager.htm">Construction Method</a> that runs the end to the floor for a notched toe it takes precedence over a Cabinet Editor Modification. The reason for this is that CABINET VISION evaluates the End condition then builds the Cabinet in place. When it sees the End condition Finished/Unfinished it looks to the Construction Method for the Job to build the ends, it of course sees End to Floor and it notches the Toe. When placing a cabinet in a Job using that Construction Method for the Job you will get a notched toe.</p>
+  <p>To keep this from happening, from the System Level Assembly Manager copy your Standard Assembly Construction Method to a new Construction Method called Knee Drawer. In the Knee Drawer Construction method set the Finished and Unfinished ends Deck/Bottom Connection to flush with bottom of Deck/Bottom instead of &quot;To Floor&quot;. Bring out your Knee Drawer in a new Job. Go to the Section Editor change the Knee Drawers Construction Method to the Knee Drawer Construction Method. Then <a href="../../../Room_Level/Right_Click_Options/RLRC_On_One_Assembly.htm#Save_Save_As_Cabinet">save</a> it to your Catalog click on Advanced and Preserve the Construction Method. From now on when inserting the Knee Drawer it will not Notch the Toes.</p>
+
+</body></html>

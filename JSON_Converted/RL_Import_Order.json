@@ -1,0 +1,111 @@
+{
+    "id": "304aff2e-0917-4515-b5c5-4b73ff0649b1",
+    "title": "RL_Import_Order",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top \n > \n \n \n Room Level \n > \n \n Ribbonbar \n > \n \n Utilities Tab \n > \n \n Import Order \n > \n \n Import Order"
+        },
+        {
+            "type": "text",
+            "data": "Top \n >"
+        },
+        {
+            "type": "text",
+            "data": "Room Level \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Room Level",
+                "uuid": "9eaa492c-0405-4da7-8e0f-a6ff4e047890",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Ribbonbar \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Ribbonbar",
+                "uuid": "a095688d-3b5c-4aba-8f35-bdc4541dcc7f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Utilities Tab \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Utilities Tab",
+                "uuid": "2cc35c1f-8a3f-487c-adff-9e9524ccf97e",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Import Order \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Import Order",
+                "uuid": "304aff2e-0917-4515-b5c5-4b73ff0649b1",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Import Order"
+        },
+        {
+            "type": "text",
+            "data": "Import Order"
+        },
+        {
+            "type": "text",
+            "data": "Import Order"
+        },
+        {
+            "type": "image",
+            "data": "image1917.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option allows you to browse to and import an Assembly list from a 3rd party application."
+        },
+        {
+            "type": "text",
+            "data": "After clicking the Import Order option you will be presented with the Import Order Browse Window."
+        },
+        {
+            "type": "image",
+            "data": "Import_Order.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "See the  ORD File Format  topic for more information."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "ORD File Format",
+                "uuid": "c271312a-f3e1-44fd-9e07-0068caab20b4",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Simply select the ORD file to Open and click Open."
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Room_Level\\Ribbonbar\\Utilities_Tab\\Import_Order\\RL_Import_Order.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

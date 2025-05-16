@@ -1,0 +1,29 @@
+{
+    "id": "b481c925-429c-4c3d-97be-2e65e17ca4c4",
+    "title": "Change_a_Sub_Assemblies_Sectioning",
+    "content": [
+        {
+            "type": "text",
+            "data": "Change a Sub Assemblies Sectioning"
+        },
+        {
+            "type": "text",
+            "data": "In the Ortho View for my Cabinet I selected the Objects button and placed a Drawer Stack inside one of my Tall cabinets. How do I change the number of Drawers in that Drawer Stack, when I go to the Section Editor I can only modify the Tall Cabinet?"
+        },
+        {
+            "type": "text",
+            "data": "From the Assembly Level use the  Assembly Selector  to select your Sub-Assembly."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Assembly Selector",
+                "uuid": "f478da3b-2bc8-45fa-8825-a29d43817ee3",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\FAQs\\HDI-Advanced_Features\\Change_a_Sub_Assemblies_Sectioning.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

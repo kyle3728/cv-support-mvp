@@ -1,0 +1,31 @@
+{
+    "id": "1652f6d5-3bbe-450f-a197-ddc70c41d841",
+    "title": "RL_Switch_Catalog",
+    "content": [
+        {
+            "type": "text",
+            "data": "Switch Library"
+        },
+        {
+            "type": "image",
+            "data": "image509.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Use this function to switch to a different modular catalog for the current Job."
+        },
+        {
+            "type": "text",
+            "data": "Be very careful when using this feature because only Cabinets with exactly the same nomenclature will be used."
+        },
+        {
+            "type": "image",
+            "data": "Warning.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish\\Room_Level\\Ribbonbar\\Utilities_Tab\\RL_Switch_Catalog.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

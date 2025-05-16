@@ -1,0 +1,167 @@
+{
+    "id": "0c9fafb1-6739-468e-9b80-42645b05d0fb",
+    "title": "RLRB_Sketch_Group",
+    "content": [
+        {
+            "type": "text",
+            "data": "Sketch Group"
+        },
+        {
+            "type": "text",
+            "data": "Following are the options in the Sketch Group:"
+        },
+        {
+            "type": "text",
+            "data": "Cartoon"
+        },
+        {
+            "type": "image",
+            "data": "image1593.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "A Sketch style giving a cartoon-like image (flat colors and outlines around objects)."
+        },
+        {
+            "type": "text",
+            "data": "Full -  This is a full rendering. \n \n \n Save -  This option allows you to Save the Render. See the  Saving Renders  topic for more information."
+        },
+        {
+            "type": "text",
+            "data": "Full -  This is a full rendering."
+        },
+        {
+            "type": "text",
+            "data": "Full -  This is a full rendering."
+        },
+        {
+            "type": "text",
+            "data": "Save -  This option allows you to Save the Render. See the  Saving Renders  topic for more information."
+        },
+        {
+            "type": "text",
+            "data": "Save -  This option allows you to Save the Render. See the  Saving Renders  topic for more information."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Saving Renders",
+                "uuid": "39e8815b-5ddd-431e-b882-bd6bda78a3da",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Below is an example of a Full Render in this mode."
+        },
+        {
+            "type": "image",
+            "data": "image1027.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Hand Drawn"
+        },
+        {
+            "type": "image",
+            "data": "image1596.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "A Sketch style giving the effect of a hand-drawn outline."
+        },
+        {
+            "type": "text",
+            "data": "Full -  This is a full rendering. \n \n \n Save -  This option allows you to Save the Render. See the  Saving Renders  topic for more information."
+        },
+        {
+            "type": "text",
+            "data": "Full -  This is a full rendering."
+        },
+        {
+            "type": "text",
+            "data": "Full -  This is a full rendering."
+        },
+        {
+            "type": "text",
+            "data": "Save -  This option allows you to Save the Render. See the  Saving Renders  topic for more information."
+        },
+        {
+            "type": "text",
+            "data": "Save -  This option allows you to Save the Render. See the  Saving Renders  topic for more information."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Saving Renders",
+                "uuid": "39e8815b-5ddd-431e-b882-bd6bda78a3da",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Below is an example of a Full Render in this mode."
+        },
+        {
+            "type": "image",
+            "data": "image1028.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Hatch"
+        },
+        {
+            "type": "image",
+            "data": "image1597.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "A Sketch style giving the effect of a hatched drawing."
+        },
+        {
+            "type": "text",
+            "data": "Full -  This is a full rendering. \n \n \n Save -  This option allows you to Save the Render. See the  Saving Renders  topic for more information."
+        },
+        {
+            "type": "text",
+            "data": "Full -  This is a full rendering."
+        },
+        {
+            "type": "text",
+            "data": "Full -  This is a full rendering."
+        },
+        {
+            "type": "text",
+            "data": "Save -  This option allows you to Save the Render. See the  Saving Renders  topic for more information."
+        },
+        {
+            "type": "text",
+            "data": "Save -  This option allows you to Save the Render. See the  Saving Renders  topic for more information."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Saving Renders",
+                "uuid": "39e8815b-5ddd-431e-b882-bd6bda78a3da",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Below is an example of a Full Render in this mode."
+        },
+        {
+            "type": "image",
+            "data": "image1029.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Room_Level\\Ribbonbar\\PhotoVision_Tab\\RLRB_Sketch_Group.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

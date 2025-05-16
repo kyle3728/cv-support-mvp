@@ -1,0 +1,94 @@
+{
+    "id": "d7e1a988-55af-4939-a0c8-a8e2e2da22f2",
+    "title": "End_Stile",
+    "content": [
+        {
+            "type": "text",
+            "data": "End Stile"
+        },
+        {
+            "type": "text",
+            "data": "This is where you configure the scenarios where aEnd Stile Connects to Parts."
+        },
+        {
+            "type": "image",
+            "data": "image711.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The following diagramshow the Connections available for the End Stile. Click a specific option in the diagram for more information or continue through this topic for information on all the options."
+        },
+        {
+            "type": "image",
+            "data": "image712.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "End Stile - Top Rail (Standard #755)"
+        },
+        {
+            "type": "image",
+            "data": "image713.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "End Stile - Bottom Rail (Standard #757)"
+        },
+        {
+            "type": "image",
+            "data": "image714.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "End Stile - Finished End (Standard #765)"
+        },
+        {
+            "type": "image",
+            "data": "image715.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "End Stile - Skin End (Standard #880)"
+        },
+        {
+            "type": "image",
+            "data": "image716.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "End Stile - Clipped Finished End (Standard #766)"
+        },
+        {
+            "type": "image",
+            "data": "image717.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "End Stile - Unfinished End (Standard #767)"
+        },
+        {
+            "type": "image",
+            "data": "image718.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "End Stile - Sub End (Standard #768)"
+        },
+        {
+            "type": "image",
+            "data": "image719.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Cabinetmaker\\System_Level\\Ribbonbar\\Main_Tab\\Construction_Group\\Assembly_Manager\\Assembly\\Branches\\Connection\\End_Stile.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

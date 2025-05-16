@@ -1,0 +1,133 @@
+{
+    "id": "814286ff-1628-4778-a39b-cd4794387fcb",
+    "title": "RLODF_PNL_File_Format",
+    "content": [
+        {
+            "type": "text",
+            "data": "PNL File Format"
+        },
+        {
+            "type": "image",
+            "data": "Reporting.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field #",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "1",
+                        "Part quantity"
+                    ],
+                    [
+                        "2",
+                        "Cabinet number"
+                    ],
+                    [
+                        "3",
+                        "Material thickness"
+                    ],
+                    [
+                        "4",
+                        "Part width"
+                    ],
+                    [
+                        "5",
+                        "Part length"
+                    ],
+                    [
+                        "6",
+                        "Material cost (per unit)"
+                    ],
+                    [
+                        "7",
+                        "Part name"
+                    ],
+                    [
+                        "8",
+                        "Material name"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field #"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "1"
+        },
+        {
+            "type": "text",
+            "data": "Part quantity"
+        },
+        {
+            "type": "text",
+            "data": "2"
+        },
+        {
+            "type": "text",
+            "data": "Cabinet number"
+        },
+        {
+            "type": "text",
+            "data": "3"
+        },
+        {
+            "type": "text",
+            "data": "Material thickness"
+        },
+        {
+            "type": "text",
+            "data": "4"
+        },
+        {
+            "type": "text",
+            "data": "Part width"
+        },
+        {
+            "type": "text",
+            "data": "5"
+        },
+        {
+            "type": "text",
+            "data": "Part length"
+        },
+        {
+            "type": "text",
+            "data": "6"
+        },
+        {
+            "type": "text",
+            "data": "Material cost (per unit)"
+        },
+        {
+            "type": "text",
+            "data": "7"
+        },
+        {
+            "type": "text",
+            "data": "Part name"
+        },
+        {
+            "type": "text",
+            "data": "8"
+        },
+        {
+            "type": "text",
+            "data": "Material name"
+        }
+    ],
+    "source_file": "CVEnglish\\Room_Level\\Ribbonbar\\Utilities_Tab\\Output_Data_File\\RLODF_PNL_File_Format.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

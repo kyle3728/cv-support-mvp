@@ -1,0 +1,103 @@
+{
+    "id": "305a650d-2ebc-43c1-a1dd-84192366b9c5",
+    "title": "conn_Adjustable_Shelf",
+    "content": [
+        {
+            "type": "text",
+            "data": "Adjustable Shelf"
+        },
+        {
+            "type": "text",
+            "data": "This is where you configure the scenarios where an Adjustable Shelf Connects to Parts."
+        },
+        {
+            "type": "image",
+            "data": "image495.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The following diagram\u00a0show the Connections available for the Adjustable Shelf. Click a specific option in the diagram for more information or continue through this topic for information on all the options."
+        },
+        {
+            "type": "image",
+            "data": "image472.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Adjustable Shelf - Finished End (Standard #750)"
+        },
+        {
+            "type": "image",
+            "data": "image554.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Adjustable Shelf - Unfinished End (Standard #751)"
+        },
+        {
+            "type": "image",
+            "data": "image555.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Adjustable Shelf - Sub End (Standard #752)"
+        },
+        {
+            "type": "image",
+            "data": "image556.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Adjustable Shelf - Finished Back (Standard #797)"
+        },
+        {
+            "type": "image",
+            "data": "image557.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Adjustable Shelf - Unfinished Back (Standard #796)"
+        },
+        {
+            "type": "image",
+            "data": "image558.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Adjustable Shelf - Clipped Back (Standard #810)"
+        },
+        {
+            "type": "image",
+            "data": "image559.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Adjustable Shelf - Partition (Standard #754)"
+        },
+        {
+            "type": "image",
+            "data": "image560.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Adjustable Shelf - Divider (Standard #753)"
+        },
+        {
+            "type": "image",
+            "data": "image561.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\System_Level\\Ribbonbar\\Main_Tab\\Construction_Group\\Assembly_Manager\\Assembly\\Branches\\Connection\\conn_Adjustable_Shelf.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

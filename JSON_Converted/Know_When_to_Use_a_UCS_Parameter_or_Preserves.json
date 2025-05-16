@@ -1,0 +1,25 @@
+{
+    "id": "789805d1-0b10-41d6-a915-38b849c5343b",
+    "title": "Know_When_to_Use_a_UCS_Parameter_or_Preserves",
+    "content": [
+        {
+            "type": "text",
+            "data": "Know When to Use a UCS Parameter or Preserves"
+        },
+        {
+            "type": "text",
+            "data": "I need to know a general rule of thumb as to when one should use (or not use) a UCS, Object Tree Parameters, or just save an Assembly to my Catalog using the Preserve tab (for Construction Method)?"
+        },
+        {
+            "type": "text",
+            "data": "Here is a simple rule of thumb. If the modification is for one Part (or one Assembly) then typically, you wouldn't use a UCS."
+        },
+        {
+            "type": "text",
+            "data": "However, if the modification is going to apply to multiple Assemblies, for example all sink Cabinets, then write a UCS. The theory behind this rule of thumb is that it is faster to modify one item without writing a UCS. However it is typically faster\n    to modify two or more items with a UCS."
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\FAQs\\HDI-Advanced_Features\\Know_When_to_Use_a_UCS_Parameter_or_Preserves.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

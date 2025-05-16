@@ -1,0 +1,127 @@
+{
+    "id": "105cc583-293b-4a15-83e6-5e724ce28c9b",
+    "title": "Sidebar",
+    "content": [
+        {
+            "type": "text",
+            "data": "Sidebar"
+        },
+        {
+            "type": "text",
+            "data": "At Parts and Material List View"
+        },
+        {
+            "type": "text",
+            "data": "Click one of the buttons below for more information"
+        },
+        {
+            "type": "text",
+            "data": "View with Primary Machine Selected"
+        },
+        {
+            "type": "image",
+            "data": "image95.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "At the Pattern/Part View"
+        },
+        {
+            "type": "text",
+            "data": "There are three selectable areas in the Optimizing sidebar:"
+        },
+        {
+            "type": "image",
+            "data": "image96.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Cut Patterns  - This area displays all optimized sheets. To view the Patterns simply click on the stack image in this area."
+        },
+        {
+            "type": "text",
+            "data": "Cut Patterns  - This area displays all optimized sheets. To view the Patterns simply click on the stack image in this area."
+        },
+        {
+            "type": "text",
+            "data": "Cut Patterns  - This area displays all optimized sheets. To view the Patterns simply click on the stack image in this area."
+        },
+        {
+            "type": "image",
+            "data": "image97.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Reports  - Allows you to view and print the S2M Center Reports."
+        },
+        {
+            "type": "text",
+            "data": "Reports  - Allows you to view and print the S2M Center Reports."
+        },
+        {
+            "type": "text",
+            "data": "Reports  - Allows you to view and print the S2M Center Reports."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Reports",
+                "uuid": "570f3a87-c60b-45fb-a5e7-bb0e9310f4e7",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image1251.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "NC Code & Labels  - Allows you to output NC Code & Labels."
+        },
+        {
+            "type": "text",
+            "data": "NC Code & Labels  - Allows you to output NC Code & Labels."
+        },
+        {
+            "type": "text",
+            "data": "NC Code & Labels  - Allows you to output NC Code & Labels."
+        },
+        {
+            "type": "image",
+            "data": "image1252.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Right Click Options"
+        },
+        {
+            "type": "image",
+            "data": "image98.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "In the Cut Patterns are there is one right click option:"
+        },
+        {
+            "type": "text",
+            "data": "Print  - Clicking the Print command will Print the selected stack."
+        },
+        {
+            "type": "text",
+            "data": "Print  - Clicking the Print command will Print the selected stack."
+        },
+        {
+            "type": "text",
+            "data": "Print  - Clicking the Print command will Print the selected stack."
+        }
+    ],
+    "source_file": "NCEnglish_Optimizer\\Sidebar\\Sidebar.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

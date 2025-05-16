@@ -1,0 +1,325 @@
+{
+    "id": "e44939de-1c6f-49ff-a166-27531da3d991",
+    "title": "The_S2M_Center_Button",
+    "content": [
+        {
+            "type": "text",
+            "data": "File Menu"
+        },
+        {
+            "type": "image",
+            "data": "image62.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "New"
+        },
+        {
+            "type": "image",
+            "data": "image63.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "+"
+        },
+        {
+            "type": "image",
+            "data": "ctrl_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "letter_n.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "When you click on New, the S2M CENTER will start the Job Properties area to allow you to define a new Job."
+        },
+        {
+            "type": "text",
+            "data": "Open"
+        },
+        {
+            "type": "image",
+            "data": "image64.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "+"
+        },
+        {
+            "type": "image",
+            "data": "ctrl_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "letter_o.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Clicking on Open will bring up a Windows Open window that you may use to browse to and open a PNC or SNC Job file."
+        },
+        {
+            "type": "text",
+            "data": "To open a PNC or SNC file, simply click on the PNC or SNC that you want to open and click the Open button."
+        },
+        {
+            "type": "image",
+            "data": "image65.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "When opening an SNC file you will be opened directly into the Pattern/Part View area. If you choose to click the Return option you will be returned to the Material/Part\n    List view and will loose the Job State."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Import PNC"
+        },
+        {
+            "type": "image",
+            "data": "image805.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "+"
+        },
+        {
+            "type": "image",
+            "data": "ctrl_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "letter_i.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Import PNC allows you to build a single Job from multiple PNC Imports."
+        },
+        {
+            "type": "image",
+            "data": "image67.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Export PNC"
+        },
+        {
+            "type": "image",
+            "data": "image68.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "+"
+        },
+        {
+            "type": "image",
+            "data": "ctrl_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "letter_e.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Creates a PNC file of the Open Job."
+        },
+        {
+            "type": "image",
+            "data": "image69.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Properties"
+        },
+        {
+            "type": "image",
+            "data": "image71.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There are three tabs available in Properties:"
+        },
+        {
+            "type": "image",
+            "data": "image70.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Information"
+        },
+        {
+            "type": "text",
+            "data": "Allows you to enter Job Information that will be used in Reports."
+        },
+        {
+            "type": "image",
+            "data": "image70.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Comment"
+        },
+        {
+            "type": "text",
+            "data": "Allows you to enter Comments for the current Job."
+        },
+        {
+            "type": "image",
+            "data": "image72.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Schedule"
+        },
+        {
+            "type": "text",
+            "data": "Allows you to set Schedules for the current Job."
+        },
+        {
+            "type": "image",
+            "data": "image73.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Print"
+        },
+        {
+            "type": "image",
+            "data": "image74.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "+"
+        },
+        {
+            "type": "image",
+            "data": "ctrl_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "letter_p.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option allows you to Print the current View; the following window will appear:"
+        },
+        {
+            "type": "image",
+            "data": "image75.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Simply choose the printer that you wish to use and click OK to print the current view."
+        },
+        {
+            "type": "text",
+            "data": "See the  Print  topic for more information."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Print",
+                "uuid": "391c650b-dead-426f-8e9e-e8432a8881fa",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Print Setup"
+        },
+        {
+            "type": "image",
+            "data": "image76.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "+"
+        },
+        {
+            "type": "image",
+            "data": "ctrl_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "letter_r.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option allows you to set Printer options; the following window will appear:"
+        },
+        {
+            "type": "image",
+            "data": "image77.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Use this option to choose the settings for the printer that you plan to use with the S2M CENTER."
+        },
+        {
+            "type": "text",
+            "data": "Preferences"
+        },
+        {
+            "type": "image",
+            "data": "image78.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Preferences",
+                "uuid": "a6c6d306-c8da-4df8-8440-33f2f24a9c1d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Exit S2M"
+        },
+        {
+            "type": "image",
+            "data": "image79.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Click here to exit the S2M CENTER."
+        }
+    ],
+    "source_file": "NCEnglish\\Introduction\\File_Menu\\The_S2M_Center_Button.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

@@ -1,0 +1,121 @@
+{
+    "id": "f3e7d7b3-9580-4e83-bba2-ec864143bdb0",
+    "title": "Finished_End",
+    "content": [
+        {
+            "type": "text",
+            "data": "Finished End"
+        },
+        {
+            "type": "text",
+            "data": "This is where you configure the scenarios where aFinished End Connects to Parts."
+        },
+        {
+            "type": "image",
+            "data": "image730.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The following diagramshow the Connections available for the Finished End."
+        },
+        {
+            "type": "image",
+            "data": "image729.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Finished End - End Stile (Standard #765)"
+        },
+        {
+            "type": "image",
+            "data": "image731.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Clipped Finished End - End Stile (Standard #766)"
+        },
+        {
+            "type": "image",
+            "data": "image732.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Finished End - Top (Standard #688)"
+        },
+        {
+            "type": "image",
+            "data": "image733.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Finished End - Deck (Standard #690)"
+        },
+        {
+            "type": "image",
+            "data": "image734.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Finished End - Finished Back (Standard #692)"
+        },
+        {
+            "type": "image",
+            "data": "image735.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Finished End - Unfinished Back (Standard #699)"
+        },
+        {
+            "type": "image",
+            "data": "image736.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Finished End - No Back (Standard #899)"
+        },
+        {
+            "type": "image",
+            "data": "image737.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Applied End - Finished Back (Standard #821)"
+        },
+        {
+            "type": "image",
+            "data": "image738.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Sub - End - Finished Back (Standard #822)"
+        },
+        {
+            "type": "image",
+            "data": "image739.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Finished End - Nailer (Standard #708)"
+        },
+        {
+            "type": "image",
+            "data": "image740.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Cabinetmaker\\System_Level\\Ribbonbar\\Main_Tab\\Construction_Group\\Assembly_Manager\\Assembly\\Branches\\Connection\\Finished_End.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

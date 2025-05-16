@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><link rel="stylesheet" type="text/css" href="../../_rhdefault.css"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=WINDOWS-1252"/>
+  <meta name="generator" content="Adobe RoboHelp 2022"/>
+  <title>BidData.accdb</title>
+  <link rel="StyleSheet" href="../../assets/css/Database_Specifications.css" type="text/css"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/><script type="text/javascript" src="../../ehlpdhtm.js"></script></head>
+<body>
+  <h1>The BidData.mdf Database</h1>
+  <p>This Database stores the BidData for the current Job. The following is the breakdown of the tables and their fields:</p>
+  <h2>PriceData</h2>
+  <p>This table stores the Price Data.</p>
+  <table cellspacing="0" class="NormalTable" style="margin-left: 5.4pt; border-collapse: collapse;" width="70.156%">
+    <colgroup>
+      <col width="144"/>
+      <col width="463"/>
+    </colgroup>
+    <tbody>
+      <tr style="height: 15.8pt;">
+        <td bgcolor="#B3B3B3" nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Header">Field</p>
+        </td>
+        <td bgcolor="#B3B3B3" nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; 
+			 border-left: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Header">Description</p>
+        </td>
+      </tr>
+      <tr style="height: 15pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; 
+			 border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">ID</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; 
+			 border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">A unique number used to reference the Price Data.</p>
+        </td>
+      </tr>
+      <tr style="height: 15pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; 
+			 border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">ParentID</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; 
+			 border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">The Parent ID</p>
+        </td>
+      </tr>
+      <tr style="height: 15pt;">
+        <td style="border-left: solid 1.0pt #000000; border-right: solid 1.0pt #000000; 
+			 border-bottom: solid 1.0pt #000000; vertical-align: bottom; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">Type</p>
+          <p class="Table_Body"> </p>
+          <p class="Table_Body"> </p>
+          <p class="Table_Body"> </p>
+          <p class="Table_Body"> </p>
+        </td>
+        <td style="border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; 
+			 vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">1 = Bid Data</p>
+          <p class="Table_Body">2 = Labor Data</p>
+          <p class="Table_Body">3 = Labor Worksheet Data</p>
+          <p class="Table_Body">4 = Per Room Total for RateTable</p>
+          <p class="Table_Body">5 = Per Room Total for Add-Ons</p>
+        </td>
+      </tr>
+      <tr style="height: 15pt;">
+        <td style="border-left: solid 1.0pt #000000; border-right: solid 1.0pt #000000; 
+			 border-bottom: solid 1.0pt #000000; vertical-align: bottom; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">Level</p>
+        </td>
+        <td style="border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; 
+			 vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">Level of item as it would appear in a tree</p>
+        </td>
+      </tr>
+      <tr style="height: 15pt;">
+        <td style="border-left: solid 1.0pt #000000; border-right: solid 1.0pt #000000; 
+			 border-bottom: solid 1.0pt #000000; vertical-align: bottom; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">Description</p>
+        </td>
+        <td style="border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; 
+			 vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">Item description</p>
+        </td>
+      </tr>
+      <tr style="height: 15pt;">
+        <td style="border-left: solid 1.0pt #000000; border-right: solid 1.0pt #000000; 
+			 border-bottom: solid 1.0pt #000000; vertical-align: bottom; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">Value</p>
+        </td>
+        <td style="border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; 
+			 vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">Price of item for bid data or minutes of item for labor data</p>
+        </td>
+      </tr>
+      <tr style="height: 15pt;">
+        <td style="border-left: solid 1.0pt #000000; border-right: solid 1.0pt #000000; 
+			 border-bottom: solid 1.0pt #000000; vertical-align: bottom; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">Flag</p>
+          <p class="Table_Body"> </p>
+          <p class="Table_Body"> </p>
+        </td>
+        <td style="border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; 
+			 vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">1 = Raw Price</p>
+          <p class="Table_Body">2 = Markup</p>
+          <p class="Table_Body">3 = Tax</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <h2>PriceList</h2>
+  <p>This table stores the Price List.</p>
+  <table cellspacing="0" class="NormalTable" style="margin-left: 5.4pt; border-collapse: collapse;" width="70.156%">
+    <colgroup>
+      <col width="146"/>
+      <col width="461"/>
+    </colgroup>
+    <tbody>
+      <tr style="height: 15.8pt;">
+        <td bgcolor="#B3B3B3" nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Header">Field</p>
+        </td>
+        <td bgcolor="#B3B3B3" nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; 
+			 border-left: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Header">Description</p>
+        </td>
+      </tr>
+      <tr style="height: 15pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; 
+			 border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">AccessoryID</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; 
+			 border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">A cross-reference to the [Accessories].[Access ID]</p>
+        </td>
+      </tr>
+      <tr style="height: 15pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; 
+			 border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">CabinetID</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; 
+			 border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">A cross-reference to the [Cabinets].[Cabinet ID]</p>
+        </td>
+      </tr>
+      <tr style="height: 15pt;">
+        <td style="border-left: solid 1.0pt #000000; border-right: solid 1.0pt #000000; 
+			 border-bottom: solid 1.0pt #000000; vertical-align: bottom; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">BasePrice</p>
+        </td>
+        <td style="border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; 
+			 vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">Basic cost of item</p>
+        </td>
+      </tr>
+      <tr style="height: 15pt;">
+        <td style="border-left: solid 1.0pt #000000; border-right: solid 1.0pt #000000; 
+			 border-bottom: solid 1.0pt #000000; vertical-align: bottom; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">ListPrice</p>
+        </td>
+        <td style="border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; 
+			 vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">BasePrice + Upcharges</p>
+        </td>
+      </tr>
+      <tr style="height: 15pt;">
+        <td style="border-left: solid 1.0pt #000000; border-right: solid 1.0pt #000000; 
+			 border-bottom: solid 1.0pt #000000; vertical-align: bottom; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">CostPrice</p>
+        </td>
+        <td style="border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; 
+			 vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">ListPrice * Discount</p>
+        </td>
+      </tr>
+      <tr style="height: 15pt;">
+        <td style="border-left: solid 1.0pt #000000; border-right: solid 1.0pt #000000; 
+			 border-bottom: solid 1.0pt #000000; vertical-align: bottom; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">AdditionalPrice</p>
+        </td>
+        <td style="border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; 
+			 vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">User added additional price</p>
+        </td>
+      </tr>
+      <tr style="height: 15pt;">
+        <td style="border-left: solid 1.0pt #000000; border-right: solid 1.0pt #000000; 
+			 border-bottom: solid 1.0pt #000000; vertical-align: bottom; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">SellPrice</p>
+        </td>
+        <td style="border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; 
+			 vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">CostPrice + AdditionalPrice</p>
+        </td>
+      </tr>
+      <tr style="height: 15pt;">
+        <td style="border-left: solid 1.0pt #000000; border-right: solid 1.0pt #000000; 
+			 border-bottom: solid 1.0pt #000000; vertical-align: bottom; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">TaxedPrice</p>
+        </td>
+        <td style="border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; 
+			 vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">SellPrice + Tax</p>
+        </td>
+      </tr>
+      <tr style="height: 15pt;">
+        <td style="border-left: solid 1.0pt #000000; border-right: solid 1.0pt #000000; 
+			 border-bottom: solid 1.0pt #000000; vertical-align: bottom; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px; ">
+          <p class="Table_Body">RoomNumber</p>
+        </td>
+        <td style="border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; 
+			 vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px; 
+			 ">
+          <p class="Table_Body">A cross-reference to the [Rooms].[RoomNumber]</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+</body></html>

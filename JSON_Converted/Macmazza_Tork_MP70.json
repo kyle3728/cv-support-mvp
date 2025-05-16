@@ -1,0 +1,21 @@
+{
+    "id": "a9e02a59-e8d3-4985-ac4d-d43cf578972a",
+    "title": "Macmazza_Tork_MP70",
+    "content": [
+        {
+            "type": "text",
+            "data": "Macmazza Tork MP70"
+        },
+        {
+            "type": "text",
+            "data": "This is a  Panel Saw  Link."
+        },
+        {
+            "type": "text",
+            "data": "Optimization priority must be set to Labor to ensure optimization does not exceed the control's limitations."
+        }
+    ],
+    "source_file": "NCEnglish_Optimizer\\Ribbonbar\\Main_Tab\\Machine\\NC_Links\\Saw_Links\\Macmazza_Tork_MP70.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

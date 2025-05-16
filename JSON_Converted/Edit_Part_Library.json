@@ -1,0 +1,278 @@
+{
+    "id": "2295b6a6-64fc-4bf7-9cb2-f435b6587513",
+    "title": "Edit_Part_Library",
+    "content": [
+        {
+            "type": "text",
+            "data": "Edit Part Library"
+        },
+        {
+            "type": "image",
+            "data": "image1120.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Allows you to Edit Parts in your Part Library with ALPHACAM."
+        },
+        {
+            "type": "image",
+            "data": "image586.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Edit Part Toolbar Tools"
+        },
+        {
+            "type": "text",
+            "data": "There are ten tools in the Edit Part toolbar:"
+        },
+        {
+            "type": "image",
+            "data": "image587.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Return  - Returns you to the main sidebar. \n \n \n  Create New Category  - Allows creation of a new Part Category in the Tree below. \n \n \n  Copy Selected Item  - Makes a copy of the selected Part/Category. \n \n \n  Rename Selected Item  - Allows you to Rename the selected Part/Category. \n \n \n  Delete Selected Item  - Allows you to Delete the selected Part/Category. \n \n \n  Build  - Each time you select a Part from the Parts List ALPHACAMdraws (Builds) that Part on the screen. If you de-select the Build button it stops this which allows you to move around the Categories a bit quicker. \n \n \n  Display In Metric  - Displays your Parts in Metric."
+        },
+        {
+            "type": "text",
+            "data": "Return  - Returns you to the main sidebar."
+        },
+        {
+            "type": "text",
+            "data": "Return  - Returns you to the main sidebar."
+        },
+        {
+            "type": "image",
+            "data": "image588.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Create New Category  - Allows creation of a new Part Category in the Tree below."
+        },
+        {
+            "type": "text",
+            "data": "Create New Category  - Allows creation of a new Part Category in the Tree below."
+        },
+        {
+            "type": "image",
+            "data": "image589.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Copy Selected Item  - Makes a copy of the selected Part/Category."
+        },
+        {
+            "type": "text",
+            "data": "Copy Selected Item  - Makes a copy of the selected Part/Category."
+        },
+        {
+            "type": "image",
+            "data": "image590.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Rename Selected Item  - Allows you to Rename the selected Part/Category."
+        },
+        {
+            "type": "text",
+            "data": "Rename Selected Item  - Allows you to Rename the selected Part/Category."
+        },
+        {
+            "type": "image",
+            "data": "image591.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Delete Selected Item  - Allows you to Delete the selected Part/Category."
+        },
+        {
+            "type": "text",
+            "data": "Delete Selected Item  - Allows you to Delete the selected Part/Category."
+        },
+        {
+            "type": "image",
+            "data": "image592.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Build  - Each time you select a Part from the Parts List ALPHACAMdraws (Builds) that Part on the screen. If you de-select the Build button it stops this which allows you to move around the Categories a bit quicker."
+        },
+        {
+            "type": "text",
+            "data": "Build  - Each time you select a Part from the Parts List ALPHACAMdraws (Builds) that Part on the screen. If you de-select the Build button it stops this which allows you to move around the Categories a bit quicker."
+        },
+        {
+            "type": "image",
+            "data": "image593.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Display In Metric  - Displays your Parts in Metric."
+        },
+        {
+            "type": "text",
+            "data": "Display In Metric  - Displays your Parts in Metric."
+        },
+        {
+            "type": "image",
+            "data": "image267.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "ALPHACAM, unlike your Design/Manufacturing software, does not handle Unit of Measure changes on the fly. Therefore, when you Save a Part to the Part Library there are two Parts Saved. One Part is in Imperial Units and the Other is in Metric Units. When clicking the MM Tool it displays the parts \"Alter Ego\"."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Save Changes to Current Part  - Allows changes made to the current ALPHACAMPart to be Saved to the Library overwriting the existing Part. \n \n \n  Create Part Outline  - Defines the extents of an ALPHACAMPart. This is required if you are going to save an Alphacam Part into the Part Library. This is also very helpful if you are going to utilize these Parts in your Design/Manufacturing software."
+        },
+        {
+            "type": "text",
+            "data": "Save Changes to Current Part  - Allows changes made to the current ALPHACAMPart to be Saved to the Library overwriting the existing Part."
+        },
+        {
+            "type": "text",
+            "data": "Save Changes to Current Part  - Allows changes made to the current ALPHACAMPart to be Saved to the Library overwriting the existing Part."
+        },
+        {
+            "type": "image",
+            "data": "image594.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Create Part Outline  - Defines the extents of an ALPHACAMPart. This is required if you are going to save an Alphacam Part into the Part Library. This is also very helpful if you are going to utilize these Parts in your Design/Manufacturing software."
+        },
+        {
+            "type": "text",
+            "data": "Create Part Outline  - Defines the extents of an ALPHACAMPart. This is required if you are going to save an Alphacam Part into the Part Library. This is also very helpful if you are going to utilize these Parts in your Design/Manufacturing software."
+        },
+        {
+            "type": "image",
+            "data": "image595.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image596.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Depending upon your Parts Shape you will want to experiment with each of these Scan types to get the results you desire. Below are examples of each scan types results on the same Part."
+        },
+        {
+            "type": "text",
+            "data": "Radial"
+        },
+        {
+            "type": "image",
+            "data": "image156.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Radial Type seems to follow the shape pretty closely."
+        },
+        {
+            "type": "text",
+            "data": "Up / Down"
+        },
+        {
+            "type": "image",
+            "data": "image157.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Up/Down Type does well except at the Bottom of this Part."
+        },
+        {
+            "type": "text",
+            "data": "Angle Up"
+        },
+        {
+            "type": "image",
+            "data": "image158.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Angle Up Type has a problem on the Right Side of this Part."
+        },
+        {
+            "type": "text",
+            "data": "Left / Right"
+        },
+        {
+            "type": "image",
+            "data": "image159.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Left/Right Type seems to follow the shape pretty closely."
+        },
+        {
+            "type": "text",
+            "data": "Angle Down"
+        },
+        {
+            "type": "image",
+            "data": "image160.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Angle Down Type has a problem on the Left Side of this Part."
+        },
+        {
+            "type": "text",
+            "data": "As you can see in the preceding images the Radial or Left / Right scan option would be the best choice. As stated earlier it really depends on the shape of the Part the Outline is being generated for. Experiment!"
+        },
+        {
+            "type": "text",
+            "data": "Add Part to Library  - Adds the current Part to the Part Library."
+        },
+        {
+            "type": "text",
+            "data": "Add Part to Library  - Adds the current Part to the Part Library."
+        },
+        {
+            "type": "text",
+            "data": "Add Part to Library  - Adds the current Part to the Part Library."
+        },
+        {
+            "type": "image",
+            "data": "image597.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Make sure that Parts you Add to the S2M CENTER from ALPHACAMare set to 0 as Top of Material and Depths are Negative Value equal to actual Depths for the Parts to be processed properly in the S2M Center. This must be setup this way  regardless  of whether you are set up in your Machine Catalog as \"Mic at Spoilboard\" or not."
+        },
+        {
+            "type": "image",
+            "data": "Warning.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "NCEnglish\\Ribbonbar\\Main_Tab\\S2M_for_Alphacam\\Sidebar\\Edit_Part_Library.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

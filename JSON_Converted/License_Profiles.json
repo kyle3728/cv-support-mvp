@@ -1,0 +1,74 @@
+{
+    "id": "0197876b-a287-495b-8e42-1c5e3bc2e910",
+    "title": "License_Profiles",
+    "content": [
+        {
+            "type": "text",
+            "data": "License Profiles"
+        },
+        {
+            "type": "text",
+            "data": "License Profiles allow you to save multiple profiles containing groups \n of Licenses which can then be selected when starting up the application."
+        },
+        {
+            "type": "image",
+            "data": "image6284.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "In the dialog, enable  Use \n\t License Profiles . \n Enter a  Profiles Location . Use \n\t the  Browse  button to select a directory, if required. \n Click  Ask For Profile On Startup  \n\t to ensure that a profile is selected when starting an application. \n Select the  Current Profile  to \n\t be used from the drop-down list. \n Select  Save  to save an new or \n\t existing profile or  Save As  to make a copy of the current profile. \n Click  Delete  to remove the selected \n\t profile."
+        },
+        {
+            "type": "text",
+            "data": "In the dialog, enable  Use \n\t License Profiles ."
+        },
+        {
+            "type": "text",
+            "data": "In the dialog, enable  Use \n\t License Profiles ."
+        },
+        {
+            "type": "text",
+            "data": "Enter a  Profiles Location . Use \n\t the  Browse  button to select a directory, if required."
+        },
+        {
+            "type": "text",
+            "data": "Enter a  Profiles Location . Use \n\t the  Browse  button to select a directory, if required."
+        },
+        {
+            "type": "text",
+            "data": "Click  Ask For Profile On Startup  \n\t to ensure that a profile is selected when starting an application."
+        },
+        {
+            "type": "text",
+            "data": "Click  Ask For Profile On Startup  \n\t to ensure that a profile is selected when starting an application."
+        },
+        {
+            "type": "text",
+            "data": "Select the  Current Profile  to \n\t be used from the drop-down list."
+        },
+        {
+            "type": "text",
+            "data": "Select the  Current Profile  to \n\t be used from the drop-down list."
+        },
+        {
+            "type": "text",
+            "data": "Select  Save  to save an new or \n\t existing profile or  Save As  to make a copy of the current profile."
+        },
+        {
+            "type": "text",
+            "data": "Select  Save  to save an new or \n\t existing profile or  Save As  to make a copy of the current profile."
+        },
+        {
+            "type": "text",
+            "data": "Click  Delete  to remove the selected \n\t profile."
+        },
+        {
+            "type": "text",
+            "data": "Click  Delete  to remove the selected \n\t profile."
+        }
+    ],
+    "source_file": "CVEnglish\\System_Level\\Ribbonbar\\Utilities_Tab\\License_Manager\\Network_Licenses\\License_Profiles.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

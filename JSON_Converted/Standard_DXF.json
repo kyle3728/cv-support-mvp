@@ -1,0 +1,21 @@
+{
+    "id": "94676275-5f2d-44db-a394-b6e63130f7aa",
+    "title": "Standard_DXF",
+    "content": [
+        {
+            "type": "text",
+            "data": "Standard DXF"
+        },
+        {
+            "type": "text",
+            "data": "This is a Parts Router and/or Point-to-Point Link."
+        },
+        {
+            "type": "text",
+            "data": "The standard DXF file can be output in multiple variations. This is a good option when there is no preset link to your machine and CAM package. Be sure to select the  Setup tab  to make your selection on additional settings. The standard DXF file will use the Layer Names and Pen Numbers from each Tool's settings in the  Tool Catalog ."
+        }
+    ],
+    "source_file": "NCEnglish\\Ribbonbar\\Main_Tab\\Machine\\NC_Links\\Parts_Router_P-2-P_Links\\Standard_DXF\\Standard_DXF.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

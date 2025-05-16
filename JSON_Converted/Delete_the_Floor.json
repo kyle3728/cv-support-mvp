@@ -1,0 +1,21 @@
+{
+    "id": "da310ad0-96e6-4c6a-8141-39b3441cee2e",
+    "title": "Delete_the_Floor",
+    "content": [
+        {
+            "type": "text",
+            "data": "Delete the Floor"
+        },
+        {
+            "type": "text",
+            "data": "From the Job, Plan view I accidentally clicked on the \"Floor Edit\" tool in the toolbar and now I can't get rid of the floor. How do I get rid of it?"
+        },
+        {
+            "type": "text",
+            "data": "From the Plan View click the Floor button in the sidebar. Right Click on the Floor and select Delete."
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Tips_Tricks_&_FAQs\\FAQs\\HDI-Layout\\Delete_the_Floor.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

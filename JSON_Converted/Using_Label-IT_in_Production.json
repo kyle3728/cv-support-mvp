@@ -1,0 +1,593 @@
+{
+    "id": "1c3aca87-8a2a-4ab2-bda0-1fcfc0c302de",
+    "title": "Using_Label-IT_in_Production",
+    "content": [
+        {
+            "type": "text",
+            "data": "Using the +Label App in Production"
+        },
+        {
+            "type": "image",
+            "data": "Label.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Selecting a Job"
+        },
+        {
+            "type": "text",
+            "data": "Selecting a Job in +Label app is fairly straightforward:"
+        },
+        {
+            "type": "text",
+            "data": "Click on the File tab and click Open."
+        },
+        {
+            "type": "text",
+            "data": "Click on the File tab and click Open."
+        },
+        {
+            "type": "text",
+            "data": "Click on the File tab and click Open."
+        },
+        {
+            "type": "image",
+            "data": "image622.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Browse the Job you want to open, select it then click Open."
+        },
+        {
+            "type": "text",
+            "data": "Browse the Job you want to open, select it then click Open."
+        },
+        {
+            "type": "text",
+            "data": "Browse the Job you want to open, select it then click Open."
+        },
+        {
+            "type": "image",
+            "data": "image623.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "You can open a specific +Label job via command line as follows. c:\\Program Files\\Hexagon\\CABINET VISION\\S2M 2023\\pnclabelit.exe \"C:\\Users\\me\\Desktop\\Banding.tld\""
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "+Label App Feature List"
+        },
+        {
+            "type": "image",
+            "data": "xLabel_Feature_List.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Name of the Job currently open in the +Label app. \n \n \n Clicking the  View  option allows you to View the Label for the currently selected Part. \n \n \n Laser  - Turns on/off the Laser Pattern Generator. See the  Running A Laser  topic for more information. \n \n \n Mark Job Complete  - This option does two things: \n \n \n When selected this option will remove the Job from being visible at the Label-IT station. \n \n \n This option at the same time will mark the Label-IT job Done on the S2M CENTER station in the front office. \n \n \n \n \n 1 Label -  Prints the selected label. \n \n \n On Part Select -  Prints the selected label. \n \n \n Sheet -  Will print Labels for all Parts on the active Sheet. \n \n \n Sheet of Labels -  Will print sheets of labels for the entire job. \n \n \n Patterns included in the selected Job. \n \n \n Current selected part. \n \n \n Selected parts that have not had labels printed for them are highlighted in  green . \n \n \n Parts that are not selected and that have not had labels printed for them are white. \n \n \n Selected parts that have had labels printed for them are highlighted  red . \n \n \n Parts that are not selected that have had labels printed for them are highlighted in  blue . \n \n \n This field also has a drop down arrow which will show you the Parts below the current Part if you are Booking (Stack Cuts) using a Panel Saw. \n \n \n \n \n The Composites button   allows you to view either the sub-part or the composite part. The icon will indicate the current view. Any time a Sub-Part label is printed the composite part label will be printed as well. The button will be disabled if the selected Part is not part of a Composite. \n \n \n Selected Patterns material. This text will also indicate how to \"load\" one sided Materials on the machine like the  Pattern Print  outs from the Pattern area. \n \n \n \n \n Selected Sheets location and quantity. \n \n \n Clicking the  |< button moves you to the first Sheet/Label in the selected Pattern. \n \n \n Clicking the  >|  button moves you to the last Sheet/Label in the selected Pattern. \n \n \n Clicking the  < button moves you to the previous Sheet/Label in the selected Pattern. You can also simply swipe right for the previous Part/Label if you have touch screen. \n \n \n Clicking the  >  button moves you to the next Sheet/Label in the selected Pattern. You can also simply swipe left for the next Part/Label if you have touch screen. \n \n \n Clicking the  Print option prints the Label or Sheet, depending on your Preference, for the currently selected part. \n \n \n Sheet program bar-code. \n \n \n Sheet program name. \n \n \n This name matches the name of the program generated by Intelli-CAM for the Router."
+        },
+        {
+            "type": "text",
+            "data": "Name of the Job currently open in the +Label app."
+        },
+        {
+            "type": "text",
+            "data": "Name of the Job currently open in the +Label app."
+        },
+        {
+            "type": "text",
+            "data": "Clicking the  View  option allows you to View the Label for the currently selected Part."
+        },
+        {
+            "type": "text",
+            "data": "Clicking the  View  option allows you to View the Label for the currently selected Part."
+        },
+        {
+            "type": "text",
+            "data": "Laser  - Turns on/off the Laser Pattern Generator. See the  Running A Laser  topic for more information."
+        },
+        {
+            "type": "text",
+            "data": "Laser  - Turns on/off the Laser Pattern Generator. See the  Running A Laser  topic for more information."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Running A Laser",
+                "uuid": "d00bee74-67e3-41af-9383-b4671ee1da61",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Mark Job Complete  - This option does two things: \n \n \n When selected this option will remove the Job from being visible at the Label-IT station. \n \n \n This option at the same time will mark the Label-IT job Done on the S2M CENTER station in the front office."
+        },
+        {
+            "type": "text",
+            "data": "Mark Job Complete  - This option does two things:"
+        },
+        {
+            "type": "text",
+            "data": "When selected this option will remove the Job from being visible at the Label-IT station. \n \n \n This option at the same time will mark the Label-IT job Done on the S2M CENTER station in the front office."
+        },
+        {
+            "type": "text",
+            "data": "When selected this option will remove the Job from being visible at the Label-IT station."
+        },
+        {
+            "type": "text",
+            "data": "When selected this option will remove the Job from being visible at the Label-IT station."
+        },
+        {
+            "type": "text",
+            "data": "This option at the same time will mark the Label-IT job Done on the S2M CENTER station in the front office."
+        },
+        {
+            "type": "text",
+            "data": "This option at the same time will mark the Label-IT job Done on the S2M CENTER station in the front office."
+        },
+        {
+            "type": "text",
+            "data": "1 Label -  Prints the selected label."
+        },
+        {
+            "type": "text",
+            "data": "1 Label -  Prints the selected label."
+        },
+        {
+            "type": "text",
+            "data": "On Part Select -  Prints the selected label."
+        },
+        {
+            "type": "text",
+            "data": "On Part Select -  Prints the selected label."
+        },
+        {
+            "type": "text",
+            "data": "Sheet -  Will print Labels for all Parts on the active Sheet."
+        },
+        {
+            "type": "text",
+            "data": "Sheet -  Will print Labels for all Parts on the active Sheet."
+        },
+        {
+            "type": "text",
+            "data": "Sheet of Labels -  Will print sheets of labels for the entire job."
+        },
+        {
+            "type": "text",
+            "data": "Sheet of Labels -  Will print sheets of labels for the entire job."
+        },
+        {
+            "type": "text",
+            "data": "Patterns included in the selected Job."
+        },
+        {
+            "type": "text",
+            "data": "Patterns included in the selected Job."
+        },
+        {
+            "type": "text",
+            "data": "Current selected part. \n \n \n Selected parts that have not had labels printed for them are highlighted in  green . \n \n \n Parts that are not selected and that have not had labels printed for them are white. \n \n \n Selected parts that have had labels printed for them are highlighted  red . \n \n \n Parts that are not selected that have had labels printed for them are highlighted in  blue . \n \n \n This field also has a drop down arrow which will show you the Parts below the current Part if you are Booking (Stack Cuts) using a Panel Saw."
+        },
+        {
+            "type": "text",
+            "data": "Current selected part."
+        },
+        {
+            "type": "text",
+            "data": "Selected parts that have not had labels printed for them are highlighted in  green . \n \n \n Parts that are not selected and that have not had labels printed for them are white. \n \n \n Selected parts that have had labels printed for them are highlighted  red . \n \n \n Parts that are not selected that have had labels printed for them are highlighted in  blue . \n \n \n This field also has a drop down arrow which will show you the Parts below the current Part if you are Booking (Stack Cuts) using a Panel Saw."
+        },
+        {
+            "type": "text",
+            "data": "Selected parts that have not had labels printed for them are highlighted in  green ."
+        },
+        {
+            "type": "text",
+            "data": "Selected parts that have not had labels printed for them are highlighted in  green ."
+        },
+        {
+            "type": "text",
+            "data": "Parts that are not selected and that have not had labels printed for them are white."
+        },
+        {
+            "type": "text",
+            "data": "Parts that are not selected and that have not had labels printed for them are white."
+        },
+        {
+            "type": "text",
+            "data": "Selected parts that have had labels printed for them are highlighted  red ."
+        },
+        {
+            "type": "text",
+            "data": "Selected parts that have had labels printed for them are highlighted  red ."
+        },
+        {
+            "type": "text",
+            "data": "Parts that are not selected that have had labels printed for them are highlighted in  blue ."
+        },
+        {
+            "type": "text",
+            "data": "Parts that are not selected that have had labels printed for them are highlighted in  blue ."
+        },
+        {
+            "type": "text",
+            "data": "This field also has a drop down arrow which will show you the Parts below the current Part if you are Booking (Stack Cuts) using a Panel Saw."
+        },
+        {
+            "type": "text",
+            "data": "This field also has a drop down arrow which will show you the Parts below the current Part if you are Booking (Stack Cuts) using a Panel Saw."
+        },
+        {
+            "type": "text",
+            "data": "The Composites button   allows you to view either the sub-part or the composite part. The icon will indicate the current view. Any time a Sub-Part label is printed the composite part label will be printed as well. The button will be disabled if the selected Part is not part of a Composite."
+        },
+        {
+            "type": "text",
+            "data": "The Composites button   allows you to view either the sub-part or the composite part. The icon will indicate the current view. Any time a Sub-Part label is printed the composite part label will be printed as well. The button will be disabled if the selected Part is not part of a Composite."
+        },
+        {
+            "type": "image",
+            "data": "image146.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Selected Patterns material. This text will also indicate how to \"load\" one sided Materials on the machine like the  Pattern Print  outs from the Pattern area."
+        },
+        {
+            "type": "text",
+            "data": "Selected Patterns material. This text will also indicate how to \"load\" one sided Materials on the machine like the  Pattern Print  outs from the Pattern area."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Pattern Print",
+                "uuid": "391c650b-dead-426f-8e9e-e8432a8881fa",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image324.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Selected Sheets location and quantity."
+        },
+        {
+            "type": "text",
+            "data": "Selected Sheets location and quantity."
+        },
+        {
+            "type": "text",
+            "data": "Clicking the  |< button moves you to the first Sheet/Label in the selected Pattern."
+        },
+        {
+            "type": "text",
+            "data": "Clicking the  |< button moves you to the first Sheet/Label in the selected Pattern."
+        },
+        {
+            "type": "text",
+            "data": "Clicking the  >|  button moves you to the last Sheet/Label in the selected Pattern."
+        },
+        {
+            "type": "text",
+            "data": "Clicking the  >|  button moves you to the last Sheet/Label in the selected Pattern."
+        },
+        {
+            "type": "text",
+            "data": "Clicking the  < button moves you to the previous Sheet/Label in the selected Pattern. You can also simply swipe right for the previous Part/Label if you have touch screen."
+        },
+        {
+            "type": "text",
+            "data": "Clicking the  < button moves you to the previous Sheet/Label in the selected Pattern. You can also simply swipe right for the previous Part/Label if you have touch screen."
+        },
+        {
+            "type": "text",
+            "data": "Clicking the  >  button moves you to the next Sheet/Label in the selected Pattern. You can also simply swipe left for the next Part/Label if you have touch screen."
+        },
+        {
+            "type": "text",
+            "data": "Clicking the  >  button moves you to the next Sheet/Label in the selected Pattern. You can also simply swipe left for the next Part/Label if you have touch screen."
+        },
+        {
+            "type": "text",
+            "data": "Clicking the  Print option prints the Label or Sheet, depending on your Preference, for the currently selected part."
+        },
+        {
+            "type": "text",
+            "data": "Clicking the  Print option prints the Label or Sheet, depending on your Preference, for the currently selected part."
+        },
+        {
+            "type": "text",
+            "data": "Sheet program bar-code."
+        },
+        {
+            "type": "text",
+            "data": "Sheet program bar-code."
+        },
+        {
+            "type": "text",
+            "data": "Sheet program name. \n \n \n This name matches the name of the program generated by Intelli-CAM for the Router."
+        },
+        {
+            "type": "text",
+            "data": "Sheet program name."
+        },
+        {
+            "type": "text",
+            "data": "This name matches the name of the program generated by Intelli-CAM for the Router."
+        },
+        {
+            "type": "text",
+            "data": "This name matches the name of the program generated by Intelli-CAM for the Router."
+        },
+        {
+            "type": "text",
+            "data": "This name matches the name of the program generated by Intelli-CAM for the Router."
+        },
+        {
+            "type": "text",
+            "data": "Preferences"
+        },
+        {
+            "type": "image",
+            "data": "image624.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Following are the options in Preferences:"
+        },
+        {
+            "type": "text",
+            "data": "Print Options -  Allows you to choose how you want to Print. You have the following options: \n \n \n Print 1 Label -  If you have a Part selected clicking the Print option will print its Label. \n \n \n Print On Part Select -  Simply selecting a Part will print its Label. \n \n \n Print Sheet -  Will print Labels for all Parts on the active Sheet when clicking the Print option. \n \n \n Print Sheets of Labels -  Will print sheets of labels for the entire job. \n \n \n \n \n Rotate View  -Allows you to Rotate the Pattern view to match the Orientation of your Machine. \n \n \n Shift Origin -  Allows you to shift the Origin of your Parts on the Nest. Utilizing Rotate View and Shift Origin in conjunction will allow you to exactly match the Patterns output from the S2M CENTER. \n \n \n Display options - Allows you to choose extra items you may want displayed on-screen. You have the following options: \n \n \n Show Offcuts  - A toggle to Hide or Show Offcuts. \n \n \n Display Part Size on Part \n \n \n Show Label Position  - This option will put the  Label position symbol  as defined in S2M CENTER Preferences on the Pattern View as well as the Part Graphic on the Label; if your Label is designed to display the Part Graphic. \n \n \n Display Part Number on Part \n \n \n Show Part As Cut"
+        },
+        {
+            "type": "text",
+            "data": "Print Options -  Allows you to choose how you want to Print. You have the following options: \n \n \n Print 1 Label -  If you have a Part selected clicking the Print option will print its Label. \n \n \n Print On Part Select -  Simply selecting a Part will print its Label. \n \n \n Print Sheet -  Will print Labels for all Parts on the active Sheet when clicking the Print option. \n \n \n Print Sheets of Labels -  Will print sheets of labels for the entire job."
+        },
+        {
+            "type": "text",
+            "data": "Print Options -  Allows you to choose how you want to Print. You have the following options:"
+        },
+        {
+            "type": "text",
+            "data": "Print 1 Label -  If you have a Part selected clicking the Print option will print its Label. \n \n \n Print On Part Select -  Simply selecting a Part will print its Label. \n \n \n Print Sheet -  Will print Labels for all Parts on the active Sheet when clicking the Print option. \n \n \n Print Sheets of Labels -  Will print sheets of labels for the entire job."
+        },
+        {
+            "type": "text",
+            "data": "Print 1 Label -  If you have a Part selected clicking the Print option will print its Label."
+        },
+        {
+            "type": "text",
+            "data": "Print 1 Label -  If you have a Part selected clicking the Print option will print its Label."
+        },
+        {
+            "type": "text",
+            "data": "Print On Part Select -  Simply selecting a Part will print its Label."
+        },
+        {
+            "type": "text",
+            "data": "Print On Part Select -  Simply selecting a Part will print its Label."
+        },
+        {
+            "type": "text",
+            "data": "Print Sheet -  Will print Labels for all Parts on the active Sheet when clicking the Print option."
+        },
+        {
+            "type": "text",
+            "data": "Print Sheet -  Will print Labels for all Parts on the active Sheet when clicking the Print option."
+        },
+        {
+            "type": "text",
+            "data": "Print Sheets of Labels -  Will print sheets of labels for the entire job."
+        },
+        {
+            "type": "text",
+            "data": "Print Sheets of Labels -  Will print sheets of labels for the entire job."
+        },
+        {
+            "type": "text",
+            "data": "Rotate View  -Allows you to Rotate the Pattern view to match the Orientation of your Machine."
+        },
+        {
+            "type": "text",
+            "data": "Rotate View  -Allows you to Rotate the Pattern view to match the Orientation of your Machine."
+        },
+        {
+            "type": "text",
+            "data": "Shift Origin -  Allows you to shift the Origin of your Parts on the Nest. Utilizing Rotate View and Shift Origin in conjunction will allow you to exactly match the Patterns output from the S2M CENTER."
+        },
+        {
+            "type": "text",
+            "data": "Shift Origin -  Allows you to shift the Origin of your Parts on the Nest. Utilizing Rotate View and Shift Origin in conjunction will allow you to exactly match the Patterns output from the S2M CENTER."
+        },
+        {
+            "type": "text",
+            "data": "Display options - Allows you to choose extra items you may want displayed on-screen. You have the following options: \n \n \n Show Offcuts  - A toggle to Hide or Show Offcuts. \n \n \n Display Part Size on Part \n \n \n Show Label Position  - This option will put the  Label position symbol  as defined in S2M CENTER Preferences on the Pattern View as well as the Part Graphic on the Label; if your Label is designed to display the Part Graphic. \n \n \n Display Part Number on Part \n \n \n Show Part As Cut"
+        },
+        {
+            "type": "text",
+            "data": "Display options - Allows you to choose extra items you may want displayed on-screen. You have the following options:"
+        },
+        {
+            "type": "text",
+            "data": "Show Offcuts  - A toggle to Hide or Show Offcuts. \n \n \n Display Part Size on Part \n \n \n Show Label Position  - This option will put the  Label position symbol  as defined in S2M CENTER Preferences on the Pattern View as well as the Part Graphic on the Label; if your Label is designed to display the Part Graphic. \n \n \n Display Part Number on Part \n \n \n Show Part As Cut"
+        },
+        {
+            "type": "text",
+            "data": "Show Offcuts  - A toggle to Hide or Show Offcuts."
+        },
+        {
+            "type": "text",
+            "data": "Show Offcuts  - A toggle to Hide or Show Offcuts."
+        },
+        {
+            "type": "text",
+            "data": "Display Part Size on Part"
+        },
+        {
+            "type": "text",
+            "data": "Display Part Size on Part"
+        },
+        {
+            "type": "text",
+            "data": "Show Label Position  - This option will put the  Label position symbol  as defined in S2M CENTER Preferences on the Pattern View as well as the Part Graphic on the Label; if your Label is designed to display the Part Graphic."
+        },
+        {
+            "type": "text",
+            "data": "Show Label Position  - This option will put the  Label position symbol  as defined in S2M CENTER Preferences on the Pattern View as well as the Part Graphic on the Label; if your Label is designed to display the Part Graphic."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Label position symbol",
+                "uuid": "a6c6d306-c8da-4df8-8440-33f2f24a9c1d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Display Part Number on Part"
+        },
+        {
+            "type": "text",
+            "data": "Display Part Number on Part"
+        },
+        {
+            "type": "text",
+            "data": "Show Part As Cut"
+        },
+        {
+            "type": "text",
+            "data": "Show Part As Cut"
+        },
+        {
+            "type": "text",
+            "data": "Label Placement"
+        },
+        {
+            "type": "text",
+            "data": "Placing your Labels oriented properly on the part is extremely important in your success with Label-IT. There is a built in feature to help insure that you orient the Label properly onto your part. The graphic below shows a part with a small dot. This dot represents how the Label needs to be oriented on the part. If the Label is placed properly on the part then the machine operators can look at simple graphics on the Label that will instruct them on how to orient the part on the machine as well as which edges to edge band and which edges receive boring on your Drill & Dowel machine. The small line, within the circle, points to the top of the Label."
+        },
+        {
+            "type": "image",
+            "data": "image385.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Label Placement denotation is only displayed on the Label-IT stations screen. Proper Label Placement is important on Parts that receive Secondary operations so the Parts can be oriented correctly on the Secondary Machine. This means it is important that the person responsible for Label Placement has the Label-IT station in his work area."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There are four possibilities:"
+        },
+        {
+            "type": "text",
+            "data": "Label Up -  Label would be oriented on the part as follows"
+        },
+        {
+            "type": "image",
+            "data": "image386.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image387.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Label Down -  Label would be oriented on the part as follows:"
+        },
+        {
+            "type": "image",
+            "data": "image388.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image389.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Label Left -  Label would be oriented on the part as follows:"
+        },
+        {
+            "type": "image",
+            "data": "image390.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image391.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Label Right -  Label would be oriented on the part as follows:"
+        },
+        {
+            "type": "image",
+            "data": "image392.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image393.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Orientation Symbols"
+        },
+        {
+            "type": "text",
+            "data": "Orientation symbols are extremely useful in informing the machine  operator    how to orient Part on your CNC/P2P Machine. There are two different symbols utilized to express the parts orientation."
+        },
+        {
+            "type": "text",
+            "data": "The symbol below (Black & White Encircled Arrow) points to the back placement pins on the machine, typically along the X-axis. The below graphic representing the machine table and a part demonstrates this."
+        },
+        {
+            "type": "image",
+            "data": "image394.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The only difference between the (2) symbols is that one below instructs you to flip the part over prior to placing it on the machine."
+        },
+        {
+            "type": "image",
+            "data": "image395.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Additional Key-words: Metric, Imperial, MM , Units, Measure, Inches"
+        }
+    ],
+    "source_file": "NCEnglish\\Ribbonbar\\Utilities_Tab\\xLabel_Setup\\Using_xLabel_In_Production\\Using_Label-IT_in_Production.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

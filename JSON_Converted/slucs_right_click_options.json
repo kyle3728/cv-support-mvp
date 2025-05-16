@@ -1,0 +1,97 @@
+{
+    "id": "cb26aba7-893c-4e38-81c7-dec701a6bb9c",
+    "title": "slucs_right_click_options",
+    "content": [
+        {
+            "type": "text",
+            "data": "Right Click Options"
+        },
+        {
+            "type": "image",
+            "data": "image116.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image143.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "When Right Clicking on a UCS in the List View you have five options:"
+        },
+        {
+            "type": "text",
+            "data": "Open"
+        },
+        {
+            "type": "image",
+            "data": "image144.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option will Open the selected UCS in the  UCS Wizard ."
+        },
+        {
+            "type": "text",
+            "data": "Edit"
+        },
+        {
+            "type": "image",
+            "data": "image145.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option will open the selected UCS in the  UCS Editor ."
+        },
+        {
+            "type": "text",
+            "data": "Copy"
+        },
+        {
+            "type": "image",
+            "data": "image146.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option will Copy the selected UCS."
+        },
+        {
+            "type": "text",
+            "data": "Delete"
+        },
+        {
+            "type": "image",
+            "data": "image147.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option will Delete the selected UCS."
+        },
+        {
+            "type": "text",
+            "data": "Add Divider"
+        },
+        {
+            "type": "image",
+            "data": "image148.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option allows you to add a Section Divider to help you organize (group) your UCS's together. See the Dividerhighlighted in the illustration."
+        },
+        {
+            "type": "image",
+            "data": "DividerExample.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish\\System_Level\\Ribbonbar\\Utilities_Tab\\Tools_Group\\User_Created_Standards\\slucs_right_click_options.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

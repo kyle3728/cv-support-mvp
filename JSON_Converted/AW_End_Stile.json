@@ -1,0 +1,154 @@
+{
+    "id": "cb1f1b29-9c7c-4ec4-a35e-c0815c5e4c16",
+    "title": "AW_End_Stile",
+    "content": [
+        {
+            "type": "text",
+            "data": "End Stile"
+        },
+        {
+            "type": "text",
+            "data": "This branch configures the End Stile options."
+        },
+        {
+            "type": "image",
+            "data": "image176.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The following diagram shows the options available in the End Stile Branch. Click a specific option in the diagram for more information or continue through this topic for information on all the options."
+        },
+        {
+            "type": "image",
+            "data": "image177.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "End Stile Width (Standard\u00a0#21)"
+        },
+        {
+            "type": "image",
+            "data": "image178.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "End Stile Width @ Wall (Standard\u00a0#22)"
+        },
+        {
+            "type": "image",
+            "data": "image179.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "End Stile Width @ Cabinet (Standard\u00a0#23)"
+        },
+        {
+            "type": "image",
+            "data": "image180.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "End Stile Width @ Appliance (Standard\u00a0#24)"
+        },
+        {
+            "type": "image",
+            "data": "image181.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "End Stile Width @ Tall (Standard\u00a0#25)"
+        },
+        {
+            "type": "image",
+            "data": "image182.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Frame Over Blind End (Standard\u00a0#26)"
+        },
+        {
+            "type": "text",
+            "data": "This branch is also where you configure the setup of Extended and Return Corner conditions."
+        },
+        {
+            "type": "image",
+            "data": "image183.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "CABINET VISION has the capability of allowing you to very easily create Extended/Return Corner situations based on your choices here and in the  Unfinished End Branch . See the  Right Click In A Corner  topic for more information."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Unfinished End Branch",
+                "uuid": "39aa51f5-7d26-46a0-b69b-6aab562164fb",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Right Click In A Corner",
+                "uuid": "f2493ed2-03be-40ec-b7d1-d0a24e4e63ef",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Additional End Stile Width (Standard\u00a0#27)"
+        },
+        {
+            "type": "image",
+            "data": "image184.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Extended End Stile Width (Standard\u00a0#44)"
+        },
+        {
+            "type": "image",
+            "data": "image185.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Extended End Stile Position (Standard\u00a0#28)"
+        },
+        {
+            "type": "image",
+            "data": "image186.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Return End Stile Width (Standard\u00a0#34)"
+        },
+        {
+            "type": "image",
+            "data": "image187.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Full End Stile Type (Standard\u00a0#29)"
+        },
+        {
+            "type": "image",
+            "data": "image188.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\System_Level\\Ribbonbar\\Main_Tab\\Construction_Group\\Assembly_Manager\\Assembly\\Branches\\Face_Frame\\AW_End_Stile.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

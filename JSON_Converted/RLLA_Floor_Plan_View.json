@@ -1,0 +1,86 @@
+{
+    "id": "b0ba7b2a-854c-4837-aa92-0568caca7e06",
+    "title": "RLLA_Floor_Plan_View",
+    "content": [
+        {
+            "type": "text",
+            "data": "Floor Plan View"
+        },
+        {
+            "type": "image",
+            "data": "1AUALL.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image6207.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Following are the Layers that can be edited:"
+        },
+        {
+            "type": "text",
+            "data": "Hardware"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Hardware",
+                "uuid": "e69c8fa7-a9ee-4ffb-8937-668917fc1f66",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Master Operations"
+        },
+        {
+            "type": "text",
+            "data": "Allows you to control the color of Unmatched Master Operations."
+        },
+        {
+            "type": "image",
+            "data": "image5595.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Annotations"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Annotations",
+                "uuid": "e19cbe28-bb89-4548-968a-608043886c6e",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image5596.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Dimensions"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Dimensions",
+                "uuid": "8eba597e-b494-4a38-89b6-ffa9c68c6110",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image5597.gif",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\RLLA_Floor_Plan_View.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

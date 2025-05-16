@@ -1,0 +1,525 @@
+{
+    "id": "41693632-0a0d-4a82-ab61-74820d77404d",
+    "title": "Leica_Disto",
+    "content": [
+        {
+            "type": "text",
+            "data": "Leica DISTO"
+        },
+        {
+            "type": "image",
+            "data": "image6301.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Use this option to connect to and pull data from your Leica 3D DISTO TM  or DISTO TM  S910. We recommend running the Leica DISTO TM  S910 in Wi-Fi Hotspot mode to get the best connectivity results. See your device manual for more information."
+        },
+        {
+            "type": "text",
+            "data": "Getting Started - DISTO TM  S910"
+        },
+        {
+            "type": "text",
+            "data": "Check to make sure that you have the latest firmware Version on your device. The latest firmware along with instructions on how to flash the firmware onto the device are available on Leica's website at the following location."
+        },
+        {
+            "type": "text",
+            "data": "https://lasers.leica-geosystems.com/aggiornamenti-firmware-leica-disto-s910"
+        },
+        {
+            "type": "text",
+            "data": "In order to connect CV to the Leica DISTO TM  S910 the device needs to be in   Hotspot Mode."
+        },
+        {
+            "type": "image",
+            "data": "image6559.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image6560.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Go to Functions > Settings > Radio Settings > Select WLAN and go to advanced Settings."
+        },
+        {
+            "type": "image",
+            "data": "image6561.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Select Hotspot then choose whether you want an open or secure connection. You will then see that the Hotspot is setup and ready at the top of the device screen."
+        },
+        {
+            "type": "image",
+            "data": "image6562.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "At this point simply connect your PC to the Device via its Wifi settings. Once connected the Hotspot image will turn blue on the device."
+        },
+        {
+            "type": "image",
+            "data": "image6563.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Lecia DISTO TM  S910 support WIFI Modes 802.11 b/g/n"
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Lieca DISTO TM  S910 allows only one device to be connected at a time."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Getting Started - 3D DISTO TM"
+        },
+        {
+            "type": "text",
+            "data": "Simply connect your PC to the Device via its Wifi settings or the USB cable supplied with the 3D DISTO."
+        },
+        {
+            "type": "image",
+            "data": "image52.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Inside a CV Job"
+        },
+        {
+            "type": "text",
+            "data": "When initially opening the Leica DISTO utility you will see it connecting to your DISTO device."
+        },
+        {
+            "type": "image",
+            "data": "image6533.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "If it successfully connects you will see it here."
+        },
+        {
+            "type": "image",
+            "data": "image6534.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "S910"
+        },
+        {
+            "type": "text",
+            "data": "At this point, the device is waiting to be manually level-initialized (steps 1,2,3). Run through the process on the Device."
+        },
+        {
+            "type": "image",
+            "data": "image6564.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Once the device is level-initialized click the \"Click here to start\" button. This will turn on the Laser."
+        },
+        {
+            "type": "text",
+            "data": "The device goes to sleep after several minutes of non-use. If this happens then you must go through the level-initialization process again. Within this time limit, you can close CV and restart to do the measurement without having to go through the level-initialization again."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "3D DISTO"
+        },
+        {
+            "type": "text",
+            "data": "If you are connected to the 3D DISTO you have the ability to control the device directly inside the Leica Disto Utility in CV. The screen will look slightly differently when connected to the 3D DISTO and the image area will be a live view from the device."
+        },
+        {
+            "type": "image",
+            "data": "image53.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Following are the extra options you get when connecting to the 3D DISTO."
+        },
+        {
+            "type": "text",
+            "data": "Movement and Zoom - Use the arrow buttons to move the device left, right, up and down."
+        },
+        {
+            "type": "image",
+            "data": "image54.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The movement increment is controlled by the Angle setting. The choices are 5, 10, 45, 90, and 1890 degrees."
+        },
+        {
+            "type": "image",
+            "data": "image55.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Pressing\u00a0 \u00a0+ clicking the arrow buttons will switch to a 1 degree increment for fine tuning."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "shift_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "It is important to also note that anywhere within the image that you click the device will move to the location of your cursor."
+        },
+        {
+            "type": "text",
+            "data": "The + button in the middle will zoom in at the laser location 3 times. Once a point is captured the image will zoom back out to a full zoom."
+        },
+        {
+            "type": "text",
+            "data": "If the room is dark you can use the Birght button to birghten the image up to 5 times."
+        },
+        {
+            "type": "text",
+            "data": "Walls/Room"
+        },
+        {
+            "type": "text",
+            "data": "The below cover manual movement of the S910."
+        },
+        {
+            "type": "text",
+            "data": "Before capturing any measurements in a room without Wall Cladding (Drywall) it is important to enter the Wall Cladding thickness so it will be compensated for in the Room Layout."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image57.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The CV Leica DISTO Utility requires the capture of the Room (or at least the Floor, Ceiling, and 1 Wall) before you can do any other measuring. Follow the button prompts. As prompted, point the device anywhere on the floor and click the \"Measure a floor point\" button."
+        },
+        {
+            "type": "image",
+            "data": "image6535.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "While the Leica Disto Utility is open you can switch Views in CV. This can be very handy if you want to see what you are capturing. The 3D View is especially helpful when capturing."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Next, point the device anywhere on the ceiling and click the \"Measure a ceiling point\" button."
+        },
+        {
+            "type": "image",
+            "data": "image6536.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Next, point the device anywhere on the first wall and click the \"Measure the first wall - Point 1\" button."
+        },
+        {
+            "type": "text",
+            "data": "In case you need to move the device during the capture of measurements or possibly Resume your session later knowing exactly where this first point is and being able to shoot it accurately is very important. It is recommended to use a piece of tape with an 'X' on it or some other accurate point of reference for Wall #1 - Point #1."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Walls are being drawn as you measure so just like when drawing Walls manually it is best to measure around the Room clock-wise."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image6537.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Next, click the \"Measure Point 2 of Wall 1\" button."
+        },
+        {
+            "type": "image",
+            "data": "image6539.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "At this point you can either stop measuring Walls by clicking the Finish Walls button or you can click the \"Measure next wall - Point 1\" button to continue measuring the Room"
+        },
+        {
+            "type": "image",
+            "data": "image6540.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "If you choose to continue measuring the Room simply follow the prompts until you have measured all the Walls in the Room. You can then click the Finish Room button."
+        },
+        {
+            "type": "image",
+            "data": "image6541.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Once the Room is Finished you can then start measuring other Objects or simply Free Capture Points in the Room."
+        },
+        {
+            "type": "text",
+            "data": "Window"
+        },
+        {
+            "type": "text",
+            "data": "Make sure to select your preferred Window Object in  Preferences | Fill Objects  if you want it placed with the Leica DISTO Utility."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Preferences | Fill Objects",
+                "uuid": "a6c6d306-c8da-4df8-8440-33f2f24a9c1d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "For a Window you will select two diagonal points. Typically bottom left then top right."
+        },
+        {
+            "type": "image",
+            "data": "image6542.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Door"
+        },
+        {
+            "type": "text",
+            "data": "Make sure to select your preferred Door Object in  Preferences | Fill Objects  if you want it placed with the Leica DISTO Utility."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Preferences | Fill Objects",
+                "uuid": "a6c6d306-c8da-4df8-8440-33f2f24a9c1d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "For a Door you will select two diagonal points. Typically bottom left then top right."
+        },
+        {
+            "type": "image",
+            "data": "image6543.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Switch"
+        },
+        {
+            "type": "text",
+            "data": "Make sure to select your preferred Power Switch Object in  Preferences | Fill Objects  if you want it placed with the Leica DISTO Utility."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Preferences | Fill Objects",
+                "uuid": "a6c6d306-c8da-4df8-8440-33f2f24a9c1d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "For a Switch you will select one point. Typically the bottom left."
+        },
+        {
+            "type": "image",
+            "data": "image6544.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Outlet"
+        },
+        {
+            "type": "text",
+            "data": "Make sure to select your preferred Power Outlet Object in  Preferences | Fill Objects  if you want it placed with the Leica DISTO Utility."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Preferences | Fill Objects",
+                "uuid": "a6c6d306-c8da-4df8-8440-33f2f24a9c1d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "For an Outlet you will select one point. Typically the bottom left."
+        },
+        {
+            "type": "image",
+            "data": "image6545.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Plumbing"
+        },
+        {
+            "type": "text",
+            "data": "Make sure to select your preferred Pipe Line Object in  Preferences | Fill Objects  if you want it placed with the Leica DISTO Utility."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Preferences | Fill Objects",
+                "uuid": "a6c6d306-c8da-4df8-8440-33f2f24a9c1d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "For Plumbing you will select one point. Typically the bottom left."
+        },
+        {
+            "type": "image",
+            "data": "image6546.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Free Capture"
+        },
+        {
+            "type": "text",
+            "data": "Free Capture is very handy for covering things not built in to the Leica DISTO Utility, such as a Curved Wall which require many points be captured for tracing. It can also be used to define points showing other features which can be traced for many other special features in a Room such as Countertops or support columns."
+        },
+        {
+            "type": "image",
+            "data": "image6547.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Lecia Move"
+        },
+        {
+            "type": "text",
+            "data": "There are times you can not measure a complete Room without moving the Device. Clicking the Leica Move button allows you to move the device then asks you to select Wall #1 - Point #1 accurately then any other point on Wall #1 to accurately re-orient itself. You can then capture the next Wall in your sequence."
+        },
+        {
+            "type": "image",
+            "data": "image6551.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Resume Session"
+        },
+        {
+            "type": "text",
+            "data": "The Resume Session button allows you to come back to a Room and measure objects within it that may have been added later such as Windows or Doors. You can not use Resume Session to Measure Walls. Simply follow the button prompts to re-orient the device in the Room."
+        },
+        {
+            "type": "image",
+            "data": "image6552.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Connect"
+        },
+        {
+            "type": "text",
+            "data": "From time to time you may lose the Connection to the device from interference or possibly a time-out. Simply click the Connect button in order to reconnect to the device."
+        },
+        {
+            "type": "image",
+            "data": "image56.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Sample Room"
+        },
+        {
+            "type": "text",
+            "data": "Here is the example of a captured Room. Every point which was captured is shown as a red cross and Walls, Windows, and Doors will be both red crosses and lines. These objects are snappable."
+        },
+        {
+            "type": "image",
+            "data": "image6531.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "These points and lines are visible in Plan, Elevation, and 3D Views and their visibility is controlled by the Leica Layer."
+        },
+        {
+            "type": "image",
+            "data": "image6532.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "By expanding the Image>> option you can see exactly where your measurement was captured. If you select the Capture option the Image will be saved and attached as a CAD image to the Leica point for easy recall during Room Design/Engineering."
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Room_Level\\Ribbonbar\\Utilities_Tab\\Leica_Disto.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

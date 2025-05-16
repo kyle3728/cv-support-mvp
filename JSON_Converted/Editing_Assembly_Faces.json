@@ -1,0 +1,119 @@
+{
+    "id": "13fb2d74-ec34-4d73-9389-a2b5b226a0e7",
+    "title": "Editing_Assembly_Faces",
+    "content": [
+        {
+            "type": "text",
+            "data": "Editing Assembly Faces"
+        },
+        {
+            "type": "text",
+            "data": "Section editing of an Assembly face allows re-configuring of the face as needed. Typically this may include the modification, creation, or deletion of Door, Drawer, False Front, Openings, and Panels. All editing at this level retains logic, to respond to changes in Assembly dimension when necessary."
+        },
+        {
+            "type": "text",
+            "data": "Because Assembly Section Editing is performed at the Assembly Level, the editing will not reach beyond the Assembly being edited. This Assembly may however, be saved to your Library and reused in its new configuration."
+        },
+        {
+            "type": "text",
+            "data": "Accessing the Section Edit, Face Option is by click the Section view tab and the Section Face option. The options for section editing are now visible, they are as follows:"
+        },
+        {
+            "type": "text",
+            "data": "#1 \u00a0Split Horiz."
+        },
+        {
+            "type": "text",
+            "data": "#2 \u00a0Split Vert."
+        },
+        {
+            "type": "text",
+            "data": "#3 \u00a0Split Multi Horiz."
+        },
+        {
+            "type": "text",
+            "data": "#4 \u00a0Split Multi Vert"
+        },
+        {
+            "type": "text",
+            "data": "The lines mimic the edit that the option provides. As an example: Starting from a Default Assembly, highlight the internal area of the Assembly. It will display a shaded area when it is selected as the active area as shown below:"
+        },
+        {
+            "type": "image",
+            "data": "image10011.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This shaded area represents the area ready to be configured. Before choosing a tool, it is important to determine whether you want the horizontal or the vertical axis to be the long axis. Because the order in which you Section Edit determines which Parts are long, and which are split. If you want a single Door, with two Drawer Boxes above, the first edit would be with the single horizontal tool, and the second edit, with the single vertical tool would split the drawer boxes. See the graphic below."
+        },
+        {
+            "type": "image",
+            "data": "image1000.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The first edit with the horizontal tool creates the horizontal division between the Door and Drawer face. If the single vertical tool were used, the result would have been a single vertical division as shown below. The order of use is very important to the final outcome."
+        },
+        {
+            "type": "image",
+            "data": "image1002.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Editing an Assembly with multiple face configurations."
+        },
+        {
+            "type": "text",
+            "data": "Assemblies with more complex face configurations will require more steps to create, as they are created one step at a time, by breaking them into smaller and smaller areas."
+        },
+        {
+            "type": "text",
+            "data": "Here is an example of an Assembly that requires three steps to create."
+        },
+        {
+            "type": "image",
+            "data": "image1005.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The first step would be to create the first horizontal division (between the Drawer and Door area) by highlighting the Opening, then selecting the single horizontal edit tool. This creates a single Door/Drawer Assembly."
+        },
+        {
+            "type": "image",
+            "data": "image1008.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The second step would be to divide the Door into two areas, (2 Doors) so that one can be re-configured into the Drawers. Click the Door and it will highlight. Thereafter, click the single vertical edit tool to divide the Door. The Assembly should now look like the one below."
+        },
+        {
+            "type": "image",
+            "data": "image1009.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Click on the right door to highlight it, and then click the multiple horizontal edit tool to create 3 Drawers. Your Assembly will now look like the one at the top of this exercise. The multiple division tool allows any number of divisions (sections) to be created, from two up."
+        },
+        {
+            "type": "text",
+            "data": "You are not finished editing, as the interior must be edited to reflect the face conditions, (Partitions, Stretchers, Shelves, etc.) See the  Editing Assembly Interiors topic  for more information."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Editing Assembly Interiors topic",
+                "uuid": "6f790c9b-0bd3-4ce6-918a-50f67cc1d4f9",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Tips_Tricks_&_FAQs\\The_Section_Editor\\Editing_Assembly_Faces.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

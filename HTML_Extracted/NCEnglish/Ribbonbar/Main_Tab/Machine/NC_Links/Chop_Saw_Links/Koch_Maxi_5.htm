@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><link rel="stylesheet" type="text/css" href="../../../../../_rhdefault.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=WINDOWS-1252"/>
+<meta name="generator" content="Adobe RoboHelp 2022"/>
+<title>Koch Maxi 5</title>
+<link rel="StyleSheet" href="../../../../../assets/css/default.css" type="text/css"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/><script type="text/javascript" src="../../../../../ehlpdhtm.js"></script></head>
+<body>
+<h1>Koch Maxi 5</h1>
+<p>This is a Chop Saw Machine Link.</p>
+<p>Output for Koch/Paul Maxi 5 Premium Control.</p>
+<p>Only selected parts made of board stock are output.</p>
+<p> </p>
+<h2>Structure of Cutting List To Be Imported into MAXI 5 Premium Control</h2>
+<p>The file to be imported must start with the order details comprising 9 lines, each with a maximum of 100 characters. This line will start with #; and end with ;</p>
+<p>Then follow the individual lists.</p>
+<p>Each list may contain a &#39;project&#39; line with a maximum of 100 characters. The project name will start with #; and end with ;</p>
+<p>Each list may contain max. 400 sizes.</p>
+<p>Data have to be in ASCII code, i.e. ASCII characters, hex 20 to hex 7E. Not allowed are: $ , @ ,\ .</p>
+<p>Decimals to be separated by a point, not by a comma, each line to end with &lt;CRLF&gt; (Carriage return / line feed).</p>
+<p>File name: nnnnnnnnnnnn.stk . Any name with the ending stk.</p>
+<p>Line structure:</p>
+<p>P xx; Active; Control; Length; Number of Pieces; Sorting Station; Priority; Printing Code; &lt;CRLF&gt;</p>
+<p>Thereby:</p>
+<p>P xx: Cutting list number 1 .. 60</p>
+<p>Active: If the lengths in this line are to be used, set this value to 1, otherwise to 0</p>
+<p>Control: For special applications, always set to 1</p>
+<p>Length: in millimeters with one decimal place, e.g. 1000.2 mm, min. 20.0 mm, max. 7000.0 mm</p>
+<p>Number of pcs. 1 to 5 000000</p>
+<p>Sorting station: 1 to 48</p>
+<p>Priority: 1 to 300 in %, standard value is 100%</p>
+<p>Printing code: If not used, then send “ ;“ (2 blanks and semicolon).</p>
+<p>Printing code may comprise max. 30 ASCII characters (no semicolon, no @ within the character string)</p>
+<p>Example: Test cutting list_220304.stk</p>
+<p>#; &#39;Order&#39; line1;</p>
+<p>#; Client: Muller Timber;</p>
+<p>#; Species: Oak;</p>
+<p>#; Timber section 33*45;</p>
+<p>#; Completion. Xx.yy.zzzz;</p>
+<p>#; STATISTICS: 3345;</p>
+<p>#;</p>
+<p>#; Further information;</p>
+<p>#; Line 9;</p>
+<p>P1; #; &#39;Project&#39; text cutting list 1, max. 100 characters;</p>
+<p>P1; 1; 1; 567.3; 125; 2; 100; 70.47.45 42 front jamb;</p>
+<p>P1; 1; 1; 825.6; 222; 3; 95; 10.39.45 651 rear jamb ;</p>
+<p>P1; 1; 1; 925.6; 322; 4; 105; 71.43.45 600 upright ;</p>
+<p>P2; #;&#39;Project&#39; text 2;</p>
+<p>P2; 1; 1; 456.7; 222; 4; 100; TTTT ;</p>
+<p>P2; 1; 1; 625.6; 347; 3; 95; rail Q2 ;</p>
+<p>P3; #; Additional components Q3;</p>
+<p>P3; 1; 1; 555.7; 225; 2; 90; GHZF;</p>
+<p>P3; 1; 1; 721.6; 1347; 9; 100; batten 567.34 ;</p>
+<p>...</p>
+<p>...</p>
+<p>P60;</p>
+
+
+</body></html>

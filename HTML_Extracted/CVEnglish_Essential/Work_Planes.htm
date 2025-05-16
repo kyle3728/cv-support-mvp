@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head><link rel="stylesheet" type="text/css" href="../../../RHTMP/Microsoft%20HTML%20HelpLvLZav/_rhdefault.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="generator" content="Adobe RoboHelp 2019"/>
+<title>Work Planes</title>
+<link rel="StyleSheet" href="../assets/css/default.css" type="text/css"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/><script type="text/javascript" src="../../../RHTMP/Microsoft%20HTML%20HelpLvLZav/ehlpdhtm.js"></script></head>
+<body>
+<h1>Work Planes</h1>
+<p><img src="../assets/images/zGraphics/1Products/1AUALL.png" alt="" style="border: none; width: 100%; max-width: 102px;" border="0"/></p>
+<p>Work planes, will allow you to easily add operations to faces or edges of a Part without having to think about positions and rotations. The front and back face of a Part can be considered face work-planes and each edge of the Part will be considered an edge work plane. Face work planes are numbered 1 for the front face and 2 for the back face. Edge work planes are enumerated in a counter clock-wise direction from the shape origin on a shaped part or the bottom left corner of a rectangular part. This functionality will not work on radiused edges.</p>
+<p><img src="../assets/images/zGraphics/image836.gif" alt="" style="border: none; width: 100%; max-width: 293px;" border="0"/></p>
+<p>The edge work planes are oriented by following the Part edges from the origin moving in a counter clock-wise direction. The Y axis will be along the front face of the Part toward the next shape node and the X axis will be from the front face toward the back of the Part as shown on the following sketch.</p>
+<p><img src="../assets/images/zGraphics/image837.gif" alt="" style="border: none; width: 100%; max-width: 141px;" border="0"/></p>
+<p>To position an operation on a work plane, create the operation as if it were in a normal Cartesian (XY) coordinate system. The Z position and AX, AY and AZ rotations will typically be 0. The operation can then be applied to an edge by specifying the edge work plane with an _EDGWP parameter. The value will specify which edge to place the work plane on, eg: _EDGWP=3 will position the operation on the 3rd edge. The operation can also be applied to a face with a _FACEWP parameter, eg: _FACEWP=2 will put the operation on the back face.</p>
+<p>There are also additional lower level parameters that can be used to get information about an edge. The values returned are for the edges orientation and position in Parts space. One set of parameters assumes the edge orientation as described for the work planes. The parameters are as follows (# is the edge number):</p>
+<p style="margin-bottom: 0pt; margin-top: 0pt; font-weight: bold;">_edg#x</p>
+<p style="margin-bottom: 0pt; margin-top: 0pt;">returns the x origin of the edge</p>
+<p style="margin-bottom: 0pt; margin-top: 0pt;"> </p>
+<p style="margin-bottom: 0pt; margin-top: 0pt; font-weight: bold;">_edg#y</p>
+<p style="margin-bottom: 0pt; margin-top: 0pt;">returns the y origin of the edge</p>
+<p style="margin-bottom: 0pt; margin-top: 0pt;"> </p>
+<p style="margin-bottom: 0pt; margin-top: 0pt; font-weight: bold;">_edg#z</p>
+<p style="margin-bottom: 0pt; margin-top: 0pt;">returns the z origin of the edge</p>
+<p style="margin-bottom: 0pt; margin-top: 0pt;"> </p>
+<p style="margin-bottom: 0pt; margin-top: 0pt; font-weight: bold;">_edg#dy</p>
+<p style="margin-bottom: 0pt; margin-top: 0pt;">returns the length of the edge</p>
+<p style="margin-bottom: 0pt; margin-top: 0pt;"> </p>
+<p style="margin-bottom: 0pt; margin-top: 0pt; font-weight: bold;">_edg#ax</p>
+<p style="margin-bottom: 0pt; margin-top: 0pt;">returns the x rotation of an operation (work plane) placed on the edge</p>
+<p style="margin-bottom: 0pt; margin-top: 0pt;"> </p>
+<p style="margin-bottom: 0pt; margin-top: 0pt; font-weight: bold;">_edg#ay</p>
+<p style="margin-bottom: 0pt; margin-top: 0pt;">returns the y rotation of an operation (work plane) placed on the edge</p>
+<p style="margin-bottom: 0pt; margin-top: 0pt;"> </p>
+<p style="margin-bottom: 0pt; margin-top: 0pt; font-weight: bold;">_edg#az</p>
+<p style="margin-bottom: 0pt; margin-top: 0pt;">returns the z rotation of an operation (work plane) placed on the edge</p>
+<p style="margin-bottom: 0pt; margin-top: 0pt;"> </p>
+<p style="margin-bottom: 0pt; margin-top: 0pt; font-weight: bold;">_edg#miter</p>
+<p style="margin-bottom: 0pt; margin-top: 0pt;">returns the miter angle of the edge</p>
+<p style="margin-bottom: 0pt; margin-top: 0pt;"> </p>
+<p style="font-size: 12pt; text-autospace: none; margin-top: 0px; margin-bottom: 0pt;"><b style="font-weight: bold;">_shpedgcnt</b></p>
+<p style="font-size: 12pt; text-autospace: none; margin-top: 0px; margin-bottom: 0pt; font-style: normal;"><i><span style="font-style: normal;">Returns the number of edges a shaped Part has. It will return 0 if the part is not</span></i> <i><span style="font-style: normal;">shaped. A bend line or radius node count as 1 edge.</span></i></p>
+<p style="font-size: 12pt; text-autospace: none; margin-top: 0px; margin-bottom: 0pt;"> </p>
+<p style="font-size: 12pt; text-autospace: none; margin-top: 0px; margin-bottom: 0pt; margin-left: 80px;"><img src="../assets/images/Information.png" alt="" style="border: none; width: 100%; max-width: 32px;" border="0"/> Arcs and Curves are ignored in the Work Plane counts and can not be referenced.</p>
+
+
+</body></html>

@@ -1,0 +1,17 @@
+{
+    "id": "c1cf8ae9-fc10-4827-a1ce-4d728417b1c5",
+    "title": "ProEdge_Lockdowel",
+    "content": [
+        {
+            "type": "text",
+            "data": "ProEdge Lockdowel"
+        },
+        {
+            "type": "text",
+            "data": "This output will create program files for ProEdge Tools Drill / Dowel machines. Assign tools to this machine and to the operations to create output. It is specific to Lockdowel setup with support for Spring Pins(LD), HClip (barbed)(LE), Channel Lock(LCK), HClip w/Spring Pin(LHK),Delta Clip(LDCK), L-Slot(LLS), Surface Slot(RECT) and Edge Slot(L1). Each program will represent one side of a part. Enter the parameter name based on the operations in the Parameter fieldin this Link's Output section. Example: For Spring Pins enter 'LD'"
+        }
+    ],
+    "source_file": "NCEnglish\\Ribbonbar\\Main_Tab\\Machine\\NC_Links\\Drill_and_Dowel_Links\\ProEdge_Lockdowel.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

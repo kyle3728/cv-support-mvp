@@ -1,0 +1,128 @@
+{
+    "id": "4cc007a9-0528-4afa-8b5a-3173279ec3ee",
+    "title": "RLRC_On_Line_Item",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top \n > \n \n \n Room Level \n > \n \n Right Click Options \n > \n \n Right Click on Line Item"
+        },
+        {
+            "type": "text",
+            "data": "Top \n >"
+        },
+        {
+            "type": "text",
+            "data": "Room Level \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Room Level",
+                "uuid": "9eaa492c-0405-4da7-8e0f-a6ff4e047890",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Right Click Options \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Right Click Options",
+                "uuid": "3ea2c40b-e3fc-4eac-9114-cf8a3365c62a",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Right Click on Line Item"
+        },
+        {
+            "type": "text",
+            "data": "Right Click on Line Item"
+        },
+        {
+            "type": "text",
+            "data": "Right Click On Line Item -"
+        },
+        {
+            "type": "image",
+            "data": "image73.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There are 5 options here:"
+        },
+        {
+            "type": "image",
+            "data": "image1224.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image1052.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Add Copy"
+        },
+        {
+            "type": "text",
+            "data": "Will add a Copy of the selected line item to the list."
+        },
+        {
+            "type": "text",
+            "data": "Delete"
+        },
+        {
+            "type": "text",
+            "data": "Will delete the selected line item."
+        },
+        {
+            "type": "text",
+            "data": "Edit"
+        },
+        {
+            "type": "text",
+            "data": "Will take the selected line item to the Assembly Level."
+        },
+        {
+            "type": "text",
+            "data": "Rehinge"
+        },
+        {
+            "type": "text",
+            "data": "Selecting this option will allow you change the Hinge side for a Assembly, \n if it is a Single Door Assembly."
+        },
+        {
+            "type": "text",
+            "data": "To Drawing"
+        },
+        {
+            "type": "text",
+            "data": "Selecting this option will send the current Reports View to the Drawings \n area as a Drawing Scene."
+        },
+        {
+            "type": "text",
+            "data": "Properties"
+        },
+        {
+            "type": "text",
+            "data": "See the  Room \n Level Assembly Properties  topic."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Room \n Level Assembly Properties",
+                "uuid": "be29a521-2d0f-4030-8911-87f747cacb90",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Room_Level\\Right_Click_Options\\RLRC_On_Line_Item.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

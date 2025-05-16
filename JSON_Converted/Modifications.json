@@ -1,0 +1,171 @@
+{
+    "id": "840bb640-c5d1-478e-8155-33032823adcc",
+    "title": "Modifications",
+    "content": [
+        {
+            "type": "text",
+            "data": "Modifications"
+        },
+        {
+            "type": "image",
+            "data": "image145.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Use this interface to link Cabinet Modifications to the selected  Option . Modifications are listed by type below:"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Option",
+                "uuid": "e820ca9e-d789-4cc3-9365-76dbb9822fa6",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image146.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Type"
+        },
+        {
+            "type": "text",
+            "data": "Toe Height:  Enter the desired Toe Height in the Value field"
+        },
+        {
+            "type": "text",
+            "data": "Single Door -> Pair Doors:  Non Graphic Modification changing a Single Door to a Pair of Doors."
+        },
+        {
+            "type": "text",
+            "data": "Pair Doors -> Single Door:  Non Graphic Modification changing a Pair of Doors to a Single Door."
+        },
+        {
+            "type": "text",
+            "data": "Omit Doors:  Selecting this Option and setting the value to 1 will remove Doors from the Object."
+        },
+        {
+            "type": "text",
+            "data": "Butt Doors:  Non Graphic Modification that changes the Doors to Butt Doors."
+        },
+        {
+            "type": "text",
+            "data": "Clip Corner - Left:  Enter the amount of the clip in the Value field"
+        },
+        {
+            "type": "text",
+            "data": "Clip Corner - Right:  Enter the amount of the clip in the Value field"
+        },
+        {
+            "type": "text",
+            "data": "Clip Corner - Both:  Enter the amount of the clips in the Value field"
+        },
+        {
+            "type": "text",
+            "data": "Radius Corner - Left:  Enter the amount of the radius in the Value field"
+        },
+        {
+            "type": "text",
+            "data": "Radius Corner - Right:  Enter the amount of the radius in the Value field"
+        },
+        {
+            "type": "text",
+            "data": "Radius Corner - Both:  Enter the amount of the radius in the Value field."
+        },
+        {
+            "type": "text",
+            "data": "Angled End - Left:  Enter the desired angle (in degrees) for the Cabinet end"
+        },
+        {
+            "type": "text",
+            "data": "Angled End - Right:  Enter the desired angle (in degrees) for the Cabinet end"
+        },
+        {
+            "type": "text",
+            "data": "Angled End - Both:  Enter the desired angle (in degrees) for the Cabinet ends"
+        },
+        {
+            "type": "text",
+            "data": "Add Shelf:  Non Graphic Modification that is used to represent the addition of a shelf."
+        },
+        {
+            "type": "text",
+            "data": "Delete Shelf:  Non Graphic Modification that is used to represent the removal of a shelf."
+        },
+        {
+            "type": "text",
+            "data": "Peninsula:  Non Graphic Modification to represent a change to a Peninsula."
+        },
+        {
+            "type": "text",
+            "data": "Extended Stile - Left:  Enter the desired amount of extension for the stile in the Value field"
+        },
+        {
+            "type": "text",
+            "data": "Extended Stile - Right:  Enter the desired amount of extension for the stile in the Value field"
+        },
+        {
+            "type": "text",
+            "data": "Extended Back:  Enter the amount to extend the back down in the Value field"
+        },
+        {
+            "type": "text",
+            "data": "Extended Left End:  This Modification will extend the Left End down the amount entered in the value field."
+        },
+        {
+            "type": "text",
+            "data": "Extended Right End:  This Modification will extend the Right End down the amount entered in the value field."
+        },
+        {
+            "type": "text",
+            "data": "Flush Top/Bottom:  Non Graphic Modification that represents a Flush Top and Bottom."
+        },
+        {
+            "type": "text",
+            "data": "Recess Toe Left:  Enter the amount of toe recess in the Value field"
+        },
+        {
+            "type": "text",
+            "data": "Recess Toe Right:  Enter the amount of toe recess in the Value field"
+        },
+        {
+            "type": "text",
+            "data": "Recess Toe Back:  Enter the amount of toe recess in the Value field"
+        },
+        {
+            "type": "text",
+            "data": "Flush Front Toe:  Selecting this Option and setting the value to 1 will Flush the Toes"
+        },
+        {
+            "type": "text",
+            "data": "Split Drawer:  Non Graphic Modification to represent splitting a Drawer into two Drawers."
+        },
+        {
+            "type": "text",
+            "data": "Invert Door/Drawer:  Non Graphic Modification to represent swapping the positions of the Door and Drawer."
+        },
+        {
+            "type": "text",
+            "data": "Full Depth Shelf:  Non Graphic Modification that represents changing a shelf to Full Depth."
+        },
+        {
+            "type": "text",
+            "data": "Glass Mullion Doors:  This Option changes the existing Door Panels to Glass. The value corresponds to the number of lites."
+        },
+        {
+            "type": "text",
+            "data": "Panelized Ends:  Change the Cabinet Ends to Panelized. The value should be set to 1 to turn this Modification on."
+        },
+        {
+            "type": "text",
+            "data": "Omit Pulls:  Non Graphic Modification that represents omitting the Pulls from the selected Object."
+        }
+    ],
+    "source_file": "CEEnglish\\Options_View\\Ribbonbar\\Main\\Modifications.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

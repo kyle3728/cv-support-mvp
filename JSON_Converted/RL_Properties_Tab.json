@@ -1,0 +1,108 @@
+{
+    "id": "a6c30442-7132-4380-80a2-1e42d637f9a1",
+    "title": "RL_Properties_Tab",
+    "content": [
+        {
+            "type": "text",
+            "data": "Properties Tab -"
+        },
+        {
+            "type": "image",
+            "data": "image72.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "RLRB_3D_Properties.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Following are the options on the Properties tab at the 3D View."
+        },
+        {
+            "type": "text",
+            "data": "Return"
+        },
+        {
+            "type": "image",
+            "data": "image229.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Job Properties"
+        },
+        {
+            "type": "image",
+            "data": "image475.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Room Properties"
+        },
+        {
+            "type": "image",
+            "data": "image476.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Materials Visual"
+        },
+        {
+            "type": "image",
+            "data": "image477.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Materials Visual option lists all the Materials in the current Job and allows you to change their Color, Texture, and Finish Type. This allows you to quickly change the Rendering for the current Job without returning to the System Level."
+        },
+        {
+            "type": "text",
+            "data": "Changes made here are for visual purposes only."
+        },
+        {
+            "type": "image",
+            "data": "Warning.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image479.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Finish Types Visual"
+        },
+        {
+            "type": "image",
+            "data": "image478.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Finish Types Visual option lists all of the Finish Types in the current Job and allows you to change their settings. This allows you to quickly change the Rendering for the current Job without returning to the System Level."
+        },
+        {
+            "type": "text",
+            "data": "Changes made here are for visual purposes only."
+        },
+        {
+            "type": "image",
+            "data": "Warning.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image480.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish\\Room_Level\\Ribbonbar\\RL_Properties_Tab.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

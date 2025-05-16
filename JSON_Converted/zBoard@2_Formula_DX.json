@@ -1,0 +1,21 @@
+{
+    "id": "b852fdb2-3542-47bc-9469-6fbec7215c7e",
+    "title": "zBoard@2_Formula_DX",
+    "content": [
+        {
+            "type": "text",
+            "data": "Board@2 Formula DX"
+        },
+        {
+            "type": "text",
+            "data": "The width of the board is equal"
+        },
+        {
+            "type": "text",
+            "data": "to the width of the cabinet."
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\Parametric_Editing\\Intelligence_Workshop\\5th_Exercise\\zBoard@2_Formula_DX.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

@@ -1,0 +1,21 @@
+{
+    "id": "aa84ba8b-655a-4862-bf4c-e9ac25ff56e7",
+    "title": "Scheer_DNC_-_AT",
+    "content": [
+        {
+            "type": "text",
+            "data": "Scheer DNC - AT"
+        },
+        {
+            "type": "text",
+            "data": "This is a  Panel Saw  Link."
+        },
+        {
+            "type": "text",
+            "data": "Saw output for the Scheer DNC - AT Control."
+        }
+    ],
+    "source_file": "NCEnglish_Optimizer\\Ribbonbar\\Main_Tab\\Machine\\NC_Links\\Saw_Links\\Scheer_DNC_-_AT.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

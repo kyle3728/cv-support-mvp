@@ -1,0 +1,21 @@
+{
+    "id": "8d3dd389-ac39-4890-83bd-5d7ec5a2a4fb",
+    "title": "zBoard@3_Code_X",
+    "content": [
+        {
+            "type": "text",
+            "data": "Board@3 Code X"
+        },
+        {
+            "type": "text",
+            "data": "(Cab.DX +"
+        },
+        {
+            "type": "text",
+            "data": "Cab.Board@3.DZ)/2"
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\Parametric_Editing\\Intelligence_Workshop\\5th_Exercise\\zBoard@3_Code_X.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

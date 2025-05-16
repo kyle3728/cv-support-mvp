@@ -1,0 +1,174 @@
+{
+    "id": "d23137a4-bc4e-4584-8c70-1e39159e3313",
+    "title": "DC_Material_Tab",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top \n > \n \n \n System Level \n > \n \n Ribbonbar \n > \n \n Main Tab \n > \n \n Catalogs Group \n > \n \n Door Catalog \n > \n \n Door Catalog Tabs \n > \n \n Material Tab"
+        },
+        {
+            "type": "text",
+            "data": "Top \n >"
+        },
+        {
+            "type": "text",
+            "data": "System Level \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "System Level",
+                "uuid": "4450866f-fd9c-46df-abf3-7843c5a1ef37",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Ribbonbar \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Ribbonbar",
+                "uuid": "3bbac75c-2b61-42af-9bce-b90335e66dde",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Main Tab \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Main Tab",
+                "uuid": "3bbac75c-2b61-42af-9bce-b90335e66dde",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Catalogs Group \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Catalogs Group",
+                "uuid": "f4a43f08-b40b-442c-8f03-a96c2a64640f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Door Catalog \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Door Catalog",
+                "uuid": "2da09610-ccab-42a9-a5ce-4ad5fa83394a",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Door Catalog Tabs \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Door Catalog Tabs",
+                "uuid": "d1faae4f-ff5c-49e5-95cf-756c3c48e318",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Material Tab"
+        },
+        {
+            "type": "text",
+            "data": "Material Tab"
+        },
+        {
+            "type": "text",
+            "data": "Material"
+        },
+        {
+            "type": "text",
+            "data": "Click on the tabs below for more information"
+        },
+        {
+            "type": "image",
+            "data": "image287.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Once you have selected the Profiles to use with the Door Style. The next step is to click on the \"Material\" tab and select the Door Material Schedules you wish to use with this Door. You will note in the picture above that I have selected my \"Alder\", \"Ash\", \"Birch\", \"Cherry\", \"Maple\", \"Oak\", and \"Paint Grade\" Material Schedules for use with this Door."
+        },
+        {
+            "type": "text",
+            "data": "The Material Cost associated with the selected Material Schedule is also displayed and editable from here. See the  Door/Drawer Fronts Material Schedule  topic for more information."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Door/Drawer Fronts Material Schedule",
+                "uuid": "94b9f888-f73f-4e07-b5c4-a992aa50b3ee",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "If you would like the Door to have a default selection for the Material simply select the Material you would like to be the Default selection for the Door and enable the \"Set Material as the Default to Use for this Door\" option."
+        },
+        {
+            "type": "image",
+            "data": "image288.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "If you want to set the Banding Edges for the selected Door Style simply select the Edges where you want Banding applied."
+        },
+        {
+            "type": "image",
+            "data": "image289.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Banding will only be applied if the active Material Schedule has a valid Banding Material and the Band Edges option is enabled."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The \"Use\" Column"
+        },
+        {
+            "type": "text",
+            "data": "For every \"Yes\" in \u00a0the USE column an additional Material will be available. \u00a0If you neglect to select any Materials for a Door, you will receive the error message \"Unable to find material Schedule, Select another Door\" when you attempt to use your new Door in a Job."
+        },
+        {
+            "type": "text",
+            "data": "You should select at least one Material Schedule for use with a Door. If you don\u2019t select a Material Schedule for use here the system will assign a Default schedule to the Door."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Each of the Material Schedules that you see on the page were created for the Doors and Drawer Faces. \u00a0By clicking on the Material, you can see the content of the schedule in the preview screen in the Top Right Corner. \u00a0To change the schedule, click on the menu option \"Setup...Materials\" and choose the correct Material Schedule from the drop down list."
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\System_Level\\Ribbonbar\\Main_Tab\\Catalogs_Group\\Door_Catalog\\Door_Catalog_Tabs\\DC_Material_Tab.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

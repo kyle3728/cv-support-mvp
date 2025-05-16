@@ -1,0 +1,31 @@
+{
+    "id": "f478da3b-2bc8-45fa-8825-a29d43817ee3",
+    "title": "Assembly_Selector",
+    "content": [
+        {
+            "type": "text",
+            "data": "Assembly Selector"
+        },
+        {
+            "type": "image",
+            "data": "AssemblySelector.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "When the active Assembly has one or more sub-assemblies within it this option becomens active. You can either utilize the drop down to select a specfic sub-assembly or the next and previous buttons to cycle through all available sub-assemblies. This control is also used to return to the main Assembly."
+        },
+        {
+            "type": "image",
+            "data": "Assembly_Selector_dropdown.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Once a Sub-Assembly is selected you can edit it in the Section Editor or other Assembly Level views."
+        }
+    ],
+    "source_file": "CVEnglish\\Assembly_Level\\Ribbonbar\\Main_Tab\\Assembly_Selector.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

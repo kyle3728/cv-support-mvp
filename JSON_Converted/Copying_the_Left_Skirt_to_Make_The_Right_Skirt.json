@@ -1,0 +1,70 @@
+{
+    "id": "97d6af9f-86a4-49b1-9816-8c921a2d98b5",
+    "title": "Copying_the_Left_Skirt_to_Make_The_Right_Skirt",
+    "content": [
+        {
+            "type": "text",
+            "data": "Copying the Left Skirt to Make The Right Skirt"
+        },
+        {
+            "type": "text",
+            "data": "From the Face ortho view, right click on the left skirt and select \"Copy\", from the right click menu. \n \n \n Move your mouse (and the phantom part) to the right and line it up with the right side of your wood top. See picture below. Then \"Left Click\" one time to \"place\" the part, and then \"Right Click\" one time to \"release\" the phantom part."
+        },
+        {
+            "type": "text",
+            "data": "From the Face ortho view, right click on the left skirt and select \"Copy\", from the right click menu."
+        },
+        {
+            "type": "text",
+            "data": "From the Face ortho view, right click on the left skirt and select \"Copy\", from the right click menu."
+        },
+        {
+            "type": "text",
+            "data": "Move your mouse (and the phantom part) to the right and line it up with the right side of your wood top. See picture below. Then \"Left Click\" one time to \"place\" the part, and then \"Right Click\" one time to \"release\" the phantom part."
+        },
+        {
+            "type": "text",
+            "data": "Move your mouse (and the phantom part) to the right and line it up with the right side of your wood top. See picture below. Then \"Left Click\" one time to \"place\" the part, and then \"Right Click\" one time to \"release\" the phantom part."
+        },
+        {
+            "type": "image",
+            "data": "image48.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Click on the right skirt. In the sidebar set the \"Left/Right\" to 29.25\" (because of where the reference point is located the \"Left/Right\" (X) of this part is the thickness of the left skirt plus the length of the wood top, or the width of the cabinet minus the thickness of the right skirt). \n \n \n Set the \"Up/Down\" to 0\". \n \n \n Set the \"In/Out\" to 0\"."
+        },
+        {
+            "type": "text",
+            "data": "Click on the right skirt. In the sidebar set the \"Left/Right\" to 29.25\" (because of where the reference point is located the \"Left/Right\" (X) of this part is the thickness of the left skirt plus the length of the wood top, or the width of the cabinet minus the thickness of the right skirt)."
+        },
+        {
+            "type": "text",
+            "data": "Click on the right skirt. In the sidebar set the \"Left/Right\" to 29.25\" (because of where the reference point is located the \"Left/Right\" (X) of this part is the thickness of the left skirt plus the length of the wood top, or the width of the cabinet minus the thickness of the right skirt)."
+        },
+        {
+            "type": "text",
+            "data": "Set the \"Up/Down\" to 0\"."
+        },
+        {
+            "type": "text",
+            "data": "Set the \"Up/Down\" to 0\"."
+        },
+        {
+            "type": "text",
+            "data": "Set the \"In/Out\" to 0\"."
+        },
+        {
+            "type": "text",
+            "data": "Set the \"In/Out\" to 0\"."
+        },
+        {
+            "type": "text",
+            "data": "The right skirt is now placed and rotated correctly. Look at your wood top in 3D by clicking on the 3D view tab. As you can see we have correctly rotated and placed three of the four parts. We are now ready to add the front skirt."
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\Parametric_Editing\\Intelligence_Workshop\\6th_Exercise\\Copying_the_Left_Skirt_to_Make_The_Right_Skirt.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

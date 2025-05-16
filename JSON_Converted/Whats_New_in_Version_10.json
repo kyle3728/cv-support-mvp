@@ -1,0 +1,380 @@
+{
+    "id": "14fa135e-27df-48b6-a4e2-4fc42d6ea48e",
+    "title": "Whats_New_in_Version_10",
+    "content": [
+        {
+            "type": "text",
+            "data": "What's New in Version 10"
+        },
+        {
+            "type": "text",
+            "data": "General"
+        },
+        {
+            "type": "text",
+            "data": "Define \n\t Workflows with Machine Sets -   +   or   \n\t +  \n Pattern \n\t Sheet and Part Sheet Printouts now in Reports Area \n Machining \n\t Simulation   -   \n\t or   \n Measure \n\t Tool in Pattern View \n Print \n\t Offcut and Bins in Offcut Manager \n Control \n\t Column Display and Order in Offcut Manager \n Set \n\t Filters in Offcut Manager \n Offcut \n\t Labels for Real-Time Label Image Add-On  -   \n\t or  \n S2M \n\t Center Part List Creator Application \n Re-size \n\t Offcut Manager Window"
+        },
+        {
+            "type": "text",
+            "data": "Define \n\t Workflows with Machine Sets -   +   or   \n\t +"
+        },
+        {
+            "type": "text",
+            "data": "Define \n\t Workflows with Machine Sets -   +   or   \n\t +"
+        },
+        {
+            "type": "image",
+            "data": "S2MUltimate.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "S2M_IMG.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "S2MUltimate.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "S2M_LIT.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Pattern \n\t Sheet and Part Sheet Printouts now in Reports Area"
+        },
+        {
+            "type": "text",
+            "data": "Pattern \n\t Sheet and Part Sheet Printouts now in Reports Area"
+        },
+        {
+            "type": "text",
+            "data": "Machining \n\t Simulation   -   \n\t or"
+        },
+        {
+            "type": "text",
+            "data": "Machining \n\t Simulation   -   \n\t or"
+        },
+        {
+            "type": "image",
+            "data": "S2MUltimate.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "SIM.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Measure \n\t Tool in Pattern View"
+        },
+        {
+            "type": "text",
+            "data": "Measure \n\t Tool in Pattern View"
+        },
+        {
+            "type": "text",
+            "data": "Print \n\t Offcut and Bins in Offcut Manager"
+        },
+        {
+            "type": "text",
+            "data": "Print \n\t Offcut and Bins in Offcut Manager"
+        },
+        {
+            "type": "text",
+            "data": "Control \n\t Column Display and Order in Offcut Manager"
+        },
+        {
+            "type": "text",
+            "data": "Control \n\t Column Display and Order in Offcut Manager"
+        },
+        {
+            "type": "text",
+            "data": "Set \n\t Filters in Offcut Manager"
+        },
+        {
+            "type": "text",
+            "data": "Set \n\t Filters in Offcut Manager"
+        },
+        {
+            "type": "text",
+            "data": "Offcut \n\t Labels for Real-Time Label Image Add-On  -   \n\t or"
+        },
+        {
+            "type": "text",
+            "data": "Offcut \n\t Labels for Real-Time Label Image Add-On  -   \n\t or"
+        },
+        {
+            "type": "image",
+            "data": "S2M_IMG.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "S2M_LIT.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "S2M \n\t Center Part List Creator Application"
+        },
+        {
+            "type": "text",
+            "data": "S2M \n\t Center Part List Creator Application"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "S2M \n\t Center Part List Creator Application",
+                "uuid": "6cf45fe8-f267-439e-8bd8-49cc822e72ed",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Re-size \n\t Offcut Manager Window"
+        },
+        {
+            "type": "text",
+            "data": "Re-size \n\t Offcut Manager Window"
+        },
+        {
+            "type": "text",
+            "data": "Label-IT"
+        },
+        {
+            "type": "text",
+            "data": "Machine \n\t Set Work Flow Reporting  -   \n\t +   or   \n\t +"
+        },
+        {
+            "type": "text",
+            "data": "Machine \n\t Set Work Flow Reporting  -   \n\t +   or   \n\t +"
+        },
+        {
+            "type": "text",
+            "data": "Machine \n\t Set Work Flow Reporting  -   \n\t +   or   \n\t +"
+        },
+        {
+            "type": "image",
+            "data": "S2MUltimate.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "S2M_IMG.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "S2MUltimate.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "S2M_LIT.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Links"
+        },
+        {
+            "type": "text",
+            "data": "Laguna \n\t Lockdowel -"
+        },
+        {
+            "type": "text",
+            "data": "Laguna \n\t Lockdowel -"
+        },
+        {
+            "type": "text",
+            "data": "Laguna \n\t Lockdowel -"
+        },
+        {
+            "type": "image",
+            "data": "S2MUltimate.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Machine Catalog"
+        },
+        {
+            "type": "text",
+            "data": "Pass Operations Through All or Some Machines \n\t within a Machine Set   -  \n Set \n\t Full Graphic Path for Real-Time Label Output  -   \n\t or  \n Output \n\t Offcut Graphics for Real-Time Label Output  -   \n\t or  \n Specify \n\t Output Options for Advanced Drill and Dowel Machines  -  \n Specify \n\t Trim and Maximum Sheet Size for Saw CUT Machines"
+        },
+        {
+            "type": "text",
+            "data": "Pass Operations Through All or Some Machines \n\t within a Machine Set   -"
+        },
+        {
+            "type": "text",
+            "data": "Pass Operations Through All or Some Machines \n\t within a Machine Set   -"
+        },
+        {
+            "type": "image",
+            "data": "S2MUltimate.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Set \n\t Full Graphic Path for Real-Time Label Output  -   \n\t or"
+        },
+        {
+            "type": "text",
+            "data": "Set \n\t Full Graphic Path for Real-Time Label Output  -   \n\t or"
+        },
+        {
+            "type": "image",
+            "data": "S2M_IMG.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "S2M_LIT.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Output \n\t Offcut Graphics for Real-Time Label Output  -   \n\t or"
+        },
+        {
+            "type": "text",
+            "data": "Output \n\t Offcut Graphics for Real-Time Label Output  -   \n\t or"
+        },
+        {
+            "type": "image",
+            "data": "S2M_IMG.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "S2M_LIT.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Specify \n\t Output Options for Advanced Drill and Dowel Machines  -"
+        },
+        {
+            "type": "text",
+            "data": "Specify \n\t Output Options for Advanced Drill and Dowel Machines  -"
+        },
+        {
+            "type": "image",
+            "data": "S2MUltimate.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Specify \n\t Trim and Maximum Sheet Size for Saw CUT Machines"
+        },
+        {
+            "type": "text",
+            "data": "Specify \n\t Trim and Maximum Sheet Size for Saw CUT Machines"
+        },
+        {
+            "type": "text",
+            "data": "Nesting"
+        },
+        {
+            "type": "text",
+            "data": "Perimeter \n\t Nesting \n Start \n\t Point at Corner \n Interior \n\t Boundary for Very Small parts"
+        },
+        {
+            "type": "text",
+            "data": "Perimeter \n\t Nesting"
+        },
+        {
+            "type": "text",
+            "data": "Perimeter \n\t Nesting"
+        },
+        {
+            "type": "text",
+            "data": "Start \n\t Point at Corner"
+        },
+        {
+            "type": "text",
+            "data": "Start \n\t Point at Corner"
+        },
+        {
+            "type": "text",
+            "data": "Interior \n\t Boundary for Very Small parts"
+        },
+        {
+            "type": "text",
+            "data": "Interior \n\t Boundary for Very Small parts"
+        },
+        {
+            "type": "text",
+            "data": "Tool Catalog"
+        },
+        {
+            "type": "text",
+            "data": "Import \n\t 2D DXF to Define Shaped Tools \n Option \n\t to Allow Saw Tool for Stop Dado"
+        },
+        {
+            "type": "text",
+            "data": "Import \n\t 2D DXF to Define Shaped Tools"
+        },
+        {
+            "type": "text",
+            "data": "Import \n\t 2D DXF to Define Shaped Tools"
+        },
+        {
+            "type": "text",
+            "data": "Option \n\t to Allow Saw Tool for Stop Dado"
+        },
+        {
+            "type": "text",
+            "data": "Option \n\t to Allow Saw Tool for Stop Dado"
+        },
+        {
+            "type": "text",
+            "data": "Legend"
+        },
+        {
+            "type": "text",
+            "data": "- Real-time Label Image Add-On"
+        },
+        {
+            "type": "image",
+            "data": "S2M_IMG.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "- Label-IT Add-On"
+        },
+        {
+            "type": "image",
+            "data": "S2M_LIT.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "- Available in S2M Ultimate"
+        },
+        {
+            "type": "image",
+            "data": "S2MUltimate.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "- Machining Simulator Add-On"
+        },
+        {
+            "type": "image",
+            "data": "SIM.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "NCEnglish\\Introduction\\Whats_New_Previous_Versions\\Whats_New_in_Version_10.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

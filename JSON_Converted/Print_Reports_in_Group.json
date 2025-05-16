@@ -1,0 +1,34 @@
+{
+    "id": "953997c4-76c0-463e-8773-d6472a9ae4ac",
+    "title": "Print_Reports_in_Group",
+    "content": [
+        {
+            "type": "text",
+            "data": "Print Reports In Group"
+        },
+        {
+            "type": "image",
+            "data": "image996.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Prints all the Reports listed in the Selected Report Group."
+        },
+        {
+            "type": "text",
+            "data": "See the  Report Group topic  for more information."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Report Group topic",
+                "uuid": "21c91e77-cbab-42c2-9a4a-f379ed25cc1e",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish\\Room_Level\\Side_Bar\\Bid_Center\\Side_Bar\\Advanced_Reports\\Print_Reports_in_Group.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

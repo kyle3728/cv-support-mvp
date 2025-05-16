@@ -1,0 +1,251 @@
+{
+    "id": "bd44ce60-3187-4582-b62a-6df5a06d6774",
+    "title": "AL_Section_Group",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top \n > \n \n \n Assembly Level \n > \n \n Ribbonbar \n > \n \n Main Tab \n > \n \n Section Group"
+        },
+        {
+            "type": "text",
+            "data": "Top \n >"
+        },
+        {
+            "type": "text",
+            "data": "Assembly Level \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Assembly Level",
+                "uuid": "b0552ea2-b430-4836-aa5e-42dfd04f9eda",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Ribbonbar \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Ribbonbar",
+                "uuid": "a095688d-3b5c-4aba-8f35-bdc4541dcc7f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Main Tab \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Main Tab",
+                "uuid": "a095688d-3b5c-4aba-8f35-bdc4541dcc7f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Section Group"
+        },
+        {
+            "type": "text",
+            "data": "Section Group"
+        },
+        {
+            "type": "text",
+            "data": "Section Group"
+        },
+        {
+            "type": "image",
+            "data": "RLRB_Section_Main_Section_Group.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Section Group has seven options:"
+        },
+        {
+            "type": "text",
+            "data": "Section Face"
+        },
+        {
+            "type": "image",
+            "data": "image2038.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option changes the View to allow sectioning the Face of your Assembly. See the  Editing Assembly Faces topic  for more information."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Editing Assembly Faces topic",
+                "uuid": "13fb2d74-ec34-4d73-9389-a2b5b226a0e7",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Section Interior"
+        },
+        {
+            "type": "image",
+            "data": "image2039.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option changes the View to allow sectioning the Interior of your Assembly. See the  Editing Assembly Interiors topic  for more information."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Editing Assembly Interiors topic",
+                "uuid": "6f790c9b-0bd3-4ce6-918a-50f67cc1d4f9",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Horizontal Split"
+        },
+        {
+            "type": "image",
+            "data": "image2040.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option will split the selected Face or Opening Horizontally."
+        },
+        {
+            "type": "text",
+            "data": "Vertical Split"
+        },
+        {
+            "type": "image",
+            "data": "image2041.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option will split the selected Face or Opening Vertically."
+        },
+        {
+            "type": "text",
+            "data": "Horizontal Multi Split"
+        },
+        {
+            "type": "image",
+            "data": "image2042.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option brings up a screen to allow you to split the selected Face or Opening into multiple horizontal divisions of a selected type."
+        },
+        {
+            "type": "text",
+            "data": "Multiple Face"
+        },
+        {
+            "type": "image",
+            "data": "image920.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Multiple Case"
+        },
+        {
+            "type": "image",
+            "data": "image921.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "See the  Set As System Defaults  topic for more information on it."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Set As System Defaults",
+                "uuid": "e5b1c38f-2747-41a5-a7b8-9aefa6986ede",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Vertical Multi Split"
+        },
+        {
+            "type": "image",
+            "data": "image2043.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option brings up a screen to allow you to split the selected Face or Opening into multiple vertical divisions of a selected type."
+        },
+        {
+            "type": "text",
+            "data": "Multiple Face"
+        },
+        {
+            "type": "image",
+            "data": "image922.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Multiple Case"
+        },
+        {
+            "type": "image",
+            "data": "image923.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "See the  Set As System Defaults  topic for more information on it."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Set As System Defaults",
+                "uuid": "e5b1c38f-2747-41a5-a7b8-9aefa6986ede",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Delete"
+        },
+        {
+            "type": "image",
+            "data": "image2044.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option will delete the selected division or Part.  If no division or Part is selected it will give you the option to Delete all Face and Case Parts instead."
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Assembly_Level\\Ribbonbar\\Main_Tab\\AL_Section_Group.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

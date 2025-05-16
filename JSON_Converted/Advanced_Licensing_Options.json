@@ -1,0 +1,17 @@
+{
+    "id": "4dec2582-dc08-4433-b339-983e42644cc4",
+    "title": "Advanced_Licensing_Options",
+    "content": [
+        {
+            "type": "text",
+            "data": "Advanced Licensing Options"
+        },
+        {
+            "type": "text",
+            "data": "There are some more advanced Licensing options utilizing the License \n Manager. Documentation on those procedures are available in the License \n Manager Help system."
+        }
+    ],
+    "source_file": "CVEnglish\\System_Level\\Ribbonbar\\Utilities_Tab\\License_Manager\\Network_Licenses\\Advanced_Licensing_Options.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

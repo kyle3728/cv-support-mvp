@@ -1,0 +1,141 @@
+{
+    "id": "0c3196c1-4aeb-44d5-8e40-211aa1fd56b1",
+    "title": "Biesse_Door_Machine",
+    "content": [
+        {
+            "type": "text",
+            "data": "Biesse Door Machine"
+        },
+        {
+            "type": "text",
+            "data": "Output for Biesse Door Machine. Output is one program per job. Doors require additional parameters for proper output: _BD_BIESSEDOOR, _BD_HINGETYPE, _BD_PROFILES, _BD_TOPHCUP, _BD_BOTHCUP, _BD_PULLPOSX, _BD_PULLPOSY, _BD_PULLDESC, _BD_DOORNOTES"
+        },
+        {
+            "type": "text",
+            "data": "Sample Output"
+        },
+        {
+            "type": "text",
+            "data": "[DISTINTA : CAMPI]"
+        },
+        {
+            "type": "text",
+            "data": "campoD0=LABL,A,4,4,NULL,0,0"
+        },
+        {
+            "type": "text",
+            "data": "campoD1=PROG,A,256,11,NULL,0,2"
+        },
+        {
+            "type": "text",
+            "data": "campoD2=QNTA,U,4,4,NULL,0,0"
+        },
+        {
+            "type": "text",
+            "data": "campoD3=CONT,U,4,4,NULL,0,0"
+        },
+        {
+            "type": "text",
+            "data": "campoD4=COMM,A,256,20,NULL,0,0"
+        },
+        {
+            "type": "text",
+            "data": "[DISTINTA : RIGHE]"
+        },
+        {
+            "type": "text",
+            "data": ",ASSEMBLEDDOOR.BPP,1,0,LPX=1200.00 LPY=400.00 PROFILE=EDGE1 TOPHCUP=60 BOTHCUP=65 HINGETYPE=HETTICH HANDLET=3 HANDLEPOSX=102.46 HANDLEPOSY=102.46 SPECIES=CHERRY ARCH=2,"
+        },
+        {
+            "type": "text",
+            "data": ",00000000PANEL.BPP,1,0,LPX=1200.00 LPY=400.00 PROFILE=EDGE1 SPECIES=MAPLE,"
+        },
+        {
+            "type": "text",
+            "data": ",00ARCHTOPRAIL.BPP,1,0,LPX=1200.00 LPY=400.00 PROFILE=EDGE1 SPECIES=MAPLE TYPEARCH=2,"
+        },
+        {
+            "type": "text",
+            "data": ",,,,,"
+        },
+        {
+            "type": "text",
+            "data": ",,,,,"
+        },
+        {
+            "type": "text",
+            "data": "___________________________________________________________________________________________________________"
+        },
+        {
+            "type": "text",
+            "data": "This part of the topic is a description of the above:"
+        },
+        {
+            "type": "text",
+            "data": "Line beginning with AssembledDoor.bpp,1,0 (is the Name of the assembled Door but has to have the .bpp,1,0)"
+        },
+        {
+            "type": "text",
+            "data": "Followed by the finished size of the door and the profile name for the outside edge, followed by the centerline of each hingecup assembly and hinge name, then handle/knob type/name and X Y location of center line of handle, then material name. All of descriptions below per the sample above are separated by spaces."
+        },
+        {
+            "type": "text",
+            "data": "Assembled door operation"
+        },
+        {
+            "type": "text",
+            "data": "Size & profile outside edges (same tool) \n Sand profile \n Drill for hinges (custom locations for base doors) \n Drill for door pulls \n Drill for bumper pads (not necessary)"
+        },
+        {
+            "type": "text",
+            "data": "Size & profile outside edges (same tool)"
+        },
+        {
+            "type": "text",
+            "data": "Sand profile"
+        },
+        {
+            "type": "text",
+            "data": "Drill for hinges (custom locations for base doors)"
+        },
+        {
+            "type": "text",
+            "data": "Drill for door pulls"
+        },
+        {
+            "type": "text",
+            "data": "Drill for bumper pads (not necessary)"
+        },
+        {
+            "type": "text",
+            "data": "The next line contains the Panel Details."
+        },
+        {
+            "type": "text",
+            "data": "Door panel operation (before assembly)"
+        },
+        {
+            "type": "text",
+            "data": "Size panel edges \n Profile outside edges (multiple passes depending on wood species) \n Sand profile (multiple passes depending on wood species)"
+        },
+        {
+            "type": "text",
+            "data": "Size panel edges"
+        },
+        {
+            "type": "text",
+            "data": "Profile outside edges (multiple passes depending on wood species)"
+        },
+        {
+            "type": "text",
+            "data": "Sand profile (multiple passes depending on wood species)"
+        },
+        {
+            "type": "text",
+            "data": "The last line contains the Top Rail Shape which is not currently supported by the S2M Center."
+        }
+    ],
+    "source_file": "NCEnglish\\Ribbonbar\\Main_Tab\\Machine\\NC_Links\\Other\\Biesse_Door_Machine.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head><link rel="stylesheet" type="text/css" href="../../../../../../../../_rhdefault.css"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=WINDOWS-1252"/>
+  <meta name="generator" content="Adobe RoboHelp 2020"/>
+  <title>Board Stock</title>
+  <link rel="StyleSheet" href="../../../../../../../../assets/css/default.css" type="text/css"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/><script type="text/javascript" src="../../../../../../../../ehlpdhtm.js"></script></head>
+<body>
+  <h1>Board Stock</h1>
+  <p>This topic covers all the Properties for the Board Stock Material Type.</p>
+  <p><img src="../../../../../../../../assets/images/image319.png"/></p>
+  <h2>Material Group</h2>
+  <p>Previously covered in the <a href="SLMM_Banding.htm#Material_Group">Banding Material Type</a> topic.</p>
+  <h2>Board Group</h2>
+  <p><img src="../../../../../../../../assets/images/image320.png"/></p>
+  <ul style="list-style: circle;">
+    <li>
+      <p class="Indent_1_Bulllet"><span class="hcp3" style="font-weight: bold;">Thickness -</span> Establishes the Boards finished Thickness. The Thickness is the most important property of a Material because the construction of your Cabinets will depend on the Material Thickness in order to give you a correct cut list.</p>
+    </li>
+    <li>
+      <p class="Indent_1_Bulllet"><span class="hcp3" style="font-weight: bold;">Rough Thickness -</span> Establishes the Boards Rough Thickness for proper Board Foot/Meter calculations. This field only comes into play if BD FT or BD M is selected for the Unit of Issue.</p>
+    </li>
+  </ul>
+  <p style="margin-left: 80px;"><img alt="" border="0" src="../../../../../../../../assets/images/zGraphics/Extras/Information.png" style="border: none;"/> Other than selecting a different <span class="hcp3">Unit</span> (<a name="BoardFoot" id="BoardFoot"></a>BD FT or BD M in place of a Sheet Size) the logic is the same in completing these two areas. You may choose to enter Board Stock as dimensional lumber and define the Thickness in the Thickness box. An example, 4/4 Oak for the Name and 3/4 for it&#39;s Thickness. This would appear on your Cut List as:</p>
+  <p style="margin-left: 80px;"><img alt="" border="0" src="../../../../../../../../assets/images/image2203.gif" style="border: none;"/></p>
+  <p style="margin-left: 80px;">The 4/4 references the Board Stock&#39;s name. This is a matter of taste as the 4/4 reference has no effect on the Material Thickness. <a name="RoughThickness" id="RoughThickness"></a>To control the purchased (Rough) thickness to get accurate Board Stock Material Requirements enter the thickness in the Rough Thickness field. Additionally, you may need thicker stock for manufacturing other items. Keep in mind that the Name you provide for your Material is the name that will appear on the Cut List, and in the <a href="../../../../Material_Schedule_Manager/SL_Material_Schedules.htm">Material Schedule</a> area when accessing the Material from the Material Manager.</p>
+  <h2><a name="CNC_Group" id="CNC_Group"></a>CNC Group - <img alt="" border="0" src="../../../../../../../../assets/images/zGraphics/1Products/S2M.jpg" style="border: none;"/></h2>
+  <p><img src="../../../../../../../../assets/images/image321.png"/></p>
+  <p>The CNC Properties section allows you to set up the CNC properties for the current Material. For example, the <span style="font-weight: bold;">&quot;</span><span class="hcp3" style="font-weight: bold;">Minimize Face Chipping</span><span style="font-weight: bold;">&quot;</span> and <span style="font-weight: bold;">&quot;</span><span class="hcp3" style="font-weight: bold;">Minimize Back Chipping</span><span style="font-weight: bold;">&quot;</span> check boxes will be used by the S2M Center&#39;s Automatic Tool Selection Logic.</p>
+  <ul class="hcp2" style="list-style: circle;">
+    <li>
+      <p class="Indent_1_Bulllet"><span class="hcp3" style="font-weight: bold;">Optimize -</span> If the Material that you are setting up is sheet stock, you should set up the Optimization rules so that Cabinetmaker and/or the S2M Center will know how to treat the Material in the Optimizer/Nester. This option lets you select whether or not to send this Material to the Optimizer/Nester when it is used in a Job. Although this Property is available for Board Stock it would be unusual to send Board Stock Parts to the Optimizer/Nester.</p>
+    </li>
+    <li>
+      <p class="Indent_1_Bulllet"><span class="hcp3" style="font-weight: bold;">Grain -</span> This option will let you determine whether Parts may be rotated across the Sheet/Board in the Optimizer/Nester. It is a good idea to set up these rules for any new sheet stock Material even if you do not currently have the Optimizer option for Cabinetmaker/S2M Center. If you upgrade to Optimization/Nesting in the future, it will already be set up.</p>
+    </li>
+    <li>
+      <p class="Indent_1_Bulllet"><span class="hcp3" style="font-weight: bold;">Face Dependent -</span> If this option is enabled the <span class="hcp9">Material is considered Face Dependent (single sided).</span></p>
+    </li>
+    <li>
+      <p class="Indent_1_Bulllet"><span class="hcp3" style="font-weight: bold;">Drop Width -</span> A value representing the Minimum Width to be considered an Offcut rather than scrap.</p>
+    </li>
+    <li>
+      <p class="Indent_1_Bulllet"><span class="hcp3" style="font-weight: bold;">Drop Length -</span> A value representing the Minimum Length to be considered an Offcut rather than scrap.</p>
+    </li>
+    <li>
+      <p class="Indent_1_Bulllet"><span class="hcp3" style="font-weight: bold;">Feed Rate Percent -</span> A value representing the Percent of optimum Tool Feed Rate to use with this Material.</p>
+    </li>
+    <li>
+      <p class="Indent_1_Bulllet"><span class="hcp3" style="font-weight: bold;">Spindle Speed Percent -</span> A value representing the percentage of optimum Tool Spindle Speed (RPM’s).</p>
+    </li>
+    <li>
+      <p class="Indent_1_Bulllet"><span class="hcp3" style="font-weight: bold;">Minimize Face Chip -</span> If this option is enabled, the S2M Center automatic tool selection logic will try to select a down-shear bit. If both this option and &quot;Minimize Back Chip&quot; are enabled then the S2M Center automatic tool selection logic will try to select a compression bit.</p>
+    </li>
+    <li>
+      <p class="Indent_1_Bulllet"><span class="hcp3" style="font-weight: bold;">Minimize Back Chip -</span> If this option is enabled, the S2M Center will try to select an up-shear bit for that Material. If both this option and &quot;Minimize Face Chip&quot; are enabled then the S2M Center automatic tool selection logic will try to select a compression bit.</p>
+    </li>
+    <li>
+      <p class="Indent_1_Bulllet"><span class="hcp3" style="font-weight: bold;">Climb Cut -</span> Establishes if <span class="hcp9">this Material should be cut with Climb Cut.</span></p>
+    </li>
+    <li>
+      <p class="Indent_1_Bulllet"><span class="hcp3" style="font-weight: bold;">Maximum Depth Per Pass -</span> Establishes the depth per pass a tool can make when cutting this Material. The smaller of the two amounts (material versus tool) will be used for the path.</p>
+    </li>
+  </ul>
+  <h2>Layer Group</h2>
+  <p>Previously covered in the <a href="SLMM_Banding.htm#Layer_Group">Banding Material Type</a> topic.</p>
+
+</body></html>

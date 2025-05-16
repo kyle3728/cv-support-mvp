@@ -1,0 +1,1352 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><link rel="stylesheet" type="text/css" href="../../_rhdefault.css"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=WINDOWS-1252"/>
+  <meta name="generator" content="Adobe RoboHelp 2022"/>
+  <title>ManageIT.accdb</title>
+  <link rel="StyleSheet" href="../../assets/css/Database_Specifications.css" type="text/css"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/><script type="text/javascript" src="../../ehlpdhtm.js"></script></head>
+<body>
+  <h1>The ManageIT.accdb File</h1>
+  <p>The <span style="font-weight: bold;">ManageIT<b style="font-weight: bold;">.accdb</b></span> file stores all the data for the xCRM mutliplier. The following is the breakdown of the tables and their fields:</p>
+  <h2>AccountLogs</h2>
+  <p>This Table stores the Account Logs.</p>
+  <table cellspacing="0" class="NormalTable" style="margin-left: 4.9pt; border-collapse: collapse;" width="97.56%">
+    <colgroup>
+      <col width="138"/>
+      <col width="769"/>
+    </colgroup>
+    <tbody>
+      <tr style="height: 12.8pt;">
+        <td bgcolor="#B3B3B3" nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="138">
+          <p class="Table_Header">Field</p>
+        </td>
+        <td bgcolor="#B3B3B3" nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-left: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="769">
+          <p class="Table_Header">Description</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="138">
+          <p class="Table_Body">AccountLogID</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="769">
+          <p class="Table_Body">A unique number used to reference the Account Log.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td style="border-left: solid 1.0pt #000000; border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="138">
+          <p class="Table_Body">AccountID</p>
+        </td>
+        <td style="border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="769">
+          <p class="Table_Body">A cross-reference to the [Accounts].[AccountID] field.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td style="border-left: solid 1.0pt #000000; border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="138">
+          <p class="Table_Body">UserName</p>
+        </td>
+        <td style="border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="769">
+          <p class="Table_Body">The User that created the entry.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td style="border-left: solid 1.0pt #000000; border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="138">
+          <p class="Table_Body">UserAccountID</p>
+        </td>
+        <td style="border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="769">
+          <p class="Table_Body">A cross-reference to the [Accounts].[AccountID] field.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td style="border-left: solid 1.0pt #000000; border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="138">
+          <p class="Table_Body">Date</p>
+        </td>
+        <td style="border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="769">
+          <p class="Table_Body">Date for the Account Log.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td style="border-left: solid 1.0pt #000000; border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="138">
+          <p class="Table_Body">Note</p>
+        </td>
+        <td style="border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="769">
+          <p class="Table_Body">Note for the Account Log.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <h2>Accounts</h2>
+  <p>This Table stores general information about the Accounts.</p>
+  <table cellspacing="0" class="NormalTable" style="margin-left: 4.9pt; border-collapse: collapse;" width="97.56%">
+    <colgroup>
+      <col width="139"/>
+      <col width="768"/>
+    </colgroup>
+    <tbody>
+      <tr style="height: 12.8pt;">
+        <td bgcolor="#B3B3B3" nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Header">Field</p>
+        </td>
+        <td bgcolor="#B3B3B3" nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-left: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Header">Description</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">AccountID</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">A unique number used to reference the Account.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">AccountCAT</p>
+          <p class="Table_Body"> </p>
+          <p class="Table_Body"> </p>
+          <p class="Table_Body"> </p>
+          <p class="Table_Body"> </p>
+          <p class="Table_Body"> </p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">The Account Category:</p>
+          <p class="Table_Body">1 = Customer</p>
+          <p class="Table_Body">2 = Vendor</p>
+          <p class="Table_Body">3 = Contractor</p>
+          <p class="Table_Body">4 = User</p>
+          <p class="Table_Body">5 = Project</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">TypeID</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">A cross-reference to the [Type].[TypeID] field.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">StatusID</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">A cross-reference to the [Status].[StatusID] field.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">PrimaryContactID</p>
+        </td>
+        <td style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">A cross-reference to the [Contact].[ContactID] field.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">RefUserAccountID</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">A cross-reference to the [Accounts].[AccountID] field.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td style="border-left: solid 1.0pt #000000; border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">Name</p>
+        </td>
+        <td style="border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">Name of the Account.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td style="border-left: solid 1.0pt #000000; border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">Number</p>
+        </td>
+        <td style="border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">Number for the Account.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <h2>AltPhones</h2>
+  <p>This Table stores general information about Alternate Phones.</p>
+  <table cellspacing="0" class="NormalTable" style="margin-left: 4.9pt; border-collapse: collapse;" width="97.56%">
+    <colgroup>
+      <col width="139"/>
+      <col width="768"/>
+    </colgroup>
+    <tbody>
+      <tr style="height: 12.8pt;">
+        <td bgcolor="#B3B3B3" nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Header">Field</p>
+        </td>
+        <td bgcolor="#B3B3B3" nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-left: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Header">Description</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">AltPhoneID</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">A unique number used to reference the Alternate Phones.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">ContactID</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">A cross-reference to the [Contact].[ContactID] field.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">Label</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">The Name for the Alternate Phone.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">Phone</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">The Alternate Phone Number.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <h2>Contacts</h2>
+  <p>This Table stores general information about the Contacts.</p>
+  <table cellspacing="0" class="NormalTable" style="margin-left: 4.9pt; border-collapse: collapse;" width="97.56%">
+    <colgroup>
+      <col width="139"/>
+      <col width="768"/>
+    </colgroup>
+    <tbody>
+      <tr style="height: 12.8pt;">
+        <td bgcolor="#B3B3B3" nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Header">Field</p>
+        </td>
+        <td bgcolor="#B3B3B3" nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-left: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Header">Description</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">ContactID</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">A unique number used to reference the Contact.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">AccountID</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">A cross-reference to the [Accounts].[AccountID] field.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">TypeID</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">A cross-reference to the [Type].[TypeID] field.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">StatusID</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">A cross-reference to the [Status].[StatusID] field.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">Label</p>
+        </td>
+        <td style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">Name for the Contact Record.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">ContactName</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">The Contact&#39;s Name.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td style="border-left: solid 1.0pt #000000; border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">Description</p>
+        </td>
+        <td style="border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">The Contact&#39;s Description.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td style="border-left: solid 1.0pt #000000; border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">AddrSameAsCust</p>
+        </td>
+        <td style="border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">The Contact&#39;s Address is the same as the Account&#39;s Address.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td style="border-left: solid 1.0pt #000000; border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">Address1</p>
+        </td>
+        <td style="border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">The Contact&#39;s Address 1.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td style="border-left: solid 1.0pt #000000; border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">Address2</p>
+        </td>
+        <td style="border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">The Contact&#39;s Address 2.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td style="border-left: solid 1.0pt #000000; border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">City</p>
+        </td>
+        <td style="border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">The Contact&#39;s City.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td style="border-left: solid 1.0pt #000000; border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">State</p>
+        </td>
+        <td style="border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">The Contact&#39;s State.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td style="border-left: solid 1.0pt #000000; border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">Zip</p>
+        </td>
+        <td style="border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">The Contact&#39;s Zip.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td style="border-left: solid 1.0pt #000000; border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">Phone</p>
+        </td>
+        <td style="border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">The Contact&#39;s Phone number.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td style="border-left: solid 1.0pt #000000; border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">Ext</p>
+        </td>
+        <td style="border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">The Contact&#39;s phone Extension.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td style="border-left: solid 1.0pt #000000; border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">Email</p>
+        </td>
+        <td style="border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">The Contact&#39;s Email address.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td style="border-left: solid 1.0pt #000000; border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">Note</p>
+        </td>
+        <td style="border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">Notes about this Contact.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <h2>DBInfo</h2>
+  <p><span class="hcp3">This Table stores general information about this Database.</span></p>
+  <table cellspacing="0" class="NormalTable" style="margin-left: 4.9pt; border-collapse: collapse;" width="97.56%">
+    <colgroup>
+      <col width="139"/>
+      <col width="768"/>
+    </colgroup>
+    <tbody>
+      <tr style="height: 12.8pt;">
+        <td bgcolor="#B3B3B3" nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Header">Field</p>
+        </td>
+        <td bgcolor="#B3B3B3" nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-left: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Header">Description</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">Version</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">A number indicating the version of this Database. The Database Version changes each time fields are added/removed from the Database.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <h2>DefaultProperties</h2>
+  <p>This Table stores the Default Properties for records stored in this Database.</p>
+  <table cellspacing="0" class="NormalTable" style="margin-left: 4.9pt; border-collapse: collapse;" width="97.56%">
+    <colgroup>
+      <col width="139"/>
+      <col width="768"/>
+    </colgroup>
+    <tbody>
+      <tr style="height: 12.8pt;">
+        <td bgcolor="#B3B3B3" nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Header">Field</p>
+        </td>
+        <td bgcolor="#B3B3B3" nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-left: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Header">Description</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">DefaultPropertyID</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">A unique number used to reference the Default Properties.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">AccountCat</p>
+          <p class="Table_Body"> </p>
+          <p class="Table_Body"> </p>
+          <p class="Table_Body"> </p>
+          <p class="Table_Body"> </p>
+          <p class="Table_Body"> </p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">The Account Category:</p>
+          <p class="Table_Body">1 = Customer</p>
+          <p class="Table_Body">2 = Vendor</p>
+          <p class="Table_Body">3 = Contractor</p>
+          <p class="Table_Body">4 = User</p>
+          <p class="Table_Body">5 = Project</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">PropertyCat</p>
+          <p class="Table_Body"> </p>
+          <p class="Table_Body"> </p>
+          <p class="Table_Body"> </p>
+          <p class="Table_Body"> </p>
+          <p class="Table_Body"> </p>
+          <p class="Table_Body"> </p>
+          <p class="Table_Body"> </p>
+          <p class="Table_Body"> </p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">The Property Category:</p>
+          <p class="Table_Body">0 = Text</p>
+          <p class="Table_Body">1 = Currency</p>
+          <p class="Table_Body">2 = Integer</p>
+          <p class="Table_Body">3 = Single</p>
+          <p class="Table_Body">4 = Measure</p>
+          <p class="Table_Body">5 = Yes/No</p>
+          <p class="Table_Body">6 = List</p>
+          <p class="Table_Body">8 = Filename</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">SystemName</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">12 character code for system properties.  Default is PRP_USER</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">Name</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">Name of the Property.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">TextValue</p>
+        </td>
+        <td style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">Text Value for the Property.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">NumValue</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">Numeric Value for the Property.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">Lock</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">Boolean representing if the Property is Locked.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <h2>DefaultTasks</h2>
+  <p>This Table stores general information about Default Tasks.</p>
+  <table cellspacing="0" class="NormalTable" style="margin-left: 4.9pt; border-collapse: collapse;" width="97.56%">
+    <colgroup>
+      <col width="139"/>
+      <col width="768"/>
+    </colgroup>
+    <tbody>
+      <tr style="height: 12.8pt;">
+        <td bgcolor="#B3B3B3" nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Header">Field</p>
+        </td>
+        <td bgcolor="#B3B3B3" nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-left: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Header">Description</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">DefaultTaskID</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">A unique number used to reference the Default Task.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">AccountCat</p>
+          <p class="Table_Body"> </p>
+          <p class="Table_Body"> </p>
+          <p class="Table_Body"> </p>
+          <p class="Table_Body"> </p>
+          <p class="Table_Body"> </p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">The Account Category:</p>
+          <p class="Table_Body">1 = Customer<br/>
+            2 = Vendor<br/>
+            3 = Contractor<br/>
+            4 = User</p>
+          <p class="Table_Body">5 = Project</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">AssignedAccountID</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">A cross-reference to the [Accounts].[AccountID] field.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">AssignedContactID</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">A cross-reference to the [Contacts].[ContactID] field.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">TypeID</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">A cross-reference to the [Type].[TypeID] field.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">StatusID</p>
+        </td>
+        <td style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">A cross-reference to the [Status].[StatusID] field.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">SystemName</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">12 character code for system tasks.  Default is TSK_USER</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">Name</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">Name of the Task.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">Description</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">Description for the Task.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">Hours</p>
+        </td>
+        <td style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">Hours for the Task.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">Billable</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">Boolean representing if the hours are Billable.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <h2>Jobs</h2>
+  <p>This Table stores general information about the Jobs.</p>
+  <table cellspacing="0" class="NormalTable" style="margin-left: 4.9pt; border-collapse: collapse;" width="97.56%">
+    <colgroup>
+      <col width="139"/>
+      <col width="768"/>
+    </colgroup>
+    <tbody>
+      <tr style="height: 12.8pt;">
+        <td bgcolor="#B3B3B3" nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Header">Field</p>
+        </td>
+        <td bgcolor="#B3B3B3" nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-left: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Header">Description</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">JobID</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">A unique number used to reference the Job.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">AccountID</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">A cross-reference to the [Accounts].[AccountID] field.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">CheckOutStatus</p>
+          <p class="Table_Body"> </p>
+          <p class="Table_Body"> </p>
+          <p class="Table_Body"> </p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">The Check Out Status for the Job:<br/>
+            1 = New<br/>
+            2 = Checked-out<br/>
+            3 = Checked-in</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">CheckOutUserAccountID</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">AccountID of job creator or whoever last checked it out.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">JobFileName</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">Local Filename for job</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">JobDateCreated</p>
+        </td>
+        <td style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">Date the Job was Created.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">JobDateLastModified</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">Date the Job was Last Modified.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">JobComment</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">Comment for the Job.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">JobNumber</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">From Job Properties.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">JobName</p>
+        </td>
+        <td style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">From Job Properties.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">JobPrice</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">From Bid Center.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <h2>Job Versions</h2>
+  <p>This Table stores general information about the Job Versions.</p>
+  <table cellspacing="0" class="NormalTable" style="margin-left: 4.9pt; border-collapse: collapse;" width="97.56%">
+    <colgroup>
+      <col width="139"/>
+      <col width="768"/>
+    </colgroup>
+    <tbody>
+      <tr style="height: 12.8pt;">
+        <td bgcolor="#B3B3B3" nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Header">Field</p>
+        </td>
+        <td bgcolor="#B3B3B3" nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-left: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Header">Description</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">JobVersionID</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">A unique number used to reference the Version of the Job.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">JobID</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">A cross-reference to the [Jobs].[JobID] field.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">VersionReposName</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">Repository Name for Zipfile ex. TestJob_030501110000</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">VersionDateCreated</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">Date the Version was Created.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">VersionDateLastCheckOut</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">Date the Version was Last Checked Out.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">VersionComment</p>
+        </td>
+        <td style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">Comment for the Version.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">VersionPrice</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">Job Price for this Version</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <h2>ProjectInfo</h2>
+  <p>This Table stores general information about the Project Information.</p>
+  <table cellspacing="0" class="NormalTable" style="margin-left: 4.9pt; border-collapse: collapse;" width="97.56%">
+    <colgroup>
+      <col width="139"/>
+      <col width="768"/>
+    </colgroup>
+    <tbody>
+      <tr style="height: 12.8pt;">
+        <td bgcolor="#B3B3B3" nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Header">Field</p>
+        </td>
+        <td bgcolor="#B3B3B3" nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-left: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Header">Description</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">AccountID</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">A cross-reference to the [Accounts].[AccountID] field.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">CustomerAccountID</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">A cross-reference to the Customers [Accounts].[AccountID] field.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">StartDate</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">Start Date for the Project.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">DueDate</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">Due Date for the Project.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">Completed</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">Boolean representing if the Project has been Completed.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <h2>Properties</h2>
+  <p>This Table stores general Property information.</p>
+  <table cellspacing="0" class="NormalTable" style="margin-left: 4.9pt; border-collapse: collapse;" width="97.56%">
+    <colgroup>
+      <col width="139"/>
+      <col width="768"/>
+    </colgroup>
+    <tbody>
+      <tr style="height: 12.8pt;">
+        <td bgcolor="#B3B3B3" nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Header">Field</p>
+        </td>
+        <td bgcolor="#B3B3B3" nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-left: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Header">Description</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">PropertyID</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">A unique number used to reference the Property.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">AccountID</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">A cross-reference to the [Accounts].[AccountID] field.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">DefaultPropertyID</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">The default Property displayed.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">PropertyCat</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">The Property Category.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">SystemName</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">System Name for the Property.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">Name</p>
+        </td>
+        <td style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">Name of the Property.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">TextValue</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">Text Value for the Property.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">NumValue</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">Numeric Value for the Property.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">Lock</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">Boolean representing if the Property is Locked.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <h2>Reports</h2>
+  <p>This Table stores general information about the Reports.</p>
+  <table cellspacing="0" class="NormalTable" style="margin-left: 4.9pt; border-collapse: collapse;" width="97.56%">
+    <colgroup>
+      <col width="139"/>
+      <col width="768"/>
+    </colgroup>
+    <tbody>
+      <tr style="height: 12.8pt;">
+        <td bgcolor="#B3B3B3" nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Header">Field</p>
+        </td>
+        <td bgcolor="#B3B3B3" nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-left: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Header">Description</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">ReportID</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">A unique number used to reference the Report.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">ReportName</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">The Name of the Report.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">ReportFile</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">The filename for the Report.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">AccountCat</p>
+          <p class="Table_Body"> </p>
+          <p class="Table_Body"> </p>
+          <p class="Table_Body"> </p>
+          <p class="Table_Body"> </p>
+          <p class="Table_Body"> </p>
+          <p class="Table_Body"> </p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">The Account Category the Report is available for.<br/>
+            1 = Customer<br/>
+            2 = Vendor<br/>
+            3 = Contractor<br/>
+            4 = User<br/>
+            5 = Project<br/>
+            6 = Task</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <h2>Resources</h2>
+  <p>This Table stores general information about Resources.</p>
+  <table cellspacing="0" class="NormalTable" style="margin-left: 4.9pt; border-collapse: collapse;" width="97.56%">
+    <colgroup>
+      <col width="139"/>
+      <col width="768"/>
+    </colgroup>
+    <tbody>
+      <tr style="height: 12.8pt;">
+        <td bgcolor="#B3B3B3" nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Header">Field</p>
+        </td>
+        <td bgcolor="#B3B3B3" nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-left: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Header">Description</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">ResourceID</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">A unique number used to reference the Resource.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">AccountID</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">A cross-reference to the [Accounts].[AccountID] field.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">ResourceAccountID</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">AccountID of attached resource (Customer,Vendor,Contractor)</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <h2>Status</h2>
+  <p>This Table stores general information about the Status.</p>
+  <table cellspacing="0" class="NormalTable" style="margin-left: 4.9pt; border-collapse: collapse;" width="97.56%">
+    <colgroup>
+      <col width="139"/>
+      <col width="768"/>
+    </colgroup>
+    <tbody>
+      <tr style="height: 12.8pt;">
+        <td bgcolor="#B3B3B3" nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Header">Field</p>
+        </td>
+        <td bgcolor="#B3B3B3" nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-left: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Header">Description</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">StatusID</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">A unique number used to reference the Status.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">StatusCat</p>
+          <p class="Table_Body"> </p>
+          <p class="Table_Body"> </p>
+          <p class="Table_Body"> </p>
+          <p class="Table_Body"> </p>
+          <p class="Table_Body"> </p>
+          <p class="Table_Body"> </p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">The Category where the Status is located.<br/>
+            1 = Customer<br/>
+            2 = Vendor<br/>
+            3 = Contractor<br/>
+            4 = User<br/>
+            5 = Project<br/>
+            6 = Task</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">Name</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">Name of the Status.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">Description</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">Descriptio for the Status.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">Value</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">Value for the Status.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <h2>Tasks</h2>
+  <p>This Table stores general information about Tasks.</p>
+  <table cellspacing="0" class="NormalTable" style="margin-left: 4.9pt; border-collapse: collapse;" width="97.56%">
+    <colgroup>
+      <col width="139"/>
+      <col width="768"/>
+    </colgroup>
+    <tbody>
+      <tr style="height: 12.8pt;">
+        <td bgcolor="#B3B3B3" nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Header">Field</p>
+        </td>
+        <td bgcolor="#B3B3B3" nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-left: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Header">Description</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">TaskID</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">A unique number used to reference the Task.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">AccountID</p>
+          <p class="Table_Body"> </p>
+          <p class="Table_Body"> </p>
+          <p class="Table_Body"> </p>
+          <p class="Table_Body"> </p>
+          <p class="Table_Body"> </p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">Currently only projects.<br/>
+            1 = Customer<br/>
+            2 = Vendor<br/>
+            3 = Contractor</p>
+          <p class="Table_Body">4 = User</p>
+          <p class="Table_Body">5 = Project</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">AssignedAccountID</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">A cross-reference to the [Accounts].[AccountID] field.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">AssignedContactID</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">A cross-reference to the [Contacts].[ContactID] field.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">TypeID</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">A cross-reference to the [Type].[TypeID] field.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">StatusID</p>
+        </td>
+        <td style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">A cross-reference to the [Status].[StatusID] field.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">LinkID</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">Secondary Link to a related account.  Use determined by SystemName.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">SystemName</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">12 character code for system tasks.  Default is TSK_USER</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">Name</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">Name of the Task.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">Description</p>
+        </td>
+        <td style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">Description of the Task.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">Hours</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">Hours for the Task.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td style="border-left: solid 1.0pt #000000; border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">Billable</p>
+        </td>
+        <td style="border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">Are Hours Billable?</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td style="border-left: solid 1.0pt #000000; border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">StartDate</p>
+        </td>
+        <td style="border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">Start Date for the Task.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td style="border-left: solid 1.0pt #000000; border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">DueDate</p>
+        </td>
+        <td style="border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">Due Date for the Task.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td style="border-left: solid 1.0pt #000000; border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">Completed</p>
+        </td>
+        <td style="border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">Boolean representing if the Task has been Completed.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <h2>Type</h2>
+  <p>This Table stores general information about the Type of Accounts.</p>
+  <table cellspacing="0" class="NormalTable" style="margin-left: 4.9pt; border-collapse: collapse;" width="97.56%">
+    <colgroup>
+      <col width="139"/>
+      <col width="768"/>
+    </colgroup>
+    <tbody>
+      <tr style="height: 12.8pt;">
+        <td bgcolor="#B3B3B3" nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Header">Field</p>
+        </td>
+        <td bgcolor="#B3B3B3" nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-left: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Header">Description</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">TypeID</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">A unique number used to reference the record Type.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">TypeCat</p>
+          <p class="Table_Body"> </p>
+          <p class="Table_Body"> </p>
+          <p class="Table_Body"> </p>
+          <p class="Table_Body"> </p>
+          <p class="Table_Body"> </p>
+          <p class="Table_Body"> </p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">Represents the record Type:<br/>
+            1 = Customer<br/>
+            2 = Vendor<br/>
+            3 = Contractor<br/>
+            4 = User<br/>
+            5 = Project<br/>
+            6 = Task</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">Name</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">Name of the Type.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">Description</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">Description of the Type.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="139">
+          <p class="Table_Body">Value</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="768">
+          <p class="Table_Body">Value for the Type.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <h2> </h2>
+
+</body></html>

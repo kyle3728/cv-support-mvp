@@ -1,0 +1,482 @@
+{
+    "id": "51646282-1cfd-405d-ab11-340e38effbe3",
+    "title": "RLSB_Lights",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top \n > \n \n \n Room Level \n > \n \n Sidebar \n > \n \n Lights"
+        },
+        {
+            "type": "text",
+            "data": "Top \n >"
+        },
+        {
+            "type": "text",
+            "data": "Room Level \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Room Level",
+                "uuid": "9eaa492c-0405-4da7-8e0f-a6ff4e047890",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Sidebar \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Sidebar",
+                "uuid": "f07520a2-0645-4a40-b8d9-a72c15b5c147",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Lights"
+        },
+        {
+            "type": "text",
+            "data": "Lights"
+        },
+        {
+            "type": "text",
+            "data": "Lights -"
+        },
+        {
+            "type": "image",
+            "data": "image72.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image1925.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Lights button, available in the sidebar, will give you an overhead \n view of the current design with the light showing relationship to where \n it is currently placed. Simply select the Light in the view to set it's \n Properties. The best thing to do with lighting is to experiment with it \n to see what works best for you."
+        },
+        {
+            "type": "image",
+            "data": "image1087.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Automatic \n lighting setup places at least the following two Lights in every Room:"
+        },
+        {
+            "type": "text",
+            "data": "The Sun Light, which is a directional \n\t light placed in the southwest corner of the scene. \n The Center Light, which is a Point \n\t Light placed in the Center of the Scene."
+        },
+        {
+            "type": "text",
+            "data": "The Sun Light, which is a directional \n\t light placed in the southwest corner of the scene."
+        },
+        {
+            "type": "text",
+            "data": "The Sun Light, which is a directional \n\t light placed in the southwest corner of the scene."
+        },
+        {
+            "type": "text",
+            "data": "The Center Light, which is a Point \n\t Light placed in the Center of the Scene."
+        },
+        {
+            "type": "text",
+            "data": "The Center Light, which is a Point \n\t Light placed in the Center of the Scene."
+        },
+        {
+            "type": "text",
+            "data": "You can modify the settings for any of these Automatic Lights and your \n changes will be preserved. If you would like to have your own Light Schedule \n for the Job you can click the New or Copy button in the toolbar."
+        },
+        {
+            "type": "text",
+            "data": "To adjust a light, select it by clicking on it. It will be highlighted \n with a dashed outline when it is selected. Now you can move it anywhere \n in the view port or change any of the Light, Beam, or Direction specifications \n available to that particular type of Light."
+        },
+        {
+            "type": "text",
+            "data": "You can add or delete lights with the Add/Delete buttons and save different \n lighting setups to the Light Schedule."
+        },
+        {
+            "type": "text",
+            "data": "Light Properties"
+        },
+        {
+            "type": "image",
+            "data": "image1016.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Enabled"
+        },
+        {
+            "type": "text",
+            "data": "A light can be temporarily shut off by de-selecting the Enabled flag."
+        },
+        {
+            "type": "text",
+            "data": "Color"
+        },
+        {
+            "type": "text",
+            "data": "The Color list lets you tint the light to simulate different types of \n light sources, such as White Light (whitish), Sky Light (bluish), Sun \n Light (yellowish), Fluorescent (greenish), or Incandescent (orangish). \n You can just use White Light (the default setting for a new light), but \n if you want to give your scene a little more color, try experimenting \n with the other color settings. The more lights you set to a particular \n color, the more pronounced that color will be."
+        },
+        {
+            "type": "text",
+            "data": "Brightness"
+        },
+        {
+            "type": "text",
+            "data": "Brightness is your most important setting and controls the overall intensity \n of the light."
+        },
+        {
+            "type": "text",
+            "data": "Beam Properties"
+        },
+        {
+            "type": "image",
+            "data": "image1017.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Beam Properties area will allow you to set up the type of light \n beam that you will need for the effect you are looking for."
+        },
+        {
+            "type": "text",
+            "data": "Type"
+        },
+        {
+            "type": "text",
+            "data": "There are three Light types:"
+        },
+        {
+            "type": "text",
+            "data": "Spot \n\t -  Appears as a red circle and projects a cone-like beam of \n\t light. \n Directional \n\t -  Appears as a blue circle and projects a wide parallel beam \n\t of light as if from a distant source. \n Point -  Appears as a light blue \n\t circle and acts as a ball of light projecting light in all directions. \n\t This is the most versatile or all light types."
+        },
+        {
+            "type": "text",
+            "data": "Spot \n\t -  Appears as a red circle and projects a cone-like beam of \n\t light."
+        },
+        {
+            "type": "text",
+            "data": "Spot \n\t -  Appears as a red circle and projects a cone-like beam of \n\t light."
+        },
+        {
+            "type": "text",
+            "data": "Directional \n\t -  Appears as a blue circle and projects a wide parallel beam \n\t of light as if from a distant source."
+        },
+        {
+            "type": "text",
+            "data": "Directional \n\t -  Appears as a blue circle and projects a wide parallel beam \n\t of light as if from a distant source."
+        },
+        {
+            "type": "text",
+            "data": "Point -  Appears as a light blue \n\t circle and acts as a ball of light projecting light in all directions. \n\t This is the most versatile or all light types."
+        },
+        {
+            "type": "text",
+            "data": "Point -  Appears as a light blue \n\t circle and acts as a ball of light projecting light in all directions. \n\t This is the most versatile or all light types."
+        },
+        {
+            "type": "text",
+            "data": "Height"
+        },
+        {
+            "type": "text",
+            "data": "This setting allows you to set the Height \n of a Spot or Point Light. Height is not an option for a Directional Light."
+        },
+        {
+            "type": "text",
+            "data": "Angle"
+        },
+        {
+            "type": "text",
+            "data": "If you have the light set as a spotlight, \n you will be able to control the angle of the light-cone it creates. \u00a0The \n tighter the cone, the more intense the light will be and the stronger \n the shadows."
+        },
+        {
+            "type": "text",
+            "data": "Cast Shadows"
+        },
+        {
+            "type": "text",
+            "data": "Unlike the real world, it is possible to set whether a light casts shadows \n or not. \u00a0Sometimes if you are just using a light to fill in a dark \n part of a scene, you may not want that light to cast a distinct shadow. \n \u00a0The fewer lights casting shadows, the faster your scene will render."
+        },
+        {
+            "type": "text",
+            "data": "Softness"
+        },
+        {
+            "type": "text",
+            "data": "This setting affects the sharpness of the spotlight cone and the shadows \n that are cast."
+        },
+        {
+            "type": "text",
+            "data": "In Ray-Trace rendering, if you have the Beam Softness set to zero and \n you have the Ray-Trace Sharp Shadows flag turned on, then you will generate \n a very sharp detailed shadow. In general, you will get more natural looking \n lighting with the normal soft shadows."
+        },
+        {
+            "type": "text",
+            "data": "Direction Properties"
+        },
+        {
+            "type": "image",
+            "data": "image167.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Direction Properties \n are not available for Point Lights."
+        },
+        {
+            "type": "text",
+            "data": "Vertical"
+        },
+        {
+            "type": "text",
+            "data": "Allows you to set the Vertical Angle of your Light. You can also click \n the action button in the Vertical field to get the Angle window. By grabbing \n the \"nose\" of the light you can adjust its vertical angle."
+        },
+        {
+            "type": "image",
+            "data": "image1018.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Once you get the light pointing in any direction, other than straight \n down, it will also have a handle in the Light Editor which you can drag \n to control where it is pointing."
+        },
+        {
+            "type": "text",
+            "data": "Horizontal"
+        },
+        {
+            "type": "text",
+            "data": "Allows you to set the Vertical Angle of your Light. If your Light has \n a Vertical Angle you can use the handle in the Light Viewport to rotate \n the Light manually."
+        },
+        {
+            "type": "text",
+            "data": "Geometry \n Properties"
+        },
+        {
+            "type": "image",
+            "data": "image1088.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Geometry Properties allow you to indicate if the Light Source is \n actual physically visible. For Spot and Point Lights you establish the \n Radius and for Directional Lights you establish its Width and Length."
+        },
+        {
+            "type": "text",
+            "data": "Advanced Lighting"
+        },
+        {
+            "type": "text",
+            "data": "Lighting is the main thing you will need to spend time with in order \n to use PhotoVision to its full potential. Before you continue into this \n section, make sure you are familiar with the previous section on how to \n select, move, and adjust light settings."
+        },
+        {
+            "type": "text",
+            "data": "Planning your Lighting"
+        },
+        {
+            "type": "text",
+            "data": "Good lighting requires a little common sense plus a bit of creativity. \n \u00a0Before you start adding lights to your scene, ask yourself the following \n questions:"
+        },
+        {
+            "type": "text",
+            "data": "Primary Light Sources"
+        },
+        {
+            "type": "text",
+            "data": "What is the primary sources of light in your design? Lights, windows \n etc..."
+        },
+        {
+            "type": "text",
+            "data": "Is the sun shining through \n\t a window? \n Are there light fixtures \n\t within your scene? \n What \"time of day\" \n\t is it?"
+        },
+        {
+            "type": "text",
+            "data": "Is the sun shining through \n\t a window?"
+        },
+        {
+            "type": "text",
+            "data": "Is the sun shining through \n\t a window?"
+        },
+        {
+            "type": "text",
+            "data": "Are there light fixtures \n\t within your scene?"
+        },
+        {
+            "type": "text",
+            "data": "Are there light fixtures \n\t within your scene?"
+        },
+        {
+            "type": "text",
+            "data": "What \"time of day\" \n\t is it?"
+        },
+        {
+            "type": "text",
+            "data": "What \"time of day\" \n\t is it?"
+        },
+        {
+            "type": "text",
+            "data": "Secondary Sources"
+        },
+        {
+            "type": "text",
+            "data": "Are there any logical sources of light beyond the bounds of you room?"
+        },
+        {
+            "type": "text",
+            "data": "Are there sources of ambient or reflected light?"
+        },
+        {
+            "type": "text",
+            "data": "For each Light Source"
+        },
+        {
+            "type": "text",
+            "data": "Is it near or far away? \n Is it hard and directional \n\t or soft and diffuse? \n Does it cast any noticeable \n\t shadow? \n Is it direct light or light \n\t reflected off walls and floor."
+        },
+        {
+            "type": "text",
+            "data": "Is it near or far away?"
+        },
+        {
+            "type": "text",
+            "data": "Is it near or far away?"
+        },
+        {
+            "type": "text",
+            "data": "Is it hard and directional \n\t or soft and diffuse?"
+        },
+        {
+            "type": "text",
+            "data": "Is it hard and directional \n\t or soft and diffuse?"
+        },
+        {
+            "type": "text",
+            "data": "Does it cast any noticeable \n\t shadow?"
+        },
+        {
+            "type": "text",
+            "data": "Does it cast any noticeable \n\t shadow?"
+        },
+        {
+            "type": "text",
+            "data": "Is it direct light or light \n\t reflected off walls and floor."
+        },
+        {
+            "type": "text",
+            "data": "Is it direct light or light \n\t reflected off walls and floor."
+        },
+        {
+            "type": "text",
+            "data": "Sources of Inspiration"
+        },
+        {
+            "type": "text",
+            "data": "Look at magazines and pictures of rooms. \u00a0You may even want to \n create a collection of rooms with different types of lighting situations. \n \u00a0Try to figure out the light sources in those pictures and practice \n copying those effects in PhotoVision. \u00a0With a little bit of practice \n you'll be amazed at how much your renderings will improve."
+        },
+        {
+            "type": "text",
+            "data": "Types of Lights"
+        },
+        {
+            "type": "text",
+            "data": "Following are the types of lights you can use in your scene."
+        },
+        {
+            "type": "text",
+            "data": "Spotlights"
+        },
+        {
+            "type": "text",
+            "data": "Spot Lights (red circle) cast a strong cone of light. \u00a0The narrower \n the beam angle, the more intense the light and the more intense the shadow \n it casts. \u00a0The angle of the beam ranges from 0 to 180 degrees. \u00a0A \n setting of below 90 degrees casts a strong shadow while a setting of 180 \n casts virtually no shadow. \u00a0The Beam Softness setting affects the \n softness of the shadows a spot light casts, as well as the fuzziness of \n the spot light cone. \u00a0Spot lights are most useful to shine light \n through windows or to simulate Can Lights or Lights flush to the Ceiling."
+        },
+        {
+            "type": "text",
+            "data": "Directional Lights"
+        },
+        {
+            "type": "text",
+            "data": "Directional lights (blue circle) simulate light coming from a long distance \n away. \u00a0It projects a wide parallel beam of light and, at high brightness \n settings, casts a strong shadow. Though directional lights do not project \n a cone of light, the Beam Softness setting does affect the softness of \n the shadows it casts. \u00a0Use directional lights to fill large areas."
+        },
+        {
+            "type": "text",
+            "data": "It does not matter where a directional light \n is placed in the scene; only the direction it is pointing. \u00a0Even \n if the directional light is in the Room, it will cast shadows as if it \n is far outside the Room. \u00a0It also can't shine through walls."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Point Lights"
+        },
+        {
+            "type": "text",
+            "data": "Point Lights (light blue circle) are the \n most common form of artificial Lighting in the real world. It most accurately \n simulates a light bulb as it casts light in all directions from its placement."
+        },
+        {
+            "type": "text",
+            "data": "Lighting Setup"
+        },
+        {
+            "type": "text",
+            "data": "The following topics cover some basic lighting setups."
+        },
+        {
+            "type": "text",
+            "data": "The \"Center\" Light"
+        },
+        {
+            "type": "text",
+            "data": "At the beginning of a Photovision project, you will start with a single \n point light centered above your scene. If the light is too close to any \n wall, move it out further so the light can better angle in toward the \n fronts of your cabinets. A light in this position is referred to as a \n \"Center\" light."
+        },
+        {
+            "type": "text",
+            "data": "The \"Key\" Light"
+        },
+        {
+            "type": "text",
+            "data": "To give your rendering more contrast, it is a good idea to add another \n light, in addition to the \"Center\" light, coming in from the \n side. \u00a0This light is referred to as the \"Key\" light, or \n primary light source in the scene. \u00a0The idea is to make one of your \n walls brighter than the other. Usually the wall adjacent or opposite the \n window is the brightest wall. The \"Key\" light is usually a spot \n light positioned at ceiling height, angled slightly, and pointing primarily \n toward one wall."
+        },
+        {
+            "type": "text",
+            "data": "The \"Fill\" Light"
+        },
+        {
+            "type": "text",
+            "data": "Sometimes a third light is added to the scene. The \"Fill\" \n light is usually positioned to fill in the areas of the scene not covered \n by the \"Key\" light. \u00a0A directional light can serve well \n as a \"Fill\" light. The \"Fill\" light is usually set \n to a much lower brightness than the \"Key\" light."
+        },
+        {
+            "type": "text",
+            "data": "The \"Fill\" light is usually placed at about half room height, \n pointing sideways. Usually the higher the height of the \"Key\" \n light, the lower the height of the \"Fill\" light."
+        },
+        {
+            "type": "text",
+            "data": "Since much of the light in a kitchen is reflected light from walls and \n floors, try to use the \"Fill\" light to simulate this effect. \n \u00a0For instance, you might tilt the \"Fill\" light slightly \n upward to simulate light being reflected upward from the floor. \u00a0This \n can lessen the severity of shadows under upper cabinets. \u00a0Good use \n of a \"Fill\" light can add a subtle glow to cabinet faces and \n lessen the flatness of the lighting in darker parts of the scene."
+        },
+        {
+            "type": "text",
+            "data": "Window Light"
+        },
+        {
+            "type": "text",
+            "data": "A common addition to a kitchen lighting setup is a light shining through \n a window. A window light is usually a spotlight set to cast shadows. \u00a0It's \n beam angle is set so that it is just a little larger than the window frame. \n For direct sunlight, the Beam Softness should be set very sharp, for indirect \n sunlight set it softer. \u00a0You may want to set the color of the window \n light to either sunlight or skylight."
+        },
+        {
+            "type": "text",
+            "data": "The \"Center\" light inside the room (red circle) is usually \n turned so that it is the pointing in the same general direction as the \n window light. \u00a0The window light is used to cast bright light through \n the window frame, but the \"Center\" light is still the primary \n light source inside the room."
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Room_Level\\Side_Bar\\RLSB_Lights.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

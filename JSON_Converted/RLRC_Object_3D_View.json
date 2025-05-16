@@ -1,0 +1,127 @@
+{
+    "id": "ea288bb9-a851-47ef-ad9e-81a4931ad871",
+    "title": "RLRC_Object_3D_View",
+    "content": [
+        {
+            "type": "text",
+            "data": "Right Click on an Object 3D View -"
+        },
+        {
+            "type": "image",
+            "data": "image72.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The following options are available when right clicking on an Object in 3D View:"
+        },
+        {
+            "type": "image",
+            "data": "image6446.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image2645.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Select... / Select  Type ..."
+        },
+        {
+            "type": "text",
+            "data": "The  Select...  option allows you to select from multiple Objects which may fall under your selection cursor such as."
+        },
+        {
+            "type": "image",
+            "data": "image6442.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The  Select Cabinets...  option allows you to select All Cabinets in the Room, All Cabinets on the Wall, or All Cabinets of the Type that you Right Click on."
+        },
+        {
+            "type": "image",
+            "data": "image6440.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image6441.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The  Select Appliance ,  Select Ceiling ,  Select Countertop ,  Select Molding , Etc... options allow you to select all of that Object Type in the Room or on the Wall where the selected object resides."
+        },
+        {
+            "type": "image",
+            "data": "image6444.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The  Select Ceiling ,  Select Floor , and  Select Wall  options allow you to select all Objects of the selected Type within the Room."
+        },
+        {
+            "type": "image",
+            "data": "image6445.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "To Drawing"
+        },
+        {
+            "type": "image",
+            "data": "image2660.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "To Live-Drawing -"
+        },
+        {
+            "type": "image",
+            "data": "image2705.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "2DCAD.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Save View"
+        },
+        {
+            "type": "image",
+            "data": "image2706.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Show/Hide Walls"
+        },
+        {
+            "type": "image",
+            "data": "image2711.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Properties"
+        },
+        {
+            "type": "image",
+            "data": "image2750.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish\\Room_Level\\Right_Click_Options\\RLRC_Object_3D_View.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

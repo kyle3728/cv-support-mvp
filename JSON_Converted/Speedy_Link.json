@@ -1,0 +1,125 @@
+{
+    "id": "2bd5124d-8725-44a0-93ca-cd5e70c35e97",
+    "title": "Speedy_Link",
+    "content": [
+        {
+            "type": "text",
+            "data": "Speedy Link"
+        },
+        {
+            "type": "text",
+            "data": "This is a Parts Router and/or Point-to-Point Link."
+        },
+        {
+            "type": "text",
+            "data": "SpeedyLink supports Tool Compensation for routers, Tool Numbers, Feed Rate, Descent Rate & Maximum Depth Per Pass."
+        },
+        {
+            "type": "text",
+            "data": "Saws should be set to output Center Line paths. One saw may be setup with multiple kerf sizes. If a tool exists in the Tool Catalog with a kerf that matches the dado width the Planit CNC Center will output a single polyline with width. The kerf in SpeedyLinks configuration setup will determine the number of passes the saw takes to create the dado width."
+        },
+        {
+            "type": "text",
+            "data": "Tool selection, for all tools, is made by Tool Number. If the Tool Number is 0, then SpeedyLink will try to do a tool match automatically."
+        },
+        {
+            "type": "text",
+            "data": "Each Tool is interrogated for its Maximum Depth for a single pass. If an operation exceeds the Maximum Depth Per Pass, multiple passes will be generated automatically."
+        },
+        {
+            "type": "text",
+            "data": "Routes are output different for Open and Closed Paths. Open paths are output as line segments. Closed paths are output as polylines. This enables a feature to be used with SpeedyLink where it splits the distance of the 1st line in a polyline and starts the cut here. This eliminates a common problem of overshot in the corners. Closed Path Route Output adds _RI_RO to the layer name to communicate to SpeedyLink to synthesize the Lead In / Out and Ramp In / Out."
+        },
+        {
+            "type": "text",
+            "data": "A part description and dimension has been added to a description layer. This description will show next to the file name on the controller for easy identification of the part. The batch.lst is generated so that SpeedyLink can process the files automatically."
+        },
+        {
+            "type": "text",
+            "data": "Layer Name & Pen Number from the Tool Catalog will be ignored. The DXF files created for SpeedyLink have the following characteristics:"
+        },
+        {
+            "type": "text",
+            "data": "Border: Border + Part Thickness + LL orientation \n \n \n Description: Stores part information \n \n \n Vertical Boring: Vbore + Depth + Tool Number (If not 0) + Multiple passes \n \n \n Horizontal Boring: Hbore + Z position + Tool number (If not 0) + Multiple passes \n \n \n Grooving: Groove + Depth + Tool Number (If not 0) + Multiple passes \n \n \n Routing: Route + Depth + Tool number (If not 0) + Tool compensation + Feed Rate (If not 0) + Descent Rate (If not 0) + Multiple passes + Ramp In/Out (For closed path routing)"
+        },
+        {
+            "type": "text",
+            "data": "Border: Border + Part Thickness + LL orientation"
+        },
+        {
+            "type": "text",
+            "data": "Border: Border + Part Thickness + LL orientation"
+        },
+        {
+            "type": "text",
+            "data": "Description: Stores part information"
+        },
+        {
+            "type": "text",
+            "data": "Description: Stores part information"
+        },
+        {
+            "type": "text",
+            "data": "Vertical Boring: Vbore + Depth + Tool Number (If not 0) + Multiple passes"
+        },
+        {
+            "type": "text",
+            "data": "Vertical Boring: Vbore + Depth + Tool Number (If not 0) + Multiple passes"
+        },
+        {
+            "type": "text",
+            "data": "Horizontal Boring: Hbore + Z position + Tool number (If not 0) + Multiple passes"
+        },
+        {
+            "type": "text",
+            "data": "Horizontal Boring: Hbore + Z position + Tool number (If not 0) + Multiple passes"
+        },
+        {
+            "type": "text",
+            "data": "Grooving: Groove + Depth + Tool Number (If not 0) + Multiple passes"
+        },
+        {
+            "type": "text",
+            "data": "Grooving: Groove + Depth + Tool Number (If not 0) + Multiple passes"
+        },
+        {
+            "type": "text",
+            "data": "Routing: Route + Depth + Tool number (If not 0) + Tool compensation + Feed Rate (If not 0) + Descent Rate (If not 0) + Multiple passes + Ramp In/Out (For closed path routing)"
+        },
+        {
+            "type": "text",
+            "data": "Routing: Route + Depth + Tool number (If not 0) + Tool compensation + Feed Rate (If not 0) + Descent Rate (If not 0) + Multiple passes + Ramp In/Out (For closed path routing)"
+        },
+        {
+            "type": "text",
+            "data": "Each unique layer gets a consecutive pen number."
+        },
+        {
+            "type": "text",
+            "data": "All entities are output at 0z with No Thickness."
+        },
+        {
+            "type": "text",
+            "data": "A _Mn (where n is the number of passes) is added to the layer name automatically to process the instruction with multiple passes."
+        },
+        {
+            "type": "text",
+            "data": "Parts are automatically output in the Top Left quadrant +  X    , +Y to match the interface in SpeedyLink."
+        },
+        {
+            "type": "text",
+            "data": "Dimensions in the layer name use p for a decimal place. They output a maximum of 2 places in the layer name for metric and 5 places for  imperial    ."
+        },
+        {
+            "type": "text",
+            "data": "Horizontal boring is created with 3 line segments open to the edge of the part the hole will be generated on. Warning messages will be produced for horizontal boring that is not on the edge of part."
+        },
+        {
+            "type": "text",
+            "data": "Tool Number, Feed Rate, Descent Rate & Tool Compensation from the Tool Catalog - will only be used in the layer name if they are not 0."
+        }
+    ],
+    "source_file": "NCEnglish\\Ribbonbar\\Main_Tab\\Machine\\NC_Links\\Parts_Router_P-2-P_Links\\Speedy_Link.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

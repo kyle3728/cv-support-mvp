@@ -1,0 +1,29 @@
+{
+    "id": "46ff78dc-9805-4902-b987-00ade1ac0093",
+    "title": "Stop_Parts_from_Being_Added_when_I_Size_a_Cabinet",
+    "content": [
+        {
+            "type": "text",
+            "data": "Stop Parts from Being Added when I Size a Cabinet"
+        },
+        {
+            "type": "text",
+            "data": "Sometimes, when I stretch a Cabinet, unwanted parts are added such as, partitions, drawer stretchers, and Doors. How can I keep the Cabinet the same when it stretches?"
+        },
+        {
+            "type": "text",
+            "data": "Go to the Solid button, choose  Preferences  and then go to the  Layout Tab  and Set your Maximum Door size setting to a higher number (ex. 90) to keep Solid from putting a pair of Doors and mid-rails into Cabinets as they stretch."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Layout Tab",
+                "uuid": "a6c6d306-c8da-4df8-8440-33f2f24a9c1d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Tips_Tricks_&_FAQs\\FAQs\\HDI-Advanced_Features\\Stop_Parts_from_Being_Added_when_I_Size_a_Cabinet.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

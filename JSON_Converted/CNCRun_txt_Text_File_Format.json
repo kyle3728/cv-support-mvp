@@ -1,0 +1,89 @@
+{
+    "id": "2f5771d3-34e7-4b18-9162-efc494466f89",
+    "title": "CNCRun_txt_Text_File_Format",
+    "content": [
+        {
+            "type": "text",
+            "data": "CncRunXXX.txt Text File Format"
+        },
+        {
+            "type": "text",
+            "data": "The CNCRun.txt file is placed in the Output directory for Primary and Secondary output and displays information about what was output. Following is the format specification for the file:"
+        },
+        {
+            "type": "text",
+            "data": "^Job : Job Name"
+        },
+        {
+            "type": "text",
+            "data": "^Description : Job Description"
+        },
+        {
+            "type": "text",
+            "data": "^Date : Monday, Jun 26 2000"
+        },
+        {
+            "type": "text",
+            "data": "^Parts : 1"
+        },
+        {
+            "type": "text",
+            "data": "r01b0001.dxf,Bottom(BO),304.00,889.00,19.05,3/4 2s White Melamine,5,1,0,B,0,"
+        },
+        {
+            "type": "text",
+            "data": "Field 1 - Program Name"
+        },
+        {
+            "type": "text",
+            "data": "Field 2 - Part Name (Internal Part Name)"
+        },
+        {
+            "type": "text",
+            "data": "Field 3- Part Width"
+        },
+        {
+            "type": "text",
+            "data": "Field 4- Part Length"
+        },
+        {
+            "type": "text",
+            "data": "Field 5- Material Thickness"
+        },
+        {
+            "type": "text",
+            "data": "Field 6- Material Name"
+        },
+        {
+            "type": "text",
+            "data": "Field 7- Cabinet Number"
+        },
+        {
+            "type": "text",
+            "data": "Field 8- Part Qty"
+        },
+        {
+            "type": "text",
+            "data": "Field 9 - Material Grain (0  False, 1  True)"
+        },
+        {
+            "type": "text",
+            "data": "Field 10- Program Face (F  Front, B  Back)"
+        },
+        {
+            "type": "text",
+            "data": "Field 11- Material Face-Dependent (0  False, 1  True)"
+        },
+        {
+            "type": "text",
+            "data": "Field 12 - Machine Tag Code"
+        },
+        {
+            "type": "text",
+            "data": "Field 13 - Machine Name"
+        }
+    ],
+    "source_file": "NCEnglish_Cabinetmaker\\Ribbonbar\\Main_Tab\\Machine\\CNCRun_txt_Text_File_Format.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

@@ -1,0 +1,22 @@
+{
+    "id": "f7d1c98b-88e4-47a4-acdf-41364f3389b0",
+    "title": "Banding_Indicators",
+    "content": [
+        {
+            "type": "text",
+            "data": "Banding Indicators"
+        },
+        {
+            "type": "text",
+            "data": "This option allows you to tie any Banding Material in your Material Catalog to a Banding Indicator."
+        },
+        {
+            "type": "image",
+            "data": "image126.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "NCEnglish_Cabinetmaker\\Ribbonbar\\Utilities_Tab\\Material_Catalog\\Toolbar\\Banding_Indicators.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

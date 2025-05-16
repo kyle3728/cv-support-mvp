@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><link rel="stylesheet" type="text/css" href="../../../../_rhdefault.css"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=WINDOWS-1252"/>
+  <meta name="Originator" content="ImportDoc"/>
+  <meta name="OriginalFile" content="Specification - MatSum.mdb Database.doc"/>
+  <meta name="generator" content="Adobe RoboHelp 2022"/>
+  <title>MatSum.mdb</title>
+  <link rel="StyleSheet" href="../../../../assets/css/Database_Specifications.css" type="text/css"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/><script type="text/javascript" src="../../../../ehlpdhtm.js"></script></head>
+<body lang="EN-US" xml:lang="EN-US">
+  <h1>The MatSum.mdf Database</h1>
+  <p><img alt="Reporting Multiplier" src="../../../../assets/images/zGraphics/1Products/Reporting.png" title="Reporting Multiplier"/></p>
+  <p>This Database stores a running Material Summary for every Job the Data is output for. The ability to populate this data is allowed with xReport multiplier.</p>
+  <p><img src="../../../../assets/images/image568.png"/></p>
+  <p>The following is the breakdown of the tables and their fields:</p>
+  <h2>DB Info</h2>
+  <p>This Table stores general information about the Database.</p>
+  <table cellspacing="0" class="NormalTable" style="margin-left: 5.4pt; border-collapse: collapse;" width="58.37%">
+    <colgroup>
+      <col style="width: 22.336%;"/>
+      <col style="width: 77.664%;"/>
+    </colgroup>
+    <tbody>
+      <tr style="height: 15.8pt;">
+        <td bgcolor="#B3B3B3" nowrap="nowrap" style="border: solid 1pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Header">Field</p>
+        </td>
+        <td bgcolor="#B3B3B3" nowrap="nowrap" style="border-top: solid 1pt #000000; border-right: solid 1pt #000000; border-bottom: solid 1pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Header">Description</p>
+        </td>
+      </tr>
+      <tr style="height: 15pt;">
+        <td nowrap="nowrap" style="border-left: solid 1.0pt #000000; border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">Version</p>
+        </td>
+        <td nowrap="nowrap" style="border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body"><span style="font-size: 10.0pt; font-family: Arial; color: #000000;">Displays the current Version for the Database.</span></p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <h2>Jobs</h2>
+  <p>This table stores general information for the Job/Jobs in this database.</p>
+  <table cellspacing="0" class="NormalTable" style="margin-left: 4.9pt; border-collapse: collapse;" width="59.683%">
+    <colgroup>
+      <col style="width: 21.923%;"/>
+      <col style="width: 78.077%;"/>
+    </colgroup>
+    <tbody>
+      <tr style="height: 12.8pt;">
+        <td bgcolor="#B3B3B3" nowrap="nowrap" style="border: solid 1pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Header">Field</p>
+        </td>
+        <td bgcolor="#B3B3B3" nowrap="nowrap" style="border-top: solid 1pt #000000; border-right: solid 1pt #000000; border-bottom: solid 1pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Header">Description</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="border-left: solid 1.0pt #000000; border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">ID</p>
+        </td>
+        <td nowrap="nowrap" style="border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">Represents the Job ID # for each Job when batching Jobs. If it is a single Job this value is 1.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">Job Name</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">The Name of the current Job.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">Job Number</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">The Job Number for the current Job.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">Customer Name</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">The Customer Name for the current Job.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">Customer Address</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">The Customer Address for the current Job.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body"><span style="font-size: 10.0pt; font-family: Arial;">Customer</span> <span style="font-size: 10.0pt; font-family: Arial;">City</span></p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">The Customer City for the current Job.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body"><span style="font-size: 10.0pt; font-family: Arial;">Customer</span> <span style="font-size: 10.0pt; font-family: Arial;">State</span></p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">The Customer State for the current Job.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">Customer Zip</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">The Customer Zip for the current Job.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">Customer Contact</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">The Customer Contact for the current Job.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">Customer Phone</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">The Customer Phone for the current Job.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">Customer Comments</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">The Customer Comments for the current Job.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body"><span style="font-size: 10.0pt; font-family: Arial;">CVJFile</span></p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">The File Name for the current Job.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">Measure</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">The Measure Date for the current Job.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">Detail</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">The Detail Date for the current Job.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">Production</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">The Production Date for the current Job.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">Delivery</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">The Delivery Date for the current Job.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">Deposit</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">The Deposit Date for the current Job.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">Install</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">The Install Date for the current Job.</p>
+        </td>
+      </tr>
+      <tr style="height: 12.8pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body"><span style="font-size: 10.0pt; font-family: Arial;">FinalPayment</span></p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">The Final Payment Date for the current Job.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <h2>Materials</h2>
+  <p>This table stores the available Materials.</p>
+  <table cellspacing="0" class="NormalTable" style="margin-left: 5.4pt; border-collapse: collapse;" width="59.184%">
+    <colgroup>
+      <col style="width: 21.898%;"/>
+      <col style="width: 78.102%;"/>
+    </colgroup>
+    <tbody>
+      <tr style="height: 15.8pt;">
+        <td bgcolor="#B3B3B3" nowrap="nowrap" style="border: solid 1pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Header">Field</p>
+        </td>
+        <td bgcolor="#B3B3B3" nowrap="nowrap" style="border-top: solid 1pt #000000; border-right: solid 1pt #000000; border-bottom: solid 1pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Header">Description</p>
+        </td>
+      </tr>
+      <tr style="height: 15pt;">
+        <td nowrap="nowrap" style="border-left: solid 1.0pt #000000; border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">ID</p>
+        </td>
+        <td nowrap="nowrap" style="border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">A unique number used to reference the Material.</p>
+        </td>
+      </tr>
+      <tr style="height: 15pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">Type</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">Cross-reference to [Report.mdf].[look MaterialType].[Index].</p>
+        </td>
+      </tr>
+      <tr style="height: 15pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">Name</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">The Name of the Material.</p>
+        </td>
+      </tr>
+      <tr style="height: 15pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">Description</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">The Description of the Material.</p>
+        </td>
+      </tr>
+      <tr style="height: 15pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body"><span style="font-size: 10.0pt; font-family: Arial; color: #000000;">UnitOfIssue</span></p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">Cross-reference to [Units].[Index].</p>
+        </td>
+      </tr>
+      <tr style="height: 15pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">Sheet</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">Cross-reference to [Sheets].[Index].</p>
+        </td>
+      </tr>
+      <tr>
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">Width</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">A value representing the Width of this Material.</p>
+        </td>
+      </tr>
+      <tr>
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">Length</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">A value representing the Length of this Material.</p>
+        </td>
+      </tr>
+      <tr style="height: 15pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">Thickness</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">A value representing the Thickness of this Material.</p>
+        </td>
+      </tr>
+      <tr style="height: 15pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">Cost</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">A value representing the Cost of this Material.</p>
+        </td>
+      </tr>
+      <tr style="height: 15pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">Waste</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">A value representing the Waste percentage of this Material.</p>
+        </td>
+      </tr>
+      <tr>
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">RoughThickness</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">Raw thickness of material before milling used for calculating board feet.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <h2>MaterialUsage</h2>
+  <p>This table stores the Material Usage results.</p>
+  <table cellspacing="0" class="NormalTable" style="margin-left: 5.4pt; border-collapse: collapse;" width="60.403%">
+    <colgroup>
+      <col style="width: 29.254%;"/>
+      <col width="578"/>
+    </colgroup>
+    <tbody>
+      <tr style="height: 15.8pt;">
+        <td bgcolor="#B3B3B3" nowrap="nowrap" style="border: solid 1pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Header">Field</p>
+        </td>
+        <td bgcolor="#B3B3B3" nowrap="nowrap" style="border-top: solid 1pt #000000; border-right: solid 1pt #000000; border-bottom: solid 1pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Header">Description</p>
+        </td>
+      </tr>
+      <tr style="height: 15pt;">
+        <td nowrap="nowrap" style="border-left: solid 1.0pt #000000; border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body"><span style="font-size: 10.0pt; font-family: Arial; color: #000000;">JobID</span></p>
+        </td>
+        <td nowrap="nowrap" style="border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">Cross-reference to [Jobs].[ID].</p>
+        </td>
+      </tr>
+      <tr style="height: 15pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body"><span style="font-size: 10.0pt; font-family: Arial; color: #000000;">MaterialID</span></p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">Cross-reference to [Materials].[ID].</p>
+        </td>
+      </tr>
+      <tr style="height: 15pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body"><span style="font-size: 10.0pt; font-family: Arial; color: #000000;">Quan</span></p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">A value representing the Quantity of the Material necessary in the Unit of Measure for the Material.</p>
+        </td>
+      </tr>
+      <tr style="height: 15pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body"><span style="font-size: 10.0pt; font-family: Arial; color: #000000;">LinealFT</span></p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">A value representing the Lineal Feet of the Material required.</p>
+        </td>
+      </tr>
+      <tr style="height: 15pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body"><span style="font-size: 10.0pt; font-family: Arial; color: #000000;">SquareFT</span></p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">A value representing the Square Feet of the Material required.</p>
+        </td>
+      </tr>
+      <tr style="height: 15pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">Total</p>
+          <p class="Table_Body"> </p>
+          <p class="Table_Body"> </p>
+          <p class="Table_Body"> </p>
+          <p class="Table_Body"> </p>
+          <p class="Table_Body"> </p>
+          <p class="Table_Body"> </p>
+          <p class="Table_Body"> </p>
+          <p class="Table_Body"> </p>
+          <p class="Table_Body"> </p>
+          <p class="Table_Body"> </p>
+          <p class="Table_Body"> </p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">The Material total based on the Unit of issue for the Material:</p>
+          <p class="Table_Body"> </p>
+          <table cellspacing="0" class="NormalTable" style="margin-left: 1.5pt; border-collapse: collapse;" width="80.258%">
+            <colgroup>
+              <col style="width: 16.187%;"/>
+              <col style="width: 20.009%;"/>
+              <col style="width: 67.526%;"/>
+            </colgroup>
+            <tbody>
+              <tr>
+                <td bgcolor="#B3B3B3" style="border: solid 1pt #000000; vertical-align: top; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+                  <p class="Table_Header">Index</p>
+                </td>
+                <td bgcolor="#B3B3B3" style="border-top: solid 1pt #000000; border-right: solid 1pt #000000; border-bottom: solid 1pt #000000; vertical-align: top; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+                  <p class="Table_Header">Issue Unit</p>
+                </td>
+                <td bgcolor="#B3B3B3" style="border-top: solid 1pt #000000; border-right: solid 1pt #000000; border-bottom: solid 1pt #000000; vertical-align: top; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+                  <p class="Table_Header">Formula</p>
+                </td>
+              </tr>
+              <tr>
+                <td style="border-left: solid 1.0pt #000000; border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; vertical-align: top; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+                  <p class="Table_Body">0</p>
+                </td>
+                <td style="border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; vertical-align: top; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+                  <p class="Table_Body">Each</p>
+                </td>
+                <td style="border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; vertical-align: top; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+                  <p class="Table_Body"><span style="font-size: 10.0pt; font-family: Arial; color: #000080;">[Quan]</span></p>
+                </td>
+              </tr>
+              <tr>
+                <td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+                  <p class="Table_Body">1</p>
+                </td>
+                <td style="vertical-align: top; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+                  <p class="Table_Body">Per FT</p>
+                </td>
+                <td style="vertical-align: top; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+                  <p class="Table_Body"><span style="font-size: 10.0pt; font-family: Arial; color: #000080;">[LinealFT]</span></p>
+                </td>
+              </tr>
+              <tr>
+                <td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+                  <p class="Table_Body">2</p>
+                </td>
+                <td style="vertical-align: top; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+                  <p class="Table_Body">SQ FT</p>
+                </td>
+                <td style="vertical-align: top; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+                  <p class="Table_Body"><span style="font-size: 10.0pt; font-family: Arial; color: #000080;">[SquareFT]</span></p>
+                </td>
+              </tr>
+              <tr>
+                <td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+                  <p class="Table_Body">3</p>
+                </td>
+                <td style="vertical-align: top; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+                  <p class="Table_Body">BD FT</p>
+                </td>
+                <td style="vertical-align: top; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+                  <p class="Table_Body"><span style="font-size: 10.0pt; font-family: Arial; color: #000080;">[LinealFT]*[RoughThickness]</span></p>
+                </td>
+              </tr>
+              <tr>
+                <td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+                  <p class="Table_Body">4</p>
+                </td>
+                <td style="vertical-align: top; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+                  <p class="Table_Body">Sheet</p>
+                </td>
+                <td style="vertical-align: top; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+                  <p class="Table_Body"><span style="font-size: 10.0pt; font-family: Arial; color: #000080;">[SquareFT]/([Sheets.Width]*[Sheets.Length]/144)</span></p>
+                </td>
+              </tr>
+              <tr>
+                <td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+                  <p class="Table_Body">5</p>
+                </td>
+                <td style="vertical-align: top; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+                  <p class="Table_Body">Per M</p>
+                </td>
+                <td style="vertical-align: top; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+                  <p class="Table_Body"><span style="font-size: 10.0pt; font-family: Arial; color: #000080;">[LinealFT]/3.280839895</span></p>
+                </td>
+              </tr>
+              <tr>
+                <td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+                  <p class="Table_Body">6</p>
+                </td>
+                <td style="vertical-align: top; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+                  <p class="Table_Body">SQ M</p>
+                </td>
+                <td style="vertical-align: top; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+                  <p class="Table_Body"><span style="font-size: 10.0pt; font-family: Arial; color: #000080;">[SquareFT]/10.76391042</span></p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <h2>Sheets</h2>
+  <p>This table stores the available Sheet Sizes.</p>
+  <table cellspacing="0" class="NormalTable" style="margin-left: 5.4pt; border-collapse: collapse;" width="59.289%">
+    <colgroup>
+      <col style="width: 26.672%;"/>
+      <col width="550"/>
+    </colgroup>
+    <tbody>
+      <tr style="height: 15.8pt;">
+        <td bgcolor="#B3B3B3" nowrap="nowrap" style="border: solid 1pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Header">Field</p>
+        </td>
+        <td bgcolor="#B3B3B3" nowrap="nowrap" style="border-top: solid 1pt #000000; border-right: solid 1pt #000000; border-bottom: solid 1pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Header">Description</p>
+        </td>
+      </tr>
+      <tr style="height: 15pt;">
+        <td nowrap="nowrap" style="border-left: solid 1.0pt #000000; border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">ID</p>
+        </td>
+        <td nowrap="nowrap" style="border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">A unique number used to reference the Sheet.</p>
+        </td>
+      </tr>
+      <tr style="height: 15pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">Name</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">The Name of the Sheet.</p>
+        </td>
+      </tr>
+      <tr style="height: 15pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">Width</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">A value representing the Width of the Sheet.</p>
+        </td>
+      </tr>
+      <tr style="height: 15pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">Length</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">A value representing the Length of the Sheet.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <h2>Units</h2>
+  <p>This table stores the available Units of Measure.</p>
+  <table cellspacing="0" class="NormalTable" style="margin-left: 5.4pt; border-collapse: collapse;" width="58.171%">
+    <colgroup>
+      <col style="width: 26.658%;"/>
+      <col width="539"/>
+    </colgroup>
+    <tbody>
+      <tr style="height: 15.8pt;">
+        <td bgcolor="#B3B3B3" nowrap="nowrap" style="border: solid 1pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Header">Field</p>
+        </td>
+        <td bgcolor="#B3B3B3" nowrap="nowrap" style="border-top: solid 1pt #000000; border-right: solid 1pt #000000; border-bottom: solid 1pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Header">Description</p>
+        </td>
+      </tr>
+      <tr style="height: 15pt;">
+        <td nowrap="nowrap" style="border-left: solid 1.0pt #000000; border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">Index</p>
+        </td>
+        <td nowrap="nowrap" style="border-right: solid 1.0pt #000000; border-bottom: solid 1.0pt #000000; vertical-align: bottom; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">A unique number used to reference the Unit of Issue.</p>
+        </td>
+      </tr>
+      <tr style="height: 15pt;">
+        <td nowrap="nowrap" style="vertical-align: bottom; border: solid #000000 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">Units</p>
+        </td>
+        <td nowrap="nowrap" style="vertical-align: bottom; border-top: none; border-left: none; border-bottom: solid #000000 1.0pt; border-right: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <p class="Table_Body">The Unit of Issue.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <p> </p>
+
+</body></html>

@@ -1,0 +1,21 @@
+{
+    "id": "210797c3-50bd-4371-82de-81ea2d26c6be",
+    "title": "SCMI_Seziona",
+    "content": [
+        {
+            "type": "text",
+            "data": "SCMI Seziona"
+        },
+        {
+            "type": "text",
+            "data": "This is a  Panel Saw  Link."
+        },
+        {
+            "type": "text",
+            "data": "SCMI Sigma / Galaxy Series using Seziona Control."
+        }
+    ],
+    "source_file": "NCEnglish_Optimizer\\Ribbonbar\\Main_Tab\\Machine\\NC_Links\\Saw_Links\\SCMI_Seziona.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

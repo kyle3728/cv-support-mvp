@@ -1,0 +1,115 @@
+{
+    "id": "9d870f4e-b767-4baa-a1dc-012dff55d89e",
+    "title": "AW_Adjustable_Shelf",
+    "content": [
+        {
+            "type": "text",
+            "data": "Adjustable Shelf"
+        },
+        {
+            "type": "text",
+            "data": "This branch configures the\u00a0Adjustable Shelf\u00a0options."
+        },
+        {
+            "type": "image",
+            "data": "image207.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The following diagram shows the options available in the Adjustable Shelf Branch. Click a specific option in the diagram for more information or continue through this topic for information on all the options."
+        },
+        {
+            "type": "image",
+            "data": "image208.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Adjustable Shelf Banding Definition (Standard #650)"
+        },
+        {
+            "type": "image",
+            "data": "image209.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Shelf Bull Nose Banding Definition (Standard #669)"
+        },
+        {
+            "type": "image",
+            "data": "image210.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Adjustable Shelf Grain Alignment (Standard #607)"
+        },
+        {
+            "type": "image",
+            "data": "image211.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Adjustable Shelf Minus (Standard #197)"
+        },
+        {
+            "type": "image",
+            "data": "image212.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Adjustable Shelf Grain Alignment (Standard #295)"
+        },
+        {
+            "type": "text",
+            "data": "For Adjustable Shelves in a Corner sub-branch, you have the option of setting the grain direction to run across the opening or to run left to right based on the right  Unfinished Back  (see the arrow in the picture below) in 45 Corner Cabinets."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Unfinished Back",
+                "uuid": "1159815f-061a-42f3-991c-4c218d3952df",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image213.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Pictured below is the setup for running grain direction across the opening."
+        },
+        {
+            "type": "image",
+            "data": "image214.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Shelf Nosing (Standard #593)"
+        },
+        {
+            "type": "image",
+            "data": "image215.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Shelf Nosing Options (Standard #552)"
+        },
+        {
+            "type": "image",
+            "data": "image216.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\System_Level\\Ribbonbar\\Main_Tab\\Construction_Group\\Assembly_Manager\\Assembly\\Branches\\Interior_Case\\AW_Adjustable_Shelf.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

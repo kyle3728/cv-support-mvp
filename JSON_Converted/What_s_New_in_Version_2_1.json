@@ -1,0 +1,173 @@
+{
+    "id": "5c3421c4-0d77-4385-bbe4-5e175a6d0645",
+    "title": "What_s_New_in_Version_2_1",
+    "content": [
+        {
+            "type": "text",
+            "data": "What's New in Version 2.1"
+        },
+        {
+            "type": "text",
+            "data": "General"
+        },
+        {
+            "type": "text",
+            "data": "Specify a Run Number Range for Each Workstation \n \n \n Override Automatic Run Numbers \n \n \n Part List Area Added to Pattern View \n \n \n Clipbook Functionality Added to Pattern View \n \n \n Define Dovetail Tools \n \n \n Name of Open PNC Job Displayed in the Titlebar \n \n \n Pattern Font Properties Controls Both View and Print Font Properties \n \n \n Edit Parts and Add/Modify Operations Utilizing Alphacad (No Longer Available)"
+        },
+        {
+            "type": "text",
+            "data": "Specify a Run Number Range for Each Workstation"
+        },
+        {
+            "type": "text",
+            "data": "Specify a Run Number Range for Each Workstation"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Specify a Run Number Range for Each Workstation",
+                "uuid": "a6c6d306-c8da-4df8-8440-33f2f24a9c1d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Override Automatic Run Numbers"
+        },
+        {
+            "type": "text",
+            "data": "Override Automatic Run Numbers"
+        },
+        {
+            "type": "text",
+            "data": "Part List Area Added to Pattern View"
+        },
+        {
+            "type": "text",
+            "data": "Part List Area Added to Pattern View"
+        },
+        {
+            "type": "text",
+            "data": "Clipbook Functionality Added to Pattern View"
+        },
+        {
+            "type": "text",
+            "data": "Clipbook Functionality Added to Pattern View"
+        },
+        {
+            "type": "text",
+            "data": "Define Dovetail Tools"
+        },
+        {
+            "type": "text",
+            "data": "Define Dovetail Tools"
+        },
+        {
+            "type": "text",
+            "data": "Name of Open PNC Job Displayed in the Titlebar"
+        },
+        {
+            "type": "text",
+            "data": "Name of Open PNC Job Displayed in the Titlebar"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Name of Open PNC Job Displayed in the Titlebar",
+                "uuid": "89b75d7b-fdd8-4aab-880e-c3d5f93759ed",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Pattern Font Properties Controls Both View and Print Font Properties"
+        },
+        {
+            "type": "text",
+            "data": "Pattern Font Properties Controls Both View and Print Font Properties"
+        },
+        {
+            "type": "text",
+            "data": "Edit Parts and Add/Modify Operations Utilizing Alphacad (No Longer Available)"
+        },
+        {
+            "type": "text",
+            "data": "Edit Parts and Add/Modify Operations Utilizing Alphacad (No Longer Available)"
+        },
+        {
+            "type": "text",
+            "data": "Label-IT"
+        },
+        {
+            "type": "text",
+            "data": "Label Placement Marker on Labels Part Graphic"
+        },
+        {
+            "type": "text",
+            "data": "Label Placement Marker on Labels Part Graphic"
+        },
+        {
+            "type": "text",
+            "data": "Label Placement Marker on Labels Part Graphic"
+        },
+        {
+            "type": "text",
+            "data": "Links"
+        },
+        {
+            "type": "text",
+            "data": "Accu-Systems HPMTH NC Link \n \n \n New Machine Type \"Other\" Added \n \n \n Hoffman/Razorgage Haunching System NC Link \n \n \n Holzma PTX Saw NC Link Updated to v1.06 \n \n \n BandCode Added to Holzma Saw NC Link \n \n \n Thermwood Direct Parts NC Link"
+        },
+        {
+            "type": "text",
+            "data": "Accu-Systems HPMTH NC Link"
+        },
+        {
+            "type": "text",
+            "data": "Accu-Systems HPMTH NC Link"
+        },
+        {
+            "type": "text",
+            "data": "New Machine Type \"Other\" Added"
+        },
+        {
+            "type": "text",
+            "data": "New Machine Type \"Other\" Added"
+        },
+        {
+            "type": "text",
+            "data": "Hoffman/Razorgage Haunching System NC Link"
+        },
+        {
+            "type": "text",
+            "data": "Hoffman/Razorgage Haunching System NC Link"
+        },
+        {
+            "type": "text",
+            "data": "Holzma PTX Saw NC Link Updated to v1.06"
+        },
+        {
+            "type": "text",
+            "data": "Holzma PTX Saw NC Link Updated to v1.06"
+        },
+        {
+            "type": "text",
+            "data": "BandCode Added to Holzma Saw NC Link"
+        },
+        {
+            "type": "text",
+            "data": "BandCode Added to Holzma Saw NC Link"
+        },
+        {
+            "type": "text",
+            "data": "Thermwood Direct Parts NC Link"
+        },
+        {
+            "type": "text",
+            "data": "Thermwood Direct Parts NC Link"
+        }
+    ],
+    "source_file": "NCEnglish\\Introduction\\Whats_New_Previous_Versions\\What_s_New_in_Version_2_1.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

@@ -1,0 +1,100 @@
+{
+    "id": "a858b011-b1d5-439e-a2a6-d585c35c1e6c",
+    "title": "Simple_Pricing_Table",
+    "content": [
+        {
+            "type": "text",
+            "data": "Simple Pricing Table"
+        },
+        {
+            "type": "image",
+            "data": "image122.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Simple Pricing is generally used to price single part Objects. This type of Pricing makes allowances on a per item basis and a size basis."
+        },
+        {
+            "type": "text",
+            "data": "Click an area below for more information."
+        },
+        {
+            "type": "image",
+            "data": "image140.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Item"
+        },
+        {
+            "type": "text",
+            "data": "This column shows the list of objects in the selected Catalog."
+        },
+        {
+            "type": "text",
+            "data": "$ / Item"
+        },
+        {
+            "type": "text",
+            "data": "This column holds the price per item."
+        },
+        {
+            "type": "text",
+            "data": "$ / Inch h"
+        },
+        {
+            "type": "text",
+            "data": "This column holds the price for the item as calculated per inch of height of the object."
+        },
+        {
+            "type": "text",
+            "data": "$ / Inch w"
+        },
+        {
+            "type": "text",
+            "data": "This column holds the price for the item as calculated per inch of width of the object."
+        },
+        {
+            "type": "text",
+            "data": "$ / Sqft w x h"
+        },
+        {
+            "type": "text",
+            "data": "This column holds the price for the item as calculated per square foot of the object width times height."
+        },
+        {
+            "type": "text",
+            "data": "$ / Sqft w x d"
+        },
+        {
+            "type": "text",
+            "data": "This column holds the price for the item as calculated per square foot of the object width times depth."
+        },
+        {
+            "type": "text",
+            "data": "$ / Sqft h x d"
+        },
+        {
+            "type": "text",
+            "data": "This column holds the price for the item as calculated per square foot of the object height times depth."
+        },
+        {
+            "type": "text",
+            "data": "Catalogs"
+        },
+        {
+            "type": "image",
+            "data": "image199.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Select the Catalogs to apply a Simple Pricing Table to from a list of the available Catalogs. In the drop down list, the Catalogs using Simple Pricing will appear."
+        }
+    ],
+    "source_file": "CEEnglish\\Explorer_View\\Ribbonbar\\Main_Tab\\Pricing_Group\\Simple_Pricing_Table.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

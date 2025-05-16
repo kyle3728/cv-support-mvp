@@ -1,0 +1,21 @@
+{
+    "id": "4f215d7d-5217-4e0a-893b-7dcad1f00882",
+    "title": "CimTech_P2P",
+    "content": [
+        {
+            "type": "text",
+            "data": "CimTech P2P"
+        },
+        {
+            "type": "text",
+            "data": "This is a Parts Router and/or Point-to-Point Link."
+        },
+        {
+            "type": "text",
+            "data": "Use this output when using CimTech with a Point to Point machine. CimTech knowledge must be setup to match the layer names output by the S2M Center. To ensure proper output, the router diameters in the Tool Catalog should be slightly less then the required dado width. Tool compensation is recommended for this output. The following information from the Tool Catalog can not be used by CimTech and is therefore ignored: Feed Rate, Descent Rate, and Maximum Depth Per Pass."
+        }
+    ],
+    "source_file": "NCEnglish\\Ribbonbar\\Main_Tab\\Machine\\NC_Links\\Parts_Router_P-2-P_Links\\CimTech_P2P.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

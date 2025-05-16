@@ -1,0 +1,653 @@
+{
+    "id": "8ab90fb7-f11b-4186-889e-78a93e65f026",
+    "title": "Ribbo",
+    "content": [
+        {
+            "type": "text",
+            "data": "Ribbonbar"
+        },
+        {
+            "type": "image",
+            "data": "image889.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Return"
+        },
+        {
+            "type": "image",
+            "data": "image891.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Closes the Door Manager and returns you to the CABINET VISION Opening Screen."
+        },
+        {
+            "type": "text",
+            "data": "New"
+        },
+        {
+            "type": "image",
+            "data": "image890.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Starts the New Door Wizard to create a new Door."
+        },
+        {
+            "type": "text",
+            "data": "Give your Door a Name and Description. Select the Type of Door; Slab, Multi Piece, or Template.  Add Tags (to aid in Searches), which can be seperated by a space or a comma,and Notes. Select whether you are designing a Door or\n    Drawer Front (this simply sets a realistic initial sample size) then click Next."
+        },
+        {
+            "type": "image",
+            "data": "image898.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Slab"
+        },
+        {
+            "type": "image",
+            "data": "image894.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Following are the options on the Setup Door screen for a Slab Door:"
+        },
+        {
+            "type": "text",
+            "data": "Route Path - Style"
+        },
+        {
+            "type": "text",
+            "data": "If the Slab Door you are defining has a Route Path select the Style here. Following are the Style options:"
+        },
+        {
+            "type": "image",
+            "data": "image895.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Shape - Radius"
+        },
+        {
+            "type": "text",
+            "data": "Specifies the Radius if the Radius or Inv Radius Corners Route Paths are selected."
+        },
+        {
+            "type": "text",
+            "data": "Shape - Chamfer"
+        },
+        {
+            "type": "text",
+            "data": "Specifies the Chamfer size if the Chamfer Route Path Style is selected."
+        },
+        {
+            "type": "text",
+            "data": "Spacing - Left Stile"
+        },
+        {
+            "type": "text",
+            "data": "Specifies the Left Stile Spacing if a Route Path Style other than None is selected."
+        },
+        {
+            "type": "text",
+            "data": "Spacing - Right Stile"
+        },
+        {
+            "type": "text",
+            "data": "Specifies the Right Stile Spacing if a Route Path Style other than None is selected."
+        },
+        {
+            "type": "text",
+            "data": "Spacing - Top Rail"
+        },
+        {
+            "type": "text",
+            "data": "Specifies the Top Stile Spacing if a Route Path Style other than None is selected."
+        },
+        {
+            "type": "text",
+            "data": "Spacing - Bottom Rail"
+        },
+        {
+            "type": "text",
+            "data": "Specifies the Bottom Stile Spacing if a Route Path Style other than None is selected."
+        },
+        {
+            "type": "text",
+            "data": "Multi Piece"
+        },
+        {
+            "type": "image",
+            "data": "image893.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Following are the options on the Setup Door screen for a Multi-Piece Door:"
+        },
+        {
+            "type": "text",
+            "data": "Panel - Type"
+        },
+        {
+            "type": "text",
+            "data": "Select from the following Panel Types:"
+        },
+        {
+            "type": "text",
+            "data": "None  - Most commonly used if your Door has no Panel and consists only of Stiles and Rails. \n \n Raised  most commonly used for solid lumber. \n \n Flat  most commonly used for thin plywood or thin panel stock. \n \n \n Glass  most commonly used for glass. \n \n \n HSlats   most commonly used for tambour Doors with the slats going left and right. If you never use this type of panel you could assign it as cloth or some other Material that you do use. \n \n \n VSlats   most commonly used for tambour door with the slats going up and down. If you never use this type of panel you could assign it as cloth or some other Material that you do use. \n \n Slab   most commonly used for thick plywood or thick panel stock."
+        },
+        {
+            "type": "text",
+            "data": "None  - Most commonly used if your Door has no Panel and consists only of Stiles and Rails."
+        },
+        {
+            "type": "text",
+            "data": "None  - Most commonly used if your Door has no Panel and consists only of Stiles and Rails."
+        },
+        {
+            "type": "text",
+            "data": "Raised  most commonly used for solid lumber."
+        },
+        {
+            "type": "text",
+            "data": "Flat  most commonly used for thin plywood or thin panel stock."
+        },
+        {
+            "type": "text",
+            "data": "Flat  most commonly used for thin plywood or thin panel stock."
+        },
+        {
+            "type": "text",
+            "data": "Glass  most commonly used for glass."
+        },
+        {
+            "type": "text",
+            "data": "Glass  most commonly used for glass."
+        },
+        {
+            "type": "text",
+            "data": "HSlats   most commonly used for tambour Doors with the slats going left and right. If you never use this type of panel you could assign it as cloth or some other Material that you do use."
+        },
+        {
+            "type": "text",
+            "data": "HSlats   most commonly used for tambour Doors with the slats going left and right. If you never use this type of panel you could assign it as cloth or some other Material that you do use."
+        },
+        {
+            "type": "text",
+            "data": "VSlats   most commonly used for tambour door with the slats going up and down. If you never use this type of panel you could assign it as cloth or some other Material that you do use."
+        },
+        {
+            "type": "text",
+            "data": "VSlats   most commonly used for tambour door with the slats going up and down. If you never use this type of panel you could assign it as cloth or some other Material that you do use."
+        },
+        {
+            "type": "text",
+            "data": "Slab   most commonly used for thick plywood or thick panel stock."
+        },
+        {
+            "type": "text",
+            "data": "Panel - Panel Inset"
+        },
+        {
+            "type": "text",
+            "data": "Panel Inset is the distance you want the Door panel to stick into one side of the Door."
+        },
+        {
+            "type": "text",
+            "data": "Panel - Hor Slat Width"
+        },
+        {
+            "type": "text",
+            "data": "This establishes the default \"Center-to-Center\" spacing for Horizontal Slats when the Horizontal Slat Panel Type is defined for your Door."
+        },
+        {
+            "type": "text",
+            "data": "Panel - Ver Slat Width"
+        },
+        {
+            "type": "text",
+            "data": "This establishes the default \"Center-to-Center\" spacing for Vertical Slats when the Vertical Slat Panel Type is defined for your Door."
+        },
+        {
+            "type": "text",
+            "data": "Frame Stile and Rail Widths"
+        },
+        {
+            "type": "text",
+            "data": "The value entered in these field represents the portion of the Stile or Rail as it exists without any Inside Profile on it. The dimension of the Inside Profile, optionally depending on the 'Extend\n    Part' Property for the Inside Edge Profile, is in addition to the Stile or Rail width. If there is no Inside Profile, then the value set as the default width for the Stile or Rail is the net width of the Stile or Rail."
+        },
+        {
+            "type": "text",
+            "data": "If you highlight a Stile or Rail in the Section areaof the Door Manager, you will see the Stile or Rail width, and an \"Extra Width\". Remember, the overall width of the Stile or Rail is the default value, PLUS the Profile for the Inside Edge,\n    if any."
+        },
+        {
+            "type": "text",
+            "data": "You will note that in the graphic above that the Left Stile, Right Stile, Top Rail, and Bottom Rail all preset to 2 1/8. In the graphic below the Left Stile of a Door is highlighted. If this Door were being produced, the finished width of the Left\n    Stile would be 2 . You will notice that the width of the Stile says \"Width\"+ \"Extra\"these two measurements must add up to the overall width of the finished Stile. Since this Door is using a 3/8 Inside Edge Profile, setting\n    the Width to 2 1/8 (2  - 3/8 = 2 1/8) under \"Default Rail & Stile Widths\"will automatically fill in the \"Width\"portion of the \"Width\"+ \"Extra\"with the 2 1/8 needed."
+        },
+        {
+            "type": "image",
+            "data": "image896.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "You will note that the Mid Rail and the Mid Stile in this scenario should be set to 1 . This is because to achieve a 2  finished size you have to take into account the 3/8\" Inside Edge Profile on both sides of the Mid Stiles and Rails."
+        },
+        {
+            "type": "text",
+            "data": "2 x 3/8 IEP ="
+        },
+        {
+            "type": "text",
+            "data": "2  -  = 1"
+        },
+        {
+            "type": "text",
+            "data": "Frame - Miter"
+        },
+        {
+            "type": "text",
+            "data": "The Miter option gives you the ability to choose whether or not your Stiles and Rails Miter."
+        },
+        {
+            "type": "text",
+            "data": "Copy"
+        },
+        {
+            "type": "image",
+            "data": "image899.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Makes a Copy of the currently selected Door Style."
+        },
+        {
+            "type": "text",
+            "data": "Delete"
+        },
+        {
+            "type": "image",
+            "data": "image900.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Deletes the currently selected Door Style."
+        },
+        {
+            "type": "text",
+            "data": "Door Properties"
+        },
+        {
+            "type": "image",
+            "data": "image901.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Door Properties",
+                "uuid": "bd6cf661-3a2e-4600-afa9-33a56ce45fa6",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Catalog Selector"
+        },
+        {
+            "type": "image",
+            "data": "image925.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Allows you to select the active Door Catalog."
+        },
+        {
+            "type": "text",
+            "data": "New Catalog"
+        },
+        {
+            "type": "image",
+            "data": "image971.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Creates a new Catalog."
+        },
+        {
+            "type": "text",
+            "data": "Delete Catalog"
+        },
+        {
+            "type": "image",
+            "data": "image1013.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Deletes the selected Catalog.  CAREFUL, THIS CAN NOT BE UNDONE."
+        },
+        {
+            "type": "text",
+            "data": "Catalog Properties"
+        },
+        {
+            "type": "image",
+            "data": "image1014.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image1018.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "You can set the follow main Propertieson the currently selected Catalog here:"
+        },
+        {
+            "type": "text",
+            "data": "Name -  The Name of the Catalog. \n \n \n Description -  The Description of the Catalog."
+        },
+        {
+            "type": "text",
+            "data": "Name -  The Name of the Catalog."
+        },
+        {
+            "type": "text",
+            "data": "Name -  The Name of the Catalog."
+        },
+        {
+            "type": "text",
+            "data": "Description -  The Description of the Catalog."
+        },
+        {
+            "type": "text",
+            "data": "Description -  The Description of the Catalog."
+        },
+        {
+            "type": "text",
+            "data": "Construction Defaults are simply the default settings for any new Door Style that you create. Changing these settings will not have any effect on existing Doors; individual Doors must be modified individually."
+        },
+        {
+            "type": "text",
+            "data": "This area will allow you to set up your normal, or default Construction Defaults for all of your Doors. This will allow you to set up your Door Styles quickly, especially if your Stiles and Rails, for the most part, are the same size for most of your Doors. Here you have the opportunity to set the fields to their most common values. Typically, a default setting is chosen because it is the one used more often than not. Creating new Door Styles and redoing old Doors is easier if you have your Door Construction Defaults preset."
+        },
+        {
+            "type": "text",
+            "data": "Frame Stile Width -  The Default Frame Stile Width used when creating a new Door in this Catalog. \n \n \n Mid Stile Width - The Default Mid Stile Width used when creating a new Door in this Catalog. \n \n \n Frame Rail Width - The Default Frame Rail Width used when creating a new Door in this Catalog. \n \n \n Mid Rail Width - The Default Mid Rail Width used when creating a new Door in this Catalog. \n \n \n Joint Adjustment - Joint Adjustmentis typically an adjustment only necessary when doing Mortise and Tenon type Doors.Do not use this setting ifyour Door Construction Method is cope and stick or butt joint. When doing a Mortise\n        and Tenon Door you would the Joint Adjustment of the Mortise and Tenon before creating a Mortise and Tenon type Door. Also make sure you do not select an Inside Edge Profile to use with a Mortise and Tenon Door, as CV could add the Joint Adjustment\n        and the Inside Edge Profile to your Door Parts. After the Door is created come back here and zero out the Joint Adjustment value. \n \n \n Mitered Frame -  Sets whether new Doors default to being Mitered or not. \n \n \n Panel Type - The Default Panel Type used when creating a new Door in this Catalog. \n \n \n Panel Inset -  The Default Panel Inset used when creating a new Door in this Catalog. \n \n \n Vertical Slat Width - This establishes the default \"Center-to-Center\" spacing for Vertical Slats when the Vertical Slat Panel Type is defined for your Doorin this Catalog. \n \n \n Horizontal Slat Width -  This establishes the default \"Center-to-Center\" spacing for Horizontal Slats when the Horizontal Slat Panel Type is defined for your Doorin this Catalog."
+        },
+        {
+            "type": "text",
+            "data": "Frame Stile Width -  The Default Frame Stile Width used when creating a new Door in this Catalog."
+        },
+        {
+            "type": "text",
+            "data": "Frame Stile Width -  The Default Frame Stile Width used when creating a new Door in this Catalog."
+        },
+        {
+            "type": "text",
+            "data": "Mid Stile Width - The Default Mid Stile Width used when creating a new Door in this Catalog."
+        },
+        {
+            "type": "text",
+            "data": "Mid Stile Width - The Default Mid Stile Width used when creating a new Door in this Catalog."
+        },
+        {
+            "type": "text",
+            "data": "Frame Rail Width - The Default Frame Rail Width used when creating a new Door in this Catalog."
+        },
+        {
+            "type": "text",
+            "data": "Frame Rail Width - The Default Frame Rail Width used when creating a new Door in this Catalog."
+        },
+        {
+            "type": "text",
+            "data": "Mid Rail Width - The Default Mid Rail Width used when creating a new Door in this Catalog."
+        },
+        {
+            "type": "text",
+            "data": "Mid Rail Width - The Default Mid Rail Width used when creating a new Door in this Catalog."
+        },
+        {
+            "type": "text",
+            "data": "Joint Adjustment - Joint Adjustmentis typically an adjustment only necessary when doing Mortise and Tenon type Doors.Do not use this setting ifyour Door Construction Method is cope and stick or butt joint. When doing a Mortise\n        and Tenon Door you would the Joint Adjustment of the Mortise and Tenon before creating a Mortise and Tenon type Door. Also make sure you do not select an Inside Edge Profile to use with a Mortise and Tenon Door, as CV could add the Joint Adjustment\n        and the Inside Edge Profile to your Door Parts. After the Door is created come back here and zero out the Joint Adjustment value."
+        },
+        {
+            "type": "text",
+            "data": "Joint Adjustment - Joint Adjustmentis typically an adjustment only necessary when doing Mortise and Tenon type Doors.Do not use this setting ifyour Door Construction Method is cope and stick or butt joint. When doing a Mortise\n        and Tenon Door you would the Joint Adjustment of the Mortise and Tenon before creating a Mortise and Tenon type Door. Also make sure you do not select an Inside Edge Profile to use with a Mortise and Tenon Door, as CV could add the Joint Adjustment\n        and the Inside Edge Profile to your Door Parts. After the Door is created come back here and zero out the Joint Adjustment value."
+        },
+        {
+            "type": "text",
+            "data": "Mitered Frame -  Sets whether new Doors default to being Mitered or not."
+        },
+        {
+            "type": "text",
+            "data": "Mitered Frame -  Sets whether new Doors default to being Mitered or not."
+        },
+        {
+            "type": "text",
+            "data": "Panel Type - The Default Panel Type used when creating a new Door in this Catalog."
+        },
+        {
+            "type": "text",
+            "data": "Panel Type - The Default Panel Type used when creating a new Door in this Catalog."
+        },
+        {
+            "type": "text",
+            "data": "Panel Inset -  The Default Panel Inset used when creating a new Door in this Catalog."
+        },
+        {
+            "type": "text",
+            "data": "Panel Inset -  The Default Panel Inset used when creating a new Door in this Catalog."
+        },
+        {
+            "type": "text",
+            "data": "Vertical Slat Width - This establishes the default \"Center-to-Center\" spacing for Vertical Slats when the Vertical Slat Panel Type is defined for your Doorin this Catalog."
+        },
+        {
+            "type": "text",
+            "data": "Vertical Slat Width - This establishes the default \"Center-to-Center\" spacing for Vertical Slats when the Vertical Slat Panel Type is defined for your Doorin this Catalog."
+        },
+        {
+            "type": "text",
+            "data": "Horizontal Slat Width -  This establishes the default \"Center-to-Center\" spacing for Horizontal Slats when the Horizontal Slat Panel Type is defined for your Doorin this Catalog."
+        },
+        {
+            "type": "text",
+            "data": "Horizontal Slat Width -  This establishes the default \"Center-to-Center\" spacing for Horizontal Slats when the Horizontal Slat Panel Type is defined for your Doorin this Catalog."
+        },
+        {
+            "type": "text",
+            "data": "Price Matrix"
+        },
+        {
+            "type": "image",
+            "data": "image1015.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Door Matrix Pricing allows you to establish standard Door sizes along with fixed Prices or Pricing formulas for each size combination that you offer for your Doors. See the  Part Manager Price Matrix     topic for more information."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Part Manager Price Matrix",
+                "uuid": "70a0b8a1-4e8b-4d34-ad2f-a1783cdcdd7d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "List"
+        },
+        {
+            "type": "image",
+            "data": "image1016.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Changes the main screen view to a List View."
+        },
+        {
+            "type": "image",
+            "data": "image1020.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This view allows the viewing and editing of the following Door Properties:"
+        },
+        {
+            "type": "text",
+            "data": "ID  (not editable) \n Name \n Description \n Unit Cost \n Cost/SqFt \n Tag \n Note"
+        },
+        {
+            "type": "text",
+            "data": "ID  (not editable)"
+        },
+        {
+            "type": "text",
+            "data": "Name"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "Unit Cost"
+        },
+        {
+            "type": "text",
+            "data": "Cost/SqFt"
+        },
+        {
+            "type": "text",
+            "data": "Tag"
+        },
+        {
+            "type": "text",
+            "data": "Note"
+        },
+        {
+            "type": "text",
+            "data": "Icon"
+        },
+        {
+            "type": "image",
+            "data": "image1017.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Changes the main screen view to an Icon View."
+        },
+        {
+            "type": "image",
+            "data": "image1021.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "If the Door Icons are not visible or are not up to date go to  Utilities | Generate Icons ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Utilities | Generate Icons",
+                "uuid": "30f27b7c-c12f-4936-bfad-fe4e55e95284",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Utilities Tab"
+        },
+        {
+            "type": "image",
+            "data": "image1022.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Return"
+        },
+        {
+            "type": "image",
+            "data": "image891.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Closes the Door Manager and returns you to the CABINET VISION Opening Screen."
+        },
+        {
+            "type": "text",
+            "data": "Generate Icons"
+        },
+        {
+            "type": "image",
+            "data": "image1023.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option will regenerate the icons that represent your Doors. Use this utility if your icons appear incorrectly. The Door Icons are used to display a sample graphic of the Door on the Door Manager main screen."
+        },
+        {
+            "type": "text",
+            "data": "Assign Materials"
+        },
+        {
+            "type": "image",
+            "data": "image1024.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image1042.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Assign Materials Utility can be used to add new or existing Material Schedules to selected Doors within a Door Catalog. Simply select the Material Schedules on the left and the Doors to apply them to on the right.You can also assign the Costing\n    to the Doors at the same time."
+        },
+        {
+            "type": "text",
+            "data": "Assign Profiles"
+        },
+        {
+            "type": "image",
+            "data": "image1025.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image1043.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Assign Profiles Utility can be used to add new or existing Profiles to selected Doors within a Door Catalog. Simply select the Profile Type and Profileson the left and the Doors to apply them to on the right.You can also assign the Costing to the\n    Doors at the same time."
+        }
+    ],
+    "source_file": "CVEnglish_Casebuilder\\System_Level\\Ribbonbar\\Main_Tab\\Catalogs_Group\\Door_Manager\\Ribbonbar\\Ribbo.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

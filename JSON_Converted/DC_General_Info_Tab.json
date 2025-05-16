@@ -1,0 +1,466 @@
+{
+    "id": "d1faae4f-ff5c-49e5-95cf-756c3c48e318",
+    "title": "DC_General_Info_Tab",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top \n > \n \n \n System Level \n > \n \n Ribbonbar \n > \n \n Main Tab \n > \n \n Catalogs Group \n > \n \n Door Catalog \n > \n \n Door Catalog Tabs \n > \n \n General Info Tab"
+        },
+        {
+            "type": "text",
+            "data": "Top \n >"
+        },
+        {
+            "type": "text",
+            "data": "System Level \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "System Level",
+                "uuid": "4450866f-fd9c-46df-abf3-7843c5a1ef37",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Ribbonbar \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Ribbonbar",
+                "uuid": "3bbac75c-2b61-42af-9bce-b90335e66dde",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Main Tab \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Main Tab",
+                "uuid": "3bbac75c-2b61-42af-9bce-b90335e66dde",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Catalogs Group \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Catalogs Group",
+                "uuid": "f4a43f08-b40b-442c-8f03-a96c2a64640f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Door Catalog \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Door Catalog",
+                "uuid": "2da09610-ccab-42a9-a5ce-4ad5fa83394a",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Door Catalog Tabs \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Door Catalog Tabs",
+                "uuid": "d1faae4f-ff5c-49e5-95cf-756c3c48e318",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "General Info Tab"
+        },
+        {
+            "type": "text",
+            "data": "General Info Tab"
+        },
+        {
+            "type": "text",
+            "data": "General Info"
+        },
+        {
+            "type": "text",
+            "data": "Click on the Tabs below for more information on them"
+        },
+        {
+            "type": "image",
+            "data": "Door_Catalog.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There are two main areas on the General Info Tab:"
+        },
+        {
+            "type": "text",
+            "data": "Door Properties"
+        },
+        {
+            "type": "text",
+            "data": "Door Name -  The Door Name appears in the field below the icon that represents the Door. \n \n \n Category -  The  Category  of the Door is simply the location of that Door in the Door Catalog. When you click the Select a Door button, the Door Catalog should open and the Categories will appear as tabs in the window. \n \n \n Notes -  Enter any Notes you would like to appear on the Door Reports, in the Report Center, that include Notes. \n \n \n Per Door -  This is where you set a Flat Price for this Door Style. \n \n \n Per SqUnit -  This is where you set a Per Square Unit (Either Meter or Foot depending on your active  Unit of Measure ) Price for this Door Style. \n \n \n Sample Material -  Allows you to specify the Sample Material to use in the Preview pane in this area."
+        },
+        {
+            "type": "text",
+            "data": "Door Name -  The Door Name appears in the field below the icon that represents the Door."
+        },
+        {
+            "type": "text",
+            "data": "Door Name -  The Door Name appears in the field below the icon that represents the Door."
+        },
+        {
+            "type": "text",
+            "data": "Category -  The  Category  of the Door is simply the location of that Door in the Door Catalog. When you click the Select a Door button, the Door Catalog should open and the Categories will appear as tabs in the window."
+        },
+        {
+            "type": "text",
+            "data": "Category -  The  Category  of the Door is simply the location of that Door in the Door Catalog. When you click the Select a Door button, the Door Catalog should open and the Categories will appear as tabs in the window."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Category",
+                "uuid": "47a5eda2-1110-4217-a0ae-cb376916c8ce",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Notes -  Enter any Notes you would like to appear on the Door Reports, in the Report Center, that include Notes."
+        },
+        {
+            "type": "text",
+            "data": "Notes -  Enter any Notes you would like to appear on the Door Reports, in the Report Center, that include Notes."
+        },
+        {
+            "type": "text",
+            "data": "Per Door -  This is where you set a Flat Price for this Door Style."
+        },
+        {
+            "type": "text",
+            "data": "Per Door -  This is where you set a Flat Price for this Door Style."
+        },
+        {
+            "type": "text",
+            "data": "Per SqUnit -  This is where you set a Per Square Unit (Either Meter or Foot depending on your active  Unit of Measure ) Price for this Door Style."
+        },
+        {
+            "type": "text",
+            "data": "Per SqUnit -  This is where you set a Per Square Unit (Either Meter or Foot depending on your active  Unit of Measure ) Price for this Door Style."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Unit of Measure",
+                "uuid": "a6c6d306-c8da-4df8-8440-33f2f24a9c1d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Sample Material -  Allows you to specify the Sample Material to use in the Preview pane in this area."
+        },
+        {
+            "type": "text",
+            "data": "Sample Material -  Allows you to specify the Sample Material to use in the Preview pane in this area."
+        },
+        {
+            "type": "text",
+            "data": "If no Sample Material is available for selection then that means not Material has been allowed for the current Door Style. See the  Material Tab topic  for more information."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Material Tab topic",
+                "uuid": "d23137a4-bc4e-4584-8c70-1e39159e3313",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Sample Outside Profile -  Allows you to specify the Sample Outside Edge Profile to use in the Preview pane in this area."
+        },
+        {
+            "type": "text",
+            "data": "Sample Outside Profile -  Allows you to specify the Sample Outside Edge Profile to use in the Preview pane in this area."
+        },
+        {
+            "type": "text",
+            "data": "Sample Outside Profile -  Allows you to specify the Sample Outside Edge Profile to use in the Preview pane in this area."
+        },
+        {
+            "type": "text",
+            "data": "If no Sample Outside Edge Profile is available for selection then that means no Outside Edge Profile has been allowed for the current Door Style. See the  Profile Tab topic  for more information."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Profile Tab topic",
+                "uuid": "30548728-b249-443e-a3a1-d2fe5dd65ec8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Sample Inside Profile -  Allows you to specify the Sample Inside Edge Profile to use in the Preview pane in this area."
+        },
+        {
+            "type": "text",
+            "data": "Sample Inside Profile -  Allows you to specify the Sample Inside Edge Profile to use in the Preview pane in this area."
+        },
+        {
+            "type": "text",
+            "data": "Sample Inside Profile -  Allows you to specify the Sample Inside Edge Profile to use in the Preview pane in this area."
+        },
+        {
+            "type": "text",
+            "data": "If no Sample Inside Edge Profile is available for selection then that means no Inside Edge Profile has been allowed for the current Door Style. See the  Profile Tab topic  for more information."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Profile Tab topic",
+                "uuid": "30548728-b249-443e-a3a1-d2fe5dd65ec8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Sample Panel Profile -  Allows you to specify the Sample Raised Panel Detail to use in the Preview pane in this area."
+        },
+        {
+            "type": "text",
+            "data": "Sample Panel Profile -  Allows you to specify the Sample Raised Panel Detail to use in the Preview pane in this area."
+        },
+        {
+            "type": "text",
+            "data": "Sample Panel Profile -  Allows you to specify the Sample Raised Panel Detail to use in the Preview pane in this area."
+        },
+        {
+            "type": "text",
+            "data": "If no Sample Raised Panel Detail is available for selection then that means no Raised Panel Detail has been allowed for the current Door Style. See the  Profile Tab topic  for more information."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Profile Tab topic",
+                "uuid": "30548728-b249-443e-a3a1-d2fe5dd65ec8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Sample Route Profile -  Allows you to specify the Sample Route Profile to use in the Preview pane in this area."
+        },
+        {
+            "type": "text",
+            "data": "Sample Route Profile -  Allows you to specify the Sample Route Profile to use in the Preview pane in this area."
+        },
+        {
+            "type": "text",
+            "data": "Sample Route Profile -  Allows you to specify the Sample Route Profile to use in the Preview pane in this area."
+        },
+        {
+            "type": "text",
+            "data": "If no Sample Route Profile is available for selection then that means no Route Profile has been allowed for the current Door Style. See the  Profile Tab topic  for more information."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Profile Tab topic",
+                "uuid": "30548728-b249-443e-a3a1-d2fe5dd65ec8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Preview"
+        },
+        {
+            "type": "text",
+            "data": "The Preview pane is the largest part of the General Info tab. In the Preview pane, you will see a graphic representation of the Door that is similar to the graphic representation that will appear in a Job. This view may be rotated, zoomed, and rendered as if it were in a Job. Also, the Door may be exploded or bent to give you a more detailed view."
+        },
+        {
+            "type": "image",
+            "data": "image2169.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There are six options in the Preview Pane:"
+        },
+        {
+            "type": "text",
+            "data": "Rotate View"
+        },
+        {
+            "type": "image",
+            "data": "image2170.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "By Default Rotate View is active. To rotate your Door simply click in the View area and drag, and the Door will Rotate. If you deactivate Rotate View you can click and drag to Pan the View of the Door."
+        },
+        {
+            "type": "text",
+            "data": "Zoom"
+        },
+        {
+            "type": "image",
+            "data": "image2171.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This tool is used for increasing the size of an area on your screen to see a detail or examine a condition. By clicking on the Zoom In tool, then clicking in the center of the area you would like to Zoom In to, and, while holding the mouse button down, dragging the cursor diagonally across the item you wish to zoom in on, finally releasing the mouse button at the end of the area, your screen will zoom in."
+        },
+        {
+            "type": "text",
+            "data": "Reset View"
+        },
+        {
+            "type": "image",
+            "data": "image2172.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Use this Tool after Rotating, Panning, or Zooming to bring the View to default."
+        },
+        {
+            "type": "text",
+            "data": "View Mode"
+        },
+        {
+            "type": "image",
+            "data": "image1497.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There are three View Modes:"
+        },
+        {
+            "type": "text",
+            "data": "Line Mode -  This is the default view. You will see the Door as if it had wire lines at the corners."
+        },
+        {
+            "type": "image",
+            "data": "image1498.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image664.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Fill Mode -  This mode of rendering causes the Door to appear solid, with a Finish added to them. The Door does not display wood grain."
+        },
+        {
+            "type": "image",
+            "data": "image1499.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image665.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Render Mode -  This mode of rendering causes the Door to appear solid, with a Finish and Textures (Wood Grain) applied to it."
+        },
+        {
+            "type": "image",
+            "data": "image1500.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image117.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Explode Tool"
+        },
+        {
+            "type": "image",
+            "data": "image272.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Allows you to incrementally Explode your Door."
+        },
+        {
+            "type": "image",
+            "data": "image668.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Bend Tool"
+        },
+        {
+            "type": "image",
+            "data": "image273.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Allows you to incrementally Bend your Door."
+        },
+        {
+            "type": "image",
+            "data": "image671112.gif",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\System_Level\\Ribbonbar\\Main_Tab\\Catalogs_Group\\Door_Catalog\\Door_Catalog_Tabs\\DC_General_Info_Tab.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

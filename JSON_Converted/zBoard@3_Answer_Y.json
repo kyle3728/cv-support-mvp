@@ -1,0 +1,33 @@
+{
+    "id": "ac0307d4-5b91-4b1d-aac7-b4e40519a36d",
+    "title": "zBoard@3_Answer_Y",
+    "content": [
+        {
+            "type": "text",
+            "data": "Board@3 Answer Y"
+        },
+        {
+            "type": "text",
+            "data": "The Y is not 0\" so we will need to"
+        },
+        {
+            "type": "text",
+            "data": "do something here. There is really"
+        },
+        {
+            "type": "text",
+            "data": "no formula per se we just manually"
+        },
+        {
+            "type": "text",
+            "data": "raised the board up .5\" so that it"
+        },
+        {
+            "type": "text",
+            "data": "would look better."
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\Parametric_Editing\\Intelligence_Workshop\\5th_Exercise\\zBoard@3_Answer_Y.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

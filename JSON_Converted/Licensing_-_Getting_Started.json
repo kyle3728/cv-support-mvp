@@ -1,0 +1,61 @@
+{
+    "id": "555e4b80-e192-4c14-b7dc-2b68046a7206",
+    "title": "Licensing_-_Getting_Started",
+    "content": [
+        {
+            "type": "text",
+            "data": "Licensing - Getting Started"
+        },
+        {
+            "type": "text",
+            "data": "You can only install the License  after  CABINET VISIONhas been installed on your PC."
+        },
+        {
+            "type": "text",
+            "data": "When first starting CABINET VISIONwithout an active License you will be presented with the License Setup Wizard."
+        },
+        {
+            "type": "text",
+            "data": "Choose License Type"
+        },
+        {
+            "type": "image",
+            "data": "image3300.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Step 1 -  Select from the available Licensing methods. The method must match the Licence Delivery Note which was emailed to you."
+        },
+        {
+            "type": "image",
+            "data": "image3301.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Step 2 - Click the \"Install\" button."
+        },
+        {
+            "type": "text",
+            "data": "Step 3 -  Enter the Servercode from the License Delivery Note which was emailed to you. You should have received your Servercode via an email from Vero Software Limited  orders@verosoftware.com  that contains your Servercode (see image below). If you did not receive this email then you will need to contact your CABINET VISION Software Representative to have it emailed to you."
+        },
+        {
+            "type": "image",
+            "data": "image6271.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image3302.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Step 3 -  Click the Install button."
+        }
+    ],
+    "source_file": "CVEnglish\\System_Level\\Ribbonbar\\Utilities_Tab\\License_Manager\\Licensing_-_Getting_Started.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

@@ -1,0 +1,63 @@
+{
+    "id": "c0b08f22-244f-42e8-a77c-e01182e73d9f",
+    "title": "RLLA_Assembly_Molding_View",
+    "content": [
+        {
+            "type": "text",
+            "data": "Assembly Molding View"
+        },
+        {
+            "type": "image",
+            "data": "1AUALL.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image6222.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Following are the Layers that can be edited:"
+        },
+        {
+            "type": "text",
+            "data": "Hardware"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Hardware",
+                "uuid": "e69c8fa7-a9ee-4ffb-8937-668917fc1f66",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Master Operations"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Master Operations",
+                "uuid": "fd773416-aa46-47ef-8ce0-7bd5e2ad791f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Dimensions"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Dimensions",
+                "uuid": "8eba597e-b494-4a38-89b6-ffa9c68c6110",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\RLLA_Assembly_Molding_View.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

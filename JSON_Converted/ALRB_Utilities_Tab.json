@@ -1,0 +1,69 @@
+{
+    "id": "e42529ad-15b4-4296-9b81-3c99c114bd33",
+    "title": "ALRB_Utilities_Tab",
+    "content": [
+        {
+            "type": "text",
+            "data": "Utilities Tab"
+        },
+        {
+            "type": "text",
+            "data": "Click the options below for more information"
+        },
+        {
+            "type": "text",
+            "data": "Face View,   Plan View, &   End View"
+        },
+        {
+            "type": "image",
+            "data": "image181.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image182.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image183.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "ALRB_Utilities_Ortho.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "3D View"
+        },
+        {
+            "type": "image",
+            "data": "image72.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "RLRB_3D_Utilities_Tab.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Reports View"
+        },
+        {
+            "type": "image",
+            "data": "image73.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "ALRB_Utilities_Reports.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish\\Assembly_Level\\Ribbonbar\\Utilities_Tab\\ALRB_Utilities_Tab.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

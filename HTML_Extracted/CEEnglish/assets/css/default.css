@@ -1,0 +1,112 @@
+/*Created with Adobe RoboHelp 10.*/
+body {
+	font-family: Arial;
+	background-color: #ffffff;
+}
+h1 {
+	font-weight: bold;
+	font-size: 18pt;
+}
+li.H1 {
+	font-weight: bold;
+	font-size: 18pt;
+}
+h2 {
+	font-weight: bold;
+	font-size: 14pt;
+}
+li.H2 {
+	font-weight: bold;
+	font-size: 14pt;
+}
+h3 {
+	font-weight: bold;
+	font-size: 12pt;
+}
+li.H3 {
+	font-weight: bold;
+	font-size: 12pt;
+}
+h4 {
+	font-weight: bold;
+	font-size: 11pt;
+}
+li.H4 {
+	font-weight: bold;
+	font-size: 11pt;
+}
+h5 {
+	font-weight: bold;
+	font-size: 10.0pt;
+}
+li.H5 {
+	font-weight: bold;
+	font-size: 10.0pt;
+}
+h6 {
+	font-weight: bold;
+	font-size: 8.0pt;
+}
+li.H6 {
+	font-weight: bold;
+	font-size: 8.0pt;
+}
+p {
+	font-weight: normal;
+	margin-left: 0px;
+	text-align: left;
+	font-size: 12pt;
+	margin-top: 13.5pt;
+	margin-bottom: 13.5pt;
+}
+li.P {
+	font-size: 12.0pt;
+	font-weight: normal;
+	text-align: left;
+}
+a.expandspot {
+	color: #008000;
+	cursor: hand;
+	font-style: italic;
+	text-decoration: none;
+}
+span.expandtext {
+	font-style: italic;
+	font-weight: normal;
+	color: #ff0000;
+}
+a.dropspot {
+	cursor: hand;
+	color: #008000;
+	font-style: italic;
+	text-decoration: none;
+}
+a.glossterm {
+	color: #800000;
+	cursor: hand;
+	font-style: italic;
+	text-decoration: none;
+}
+span.glosstext {
+	font-style: italic;
+	font-weight: normal;
+	color: #0000ff;
+}
+ol,ul {
+	font-size: 12pt;
+	font-family: Arial, sans-serif;
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+p.Indent_1_Bulllet {
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+p.Bold-Right {
+	font-weight: bold;
+	text-align: right;
+}
+p.ITALIC {
+	font-style: italic;
+	font-family: Arial, sans-serif;
+}

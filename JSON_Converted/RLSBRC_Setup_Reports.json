@@ -1,0 +1,320 @@
+{
+    "id": "092f4a3a-8837-49e4-a08d-9148a095d93b",
+    "title": "RLSBRC_Setup_Reports",
+    "content": [
+        {
+            "type": "text",
+            "data": "Setup Reports"
+        },
+        {
+            "type": "image",
+            "data": "image4304.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "1AUALL.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Report Groups may be created to contain Reports that are similar to each other OR Report Groups could be created to contain all Reports needed for a certain type of Job."
+        },
+        {
+            "type": "text",
+            "data": "For example: If you build both Frameless and Face Frame Cabinets but the Reports that you use are different based on the Construction Style, you could create a Frameless Report Group that contained all Reports for Frameless Cabinets and a Face Frame Report Group that contains all Reports for Face Frame Cabinets. The advantage of this type of a setup is that when you are ready to print out the Reports you can simply use the  Print Reports In Group  option to print all of the Reports in this group at one time."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Print Reports In Group",
+                "uuid": "4faeaa94-8e33-417e-8315-02b7a820da19",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Creating a Report Group"
+        },
+        {
+            "type": "text",
+            "data": "When you click Setup Reports, you will see the following screen:"
+        },
+        {
+            "type": "image",
+            "data": "Setup_Reports_Main_Screen.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This is a list of the Reports that are available in CABINET VISION. In the sidebar is a list of all of the Report Groups that have been created.  To create a new report group, simply click the Add button  and then enter the name that you want to use for this group. When you click OK the new group will be added to the list of Report Groups."
+        },
+        {
+            "type": "text",
+            "data": "After you have created your new Report Group, you will need to begin assigning Reports to that Group. To add a Report to a Group, click on that Report and then click the check box to add a check next to the desired Report Group. As you scroll down the right side of your screen you will notice that some of the Reports have a green CV icon in front of them. This green CV icon lets you know that the Report has been assigned to a Group. If you click on that Report you will see a check mark next to one or more of the Report \"Groups\" in the sidebar. Reports can be assigned to more than one group if you like."
+        },
+        {
+            "type": "text",
+            "data": "Report List area"
+        },
+        {
+            "type": "text",
+            "data": "/   Adding a Report to a Group"
+        },
+        {
+            "type": "image",
+            "data": "image4306.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image4307.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "To add a Report to a Group click on the Report you would like to add to a Group, so that it is highlighted. Then in the \"Groups\" window click on the check box next to the name of the Group you would like to add the highlighted Report to. Once added the Report icon will either be   or  ."
+        },
+        {
+            "type": "image",
+            "data": "image4306.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image4308.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "= Active System Report"
+        },
+        {
+            "type": "image",
+            "data": "image4306.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "= Active User Created Report"
+        },
+        {
+            "type": "image",
+            "data": "image4308.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "/   Removing a Report from a Group"
+        },
+        {
+            "type": "image",
+            "data": "image4309.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image4310.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "To remove a Report from a Group click on that Report, so that it is highlighted. Then in the \"Groups\" window, click on the check box next to the name of the Group you would like to remove the highlighted Report from, to remove the Report remove the check mark. Once removed from all Groups the Report icon will either be   or  ."
+        },
+        {
+            "type": "image",
+            "data": "image4309.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image4310.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "= Inactive System Report"
+        },
+        {
+            "type": "image",
+            "data": "image4309.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "= Inactive User Created Report"
+        },
+        {
+            "type": "image",
+            "data": "image4310.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Ribbonbar"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Ribbonbar",
+                "uuid": "897b0e53-7ab7-4805-ab0f-d2aa534e504d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Sidebar"
+        },
+        {
+            "type": "text",
+            "data": "Groups"
+        },
+        {
+            "type": "text",
+            "data": "The Groups area in the Setup Reports sidebar allows you to view the currently available Report Groups."
+        },
+        {
+            "type": "image",
+            "data": "image2627.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Add a Report Group"
+        },
+        {
+            "type": "image",
+            "data": "image2628.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Add button in the Setup Reports sidebar allows you to create a new Report Group."
+        },
+        {
+            "type": "image",
+            "data": "image5707.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Solid Advanced   and Solid Advanced for Closets   allows only a total of 7 Reports active in all of your Groups combined."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "SolidAdvanced.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "SolidAdvancedforClosets.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Delete a Report Group"
+        },
+        {
+            "type": "image",
+            "data": "image2630.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Delete button in the Setup Reports sidebar allows you to delete the selected Report Group."
+        },
+        {
+            "type": "text",
+            "data": "You should remove all Reports from a Group before you delete the Group. This means you will have to click on every Report in the Report List that has   or   icons, and check to see if it is a member of the group you are preparing to delete."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image4306.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image4308.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Right Click Options"
+        },
+        {
+            "type": "image",
+            "data": "image4485.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Copy"
+        },
+        {
+            "type": "text",
+            "data": "Will Copy the selected Report giving you the ability to give it a new Title and Description."
+        },
+        {
+            "type": "text",
+            "data": "Delete"
+        },
+        {
+            "type": "text",
+            "data": "Will Delete the selected Report. Only available for User Reports."
+        },
+        {
+            "type": "text",
+            "data": "Edit"
+        },
+        {
+            "type": "text",
+            "data": "Will Open the selected Report in the Report Designer. If it is a System Report you will be prompted to Copy the Report first, as System Reports can not be edited directly."
+        },
+        {
+            "type": "text",
+            "data": "Properties"
+        },
+        {
+            "type": "text",
+            "data": "Opens the Report's Advanced Properties. See the  New Report  topic for more information."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "New Report",
+                "uuid": "989ec808-7a50-4d19-993b-07bda276f88f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image1107.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "See the  Report Name and Content  topic for more information on the System Reports that are available."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Report Name and Content",
+                "uuid": "11664730-7bf0-484c-aa39-2fe153fb4160",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\RLSBRC_Setup_Reports.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

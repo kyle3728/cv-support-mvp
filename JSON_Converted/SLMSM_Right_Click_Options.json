@@ -1,0 +1,157 @@
+{
+    "id": "dc2affc4-0523-44e7-af99-b24ddf2e15ce",
+    "title": "SLMSM_Right_Click_Options",
+    "content": [
+        {
+            "type": "text",
+            "data": "Right Click Options"
+        },
+        {
+            "type": "text",
+            "data": "When Right Clicking on a Part, depending on its Part Type and the Material assigned to it you will have several Right Click options."
+        },
+        {
+            "type": "text",
+            "data": "Materials"
+        },
+        {
+            "type": "image",
+            "data": "image4274.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Match Parent Material -  This option allows you to match the Material of the Parent for the selected Line Item. If there is no Parent to the item this option is grayed out. \n \n \n Change in Material in Multiple Schedules -  This option allows you to set the selected Parts Material in multiple Material Schedules simultaneously."
+        },
+        {
+            "type": "text",
+            "data": "Match Parent Material -  This option allows you to match the Material of the Parent for the selected Line Item. If there is no Parent to the item this option is grayed out. \n \n \n Change in Material in Multiple Schedules -  This option allows you to set the selected Parts Material in multiple Material Schedules simultaneously."
+        },
+        {
+            "type": "text",
+            "data": "Match Parent Material -  This option allows you to match the Material of the Parent for the selected Line Item. If there is no Parent to the item this option is grayed out. \n \n \n Change in Material in Multiple Schedules -  This option allows you to set the selected Parts Material in multiple Material Schedules simultaneously."
+        },
+        {
+            "type": "text",
+            "data": "Match Parent Material -  This option allows you to match the Material of the Parent for the selected Line Item. If there is no Parent to the item this option is grayed out."
+        },
+        {
+            "type": "text",
+            "data": "Match Parent Material -  This option allows you to match the Material of the Parent for the selected Line Item. If there is no Parent to the item this option is grayed out."
+        },
+        {
+            "type": "text",
+            "data": "Change in Material in Multiple Schedules -  This option allows you to set the selected Parts Material in multiple Material Schedules simultaneously."
+        },
+        {
+            "type": "text",
+            "data": "Change in Material in Multiple Schedules -  This option allows you to set the selected Parts Material in multiple Material Schedules simultaneously."
+        },
+        {
+            "type": "image",
+            "data": "image5045.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "When entering the Change Material Utility you will see the active Part in the titlebar. You have several options here:"
+        },
+        {
+            "type": "text",
+            "data": "Set Material -  This option will automatically have the Material from the Part you used to enter the utility with. Simply click this Apply to change all selected Parts to this Material. \n \n \n Match Parent -  This option will allow you to change all the selected Parts to match their respective Parent's selected Material. \n \n \n Select -  This button allows you to select an alternate Material to \"Set Material\" on all the selected Parts. \n \n \n \n \n Remove Material -  Removes the Material from the selected Part."
+        },
+        {
+            "type": "text",
+            "data": "Set Material -  This option will automatically have the Material from the Part you used to enter the utility with. Simply click this Apply to change all selected Parts to this Material. \n \n \n Match Parent -  This option will allow you to change all the selected Parts to match their respective Parent's selected Material. \n \n \n Select -  This button allows you to select an alternate Material to \"Set Material\" on all the selected Parts. \n \n \n \n \n Remove Material -  Removes the Material from the selected Part."
+        },
+        {
+            "type": "text",
+            "data": "Set Material -  This option will automatically have the Material from the Part you used to enter the utility with. Simply click this Apply to change all selected Parts to this Material. \n \n \n Match Parent -  This option will allow you to change all the selected Parts to match their respective Parent's selected Material. \n \n \n Select -  This button allows you to select an alternate Material to \"Set Material\" on all the selected Parts. \n \n \n \n \n Remove Material -  Removes the Material from the selected Part."
+        },
+        {
+            "type": "text",
+            "data": "Set Material -  This option will automatically have the Material from the Part you used to enter the utility with. Simply click this Apply to change all selected Parts to this Material. \n \n \n Match Parent -  This option will allow you to change all the selected Parts to match their respective Parent's selected Material. \n \n \n Select -  This button allows you to select an alternate Material to \"Set Material\" on all the selected Parts."
+        },
+        {
+            "type": "text",
+            "data": "Set Material -  This option will automatically have the Material from the Part you used to enter the utility with. Simply click this Apply to change all selected Parts to this Material. \n \n \n Match Parent -  This option will allow you to change all the selected Parts to match their respective Parent's selected Material. \n \n \n Select -  This button allows you to select an alternate Material to \"Set Material\" on all the selected Parts."
+        },
+        {
+            "type": "text",
+            "data": "Set Material -  This option will automatically have the Material from the Part you used to enter the utility with. Simply click this Apply to change all selected Parts to this Material."
+        },
+        {
+            "type": "text",
+            "data": "Set Material -  This option will automatically have the Material from the Part you used to enter the utility with. Simply click this Apply to change all selected Parts to this Material."
+        },
+        {
+            "type": "text",
+            "data": "Match Parent -  This option will allow you to change all the selected Parts to match their respective Parent's selected Material."
+        },
+        {
+            "type": "text",
+            "data": "Match Parent -  This option will allow you to change all the selected Parts to match their respective Parent's selected Material."
+        },
+        {
+            "type": "text",
+            "data": "Select -  This button allows you to select an alternate Material to \"Set Material\" on all the selected Parts."
+        },
+        {
+            "type": "text",
+            "data": "Select -  This button allows you to select an alternate Material to \"Set Material\" on all the selected Parts."
+        },
+        {
+            "type": "text",
+            "data": "Remove Material -  Removes the Material from the selected Part."
+        },
+        {
+            "type": "text",
+            "data": "Remove Material -  Removes the Material from the selected Part."
+        },
+        {
+            "type": "text",
+            "data": "Variable Sizing"
+        },
+        {
+            "type": "image",
+            "data": "image4276.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "These options are available for Drawer Guides. See the  Drawer Guides  topic for more information."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Drawer Guides",
+                "uuid": "9da24cba-f8af-447d-8c3a-ec151e221d52",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Wire Baskets"
+        },
+        {
+            "type": "image",
+            "data": "image4277.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Allows you to delete a Basket from the Wire Basket Schedule. See the  Wire Baskets  topic for more information."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Wire Baskets",
+                "uuid": "ef203b70-f9ec-4c09-84f8-9534ce5eabcf",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\SLMSM_Right_Click_Options.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><link rel="stylesheet" type="text/css" href="../_rhdefault.css"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=WINDOWS-1252"/>
+  <meta name="date" content="07 26, 2002 5:28:40 PM"/>
+  <meta name="topic-status" content="Complete"/>
+  <meta name="topic-priority" content="0"/>
+  <meta name="topic-time-estimate" content="0"/>
+  <meta name="topic-comment" content=""/>
+  <meta name="topic-id" content=""/>
+  <meta name="generator" content="Adobe RoboHelp 2022"/>
+  <title>Understanding Intelli-Joints</title>
+  <link rel="StyleSheet" href="../assets/css/default.css" type="text/css"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/><meta name="description" content=""/><script type="text/javascript" src="../ehlpdhtm.js"></script></head>
+<body lang="EN-US" xml:lang="EN-US" style="tab-interval: .5in;">
+  <h1>Understanding Intelli-Joints</h1>
+  <h2>Introduction</h2>
+  <p>The use of Intelli-Joints creates a greater flexibility for construction methods designed for CNC.<span style="mso-spacerun: yes;"> </span>However, with flexibility comes complexity.<span style="mso-spacerun: yes;"> </span>This is an advanced concept that will extend your ability to use Solid to its fullest extent.</p>
+  <h2>The Concept</h2>
+  <ul style="list-style: circle;">
+    <li class="p">
+      <p class="Indent_1_Bulllet">What is an Intelli-Joint?  An Intelli-Joint gives a set of rules and functions to separate Parts that come together. The best way to define an Intelli-Joint is to give an example <a href="#Example">like this</a>. When the two Parts come together in the specified manner (the Parts must either touch or be at an exact specified distance from or into each other in order to trigger the Intelli-Joint to be applied), you may have the Intelli-Joint place operations on either of the two Parts or both of them.</p>
+    </li>
+  </ul>
+  <p style="margin-left: 40px;"><img src="../assets/images/image60.png"/></p>
+  <h2><a name="IJ_Master_Slave" id="IJ_Master_Slave"></a>Primary and Secondary</h2>
+  <ul style="list-style: circle;">
+    <li class="p">
+      <p class="Indent_1_Bulllet">A union between two Parts creates a secondary and a primary. The primary dictates to the secondary the required Operations. The primary is the key Part that sets into or demands a place on the secondary.<span style="mso-spacerun: yes;"> </span>The secondary operations only exist because of the primary.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">When two Parts intersect;<span style="mso-spacerun: yes;"> t</span>he primary is typically the Part that &quot;butts into&quot; the other Part.<span style="mso-spacerun: yes;"> </span>The primary&#39;s edge touches the secondary’s face.</p>
+    </li>
+  </ul>
+  <ul style="list-style: circle;">
+    <li class="p">
+      <p class="Indent_1_Bulllet">For example a left End (secondary) and an Adjustable Shelf (primary) have joined together. The left End is the secondary because it contains the boring holes for the Shelf to rest upon. Without the Shelf the left End would not need holes, therefore it is dependent on the Shelf for its characteristic, making it the secondary.</p>
+    </li>
+  </ul>
+  <h2>2-D Views for Intelli-Joints</h2>
+  <ul style="list-style: circle;">
+    <li class="p">
+      <p class="Indent_1_Bulllet">When you place a &quot;New Part&quot; in an Assembly it looks fine in one view but in another view it may not be positioned correctly. This is a crucial point to understanding Intelli-Joints. Don&#39;t take for granted that an Intelli-Joint looks like it is in the correct place in one view that it will be correct in all views. It is best to view the Intelli-Joint in 3-D or in 2 separate 2-D views to verify its proper location. This will be discussed further later.</p>
+    </li>
+  </ul>
+  <p style="margin-left: 40px;"><img alt="" border="0" height="166" src="../assets/images/zGraphics/image16.gif" style="border: none;" width="463"/></p>
+  <h2>X, Y, Z of Intelli-Joints</h2>
+  <ul style="list-style: circle;">
+    <li class="p">
+      <p class="Indent_1_Bulllet">Remember &quot;Parts are Parts&quot;.<span style="mso-spacerun: yes;"> </span>Nothing has changed for Intelli-Joints.<span style="mso-spacerun: yes;"> </span>We will be describing Operations on the Intelli-Joint.<span style="mso-spacerun: yes;"> </span>The X, Y, Z positions of the Operations will be in reference to the Intelli-Joint.</p>
+    </li>
+  </ul>
+  <p style="margin-left: 40px;"><img alt="" border="0" height="147" src="../assets/images/zGraphics/image3.gif" style="border: none;" width="167"/></p>
+  <ul style="list-style: circle;">
+    <li class="p">
+      <p class="Indent_1_Bulllet">Picture a piece of two-sided tape. It has a rectangular building orientation. On that rectangular shape are objects.</p>
+    </li>
+  </ul>
+  <p style="margin-left: 40px;"><img alt="" border="0" height="194" src="../assets/images/zGraphics/ij008.gif" width="356"/></p>
+  <h2>Using Intelli-Joints</h2>
+  <ul style="list-style: circle;">
+    <li class="p">
+      <p class="Indent_1_Bulllet">Step #1 - Understand the joint requirements.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">Step #2 - Designing an Intelli-Joint.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">Step #3 - Placing an Intelli-Joint on a sample Part to verify it is working correctly.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">Step #4 - Placing an Intelli-Joint via a User Created Standard.</p>
+    </li>
+  </ul>
+  <h2><a name="Example" id="Example"></a>Example Intelli-Joint</h2>
+  <ul style="list-style: circle;">
+    <li class="p">
+      <p class="Indent_1_Bulllet">Looking at this KD (Knock-Down) Fastener notice that it has 2 separate holes. This piece of hardware serves as a perfect example of the need for an Intelli-Joint for Solid.</p>
+    </li>
+  </ul>
+  <p style="margin-left: 40px;"><img alt="" border="0" height="150" src="../assets/images/zGraphics/image17111.gif" style="border: none;" width="207"/></p>
+  <ul style="list-style: circle;">
+    <li class="p">
+      <p class="Indent_1_Bulllet">The first suggestion for creating an Intelli-Joint is to draw it on a piece of paper. Draw all aspects of it. The hardware, the Part that it will be going into and where in the finished product it will be. Having the views drawn will allow you to visualize the Intelli-Joint much easier.</p>
+    </li>
+  </ul>
+  <h2>Design</h2>
+  <ol>
+    <li style="list-style: none; display: inline;">
+      <ol>
+        <li class="p" style="list-style: decimal;">
+          <p class="Indent_1_Bulllet">Access Intelli-Joints from the System Level and in the Part level. From the System Level select <b style="mso-bidi-font-weight: normal; font-weight: bold;"><a href="../System_Level/Ribbonbar/Main_Tab/Catalogs_Group/Intelli-Joint/SL_Intelli-Joint_Manager.htm">Intelli-Joint</a></b> on the Main ribbonbar.</p>
+        </li>
+        <li class="p" style="list-style: decimal;">
+          <p class="Indent_1_Bulllet">Select the <img src="../assets/images/image66.png"/> New option in the ribbonbar and name the Intelli-Joint KD Fitting.</p>
+        </li>
+      </ol>
+    </li>
+  </ol>
+  <p style="margin-left: 80px;"><img src="../assets/images/image65.png"/></p>
+  <ol style="list-style: decimal;">
+    <li style="list-style: none; display: inline;">
+      <ol start="3" style="list-style: decimal;">
+        <li class="p">
+          <p class="Indent_1_Bulllet">Click the <img src="../assets/images/image67.png"/> New Operation button in the toolbar.</p>
+        </li>
+        <li class="p">
+          <p class="Indent_1_Bulllet">Name the operation Front 5mm Hole.</p>
+        </li>
+        <li class="p">
+          <p class="Indent_1_Bulllet">Set it to Primary.</p>
+        </li>
+        <li class="p">
+          <p class="Indent_1_Bulllet">Set it&#39;s Type to Bore.</p>
+        </li>
+        <li class="p">
+          <p class="Indent_1_Bulllet"><span>Set it&#39;s Face to Left.</span></p>
+        </li>
+        <li class="p">
+          <p class="Indent_1_Bulllet"><span>Set it&#39;s X Position to 1.5.</span></p>
+        </li>
+        <li class="p">
+          <p class="Indent_1_Bulllet"><span>Set it&#39;s Y Position to 1.25</span></p>
+        </li>
+        <li class="p">
+          <p class="Indent_1_Bulllet"><span>Set it&#39;s Depth to 1/4&quot;.</span></p>
+        </li>
+        <li class="p">
+          <p class="Indent_1_Bulllet">Set it&#39;s Width/Diam to 5mm.</p>
+        </li>
+      </ol>
+    </li>
+  </ol>
+  <p style="margin-left: 88px;"><img alt="" border="0" src="../assets/images/zGraphics/Extras/Warning.png" style="border: none;"/> Since you cannot enter pure Metric values in the Intelli-Joints screen you must qualify a metric value with mm so it is properly converted.</p>
+  <ul style="list-style: circle;">
+    <li style="list-style: none; display: inline;">
+      <ol start="12" style="list-style: decimal;">
+        <li class="p">
+          <p class="Indent_1_Bulllet"><span>S</span><span>et it&#39;s Rept. to 1.</span></p>
+        </li>
+      </ol>
+    </li>
+    <li class="p">
+      <p>Choose <img src="../assets/images/image68.png"/> Copy Operation then make the following changes for the 2<sup>nd</sup><span style="mso-spacerun: yes;">  </span>hole:</p>
+    </li>
+  </ul>
+  <ol style="list-style: decimal;">
+    <li style="list-style: none; display: inline;">
+      <ol style="list-style: decimal;">
+        <li class="p">
+          <p class="Indent_1_Bulllet">Change it&#39;s name to Front 15mm Hole.</p>
+        </li>
+        <li class="p">
+          <p class="Indent_1_Bulllet">Change it&#39;s X Position to .125.</p>
+        </li>
+        <li class="p">
+          <p class="Indent_1_Bulllet">Change it&#39;s Depth to .5.</p>
+        </li>
+        <li class="p">
+          <p class="Indent_1_Bulllet">Change its Width/Diam to 15mm.</p>
+        </li>
+      </ol>
+    </li>
+  </ol>
+  <ul style="list-style: circle;">
+    <li class="p">
+      <p>Notice that the Operation is highlighted to help identify what you are working on and whether it is a Primary or Secondary Operation.</p>
+    </li>
+    <li style="list-style: none; display: inline;">
+      <ul style="list-style: circle;">
+        <li class="p">
+          <p class="Indent_1_Bulllet">Primary = Yellow</p>
+        </li>
+        <li class="p">
+          <p class="Indent_1_Bulllet">Secondary = Blue</p>
+        </li>
+        <li class="p">
+          <p class="Indent_1_Bulllet">Selected Item = Red</p>
+        </li>
+      </ul>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">Select the <img src="../assets/images/image67.png"/> New Operation button.</p>
+    </li>
+  </ul>
+  <ol style="list-style: circle;">
+    <li style="list-style: none; display: inline;">
+      <ol>
+        <li class="p" style="list-style: decimal;">
+          <p class="Indent_1_Bulllet">Name the operation Front Peg.</p>
+        </li>
+        <li class="p" style="list-style: decimal;">
+          <p class="Indent_1_Bulllet">Set to Secondary.</p>
+        </li>
+        <li class="p" style="list-style: decimal;">
+          <p class="Indent_1_Bulllet">Set it&#39;s Type to Bore.</p>
+        </li>
+        <li class="p" style="list-style: decimal;">
+          <p class="Indent_1_Bulllet">Set it&#39;s Face to Normal.</p>
+        </li>
+        <li class="p" style="list-style: decimal;">
+          <p class="Indent_1_Bulllet">Set it&#39;s X Position to .325.</p>
+        </li>
+        <li class="p" style="list-style: decimal;">
+          <p class="Indent_1_Bulllet">Set it&#39;s Y Position to 1.25.</p>
+        </li>
+        <li class="p" style="list-style: decimal;">
+          <p class="Indent_1_Bulllet">Set it&#39;s Depth to .5.</p>
+        </li>
+        <li class="p" style="list-style: decimal;">
+          <p class="Indent_1_Bulllet">Set it&#39;s Width/Diam to 5mm.</p>
+        </li>
+        <li class="p" style="list-style: decimal;">
+          <p class="Indent_1_Bulllet">Set it&#39;s Rept. to 1.</p>
+        </li>
+      </ol>
+    </li>
+  </ol>
+  <ul style="list-style: circle;">
+    <li class="p">
+      <p class="Indent_1_Bulllet">Copy all three operations and make the following changes:</p>
+    </li>
+  </ul>
+  <ol style="list-style: decimal;">
+    <li style="list-style: none; display: inline;">
+      <ol style="list-style: decimal;">
+        <li class="p">
+          <p class="Indent_1_Bulllet">Change Front in Operation Name to Rear.</p>
+        </li>
+        <li class="p">
+          <p class="Indent_1_Bulllet">Change Y Position from 1.25 to _MP:DX-1.25.  This equals Primary Part Width - 1 1/4&quot;.</p>
+        </li>
+      </ol>
+    </li>
+  </ol>
+  <ul style="list-style: circle;">
+    <li class="p">
+      <p class="Indent_1_Bulllet">Now you have completely described the Intelli-Joint.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">Go in and change the sample joints&#39; width and height to see the changes.<span style="mso-spacerun: yes;">  </span>Be sure that as you modify the Intelli-Joint size that the operations are moving correctly.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">Before leaving the design section jot down what the ID of the Intelli-Joint is.<span style="mso-spacerun: yes;">  </span>This will be needed later when you create the User Created Standard to place the Intelli-Joint.</p>
+    </li>
+  </ul>
+  <p class="Indent_1_Bulllet" style="margin-left: 80px;"><img src="../assets/images/image3210.png"/></p>
+  <h2>Thickness of an Intelli-Joint</h2>
+  <ul style="list-style: circle;">
+    <li class="p">
+      <p class="Indent_1_Bulllet">A piece of tape has a thickness of &quot;0&quot; this would be an example of a butt joint.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">The Intelli-Joint has to span the gap between the two Parts exactly or the Intelli-Joint does nothing.  If the gap = 1/8 inch then the Intelli-Joint thickness must = 1/8 inch.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">When designing an Intelli-Joint for a dado the Intelli-Joint would have a negative thickness equal to the dado depth.</p>
+    </li>
+  </ul>
+  <h2><span>Manually Placing the Intelli-Joint on a Part</span></h2>
+  <ol>
+    <li class="p" style="list-style: decimal;">
+      <p class="Indent_1_Bulllet">Go into a new Job.</p>
+    </li>
+    <li class="p" style="list-style: decimal;">
+      <p class="Indent_1_Bulllet">Choose a Frameless Construction Method with <span style="font-weight: bold; text-decoration: underline;">NO</span> Construction Boring applied, there doesn&#39;t need to be any extra information clouding the Intelli-Joint.<span style="mso-spacerun: yes;"> You</span> will be able to see the result more clearly.</p>
+    </li>
+    <li class="p" style="list-style: decimal;">
+      <p class="Indent_1_Bulllet">Take a Base Cabinet with a Fixed Shelf to the Assembly Level and go to an orthographic view (Smiley Face).</p>
+    </li>
+    <li class="p" style="list-style: decimal;">
+      <p class="Indent_1_Bulllet">Right Click on the Fixed Shelf and click Edit.</p>
+    </li>
+  </ol>
+  <p style="margin-left: 40px;"><img src="../assets/images/image70.png"/></p>
+  <ol start="5">
+    <li class="p" style="list-style: decimal;">
+      <p class="Indent_1_Bulllet">Click on Reports View <img alt="" border="0" src="../assets/images/image3394.gif" style="border: none;"/>.</p>
+    </li>
+    <li class="p" style="list-style: decimal;">
+      <p class="Indent_1_Bulllet">In the sidebar of the Part Editor click Add New Operation.</p>
+    </li>
+  </ol>
+  <p style="margin-left: 40px;"><a href="../Part_Level/Sidebar/PL_New_Operation.htm"><img alt="" border="0" src="../assets/images/image2987.gif" style="border: none;"/></a></p>
+  <ol start="7" style="list-style: decimal;">
+    <li class="p">
+      <p class="Indent_1_Bulllet">Choose Bottom as the Part Face to apply your New Operation to, and click Next.</p>
+    </li>
+  </ol>
+  <p style="margin-left: 40px;"><img src="../assets/images/image71.png"/></p>
+  <ol start="8" style="list-style: decimal;">
+    <li class="p">
+      <p class="Indent_1_Bulllet">Choose Intelli-Joint as the Operation type, and click Next.</p>
+    </li>
+  </ol>
+  <p style="margin-left: 40px;"><img src="../assets/images/image3211.png"/></p>
+  <ol start="9" style="list-style: decimal;">
+    <li class="p">
+      <p class="Indent_1_Bulllet">Select KD Fitting as the Joint Type and Current Assembly for the Scope.<span style="mso-spacerun: yes;"> <i style="mso-bidi-font-style: normal;"> </i></span><i style="mso-bidi-font-style: normal;">This is the most typical selection although an Intelli-Joint can span two Assemblies as in Closet applications, in that case you would select Entire Room</i>. <span style="mso-spacerun: yes;"> Click</span> Next.</p>
+    </li>
+  </ol>
+  <p style="margin-left: 40px;"><img src="../assets/images/image73.png"/></p>
+  <ol start="10">
+    <li class="p" style="list-style: decimal;">
+      <p class="Indent_1_Bulllet">Set the Width to Part Thickness + 0.</p>
+    </li>
+    <li class="p" style="list-style: decimal;">
+      <p class="Indent_1_Bulllet">Set the Length to a Value of 20.</p>
+    </li>
+    <li class="p" style="list-style: decimal;">
+      <p class="Indent_1_Bulllet">Set the Thickness to a Value of 0.</p>
+    </li>
+  </ol>
+  <p style="margin-left: 40px;"><img src="../assets/images/image74.png"/></p>
+  <ol start="13" style="list-style: decimal;">
+    <li class="p">
+      <p class="Indent_1_Bulllet">Set the Distance from Top to a Value of 0.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">Set the Distance from Left to a Value 0 and click Finish.</p>
+    </li>
+  </ol>
+  <p style="margin-left: 40px;"><img src="../assets/images/image75.png"/></p>
+  <ul style="list-style: circle;">
+    <li class="p">
+      <p class="Indent_1_Bulllet">The green line in the picture below represents the Intelli-Joint. Look at the Intelli-Joint in different views to make sure it is positioned correctly.<span style="mso-spacerun: yes;"> </span>If any adjustments are needed, type in the new values at the CNC view.</p>
+    </li>
+  </ul>
+  <p style="margin-left: 40px;"><img alt="" border="0" src="../assets/images/image3400.gif" style="border: none;"/></p>
+  <ul style="list-style: circle;">
+    <li class="p">
+      <p class="Indent_1_Bulllet">We will leave the Intelli-Joint a little shorter than it needs to be so that we can see it better on the shelf for the moment.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">Go back to the Cabinet in 3-D view. Adjust the Cabinet and notice that the Intelli-Joint stays right with it. Add in another Shelf and you will notice that it doesn&#39;t stay with it.</p>
+    </li>
+  </ul>
+  <p style="margin-left: 40px;"><img alt="" border="0" src="../assets/images/image3401.gif" style="border: none;"/></p>
+  <ul style="list-style: circle;">
+    <li class="p">
+      <p class="Indent_1_Bulllet">We have covered creating an Intelli-Joint and Manually positioning it.  For automatic positioning you must use a User Created Standard.</p>
+    </li>
+  </ul>
+  <h2>Creating a UCS to Automatically Place an Intelli-Joint</h2>
+  <ol>
+    <li class="p" style="list-style: decimal;">
+      <p class="Indent_1_Bulllet">Go to the End <img alt="" border="0" height="21" src="../assets/images/image183.gif" style="border: none;" width="42"/> view.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">Go to <span style="font-weight: bold;">Utilities | User Created Standards</span>.</p>
+    </li>
+  </ol>
+  <ol start="3" style="list-style: decimal;">
+    <li class="p">
+      <p class="Indent_1_Bulllet">Select the New option in the ribbon.</p>
+    </li>
+  </ol>
+  <p style="margin-left: 40px;"><img src="../assets/images/image76.png"/></p>
+  <ol start="4" style="list-style: decimal;">
+    <li class="p">
+      <p class="Indent_1_Bulllet">Name the UCS KD Fitting.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">Select Add.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">Select Intelli-Joint as the Type then select the &quot;KD Fitting&quot; as the Intelli-Joint to add and click Next.</p>
+    </li>
+  </ol>
+  <p style="margin-left: 40px;"><img src="../assets/images/image78.png"/></p>
+  <ol start="7" style="list-style: decimal;">
+    <li class="p">
+      <p class="Indent_1_Bulllet">Select Link To Each Part.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">Select Fixed Shelf as the Part to link to and click Next.</p>
+    </li>
+  </ol>
+  <p style="margin-left: 40px;"><img src="../assets/images/image79.png"/></p>
+  <ol start="9" style="list-style: decimal;">
+    <li class="p">
+      <p class="Indent_1_Bulllet">Click Next for Assembly Class.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">Click Next for Assembly Properties.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">Click Next for End Type.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">Click Next for Construction Method.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">Click Next for Conditions for Fixed Shelf.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">Select Width Side 1 (Bottom) and Width Side 2 (Top) as the Sides to attach the Intelli-Joint to then click Finish.</p>
+    </li>
+  </ol>
+  <p style="margin-left: 40px;"><img src="../assets/images/image80.png"/></p>
+  <ul style="list-style: circle;">
+    <li class="p">
+      <p class="Indent_1_Bulllet">Exit the UCS and return to the Cabinet.<span style="mso-spacerun: yes;"> </span>Notice that as additional Fixed Shelves are added the KD Fittings appear automatically.</p>
+    </li>
+  </ul>
+  <p style="margin-left: 40px;"><img alt="" border="0" src="../assets/images/image3406.gif" style="border: none;"/></p>
+  <ul style="list-style: circle;">
+    <li class="p">
+      <p class="Indent_1_Bulllet">Modify the UCS to include Shelves, Top, Deck &amp; Bottom.</p>
+    </li>
+    <li style="list-style: none; display: inline;">
+      <ol>
+        <li class="p" style="list-style: decimal;">
+          <p class="Indent_1_Bulllet">Go back into the User Created Standards screen.</p>
+        </li>
+        <li class="p" style="list-style: decimal;">
+          <p class="Indent_1_Bulllet">Make sure that KD Fitting is highlighted then click the Code option in the ribbon.</p>
+        </li>
+      </ol>
+    </li>
+  </ul>
+  <p style="margin-left: 80px;"><img src="../assets/images/image82.png"/></p>
+  <ol style="list-style: decimal;">
+    <li style="list-style: none; display: inline;">
+      <ol start="3" style="list-style: decimal;">
+        <li class="p">
+          <p class="Indent_1_Bulllet">Modify the For Each statement as shown in bold below:</p>
+        </li>
+      </ol>
+    </li>
+  </ol>
+  <p style="text-indent: 40px; margin-left: 40px; mso-bidi-font-size: 10.0pt;">For Each <span style="font-weight: bold;">FS|TO|BO|DE|TS|SH</span> Part</p>
+  <ol style="list-style: decimal;">
+    <li style="list-style:none;display: inline">
+      <ol start="4" style="list-style: decimal;">
+        <li class="p">
+          <p class="Indent_1_Bulllet">Click Close.</p>
+        </li>
+        <li class="p">
+          <p class="Indent_1_Bulllet">Click Yes to save the UCS.</p>
+        </li>
+      </ol>
+    </li>
+  </ol>
+  <p style="mso-bidi-font-size: 10.0pt; margin-left: 80px;"><img src="../assets/images/image83.png"/></p>
+  <ol style="list-style: decimal;">
+    <li style="list-style: none; display: inline;">
+      <ol start="6" style="list-style: decimal;">
+        <li class="p">
+          <p class="Indent_1_Bulllet">Exit the UCS and return to the Cabinet.<span style="mso-spacerun: yes;"> </span>Notice that the Intelli-Joints appear on your other Parts now.</p>
+        </li>
+      </ol>
+    </li>
+  </ol>
+  <ul style="list-style: circle;">
+    <li class="p">
+      <p class="Indent_1_Bulllet"> Other uses for Intelli-Joints include, blind dado construction, hardware operations (lazy susan, door locks).</p>
+    </li>
+  </ul>
+
+</body></html>

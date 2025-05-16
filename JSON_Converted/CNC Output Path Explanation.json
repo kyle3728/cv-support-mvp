@@ -1,0 +1,89 @@
+{
+    "id": "ae71dafb-b313-4a82-a628-86d85208f60f",
+    "title": "CNC Output Path Explanation",
+    "content": [
+        {
+            "type": "text",
+            "data": "CNC Output Path Explanation"
+        },
+        {
+            "type": "text",
+            "data": "There are 3 different types of output paths you can produce with Intelli-CAM. They come from a combination of the tool catalog (Centerline vs. Offset Path) and the machine catalog (Tool Center vs. Tool Radius)"
+        },
+        {
+            "type": "text",
+            "data": "Centerline - Tool Center NO G41/G42 \n \n \n Centerline - Tool Center G41/G42 \n \n \n Offset - Tool Radius"
+        },
+        {
+            "type": "text",
+            "data": "Centerline - Tool Center NO G41/G42"
+        },
+        {
+            "type": "text",
+            "data": "Centerline - Tool Center NO G41/G42"
+        },
+        {
+            "type": "text",
+            "data": "Centerline - Tool Center G41/G42"
+        },
+        {
+            "type": "text",
+            "data": "Centerline - Tool Center G41/G42"
+        },
+        {
+            "type": "text",
+            "data": "Offset - Tool Radius"
+        },
+        {
+            "type": "text",
+            "data": "Offset - Tool Radius"
+        },
+        {
+            "type": "text",
+            "data": "CENTERLINE - TOOL CENTER NO G41/G42:"
+        },
+        {
+            "type": "text",
+            "data": "The outline path of the part is larger than the part by the tool radius. This path is to be followed by the center of the tool."
+        },
+        {
+            "type": "text",
+            "data": "CENTERLINE - TOOL CENTER G41/G42:"
+        },
+        {
+            "type": "text",
+            "data": "The outline path is identical to Centerline - Tool Center NO G41/G42. The difference is it triggers to look up tool compensation values on the machines control."
+        },
+        {
+            "type": "text",
+            "data": "Tool comp is important when you start sharpening tools. When you sharpen a tool it gets smaller. Tool comp allows you to inform the control that the bit has changed size and to compensate for the change."
+        },
+        {
+            "type": "text",
+            "data": "For example : If you use a  router bit (.25 radius) and as a result of the bit being sharpened it has a new size (.23 radius). You need to account for this tool size change somewhere."
+        },
+        {
+            "type": "text",
+            "data": ">> With Centerline - Tool Center NO G41/G42 you would go back to the Tool Catalog in the S2M Center and enter the new size of the tool (.46 diameter) and re-output the program. Otherwise your part would cut out larger than it should be."
+        },
+        {
+            "type": "text",
+            "data": ">> With Centerline - Tool Center G41/G42 you can enter a value of .02 at the control (.25 - .23 = .02) and the control will offset the tool path by .02 and correctly cut out the part."
+        },
+        {
+            "type": "text",
+            "data": "It boils down to user preference whether the sharpened tool size is accounted for in the S2M Center or at the machine although you have advantages at the machine since if you need to swap bits you can compensate for different sizes on the fly rather than having to re-output from the S2M Center."
+        },
+        {
+            "type": "text",
+            "data": "OFFSET - TOOL RADIUS:"
+        },
+        {
+            "type": "text",
+            "data": "This path follows the outline of the part exactly. Thus if the router were to follow the path centerline, the part would be too small. This path must be compensated for at the control. If you are using a 1/2 bit, the control will need an offset of .25 (radius). If you sharpen the bit you would need to change the comp value at the control to (.23). In either case the control will offset the path of the tool by the tool radius resulting in the part being milled to the correct size."
+        }
+    ],
+    "source_file": "NCEnglish_Cabinetmaker\\Ribbonbar\\Main_Tab\\Machine\\CNC Output Path Explanation.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

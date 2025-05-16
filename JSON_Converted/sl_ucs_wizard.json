@@ -1,0 +1,79 @@
+{
+    "id": "3d284784-2e7d-4d30-8325-cd768aa9548f",
+    "title": "sl_ucs_wizard",
+    "content": [
+        {
+            "type": "text",
+            "data": "New - User Created Standards Wizard"
+        },
+        {
+            "type": "image",
+            "data": "image66.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image79.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The User Created Standard Wizard is a quick way to make  most  UCS's. There are three types of UCS's:"
+        },
+        {
+            "type": "text",
+            "data": "Add (Link) A Part : This type of UCS allows you to add a Part/Operation that is linked to another Assembly, Opening, another Part, or another Operation. \n \n \n Modify A Part : This type of UCS allows you to modify a selected Part /Operation. \n \n \n Delete A Part : This type of UCS allows you to delete a selected Part/Operation."
+        },
+        {
+            "type": "text",
+            "data": "Add (Link) A Part : This type of UCS allows you to add a Part/Operation that is linked to another Assembly, Opening, another Part, or another Operation."
+        },
+        {
+            "type": "text",
+            "data": "Add (Link) A Part : This type of UCS allows you to add a Part/Operation that is linked to another Assembly, Opening, another Part, or another Operation."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Add (Link) A Part",
+                "uuid": "9b9d882e-fd07-4424-91d9-a612c2a7fee5",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Modify A Part : This type of UCS allows you to modify a selected Part /Operation."
+        },
+        {
+            "type": "text",
+            "data": "Modify A Part : This type of UCS allows you to modify a selected Part /Operation."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Modify A Part",
+                "uuid": "d745df8a-3471-4557-a379-cb11259b22cb",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Delete A Part : This type of UCS allows you to delete a selected Part/Operation."
+        },
+        {
+            "type": "text",
+            "data": "Delete A Part : This type of UCS allows you to delete a selected Part/Operation."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Delete A Part",
+                "uuid": "fe6fea72-cce8-42e0-8068-d8286de58fcf",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\sl_ucs_wizard.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

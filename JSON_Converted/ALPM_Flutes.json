@@ -1,0 +1,73 @@
+{
+    "id": "5f33eae7-676e-44c4-b218-3644bcfb6cd2",
+    "title": "ALPM_Flutes",
+    "content": [
+        {
+            "type": "text",
+            "data": "Flutes -  (Face Frame and Frame Overlay Style)"
+        },
+        {
+            "type": "image",
+            "data": "image2822.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "1AU.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image5849.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Flutes Tab at Cabinet Properties has two additional options at the Assembly Level:"
+        },
+        {
+            "type": "text",
+            "data": "Flute Left Stile -  This applies the Flute Specification entered here to the Left Stile of the active Cabinet. \n \n \n Flute Right Stile -  This applies the Flute Specification entered here to the Right Stile of the active Cabinet."
+        },
+        {
+            "type": "text",
+            "data": "Flute Left Stile -  This applies the Flute Specification entered here to the Left Stile of the active Cabinet."
+        },
+        {
+            "type": "text",
+            "data": "Flute Left Stile -  This applies the Flute Specification entered here to the Left Stile of the active Cabinet."
+        },
+        {
+            "type": "text",
+            "data": "Flute Right Stile -  This applies the Flute Specification entered here to the Right Stile of the active Cabinet."
+        },
+        {
+            "type": "text",
+            "data": "Flute Right Stile -  This applies the Flute Specification entered here to the Right Stile of the active Cabinet."
+        },
+        {
+            "type": "text",
+            "data": "See the  Job Level Flutes  topic for more information."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Job Level Flutes",
+                "uuid": "b0cff8c8-2a5d-44c9-9088-2ff39b77e08e",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Remember changes made here will only affect the current Assembly. Also, changes made here are attached as permanent (unless you remove them) overrides on the Assembly; which means that if you Save this Assembly into a Catalog these overrides will also be Saved."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\ALPM_Flutes.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><link rel="stylesheet" type="text/css" href="../../../../_rhdefault.css"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=WINDOWS-1252"/>
+  <meta name="topic-status" content="Complete"/>
+  <meta name="generator" content="Adobe RoboHelp 2022"/>
+  <title>First Exercise Formula for the X (Left/Right)</title>
+  <link rel="StyleSheet" href="../../../../assets/css/default.css" type="text/css"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/><script type="text/javascript" src="../../../../ehlpdhtm.js"></script></head>
+<body>
+  <h1>First Exercise Formula for the X (Left/Right)</h1>
+  <p>Look at your cabinet in 3D.  Look at it from a Face <img alt="" border="0" height="21" src="../../../../assets/images/image181.gif" style="border: none;" width="45"/> ortho view and click on the BOARD.  Notice where the reference point is located.  Look at it from a side view, click on the BOARD.  Notice where the reference point is located.  When writing code for the position of a part it is important to know where the reference point is.</p>
+  <p><img alt="" border="0" src="../../../../assets/images/image6089.gif" style="border: none;"/></p>
+  <p>We will need a formula for the X (Left/Right) because if the thickness of the end changes this part will need to move left or right.</p>
+  <p>As far as a formula for the X position of the BOARD, there are several that could work.  We could say that the X of the Board was equal to the thickness of the left end.  However, when writing formulas it is best to <span style="font-weight: bold;">avoid using the ends in your code if at all possible</span>.  The reason for this is that there are 10 different end &quot;Types&quot;.  We would have to write 10 formulas, one for each end type.  See the following picture.</p>
+  <p><img alt="" border="0" height="161" src="../../../../assets/images/zGraphics/image1692.gif" style="border: none;" width="87"/></p>
+  <p>Example if we said the X position of the Board was equal to the thickness of the left unfinished end and there was no left unfinished end, our code would not work.  The part could end up positioned wrong or not appearing in the cabinet at all.  So we need to think up a different formula.</p>
+  <p style="margin-left: 80px;"><img alt="" border="0" src="../../../../assets/images/zGraphics/Extras/Information.png" style="border: none;"/> When writing formulas the easiest thing to do is just to find something in the cabinet that already has the value you need and that will change in the way you want the parameter you are working on to change.</p>
+  <p>If you look at the cabinet in 3D you can see that the Deck, the Top Stretchers, and the Nailers are all butted into the left side of the cabinet the same as this BOARD.  If the thickness of the end changes the Deck, the Top Stretchers, and the Nailers will all move in relation to the thickness of the end.  So we could use the X position of any of these parts as the X position of our board.</p>
+  <p style="margin-left: 80px;"><span style="font-weight: bold;"><img alt="" border="0" src="../../../../assets/images/zGraphics/Extras/Information.png" style="border: none;"/></span> When choosing what you want to use as the reference for adding intelligence, be sure that you do not choose something that may change later on.  As an example, if you relate a part to the size of a mid stile, and later on, you delete the mid stile from the cabinet, the formula you wrote will be invalid.</p>
+  <p>We will use the X position of the Deck as the X position of our Board.  So our formula will be the X of the Board = <span style="font-weight: bold;">the X of the Deck</span>.  Now that we know what our formula is, we only have to trace it through the Object Tree.  So we can put it in a language the computer can understand.</p>
+  <ol style="list-style: decimal;">
+    <li class="p">
+      <p class="Indent_1_Bulllet">Open the Object Tree by clicking on one of the ortho <img alt="" border="0" height="21" src="../../../../assets/images/image181.gif" style="border: none;" width="45"/><img alt="" border="0" height="21" src="../../../../assets/images/image182.gif" style="border: none;" width="44"/><img alt="" border="0" height="21" src="../../../../assets/images/image183.gif" style="border: none;" width="42"/> views, then click on &quot;Object Tree&quot;.  We then open the tree up until we find the Deck (notice the BOARD we added is showing right under the cabinet), we highlight the deck and then we click on the parameter we want, the X.  We then trace it (the X of the Deck) through the tree starting at the top and working our way down to the X, and the code we come up with is &quot;CAB.CASE.DE.X&quot;.  We write this down so we don&#39;t forget it, or highlight the path in the Object Tree path bar (highlighted in the illustration below) to the Windows Clipboard.</p>
+    </li>
+  </ol>
+  <p style="margin-left: 40px;"><img src="../../../../assets/images/Tips_Tricks_FAQs/Parametric%20Editing/Intelligence%20Workshop/1st%20Exercise/Ex1XTrace.png"/></p>
+  <ol start="2" style="list-style: decimal;">
+    <li class="p">
+      <p class="Indent_1_Bulllet">Now we go to the part we want to write the formula for.  So while still in the Object Tree click on the BOARD.  Then click on the X, this is the parameter we wish to write the formula for.</p>
+    </li>
+  </ol>
+  <p style="margin-left: 40px;"><img src="../../../../assets/images/Tips_Tricks_FAQs/Parametric%20Editing/Intelligence%20Workshop/1st%20Exercise/Ex1BoardX.png"/></p>
+  <ol start="3" style="list-style: decimal;">
+    <li class="p">
+      <p class="Indent_1_Bulllet">With the X highlighted, click on the &quot;Edit parameter&quot; button in the Object Tree. This will open the &quot;Parameter Edit&quot; screen. Notice the &quot;Name&quot; of the parameter is &quot;X&quot; and notice that it is set to a &quot;Value&quot; of 3/4&quot;.</p>
+    </li>
+  </ol>
+  <p style="margin-left: 40px;"><img src="../../../../assets/images/Tips_Tricks_FAQs/Parametric%20Editing/Intelligence%20Workshop/1st%20Exercise/Ex1EditX1.png"/></p>
+  <ol start="4" style="list-style: decimal;">
+    <li class="p">
+      <p class="Indent_1_Bulllet">Select Equation, the &quot;Add&quot;, &quot;Delete&quot;, and &quot;Test&quot; buttons will all be highlighted.  And the &quot;IF&quot; line and the &quot;THEN&quot; line will also be highlighted.</p>
+    </li>
+  </ol>
+  <p style="margin-left: 40px;"><img src="../../../../assets/images/Tips_Tricks_FAQs/Parametric%20Editing/Intelligence%20Workshop/1st%20Exercise/Ex1EditX2.png"/></p>
+  <p style="font-weight: bold;">The IF Line</p>
+  <p>The &quot;If&quot; line, and the &quot;THEN&quot; line, are the lines you will be writing your formula, or code on.  <span style="font-weight: bold;">The &quot;IF&quot; line is used to set a &quot;condition&quot; that must be true before your code will execute</span>.  For example you could say <span style="font-weight: bold;">Cab.Name = &#39;Sink&#39;</span> this means that the name of the cabinet must be &quot;Sink&quot; or the program will not execute the code on the THEN line.  We are not going to go into it that deep at this time, so we will not be changing anything on the IF line.  You will notice that the IF line has a 1 on it, 1 means true, so anything we write on the THEN line will execute.</p>
+  <p style="font-weight: bold;">The THEN Line</p>
+  <p>The &quot;THEN&quot; line is where we write what we want the program to do, if the condition on the IF line is true.  This is where we will write the code that we wrote down earlier.</p>
+  <ol start="5" style="list-style: decimal;">
+    <li class="p">
+      <p class="Indent_1_Bulllet">Click on the &quot;THEN&quot; line and remove the &quot;0&quot;. Then type in the code we wrote down earlier &quot;CAB.CASE.DE.X&quot;, do not type in the quotation marks.</p>
+    </li>
+  </ol>
+  <p><span style="font-weight: bold;">Note:</span> It makes no difference to the computer if you type your code all in upper case letters, or all in lower case letters, or in some &quot;Combination&quot; of the two.</p>
+  <p style="font-weight: bold;">Testing your Formula</p>
+  <p>After typing in the code you always want to &quot;Test&quot; your code to make sure it is working.</p>
+  <ol start="6" style="list-style: decimal;">
+    <li class="p">
+      <p class="Indent_1_Bulllet">Click on the &quot;Test&quot; Button. In the &quot;Test Result&quot; area it should say &quot;Condition returned: True.  Equation returned: 3/4.&quot; Or whatever value you were expecting.</p>
+    </li>
+  </ol>
+  <p style="margin-left: 40px;"><img alt="" border="0" src="../../../../assets/images/image3177.gif" style="border: none;"/></p>
+  <ol start="7" style="list-style: decimal;">
+    <li class="p">
+      <p class="Indent_1_Bulllet">Click on &quot;OK&quot;.  This will return you to the Object Tree and you will see the result of your equation.</p>
+    </li>
+  </ol>
+  <p style="margin-left: 40px;"> </p>
+  <ol start="8" style="list-style: decimal;">
+    <li class="p">
+      <p class="Indent_1_Bulllet">Look at your cabinet in 3D does it look OK?  If not you typed something wrong. See &quot;<a href="Troubleshooting_Error_Messages.htm">Troubleshooting Error Messages</a>&quot;.</p>
+    </li>
+  </ol>
+
+</body></html>

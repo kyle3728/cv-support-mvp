@@ -1,0 +1,372 @@
+{
+    "id": "23fb8a04-a3d4-4605-8339-5532c0e8af89",
+    "title": "Door_Catalog_Shape_Editor",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top \n > \n \n \n System Level \n > \n \n Ribbonbar \n > \n \n Main Tab \n > \n \n Catalogs Group \n > \n \n Door Catalog \n > \n \n Door Catalog Shape Editor"
+        },
+        {
+            "type": "text",
+            "data": "Top \n >"
+        },
+        {
+            "type": "text",
+            "data": "System Level \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "System Level",
+                "uuid": "4450866f-fd9c-46df-abf3-7843c5a1ef37",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Ribbonbar \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Ribbonbar",
+                "uuid": "3bbac75c-2b61-42af-9bce-b90335e66dde",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Main Tab \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Main Tab",
+                "uuid": "3bbac75c-2b61-42af-9bce-b90335e66dde",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Catalogs Group \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Catalogs Group",
+                "uuid": "f4a43f08-b40b-442c-8f03-a96c2a64640f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Door Catalog \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Door Catalog",
+                "uuid": "2da09610-ccab-42a9-a5ce-4ad5fa83394a",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Door Catalog Shape Editor"
+        },
+        {
+            "type": "text",
+            "data": "Door Catalog Shape Editor"
+        },
+        {
+            "type": "text",
+            "data": "Door Catalog Shape Editor"
+        },
+        {
+            "type": "text",
+            "data": "The Door Catalog Shape Editor consists of several tools designed to allow editing of  Door Rails ,  Door Routes , and  Door Profiles ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Door Profiles",
+                "uuid": "58bf93c0-395d-4fa5-8f99-421042b7e8ea",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Add Point"
+        },
+        {
+            "type": "image",
+            "data": "image2327.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Selecting this tool allows for additional points to be added to your object. Adding points allows for defining shapes by introducing new sides, or splitting sides into more than one element. When a point is added it appears as a yellow dot on the object. These yellow dots will be joined by a dashed line that represents a side. Additional dots mean more sides."
+        },
+        {
+            "type": "text",
+            "data": "Delete Point"
+        },
+        {
+            "type": "image",
+            "data": "image2328.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This tool functions opposite of the Add Point Tool. When selected, each point that is clicked on will be deleted."
+        },
+        {
+            "type": "text",
+            "data": "Move Points"
+        },
+        {
+            "type": "image",
+            "data": "image2329.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This tool allows existing points to be moved to a new position on your object. Click on the point and release the button, as the point will become your cursor. Reposition the point and click again to set it in its new position. Be careful not to cross other lines when editing the position of a point. If a point on the left end is moved to the right end, it will destroy the shape of an Object, and probably result in the loss of the Object. Points can be moved anywhere along the dashed line UNTIL they reach their neighboring yellow point. If it is necessary to move the dot beyond its neighbor, it is better to delete the current point, and create a new one in the proper area."
+        },
+        {
+            "type": "text",
+            "data": "Another feature that will accomplish the same purpose as this tool and do it more precisely, is accessed by right clicking on the yellow point."
+        },
+        {
+            "type": "text",
+            "data": "The following menu appears:"
+        },
+        {
+            "type": "image",
+            "data": "image290.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Point Position area allows you to control the position of the point by inputting the position of the point along two axes. In this example, the point is located at \"300\" X, which equates 300mm in X and 0mm Y offset."
+        },
+        {
+            "type": "text",
+            "data": "Parallel Line"
+        },
+        {
+            "type": "image",
+            "data": "image2332.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This tool allows two adjacent points to be \u00a0moved at the same time. When selected, the yellow position dots will disappear from the corners, and reappear in the middle of lines that are eligible for the parallel move option. Click the yellow dot, and move the line to the new position and click again to set it."
+        },
+        {
+            "type": "text",
+            "data": "Arc Line"
+        },
+        {
+            "type": "image",
+            "data": "image2333.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This tool will create a new point when it is clicked on a dashed line. The point can then be pulled and as it does so, an arc will appear between the two reference points adjacent to the area you have clicked. By observing the data boxes in the sidebar, you will see the offset of your arc. This arc starts and ends at the adjoining points, so creative use of the points can create an edge that arcs out, then in, etc."
+        },
+        {
+            "type": "text",
+            "data": "Radius Points"
+        },
+        {
+            "type": "image",
+            "data": "image2334.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This tool will radius an existing point on an object. When selected, the menu prompts for the value to use for the radius. The entered value becomes the radius of the arc. When using this Tool it is important to select the radius value so that the tangent points do not cross over, or position themselves on, the neighboring yellow points. This is clearly visible when using this tool. \u00a0If they do cross, click the same point that applied the radius to and select a smaller radius."
+        },
+        {
+            "type": "text",
+            "data": "Reference Point"
+        },
+        {
+            "type": "image",
+            "data": "image2335.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Occasionally, you may need to change the location of the reference point in an object you are editing. This feature will allow that point to be changed to one of the other points by simply clicking on the new selection. Changing the reference point is only temporary during editing and then returns to it's default position after editing is complete."
+        },
+        {
+            "type": "text",
+            "data": "Show Sample Profile"
+        },
+        {
+            "type": "image",
+            "data": "image2336.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This tool shows a sample Door Profile to help orient you when creating the different  Door Profile  Types. Typically, you would utilize this Tool to orient yourself prior to Shaping then turn it Off to create/edit your Door Profile."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Door Profile",
+                "uuid": "58bf93c0-395d-4fa5-8f99-421042b7e8ea",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Show/Hide Lines"
+        },
+        {
+            "type": "image",
+            "data": "image2351.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This Tool is available when creating/editing  Custom Routes  in the Door Catalog. You can use this option to turn off certain Lines in your Route Shape that would not actually be Routed. Because a Route Shape has to be one continuous line this allows you to turn off certain sections of it."
+        },
+        {
+            "type": "text",
+            "data": "Scale Image"
+        },
+        {
+            "type": "image",
+            "data": "image1508.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This tool is made available in the  Door Profile Catalog  when Importing a Bitmap. This Tool allows you to scale the Bitmap to fit the overall Thickness/Height of your Profile."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Door Profile Catalog",
+                "uuid": "58bf93c0-395d-4fa5-8f99-421042b7e8ea",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Align Image"
+        },
+        {
+            "type": "image",
+            "data": "image2338.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This tool is made available in the  Door Profile Catalog  when Importing a Bitmap. This Tool allows you to align the Bitmap to the Origin of your Profile."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Door Profile Catalog",
+                "uuid": "58bf93c0-395d-4fa5-8f99-421042b7e8ea",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Lock Points"
+        },
+        {
+            "type": "image",
+            "data": "image2339.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This tool allows you to lock a selected point. Locking a Point can be utilized to restrict stretching/shrink when Solid attempts to resize the Shape. Clicking on a Point with this Tool selected will bring up the following screen."
+        },
+        {
+            "type": "image",
+            "data": "image291.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "You can Lock the selected point both Horizontally and Vertically. For example if I select a Point to lock Left Horizontally the Length of the line from the Left-most point to the selected point would remain fixed and any stretch/shrink required would appear to the right of this point."
+        },
+        {
+            "type": "text",
+            "data": "Show Grid"
+        },
+        {
+            "type": "image",
+            "data": "image1510.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This tool allows you to turn on/off the display of the Grid."
+        },
+        {
+            "type": "text",
+            "data": "Snap To Grid"
+        },
+        {
+            "type": "image",
+            "data": "image1511.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This tool turns on the option to Snap to the Grid lines."
+        },
+        {
+            "type": "text",
+            "data": "Grid Unit Box"
+        },
+        {
+            "type": "image",
+            "data": "image1505.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Allows for resetting the pattern size  and snap precision of the Grid."
+        },
+        {
+            "type": "text",
+            "data": "Zoom Window"
+        },
+        {
+            "type": "image",
+            "data": "image2341.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This tool allows you to Zoom In."
+        },
+        {
+            "type": "text",
+            "data": "Zoom Out"
+        },
+        {
+            "type": "image",
+            "data": "image2342.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This tool incrementally Zooms Out your image."
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\System_Level\\Ribbonbar\\Main_Tab\\Catalogs_Group\\Door_Catalog\\Door_Catalog_Shape_Editor.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

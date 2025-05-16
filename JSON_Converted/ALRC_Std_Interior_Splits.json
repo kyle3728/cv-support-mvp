@@ -1,0 +1,156 @@
+{
+    "id": "20977a77-fe1c-4c12-a707-94e61c198187",
+    "title": "ALRC_Std_Interior_Splits",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top \n > \n \n \n Assembly Level \n > \n \n Right Click Options \n > \n \n Right Click Standard Interior Splits"
+        },
+        {
+            "type": "text",
+            "data": "Top \n >"
+        },
+        {
+            "type": "text",
+            "data": "Assembly Level \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Assembly Level",
+                "uuid": "b0552ea2-b430-4836-aa5e-42dfd04f9eda",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Right Click Options \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Right Click Options",
+                "uuid": "4db52af7-38c4-4c87-bc5e-fcd44fba5f73",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Right Click Standard Interior Splits"
+        },
+        {
+            "type": "text",
+            "data": "Right Click Standard Interior Splits"
+        },
+        {
+            "type": "text",
+            "data": "Right Click Standard Interior Splits Section View   -   Section Interior"
+        },
+        {
+            "type": "image",
+            "data": "image180.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image2521.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Standard Interior Splits consist of:"
+        },
+        {
+            "type": "text",
+            "data": "Shelf \n \n \n Adjustable Shelf \n \n \n Glass Adj Shelf \n \n \n Fixed Shelf \n \n \n Drawer Stretcher \n \n \n Top \n \n \n Bottom \n \n \n Partition"
+        },
+        {
+            "type": "text",
+            "data": "Shelf"
+        },
+        {
+            "type": "text",
+            "data": "Shelf"
+        },
+        {
+            "type": "text",
+            "data": "Adjustable Shelf"
+        },
+        {
+            "type": "text",
+            "data": "Adjustable Shelf"
+        },
+        {
+            "type": "text",
+            "data": "Glass Adj Shelf"
+        },
+        {
+            "type": "text",
+            "data": "Glass Adj Shelf"
+        },
+        {
+            "type": "text",
+            "data": "Fixed Shelf"
+        },
+        {
+            "type": "text",
+            "data": "Fixed Shelf"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Stretcher"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Stretcher"
+        },
+        {
+            "type": "text",
+            "data": "Top"
+        },
+        {
+            "type": "text",
+            "data": "Top"
+        },
+        {
+            "type": "text",
+            "data": "Bottom"
+        },
+        {
+            "type": "text",
+            "data": "Bottom"
+        },
+        {
+            "type": "text",
+            "data": "Partition"
+        },
+        {
+            "type": "text",
+            "data": "Partition"
+        },
+        {
+            "type": "image",
+            "data": "image1300.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There is one option when right clicking on the Parts listed above in the Section Case view:"
+        },
+        {
+            "type": "text",
+            "data": "Delete -  This option allows you to delete the selected Part."
+        },
+        {
+            "type": "text",
+            "data": "Delete -  This option allows you to delete the selected Part."
+        },
+        {
+            "type": "text",
+            "data": "Delete -  This option allows you to delete the selected Part."
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Assembly_Level\\Right_Click_Options\\ALRC_Std_Interior_Splits.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

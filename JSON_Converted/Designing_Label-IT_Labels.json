@@ -1,0 +1,2948 @@
+{
+    "id": "64ed2c4b-f225-4c45-a84f-2c11255136f8",
+    "title": "Designing_Label-IT_Labels",
+    "content": [
+        {
+            "type": "text",
+            "data": "Designing +LabelLabels"
+        },
+        {
+            "type": "image",
+            "data": "image369.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "Label.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Accessing the Label Designer"
+        },
+        {
+            "type": "text",
+            "data": "To access the Label Designer follow these steps:"
+        },
+        {
+            "type": "text",
+            "data": "Click on  Utilities Tab | +LabelSetup ."
+        },
+        {
+            "type": "text",
+            "data": "Click on  Utilities Tab | +LabelSetup ."
+        },
+        {
+            "type": "text",
+            "data": "Click on  Utilities Tab | +LabelSetup ."
+        },
+        {
+            "type": "text",
+            "data": "In the Label Administrator click on the Design Tab."
+        },
+        {
+            "type": "text",
+            "data": "In the Label Administrator click on the Design Tab."
+        },
+        {
+            "type": "text",
+            "data": "In the Label Administrator click on the Design Tab."
+        },
+        {
+            "type": "image",
+            "data": "image365.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Make sure that once you have created your Label Design that you go into the  Machine Catalog Setup  Tab for your Sheet Router/Saw and select this Label as the active Label."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Machine Catalog Setup",
+                "uuid": "8f3db61d-fccb-46e0-8dbf-d316d2e1d1b7",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Label Designer Feature List"
+        },
+        {
+            "type": "text",
+            "data": "The features of the Label Designer are denoted with the red numbers in the graphic below, followed by a brief description of each."
+        },
+        {
+            "type": "image",
+            "data": "image366.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Name of Label currently active in the Label Designer. \n \n \n Use this button to create a new Label. \n \n \n Use this button to copy the active Label. \n \n \n Use this button to delete the active Label. You will be prompted whether or not to delete the Label. \n \n \n Use this field to define the Width of the active Label. \n \n \n Use this field to define the Height of the active Label. \n \n \n This list shows all the fields being utilized on the active Label. \n \n \n Use this button to add a new field to the active Label. See the complete list of the fields available with a brief description of the fields content later in this topic. \n \n \n Use this button to delete a selected field on the active Label. \n \n \n This is where you can enter sample text to see what the Label will look like with actual data in place. This is also the area where you will enter permanent text for the text field. \n \n \n This is where you enter the X (Left to Right) location of a selected field on the Label. This value references the top left corner of the field to the top left corner of the Label. \n \n \n This is where you enter the  Y    (Up and Down) location of a selected field on the Label. This value references the top left corner of the field to the top left corner of the Label. \n \n \n This is where you specify the width of a selected field. \n \n \n This is where you specify the height of a selected field. \n \n \n This is where you set the Rotation of the selected field. When selecting a Part Graphic this option changes to Band Symbol Size and can be used to make the Banding Symbol included in a Part Graphic larger or smaller. \n \n \n This is the area where you format a selected fields text formats. You can define the following text attributes: \n \n \n Font    style (Typically the 3 of 9 Bar-code font is used for bar codes) \n \n \n Bold \n \n \n Italic \n \n \n Justification (Left/Center/Right) \n \n \n \n \n This is the workspace for the active Label."
+        },
+        {
+            "type": "text",
+            "data": "Name of Label currently active in the Label Designer."
+        },
+        {
+            "type": "text",
+            "data": "Name of Label currently active in the Label Designer."
+        },
+        {
+            "type": "text",
+            "data": "Use this button to create a new Label."
+        },
+        {
+            "type": "text",
+            "data": "Use this button to create a new Label."
+        },
+        {
+            "type": "text",
+            "data": "Use this button to copy the active Label."
+        },
+        {
+            "type": "text",
+            "data": "Use this button to copy the active Label."
+        },
+        {
+            "type": "text",
+            "data": "Use this button to delete the active Label. You will be prompted whether or not to delete the Label."
+        },
+        {
+            "type": "text",
+            "data": "Use this button to delete the active Label. You will be prompted whether or not to delete the Label."
+        },
+        {
+            "type": "text",
+            "data": "Use this field to define the Width of the active Label."
+        },
+        {
+            "type": "text",
+            "data": "Use this field to define the Width of the active Label."
+        },
+        {
+            "type": "text",
+            "data": "Use this field to define the Height of the active Label."
+        },
+        {
+            "type": "text",
+            "data": "Use this field to define the Height of the active Label."
+        },
+        {
+            "type": "text",
+            "data": "This list shows all the fields being utilized on the active Label."
+        },
+        {
+            "type": "text",
+            "data": "This list shows all the fields being utilized on the active Label."
+        },
+        {
+            "type": "text",
+            "data": "Use this button to add a new field to the active Label. See the complete list of the fields available with a brief description of the fields content later in this topic."
+        },
+        {
+            "type": "text",
+            "data": "Use this button to add a new field to the active Label. See the complete list of the fields available with a brief description of the fields content later in this topic."
+        },
+        {
+            "type": "text",
+            "data": "Use this button to delete a selected field on the active Label."
+        },
+        {
+            "type": "text",
+            "data": "Use this button to delete a selected field on the active Label."
+        },
+        {
+            "type": "text",
+            "data": "This is where you can enter sample text to see what the Label will look like with actual data in place. This is also the area where you will enter permanent text for the text field."
+        },
+        {
+            "type": "text",
+            "data": "This is where you can enter sample text to see what the Label will look like with actual data in place. This is also the area where you will enter permanent text for the text field."
+        },
+        {
+            "type": "text",
+            "data": "This is where you enter the X (Left to Right) location of a selected field on the Label. This value references the top left corner of the field to the top left corner of the Label."
+        },
+        {
+            "type": "text",
+            "data": "This is where you enter the X (Left to Right) location of a selected field on the Label. This value references the top left corner of the field to the top left corner of the Label."
+        },
+        {
+            "type": "text",
+            "data": "This is where you enter the  Y    (Up and Down) location of a selected field on the Label. This value references the top left corner of the field to the top left corner of the Label."
+        },
+        {
+            "type": "text",
+            "data": "This is where you enter the  Y    (Up and Down) location of a selected field on the Label. This value references the top left corner of the field to the top left corner of the Label."
+        },
+        {
+            "type": "text",
+            "data": "This is where you specify the width of a selected field."
+        },
+        {
+            "type": "text",
+            "data": "This is where you specify the width of a selected field."
+        },
+        {
+            "type": "text",
+            "data": "This is where you specify the height of a selected field."
+        },
+        {
+            "type": "text",
+            "data": "This is where you specify the height of a selected field."
+        },
+        {
+            "type": "text",
+            "data": "This is where you set the Rotation of the selected field. When selecting a Part Graphic this option changes to Band Symbol Size and can be used to make the Banding Symbol included in a Part Graphic larger or smaller."
+        },
+        {
+            "type": "text",
+            "data": "This is where you set the Rotation of the selected field. When selecting a Part Graphic this option changes to Band Symbol Size and can be used to make the Banding Symbol included in a Part Graphic larger or smaller."
+        },
+        {
+            "type": "text",
+            "data": "This is the area where you format a selected fields text formats. You can define the following text attributes: \n \n \n Font    style (Typically the 3 of 9 Bar-code font is used for bar codes) \n \n \n Bold \n \n \n Italic \n \n \n Justification (Left/Center/Right)"
+        },
+        {
+            "type": "text",
+            "data": "This is the area where you format a selected fields text formats. You can define the following text attributes:"
+        },
+        {
+            "type": "text",
+            "data": "Font    style (Typically the 3 of 9 Bar-code font is used for bar codes) \n \n \n Bold \n \n \n Italic \n \n \n Justification (Left/Center/Right)"
+        },
+        {
+            "type": "text",
+            "data": "Font    style (Typically the 3 of 9 Bar-code font is used for bar codes)"
+        },
+        {
+            "type": "text",
+            "data": "Font    style (Typically the 3 of 9 Bar-code font is used for bar codes)"
+        },
+        {
+            "type": "text",
+            "data": "Bold"
+        },
+        {
+            "type": "text",
+            "data": "Bold"
+        },
+        {
+            "type": "text",
+            "data": "Italic"
+        },
+        {
+            "type": "text",
+            "data": "Italic"
+        },
+        {
+            "type": "text",
+            "data": "Justification (Left/Center/Right)"
+        },
+        {
+            "type": "text",
+            "data": "Justification (Left/Center/Right)"
+        },
+        {
+            "type": "text",
+            "data": "This is the workspace for the active Label."
+        },
+        {
+            "type": "text",
+            "data": "This is the workspace for the active Label."
+        },
+        {
+            "type": "text",
+            "data": "The Unit of Measure buttons  allowyou to establish the Unit of Measure and Precision used on +LabelOutput."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image367.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Field Modification Options"
+        },
+        {
+            "type": "text",
+            "data": "The graphic below shows a highlighted field. There are different methods to move and size a field."
+        },
+        {
+            "type": "text",
+            "data": "You can use the fields X and Y to move the field. \n \n \n You can use the fields Width and Height to stretch or shrink the field. \n \n \n Alternatively you may grab the center handle (Yellow Dot) to move the field or the (4) corner handles (Yellow Dots) to stretch or shrink the field."
+        },
+        {
+            "type": "text",
+            "data": "You can use the fields X and Y to move the field."
+        },
+        {
+            "type": "text",
+            "data": "You can use the fields X and Y to move the field."
+        },
+        {
+            "type": "text",
+            "data": "You can use the fields Width and Height to stretch or shrink the field."
+        },
+        {
+            "type": "text",
+            "data": "You can use the fields Width and Height to stretch or shrink the field."
+        },
+        {
+            "type": "text",
+            "data": "Alternatively you may grab the center handle (Yellow Dot) to move the field or the (4) corner handles (Yellow Dots) to stretch or shrink the field."
+        },
+        {
+            "type": "text",
+            "data": "Alternatively you may grab the center handle (Yellow Dot) to move the field or the (4) corner handles (Yellow Dots) to stretch or shrink the field."
+        },
+        {
+            "type": "image",
+            "data": "image374.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Field Definitions"
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field Name",
+                    "File Description"
+                ],
+                "rows": [
+                    [
+                        "Text",
+                        "Simply enter the desired text into the Sample Text box. (Text and/or  Variables )"
+                    ],
+                    [
+                        "2D Barcode Data Matrix",
+                        "This will generate a 2D Barcode based on what is entered in Sample Text. (Text and/or  Variables )"
+                    ],
+                    [
+                        "2D BarCode PDF417",
+                        "This will generate a 2D Barcode based on what is entered in Sample Text. (Text and/or  Variables )"
+                    ],
+                    [
+                        "2D BarCode QR ISO",
+                        "This will generate a 2D Barcode based on what is entered in Sample Text. (Text and/or  Variables )"
+                    ],
+                    [
+                        "AC Custom Part Data 01 - 25",
+                        "Displays Custom Part Data as defined when using ALPHACAM to create the xLabel output"
+                    ],
+                    [
+                        "Banding: Code",
+                        "Displays the parts edge band code. (See below for definition)"
+                    ],
+                    [
+                        "Banding: Colors",
+                        "Displays the Banding Colors."
+                    ],
+                    [
+                        "Banding: Colors + Materials",
+                        "Displays the Banding Colors and Materials."
+                    ],
+                    [
+                        "Banding: Exterior Barcode",
+                        "Displays the Barcode for the Exterior Banding"
+                    ],
+                    [
+                        "Banding: Flags",
+                        "Displays the parts edge band flags (See below for definition)"
+                    ],
+                    [
+                        "Banding: Internal Barcode",
+                        "Displays the Barcode for the Interior Banding"
+                    ],
+                    [
+                        "Banding: List",
+                        "Displays all Banding used on the Part. See below for more information."
+                    ],
+                    [
+                        "Banding: Materials",
+                        "Displays the Band Materials."
+                    ],
+                    [
+                        "Cabinet: Comment",
+                        "Displays the Cabinet Comment"
+                    ],
+                    [
+                        "Cabinet: Depth",
+                        "Displays the Cabinet Depth"
+                    ],
+                    [
+                        "Cabinet: Description",
+                        "Displays the Cabinet Description"
+                    ],
+                    [
+                        "Cabinet: Height",
+                        "Displays the Cabinet Height"
+                    ],
+                    [
+                        "Cabinet: Name",
+                        "Displays the Cabinet Name"
+                    ],
+                    [
+                        "Cabinet: Number",
+                        "Displays the Cabinet Number"
+                    ],
+                    [
+                        "Cabinet: Width",
+                        "Displays the Cabinet Width"
+                    ],
+                    [
+                        "CNC: Panel Layout Part Index",
+                        "Displays the Part's Index on the panel."
+                    ],
+                    [
+                        "CNC: Primary Barcode",
+                        "Displays the primary CNC barcode (See below for definition)"
+                    ],
+                    [
+                        "CNC: Primary Barcode Machine Tags",
+                        "Displays the tag for the primary barcode machine"
+                    ],
+                    [
+                        "CNC: Primary Face Up / Down",
+                        "Displays the primary Face Up / Down position"
+                    ],
+                    [
+                        "CNC: Primary Machine",
+                        "Displays the machine that will perform the primary machining"
+                    ],
+                    [
+                        "CNC: Primary Mirrored",
+                        "Displays if the part is a mirrored part for the primary machine"
+                    ],
+                    [
+                        "CNC: Primary Orientation Symbol",
+                        "Symbol Graphic displaying the orientation of the part on the primary machine. (See below for definition)"
+                    ],
+                    [
+                        "CNC: Primary Program Name",
+                        "Displays the primary program name"
+                    ],
+                    [
+                        "CNC: Primary Program Name Machine Tags",
+                        "Displays the primary program name machine tags."
+                    ],
+                    [
+                        "CNC: Primary Zone",
+                        "Displays the zone in which to place the part on the primary machine"
+                    ],
+                    [
+                        "CNC: Primary Zone Machine Tags",
+                        "Displays the tags for the primary zone machines.."
+                    ],
+                    [
+                        "CNC: Secondary Barcode",
+                        "Displays the secondary CNC barcode (See below for definition)"
+                    ],
+                    [
+                        "CNC: Secondary Barcode Machine Tags",
+                        "Displays the tag foo the secondary barcode machine."
+                    ],
+                    [
+                        "CNC: Secondary Face Up / Down",
+                        "Displays whether the part should be machined face up or face down."
+                    ],
+                    [
+                        "CNC: Secondary Machine",
+                        "Displays the machine that will perform the secondary machining"
+                    ],
+                    [
+                        "CNC: Secondary Mirrored",
+                        "Displays if the part is a mirrored part for the secondary machine"
+                    ],
+                    [
+                        "CNC: Secondary Orientation Symbol",
+                        "Graphic displaying the orientation of the part on the secondary machine. (See below for definition)"
+                    ],
+                    [
+                        "CNC: Secondary Program Name",
+                        "Displays the secondary program name"
+                    ],
+                    [
+                        "CNC: Secondary Program Name Machine Tags",
+                        "Displays the secondary program name machine tags."
+                    ],
+                    [
+                        "CNC: Secondary Zone",
+                        "Displays the zone in which to place the part on the secondary machine"
+                    ],
+                    [
+                        "CNC: Secondary Zone Machine Tags",
+                        "Displays the tags for the secondary zone machines."
+                    ],
+                    [
+                        "CNC: Workflow",
+                        "Displays the  workflow string  for your Machine Set(s)."
+                    ],
+                    [
+                        "Customer: Address",
+                        "Displays the Customer Address"
+                    ],
+                    [
+                        "Customer: City",
+                        "Displays the Customer City"
+                    ],
+                    [
+                        "Customer: Contact",
+                        "Displays the Customer Contact"
+                    ],
+                    [
+                        "Customer: Email",
+                        "Displays the Customer Email"
+                    ],
+                    [
+                        "Customer: Fax",
+                        "Displays the Customer Fax number"
+                    ],
+                    [
+                        "Customer: Mobile",
+                        "Displays the Customer Mobile number"
+                    ],
+                    [
+                        "Customer: Name",
+                        "Displays the Customer Name"
+                    ],
+                    [
+                        "Customer: Phone",
+                        "Displays the Customer Phone number"
+                    ],
+                    [
+                        "Customer: State",
+                        "Displays the Customer State"
+                    ],
+                    [
+                        "Customer: Zip",
+                        "Displays the Customer Zip (Postal) Code"
+                    ],
+                    [
+                        "CW Banding Edge1 Color",
+                        "Indicates Edge Color #1 for Cabnetware Edgebanding"
+                    ],
+                    [
+                        "CW Banding Edge1 EdgeIndicator",
+                        "Edge Indicator for Edge #1 for Cabnetware Edgebanding"
+                    ],
+                    [
+                        "CW Banding Edge1 Indicator",
+                        "Indicates Edge #1 L Or W for Cabnetware Edgebanding"
+                    ],
+                    [
+                        "CW Banding Edge1 Material",
+                        "Indicates Edge Material #1 for Cabnetware Edgebanding"
+                    ],
+                    [
+                        "CW Banding Edge1 Thickness",
+                        "Indicates Thickness Color #1 for Cabnetware Edgebanding"
+                    ],
+                    [
+                        "CW Banding Edge2 Color",
+                        "Indicates Edge Color #2 for Cabnetware Edgebanding"
+                    ],
+                    [
+                        "CW Banding Edge2 EdgeIndicator",
+                        "Edge Indicator for Edge #2 for Cabnetware Edgebanding"
+                    ],
+                    [
+                        "CW Banding Edge2 Indicator",
+                        "Indicates Edge #2 L Or W for Cabnetware Edgebanding"
+                    ],
+                    [
+                        "CW Banding Edge2 Material",
+                        "Indicates Edge Material #2 for Cabnetware Edgebanding"
+                    ],
+                    [
+                        "CW Banding Edge2 Thickness",
+                        "Indicates Thickness Color #2 for Cabnetware Edgebanding"
+                    ],
+                    [
+                        "CW Banding Edge3 Color",
+                        "Indicates Edge Color #3 for Cabnetware Edgebanding"
+                    ],
+                    [
+                        "CW Banding Edge3 EdgeIndicator",
+                        "Edge Indicator for Edge #3 for Cabnetware Edgebanding"
+                    ],
+                    [
+                        "CW Banding Edge3 Indicator",
+                        "Indicates Edge #3 L Or W for Cabnetware Edgebanding"
+                    ],
+                    [
+                        "CW Banding Edge3 Material",
+                        "Indicates Edge Material #3 for Cabnetware Edgebanding"
+                    ],
+                    [
+                        "CW Banding Edge3 Thickness",
+                        "Indicates Thickness Color #3 for Cabnetware Edgebanding"
+                    ],
+                    [
+                        "CW Banding Edge4 Color",
+                        "Indicates Edge Color #4 for Cabnetware Edgebanding"
+                    ],
+                    [
+                        "CW Banding Edge4 EdgeIndicator",
+                        "Edge Indicator for Edge #4 for Cabnetware Edgebanding"
+                    ],
+                    [
+                        "CW Banding Edge4 Indicator",
+                        "Indicates Edge #4 L Or W for Cabnetware Edgebanding"
+                    ],
+                    [
+                        "CW Banding Edge4 Material",
+                        "Indicates Edge Material #4 for Cabnetware Edgebanding"
+                    ],
+                    [
+                        "CW Banding Edge4 Thickness",
+                        "Indicates Thickness Color #4 for Cabnetware Edgebanding"
+                    ],
+                    [
+                        "CW Primary Edge Color",
+                        "Indicates Primary Edge Color for Cabnetware Edgebanding"
+                    ],
+                    [
+                        "CW Primary Edge EdgeIndicator",
+                        "Primary Edge EdgeIndicator for Cabnetware Edgebanding"
+                    ],
+                    [
+                        "CW Primary Edge Indicator",
+                        "Indicates Primary Edge L Or W for Cabnetware Edgebanding"
+                    ],
+                    [
+                        "CW Primary Edge Material",
+                        "Indicates Primary Edge Material for Cabnetware Edgebanding"
+                    ],
+                    [
+                        "CW Primary Edge Thickness",
+                        "Indicates Primary Edge Thickness for Cabnetware Edgebanding"
+                    ],
+                    [
+                        "Edge: Bottom Barcode",
+                        "Displays the program to run on the bottom edge of the part with a Drill & Dowel machine."
+                    ],
+                    [
+                        "Edge: Bottom Barcode Machine Tags",
+                        "Displays the machine tag for the program to run on the bottom edge of the part with a Drill & Dowel machine."
+                    ],
+                    [
+                        "Edge: Bottom Mirrored",
+                        "Displays if the program for the bottom edge of the part is mirrored."
+                    ],
+                    [
+                        "Edge: Bottom Orientation Symbol",
+                        "Displays the orientation of the part in the Drill & Dowel machine to machine the bottom edge."
+                    ],
+                    [
+                        "Edge: Left Barcode",
+                        "Displays the program to run on the left edge of the part with a Drill & Dowel machine."
+                    ],
+                    [
+                        "Edge: Left Barcode Machine Tags",
+                        "Displays the machine tag for the program to run on the left edge of the part with a Drill & Dowel machine."
+                    ],
+                    [
+                        "Edge: Left Mirrored",
+                        "Displays if the program for the left edge of the part is mirrored."
+                    ],
+                    [
+                        "Edge: Left Orientation Symbol",
+                        "Displays the orientation of the part in the Drill & Dowel machine to machine the left edge."
+                    ],
+                    [
+                        "Edge: Right Barcode",
+                        "Displays the program to run on the right edge of the part with a Drill & Dowel machine."
+                    ],
+                    [
+                        "Edge: Right Barcode Machine Tags",
+                        "Displays the machine tag for the program to run on the right edge of the part with a Drill & Dowel machine."
+                    ],
+                    [
+                        "Edge: Right Mirrored",
+                        "Displays if the program for the right edge of the part is mirrored."
+                    ],
+                    [
+                        "Edge: Right Orientation Symbol",
+                        "Displays the orientation of the part in the Drill & Dowel machine to machine the right edge."
+                    ],
+                    [
+                        "Edge: Top Barcode",
+                        "Displays the program to run on the top edge of the part with a Drill & Dowel machine."
+                    ],
+                    [
+                        "Edge: Top Barcode Machine Tags",
+                        "Displays the machine tag for the program to run on the top edge of the part with a Drill & Dowel machine."
+                    ],
+                    [
+                        "Edge: Top Mirrored",
+                        "Displays if the program for the top edge of the part is mirrored."
+                    ],
+                    [
+                        "Edge: Top Orientation Symbol",
+                        "Displays the orientation of the part in the Drill & Dowel machine to machine the top edge."
+                    ],
+                    [
+                        "Job: Comment",
+                        "Any Job Comments you entered for the job will be reflected in this field"
+                    ],
+                    [
+                        "Job: Company Name",
+                        "Displays the Company Name"
+                    ],
+                    [
+                        "Job: CVJ File",
+                        "Displays the name of the Cabinet Vision Job file used to generate the Label-IT output"
+                    ],
+                    [
+                        "Job: Delivery Date",
+                        "Displays the Delivery Date for the Job"
+                    ],
+                    [
+                        "Job: Deposit Date",
+                        "Displays the Deposit Date for the Job"
+                    ],
+                    [
+                        "Job: Description",
+                        "The Job description you entered for the job will be reflected in this field"
+                    ],
+                    [
+                        "Job: Detail Date",
+                        "Displays the Detail Date for the Job"
+                    ],
+                    [
+                        "Job: Final Payment Date",
+                        "Displays the Final Payment Date for the Job"
+                    ],
+                    [
+                        "Job: Install Date",
+                        "Displays the Install Date for the Job"
+                    ],
+                    [
+                        "Job: Measure Date",
+                        "Displays the Measure Date for the Job"
+                    ],
+                    [
+                        "Job: Name",
+                        "The Name of the job, this information comes from the Job Number field in Job Properties"
+                    ],
+                    [
+                        "Job: PNC File",
+                        "Displays the PNC File name for the Job"
+                    ],
+                    [
+                        "Job: Production Date",
+                        "Displays the Production Date for the job"
+                    ],
+                    [
+                        "Material: Back Texture",
+                        "Displays the Materials Back Texture"
+                    ],
+                    [
+                        "Material: Cost",
+                        "Displays the Materials Cost"
+                    ],
+                    [
+                        "Material: Edge Texture",
+                        "Displays the Materials Edge Texture"
+                    ],
+                    [
+                        "Material: Face Dependent",
+                        "Displays the Materials Face Dependency"
+                    ],
+                    [
+                        "Material: Face Texture",
+                        "Displays the Materials Face Texture"
+                    ],
+                    [
+                        "Material: Feed Percent",
+                        "Displays the Materials Feed Percent"
+                    ],
+                    [
+                        "Material: Length",
+                        "Displays the Materials Length"
+                    ],
+                    [
+                        "Material: Name",
+                        "Displays the Materials Name"
+                    ],
+                    [
+                        "Material: Thick",
+                        "Displays the Materials Thickness"
+                    ],
+                    [
+                        "Material: Width",
+                        "Displays the Materials Width"
+                    ],
+                    [
+                        "Part Size: Length",
+                        "Displays the length of the part"
+                    ],
+                    [
+                        "Part Size: Length x Width",
+                        "Displays the length and width of the part. (36 x 24)"
+                    ],
+                    [
+                        "Part Size: Length x Width x Thickness",
+                        "Displays the length, width, and thickness of the part. (36 x 24 x )"
+                    ],
+                    [
+                        "Part Size: Thickness",
+                        "Displays the thickness of the part."
+                    ],
+                    [
+                        "Part Size: Width",
+                        "Displays the width of the part"
+                    ],
+                    [
+                        "Part Size: Width x Length",
+                        "Displays the width and length of the part. (24 x 36)"
+                    ],
+                    [
+                        "Part Size: Width x Length x Thickness",
+                        "Displays the width, length, and thickness of the part. (24 x 36 x )"
+                    ],
+                    [
+                        "Part: Back Finish",
+                        "Displays the Part Back Finish"
+                    ],
+                    [
+                        "Part: Comment",
+                        "Any Part Comments you entered for the part will be reflected in this field"
+                    ],
+                    [
+                        "Part: Edge Finish",
+                        "Displays the Part Edge Finish"
+                    ],
+                    [
+                        "Part: Face Finish",
+                        "Displays the Part Face Finish"
+                    ],
+                    [
+                        "Part: Graphic",
+                        "This field displays a Graphic image of the part including machining and edge banding instructions. (See below for details)"
+                    ],
+                    [
+                        "Part: Image Name",
+                        "Displays the Part Image Name for Real-time Labeling"
+                    ],
+                    [
+                        "Part: Material",
+                        "Displays the material the part is made of"
+                    ],
+                    [
+                        "Part: Name",
+                        "Displays the name of the part"
+                    ],
+                    [
+                        "Part: Position on Sheet",
+                        "Displays a graphic of the Nest pinpointing the location of the Part within it."
+                    ],
+                    [
+                        "Part: Short Name",
+                        "Displays the short name of the part. (This name comes from the part catalog, this is the short descriptor used to ID parts in UCSs and formulas)"
+                    ],
+                    [
+                        "Room: Name",
+                        "Displays the Room Name for the Part."
+                    ],
+                    [
+                        "Room: Number",
+                        "Displays the Room Number for the Job."
+                    ],
+                    [
+                        "Time: Long Date",
+                        "Displays the long date. (March 28, 2002)"
+                    ],
+                    [
+                        "Time: Long Date + Time",
+                        "Displays the long date and time.(March 28, 2002 05:34 PM)"
+                    ],
+                    [
+                        "Time: Short Date",
+                        "Displays the short date. (3/28/02)"
+                    ],
+                    [
+                        "Time: Short Date + Time",
+                        "Displays the short date and time.(3/28/02 05:34 PM)"
+                    ],
+                    [
+                        "Time: Time",
+                        "Displays the time. (05:34 PM)"
+                    ],
+                    [
+                        "Wall: Number",
+                        "Displays the Wall Number"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field Name"
+        },
+        {
+            "type": "text",
+            "data": "File Description"
+        },
+        {
+            "type": "text",
+            "data": "Text"
+        },
+        {
+            "type": "text",
+            "data": "Simply enter the desired text into the Sample Text box. (Text and/or  Variables )"
+        },
+        {
+            "type": "text",
+            "data": "2D BarCode PDF417"
+        },
+        {
+            "type": "text",
+            "data": "This will generate a 2D Barcode based on what is entered in Sample Text. (Text and/or  Variables )"
+        },
+        {
+            "type": "text",
+            "data": "Banding: Code"
+        },
+        {
+            "type": "text",
+            "data": "Displays the parts edge band code. (See below for definition)"
+        },
+        {
+            "type": "text",
+            "data": "Banding: Colors"
+        },
+        {
+            "type": "text",
+            "data": "Displays the Banding Colors."
+        },
+        {
+            "type": "text",
+            "data": "Banding: Colors + Materials"
+        },
+        {
+            "type": "text",
+            "data": "Displays the Banding Colors and Materials."
+        },
+        {
+            "type": "text",
+            "data": "Banding: Exterior Barcode"
+        },
+        {
+            "type": "text",
+            "data": "Displays the Barcode for the Exterior Banding"
+        },
+        {
+            "type": "text",
+            "data": "Banding: Flags"
+        },
+        {
+            "type": "text",
+            "data": "Displays the parts edge band flags (See below for definition)"
+        },
+        {
+            "type": "text",
+            "data": "Banding: Internal Barcode"
+        },
+        {
+            "type": "text",
+            "data": "Displays the Barcode for the Interior Banding"
+        },
+        {
+            "type": "text",
+            "data": "Banding: List"
+        },
+        {
+            "type": "text",
+            "data": "Displays all Banding used on the Part. See below for more information."
+        },
+        {
+            "type": "text",
+            "data": "Banding: Materials"
+        },
+        {
+            "type": "text",
+            "data": "Displays the Band Materials."
+        },
+        {
+            "type": "text",
+            "data": "Cabinet: Comment"
+        },
+        {
+            "type": "text",
+            "data": "Displays the Cabinet Comment"
+        },
+        {
+            "type": "text",
+            "data": "Cabinet: Depth"
+        },
+        {
+            "type": "text",
+            "data": "Displays the Cabinet Depth"
+        },
+        {
+            "type": "text",
+            "data": "Cabinet: Description"
+        },
+        {
+            "type": "text",
+            "data": "Displays the Cabinet Description"
+        },
+        {
+            "type": "text",
+            "data": "Cabinet: Height"
+        },
+        {
+            "type": "text",
+            "data": "Displays the Cabinet Height"
+        },
+        {
+            "type": "text",
+            "data": "Cabinet: Name"
+        },
+        {
+            "type": "text",
+            "data": "Displays the Cabinet Name"
+        },
+        {
+            "type": "text",
+            "data": "Cabinet: Number"
+        },
+        {
+            "type": "text",
+            "data": "Displays the Cabinet Number"
+        },
+        {
+            "type": "text",
+            "data": "Cabinet: Width"
+        },
+        {
+            "type": "text",
+            "data": "Displays the Cabinet Width"
+        },
+        {
+            "type": "text",
+            "data": "CNC: Primary Barcode"
+        },
+        {
+            "type": "text",
+            "data": "Displays the primary CNC barcode (See below for definition)"
+        },
+        {
+            "type": "text",
+            "data": "CNC: Primary Barcode Machine Tags"
+        },
+        {
+            "type": "text",
+            "data": "Displays the tag for the primary barcode machine"
+        },
+        {
+            "type": "text",
+            "data": "CNC: Primary Face Up / Down"
+        },
+        {
+            "type": "text",
+            "data": "Displays the primary Face Up / Down position"
+        },
+        {
+            "type": "text",
+            "data": "CNC: Primary Machine"
+        },
+        {
+            "type": "text",
+            "data": "Displays the machine that will perform the primary machining"
+        },
+        {
+            "type": "text",
+            "data": "CNC: Primary Mirrored"
+        },
+        {
+            "type": "text",
+            "data": "Displays if the part is a mirrored part for the primary machine"
+        },
+        {
+            "type": "text",
+            "data": "CNC: Primary Orientation Symbol"
+        },
+        {
+            "type": "text",
+            "data": "Symbol Graphic displaying the orientation of the part on the primary machine. (See below for definition)"
+        },
+        {
+            "type": "text",
+            "data": "CNC: Primary Program Name"
+        },
+        {
+            "type": "text",
+            "data": "Displays the primary program name"
+        },
+        {
+            "type": "text",
+            "data": "CNC: Primary Program Name Machine Tags"
+        },
+        {
+            "type": "text",
+            "data": "Displays the primary program name machine tags."
+        },
+        {
+            "type": "text",
+            "data": "CNC: Primary Zone"
+        },
+        {
+            "type": "text",
+            "data": "Displays the zone in which to place the part on the primary machine"
+        },
+        {
+            "type": "text",
+            "data": "CNC: Primary Zone Machine Tags"
+        },
+        {
+            "type": "text",
+            "data": "Displays the tags for the primary zone machines.."
+        },
+        {
+            "type": "text",
+            "data": "CNC: Secondary Barcode"
+        },
+        {
+            "type": "text",
+            "data": "Displays the secondary CNC barcode (See below for definition)"
+        },
+        {
+            "type": "text",
+            "data": "CNC: Secondary Barcode Machine Tags"
+        },
+        {
+            "type": "text",
+            "data": "Displays the tag foo the secondary barcode machine."
+        },
+        {
+            "type": "text",
+            "data": "CNC: Secondary Face Up / Down"
+        },
+        {
+            "type": "text",
+            "data": "Displays whether the part should be machined face up or face down."
+        },
+        {
+            "type": "text",
+            "data": "CNC: Secondary Machine"
+        },
+        {
+            "type": "text",
+            "data": "Displays the machine that will perform the secondary machining"
+        },
+        {
+            "type": "text",
+            "data": "CNC: Secondary Mirrored"
+        },
+        {
+            "type": "text",
+            "data": "Displays if the part is a mirrored part for the secondary machine"
+        },
+        {
+            "type": "text",
+            "data": "CNC: Secondary Orientation Symbol"
+        },
+        {
+            "type": "text",
+            "data": "Graphic displaying the orientation of the part on the secondary machine. (See below for definition)"
+        },
+        {
+            "type": "text",
+            "data": "CNC: Secondary Program Name"
+        },
+        {
+            "type": "text",
+            "data": "Displays the secondary program name"
+        },
+        {
+            "type": "text",
+            "data": "CNC: Secondary Program Name Machine Tags"
+        },
+        {
+            "type": "text",
+            "data": "Displays the secondary program name machine tags."
+        },
+        {
+            "type": "text",
+            "data": "CNC: Secondary Zone"
+        },
+        {
+            "type": "text",
+            "data": "Displays the zone in which to place the part on the secondary machine"
+        },
+        {
+            "type": "text",
+            "data": "CNC: Secondary Zone Machine Tags"
+        },
+        {
+            "type": "text",
+            "data": "Displays the tags for the secondary zone machines."
+        },
+        {
+            "type": "text",
+            "data": "CNC: Workflow"
+        },
+        {
+            "type": "text",
+            "data": "Displays the  workflow string  for your Machine Set(s)."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "workflow string",
+                "uuid": "8cd8c491-7f06-4923-bfca-f87652bd7236",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Customer: Address"
+        },
+        {
+            "type": "text",
+            "data": "Displays the Customer Address"
+        },
+        {
+            "type": "text",
+            "data": "Customer: City"
+        },
+        {
+            "type": "text",
+            "data": "Displays the Customer City"
+        },
+        {
+            "type": "text",
+            "data": "Customer: Contact"
+        },
+        {
+            "type": "text",
+            "data": "Displays the Customer Contact"
+        },
+        {
+            "type": "text",
+            "data": "Customer: Email"
+        },
+        {
+            "type": "text",
+            "data": "Displays the Customer Email"
+        },
+        {
+            "type": "text",
+            "data": "Customer: Fax"
+        },
+        {
+            "type": "text",
+            "data": "Displays the Customer Fax number"
+        },
+        {
+            "type": "text",
+            "data": "Customer: Mobile"
+        },
+        {
+            "type": "text",
+            "data": "Displays the Customer Mobile number"
+        },
+        {
+            "type": "text",
+            "data": "Customer: Name"
+        },
+        {
+            "type": "text",
+            "data": "Displays the Customer Name"
+        },
+        {
+            "type": "text",
+            "data": "Customer: Phone"
+        },
+        {
+            "type": "text",
+            "data": "Displays the Customer Phone number"
+        },
+        {
+            "type": "text",
+            "data": "Customer: State"
+        },
+        {
+            "type": "text",
+            "data": "Displays the Customer State"
+        },
+        {
+            "type": "text",
+            "data": "Customer: Zip"
+        },
+        {
+            "type": "text",
+            "data": "Displays the Customer Zip (Postal) Code"
+        },
+        {
+            "type": "text",
+            "data": "CW Banding Edge1 Color"
+        },
+        {
+            "type": "text",
+            "data": "Indicates Edge Color #1 for Cabnetware Edgebanding"
+        },
+        {
+            "type": "text",
+            "data": "CW Banding Edge1 EdgeIndicator"
+        },
+        {
+            "type": "text",
+            "data": "Edge Indicator for Edge #1 for Cabnetware Edgebanding"
+        },
+        {
+            "type": "text",
+            "data": "CW Banding Edge1 Indicator"
+        },
+        {
+            "type": "text",
+            "data": "Indicates Edge #1 L Or W for Cabnetware Edgebanding"
+        },
+        {
+            "type": "text",
+            "data": "CW Banding Edge1 Material"
+        },
+        {
+            "type": "text",
+            "data": "Indicates Edge Material #1 for Cabnetware Edgebanding"
+        },
+        {
+            "type": "text",
+            "data": "CW Banding Edge1 Thickness"
+        },
+        {
+            "type": "text",
+            "data": "Indicates Thickness Color #1 for Cabnetware Edgebanding"
+        },
+        {
+            "type": "text",
+            "data": "CW Banding Edge2 Color"
+        },
+        {
+            "type": "text",
+            "data": "Indicates Edge Color #2 for Cabnetware Edgebanding"
+        },
+        {
+            "type": "text",
+            "data": "CW Banding Edge2 EdgeIndicator"
+        },
+        {
+            "type": "text",
+            "data": "Edge Indicator for Edge #2 for Cabnetware Edgebanding"
+        },
+        {
+            "type": "text",
+            "data": "CW Banding Edge2 Indicator"
+        },
+        {
+            "type": "text",
+            "data": "Indicates Edge #2 L Or W for Cabnetware Edgebanding"
+        },
+        {
+            "type": "text",
+            "data": "CW Banding Edge2 Material"
+        },
+        {
+            "type": "text",
+            "data": "Indicates Edge Material #2 for Cabnetware Edgebanding"
+        },
+        {
+            "type": "text",
+            "data": "CW Banding Edge2 Thickness"
+        },
+        {
+            "type": "text",
+            "data": "Indicates Thickness Color #2 for Cabnetware Edgebanding"
+        },
+        {
+            "type": "text",
+            "data": "CW Banding Edge3 Color"
+        },
+        {
+            "type": "text",
+            "data": "Indicates Edge Color #3 for Cabnetware Edgebanding"
+        },
+        {
+            "type": "text",
+            "data": "CW Banding Edge3 EdgeIndicator"
+        },
+        {
+            "type": "text",
+            "data": "Edge Indicator for Edge #3 for Cabnetware Edgebanding"
+        },
+        {
+            "type": "text",
+            "data": "CW Banding Edge3 Indicator"
+        },
+        {
+            "type": "text",
+            "data": "Indicates Edge #3 L Or W for Cabnetware Edgebanding"
+        },
+        {
+            "type": "text",
+            "data": "CW Banding Edge3 Material"
+        },
+        {
+            "type": "text",
+            "data": "Indicates Edge Material #3 for Cabnetware Edgebanding"
+        },
+        {
+            "type": "text",
+            "data": "CW Banding Edge3 Thickness"
+        },
+        {
+            "type": "text",
+            "data": "Indicates Thickness Color #3 for Cabnetware Edgebanding"
+        },
+        {
+            "type": "text",
+            "data": "CW Banding Edge4 Color"
+        },
+        {
+            "type": "text",
+            "data": "Indicates Edge Color #4 for Cabnetware Edgebanding"
+        },
+        {
+            "type": "text",
+            "data": "CW Banding Edge4 EdgeIndicator"
+        },
+        {
+            "type": "text",
+            "data": "Edge Indicator for Edge #4 for Cabnetware Edgebanding"
+        },
+        {
+            "type": "text",
+            "data": "CW Banding Edge4 Indicator"
+        },
+        {
+            "type": "text",
+            "data": "Indicates Edge #4 L Or W for Cabnetware Edgebanding"
+        },
+        {
+            "type": "text",
+            "data": "CW Banding Edge4 Material"
+        },
+        {
+            "type": "text",
+            "data": "Indicates Edge Material #4 for Cabnetware Edgebanding"
+        },
+        {
+            "type": "text",
+            "data": "CW Banding Edge4 Thickness"
+        },
+        {
+            "type": "text",
+            "data": "Indicates Thickness Color #4 for Cabnetware Edgebanding"
+        },
+        {
+            "type": "text",
+            "data": "CW Primary Edge Color"
+        },
+        {
+            "type": "text",
+            "data": "Indicates Primary Edge Color for Cabnetware Edgebanding"
+        },
+        {
+            "type": "text",
+            "data": "CW Primary Edge EdgeIndicator"
+        },
+        {
+            "type": "text",
+            "data": "Primary Edge EdgeIndicator for Cabnetware Edgebanding"
+        },
+        {
+            "type": "text",
+            "data": "CW Primary Edge Indicator"
+        },
+        {
+            "type": "text",
+            "data": "Indicates Primary Edge L Or W for Cabnetware Edgebanding"
+        },
+        {
+            "type": "text",
+            "data": "CW Primary Edge Material"
+        },
+        {
+            "type": "text",
+            "data": "Indicates Primary Edge Material for Cabnetware Edgebanding"
+        },
+        {
+            "type": "text",
+            "data": "CW Primary Edge Thickness"
+        },
+        {
+            "type": "text",
+            "data": "Indicates Primary Edge Thickness for Cabnetware Edgebanding"
+        },
+        {
+            "type": "text",
+            "data": "Edge: Bottom Barcode"
+        },
+        {
+            "type": "text",
+            "data": "Displays the program to run on the bottom edge of the part with a Drill & Dowel machine."
+        },
+        {
+            "type": "text",
+            "data": "Edge: Bottom Barcode Machine Tags"
+        },
+        {
+            "type": "text",
+            "data": "Displays the machine tag for the program to run on the bottom edge of the part with a Drill & Dowel machine."
+        },
+        {
+            "type": "text",
+            "data": "Edge: Bottom Mirrored"
+        },
+        {
+            "type": "text",
+            "data": "Displays if the program for the bottom edge of the part is mirrored."
+        },
+        {
+            "type": "text",
+            "data": "Edge: Bottom Orientation Symbol"
+        },
+        {
+            "type": "text",
+            "data": "Displays the orientation of the part in the Drill & Dowel machine to machine the bottom edge."
+        },
+        {
+            "type": "text",
+            "data": "Edge: Left Barcode"
+        },
+        {
+            "type": "text",
+            "data": "Displays the program to run on the left edge of the part with a Drill & Dowel machine."
+        },
+        {
+            "type": "text",
+            "data": "Edge: Left Barcode Machine Tags"
+        },
+        {
+            "type": "text",
+            "data": "Displays the machine tag for the program to run on the left edge of the part with a Drill & Dowel machine."
+        },
+        {
+            "type": "text",
+            "data": "Edge: Left Mirrored"
+        },
+        {
+            "type": "text",
+            "data": "Displays if the program for the left edge of the part is mirrored."
+        },
+        {
+            "type": "text",
+            "data": "Edge: Left Orientation Symbol"
+        },
+        {
+            "type": "text",
+            "data": "Displays the orientation of the part in the Drill & Dowel machine to machine the left edge."
+        },
+        {
+            "type": "text",
+            "data": "Edge: Right Barcode"
+        },
+        {
+            "type": "text",
+            "data": "Displays the program to run on the right edge of the part with a Drill & Dowel machine."
+        },
+        {
+            "type": "text",
+            "data": "Edge: Right Barcode Machine Tags"
+        },
+        {
+            "type": "text",
+            "data": "Displays the machine tag for the program to run on the right edge of the part with a Drill & Dowel machine."
+        },
+        {
+            "type": "text",
+            "data": "Edge: Right Mirrored"
+        },
+        {
+            "type": "text",
+            "data": "Displays if the program for the right edge of the part is mirrored."
+        },
+        {
+            "type": "text",
+            "data": "Edge: Right Orientation Symbol"
+        },
+        {
+            "type": "text",
+            "data": "Displays the orientation of the part in the Drill & Dowel machine to machine the right edge."
+        },
+        {
+            "type": "text",
+            "data": "Edge: Top Barcode"
+        },
+        {
+            "type": "text",
+            "data": "Displays the program to run on the top edge of the part with a Drill & Dowel machine."
+        },
+        {
+            "type": "text",
+            "data": "Edge: Top Barcode Machine Tags"
+        },
+        {
+            "type": "text",
+            "data": "Displays the machine tag for the program to run on the top edge of the part with a Drill & Dowel machine."
+        },
+        {
+            "type": "text",
+            "data": "Edge: Top Mirrored"
+        },
+        {
+            "type": "text",
+            "data": "Displays if the program for the top edge of the part is mirrored."
+        },
+        {
+            "type": "text",
+            "data": "Edge: Top Orientation Symbol"
+        },
+        {
+            "type": "text",
+            "data": "Displays the orientation of the part in the Drill & Dowel machine to machine the top edge."
+        },
+        {
+            "type": "text",
+            "data": "Job: Comment"
+        },
+        {
+            "type": "text",
+            "data": "Any Job Comments you entered for the job will be reflected in this field"
+        },
+        {
+            "type": "text",
+            "data": "Job: Company Name"
+        },
+        {
+            "type": "text",
+            "data": "Displays the Company Name"
+        },
+        {
+            "type": "text",
+            "data": "Job: CVJ File"
+        },
+        {
+            "type": "text",
+            "data": "Displays the name of the Cabinet Vision Job file used to generate the Label-IT output"
+        },
+        {
+            "type": "text",
+            "data": "Job: Delivery Date"
+        },
+        {
+            "type": "text",
+            "data": "Displays the Delivery Date for the Job"
+        },
+        {
+            "type": "text",
+            "data": "Job: Deposit Date"
+        },
+        {
+            "type": "text",
+            "data": "Displays the Deposit Date for the Job"
+        },
+        {
+            "type": "text",
+            "data": "Job: Description"
+        },
+        {
+            "type": "text",
+            "data": "The Job description you entered for the job will be reflected in this field"
+        },
+        {
+            "type": "text",
+            "data": "Job: Detail Date"
+        },
+        {
+            "type": "text",
+            "data": "Displays the Detail Date for the Job"
+        },
+        {
+            "type": "text",
+            "data": "Job: Final Payment Date"
+        },
+        {
+            "type": "text",
+            "data": "Displays the Final Payment Date for the Job"
+        },
+        {
+            "type": "text",
+            "data": "Job: Install Date"
+        },
+        {
+            "type": "text",
+            "data": "Displays the Install Date for the Job"
+        },
+        {
+            "type": "text",
+            "data": "Job: Measure Date"
+        },
+        {
+            "type": "text",
+            "data": "Displays the Measure Date for the Job"
+        },
+        {
+            "type": "text",
+            "data": "Job: Name"
+        },
+        {
+            "type": "text",
+            "data": "The Name of the job, this information comes from the Job Number field in Job Properties"
+        },
+        {
+            "type": "text",
+            "data": "Job: PNC File"
+        },
+        {
+            "type": "text",
+            "data": "Displays the PNC File name for the Job"
+        },
+        {
+            "type": "text",
+            "data": "Job: Production Date"
+        },
+        {
+            "type": "text",
+            "data": "Displays the Production Date for the job"
+        },
+        {
+            "type": "text",
+            "data": "Material: Back Texture"
+        },
+        {
+            "type": "text",
+            "data": "Displays the Materials Back Texture"
+        },
+        {
+            "type": "text",
+            "data": "Material: Cost"
+        },
+        {
+            "type": "text",
+            "data": "Displays the Materials Cost"
+        },
+        {
+            "type": "text",
+            "data": "Material: Edge Texture"
+        },
+        {
+            "type": "text",
+            "data": "Displays the Materials Edge Texture"
+        },
+        {
+            "type": "text",
+            "data": "Material: Face Dependent"
+        },
+        {
+            "type": "text",
+            "data": "Displays the Materials Face Dependency"
+        },
+        {
+            "type": "text",
+            "data": "Material: Face Texture"
+        },
+        {
+            "type": "text",
+            "data": "Displays the Materials Face Texture"
+        },
+        {
+            "type": "text",
+            "data": "Material: Feed Percent"
+        },
+        {
+            "type": "text",
+            "data": "Displays the Materials Feed Percent"
+        },
+        {
+            "type": "text",
+            "data": "Material: Length"
+        },
+        {
+            "type": "text",
+            "data": "Displays the Materials Length"
+        },
+        {
+            "type": "text",
+            "data": "Material: Name"
+        },
+        {
+            "type": "text",
+            "data": "Displays the Materials Name"
+        },
+        {
+            "type": "text",
+            "data": "Material: Thick"
+        },
+        {
+            "type": "text",
+            "data": "Displays the Materials Thickness"
+        },
+        {
+            "type": "text",
+            "data": "Material: Width"
+        },
+        {
+            "type": "text",
+            "data": "Displays the Materials Width"
+        },
+        {
+            "type": "text",
+            "data": "Part Size: Length"
+        },
+        {
+            "type": "text",
+            "data": "Displays the length of the part"
+        },
+        {
+            "type": "text",
+            "data": "Part Size: Length x Width"
+        },
+        {
+            "type": "text",
+            "data": "Displays the length and width of the part. (36 x 24)"
+        },
+        {
+            "type": "text",
+            "data": "Part Size: Length x Width x Thickness"
+        },
+        {
+            "type": "text",
+            "data": "Displays the length, width, and thickness of the part. (36 x 24 x )"
+        },
+        {
+            "type": "text",
+            "data": "Part Size: Thickness"
+        },
+        {
+            "type": "text",
+            "data": "Displays the thickness of the part."
+        },
+        {
+            "type": "text",
+            "data": "Part Size: Width"
+        },
+        {
+            "type": "text",
+            "data": "Displays the width of the part"
+        },
+        {
+            "type": "text",
+            "data": "Part Size: Width x Length"
+        },
+        {
+            "type": "text",
+            "data": "Displays the width and length of the part. (24 x 36)"
+        },
+        {
+            "type": "text",
+            "data": "Part Size: Width x Length x Thickness"
+        },
+        {
+            "type": "text",
+            "data": "Displays the width, length, and thickness of the part. (24 x 36 x )"
+        },
+        {
+            "type": "text",
+            "data": "Part: Back Finish"
+        },
+        {
+            "type": "text",
+            "data": "Displays the Part Back Finish"
+        },
+        {
+            "type": "text",
+            "data": "Part: Comment"
+        },
+        {
+            "type": "text",
+            "data": "Any Part Comments you entered for the part will be reflected in this field"
+        },
+        {
+            "type": "text",
+            "data": "Part: Edge Finish"
+        },
+        {
+            "type": "text",
+            "data": "Displays the Part Edge Finish"
+        },
+        {
+            "type": "text",
+            "data": "Displays the Part Face Finish"
+        },
+        {
+            "type": "text",
+            "data": "Part: Graphic"
+        },
+        {
+            "type": "text",
+            "data": "This field displays a Graphic image of the part including machining and edge banding instructions. (See below for details)"
+        },
+        {
+            "type": "text",
+            "data": "Part: Image Name"
+        },
+        {
+            "type": "text",
+            "data": "Displays the Part Image Name for Real-time Labeling"
+        },
+        {
+            "type": "text",
+            "data": "Part: Material"
+        },
+        {
+            "type": "text",
+            "data": "Displays the material the part is made of"
+        },
+        {
+            "type": "text",
+            "data": "Part: Name"
+        },
+        {
+            "type": "text",
+            "data": "Displays the name of the part"
+        },
+        {
+            "type": "text",
+            "data": "Part: Position on Sheet"
+        },
+        {
+            "type": "text",
+            "data": "Displays a graphic of the Nest pinpointing the location of the Part within it."
+        },
+        {
+            "type": "text",
+            "data": "Part: Short Name"
+        },
+        {
+            "type": "text",
+            "data": "Displays the short name of the part. (This name comes from the part catalog, this is the short descriptor used to ID parts in UCSs and formulas)"
+        },
+        {
+            "type": "text",
+            "data": "Room: Name"
+        },
+        {
+            "type": "text",
+            "data": "Displays the Room Name for the Part."
+        },
+        {
+            "type": "text",
+            "data": "Room: Number"
+        },
+        {
+            "type": "text",
+            "data": "Displays the Room Number for the Job."
+        },
+        {
+            "type": "text",
+            "data": "Time: Long Date"
+        },
+        {
+            "type": "text",
+            "data": "Displays the long date. (March 28, 2002)"
+        },
+        {
+            "type": "text",
+            "data": "Time: Long Date + Time"
+        },
+        {
+            "type": "text",
+            "data": "Displays the long date and time.(March 28, 2002 05:34 PM)"
+        },
+        {
+            "type": "text",
+            "data": "Time: Short Date"
+        },
+        {
+            "type": "text",
+            "data": "Displays the short date. (3/28/02)"
+        },
+        {
+            "type": "text",
+            "data": "Time: Short Date + Time"
+        },
+        {
+            "type": "text",
+            "data": "Displays the short date and time.(3/28/02 05:34 PM)"
+        },
+        {
+            "type": "text",
+            "data": "Time: Time"
+        },
+        {
+            "type": "text",
+            "data": "Displays the time. (05:34 PM)"
+        },
+        {
+            "type": "text",
+            "data": "Wall: Number"
+        },
+        {
+            "type": "text",
+            "data": "Displays the Wall Number"
+        },
+        {
+            "type": "text",
+            "data": "Changes in Version 6"
+        },
+        {
+            "type": "text",
+            "data": "In Version 6 the Fields utilizing Banding Letter were removed to be replaced with Banding: List. The existing fields on your Labels were converted to new filter fields."
+        },
+        {
+            "type": "text",
+            "data": "Banding: B Materialis now{M}[Filter:B]"
+        },
+        {
+            "type": "text",
+            "data": "The new variables are:"
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "{I}",
+                    "Or",
+                    "{Indicator}"
+                ],
+                "rows": [
+                    [
+                        "",
+                        "",
+                        "{Tag}"
+                    ],
+                    [
+                        "{C}",
+                        "Or",
+                        "{Color}"
+                    ],
+                    [
+                        "{M}",
+                        "Or",
+                        "{Material}"
+                    ],
+                    [
+                        "{T}",
+                        "Or",
+                        "{Thick}"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Now you can format the banding field anyway you like using those variables:"
+        },
+        {
+            "type": "text",
+            "data": "I.e.:{T}  {M}: in the color of {C}"
+        },
+        {
+            "type": "text",
+            "data": "In addition you can add either a complex filter[Filter:E|I|D]or a Simple Filter [Filter:B]"
+        },
+        {
+            "type": "text",
+            "data": "This allows for superior flexibility and optimizing label real estate."
+        },
+        {
+            "type": "text",
+            "data": "Specifying Edge Banding on your Label"
+        },
+        {
+            "type": "text",
+            "data": "Banding: Code"
+        },
+        {
+            "type": "text",
+            "data": "The following characters can and may be displayed in the Banding: Code:"
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "L",
+                    "Length"
+                ],
+                "rows": [
+                    [
+                        "W",
+                        "Width"
+                    ],
+                    [
+                        "E",
+                        "Exterior Banding"
+                    ],
+                    [
+                        "I",
+                        "Interior Banding"
+                    ],
+                    [
+                        "D",
+                        "Door Banding"
+                    ],
+                    [
+                        "A",
+                        "Arc/Radius"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "L"
+        },
+        {
+            "type": "text",
+            "data": "Length"
+        },
+        {
+            "type": "text",
+            "data": "W"
+        },
+        {
+            "type": "text",
+            "data": "Width"
+        },
+        {
+            "type": "text",
+            "data": "E"
+        },
+        {
+            "type": "text",
+            "data": "Exterior Banding"
+        },
+        {
+            "type": "text",
+            "data": "I"
+        },
+        {
+            "type": "text",
+            "data": "Interior Banding"
+        },
+        {
+            "type": "text",
+            "data": "D"
+        },
+        {
+            "type": "text",
+            "data": "Door Banding"
+        },
+        {
+            "type": "text",
+            "data": "A"
+        },
+        {
+            "type": "text",
+            "data": "Arc/Radius"
+        },
+        {
+            "type": "text",
+            "data": "Here are some examples of simple codes:"
+        },
+        {
+            "type": "text",
+            "data": "1LE -  Band 1 Length with Exterior Band"
+        },
+        {
+            "type": "text",
+            "data": "2LE1WI -  Band 2 Lengths with Exterior Band and 1 Width with Interior Band"
+        },
+        {
+            "type": "text",
+            "data": "For shaped parts when there is more than 1 side, you will see a dimension represented to indicate which edge gets banding applied."
+        },
+        {
+            "type": "text",
+            "data": "Imagine a 34 end panel with a 4 toe notch:"
+        },
+        {
+            "type": "text",
+            "data": "1LE301LI -  Band the 30\" Length with Exterior and the Full Length with Interior"
+        },
+        {
+            "type": "text",
+            "data": "A part with a radius may look something like this:"
+        },
+        {
+            "type": "text",
+            "data": "1WE241A6E -  Band the 24\" Width and the 6\" Arc/Radius with Exterior band"
+        },
+        {
+            "type": "text",
+            "data": "Banding: Flag"
+        },
+        {
+            "type": "text",
+            "data": "Another alternative to the Banding: Code is the Banding: Flag. The banding flag begins with the number of sides for a part followed by what each side will be banded with."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "N",
+                    "No Banding"
+                ],
+                "rows": [
+                    [
+                        "E",
+                        "Exterior Banding"
+                    ],
+                    [
+                        "I",
+                        "Interior Banding"
+                    ],
+                    [
+                        "D",
+                        "Door Banding"
+                    ],
+                    [
+                        "B-Z",
+                        "Misc (B-Z) Banding"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "N"
+        },
+        {
+            "type": "text",
+            "data": "No Banding"
+        },
+        {
+            "type": "text",
+            "data": "E"
+        },
+        {
+            "type": "text",
+            "data": "Exterior Banding"
+        },
+        {
+            "type": "text",
+            "data": "I"
+        },
+        {
+            "type": "text",
+            "data": "Interior Banding"
+        },
+        {
+            "type": "text",
+            "data": "D"
+        },
+        {
+            "type": "text",
+            "data": "Door Banding"
+        },
+        {
+            "type": "text",
+            "data": "B-Z"
+        },
+        {
+            "type": "text",
+            "data": "Misc (B-Z) Banding"
+        },
+        {
+            "type": "image",
+            "data": "image375.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "6NNENNN -  In this sample part, starting from the reference point and going clockwise you get None, None, Exterior, None, None, None."
+        },
+        {
+            "type": "text",
+            "data": "This type of coding can be quite confusing on complicated parts. The code and/or flag for the part below (24 x 36) with an edited shape would be:"
+        },
+        {
+            "type": "text",
+            "data": "CODE:  1W19E1W5E1L27E1A5E1W16E1L4E1W4E"
+        },
+        {
+            "type": "text",
+            "data": "FLAG:  8EEEEEEEE"
+        },
+        {
+            "type": "text",
+            "data": "To simplify the edge banding instructions to machine operators, you can use the Part: Graphic field on your Label. Each edge of the part will be marked with either an E (Exterior), I (Interior), or D (Door), as demonstrated in the graphic below. With this method you would not need to display either the Banding: Code or the Banding: Flag fields."
+        },
+        {
+            "type": "image",
+            "data": "image376.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Primary & Secondary Programs"
+        },
+        {
+            "type": "text",
+            "data": "There is a difference in the definition of Primary and Secondary programs depending on the types of machinery you utilize."
+        },
+        {
+            "type": "text",
+            "data": "Cell Based Manufacturing (Saw & Point-to-Point)"
+        },
+        {
+            "type": "text",
+            "data": "In the Cell Based Manufacturing model you cut parts to size on a Saw and then machine on your Point-to-Point. In this situation the Primary program is run first on the Back (Interior) side of the part. After this the Secondary program is run on the Face (Exterior) side of the part. This is fairly straightforward."
+        },
+        {
+            "type": "text",
+            "data": "In Cell Based manufacturing you would need to specify both a Primary program/bar-code as well as a Secondary program/bar-code to include all machining necessary on your Label."
+        },
+        {
+            "type": "text",
+            "data": "Nested Based Manufacturing"
+        },
+        {
+            "type": "text",
+            "data": "In the Nested Based Manufacturing model you typically utilize one machine to do all of your face machining operations. When nesting in the S2M CENTER the program number that is generated is for a whole sheet of parts (Sheet program) therefore no individual program number is generated for the Back (Interior) sides of the part. In this case the Primary program is for the Face (Exterior) side of the part. In this method of production there would be no Secondary program since both faces of the parts are being covered by the Sheet program and then by the Primary program."
+        },
+        {
+            "type": "text",
+            "data": "In Nested Based manufacturing you would only need to specify a Primary program/bar-code to include all machining necessary on your Label."
+        },
+        {
+            "type": "text",
+            "data": "Variables for Text and/or 2D BarCode PDF417 Fields"
+        },
+        {
+            "type": "text",
+            "data": "Here is a list of variables that can be used in the Text or 2D Barcode fields. To be evaluated properly the variables must be enclosed in brackets {}. This variables correspond to the Field definitions detailed earlier in this topic. If you are in a Text or 2D Barcode filed you can type the opening bracket { and a list of these variables will be given to you to choose from."
+        },
+        {
+            "type": "text",
+            "data": "{Job.CompanyName}"
+        },
+        {
+            "type": "text",
+            "data": "{Job.CustAddress}"
+        },
+        {
+            "type": "text",
+            "data": "{Job.CustCity}"
+        },
+        {
+            "type": "text",
+            "data": "{Job.CustContact}"
+        },
+        {
+            "type": "text",
+            "data": "{Job.CustEmail}"
+        },
+        {
+            "type": "text",
+            "data": "{Job.CustFax}"
+        },
+        {
+            "type": "text",
+            "data": "{Job.CustMobile}"
+        },
+        {
+            "type": "text",
+            "data": "{Job.CustName}"
+        },
+        {
+            "type": "text",
+            "data": "{Job.CustPhone}"
+        },
+        {
+            "type": "text",
+            "data": "{Job.CustState}"
+        },
+        {
+            "type": "text",
+            "data": "{Job.CustZip}"
+        },
+        {
+            "type": "text",
+            "data": "{Job.DateDelivery}"
+        },
+        {
+            "type": "text",
+            "data": "{Job.DateDeposit}"
+        },
+        {
+            "type": "text",
+            "data": "{Job.DateDetail}"
+        },
+        {
+            "type": "text",
+            "data": "{Job.DateInstall}"
+        },
+        {
+            "type": "text",
+            "data": "{Job.DateMeasure}"
+        },
+        {
+            "type": "text",
+            "data": "{Job.DatePayment}"
+        },
+        {
+            "type": "text",
+            "data": "{Job.DateProduction}"
+        },
+        {
+            "type": "text",
+            "data": "{Job.PNC}"
+        },
+        {
+            "type": "text",
+            "data": "{Material.BackTexture}"
+        },
+        {
+            "type": "text",
+            "data": "{Material.Cost}"
+        },
+        {
+            "type": "text",
+            "data": "{Material.Description}"
+        },
+        {
+            "type": "text",
+            "data": "{Material.EdgeTexture}"
+        },
+        {
+            "type": "text",
+            "data": "{Material.FaceDep}"
+        },
+        {
+            "type": "text",
+            "data": "{Material.FaceTexture}"
+        },
+        {
+            "type": "text",
+            "data": "{Material.FeedPercent}"
+        },
+        {
+            "type": "text",
+            "data": "{Material.Length}"
+        },
+        {
+            "type": "text",
+            "data": "{Material.Name}"
+        },
+        {
+            "type": "text",
+            "data": "{Material.Thick.F4} -The Material'sthickness, formatted as a 4 character fixed width field (i.e.  = 0.75, 19mm = 19.0)"
+        },
+        {
+            "type": "text",
+            "data": "{Material.Thick}"
+        },
+        {
+            "type": "text",
+            "data": "{Material.Width}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.BackFinish}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.BandBColor}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.BandBMaterial}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.BandCColor}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.BandCMaterial}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.BandCode}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.BandedLength}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.BandedWidth}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.BandDoorColor}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.BandDoorMaterial}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.BandExtBarcode}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.BandExtColor}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.BandExtMaterial}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.BandFColor}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.BandFlag}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.BandFMaterial}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.BandGColor}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.BandGMaterial}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.BandHColor}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.BandHMaterial}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.BandIntBarcode}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.BandIntColor}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.BandIntMaterial}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.BandJColor}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.BandJMaterial}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.BandKColor}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.BandKMaterial}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.BandLColor}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.BandLMaterial}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.BandMColor}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.BandMMaterial}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.BandOColor}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.BandOMaterial}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.BandPColor}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.BandPMaterial}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.BandQColor}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.BandQMaterial}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.BandSColor}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.BandSMaterial}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.BandTColor}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.BandTMaterial}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.BandUColor}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.BandUMaterial}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.BandVColor}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.BandVMaterial}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.BandWColor}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.BandWMaterial}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.BandXColor}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.BandXMaterial}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.BandYColor}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.BandYMaterial}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.BandZColor}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.BandZMaterial}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.CabComment}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.Cab.Depth}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.Cab.Desc}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.CabHeight}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.CabName}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.CabNo}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.CabWidth}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.Comment}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.CutLength}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.CutWidth}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.EBBarCode}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.EBBarcodeTags}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.EdgeFinish}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.ELBarCode}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.ELBarCodeTags}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.ERBarCode}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.ERBarCodeTags}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.ETBarCode}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.ETBarCodeTags}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.FaceFinish}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.FaceUp}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.ID}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.ImageName}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.JobComment}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.JobCVJ}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.JobDesc}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.JobID}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.JobName}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.JobRunNo}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.Length.F7} - The parts length formatted as a 7 character fixed width field (i.e. 22  = 022.500, 571.5mm = 0571.50)"
+        },
+        {
+            "type": "text",
+            "data": "{Part.Length}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.Mirror}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.Name.F3} - The parts name formatted as a 3 character fixed width field, which will be the first 3 characters of the parts description (i.e. Finished Left End = Fin) while offcuts will provide a value of 000."
+        },
+        {
+            "type": "text",
+            "data": "{Part.Name}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.NominalLength}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.NominalWidth}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.Offcut}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.PanelLayoutIndex.F2} -The Parts index on a panel, formatted as a 2 character fixed width field (i.e. 1 = 01, 12 = 12)"
+        },
+        {
+            "type": "text",
+            "data": "{Part.PanelLayoutIndex} - The parts index on a panel."
+        },
+        {
+            "type": "text",
+            "data": "{Part.PBarCode}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.PBarCodeTags}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.PEdge}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.PFaceUp}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.PMachine}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.PMirror}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.PProgram}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.PProgramTags}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.PZone}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.PZoneTags}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.RoomName}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.RoomNo}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.Rotated}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.SBarCode}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.SBarCodeTags}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.SFaceUp}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.ShortName}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.SMachine}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.SMirror}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.SProgram}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.SProgramTags}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.SZone}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.SZoneTags}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.WallNo}"
+        },
+        {
+            "type": "text",
+            "data": "{Part.Width.F7} - The parts width formatted as a 7 character fixed width field (i.e. 22  = 022.500, 571.5mm = 0571.50)"
+        },
+        {
+            "type": "text",
+            "data": "{Part.Width}"
+        },
+        {
+            "type": "text",
+            "data": "{WorkOrder} - rGUID value in RunInfo table utilized by CV Paperless Traveller to idenitfy the Work Order."
+        },
+        {
+            "type": "text",
+            "data": "An example would be defining a 2D Barcode to call up a Biesseworks Parametric Template. For the Sample Text you would enter something similar to this (see Biesseworks documentation for specifics on the format)."
+        },
+        {
+            "type": "text",
+            "data": "{part.name}.bpp01CUSTSTR='1;1;100;100;;0;0'$WIDTH={part.width} LENGTH={part.length}$"
+        }
+    ],
+    "source_file": "NCEnglish\\Ribbonbar\\Utilities_Tab\\xLabel_Setup\\Designing_Label-IT_Labels.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

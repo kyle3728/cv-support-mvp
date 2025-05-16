@@ -1,0 +1,39 @@
+{
+    "id": "29e02203-6f1a-4270-9f30-790e6a161e8b",
+    "title": "RLLA_Counter_Top_Ortho_Side",
+    "content": [
+        {
+            "type": "text",
+            "data": "Counter Top Ortho Side"
+        },
+        {
+            "type": "image",
+            "data": "1AUALL.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image6226.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Following are the Layers that can be edited:"
+        },
+        {
+            "type": "text",
+            "data": "Dimensions"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Dimensions",
+                "uuid": "8eba597e-b494-4a38-89b6-ffa9c68c6110",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\RLLA_Counter_Top_Ortho_Side.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

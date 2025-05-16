@@ -1,0 +1,193 @@
+{
+    "id": "2b8f4c9c-3867-4d51-abb4-5b55ac91040d",
+    "title": "I-",
+    "content": [
+        {
+            "type": "text",
+            "data": "I-Joint"
+        },
+        {
+            "type": "text",
+            "data": "The I-Joint Connection Type allows you to define the placement of Intelli-Joints. The following diagram shows the options available forthe I-Joint Connection Type."
+        },
+        {
+            "type": "image",
+            "data": "image1074.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "I-Joint to Use (Standard #33)"
+        },
+        {
+            "type": "image",
+            "data": "image1075.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "I-Joint Edge Position (Standard #34)"
+        },
+        {
+            "type": "image",
+            "data": "image1076.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "I-Joint Miter Position (Standard #35)"
+        },
+        {
+            "type": "image",
+            "data": "image1077.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Fixed Head Horizontal Boring Machine (Standard #37)"
+        },
+        {
+            "type": "image",
+            "data": "image1078.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Spindle Quantity (Standard #38)"
+        },
+        {
+            "type": "image",
+            "data": "image1079.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Spindle Pattern (Standard #39)"
+        },
+        {
+            "type": "image",
+            "data": "image1080.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "FirstI-Joint Position (Standard #40)"
+        },
+        {
+            "type": "image",
+            "data": "image1081.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "LastI-Joint Minimum (Standard #41)"
+        },
+        {
+            "type": "image",
+            "data": "image1082.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "I-Joint Position (Standard #42)"
+        },
+        {
+            "type": "image",
+            "data": "image1083.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "FrontI-Joint Quantity (Standard #43)"
+        },
+        {
+            "type": "image",
+            "data": "image1084.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "FirstI-Joint Position (Standard #44)"
+        },
+        {
+            "type": "image",
+            "data": "image1085.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "FrontI-Joint Spacing (Standard #45)"
+        },
+        {
+            "type": "image",
+            "data": "image1086.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "RearI-Joint Quantity (Standard #46)"
+        },
+        {
+            "type": "image",
+            "data": "image1087.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "RearI-Joint Position (Standard #47)"
+        },
+        {
+            "type": "image",
+            "data": "image1088.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "RearI-Joint Spacing (Standard #48)"
+        },
+        {
+            "type": "image",
+            "data": "image1089.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "MiddleI-Joints (Standard #50)"
+        },
+        {
+            "type": "image",
+            "data": "image1090.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "LastI-Joint Minimum (Standard #49)"
+        },
+        {
+            "type": "image",
+            "data": "image1091.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "EndI-Joint Position (Standard #83)"
+        },
+        {
+            "type": "image",
+            "data": "image1092.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "I-Joint Spacing (Standard #84)"
+        },
+        {
+            "type": "image",
+            "data": "image1093.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Cabinetmaker\\System_Level\\Ribbonbar\\Main_Tab\\Construction_Group\\Connections\\I-.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

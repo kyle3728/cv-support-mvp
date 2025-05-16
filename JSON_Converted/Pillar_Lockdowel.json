@@ -1,0 +1,45 @@
+{
+    "id": "d2a9284d-146d-440b-9e3f-ca1d86125f31",
+    "title": "Pillar_Lockdowel",
+    "content": [
+        {
+            "type": "text",
+            "data": "Pillar Lockdowel"
+        },
+        {
+            "type": "text",
+            "data": "This is a Drill and Dowel Machine Link."
+        },
+        {
+            "type": "text",
+            "data": "Output for the Pillar Lockdowel machine."
+        },
+        {
+            "type": "text",
+            "data": "When a Tool in the Tool Catalog is assigned to this machine you will \n get two Parameters:"
+        },
+        {
+            "type": "text",
+            "data": "Drill  \n\t (_hmInsert) - When set to Yes indicates the tool can be used to Drill. \n Insert  \n\t (_hmDrill) - When set to Yes indicated the tool can be used to Insert."
+        },
+        {
+            "type": "text",
+            "data": "Drill  \n\t (_hmInsert) - When set to Yes indicates the tool can be used to Drill."
+        },
+        {
+            "type": "text",
+            "data": "Drill  \n\t (_hmInsert) - When set to Yes indicates the tool can be used to Drill."
+        },
+        {
+            "type": "text",
+            "data": "Insert  \n\t (_hmDrill) - When set to Yes indicated the tool can be used to Insert."
+        },
+        {
+            "type": "text",
+            "data": "Insert  \n\t (_hmDrill) - When set to Yes indicated the tool can be used to Insert."
+        }
+    ],
+    "source_file": "NCEnglish\\Ribbonbar\\Main_Tab\\Machine\\NC_Links\\Drill_and_Dowel_Links\\Pillar_Lockdowel.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

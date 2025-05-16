@@ -1,0 +1,245 @@
+{
+    "id": "75afd026-8d15-4b49-a200-72ec4f8c216e",
+    "title": "RLSBBC_Rate_Tables_Tool",
+    "content": [
+        {
+            "type": "text",
+            "data": "Rate Tables"
+        },
+        {
+            "type": "image",
+            "data": "image2567.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option opens up the Rate Tables area. This is where you select the active Rate Tables as well as where Rate Tables are created."
+        },
+        {
+            "type": "text",
+            "data": "What are Rate Tables?"
+        },
+        {
+            "type": "text",
+            "data": "First let\u2019s get some of the terminology down so we don't get too confused during the rest of this topic. Rate Tables are basically a store house for a group of Bid Methods. You can create an unlimited number of Rate Tables and utilize them together in any way you want."
+        },
+        {
+            "type": "text",
+            "data": "Selecting/Creating/Editing Rate Tables"
+        },
+        {
+            "type": "text",
+            "data": "To select/activate a Rate Table simply click on the check box next to it. You can use as many Rate Tables in as many combinations as you want. In the  Rate Tables and What If's  topic some techniques using multiple Rate Tables to create \"What If\" Bid Scenarios is covered."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Rate Tables and What If's",
+                "uuid": "5efd4aea-d16c-4ed7-abd6-5130b790ccf9",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "To create or edit Rate Tables click on the Rate Table   option in the Bid Center ribbonbar. This will open the Select Rate Tables area."
+        },
+        {
+            "type": "image",
+            "data": "image2568.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image5687.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "To edit an existing Rate Table simply highlight it and click the Setup Button. To create a new Rate Table just click the Setup Button. Once you have clicked on the Setup button the Setup Rate Tables area will open."
+        },
+        {
+            "type": "image",
+            "data": "image5688.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Setup Rate Tables Interface"
+        },
+        {
+            "type": "text",
+            "data": "Toolbar Tools"
+        },
+        {
+            "type": "text",
+            "data": "Rate Table Selector -  Use this tool to select which existing Rate Table you would like to modify/view."
+        },
+        {
+            "type": "image",
+            "data": "image3560.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Create New Rate Table -  Use this tool to create a new Rate Table."
+        },
+        {
+            "type": "image",
+            "data": "image3561.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Copy Current Rate Table -  Use this tool to Copy the current Rate Table with a new Name."
+        },
+        {
+            "type": "image",
+            "data": "image3562.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Rename Current Rate Table -  Use this tool to Rename the current Rate Table."
+        },
+        {
+            "type": "image",
+            "data": "image3563.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Delete Current Rate Table -  Use this tool to Delete the current Rate Table."
+        },
+        {
+            "type": "image",
+            "data": "image3564.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Build A Sample Rate Table -  This tool will actually create a sample Rate Table with some common Bid Methods predefined. Depending on how you Bid your Jobs this could save considerable time when setting up a Rate Table from scratch."
+        },
+        {
+            "type": "image",
+            "data": "image1521.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "SampleRateTable.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Filter Out Custom Methods -  This tool will suppress the display of Custom Bid Methods from the Method drop down. This is handy if you are using Stock Pricing."
+        },
+        {
+            "type": "image",
+            "data": "image3565.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Create New Item Group -  This tool allows you to create Item Groups in your Rate Table. Item Groups can be helpful for organizing and categorizing the Bid Methods you have selected within your Rate Table. In the figure below you can see that an Item Group named Installation was created and then under it there is a Cabs Item Group where any Installation charges related to Cabinets is stored. Then there is a Tops Item Group where any Installation charges related to Counter Tops is stored and so on. Although Item Groups don't hold any value they can be handy for organizing very large Rate Tables."
+        },
+        {
+            "type": "image",
+            "data": "image1523.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "CreateNewItemGroup.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Change Line Items Position -  This tool allows you to change the position of the active Line Item to another physical location within the current Rate Table. This is simply and organization tool."
+        },
+        {
+            "type": "image",
+            "data": "image1524.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Delete Current Line Item -  This tool will Delete the currently selected Line Item within your Rate Table."
+        },
+        {
+            "type": "image",
+            "data": "image1525.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Line Item Area"
+        },
+        {
+            "type": "text",
+            "data": "There are six fields in this area:"
+        },
+        {
+            "type": "text",
+            "data": "Icon -  This is an organizational tool you can set this icon to represent the type of Bid Method you have selected for the Line Item. \n \n \n Name -  Use this field to describe what the selected Bid Method is actually calculating. \n \n \n Value -  This is the Value that the selected Bid Method uses to make its calculations. \n \n \n Method -  This is the  Bid Method  you want this Line Item to use. \n \n \n Markup -  This is the Percentage you want to add to the final calculation of this Bid Method that represents your Markup. \n \n \n Tax -  This is the Percentage you want to add to the final calculation of this Bid Method that represents the Tax your Customer needs to pay for this Line Item."
+        },
+        {
+            "type": "text",
+            "data": "Icon -  This is an organizational tool you can set this icon to represent the type of Bid Method you have selected for the Line Item."
+        },
+        {
+            "type": "text",
+            "data": "Icon -  This is an organizational tool you can set this icon to represent the type of Bid Method you have selected for the Line Item."
+        },
+        {
+            "type": "text",
+            "data": "Name -  Use this field to describe what the selected Bid Method is actually calculating."
+        },
+        {
+            "type": "text",
+            "data": "Name -  Use this field to describe what the selected Bid Method is actually calculating."
+        },
+        {
+            "type": "text",
+            "data": "Value -  This is the Value that the selected Bid Method uses to make its calculations."
+        },
+        {
+            "type": "text",
+            "data": "Value -  This is the Value that the selected Bid Method uses to make its calculations."
+        },
+        {
+            "type": "text",
+            "data": "Method -  This is the  Bid Method  you want this Line Item to use."
+        },
+        {
+            "type": "text",
+            "data": "Method -  This is the  Bid Method  you want this Line Item to use."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Bid Method",
+                "uuid": "4a3d36f8-0f2e-45c7-856e-38dabd76074d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Markup -  This is the Percentage you want to add to the final calculation of this Bid Method that represents your Markup."
+        },
+        {
+            "type": "text",
+            "data": "Markup -  This is the Percentage you want to add to the final calculation of this Bid Method that represents your Markup."
+        },
+        {
+            "type": "text",
+            "data": "Tax -  This is the Percentage you want to add to the final calculation of this Bid Method that represents the Tax your Customer needs to pay for this Line Item."
+        },
+        {
+            "type": "text",
+            "data": "Tax -  This is the Percentage you want to add to the final calculation of this Bid Method that represents the Tax your Customer needs to pay for this Line Item."
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\RLSBBC_Rate_Tables_Tool.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

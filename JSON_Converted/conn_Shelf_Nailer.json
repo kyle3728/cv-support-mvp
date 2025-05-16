@@ -1,0 +1,67 @@
+{
+    "id": "c4698864-7a33-4dd1-81ec-9fdbdff15906",
+    "title": "conn_Shelf_Nailer",
+    "content": [
+        {
+            "type": "text",
+            "data": "Shelf Nailer"
+        },
+        {
+            "type": "text",
+            "data": "This is where you configure the scenarios where a\u00a0Shelf Nailer Connects to Parts."
+        },
+        {
+            "type": "image",
+            "data": "image480.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The following diagram\u00a0show the Connections available for the Shelf Nailer. Click a specific option in the diagram for more information or continue through this topic for information on all the options."
+        },
+        {
+            "type": "image",
+            "data": "image655.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Shelf Nailer - Finished End (Standard #806)"
+        },
+        {
+            "type": "image",
+            "data": "image656.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Shelf Nailer - Unfinished End (Standard #807)"
+        },
+        {
+            "type": "image",
+            "data": "image657.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Shelf Nailer - Sub End (Standard #808)"
+        },
+        {
+            "type": "image",
+            "data": "image658.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Shelf Nailer - Partition (Standard #809)"
+        },
+        {
+            "type": "image",
+            "data": "image659.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\System_Level\\Ribbonbar\\Main_Tab\\Construction_Group\\Assembly_Manager\\Assembly\\Branches\\Connection\\conn_Shelf_Nailer.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

@@ -1,0 +1,152 @@
+{
+    "id": "be586238-0238-469f-abb3-516cd1942fcc",
+    "title": "AW_Nailer",
+    "content": [
+        {
+            "type": "text",
+            "data": "Nailer"
+        },
+        {
+            "type": "text",
+            "data": "Whether you have a top nailer, mid nailer, or a bottom nailer is set here. Whether you choose to have them outside or inside of your back is also set. The width of a nailer is entered in number format."
+        },
+        {
+            "type": "image",
+            "data": "image247.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The following diagram shows the options available in the Nailer Branch. Click a specific option in the diagram for more information or continue through this topic for information on all the options."
+        },
+        {
+            "type": "image",
+            "data": "image246.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Nailer (Upper) Banding Definition (Standard #664)"
+        },
+        {
+            "type": "image",
+            "data": "image248.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Nailer (Middle) Banding Definition (Standard #682)"
+        },
+        {
+            "type": "image",
+            "data": "image249.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Nailer (Lower) Banding Definition (Standard #683)"
+        },
+        {
+            "type": "image",
+            "data": "image250.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Top Nailer Width (Standard #200)"
+        },
+        {
+            "type": "image",
+            "data": "image251.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Top Nailer Placement (Standard #387)"
+        },
+        {
+            "type": "image",
+            "data": "image252.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Use Mid Nailer (Standard #202)"
+        },
+        {
+            "type": "text",
+            "data": "If you want a Mid Nailer in your Assemblies simply select and establish the Minimum Height of the Assembly. Once the Assembly Height you establish is exceeded the Mid Nailer will appear."
+        },
+        {
+            "type": "image",
+            "data": "image253.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Mid Nailer Position (Standard #203)"
+        },
+        {
+            "type": "image",
+            "data": "image254.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Mid Nailer Width (Standard #204)"
+        },
+        {
+            "type": "image",
+            "data": "image255.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Mid Nailer Placement (Standard #205)"
+        },
+        {
+            "type": "image",
+            "data": "image256.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Bottom Nailer Width (Standard #201)"
+        },
+        {
+            "type": "image",
+            "data": "image257.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Bottom Nailer Placement (Standard #388)"
+        },
+        {
+            "type": "image",
+            "data": "image258.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Split Nailer At Partition (Standard #122)"
+        },
+        {
+            "type": "image",
+            "data": "image259.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Nailer Machining Face (Standard #575)"
+        },
+        {
+            "type": "image",
+            "data": "image260.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\System_Level\\Ribbonbar\\Main_Tab\\Construction_Group\\Assembly_Manager\\Assembly\\Branches\\Interior_Case\\AW_Nailer.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

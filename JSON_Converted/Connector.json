@@ -1,0 +1,193 @@
+{
+    "id": "58398677-83ba-485e-a378-2ce08b4e870a",
+    "title": "Connector",
+    "content": [
+        {
+            "type": "text",
+            "data": "Connector"
+        },
+        {
+            "type": "text",
+            "data": "The Connector Connection Type allows you to define the placement of Connectors. The following diagram shows the options available for\u00a0the Connector\u00a0Connection Type. Click a specific option in the diagram for more information or continue through this topic for information on all the options."
+        },
+        {
+            "type": "image",
+            "data": "image929.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Connector to Use (Standard #51)"
+        },
+        {
+            "type": "image",
+            "data": "image932.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Connector Edge Position (Standard #52)"
+        },
+        {
+            "type": "image",
+            "data": "image933.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Connector Miter Position (Standard #53)"
+        },
+        {
+            "type": "image",
+            "data": "image934.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Fixed Head Horizontal Boring Machine (Standard #54)"
+        },
+        {
+            "type": "image",
+            "data": "image935.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Spindle Quantity (Standard #55)"
+        },
+        {
+            "type": "image",
+            "data": "image936.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Spindle Pattern (Standard #56)"
+        },
+        {
+            "type": "image",
+            "data": "image937.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "First Connector Position (Standard #57)"
+        },
+        {
+            "type": "image",
+            "data": "image938.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Last Connector Minimum (Standard #58)"
+        },
+        {
+            "type": "image",
+            "data": "image939.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Connector Position (Standard #59)"
+        },
+        {
+            "type": "image",
+            "data": "image940.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "First Connector Quantity (Standard #60)"
+        },
+        {
+            "type": "image",
+            "data": "image941.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "First Connector Position (Standard #61)"
+        },
+        {
+            "type": "image",
+            "data": "image942.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "First Connector Spacing (Standard #62)"
+        },
+        {
+            "type": "image",
+            "data": "image943.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Rear Connector Quantity (Standard #63)"
+        },
+        {
+            "type": "image",
+            "data": "image944.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Rear Connector Position (Standard #64)"
+        },
+        {
+            "type": "image",
+            "data": "image945.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Rear Connector Spacing (Standard #65)"
+        },
+        {
+            "type": "image",
+            "data": "image946.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Middle Connectors (Standard #67)"
+        },
+        {
+            "type": "image",
+            "data": "image947.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Last Connector Minimum (Standard #66)"
+        },
+        {
+            "type": "image",
+            "data": "image948.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "End Connectors Position (Standard #85)"
+        },
+        {
+            "type": "image",
+            "data": "image949.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Connector Spacing (Standard #86)"
+        },
+        {
+            "type": "image",
+            "data": "image950.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Connector.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

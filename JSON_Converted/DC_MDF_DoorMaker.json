@@ -1,0 +1,405 @@
+{
+    "id": "0aac28ed-106f-429b-b91f-a8e42061e7da",
+    "title": "DC_MDF_DoorMaker",
+    "content": [
+        {
+            "type": "text",
+            "data": "MDF DoorMaker"
+        },
+        {
+            "type": "text",
+            "data": "The Routed MDF Door is typically a MDF slab that has CNC operations, which simulate Stile and Rail Construction."
+        },
+        {
+            "type": "text",
+            "data": "The designation \"MDF\" does not assign, nor require, that the door be made of MDF. Door material assignments are still accomplished in the Door Catalog, by selecting the appropriate  Material Schedules  from the  Material Tab . Doors in the \"Routed MDF\" category are not limited to MDF; instead, you are free to choose any Material appropriate for your application. Remember, at least one Material Schedule must be selected for each Door. A few of the concepts used are as follows:"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Material Schedules",
+                "uuid": "7a64057c-ee14-4724-b490-38009af08adb",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Material Tab",
+                "uuid": "d23137a4-bc4e-4584-8c70-1e39159e3313",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Profile  refers to the detail created by a router shape. A Profile can be part of multiple Tool Sets ( See the S2M Center Help for more information on Tool Sets ). \n \n \n Pattern  represents the detail created when profiles create a unique panel detail, whether one, or multiple heads creates them."
+        },
+        {
+            "type": "text",
+            "data": "Profile  refers to the detail created by a router shape. A Profile can be part of multiple Tool Sets ( See the S2M Center Help for more information on Tool Sets )."
+        },
+        {
+            "type": "text",
+            "data": "Profile  refers to the detail created by a router shape. A Profile can be part of multiple Tool Sets ( See the S2M Center Help for more information on Tool Sets )."
+        },
+        {
+            "type": "text",
+            "data": "Pattern  represents the detail created when profiles create a unique panel detail, whether one, or multiple heads creates them."
+        },
+        {
+            "type": "text",
+            "data": "Pattern  represents the detail created when profiles create a unique panel detail, whether one, or multiple heads creates them."
+        },
+        {
+            "type": "image",
+            "data": "image285.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Tool : An object, here a router, with unique properties. Diameter and shape (profile) are a few properties associated with each tool. \n \n \n Tool Set : Are defined patterns, each with a unique overall detail. These Tool Sets allow for patterns that are too complicated for single tool operations. They can be saved and reused, as well as used on multiple Doors. \n \n \n Path : The path is the outline followed by the router on the Door panel. Each Door can have more than one path, provided the Parts are not for the same purpose. One path can define the Door outside edge detail and cut out the Door, while another path can define the pattern on the face of the Door, while a third path can rabbet the back of the Door for a glass panel. You cannot, however, have multiple paths for the detail; instead, a Tool Set will be used to create the same."
+        },
+        {
+            "type": "text",
+            "data": "Tool : An object, here a router, with unique properties. Diameter and shape (profile) are a few properties associated with each tool."
+        },
+        {
+            "type": "text",
+            "data": "Tool : An object, here a router, with unique properties. Diameter and shape (profile) are a few properties associated with each tool."
+        },
+        {
+            "type": "text",
+            "data": "Tool Set : Are defined patterns, each with a unique overall detail. These Tool Sets allow for patterns that are too complicated for single tool operations. They can be saved and reused, as well as used on multiple Doors."
+        },
+        {
+            "type": "text",
+            "data": "Tool Set : Are defined patterns, each with a unique overall detail. These Tool Sets allow for patterns that are too complicated for single tool operations. They can be saved and reused, as well as used on multiple Doors."
+        },
+        {
+            "type": "text",
+            "data": "Path : The path is the outline followed by the router on the Door panel. Each Door can have more than one path, provided the Parts are not for the same purpose. One path can define the Door outside edge detail and cut out the Door, while another path can define the pattern on the face of the Door, while a third path can rabbet the back of the Door for a glass panel. You cannot, however, have multiple paths for the detail; instead, a Tool Set will be used to create the same."
+        },
+        {
+            "type": "text",
+            "data": "Path : The path is the outline followed by the router on the Door panel. Each Door can have more than one path, provided the Parts are not for the same purpose. One path can define the Door outside edge detail and cut out the Door, while another path can define the pattern on the face of the Door, while a third path can rabbet the back of the Door for a glass panel. You cannot, however, have multiple paths for the detail; instead, a Tool Set will be used to create the same."
+        },
+        {
+            "type": "text",
+            "data": "You will specify \"gaps\" in the set up process that defines how far apart the Doors are on the sheet of Material they are being cut from. This gap is subject to, and will be affected by, the diameter of the router \u00a0bit. You will need to know the clearances required for the details you are producing, and make the adjustments when necessary."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "To Create a Router Profile"
+        },
+        {
+            "type": "text",
+            "data": "To create a router profile, you will need to create a new Tool."
+        },
+        {
+            "type": "text",
+            "data": "Access the Tool Catalog from the main screen. See the S2M CENTER Help Files for general Tool Catalog, Tool, and Tool Set information. (If the Router profile(s) you will use exist, skip To Create Tool Sets)"
+        },
+        {
+            "type": "text",
+            "data": "Click the   Create New Tool Button on the Button Bar. \n \n \n Name the new Tool. \n \n \n Choose \"Shaped Router\" or \"Flat\" if no shape desired. \n \n \n Click the Tool Shape Tab and Edit the Profile of your new Tool. You will create \u00bd of the profile, the other half will mirror automatically when you click the Tool Properties Tab to leave this window."
+        },
+        {
+            "type": "text",
+            "data": "Click the   Create New Tool Button on the Button Bar."
+        },
+        {
+            "type": "text",
+            "data": "Click the   Create New Tool Button on the Button Bar."
+        },
+        {
+            "type": "image",
+            "data": "image829.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Name the new Tool."
+        },
+        {
+            "type": "text",
+            "data": "Name the new Tool."
+        },
+        {
+            "type": "text",
+            "data": "Choose \"Shaped Router\" or \"Flat\" if no shape desired."
+        },
+        {
+            "type": "text",
+            "data": "Choose \"Shaped Router\" or \"Flat\" if no shape desired."
+        },
+        {
+            "type": "text",
+            "data": "Click the Tool Shape Tab and Edit the Profile of your new Tool. You will create \u00bd of the profile, the other half will mirror automatically when you click the Tool Properties Tab to leave this window."
+        },
+        {
+            "type": "text",
+            "data": "Click the Tool Shape Tab and Edit the Profile of your new Tool. You will create \u00bd of the profile, the other half will mirror automatically when you click the Tool Properties Tab to leave this window."
+        },
+        {
+            "type": "text",
+            "data": "Repeat steps 1 through 4 for each profile you would like to use."
+        },
+        {
+            "type": "text",
+            "data": "To Create Tool Sets"
+        },
+        {
+            "type": "text",
+            "data": "Click the   \"Create New Tool\" tool on the tool bar. \n \n \n Name the new Tool. \n \n \n Choose \"Tool Set\"."
+        },
+        {
+            "type": "text",
+            "data": "Click the   \"Create New Tool\" tool on the tool bar."
+        },
+        {
+            "type": "text",
+            "data": "Click the   \"Create New Tool\" tool on the tool bar."
+        },
+        {
+            "type": "image",
+            "data": "image4887.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Name the new Tool."
+        },
+        {
+            "type": "text",
+            "data": "Name the new Tool."
+        },
+        {
+            "type": "text",
+            "data": "Choose \"Tool Set\"."
+        },
+        {
+            "type": "text",
+            "data": "Choose \"Tool Set\"."
+        },
+        {
+            "type": "image",
+            "data": "image4888.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Click the Tool Shape Tab. \n \n \n Click the   Add tool. \n \n \n Select Rough / Finish for the Operation Type and Fixed Depth then click OK. See the S2M Center Help file for more information on the Tool Set Options."
+        },
+        {
+            "type": "text",
+            "data": "Click the Tool Shape Tab."
+        },
+        {
+            "type": "text",
+            "data": "Click the Tool Shape Tab."
+        },
+        {
+            "type": "text",
+            "data": "Click the   Add tool."
+        },
+        {
+            "type": "text",
+            "data": "Click the   Add tool."
+        },
+        {
+            "type": "image",
+            "data": "image4887.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Select Rough / Finish for the Operation Type and Fixed Depth then click OK. See the S2M Center Help file for more information on the Tool Set Options."
+        },
+        {
+            "type": "text",
+            "data": "Select Rough / Finish for the Operation Type and Fixed Depth then click OK. See the S2M Center Help file for more information on the Tool Set Options."
+        },
+        {
+            "type": "image",
+            "data": "image4890.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Select the Router Bit from the drop down list in the Router Bit column."
+        },
+        {
+            "type": "text",
+            "data": "Select the Router Bit from the drop down list in the Router Bit column."
+        },
+        {
+            "type": "text",
+            "data": "Select the Router Bit from the drop down list in the Router Bit column."
+        },
+        {
+            "type": "image",
+            "data": "image4891.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Adjust the Offset and Depth by entering values in the adjoining boxes. You will have to click on a different box after adding data to see the value take effect. \n \n \n Repeat steps 5 through 7 until you have created your overall pattern. \n \n \n Verify the pattern by deactivating the   \"Show Tool\" tool. \n \n \n When you open the Door Catalog, and select a Routed MDF Door, or create a Routed MDF Door, the Profile Tab displays your new Tool Sets, or Router Tools."
+        },
+        {
+            "type": "text",
+            "data": "Adjust the Offset and Depth by entering values in the adjoining boxes. You will have to click on a different box after adding data to see the value take effect."
+        },
+        {
+            "type": "text",
+            "data": "Adjust the Offset and Depth by entering values in the adjoining boxes. You will have to click on a different box after adding data to see the value take effect."
+        },
+        {
+            "type": "text",
+            "data": "Repeat steps 5 through 7 until you have created your overall pattern."
+        },
+        {
+            "type": "text",
+            "data": "Repeat steps 5 through 7 until you have created your overall pattern."
+        },
+        {
+            "type": "text",
+            "data": "Verify the pattern by deactivating the   \"Show Tool\" tool."
+        },
+        {
+            "type": "text",
+            "data": "Verify the pattern by deactivating the   \"Show Tool\" tool."
+        },
+        {
+            "type": "image",
+            "data": "image831.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "When you open the Door Catalog, and select a Routed MDF Door, or create a Routed MDF Door, the Profile Tab displays your new Tool Sets, or Router Tools."
+        },
+        {
+            "type": "text",
+            "data": "When you open the Door Catalog, and select a Routed MDF Door, or create a Routed MDF Door, the Profile Tab displays your new Tool Sets, or Router Tools."
+        },
+        {
+            "type": "text",
+            "data": "When defining a Tool Set, choose as many Tools as necessary to accomplish your pattern. Note that the pattern below is on the edge. The   Display On Edge Tool shows the patterns appearance to look as if it is \"On Edge\". If this Tool were selected for an \"On Edge\" cut, Solid would select an Outline Tool to cut through the Material since neither of the Tools shown do so."
+        },
+        {
+            "type": "image",
+            "data": "image832.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image4892.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "To Select A Route Path"
+        },
+        {
+            "type": "text",
+            "data": "The path the route follows is defined in the Door Catalog Editor. When you select a door in the Routed MDF category, and choose the \"Construction\" Tab, a graphic of a Door panel will be displayed. To the right of the graphic is a drop down option bar that will list several route paths (If you have activated them on the Profiles Tab). Select the path that meets your needs from the list by highlighting it. Once selected, the path will appear on the graphic. The path can be adjusted by setting the values in the Stile and Rail width boxes. This does not create additional Parts, it simply dimensions where the path occurs giving the appearance of different sized Stiles and Rails."
+        },
+        {
+            "type": "image",
+            "data": "image1853.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There are additional buttons to Mirror the top detail, or to apply the detail to the bottom corners. By clicking on the small box each of these features may be toggled on or off. To apply the profile, or the pattern to that route path by clicking the \"Profile\" tab and putting a check mark in the box to the left of the route pattern name, or outside edge profile name. If you check several pattern options for this Door, you will have the ability to use the same Door with multiple patterns."
+        },
+        {
+            "type": "text",
+            "data": "Routed MDF Doors, Points to remember"
+        },
+        {
+            "type": "text",
+            "data": "The machining of the Routed MDF Door requires information regarding the path of the route, and the detail of the route before this Door can be used. \n \n \n The path of the route is set in the Door Catalog Editor by selecting a Template. \n \n \n The profile of a route is defined in the Tool Catalog. \n \n \n Tool Sets use multiple profiles to create unique patterns, and are created in the Tool Catalog. \n \n \n The route profile or pattern is linked (applied) to the Door in the Door Catalog Editor. \n \n \n A Door can have only one path, but many patterns. \n \n \n A route path without an assigned Tool Set will not create a pattern on the Door. \n \n \n Material(s) must still be assigned to this Routed MDF door, and it need not be MDF. \n \n \n Be sure to consider the size of the Tool that will cut the Doors from the Material. You may have to make adjustments to how the Doors are spaced on the Material to compensate for larger diameter bits."
+        },
+        {
+            "type": "text",
+            "data": "The machining of the Routed MDF Door requires information regarding the path of the route, and the detail of the route before this Door can be used."
+        },
+        {
+            "type": "text",
+            "data": "The machining of the Routed MDF Door requires information regarding the path of the route, and the detail of the route before this Door can be used."
+        },
+        {
+            "type": "text",
+            "data": "The path of the route is set in the Door Catalog Editor by selecting a Template."
+        },
+        {
+            "type": "text",
+            "data": "The path of the route is set in the Door Catalog Editor by selecting a Template."
+        },
+        {
+            "type": "text",
+            "data": "The profile of a route is defined in the Tool Catalog."
+        },
+        {
+            "type": "text",
+            "data": "The profile of a route is defined in the Tool Catalog."
+        },
+        {
+            "type": "text",
+            "data": "Tool Sets use multiple profiles to create unique patterns, and are created in the Tool Catalog."
+        },
+        {
+            "type": "text",
+            "data": "Tool Sets use multiple profiles to create unique patterns, and are created in the Tool Catalog."
+        },
+        {
+            "type": "text",
+            "data": "The route profile or pattern is linked (applied) to the Door in the Door Catalog Editor."
+        },
+        {
+            "type": "text",
+            "data": "The route profile or pattern is linked (applied) to the Door in the Door Catalog Editor."
+        },
+        {
+            "type": "text",
+            "data": "A Door can have only one path, but many patterns."
+        },
+        {
+            "type": "text",
+            "data": "A Door can have only one path, but many patterns."
+        },
+        {
+            "type": "text",
+            "data": "A route path without an assigned Tool Set will not create a pattern on the Door."
+        },
+        {
+            "type": "text",
+            "data": "A route path without an assigned Tool Set will not create a pattern on the Door."
+        },
+        {
+            "type": "text",
+            "data": "Material(s) must still be assigned to this Routed MDF door, and it need not be MDF."
+        },
+        {
+            "type": "text",
+            "data": "Material(s) must still be assigned to this Routed MDF door, and it need not be MDF."
+        },
+        {
+            "type": "text",
+            "data": "Be sure to consider the size of the Tool that will cut the Doors from the Material. You may have to make adjustments to how the Doors are spaced on the Material to compensate for larger diameter bits."
+        },
+        {
+            "type": "text",
+            "data": "Be sure to consider the size of the Tool that will cut the Doors from the Material. You may have to make adjustments to how the Doors are spaced on the Material to compensate for larger diameter bits."
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\DC_MDF_DoorMaker.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

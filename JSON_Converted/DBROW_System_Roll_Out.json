@@ -1,0 +1,115 @@
+{
+    "id": "83b22835-5fbb-4a6a-b77b-55028b3fc2a4",
+    "title": "DBROW_System_Roll_Out",
+    "content": [
+        {
+            "type": "text",
+            "data": "System Roll Out"
+        },
+        {
+            "type": "text",
+            "data": "The System Roll-Out Construction Style has the following objects:"
+        },
+        {
+            "type": "image",
+            "data": "image1360.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Click the Object names below for more information"
+        },
+        {
+            "type": "text",
+            "data": "General"
+        },
+        {
+            "type": "text",
+            "data": "Bottom"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Bottom",
+                "uuid": "dcfade24-db5d-4e5f-bcb0-31300f89b73d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Back"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Back",
+                "uuid": "c08b0bf8-4db3-4419-a3d0-414780a15cd7",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Roll Out Front"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Roll Out Front",
+                "uuid": "700c1d26-7e9f-49f8-985b-58f2d5af9d27",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Partition"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Partition",
+                "uuid": "c08b0bf8-4db3-4419-a3d0-414780a15cd7",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Divider"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Divider",
+                "uuid": "c08b0bf8-4db3-4419-a3d0-414780a15cd7",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Box Connection"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Box Connection",
+                "uuid": "c08b0bf8-4db3-4419-a3d0-414780a15cd7",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "General"
+        },
+        {
+            "type": "text",
+            "data": "The following diagram shows the options available in the General object. Click a specific option in the diagram for more information or continue through this topic for information on all Objects and options."
+        },
+        {
+            "type": "image",
+            "data": "image825.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\System_Level\\Ribbonbar\\Main_Tab\\Construction_Group\\Assembly_Manager\\Drawer_-_Roll_Out\\Construction_Styles\\DBROW_System_Roll_Out.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

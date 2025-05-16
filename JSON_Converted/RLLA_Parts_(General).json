@@ -1,0 +1,36 @@
+{
+    "id": "7e92e747-284b-4900-9a13-055ccc41934a",
+    "title": "RLLA_Parts_(General)",
+    "content": [
+        {
+            "type": "text",
+            "data": "Parts (General)"
+        },
+        {
+            "type": "image",
+            "data": "1AUALL.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image6229.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Following are the branches under the Parts (General) level:"
+        },
+        {
+            "type": "text",
+            "data": "Click the Folders below for more information"
+        },
+        {
+            "type": "image",
+            "data": "image4195.gif",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\RLLA_Parts_(General).htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

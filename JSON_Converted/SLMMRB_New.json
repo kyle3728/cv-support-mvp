@@ -1,0 +1,1851 @@
+{
+    "id": "4cf3a5bd-1d52-4637-83d0-35f25ab668dd",
+    "title": "SLMMRB_New",
+    "content": [
+        {
+            "type": "text",
+            "data": "New"
+        },
+        {
+            "type": "image",
+            "data": "image3649.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "SolidDrafter.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "SolidDrafterforClosets.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "1AllButEssential.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The New option opens the Material Wizard allowing you to create a New Material in the Material Manager."
+        },
+        {
+            "type": "image",
+            "data": "image4800.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There are three options on the first screen of the New Material window:"
+        },
+        {
+            "type": "text",
+            "data": "Type -  The Type of Material you are creating. There are several options each having a special set of  Properties . Some of these Properties will be available on subsequent screens depending upon the Type selected here:"
+        },
+        {
+            "type": "text",
+            "data": "Type -  The Type of Material you are creating. There are several options each having a special set of  Properties . Some of these Properties will be available on subsequent screens depending upon the Type selected here:"
+        },
+        {
+            "type": "text",
+            "data": "Type -  The Type of Material you are creating. There are several options each having a special set of  Properties . Some of these Properties will be available on subsequent screens depending upon the Type selected here:"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Properties",
+                "uuid": "b92d2565-8c22-4349-8341-edd3def3b9db",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image4387.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Banding  - Defines Edgebanding Material. \n \n \n Board Stock  - Defines Board Stock Material. \n \n \n Caster  - Defines Casters. \n \n \n Composite  - Defines Composite Material. \n \n \n Connector  - Defines a Connector. \n \n \n Drawer Guide  - Defines Drawer Guides. \n \n \n Hinge Plate  - Defines Hinge Plates. \n \n \n Hinge  \u00a0Defines Hinges. \n \n \n Laminate  - Defines Laminate. \n \n \n Leg  - Defines Legs. \n \n \n Leg Leveler  - Defines Leg Levelers. \n \n \n Miscellaneous  - Defines Miscellaneous Materials. \n \n \n Molding  - Defines Moldings. \n \n \n Molding Set  - Defines a Molding Set. \n \n \n Panel Stock  - Defines Panel Stock. \n \n \n Pull  - Defines Pulls. \n \n \n Rod  - Defines Closet Rods. \n \n \n Sliding Door Rail  - Defines Sliding Door Rails. \n \n \n Sliding Door Roller  - Defines Door Rollers. \n \n \n Wire Basket  - Defines Wire Baskets. \n \n \n \n \n Name -  The Name you want to use for the Material. The number of characters for a Material Name is limited to 50. \n \n \n Description -  The Description you want to use for the Material. The number of characters for a Material Description is limited to 100."
+        },
+        {
+            "type": "text",
+            "data": "Banding  - Defines Edgebanding Material. \n \n \n Board Stock  - Defines Board Stock Material. \n \n \n Caster  - Defines Casters. \n \n \n Composite  - Defines Composite Material. \n \n \n Connector  - Defines a Connector. \n \n \n Drawer Guide  - Defines Drawer Guides. \n \n \n Hinge Plate  - Defines Hinge Plates. \n \n \n Hinge  \u00a0Defines Hinges. \n \n \n Laminate  - Defines Laminate. \n \n \n Leg  - Defines Legs. \n \n \n Leg Leveler  - Defines Leg Levelers. \n \n \n Miscellaneous  - Defines Miscellaneous Materials. \n \n \n Molding  - Defines Moldings. \n \n \n Molding Set  - Defines a Molding Set. \n \n \n Panel Stock  - Defines Panel Stock. \n \n \n Pull  - Defines Pulls. \n \n \n Rod  - Defines Closet Rods. \n \n \n Sliding Door Rail  - Defines Sliding Door Rails. \n \n \n Sliding Door Roller  - Defines Door Rollers. \n \n \n Wire Basket  - Defines Wire Baskets."
+        },
+        {
+            "type": "text",
+            "data": "Banding  - Defines Edgebanding Material. \n \n \n Board Stock  - Defines Board Stock Material. \n \n \n Caster  - Defines Casters. \n \n \n Composite  - Defines Composite Material. \n \n \n Connector  - Defines a Connector. \n \n \n Drawer Guide  - Defines Drawer Guides. \n \n \n Hinge Plate  - Defines Hinge Plates. \n \n \n Hinge  \u00a0Defines Hinges. \n \n \n Laminate  - Defines Laminate. \n \n \n Leg  - Defines Legs. \n \n \n Leg Leveler  - Defines Leg Levelers. \n \n \n Miscellaneous  - Defines Miscellaneous Materials. \n \n \n Molding  - Defines Moldings. \n \n \n Molding Set  - Defines a Molding Set. \n \n \n Panel Stock  - Defines Panel Stock. \n \n \n Pull  - Defines Pulls. \n \n \n Rod  - Defines Closet Rods. \n \n \n Sliding Door Rail  - Defines Sliding Door Rails. \n \n \n Sliding Door Roller  - Defines Door Rollers. \n \n \n Wire Basket  - Defines Wire Baskets."
+        },
+        {
+            "type": "text",
+            "data": "Banding  - Defines Edgebanding Material."
+        },
+        {
+            "type": "text",
+            "data": "Banding  - Defines Edgebanding Material."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Banding",
+                "uuid": "a7630d33-1a29-4e4d-b54e-e6b16c30e227",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Board Stock  - Defines Board Stock Material."
+        },
+        {
+            "type": "text",
+            "data": "Board Stock  - Defines Board Stock Material."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Board Stock",
+                "uuid": "91574e70-0e35-4ca5-b4b0-33382d0731b5",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Caster  - Defines Casters."
+        },
+        {
+            "type": "text",
+            "data": "Caster  - Defines Casters."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Caster",
+                "uuid": "440a600c-ae6e-4aaa-a308-818be3df8108",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Composite  - Defines Composite Material."
+        },
+        {
+            "type": "text",
+            "data": "Composite  - Defines Composite Material."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Composite",
+                "uuid": "cfaddc40-b5e5-4828-8bb7-ac27aaddfc7c",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Connector  - Defines a Connector."
+        },
+        {
+            "type": "text",
+            "data": "Connector  - Defines a Connector."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Connector",
+                "uuid": "cfcbe9b1-8feb-45d5-ac6b-ae75eb0d21e7",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Drawer Guide  - Defines Drawer Guides."
+        },
+        {
+            "type": "text",
+            "data": "Drawer Guide  - Defines Drawer Guides."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Drawer Guide",
+                "uuid": "aee88f7e-5cca-418f-ac2d-2a2392fdf64c",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Hinge Plate  - Defines Hinge Plates."
+        },
+        {
+            "type": "text",
+            "data": "Hinge Plate  - Defines Hinge Plates."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Hinge Plate",
+                "uuid": "a95280c7-a23a-4c73-8975-6f414c829eae",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Hinge  \u00a0Defines Hinges."
+        },
+        {
+            "type": "text",
+            "data": "Hinge  \u00a0Defines Hinges."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Hinge",
+                "uuid": "d808c9d4-af7e-4f14-830b-5b3ce733008c",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Laminate  - Defines Laminate."
+        },
+        {
+            "type": "text",
+            "data": "Laminate  - Defines Laminate."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Laminate",
+                "uuid": "4b2419aa-15e6-47b5-9985-2f6bd03d699b",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Leg  - Defines Legs."
+        },
+        {
+            "type": "text",
+            "data": "Leg  - Defines Legs."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Leg",
+                "uuid": "13806fff-7b8f-4101-85af-094baaa17d5f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Leg Leveler  - Defines Leg Levelers."
+        },
+        {
+            "type": "text",
+            "data": "Leg Leveler  - Defines Leg Levelers."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Leg Leveler",
+                "uuid": "df6654f1-ccc3-4987-a063-dfba7aae8954",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Miscellaneous  - Defines Miscellaneous Materials."
+        },
+        {
+            "type": "text",
+            "data": "Miscellaneous  - Defines Miscellaneous Materials."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Miscellaneous",
+                "uuid": "d27a4d19-93c6-4589-bce8-858f34c17ed4",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Molding  - Defines Moldings."
+        },
+        {
+            "type": "text",
+            "data": "Molding  - Defines Moldings."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Molding",
+                "uuid": "21675ddf-9180-45f7-8c97-4823c35d6be9",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Molding Set  - Defines a Molding Set."
+        },
+        {
+            "type": "text",
+            "data": "Molding Set  - Defines a Molding Set."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Molding Set",
+                "uuid": "267b2c02-15a7-4304-86ae-bce462233537",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Panel Stock  - Defines Panel Stock."
+        },
+        {
+            "type": "text",
+            "data": "Panel Stock  - Defines Panel Stock."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Panel Stock",
+                "uuid": "19324bd9-09f9-4208-89eb-9a15bb3b8457",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Pull  - Defines Pulls."
+        },
+        {
+            "type": "text",
+            "data": "Pull  - Defines Pulls."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Pull",
+                "uuid": "90833dd1-a8d1-462b-bf37-a15497d3d9be",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Rod  - Defines Closet Rods."
+        },
+        {
+            "type": "text",
+            "data": "Rod  - Defines Closet Rods."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Rod",
+                "uuid": "d94f56da-9459-4c49-a1d4-d789ed1feccd",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Sliding Door Rail  - Defines Sliding Door Rails."
+        },
+        {
+            "type": "text",
+            "data": "Sliding Door Rail  - Defines Sliding Door Rails."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Sliding Door Rail",
+                "uuid": "e5520c90-c7af-4a21-baf3-981137acf036",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Sliding Door Roller  - Defines Door Rollers."
+        },
+        {
+            "type": "text",
+            "data": "Sliding Door Roller  - Defines Door Rollers."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Sliding Door Roller",
+                "uuid": "408d43f3-0f87-45b4-8970-7a954d3dc179",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Wire Basket  - Defines Wire Baskets."
+        },
+        {
+            "type": "text",
+            "data": "Wire Basket  - Defines Wire Baskets."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Wire Basket",
+                "uuid": "2e9f4b07-13cc-4112-b097-9ba0ad2d210d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Name -  The Name you want to use for the Material. The number of characters for a Material Name is limited to 50."
+        },
+        {
+            "type": "text",
+            "data": "Name -  The Name you want to use for the Material. The number of characters for a Material Name is limited to 50."
+        },
+        {
+            "type": "text",
+            "data": "Description -  The Description you want to use for the Material. The number of characters for a Material Description is limited to 100."
+        },
+        {
+            "type": "text",
+            "data": "Description -  The Description you want to use for the Material. The number of characters for a Material Description is limited to 100."
+        },
+        {
+            "type": "text",
+            "data": "Clicking Next will bring up different screens depending on the Material Type selected."
+        },
+        {
+            "type": "text",
+            "data": "Banding"
+        },
+        {
+            "type": "text",
+            "data": "Banding"
+        },
+        {
+            "type": "image",
+            "data": "image4801.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Unit of Issue -  Select the Unit of Issue for the Banding Material. There are eleven choices here."
+        },
+        {
+            "type": "image",
+            "data": "image4237.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Thickness -  Enter the Thickness for the Material."
+        },
+        {
+            "type": "text",
+            "data": "Display"
+        },
+        {
+            "type": "image",
+            "data": "image4802.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Finish -  Select the Finish for the Material's Face, Back, Edge, End, and/or components."
+        },
+        {
+            "type": "text",
+            "data": "Finish Type -  Select the Finish Type for the Material's Face, Back, Edge, End, and/or components."
+        },
+        {
+            "type": "text",
+            "data": "Texture -  Select the Texture for the Material's Face, Back, Edge, End, and/or components."
+        },
+        {
+            "type": "text",
+            "data": "Board Stock"
+        },
+        {
+            "type": "text",
+            "data": "Board Stock"
+        },
+        {
+            "type": "image",
+            "data": "image4803.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Unit of Issue -   Previously covered."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered.",
+                "uuid": "4cf3a5bd-1d52-4637-83d0-35f25ab668dd",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Thickness -   Previously covered."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered.",
+                "uuid": "4cf3a5bd-1d52-4637-83d0-35f25ab668dd",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Display"
+        },
+        {
+            "type": "text",
+            "data": "Previously covered."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered.",
+                "uuid": "4cf3a5bd-1d52-4637-83d0-35f25ab668dd",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Caster"
+        },
+        {
+            "type": "text",
+            "data": "Caster"
+        },
+        {
+            "type": "image",
+            "data": "image4804.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Unit of Issue -   Previously covered."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered.",
+                "uuid": "4cf3a5bd-1d52-4637-83d0-35f25ab668dd",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Height -  The Height of your Caster."
+        },
+        {
+            "type": "text",
+            "data": "Display"
+        },
+        {
+            "type": "text",
+            "data": "Previously covered."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered.",
+                "uuid": "4cf3a5bd-1d52-4637-83d0-35f25ab668dd",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Composite"
+        },
+        {
+            "type": "text",
+            "data": "There are no special Properties for Composite Materials."
+        },
+        {
+            "type": "text",
+            "data": "Connector"
+        },
+        {
+            "type": "text",
+            "data": "Connector"
+        },
+        {
+            "type": "image",
+            "data": "image4805.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Unit of Issue -   Previously covered."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered.",
+                "uuid": "4cf3a5bd-1d52-4637-83d0-35f25ab668dd",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Type -  The Type of Connector. There are eight choices here:"
+        },
+        {
+            "type": "image",
+            "data": "image4721.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Type named \"Connector\" is used to create your own Connector and does not include a default 3D Model."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Display"
+        },
+        {
+            "type": "text",
+            "data": "Previously covered."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered.",
+                "uuid": "4cf3a5bd-1d52-4637-83d0-35f25ab668dd",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Drawer Guide"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Guide"
+        },
+        {
+            "type": "image",
+            "data": "image4806.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Unit of Issue -   Previously covered."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered.",
+                "uuid": "4cf3a5bd-1d52-4637-83d0-35f25ab668dd",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Type -  The Type of Drawer Guide. There are three choices here:"
+        },
+        {
+            "type": "image",
+            "data": "image4472.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Length -  The Length of the Drawer Guide."
+        },
+        {
+            "type": "text",
+            "data": "Height -  The Height of the Drawer Guide. Only available for the \"System\" Type."
+        },
+        {
+            "type": "text",
+            "data": "Side Clearance -  This is the value establishes the clearance at the sides of the drawer box for the Drawer Guide. This value, multiplied by 2 and then subtracted from the opening width, will set the Width of a Drawer Box that has this Drawer Guide. This is the area where Drawer Boxes receive the information on their Width. If you want more than a typical 1/2 inch, for a little play for instance, consider entering a value of 17/32."
+        },
+        {
+            "type": "text",
+            "data": "Top Clearance -  This value, and the values entered in the  Drawer Box/Roll Out Wizard  begin to set the Height of your Drawer Box. You are asked to enter a minimum value here, and that minimum value will always apply to the selected Drawer Guide. This represents the distance between the top of the Drawer Box and the first thing it would otherwise hit, or, the gap between it and another Drawer if there is no Cabinet member in between."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Drawer Box/Roll Out Wizard",
+                "uuid": "0ce090fb-3d1d-400c-bbed-a30c2e8f2fa7",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Bottom Clearance -  Similar to the minimum top clearance, this defines the distance between the bottom of the Drawer Box side, (or the Drawer bottom, the lower of the two), and the first thing it would hit. If there is no Cabinet member in the way, it would reference the gap."
+        },
+        {
+            "type": "text",
+            "data": "Mount Holes"
+        },
+        {
+            "type": "image",
+            "data": "image4807.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "D iameter -  The Diameter of the Mount Holes."
+        },
+        {
+            "type": "text",
+            "data": "Depth -  The Depth of the Mount Holes."
+        },
+        {
+            "type": "text",
+            "data": "Top Reference -  When set to Yes establishes that the Mount Holes are referenced from the top of the Guide."
+        },
+        {
+            "type": "text",
+            "data": "Screw Center to Reference -  Sets the dimension from the Reference (established with Top Reference) to the center of the Mount Holes."
+        },
+        {
+            "type": "text",
+            "data": "Position 1 -  The Position of the first hole from the Front of the Drawer Box. When defining a \" Model \" for your Drawer Guide the first hole should be placed at the Graphic Reference Point. This value will shift the Graphic when used in an Assembly by this value. This value typically represents the distance from the front of your Case to the First Bore Hole. Sets the  Model Reference Point  placement."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Model",
+                "uuid": "80226667-3248-4b47-b7ea-bc1e7f16cabb",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Model Reference Point",
+                "uuid": "80226667-3248-4b47-b7ea-bc1e7f16cabb",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Position 2 -  The Position of the second hole from the Front of the Drawer Box."
+        },
+        {
+            "type": "text",
+            "data": "Position 3 -  The Position of the third hole from the Front of the Drawer Box."
+        },
+        {
+            "type": "text",
+            "data": "Position 4 -  The Position of the fourth hole from the Front of the Drawer Box."
+        },
+        {
+            "type": "text",
+            "data": "Position 5 -  The Position of the fifth hole from the Front of the Drawer Box."
+        },
+        {
+            "type": "text",
+            "data": "Position 6 -  The Position of the sixth hole from the Front of the Drawer Box."
+        },
+        {
+            "type": "text",
+            "data": "Front Mount Holes"
+        },
+        {
+            "type": "image",
+            "data": "image4808.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Horizontal Offset -  The Horizontal Offset distance from the Drawer Box Side to the center of the Front Mount Holes."
+        },
+        {
+            "type": "text",
+            "data": "Vertical Offset -  The Vertical Offset distance from the Reference, specified in Top Reference, to the center of the Front Mount Holes."
+        },
+        {
+            "type": "text",
+            "data": "Diameter -  The Diameter of the Front Mount Holes."
+        },
+        {
+            "type": "text",
+            "data": "Depth -  The Depth of the Front Mount Holes."
+        },
+        {
+            "type": "text",
+            "data": "Spacing -  The Spacing (if more than one in Quantity) of the Front Mount Holes."
+        },
+        {
+            "type": "text",
+            "data": "Quantity -  The Quantity of the Front Mount Holes."
+        },
+        {
+            "type": "text",
+            "data": "Back Mount Holes"
+        },
+        {
+            "type": "image",
+            "data": "image4809.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Horizontal Offset -  The Horizontal Offset distance from the Drawer Box Side to the center of the Back Mount Holes."
+        },
+        {
+            "type": "text",
+            "data": "Vertical Offset -  The Vertical Offset distance from the Reference, specified in Top Reference, to the center of the Back Mount Holes."
+        },
+        {
+            "type": "text",
+            "data": "Diameter -  The Diameter of the Back Mount Holes."
+        },
+        {
+            "type": "text",
+            "data": "Depth -  The Depth of the Back Mount Holes."
+        },
+        {
+            "type": "text",
+            "data": "Spacing -  The Spacing (if more than one in Quantity) of the Back Mount Holes."
+        },
+        {
+            "type": "text",
+            "data": "Quantity -  The Quantity of the Back Mount Holes."
+        },
+        {
+            "type": "text",
+            "data": "Back Mount Notches"
+        },
+        {
+            "type": "image",
+            "data": "image4810.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Length -  The Length of the Notch."
+        },
+        {
+            "type": "text",
+            "data": "Height -  The Height of the Notch."
+        },
+        {
+            "type": "text",
+            "data": "Horizontal Offset -  The Horizontal Offset for the Notch."
+        },
+        {
+            "type": "text",
+            "data": "Bottom Mount Holes (System Guides Only)"
+        },
+        {
+            "type": "image",
+            "data": "image4811.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "1st Position -  The position of the first Bottom Mount hole."
+        },
+        {
+            "type": "text",
+            "data": "Horizontal Offset -  The Horizontal Offset distance from the outside of the Drawer Box Side, to the center of the Bottom Mount Holes."
+        },
+        {
+            "type": "text",
+            "data": "Diameter -  The Diameter of the Bottom Mount Holes."
+        },
+        {
+            "type": "text",
+            "data": "Depth -  The Depth of the Bottom Mount Holes."
+        },
+        {
+            "type": "text",
+            "data": "Spacing -  The Spacing (if more than one in Quantity) of the Bottom Mount Holes."
+        },
+        {
+            "type": "text",
+            "data": "Quantity -  The Quantity of the Bottom Mount Holes."
+        },
+        {
+            "type": "text",
+            "data": "Bottom Mount Grooves\u00a0(System Guides Only)"
+        },
+        {
+            "type": "image",
+            "data": "image4812.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "H orizontal Offset -  The Horizontal Offset distance for the Bottom Mount Groove from the outside of the Drawer Box Side."
+        },
+        {
+            "type": "text",
+            "data": "Width -  The Width of the Bottom Mount Grooves."
+        },
+        {
+            "type": "text",
+            "data": "Depth -  The Depth of the Bottom Mount Grooves."
+        },
+        {
+            "type": "text",
+            "data": "Display"
+        },
+        {
+            "type": "text",
+            "data": "Previously covered."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered.",
+                "uuid": "4cf3a5bd-1d52-4637-83d0-35f25ab668dd",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Hinge"
+        },
+        {
+            "type": "text",
+            "data": "Hinge"
+        },
+        {
+            "type": "image",
+            "data": "image4813.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Unit of Issue -   Previously covered."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered.",
+                "uuid": "4cf3a5bd-1d52-4637-83d0-35f25ab668dd",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Type -  The Type of Hinge. There are three choices here."
+        },
+        {
+            "type": "image",
+            "data": "image4225.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Hinge Cup"
+        },
+        {
+            "type": "image",
+            "data": "image4814.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Diameter -  The Diameter of the hinge cup."
+        },
+        {
+            "type": "text",
+            "data": "Depth -  The Depth of the hinge cup."
+        },
+        {
+            "type": "text",
+            "data": "Anchor Holes"
+        },
+        {
+            "type": "image",
+            "data": "image4815.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Cup to Anchor -  The distance from the center of the hinge cup to the center of the anchor holes."
+        },
+        {
+            "type": "text",
+            "data": "Diameter -  The Diameter of the anchor holes."
+        },
+        {
+            "type": "text",
+            "data": "Depth -  The Depth of the anchor holes."
+        },
+        {
+            "type": "text",
+            "data": "Spacing -  The Spacing between the anchor holes."
+        },
+        {
+            "type": "text",
+            "data": "Display"
+        },
+        {
+            "type": "text",
+            "data": "Previously covered."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered.",
+                "uuid": "4cf3a5bd-1d52-4637-83d0-35f25ab668dd",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Hinge Plate"
+        },
+        {
+            "type": "text",
+            "data": "Hinge Plate"
+        },
+        {
+            "type": "image",
+            "data": "image4816.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Unit of Issue -   Previously covered."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered.",
+                "uuid": "4cf3a5bd-1d52-4637-83d0-35f25ab668dd",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Type -  The Type of Hinge Plate. There are three choices here."
+        },
+        {
+            "type": "image",
+            "data": "image4379.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Mounting Holes"
+        },
+        {
+            "type": "image",
+            "data": "image4817.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Diameter -  The Diameter of the mounting holes."
+        },
+        {
+            "type": "text",
+            "data": "Depth -  The Depth of the mounting holes."
+        },
+        {
+            "type": "text",
+            "data": "Spacing -  The Spacing for the mounting holes."
+        },
+        {
+            "type": "text",
+            "data": "Display"
+        },
+        {
+            "type": "text",
+            "data": "Previously covered."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered.",
+                "uuid": "4cf3a5bd-1d52-4637-83d0-35f25ab668dd",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Laminate"
+        },
+        {
+            "type": "text",
+            "data": "Laminate"
+        },
+        {
+            "type": "image",
+            "data": "image4818.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Unit of Issue -   Previously covered."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered.",
+                "uuid": "4cf3a5bd-1d52-4637-83d0-35f25ab668dd",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Length -  The Length of the Laminate."
+        },
+        {
+            "type": "text",
+            "data": "Width -  The Width of the Laminate."
+        },
+        {
+            "type": "text",
+            "data": "Thickness -  The Thickness of the Laminate."
+        },
+        {
+            "type": "text",
+            "data": "Display"
+        },
+        {
+            "type": "text",
+            "data": "Previously covered."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered.",
+                "uuid": "4cf3a5bd-1d52-4637-83d0-35f25ab668dd",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Leg"
+        },
+        {
+            "type": "text",
+            "data": "Leg"
+        },
+        {
+            "type": "image",
+            "data": "image4819.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Unit of Issue -   Previously covered."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered.",
+                "uuid": "4cf3a5bd-1d52-4637-83d0-35f25ab668dd",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Type -  The Type of leg. There are three choices here."
+        },
+        {
+            "type": "image",
+            "data": "image4234.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Height -  The Height of the Leg."
+        },
+        {
+            "type": "text",
+            "data": "Width -  The Width (Diameter) of the Leg."
+        },
+        {
+            "type": "text",
+            "data": "Display"
+        },
+        {
+            "type": "text",
+            "data": "Previously covered."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered.",
+                "uuid": "4cf3a5bd-1d52-4637-83d0-35f25ab668dd",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Leg Leveler"
+        },
+        {
+            "type": "text",
+            "data": "Leg Leveler"
+        },
+        {
+            "type": "image",
+            "data": "image4820.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Unit of Issue -   Previously covered."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered.",
+                "uuid": "4cf3a5bd-1d52-4637-83d0-35f25ab668dd",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Height -  The Height of the Leg Leveler."
+        },
+        {
+            "type": "text",
+            "data": "Display"
+        },
+        {
+            "type": "text",
+            "data": "Previously covered."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered.",
+                "uuid": "4cf3a5bd-1d52-4637-83d0-35f25ab668dd",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Miscellaneous"
+        },
+        {
+            "type": "text",
+            "data": "There are no special Properties for Miscellaneous Materials."
+        },
+        {
+            "type": "text",
+            "data": "Molding"
+        },
+        {
+            "type": "text",
+            "data": "Molding"
+        },
+        {
+            "type": "image",
+            "data": "image4821.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Unit of Issue -   Previously covered."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered.",
+                "uuid": "4cf3a5bd-1d52-4637-83d0-35f25ab668dd",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Type -  The Type of Molding. There are ten choices here."
+        },
+        {
+            "type": "image",
+            "data": "image4526.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Length -  The Length of the Molding."
+        },
+        {
+            "type": "text",
+            "data": "Display"
+        },
+        {
+            "type": "text",
+            "data": "Previously covered."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered.",
+                "uuid": "4cf3a5bd-1d52-4637-83d0-35f25ab668dd",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Molding Set"
+        },
+        {
+            "type": "text",
+            "data": "There are no special Properties for Miscellaneous Materials."
+        },
+        {
+            "type": "text",
+            "data": "Panel Stock"
+        },
+        {
+            "type": "text",
+            "data": "Panel Stock"
+        },
+        {
+            "type": "image",
+            "data": "image4822.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Unit of Issue -   Previously covered."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered.",
+                "uuid": "4cf3a5bd-1d52-4637-83d0-35f25ab668dd",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Length -  The Length of the Panel Stock."
+        },
+        {
+            "type": "text",
+            "data": "Width -  The Width of the Panel Stock."
+        },
+        {
+            "type": "text",
+            "data": "Thickness -  The Thickness of the Panel Stock."
+        },
+        {
+            "type": "text",
+            "data": "Display"
+        },
+        {
+            "type": "text",
+            "data": "Previously covered."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered.",
+                "uuid": "4cf3a5bd-1d52-4637-83d0-35f25ab668dd",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Pull"
+        },
+        {
+            "type": "text",
+            "data": "Pull"
+        },
+        {
+            "type": "image",
+            "data": "image63.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Unit of Issue -   Previously covered."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered.",
+                "uuid": "4cf3a5bd-1d52-4637-83d0-35f25ab668dd",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Type -  The Type of Pull. There are seventeen choices here."
+        },
+        {
+            "type": "image",
+            "data": "image4239.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Center to Center -  \u00a0The Center to Center dimension for the Pull holes (Establishes the Pull Length)."
+        },
+        {
+            "type": "text",
+            "data": "Width -  The Width of the Pull."
+        },
+        {
+            "type": "text",
+            "data": "Depth -  The Depth of the Pull."
+        },
+        {
+            "type": "text",
+            "data": "Horizontal Inset -  The distance from the edge of the Door to the center of the Pull."
+        },
+        {
+            "type": "text",
+            "data": "Vertical Inset -  The distance from the end of the Door to the center of the Pull."
+        },
+        {
+            "type": "text",
+            "data": "Mounting Holes"
+        },
+        {
+            "type": "image",
+            "data": "image4824.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Diameter -  The Diameter of the hole(s) to mount the Pull."
+        },
+        {
+            "type": "text",
+            "data": "Display"
+        },
+        {
+            "type": "text",
+            "data": "Previously covered."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered.",
+                "uuid": "4cf3a5bd-1d52-4637-83d0-35f25ab668dd",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Rod"
+        },
+        {
+            "type": "text",
+            "data": "Rod"
+        },
+        {
+            "type": "image",
+            "data": "image4825.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Unit of Issue -   Previously covered."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered.",
+                "uuid": "4cf3a5bd-1d52-4637-83d0-35f25ab668dd",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Type -  The Type of Rod. There are two choices here."
+        },
+        {
+            "type": "image",
+            "data": "image4242.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Length -  The Length of the Rod."
+        },
+        {
+            "type": "text",
+            "data": "Height -  The Height of the Rod. Only available for Oval Type."
+        },
+        {
+            "type": "text",
+            "data": "Width -  The Width/Diameter of the Rod."
+        },
+        {
+            "type": "text",
+            "data": "Boring"
+        },
+        {
+            "type": "image",
+            "data": "image4826.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Pattern -  The Pattern for the Bores. There are six choices."
+        },
+        {
+            "type": "image",
+            "data": "image4381.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Diameter -  The Diameter of the Bores."
+        },
+        {
+            "type": "text",
+            "data": "Depth -  The Depth of the Bores."
+        },
+        {
+            "type": "text",
+            "data": "Spacing -  The Spacing for the bores."
+        },
+        {
+            "type": "text",
+            "data": "Quantity -  The Quantity of bores."
+        },
+        {
+            "type": "text",
+            "data": "Display"
+        },
+        {
+            "type": "text",
+            "data": "Previously covered."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered.",
+                "uuid": "4cf3a5bd-1d52-4637-83d0-35f25ab668dd",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Sliding Door Rail"
+        },
+        {
+            "type": "text",
+            "data": "Sliding Door Rail"
+        },
+        {
+            "type": "image",
+            "data": "image4827.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Unit of Issue -   Previously covered."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered.",
+                "uuid": "4cf3a5bd-1d52-4637-83d0-35f25ab668dd",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Type -  The Type of Sliding Door Rail. There are two choices here."
+        },
+        {
+            "type": "image",
+            "data": "image4246.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Length -  The Length of the Sliding Door Rail."
+        },
+        {
+            "type": "text",
+            "data": "Boring"
+        },
+        {
+            "type": "image",
+            "data": "image4828.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "1st Position -  The position of the first mounting hole from the left."
+        },
+        {
+            "type": "text",
+            "data": "Diameter -  The Diameter of the mounting holes."
+        },
+        {
+            "type": "text",
+            "data": "Depth -  The Depth of the mounting holes."
+        },
+        {
+            "type": "text",
+            "data": "Spacing -  The Spacing of the mounting holes."
+        },
+        {
+            "type": "text",
+            "data": "Slot"
+        },
+        {
+            "type": "image",
+            "data": "image4829.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Width -  The Width of the Slot."
+        },
+        {
+            "type": "text",
+            "data": "Depth -  The Depth of the Slot."
+        },
+        {
+            "type": "text",
+            "data": "Display"
+        },
+        {
+            "type": "text",
+            "data": "Previously covered."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered.",
+                "uuid": "4cf3a5bd-1d52-4637-83d0-35f25ab668dd",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Sliding Door Roller"
+        },
+        {
+            "type": "text",
+            "data": "Sliding Door Roller"
+        },
+        {
+            "type": "image",
+            "data": "image4830.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Unit of Issue -   Previously covered."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered.",
+                "uuid": "4cf3a5bd-1d52-4637-83d0-35f25ab668dd",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Type -  The Type of Sliding Door Roller. There are two choices here."
+        },
+        {
+            "type": "image",
+            "data": "image4250.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Mount On Back -  Specify whether the Sliding Door Roller mounts to the back of the Door or the top."
+        },
+        {
+            "type": "text",
+            "data": "Horizontal Offset -  The Horizontal Offset for the Sliding Door Roller."
+        },
+        {
+            "type": "text",
+            "data": "Vertical Offset -  The Vertical Offset for the Sliding Door Roller."
+        },
+        {
+            "type": "text",
+            "data": "Mount Plate Hole 1, 2, 3, 4, 5"
+        },
+        {
+            "type": "image",
+            "data": "Sliding_Door_Roller_Mount_Plate.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Horizontal Offset -  The Horizontal position of the Mount Plate Hole."
+        },
+        {
+            "type": "text",
+            "data": "Vertical Offset -  The Vertical position of the Mount Plate Hole."
+        },
+        {
+            "type": "text",
+            "data": "Diameter -  The Diameter of the Mount Plate Hole."
+        },
+        {
+            "type": "text",
+            "data": "Depth -  The Depth of the Mount Plate Hole."
+        },
+        {
+            "type": "text",
+            "data": "Slot"
+        },
+        {
+            "type": "image",
+            "data": "image4833.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Width -  The Width of the Slot in the Door."
+        },
+        {
+            "type": "text",
+            "data": "Depth -  The Depth of the Slot in the Door."
+        },
+        {
+            "type": "text",
+            "data": "Dado Reference -  Specify if the Dado should reference from the Back, Center, or Front of the Door."
+        },
+        {
+            "type": "text",
+            "data": "Dado Offset -  Specify the distance the Dado is offset from the Dado Reference."
+        },
+        {
+            "type": "text",
+            "data": "Display"
+        },
+        {
+            "type": "text",
+            "data": "Previously covered."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered.",
+                "uuid": "4cf3a5bd-1d52-4637-83d0-35f25ab668dd",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Wire Basket"
+        },
+        {
+            "type": "text",
+            "data": "Wire Basket"
+        },
+        {
+            "type": "image",
+            "data": "image4834.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Unit of Issue -   Previously covered."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered.",
+                "uuid": "4cf3a5bd-1d52-4637-83d0-35f25ab668dd",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Type -  The Type of Wire Basket. There are four choices here."
+        },
+        {
+            "type": "image",
+            "data": "image4527.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Height -  The Height\u00a0of the Wire Basket."
+        },
+        {
+            "type": "text",
+            "data": "Width -  The Width\u00a0of the Wire Basket."
+        },
+        {
+            "type": "text",
+            "data": "Depth -  The Depth of the Wire Basket."
+        },
+        {
+            "type": "text",
+            "data": "Mount Holes"
+        },
+        {
+            "type": "image",
+            "data": "image4835.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Diameter -  The Diameter of the Mount Holes."
+        },
+        {
+            "type": "text",
+            "data": "Depth -  The Depth of the Mount Holes."
+        },
+        {
+            "type": "text",
+            "data": "Position 1 -  The Position of the first hole from the Front of the Wire Basket."
+        },
+        {
+            "type": "text",
+            "data": "Position 2 -  The Position of the second hole from the Front of the Wire Basket."
+        },
+        {
+            "type": "text",
+            "data": "Position 3 -  The Position of the third hole from the Front of the Wire Basket."
+        },
+        {
+            "type": "text",
+            "data": "Position 4 -  The Position of the fourth hole from the Front of the Wire Basket."
+        },
+        {
+            "type": "text",
+            "data": "Position 5 -  The Position of the fifth hole from the Front of the Wire Basket."
+        },
+        {
+            "type": "text",
+            "data": "Position 6 -  The Position of the sixth hole from the Front of the Wire Basket."
+        },
+        {
+            "type": "text",
+            "data": "Display"
+        },
+        {
+            "type": "text",
+            "data": "Previously covered."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Previously covered.",
+                "uuid": "4cf3a5bd-1d52-4637-83d0-35f25ab668dd",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\SLMMRB_New.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

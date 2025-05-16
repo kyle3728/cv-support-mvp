@@ -1,0 +1,133 @@
+{
+    "id": "138be97a-1904-4435-9301-ef06a8eb1524",
+    "title": "S2M_Center_Products_and_Add-Ons",
+    "content": [
+        {
+            "type": "text",
+            "data": "S2M CENTER Additions and Machines"
+        },
+        {
+            "type": "text",
+            "data": "The following S2M CENTER Products are available. The icons below will represent them throughout the Help file. This is how the Help file will identify which features are available in which Products."
+        },
+        {
+            "type": "text",
+            "data": "- xMachining"
+        },
+        {
+            "type": "image",
+            "data": "Machining.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Additions"
+        },
+        {
+            "type": "text",
+            "data": "- +Label"
+        },
+        {
+            "type": "image",
+            "data": "Label.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "- +Simulation"
+        },
+        {
+            "type": "image",
+            "data": "Simulation.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Machines"
+        },
+        {
+            "type": "text",
+            "data": "- +Chop Saw"
+        },
+        {
+            "type": "image",
+            "data": "ChopSaw.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "- +Drill & Dowel"
+        },
+        {
+            "type": "image",
+            "data": "DrillAndDowel.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "- +DXF"
+        },
+        {
+            "type": "image",
+            "data": "DXF.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "- +Material Handling"
+        },
+        {
+            "type": "image",
+            "data": "MaterialHandling.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "- +Part List"
+        },
+        {
+            "type": "image",
+            "data": "PartList.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "- +Point-to-Point"
+        },
+        {
+            "type": "image",
+            "data": "PointToPoint.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "- +Router"
+        },
+        {
+            "type": "image",
+            "data": "Router.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "- +Saw"
+        },
+        {
+            "type": "image",
+            "data": "Saw.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "- +Special"
+        },
+        {
+            "type": "image",
+            "data": "Special.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "NCEnglish\\Introduction\\S2M_Center_Products_and_Add-Ons.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

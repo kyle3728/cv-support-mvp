@@ -1,0 +1,61 @@
+{
+    "id": "a5d9fed1-9f52-4c28-b0f9-7e7f8187a29a",
+    "title": "Troubleshooting_Error_Messages",
+    "content": [
+        {
+            "type": "text",
+            "data": "Troubleshooting Error Messages"
+        },
+        {
+            "type": "text",
+            "data": "There are three reasons for 95% of the errors returned when writing a formula:"
+        },
+        {
+            "type": "text",
+            "data": "A part name (or code) has been entered incorrectly or misspelled. Example; Cab.Casse.De.X notice that Case is misspelled. \n \n \n The periods within your \"then\" statement have been left out, or a comma was entered. \n \n \n The path to the part is not correct. For instance looking at the Object Tree, youll see that the Adjustable Shelf (code AS) (if this cabinet had one), is under the \"Interior\", not the \"Case\". \n \n \n IF your statement used \"cab.case.as.dx\", (to refer to the adjustable shelf width), an error would be returned. The correct statement would be \"cab.interior.as.dx\"."
+        },
+        {
+            "type": "text",
+            "data": "A part name (or code) has been entered incorrectly or misspelled. Example; Cab.Casse.De.X notice that Case is misspelled."
+        },
+        {
+            "type": "text",
+            "data": "A part name (or code) has been entered incorrectly or misspelled. Example; Cab.Casse.De.X notice that Case is misspelled."
+        },
+        {
+            "type": "text",
+            "data": "The periods within your \"then\" statement have been left out, or a comma was entered."
+        },
+        {
+            "type": "text",
+            "data": "The periods within your \"then\" statement have been left out, or a comma was entered."
+        },
+        {
+            "type": "text",
+            "data": "The path to the part is not correct. For instance looking at the Object Tree, youll see that the Adjustable Shelf (code AS) (if this cabinet had one), is under the \"Interior\", not the \"Case\". \n \n \n IF your statement used \"cab.case.as.dx\", (to refer to the adjustable shelf width), an error would be returned. The correct statement would be \"cab.interior.as.dx\"."
+        },
+        {
+            "type": "text",
+            "data": "The path to the part is not correct. For instance looking at the Object Tree, youll see that the Adjustable Shelf (code AS) (if this cabinet had one), is under the \"Interior\", not the \"Case\"."
+        },
+        {
+            "type": "text",
+            "data": "IF your statement used \"cab.case.as.dx\", (to refer to the adjustable shelf width), an error would be returned. The correct statement would be \"cab.interior.as.dx\"."
+        },
+        {
+            "type": "text",
+            "data": "IF your statement used \"cab.case.as.dx\", (to refer to the adjustable shelf width), an error would be returned. The correct statement would be \"cab.interior.as.dx\"."
+        },
+        {
+            "type": "text",
+            "data": "IF your statement used \"cab.case.as.dx\", (to refer to the adjustable shelf width), an error would be returned. The correct statement would be \"cab.interior.as.dx\"."
+        },
+        {
+            "type": "text",
+            "data": "The path is evident by looking at the Object Tree, and looking \"up\" to the parent of the part in question, or by looking \"down\" from the cabinet to the part and parameter in question. It is structured much like a \"branching\" tree."
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\Parametric_Editing\\Intelligence_Workshop\\1st_Exercise\\Troubleshooting_Error_Messages.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

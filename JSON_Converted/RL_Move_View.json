@@ -1,0 +1,86 @@
+{
+    "id": "c6f5f529-3481-42ad-8869-7aa053cc3f56",
+    "title": "RL_Move_View",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top \n > \n \n \n Room Level \n > \n \n Ribbonbar \n > \n \n Main Tab \n > \n \n Camera Group \n > \n \n Move"
+        },
+        {
+            "type": "text",
+            "data": "Top \n >"
+        },
+        {
+            "type": "text",
+            "data": "Room Level \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Room Level",
+                "uuid": "9eaa492c-0405-4da7-8e0f-a6ff4e047890",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Ribbonbar \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Ribbonbar",
+                "uuid": "a095688d-3b5c-4aba-8f35-bdc4541dcc7f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Main Tab \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Main Tab",
+                "uuid": "a095688d-3b5c-4aba-8f35-bdc4541dcc7f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Camera Group \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Camera Group",
+                "uuid": "e23585cb-232c-45cc-accd-6b1f25c60814",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Move"
+        },
+        {
+            "type": "text",
+            "data": "Move"
+        },
+        {
+            "type": "text",
+            "data": "Move"
+        },
+        {
+            "type": "image",
+            "data": "image1876.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Rotating around the axes to get the view you want may move the view all the way or partially off the screen. The Move option in the ribbonbar can be used to center the view on your screen. This option will allow you to maintain the current Room or Assembly orientation but will move the view to where you want it on the screen. Following the same way to rotate the view, click and drag the view to where you need to view it."
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Room_Level\\Ribbonbar\\Main_Tab\\Camera_Group\\RL_Move_View.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

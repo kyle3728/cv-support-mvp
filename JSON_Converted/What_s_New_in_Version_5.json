@@ -1,0 +1,293 @@
+{
+    "id": "89df1604-aa71-485f-b929-7b069fcb5867",
+    "title": "What_s_New_in_Version_5",
+    "content": [
+        {
+            "type": "text",
+            "data": "What's New in Version 5"
+        },
+        {
+            "type": "text",
+            "data": "General"
+        },
+        {
+            "type": "text",
+            "data": "Save and Open Nested/Optimized \"Ready for Output\" Job State \n \n \n Quick Invert Selection for Filters \n \n \n Line Item Icons in Part List and Material List Views Now Display Tooltips \n \n \n Define Edgebanding Via S2M Part List CncRun.txt File \n \n \n Define Grain Matching Via S2M Part List CncRun.txt \n \n \n Show Room Name Instead of Number on Pattern Printouts \n \n \n Import Blum Dynaplan BXF Files \n \n \n Edit DXF Layer Names on Import \n \n \n Control Column Widths on Pattern Printouts \n \n \n Part Shape Editor \n \n \n Operations Editor \n \n \n Show Square Off Nest Toolpath on Pattern Printouts \n \n \n Print a Range of Pages \n \n \n Print Secondary Part Drawing Sheets"
+        },
+        {
+            "type": "text",
+            "data": "Save and Open Nested/Optimized \"Ready for Output\" Job State"
+        },
+        {
+            "type": "text",
+            "data": "Save and Open Nested/Optimized \"Ready for Output\" Job State"
+        },
+        {
+            "type": "text",
+            "data": "Quick Invert Selection for Filters"
+        },
+        {
+            "type": "text",
+            "data": "Quick Invert Selection for Filters"
+        },
+        {
+            "type": "text",
+            "data": "Line Item Icons in Part List and Material List Views Now Display Tooltips"
+        },
+        {
+            "type": "text",
+            "data": "Line Item Icons in Part List and Material List Views Now Display Tooltips"
+        },
+        {
+            "type": "text",
+            "data": "Define Edgebanding Via S2M Part List CncRun.txt File"
+        },
+        {
+            "type": "text",
+            "data": "Define Edgebanding Via S2M Part List CncRun.txt File"
+        },
+        {
+            "type": "text",
+            "data": "Define Grain Matching Via S2M Part List CncRun.txt"
+        },
+        {
+            "type": "text",
+            "data": "Define Grain Matching Via S2M Part List CncRun.txt"
+        },
+        {
+            "type": "text",
+            "data": "Show Room Name Instead of Number on Pattern Printouts"
+        },
+        {
+            "type": "text",
+            "data": "Show Room Name Instead of Number on Pattern Printouts"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Show Room Name Instead of Number on Pattern Printouts",
+                "uuid": "a6c6d306-c8da-4df8-8440-33f2f24a9c1d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Import Blum Dynaplan BXF Files"
+        },
+        {
+            "type": "text",
+            "data": "Import Blum Dynaplan BXF Files"
+        },
+        {
+            "type": "text",
+            "data": "Edit DXF Layer Names on Import"
+        },
+        {
+            "type": "text",
+            "data": "Edit DXF Layer Names on Import"
+        },
+        {
+            "type": "text",
+            "data": "Control Column Widths on Pattern Printouts"
+        },
+        {
+            "type": "text",
+            "data": "Control Column Widths on Pattern Printouts"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Control Column Widths on Pattern Printouts",
+                "uuid": "391c650b-dead-426f-8e9e-e8432a8881fa",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Part Shape Editor"
+        },
+        {
+            "type": "text",
+            "data": "Part Shape Editor"
+        },
+        {
+            "type": "text",
+            "data": "Operations Editor"
+        },
+        {
+            "type": "text",
+            "data": "Operations Editor"
+        },
+        {
+            "type": "text",
+            "data": "Show Square Off Nest Toolpath on Pattern Printouts"
+        },
+        {
+            "type": "text",
+            "data": "Show Square Off Nest Toolpath on Pattern Printouts"
+        },
+        {
+            "type": "text",
+            "data": "Print a Range of Pages"
+        },
+        {
+            "type": "text",
+            "data": "Print a Range of Pages"
+        },
+        {
+            "type": "text",
+            "data": "Print Secondary Part Drawing Sheets"
+        },
+        {
+            "type": "text",
+            "data": "Print Secondary Part Drawing Sheets"
+        },
+        {
+            "type": "text",
+            "data": "Label-IT"
+        },
+        {
+            "type": "text",
+            "data": "Expanded Orientation Symbols for Drill & Dowel Machines \n \n \n Part Cut Width and Length Text Variables \n \n \n Part Nominal Width and Length Text Variables"
+        },
+        {
+            "type": "text",
+            "data": "Expanded Orientation Symbols for Drill & Dowel Machines"
+        },
+        {
+            "type": "text",
+            "data": "Expanded Orientation Symbols for Drill & Dowel Machines"
+        },
+        {
+            "type": "text",
+            "data": "Part Cut Width and Length Text Variables"
+        },
+        {
+            "type": "text",
+            "data": "Part Cut Width and Length Text Variables"
+        },
+        {
+            "type": "text",
+            "data": "Part Nominal Width and Length Text Variables"
+        },
+        {
+            "type": "text",
+            "data": "Part Nominal Width and Length Text Variables"
+        },
+        {
+            "type": "text",
+            "data": "Links"
+        },
+        {
+            "type": "text",
+            "data": "Biesse ELIX Drill and Dowel NC Link \n \n \n Weinig French Miter Other NC Link \n \n \n Gannomat Index Pro Drill and Dowel NC Link \n \n \n Biesse Door Machine Other NC Link \n \n \n Reverse Cut Order Option for SCM Wincut Saw NC Link"
+        },
+        {
+            "type": "text",
+            "data": "Biesse ELIX Drill and Dowel NC Link"
+        },
+        {
+            "type": "text",
+            "data": "Biesse ELIX Drill and Dowel NC Link"
+        },
+        {
+            "type": "text",
+            "data": "Weinig French Miter Other NC Link"
+        },
+        {
+            "type": "text",
+            "data": "Weinig French Miter Other NC Link"
+        },
+        {
+            "type": "text",
+            "data": "Gannomat Index Pro Drill and Dowel NC Link"
+        },
+        {
+            "type": "text",
+            "data": "Gannomat Index Pro Drill and Dowel NC Link"
+        },
+        {
+            "type": "text",
+            "data": "Biesse Door Machine Other NC Link"
+        },
+        {
+            "type": "text",
+            "data": "Biesse Door Machine Other NC Link"
+        },
+        {
+            "type": "text",
+            "data": "Reverse Cut Order Option for SCM Wincut Saw NC Link"
+        },
+        {
+            "type": "text",
+            "data": "Reverse Cut Order Option for SCM Wincut Saw NC Link"
+        },
+        {
+            "type": "text",
+            "data": "Machine Catalog"
+        },
+        {
+            "type": "text",
+            "data": "Face Up Option for Drill and Dowel Machines \n \n \n Silent Mirror Programs for Shaped Drill and Dowel Machined Parts \n \n \n Compensate for EDX/EDY Oversize Values for Full Outline Parts Machine"
+        },
+        {
+            "type": "text",
+            "data": "Face Up Option for Drill and Dowel Machines"
+        },
+        {
+            "type": "text",
+            "data": "Face Up Option for Drill and Dowel Machines"
+        },
+        {
+            "type": "text",
+            "data": "Silent Mirror Programs for Shaped Drill and Dowel Machined Parts"
+        },
+        {
+            "type": "text",
+            "data": "Silent Mirror Programs for Shaped Drill and Dowel Machined Parts"
+        },
+        {
+            "type": "text",
+            "data": "Compensate for EDX/EDY Oversize Values for Full Outline Parts Machine"
+        },
+        {
+            "type": "text",
+            "data": "Compensate for EDX/EDY Oversize Values for Full Outline Parts Machine"
+        },
+        {
+            "type": "text",
+            "data": "Optimizer"
+        },
+        {
+            "type": "text",
+            "data": "Major Improvements to Booking for Saws"
+        },
+        {
+            "type": "text",
+            "data": "Major Improvements to Booking for Saws"
+        },
+        {
+            "type": "text",
+            "data": "Major Improvements to Booking for Saws"
+        },
+        {
+            "type": "text",
+            "data": "Tool Catalog"
+        },
+        {
+            "type": "text",
+            "data": "Diameter Tolerance for Drills"
+        },
+        {
+            "type": "text",
+            "data": "Diameter Tolerance for Drills"
+        },
+        {
+            "type": "text",
+            "data": "Diameter Tolerance for Drills"
+        }
+    ],
+    "source_file": "NCEnglish\\Introduction\\Whats_New_Previous_Versions\\What_s_New_in_Version_5.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

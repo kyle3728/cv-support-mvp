@@ -1,0 +1,25 @@
+{
+    "id": "b2e6093c-707c-4945-90c4-06bcdf727d4d",
+    "title": "MatSum_mdb",
+    "content": [
+        {
+            "type": "text",
+            "data": "MatSum.mdf"
+        },
+        {
+            "type": "text",
+            "data": "See the  MatSum.mdf topic."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "MatSum.mdf",
+                "uuid": "78c1dc1a-68fa-4075-8b19-99d604633717",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\The_Databases\\MatSum_mdb.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

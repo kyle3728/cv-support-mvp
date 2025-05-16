@@ -1,0 +1,505 @@
+{
+    "id": "aea1183d-72ee-462a-8815-a30cb9a90def",
+    "title": "Whats_New_in_Version_11",
+    "content": [
+        {
+            "type": "text",
+            "data": "What's New in Version 11"
+        },
+        {
+            "type": "text",
+            "data": "General"
+        },
+        {
+            "type": "text",
+            "data": "Option \n\t for One Click Optimize to Pattern Results \n Backup \n\t Utility \n Selection \n\t Copying in List View Fields \n Cell \n\t Hover Hints for List View Fields \n Banded \n\t Part Size Available for Reports \n Scripts \n\t Can Now Be Specified Per Machine \n Combine Multiple \n\t Diameter Drills in Single Multi-Drill Drops \n Scripts Now \n\t Run After CncRun Creation \n Improved \n\t Material Selection Combobox in Part List View \n Manually \n\t Edit Banding Field in Part List \n Control Size \n\t of Banding Markers in Advanced Report Properties \n OK Button \n\t Has Focus After Optimize Run \n Pass \n\t Material Parameters from Cabinet Vision to psnc-xx.mdb Materials table"
+        },
+        {
+            "type": "text",
+            "data": "Option \n\t for One Click Optimize to Pattern Results"
+        },
+        {
+            "type": "text",
+            "data": "Option \n\t for One Click Optimize to Pattern Results"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Option \n\t for One Click Optimize to Pattern Results",
+                "uuid": "a6c6d306-c8da-4df8-8440-33f2f24a9c1d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Backup \n\t Utility"
+        },
+        {
+            "type": "text",
+            "data": "Backup \n\t Utility"
+        },
+        {
+            "type": "text",
+            "data": "Selection \n\t Copying in List View Fields"
+        },
+        {
+            "type": "text",
+            "data": "Selection \n\t Copying in List View Fields"
+        },
+        {
+            "type": "text",
+            "data": "Cell \n\t Hover Hints for List View Fields"
+        },
+        {
+            "type": "text",
+            "data": "Cell \n\t Hover Hints for List View Fields"
+        },
+        {
+            "type": "text",
+            "data": "Banded \n\t Part Size Available for Reports"
+        },
+        {
+            "type": "text",
+            "data": "Banded \n\t Part Size Available for Reports"
+        },
+        {
+            "type": "text",
+            "data": "Scripts \n\t Can Now Be Specified Per Machine"
+        },
+        {
+            "type": "text",
+            "data": "Scripts \n\t Can Now Be Specified Per Machine"
+        },
+        {
+            "type": "text",
+            "data": "Combine Multiple \n\t Diameter Drills in Single Multi-Drill Drops"
+        },
+        {
+            "type": "text",
+            "data": "Combine Multiple \n\t Diameter Drills in Single Multi-Drill Drops"
+        },
+        {
+            "type": "text",
+            "data": "Scripts Now \n\t Run After CncRun Creation"
+        },
+        {
+            "type": "text",
+            "data": "Scripts Now \n\t Run After CncRun Creation"
+        },
+        {
+            "type": "text",
+            "data": "Improved \n\t Material Selection Combobox in Part List View"
+        },
+        {
+            "type": "text",
+            "data": "Improved \n\t Material Selection Combobox in Part List View"
+        },
+        {
+            "type": "text",
+            "data": "Manually \n\t Edit Banding Field in Part List"
+        },
+        {
+            "type": "text",
+            "data": "Manually \n\t Edit Banding Field in Part List"
+        },
+        {
+            "type": "text",
+            "data": "Control Size \n\t of Banding Markers in Advanced Report Properties"
+        },
+        {
+            "type": "text",
+            "data": "Control Size \n\t of Banding Markers in Advanced Report Properties"
+        },
+        {
+            "type": "text",
+            "data": "OK Button \n\t Has Focus After Optimize Run"
+        },
+        {
+            "type": "text",
+            "data": "OK Button \n\t Has Focus After Optimize Run"
+        },
+        {
+            "type": "text",
+            "data": "Pass \n\t Material Parameters from Cabinet Vision to psnc-xx.mdb Materials table"
+        },
+        {
+            "type": "text",
+            "data": "Pass \n\t Material Parameters from Cabinet Vision to psnc-xx.mdb Materials table"
+        },
+        {
+            "type": "text",
+            "data": "Label-IT"
+        },
+        {
+            "type": "text",
+            "data": "Expanded \n\t Label-IT Label Sort Order Options  -  \n Control \n\t Size and Font Properties for Banding Markers  -   \n\t or  \n Banded \n\t Part Size Available -   \n\t or"
+        },
+        {
+            "type": "text",
+            "data": "Expanded \n\t Label-IT Label Sort Order Options  -"
+        },
+        {
+            "type": "text",
+            "data": "Expanded \n\t Label-IT Label Sort Order Options  -"
+        },
+        {
+            "type": "image",
+            "data": "S2M_LIT.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Control \n\t Size and Font Properties for Banding Markers  -   \n\t or"
+        },
+        {
+            "type": "text",
+            "data": "Control \n\t Size and Font Properties for Banding Markers  -   \n\t or"
+        },
+        {
+            "type": "image",
+            "data": "S2M_IMG.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "S2M_LIT.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Banded \n\t Part Size Available -   \n\t or"
+        },
+        {
+            "type": "text",
+            "data": "Banded \n\t Part Size Available -   \n\t or"
+        },
+        {
+            "type": "image",
+            "data": "S2M_IMG.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "S2M_LIT.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Links"
+        },
+        {
+            "type": "text",
+            "data": "D \n\t & D Link - Koch Sprint Plus II/L -  \n D \n\t & D Link - Omal Lockdowel -  \n D \n\t & D Link - Omal Velox  -  \n D \n\t & D Link - Pillar Lockdowel  -  \n D \n\t & D Link - T.O.P. Albatros  -  \n Saw \n\t Link - Schelling HPO \n Saw Link - SCM Ottimo \n Other \n\t Link - Omal MTH  -  \n Other Link - Pillar MTH  -"
+        },
+        {
+            "type": "text",
+            "data": "D \n\t & D Link - Koch Sprint Plus II/L -"
+        },
+        {
+            "type": "text",
+            "data": "D \n\t & D Link - Koch Sprint Plus II/L -"
+        },
+        {
+            "type": "image",
+            "data": "S2MUltimate.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "D \n\t & D Link - Omal Lockdowel -"
+        },
+        {
+            "type": "text",
+            "data": "D \n\t & D Link - Omal Lockdowel -"
+        },
+        {
+            "type": "image",
+            "data": "S2MUltimate.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "D \n\t & D Link - Omal Velox  -"
+        },
+        {
+            "type": "text",
+            "data": "D \n\t & D Link - Omal Velox  -"
+        },
+        {
+            "type": "image",
+            "data": "S2MUltimate.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "D \n\t & D Link - Pillar Lockdowel  -"
+        },
+        {
+            "type": "text",
+            "data": "D \n\t & D Link - Pillar Lockdowel  -"
+        },
+        {
+            "type": "image",
+            "data": "S2MUltimate.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "D \n\t & D Link - T.O.P. Albatros  -"
+        },
+        {
+            "type": "text",
+            "data": "D \n\t & D Link - T.O.P. Albatros  -"
+        },
+        {
+            "type": "image",
+            "data": "S2MUltimate.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Saw \n\t Link - Schelling HPO"
+        },
+        {
+            "type": "text",
+            "data": "Saw \n\t Link - Schelling HPO"
+        },
+        {
+            "type": "text",
+            "data": "Saw Link - SCM Ottimo"
+        },
+        {
+            "type": "text",
+            "data": "Saw Link - SCM Ottimo"
+        },
+        {
+            "type": "text",
+            "data": "Other \n\t Link - Omal MTH  -"
+        },
+        {
+            "type": "text",
+            "data": "Other \n\t Link - Omal MTH  -"
+        },
+        {
+            "type": "image",
+            "data": "S2MUltimate.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Other Link - Pillar MTH  -"
+        },
+        {
+            "type": "text",
+            "data": "Other Link - Pillar MTH  -"
+        },
+        {
+            "type": "image",
+            "data": "S2MUltimate.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Machine Catalog"
+        },
+        {
+            "type": "text",
+            "data": "Redesigned \n\t Machine Catalog \n Mix \n\t Different Drill Diameters in Multi-Drill Drops \n Saw \n\t Output Option For Offcut Placement (First or Last) In Strips \n Option \n\t to Not Generate CncRun"
+        },
+        {
+            "type": "text",
+            "data": "Redesigned \n\t Machine Catalog"
+        },
+        {
+            "type": "text",
+            "data": "Redesigned \n\t Machine Catalog"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Redesigned \n\t Machine Catalog",
+                "uuid": "8f3db61d-fccb-46e0-8dbf-d316d2e1d1b7",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Mix \n\t Different Drill Diameters in Multi-Drill Drops"
+        },
+        {
+            "type": "text",
+            "data": "Mix \n\t Different Drill Diameters in Multi-Drill Drops"
+        },
+        {
+            "type": "text",
+            "data": "Saw \n\t Output Option For Offcut Placement (First or Last) In Strips"
+        },
+        {
+            "type": "text",
+            "data": "Saw \n\t Output Option For Offcut Placement (First or Last) In Strips"
+        },
+        {
+            "type": "text",
+            "data": "Option \n\t to Not Generate CncRun"
+        },
+        {
+            "type": "text",
+            "data": "Option \n\t to Not Generate CncRun"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Option \n\t to Not Generate CncRun",
+                "uuid": "8f3db61d-fccb-46e0-8dbf-d316d2e1d1b7",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Nesting"
+        },
+        {
+            "type": "text",
+            "data": "Option \n\t for Whether A or Z Program Gets Labeled for 6th Face \n Three \n\t Sorting Options for Outline Cut Order \n Operations \n\t Machining Order Follows More Logical Sequence Around Sheet"
+        },
+        {
+            "type": "text",
+            "data": "Option \n\t for Whether A or Z Program Gets Labeled for 6th Face"
+        },
+        {
+            "type": "text",
+            "data": "Option \n\t for Whether A or Z Program Gets Labeled for 6th Face"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Option \n\t for Whether A or Z Program Gets Labeled for 6th Face",
+                "uuid": "a6c6d306-c8da-4df8-8440-33f2f24a9c1d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Three \n\t Sorting Options for Outline Cut Order"
+        },
+        {
+            "type": "text",
+            "data": "Three \n\t Sorting Options for Outline Cut Order"
+        },
+        {
+            "type": "text",
+            "data": "Operations \n\t Machining Order Follows More Logical Sequence Around Sheet"
+        },
+        {
+            "type": "text",
+            "data": "Operations \n\t Machining Order Follows More Logical Sequence Around Sheet"
+        },
+        {
+            "type": "text",
+            "data": "Optimization"
+        },
+        {
+            "type": "text",
+            "data": "Simple Part Ordering in Strips \n\t (Scrap, Offcut, Part)"
+        },
+        {
+            "type": "text",
+            "data": "Simple Part Ordering in Strips \n\t (Scrap, Offcut, Part)"
+        },
+        {
+            "type": "text",
+            "data": "Reports"
+        },
+        {
+            "type": "text",
+            "data": "Control \n\t Banding Symbol Size on Combit Reports  -"
+        },
+        {
+            "type": "text",
+            "data": "Control \n\t Banding Symbol Size on Combit Reports  -"
+        },
+        {
+            "type": "image",
+            "data": "S2MUltimate.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Tool Catalog"
+        },
+        {
+            "type": "text",
+            "data": "Profile \n\t Operation Type in Tool Sets \n Redesigned \n\t Tool Catalog \n Tool \n\t Shape Window Sizable \n Drop \n\t Offset Functions with Open Paths"
+        },
+        {
+            "type": "text",
+            "data": "Profile \n\t Operation Type in Tool Sets"
+        },
+        {
+            "type": "text",
+            "data": "Profile \n\t Operation Type in Tool Sets"
+        },
+        {
+            "type": "text",
+            "data": "Redesigned \n\t Tool Catalog"
+        },
+        {
+            "type": "text",
+            "data": "Redesigned \n\t Tool Catalog"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Redesigned \n\t Tool Catalog",
+                "uuid": "4a9e45c0-035c-40b8-abaf-ecce4bd2184c",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Tool \n\t Shape Window Sizable"
+        },
+        {
+            "type": "text",
+            "data": "Tool \n\t Shape Window Sizable"
+        },
+        {
+            "type": "text",
+            "data": "Drop \n\t Offset Functions with Open Paths"
+        },
+        {
+            "type": "text",
+            "data": "Legend"
+        },
+        {
+            "type": "text",
+            "data": "- Real-time Label Image Add-On"
+        },
+        {
+            "type": "image",
+            "data": "S2M_IMG.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "- Label-IT Add-On"
+        },
+        {
+            "type": "image",
+            "data": "S2M_LIT.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "- Available in S2M Ultimate"
+        },
+        {
+            "type": "image",
+            "data": "S2MUltimate.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "NCEnglish\\Introduction\\Whats_New_Previous_Versions\\Whats_New_in_Version_11.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

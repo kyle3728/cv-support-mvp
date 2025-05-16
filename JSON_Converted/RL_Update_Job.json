@@ -1,0 +1,95 @@
+{
+    "id": "921d9355-2c52-43be-89d9-cbd10c8301f7",
+    "title": "RL_Update_Job",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top \n > \n \n \n Room Level \n > \n \n Ribbonbar \n > \n \n Utilities Tab \n > \n \n Update Job"
+        },
+        {
+            "type": "text",
+            "data": "Top \n >"
+        },
+        {
+            "type": "text",
+            "data": "Room Level \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Room Level",
+                "uuid": "9eaa492c-0405-4da7-8e0f-a6ff4e047890",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Ribbonbar \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Ribbonbar",
+                "uuid": "a095688d-3b5c-4aba-8f35-bdc4541dcc7f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Utilities Tab \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Utilities Tab",
+                "uuid": "2cc35c1f-8a3f-487c-adff-9e9524ccf97e",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Update Job"
+        },
+        {
+            "type": "text",
+            "data": "Update Job"
+        },
+        {
+            "type": "text",
+            "data": "Update Job"
+        },
+        {
+            "type": "image",
+            "data": "image1915.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image841.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Use this feature to apply  System Level  changes to the current Job. For example: If you close the Job and go to the Splash Screen, then open the  Material Manager  and make a change to some Materials or Construction Methods that are being used in the current Job, for those changes to be displayed in the current Job you  must  open the Job and use this option."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "System Level",
+                "uuid": "4450866f-fd9c-46df-abf3-7843c5a1ef37",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Material Manager",
+                "uuid": "2fed939d-ba55-4f35-94da-993f0e1b392e",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Room_Level\\Ribbonbar\\Utilities_Tab\\RL_Update_Job.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

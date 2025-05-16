@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><link rel="stylesheet" type="text/css" href="../../../_rhdefault.css"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=WINDOWS-1252"/>
+  <meta name="generator" content="Adobe RoboHelp 2022"/>
+  <title>Add Locks to My Cabinets</title>
+  <link rel="StyleSheet" href="../../../assets/css/default.css" type="text/css"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/><script type="text/javascript" src="../../../ehlpdhtm.js"></script></head>
+<body>
+  <h1>Add Locks to My Cabinets</h1>
+  <p>I want to add locks to a Cabinet. How do I do this?</p>
+  <h2>Creating a Model</h2>
+  <p>In the following example we are going to create a Door Lock Model which includes its machining. To start select the Miscellaneous Group and create a new <a href="../../../System_Level/Ribbonbar/Main_Tab/Catalogs_Group/Material_Manager/Ribbonbar/Properties/Material_Types/SLMMP_Miscellaneous.htm">Miscellaneous</a> Material named &quot;Cam Lock&quot;.</p>
+  <p><img src="../../../assets/images/image837.png"/></p>
+  <p>Once in the Properties area with this new Material make sure to go to the Miscellaneous area and set the Model option to True.</p>
+  <p><img src="../../../assets/images/image846.png"/></p>
+  <p>Select the Model option in the ribbonbar.</p>
+  <p><img src="../../../assets/images/image857.png"/></p>
+  <p>From the sidebar select the &quot;Assembly&quot; Object. This Object is simply a sample part to help you orient your Graphic. This object is displayed in brown on screen. For the following Tutorial go ahead and change the DZ (Thickness) of the Assembly Object to .75&quot;.</p>
+  <p><img src="../../../assets/images/image872.png"/></p>
+  <p><a name="Graphic_Reference_Point" id="Graphic_Reference_Point"></a>From the sidebar select the &quot;Primary Work Plane&quot; Object. This is the default Work Plane and also represents the insertion (Reference Point) of the Model. Think of this as the container for your Model, everything will be referenced from this Object. The center of the Work Plane object is the insertion (Reference Point). Change the X and Y of the &quot;Primary Work Plane&quot; to 4&quot;. The true position of the &quot;Primary Work Plane&#39; will be set when the Model is placed within a Job whether automatically, manually, or via UCS.</p>
+  <p><img src="../../../assets/images/image873.png"/></p>
+  <ol style="list-style: decimal;">
+    <li>
+      <p class="Indent_1_Bulllet">Set the View Mode to Front.</p>
+    </li>
+  </ol>
+  <p class="Indent_1_Bulllet" style="margin-left: 40px;"><img src="../../../assets/images/image917.png"/></p>
+  <ol start="2" style="list-style: decimal;">
+    <li>
+      <p class="Indent_1_Bulllet">With the &quot;Primary Work Plane&quot; object selected in the sidebar click the Add Work Plane <img src="../../../assets/images/image938.png"/> option in the ribbonbar.</p>
+    </li>
+    <li>
+      <p class="Indent_1_Bulllet">Set the &quot;Front WP&quot; X and Y to 0.</p>
+    </li>
+    <li>
+      <p class="Indent_1_Bulllet">Click the Add Hardware <img src="../../../assets/images/image946.png"/> option in the ribbonbar.</p>
+    </li>
+    <li>
+      <p class="Indent_1_Bulllet">Simply browse to the 3D Model you wish to import making sure to set the appropriate file type (highlighted below) then click Open.</p>
+    </li>
+  </ol>
+  <p class="Indent_1_Bulllet" style="margin-left: 80px;"><img alt="" border="0" src="../../../assets/images/zGraphics/Extras/Information.png" style="border: none;"/> The model used in this tutorial are available in the installation extraction folder at:<br/>
+    C:\Users\Public\Documents\CABINET VISION\Download\CV_2023_n_nnnn_nnn_SetupDvdFiles\Support\Sample Models\</p>
+  <p style="margin-left: 40px;"><img src="../../../assets/images/image963.png"/></p>
+  <ol start="6" style="list-style: decimal;">
+    <li>
+      <p class="Indent_1_Bulllet">The next screen offers several modification options you can perform prior to importing the 3D Model. Click OK to import your model.</p>
+    </li>
+  </ol>
+  <p style="margin-left: 40px;"><img src="../../../assets/images/image971.png"/></p>
+  <p style="margin-left: 40px;"><img alt="" border="0" src="../../../assets/images/zGraphics/Extras/Information.png" style="border: none;"/> See the topics on <a href="../../../Room_Level/Ribbonbar/Utilities_Tab/RL_Import_DXF.htm">Importing DXF</a> or <a href="../../../Room_Level/Ribbonbar/Utilities_Tab/RL_Import_SketchUp_Model.htm">Importing SketchUp Models</a> for more information on the modification options on this screen as well as information about the formatting requirements of 3D DXF files.</p>
+  <ol start="7" style="list-style: decimal;">
+    <li>
+      <p class="Indent_1_Bulllet">Once imported I am going to change the following Properties for the Cam Lock:</p>
+      <ol style="list-style: lower-alpha;">
+        <li>
+          <p class="Indent_1_Bulllet">Name = LOCK</p>
+        </li>
+        <li>
+          <p class="Indent_1_Bulllet">Description = Cam Lock</p>
+        </li>
+        <li>
+          <p class="Indent_1_Bulllet"><a name="Finish" id="Finish"></a>Finish = Chrome</p>
+        </li>
+        <li>
+          <p class="Indent_1_Bulllet">Finish Type = Metal - Matte</p>
+        </li>
+        <li>
+          <p class="Indent_1_Bulllet">X = <span style="color: #ff0000;">-15/32</span> (This will center my lock horizontally on the Plane)</p>
+        </li>
+        <li>
+          <p class="Indent_1_Bulllet">Y = <span style="color: #ff0000;">-15/32</span> (This will center the cylinder of my lock vertically on the Plane)</p>
+        </li>
+        <li>
+          <p class="Indent_1_Bulllet">Z = <span style="color: #ff0000;">-1 7/32</span> (This will place the lock face flush to the door face)</p>
+        </li>
+      </ol>
+    </li>
+  </ol>
+  <p style="margin-left: 40px;"><img src="../../../assets/images/image999.png"/></p>
+  <ol start="8" style="list-style: decimal;">
+    <li>
+      <p class="Indent_1_Bulllet">Now we need to add some machining for the Lock.</p>
+    </li>
+    <li>
+      <p class="Indent_1_Bulllet">Right click on the &quot;Front WP&quot; Object and select Edit.</p>
+    </li>
+    <li>
+      <p class="Indent_1_Bulllet">Select Work Plane - Front from the sidebar to add Operations to it.</p>
+    </li>
+    <li>
+      <p class="Indent_1_Bulllet">Now we will add the hole for the cylinder.</p>
+    </li>
+  </ol>
+  <p style="margin-left: 80px;"><img src="../../../assets/images/image1013.png"/></p>
+  <p class="Indent_1_Bulllet" style="margin-left: 80px;"> </p>
+  <p class="Indent_1_Bulllet" style="margin-left: 40px;"><img alt="" border="0" src="../../../assets/images/zGraphics/Extras/Information.png" style="border: none;"/> See the <a href="../../../Part_Level/Ribbonbar/Main_Tab/PL_Main_Tab.htm">CAM View Main Tab</a> topic for more information on adding CAM (Machining) Operations.</p>
+  <ol start="12" style="list-style: decimal;">
+    <li>
+      <p class="Indent_1_Bulllet">Click the Return ribbon option to leave CAM mode.</p>
+    </li>
+    <li>
+      <p class="Indent_1_Bulllet">Switch to 3D Mode to see the Operation that was added. If you switch the Render Mode to Fill Mode then select the Front Hole in the sidebar you can see the Operation more clearly.</p>
+    </li>
+  </ol>
+  <p class="Indent_1_Bulllet" style="margin-left: 40px;"><img src="../../../assets/images/image1014.png"/></p>
+  <ol start="14" style="list-style: decimal;">
+    <li>Click the Return option in the ribbonbar to save your new Model.</li>
+  </ol>
+  <p>Now lets place this piece of hardware on a Part in CABINET VISION.</p>
+  <ol start="15" style="list-style: decimal;">
+    <li>
+      <p class="Indent_1_Bulllet">Save the Model and close the Material Manager.</p>
+    </li>
+    <li>
+      <p class="Indent_1_Bulllet">Now let&#39;s create a Part in the Part Manager to associate this Cam Lock to. Open the Part Manager and select the Pull Group.</p>
+    </li>
+  </ol>
+  <p class="Indent_1_Bulllet" style="margin-left: 40px;"><img src="../../../assets/images/image1016.png"/></p>
+  <ol start="17" style="list-style: decimal;">
+    <li>
+      <p class="Indent_1_Bulllet">Click the New option in the ribbon.</p>
+    </li>
+    <li>
+      <p class="Indent_1_Bulllet">Type &quot;CAMLOCK&quot; for the Name and give it a Description of &quot;Cam Lock&quot;.</p>
+    </li>
+    <li>
+      <p class="Indent_1_Bulllet">Close the Part Manager.</p>
+    </li>
+    <li>
+      <p class="Indent_1_Bulllet">Open Material Schedules.</p>
+    </li>
+    <li>
+      <p class="Indent_1_Bulllet">Select the Pull Material Schedule Type, and pick a specific Material Schedule.</p>
+    </li>
+    <li>
+      <p class="Indent_1_Bulllet">Now assign the Cam Lock Material we created earlier to the Cam Lock Part.</p>
+    </li>
+    <li>
+      <p class="Indent_1_Bulllet">Start a new Job making sure that Pull Material Schedule is active.</p>
+    </li>
+    <li>
+      <p class="Indent_1_Bulllet">Draw a Wall.</p>
+    </li>
+    <li>
+      <p class="Indent_1_Bulllet">Place the Empty Base Object from the <span style="font-weight: bold;">Custom Cabinets | Base Cabinets</span> group.</p>
+    </li>
+    <li>
+      <p class="Indent_1_Bulllet">Re-size the Empty Base Object to 24&quot; wide, 30&quot; high, and 3/4&quot; deep.</p>
+    </li>
+    <li>
+      <p class="Indent_1_Bulllet">Take the Empty base Object to the <span style="font-weight: bold;">Assembly Level | Face Ortho View</span>.</p>
+    </li>
+    <li>
+      <p class="Indent_1_Bulllet">Click New Part in the sidebar.</p>
+    </li>
+    <li>
+      <p class="Indent_1_Bulllet">Select Board from the Part Type list.</p>
+    </li>
+    <li>
+      <p class="Indent_1_Bulllet">Click Next.</p>
+    </li>
+    <li>
+      <p class="Indent_1_Bulllet">Make the Length 30&quot; and the Width 24&quot;.</p>
+    </li>
+    <li>
+      <p class="Indent_1_Bulllet">Click Next.</p>
+    </li>
+    <li>
+      <p class="Indent_1_Bulllet">Select Front for the Orientation.</p>
+    </li>
+    <li>
+      <p class="Indent_1_Bulllet">The default Finishes and Textures are OK here so click Finish.</p>
+    </li>
+    <li>
+      <p class="Indent_1_Bulllet">Change the Left/Right for the new Part to 0 in the sidebar.</p>
+    </li>
+    <li>
+      <p class="Indent_1_Bulllet">Click anywhere on the screen to de-select the New Part.</p>
+    </li>
+  </ol>
+  <p>Now that we have a new Part in place let&#39;s put our Cam Lock on it.</p>
+  <ol start="37" style="list-style: decimal;">
+    <li>
+      <p class="Indent_1_Bulllet">Click New Part in the sidebar.</p>
+    </li>
+    <li>
+      <p class="Indent_1_Bulllet">For Part Group select Pull.</p>
+    </li>
+    <li>
+      <p class="Indent_1_Bulllet">Select Cam Lock from the Part Type list.</p>
+    </li>
+    <li>
+      <p class="Indent_1_Bulllet">Click Next until you get to Finish then click Finish.</p>
+    </li>
+    <li>
+      <p class="Indent_1_Bulllet">With the Cam Lock selected set the Left/Right to 2&quot;.</p>
+    </li>
+    <li>
+      <p class="Indent_1_Bulllet">Set the Up/Down to 2&quot;.</p>
+    </li>
+  </ol>
+  <p class="Indent_1_Bulllet">You will see that your Cam Lock is placed along with all the machining necessary for mounting.</p>
+  <p class="Indent_1_Bulllet"> </p>
+  <p class="Indent_1_Bulllet"><img alt="" border="0" src="../../../assets/images/image4510.gif" style="border: none;"/></p>
+  <p>Now you can write a <a href="../../../System_Level/Ribbonbar/Utilities_Tab/Tools_Group/User_Created_Standards/UCS_UCS.htm">User Created Standard</a> to add the Lock to the Cabinets you need it to be listed under. Below is the text to utilize in your UCS:</p>
+  <p style="margin-left: 40px; margin-top: 0pt; margin-bottom: 0pt; font-family: &#39;Courier New&#39;, monospace; color: #007f00;">;Links Cam Lock to Door</p>
+  <p style="margin-left: 40px; margin-top: 0pt; margin-bottom: 0pt; font-family: &#39;Courier New&#39;, monospace; color: #007f00;"> </p>
+  <p style="margin-left: 40px; color: #0000ff; margin-top: 0pt; margin-bottom: 0pt; font-family: &#39;Courier New&#39;, monospace;"> For Each <span style="color: #000000;">DOR Part</span></p>
+  <p style="margin-left: 40px; color: #0000ff; margin-top: 0pt; margin-bottom: 0pt; font-family: &#39;Courier New&#39;, monospace;"> </p>
+  <p style="margin-left: 40px; color: #0000ff; margin-top: 0pt; margin-bottom: 0pt; font-family: &#39;Courier New&#39;, monospace;"> If <span style="color: #000000;">LOCK</span> <span style="color: #ff0000;">=</span> <span style="color: #000000;">1</span> Then</p>
+  <p style="margin-left: 40px; color: #0000ff; margin-top: 0pt; margin-bottom: 0pt; font-family: &#39;Courier New&#39;, monospace;"> </p>
+  <p style="margin-left: 40px; color: #0000ff; margin-top: 0pt; margin-bottom: 0pt; font-family: &#39;Courier New&#39;, monospace;">  Dim <span style="color: #000000;">CAMLOCK as New Pull</span></p>
+  <p style="margin-left: 40px; color: #0000ff; margin-top: 0pt; margin-bottom: 0pt; font-family: &#39;Courier New&#39;, monospace;">  <span style="color: #000000;">CAMLOCK</span><span style="color: #ff0000;">.</span><span style="color: #000000;">Visible</span><span style="color: #ff0000;">&lt;</span><span style="color: #000000;">bool</span><span style="color: #ff0000;">&gt;</span> <span style="color: #ff0000;">=</span> <span style="color: #000000;">True</span></p>
+  <p style="margin-left: 40px; color: #0000ff; margin-top: 0pt; margin-bottom: 0pt; font-family: &#39;Courier New&#39;, monospace;">  <span style="color: #000000;">CAMLOCK</span><span style="color: #ff0000;">.</span><span style="color: #000000;">DX</span> <span style="color: #ff0000;">=</span> <span style="color: #000000;">0</span></p>
+  <p style="margin-left: 40px; color: #0000ff; margin-top: 0pt; margin-bottom: 0pt; font-family: &#39;Courier New&#39;, monospace;">  <span style="color: #000000;">CAMLOCK</span><span style="color: #ff0000;">.</span><span style="color: #000000;">DY</span> <span style="color: #ff0000;">=</span> <span style="color: #000000;">0</span></p>
+  <p style="margin-left: 40px; color: #0000ff; margin-top: 0pt; margin-bottom: 0pt; font-family: &#39;Courier New&#39;, monospace;">  <span style="color: #000000;">CAMLOCK</span><span style="color: #ff0000;">.</span><span style="color: #000000;">DZ</span> <span style="color: #ff0000;">=</span> <span style="color: #000000;">0</span></p>
+  <p style="margin-left: 40px; color: #0000ff; margin-top: 0pt; margin-bottom: 0pt; font-family: &#39;Courier New&#39;, monospace;">  <span style="color: #000000;">CAMLOCK</span><span style="color: #ff0000;">.</span><span style="color: #000000;">Y</span> <span style="color: #ff0000;">=</span> <span style="color: #ff0000;">:</span><span style="color: #000000;">DY</span> <span style="color: #ff0000;">-</span> <span style="color: #000000;">1.25</span></p>
+  <p style="margin-left: 40px; color: #0000ff; margin-top: 0pt; margin-bottom: 0pt; font-family: &#39;Courier New&#39;, monospace;">  <span style="color: #000000;">CAMLOCK</span><span style="color: #ff0000;">.</span><span style="color: #000000;">Z</span> <span style="color: #ff0000;">=</span> <span style="color: #000000;">0</span></p>
+  <p style="margin-left: 40px; color: #0000ff; margin-top: 0pt; margin-bottom: 0pt; font-family: &#39;Courier New&#39;, monospace;">  <span style="color: #000000;">CAMLOCK</span><span style="color: #ff0000;">.</span><span style="color: #000000;">AX</span> <span style="color: #ff0000;">=</span> <span style="color: #000000;">0</span></p>
+  <p style="margin-left: 40px; color: #0000ff; margin-top: 0pt; margin-bottom: 0pt; font-family: &#39;Courier New&#39;, monospace;">  <span style="color: #000000;">CAMLOCK</span><span style="color: #ff0000;">.</span><span style="color: #000000;">AY</span> <span style="color: #ff0000;">=</span> <span style="color: #000000;">0</span></p>
+  <p style="margin-left: 40px; color: #0000ff; margin-top: 0pt; margin-bottom: 0pt; font-family: &#39;Courier New&#39;, monospace;">  <span style="color: #000000;">CAMLOCK</span><span style="color: #ff0000;">.</span><span style="color: #000000;">AZ</span> <span style="color: #ff0000;">=</span> <span style="color: #000000;">0</span></p>
+  <p style="margin-left: 40px; color: #0000ff; margin-top: 0pt; margin-bottom: 0pt; font-family: &#39;Courier New&#39;, monospace;">  <span style="color: #000000;">CAMLOCK</span><span style="color: #ff0000;">.</span><span style="color: #000000;">QTY</span> <span style="color: #ff0000;">=</span> <span style="color: #000000;">1</span></p>
+  <p style="margin-left: 40px; color: #0000ff; margin-top: 0pt; margin-bottom: 0pt; font-family: &#39;Courier New&#39;, monospace;">  <span style="color: #000000;">CAMLOCK</span><span style="color: #ff0000;">.</span><span style="color: #000000;">MatID</span> <span style="color: #ff0000;">=</span> <span style="color: #000000;">1134</span></p>
+  <p style="margin-left: 40px; color: #0000ff; margin-top: 0pt; margin-bottom: 0pt; font-family: &#39;Courier New&#39;, monospace;">  </p>
+  <p style="margin-left: 40px; color: #0000ff; margin-top: 0pt; margin-bottom: 0pt; font-family: &#39;Courier New&#39;, monospace;">  If <span style="color: #ff0000;">:</span><span style="color: #000000;">HNG</span> <span style="color: #ff0000;">=</span> <span style="color: #000000;">1</span> Then               <span style="color: #007f00;">;Hinged Left Door</span></p>
+  <p style="margin-left: 40px; color: #0000ff; margin-top: 0pt; margin-bottom: 0pt; font-family: &#39;Courier New&#39;, monospace;"> </p>
+  <p style="margin-left: 40px; color: #0000ff; margin-top: 0pt; margin-bottom: 0pt; font-family: &#39;Courier New&#39;, monospace;">   <span style="color: #000000;">CAMLOCK</span><span style="color: #ff0000;">.</span><span style="color: #000000;">X</span> <span style="color: #ff0000;">= :</span><span style="color: #000000;">DX</span> <span style="color: #ff0000;">-</span> <span style="color: #000000;">2.75</span></p>
+  <p style="margin-left: 40px; color: #0000ff; margin-top: 0pt; margin-bottom: 0pt; font-family: &#39;Courier New&#39;, monospace;">   </p>
+  <p style="margin-left: 40px; color: #0000ff; margin-top: 0pt; margin-bottom: 0pt; font-family: &#39;Courier New&#39;, monospace;">  End If</p>
+  <p style="margin-left: 40px; color: #0000ff; margin-top: 0pt; margin-bottom: 0pt; font-family: &#39;Courier New&#39;, monospace;">  </p>
+  <p style="margin-left: 40px; color: #0000ff; margin-top: 0pt; margin-bottom: 0pt; font-family: &#39;Courier New&#39;, monospace;">  If <span style="color: #ff0000;">:</span><span style="color: #000000;">HNG</span> <span style="color: #ff0000;">=</span> <span style="color: #000000;">2</span> Then               <span style="color: #007f00;">;Hinged Right Door</span></p>
+  <p style="margin-left: 40px; color: #0000ff; margin-top: 0pt; margin-bottom: 0pt; font-family: &#39;Courier New&#39;, monospace;">  </p>
+  <p style="margin-left: 40px; color: #0000ff; margin-top: 0pt; margin-bottom: 0pt; font-family: &#39;Courier New&#39;, monospace;">   <span style="color: #000000;">CAMLOCK</span><span style="color: #ff0000;">.</span><span style="color: #000000;">X</span> = <span style="color: #000000;">2.75</span></p>
+  <p style="margin-left: 40px; color: #0000ff; margin-top: 0pt; margin-bottom: 0pt; font-family: &#39;Courier New&#39;, monospace;">   </p>
+  <p style="margin-left: 40px; color: #0000ff; margin-top: 0pt; margin-bottom: 0pt; font-family: &#39;Courier New&#39;, monospace;">  End If</p>
+  <p style="margin-left: 40px; color: #0000ff; margin-top: 0pt; margin-bottom: 0pt; font-family: &#39;Courier New&#39;, monospace;">   </p>
+  <p style="margin-left: 40px; color: #0000ff; margin-top: 0pt; margin-bottom: 0pt; font-family: &#39;Courier New&#39;, monospace;"> End If</p>
+  <p class="Indent_1_Bulllet" style="margin-left: 80px;"> </p>
+  <p class="Indent_1_Bulllet" style="margin-left: 80px;"><img alt="" border="0" src="../../../assets/images/zGraphics/Extras/Information.png" style="border: none;"/> It is not required to define the Size (DX, DY, DZ) of a Material Model, unless you have written your own sizing Parametrics on the Model).</p>
+  <p class="Indent_1_Bulllet" style="margin-left: 80px;"> </p>
+  <ol start="43" style="list-style: decimal;">
+    <li class="p">
+      <p class="Indent_1_Bulllet">Now let&#39;s setup the LOCK Parameter to appear in the interface for Cabinets. From the System Level go to <span style="font-weight: bold;"><a href="../../../System_Level/Ribbonbar/Utilities_Tab/Tools_Group/SL_Parameters.htm">Utilities | Parameters</a></span>.</p>
+    </li>
+  </ol>
+  <ol start="44" style="list-style: decimal;">
+    <li class="p">
+      <p class="Indent_1_Bulllet">Setup the new Parameter as the image below demonstrates.</p>
+    </li>
+  </ol>
+  <p style="margin-left: 40px;"><img src="../../../assets/images/image1017.png"/></p>
+  <ol start="45" style="list-style: decimal;">
+    <li class="p">
+      <p class="Indent_1_Bulllet">Now go to a <a href="../../../Introduction/File_Menu/The_CV_Button.htm#New">new</a> Job and Place a Cabinet on a Wall.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">Click on the Cabinet and you will see your new &quot;Add Locks to Cabinet?&quot; prompt in the sidebar.</p>
+    </li>
+  </ol>
+  <p style="margin-left: 40px;"><img alt="" border="0" src="../../../assets/images/image4514.gif" style="border: none;"/></p>
+  <ol start="47" style="list-style: decimal;">
+    <li class="p">
+      <p class="Indent_1_Bulllet">Set this Attribute to True.</p>
+    </li>
+  </ol>
+  <p class="Indent_1_Bulllet" style="margin-left: 40px;"><img alt="" border="0" src="../../../assets/images/image4515.gif" style="border: none;"/></p>
+
+</body></html>

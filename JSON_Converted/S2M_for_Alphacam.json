@@ -1,0 +1,40 @@
+{
+    "id": "c539ae4c-d9e8-40ae-850d-a8ddfc25fd5e",
+    "title": "S2M_for_Alphacam",
+    "content": [
+        {
+            "type": "text",
+            "data": "S2M for ALPHACAM"
+        },
+        {
+            "type": "image",
+            "data": "image279.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "If you own ALPHACAM Standard or higher Versions between Version 2016 R1(64-bit) and 2022.0 or AC:Core in Version 2022.1 or higher then you have access to the S2M CENTER from within ALPHACAM."
+        },
+        {
+            "type": "text",
+            "data": "The Documentation in this Help system assumes a working knowledge of ALPHACAM."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Click one of the areas below for more information"
+        },
+        {
+            "type": "image",
+            "data": "S2M_For_Alphacam.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "NCEnglish\\Ribbonbar\\Main_Tab\\S2M_for_Alphacam\\S2M_for_Alphacam.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

@@ -1,0 +1,33 @@
+{
+    "id": "b05295cc-aec3-49d8-ab05-7b010d07d3dd",
+    "title": "zBoard@3_Answer_X",
+    "content": [
+        {
+            "type": "text",
+            "data": "Board@3 Answer X"
+        },
+        {
+            "type": "text",
+            "data": "The part needs to be centered in the"
+        },
+        {
+            "type": "text",
+            "data": "cabinet so we need a formula. We already"
+        },
+        {
+            "type": "text",
+            "data": "came up with the formula when we placed"
+        },
+        {
+            "type": "text",
+            "data": "the board to start with. Look at where the"
+        },
+        {
+            "type": "text",
+            "data": "reference point is located."
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\Parametric_Editing\\Intelligence_Workshop\\5th_Exercise\\zBoard@3_Answer_X.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

@@ -1,0 +1,166 @@
+{
+    "id": "043052b1-fe8f-4c84-9a2a-5ce39fc6cf2b",
+    "title": "Toe_Kick",
+    "content": [
+        {
+            "type": "text",
+            "data": "Toe Kick"
+        },
+        {
+            "type": "text",
+            "data": "This is where you configure the scenarios where aToe KickConnects to Parts."
+        },
+        {
+            "type": "image",
+            "data": "image837.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The following diagramshow the Connections available for the Toe Kick."
+        },
+        {
+            "type": "image",
+            "data": "image838.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Front Toe - Finished End/Side Toe (Standard #772)"
+        },
+        {
+            "type": "image",
+            "data": "image840.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Front Toe - Full Finished End (Standard #773)"
+        },
+        {
+            "type": "image",
+            "data": "image839.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Front Toe - Full Skin End (Standard #889)"
+        },
+        {
+            "type": "image",
+            "data": "image841.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Front Toe - Unfinished End/Sleeper (Standard #775)"
+        },
+        {
+            "type": "image",
+            "data": "image842.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Mid Sleeper - Front Toe (Standard #804)"
+        },
+        {
+            "type": "image",
+            "data": "image843.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Front Toe - Full Unfinished End (Standard #776)"
+        },
+        {
+            "type": "image",
+            "data": "image844.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Front Toe - Applied End (Standard #788)"
+        },
+        {
+            "type": "image",
+            "data": "image845.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Front Toe - Applied End (Standard #774)"
+        },
+        {
+            "type": "image",
+            "data": "image846.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Front Toe - Sub End (Standard #777)"
+        },
+        {
+            "type": "image",
+            "data": "image847.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Front Toe - Full Sub End (Standard #778)"
+        },
+        {
+            "type": "image",
+            "data": "image848.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Back Toe - Finished End/Side Toe (Standard #780)"
+        },
+        {
+            "type": "image",
+            "data": "image849.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Back Toe - Unfinished End/Sleeper (Standard #781)"
+        },
+        {
+            "type": "image",
+            "data": "image850.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Mid Sleeper - Back Toe (Standard #805)"
+        },
+        {
+            "type": "image",
+            "data": "image851.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Back Toe - Applied End (Standard #779)"
+        },
+        {
+            "type": "image",
+            "data": "image852.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Back Toe - Sub End (Standard #798)"
+        },
+        {
+            "type": "image",
+            "data": "image853.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Cabinetmaker\\System_Level\\Ribbonbar\\Main_Tab\\Construction_Group\\Assembly_Manager\\Assembly\\Branches\\Connection\\Toe_Kick.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

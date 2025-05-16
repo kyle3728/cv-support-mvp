@@ -1,0 +1,21 @@
+{
+    "id": "a94ff538-2e91-40fb-8e1b-bec404e4964f",
+    "title": "Holz-Her_saw_Kvara_Controller",
+    "content": [
+        {
+            "type": "text",
+            "data": "Holz-Her Saw with Kvara Controller"
+        },
+        {
+            "type": "text",
+            "data": "This is a  Panel Saw  Link."
+        },
+        {
+            "type": "text",
+            "data": "Output for Kvara Control. Trim values should be set to desired trim plus saw kerf. Optimization priority must be set to Labor to ensure optimization does not exceed the control's limitations."
+        }
+    ],
+    "source_file": "NCEnglish_Optimizer\\Ribbonbar\\Main_Tab\\Machine\\NC_Links\\Saw_Links\\Holz-Her_saw_Kvara_Controller.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

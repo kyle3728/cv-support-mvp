@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><link rel="stylesheet" type="text/css" href="../../_rhdefault.css"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=WINDOWS-1252"/>
+  <meta name="Originator" content="ImportDoc"/>
+  <meta name="OriginalFile" content="4_0 Transfer Standards.doc"/>
+  <meta name="generator" content="Adobe RoboHelp 2022"/>
+  <title>Transferring Your Standards</title>
+  <link rel="StyleSheet" href="../../assets/css/default.css" type="text/css"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/><script type="text/javascript" src="../../ehlpdhtm.js"></script></head>
+<body lang="EN-US" xml:lang="EN-US">
+  <h1>Transferring Your Standards</h1>
+  <p style="color: #ff0000; font-weight: bold; text-decoration: underline; "><img alt="" border="0" src="../../assets/images/Warning.png" style="border: none;"/><u><span style="font-weight: normal; text-decoration: none; "> </span></u>This Topic assumes you are familiar with File Management in the Windows Operating System.</p>
+  <p>Follow these instructions to transfer files into CABINET VISION Version 2024 from previous versions or different computers.</p>
+  <p>The local hard drive is being referred to as “C” since that is the most common drive designation, however, it simply represents the drive where CABINET VISION has been installed. If CABINET VISION has been installed on a different drive on your computer, then that is the one you will use.</p>
+  <p>This topic describes the procedures for a standalone computer, but it will be the same if you are using a network server.</p>
+  <h2>Step 1:</h2>
+  <p>Open the Backup Utility. From the CABINET VISION Main Screen, click <span class="Note">Utilities</span> and then <span class="Note">Backup Utility.</span></p>
+  <p class="GraphicCentered"><img src="../../assets/images/image584.png"/></p>
+  <h2>Step 2:</h2>
+  <p>At a minimum you should &quot;Include&quot; what is in the &quot;Include&quot; area in the illustration below.</p>
+  <p style="margin-left: 0px;"><img src="../../assets/images/image3303.png"/></p>
+  <p style="margin-left: 0px;">Click Save.</p>
+  <p>When the backup utility is finished running you must close<span class="Note"> CABINET VISION.</span></p>
+  <h2>Step 3:</h2>
+  <p>This creates a folder that contains each of these selected files plus a zipped file called “backup.zip” which contains all the files in a compressed format. This new folder will be labeled with today’s date and time and will be placed within the Automatic Backups folder. This folder is located on your hard drive under the Planit or the Cabinet Vision \Solid 8.0, 9.0, 10.0, etc... folder. If you have 3.5 or older, it will be in the Cabinet Vision \ Solid folder.</p>
+  <p>Now we need to transfer this newly created backup folder to the Automatic Backups folder within CABINET VISION Version 2024. If both versions of <span class="Note">CABINET VISION</span> are on the same computer, simply copy and paste this folder from the older Automatic Backups folder to the following folder:</p>
+  <p>C:\ProgramData\Hexagon\CABINET VISION\Common 2024\Automatic Backups\</p>
+  <p>If you are transferring these files from one computer to another, simply copy and paste this backup folder to a USB memory stick or whatever method of transfer you prefer, then copy and paste it to the folder above on the new computer.</p>
+  <p style="margin-left: 40px;"><img alt="" border="0" src="../../assets/images/zGraphics/Extras/Information.png" style="border: none;"/> At this point, make sure that <span class="Note">CABINET VISION</span> Version 2024 is closed.</p>
+  <p>Now that the new folder has been copied to the <strong>C:\ProgramData\Hexagon\CABINET VISION\Common 2024\Automatic Backups</strong> folder, follow these steps:</p>
+  <ol style="list-style: decimal;">
+    <li>In Windows 10 or 11 click the Start button or press <img alt="" border="0" src="../../assets/images/zGraphics/Keyboard/Windows_Key.png" style="border: none;"/> then select All Apps and scroll to the CABINET VISION 2024 Group and run <a href="../../Introduction/CABINET_VISION_Startup_Group/CABINET_VISION_startup_group.htm#Restore_Settings">Restore CV 2024 Settings</a>.</li>
+  </ol>
+  <p style="margin-left: 40px;"><img src="../../assets/images/image2834.png"/></p>
+  <ol start="2" style="list-style: decimal;">
+    <li>The following screen will appear:</li>
+  </ol>
+  <p style="margin-left: 40px;"><img src="../../assets/images/image674.png"/></p>
+  <ol start="3" style="list-style: decimal;">
+    <li>The screen that pops up shows the available Backup folders on the left and the Files within each folder on the right.</li>
+    <li>Make sure you have the folder you just transferred highlighted on the left.</li>
+    <li>Now check which (or all) files you want to restore (transfer) on the right.</li>
+    <li>Click OK</li>
+  </ol>
+  <p>This will copy the selected files into the appropriate Database folder and run the appropriate update routine. Once the update routine has finished running, CABINET VISION is now ready for use and will contain the updated information.</p>
+  <h2>Moving Existing Jobs</h2>
+  <p>If you want to also move your existing jobs, you can simply copy and paste all the existing job files (.cvj files) from one computer or folder location to another for use in Version 2024. These job files are usually contained within the C:\Users\Public\Documents\CABINET VISION\CV 2024 folder, but they may be stored in any folder you have designated.</p>
+  <p style="margin-left: 40px;"><img alt="" border="0" src="../../assets/images/zGraphics/Extras/Warning.png" style="border: none;"/>  A job that is edited in Version 2024 can no longer be used in an earlier version. Use a copy of that original job for safety. No update routine has to be run after copying these files.</p>
+  <h2>Door Manager</h2>
+  <p>Now that a new Door catalog has been copied over, you will need to update the Door icons. Open CABINET VISION 2024, go to Door Manager \ Utilities and run Generate Icons.</p>
+  <p><img src="../../assets/images/image684.png"/></p>
+  <h2>S2M Center</h2>
+  <p>If you use the S2M CENTER, you will have to update these items:</p>
+  <ol style="list-style: decimal;">
+    <li>Reselect the Primary and Secondary machines you use for Optimizing.</li>
+    <li>Create a new Output Directory (path) for your output code folder.</li>
+    <li>Reselect the path to your Post for each machine you use.</li>
+    <li>Re-enter your Post code if applicable</li>
+  </ol>
+  <h2>Usability of new files</h2>
+  <p>While we make our best effort at making the older files compatible with the newer version of our software, we can’t guarantee all files will work exactly as they did in the older version due to the updates and additions to the new version. Existing jobs may not perform as expected. Also, the Construction Methods and User Created Standards will have to be reviewed to account for new or updated routines. Sometimes, older User Created Standards no longer work or are no longer needed. <span style="font-weight: bold;">Please test the new information thoroughly before beginning production.</span></p>
+  <h2>Files and Descriptions</h2>
+  <table cellspacing="0" class="NormalTable" style="margin-left: 5.4pt; border: none; left: 0px; 
+		 top: 3148px; height: 537px;" width="1065">
+    <colgroup>
+      <col style="width: 13.136%;"/>
+      <col style="width: 449px;"/>
+      <col style="width: 473px;"/>
+    </colgroup>
+    <tbody>
+      <tr style="height: 19px;">
+        <td style="vertical-align: top; border: solid #000000 1.0pt; padding: 0in 5.4pt 0in 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+          <h1 style="text-align: center; font-size: 10.0pt; margin-top: 0.5pt; 
+			 margin-bottom: 0.5pt;">File Name</h1>
+        </td>
+        <td style="vertical-align: top; border-top: 1pt solid rgb(0, 0, 0); border-right: 1pt solid rgb(0, 0, 0); border-bottom: 1pt solid rgb(0, 0, 0); border-image: initial; border-left: none; padding: 0px;">
+          <h1 style="text-align: center; 
+															 margin-top: 0.5pt; 
+															 margin-bottom: 0.5pt;"><span class="Note"><span style="font-size: 10.0pt;">Location</span></span></h1>
+        </td>
+        <td style="vertical-align: top; border-top: 1pt solid rgb(0, 0, 0); border-right: 1pt solid rgb(0, 0, 0); border-bottom: 1pt solid rgb(0, 0, 0); border-image: initial; border-left: none; padding: 0px;">
+          <h1 style="text-align: center; 
+															 margin-top: 0.5pt; 
+															 margin-bottom: 0.5pt;"><span class="Note"><span style="font-size: 10.0pt;">Purpose</span></span></h1>
+        </td>
+      </tr>
+      <tr style="height: 17px;">
+        <td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;">
+          <p><span class="Note"><span style="font-size: 10.0pt;">Default.dat</span></span></p>
+        </td>
+        <td style="vertical-align: top; border-top: none; border-left: none; border-bottom: 1pt solid rgb(0, 0, 0); border-right: 1pt solid rgb(0, 0, 0); padding: 0px;">
+          <p style="font-size: 10.0pt;">C:\ProgramData\Hexagon\CABINET VISION\CV 2024\</p>
+        </td>
+        <td style="vertical-align: top; border-top: none; border-left: none; border-bottom: 1pt solid rgb(0, 0, 0); border-right: 1pt solid rgb(0, 0, 0); padding: 0px;">
+          <p><span style="font-size: 10.0pt;">This file contains all your Layer Schedules and Dimension Styles.</span></p>
+        </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;">
+          <p><span class="Note"><span style="font-size: 10.0pt;">DefaultCLST.dat</span></span></p>
+        </td>
+        <td style="vertical-align: top; border-top: none; border-left: none; border-bottom: 1pt solid rgb(0, 0, 0); border-right: 1pt solid rgb(0, 0, 0); padding: 0px;">
+          <p style="font-size: 10.0pt;">C:\ProgramData\Hexagon\CABINET VISION\CV 2024\</p>
+        </td>
+        <td style="vertical-align: top; border-top: none; border-left: none; border-bottom: 1pt solid rgb(0, 0, 0); border-right: 1pt solid rgb(0, 0, 0); padding: 0px;">
+          <p><span style="font-size: 10.0pt;">This file contains all your Layer Schedules and Dimension Styles for the Closet Module.</span></p>
+        </td>
+      </tr>
+      <tr style="height: 17px;">
+        <td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;">
+          <p style="font-size: 10pt;">.cfg files</p>
+        </td>
+        <td style="vertical-align: top; border-top: none; border-left: none; border-bottom: 1pt solid rgb(0, 0, 0); border-right: 1pt solid rgb(0, 0, 0); padding: 0px;">
+          <p style="font-size: 10.0pt;">C:\ProgramData\Hexagon\CABINET VISION\CV 2024\Database\</p>
+        </td>
+        <td style="vertical-align: top; border-top: none; border-left: none; border-bottom: 1pt solid rgb(0, 0, 0); border-right: 1pt solid rgb(0, 0, 0); padding: 0px;">
+          <p style="font-size: 10pt;">These are your Job Property schemes.</p>
+        </td>
+      </tr>
+      <tr style="height: 17px;">
+        <td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;">
+          <p><span class="Note"><span style="font-size: 10.0pt;">.cvj files</span></span></p>
+        </td>
+        <td style="vertical-align: top; border-top: none; border-left: none; border-bottom: 1pt solid rgb(0, 0, 0); border-right: 1pt solid rgb(0, 0, 0); padding: 0px;">
+          <p style="font-size: 10.0pt;">C:\Users\Public\Documents\CABINET VISION\CV 2024\</p>
+        </td>
+        <td style="vertical-align: top; border-top: none; border-left: none; border-bottom: 1pt solid rgb(0, 0, 0); border-right: 1pt solid rgb(0, 0, 0); padding: 0px;">
+          <p><span style="font-size: 10.0pt;">These are your Job files.</span></p>
+        </td>
+      </tr>
+      <tr style="height: 17px;">
+        <td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;">
+          <p style="font-size: 10.0pt;">CVData.mdf</p>
+        </td>
+        <td style="vertical-align: top; border-top: none; border-left: none; border-bottom: 1pt solid rgb(0, 0, 0); border-right: 1pt solid rgb(0, 0, 0); padding: 0px;">
+          <p style="font-size: 10.0pt;">C:\ProgramData\Hexagon\CABINET VISION\Common 2024\Database\</p>
+        </td>
+        <td style="vertical-align: top; border-top: none; border-left: none; border-bottom: 1pt solid rgb(0, 0, 0); border-right: 1pt solid rgb(0, 0, 0); padding: 0px;">
+          <p><span style="font-size: 10.0pt;">This is where all Construction Methods, Materials, Material Schedules, <span style="font-size: 10.0pt;">UCS’s, <span style="font-size: 10.0pt;">Intelli-Joints, Object Catalogs, CAD Symbols, </span></span>and Doors are stored.</span></p>
+        </td>
+      </tr>
+      <tr style="height: 17px;">
+        <td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;">
+          <p><span class="Note"><span style="font-size: 10.0pt;">Report.mdf</span></span></p>
+        </td>
+        <td style="vertical-align: top; border-top: none; border-left: none; border-bottom: 1pt solid rgb(0, 0, 0); border-right: 1pt solid rgb(0, 0, 0); padding: 0px;">
+          <p style="font-size: 10.0pt;">C:\ProgramData\Hexagon\CABINET VISION\CV 2024\Database\</p>
+        </td>
+        <td style="vertical-align: top; border-top: none; border-left: none; border-bottom: 1pt solid rgb(0, 0, 0); border-right: 1pt solid rgb(0, 0, 0); padding: 0px;">
+          <p><span style="font-size: 10.0pt;">This is where all Report Groups and Bid Methods are stored.</span></p>
+        </td>
+      </tr>
+      <tr style="height: 17px;">
+        <td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;">
+          <p><span class="Note"><span style="font-size: 10.0pt;">ManageIT.accdb</span></span></p>
+        </td>
+        <td style="vertical-align: top; border-top: none; border-left: none; border-bottom: 1pt solid rgb(0, 0, 0); border-right: 1pt solid rgb(0, 0, 0); padding: 0px;">
+          <p style="font-size: 10.0pt;">C:\ProgramData\Hexagon\CABINET VISION\CV 2024\Repository\</p>
+        </td>
+        <td style="vertical-align: top; border-top: none; border-left: none; border-bottom: 1pt solid rgb(0, 0, 0); border-right: 1pt solid rgb(0, 0, 0); padding: 0px;">
+          <p><span style="font-size: 10.0pt;">This is where your xCRM information is stored. It contains your Customer information.</span></p>
+        </td>
+      </tr>
+      <tr style="height: 17px;">
+        <td style="vertical-align: top; border: solid #000000 1.0pt; border-top: none; 
+			 padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;">
+          <p style="font-size: 10pt;">.jpg &amp; .bmp files</p>
+        </td>
+        <td style="vertical-align: top; border-top: none; border-left: none; border-bottom: 1pt solid rgb(0, 0, 0); border-right: 1pt solid rgb(0, 0, 0); padding: 0px;">
+          <p style="font-size: 10.0pt;">C:\ProgramData\Hexagon\CABINET VISION\CV 2024\Database\Graphics\</p>
+        </td>
+        <td style="vertical-align: top; border-top: none; border-left: none; border-bottom: 1pt solid rgb(0, 0, 0); border-right: 1pt solid rgb(0, 0, 0); padding: 0px;">
+          <p style="font-size: 10.0pt;">These are your custom textures that have been imported.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+</body></html>

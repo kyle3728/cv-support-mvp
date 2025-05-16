@@ -1,0 +1,21 @@
+{
+    "id": "1c8e7a2e-3db2-4733-b036-d8b1ed1f77a3",
+    "title": "Accu-Systems_HPJ",
+    "content": [
+        {
+            "type": "text",
+            "data": "Accu-Systems HPJ"
+        },
+        {
+            "type": "text",
+            "data": "This is a Drill and Dowel Machine Link."
+        },
+        {
+            "type": "text",
+            "data": "This output will create program files for Accu-Systems HPJ. Each program will represent one side of a part."
+        }
+    ],
+    "source_file": "NCEnglish\\Ribbonbar\\Main_Tab\\Machine\\NC_Links\\Drill_and_Dowel_Links\\Accu-Systems_HPJ.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

@@ -1,0 +1,60 @@
+{
+    "id": "55ec4285-295e-4ecf-ac64-2acf86513c56",
+    "title": "SLMMRB_Kit",
+    "content": [
+        {
+            "type": "text",
+            "data": "Kit\u00a0-"
+        },
+        {
+            "type": "image",
+            "data": "image3689.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "SolidAdvanced.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "SolidAdvancedforClosets.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "SolidUltimate.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "SolidUltimateforClosets.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option allows you to add miscellaneous Materials into a Kit attached \n to the selected Material. For example you can add a Kit for a Wire Pull \n that includes two screws for mounting. You should specify the quantity \n as well."
+        },
+        {
+            "type": "text",
+            "data": "Select your Material from the pane on the right and then click the left \n button to add it to the Material Kit in the left pane. You can also drag \n a Material from the right pane to the left."
+        },
+        {
+            "type": "image",
+            "data": "Material_Kit_Editor.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "If a Material has a Kit assigned there is a \n visual identifier on the Material in the main Material Manager window."
+        },
+        {
+            "type": "image",
+            "data": "image6346.gif",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\SLMMRB_Kit.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

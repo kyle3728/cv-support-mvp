@@ -1,0 +1,777 @@
+{
+    "id": "bd6cf661-3a2e-4600-afa9-33a56ce45fa6",
+    "title": "Properties",
+    "content": [
+        {
+            "type": "text",
+            "data": "Door Properties"
+        },
+        {
+            "type": "image",
+            "data": "image2940.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "When you have a Door selected in the Door Manager you can get to it's Properties by clicking this option in the ribbonbar (alternatively double click the Door or right click and select Properties from the menu)."
+        },
+        {
+            "type": "image",
+            "data": "image2941.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Following are the Properties available in Door Properties:"
+        },
+        {
+            "type": "text",
+            "data": "ID -  The Door Style ID number which can be useful in User Created Standards. The Door Style ID number is auto-generated and can not be edited."
+        },
+        {
+            "type": "text",
+            "data": "Name -  The name of the current Door Style."
+        },
+        {
+            "type": "text",
+            "data": "Description  - The description of the current Door Style."
+        },
+        {
+            "type": "text",
+            "data": "Tags -  Keywords added here will aid in Searches."
+        },
+        {
+            "type": "text",
+            "data": "Unit Cost -   This is where you set a flat price for this Door Style. These prices are retrieved in the  Bid Center  by using the  Use Door Catalog Pricing Bid Method ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Bid Center",
+                "uuid": "9bf291cf-b833-4950-a899-2c17927d7a53",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Use Door Catalog Pricing Bid Method",
+                "uuid": "4a3d36f8-0f2e-45c7-856e-38dabd76074d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Cost /SqUnit -  This is where you set a Per Square Unit (Either Meter or Foot depending on your active  Unit of Measure )\n    Cost for this Door Style. These prices are retrieved in the  Bid Center  by using the  Use Door Catalog Pricing Bid Method ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Unit of Measure",
+                "uuid": "a6c6d306-c8da-4df8-8440-33f2f24a9c1d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Bid Center",
+                "uuid": "9bf291cf-b833-4950-a899-2c17927d7a53",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Use Door Catalog Pricing Bid Method",
+                "uuid": "4a3d36f8-0f2e-45c7-856e-38dabd76074d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Oversize -  An amount to add to the overall size of the Door. Typically used to oversize for clean-up on a joiner."
+        },
+        {
+            "type": "text",
+            "data": "Template -  Following are the Template Properties which are available if the selected Door Style is a Template Door, this list will vary depending upon which Template Style is chosen.."
+        },
+        {
+            "type": "text",
+            "data": "Style -  See the  Ribbonbar  topic for a list and description of each of the available Door Template Styles. \n \n \n Slab - Determines if the Door Type is Slab or Five Piece. \n  This option does not determine whether the Door is a Glass Door; that is actually controlled by the Tool Set\n        used on the Route Pattern. \n \n \n Soften Corners - Determines if the Corners of the Doors need to be softened (radiused). This is typically\n        used when applying RTF or Vinyl to your Doors to keep it from tearing on sharp corners. The Radius value is set in the Preferences are on the Geometry Tab in the S2M CENTER. See the S2M CENTER Help file for more information. \n \n \n Corner Radius - Allows you to establish a\n        specific Corner Radius for this Door Style when Soften Corners is enabled. \n \n \n Shape Top - Selecting this option will Shape the Top Outside Edge of the Door to match the internal Route Pattern as demonstrated in the image below. \n \n \n \n Shape Bottom - Selecting this option will Shape the Bottom Outside Edge of the Door (Mirror Top Shape has to be active as well) to match the internal Route Pattern as\n        demonstrated in the image below. \n \n \n \n Lites - Sets the number and configuration of Lites (Panels) the Template Door has. \n \n Depending upon the Template you have chosen you will see some of the following Shape options: \n Shape - Crown \n Allows you to specify the Crown Height on the Door as demonstrated in the graphic below. \n \n Shape -  Flat Indent \n \n \n Allows you to specify the Flat length before the start of the Crown as demonstrated in the graphic below. \n \n Shape -  Radius \n \n \n Allows you to specify the Radius at the transition from the End Stiles to the Crown as demonstrated in the graphic below. \n \n Shape -  Chamfer \n \n \n \n Allows you to specify the Chamfer length on a Chamfer Template Door. \n Shape -  Mirror Top Shape \n \n \n Allows you to specify that the Bottom of the Route Pattern Mirrors the Top instead of being flat. As demonstrated in the graphic below. \n \n Shape -  All Corners \n No specifies to Chamfer/Radius the top two corners only; Yes specifies to chamfer/radius all four corners of the Route Path. \n Shape -  Rise \n Allows you to specify the Rise of the slope of a Slope Template Door. \n Shape -  Run \n Allows you to specify the Run of the slopeof a Slope Template Door. \n Shape -  Width \n Allows you to specify the bumps Width on a Bump Template Door. \n Shape -  Height \n Allows you to specify the bumps Heighton a Bump Template Door."
+        },
+        {
+            "type": "text",
+            "data": "Style -  See the  Ribbonbar  topic for a list and description of each of the available Door Template Styles."
+        },
+        {
+            "type": "text",
+            "data": "Style -  See the  Ribbonbar  topic for a list and description of each of the available Door Template Styles."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Ribbonbar",
+                "uuid": "30f27b7c-c12f-4936-bfad-fe4e55e95284",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Slab - Determines if the Door Type is Slab or Five Piece. \n  This option does not determine whether the Door is a Glass Door; that is actually controlled by the Tool Set\n        used on the Route Pattern."
+        },
+        {
+            "type": "text",
+            "data": "Slab - Determines if the Door Type is Slab or Five Piece."
+        },
+        {
+            "type": "text",
+            "data": "This option does not determine whether the Door is a Glass Door; that is actually controlled by the Tool Set\n        used on the Route Pattern."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Soften Corners - Determines if the Corners of the Doors need to be softened (radiused). This is typically\n        used when applying RTF or Vinyl to your Doors to keep it from tearing on sharp corners. The Radius value is set in the Preferences are on the Geometry Tab in the S2M CENTER. See the S2M CENTER Help file for more information."
+        },
+        {
+            "type": "text",
+            "data": "Soften Corners - Determines if the Corners of the Doors need to be softened (radiused). This is typically\n        used when applying RTF or Vinyl to your Doors to keep it from tearing on sharp corners. The Radius value is set in the Preferences are on the Geometry Tab in the S2M CENTER. See the S2M CENTER Help file for more information."
+        },
+        {
+            "type": "text",
+            "data": "Corner Radius - Allows you to establish a\n        specific Corner Radius for this Door Style when Soften Corners is enabled."
+        },
+        {
+            "type": "text",
+            "data": "Corner Radius - Allows you to establish a\n        specific Corner Radius for this Door Style when Soften Corners is enabled."
+        },
+        {
+            "type": "text",
+            "data": "Shape Top - Selecting this option will Shape the Top Outside Edge of the Door to match the internal Route Pattern as demonstrated in the image below."
+        },
+        {
+            "type": "text",
+            "data": "Shape Top - Selecting this option will Shape the Top Outside Edge of the Door to match the internal Route Pattern as demonstrated in the image below."
+        },
+        {
+            "type": "image",
+            "data": "image679.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Shape Bottom - Selecting this option will Shape the Bottom Outside Edge of the Door (Mirror Top Shape has to be active as well) to match the internal Route Pattern as\n        demonstrated in the image below."
+        },
+        {
+            "type": "text",
+            "data": "Shape Bottom - Selecting this option will Shape the Bottom Outside Edge of the Door (Mirror Top Shape has to be active as well) to match the internal Route Pattern as\n        demonstrated in the image below."
+        },
+        {
+            "type": "image",
+            "data": "image682.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Lites - Sets the number and configuration of Lites (Panels) the Template Door has. \n \n Depending upon the Template you have chosen you will see some of the following Shape options: \n Shape - Crown \n Allows you to specify the Crown Height on the Door as demonstrated in the graphic below. \n \n Shape -  Flat Indent \n \n \n Allows you to specify the Flat length before the start of the Crown as demonstrated in the graphic below. \n \n Shape -  Radius \n \n \n Allows you to specify the Radius at the transition from the End Stiles to the Crown as demonstrated in the graphic below. \n \n Shape -  Chamfer \n \n \n \n Allows you to specify the Chamfer length on a Chamfer Template Door. \n Shape -  Mirror Top Shape \n \n \n Allows you to specify that the Bottom of the Route Pattern Mirrors the Top instead of being flat. As demonstrated in the graphic below. \n \n Shape -  All Corners \n No specifies to Chamfer/Radius the top two corners only; Yes specifies to chamfer/radius all four corners of the Route Path. \n Shape -  Rise \n Allows you to specify the Rise of the slope of a Slope Template Door. \n Shape -  Run \n Allows you to specify the Run of the slopeof a Slope Template Door. \n Shape -  Width \n Allows you to specify the bumps Width on a Bump Template Door. \n Shape -  Height \n Allows you to specify the bumps Heighton a Bump Template Door."
+        },
+        {
+            "type": "text",
+            "data": "Lites - Sets the number and configuration of Lites (Panels) the Template Door has."
+        },
+        {
+            "type": "image",
+            "data": "image2930.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Depending upon the Template you have chosen you will see some of the following Shape options:"
+        },
+        {
+            "type": "text",
+            "data": "Shape - Crown"
+        },
+        {
+            "type": "text",
+            "data": "Allows you to specify the Crown Height on the Door as demonstrated in the graphic below."
+        },
+        {
+            "type": "image",
+            "data": "image687.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Shape -  Flat Indent"
+        },
+        {
+            "type": "text",
+            "data": "Allows you to specify the Flat length before the start of the Crown as demonstrated in the graphic below."
+        },
+        {
+            "type": "image",
+            "data": "image689.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Shape -  Radius"
+        },
+        {
+            "type": "text",
+            "data": "Allows you to specify the Radius at the transition from the End Stiles to the Crown as demonstrated in the graphic below."
+        },
+        {
+            "type": "image",
+            "data": "image691.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Shape -  Chamfer"
+        },
+        {
+            "type": "text",
+            "data": "Allows you to specify the Chamfer length on a Chamfer Template Door."
+        },
+        {
+            "type": "text",
+            "data": "Shape -  Mirror Top Shape"
+        },
+        {
+            "type": "text",
+            "data": "Allows you to specify that the Bottom of the Route Pattern Mirrors the Top instead of being flat. As demonstrated in the graphic below."
+        },
+        {
+            "type": "image",
+            "data": "image690.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Shape -  All Corners"
+        },
+        {
+            "type": "text",
+            "data": "No specifies to Chamfer/Radius the top two corners only; Yes specifies to chamfer/radius all four corners of the Route Path."
+        },
+        {
+            "type": "text",
+            "data": "Shape -  Rise"
+        },
+        {
+            "type": "text",
+            "data": "Allows you to specify the Rise of the slope of a Slope Template Door."
+        },
+        {
+            "type": "text",
+            "data": "Shape -  Run"
+        },
+        {
+            "type": "text",
+            "data": "Allows you to specify the Run of the slopeof a Slope Template Door."
+        },
+        {
+            "type": "text",
+            "data": "Shape -  Width"
+        },
+        {
+            "type": "text",
+            "data": "Allows you to specify the bumps Width on a Bump Template Door."
+        },
+        {
+            "type": "text",
+            "data": "Shape -  Height"
+        },
+        {
+            "type": "text",
+            "data": "Allows you to specify the bumps Heighton a Bump Template Door."
+        },
+        {
+            "type": "text",
+            "data": "Spacing -  Following are the Spacing Properties which are available if the selectred Door Style is a Slab or Template Door.'"
+        },
+        {
+            "type": "text",
+            "data": "Left Stile \n \n \n Right Stile \n \n \n Top Rail \n \n \n Bottom Rail \n \n \n Mid Stile \n \n \n Mid Rail"
+        },
+        {
+            "type": "text",
+            "data": "Left Stile"
+        },
+        {
+            "type": "text",
+            "data": "Left Stile"
+        },
+        {
+            "type": "text",
+            "data": "Right Stile"
+        },
+        {
+            "type": "text",
+            "data": "Right Stile"
+        },
+        {
+            "type": "text",
+            "data": "Top Rail"
+        },
+        {
+            "type": "text",
+            "data": "Top Rail"
+        },
+        {
+            "type": "text",
+            "data": "Bottom Rail"
+        },
+        {
+            "type": "text",
+            "data": "Bottom Rail"
+        },
+        {
+            "type": "text",
+            "data": "Mid Stile"
+        },
+        {
+            "type": "text",
+            "data": "Mid Stile"
+        },
+        {
+            "type": "text",
+            "data": "Mid Rail"
+        },
+        {
+            "type": "text",
+            "data": "Mid Rail"
+        },
+        {
+            "type": "text",
+            "data": "Edgebanding -  Use these properties to confirm whether the selected Door Style's edges haveEdge Banding (Door Edge Banding [D]) or not (None [N])."
+        },
+        {
+            "type": "text",
+            "data": "Left \n \n \n Right \n \n \n Top \n \n \n Bottom"
+        },
+        {
+            "type": "text",
+            "data": "Left"
+        },
+        {
+            "type": "text",
+            "data": "Left"
+        },
+        {
+            "type": "text",
+            "data": "Right"
+        },
+        {
+            "type": "text",
+            "data": "Right"
+        },
+        {
+            "type": "text",
+            "data": "Top"
+        },
+        {
+            "type": "text",
+            "data": "Top"
+        },
+        {
+            "type": "text",
+            "data": "Bottom"
+        },
+        {
+            "type": "text",
+            "data": "Bottom"
+        },
+        {
+            "type": "text",
+            "data": "Edgebanding will only be applied if the active Material Schedule has a valid Banding Material and the Bandingoption is enabled."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Edge Profiles -  Use these properties to confirm whether the selected Door Style'e edges use the Outside Edge Profile, the Finger Pull Profile/Part or None."
+        },
+        {
+            "type": "text",
+            "data": "Left \n \n \n Right \n \n \n Top \n \n \n Bottom"
+        },
+        {
+            "type": "text",
+            "data": "Left"
+        },
+        {
+            "type": "text",
+            "data": "Left"
+        },
+        {
+            "type": "text",
+            "data": "Right"
+        },
+        {
+            "type": "text",
+            "data": "Right"
+        },
+        {
+            "type": "text",
+            "data": "Top"
+        },
+        {
+            "type": "text",
+            "data": "Top"
+        },
+        {
+            "type": "text",
+            "data": "Bottom"
+        },
+        {
+            "type": "text",
+            "data": "Bottom"
+        },
+        {
+            "type": "text",
+            "data": "Defaults -  You can set the following Defaults for a Door Style:"
+        },
+        {
+            "type": "text",
+            "data": "Material Schedule \n \n \n Outside Edge Profile \n \n \n Inside Edge Profile \n \n \n Raised Panel Profile \n \n \n Finger Pull Profile \n \n \n Route Path Profile"
+        },
+        {
+            "type": "text",
+            "data": "Material Schedule"
+        },
+        {
+            "type": "text",
+            "data": "Material Schedule"
+        },
+        {
+            "type": "text",
+            "data": "Outside Edge Profile"
+        },
+        {
+            "type": "text",
+            "data": "Outside Edge Profile"
+        },
+        {
+            "type": "text",
+            "data": "Inside Edge Profile"
+        },
+        {
+            "type": "text",
+            "data": "Inside Edge Profile"
+        },
+        {
+            "type": "text",
+            "data": "Raised Panel Profile"
+        },
+        {
+            "type": "text",
+            "data": "Raised Panel Profile"
+        },
+        {
+            "type": "text",
+            "data": "Finger Pull Profile"
+        },
+        {
+            "type": "text",
+            "data": "Finger Pull Profile"
+        },
+        {
+            "type": "text",
+            "data": "Route Path Profile"
+        },
+        {
+            "type": "text",
+            "data": "Route Path Profile"
+        },
+        {
+            "type": "text",
+            "data": "Ribbonbar"
+        },
+        {
+            "type": "text",
+            "data": "Following are the ribbonbar options in the Door Properties area:"
+        },
+        {
+            "type": "text",
+            "data": "Return"
+        },
+        {
+            "type": "image",
+            "data": "image1592.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option will return you to the  Door Manager ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Door Manager",
+                "uuid": "2da09610-ccab-42a9-a5ce-4ad5fa83394a",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "New"
+        },
+        {
+            "type": "image",
+            "data": "image1593.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The New option allows you to create a New Door in the Door Properties area. See the  Door Manager New  topic for more information."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Door Manager New",
+                "uuid": "30f27b7c-c12f-4936-bfad-fe4e55e95284",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image2942.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The new Door will be placed in the same Category as the currently selected Door."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Copy"
+        },
+        {
+            "type": "image",
+            "data": "image1595.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Allows you to Copy the currently selected Door."
+        },
+        {
+            "type": "text",
+            "data": "Delete"
+        },
+        {
+            "type": "image",
+            "data": "image1596.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Allows you to Delete the currently selected Door. After clicking the Delete option you will be prompted to Confirm the Delete operation."
+        },
+        {
+            "type": "image",
+            "data": "image2943.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Select"
+        },
+        {
+            "type": "image",
+            "data": "image1597.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Allows you to Select a different Door to work with in Door Properties."
+        },
+        {
+            "type": "image",
+            "data": "image2944.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The sidebar in the Select Material window allows you to  Search  for a Door or browse for Doors via the DoorCategories. Once you have located your Door simply select it from the list of\n    Doors in the Work Area and click OK."
+        },
+        {
+            "type": "text",
+            "data": "Associations"
+        },
+        {
+            "type": "image",
+            "data": "image2945.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Doors that should change Construction style based on pre-determined size requirements or conditions require Associations."
+        },
+        {
+            "type": "image",
+            "data": "Associations.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "In the above illustration we have established minimum and maximum sizes for the Square Raised Panel Door."
+        },
+        {
+            "type": "text",
+            "data": "For example I have a square raised panel Door and I would normally not make this Door any less in width or lengththan 8 inches. Because the Top Rail is 2 inches, the Bottom Rail is 2 inches, my raised panel detail is 1  inches all around, and I would\n    want a flat area on the panels of no less than 1  inches wide. This all adds up to 8 inches if I make the Door any less than 8 inches in height it gets dangerous to run the panel on my shaper."
+        },
+        {
+            "type": "text",
+            "data": "When the Square Raised Panel Door is used and the Width or Length of the Door is 8\" or less then the Solid WoodDoor Style is used."
+        },
+        {
+            "type": "text",
+            "data": "When the Width is greater than 8\" but 24\" or less then the Square Raised Panel is used."
+        },
+        {
+            "type": "text",
+            "data": "When the Width is greater than 24\" but 42\" or less then the Vertical Split Raised Panel is used."
+        },
+        {
+            "type": "text",
+            "data": "When the Length is greater than 8\" but 32\" or less then the Square Raised Panel is used."
+        },
+        {
+            "type": "text",
+            "data": "When the Length is greater than 32\" but 64\" or less then the Square Raised Panel is used."
+        },
+        {
+            "type": "text",
+            "data": "And anything greater than 42\" wide and 64\" long will be a Slab (plywood)."
+        },
+        {
+            "type": "text",
+            "data": "So using AssociationsI have set a size limit of 8 inches for the length and the width. When I am in a Job and the Door becomes 8 inches or less in lengthor width, CABINET VISION will automatically replace the Square Raised Panel Door with theSolid\n    Wood Door. I have also set a size limit of 32 inches for the length. When I am in a job and the Door becomes 32 inches or taller CABINET VISION will automatically replace the Door with a Vertical Split Raised Panel Door."
+        },
+        {
+            "type": "text",
+            "data": "In situations where the left and right Doors should mirror each other, use the  Mirrored Right Style  option to assign an alternate Right Door Style to use. Simply create both the Left and Right versions of the Door. Then select the left\n    Door and assign the right Door here. When you choose the left Door as your default Door in a Job, the Mirrored Right Style Door will thereafter be used when right hinging is called for."
+        },
+        {
+            "type": "image",
+            "data": "MirroredAssociations.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Material Filter"
+        },
+        {
+            "type": "image",
+            "data": "image2946.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "Material_Filter.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Material Filters are not required but are a good option if you want to limit what Materials are available for the current Door Style. Simply add any of the Available Materials on the left to the list on the right.You will note in the illustrationabove\n    that I have selected my \"Alder\", \"Ash\", \"Birch\", \"Cherry\", \"Maple\", \"Oak\", and \"Paint Grade\" Material Schedules for use with this Door."
+        },
+        {
+            "type": "text",
+            "data": "The Material Cost associated with the selected Material Schedule is also displayed and can be edited from here. See the  Door/Drawer Fronts Material Schedule  topic for more information."
+        },
+        {
+            "type": "text",
+            "data": "Profile Filter"
+        },
+        {
+            "type": "image",
+            "data": "image2947.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "Profile_Filter.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Profile Filters are not required but are a good option if you want to limit what Profiles are available for the current Door Style. Simply add any of the Available Profiles on the left to the list on the right.When you start a new Job, you will select\n    the Door at the Job Properties tab and it should give you the opportunity at that time to select the profiles that will be used in that particular Job from the Profiles that you have made available for that Door."
+        },
+        {
+            "type": "text",
+            "data": "Simply select the Profile Type to see the list of that type."
+        },
+        {
+            "type": "text",
+            "data": "There are four different types of profiles."
+        },
+        {
+            "type": "text",
+            "data": "Inside Edge-  The  Inside Edge is\n    used when you have a frame around the Door and the frame is assembled with cope & stick construction. Inside Edges are important because they can, depending on the Extended Property, affect the size of your Door parts."
+        },
+        {
+            "type": "image",
+            "data": "IEP.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Outside Edge-  The  Outside Edge is\n    a shape you will cut around the outside of the Door. Outside Edgesdo not affect the size of your Door parts."
+        },
+        {
+            "type": "image",
+            "data": "OEP.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Raised Panel-  The  Raised Panel is\n    the shape you will cut along the outside of the Door panel. Usually done around the edges of a Raised Panel. Panel details do not affect your Door parts sizes."
+        },
+        {
+            "type": "image",
+            "data": "RP.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Route-  The  Route is the shape\n    of the cutter you would use if you where going to route a design into the face of the Door using a Door jig."
+        },
+        {
+            "type": "image",
+            "data": "Route.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Profile Cost associated with the selected Profile is also displayed and can be edited from here."
+        },
+        {
+            "type": "text",
+            "data": "Section"
+        },
+        {
+            "type": "image",
+            "data": "Section.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish\\System_Level\\Ribbonbar\\Main_Tab\\Catalogs_Group\\Door_Manager\\Ribbonbar\\Properties.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

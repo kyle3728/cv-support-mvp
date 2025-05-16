@@ -1,0 +1,68 @@
+{
+    "id": "62014ead-db2c-4c0d-b28a-93fc7856604b",
+    "title": "Overview_of_Orthographic_Editing",
+    "content": [
+        {
+            "type": "text",
+            "data": "Overview of Orthographic Editing"
+        },
+        {
+            "type": "text",
+            "data": "Editing in the Orthographic Views (the three face figures) represents one of the more powerful features of CABINET VISION. Editing at this level typically allows adding unique Parts to your Assembly and, if necessary, adding  intelligence     to that Part. Adding intelligence is the process that gives an existing or new Part the intelligence to respond to changes in the Assembly size caused by stretching or other dimension changes you may make. Adding new or unique Parts does not require\n    that intelligence be given to the Part, as the Part may be correct for its intended purpose as soon as it is added. Typically, \"one of\" Assemblies do not require intelligence for the new Part, where production Assemblies that will exist\n    in any of a number of sizes will require intelligence."
+        },
+        {
+            "type": "text",
+            "data": "New Parts, Part shaping, Part overrides are all possibilities of this form of editing."
+        },
+        {
+            "type": "image",
+            "data": "image399.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There are three views available for editing in the Orthographic level. These views are sometimes referred to as the Smiley Face Views. The face icon represents the view of the Assembly that is available in that view. The three views are shown below.\n    The graphic on the button represents a head that presents the Face, Top, and End (Profile) view of the head. The orientation of the graphic reflects the orientation of the view it presents."
+        },
+        {
+            "type": "image",
+            "data": "image181.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image664.bmp",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image182.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image665.bmp",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image183.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image667.bmp",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Which view you choose to use when editing is more a matter of choosing the view that allows the best access to the Part or area in question. Any editing done in any of the views above will appear in the other views if that view allows viewing the edited\n    Part."
+        },
+        {
+            "type": "text",
+            "data": "Example:  If a Shelf's depth is changed, that change would not be visible in the face view, but would be visible in the top and cross section view."
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\Assembly_Level_Ortho_Views\\Overview_of_Orthographic_Editing.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

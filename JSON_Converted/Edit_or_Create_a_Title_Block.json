@@ -1,0 +1,124 @@
+{
+    "id": "91f59374-cfb6-4636-b954-63643d4fbb25",
+    "title": "Edit_or_Create_a_Title_Block",
+    "content": [
+        {
+            "type": "text",
+            "data": "Editing/Creating a Title Block"
+        },
+        {
+            "type": "text",
+            "data": "This tutorial is to help you create a  title block  that you can use when printing from the  drawings page . This will cover the basic editing techniques needed, and will allow you to be more creative as you gain experience."
+        },
+        {
+            "type": "text",
+            "data": "To get started, you need to be working in a new Job. Go to the  Drawings Area  by selecting the  Drawings  tab from the  Plan  view within a new Job."
+        },
+        {
+            "type": "text",
+            "data": "You now see a blank page to which you can add your D rawings  and a  Title-Block .\u00a0This page can then be printed for your customers."
+        },
+        {
+            "type": "text",
+            "data": "Go to the option  Drawings Library ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Drawings Library",
+                "uuid": "42693001-e896-4fb4-bab5-90f16894ad62",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "AutoFillText_1.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Select Title Blocks as the \"Type\" of Template you want to Edit."
+        },
+        {
+            "type": "image",
+            "data": "image968.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Highlight the desired Title-Block Template and click Edit."
+        },
+        {
+            "type": "text",
+            "data": "For this tutorial, we will use the first  title block  template labeled \"Small Format - Submittal\". There are other style and size  Title-Blocks  available which you can explore at a later time. Highlight \"Small Format - Submittal\" and click Edit."
+        },
+        {
+            "type": "text",
+            "data": "This loads (opens) the  Title-Block  Template in Edit mode. You are now ready to begin editing the  Title-Block  Template."
+        },
+        {
+            "type": "image",
+            "data": "EditTB_1.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image970.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Each Text field within this template can be edited."
+        },
+        {
+            "type": "image",
+            "data": "EditTB_3.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "To begin, move your mouse right on top of the \u201cName\u201d field and  right  click (or Double Click). When the menu pops up,  left  click on the word  Edit . The dot, at the lower left of the text field, indicates this field is highlighted and ready for editing. This dot also appears with a  left  click."
+        },
+        {
+            "type": "text",
+            "data": "Notice the variable enclosed in Brackets {} to the right of the text Name. This is an Automatic Text field."
+        },
+        {
+            "type": "image",
+            "data": "image971.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "You can change the Text or the Auto-Text in any of these Fields. You also can add additional Text utilizing the CAD Text Tool. To add additional Auto-Text simply select what you would like to add from the menu that is available by clicking the Action button. See the  Automatic Text  topic for further information along with a complete list of the available auto-text variables."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Automatic Text",
+                "uuid": "fa988f54-7863-4352-b1a7-3aaf7bca6e58",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image972.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "To move any of these Text fields, move your mouse over the dot that appears when that text field is highlighted. Your mouse will change to four arrows and you can then drag this field to position it anywhere you want."
+        },
+        {
+            "type": "text",
+            "data": "You can continue to edit any of the fields contained within the T itle-Block . After you have finished your changes,  left  click on the  home  tool to get out of the Editing mode and automatically save your changes."
+        },
+        {
+            "type": "text",
+            "data": "This new T itle Block  is now saved and ready to use. In order to set this T itle Block  as the default,  right  click and select C lean Sheet . Then reload the new T itle Block . Now it will stay until you change it."
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Tips_Tricks_&_FAQs\\FAQs\\HDI-Presentation\\Edit_or_Create_a_Title_Block.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

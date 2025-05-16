@@ -1,0 +1,137 @@
+/*Created with Adobe RoboHelp 10.*/
+BODY {
+	font-family: Arial;
+	background-color: #ffffff;
+}
+H1 {
+	font-weight: bold;
+	font-size: 18pt;
+}
+LI.H1 {
+	font-weight: bold;
+	font-size: 18pt;
+}
+H2 {
+	font-weight: bold;
+	font-size: 14pt;
+}
+LI.H2 {
+	font-weight: bold;
+	font-size: 14pt;
+}
+H3 {
+	font-weight: bold;
+	font-size: 12pt;
+}
+LI.H3 {
+	font-weight: bold;
+	font-size: 12pt;
+}
+H4 {
+	font-weight: bold;
+	font-size: 11pt;
+}
+LI.H4 {
+	font-weight: bold;
+	font-size: 11pt;
+}
+H5 {
+	font-weight: bold;
+	font-size: 10.0pt;
+}
+LI.H5 {
+	font-weight: bold;
+	font-size: 10.0pt;
+}
+H6 {
+	font-weight: bold;
+	font-size: 8.0pt;
+}
+LI.H6 {
+	font-weight: bold;
+	font-size: 8.0pt;
+}
+p {
+	font-weight: normal;
+	margin-left: 0px;
+	text-align: left;
+	font-size: 12pt;
+	margin-top: 13.5pt;
+	margin-bottom: 13.5pt;
+}
+LI.P {
+	font-size: 12.0pt;
+	font-weight: normal;
+	text-align: left;
+}
+A.expandspot {
+	color: #008000;
+	cursor: hand;
+	font-style: italic;
+	text-decoration: none;
+}
+SPAN.expandtext {
+	font-style: italic;
+	font-weight: normal;
+	color: #ff0000;
+}
+A.dropspot {
+	cursor: hand;
+	color: #008000;
+	font-style: italic;
+	text-decoration: none;
+}
+A.glossterm {
+	color: #800000;
+	cursor: hand;
+	font-style: italic;
+	text-decoration: none;
+}
+SPAN.glosstext {
+	font-style: italic;
+	font-weight: normal;
+	color: #0000ff;
+}
+OL,
+UL {
+	font-size: 12pt;
+	font-family: Arial, sans-serif;
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+p.Indent_1_Bulllet {
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+p.Bold-Right {
+	font-weight: bold;
+	text-align: right;
+}
+p.ITALIC {
+	font-style: italic;
+	font-family: Arial, sans-serif;
+}
+ol.RoundSquare {
+	list-style: disc;
+}
+ol.RoundSquare>li>ol {
+	list-style: square;
+}
+ol.RoundSquare>li>ol>li>ol {
+	list-style: circle;
+}
+ol.RoundSquare>li>ol>li>ol>li>ol {
+	list-style: disc;
+}
+ol.RoundSquare>li>ol>li>ol>li>ol>li>ol {
+	list-style: square;
+}
+ol.RoundSquare>li>ol>li>ol>li>ol>li>ol>li>ol {
+	list-style: circle;
+}
+ol.Decimal {
+	list-style-type: decimal;
+}
+ul.Disc {
+	list-style: disc;
+}

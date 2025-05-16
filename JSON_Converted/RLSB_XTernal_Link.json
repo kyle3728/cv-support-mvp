@@ -1,0 +1,197 @@
+{
+    "id": "6b81255e-3ecc-4327-9e11-f8483431aa5b",
+    "title": "RLSB_XTernal_Link",
+    "content": [
+        {
+            "type": "text",
+            "data": "Transmit to Factory -"
+        },
+        {
+            "type": "image",
+            "data": "image185.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "XTernal Link"
+        },
+        {
+            "type": "image",
+            "data": "image2466.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "1AUALL.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option allows passing of data to 3rd party or custom applications. You can have up to 5 unique Transmit to Factory Links:"
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "LinkCommand",
+                    "LinkCommand2",
+                    "LinkCommand3",
+                    "LinkCommand4",
+                    "LinkCommand5"
+                ],
+                "rows": [
+                    [
+                        "LinkLabel",
+                        "LinkLabel2",
+                        "LinkLabel3",
+                        "LinkLabel4",
+                        "LinkLabel5"
+                    ],
+                    [
+                        "LinkImage",
+                        "LinkImage2",
+                        "LinkImage3",
+                        "LinkIcon4",
+                        "LinkImage5"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "This topic contains information about modifying the Windows\u2122 Registry. Before you modify the Registry, make sure to back it up and make sure that you understand how to restore the Registry if a problem occurs. For information about how to back up, restore, and edit the Registry, click the following article number to view the article in the Microsoft\u2122 Knowledge Base:"
+        },
+        {
+            "type": "image",
+            "data": "Warning.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "256986 Description of the Microsoft Windows Registry"
+        },
+        {
+            "type": "text",
+            "data": "An additional user defined button can be added to the sidebar in the Reports area. This button can be customized to open and populate Report.mdb, open and populate ORD Files, or to Open 3rd Party and/or Custom Applications. The feature can be activated by adding a LinkCommand string value to the registry that is a statement to be executed when the button is pressed. The LinkCommand string value should be added to the following Registry location:"
+        },
+        {
+            "type": "text",
+            "data": "HKEY_CURRENT_USER\\Software\\Cabinet Vision\\Solid_11\\Settings"
+        },
+        {
+            "type": "text",
+            "data": "It can contain one of the following variables: jobordfile, ordfile, user, reportdb, biddb. The variables must be within {} as normal Solid variables. If the ordfile variable is used, you will be prompted to save an ord file."
+        },
+        {
+            "type": "text",
+            "data": "The button text can be set with a LinkLabel registry setting."
+        },
+        {
+            "type": "text",
+            "data": "The image for the button can be set with a LinkImage registry setting. The image should be a 50px wide and 40px high .PNG file with a transparent background for the best results."
+        },
+        {
+            "type": "text",
+            "data": "An example LinkCommand might be:"
+        },
+        {
+            "type": "text",
+            "data": "LinkCommand=notepad.exe \"{jobordfile}\""
+        },
+        {
+            "type": "text",
+            "data": "This button, when clicked, would prompt you to save the Job File if it has not been and Saves an  ORD file  with the same name and location as the Job file and then open Notepad with the saved file..."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "ORD file",
+                "uuid": "c271312a-f3e1-44fd-9e07-0068caab20b4",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "notepad.exe \"{ordfile}\""
+        },
+        {
+            "type": "text",
+            "data": "This button, when clicked, would prompt you to save an  ORD file  and then open Notepad with the saved file..."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "ORD file",
+                "uuid": "c271312a-f3e1-44fd-9e07-0068caab20b4",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Another example might be:"
+        },
+        {
+            "type": "text",
+            "data": "LinkCommand=\"C:\\Program Files\\Microsoft Office\\Office\\msaccess.exe {reportdb}\""
+        },
+        {
+            "type": "text",
+            "data": "This opens a POPULATED  report.mdb  in MSAccess, without having to visit Report Center or Bid Center first."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "report.mdb",
+                "uuid": "9ce79585-7beb-4aef-be60-f10582deb050",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Another example might be:"
+        },
+        {
+            "type": "text",
+            "data": "LinkCommand=notepad.exe \"{user}\""
+        },
+        {
+            "type": "text",
+            "data": "This opens Windows Notepad with the Login User Name for Solid."
+        },
+        {
+            "type": "text",
+            "data": "Another example might be:"
+        },
+        {
+            "type": "text",
+            "data": "LinkCommand=\"C:\\Program Files\\Microsoft Office\\Office\\msaccess.exe {biddb}\""
+        },
+        {
+            "type": "text",
+            "data": "This opens a POPULATED  BidData.mdb  in MSAccess."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "BidData.mdb",
+                "uuid": "0c5124d4-e71b-489b-9577-1906653284bf",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "There is another related Registry setting which can be entered here which will force CABINET VISION to populate Report.mdb upon entry into the S2M CENTER."
+        },
+        {
+            "type": "text",
+            "data": "CNCPOPULATEREPORT"
+        },
+        {
+            "type": "text",
+            "data": "A value of 1 turns this feature on."
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\RLSB_XTernal_Link.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

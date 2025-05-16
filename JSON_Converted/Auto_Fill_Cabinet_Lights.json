@@ -1,0 +1,29 @@
+{
+    "id": "3252e202-24d8-4973-9025-2a697a8822c4",
+    "title": "Auto_Fill_Cabinet_Lights",
+    "content": [
+        {
+            "type": "text",
+            "data": "Auto Fill Cabinet Lights"
+        },
+        {
+            "type": "text",
+            "data": "Can you Auto Fill under Cabinet lighting?"
+        },
+        {
+            "type": "text",
+            "data": "In Plan or Elevation view, right click in the layout area and select  Add Light . Under type select Under Cabinet, then check the Auto Fill Counter Top Lighting box."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Add Light",
+                "uuid": "3ea2c40b-e3fc-4eac-9114-cf8a3365c62a",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Tips_Tricks_&_FAQs\\FAQs\\HDI-Presentation\\Auto_Fill_Cabinet_Lights.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

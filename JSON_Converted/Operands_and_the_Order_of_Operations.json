@@ -1,0 +1,89 @@
+{
+    "id": "a4a11f84-44ba-44b9-b23b-8918d38f9d3a",
+    "title": "Operands_and_the_Order_of_Operations",
+    "content": [
+        {
+            "type": "text",
+            "data": "Operands and the Order of Operations"
+        },
+        {
+            "type": "text",
+            "data": "Computation Operations"
+        },
+        {
+            "type": "text",
+            "data": "Multiplication (*) y * z = x 2 * 6 = 12"
+        },
+        {
+            "type": "text",
+            "data": "Division (/) y / z = x 12 / 6 = 2"
+        },
+        {
+            "type": "text",
+            "data": "Addition (+) y + z = x 2 + 2 = 4"
+        },
+        {
+            "type": "text",
+            "data": "Subtraction (-) y  z = x 4  2 = 2"
+        },
+        {
+            "type": "text",
+            "data": "Exponent (^) y^3 = x 6^2 = 36"
+        },
+        {
+            "type": "text",
+            "data": "Order of operations"
+        },
+        {
+            "type": "text",
+            "data": "Multiplication and division are always done first, then addition and subtraction. If you want to add or subtract first and then multiply or divide you must place parenthesis around the addition or subtraction."
+        },
+        {
+            "type": "text",
+            "data": "Example: 24  6 / 3 = 22"
+        },
+        {
+            "type": "text",
+            "data": "Whereas (24  6) / 3 = 6"
+        },
+        {
+            "type": "text",
+            "data": "In the first example  24  6 / 3 = 22  the division was done first which resulted in 2 (6 / 3 = 2), then it subtracted the 2 and gave us 22 (24  2 = 22)."
+        },
+        {
+            "type": "text",
+            "data": "In the second example  (24  6) / 3 = 6  the operations in the parenthesis were done first which resulted in 18 (24  6 = 18), then it divided the 18, which resulted in 6 (18 / 3 = 6)."
+        },
+        {
+            "type": "text",
+            "data": "As you can see the order of operations can make a big difference in the outcome of your computation. Any operation you want done first must be placed in parenthesis. You can place parenthesis inside of parenthesis, if need be, as many levels deep as it takes to do whatever you are doing. Example ((((24  6) * (4 / 2)) + 3) * (15  5)) / 2 = ?"
+        },
+        {
+            "type": "text",
+            "data": "CABINET VISION starts out doing the operations in the inner most parentheses and any multiplications and divisions not in parenthesis first, and then it just repeats until it has finished all the operations. Every time it does an operation it is similar to removing the parenthesis around the operations already preformed."
+        },
+        {
+            "type": "text",
+            "data": "((((24  6) * (4 / 2)) + 3) * (15  5)) / 2 = ?"
+        },
+        {
+            "type": "text",
+            "data": "(((18 * 2) + 3) * 10) /2"
+        },
+        {
+            "type": "text",
+            "data": "((36 + 3) * 10) / 2"
+        },
+        {
+            "type": "text",
+            "data": "(39 * 10) /2"
+        },
+        {
+            "type": "text",
+            "data": "390 / 2 = 195"
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\Parametric_Editing\\Intelligence_Workshop\\The_Basics\\Operands_and_the_Order_of_Operations.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

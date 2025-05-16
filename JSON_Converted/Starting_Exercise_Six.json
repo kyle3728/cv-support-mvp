@@ -1,0 +1,197 @@
+{
+    "id": "0b6b9de8-76d1-41bc-90c9-d4f2afe5815c",
+    "title": "Starting_Exercise_Six",
+    "content": [
+        {
+            "type": "text",
+            "data": "Starting Exercise Six"
+        },
+        {
+            "type": "text",
+            "data": "Start a new job. When the \"Job Properties\" screen comes up click on the \"Materials\" tab. Select the Assembly Parts Material Schedule that you setup earlier. Then click on \"OK\"."
+        },
+        {
+            "type": "text",
+            "data": "Draw a Wall (48\" is good enough). \n \n \n Place an Empty Base Object on the Wall. You can find the \"Empty Base Object\" in the Custom Cabinet catalog under Bases. If you don't have an Empty Base Object: \n \n \n Place a Std Base Cabinet on the Wall. \n \n \n Right click on it and select \"Edit\". \n \n \n Click on the Section button and then click on \"Modifications\" and then click on \"Default Assembly\". Answer \"Yes\" when you get the \"Warning\". \n \n \n Click on the \"Return\" option, until it will not go any more. \n \n \n \n \n Click on the Base Object and size it to 30 inches wide, 1.5 inches high, and 24 inches deep. \n \n \n Right click on the base object and select \"Edit\". \n \n \n Look at the base object from the different ortho views. You will see that you don't have any parts. All your screen shows is an empty cabinet 30\"W, 1.5\"H, and 24\"D. \n \n \n Click on the Face ortho view tab. \n \n \n Click on \"New Part\". We will add the \"Wood Top\" piece first, so in the \"Part Type\" area select \"Wood Top\" as the part type. Under the \"Material\" area it should have a panel stock material listed (some kind of Plywood would be perfect). Click on \"Next\". \n \n \n In the \"Size\" window set the size of this part to 28.5\"L and 23.25\"W. Leave the thickness alone. This part is the main piece of the wood top and its length will be what ever the width of the cabinet is minus the thickness of the two end skirts. The width of this part is whatever the depth of the cabinet is minus the thickness of the front skirt. Click on \"Next\". \n \n \n In the \"Orientation\" window leave the orientation set to \"Front\". Click on \"Next\". \n \n \n In the \"Finish\" window check to see that the finish is set to \"Exterior\" for the front, back, and edges. Click on the \"Finish\" button."
+        },
+        {
+            "type": "text",
+            "data": "Draw a Wall (48\" is good enough)."
+        },
+        {
+            "type": "text",
+            "data": "Draw a Wall (48\" is good enough)."
+        },
+        {
+            "type": "text",
+            "data": "Place an Empty Base Object on the Wall. You can find the \"Empty Base Object\" in the Custom Cabinet catalog under Bases. If you don't have an Empty Base Object: \n \n \n Place a Std Base Cabinet on the Wall. \n \n \n Right click on it and select \"Edit\". \n \n \n Click on the Section button and then click on \"Modifications\" and then click on \"Default Assembly\". Answer \"Yes\" when you get the \"Warning\". \n \n \n Click on the \"Return\" option, until it will not go any more."
+        },
+        {
+            "type": "text",
+            "data": "Place an Empty Base Object on the Wall. You can find the \"Empty Base Object\" in the Custom Cabinet catalog under Bases. If you don't have an Empty Base Object:"
+        },
+        {
+            "type": "text",
+            "data": "Place a Std Base Cabinet on the Wall. \n \n \n Right click on it and select \"Edit\". \n \n \n Click on the Section button and then click on \"Modifications\" and then click on \"Default Assembly\". Answer \"Yes\" when you get the \"Warning\". \n \n \n Click on the \"Return\" option, until it will not go any more."
+        },
+        {
+            "type": "text",
+            "data": "Place a Std Base Cabinet on the Wall."
+        },
+        {
+            "type": "text",
+            "data": "Place a Std Base Cabinet on the Wall."
+        },
+        {
+            "type": "text",
+            "data": "Right click on it and select \"Edit\"."
+        },
+        {
+            "type": "text",
+            "data": "Right click on it and select \"Edit\"."
+        },
+        {
+            "type": "text",
+            "data": "Click on the Section button and then click on \"Modifications\" and then click on \"Default Assembly\". Answer \"Yes\" when you get the \"Warning\"."
+        },
+        {
+            "type": "text",
+            "data": "Click on the Section button and then click on \"Modifications\" and then click on \"Default Assembly\". Answer \"Yes\" when you get the \"Warning\"."
+        },
+        {
+            "type": "text",
+            "data": "Click on the \"Return\" option, until it will not go any more."
+        },
+        {
+            "type": "text",
+            "data": "Click on the \"Return\" option, until it will not go any more."
+        },
+        {
+            "type": "text",
+            "data": "Click on the Base Object and size it to 30 inches wide, 1.5 inches high, and 24 inches deep."
+        },
+        {
+            "type": "text",
+            "data": "Click on the Base Object and size it to 30 inches wide, 1.5 inches high, and 24 inches deep."
+        },
+        {
+            "type": "text",
+            "data": "Right click on the base object and select \"Edit\"."
+        },
+        {
+            "type": "text",
+            "data": "Right click on the base object and select \"Edit\"."
+        },
+        {
+            "type": "text",
+            "data": "Look at the base object from the different ortho views. You will see that you don't have any parts. All your screen shows is an empty cabinet 30\"W, 1.5\"H, and 24\"D."
+        },
+        {
+            "type": "text",
+            "data": "Look at the base object from the different ortho views. You will see that you don't have any parts. All your screen shows is an empty cabinet 30\"W, 1.5\"H, and 24\"D."
+        },
+        {
+            "type": "text",
+            "data": "Click on the Face ortho view tab."
+        },
+        {
+            "type": "text",
+            "data": "Click on the Face ortho view tab."
+        },
+        {
+            "type": "text",
+            "data": "Click on \"New Part\". We will add the \"Wood Top\" piece first, so in the \"Part Type\" area select \"Wood Top\" as the part type. Under the \"Material\" area it should have a panel stock material listed (some kind of Plywood would be perfect). Click on \"Next\"."
+        },
+        {
+            "type": "text",
+            "data": "Click on \"New Part\". We will add the \"Wood Top\" piece first, so in the \"Part Type\" area select \"Wood Top\" as the part type. Under the \"Material\" area it should have a panel stock material listed (some kind of Plywood would be perfect). Click on \"Next\"."
+        },
+        {
+            "type": "text",
+            "data": "In the \"Size\" window set the size of this part to 28.5\"L and 23.25\"W. Leave the thickness alone. This part is the main piece of the wood top and its length will be what ever the width of the cabinet is minus the thickness of the two end skirts. The width of this part is whatever the depth of the cabinet is minus the thickness of the front skirt. Click on \"Next\"."
+        },
+        {
+            "type": "text",
+            "data": "In the \"Size\" window set the size of this part to 28.5\"L and 23.25\"W. Leave the thickness alone. This part is the main piece of the wood top and its length will be what ever the width of the cabinet is minus the thickness of the two end skirts. The width of this part is whatever the depth of the cabinet is minus the thickness of the front skirt. Click on \"Next\"."
+        },
+        {
+            "type": "text",
+            "data": "In the \"Orientation\" window leave the orientation set to \"Front\". Click on \"Next\"."
+        },
+        {
+            "type": "text",
+            "data": "In the \"Orientation\" window leave the orientation set to \"Front\". Click on \"Next\"."
+        },
+        {
+            "type": "text",
+            "data": "In the \"Finish\" window check to see that the finish is set to \"Exterior\" for the front, back, and edges. Click on the \"Finish\" button."
+        },
+        {
+            "type": "text",
+            "data": "In the \"Finish\" window check to see that the finish is set to \"Exterior\" for the front, back, and edges. Click on the \"Finish\" button."
+        },
+        {
+            "type": "text",
+            "data": "You will now be at a Face ortho view and in the sidebar the \"Left/Right\" will be \"-15 inches\"."
+        },
+        {
+            "type": "text",
+            "data": "Set the \"Left/Right\" to .75 inches and press enter. This will move the part so that it is inside of the empty cabinet and leave room for the thickness of the left skirt."
+        },
+        {
+            "type": "text",
+            "data": "Set the \"Left/Right\" to .75 inches and press enter. This will move the part so that it is inside of the empty cabinet and leave room for the thickness of the left skirt."
+        },
+        {
+            "type": "text",
+            "data": "Set the \"Left/Right\" to .75 inches and press enter. This will move the part so that it is inside of the empty cabinet and leave room for the thickness of the left skirt."
+        },
+        {
+            "type": "text",
+            "data": "This part is going to be the main piece of our wood top. We are going to have to lay it face up with the grain running left to right. Also we will need to raise it up so that the face is flush with the top of the empty cabinet. If you click on this part from different ortho views you can see that the reference point is in the left, bottom, and back corner. In order to lay this piece face up with the grain running left to right, we are going to have to rotate this part on two different axis. First we will rotate the part so the face is facing up, and then we will rotate the part so that the grain is running left to right."
+        },
+        {
+            "type": "text",
+            "data": "In order to lay the wood top down so that the face is facing up it will be the X-axis that will act as a hinge. In order to face the reference point we will have to look at the part from an End ortho view. Click on the \"End\" ortho view and then click on the part. We want the part to lay face up so we will be rotating the part clockwise, we will be entering a negative amount. Enter 90 into the \"Rotation\" area and press enter. \n \n \n Now we will rotate the part so the grain is running left to right. In order to rotate the part so that the grain is running left to right and the reference point stays on the left side. It is the Y-axis that will be acting as a hinge and we will rotate the part clockwise so that the reference point stays on the left side. If we were to rotate the part counter-clockwise the reference point would be on the right end of the part. We will be entering a negative amount. Enter 90 into the \"Rotation\" area and press enter."
+        },
+        {
+            "type": "text",
+            "data": "In order to lay the wood top down so that the face is facing up it will be the X-axis that will act as a hinge. In order to face the reference point we will have to look at the part from an End ortho view. Click on the \"End\" ortho view and then click on the part. We want the part to lay face up so we will be rotating the part clockwise, we will be entering a negative amount. Enter 90 into the \"Rotation\" area and press enter."
+        },
+        {
+            "type": "text",
+            "data": "In order to lay the wood top down so that the face is facing up it will be the X-axis that will act as a hinge. In order to face the reference point we will have to look at the part from an End ortho view. Click on the \"End\" ortho view and then click on the part. We want the part to lay face up so we will be rotating the part clockwise, we will be entering a negative amount. Enter 90 into the \"Rotation\" area and press enter."
+        },
+        {
+            "type": "text",
+            "data": "Now we will rotate the part so the grain is running left to right. In order to rotate the part so that the grain is running left to right and the reference point stays on the left side. It is the Y-axis that will be acting as a hinge and we will rotate the part clockwise so that the reference point stays on the left side. If we were to rotate the part counter-clockwise the reference point would be on the right end of the part. We will be entering a negative amount. Enter 90 into the \"Rotation\" area and press enter."
+        },
+        {
+            "type": "text",
+            "data": "Now we will rotate the part so the grain is running left to right. In order to rotate the part so that the grain is running left to right and the reference point stays on the left side. It is the Y-axis that will be acting as a hinge and we will rotate the part clockwise so that the reference point stays on the left side. If we were to rotate the part counter-clockwise the reference point would be on the right end of the part. We will be entering a negative amount. Enter 90 into the \"Rotation\" area and press enter."
+        },
+        {
+            "type": "text",
+            "data": "Click on the part while in different ortho views, note where the reference point is, note where the part is. You will notice that it needs to be raised up to be flush with the top of the base object it is contained in."
+        },
+        {
+            "type": "text",
+            "data": "Click on the Face ortho view tab and then click on the part. In the sidebar, enter .75 in the \"Up/Down\" window."
+        },
+        {
+            "type": "text",
+            "data": "Click on the Face ortho view tab and then click on the part. In the sidebar, enter .75 in the \"Up/Down\" window."
+        },
+        {
+            "type": "text",
+            "data": "Click on the Face ortho view tab and then click on the part. In the sidebar, enter .75 in the \"Up/Down\" window."
+        },
+        {
+            "type": "text",
+            "data": "This piece is now rotated and placed correctly. Next we will add the left \"Skirt\"."
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\Parametric_Editing\\Intelligence_Workshop\\6th_Exercise\\Starting_Exercise_Six.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

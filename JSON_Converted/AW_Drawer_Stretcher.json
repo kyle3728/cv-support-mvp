@@ -1,0 +1,84 @@
+{
+    "id": "68f6d70f-1f07-4c56-be86-4afa27527966",
+    "title": "AW_Drawer_Stretcher",
+    "content": [
+        {
+            "type": "text",
+            "data": "Drawer Stretcher"
+        },
+        {
+            "type": "text",
+            "data": "Drawer stretchers, sometimes called spreaders, separate Drawers on Cabinets. You will provide a numeric value for their width. Other questions establish whether you have one at the top Drawer only, or multiple Drawer Stretchers."
+        },
+        {
+            "type": "image",
+            "data": "image222.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Regardless of how you answer these questions, you will not see the Drawer Stretcher in a Cabinet until you  edit  a Cabinet and place one there, and save the modified Cabinet back to your library."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "edit",
+                "uuid": "a2e00542-f792-4b94-8de1-73305a59d475",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "The following diagram shows the options available in the Drawer Stretcher Branch. Click a specific option in the diagram for more information or continue through this topic for information on all the options."
+        },
+        {
+            "type": "image",
+            "data": "image224.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Stretcher Banding Definition (Standard #666)"
+        },
+        {
+            "type": "image",
+            "data": "image225.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Stretchers (Standard #166)"
+        },
+        {
+            "type": "image",
+            "data": "image226.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Stretcher Width (Standard #164)"
+        },
+        {
+            "type": "image",
+            "data": "image227.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Stretcher Machining Face (Standard #583)"
+        },
+        {
+            "type": "image",
+            "data": "image228.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\System_Level\\Ribbonbar\\Main_Tab\\Construction_Group\\Assembly_Manager\\Assembly\\Branches\\Interior_Case\\AW_Drawer_Stretcher.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

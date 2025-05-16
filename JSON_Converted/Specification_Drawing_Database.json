@@ -1,0 +1,805 @@
+{
+    "id": "d503e789-a942-4e00-a112-80222fa388ae",
+    "title": "Specification_Drawing_Database",
+    "content": [
+        {
+            "type": "text",
+            "data": "The Drawings.Sym File"
+        },
+        {
+            "type": "text",
+            "data": "The  drawings.sym  file stores all CAD library objects (symbols).\u00a0\u00a0The following is the breakdown of the tables and their fields:"
+        },
+        {
+            "type": "text",
+            "data": "Header"
+        },
+        {
+            "type": "text",
+            "data": "This Table stores general information about the Database."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "Version",
+                        "A number indicating the version of the Database. The Database version changes each time fields are added/removed from the Database."
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "Version"
+        },
+        {
+            "type": "text",
+            "data": "A number indicating the version of the Database. The Database version changes each time fields are added/removed from the Database."
+        },
+        {
+            "type": "text",
+            "data": "Menus"
+        },
+        {
+            "type": "text",
+            "data": "This Table stores general information about the Drawing Symbols."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "MenuID",
+                        "A unique number used to reference the menu."
+                    ],
+                    [
+                        "Parent",
+                        "A reference to another [MenuID] if this menu has a parent."
+                    ],
+                    [
+                        "ItemNumber",
+                        "The sort order for a group of menus."
+                    ],
+                    [
+                        "Label",
+                        "The Name of the Symbol."
+                    ],
+                    [
+                        "SceneID",
+                        "A cross-reference to the [Scenes].[ SceneID] field."
+                    ],
+                    [
+                        "Type",
+                        "Indicates the template type for the drawing symbol \n 0=None \n 1=Title Block \n 2=Assembly Sheets \n 3=Wall Elevations \n 4=Floor Plans \n 5=Drawing Scenes"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "MenuID"
+        },
+        {
+            "type": "text",
+            "data": "A unique number used to reference the menu."
+        },
+        {
+            "type": "text",
+            "data": "Parent"
+        },
+        {
+            "type": "text",
+            "data": "A reference to another [MenuID] if this menu has a parent."
+        },
+        {
+            "type": "text",
+            "data": "ItemNumber"
+        },
+        {
+            "type": "text",
+            "data": "The sort order for a group of menus."
+        },
+        {
+            "type": "text",
+            "data": "Label"
+        },
+        {
+            "type": "text",
+            "data": "The Name of the Symbol."
+        },
+        {
+            "type": "text",
+            "data": "SceneID"
+        },
+        {
+            "type": "text",
+            "data": "A cross-reference to the [Scenes].[ SceneID] field."
+        },
+        {
+            "type": "text",
+            "data": "Type"
+        },
+        {
+            "type": "text",
+            "data": "Indicates the template type for the drawing symbol"
+        },
+        {
+            "type": "text",
+            "data": "0=None"
+        },
+        {
+            "type": "text",
+            "data": "1=Title Block"
+        },
+        {
+            "type": "text",
+            "data": "2=Assembly Sheets"
+        },
+        {
+            "type": "text",
+            "data": "3=Wall Elevations"
+        },
+        {
+            "type": "text",
+            "data": "4=Floor Plans"
+        },
+        {
+            "type": "text",
+            "data": "5=Drawing Scenes"
+        },
+        {
+            "type": "text",
+            "data": "Scenes"
+        },
+        {
+            "type": "text",
+            "data": "This Table stores the Scenes used on the Drawings page and their make up."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "SceneID",
+                        "A unique number to reference the Scene."
+                    ],
+                    [
+                        "Attribute",
+                        "A series of bit flags indicating the Scene\u2019s attribute: \n \n \n \n \n \n \n \n Flags \n \n \n Bits \n \n \n Description \n \n \n Value \n \n \n \n \n Axis \n \n \n 2 \n \n \n Axis scene is drawn on \n \n \n \u00a0 \n \n \n \n \n \u00a0 \n \n \n \u00a0 \n \n \n \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0Unknown \n \n \n 0 \n \n \n \n \n \u00a0 \n \n \n \u00a0 \n \n \n \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0XY \n \n \n 1 \n \n \n \n \n \u00a0 \n \n \n \u00a0 \n \n \n \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0XZ \n \n \n 2 \n \n \n \n \n \u00a0 \n \n \n \u00a0 \n \n \n \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0ZY \n \n \n 3 \n \n \n \n \n Level \n \n \n 3 \n \n \n Level of scene \n \n \n \u00a0 \n \n \n \n \n \u00a0 \n \n \n \u00a0 \n \n \n \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0Unknown \n \n \n 0 \n \n \n \n \n \u00a0 \n \n \n \u00a0 \n \n \n \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0Layout \n \n \n 1 \n \n \n \n \n \u00a0 \n \n \n \u00a0 \n \n \n \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0Cabinet \n \n \n 2 \n \n \n \n \n \u00a0 \n \n \n \u00a0 \n \n \n \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0Part \n \n \n 3 \n \n \n \n \n \u00a0 \n \n \n \u00a0 \n \n \n \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0Drawing \n \n \n 4 \n \n \n \n \n Overlay \n \n \n 1 \n \n \n Is drawn on one of the views \n \n \n On \n \n \n \n \n Used \n \n \n 1 \n \n \n Has been used in drawings \n \n \n On \n \n \n \n \n Lock \n \n \n 1 \n \n \n Scene can be edited \n \n \n On \n \n \n \n \n Modified \n \n \n 1 \n \n \n Has been edited \n \n \n On \n \n \n \n \n Explode \n \n \n 1 \n \n \n Is an exploded 3D view \n \n \n On \n \n \n \n \n Hide \n \n \n 1 \n \n \n Is block drawn around scene instead of drawn \n \n \n On",
+                        "Flags",
+                        "Bits",
+                        "Description",
+                        "Value",
+                        "Axis",
+                        "2",
+                        "Axis scene is drawn on",
+                        "",
+                        "",
+                        "",
+                        "Unknown",
+                        "0",
+                        "",
+                        "",
+                        "XY",
+                        "1",
+                        "",
+                        "",
+                        "XZ",
+                        "2",
+                        "",
+                        "",
+                        "ZY",
+                        "3",
+                        "Level",
+                        "3",
+                        "Level of scene",
+                        "",
+                        "",
+                        "",
+                        "Unknown",
+                        "0",
+                        "",
+                        "",
+                        "Layout",
+                        "1",
+                        "",
+                        "",
+                        "Cabinet",
+                        "2",
+                        "",
+                        "",
+                        "Part",
+                        "3",
+                        "",
+                        "",
+                        "Drawing",
+                        "4",
+                        "Overlay",
+                        "1",
+                        "Is drawn on one of the views",
+                        "On",
+                        "Used",
+                        "1",
+                        "Has been used in drawings",
+                        "On",
+                        "Lock",
+                        "1",
+                        "Scene can be edited",
+                        "On",
+                        "Modified",
+                        "1",
+                        "Has been edited",
+                        "On",
+                        "Explode",
+                        "1",
+                        "Is an exploded 3D view",
+                        "On",
+                        "Hide",
+                        "1",
+                        "Is block drawn around scene instead of drawn",
+                        "On"
+                    ],
+                    [
+                        "Flags",
+                        "Bits",
+                        "Description",
+                        "Value"
+                    ],
+                    [
+                        "Axis",
+                        "2",
+                        "Axis scene is drawn on",
+                        ""
+                    ],
+                    [
+                        "",
+                        "",
+                        "Unknown",
+                        "0"
+                    ],
+                    [
+                        "",
+                        "",
+                        "XY",
+                        "1"
+                    ],
+                    [
+                        "",
+                        "",
+                        "XZ",
+                        "2"
+                    ],
+                    [
+                        "",
+                        "",
+                        "ZY",
+                        "3"
+                    ],
+                    [
+                        "Level",
+                        "3",
+                        "Level of scene",
+                        ""
+                    ],
+                    [
+                        "",
+                        "",
+                        "Unknown",
+                        "0"
+                    ],
+                    [
+                        "",
+                        "",
+                        "Layout",
+                        "1"
+                    ],
+                    [
+                        "",
+                        "",
+                        "Cabinet",
+                        "2"
+                    ],
+                    [
+                        "",
+                        "",
+                        "Part",
+                        "3"
+                    ],
+                    [
+                        "",
+                        "",
+                        "Drawing",
+                        "4"
+                    ],
+                    [
+                        "Overlay",
+                        "1",
+                        "Is drawn on one of the views",
+                        "On"
+                    ],
+                    [
+                        "Used",
+                        "1",
+                        "Has been used in drawings",
+                        "On"
+                    ],
+                    [
+                        "Lock",
+                        "1",
+                        "Scene can be edited",
+                        "On"
+                    ],
+                    [
+                        "Modified",
+                        "1",
+                        "Has been edited",
+                        "On"
+                    ],
+                    [
+                        "Explode",
+                        "1",
+                        "Is an exploded 3D view",
+                        "On"
+                    ],
+                    [
+                        "Hide",
+                        "1",
+                        "Is block drawn around scene instead of drawn",
+                        "On"
+                    ],
+                    [
+                        "Left",
+                        "The default left limit of the Scene."
+                    ],
+                    [
+                        "Top",
+                        "The default top limit of the Scene."
+                    ],
+                    [
+                        "Right",
+                        "The default right limit of the Scene."
+                    ],
+                    [
+                        "Bottom",
+                        "The default bottom limit of the Scene."
+                    ],
+                    [
+                        "Count",
+                        "The number of objects in the Scene."
+                    ],
+                    [
+                        "Objects",
+                        "A block of binary data containing the CAD objects"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "SceneID"
+        },
+        {
+            "type": "text",
+            "data": "A unique number to reference the Scene."
+        },
+        {
+            "type": "text",
+            "data": "Attribute"
+        },
+        {
+            "type": "text",
+            "data": "A series of bit flags indicating the Scene\u2019s attribute:"
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Flags",
+                    "Bits",
+                    "Description",
+                    "Value"
+                ],
+                "rows": [
+                    [
+                        "Axis",
+                        "2",
+                        "Axis scene is drawn on",
+                        ""
+                    ],
+                    [
+                        "",
+                        "",
+                        "Unknown",
+                        "0"
+                    ],
+                    [
+                        "",
+                        "",
+                        "XY",
+                        "1"
+                    ],
+                    [
+                        "",
+                        "",
+                        "XZ",
+                        "2"
+                    ],
+                    [
+                        "",
+                        "",
+                        "ZY",
+                        "3"
+                    ],
+                    [
+                        "Level",
+                        "3",
+                        "Level of scene",
+                        ""
+                    ],
+                    [
+                        "",
+                        "",
+                        "Unknown",
+                        "0"
+                    ],
+                    [
+                        "",
+                        "",
+                        "Layout",
+                        "1"
+                    ],
+                    [
+                        "",
+                        "",
+                        "Cabinet",
+                        "2"
+                    ],
+                    [
+                        "",
+                        "",
+                        "Part",
+                        "3"
+                    ],
+                    [
+                        "",
+                        "",
+                        "Drawing",
+                        "4"
+                    ],
+                    [
+                        "Overlay",
+                        "1",
+                        "Is drawn on one of the views",
+                        "On"
+                    ],
+                    [
+                        "Used",
+                        "1",
+                        "Has been used in drawings",
+                        "On"
+                    ],
+                    [
+                        "Lock",
+                        "1",
+                        "Scene can be edited",
+                        "On"
+                    ],
+                    [
+                        "Modified",
+                        "1",
+                        "Has been edited",
+                        "On"
+                    ],
+                    [
+                        "Explode",
+                        "1",
+                        "Is an exploded 3D view",
+                        "On"
+                    ],
+                    [
+                        "Hide",
+                        "1",
+                        "Is block drawn around scene instead of drawn",
+                        "On"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Flags"
+        },
+        {
+            "type": "text",
+            "data": "Bits"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "Value"
+        },
+        {
+            "type": "text",
+            "data": "Axis"
+        },
+        {
+            "type": "text",
+            "data": "2"
+        },
+        {
+            "type": "text",
+            "data": "Axis scene is drawn on"
+        },
+        {
+            "type": "text",
+            "data": "Unknown"
+        },
+        {
+            "type": "text",
+            "data": "0"
+        },
+        {
+            "type": "text",
+            "data": "XY"
+        },
+        {
+            "type": "text",
+            "data": "1"
+        },
+        {
+            "type": "text",
+            "data": "XZ"
+        },
+        {
+            "type": "text",
+            "data": "2"
+        },
+        {
+            "type": "text",
+            "data": "ZY"
+        },
+        {
+            "type": "text",
+            "data": "3"
+        },
+        {
+            "type": "text",
+            "data": "Level"
+        },
+        {
+            "type": "text",
+            "data": "3"
+        },
+        {
+            "type": "text",
+            "data": "Level of scene"
+        },
+        {
+            "type": "text",
+            "data": "Unknown"
+        },
+        {
+            "type": "text",
+            "data": "0"
+        },
+        {
+            "type": "text",
+            "data": "Layout"
+        },
+        {
+            "type": "text",
+            "data": "1"
+        },
+        {
+            "type": "text",
+            "data": "Cabinet"
+        },
+        {
+            "type": "text",
+            "data": "2"
+        },
+        {
+            "type": "text",
+            "data": "Part"
+        },
+        {
+            "type": "text",
+            "data": "3"
+        },
+        {
+            "type": "text",
+            "data": "Drawing"
+        },
+        {
+            "type": "text",
+            "data": "4"
+        },
+        {
+            "type": "text",
+            "data": "Overlay"
+        },
+        {
+            "type": "text",
+            "data": "1"
+        },
+        {
+            "type": "text",
+            "data": "Is drawn on one of the views"
+        },
+        {
+            "type": "text",
+            "data": "On"
+        },
+        {
+            "type": "text",
+            "data": "Used"
+        },
+        {
+            "type": "text",
+            "data": "1"
+        },
+        {
+            "type": "text",
+            "data": "Has been used in drawings"
+        },
+        {
+            "type": "text",
+            "data": "On"
+        },
+        {
+            "type": "text",
+            "data": "Lock"
+        },
+        {
+            "type": "text",
+            "data": "1"
+        },
+        {
+            "type": "text",
+            "data": "Scene can be edited"
+        },
+        {
+            "type": "text",
+            "data": "On"
+        },
+        {
+            "type": "text",
+            "data": "Modified"
+        },
+        {
+            "type": "text",
+            "data": "1"
+        },
+        {
+            "type": "text",
+            "data": "Has been edited"
+        },
+        {
+            "type": "text",
+            "data": "On"
+        },
+        {
+            "type": "text",
+            "data": "Explode"
+        },
+        {
+            "type": "text",
+            "data": "1"
+        },
+        {
+            "type": "text",
+            "data": "Is an exploded 3D view"
+        },
+        {
+            "type": "text",
+            "data": "On"
+        },
+        {
+            "type": "text",
+            "data": "Hide"
+        },
+        {
+            "type": "text",
+            "data": "1"
+        },
+        {
+            "type": "text",
+            "data": "Is block drawn around scene instead of drawn"
+        },
+        {
+            "type": "text",
+            "data": "On"
+        },
+        {
+            "type": "text",
+            "data": "Left"
+        },
+        {
+            "type": "text",
+            "data": "The default left limit of the Scene."
+        },
+        {
+            "type": "text",
+            "data": "Top"
+        },
+        {
+            "type": "text",
+            "data": "The default top limit of the Scene."
+        },
+        {
+            "type": "text",
+            "data": "Right"
+        },
+        {
+            "type": "text",
+            "data": "The default right limit of the Scene."
+        },
+        {
+            "type": "text",
+            "data": "Bottom"
+        },
+        {
+            "type": "text",
+            "data": "The default bottom limit of the Scene."
+        },
+        {
+            "type": "text",
+            "data": "Count"
+        },
+        {
+            "type": "text",
+            "data": "The number of objects in the Scene."
+        },
+        {
+            "type": "text",
+            "data": "Objects"
+        },
+        {
+            "type": "text",
+            "data": "A block of binary data containing the CAD objects"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Specification_Drawing_Database.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

@@ -1,0 +1,2102 @@
+{
+    "id": "52684a8b-fbe6-46ef-9244-bdd096a1cb53",
+    "title": "Internal_Part_Names",
+    "content": [
+        {
+            "type": "text",
+            "data": "Internal Part Names"
+        },
+        {
+            "type": "text",
+            "data": "Following is a list of all system Parts including the internal name for each Part. Although you may change the Part name in the Part Manager, you will never be able to change the internal name, therefore, you will have to use the one on this list. The internal name is in capitals following the Part name."
+        },
+        {
+            "type": "text",
+            "data": "Assembly > Closet"
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Closet Panel",
+                    "S_CLOSETPANEL"
+                ],
+                "rows": [
+                    [
+                        "Closet Shelf",
+                        "S_CLOSETSHELF"
+                    ],
+                    [
+                        "VB Shelf",
+                        "S_VBSHELF"
+                    ],
+                    [
+                        "Closet Counter",
+                        "S_CLOSETCOUNTER"
+                    ],
+                    [
+                        "Heel Stop",
+                        "S_HEELSTP"
+                    ],
+                    [
+                        "Shelf Lip",
+                        "S_SLFLIP"
+                    ],
+                    [
+                        "Shoe Shelf",
+                        "S_SSLF"
+                    ],
+                    [
+                        "Vertical Divider",
+                        "S_VDIV"
+                    ],
+                    [
+                        "Horizontal Divider",
+                        "S_HDIV"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Closet Panel"
+        },
+        {
+            "type": "text",
+            "data": "S_CLOSETPANEL"
+        },
+        {
+            "type": "text",
+            "data": "Closet Shelf"
+        },
+        {
+            "type": "text",
+            "data": "S_CLOSETSHELF"
+        },
+        {
+            "type": "text",
+            "data": "VB Shelf"
+        },
+        {
+            "type": "text",
+            "data": "S_VBSHELF"
+        },
+        {
+            "type": "text",
+            "data": "Closet Counter"
+        },
+        {
+            "type": "text",
+            "data": "S_CLOSETCOUNTER"
+        },
+        {
+            "type": "text",
+            "data": "Heel Stop"
+        },
+        {
+            "type": "text",
+            "data": "S_HEELSTP"
+        },
+        {
+            "type": "text",
+            "data": "Shelf Lip"
+        },
+        {
+            "type": "text",
+            "data": "S_SLFLIP"
+        },
+        {
+            "type": "text",
+            "data": "Shoe Shelf"
+        },
+        {
+            "type": "text",
+            "data": "S_SSLF"
+        },
+        {
+            "type": "text",
+            "data": "Vertical Divider"
+        },
+        {
+            "type": "text",
+            "data": "S_VDIV"
+        },
+        {
+            "type": "text",
+            "data": "Horizontal Divider"
+        },
+        {
+            "type": "text",
+            "data": "S_HDIV"
+        },
+        {
+            "type": "text",
+            "data": "Assembly > Case > Interior"
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Unfinished Left End",
+                    "LU"
+                ],
+                "rows": [
+                    [
+                        "Unfinished Right End",
+                        "RU"
+                    ],
+                    [
+                        "Bottom",
+                        "BO"
+                    ],
+                    [
+                        "Deck",
+                        "DE"
+                    ],
+                    [
+                        "Unfinished Back",
+                        "UB"
+                    ],
+                    [
+                        "Adjustable Shelf",
+                        "AS"
+                    ],
+                    [
+                        "Shelf",
+                        "SH"
+                    ],
+                    [
+                        "Fixed Shelf",
+                        "FS"
+                    ],
+                    [
+                        "Top",
+                        "TO"
+                    ],
+                    [
+                        "Top Stretcher",
+                        "TS"
+                    ],
+                    [
+                        "Web Frame",
+                        "WF"
+                    ],
+                    [
+                        "Gusset",
+                        "GU"
+                    ],
+                    [
+                        "Drawer Stretcher",
+                        "DS"
+                    ],
+                    [
+                        "Nailer",
+                        "NA"
+                    ],
+                    [
+                        "Shelf Nailer",
+                        "SN"
+                    ],
+                    [
+                        "Partition",
+                        "PT"
+                    ],
+                    [
+                        "Clipped Back Support",
+                        "S_CBS"
+                    ],
+                    [
+                        "Adjustable Glass Shelf",
+                        "S_ASG"
+                    ],
+                    [
+                        "Left Sub End",
+                        "S_LSE"
+                    ],
+                    [
+                        "Right Sub End",
+                        "S_RSE"
+                    ],
+                    [
+                        "Shelf Bull Nose",
+                        "S_SHBN"
+                    ],
+                    [
+                        "Divider",
+                        "S_DIV"
+                    ],
+                    [
+                        "Vertical Divider",
+                        "S_VDIVA"
+                    ],
+                    [
+                        "Horizontal Divider",
+                        "S_HDIVA"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Unfinished Left End"
+        },
+        {
+            "type": "text",
+            "data": "LU"
+        },
+        {
+            "type": "text",
+            "data": "Unfinished Right End"
+        },
+        {
+            "type": "text",
+            "data": "RU"
+        },
+        {
+            "type": "text",
+            "data": "Bottom"
+        },
+        {
+            "type": "text",
+            "data": "BO"
+        },
+        {
+            "type": "text",
+            "data": "Deck"
+        },
+        {
+            "type": "text",
+            "data": "DE"
+        },
+        {
+            "type": "text",
+            "data": "Unfinished Back"
+        },
+        {
+            "type": "text",
+            "data": "UB"
+        },
+        {
+            "type": "text",
+            "data": "Adjustable Shelf"
+        },
+        {
+            "type": "text",
+            "data": "AS"
+        },
+        {
+            "type": "text",
+            "data": "Shelf"
+        },
+        {
+            "type": "text",
+            "data": "SH"
+        },
+        {
+            "type": "text",
+            "data": "Fixed Shelf"
+        },
+        {
+            "type": "text",
+            "data": "FS"
+        },
+        {
+            "type": "text",
+            "data": "Top"
+        },
+        {
+            "type": "text",
+            "data": "TO"
+        },
+        {
+            "type": "text",
+            "data": "Top Stretcher"
+        },
+        {
+            "type": "text",
+            "data": "TS"
+        },
+        {
+            "type": "text",
+            "data": "Web Frame"
+        },
+        {
+            "type": "text",
+            "data": "WF"
+        },
+        {
+            "type": "text",
+            "data": "Gusset"
+        },
+        {
+            "type": "text",
+            "data": "GU"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Stretcher"
+        },
+        {
+            "type": "text",
+            "data": "DS"
+        },
+        {
+            "type": "text",
+            "data": "Nailer"
+        },
+        {
+            "type": "text",
+            "data": "NA"
+        },
+        {
+            "type": "text",
+            "data": "Shelf Nailer"
+        },
+        {
+            "type": "text",
+            "data": "SN"
+        },
+        {
+            "type": "text",
+            "data": "Partition"
+        },
+        {
+            "type": "text",
+            "data": "PT"
+        },
+        {
+            "type": "text",
+            "data": "Clipped Back Support"
+        },
+        {
+            "type": "text",
+            "data": "S_CBS"
+        },
+        {
+            "type": "text",
+            "data": "Adjustable Glass Shelf"
+        },
+        {
+            "type": "text",
+            "data": "S_ASG"
+        },
+        {
+            "type": "text",
+            "data": "Left Sub End"
+        },
+        {
+            "type": "text",
+            "data": "S_LSE"
+        },
+        {
+            "type": "text",
+            "data": "Right Sub End"
+        },
+        {
+            "type": "text",
+            "data": "S_RSE"
+        },
+        {
+            "type": "text",
+            "data": "Shelf Bull Nose"
+        },
+        {
+            "type": "text",
+            "data": "S_SHBN"
+        },
+        {
+            "type": "text",
+            "data": "Divider"
+        },
+        {
+            "type": "text",
+            "data": "S_DIV"
+        },
+        {
+            "type": "text",
+            "data": "Vertical Divider"
+        },
+        {
+            "type": "text",
+            "data": "S_VDIVA"
+        },
+        {
+            "type": "text",
+            "data": "Horizontal Divider"
+        },
+        {
+            "type": "text",
+            "data": "S_HDIVA"
+        },
+        {
+            "type": "text",
+            "data": "Assembly > Case > Exposed"
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Finished Left End",
+                    "LF"
+                ],
+                "rows": [
+                    [
+                        "Finished Right End",
+                        "RF"
+                    ],
+                    [
+                        "Finished Back",
+                        "FB"
+                    ],
+                    [
+                        "Skin - Left Finished",
+                        "SLF"
+                    ],
+                    [
+                        "Skin - Right Finished",
+                        "SRF"
+                    ],
+                    [
+                        "Panel",
+                        "PANEL"
+                    ],
+                    [
+                        "Filler",
+                        "FILLER"
+                    ],
+                    [
+                        "Vertical Laminate",
+                        "LAMV"
+                    ],
+                    [
+                        "Horizontal Laminate",
+                        "LAMH"
+                    ],
+                    [
+                        "Sink Skirt",
+                        "S_SNKSKRT"
+                    ],
+                    [
+                        "Front Skirt",
+                        "S_FRSKRT"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Finished Left End"
+        },
+        {
+            "type": "text",
+            "data": "LF"
+        },
+        {
+            "type": "text",
+            "data": "Finished Right End"
+        },
+        {
+            "type": "text",
+            "data": "RF"
+        },
+        {
+            "type": "text",
+            "data": "Finished Back"
+        },
+        {
+            "type": "text",
+            "data": "FB"
+        },
+        {
+            "type": "text",
+            "data": "Skin - Left Finished"
+        },
+        {
+            "type": "text",
+            "data": "SLF"
+        },
+        {
+            "type": "text",
+            "data": "Skin - Right Finished"
+        },
+        {
+            "type": "text",
+            "data": "SRF"
+        },
+        {
+            "type": "text",
+            "data": "Panel"
+        },
+        {
+            "type": "text",
+            "data": "PANEL"
+        },
+        {
+            "type": "text",
+            "data": "Filler"
+        },
+        {
+            "type": "text",
+            "data": "FILLER"
+        },
+        {
+            "type": "text",
+            "data": "Vertical Laminate"
+        },
+        {
+            "type": "text",
+            "data": "LAMV"
+        },
+        {
+            "type": "text",
+            "data": "Horizontal Laminate"
+        },
+        {
+            "type": "text",
+            "data": "LAMH"
+        },
+        {
+            "type": "text",
+            "data": "Assembly > Face"
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Shadowline Rail",
+                    "S_SHRAIL"
+                ],
+                "rows": [
+                    [
+                        "Shadowline Edge",
+                        "S_SHEDGE"
+                    ],
+                    [
+                        "Mid Shadowline Channel",
+                        "S_SHHRDW"
+                    ],
+                    [
+                        "Outer Shadowline Channel",
+                        "S_SHHRDWE"
+                    ],
+                    [
+                        "Shadowline Bracket",
+                        "S_SHHRDWRB"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Shadowline Rail"
+        },
+        {
+            "type": "text",
+            "data": "S_SHRAIL"
+        },
+        {
+            "type": "text",
+            "data": "Shadowline Edge"
+        },
+        {
+            "type": "text",
+            "data": "S_SHEDGE"
+        },
+        {
+            "type": "text",
+            "data": "Mid Shadowline Channel"
+        },
+        {
+            "type": "text",
+            "data": "S_SHHRDW"
+        },
+        {
+            "type": "text",
+            "data": "Outer Shadowline Channel"
+        },
+        {
+            "type": "text",
+            "data": "S_SHHRDWE"
+        },
+        {
+            "type": "text",
+            "data": "Shadowline Bracket"
+        },
+        {
+            "type": "text",
+            "data": "S_SHHRDWRB"
+        },
+        {
+            "type": "text",
+            "data": "Assembly > Face > Frame"
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Right Stile",
+                    "RS"
+                ],
+                "rows": [
+                    [
+                        "Left Stile",
+                        "LS"
+                    ],
+                    [
+                        "Top Rail",
+                        "TR"
+                    ],
+                    [
+                        "Bottom Rail",
+                        "BR"
+                    ],
+                    [
+                        "Mid Stile",
+                        "MS"
+                    ],
+                    [
+                        "Mid Rail",
+                        "MR"
+                    ],
+                    [
+                        "Board",
+                        "BOARD"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Right Stile"
+        },
+        {
+            "type": "text",
+            "data": "RS"
+        },
+        {
+            "type": "text",
+            "data": "Left Stile"
+        },
+        {
+            "type": "text",
+            "data": "LS"
+        },
+        {
+            "type": "text",
+            "data": "Top Rail"
+        },
+        {
+            "type": "text",
+            "data": "TR"
+        },
+        {
+            "type": "text",
+            "data": "Bottom Rail"
+        },
+        {
+            "type": "text",
+            "data": "BR"
+        },
+        {
+            "type": "text",
+            "data": "Mid Stile"
+        },
+        {
+            "type": "text",
+            "data": "MS"
+        },
+        {
+            "type": "text",
+            "data": "Mid Rail"
+        },
+        {
+            "type": "text",
+            "data": "MR"
+        },
+        {
+            "type": "text",
+            "data": "Board"
+        },
+        {
+            "type": "text",
+            "data": "BOARD"
+        },
+        {
+            "type": "text",
+            "data": "Assembly > Toe > Structural"
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Front Toe",
+                    "FT"
+                ],
+                "rows": [
+                    [
+                        "Back Toe",
+                        "BT"
+                    ],
+                    [
+                        "Side Toe",
+                        "ST"
+                    ],
+                    [
+                        "Sleepers",
+                        "SL"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Front Toe"
+        },
+        {
+            "type": "text",
+            "data": "FT"
+        },
+        {
+            "type": "text",
+            "data": "Back Toe"
+        },
+        {
+            "type": "text",
+            "data": "BT"
+        },
+        {
+            "type": "text",
+            "data": "Side Toe"
+        },
+        {
+            "type": "text",
+            "data": "ST"
+        },
+        {
+            "type": "text",
+            "data": "Sleepers"
+        },
+        {
+            "type": "text",
+            "data": "SL"
+        },
+        {
+            "type": "text",
+            "data": "Assembly > Toe > Finished"
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Skin - Front Toe",
+                    "SFT"
+                ],
+                "rows": [
+                    [
+                        "Skin - Side Toe",
+                        "SST"
+                    ],
+                    [
+                        "Skin - Back Toe",
+                        "SBT"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Skin - Front Toe"
+        },
+        {
+            "type": "text",
+            "data": "SFT"
+        },
+        {
+            "type": "text",
+            "data": "Skin - Side Toe"
+        },
+        {
+            "type": "text",
+            "data": "SST"
+        },
+        {
+            "type": "text",
+            "data": "Skin - Back Toe"
+        },
+        {
+            "type": "text",
+            "data": "SBT"
+        },
+        {
+            "type": "text",
+            "data": "Assembly > Banding"
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Exterior Banding",
+                    "BNDEX"
+                ],
+                "rows": [
+                    [
+                        "Interior Banding",
+                        "BNBIN"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Exterior Banding"
+        },
+        {
+            "type": "text",
+            "data": "BNDEX"
+        },
+        {
+            "type": "text",
+            "data": "Interior Banding"
+        },
+        {
+            "type": "text",
+            "data": "BNBIN"
+        },
+        {
+            "type": "text",
+            "data": "Counter Top > Structural Top"
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Rough Top",
+                    "RT"
+                ],
+                "rows": [
+                    [
+                        "Build Up",
+                        "S_BU"
+                    ],
+                    [
+                        "Joint Edge Build Up",
+                        "S_BUJE"
+                    ],
+                    [
+                        "Rough Splash",
+                        "S_RSP"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Rough Top"
+        },
+        {
+            "type": "text",
+            "data": "RT"
+        },
+        {
+            "type": "text",
+            "data": "Build Up"
+        },
+        {
+            "type": "text",
+            "data": "S_BU"
+        },
+        {
+            "type": "text",
+            "data": "Joint Edge Build Up"
+        },
+        {
+            "type": "text",
+            "data": "S_BUJE"
+        },
+        {
+            "type": "text",
+            "data": "Rough Splash"
+        },
+        {
+            "type": "text",
+            "data": "S_RSP"
+        },
+        {
+            "type": "text",
+            "data": "Counter Top > Finished Top"
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Counter Top Surface",
+                    "CT"
+                ],
+                "rows": [
+                    [
+                        "Splash",
+                        "SP"
+                    ],
+                    [
+                        "Bull Nose",
+                        "BN"
+                    ],
+                    [
+                        "Inlay",
+                        "S_TOPIN"
+                    ],
+                    [
+                        "End Cap",
+                        "S_ENDCAP"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Counter Top Surface"
+        },
+        {
+            "type": "text",
+            "data": "CT"
+        },
+        {
+            "type": "text",
+            "data": "Splash"
+        },
+        {
+            "type": "text",
+            "data": "SP"
+        },
+        {
+            "type": "text",
+            "data": "Bull Nose"
+        },
+        {
+            "type": "text",
+            "data": "BN"
+        },
+        {
+            "type": "text",
+            "data": "Inlay"
+        },
+        {
+            "type": "text",
+            "data": "S_TOPIN"
+        },
+        {
+            "type": "text",
+            "data": "End Cap"
+        },
+        {
+            "type": "text",
+            "data": "S_ENDCAP"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Box"
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Drawer Box Side",
+                    "BS"
+                ],
+                "rows": [
+                    [
+                        "Drawer Box Sub Front",
+                        "BF"
+                    ],
+                    [
+                        "Drawer Box Back",
+                        "BBK"
+                    ],
+                    [
+                        "Drawer Box Bottom",
+                        "BBT"
+                    ],
+                    [
+                        "Drawer Box Partition",
+                        "S_BPT"
+                    ],
+                    [
+                        "Drawer Box Divider",
+                        "S_BDI"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Drawer Box Side"
+        },
+        {
+            "type": "text",
+            "data": "BS"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Box Sub Front"
+        },
+        {
+            "type": "text",
+            "data": "BF"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Box Back"
+        },
+        {
+            "type": "text",
+            "data": "BBK"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Box Bottom"
+        },
+        {
+            "type": "text",
+            "data": "BBT"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Box Partition"
+        },
+        {
+            "type": "text",
+            "data": "S_BPT"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Box Divider"
+        },
+        {
+            "type": "text",
+            "data": "S_BDI"
+        },
+        {
+            "type": "text",
+            "data": "Roll Out"
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Roll Out Front",
+                    "ROF"
+                ],
+                "rows": [
+                    [
+                        "Roll Out Back",
+                        "ROBK"
+                    ],
+                    [
+                        "Roll Out Side",
+                        "ROS"
+                    ],
+                    [
+                        "Roll Out Bottom",
+                        "ROBT"
+                    ],
+                    [
+                        "Roll Out Laminate",
+                        "ROLAM"
+                    ],
+                    [
+                        "Roll Out Partition",
+                        "S_ROPT"
+                    ],
+                    [
+                        "Roll Out Divider",
+                        "S_RODI"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Roll Out Front"
+        },
+        {
+            "type": "text",
+            "data": "ROF"
+        },
+        {
+            "type": "text",
+            "data": "Roll Out Back"
+        },
+        {
+            "type": "text",
+            "data": "ROBK"
+        },
+        {
+            "type": "text",
+            "data": "Roll Out Side"
+        },
+        {
+            "type": "text",
+            "data": "ROS"
+        },
+        {
+            "type": "text",
+            "data": "Roll Out Bottom"
+        },
+        {
+            "type": "text",
+            "data": "ROBT"
+        },
+        {
+            "type": "text",
+            "data": "Roll Out Laminate"
+        },
+        {
+            "type": "text",
+            "data": "ROLAM"
+        },
+        {
+            "type": "text",
+            "data": "Roll Out Partition"
+        },
+        {
+            "type": "text",
+            "data": "S_ROPT"
+        },
+        {
+            "type": "text",
+            "data": "Roll Out Divider"
+        },
+        {
+            "type": "text",
+            "data": "S_RODI"
+        },
+        {
+            "type": "text",
+            "data": "Colors"
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Red",
+                    "RED"
+                ],
+                "rows": [
+                    [
+                        "Blue",
+                        "BLUE"
+                    ],
+                    [
+                        "Yellow",
+                        "YELLOW"
+                    ],
+                    [
+                        "Black",
+                        "BLACK"
+                    ],
+                    [
+                        "Green",
+                        "GREEN"
+                    ],
+                    [
+                        "Gray",
+                        "GRAY"
+                    ],
+                    [
+                        "White",
+                        "WHITE"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Red"
+        },
+        {
+            "type": "text",
+            "data": "RED"
+        },
+        {
+            "type": "text",
+            "data": "Blue"
+        },
+        {
+            "type": "text",
+            "data": "BLUE"
+        },
+        {
+            "type": "text",
+            "data": "Yellow"
+        },
+        {
+            "type": "text",
+            "data": "YELLOW"
+        },
+        {
+            "type": "text",
+            "data": "Black"
+        },
+        {
+            "type": "text",
+            "data": "BLACK"
+        },
+        {
+            "type": "text",
+            "data": "Green"
+        },
+        {
+            "type": "text",
+            "data": "GREEN"
+        },
+        {
+            "type": "text",
+            "data": "Gray"
+        },
+        {
+            "type": "text",
+            "data": "GRAY"
+        },
+        {
+            "type": "text",
+            "data": "White"
+        },
+        {
+            "type": "text",
+            "data": "WHITE"
+        },
+        {
+            "type": "text",
+            "data": "Room"
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Wall",
+                    "WALL"
+                ],
+                "rows": [
+                    [
+                        "Floor",
+                        "FLOOR"
+                    ],
+                    [
+                        "Ceiling",
+                        "CEIL"
+                    ],
+                    [
+                        "Wood",
+                        "WOOD"
+                    ],
+                    [
+                        "Chrome",
+                        "CHROME"
+                    ],
+                    [
+                        "Glass",
+                        "GLASS"
+                    ],
+                    [
+                        "Brass",
+                        "BRASS"
+                    ],
+                    [
+                        "Plant",
+                        "PLANT"
+                    ],
+                    [
+                        "Cloth",
+                        "CLOTH"
+                    ],
+                    [
+                        "Porcelain",
+                        "PORC"
+                    ],
+                    [
+                        "Lock",
+                        "LOCK"
+                    ],
+                    [
+                        "Appliance Panel",
+                        "S_APANEL"
+                    ],
+                    [
+                        "Computer",
+                        "S_COMPUTER"
+                    ],
+                    [
+                        "Appliance",
+                        "S_APPLIANCE"
+                    ],
+                    [
+                        "Stainless Steel",
+                        "S_STAINLESS"
+                    ],
+                    [
+                        "Mirror",
+                        "S_MIR"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Wall"
+        },
+        {
+            "type": "text",
+            "data": "WALL"
+        },
+        {
+            "type": "text",
+            "data": "Floor"
+        },
+        {
+            "type": "text",
+            "data": "FLOOR"
+        },
+        {
+            "type": "text",
+            "data": "Ceiling"
+        },
+        {
+            "type": "text",
+            "data": "CEIL"
+        },
+        {
+            "type": "text",
+            "data": "Wood"
+        },
+        {
+            "type": "text",
+            "data": "WOOD"
+        },
+        {
+            "type": "text",
+            "data": "Chrome"
+        },
+        {
+            "type": "text",
+            "data": "CHROME"
+        },
+        {
+            "type": "text",
+            "data": "Glass"
+        },
+        {
+            "type": "text",
+            "data": "GLASS"
+        },
+        {
+            "type": "text",
+            "data": "Brass"
+        },
+        {
+            "type": "text",
+            "data": "BRASS"
+        },
+        {
+            "type": "text",
+            "data": "Plant"
+        },
+        {
+            "type": "text",
+            "data": "PLANT"
+        },
+        {
+            "type": "text",
+            "data": "Cloth"
+        },
+        {
+            "type": "text",
+            "data": "CLOTH"
+        },
+        {
+            "type": "text",
+            "data": "Porcelain"
+        },
+        {
+            "type": "text",
+            "data": "PORC"
+        },
+        {
+            "type": "text",
+            "data": "Lock"
+        },
+        {
+            "type": "text",
+            "data": "LOCK"
+        },
+        {
+            "type": "text",
+            "data": "Appliance Panel"
+        },
+        {
+            "type": "text",
+            "data": "S_APANEL"
+        },
+        {
+            "type": "text",
+            "data": "Computer"
+        },
+        {
+            "type": "text",
+            "data": "S_COMPUTER"
+        },
+        {
+            "type": "text",
+            "data": "Appliance"
+        },
+        {
+            "type": "text",
+            "data": "S_APPLIANCE"
+        },
+        {
+            "type": "text",
+            "data": "Stainless Steel"
+        },
+        {
+            "type": "text",
+            "data": "S_STAINLESS"
+        },
+        {
+            "type": "text",
+            "data": "Mirror"
+        },
+        {
+            "type": "text",
+            "data": "S_MIR"
+        },
+        {
+            "type": "text",
+            "data": "Door > Frame"
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Door Right Stile",
+                    "DRS"
+                ],
+                "rows": [
+                    [
+                        "Door Left Stile",
+                        "DLS"
+                    ],
+                    [
+                        "Door Top Rail",
+                        "DTR"
+                    ],
+                    [
+                        "Door Bottom Rail",
+                        "DBR"
+                    ],
+                    [
+                        "Door Mid Stile",
+                        "DMS"
+                    ],
+                    [
+                        "Door Mid Rail",
+                        "DMR"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Door Right Stile"
+        },
+        {
+            "type": "text",
+            "data": "DRS"
+        },
+        {
+            "type": "text",
+            "data": "Door Left Stile"
+        },
+        {
+            "type": "text",
+            "data": "DLS"
+        },
+        {
+            "type": "text",
+            "data": "Door Top Rail"
+        },
+        {
+            "type": "text",
+            "data": "DTR"
+        },
+        {
+            "type": "text",
+            "data": "Door Bottom Rail"
+        },
+        {
+            "type": "text",
+            "data": "DBR"
+        },
+        {
+            "type": "text",
+            "data": "Door Mid Stile"
+        },
+        {
+            "type": "text",
+            "data": "DMS"
+        },
+        {
+            "type": "text",
+            "data": "Door Mid Rail"
+        },
+        {
+            "type": "text",
+            "data": "DMR"
+        },
+        {
+            "type": "text",
+            "data": "Door > Panel"
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Door Raised Panel",
+                    "DRP"
+                ],
+                "rows": [
+                    [
+                        "Door Flat Panel",
+                        "DFP"
+                    ],
+                    [
+                        "Door Glass Panel",
+                        "DGP"
+                    ],
+                    [
+                        "Door Vertical Slats",
+                        "DVS"
+                    ],
+                    [
+                        "Door Horizontal Slats",
+                        "DHS"
+                    ],
+                    [
+                        "Door Slab",
+                        "S_DSLAB"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Door Raised Panel"
+        },
+        {
+            "type": "text",
+            "data": "DRP"
+        },
+        {
+            "type": "text",
+            "data": "Door Flat Panel"
+        },
+        {
+            "type": "text",
+            "data": "DFP"
+        },
+        {
+            "type": "text",
+            "data": "Door Glass Panel"
+        },
+        {
+            "type": "text",
+            "data": "DGP"
+        },
+        {
+            "type": "text",
+            "data": "Door Vertical Slats"
+        },
+        {
+            "type": "text",
+            "data": "DVS"
+        },
+        {
+            "type": "text",
+            "data": "Door Horizontal Slats"
+        },
+        {
+            "type": "text",
+            "data": "DHS"
+        },
+        {
+            "type": "text",
+            "data": "Door Slab"
+        },
+        {
+            "type": "text",
+            "data": "S_DSLAB"
+        },
+        {
+            "type": "text",
+            "data": "Door > Banding"
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Door Edge Banding",
+                    "DBAND"
+                ],
+                "rows": []
+            }
+        },
+        {
+            "type": "text",
+            "data": "Door Edge Banding"
+        },
+        {
+            "type": "text",
+            "data": "DBAND"
+        },
+        {
+            "type": "text",
+            "data": "Door > Molding"
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Applied Inside Edge Molding",
+                    "S_APPLIE"
+                ],
+                "rows": [
+                    [
+                        "Applied Outside Edge Molding",
+                        "S_APPLOE"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Applied Inside Edge Molding"
+        },
+        {
+            "type": "text",
+            "data": "S_APPLIE"
+        },
+        {
+            "type": "text",
+            "data": "Pull"
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Door Pull",
+                    "PULL"
+                ],
+                "rows": [
+                    [
+                        "Drawer Pull",
+                        "PULLD"
+                    ],
+                    [
+                        "Finger Pull",
+                        "S_FPRAIL"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Door Pull"
+        },
+        {
+            "type": "text",
+            "data": "PULL"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Pull"
+        },
+        {
+            "type": "text",
+            "data": "PULLD"
+        },
+        {
+            "type": "text",
+            "data": "Hinge"
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Hinge",
+                    "HNG"
+                ],
+                "rows": [
+                    [
+                        "45 Corner Hinge",
+                        "HNG45"
+                    ],
+                    [
+                        "90 Corner Hinge",
+                        "HNG90"
+                    ],
+                    [
+                        "Double Door Hinge",
+                        "S_HNGDD"
+                    ],
+                    [
+                        "Hinge Plate",
+                        "S_HNGPLT"
+                    ],
+                    [
+                        "Hinge Plate 45",
+                        "S_HNGPLT45"
+                    ],
+                    [
+                        "Hinge Plate 90",
+                        "S_HNGPLT90"
+                    ],
+                    [
+                        "Hinge Plate Double Door",
+                        "S_HNGPLTDD"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Hinge"
+        },
+        {
+            "type": "text",
+            "data": "HNG"
+        },
+        {
+            "type": "text",
+            "data": "45 Corner Hinge"
+        },
+        {
+            "type": "text",
+            "data": "HNG45"
+        },
+        {
+            "type": "text",
+            "data": "90 Corner Hinge"
+        },
+        {
+            "type": "text",
+            "data": "HNG90"
+        },
+        {
+            "type": "text",
+            "data": "Double Door Hinge"
+        },
+        {
+            "type": "text",
+            "data": "S_HNGDD"
+        },
+        {
+            "type": "text",
+            "data": "Hinge Plate"
+        },
+        {
+            "type": "text",
+            "data": "S_HNGPLT"
+        },
+        {
+            "type": "text",
+            "data": "Hinge Plate 45"
+        },
+        {
+            "type": "text",
+            "data": "S_HNGPLT45"
+        },
+        {
+            "type": "text",
+            "data": "Hinge Plate 90"
+        },
+        {
+            "type": "text",
+            "data": "S_HNGPLT90"
+        },
+        {
+            "type": "text",
+            "data": "Hinge Plate Double Door"
+        },
+        {
+            "type": "text",
+            "data": "S_HNGPLTDD"
+        },
+        {
+            "type": "text",
+            "data": "Drawer Guide"
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Drawer Guide",
+                    "DG"
+                ],
+                "rows": [
+                    [
+                        "Roll Out Guide",
+                        "ROG"
+                    ],
+                    [
+                        "Roll Out Shelf Guide",
+                        "ROSG"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Drawer Guide"
+        },
+        {
+            "type": "text",
+            "data": "DG"
+        },
+        {
+            "type": "text",
+            "data": "Roll Out Guide"
+        },
+        {
+            "type": "text",
+            "data": "ROG"
+        },
+        {
+            "type": "text",
+            "data": "Roll Out Shelf Guide"
+        },
+        {
+            "type": "text",
+            "data": "ROSG"
+        },
+        {
+            "type": "text",
+            "data": "Molding"
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Crown",
+                    "CROWN"
+                ],
+                "rows": [
+                    [
+                        "Light Rail",
+                        "S_LIGHTRL"
+                    ],
+                    [
+                        "Scribe",
+                        "S_SCRIBE"
+                    ],
+                    [
+                        "Base Board",
+                        "S_BABOARD"
+                    ],
+                    [
+                        "Chair Rail",
+                        "S_CHRAIL"
+                    ],
+                    [
+                        "Casing",
+                        "S_CASING"
+                    ],
+                    [
+                        "Applied",
+                        "S_APPLM"
+                    ],
+                    [
+                        "Bead",
+                        "S_BEAD"
+                    ],
+                    [
+                        "Ceiling",
+                        "S_CEILING"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Crown"
+        },
+        {
+            "type": "text",
+            "data": "CROWN"
+        },
+        {
+            "type": "text",
+            "data": "Light Rail"
+        },
+        {
+            "type": "text",
+            "data": "S_LIGHTRL"
+        },
+        {
+            "type": "text",
+            "data": "Scribe"
+        },
+        {
+            "type": "text",
+            "data": "S_SCRIBE"
+        },
+        {
+            "type": "text",
+            "data": "Base Board"
+        },
+        {
+            "type": "text",
+            "data": "S_BABOARD"
+        },
+        {
+            "type": "text",
+            "data": "Chair Rail"
+        },
+        {
+            "type": "text",
+            "data": "S_CHRAIL"
+        },
+        {
+            "type": "text",
+            "data": "Casing"
+        },
+        {
+            "type": "text",
+            "data": "S_CASING"
+        },
+        {
+            "type": "text",
+            "data": "Applied"
+        },
+        {
+            "type": "text",
+            "data": "S_APPLM"
+        },
+        {
+            "type": "text",
+            "data": "Bead"
+        },
+        {
+            "type": "text",
+            "data": "S_BEAD"
+        },
+        {
+            "type": "text",
+            "data": "Ceiling"
+        },
+        {
+            "type": "text",
+            "data": "S_CEILING"
+        },
+        {
+            "type": "text",
+            "data": "Wire Baskets"
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Wire Basket",
+                    "S_WB"
+                ],
+                "rows": []
+            }
+        },
+        {
+            "type": "text",
+            "data": "Wire Basket"
+        },
+        {
+            "type": "text",
+            "data": "S_WB"
+        },
+        {
+            "type": "text",
+            "data": "Closet Rod"
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Closet Pole",
+                    "S_CLOSETPOLE"
+                ],
+                "rows": [
+                    [
+                        "Closet Rod",
+                        "S_CLOSETROD"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Closet Pole"
+        },
+        {
+            "type": "text",
+            "data": "S_CLOSETPOLE"
+        },
+        {
+            "type": "text",
+            "data": "Closet Rod"
+        },
+        {
+            "type": "text",
+            "data": "S_CLOSETROD"
+        },
+        {
+            "type": "text",
+            "data": "Sliding Door Rail"
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Sliding Door Rail",
+                    "S_SLDR"
+                ],
+                "rows": [
+                    [
+                        "Sliding Door Roller (top)",
+                        "S_SLDRRLRT"
+                    ],
+                    [
+                        "Sliding Door Rail (bottom)",
+                        "S_SLDRB"
+                    ],
+                    [
+                        "Sliding Door Roller (bottom)",
+                        "S_SLDRRLRB"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Sliding Door Roller (top)"
+        },
+        {
+            "type": "text",
+            "data": "S_SLDRRLRT"
+        },
+        {
+            "type": "text",
+            "data": "Sliding Door Rail (bottom)"
+        },
+        {
+            "type": "text",
+            "data": "S_SLDRB"
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\Parametric_Editing\\Internal_Part_Names.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

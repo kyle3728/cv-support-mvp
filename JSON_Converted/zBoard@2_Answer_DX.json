@@ -1,0 +1,37 @@
+{
+    "id": "309a15d1-5742-4727-85c9-677f470d04d8",
+    "title": "zBoard@2_Answer_DX",
+    "content": [
+        {
+            "type": "text",
+            "data": "Board@2 Answer DX"
+        },
+        {
+            "type": "text",
+            "data": "The width of the part is equal"
+        },
+        {
+            "type": "text",
+            "data": "to the width of the cabinet. If we"
+        },
+        {
+            "type": "text",
+            "data": "change the width of the cabinet"
+        },
+        {
+            "type": "text",
+            "data": "we want the width of the board to"
+        },
+        {
+            "type": "text",
+            "data": "change. Therefore, we need to"
+        },
+        {
+            "type": "text",
+            "data": "write a formula."
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\Parametric_Editing\\Intelligence_Workshop\\5th_Exercise\\zBoard@2_Answer_DX.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

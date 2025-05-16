@@ -1,0 +1,25 @@
+{
+    "id": "4819c989-9a81-46e8-afe3-75c8849c1f9a",
+    "title": "zBoard@3_Code_DY",
+    "content": [
+        {
+            "type": "text",
+            "data": "Board@3 Code DY"
+        },
+        {
+            "type": "text",
+            "data": "Cab.DY - Cab.Board@1.DZ - .5"
+        },
+        {
+            "type": "text",
+            "data": "OR"
+        },
+        {
+            "type": "text",
+            "data": "Cab.DY - (Cab.Board@1.DZ + .5)"
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\Parametric_Editing\\Intelligence_Workshop\\5th_Exercise\\zBoard@3_Code_DY.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

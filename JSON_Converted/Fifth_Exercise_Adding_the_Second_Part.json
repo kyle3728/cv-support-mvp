@@ -1,0 +1,82 @@
+{
+    "id": "99f980fb-4d4c-400f-b7d9-999fb0837172",
+    "title": "Fifth_Exercise_Adding_the_Second_Part",
+    "content": [
+        {
+            "type": "text",
+            "data": "Fifth Exercise Adding the Second Part"
+        },
+        {
+            "type": "text",
+            "data": "Click on a \"Face\"   ortho view and then click on \"New Part\". \n \n \n In the \"Part Type\" area select \"Board\" as the new part, click on \"Next\". \n \n \n In the \"Size\" window set the size to be 11.25\"L by 2.5\"W. This is the back piece it will be running up and down and its length will be the height of the cabinet minus the thickness of board@1. 12 - .75 = 11.25. Click on \"Next\". \n \n \n In the \"Orientation\" window leave the orientation set to \"Front\" click on \"Next\". \n \n \n In the \"Finish\" window set the finish to \"Exterior\" for the front, back, and edges. Click on the \"Finish\" button."
+        },
+        {
+            "type": "text",
+            "data": "Click on a \"Face\"   ortho view and then click on \"New Part\"."
+        },
+        {
+            "type": "text",
+            "data": "Click on a \"Face\"   ortho view and then click on \"New Part\"."
+        },
+        {
+            "type": "image",
+            "data": "image181.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "In the \"Part Type\" area select \"Board\" as the new part, click on \"Next\"."
+        },
+        {
+            "type": "text",
+            "data": "In the \"Part Type\" area select \"Board\" as the new part, click on \"Next\"."
+        },
+        {
+            "type": "text",
+            "data": "In the \"Size\" window set the size to be 11.25\"L by 2.5\"W. This is the back piece it will be running up and down and its length will be the height of the cabinet minus the thickness of board@1. 12 - .75 = 11.25. Click on \"Next\"."
+        },
+        {
+            "type": "text",
+            "data": "In the \"Size\" window set the size to be 11.25\"L by 2.5\"W. This is the back piece it will be running up and down and its length will be the height of the cabinet minus the thickness of board@1. 12 - .75 = 11.25. Click on \"Next\"."
+        },
+        {
+            "type": "text",
+            "data": "In the \"Orientation\" window leave the orientation set to \"Front\" click on \"Next\"."
+        },
+        {
+            "type": "text",
+            "data": "In the \"Orientation\" window leave the orientation set to \"Front\" click on \"Next\"."
+        },
+        {
+            "type": "text",
+            "data": "In the \"Finish\" window set the finish to \"Exterior\" for the front, back, and edges. Click on the \"Finish\" button."
+        },
+        {
+            "type": "text",
+            "data": "In the \"Finish\" window set the finish to \"Exterior\" for the front, back, and edges. Click on the \"Finish\" button."
+        },
+        {
+            "type": "text",
+            "data": "You will now be at a Face ortho view and on the left side of your screen the \"Left/Right\" will be \"-1.25 inches\"."
+        },
+        {
+            "type": "text",
+            "data": "Set the \"Left/Right\" to 0 inches and press enter. This will move the part so that it is inside of the empty cabinet."
+        },
+        {
+            "type": "text",
+            "data": "Set the \"Left/Right\" to 0 inches and press enter. This will move the part so that it is inside of the empty cabinet."
+        },
+        {
+            "type": "text",
+            "data": "Set the \"Left/Right\" to 0 inches and press enter. This will move the part so that it is inside of the empty cabinet."
+        },
+        {
+            "type": "text",
+            "data": "This part is now rotated and positioned correctly so we are ready to add the last piece."
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\Parametric_Editing\\Intelligence_Workshop\\5th_Exercise\\Fifth_Exercise_Adding_the_Second_Part.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

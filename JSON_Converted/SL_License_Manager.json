@@ -1,0 +1,26 @@
+{
+    "id": "194ea14f-d17f-45a9-bd8f-37afe99dd4de",
+    "title": "SL_License_Manager",
+    "content": [
+        {
+            "type": "text",
+            "data": "License Manager"
+        },
+        {
+            "type": "text",
+            "data": "This option opens the License Manager."
+        },
+        {
+            "type": "image",
+            "data": "image38.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "For more information see the License Manager Help file."
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\System_Level\\Ribbonbar\\Utilities_Tab\\Setup_Group\\SL_License_Manager.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

@@ -1,0 +1,74 @@
+{
+    "id": "90ee8aa0-28bc-4e62-a825-db819750891c",
+    "title": "Delete_Cabinet_Numbers",
+    "content": [
+        {
+            "type": "text",
+            "data": "Display or Remove Cabinet/Object Numbers"
+        },
+        {
+            "type": "text",
+            "data": "How do I turn On or Off the display of Cabinet/Object Numbers?"
+        },
+        {
+            "type": "text",
+            "data": "To turn off Cabinet/Object numbers, edit the Annotations layer in your current Layer Schedule."
+        },
+        {
+            "type": "text",
+            "data": "To do this:"
+        },
+        {
+            "type": "text",
+            "data": "From whichever view you do or do not want them displayed Right Click on the screen and click Properties. \n \n \n Click the Layers Tab. \n \n \n Select the Annotations Layer from the list. \n \n \n Click the Edit button. \n \n \n In the Annotations screen enable/disable \"Show Object Numbers\"."
+        },
+        {
+            "type": "text",
+            "data": "From whichever view you do or do not want them displayed Right Click on the screen and click Properties."
+        },
+        {
+            "type": "text",
+            "data": "From whichever view you do or do not want them displayed Right Click on the screen and click Properties."
+        },
+        {
+            "type": "text",
+            "data": "Click the Layers Tab."
+        },
+        {
+            "type": "text",
+            "data": "Click the Layers Tab."
+        },
+        {
+            "type": "text",
+            "data": "Select the Annotations Layer from the list."
+        },
+        {
+            "type": "text",
+            "data": "Select the Annotations Layer from the list."
+        },
+        {
+            "type": "text",
+            "data": "Click the Edit button."
+        },
+        {
+            "type": "text",
+            "data": "Click the Edit button."
+        },
+        {
+            "type": "text",
+            "data": "In the Annotations screen enable/disable \"Show Object Numbers\"."
+        },
+        {
+            "type": "text",
+            "data": "In the Annotations screen enable/disable \"Show Object Numbers\"."
+        },
+        {
+            "type": "image",
+            "data": "image1093.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\FAQs\\HDI-Layout\\Delete_Cabinet_Numbers.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

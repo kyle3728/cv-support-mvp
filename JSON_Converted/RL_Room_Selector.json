@@ -1,0 +1,32 @@
+{
+    "id": "36b22278-3999-4222-8952-5e48e065afc4",
+    "title": "RL_Room_Selector",
+    "content": [
+        {
+            "type": "text",
+            "data": "Room Selector -"
+        },
+        {
+            "type": "image",
+            "data": "image371.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image110.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This drop down list allows you to select one of your existing Rooms or, by using the Navigation Arrows, go to the Previous or Next Room in your Job."
+        },
+        {
+            "type": "image",
+            "data": "image372.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish\\Room_Level\\Ribbonbar\\Main_Tab\\View_Group\\RL_Room_Selector.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

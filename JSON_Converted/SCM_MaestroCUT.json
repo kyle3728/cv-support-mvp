@@ -1,0 +1,17 @@
+{
+    "id": "22ba8402-3a39-4c47-95f7-e2f9500aea7f",
+    "title": "SCM_MaestroCUT",
+    "content": [
+        {
+            "type": "text",
+            "data": "SCM MaestroCUT"
+        },
+        {
+            "type": "text",
+            "data": "This link will create a series of .xml files that can be used with the SCM MaestroCUT line of saws."
+        }
+    ],
+    "source_file": "NCEnglish_Optimizer\\Ribbonbar\\Main_Tab\\Machine\\NC_Links\\Saw_Links\\SCM_MaestroCUT.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

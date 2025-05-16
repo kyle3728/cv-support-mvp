@@ -1,0 +1,311 @@
+{
+    "id": "f16b39b1-a7e8-4fd9-af99-0b437d3e2fda",
+    "title": "RL_Measure_Tools",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top \n > \n \n \n Room Level \n > \n \n Ribbonbar \n > \n \n Main Tab \n > \n \n Tools Group \n > \n \n Measure Tools"
+        },
+        {
+            "type": "text",
+            "data": "Top \n >"
+        },
+        {
+            "type": "text",
+            "data": "Room Level \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Room Level",
+                "uuid": "9eaa492c-0405-4da7-8e0f-a6ff4e047890",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Ribbonbar \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Ribbonbar",
+                "uuid": "a095688d-3b5c-4aba-8f35-bdc4541dcc7f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Main Tab \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Main Tab",
+                "uuid": "a095688d-3b5c-4aba-8f35-bdc4541dcc7f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Tools Group \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Tools Group",
+                "uuid": "8d7f5c8f-fa12-47e5-acb0-4a34f1bfb801",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Measure Tools"
+        },
+        {
+            "type": "text",
+            "data": "Measure Tools"
+        },
+        {
+            "type": "text",
+            "data": "Measure Tools"
+        },
+        {
+            "type": "image",
+            "data": "image1884.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Measure &   Snap Marks"
+        },
+        {
+            "type": "image",
+            "data": "image1885.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image1886.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Measure option is available for use in determining the dimension of, or distance between Parts, Objects, etc. When used in conjunction with the Snap Marks option it provides accurate information for Assembly and Part sizes."
+        },
+        {
+            "type": "text",
+            "data": "The image below shows many of the features of and information provided by the Measure option. Additionally, the  Snap to Marks  option was selected from statusbar menu (Notice the dark dots in the corners of the Assembly and Assembly Parts in the Plan view, this is indicative of the Snap to Marks option being active)."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Snap to Marks",
+                "uuid": "ab1790c8-4275-4839-a647-d5a131c27144",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image29.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Here, Measure was used to measure the diagonal of the Assembly by clicking in the rear corner and then clicking in the front corner. A blue line represents the line of the measurement. Notice that the sidebar provides a wealth of information about the measurement; it provides the length of the line (Distance), the Horizontal (Yellow) and Vertical (Green) travel and the angle of the line."
+        },
+        {
+            "type": "text",
+            "data": "Use of the Snap Marks option instead of the Measure option allows red marks to be placed, and then used as measurement monuments for setting other dimensions."
+        },
+        {
+            "type": "text",
+            "data": "Tips"
+        },
+        {
+            "type": "text",
+            "data": "You can place Points by Snapping to the Grid Points, Assembly Points or with the  Snap Mode  turned OFF."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Snap Mode",
+                "uuid": "ab1790c8-4275-4839-a647-d5a131c27144",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Snap marks allows you to place Points \n \n \n Measure allows you to take precise measurements \n \n \n Horizontal: Enter the horizontal position where you want the Point to appear. \n \n \n Vertical: Enter the vertical position where you want the Point to appear."
+        },
+        {
+            "type": "text",
+            "data": "Snap marks allows you to place Points"
+        },
+        {
+            "type": "text",
+            "data": "Snap marks allows you to place Points"
+        },
+        {
+            "type": "text",
+            "data": "Measure allows you to take precise measurements"
+        },
+        {
+            "type": "text",
+            "data": "Measure allows you to take precise measurements"
+        },
+        {
+            "type": "text",
+            "data": "Horizontal: Enter the horizontal position where you want the Point to appear."
+        },
+        {
+            "type": "text",
+            "data": "Horizontal: Enter the horizontal position where you want the Point to appear."
+        },
+        {
+            "type": "text",
+            "data": "Vertical: Enter the vertical position where you want the Point to appear."
+        },
+        {
+            "type": "text",
+            "data": "Vertical: Enter the vertical position where you want the Point to appear."
+        },
+        {
+            "type": "text",
+            "data": "OR:"
+        },
+        {
+            "type": "text",
+            "data": "Enter the Distance and Angle at which you want the Point to appear. \n \n \n Lock Angle is used when you use the keyboard to input the Distance and Angle."
+        },
+        {
+            "type": "text",
+            "data": "Enter the Distance and Angle at which you want the Point to appear."
+        },
+        {
+            "type": "text",
+            "data": "Enter the Distance and Angle at which you want the Point to appear."
+        },
+        {
+            "type": "text",
+            "data": "Lock Angle is used when you use the keyboard to input the Distance and Angle."
+        },
+        {
+            "type": "text",
+            "data": "Lock Angle is used when you use the keyboard to input the Distance and Angle."
+        },
+        {
+            "type": "text",
+            "data": "Tips for working with Measure:"
+        },
+        {
+            "type": "image",
+            "data": "image30.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "After manually placing the first point with the mouse, use   to move between the Horizontal/Vertical fields in the sidebar. \n \n \n Type in the value and then press   to move to the next field. \n \n \n DO NOT press   until you are satisfied that your points are correct. \n \n \n Typing in the value and using   allows you to visually confirm that the placement of your points is correct before you press  . \n \n \n Using the keyboard allows you to achieve an accuracy you can not achieve with the mouse. \n \n \n Use \"Snap Marks\" to place points. \n \n \n Zoom In or Out while in Ruler Tool mode. \n \n \n After placing a Point or Measuring, right-click to release the cursor. \n \n \n To delete points: Right click on the screen, select Properties then click the Reset Ruler button - this will remove Snap Points."
+        },
+        {
+            "type": "text",
+            "data": "After manually placing the first point with the mouse, use   to move between the Horizontal/Vertical fields in the sidebar."
+        },
+        {
+            "type": "text",
+            "data": "After manually placing the first point with the mouse, use   to move between the Horizontal/Vertical fields in the sidebar."
+        },
+        {
+            "type": "image",
+            "data": "tab_key2.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Type in the value and then press   to move to the next field."
+        },
+        {
+            "type": "text",
+            "data": "Type in the value and then press   to move to the next field."
+        },
+        {
+            "type": "image",
+            "data": "tab_key2.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "DO NOT press   until you are satisfied that your points are correct."
+        },
+        {
+            "type": "text",
+            "data": "DO NOT press   until you are satisfied that your points are correct."
+        },
+        {
+            "type": "image",
+            "data": "enter_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Typing in the value and using   allows you to visually confirm that the placement of your points is correct before you press  ."
+        },
+        {
+            "type": "text",
+            "data": "Typing in the value and using   allows you to visually confirm that the placement of your points is correct before you press  ."
+        },
+        {
+            "type": "image",
+            "data": "tab_key2.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "enter_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Using the keyboard allows you to achieve an accuracy you can not achieve with the mouse."
+        },
+        {
+            "type": "text",
+            "data": "Using the keyboard allows you to achieve an accuracy you can not achieve with the mouse."
+        },
+        {
+            "type": "text",
+            "data": "Use \"Snap Marks\" to place points."
+        },
+        {
+            "type": "text",
+            "data": "Use \"Snap Marks\" to place points."
+        },
+        {
+            "type": "text",
+            "data": "Zoom In or Out while in Ruler Tool mode."
+        },
+        {
+            "type": "text",
+            "data": "Zoom In or Out while in Ruler Tool mode."
+        },
+        {
+            "type": "text",
+            "data": "After placing a Point or Measuring, right-click to release the cursor."
+        },
+        {
+            "type": "text",
+            "data": "After placing a Point or Measuring, right-click to release the cursor."
+        },
+        {
+            "type": "text",
+            "data": "To delete points: Right click on the screen, select Properties then click the Reset Ruler button - this will remove Snap Points."
+        },
+        {
+            "type": "text",
+            "data": "To delete points: Right click on the screen, select Properties then click the Reset Ruler button - this will remove Snap Points."
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Room_Level\\Ribbonbar\\Main_Tab\\Tools_Group\\RL_Measure_Tools.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

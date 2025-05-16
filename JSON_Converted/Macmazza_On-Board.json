@@ -1,0 +1,180 @@
+{
+    "id": "2d6f3ece-9461-45bc-8457-c5aa4312e2c0",
+    "title": "Macmazza_On-Board",
+    "content": [
+        {
+            "type": "text",
+            "data": "Macmazza On-Board"
+        },
+        {
+            "type": "text",
+            "data": "ASCII file output of part sizes to be used by a Macmazza Saw's On-Board Optimizer."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Field #",
+                    "Description"
+                ],
+                "rows": [
+                    [
+                        "1",
+                        "Indicates Piece Importing (Always a value of D)"
+                    ],
+                    [
+                        "2",
+                        "Material Name"
+                    ],
+                    [
+                        "3",
+                        "Quantity"
+                    ],
+                    [
+                        "4",
+                        "Part Length"
+                    ],
+                    [
+                        "5",
+                        "Part Width"
+                    ],
+                    [
+                        "6",
+                        "Rotation (X Allowed, = Not Allowed"
+                    ],
+                    [
+                        "7",
+                        "Description"
+                    ],
+                    [
+                        "8",
+                        "Part Program"
+                    ],
+                    [
+                        "9",
+                        "Upper Edge"
+                    ],
+                    [
+                        "10",
+                        "Right Edge"
+                    ],
+                    [
+                        "11",
+                        "Lower Edge"
+                    ],
+                    [
+                        "12",
+                        "Left Edge"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Field #"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "1"
+        },
+        {
+            "type": "text",
+            "data": "Indicates Piece Importing (Always a value of D)"
+        },
+        {
+            "type": "text",
+            "data": "2"
+        },
+        {
+            "type": "text",
+            "data": "Material Name"
+        },
+        {
+            "type": "text",
+            "data": "3"
+        },
+        {
+            "type": "text",
+            "data": "Quantity"
+        },
+        {
+            "type": "text",
+            "data": "4"
+        },
+        {
+            "type": "text",
+            "data": "Part Length"
+        },
+        {
+            "type": "text",
+            "data": "5"
+        },
+        {
+            "type": "text",
+            "data": "Part Width"
+        },
+        {
+            "type": "text",
+            "data": "6"
+        },
+        {
+            "type": "text",
+            "data": "Rotation (X Allowed, = Not Allowed"
+        },
+        {
+            "type": "text",
+            "data": "7"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "8"
+        },
+        {
+            "type": "text",
+            "data": "Part Program"
+        },
+        {
+            "type": "text",
+            "data": "9"
+        },
+        {
+            "type": "text",
+            "data": "Upper Edge"
+        },
+        {
+            "type": "text",
+            "data": "10"
+        },
+        {
+            "type": "text",
+            "data": "Right Edge"
+        },
+        {
+            "type": "text",
+            "data": "11"
+        },
+        {
+            "type": "text",
+            "data": "Lower Edge"
+        },
+        {
+            "type": "text",
+            "data": "12"
+        },
+        {
+            "type": "text",
+            "data": "Left Edge"
+        }
+    ],
+    "source_file": "NCEnglish_Optimizer\\Ribbonbar\\Main_Tab\\Machine\\NC_Links\\Saw_Links\\Macmazza_On-Board.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

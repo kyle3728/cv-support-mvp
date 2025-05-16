@@ -1,0 +1,17 @@
+{
+    "id": "99d33287-f665-4eb9-8e3f-7396c8dd1d05",
+    "title": "KDT_XML",
+    "content": [
+        {
+            "type": "text",
+            "data": "KDT XML"
+        },
+        {
+            "type": "text",
+            "data": "Saw output for the KDT Panel Saw."
+        }
+    ],
+    "source_file": "NCEnglish_Optimizer\\Ribbonbar\\Main_Tab\\Machine\\NC_Links\\Saw_Links\\KDT_XML.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

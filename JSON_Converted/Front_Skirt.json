@@ -1,0 +1,94 @@
+{
+    "id": "7061a42f-dbba-4068-8601-d4eefce93502",
+    "title": "Front_Skirt",
+    "content": [
+        {
+            "type": "text",
+            "data": "Front Skirt"
+        },
+        {
+            "type": "text",
+            "data": "The Front Skirt is used in 32mm and Frameless Construction typically used in lieu of horizontal stretchers but can be used with them or any othertop type. Similar to a Sink Skirt but does not require a False Front for placement."
+        },
+        {
+            "type": "image",
+            "data": "Front_Skirt.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The following diagram shows the options available in the Front Skirt Branch. Click a specific option in the diagram for more information or continue through this topic for information on all the options."
+        },
+        {
+            "type": "image",
+            "data": "FrontSkirtFlow.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Front Skirt Part (Standard #184)"
+        },
+        {
+            "type": "image",
+            "data": "AW_184.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Front Skirt Banding Definition (Standard #459)"
+        },
+        {
+            "type": "image",
+            "data": "AW_459.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Front Skirt Grain (Standard #214)"
+        },
+        {
+            "type": "image",
+            "data": "AW_214.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Front Skirt Finished Side Orientation (Standard #521)"
+        },
+        {
+            "type": "image",
+            "data": "AW_521.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Front Skirt Partition Split (Standard #215)"
+        },
+        {
+            "type": "image",
+            "data": "AW_215.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Front Skirt Divider Split (Standard #216)"
+        },
+        {
+            "type": "image",
+            "data": "AW_216.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Front Skirt Machining Face (Standard #179)"
+        },
+        {
+            "type": "image",
+            "data": "AW_179.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish\\System_Level\\Ribbonbar\\Main_Tab\\Construction_Group\\Assembly_Manager\\Assembly\\Branches\\Exterior_Case\\Front_Skirt.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

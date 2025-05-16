@@ -1,0 +1,38 @@
+{
+    "id": "5c936670-46c7-4c45-b988-75d2350555bd",
+    "title": "The_Drawings_Area",
+    "content": [
+        {
+            "type": "text",
+            "data": "The Drawings Area"
+        },
+        {
+            "type": "text",
+            "data": "The Drawings View is a convenient feature for placing and scaling drawings for printing. In this view, scenes that have been sent to drawings are shown on the list at the top of the sidebar. These scenes are dragged to the drawing page and positioned. The scenes may be scaled by right clicking on them and then selecting the Scale option."
+        },
+        {
+            "type": "image",
+            "data": "Drawings_Area_1.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The above graphic is annotated to show the areas and processes in the Drawing View. Notice that the Scenes on the current sheet in the lower portion of the sidebar shows \"Paper\" as a scene on the current sheet. This references one of the two \"spaces\" that are in drawings. The concept of \"spaces\" simply refers to what you are working in. If you are working in the paper space, as you would when making symbols, etc. you are working in real, 1\" = 1\" scale. When you change to drawing space you are in that drawing\u2019s private space. Any CAD you perform at that level is relative to the properties of that drawing. As an example, you use the dimension tool to dimension between two walls. In drawing space, the dimension would be the real world dimension based on the scale the drawing was in. If the scale were such that the walls were 48 inches apart, the dimension tool would provide 48 inches as the dimension. If you measured the same dimension in paper space, it would provide the dimension as if you had measured the same thing using a ruler on the paper."
+        },
+        {
+            "type": "text",
+            "data": "Sending a View to Drawing"
+        },
+        {
+            "type": "text",
+            "data": "Most Views within Solid may be sent to the Drawings View for arranging and printing. To send a view To Drawings, simply maneuver to the perspective that you want (i.e. zoom, pan, etc, until the picture looks like you want it to look) and then right-click on the screen and click To Drawing in the menu that appears."
+        },
+        {
+            "type": "text",
+            "data": "After following the steps above, when you go to the Drawings View, the view that you just sent will appear in the Available Scenes area. Simply drag the scene out of the available scenes window and arrange it on the paper as desired. To drop the scene when you are ready, simply click the mouse. You may move the scene on the page after it has been placed simply by clicking the scene to select it and then grabbing the bottom left corner to move it around."
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Tips_Tricks_&_FAQs\\The_Drawings_Area.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

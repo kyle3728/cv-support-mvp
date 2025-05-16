@@ -1,0 +1,30 @@
+{
+    "id": "a3488172-434a-473a-8a5f-48fa871c719b",
+    "title": "Delete_Material",
+    "content": [
+        {
+            "type": "text",
+            "data": "Delete Material"
+        },
+        {
+            "type": "image",
+            "data": "image1207.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "When clicking this Tool it will Delete the selected Material from the  Material List ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Material List",
+                "uuid": "ab886459-c541-45ce-a7b1-dd27daab2560",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "NCEnglish_Optimizer\\Ribbonbar\\Utilities_Tab\\Material_Catalog\\Toolbar\\Delete_Material.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

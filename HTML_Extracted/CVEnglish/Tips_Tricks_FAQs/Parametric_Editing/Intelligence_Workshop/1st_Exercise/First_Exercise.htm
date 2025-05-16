@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><link rel="stylesheet" type="text/css" href="../../../../_rhdefault.css"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=WINDOWS-1252"/>
+  <meta name="topic-status" content="Complete"/>
+  <meta name="generator" content="Adobe RoboHelp 2022"/>
+  <title>First Exercise</title>
+  <link rel="StyleSheet" href="../../../../assets/css/default.css" type="text/css"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/><script type="text/javascript" src="../../../../ehlpdhtm.js"></script></head>
+<body>
+  <h1>First Exercise</h1>
+  <p style="font-weight: bold;">Writing Formulas</p>
+  <p>If you read the beginning of this document and you work your way through the following &quot;Exercises&quot;.  You will be well on your way to understanding how to add intelligence to parts you add to an object.  Be that object a cabinet or something you are creating from scratch like a corbel, a wood top, a can goods rack, a fireplace mantel, a store fixture of some kind, or whatever.  Understanding formulas will also help you with any &quot;User Created Standards&quot; (UCS) you may wish to write.  &quot;User Created Standards&quot; can do a lot, but they can do a lot more when you know a little about writing formulas.  So it is going to be well worth your time to read the beginning of this document and to work your way through all the exercises presented.</p>
+  <p style="font-weight: bold;">First Exercise</p>
+  <p>So lets add a part to a cabinet and give it intelligence by writing formulas for its placement and sizing.  We will not need to write a formula for the rotation, as once we get the part rotated into place, it will not need to rotate again.  What we are going to do is start a Frameless job and place a base cabinet.  Once the base cabinet is placed we will turn it into a sink cabinet.  The sink cabinet will have a false front and a butt pair of doors.  We will then add a part behind the false front so we can screw through it to hold the false front in place. And then we will give it intelligence by writing formulas for it placement and sizing.</p>
+  <p><img alt="" border="0" height="438" src="../../../../assets/images/zGraphics/image67.gif" style="border: none;" width="475"/></p>
+  <p style="font-weight: bold;">Very Important! Preliminary Setup for the Exercises</p>
+  <p>Before we start it is <span style="font-weight: bold; text-decoration: underline;">very important</span> that you setup a Frameless construction method, for base cabinets, that has what is called a &quot;Standard End&quot;.  When you run the Part Wizard for the finished ends select &quot;Standard End&quot; as the end type.  See picture below.</p>
+  <p><img src="../../../../assets/images/image1309.png"/></p>
+  <p>Under the &quot;Top&quot; area set your construction to use &quot;Top Stretchers&quot;, and set them to butt into the sides of the cabinet.  The &quot;Bottom&quot; must also be set to butt into the sides of the cabinet.  Set your &quot;Toe Kick Height&quot; to 4 1/4&quot; high.</p>
+  <p>Also it is important that you setup a cabinet part &quot;Material Schedule&quot; that is using 3/4&quot; material for the finished and unfinished ends, the Deck, the Top Stretchers, and 3/4&quot; material for the part called &quot;Board&quot;.  The part called &quot;Board&quot; can be found under &quot;Face&quot; and then &quot;Face Frame&quot;.  This way we will all be on the same page and you will be able to follow along with the sample code we will be writing.</p>
+  <ol style="list-style: decimal;">
+    <li class="p">
+      <p class="Indent_1_Bulllet">Start a new job and on the &quot;Construction&quot; tab make sure that you select the Frameless &quot;Construction Method&quot; you setup.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">On the &quot;Material&quot; tab make sure that you select the cabinet part material schedule that you setup earlier.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">Draw a wall and place a base cabinet on the wall.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">Click on the cabinet and in the sidebar change the &quot;Width&quot; to 36 inches. Change the &quot;Height&quot; to 34-1/2 inches, Change the &quot;Depth&quot; to 24 inches (don’t skip any steps).</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">Right click on the cabinet and select &quot;Edit&quot;.</p>
+    </li>
+  </ol>
+  <p style="margin-left: 40px;"><img src="../../../../assets/images/Tips_Tricks_FAQs/Parametric%20Editing/Intelligence%20Workshop/1st%20Exercise/Edit_Assembly.png"/></p>
+  <p> </p>
+  <ol start="6" style="list-style: decimal;">
+    <li class="p">
+      <p class="Indent_1_Bulllet">When you get to the cabinet editor click on the &quot;Section&quot; Tab <img alt="" border="0" height="21" src="../../../../assets/images/image180.gif" style="border: none;" width="60"/>.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">Click on the &quot;Section Face&quot; <img src="../../../../assets/images/image3153.png"/> option in the ribbonbar.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">Click on &quot;Modifications&quot; from the ribbon and then click on &quot;Default Assembly&quot;.</p>
+    </li>
+  </ol>
+  <p style="margin-left: 40px;"><img src="../../../../assets/images/image1129.png"/></p>
+  <p style="margin-left: 40px;">Answer yes when it asks you if you want to continue.</p>
+  <p style="margin-left: 40px;"><img src="../../../../assets/images/image1128.png"/></p>
+  <ol start="9" style="list-style: decimal;">
+    <li class="p">
+      <p class="Indent_1_Bulllet">Click on the &quot;Horizontal Split&quot; <img alt="" border="0" src="../../../../assets/images/image2791.gif" style="border: none;"/> option and then click in the Cabinet opening approximately where the crack between the false front and the doors would be. You should now have a Cabinet with a drawer above a door.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">Click on the drawer opening and then select &quot;False Front&quot; from the sidebar.</p>
+    </li>
+  </ol>
+  <p style="margin-left: 40px;"><img alt="" border="0" src="../../../../assets/images/image3171.gif" style="border: none;"/></p>
+  <ol start="11" style="list-style: decimal;">
+    <li class="p">
+      <p class="Indent_1_Bulllet">Click on the door opening and then select &quot;Pair Door&quot; from the sidebar.</p>
+    </li>
+  </ol>
+  <p style="margin-left: 40px;"><img alt="" border="0" src="../../../../assets/images/image3172.gif" style="border: none;"/></p>
+  <ol start="12" style="list-style: decimal;">
+    <li class="p">
+      <p class="Indent_1_Bulllet">Click on the &quot;Section Interior&quot; <img alt="" border="0" src="../../../../assets/images/image2790.gif" style="border: none;"/> option. If you have a Drawer Stretcher&quot; showing, click on it and then delete it using the Delete <img alt="" border="0" src="../../../../assets/images/image2799.gif" style="border: none;"/> option.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">Click on the &quot;3D&quot; <img alt="" border="0" height="21" src="../../../../assets/images/image184.gif" style="border: none;" width="36"/> tab in the View Menu and rotate the Cabinet around, look at the Cabinet. It should have top stretchers, a false front, no shelves, and a pair of doors.</p>
+    </li>
+  </ol>
+  <p style="margin-left: 40px;"><img alt="" border="0" height="424" src="../../../../assets/images/zGraphics/image98.gif" style="border: none;" width="439"/></p>
+  <ol start="14" style="list-style: decimal;">
+    <li class="p">
+      <p class="Indent_1_Bulllet">Click on the &quot;Face&quot; <img alt="" border="0" height="21" src="../../../../assets/images/image181.gif" style="border: none;" width="45"/> ortho view tab, and then click on the &quot;New Part&quot; button.</p>
+    </li>
+  </ol>
+  <p style="margin-left: 40px; font-weight: bold;"><img src="../../../../assets/images/image1130.png"/></p>
+  <ol start="15" style="list-style: decimal;">
+    <li class="p">
+      <p class="Indent_1_Bulllet">When the &quot;New Part&quot; screen comes up, under the &quot;Part Type&quot; area select &quot;Board&quot;.  Under the &quot;Material&quot; area it should have a material listed that is 3/4&quot; thick.  If not <span style="font-weight: bold;">DO NOT</span> click on &quot;Change&quot;.  Changing the material here instead of in your material schedule will &quot;Lock&quot; the material to always use the material you select here.  If you later changed the Material Schedule expecting the material for this board to change with the Material Schedule <span style="font-weight: bold;">it would not change</span>.  <span style="font-weight: bold;">Stop now</span>, exit the job, go to the Material Catalog, click on &quot;Schedule&quot; at the top of the screen, then select &quot;Cabinet Parts&quot;.  When the &quot;Setup Material Schedule&quot; screen comes up, select one of your material schedules to work on.  Click on the Plus (+) in front of &quot;Face&quot; to open it then click on the plus (+) in front of &quot;Face Frame&quot;.  Select a material for &quot;Board&quot; that is 3/4&quot; thick.  <span style="font-weight: bold;">Then start over from step #1</span> or you could reopen this job and use the &quot;Update Materials&quot; option.  When you get to the &quot;Job Properties&quot; screen be sure to go to the &quot;Materials&quot; tab and select the material schedule that you worked on.</p>
+    </li>
+  </ol>
+  <p style="margin-left: 40px;"><img src="../../../../assets/images/Tips_Tricks_FAQs/Parametric%20Editing/Intelligence%20Workshop/1st%20Exercise/NewPart_Board.png"/></p>
+  <ol start="16" style="list-style: decimal;">
+    <li class="p">
+      <p class="Indent_1_Bulllet">After you have selected &quot;Board&quot; and the thickness is OK, click on &quot;Next&quot;.  This will bring you to the &quot;Size&quot; tab.  For the sake of argument the length will be 34 1/2&quot;, and the &quot;Width&quot; will be 4&quot;.  The &quot;Thickness&quot; in the grayed out box should be 3/4&quot;.  You could change it here (by clicking on &quot;Material Thickness&quot; and entering a value) but it would <span style="font-weight: bold;">&quot;lock&quot;</span> the thickness to what ever you entered and it wouldn’t change when you changed your Material Schedule.  You will notice something called &quot;Relate to Cabinet Part&quot; you will not check this.  This is used to give a part intelligence without you having to write formulas.  For now we will do it the old fashioned way.  Which is actually better because <span style="font-weight: bold;">you will need to know how to do this for yourself, anyway</span>.  And because when you let the computer do it for you it doesn’t always write the most flexible formula.  When done entering the length and width click on &quot;Next&quot;.</p>
+    </li>
+  </ol>
+  <p style="margin-left: 40px;"><img src="../../../../assets/images/Tips_Tricks_FAQs/Parametric%20Editing/Intelligence%20Workshop/1st%20Exercise/BoardSizeEx1.png"/></p>
+  <ol start="17" style="list-style: decimal;">
+    <li class="p">
+      <p class="Indent_1_Bulllet">On the &quot;Orientation&quot; tab select &quot;Front&quot; orientation.  It is easier for most people, when first starting out, to add your parts in &quot;Front&quot; orientation and then later rotate them into position at an ortho view. Click on &quot;Next&quot;.</p>
+    </li>
+  </ol>
+  <p style="margin-left: 40px;"><img src="../../../../assets/images/Tips_Tricks_FAQs/Parametric%20Editing/Intelligence%20Workshop/1st%20Exercise/Ex1FrontOreintation.png"/></p>
+  <ol start="18" style="list-style: decimal;">
+    <li class="p">
+      <p class="Indent_1_Bulllet">You should now be at the &quot;Finish&quot; tab.  The finish should probably be set to all &quot;Interior&quot; as this part is inside the cabinet.  But for this demonstration it doesn&#39;t matter.  Click on &quot;Finish&quot;.</p>
+    </li>
+  </ol>
+  <p style="margin-left: 40px;"><img src="../../../../assets/images/Tips_Tricks_FAQs/Parametric%20Editing/Intelligence%20Workshop/1st%20Exercise/Ex1Finish.png"/></p>
+  <p>You will note that the part came in with a &quot;Left/Right&quot; of -18&quot;. Whenever a part is manually added to a cabinet it will always come in with a &quot;Left/Right&quot; equal to one half the width of whatever cabinet it is add to.  This is to get the part out of the way so you can find it.</p>
+  <p>The first thing we are going to do is to manually rotate this part so it is going in the correct direction.  We want to it to lay to the right with the length going left and right.  Then we will manually place it where it needs to go in the cabinet.  We will then begin to write formulas for it.  In step #14 you were supposed to click on a front ortho view, so if you are not at a face ortho view, <img alt="" border="0" height="21" src="../../../../assets/images/image181.gif" style="border: none;" width="45"/> click on it now.</p>
+  <p>To rotate the part so that it is laying on its right side.</p>
+  <ol start="19" style="list-style: decimal;">
+    <li class="p">
+      <p class="Indent_1_Bulllet">Click on the part to highlight it.  On the left side of your screen where it says, &quot;Rotate part by…&quot; we will need to enter a negative (-) 90 degrees. The part will be hinging on the Z-axis to rotate down to the right. We are already <span style="font-weight: bold;">facing the reference point</span> so to rotate the part clockwise it needs to be a negative amount. See &quot;<a href="../The_Basics/Positive_(+)_and_Negative_(-).htm">Positive (+) and Negative (-) Rotation</a> &quot;. Enter –90 and press enter.</p>
+    </li>
+  </ol>
+  <p style="margin-left: 40px;"><img alt="" border="0" height="22" src="../../../../assets/images/zGraphics/image1453.gif" style="border: none;" width="173"/></p>
+  <ol start="20" style="list-style: decimal;">
+    <li class="p">
+      <p class="Indent_1_Bulllet">The part is now going in the correct direction but it needs to move to the right by the thickness of the left end. The thickness of the left end is supposed to be 3/4&quot;. So in the &quot;Left/Right&quot; area type in 3/4 and press enter.</p>
+    </li>
+  </ol>
+  <p style="margin-left: 40px;"><img alt="" border="0" height="20" src="../../../../assets/images/zGraphics/image1454.gif" style="border: none;" width="172"/></p>
+  <ol start="21" style="list-style: decimal;">
+    <li class="p">
+      <p class="Indent_1_Bulllet">It now needs to move up to the top of the cabinet so it fits under the top stretcher. 34.5 - .75 = 33.75 so we enter 33 3/4 in the &quot;Up/Down&quot; area and press enter.</p>
+    </li>
+  </ol>
+  <p style="margin-left: 40px;"><img alt="" border="0" height="20" src="../../../../assets/images/zGraphics/image1455.gif" style="border: none;" width="172"/></p>
+  <ol start="22" style="list-style: decimal;">
+    <li class="p">
+      <p class="Indent_1_Bulllet">It now needs to move to the front of the cabinet 24 - .75 = 23.25 so we enter 23 1/4&quot; were it says &quot;In/Out&quot; and press enter.</p>
+    </li>
+  </ol>
+  <p style="margin-left: 40px;"><img alt="" border="0" height="19" src="../../../../assets/images/zGraphics/image1456.gif" style="border: none;" width="172"/></p>
+  <p>The part is now rotated and positioned correctly and we are ready to give the part intelligence.</p>
+
+</body></html>

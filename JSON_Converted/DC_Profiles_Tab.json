@@ -1,0 +1,279 @@
+{
+    "id": "30548728-b249-443e-a3a1-d2fe5dd65ec8",
+    "title": "DC_Profiles_Tab",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top \n > \n \n \n System Level \n > \n \n Ribbonbar \n > \n \n Main Tab \n > \n \n Catalogs Group \n > \n \n Door Catalog \n > \n \n Door Catalog Tabs \n > \n \n Profiles Tab"
+        },
+        {
+            "type": "text",
+            "data": "Top \n >"
+        },
+        {
+            "type": "text",
+            "data": "System Level \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "System Level",
+                "uuid": "4450866f-fd9c-46df-abf3-7843c5a1ef37",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Ribbonbar \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Ribbonbar",
+                "uuid": "3bbac75c-2b61-42af-9bce-b90335e66dde",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Main Tab \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Main Tab",
+                "uuid": "3bbac75c-2b61-42af-9bce-b90335e66dde",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Catalogs Group \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Catalogs Group",
+                "uuid": "f4a43f08-b40b-442c-8f03-a96c2a64640f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Door Catalog \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Door Catalog",
+                "uuid": "2da09610-ccab-42a9-a5ce-4ad5fa83394a",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Door Catalog Tabs \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Door Catalog Tabs",
+                "uuid": "d1faae4f-ff5c-49e5-95cf-756c3c48e318",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Profiles Tab"
+        },
+        {
+            "type": "text",
+            "data": "Profiles Tab"
+        },
+        {
+            "type": "text",
+            "data": "Profiles"
+        },
+        {
+            "type": "text",
+            "data": "Click on the tabs below for more information"
+        },
+        {
+            "type": "image",
+            "data": "image284.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "On this tab, you need to select any Profiles that should be available for the current Door. When you start a new Job, you will select the Door at the Job Properties tab and it should give you the opportunity at that time to select the profiles that will be used in that particular Job from the Profiles that you have made available for that Door."
+        },
+        {
+            "type": "text",
+            "data": "If you would like the Door to have default selections for Profiles simply select the Profile you would like to be the Default selection for the Door and enable the \"Set As Default Profile for...\" option."
+        },
+        {
+            "type": "image",
+            "data": "image286.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The top section of these tab will display any cost associated with the selected Profile with the Add Per Door and Add Per SqFt fields. You can not edit these fields here this information is pulled from the Profile Properties as set up in the  Setup|Settings  menu."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Setup|Settings",
+                "uuid": "85a260b9-0533-4f26-bee2-ad6fce8605eb",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Also, in the Top area you can define which edges the selected Outside Edge Profile will apply to. By default all edges are selected."
+        },
+        {
+            "type": "text",
+            "data": "There are four different types of profiles."
+        },
+        {
+            "type": "text",
+            "data": "Inside Edge Profile -  The  Inside Edge Profile  is used when you have a frame around the Door and the frame is assembled with cope & stick construction. Inside Edge Profiles are important because they can, depending on the Extended Property, affect the size of your Door parts."
+        },
+        {
+            "type": "image",
+            "data": "image356.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Inside Edge Profile",
+                "uuid": "58bf93c0-395d-4fa5-8f99-421042b7e8ea",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Outside Edge Profile -  The  Outside Edge Profile  is a shape you will cut around the outside of the Door. Outside edge profiles do not affect the size of your Door parts."
+        },
+        {
+            "type": "image",
+            "data": "image355.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Outside Edge Profile",
+                "uuid": "58bf93c0-395d-4fa5-8f99-421042b7e8ea",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Panel Detail -  The  Panel Detail  is the shape you will cut along the outside of the Door panel. Usually done around the edges of a Raised Panel. Panel details do not affect your Door parts sizes."
+        },
+        {
+            "type": "image",
+            "data": "image354.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Panel Detail",
+                "uuid": "58bf93c0-395d-4fa5-8f99-421042b7e8ea",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Route Pattern -  The  Route Pattern  is the shape of the cutter you would use if you where going to route a design into the face of the Door using a Door jig."
+        },
+        {
+            "type": "image",
+            "data": "image357.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Route Pattern",
+                "uuid": "58bf93c0-395d-4fa5-8f99-421042b7e8ea",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Column Headings"
+        },
+        {
+            "type": "text",
+            "data": "Name"
+        },
+        {
+            "type": "text",
+            "data": "In the Name column, you will see the name that has been given to the selected profile. \u00a0You will also see one of the four possible icons that will represent the type of the selected profile."
+        },
+        {
+            "type": "text",
+            "data": "Use"
+        },
+        {
+            "type": "text",
+            "data": "This column will display the word \"Yes\" for any profiles that have been selected as options for the currently selected Door."
+        },
+        {
+            "type": "text",
+            "data": "Width"
+        },
+        {
+            "type": "text",
+            "data": "This column will display the width (size) of the selected Profile."
+        },
+        {
+            "type": "text",
+            "data": "Profile Type"
+        },
+        {
+            "type": "text",
+            "data": "This is a second area that shows the type of Profile that is selected. \u00a0This should match the icon showing the Profile Type in the Name column."
+        },
+        {
+            "type": "text",
+            "data": "Cost Per Door"
+        },
+        {
+            "type": "text",
+            "data": "This column will show the amount of Cost Per Door for this Profile. \u00a0This amount will be added one time to any Door that has this Profile selected for it in a job."
+        },
+        {
+            "type": "text",
+            "data": "Cost Per Square Foot"
+        },
+        {
+            "type": "text",
+            "data": "This column will show the amount of Cost Per Square Foot for this Profile. \u00a0This amount will be multiplied by the square footage and added to any Door that has this Profile selected for it in a job."
+        },
+        {
+            "type": "text",
+            "data": "Glass"
+        },
+        {
+            "type": "text",
+            "data": "This column will show whether the selected Profile includes a tool that is set to make a pass on the backside of the Door for a Glass Panel to fit into."
+        },
+        {
+            "type": "text",
+            "data": "Apply Outside Edge Profile To"
+        },
+        {
+            "type": "text",
+            "data": "If the selected Profile is an Outside Edge Profile, the settings in this area will allow the user to select specific sides of the Door to apply the Profile to."
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\System_Level\\Ribbonbar\\Main_Tab\\Catalogs_Group\\Door_Catalog\\Door_Catalog_Tabs\\DC_Profiles_Tab.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

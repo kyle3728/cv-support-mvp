@@ -1,0 +1,187 @@
+{
+    "id": "562fdfd2-224d-41f7-bf50-bc2370dd28a6",
+    "title": "SLMM_Connector",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top \n > \n \n \n System Level \n > \n \n Ribbonbar \n > \n \n Main Tab \n > \n \n Catalogs Group \n > \n \n Material Manager \n > \n \n Ribbonbar \n > \n \n Properties \n > \n \n Material Types \n > \n \n Connector"
+        },
+        {
+            "type": "text",
+            "data": "Top \n >"
+        },
+        {
+            "type": "text",
+            "data": "System Level \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "System Level",
+                "uuid": "4450866f-fd9c-46df-abf3-7843c5a1ef37",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Ribbonbar \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Ribbonbar",
+                "uuid": "3bbac75c-2b61-42af-9bce-b90335e66dde",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Main Tab \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Main Tab",
+                "uuid": "3bbac75c-2b61-42af-9bce-b90335e66dde",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Catalogs Group \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Catalogs Group",
+                "uuid": "f4a43f08-b40b-442c-8f03-a96c2a64640f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Material Manager \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Material Manager",
+                "uuid": "2fed939d-ba55-4f35-94da-993f0e1b392e",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Ribbonbar \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Ribbonbar",
+                "uuid": "afe34400-22a2-4d51-9383-a40dbf0ad041",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Properties \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Properties",
+                "uuid": "5be8302e-a5e4-4981-bede-bc0d03f2f3cd",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Material Types \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Material Types",
+                "uuid": "6fa50f67-fbf8-4e66-9990-50a8dc9482a8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Connector"
+        },
+        {
+            "type": "text",
+            "data": "Connector"
+        },
+        {
+            "type": "text",
+            "data": "Connector"
+        },
+        {
+            "type": "text",
+            "data": "This topic covers all the Properties for the Connector Material Type."
+        },
+        {
+            "type": "image",
+            "data": "Connector_Material_Props.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Material Group"
+        },
+        {
+            "type": "text",
+            "data": "Previously covered in the  Banding \n Material Type  topic."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Banding \n Material Type",
+                "uuid": "6fa50f67-fbf8-4e66-9990-50a8dc9482a8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Connector Group"
+        },
+        {
+            "type": "image",
+            "data": "Connector_Connector_Props.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Type \n\t -  Specifies the Type of Connector."
+        },
+        {
+            "type": "text",
+            "data": "Type \n\t -  Specifies the Type of Connector."
+        },
+        {
+            "type": "text",
+            "data": "Type \n\t -  Specifies the Type of Connector."
+        },
+        {
+            "type": "text",
+            "data": "Layer Group"
+        },
+        {
+            "type": "text",
+            "data": "Previously covered in the  Banding \n Material Type  topic."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Banding \n Material Type",
+                "uuid": "6fa50f67-fbf8-4e66-9990-50a8dc9482a8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\System_Level\\Ribbonbar\\Main_Tab\\Catalogs_Group\\Material_Manager\\Ribbonbar\\Properties\\Material_Types\\SLMM_Connector.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

@@ -1,0 +1,46 @@
+{
+    "id": "1244b8f3-4748-42ab-9401-3a4c3f8f5135",
+    "title": "Smooth_My_Renderings",
+    "content": [
+        {
+            "type": "text",
+            "data": "Smooth My Renderings"
+        },
+        {
+            "type": "text",
+            "data": "How do I enhance 3D Views and Renderings?"
+        },
+        {
+            "type": "text",
+            "data": "When in 3D view, select the Enhance option in the ribbonbar."
+        },
+        {
+            "type": "text",
+            "data": "To control the Enhance features right click on the screen and select Properties then go to the Enhancements Tab."
+        },
+        {
+            "type": "image",
+            "data": "image975.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Here you can select whether you'd like to have Dithering, Enhanced Lighting, and Watch Enhancements. There is also a slide indicator to control Smoothing."
+        },
+        {
+            "type": "text",
+            "data": "See the  Enhance View  topic for more information."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Enhance View",
+                "uuid": "9296be88-1f9a-40cf-b9ca-eba8f723003e",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Tips_Tricks_&_FAQs\\FAQs\\HDI-Presentation\\Smooth_My_Renderings.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

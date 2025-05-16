@@ -1,0 +1,300 @@
+{
+    "id": "6f7c38b9-a3cc-4f53-878a-047abf8772b1",
+    "title": "View_Mode",
+    "content": [
+        {
+            "type": "text",
+            "data": "View Mode"
+        },
+        {
+            "type": "image",
+            "data": "image1158.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image1159.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There are two options in View Mode:"
+        },
+        {
+            "type": "text",
+            "data": "Part View"
+        },
+        {
+            "type": "image",
+            "data": "image373.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Part View is not available in the S2M Optimizer."
+        },
+        {
+            "type": "text",
+            "data": "Pattern \n View"
+        },
+        {
+            "type": "image",
+            "data": "image372.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This is the Default View when Optimizing. The Pattern View displays \n the Patterns list in the sidebar and the selected Pattern and it's machining \n in the Pattern/Part Display Area."
+        },
+        {
+            "type": "image",
+            "data": "Pattern_View.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This area displays your Sheet/Pattern layouts."
+        },
+        {
+            "type": "text",
+            "data": "The lower Section is the Part List. The Parts \n on the active sheet are listed in the lower section of the screen. There \n are several columns of information which you can sort the list by clicking \n on the column heading. A Part selected from either the Pattern are or \n Part list area will cause that Part to be highlighted in both Views."
+        },
+        {
+            "type": "text",
+            "data": "Right Click Menu"
+        },
+        {
+            "type": "image",
+            "data": "image76.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There is one option in the Sheet Display \n Area right click menu."
+        },
+        {
+            "type": "text",
+            "data": "Properties"
+        },
+        {
+            "type": "text",
+            "data": "General \n Tab"
+        },
+        {
+            "type": "image",
+            "data": "image287.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "When using an Optimization machine there \n are ten main options in the General Tab:"
+        },
+        {
+            "type": "text",
+            "data": "Dimension Style -  You can \n\t\t\t control whether the output Pattern printouts Dimension Style \n\t\t\t is \"Width x Length\" or \"Length x Width\". \n Dimension Type -  You can \n\t\t\t control if you want Dimensions to display on the Parts or \n\t\t\t in a Legend on the side of your printouts."
+        },
+        {
+            "type": "text",
+            "data": "Dimension Style -  You can \n\t\t\t control whether the output Pattern printouts Dimension Style \n\t\t\t is \"Width x Length\" or \"Length x Width\". \n Dimension Type -  You can \n\t\t\t control if you want Dimensions to display on the Parts or \n\t\t\t in a Legend on the side of your printouts."
+        },
+        {
+            "type": "text",
+            "data": "Dimension Style -  You can \n\t\t\t control whether the output Pattern printouts Dimension Style \n\t\t\t is \"Width x Length\" or \"Length x Width\". \n Dimension Type -  You can \n\t\t\t control if you want Dimensions to display on the Parts or \n\t\t\t in a Legend on the side of your printouts."
+        },
+        {
+            "type": "text",
+            "data": "Dimension Style -  You can \n\t\t\t control whether the output Pattern printouts Dimension Style \n\t\t\t is \"Width x Length\" or \"Length x Width\". \n Dimension Type -  You can \n\t\t\t control if you want Dimensions to display on the Parts or \n\t\t\t in a Legend on the side of your printouts."
+        },
+        {
+            "type": "text",
+            "data": "Dimension Style -  You can \n\t\t\t control whether the output Pattern printouts Dimension Style \n\t\t\t is \"Width x Length\" or \"Length x Width\". \n Dimension Type -  You can \n\t\t\t control if you want Dimensions to display on the Parts or \n\t\t\t in a Legend on the side of your printouts."
+        },
+        {
+            "type": "text",
+            "data": "Dimension Style -  You can \n\t\t\t control whether the output Pattern printouts Dimension Style \n\t\t\t is \"Width x Length\" or \"Length x Width\"."
+        },
+        {
+            "type": "text",
+            "data": "Dimension Style -  You can \n\t\t\t control whether the output Pattern printouts Dimension Style \n\t\t\t is \"Width x Length\" or \"Length x Width\"."
+        },
+        {
+            "type": "text",
+            "data": "Dimension Type -  You can \n\t\t\t control if you want Dimensions to display on the Parts or \n\t\t\t in a Legend on the side of your printouts."
+        },
+        {
+            "type": "text",
+            "data": "Dimension Type -  You can \n\t\t\t control if you want Dimensions to display on the Parts or \n\t\t\t in a Legend on the side of your printouts."
+        },
+        {
+            "type": "text",
+            "data": "Parts"
+        },
+        {
+            "type": "image",
+            "data": "image378.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Legend"
+        },
+        {
+            "type": "image",
+            "data": "image379.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "None"
+        },
+        {
+            "type": "image",
+            "data": "image380.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Set \n\t\t\t Origin at Bottom Left Corner -  You can set the Origin \n\t\t\t at the Bottom Left corner on your printouts. \n From \n\t\t\t Corner/From Center -  You can control if, when using \n\t\t\t the Zoom Window tool, whether the origin of the Zoom window \n\t\t\t begins From the Corner of where you pick or the Center. \n Factor \n\t\t\t -  Determines the percentage the Scroll Wheel will Zoom \n\t\t\t the view In and Out. \n Reverse \n\t\t\t Scroll Wheel Zoom Direction -  Determines which direction \n\t\t\t the Scroll Wheel Zooms In and Out."
+        },
+        {
+            "type": "text",
+            "data": "Set \n\t\t\t Origin at Bottom Left Corner -  You can set the Origin \n\t\t\t at the Bottom Left corner on your printouts. \n From \n\t\t\t Corner/From Center -  You can control if, when using \n\t\t\t the Zoom Window tool, whether the origin of the Zoom window \n\t\t\t begins From the Corner of where you pick or the Center. \n Factor \n\t\t\t -  Determines the percentage the Scroll Wheel will Zoom \n\t\t\t the view In and Out. \n Reverse \n\t\t\t Scroll Wheel Zoom Direction -  Determines which direction \n\t\t\t the Scroll Wheel Zooms In and Out."
+        },
+        {
+            "type": "text",
+            "data": "Set \n\t\t\t Origin at Bottom Left Corner -  You can set the Origin \n\t\t\t at the Bottom Left corner on your printouts. \n From \n\t\t\t Corner/From Center -  You can control if, when using \n\t\t\t the Zoom Window tool, whether the origin of the Zoom window \n\t\t\t begins From the Corner of where you pick or the Center. \n Factor \n\t\t\t -  Determines the percentage the Scroll Wheel will Zoom \n\t\t\t the view In and Out. \n Reverse \n\t\t\t Scroll Wheel Zoom Direction -  Determines which direction \n\t\t\t the Scroll Wheel Zooms In and Out."
+        },
+        {
+            "type": "text",
+            "data": "Set \n\t\t\t Origin at Bottom Left Corner -  You can set the Origin \n\t\t\t at the Bottom Left corner on your printouts. \n From \n\t\t\t Corner/From Center -  You can control if, when using \n\t\t\t the Zoom Window tool, whether the origin of the Zoom window \n\t\t\t begins From the Corner of where you pick or the Center. \n Factor \n\t\t\t -  Determines the percentage the Scroll Wheel will Zoom \n\t\t\t the view In and Out. \n Reverse \n\t\t\t Scroll Wheel Zoom Direction -  Determines which direction \n\t\t\t the Scroll Wheel Zooms In and Out."
+        },
+        {
+            "type": "text",
+            "data": "Set \n\t\t\t Origin at Bottom Left Corner -  You can set the Origin \n\t\t\t at the Bottom Left corner on your printouts. \n From \n\t\t\t Corner/From Center -  You can control if, when using \n\t\t\t the Zoom Window tool, whether the origin of the Zoom window \n\t\t\t begins From the Corner of where you pick or the Center. \n Factor \n\t\t\t -  Determines the percentage the Scroll Wheel will Zoom \n\t\t\t the view In and Out. \n Reverse \n\t\t\t Scroll Wheel Zoom Direction -  Determines which direction \n\t\t\t the Scroll Wheel Zooms In and Out."
+        },
+        {
+            "type": "text",
+            "data": "Set \n\t\t\t Origin at Bottom Left Corner -  You can set the Origin \n\t\t\t at the Bottom Left corner on your printouts."
+        },
+        {
+            "type": "text",
+            "data": "Set \n\t\t\t Origin at Bottom Left Corner -  You can set the Origin \n\t\t\t at the Bottom Left corner on your printouts."
+        },
+        {
+            "type": "text",
+            "data": "From \n\t\t\t Corner/From Center -  You can control if, when using \n\t\t\t the Zoom Window tool, whether the origin of the Zoom window \n\t\t\t begins From the Corner of where you pick or the Center."
+        },
+        {
+            "type": "text",
+            "data": "From \n\t\t\t Corner/From Center -  You can control if, when using \n\t\t\t the Zoom Window tool, whether the origin of the Zoom window \n\t\t\t begins From the Corner of where you pick or the Center."
+        },
+        {
+            "type": "text",
+            "data": "Factor \n\t\t\t -  Determines the percentage the Scroll Wheel will Zoom \n\t\t\t the view In and Out."
+        },
+        {
+            "type": "text",
+            "data": "Factor \n\t\t\t -  Determines the percentage the Scroll Wheel will Zoom \n\t\t\t the view In and Out."
+        },
+        {
+            "type": "text",
+            "data": "Reverse \n\t\t\t Scroll Wheel Zoom Direction -  Determines which direction \n\t\t\t the Scroll Wheel Zooms In and Out."
+        },
+        {
+            "type": "text",
+            "data": "Reverse \n\t\t\t Scroll Wheel Zoom Direction -  Determines which direction \n\t\t\t the Scroll Wheel Zooms In and Out."
+        },
+        {
+            "type": "text",
+            "data": "Annotations \n Tab"
+        },
+        {
+            "type": "image",
+            "data": "image288.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "On the Annotations Tab there are seven main \n options:"
+        },
+        {
+            "type": "text",
+            "data": "Font \n\t\t\t -  You can control the displayed Font. \n Dimensions \n\t\t\t Horizontal Offset -  You can control the Horizontal \n\t\t\t Offset of your Dimensions. \n Dimensions \n\t\t\t Vertical Offset -  You can control the Vertical Offset \n\t\t\t of your Dimensions. \n Dimensions \n\t\t\t Text Height -  You can control the Text Height in your \n\t\t\t Dimensions. \n Dimensions \n\t\t\t Tick Height -  You can control the Tick Height in your \n\t\t\t Dimensions. \n Annotations \n\t\t\t Heading Text Height -  You can control the Text Height \n\t\t\t in the Heading Annotations. \n Annotations \n\t\t\t Part Labels Text Height -  You can control the Text \n\t\t\t Height in your Part Labels (Labels here refers to the Text \n\t\t\t marking your Part on the Sheet not the Label Reports you Print.)."
+        },
+        {
+            "type": "text",
+            "data": "Font \n\t\t\t -  You can control the displayed Font. \n Dimensions \n\t\t\t Horizontal Offset -  You can control the Horizontal \n\t\t\t Offset of your Dimensions. \n Dimensions \n\t\t\t Vertical Offset -  You can control the Vertical Offset \n\t\t\t of your Dimensions. \n Dimensions \n\t\t\t Text Height -  You can control the Text Height in your \n\t\t\t Dimensions. \n Dimensions \n\t\t\t Tick Height -  You can control the Tick Height in your \n\t\t\t Dimensions. \n Annotations \n\t\t\t Heading Text Height -  You can control the Text Height \n\t\t\t in the Heading Annotations. \n Annotations \n\t\t\t Part Labels Text Height -  You can control the Text \n\t\t\t Height in your Part Labels (Labels here refers to the Text \n\t\t\t marking your Part on the Sheet not the Label Reports you Print.)."
+        },
+        {
+            "type": "text",
+            "data": "Font \n\t\t\t -  You can control the displayed Font. \n Dimensions \n\t\t\t Horizontal Offset -  You can control the Horizontal \n\t\t\t Offset of your Dimensions. \n Dimensions \n\t\t\t Vertical Offset -  You can control the Vertical Offset \n\t\t\t of your Dimensions. \n Dimensions \n\t\t\t Text Height -  You can control the Text Height in your \n\t\t\t Dimensions. \n Dimensions \n\t\t\t Tick Height -  You can control the Tick Height in your \n\t\t\t Dimensions. \n Annotations \n\t\t\t Heading Text Height -  You can control the Text Height \n\t\t\t in the Heading Annotations. \n Annotations \n\t\t\t Part Labels Text Height -  You can control the Text \n\t\t\t Height in your Part Labels (Labels here refers to the Text \n\t\t\t marking your Part on the Sheet not the Label Reports you Print.)."
+        },
+        {
+            "type": "text",
+            "data": "Font \n\t\t\t -  You can control the displayed Font. \n Dimensions \n\t\t\t Horizontal Offset -  You can control the Horizontal \n\t\t\t Offset of your Dimensions. \n Dimensions \n\t\t\t Vertical Offset -  You can control the Vertical Offset \n\t\t\t of your Dimensions. \n Dimensions \n\t\t\t Text Height -  You can control the Text Height in your \n\t\t\t Dimensions. \n Dimensions \n\t\t\t Tick Height -  You can control the Tick Height in your \n\t\t\t Dimensions. \n Annotations \n\t\t\t Heading Text Height -  You can control the Text Height \n\t\t\t in the Heading Annotations. \n Annotations \n\t\t\t Part Labels Text Height -  You can control the Text \n\t\t\t Height in your Part Labels (Labels here refers to the Text \n\t\t\t marking your Part on the Sheet not the Label Reports you Print.)."
+        },
+        {
+            "type": "text",
+            "data": "Font \n\t\t\t -  You can control the displayed Font. \n Dimensions \n\t\t\t Horizontal Offset -  You can control the Horizontal \n\t\t\t Offset of your Dimensions. \n Dimensions \n\t\t\t Vertical Offset -  You can control the Vertical Offset \n\t\t\t of your Dimensions. \n Dimensions \n\t\t\t Text Height -  You can control the Text Height in your \n\t\t\t Dimensions. \n Dimensions \n\t\t\t Tick Height -  You can control the Tick Height in your \n\t\t\t Dimensions. \n Annotations \n\t\t\t Heading Text Height -  You can control the Text Height \n\t\t\t in the Heading Annotations. \n Annotations \n\t\t\t Part Labels Text Height -  You can control the Text \n\t\t\t Height in your Part Labels (Labels here refers to the Text \n\t\t\t marking your Part on the Sheet not the Label Reports you Print.)."
+        },
+        {
+            "type": "text",
+            "data": "Font \n\t\t\t -  You can control the displayed Font."
+        },
+        {
+            "type": "text",
+            "data": "Font \n\t\t\t -  You can control the displayed Font."
+        },
+        {
+            "type": "text",
+            "data": "Dimensions \n\t\t\t Horizontal Offset -  You can control the Horizontal \n\t\t\t Offset of your Dimensions."
+        },
+        {
+            "type": "text",
+            "data": "Dimensions \n\t\t\t Horizontal Offset -  You can control the Horizontal \n\t\t\t Offset of your Dimensions."
+        },
+        {
+            "type": "text",
+            "data": "Dimensions \n\t\t\t Vertical Offset -  You can control the Vertical Offset \n\t\t\t of your Dimensions."
+        },
+        {
+            "type": "text",
+            "data": "Dimensions \n\t\t\t Vertical Offset -  You can control the Vertical Offset \n\t\t\t of your Dimensions."
+        },
+        {
+            "type": "text",
+            "data": "Dimensions \n\t\t\t Text Height -  You can control the Text Height in your \n\t\t\t Dimensions."
+        },
+        {
+            "type": "text",
+            "data": "Dimensions \n\t\t\t Text Height -  You can control the Text Height in your \n\t\t\t Dimensions."
+        },
+        {
+            "type": "text",
+            "data": "Dimensions \n\t\t\t Tick Height -  You can control the Tick Height in your \n\t\t\t Dimensions."
+        },
+        {
+            "type": "text",
+            "data": "Dimensions \n\t\t\t Tick Height -  You can control the Tick Height in your \n\t\t\t Dimensions."
+        },
+        {
+            "type": "text",
+            "data": "Annotations \n\t\t\t Heading Text Height -  You can control the Text Height \n\t\t\t in the Heading Annotations."
+        },
+        {
+            "type": "text",
+            "data": "Annotations \n\t\t\t Heading Text Height -  You can control the Text Height \n\t\t\t in the Heading Annotations."
+        },
+        {
+            "type": "text",
+            "data": "Annotations \n\t\t\t Part Labels Text Height -  You can control the Text \n\t\t\t Height in your Part Labels (Labels here refers to the Text \n\t\t\t marking your Part on the Sheet not the Label Reports you Print.)."
+        },
+        {
+            "type": "text",
+            "data": "Annotations \n\t\t\t Part Labels Text Height -  You can control the Text \n\t\t\t Height in your Part Labels (Labels here refers to the Text \n\t\t\t marking your Part on the Sheet not the Label Reports you Print.)."
+        }
+    ],
+    "source_file": "NCEnglish_Optimizer\\Ribbonbar\\Main_Tab\\View_Mode.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

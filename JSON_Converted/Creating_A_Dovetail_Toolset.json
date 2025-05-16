@@ -1,0 +1,486 @@
+{
+    "id": "f195e406-3a18-4655-ba1c-90fc840c1969",
+    "title": "Creating_A_Dovetail_Toolset",
+    "content": [
+        {
+            "type": "text",
+            "data": "Creating A Dovetail Toolset"
+        },
+        {
+            "type": "text",
+            "data": "From the CV opening screengo to the ribbonoption  Main | Tool ."
+        },
+        {
+            "type": "image",
+            "data": "image773.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Click the \"Create New Tool\" tool in the toolbar."
+        },
+        {
+            "type": "image",
+            "data": "image774.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Give your Dovetail Tool Set a name and select Dovetail Tool Set as the type."
+        },
+        {
+            "type": "image",
+            "data": "image775.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Next select your new Dovetail Tool Set from the Tool list and fill in the Properties for your Dovetail Tool Set."
+        },
+        {
+            "type": "text",
+            "data": "Dovetail Tool Set Properties"
+        },
+        {
+            "type": "text",
+            "data": "General"
+        },
+        {
+            "type": "image",
+            "data": "image3118.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Machine -  Select the Machine to assign this Tool to. Use the Any selection if this Tool is available for all Machines. \n \n \n Name -  Enter a Name to identify the Tool. The name you give is for your reference only. In some posts the tool name will appear in a comment in the g-code next to the tool change. \n \n \n Tool Number -  Critical for all tools except drills in a gang drill head. This is the ID that Intelli-CAM will use to match the Tool to the Machine in the Machine Catalog to the actual Tool on the Machine.\n        For drills used in a gang drill head this value is ignored. \n \n \n Height Offset ID -  This is typically the same value as the tool number or the tool number + 100. This number refers to a preset value on the controller that defines the distance from the tip of the tool to\n        the top of the spoil board or top of the Material. This is a value set by the CNC operator In mathematics and in programming and computer applications, a symbol or other character indicating an operation that acts on one or more elements. You\n        can use the following four operators in standard calculations: / divide * multiply - subtract + add. It references the different heights of the tools above the work surface (In some posts this value is ignored). \n \n \n Tool ID -  This is a unique ID Number assigned by the S2M CENTER. This value can be called from within your design package to assign a specific Tool to a specific Operation. For Example, within CABINET VISION,\n        in a User Created Standard you can use the Parameter ToolID equal to the Tools Tool ID number to make an assignment."
+        },
+        {
+            "type": "text",
+            "data": "Machine -  Select the Machine to assign this Tool to. Use the Any selection if this Tool is available for all Machines."
+        },
+        {
+            "type": "text",
+            "data": "Machine -  Select the Machine to assign this Tool to. Use the Any selection if this Tool is available for all Machines."
+        },
+        {
+            "type": "text",
+            "data": "Name -  Enter a Name to identify the Tool. The name you give is for your reference only. In some posts the tool name will appear in a comment in the g-code next to the tool change."
+        },
+        {
+            "type": "text",
+            "data": "Name -  Enter a Name to identify the Tool. The name you give is for your reference only. In some posts the tool name will appear in a comment in the g-code next to the tool change."
+        },
+        {
+            "type": "text",
+            "data": "Tool Number -  Critical for all tools except drills in a gang drill head. This is the ID that Intelli-CAM will use to match the Tool to the Machine in the Machine Catalog to the actual Tool on the Machine.\n        For drills used in a gang drill head this value is ignored."
+        },
+        {
+            "type": "text",
+            "data": "Tool Number -  Critical for all tools except drills in a gang drill head. This is the ID that Intelli-CAM will use to match the Tool to the Machine in the Machine Catalog to the actual Tool on the Machine.\n        For drills used in a gang drill head this value is ignored."
+        },
+        {
+            "type": "text",
+            "data": "Height Offset ID -  This is typically the same value as the tool number or the tool number + 100. This number refers to a preset value on the controller that defines the distance from the tip of the tool to\n        the top of the spoil board or top of the Material. This is a value set by the CNC operator In mathematics and in programming and computer applications, a symbol or other character indicating an operation that acts on one or more elements. You\n        can use the following four operators in standard calculations: / divide * multiply - subtract + add. It references the different heights of the tools above the work surface (In some posts this value is ignored)."
+        },
+        {
+            "type": "text",
+            "data": "Height Offset ID -  This is typically the same value as the tool number or the tool number + 100. This number refers to a preset value on the controller that defines the distance from the tip of the tool to\n        the top of the spoil board or top of the Material. This is a value set by the CNC operator In mathematics and in programming and computer applications, a symbol or other character indicating an operation that acts on one or more elements. You\n        can use the following four operators in standard calculations: / divide * multiply - subtract + add. It references the different heights of the tools above the work surface (In some posts this value is ignored)."
+        },
+        {
+            "type": "text",
+            "data": "Tool ID -  This is a unique ID Number assigned by the S2M CENTER. This value can be called from within your design package to assign a specific Tool to a specific Operation. For Example, within CABINET VISION,\n        in a User Created Standard you can use the Parameter ToolID equal to the Tools Tool ID number to make an assignment."
+        },
+        {
+            "type": "text",
+            "data": "Tool ID -  This is a unique ID Number assigned by the S2M CENTER. This value can be called from within your design package to assign a specific Tool to a specific Operation. For Example, within CABINET VISION,\n        in a User Created Standard you can use the Parameter ToolID equal to the Tools Tool ID number to make an assignment."
+        },
+        {
+            "type": "text",
+            "data": "Tool Size"
+        },
+        {
+            "type": "text",
+            "data": "Items preceded by a letter designation reference the area noted with that letter in the preview area."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image781.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image3119.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Diameter -  The S2M CENTERwill use this size to match tools to operations. \n \n \n Work Depth -  This field is used to Display the Graphic for tools. It holds no other importance. \n \n \n (A) Bottom Radius \n \n \n (B) Max Width"
+        },
+        {
+            "type": "text",
+            "data": "Diameter -  The S2M CENTERwill use this size to match tools to operations."
+        },
+        {
+            "type": "text",
+            "data": "Diameter -  The S2M CENTERwill use this size to match tools to operations."
+        },
+        {
+            "type": "text",
+            "data": "Work Depth -  This field is used to Display the Graphic for tools. It holds no other importance."
+        },
+        {
+            "type": "text",
+            "data": "Work Depth -  This field is used to Display the Graphic for tools. It holds no other importance."
+        },
+        {
+            "type": "text",
+            "data": "(A) Bottom Radius"
+        },
+        {
+            "type": "text",
+            "data": "(A) Bottom Radius"
+        },
+        {
+            "type": "text",
+            "data": "(B) Max Width"
+        },
+        {
+            "type": "text",
+            "data": "(B) Max Width"
+        },
+        {
+            "type": "text",
+            "data": "(C) Top Radius"
+        },
+        {
+            "type": "text",
+            "data": "(C) Top Radius"
+        },
+        {
+            "type": "text",
+            "data": "(C) Top Radius"
+        },
+        {
+            "type": "text",
+            "data": "(D) Min Width"
+        },
+        {
+            "type": "text",
+            "data": "(D) Min Width"
+        },
+        {
+            "type": "text",
+            "data": "(D) Min Width"
+        },
+        {
+            "type": "text",
+            "data": "(E) Y Pos at Min Width"
+        },
+        {
+            "type": "text",
+            "data": "(E) Y Pos at Min Width"
+        },
+        {
+            "type": "text",
+            "data": "(E) Y Pos at Min Width"
+        },
+        {
+            "type": "text",
+            "data": "Dovetail Male Operations"
+        },
+        {
+            "type": "image",
+            "data": "image1048.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "(F) Rabbet Depth"
+        },
+        {
+            "type": "text",
+            "data": "(F) Rabbet Depth"
+        },
+        {
+            "type": "text",
+            "data": "(F) Rabbet Depth"
+        },
+        {
+            "type": "text",
+            "data": "(F) Rabbet Tool"
+        },
+        {
+            "type": "text",
+            "data": "(F) Rabbet Tool"
+        },
+        {
+            "type": "text",
+            "data": "(F) Rabbet Tool"
+        },
+        {
+            "type": "text",
+            "data": "(G) Male Outline Tool"
+        },
+        {
+            "type": "text",
+            "data": "(G) Male Outline Tool"
+        },
+        {
+            "type": "text",
+            "data": "(G) Male Outline Tool"
+        },
+        {
+            "type": "text",
+            "data": "Dovetail Female Operations"
+        },
+        {
+            "type": "image",
+            "data": "image1049.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "(H) Pocket Width"
+        },
+        {
+            "type": "text",
+            "data": "(H) Pocket Width"
+        },
+        {
+            "type": "text",
+            "data": "(H) Pocket Width"
+        },
+        {
+            "type": "text",
+            "data": "(I) Pocket Depth"
+        },
+        {
+            "type": "text",
+            "data": "(I) Pocket Depth"
+        },
+        {
+            "type": "text",
+            "data": "(I) Pocket Depth"
+        },
+        {
+            "type": "text",
+            "data": "(H) Pocket Tool"
+        },
+        {
+            "type": "text",
+            "data": "(H) Pocket Tool"
+        },
+        {
+            "type": "text",
+            "data": "(H) Pocket Tool"
+        },
+        {
+            "type": "text",
+            "data": "(J) Plunge Depth"
+        },
+        {
+            "type": "text",
+            "data": "(J) Plunge Depth"
+        },
+        {
+            "type": "text",
+            "data": "(J) Plunge Depth"
+        },
+        {
+            "type": "text",
+            "data": "(K) Cut Depth"
+        },
+        {
+            "type": "text",
+            "data": "(K) Cut Depth"
+        },
+        {
+            "type": "text",
+            "data": "(K) Cut Depth"
+        },
+        {
+            "type": "text",
+            "data": "(L) Cut Adjustment"
+        },
+        {
+            "type": "text",
+            "data": "(L) Cut Adjustment"
+        },
+        {
+            "type": "text",
+            "data": "(L) Cut Adjustment"
+        },
+        {
+            "type": "text",
+            "data": "By default the Pocket created is an exact match to the Tool Defined (A, B, C, D, E). This option allows you to make a Pocket the is Wider than the Tool in order to perform more decorative \"wide\" dovetails."
+        },
+        {
+            "type": "text",
+            "data": "(L) Tail Width Extension"
+        },
+        {
+            "type": "text",
+            "data": "(L) Tail Width Extension"
+        },
+        {
+            "type": "text",
+            "data": "(L) Tail Width Extension"
+        },
+        {
+            "type": "text",
+            "data": "This option allows you to extend the Width of the pocket to adjust fit."
+        },
+        {
+            "type": "text",
+            "data": "Nesting"
+        },
+        {
+            "type": "image",
+            "data": "image1050.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Nested Part Clearance -  Establishes the Part Clearance necessary on the edges of the Part where the Dovetail Operation is performed."
+        },
+        {
+            "type": "text",
+            "data": "Nested Part Clearance -  Establishes the Part Clearance necessary on the edges of the Part where the Dovetail Operation is performed."
+        },
+        {
+            "type": "text",
+            "data": "Nested Part Clearance -  Establishes the Part Clearance necessary on the edges of the Part where the Dovetail Operation is performed."
+        },
+        {
+            "type": "text",
+            "data": "Movement"
+        },
+        {
+            "type": "image",
+            "data": "image1051.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Rotate Clockwise -  This field in addition to the Material field \"Climb Cut\" will determine the Tool path direction. Think of the router bit as a wheel. If the path the wheel is following is the same direction, as a wheel would follow if rotated that direction, it is a \"Climb Cut\" otherwise, it is a \"Conventional Cut\". An inside cut will always be in the opposite direction of an outside cut. A \"Conventional Cut\" will always be in the opposite direction of a \"Climb Cut\". A simple rule is: If the Material is set for a \"Climb Cut\" an outside pass would be in the same direction of Tool rotation. Here is a chart to keep straight all the options: Remember the analogy to the wheel that will help keep the matter, including inside, outside, etc... straight."
+        },
+        {
+            "type": "text",
+            "data": "Rotate Clockwise -  This field in addition to the Material field \"Climb Cut\" will determine the Tool path direction. Think of the router bit as a wheel. If the path the wheel is following is the same direction, as a wheel would follow if rotated that direction, it is a \"Climb Cut\" otherwise, it is a \"Conventional Cut\". An inside cut will always be in the opposite direction of an outside cut. A \"Conventional Cut\" will always be in the opposite direction of a \"Climb Cut\". A simple rule is: If the Material is set for a \"Climb Cut\" an outside pass would be in the same direction of Tool rotation. Here is a chart to keep straight all the options: Remember the analogy to the wheel that will help keep the matter, including inside, outside, etc... straight."
+        },
+        {
+            "type": "text",
+            "data": "Rotate Clockwise -  This field in addition to the Material field \"Climb Cut\" will determine the Tool path direction. Think of the router bit as a wheel. If the path the wheel is following is the same direction, as a wheel would follow if rotated that direction, it is a \"Climb Cut\" otherwise, it is a \"Conventional Cut\". An inside cut will always be in the opposite direction of an outside cut. A \"Conventional Cut\" will always be in the opposite direction of a \"Climb Cut\". A simple rule is: If the Material is set for a \"Climb Cut\" an outside pass would be in the same direction of Tool rotation. Here is a chart to keep straight all the options: Remember the analogy to the wheel that will help keep the matter, including inside, outside, etc... straight."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "Tool Rotation",
+                    "Material Climb Cut"
+                ],
+                "rows": [
+                    [
+                        "Inside (Dado)",
+                        "Outside"
+                    ],
+                    [
+                        "Clockwise",
+                        "CW",
+                        "CCW"
+                    ],
+                    [
+                        "Counter-Clockwise",
+                        "CCW",
+                        "CW"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Tool Rotation"
+        },
+        {
+            "type": "text",
+            "data": "Material Climb Cut"
+        },
+        {
+            "type": "text",
+            "data": "Inside (Dado)"
+        },
+        {
+            "type": "text",
+            "data": "Outside"
+        },
+        {
+            "type": "text",
+            "data": "Clockwise"
+        },
+        {
+            "type": "text",
+            "data": "CW"
+        },
+        {
+            "type": "text",
+            "data": "CCW"
+        },
+        {
+            "type": "text",
+            "data": "Counter-Clockwise"
+        },
+        {
+            "type": "text",
+            "data": "CCW"
+        },
+        {
+            "type": "text",
+            "data": "CW"
+        },
+        {
+            "type": "text",
+            "data": "Feed Rate"
+        },
+        {
+            "type": "image",
+            "data": "image1052.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Feed Rate -  This determines how fast the Machine will try to move the Tool through the Material. This is often a difficult field to find values for since we lack a standard for feed rate. The value represents Inches per minute, or MM per Minute. This can be even further confusing since some posts expect a unit but then convert the unit in the post. For example the MultiCAM post expects Inches Per Minute but converts the final output to Inches per Second. In addition the material will have an effect on the final feed rate. When testing take into account the % feed rate property in the Material Catalog. \n \n \n Descent Rate -  This will have the same unit of measurement as feed rate. \n \n \n Spindle Speed -  This is the speed at which the tool will spin. The unit is almost always RPM  Rotations per minute. Setting a value of 0 here will usually cause an error in the G-Code. A valid range would be about 4000 to 24000. It would depend on the Machine and Tool's recommended specifications. Some Machines will ignore this number and use a preset number for a Tool."
+        },
+        {
+            "type": "text",
+            "data": "Feed Rate -  This determines how fast the Machine will try to move the Tool through the Material. This is often a difficult field to find values for since we lack a standard for feed rate. The value represents Inches per minute, or MM per Minute. This can be even further confusing since some posts expect a unit but then convert the unit in the post. For example the MultiCAM post expects Inches Per Minute but converts the final output to Inches per Second. In addition the material will have an effect on the final feed rate. When testing take into account the % feed rate property in the Material Catalog."
+        },
+        {
+            "type": "text",
+            "data": "Feed Rate -  This determines how fast the Machine will try to move the Tool through the Material. This is often a difficult field to find values for since we lack a standard for feed rate. The value represents Inches per minute, or MM per Minute. This can be even further confusing since some posts expect a unit but then convert the unit in the post. For example the MultiCAM post expects Inches Per Minute but converts the final output to Inches per Second. In addition the material will have an effect on the final feed rate. When testing take into account the % feed rate property in the Material Catalog."
+        },
+        {
+            "type": "text",
+            "data": "Descent Rate -  This will have the same unit of measurement as feed rate."
+        },
+        {
+            "type": "text",
+            "data": "Descent Rate -  This will have the same unit of measurement as feed rate."
+        },
+        {
+            "type": "text",
+            "data": "Spindle Speed -  This is the speed at which the tool will spin. The unit is almost always RPM  Rotations per minute. Setting a value of 0 here will usually cause an error in the G-Code. A valid range would be about 4000 to 24000. It would depend on the Machine and Tool's recommended specifications. Some Machines will ignore this number and use a preset number for a Tool."
+        },
+        {
+            "type": "text",
+            "data": "Spindle Speed -  This is the speed at which the tool will spin. The unit is almost always RPM  Rotations per minute. Setting a value of 0 here will usually cause an error in the G-Code. A valid range would be about 4000 to 24000. It would depend on the Machine and Tool's recommended specifications. Some Machines will ignore this number and use a preset number for a Tool."
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\Drawers_Roll_Outs\\Creating_A_Dovetail_Toolset.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

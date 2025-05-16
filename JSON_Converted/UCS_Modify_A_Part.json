@@ -1,0 +1,252 @@
+{
+    "id": "d745df8a-3471-4557-a379-cb11259b22cb",
+    "title": "UCS_Modify_A_Part",
+    "content": [
+        {
+            "type": "text",
+            "data": "Modify A Part"
+        },
+        {
+            "type": "text",
+            "data": "The Modify A Part UCS type is very powerful. Let's say for example you would like to modify the Depth of a Shelf placed in a Sink Base Cabinet to 12\" to clear plumbing. Follow along with this topic to find out how."
+        },
+        {
+            "type": "text",
+            "data": "Click on the New option in the User Created Standards window."
+        },
+        {
+            "type": "text",
+            "data": "General Tab"
+        },
+        {
+            "type": "text",
+            "data": "The General Tab is where you enter the Name and select the Type of UCS you would like to create."
+        },
+        {
+            "type": "image",
+            "data": "image90.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Enter a Name for the UCS. (Shelf Depth in Sink Base Cabinet) \n \n \n For Type select Modify A Part. \n \n \n From the list to the right select the Shelf part. \n \n \n Click Next to go to the next step in the Modify A Part UCS Wizard."
+        },
+        {
+            "type": "text",
+            "data": "Enter a Name for the UCS. (Shelf Depth in Sink Base Cabinet)"
+        },
+        {
+            "type": "text",
+            "data": "Enter a Name for the UCS. (Shelf Depth in Sink Base Cabinet)"
+        },
+        {
+            "type": "text",
+            "data": "For Type select Modify A Part."
+        },
+        {
+            "type": "text",
+            "data": "For Type select Modify A Part."
+        },
+        {
+            "type": "text",
+            "data": "From the list to the right select the Shelf part."
+        },
+        {
+            "type": "text",
+            "data": "From the list to the right select the Shelf part."
+        },
+        {
+            "type": "text",
+            "data": "Click Next to go to the next step in the Modify A Part UCS Wizard."
+        },
+        {
+            "type": "text",
+            "data": "Click Next to go to the next step in the Modify A Part UCS Wizard."
+        },
+        {
+            "type": "text",
+            "data": "Assembly Class Tab"
+        },
+        {
+            "type": "image",
+            "data": "image91.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Select Base for Assembly Class Type. \n \n \n Click Next to go to the next step in the Modify A Part UCS Wizard."
+        },
+        {
+            "type": "text",
+            "data": "Select Base for Assembly Class Type."
+        },
+        {
+            "type": "text",
+            "data": "Select Base for Assembly Class Type."
+        },
+        {
+            "type": "text",
+            "data": "Click Next to go to the next step in the Modify A Part UCS Wizard."
+        },
+        {
+            "type": "text",
+            "data": "Click Next to go to the next step in the Modify A Part UCS Wizard."
+        },
+        {
+            "type": "text",
+            "data": "Assembly Properties Tab"
+        },
+        {
+            "type": "image",
+            "data": "image92.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Type in SB* as the Assembly Name. Since I name all my Sink Bases with SB as the leading characters this is all I need to do to activate this UCS for my Sink Base Cabinets. \n \n \n Click Next to go to the next step in the Modify A Part UCS Wizard."
+        },
+        {
+            "type": "text",
+            "data": "Type in SB* as the Assembly Name. Since I name all my Sink Bases with SB as the leading characters this is all I need to do to activate this UCS for my Sink Base Cabinets."
+        },
+        {
+            "type": "text",
+            "data": "Type in SB* as the Assembly Name. Since I name all my Sink Bases with SB as the leading characters this is all I need to do to activate this UCS for my Sink Base Cabinets."
+        },
+        {
+            "type": "text",
+            "data": "Click Next to go to the next step in the Modify A Part UCS Wizard."
+        },
+        {
+            "type": "text",
+            "data": "Click Next to go to the next step in the Modify A Part UCS Wizard."
+        },
+        {
+            "type": "text",
+            "data": "End Type Tab"
+        },
+        {
+            "type": "text",
+            "data": "The End Type Tab allows you to filter out based on certain Cabinet End Types. In this example we are not going to specify any End Types."
+        },
+        {
+            "type": "image",
+            "data": "image93.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Since we are not going to Filter based on End Types simply click Next."
+        },
+        {
+            "type": "text",
+            "data": "Since we are not going to Filter based on End Types simply click Next."
+        },
+        {
+            "type": "text",
+            "data": "Since we are not going to Filter based on End Types simply click Next."
+        },
+        {
+            "type": "text",
+            "data": "Construction Methods Tab"
+        },
+        {
+            "type": "text",
+            "data": "The Construction Methods Tab allows you to filter out based on certain Construction Methods. In this example we are not going to specify any Construction Methods."
+        },
+        {
+            "type": "image",
+            "data": "image94.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Since we are not going to Filter based on Construction Methods simply click Next."
+        },
+        {
+            "type": "text",
+            "data": "Since we are not going to Filter based on Construction Methods simply click Next."
+        },
+        {
+            "type": "text",
+            "data": "Since we are not going to Filter based on Construction Methods simply click Next."
+        },
+        {
+            "type": "text",
+            "data": "Shelf Conditions Tab"
+        },
+        {
+            "type": "text",
+            "data": "This Tab would allow us to specify certain Conditions the Shelf must meet for this UCS to activate. Since we want it to always activate to Sink Base cabinets we would not need to enter anything here."
+        },
+        {
+            "type": "image",
+            "data": "image95.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Since we are not going to Filter based on Shelf Conditions simply click Next."
+        },
+        {
+            "type": "text",
+            "data": "Since we are not going to Filter based on Shelf Conditions simply click Next."
+        },
+        {
+            "type": "text",
+            "data": "Since we are not going to Filter based on Shelf Conditions simply click Next."
+        },
+        {
+            "type": "text",
+            "data": "Shelf Values Tab"
+        },
+        {
+            "type": "image",
+            "data": "image96.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Select the Width parameter. \n \n \n Select \"Is Equal To\" as the How To Modify property. \n \n \n Enter 12 for the value for the Shelf to be equal to. \n \n \n Click Finish to finish the UCS."
+        },
+        {
+            "type": "text",
+            "data": "Select the Width parameter."
+        },
+        {
+            "type": "text",
+            "data": "Select the Width parameter."
+        },
+        {
+            "type": "text",
+            "data": "Select \"Is Equal To\" as the How To Modify property."
+        },
+        {
+            "type": "text",
+            "data": "Select \"Is Equal To\" as the How To Modify property."
+        },
+        {
+            "type": "text",
+            "data": "Enter 12 for the value for the Shelf to be equal to."
+        },
+        {
+            "type": "text",
+            "data": "Enter 12 for the value for the Shelf to be equal to."
+        },
+        {
+            "type": "text",
+            "data": "Click Finish to finish the UCS."
+        },
+        {
+            "type": "text",
+            "data": "Click Finish to finish the UCS."
+        },
+        {
+            "type": "text",
+            "data": "This is how to create a basic Modify Part/Operation UCS."
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\UCS_Modify_A_Part.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

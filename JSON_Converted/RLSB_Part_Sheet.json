@@ -1,0 +1,120 @@
+{
+    "id": "de9663dc-6e4f-4eaf-b1d3-3ee81f4e0da1",
+    "title": "RLSB_Part_Sheet",
+    "content": [
+        {
+            "type": "text",
+            "data": "Part Sheet -"
+        },
+        {
+            "type": "image",
+            "data": "image185.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image2464.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "1AllButEssential.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Part sheets are special Reports designed for your machinists. They will typically have a picture of the Face and Back of a Part along with some general information about the Part. See the  Part Sheet Layout topic  for more information."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Part Sheet Layout topic",
+                "uuid": "b4d34d64-de2a-442f-961d-05c7d4d16603",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "You also have the ability to create your own Part Sheets which are stored as  Templates  in the Drawing Library and can be retrieved by clicking the Change... button in this area."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Templates",
+                "uuid": "42693001-e896-4fb4-bab5-90f16894ad62",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image5743.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "To Print or send \"To Drawing\" a set of Part Sheets for one Assembly in a Room, select the Assembly to print, and then click on Print or To Drawing."
+        },
+        {
+            "type": "text",
+            "data": "To Print or send \"To Drawing\" a set of Part Sheets for only some of the Assemblies in a Room; select the Assemblies to print with your mouse while holding down the \"Ctrl\" key, and then click on Print or To Drawing."
+        },
+        {
+            "type": "text",
+            "data": "To Print or send \"To Drawing\" a set of Part Sheets for all Assemblies in the Job, select the \"Entire Job\" option and then click on Print or To Drawing."
+        },
+        {
+            "type": "text",
+            "data": "To Print or send \"To Drawing\" a set of Part Sheets for all Assemblies in a Room, select the \"Current Room\" option and then click on Print or To Drawing."
+        },
+        {
+            "type": "text",
+            "data": "Separate Subassembly -  Allows you to print the parts for subassemblies"
+        },
+        {
+            "type": "text",
+            "data": "Door Parts -  Allows you to print the actual Door Parts versus the whole Door."
+        },
+        {
+            "type": "text",
+            "data": "Machined only -  When enabled, will only print Parts which have machining on them."
+        },
+        {
+            "type": "text",
+            "data": "To Drawing is only available in"
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "1AUALL.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Controlling Part Sheet Layers"
+        },
+        {
+            "type": "image",
+            "data": "image5744.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "You can access the Part Sheet Layers to edit the content from the Reports area by right clicking on an open area and selecting Properties. The screen pictured above should then appear. This view is editable in the same way that you can make changes to other  Layers . The printer icon will be used to determine whether that particular item is visible on the printed page. If the printer icon is lit, that item will appear, if it is dark, that item will not be printed. The color block can be used to determine the color that will be used for that item. The line type can be selected by clicking on the small sample line and then choosing a line type. Finally, some items will be editable. You can click on Annotations or Dimensions and the edit button will become active. By clicking on Edit, you can control details of that item."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Layers",
+                "uuid": "9c8e2b12-0f70-4c19-8d8c-a84158788365",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\RLSB_Part_Sheet.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

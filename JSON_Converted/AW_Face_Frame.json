@@ -1,0 +1,114 @@
+{
+    "id": "8f59ef2e-0b95-4a40-a7e0-a9d36e5e2195",
+    "title": "AW_Face_Frame",
+    "content": [
+        {
+            "type": "text",
+            "data": "Face Frame Branch"
+        },
+        {
+            "type": "text",
+            "data": "The Face Frame branch will only be available if the Face Frame or Frame Overlay  Construction Style  is selected for the current Construction Method."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Construction Style",
+                "uuid": "8b8eb538-238e-4e6c-a59e-e983c45e0d0f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image172.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Bottom Rail"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Bottom Rail",
+                "uuid": "6d44a145-1779-4478-b4f2-12fc971aadda",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "End Stile"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "End Stile",
+                "uuid": "cb1f1b29-9c7c-4ec4-a35e-c0815c5e4c16",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Frame"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Frame",
+                "uuid": "8832c152-2de5-4efa-b033-c43cc57f0475",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Mid Rail"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Mid Rail",
+                "uuid": "2c27cf9e-022c-4d53-9ab0-67a56a7c9b71",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Mid Stile"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Mid Stile",
+                "uuid": "1342ab7f-e63f-498c-824a-31bb75bd3e51",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Top Rail"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Top Rail",
+                "uuid": "42cb3d0e-cca7-42b4-96ca-0b73c80a01cf",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "The information that is entered into the Construction Method regarding the Parts listed above will be used to determine the correct length and width of those Parts. The thickness of the Part is determined by the Material that is selected for that Part in the  Material Schedule ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Material Schedule",
+                "uuid": "d549fa6c-c6de-4ac1-9837-a3bb3e6af7a5",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\System_Level\\Ribbonbar\\Main_Tab\\Construction_Group\\Assembly_Manager\\Assembly\\Branches\\Face_Frame\\AW_Face_Frame.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

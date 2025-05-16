@@ -1,0 +1,17 @@
+{
+    "id": "c294e855-6f31-40b4-9e67-0ea1c203834e",
+    "title": "Gannomat_Index_Pro",
+    "content": [
+        {
+            "type": "text",
+            "data": "Gannomat Index Pro"
+        },
+        {
+            "type": "text",
+            "data": "Gannomat Index Pro. Machine can drill, glue, dowel as well as perform vertical boring, horizontal and vertical grooving and horizontal routing. Assign tools to this machine to create output. Assign Tools to this Machine with in the Tool catalog to set additional parameters."
+        }
+    ],
+    "source_file": "NCEnglish\\Ribbonbar\\Main_Tab\\Machine\\NC_Links\\Drill_and_Dowel_Links\\Gannomat_Index_Pro.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

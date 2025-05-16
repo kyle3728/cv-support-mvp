@@ -1,0 +1,21 @@
+{
+    "id": "f7534b07-d9cf-4494-a85d-3e11c47c6ad3",
+    "title": "TASK",
+    "content": [
+        {
+            "type": "text",
+            "data": "TASK"
+        },
+        {
+            "type": "text",
+            "data": "This is a Parts Router and/or Point-to-Point Link."
+        },
+        {
+            "type": "text",
+            "data": "The TASK output is an  ASCII    file format designed with the AutoSoftware 2.0 file specifications. This format only supports Center Line paths for saw. Depending on the post-processor, Feed Rate, Tool Number & Tool Compensation may be ignored. Valid Feed Rate values are 0 - 9. Layer Name & Pen Number from the Tool Catalog are always ignored. Tool selection for boring is made by a diameter match in the tool and operation. Tool selection for saws & routers are made by either Tool Number or Tool Diameter depending on the post-processor. Since some tools are selected by matching the width of the tool and the operation, the output unit should match that of your machines tool catalog. This is typically metric."
+        }
+    ],
+    "source_file": "NCEnglish\\Ribbonbar\\Main_Tab\\Machine\\NC_Links\\Parts_Router_P-2-P_Links\\TASK.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

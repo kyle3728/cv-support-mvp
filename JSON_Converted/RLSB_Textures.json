@@ -1,0 +1,129 @@
+{
+    "id": "6a615e19-4bd1-4c68-be0e-68557c747175",
+    "title": "RLSB_Textures",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top \n > \n \n \n Room Level \n > \n \n Sidebar \n > \n \n Textures"
+        },
+        {
+            "type": "text",
+            "data": "Top \n >"
+        },
+        {
+            "type": "text",
+            "data": "Room Level \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Room Level",
+                "uuid": "9eaa492c-0405-4da7-8e0f-a6ff4e047890",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Sidebar \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Sidebar",
+                "uuid": "f07520a2-0645-4a40-b8d9-a72c15b5c147",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Textures"
+        },
+        {
+            "type": "text",
+            "data": "Textures"
+        },
+        {
+            "type": "text",
+            "data": "Textures -"
+        },
+        {
+            "type": "image",
+            "data": "image72.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image1927.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "Textures_1.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "To change the Texture of a  Wall ,  Floor ,  Ceiling ,  Counter Top , or  Molding , click on the associated Texture swatch, and Texture Manager will open allowing you to select a Texture from the desired category."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Wall",
+                "uuid": "59835844-0c7d-4e44-b35e-b3eca6068d0e",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Floor",
+                "uuid": "89c9ee1f-fa34-401d-b62b-9e7fdb93161d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Ceiling",
+                "uuid": "f5462aea-3ae5-45e7-9ff0-781a1dac453e",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Counter Top",
+                "uuid": "f78c6801-8dc2-496e-b62a-b47c77cec8cc",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Molding",
+                "uuid": "b8bb4542-a70d-4527-b271-0e12a5c01e12",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "Textures_2.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "When you render the drawing in  Solid Render Mode , the changes will be displayed on screen. Again, the best way to learn how this works is to experiment with it to see what works best for you."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Solid Render Mode",
+                "uuid": "9780083a-59ba-4e4d-a3f2-4e4fccf798d3",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Room_Level\\Side_Bar\\RLSB_Textures.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

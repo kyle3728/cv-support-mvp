@@ -1,0 +1,21 @@
+{
+    "id": "0b04067c-ecf5-44ef-b10f-497a7c82472c",
+    "title": "Flexstore",
+    "content": [
+        {
+            "type": "text",
+            "data": "Flexstore"
+        },
+        {
+            "type": "text",
+            "data": "Output for the SCM Flexstore Material Handling system."
+        },
+        {
+            "type": "text",
+            "data": "SCM Mahros Material Handling system. Materials can by synchronized with this system in the  Offcut Manager ."
+        }
+    ],
+    "source_file": "NCEnglish\\Ribbonbar\\Main_Tab\\Machine\\NC_Links\\Material_Handling\\Flexstore.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

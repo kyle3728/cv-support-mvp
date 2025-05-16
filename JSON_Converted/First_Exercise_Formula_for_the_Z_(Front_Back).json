@@ -1,0 +1,116 @@
+{
+    "id": "5f97d5eb-ebba-4934-b2be-8b571e060673",
+    "title": "First_Exercise_Formula_for_the_Z_(Front_Back)",
+    "content": [
+        {
+            "type": "text",
+            "data": "First Exercise Formula for the Z (Front/Back)"
+        },
+        {
+            "type": "text",
+            "data": "Look at your cabinet in 3D. Look at it from the End view. Notice where the reference point is located. When writing code for the position of a part it is important to know where the reference point is."
+        },
+        {
+            "type": "text",
+            "data": "There are several formulas that will work for the Z position of this BOARD. We could say  the depth of the cabinet minus 3/4\" . Or we could say  the depth of the cabinet minus the thickness of the BOARD  (this is better because if the BOARD changes thickness this one would take that into consideration, whereas the first one wouldnt). If your deck is 24\" wide we could say  the width of the deck minus the thickness of the BOARD . Or we could say  the width of the deck minus \" . We will use  the depth of the cabinet minus the thickness of the BOARD  as our formula. So now that we have our formula. We need to trace it through the object tree and convert it to code."
+        },
+        {
+            "type": "text",
+            "data": "Click on one of the ortho   views. \n \n \n Click on \"Object Tree\". \n \n \n Click on the cabinet name and then click on the depth of the cabinet (DZ). Trace it through the tree and it is  Cab.Dz  write this down this is the first part of our code. \n \n \n Click on the BOARD and then click on the thickness (DZ). Trace it through the tree and it is  Cab.Board.Dz  this is the second part or our code write it down. \n \n \n Combine the two together and we get  Cab.Dz  Cab.Board.Dz  write it down. \n \n \n We should already be on the BOARD so all we have to do is click on the Z and then click on \"Edit\". \n \n \n Change from a \"Value\" to an \"Equation\". \n \n \n On the THEN line type in the code that we came up with  Cab.Dz  Cab.Board.Dz \n \n \n Click on the test button and it should say \"Condition returned: True. Equation returned: 23 1/4 or whatever value you were expecting. Click on OK."
+        },
+        {
+            "type": "text",
+            "data": "Click on one of the ortho   views."
+        },
+        {
+            "type": "text",
+            "data": "Click on one of the ortho   views."
+        },
+        {
+            "type": "image",
+            "data": "image181.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image182.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image183.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Click on \"Object Tree\"."
+        },
+        {
+            "type": "text",
+            "data": "Click on \"Object Tree\"."
+        },
+        {
+            "type": "text",
+            "data": "Click on the cabinet name and then click on the depth of the cabinet (DZ). Trace it through the tree and it is  Cab.Dz  write this down this is the first part of our code."
+        },
+        {
+            "type": "text",
+            "data": "Click on the cabinet name and then click on the depth of the cabinet (DZ). Trace it through the tree and it is  Cab.Dz  write this down this is the first part of our code."
+        },
+        {
+            "type": "text",
+            "data": "Click on the BOARD and then click on the thickness (DZ). Trace it through the tree and it is  Cab.Board.Dz  this is the second part or our code write it down."
+        },
+        {
+            "type": "text",
+            "data": "Click on the BOARD and then click on the thickness (DZ). Trace it through the tree and it is  Cab.Board.Dz  this is the second part or our code write it down."
+        },
+        {
+            "type": "text",
+            "data": "Combine the two together and we get  Cab.Dz  Cab.Board.Dz  write it down."
+        },
+        {
+            "type": "text",
+            "data": "Combine the two together and we get  Cab.Dz  Cab.Board.Dz  write it down."
+        },
+        {
+            "type": "text",
+            "data": "We should already be on the BOARD so all we have to do is click on the Z and then click on \"Edit\"."
+        },
+        {
+            "type": "text",
+            "data": "We should already be on the BOARD so all we have to do is click on the Z and then click on \"Edit\"."
+        },
+        {
+            "type": "text",
+            "data": "Change from a \"Value\" to an \"Equation\"."
+        },
+        {
+            "type": "text",
+            "data": "Change from a \"Value\" to an \"Equation\"."
+        },
+        {
+            "type": "text",
+            "data": "On the THEN line type in the code that we came up with  Cab.Dz  Cab.Board.Dz"
+        },
+        {
+            "type": "text",
+            "data": "On the THEN line type in the code that we came up with  Cab.Dz  Cab.Board.Dz"
+        },
+        {
+            "type": "text",
+            "data": "Click on the test button and it should say \"Condition returned: True. Equation returned: 23 1/4 or whatever value you were expecting. Click on OK."
+        },
+        {
+            "type": "text",
+            "data": "Click on the test button and it should say \"Condition returned: True. Equation returned: 23 1/4 or whatever value you were expecting. Click on OK."
+        },
+        {
+            "type": "text",
+            "data": "Look at your cabinet in 3D does it look OK? If not you typed something wrong. See \" Troubleshooting Error Messages \"."
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\Parametric_Editing\\Intelligence_Workshop\\1st_Exercise\\First_Exercise_Formula_for_the_Z_(Front_Back).htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

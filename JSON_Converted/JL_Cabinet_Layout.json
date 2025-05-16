@@ -1,0 +1,94 @@
+{
+    "id": "cfb61ba6-b4c9-4a53-819a-a4ee588937a9",
+    "title": "JL_Cabinet_Layout",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top \n > \n \n \n Job Level \n > \n \n Job Properties \n > \n \n Cabinet \n > \n \n Layout"
+        },
+        {
+            "type": "text",
+            "data": "Top \n >"
+        },
+        {
+            "type": "text",
+            "data": "Job Level \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Job Level",
+                "uuid": "2e24aee5-8ffc-491f-a322-45ce46c2c253",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Job Properties \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Job Properties",
+                "uuid": "d5f88ec0-9e69-49f4-a75a-16eae2e2707d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Cabinet \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Cabinet",
+                "uuid": "d7782e75-15a3-44c9-b2f6-bd655d519497",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Layout"
+        },
+        {
+            "type": "text",
+            "data": "Layout"
+        },
+        {
+            "type": "text",
+            "data": "Cabinet Layout"
+        },
+        {
+            "type": "text",
+            "data": "Click on the categories or tabs below for more information"
+        },
+        {
+            "type": "image",
+            "data": "JP_Cabinet_Layout.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Sizes"
+        },
+        {
+            "type": "text",
+            "data": "The sizes area allows setting Heights and Depths of Cabinets for the Job. The values entered here should be the most common Heights and Depths needed for the Job. Entered values may still be changed for a Room or a Cabinet once the Job is created."
+        },
+        {
+            "type": "text",
+            "data": "See the  Set As System Defaults  topic for more information on it."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Set As System Defaults",
+                "uuid": "e5b1c38f-2747-41a5-a7b8-9aefa6986ede",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Job_Level\\Job_Properties\\Cabinet\\JL_Cabinet_Layout.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><link rel="stylesheet" type="text/css" href="../../../../_rhdefault.css"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=WINDOWS-1252"/>
+  <meta name="topic-status" content="Complete"/>
+  <meta name="generator" content="Adobe RoboHelp 2022"/>
+  <title>Shaping the Corbel</title>
+  <link rel="StyleSheet" href="../../../../assets/css/default.css" type="text/css"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/><script type="text/javascript" src="../../../../ehlpdhtm.js"></script></head>
+<body>
+  <h1>Shaping the Corbel</h1>
+  <p>Now that you have created the corbel and given the parts intelligence you may wish to shape board@3 so it looks more like a corbel.  When you shape anything in Solid and then later change the size of the object that was shaped, the shape will distort.
+     In order to control the shape and not have it distort you must &quot;constrain&quot; certain entities which make up the shape. The following exercises are designed to teach you how to shape a part and constrain it so that the shape doesn&#39;t distort.</p>
+  <p><img alt="" border="0" src="../../../../assets/images/image3201.gif" style="border: none;"/></p>
+  <p>For the first exercise in shaping a part we will take the above corbel and shape it to look like the following corbel.</p>
+  <p><img alt="" border="0" src="../../../../assets/images/image3200.gif" style="border: none;"/></p>
+  <p>If you are not already at the Assembly Level, right click on your corbel and select &quot;Edit&quot;.</p>
+  <ol style="list-style: decimal;">
+    <li class="p">
+      <p class="Indent_1_Bulllet">Click on the End <img alt="" border="0" height="21" src="../../../../assets/images/image183.gif" style="border: none;" width="42"/> ortho view tab.</p>
+    </li>
+    <li class="p">
+      <p class="Indent_1_Bulllet">Right click on Board@3 and select &quot;Edit Shape&quot;.</p>
+    </li>
+  </ol>
+  <p class="Indent_1_Bulllet" style="margin-left: 80px;"><img alt="" border="0" src="../../../../assets/images/zGraphics/Extras/Information.png" style="border: none;"/> You would not use the &quot;Edit Shape&quot; button in the sidebar, because you would be shaping the entire object or assembly. We have
+    not given the parts any intelligence for changing shape when the assembly changes shape, so shaping the entire assembly would have no effect on any of the parts.</p>
+  <ol start="3" style="list-style: decimal;">
+    <li>
+      <p class="Indent_1_Bulllet">The first thing you want to do is add some reference lines to use to create the clip. We want the clip to start and end at 2 inches. So, use the <span style="font-weight: bold;">Modify | Offset</span> option to offset the top and back lines in 2
+        inches.</p>
+    </li>
+  </ol>
+  <p class="Indent_1_Bulllet" style="margin-left: 40px;"><img alt="" border="0" src="../../../../assets/images/image3185.gif" style="border: none;"/></p>
+  <ol start="4" style="list-style: decimal;">
+    <li>
+      <p class="Indent_1_Bulllet">Now that you have your reference lines in place make sure that &quot;Snap to Points&quot; <span style="font-weight: bold;"><img src="../../../../assets/images/image2888.png"/></span> is enabled.</p>
+    </li>
+    <li>
+      <p class="Indent_1_Bulllet">Next, select the <span style="font-weight: bold;">Drawing | Line</span> option.</p>
+    </li>
+    <li>
+      <p class="Indent_1_Bulllet">Next, with the Line options active, select the front end point of the top reference line.</p>
+    </li>
+  </ol>
+  <p class="Indent_1_Bulllet" style="margin-left: 40px;"><img alt="" border="0" src="../../../../assets/images/image3186.gif" style="border: none;"/></p>
+  <ol start="7" style="list-style: decimal;">
+    <li>
+      <p class="Indent_1_Bulllet">Then the bottom end point of the back reference line.</p>
+    </li>
+  </ol>
+  <p class="Indent_1_Bulllet" style="margin-left: 40px;"><img alt="" border="0" src="../../../../assets/images/image3187.gif" style="border: none;"/></p>
+  <ol start="8" style="list-style: decimal;">
+    <li>
+      <p class="Indent_1_Bulllet">Now you can see you have your clip in place. So you can now get rid of the reference lines using the <span style="font-weight: bold;">Modify | Delete</span> option.</p>
+    </li>
+    <li>
+      <p class="Indent_1_Bulllet">To establish your new Part perimeter you will need to trim away the unnecessary portions of the Part&#39;s shape using the <span style="font-weight: bold;">Modify | Trim Delete</span> option.</p>
+    </li>
+    <li>
+      <p class="Indent_1_Bulllet">Simply click the portions of the Part shape you do not need.</p>
+    </li>
+  </ol>
+  <p class="Indent_1_Bulllet" style="margin-left: 40px;"><img alt="" border="0" src="../../../../assets/images/image3188.gif" style="border: none;"/></p>
+  <ol start="11" style="list-style: decimal;">
+    <li>
+      <p class="Indent_1_Bulllet">To confirm that your shape is fully enclosed select the <span style="font-weight: bold;">Shape | Check Shape</span> option. Notice after running Check Shape that all of the lines that make up the Part&#39;s perimeter are Green. This indicates the
+        Part shape is complete with no errors and that you are good to go.</p>
+    </li>
+  </ol>
+  <p class="Indent_1_Bulllet" style="margin-left: 40px;"><img alt="" border="0" src="../../../../assets/images/image3189.gif" style="border: none;"/></p>
+  <ol start="12" style="list-style: decimal;">
+    <li>
+      <p class="Indent_1_Bulllet">So now you have the basic shape of the part, you can click the Return option to Save it.</p>
+    </li>
+  </ol>
+  <p>Now you already have intelligence added to the parts, so that when the object is re-sized the parts will re-size themselves too. And, now you have just changed the shape on the middle part so that it looks like you want it to. So, now test everything
+    by changing the size of the object and then look to see how everything reacts.</p>
+  <p>Here is an example of what happens to the shape when you change the size of the Object. You can see that the 2&quot; offset we wanted is not being held when you change the size of the Object. So you need to Constrain certain portions of the shape to
+    prevent this from happening.</p>
+  <p><img alt="" border="0" src="../../../../assets/images/image3190.gif" style="border: none;"/></p>
+  <ol style="list-style: decimal;">
+    <li>
+      <p class="Indent_1_Bulllet">Return the Object to the standard size and return to the Assembly Level End Ortho View <img alt="" border="0" height="21" src="../../../../assets/images/image183.gif" style="border: none;" width="42"/> and then right click this part and select
+        Edit.</p>
+    </li>
+    <li>
+      <p class="Indent_1_Bulllet">From a Front Face View <img alt="" border="0" src="../../../../assets/images/image3585.gif" style="border: none;"/> at the <span style="font-weight: bold;">Part Level</span> click the Edit Shape button in the sidebar to add some Constraints to
+        the Shaped Part.</p>
+    </li>
+  </ol>
+  <p>We only need to add simple Constraints to the lines we wish to remain at 2&quot;.</p>
+  <ol start="3" style="list-style: decimal;">
+    <li>
+      <p class="Indent_1_Bulllet">Select the topmost 2&quot; Line.</p>
+    </li>
+  </ol>
+  <p class="Indent_1_Bulllet" style="margin-left: 40px;"><img alt="" border="0" src="../../../../assets/images/image3195.gif" style="border: none;"/></p>
+  <ol start="4" style="list-style: decimal;">
+    <li>
+      <p class="Indent_1_Bulllet">For Start Y in the sidebar select the Lock Top option.</p>
+    </li>
+  </ol>
+  <p class="Indent_1_Bulllet" style="margin-left: 40px;"><img alt="" border="0" src="../../../../assets/images/image3586.gif" style="border: none;"/></p>
+  <ol start="5" style="list-style: decimal;">
+    <li>
+      <p class="Indent_1_Bulllet">Select the bottommost 2&quot; Line.</p>
+    </li>
+  </ol>
+  <p class="Indent_1_Bulllet" style="margin-left: 40px;"><img alt="" border="0" src="../../../../assets/images/image3197.gif" style="border: none;"/></p>
+  <ol start="6" style="list-style: decimal;">
+    <li>
+      <p class="Indent_1_Bulllet">For End X in the sidebar select the Lock Left option.</p>
+    </li>
+  </ol>
+  <p class="Indent_1_Bulllet" style="margin-left: 40px;"><img alt="" border="0" src="../../../../assets/images/image3587.gif" style="border: none;"/></p>
+  <ol start="7" style="list-style: decimal;">
+    <li>
+      <p class="Indent_1_Bulllet">Click the Return option to Save your Shape changes.</p>
+    </li>
+    <li>
+      <p class="Indent_1_Bulllet">Now that you have Constrained your shaped part, click the Return option to go back to the Room Level and test the shape by changing the size of the object again.</p>
+    </li>
+  </ol>
+  <p>You can see here the Part is sized and shaped properly.</p>
+  <p><img alt="" border="0" src="../../../../assets/images/image3199.gif" style="border: none;"/></p>
+
+</body></html>

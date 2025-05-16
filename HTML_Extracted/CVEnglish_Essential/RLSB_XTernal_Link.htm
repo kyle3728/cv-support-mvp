@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head><link rel="stylesheet" type="text/css" href="../../../../RHTMP/Microsoft%20HTML%20HelpLvLZav/_rhdefault.css"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="generator" content="Adobe RoboHelp 2019"/>
+  <title>Transmit to Factory</title>
+  <link rel="StyleSheet" href="../../assets/css/default.css" type="text/css"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/><script type="text/javascript" src="../../../../RHTMP/Microsoft%20HTML%20HelpLvLZav/ehlpdhtm.js"></script></head>
+<body>
+  <p><span data-condition="Others:Print">
+      <?rh-placeholder type="breadcrumbs" 
+ ph-align="2" sep-char="&gt;" home="Top" usetopicformat="1" ph-style="font-family:Arial;font-size:12pt;font-weight: normal;font-style: normal;text-decoration: none;" ?></span></p>
+  <h1>Transmit to Factory - <img alt="" border="0" src="../../assets/images/image185.gif" style="border: none; width: 100%; max-width: 62px;"/></h1>
+  <h2>XTernal Link</h2>
+  <p style="font-weight: bold;"><img alt="" border="0" src="../../assets/images/image2466.gif" style="border: none; width: 100%; max-width: 180px;"/></p>
+  <p style="font-weight: bold;"><img alt="" border="0" src="../../assets/images/zGraphics/1Products/1AUALL.png" style="border: none; width: 100%; max-width: 102px;"/></p>
+  <p>This option allows passing of data to 3rd party or custom applications. You can have up to 5 unique Transmit to Factory Links:</p>
+  <table border="1" cellspacing="0" style="border-collapse: separate;" width="39.843%">
+    <colgroup>
+      <col style="width: 18.882%;"/>
+      <col style="width: 20.033%;"/>
+      <col style="width: 20.692%;"/>
+      <col style="width: 20.196%;"/>
+      <col style="width: 20.198%;"/>
+    </colgroup>
+    <tbody>
+      <tr>
+        <td><a id="MultipleLinkCommands"></a>LinkCommand</td>
+        <td>LinkCommand2</td>
+        <td>LinkCommand3</td>
+        <td>LinkCommand4</td>
+        <td>LinkCommand5</td>
+      </tr>
+      <tr>
+        <td>LinkLabel</td>
+        <td>LinkLabel2</td>
+        <td>LinkLabel3</td>
+        <td>LinkLabel4</td>
+        <td>LinkLabel5</td>
+      </tr>
+      <tr>
+        <td>LinkImage</td>
+        <td>LinkImage2</td>
+        <td>LinkImage3</td>
+        <td>LinkIcon4</td>
+        <td>LinkImage5</td>
+      </tr>
+    </tbody>
+  </table>
+  <p style="margin-left: 80px;"><span style="font-weight: bold;"><img alt="" border="0" src="../../assets/images/Warning.png" style="border: none; width: 100%; max-width: 32px;"/></span> This topic contains information about modifying the Windows™ Registry. Before you modify the Registry, make sure to back it up and make sure that you understand how to restore the Registry if a problem occurs. For information about how to back up, restore, and edit the Registry, click the following article number to view the article in the Microsoft™ Knowledge Base:</p>
+  <p><a href="http://support.microsoft.com/kb/256986/EN-US/">256986 Description of the Microsoft Windows Registry</a></p>
+  <p>An additional user defined button can be added to the sidebar in the Reports area. This button can be customized to open and populate Report.mdb, open and populate ORD Files, or to Open 3rd Party and/or Custom Applications. The feature can be activated by adding a LinkCommand string value to the registry that is a statement to be executed when the button is pressed. The LinkCommand string value should be added to the following Registry location:</p>
+  <p style="font-weight: bold;">HKEY_CURRENT_USER\Software\Cabinet Vision\Solid_11\Settings</p>
+  <p>It can contain one of the following variables: jobordfile, ordfile, user, reportdb, biddb. The variables must be within {} as normal Solid variables. If the ordfile variable is used, you will be prompted to save an ord file.</p>
+  <p>The button text can be set with a LinkLabel registry setting.</p>
+  <p><a name="LinkImage" id="LinkImage"></a>The image for the button can be set with a LinkImage registry setting. The image should be a 50px wide and 40px high .PNG file with a transparent background for the best results.</p>
+  <p>An example LinkCommand might be:</p>
+  <p>LinkCommand=notepad.exe &quot;{jobordfile}&quot;</p>
+  <p>This button, when clicked, would prompt you to save the Job File if it has not been and Saves an <a href="../Ribbonbar/Utilities_Tab/Import_Order/ORD_File_Format.htm">ORD file</a> with the same name and location as the Job file and then open Notepad with the saved file...</p>
+  <p>notepad.exe &quot;{ordfile}&quot;</p>
+  <p>This button, when clicked, would prompt you to save an <a href="../Ribbonbar/Utilities_Tab/Import_Order/ORD_File_Format.htm">ORD file</a> and then open Notepad with the saved file...</p>
+  <p>Another example might be:</p>
+  <p>LinkCommand=&quot;C:\Program Files\Microsoft Office\Office\msaccess.exe {reportdb}&quot;</p>
+  <p>This opens a POPULATED <a href="../../Tips_Tricks_FAQs/The_Databases/Specification_Report_Database.htm">report.mdb</a> in MSAccess, without having to visit Report Center or Bid Center first.</p>
+  <p>Another example might be:</p>
+  <p>LinkCommand=notepad.exe &quot;{user}&quot;</p>
+  <p>This opens Windows Notepad with the Login User Name for Solid.</p>
+  <p>Another example might be:</p>
+  <p><a name="biddb" id="biddb"></a>LinkCommand=&quot;C:\Program Files\Microsoft Office\Office\msaccess.exe {biddb}&quot;</p>
+  <p>This opens a POPULATED <a href="../../Tips_Tricks_FAQs/The_Databases/BidData.mdb.htm">BidData.mdb</a> in MSAccess.</p>
+  <p> </p>
+  <p>There is another related Registry setting which can be entered here which will force CABINET VISION to populate Report.mdb upon entry into the S2M CENTER.</p>
+  <p>CNCPOPULATEREPORT</p>
+  <p>A value of 1 turns this feature on.</p>
+
+</body></html>

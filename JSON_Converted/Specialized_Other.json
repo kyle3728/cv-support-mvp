@@ -1,0 +1,109 @@
+{
+    "id": "710ef1a4-751e-4722-ada5-142c82032f30",
+    "title": "Specialized_Other",
+    "content": [
+        {
+            "type": "text",
+            "data": "Specialized Other"
+        },
+        {
+            "type": "text",
+            "data": "This Machine Type is specifically for other woodworking machines which do not fit in the other Machine Type Categories. Following are the Setup Tab options for Specialized Chop Saw:"
+        },
+        {
+            "type": "text",
+            "data": "Setup Tab - Other"
+        },
+        {
+            "type": "text",
+            "data": "Parameters Group"
+        },
+        {
+            "type": "text",
+            "data": "Barcode Format -  This option will appear when an  Accu-Systems MTH  or  Weinig French Miter  NC Link\n        is selected.  See Sheet Router  for information on this field. \n \n \n Tenon Thickness Clearance -  This option will appear when an  Accu-Systems Universal  NC Link is selected. Sets the clearance required for the Tenon\n        Thickness. \n \n \n Tenon Width Clearance - This option will appear when an  Accu-Systems Universal  NC Link is selected. Sets the clearance required for the Tenon Width. \n \n \n ID Parameter Name - This option will appear when the  Anderson MLS NC Link is selected. This allows you to specify the name of the unique material id parameter\n        that will identify this material to the lift system. \n \n \n Swap A/B Notches - This option will appear when the  Hoffman Beaded Frame System  NC Link is selected. Allows you to swap the A/B notches. \n \n \n Mirror Output -  This option will appear when the  Hoffman Beaded Frame System  NC Link is selected. Enables Mirrored Output. \n \n \n Feed Speed - This option will appear when the  Homag Edgebander NC Link is selected. Allows you to set the machine feed speed. \n \n \n Oversize - This option will appear when the  Homag Edgebander NC Link is selected. Allows you to set the oversize value. \n \n \n Glue Type - This option will appear when the  Homag Edgebander NC Link is selected. Allows you to set the glue type."
+        },
+        {
+            "type": "text",
+            "data": "Barcode Format -  This option will appear when an  Accu-Systems MTH  or  Weinig French Miter  NC Link\n        is selected.  See Sheet Router  for information on this field."
+        },
+        {
+            "type": "text",
+            "data": "Barcode Format -  This option will appear when an  Accu-Systems MTH  or  Weinig French Miter  NC Link\n        is selected.  See Sheet Router  for information on this field."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "See Sheet Router",
+                "uuid": "182915c0-9ef6-44fd-a187-3e7e81401ebc",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Tenon Thickness Clearance -  This option will appear when an  Accu-Systems Universal  NC Link is selected. Sets the clearance required for the Tenon\n        Thickness."
+        },
+        {
+            "type": "text",
+            "data": "Tenon Thickness Clearance -  This option will appear when an  Accu-Systems Universal  NC Link is selected. Sets the clearance required for the Tenon\n        Thickness."
+        },
+        {
+            "type": "text",
+            "data": "Tenon Width Clearance - This option will appear when an  Accu-Systems Universal  NC Link is selected. Sets the clearance required for the Tenon Width."
+        },
+        {
+            "type": "text",
+            "data": "Tenon Width Clearance - This option will appear when an  Accu-Systems Universal  NC Link is selected. Sets the clearance required for the Tenon Width."
+        },
+        {
+            "type": "text",
+            "data": "ID Parameter Name - This option will appear when the  Anderson MLS NC Link is selected. This allows you to specify the name of the unique material id parameter\n        that will identify this material to the lift system."
+        },
+        {
+            "type": "text",
+            "data": "ID Parameter Name - This option will appear when the  Anderson MLS NC Link is selected. This allows you to specify the name of the unique material id parameter\n        that will identify this material to the lift system."
+        },
+        {
+            "type": "text",
+            "data": "Swap A/B Notches - This option will appear when the  Hoffman Beaded Frame System  NC Link is selected. Allows you to swap the A/B notches."
+        },
+        {
+            "type": "text",
+            "data": "Swap A/B Notches - This option will appear when the  Hoffman Beaded Frame System  NC Link is selected. Allows you to swap the A/B notches."
+        },
+        {
+            "type": "text",
+            "data": "Mirror Output -  This option will appear when the  Hoffman Beaded Frame System  NC Link is selected. Enables Mirrored Output."
+        },
+        {
+            "type": "text",
+            "data": "Mirror Output -  This option will appear when the  Hoffman Beaded Frame System  NC Link is selected. Enables Mirrored Output."
+        },
+        {
+            "type": "text",
+            "data": "Feed Speed - This option will appear when the  Homag Edgebander NC Link is selected. Allows you to set the machine feed speed."
+        },
+        {
+            "type": "text",
+            "data": "Feed Speed - This option will appear when the  Homag Edgebander NC Link is selected. Allows you to set the machine feed speed."
+        },
+        {
+            "type": "text",
+            "data": "Oversize - This option will appear when the  Homag Edgebander NC Link is selected. Allows you to set the oversize value."
+        },
+        {
+            "type": "text",
+            "data": "Oversize - This option will appear when the  Homag Edgebander NC Link is selected. Allows you to set the oversize value."
+        },
+        {
+            "type": "text",
+            "data": "Glue Type - This option will appear when the  Homag Edgebander NC Link is selected. Allows you to set the glue type."
+        },
+        {
+            "type": "text",
+            "data": "Glue Type - This option will appear when the  Homag Edgebander NC Link is selected. Allows you to set the glue type."
+        }
+    ],
+    "source_file": "NCEnglish\\Ribbonbar\\Main_Tab\\Machine\\Machine_Types\\Specialized_Other.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

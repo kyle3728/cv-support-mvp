@@ -1,0 +1,146 @@
+{
+    "id": "b0ee5555-aab4-406d-b4c8-35b1f2760693",
+    "title": "RLLA_Edit_Lines",
+    "content": [
+        {
+            "type": "text",
+            "data": "Edit Lines"
+        },
+        {
+            "type": "image",
+            "data": "1AUALL.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image5631.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Highlighting any new or existing item in the list will allow you to Edit the item. Simply click the Edit button."
+        },
+        {
+            "type": "image",
+            "data": "image5632.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There are four main options in this screen:"
+        },
+        {
+            "type": "text",
+            "data": "Name -  This is another area where you can rename the line. \n \n \n Type -  This selection box allows you to select which Type of Dimension you want to use with this line. There are three types:"
+        },
+        {
+            "type": "text",
+            "data": "Name -  This is another area where you can rename the line."
+        },
+        {
+            "type": "text",
+            "data": "Name -  This is another area where you can rename the line."
+        },
+        {
+            "type": "text",
+            "data": "Type -  This selection box allows you to select which Type of Dimension you want to use with this line. There are three types:"
+        },
+        {
+            "type": "text",
+            "data": "Type -  This selection box allows you to select which Type of Dimension you want to use with this line. There are three types:"
+        },
+        {
+            "type": "image",
+            "data": "image5633.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Wall - This selection sets the line to display across the length of the Wall. \n \n \n Wall End - This selection sets the line to display across the depth of the Wall. \n \n \n Island Counter Top - This selection sets the line to display around a Counter Top. Make sure to activate Dimension around on the  Counter Top ."
+        },
+        {
+            "type": "text",
+            "data": "Wall - This selection sets the line to display across the length of the Wall. \n \n \n Wall End - This selection sets the line to display across the depth of the Wall. \n \n \n Island Counter Top - This selection sets the line to display around a Counter Top. Make sure to activate Dimension around on the  Counter Top ."
+        },
+        {
+            "type": "text",
+            "data": "Wall - This selection sets the line to display across the length of the Wall. \n \n \n Wall End - This selection sets the line to display across the depth of the Wall. \n \n \n Island Counter Top - This selection sets the line to display around a Counter Top. Make sure to activate Dimension around on the  Counter Top ."
+        },
+        {
+            "type": "text",
+            "data": "Wall - This selection sets the line to display across the length of the Wall."
+        },
+        {
+            "type": "text",
+            "data": "Wall - This selection sets the line to display across the length of the Wall."
+        },
+        {
+            "type": "text",
+            "data": "Wall End - This selection sets the line to display across the depth of the Wall."
+        },
+        {
+            "type": "text",
+            "data": "Wall End - This selection sets the line to display across the depth of the Wall."
+        },
+        {
+            "type": "text",
+            "data": "Island Counter Top - This selection sets the line to display around a Counter Top. Make sure to activate Dimension around on the  Counter Top ."
+        },
+        {
+            "type": "text",
+            "data": "Island Counter Top - This selection sets the line to display around a Counter Top. Make sure to activate Dimension around on the  Counter Top ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Counter Top",
+                "uuid": "f1b21f88-5094-48bb-a0f6-86e01e85b081",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "A Dimension Line may only have one of these selections. You cannot combine a Dimension Line to do both Wall and Wall End Dimensions."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Objects \n \n \n Force Dimension Line . This feature is best defined in an example:"
+        },
+        {
+            "type": "text",
+            "data": "Objects"
+        },
+        {
+            "type": "text",
+            "data": "Objects"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Objects",
+                "uuid": "e3f155d3-b0bb-4664-b79d-97a534b4a624",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Force Dimension Line . This feature is best defined in an example:"
+        },
+        {
+            "type": "text",
+            "data": "Force Dimension Line . This feature is best defined in an example:"
+        },
+        {
+            "type": "text",
+            "data": "Setup the Left Dimension Line to show Wall Ends, Cabinet Top, Cabinet Bottom, Upper Cabinet Top, Upper Cabinet Bottom. \u00a0Setup the Right Dimension Line to show Wall Ends, Counter Top Surface, Counter Top Bottom. \u00a0If you have a design that does NOT have Counter Tops, Solid is designed to NOT show the Right Dimension Line since nothing in that dimension line actually exists in the design (see above example). However, by choosing \"Force Dimension Lines\", the Wall Ends will still be dimensioned on the right, even though there is no Counter Top Surface and no Counter Top Bottom."
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\RLLA_Edit_Lines.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

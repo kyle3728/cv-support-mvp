@@ -1,0 +1,239 @@
+{
+    "id": "f4fc27c3-be51-4293-8b6f-1b8a6671bbc6",
+    "title": "AW_Toe_Kick",
+    "content": [
+        {
+            "type": "text",
+            "data": "Toe Kick"
+        },
+        {
+            "type": "text",
+            "data": "The Toe Kick Wizard allows you to establish your Assemblies Toe Type (Toe Kick, Legs, or Both)\u00a0and configurations."
+        },
+        {
+            "type": "image",
+            "data": "image426.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The following diagram shows the options available in the Toe Kick Branch. Click a specific option in the diagram for more information or continue through this topic for information on all the options."
+        },
+        {
+            "type": "image",
+            "data": "image405.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Side Toe Banding Definition (Standard #677)"
+        },
+        {
+            "type": "image",
+            "data": "image406.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Front Toe Banding Definition (Standard #678)"
+        },
+        {
+            "type": "image",
+            "data": "image407.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Back Toe Banding Definition (Standard #679)"
+        },
+        {
+            "type": "image",
+            "data": "image408.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Toe Kick Height (Standard #238)"
+        },
+        {
+            "type": "image",
+            "data": "image409.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Toe Kick or Legs (Standard #481)"
+        },
+        {
+            "type": "image",
+            "data": "image410.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Leg - Front Recess (Standard #482)"
+        },
+        {
+            "type": "text",
+            "data": "This position establishes the point the Center of the  Model  Reference is placed for the Leg, Leg Leveler, or Caster."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Model",
+                "uuid": "80226667-3248-4b47-b7ea-bc1e7f16cabb",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image411.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Use Legs On Back of Cabinet (Standard #483)"
+        },
+        {
+            "type": "image",
+            "data": "image412.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Leg - Back Recess (Standard #484)"
+        },
+        {
+            "type": "text",
+            "data": "This position establishes the point the Center of the\u00a0Model Reference is placed for the Leg, Leg Leveler, or Caster."
+        },
+        {
+            "type": "image",
+            "data": "image413.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Use Legs On Finished End of Cabinet (Standard #485)"
+        },
+        {
+            "type": "image",
+            "data": "image414.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Leg - Finished End Recess (Standard #486)"
+        },
+        {
+            "type": "text",
+            "data": "This position establishes the point the Center of the Model Reference is placed for the Leg, Leg Leveler, or Caster."
+        },
+        {
+            "type": "image",
+            "data": "image415.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Share Legs Between Cabinet (Standard #487)"
+        },
+        {
+            "type": "image",
+            "data": "image416.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Leg - Unfinished End Recess (Standard #488)"
+        },
+        {
+            "type": "text",
+            "data": "This position establishes the point the Center of the Model Reference is placed for the Leg, Leg Leveler, or Caster."
+        },
+        {
+            "type": "image",
+            "data": "image417.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Leg - Sub End Recess (Standard #545)"
+        },
+        {
+            "type": "text",
+            "data": "This position establishes the point the Center of the Model Reference is placed for the Leg, Leg Leveler, or Caster."
+        },
+        {
+            "type": "image",
+            "data": "image418.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Maximum Span Between Legs (Standard #489)"
+        },
+        {
+            "type": "image",
+            "data": "image419.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Toe Kick Recess (Standard #240)"
+        },
+        {
+            "type": "image",
+            "data": "image420.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Side Toe Recess (Standard #239)"
+        },
+        {
+            "type": "image",
+            "data": "image421.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "End Sleeper Recess (Standard #255)"
+        },
+        {
+            "type": "image",
+            "data": "image422.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Back Toe Recess (Standard #257)"
+        },
+        {
+            "type": "image",
+            "data": "image423.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Maximum Sleeper Spacing (Standard #254)"
+        },
+        {
+            "type": "image",
+            "data": "image424.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Front Toe Machining Face (Standard #580)"
+        },
+        {
+            "type": "image",
+            "data": "image425.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\System_Level\\Ribbonbar\\Main_Tab\\Construction_Group\\Assembly_Manager\\Assembly\\Branches\\Exterior_Case\\AW_Toe_Kick.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

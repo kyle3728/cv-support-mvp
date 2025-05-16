@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><link rel="stylesheet" type="text/css" href="../_rhdefault.css"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=WINDOWS-1252"/>
+  <meta name="topic-priority" content="0"/>
+  <meta name="topic-time-estimate" content="0"/>
+  <meta name="topic-comment" content=""/>
+  <meta name="topic-id" content="Overrides"/>
+  <meta name="topic-status" content="Complete"/>
+  <meta name="generator" content="Adobe RoboHelp 2022"/>
+  <title>Overrides</title>
+  <link rel="StyleSheet" href="../assets/css/default.css" type="text/css"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/><meta name="description" content=""/><script type="text/javascript" src="../ehlpdhtm.js"></script></head>
+<body>
+  <h1>Overrides</h1>
+  <p>Overrides are simply changes made to an Assembly or a Part that require some value to differ from the <a href="../System_Level/Ribbonbar/Main_Tab/Catalogs_Group/Material_Schedule_Manager/SL_Material_Schedules.htm">Material Schedule</a> or <a href="../System_Level/Ribbonbar/Main_Tab/Construction_Group/Assembly_Manager/SL_Assembly_Manager.htm">Construction Method</a> that originally defined it. Schedules or Methods can have Overrides too. Overrides are beneficial when used properly, and dangerous when improperly used. Overrides are limited in reach to the level at which they are created, therefore an Assembly with a Part that has an override in Room 1, will have no effect on other Assemblies in the same Room, or other Rooms. The problems come, if at all, when the Override is accidentally saved back to your <a href="../Room_Level/Side_Bar/Objects/RLSB_Objects.htm">Catalog</a>. If this is done, the Override remains as part of the Assembly, and this may result in a Part or Parts not responding to future changes. There is a simple way to avoid this problem, and that is to never <a href="../Room_Level/Right_Click_Options/RLRC_On_One_Assembly.htm">Save</a> an Assembly to your Catalog with an Override unless you understand where and why you have created the Override and desire it remain.</p>
+  <p style="font-weight: bold; font-size: 14pt;">Understanding an Override</p>
+  <p>You have spent time setting up Schedules and Methods that define how you choose to build Assemblies. As CABINET VISION rebuilds your Assembly (as it does at certain times when you make certain modifications), it looks to those Schedules and Methods to determine values for the Assembly components. If it expects to find a value, for instance, 4 inches for the height of a Toe Kick as you have set it in the Construction Method, and it finds a value that differs, it assumes that you have made a change that you desire to keep. Therefore, the Toe Kick will never again re-size to the 4 inches unless you <a href="../Assembly_Level/Ribbonbar/Main_Tab/Tools_Group/AL_Modifications.htm">remove the Override</a>. If you had saved this Assembly back to your Catalog you would discover that each time you pulled it from your Catalog, it would have a Toe Kick that reflected the size you had changed it to, and not the 4 inches you have set in the Construction Method. The real danger with Overrides is when they become part of an Assembly by saving it to a Library, as they are useful as a method of changing a single Part of a single Assembly for use in a Job.</p>
+  <p style="font-weight: bold; font-size: 14pt;">Removing Overrides</p>
+  <p>There are two methods of removing overrides. The simplest is from the Assembly Level, Section View. Select the option <span style="font-weight: bold;"><a href="../Assembly_Level/Ribbonbar/Main_Tab/Tools_Group/AL_Modifications.htm#DefaultAssembly">Modifications | Default Assembly</a></span> answer the prompt affirmatively regarding your intention to Rebuild the Assembly as a Default Assembly. A Default Assembly is a box, it lacks Doors, Drawers, Shelves, and any other interior members it had. You will need to add these Parts back to it, and re-save it to your Library overwriting the existing defective Assembly. The second method is to select the Part that has the Override on it by right clicking on it from an Orthographic view. Select  <a href="../Assembly_Level/Right_Click_Options/ALRC_Part_Ortho.htm">Properties</a> and then go to the Overrides Tab. You will see the Override if it exists, in the window. Click on the Override you choose to remove, and click the Remove button. The Part should return to pre-override behavior.</p>
+
+</body></html>

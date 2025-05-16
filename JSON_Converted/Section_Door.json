@@ -1,0 +1,613 @@
+{
+    "id": "2eee8329-0615-42cf-b88c-791aee10ee2a",
+    "title": "Section_Door",
+    "content": [
+        {
+            "type": "text",
+            "data": "Section Door"
+        },
+        {
+            "type": "text",
+            "data": "This utility will allow you to not only re-section the current Door but also gives you control over all of the Door's Properties."
+        },
+        {
+            "type": "image",
+            "data": "image6177.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Toolbar"
+        },
+        {
+            "type": "image",
+            "data": "image3496.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Horizontal Split -  Splits the selected Door/Panel Horizontally."
+        },
+        {
+            "type": "image",
+            "data": "image3497.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Vertical Split -  Splits the selected Door/Panel Vertically."
+        },
+        {
+            "type": "image",
+            "data": "image3498.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Multiple Horizontal Split -  Splits the selected Door/Panel Horizontally into multiple panels. Once you select the Panel to split simply enter the number of equal sections you want to create and click OK."
+        },
+        {
+            "type": "image",
+            "data": "image3499.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image5871.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "See the  Set As System Defaults  topic for more information on it."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Set As System Defaults",
+                "uuid": "e5b1c38f-2747-41a5-a7b8-9aefa6986ede",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Multiple Vertical Split -  Splits the selected Door/Panel Vertically into multiple panels. Once you select the Panel to split simply enter the number of equal sections you want to create and click OK."
+        },
+        {
+            "type": "image",
+            "data": "image3500.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image5872.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "See the  Set As System Defaults  topic for more information on it."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Set As System Defaults",
+                "uuid": "e5b1c38f-2747-41a5-a7b8-9aefa6986ede",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Delete -  If nothing (Panel/Stile/Rail) is selected it will erase all sections on the Door, otherwise it will delete the selected components."
+        },
+        {
+            "type": "image",
+            "data": "image3501.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Zoom Window"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Zoom Window",
+                "uuid": "e7615284-fc2b-4e06-92a5-400c3db012f5",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image3502.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Zoom Out"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Zoom Out",
+                "uuid": "e7615284-fc2b-4e06-92a5-400c3db012f5",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image3503.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Zoom All"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Zoom All",
+                "uuid": "e7615284-fc2b-4e06-92a5-400c3db012f5",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image3504.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Door Properties"
+        },
+        {
+            "type": "text",
+            "data": "With nothing selected on screen you will see the following sidebar Properties for the active Door."
+        },
+        {
+            "type": "image",
+            "data": "image6178.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Door - Template -  Indicates whether the current Door is a  Template  (MDF Doormaker) Door.\u00a0This value can not be changed in the Door Section Editor. \n \n \n Door - Dimensions - Width -  Indicates the overall Width of the Door. This value can not be changed in the Door Section Editor. \n \n \n Door - Dimensions - Height -  Indicates the overall Height of the Door.\u00a0This value can not be changed in the Door Section Editor. \n \n \n Door - Frame - Left Stile -  Specifies the Left Stile Width. \n \n \n Door - Frame - Right Stile -  Specifies the Right Stile Width. \n \n \n Door - Frame - Top Rail -  Specifies the Top Rail Width. \n \n \n Door - Frame - Bottom Rail -  Specifies the Bottom Rail Width. \n \n \n Door - Frame - Miter Corner -  Specifies whether the Corners of the perimeter Stiles and Rails are Mitered. \n \n \n Door - Profiles - Outside -  Specifies the Outside Edge Profile to use for the Door. \n \n \n Door - Profiles - Inside -  Specifies the Inside Edge Profile to use for the Door. \n \n \n Door - Profiles - Panel -  Specifies the Raised Panel Profile to use for the Door. \n \n \n Door - Profiles - Route -  Specifies the Route Detail to use for the Door. Unless a pre-existing Route exists on the Door this will not change anything."
+        },
+        {
+            "type": "text",
+            "data": "Door - Template -  Indicates whether the current Door is a  Template  (MDF Doormaker) Door.\u00a0This value can not be changed in the Door Section Editor."
+        },
+        {
+            "type": "text",
+            "data": "Door - Template -  Indicates whether the current Door is a  Template  (MDF Doormaker) Door.\u00a0This value can not be changed in the Door Section Editor."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Template",
+                "uuid": "f6f09e9f-c0b8-40b7-bf49-9f8204b46728",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Door - Dimensions - Width -  Indicates the overall Width of the Door. This value can not be changed in the Door Section Editor."
+        },
+        {
+            "type": "text",
+            "data": "Door - Dimensions - Width -  Indicates the overall Width of the Door. This value can not be changed in the Door Section Editor."
+        },
+        {
+            "type": "text",
+            "data": "Door - Dimensions - Height -  Indicates the overall Height of the Door.\u00a0This value can not be changed in the Door Section Editor."
+        },
+        {
+            "type": "text",
+            "data": "Door - Dimensions - Height -  Indicates the overall Height of the Door.\u00a0This value can not be changed in the Door Section Editor."
+        },
+        {
+            "type": "text",
+            "data": "Door - Frame - Left Stile -  Specifies the Left Stile Width."
+        },
+        {
+            "type": "text",
+            "data": "Door - Frame - Left Stile -  Specifies the Left Stile Width."
+        },
+        {
+            "type": "text",
+            "data": "Door - Frame - Right Stile -  Specifies the Right Stile Width."
+        },
+        {
+            "type": "text",
+            "data": "Door - Frame - Right Stile -  Specifies the Right Stile Width."
+        },
+        {
+            "type": "text",
+            "data": "Door - Frame - Top Rail -  Specifies the Top Rail Width."
+        },
+        {
+            "type": "text",
+            "data": "Door - Frame - Top Rail -  Specifies the Top Rail Width."
+        },
+        {
+            "type": "text",
+            "data": "Door - Frame - Bottom Rail -  Specifies the Bottom Rail Width."
+        },
+        {
+            "type": "text",
+            "data": "Door - Frame - Bottom Rail -  Specifies the Bottom Rail Width."
+        },
+        {
+            "type": "text",
+            "data": "Door - Frame - Miter Corner -  Specifies whether the Corners of the perimeter Stiles and Rails are Mitered."
+        },
+        {
+            "type": "text",
+            "data": "Door - Frame - Miter Corner -  Specifies whether the Corners of the perimeter Stiles and Rails are Mitered."
+        },
+        {
+            "type": "text",
+            "data": "Door - Profiles - Outside -  Specifies the Outside Edge Profile to use for the Door."
+        },
+        {
+            "type": "text",
+            "data": "Door - Profiles - Outside -  Specifies the Outside Edge Profile to use for the Door."
+        },
+        {
+            "type": "text",
+            "data": "Door - Profiles - Inside -  Specifies the Inside Edge Profile to use for the Door."
+        },
+        {
+            "type": "text",
+            "data": "Door - Profiles - Inside -  Specifies the Inside Edge Profile to use for the Door."
+        },
+        {
+            "type": "text",
+            "data": "Door - Profiles - Panel -  Specifies the Raised Panel Profile to use for the Door."
+        },
+        {
+            "type": "text",
+            "data": "Door - Profiles - Panel -  Specifies the Raised Panel Profile to use for the Door."
+        },
+        {
+            "type": "text",
+            "data": "Door - Profiles - Route -  Specifies the Route Detail to use for the Door. Unless a pre-existing Route exists on the Door this will not change anything."
+        },
+        {
+            "type": "text",
+            "data": "Door - Profiles - Route -  Specifies the Route Detail to use for the Door. Unless a pre-existing Route exists on the Door this will not change anything."
+        },
+        {
+            "type": "text",
+            "data": "Stile Properties"
+        },
+        {
+            "type": "text",
+            "data": "Perimeter (Left/Right) Stile Selected"
+        },
+        {
+            "type": "image",
+            "data": "image6179.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Mid Stile Selected"
+        },
+        {
+            "type": "image",
+            "data": "image6180.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Stile - Dimensions - Width -  Specifies the Width of the selected Stile. \n \n \n Stile - Dimensions - Length -  Indicates the Length of the selected Stile.\u00a0This value can not be changed in the Door Section Editor, but can be adjusted with Stile - Adjustments - Length. \n \n \n Stile - Adjustments - Length -  Specifies a Length Adjustment to the selected Stile. \n \n \n Stile - Material - Material -  Specifies the Material used by the selected Stile. \n \n \n Stile - Material - Finish -  Specifies the Finish used by the selected Stile."
+        },
+        {
+            "type": "text",
+            "data": "Stile - Dimensions - Width -  Specifies the Width of the selected Stile."
+        },
+        {
+            "type": "text",
+            "data": "Stile - Dimensions - Width -  Specifies the Width of the selected Stile."
+        },
+        {
+            "type": "text",
+            "data": "Stile - Dimensions - Length -  Indicates the Length of the selected Stile.\u00a0This value can not be changed in the Door Section Editor, but can be adjusted with Stile - Adjustments - Length."
+        },
+        {
+            "type": "text",
+            "data": "Stile - Dimensions - Length -  Indicates the Length of the selected Stile.\u00a0This value can not be changed in the Door Section Editor, but can be adjusted with Stile - Adjustments - Length."
+        },
+        {
+            "type": "text",
+            "data": "Stile - Adjustments - Length -  Specifies a Length Adjustment to the selected Stile."
+        },
+        {
+            "type": "text",
+            "data": "Stile - Adjustments - Length -  Specifies a Length Adjustment to the selected Stile."
+        },
+        {
+            "type": "text",
+            "data": "Stile - Material - Material -  Specifies the Material used by the selected Stile."
+        },
+        {
+            "type": "text",
+            "data": "Stile - Material - Material -  Specifies the Material used by the selected Stile."
+        },
+        {
+            "type": "text",
+            "data": "Stile - Material - Finish -  Specifies the Finish used by the selected Stile."
+        },
+        {
+            "type": "text",
+            "data": "Stile - Material - Finish -  Specifies the Finish used by the selected Stile."
+        },
+        {
+            "type": "text",
+            "data": "Rail Properties"
+        },
+        {
+            "type": "text",
+            "data": "Perimeter (Top/Bottom) Rail Selected"
+        },
+        {
+            "type": "image",
+            "data": "image6181.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Mid Rail Selected"
+        },
+        {
+            "type": "image",
+            "data": "image6182.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Rail - Dimensions - Width \n \n \n Rail - Dimensions - Length \n \n \n Rail - Adjustments - Length \n \n \n Rail - Material - Material \n \n \n Rail - Material - Finish"
+        },
+        {
+            "type": "text",
+            "data": "Rail - Dimensions - Width"
+        },
+        {
+            "type": "text",
+            "data": "Rail - Dimensions - Width"
+        },
+        {
+            "type": "text",
+            "data": "Rail - Dimensions - Length"
+        },
+        {
+            "type": "text",
+            "data": "Rail - Dimensions - Length"
+        },
+        {
+            "type": "text",
+            "data": "Rail - Adjustments - Length"
+        },
+        {
+            "type": "text",
+            "data": "Rail - Adjustments - Length"
+        },
+        {
+            "type": "text",
+            "data": "Rail - Material - Material"
+        },
+        {
+            "type": "text",
+            "data": "Rail - Material - Material"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Rail - Material - Material",
+                "uuid": "2eee8329-0615-42cf-b88c-791aee10ee2a",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Rail - Material - Finish"
+        },
+        {
+            "type": "text",
+            "data": "Rail - Material - Finish"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Rail - Material - Finish",
+                "uuid": "2eee8329-0615-42cf-b88c-791aee10ee2a",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Panel Properties"
+        },
+        {
+            "type": "image",
+            "data": "image6184.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Panel - Dimensions - Width \n \n \n Panel - Dimensions - Height \n \n \n Panel - Dimensions - Lock Width -  Will lock the current Width of the selected Panel. \n \n \n Panel - Dimensions - Lock Height -  Will lock the current Height of the selected Panel. \n \n \n Panel - Panel - Type -  Specifies the Panel Type for the selected Panel. Following are the valid Panel Types: \n \n \n \n \n Raised (Raised Panel) \n \n \n Flat (Flat Panel) \n \n \n Glass \n \n \n H Slats (Horizontal Slats) \n \n \n V Slats (Vertical Slats) \n \n \n Slab \n \n \n None \n \n \n \n \n Panel - Panel - Horizontal Grain -  Specifies that the selected Panel is grained Horizontally. \n \n \n Panel - Insets - Horizontal -  Specifies the Horizontal inset of the selected Panel. \n \n \n Panel - Insets - Vertical -  Specifies the Vertical inset of the selected Panel. \n \n \n Panel - Material - Material \n \n \n Panel - Material - Finish"
+        },
+        {
+            "type": "text",
+            "data": "Panel - Dimensions - Width"
+        },
+        {
+            "type": "text",
+            "data": "Panel - Dimensions - Width"
+        },
+        {
+            "type": "text",
+            "data": "Panel - Dimensions - Height"
+        },
+        {
+            "type": "text",
+            "data": "Panel - Dimensions - Height"
+        },
+        {
+            "type": "text",
+            "data": "Panel - Dimensions - Lock Width -  Will lock the current Width of the selected Panel."
+        },
+        {
+            "type": "text",
+            "data": "Panel - Dimensions - Lock Width -  Will lock the current Width of the selected Panel."
+        },
+        {
+            "type": "text",
+            "data": "Panel - Dimensions - Lock Height -  Will lock the current Height of the selected Panel."
+        },
+        {
+            "type": "text",
+            "data": "Panel - Dimensions - Lock Height -  Will lock the current Height of the selected Panel."
+        },
+        {
+            "type": "text",
+            "data": "Panel - Panel - Type -  Specifies the Panel Type for the selected Panel. Following are the valid Panel Types:"
+        },
+        {
+            "type": "text",
+            "data": "Panel - Panel - Type -  Specifies the Panel Type for the selected Panel. Following are the valid Panel Types:"
+        },
+        {
+            "type": "text",
+            "data": "Raised (Raised Panel) \n \n \n Flat (Flat Panel) \n \n \n Glass \n \n \n H Slats (Horizontal Slats) \n \n \n V Slats (Vertical Slats) \n \n \n Slab \n \n \n None"
+        },
+        {
+            "type": "text",
+            "data": "Raised (Raised Panel) \n \n \n Flat (Flat Panel) \n \n \n Glass \n \n \n H Slats (Horizontal Slats) \n \n \n V Slats (Vertical Slats) \n \n \n Slab \n \n \n None"
+        },
+        {
+            "type": "text",
+            "data": "Raised (Raised Panel)"
+        },
+        {
+            "type": "text",
+            "data": "Raised (Raised Panel)"
+        },
+        {
+            "type": "text",
+            "data": "Flat (Flat Panel)"
+        },
+        {
+            "type": "text",
+            "data": "Flat (Flat Panel)"
+        },
+        {
+            "type": "text",
+            "data": "Glass"
+        },
+        {
+            "type": "text",
+            "data": "Glass"
+        },
+        {
+            "type": "text",
+            "data": "H Slats (Horizontal Slats)"
+        },
+        {
+            "type": "text",
+            "data": "H Slats (Horizontal Slats)"
+        },
+        {
+            "type": "text",
+            "data": "V Slats (Vertical Slats)"
+        },
+        {
+            "type": "text",
+            "data": "V Slats (Vertical Slats)"
+        },
+        {
+            "type": "text",
+            "data": "Slab"
+        },
+        {
+            "type": "text",
+            "data": "Slab"
+        },
+        {
+            "type": "text",
+            "data": "None"
+        },
+        {
+            "type": "text",
+            "data": "None"
+        },
+        {
+            "type": "text",
+            "data": "Panel - Panel - Horizontal Grain -  Specifies that the selected Panel is grained Horizontally."
+        },
+        {
+            "type": "text",
+            "data": "Panel - Panel - Horizontal Grain -  Specifies that the selected Panel is grained Horizontally."
+        },
+        {
+            "type": "text",
+            "data": "Panel - Insets - Horizontal -  Specifies the Horizontal inset of the selected Panel."
+        },
+        {
+            "type": "text",
+            "data": "Panel - Insets - Horizontal -  Specifies the Horizontal inset of the selected Panel."
+        },
+        {
+            "type": "text",
+            "data": "Panel - Insets - Vertical -  Specifies the Vertical inset of the selected Panel."
+        },
+        {
+            "type": "text",
+            "data": "Panel - Insets - Vertical -  Specifies the Vertical inset of the selected Panel."
+        },
+        {
+            "type": "text",
+            "data": "Panel - Material - Material"
+        },
+        {
+            "type": "text",
+            "data": "Panel - Material - Material"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Panel - Material - Material",
+                "uuid": "2eee8329-0615-42cf-b88c-791aee10ee2a",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Panel - Material - Finish"
+        },
+        {
+            "type": "text",
+            "data": "Panel - Material - Finish"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Panel - Material - Finish",
+                "uuid": "2eee8329-0615-42cf-b88c-791aee10ee2a",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Section_Door.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

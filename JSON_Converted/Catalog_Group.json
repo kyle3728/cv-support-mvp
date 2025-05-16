@@ -1,0 +1,53 @@
+{
+    "id": "92243c77-846e-4e26-9f94-1d4ef990278d",
+    "title": "Catalog_Group",
+    "content": [
+        {
+            "type": "text",
+            "data": "Catalog Group"
+        },
+        {
+            "type": "image",
+            "data": "image123.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "New"
+        },
+        {
+            "type": "image",
+            "data": "image124.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Copy"
+        },
+        {
+            "type": "image",
+            "data": "image125.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Creates a copy of the selected Catalog."
+        },
+        {
+            "type": "text",
+            "data": "Delete"
+        },
+        {
+            "type": "image",
+            "data": "image126.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option removes the selected Catalog, Menu, or Assembly."
+        }
+    ],
+    "source_file": "CEEnglish\\Explorer_View\\Ribbonbar\\Main_Tab\\Catalog_Group.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

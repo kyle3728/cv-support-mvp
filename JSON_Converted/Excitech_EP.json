@@ -1,0 +1,21 @@
+{
+    "id": "7e3ef736-0cab-4f2e-860b-93ec0500c9e5",
+    "title": "Excitech_EP",
+    "content": [
+        {
+            "type": "text",
+            "data": "Excitech EP"
+        },
+        {
+            "type": "text",
+            "data": "This is a  Panel Saw  Link."
+        },
+        {
+            "type": "text",
+            "data": "Saw output for the Excitech EP series control EP330/EP270."
+        }
+    ],
+    "source_file": "NCEnglish_Optimizer\\Ribbonbar\\Main_Tab\\Machine\\NC_Links\\Saw_Links\\Excitech_EP.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

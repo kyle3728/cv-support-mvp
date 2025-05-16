@@ -1,0 +1,400 @@
+{
+    "id": "7e99a588-35b3-4a1b-b867-be319347a239",
+    "title": "SLMM_Drawer_Guides",
+    "content": [
+        {
+            "type": "text",
+            "data": "Drawer Guides"
+        },
+        {
+            "type": "text",
+            "data": "This topic covers all the Properties for the Drawer Guide Material Type. The properties that accompany each Drawer Guide play an important part in helping determine your  Drawer Box size . However, this is only part of the process of Drawer Box sizing."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Drawer Box size",
+                "uuid": "8dc8d249-bf95-4e42-b01a-d8229c93d0f0",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "DG_Material_Props.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Material Group"
+        },
+        {
+            "type": "text",
+            "data": "Previously covered in the  Banding Material Type  topic."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Banding Material Type",
+                "uuid": "6fa50f67-fbf8-4e66-9990-50a8dc9482a8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Cost -  If you are entering \"Cost\" information, be aware that the price you enter is for \"each\" Drawer Guide, not each pair. Therefore, enter 1/2 of the cost of the \"pair\" of Drawer Guides."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Guide Group"
+        },
+        {
+            "type": "image",
+            "data": "DG_Guide_Props.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Type -  Type defines the style of Drawer Guide as either Side Mount, Bottom Mount, Top Mount or System. \n \n \n Height -  The Height of the Drawer Guide. \n \n \n Length -  The Length of the Drawer Guide. \n \n \n Extension -  This value sets the graphic limit of how far the Drawer Box opens when you use the \"Open Drawer\" feature."
+        },
+        {
+            "type": "text",
+            "data": "Type -  Type defines the style of Drawer Guide as either Side Mount, Bottom Mount, Top Mount or System."
+        },
+        {
+            "type": "text",
+            "data": "Type -  Type defines the style of Drawer Guide as either Side Mount, Bottom Mount, Top Mount or System."
+        },
+        {
+            "type": "text",
+            "data": "Height -  The Height of the Drawer Guide."
+        },
+        {
+            "type": "text",
+            "data": "Height -  The Height of the Drawer Guide."
+        },
+        {
+            "type": "text",
+            "data": "Length -  The Length of the Drawer Guide."
+        },
+        {
+            "type": "text",
+            "data": "Length -  The Length of the Drawer Guide."
+        },
+        {
+            "type": "text",
+            "data": "Extension -  This value sets the graphic limit of how far the Drawer Box opens when you use the \"Open Drawer\" feature."
+        },
+        {
+            "type": "text",
+            "data": "Extension -  This value sets the graphic limit of how far the Drawer Box opens when you use the \"Open Drawer\" feature."
+        },
+        {
+            "type": "image",
+            "data": "image2207.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Screw Center Reference to Top -  This option, if enabled, will set the reference for your mounting bores from the top of the Drawer Box. If not enabled the Reference will be from the Drawer Box Bottom."
+        },
+        {
+            "type": "text",
+            "data": "Screw Center Reference to Top -  This option, if enabled, will set the reference for your mounting bores from the top of the Drawer Box. If not enabled the Reference will be from the Drawer Box Bottom."
+        },
+        {
+            "type": "text",
+            "data": "Screw Center Reference to Top -  This option, if enabled, will set the reference for your mounting bores from the top of the Drawer Box. If not enabled the Reference will be from the Drawer Box Bottom."
+        },
+        {
+            "type": "text",
+            "data": "or"
+        },
+        {
+            "type": "image",
+            "data": "image2208.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image2209.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Screw Center To Box Reference -  This value sets your Mounting Bore position from the Reference selected above."
+        },
+        {
+            "type": "text",
+            "data": "Screw Center To Box Reference -  This value sets your Mounting Bore position from the Reference selected above."
+        },
+        {
+            "type": "text",
+            "data": "Screw Center To Box Reference -  This value sets your Mounting Bore position from the Reference selected above."
+        },
+        {
+            "type": "text",
+            "data": "This value helps determine your Drawer Box Height if you Bore All Line Bore Holes and align your Drawer Guides to System Boring."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Guide Hole Offset -  This value represents the distance from the front of your Case to the First Bore Hole. \n \n \n Back Notch Length -  Allows you to specify the Back Notch Length."
+        },
+        {
+            "type": "text",
+            "data": "Guide Hole Offset -  This value represents the distance from the front of your Case to the First Bore Hole."
+        },
+        {
+            "type": "text",
+            "data": "Guide Hole Offset -  This value represents the distance from the front of your Case to the First Bore Hole."
+        },
+        {
+            "type": "text",
+            "data": "Back Notch Length -  Allows you to specify the Back Notch Length."
+        },
+        {
+            "type": "text",
+            "data": "Back Notch Length -  Allows you to specify the Back Notch Length."
+        },
+        {
+            "type": "image",
+            "data": "image111.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Back Notch Height -  Allows you to specify the Back Notch Height."
+        },
+        {
+            "type": "text",
+            "data": "Back Notch Height -  Allows you to specify the Back Notch Height."
+        },
+        {
+            "type": "text",
+            "data": "Back Notch Height -  Allows you to specify the Back Notch Height."
+        },
+        {
+            "type": "image",
+            "data": "image112.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Back Notch Offset -  Allows you to specify the Horizontal position of the Back Notch."
+        },
+        {
+            "type": "text",
+            "data": "Back Notch Offset -  Allows you to specify the Horizontal position of the Back Notch."
+        },
+        {
+            "type": "text",
+            "data": "Back Notch Offset -  Allows you to specify the Horizontal position of the Back Notch."
+        },
+        {
+            "type": "image",
+            "data": "image113.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Clearance Group"
+        },
+        {
+            "type": "image",
+            "data": "DG_Clearance_Props.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Side Clearance -  This is the \"thickness\" of the Drawer Guide. This value, multiplied by 2 and then subtracted from the opening width, will set the Width of a Drawer Box that has this Drawer Guide. This is the area where Drawer Boxes receive the information on their Width. If you want more than a typical 1/2 inch, for a little play for instance, consider entering a value of 17/32."
+        },
+        {
+            "type": "text",
+            "data": "Side Clearance -  This is the \"thickness\" of the Drawer Guide. This value, multiplied by 2 and then subtracted from the opening width, will set the Width of a Drawer Box that has this Drawer Guide. This is the area where Drawer Boxes receive the information on their Width. If you want more than a typical 1/2 inch, for a little play for instance, consider entering a value of 17/32."
+        },
+        {
+            "type": "text",
+            "data": "Side Clearance -  This is the \"thickness\" of the Drawer Guide. This value, multiplied by 2 and then subtracted from the opening width, will set the Width of a Drawer Box that has this Drawer Guide. This is the area where Drawer Boxes receive the information on their Width. If you want more than a typical 1/2 inch, for a little play for instance, consider entering a value of 17/32."
+        },
+        {
+            "type": "image",
+            "data": "image2210.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Minimum Below Box -  Similar to Minimum Above Box (below), this defines the distance between the bottom of the Drawer Box side, (or the Drawer bottom, the lower of the two), and the first thing it would hit. If there is no Cabinet member in the way, it would reference the gap."
+        },
+        {
+            "type": "text",
+            "data": "Minimum Below Box -  Similar to Minimum Above Box (below), this defines the distance between the bottom of the Drawer Box side, (or the Drawer bottom, the lower of the two), and the first thing it would hit. If there is no Cabinet member in the way, it would reference the gap."
+        },
+        {
+            "type": "text",
+            "data": "Minimum Below Box -  Similar to Minimum Above Box (below), this defines the distance between the bottom of the Drawer Box side, (or the Drawer bottom, the lower of the two), and the first thing it would hit. If there is no Cabinet member in the way, it would reference the gap."
+        },
+        {
+            "type": "image",
+            "data": "image2211.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Minimum Above Box -  This value, and the values entered in the  Drawer Box/Roll Out Construction Method \u00a0begin to set the Height of your Drawer Box. You are asked to enter a minimum value here, and that minimum value will always apply to the selected Drawer Guide. This represents the distance between the top of the Drawer Box and the first thing it would otherwise hit, or, the gap between it and another Drawer if there is no Cabinet member in between."
+        },
+        {
+            "type": "text",
+            "data": "Minimum Above Box -  This value, and the values entered in the  Drawer Box/Roll Out Construction Method \u00a0begin to set the Height of your Drawer Box. You are asked to enter a minimum value here, and that minimum value will always apply to the selected Drawer Guide. This represents the distance between the top of the Drawer Box and the first thing it would otherwise hit, or, the gap between it and another Drawer if there is no Cabinet member in between."
+        },
+        {
+            "type": "text",
+            "data": "Minimum Above Box -  This value, and the values entered in the  Drawer Box/Roll Out Construction Method \u00a0begin to set the Height of your Drawer Box. You are asked to enter a minimum value here, and that minimum value will always apply to the selected Drawer Guide. This represents the distance between the top of the Drawer Box and the first thing it would otherwise hit, or, the gap between it and another Drawer if there is no Cabinet member in between."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Drawer Box/Roll Out Construction Method",
+                "uuid": "0ce090fb-3d1d-400c-bbed-a30c2e8f2fa7",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image2212.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Layer Group"
+        },
+        {
+            "type": "text",
+            "data": "Previously covered in the  Banding Material Type  topic."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Banding Material Type",
+                "uuid": "6fa50f67-fbf8-4e66-9990-50a8dc9482a8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Operations Tab"
+        },
+        {
+            "type": "image",
+            "data": "DG_Operations_Tab.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Operations Tab includes Operations that are System Generated."
+        },
+        {
+            "type": "text",
+            "data": "Mount Holes"
+        },
+        {
+            "type": "text",
+            "data": "D iameter -  The Diameter of the Mount Holes."
+        },
+        {
+            "type": "text",
+            "data": "Depth -  The Depth of the Mount Holes."
+        },
+        {
+            "type": "text",
+            "data": "Position 1 -  The Position of the first hole from the Front of the Drawer Box."
+        },
+        {
+            "type": "text",
+            "data": "Position 2 -  The Position of the second hole from the Front of the Drawer Box."
+        },
+        {
+            "type": "text",
+            "data": "Position 3 -  The Position of the third hole from the Front of the Drawer Box."
+        },
+        {
+            "type": "text",
+            "data": "Position 4 -  The Position of the fourth hole from the Front of the Drawer Box."
+        },
+        {
+            "type": "text",
+            "data": "Position 5 -  The Position of the fifth hole from the Front of the Drawer Box."
+        },
+        {
+            "type": "text",
+            "data": "Position 6 -  The Position of the sixth hole from the Front of the Drawer Box."
+        },
+        {
+            "type": "text",
+            "data": "Front Mount Holes"
+        },
+        {
+            "type": "text",
+            "data": "Horizontal Offset -  The Horizontal Offset distance from the Drawer Box Side to the center of the Front Mount Holes."
+        },
+        {
+            "type": "text",
+            "data": "Vertical Offset -  The Vertical Offset distance from the Reference, specified in Top Reference, to the center of the Front Mount Holes."
+        },
+        {
+            "type": "text",
+            "data": "Diameter -  The Diameter of the Front Mount Holes."
+        },
+        {
+            "type": "text",
+            "data": "Depth -  The Depth of the Front Mount Holes."
+        },
+        {
+            "type": "text",
+            "data": "Spacing -  The Spacing (if more than one in Quantity) of the Front Mount Holes."
+        },
+        {
+            "type": "text",
+            "data": "Quantity -  The Quantity of the Front Mount Holes."
+        },
+        {
+            "type": "text",
+            "data": "Back Mount Holes"
+        },
+        {
+            "type": "text",
+            "data": "Horizontal Offset -  The Horizontal Offset distance from the Drawer Box Side to the center of the Back Mount Holes."
+        },
+        {
+            "type": "text",
+            "data": "Vertical Offset -  The Vertical Offset distance from the Reference, specified in Top Reference, to the center of the Back Mount Holes."
+        },
+        {
+            "type": "text",
+            "data": "Diameter -  The Diameter of the Back Mount Holes."
+        },
+        {
+            "type": "text",
+            "data": "Depth -  The Depth of the Back Mount Holes."
+        },
+        {
+            "type": "text",
+            "data": "Spacing -  The Spacing (if more than one in Quantity) of the Back Mount Holes."
+        },
+        {
+            "type": "text",
+            "data": "Quantity -  The Quantity of the Back Mount Holes."
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\System_Level\\Ribbonbar\\Main_Tab\\Catalogs_Group\\Material_Manager\\Ribbonbar\\Properties\\Material_Types\\SLMM_Drawer_Guides.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

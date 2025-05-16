@@ -1,0 +1,17 @@
+{
+    "id": "8f633816-8323-4a8e-8ad5-9eb2d1f5df1f",
+    "title": "Second_Exercise_Formula_for_the_DX_(Width)",
+    "content": [
+        {
+            "type": "text",
+            "data": "Formula for the DX (Width)"
+        },
+        {
+            "type": "text",
+            "data": "The width of the BOARD is 4\" this is never going to change so we dont need to write a formula for the DX."
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\Parametric_Editing\\Intelligence_Workshop\\2nd_Exercise\\Second_Exercise_Formula_for_the_DX_(Width).htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

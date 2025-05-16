@@ -1,0 +1,422 @@
+{
+    "id": "2e24aee5-8ffc-491f-a322-45ce46c2c253",
+    "title": "JL_Creating_Jobs",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top \n > \n \n \n Job Level \n > \n \n Creating Jobs"
+        },
+        {
+            "type": "text",
+            "data": "Top \n >"
+        },
+        {
+            "type": "text",
+            "data": "Job Level \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Job Level",
+                "uuid": "2e24aee5-8ffc-491f-a322-45ce46c2c253",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Creating Jobs"
+        },
+        {
+            "type": "text",
+            "data": "Creating Jobs"
+        },
+        {
+            "type": "text",
+            "data": "Overview of Building a Job"
+        },
+        {
+            "type": "text",
+            "data": "Your first Job with Solid will be a rewarding experience. The amount of time it takes will quickly decrease as you become more familiar with Solid and how to navigate between the various screens and menus used to create your Job. When working with a computer remember the GIGO acronym, which stands for \"garbage in, garbage out\". \u00a0A better way of saying the same thing is this, \"Your end results will reflect the care and attention you paid to the details while working in Solid\"."
+        },
+        {
+            "type": "text",
+            "data": "This topic covers how to define a Job as to Material and the Construction Methods necessary to meet the Job's requirements."
+        },
+        {
+            "type": "text",
+            "data": "The concept of Local Changes and Global Changes as well as Importing and Exporting changes are concepts that shed additional light on when and why changes may or may not occur."
+        },
+        {
+            "type": "text",
+            "data": "Prior to starting your Job, it would be beneficial to familiarize yourself with the tools and features available for use in creating the Job."
+        },
+        {
+            "type": "text",
+            "data": "Step 1: \u00a0Plan the Job"
+        },
+        {
+            "type": "text",
+            "data": "Who is the customer?"
+        },
+        {
+            "type": "text",
+            "data": "What kind of Job is it? \u00a0a kitchen? \u00a0a laundry area? \u00a0an entertainment center? furniture? closet?"
+        },
+        {
+            "type": "text",
+            "data": "What are the dimensions of the Room(s)?"
+        },
+        {
+            "type": "text",
+            "data": "What types of  Materials  will be used? Does the customer want to see several different options?"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Materials",
+                "uuid": "2fed939d-ba55-4f35-94da-993f0e1b392e",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "What type of  Construction Method  will be used?"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Construction Method",
+                "uuid": "e4cbc02a-f458-4c6d-8725-3c8322a55d94",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "What  Door Styles  will be used? \u00a0Does the customer want to see several options?"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Door Styles",
+                "uuid": "2da09610-ccab-42a9-a5ce-4ad5fa83394a",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "What kind of Hardware will be used?  Door/Drawer Pulls ?  Hinges ?  Drawer Guides ? Wire Baskets?"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Door/Drawer Pulls",
+                "uuid": "a465c0a1-6368-4a1c-a3ca-7464612d29bc",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Hinges",
+                "uuid": "5ce8230a-842f-456f-9f66-3b5f7ae45be7",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Drawer Guides",
+                "uuid": "8596e3db-054a-4eb9-b724-6b6fca567e27",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "It may be helpful to design a specification sheet that gets filled out when the customer requests a quote. This form should contain the information listed above as well as any additional information that will be helpful in setting up the Job. At this stage, you should probably also draw a sketch of the Room(s) and include all appropriate dimensions."
+        },
+        {
+            "type": "text",
+            "data": "Step 2: \u00a0Start the Job in Solid"
+        },
+        {
+            "type": "text",
+            "data": "From the Splash Screen, click on  CV Button | New"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "CV Button | New",
+                "uuid": "97f79ce6-a63e-47d0-8307-683c21f6052d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Click on the categories or tabs below for more information"
+        },
+        {
+            "type": "image",
+            "data": "Job_Properties_1.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Job Properties window is the first thing that you will see when you begin a new Job. This is one of the most important steps in creating a Job so be sure to use this window to set all of the options that you want to use in this Job. If you forget to make a change in one of the Job Properties tabs, you can make the change later from inside the Job  but  the changes must then be made in the Room Properties and will only affect that Room (in other words, there will no longer be one place to make changes for the entire Job)."
+        },
+        {
+            "type": "text",
+            "data": "Do not press enter or click OK when you need to change to additional tabs, or different data boxes. Doing so will result in your loosing the Job Properties screen, if you wish to navigate through the menu windows without using the mouse, you can:"
+        },
+        {
+            "type": "image",
+            "data": "Warning.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "to move forward AND   +     to move backwards."
+        },
+        {
+            "type": "image",
+            "data": "tab_key2.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "shift_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "tab_key2.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Step 3: \u00a0Layout the Job in Solid"
+        },
+        {
+            "type": "text",
+            "data": "When you have finished entering the Job Properties, you will then click OK to move on to the actual layout of the Job. At this stage, you will need to draw the  Walls  to match your diagram. There are different schools of thought as to the best way to recreate the design. One way to draw the Room would be to simply draw the shape of the Room first with no regard to getting the exact wall length. Then, you can go back to the Walls and click on them to change the length in the Side Bar. Another way to draw the Walls would be to click at the starting point of the wall and then move the mouse in the appropriate direction, then, letting go of the mouse, you can type in the correct length of the Wall and press   to finish the Wall."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Walls",
+                "uuid": "59835844-0c7d-4e44-b35e-b3eca6068d0e",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "enter_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "When drawing Walls, make sure that you draw them in the correct direction. For example, if you are drawing a square room with Objects on the inside, draw the Walls in a clockwise direction."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Step 4: \u00a0Placing Objects"
+        },
+        {
+            "type": "text",
+            "data": "Next, you will want to place the Objects in the Room that you have drawn. In your first Job, you will have a standard Cabinet Catalog that came with Solid. The Custom Cabinets Catalog includes some Base, Vanity, Wall, and Tall Type Cabinets in simple configurations. For your first Jobs you will probably pull out Objects that are as similar as possible to the finished Object that you want, and then make changes until they are correct. You may save the Objects into your Catalog after making changes to them so that you will have Objects that you can re-use in the future without making as many changes."
+        },
+        {
+            "type": "text",
+            "data": "It is best to get the overall size of the Object correct before editing the layout of the inside of the Object."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "To place an Object on the Wall, from the Floor Plan or the Elevation View, click on the  Objects  button in the sidebar. Then, you will want to choose the Catalog that the Object will come out of, most likely the Custom Cabinets or Custom Closets Catalog. Click on the valid Catalog. Next, click on the Object Category that you want to place (for example, Base Cabinets). Finally, choose the desired Object out of the list of that Category. In our example, we will choose the Std Base Cabinet from the Custom Cabinets Catalog in the Base Cabinets Category. To get that Cabinet out of the Catalog, there are two methods:"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Objects",
+                "uuid": "0bd2a0d3-bb98-4ed4-a525-50de1e025937",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "You can \"drag\" that Cabinet out of the Catalog by clicking on it and holding the left mouse button down as you pull the Cabinet out of the Catalog. When you get the Cabinet out of the Catalog and over the Layout area you can release the mouse button and you will see the Cabinet outline that resembles an envelope. \n \n \n You can double click the desired Cabinet and then when you move out over the Layout area you will see the Cabinet outline that resembles an envelope."
+        },
+        {
+            "type": "text",
+            "data": "You can \"drag\" that Cabinet out of the Catalog by clicking on it and holding the left mouse button down as you pull the Cabinet out of the Catalog. When you get the Cabinet out of the Catalog and over the Layout area you can release the mouse button and you will see the Cabinet outline that resembles an envelope."
+        },
+        {
+            "type": "text",
+            "data": "You can \"drag\" that Cabinet out of the Catalog by clicking on it and holding the left mouse button down as you pull the Cabinet out of the Catalog. When you get the Cabinet out of the Catalog and over the Layout area you can release the mouse button and you will see the Cabinet outline that resembles an envelope."
+        },
+        {
+            "type": "text",
+            "data": "You can double click the desired Cabinet and then when you move out over the Layout area you will see the Cabinet outline that resembles an envelope."
+        },
+        {
+            "type": "text",
+            "data": "You can double click the desired Cabinet and then when you move out over the Layout area you will see the Cabinet outline that resembles an envelope."
+        },
+        {
+            "type": "text",
+            "data": "Room Layout Strategy"
+        },
+        {
+            "type": "text",
+            "data": "Adopt a plan for the order of laying out the Room. Having a plan will help to prevent problems with Objects that interfere with each other. Below is one possible layout strategy. This is not the only way or even the best way, it is just an example, you may find that there is a better way for you."
+        },
+        {
+            "type": "text",
+            "data": "Strategy: \u00a0Place Objects in the same order as they are actually installed on the job-site."
+        },
+        {
+            "type": "text",
+            "data": "Place corner Cabinets first. In Solid, corner Cabinets are actually specially shaped Cabinets. They sit in the corner by design but they are actually placed on the Wall to the right of the corner. \n \n \n Add any Cabinets that have fixed positions. For example, any Cabinets that are centered on a window or wall outlet. Don't place the actual window in the drawing yet, use the clearance and position numbers to place the Cabinet in the correct location. \n \n \n Add appliances that have fixed positions using the clearance and position numbers as in step 2. \n \n \n Add Cabinets that relate to appliances such as hoods and refrigerator Cabinets. \n \n \n Add Cabinets that need a certain clearance such as Cabinets that are ___ inches from a window, etc. \n \n \n Fill in remaining Cabinets. \n \n \n Add  Counter Tops ,  Molding , Windows, Doors, and any other decorative items."
+        },
+        {
+            "type": "text",
+            "data": "Place corner Cabinets first. In Solid, corner Cabinets are actually specially shaped Cabinets. They sit in the corner by design but they are actually placed on the Wall to the right of the corner."
+        },
+        {
+            "type": "text",
+            "data": "Place corner Cabinets first. In Solid, corner Cabinets are actually specially shaped Cabinets. They sit in the corner by design but they are actually placed on the Wall to the right of the corner."
+        },
+        {
+            "type": "text",
+            "data": "Add any Cabinets that have fixed positions. For example, any Cabinets that are centered on a window or wall outlet. Don't place the actual window in the drawing yet, use the clearance and position numbers to place the Cabinet in the correct location."
+        },
+        {
+            "type": "text",
+            "data": "Add any Cabinets that have fixed positions. For example, any Cabinets that are centered on a window or wall outlet. Don't place the actual window in the drawing yet, use the clearance and position numbers to place the Cabinet in the correct location."
+        },
+        {
+            "type": "text",
+            "data": "Add appliances that have fixed positions using the clearance and position numbers as in step 2."
+        },
+        {
+            "type": "text",
+            "data": "Add appliances that have fixed positions using the clearance and position numbers as in step 2."
+        },
+        {
+            "type": "text",
+            "data": "Add Cabinets that relate to appliances such as hoods and refrigerator Cabinets."
+        },
+        {
+            "type": "text",
+            "data": "Add Cabinets that relate to appliances such as hoods and refrigerator Cabinets."
+        },
+        {
+            "type": "text",
+            "data": "Add Cabinets that need a certain clearance such as Cabinets that are ___ inches from a window, etc."
+        },
+        {
+            "type": "text",
+            "data": "Add Cabinets that need a certain clearance such as Cabinets that are ___ inches from a window, etc."
+        },
+        {
+            "type": "text",
+            "data": "Fill in remaining Cabinets."
+        },
+        {
+            "type": "text",
+            "data": "Fill in remaining Cabinets."
+        },
+        {
+            "type": "text",
+            "data": "Add  Counter Tops ,  Molding , Windows, Doors, and any other decorative items."
+        },
+        {
+            "type": "text",
+            "data": "Add  Counter Tops ,  Molding , Windows, Doors, and any other decorative items."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Counter Tops",
+                "uuid": "f78c6801-8dc2-496e-b62a-b47c77cec8cc",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Molding",
+                "uuid": "b8bb4542-a70d-4527-b271-0e12a5c01e12",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Step 5: \u00a0Reporting"
+        },
+        {
+            "type": "text",
+            "data": "Go to the  Report Center  by clicking on the Reports tab   in the  area tabs ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Report Center",
+                "uuid": "f37a0f09-5935-418f-ad21-77bc271f86ad",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image73.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "area tabs",
+                "uuid": "57b3d47f-75a4-49bd-8143-55ece48609f2",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Use the Report Center to create cut lists, material lists, and other useful reports that you may need for the preparation and manufacture of the job."
+        },
+        {
+            "type": "text",
+            "data": "Step 6: \u00a0Bidding"
+        },
+        {
+            "type": "text",
+            "data": "Use the Bid Center to generate a bid for your customer."
+        },
+        {
+            "type": "text",
+            "data": "Step 7: \u00a0Printing"
+        },
+        {
+            "type": "text",
+            "data": "Generally, it is best to print from the  Drawings  area. The advantages of sending views to the drawings page include the ability to scale the picture, add title blocks, add multiple views per page, and use CAD tools to edit or add details."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Drawings",
+                "uuid": "ecf128e8-79e1-418a-b025-8a4ea3be8aa9",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Job_Level\\JL_Creating_Jobs.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

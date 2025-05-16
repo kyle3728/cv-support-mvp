@@ -1,0 +1,21 @@
+{
+    "id": "33b916e9-3d02-4444-b78a-30bdcfe68a53",
+    "title": "Omal_Frame_TpaEdi32",
+    "content": [
+        {
+            "type": "text",
+            "data": "Omal Frame TpaEdi32"
+        },
+        {
+            "type": "text",
+            "data": "This is a Drill and Dowel Machine Link."
+        },
+        {
+            "type": "text",
+            "data": "This output will create program files for mortise, tenon, and haunching using Omal using TpaEdi32. Assign tools to this machine and to the mortise/tenon operations to create output. See the OmalFrame.pkg in the eSupport Cabinet Vision > Files > Extras area for setup. One program will be created per edge."
+        }
+    ],
+    "source_file": "NCEnglish\\Ribbonbar\\Main_Tab\\Machine\\NC_Links\\Drill_and_Dowel_Links\\Omal_Frame_TpaEdi32.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

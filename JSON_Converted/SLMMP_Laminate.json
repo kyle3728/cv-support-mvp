@@ -1,0 +1,270 @@
+{
+    "id": "4b2419aa-15e6-47b5-9985-2f6bd03d699b",
+    "title": "SLMMP_Laminate",
+    "content": [
+        {
+            "type": "text",
+            "data": "Laminate"
+        },
+        {
+            "type": "text",
+            "data": "This topic covers all the Properties for the Laminate Material Type."
+        },
+        {
+            "type": "image",
+            "data": "Lam_Material_Props.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Material Group"
+        },
+        {
+            "type": "text",
+            "data": "Previously covered in the  Banding Material Type  topic."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Banding Material Type",
+                "uuid": "a7630d33-1a29-4e4d-b54e-e6b16c30e227",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Laminate Group"
+        },
+        {
+            "type": "image",
+            "data": "Lam_Lam_Props.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Oversize -  Laminate will be oversized by this amount so that it can be trimmed to fit the Part more exactly. For the example below, edge trim is set to 1 inch."
+        },
+        {
+            "type": "text",
+            "data": "Oversize -  Laminate will be oversized by this amount so that it can be trimmed to fit the Part more exactly. For the example below, edge trim is set to 1 inch."
+        },
+        {
+            "type": "text",
+            "data": "Oversize -  Laminate will be oversized by this amount so that it can be trimmed to fit the Part more exactly. For the example below, edge trim is set to 1 inch."
+        },
+        {
+            "type": "table",
+            "data": {
+                "headers": [
+                    "",
+                    "Width",
+                    "Length"
+                ],
+                "rows": [
+                    [
+                        "Part",
+                        "12",
+                        "29 1/4"
+                    ],
+                    [
+                        "Laminate",
+                        "14",
+                        "31 1/4"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": "Width"
+        },
+        {
+            "type": "text",
+            "data": "Length"
+        },
+        {
+            "type": "text",
+            "data": "Part"
+        },
+        {
+            "type": "text",
+            "data": "12"
+        },
+        {
+            "type": "text",
+            "data": "29 1/4"
+        },
+        {
+            "type": "text",
+            "data": "Laminate"
+        },
+        {
+            "type": "text",
+            "data": "14"
+        },
+        {
+            "type": "text",
+            "data": "31 1/4"
+        },
+        {
+            "type": "text",
+            "data": "Size Group"
+        },
+        {
+            "type": "image",
+            "data": "Lam_Size_Props.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Width -  The Width of the Material. \n \n \n Length -  The Length of the Material. \n \n \n Thickness -  The Thickness of the Material. The Thickness is the most important property of a Material because the construction of your Cabinets will depend on the Material Thickness in order to give you a correct cut list."
+        },
+        {
+            "type": "text",
+            "data": "Width -  The Width of the Material."
+        },
+        {
+            "type": "text",
+            "data": "Width -  The Width of the Material."
+        },
+        {
+            "type": "text",
+            "data": "Length -  The Length of the Material."
+        },
+        {
+            "type": "text",
+            "data": "Length -  The Length of the Material."
+        },
+        {
+            "type": "text",
+            "data": "Thickness -  The Thickness of the Material. The Thickness is the most important property of a Material because the construction of your Cabinets will depend on the Material Thickness in order to give you a correct cut list."
+        },
+        {
+            "type": "text",
+            "data": "Thickness -  The Thickness of the Material. The Thickness is the most important property of a Material because the construction of your Cabinets will depend on the Material Thickness in order to give you a correct cut list."
+        },
+        {
+            "type": "text",
+            "data": "CNC Group"
+        },
+        {
+            "type": "text",
+            "data": "Previously covered in the  Board Stock Type  topic."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Board Stock Type",
+                "uuid": "91574e70-0e35-4ca5-b4b0-33382d0731b5",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Layer Group"
+        },
+        {
+            "type": "text",
+            "data": "Previously covered in the  Banding Material Type  topic."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Banding Material Type",
+                "uuid": "a7630d33-1a29-4e4d-b54e-e6b16c30e227",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Alias Properties"
+        },
+        {
+            "type": "text",
+            "data": "Name \n \n \n Description \n \n \n Vendor \n \n \n Default Cost \n \n \n Sell Price \n \n \n Default Markup \n \n \n Sales Tax \n \n \n Default Tax Rate \n \n \n Width \n \n \n Length"
+        },
+        {
+            "type": "text",
+            "data": "Name"
+        },
+        {
+            "type": "text",
+            "data": "Name"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "Description"
+        },
+        {
+            "type": "text",
+            "data": "Vendor"
+        },
+        {
+            "type": "text",
+            "data": "Vendor"
+        },
+        {
+            "type": "text",
+            "data": "Default Cost"
+        },
+        {
+            "type": "text",
+            "data": "Default Cost"
+        },
+        {
+            "type": "text",
+            "data": "Sell Price"
+        },
+        {
+            "type": "text",
+            "data": "Sell Price"
+        },
+        {
+            "type": "text",
+            "data": "Default Markup"
+        },
+        {
+            "type": "text",
+            "data": "Default Markup"
+        },
+        {
+            "type": "text",
+            "data": "Sales Tax"
+        },
+        {
+            "type": "text",
+            "data": "Sales Tax"
+        },
+        {
+            "type": "text",
+            "data": "Default Tax Rate"
+        },
+        {
+            "type": "text",
+            "data": "Default Tax Rate"
+        },
+        {
+            "type": "text",
+            "data": "Width"
+        },
+        {
+            "type": "text",
+            "data": "Width"
+        },
+        {
+            "type": "text",
+            "data": "Length"
+        },
+        {
+            "type": "text",
+            "data": "Length"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\SLMMP_Laminate.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

@@ -1,0 +1,25 @@
+{
+    "id": "db2a4ff5-2249-4666-9bc3-10e2a6fe3254",
+    "title": "Solid_Wood_Door_with_Top_and_Bottom_Braces",
+    "content": [
+        {
+            "type": "text",
+            "data": "Creating a Solid Wood Door with a Brace Across the Top and/or Bottom"
+        },
+        {
+            "type": "text",
+            "data": "Follow the steps for creating a \" Solid Wood Door \" and then add a Top Rail and/or Bottom Rail to the Door. Don't forget to check the part sizes at the Construction tab."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Solid Wood Door",
+                "uuid": "1127db40-6a53-4387-a44a-e39a04e3aa2a",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Tips_Tricks_&_FAQs\\The_Door_Catalog\\Sample_Door_Types\\Solid_Wood_Door_with_Top_and_Bottom_Braces.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

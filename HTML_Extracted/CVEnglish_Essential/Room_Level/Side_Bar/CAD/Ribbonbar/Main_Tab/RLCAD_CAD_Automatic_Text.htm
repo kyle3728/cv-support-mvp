@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head><link rel="stylesheet" type="text/css" href="../../../../../_rhdefault.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="topic-status" content="Complete"/>
+<meta name="generator" content="Adobe RoboHelp 2019"/>
+<title>CAD Automatic Text</title>
+<link rel="StyleSheet" href="../../../../../assets/css/default.css" type="text/css"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/><script type="text/javascript" src="../../../../../ehlpdhtm.js"></script></head>
+<body>
+<div style=" text-align: right;" class="breadcrumbs" data-condition="Others:Print">
+        <ol>
+          <li style="display: inline">
+            <span class="label">  </span>
+            <a href="../../../../../Introduction/What_s%20New%20in%20Version%2012.htm" style="text-decoration: none; color: inherit"><span class="homepage">Top</span></a>
+            <span class="separator">&gt;</span>
+          </li>
+        <li style="display: inline;">
+            <a style="text-decoration: none; color: inherit" href="../../../../Room_Level.htm"><span>Room Level</span></a>
+             <span class="separator">&gt;</span> 
+          </li><li style="display: inline;">
+            <a style="text-decoration: none; color: inherit" href="../../../RL_Sidebar.htm"><span>Sidebar</span></a>
+             <span class="separator">&gt;</span> 
+          </li><li style="display: inline;">
+            <a style="text-decoration: none; color: inherit" href="../../RLSB_CAD.htm"><span>CAD</span></a>
+             <span class="separator">&gt;</span> 
+          </li><li style="display: inline;">
+            <a style="text-decoration: none; color: inherit" href="RLCAD_Main_Tab.htm"><span>Ribbonbar</span></a>
+             <span class="separator">&gt;</span> 
+          </li><li style="display: inline;">
+            <a style="text-decoration: none; color: inherit" href="RLCAD_Main_Tab.htm"><span>Main Tab</span></a>
+             <span class="separator">&gt;</span> 
+          </li><li style="display: inline;">
+            <a style="text-decoration: none; color: inherit"><span>CAD Automatic Text</span></a>
+            
+          </li></ol>
+      </div>
+<h1>Automatic Text</h1>
+<p>Whenever you add text through CAD to any area of Solid, you not only have the ability to type your desired Text but also have the ability of selecting from Text Variables of information already within your Job. The auto text appears inside the brackets {  } and is sometimes accompanied by additional static text.  The text outside of the brackets may be deleted leaving only that which is inside the brackets to be automatically filled in.  Automatic text is not limited to but is especially useful in Title Blocks.</p>
+<p>Clicking the ellipsis <img src="../../../../../assets/images/image859.gif" alt="" style="border: none; width: 100%; max-width: 19px;" border="0"/> button will bring up the list of available Text Variables. The list of Text Variables will be different depending on whether you are on the Paper or within a Scene.</p>
+<p><img src="../../../../../assets/images/image858.gif" alt="" style="border: none; width: 100%; max-width: 494px;" border="0"/></p>
+<p>Below is a list of the Text Variables and where the values in the variables are being pulled from.</p>
+<p style="margin-left: 40px;"><span style="font-style: italic; font-weight: bold;"><img src="../../../../../assets/images/zGraphics/Extras/Information.png" alt="" style="border: none; width: 100%; max-width: 32px;" border="0"/></span> The list below represents the text variables listed in the menu system. This list does not include &quot;ALL&quot; that are available. In addition to the text variables in the list you can also call out any Parameter in Solid whether it is a System Parameter or a User Parameter by following the format below and replacing the variable name with the Parameter you want to call.</p>
+<p style="margin-left: 40px; font-weight: bold; text-decoration: underline;">Examples</p>
+<p style="margin-left: 40px;">To call out the AX Rotation of a Cabinet you would simply type {cab.ax}.</p>
+<h2>Text Format Options</h2>
+<p>There are three formatting options available specifically to Automatic Text:</p>
+<p style="margin-left: 40px;"><span style="font-weight: bold;">u</span><span style="font-weight: bold;">: -</span> Sets first character to upper case.</p>
+<p style="margin-left: 40px;"><span style="font-weight: bold;">l: -</span> Sets first character to lower case.</p>
+<p style="margin-left: 40px;"><span style="font-weight: bold;">n: -</span> Displays negative numbers within parentheses</p>
+<p style="margin-left: 40px; font-weight: bold; text-decoration: underline;">Example</p>
+<p style="margin-left: 40px; font-weight: normal; text-decoration: none;">{u:cab.cabnote1}</p>
+<h2>Text Variables - Paper</h2>
+<p style="font-weight: normal;"><span style="font-weight: normal;"><span style="font-weight: normal;">{</span>draw.name} - Displays the Drawing Sheet Name.</span></p>
+<p style="font-weight: normal;"><span style="font-weight: normal;">{draw.scale} - Displays the Scale for the Drawing Page.</span></p>
+<p style="font-weight: normal;">{draw.no} - Displays the page number of the current Drawing page.</p>
+<p style="font-weight: normal;">{draw.total} - Displays the total quantity of Drawing pages.</p>
+<h3 style="margin-left: 0px;"><a name="JobAutoText" id="JobAutoText"></a>Job</h3>
+<p style="margin-left: 40px; color: Transparent; background-color: Transparent;">{job.name} - Not Currently Used.</p>
+<p style="margin-left: 40px;">{job.descrip} - This information is the Description line in the <a href="../../../../../Job_Level/Job_Properties/Job/JL_Information.htm">Job Information</a> Tab in Job Properties.</p>
+<p style="margin-left: 40px;">{job.comment} - The Comment for the Job.</p>
+<p style="margin-left: 40px;">{job.qty} - Not Currently Used.</p>
+<p style="margin-left: 40px;">{job.no} - This information is the Job Number line in the <a href="../../../../../Job_Level/Job_Properties/Job/JL_Information.htm">Job Information</a> Tab in Job Properties.</p>
+<p style="margin-left: 40px;">{job.ponumber} - This information is the PO #  line in the <a href="../../../../../Job_Level/Job_Properties/Job/JL_Information.htm">Job Information</a> Tab in Job Properties.</p>
+<p style="font-weight: bold; margin-left: 40px;">Properties</p>
+<p style="font-weight: bold; margin-left: 80px;">Finish</p>
+<p style="margin-left: 80px;">{job.extfin} - The Exterior Finish of the current Job.</p>
+<p style="margin-left: 80px;">{job.intfin} - The Interior Finish of the current Job.</p>
+<p style="font-weight: bold; margin-left: 80px;">Assembly</p>
+<p style="margin-left: 80px;">{job.asmconst} - The Cabinet Construction Method for the current job.</p>
+<p style="margin-left: 80px;">{job.dboxconst} - The Cabinet Drawer Box Construction for the current job.</p>
+<p style="margin-left: 80px;">{job.roconst} - The Cabinet Roll Out Construction  for the current job.</p>
+<p style="margin-left: 80px;">{job.basmsched} - The Cabinet Base Standard Material Schedule for the current job.</p>
+<p style="margin-left: 80px;">{job.basemxsched} - The Cabinet Base Exposed Interior Material Schedule for the <span style="margin-left: 80px;">current job.</span></p>
+<p style="margin-left: 80px;">{job.uasmsched} - The Cabinet Upper Standard Material Schedule for the current job.</p>
+<p style="margin-left: 80px;">{job.uasmxsched} - The Cabinet Upper Exposed Interior Material Schedule for the <span style="margin-left: 80px;">current job.</span></p>
+<p style="margin-left: 80px;">{job.dboxsched} - The Cabinet Drawer Box Material Schedule for the current job.</p>
+<p style="margin-left: 80px;">{job.rosched} - The Cabinet Roll Out Material Schedule for the current job.</p>
+<p style="margin-left: 80px;">{job.pullsched} - The Cabinet Pull Material Schedule for the current job.</p>
+<p style="margin-left: 80px;">{job.guidesched} - The Cabinet Drawer Guide Material Schedule for the current job.</p>
+<p style="margin-left: 80px;">{job.hingesched} - The Cabinet Hinge Material Schedule for the current job.</p>
+<p style="margin-left: 80px;">{job.udoorstyle} - The Cabinet Upper Door Style for the current job.</p>
+<p style="margin-left: 80px;">{job.udoormat} - The Cabinet Upper Door Material Schedule for the current job.</p>
+<p style="margin-left: 80px;">{job.dwrfrstyle} - The Cabinet Drawer Front Style for the current job.</p>
+<p style="margin-left: 80px;">{job.dwrfrmat} - The Cabinet Drawer Front Material Schedule for the current job.</p>
+<p style="margin-left: 80px;">{job.bdoorstyle} - The Cabinet Base Door Style for the current job.</p>
+<p style="margin-left: 80px;">{job.bdoormat} - The Cabinet Base Door Material Schedule for the current job.</p>
+<p style="margin-left: 80px;">{job.uendpanstyle} - The Cabinet Upper End Panel Style for the current job.</p>
+<p style="margin-left: 80px;">{job.uendpanmat} - The Cabinet Upper End Panel Material Schedule for the current <span style="margin-left: 80px;">job.</span></p>
+<p style="margin-left: 80px;">{job.bendpanstyle} - The Cabinet Base End Panel Style for the current job.</p>
+<p style="margin-left: 80px;">{job.bendpanmat} - The Cabinet Base End Panel Material Schedule for the current <span style="margin-left: 80px;">job.</span></p>
+<p style="margin-left: 80px;">{job.tendpanstyle} - The Cabinet Tall End Panel Style for the current job.</p>
+<p style="margin-left: 80px;">{job.tendpanmat} - The Cabinet Tall End Panel Material Schedule for the current <span style="margin-left: 80px;">job.</span></p>
+<p style="font-weight: bold; margin-left: 80px;">Counter Top</p>
+<p style="margin-left: 80px;">{job.topsched} - The Counter Top Material Schedule for the current job.</p>
+<p style="margin-left: 80px;">{job.topprof} - The Counter Top Profile for the current job.</p>
+<p style="margin-left: 80px;">{job.topprofmat} - The Counter Top Profile Material for the current job.</p>
+<p style="font-weight: bold; margin-left: 80px;">Molding</p>
+<p style="margin-left: 80px; background-color: Transparent;">{job.crownprof} - The Crown Profile for the current job.</p>
+<p style="margin-left: 80px; background-color: Transparent;">{job.crownprofmat} - The Crown Profile Material for the current job.</p>
+<p style="margin-left: 80px; background-color: Transparent;">{job.lghtrprof} - The Light Rail Profile for the current job.</p>
+<p style="margin-left: 80px; background-color: Transparent;">{job.lghtrprofmat} - The Light Rail Profile Material for the current job.</p>
+<p style="margin-left: 80px; background-color: Transparent;">{job.scrprof} - The Scribe Profile for the current job.</p>
+<p style="margin-left: 80px; background-color: Transparent;">{job.scrprofmat} - The Scribe Profile Material for the current job.</p>
+<p style="margin-left: 80px; background-color: Transparent;">{job.bbprof} - The Base Board Profile for the current job.</p>
+<p style="margin-left: 80px; background-color: Transparent;">{job.bbprofmat} - The Base Board Profile Material for the current job.</p>
+<p style="margin-left: 80px; background-color: Transparent;">{job.crprof} - The Chair Rail Profile for the current job.</p>
+<p style="margin-left: 80px; background-color: Transparent;">{job.crprofmat} - The Chair Rail Profile Material for the current job.</p>
+<p style="margin-left: 80px; background-color: Transparent;">{job.ceilprof} - The Ceiling Profile for the current job.</p>
+<p style="margin-left: 80px; background-color: Transparent;">{job.ceilprofmat} - The Ceiling Profile Material for the current job.</p>
+<p style="font-weight: bold; margin-left: 40px;"><span>Schedule</span></p>
+<p style="margin-left: 80px;">{job.measure} - The Measure Date specified on the <a href="../../../../../Job_Level/Job_Properties/Job/JL_Schedule.htm">Schedule Tab</a> in Job Properties. The date format for this filed is controlled in the <a href="../../../../../Introduction/The_Solid_Button/Preferences.htm#FormatTab">Preferences Format Tab</a>.</p>
+<p style="margin-left: 80px;">{job.detail} - The Detail Date specified on the <a href="../../../../../Job_Level/Job_Properties/Job/JL_Schedule.htm">Schedule Tab</a> in Job Properties. The date format for this filed is controlled in the <a href="../../../../../Introduction/The_Solid_Button/Preferences.htm#FormatTab">Preferences Format Tab</a>.</p>
+<p style="margin-left: 80px;">{job.production} - The Production Date specified on the <a href="../../../../../Job_Level/Job_Properties/Job/JL_Schedule.htm">Schedule Tab</a> in Job Properties. The date format for this filed is controlled in the <a href="../../../../../Introduction/The_Solid_Button/Preferences.htm#FormatTab">Preferences Format Tab</a>.</p>
+<p style="margin-left: 80px;">{job.delivery} - The Delivery Date specified on the <a href="../../../../../Job_Level/Job_Properties/Job/JL_Schedule.htm">Schedule Tab</a> in Job Properties. The date format for this filed is controlled in the <a href="../../../../../Introduction/The_Solid_Button/Preferences.htm#FormatTab">Preferences Format Tab</a>.</p>
+<p style="margin-left: 80px;">{job.deposit} - The Deposit Date specified on the <a href="../../../../../Job_Level/Job_Properties/Job/JL_Schedule.htm">Schedule Tab</a> in Job Properties. The date format for this filed is controlled in the <a href="../../../../../Introduction/The_Solid_Button/Preferences.htm#FormatTab">Preferences Format Tab</a>.</p>
+<p style="margin-left: 80px;">{job.install} - The Install Date specified on the <a href="../../../../../Job_Level/Job_Properties/Job/JL_Schedule.htm">Schedule Tab</a> in Job Properties. The date format for this filed is controlled in the <a href="../../../../../Introduction/The_Solid_Button/Preferences.htm#FormatTab">Preferences Format Tab</a>.</p>
+<p style="margin-left: 80px;">{job.payment} - The Final Payment Date specified on the <a href="../../../../../Job_Level/Job_Properties/Job/JL_Schedule.htm">Schedule Tab</a> in Job Properties. The date format for this filed is controlled in the <a href="../../../../../Introduction/The_Solid_Button/Preferences.htm#FormatTab">Preferences Format Tab</a>.</p>
+<p style="font-weight: bold; margin-left: 40px;">Customer</p>
+<p style="margin-left: 80px;">{cust.name} - This comes from the Name line under the <a href="../../../../../Job_Level/Job_Properties/Job/JL_Information.htm">Information</a> Customer tab at Job Properties.</p>
+<p style="margin-left: 80px;">{cust.addr1} - This comes from the first Address line under the <a href="../../../../../Job_Level/Job_Properties/Job/JL_Information.htm">Information</a> Customer tab at Job Properties.</p>
+<p style="margin-left: 80px;">{cust.addr2} - This comes from the second Address line under the <a href="../../../../../Job_Level/Job_Properties/Job/JL_Information.htm">Information</a> Customer tab at Job Properties.</p>
+<p style="margin-left: 80px;">{cust.city} - This comes from the City line under the <a href="../../../../../Job_Level/Job_Properties/Job/JL_Information.htm">Information</a> Customer tab at Job Properties.</p>
+<p style="margin-left: 80px;">{cust.state} - This comes from the State line under the <a href="../../../../../Job_Level/Job_Properties/Job/JL_Information.htm">Information</a> Customer tab at Job Properties.</p>
+<p style="margin-left: 80px;">{cust.zip} - This comes from the ZIP line under the <a href="../../../../../Job_Level/Job_Properties/Job/JL_Information.htm">Information</a> Customer tab at Job Properties.</p>
+<p style="margin-left: 80px;">{cust.contact} - This comes from the Contact line under the <a href="../../../../../Job_Level/Job_Properties/Job/JL_Information.htm">Information</a> Customer tab at Job Properties.</p>
+<p style="margin-left: 80px;">{cust.phone} - This comes from the Phone line under the <a href="../../../../../Job_Level/Job_Properties/Job/JL_Information.htm">Information</a> Customer tab at Job Properties.</p>
+<p style="margin-left: 80px;">{cust.mobile} - This comes from the Mobile line under the <a href="../../../../../Job_Level/Job_Properties/Job/JL_Information.htm">Information</a> Customer tab at Job Properties.</p>
+<p style="margin-left: 80px;">{cust.fax} - This comes from the FAX line under the <a href="../../../../../Job_Level/Job_Properties/Job/JL_Information.htm">Information</a> Customer tab at Job Properties.</p>
+<p style="margin-left: 80px;">{cust.email} - This comes from the Email line under the <a href="../../../../../Job_Level/Job_Properties/Job/JL_Information.htm">Information</a> Customer tab at Job Properties.</p>
+<p style="margin-left: 80px;">{cust.comment} - This comes from the Customer Comments area under the <a href="../../../../../Job_Level/Job_Properties/Job/JL_Information.htm">Information</a> Customer tab at Job Properties.</p>
+<p style="font-weight: bold; margin-left: 40px;">Ship To</p>
+<p style="margin-left: 80px;">{ship.name} - This comes from the Name line under the <a href="../../../../../Job_Level/Job_Properties/Job/JL_Information.htm">Information</a> Ship To tab at Job Properties.</p>
+<p style="margin-left: 80px;">{ship.addr1} - This comes from the first Address line under the <a href="../../../../../Job_Level/Job_Properties/Job/JL_Information.htm">Information</a> Ship To tab at Job Properties.</p>
+<p style="margin-left: 80px;">{ship.addr2} - This comes from the second Address line under the <a href="../../../../../Job_Level/Job_Properties/Job/JL_Information.htm">Information</a> Ship To tab at Job Properties.</p>
+<p style="margin-left: 80px;">{ship.city} - This comes from the City line under the <a href="../../../../../Job_Level/Job_Properties/Job/JL_Information.htm">Information</a> Ship To tab at Job Properties.</p>
+<p style="margin-left: 80px;">{ship.state} - This comes from the State line under the <a href="../../../../../Job_Level/Job_Properties/Job/JL_Information.htm">Information</a> Ship To tab at Job Properties.</p>
+<p style="margin-left: 80px;">{ship.zip} - This comes from the ZIP line under the <a href="../../../../../Job_Level/Job_Properties/Job/JL_Information.htm">Information</a> Ship To tab at Job Properties.</p>
+<p style="margin-left: 80px;">{ship.contact} - This comes from the Contact line under the <a href="../../../../../Job_Level/Job_Properties/Job/JL_Information.htm">Information</a> Ship To tab at Job Properties.</p>
+<p style="margin-left: 80px;">{ship.phone} - This comes from the Phone line under the <a href="../../../../../Job_Level/Job_Properties/Job/JL_Information.htm">Information</a> Ship To tab at Job Properties.</p>
+<p style="margin-left: 80px;">{ship.mobile} - This comes from the Mobile line under the <a href="../../../../../Job_Level/Job_Properties/Job/JL_Information.htm">Information</a> Ship To tab at Job Properties.</p>
+<p style="margin-left: 80px;">{ship.fax} - This comes from the FAX line under the <a href="../../../../../Job_Level/Job_Properties/Job/JL_Information.htm">Information</a> Ship To tab at Job Properties.</p>
+<p style="margin-left: 80px;">{ship.email} - This comes from the Email line under the <a href="../../../../../Job_Level/Job_Properties/Job/JL_Information.htm">Information</a> Ship To tab at Job Properties.</p>
+<p style="margin-left: 80px;">{ship.comment} - This comes from the Ship To Comments area under the <a href="../../../../../Job_Level/Job_Properties/Job/JL_Information.htm">Information</a> Ship To tab at Job Properties.</p>
+<p style="font-weight: bold; margin-left: 40px;">User</p>
+<p style="margin-left: 80px;">{user.name} - This comes from the <a href="../../../../../Introduction/The_Solid_Button/Preferences.htm#UserTab">System User</a> Company Name line.</p>
+<p style="margin-left: 80px;">{user.addr1} - This comes from the <a href="../../../../../Introduction/The_Solid_Button/Preferences.htm#UserTab">System User</a> Address 1 line.</p>
+<p style="margin-left: 80px;">{user.addr2} - This comes from the <a href="../../../../../Introduction/The_Solid_Button/Preferences.htm#UserTab">System User</a> Address 2 line.</p>
+<p style="margin-left: 80px;">{user.city} - This comes from the <a href="../../../../../Introduction/The_Solid_Button/Preferences.htm#UserTab">System User</a> City line.</p>
+<p style="margin-left: 80px;">{user.state} - This comes from the <a href="../../../../../Introduction/The_Solid_Button/Preferences.htm#UserTab">System User</a> State line.</p>
+<p style="margin-left: 80px;">{user.zip} - This comes from the <a href="../../../../../Introduction/The_Solid_Button/Preferences.htm#UserTab">System User</a> Zip line.</p>
+<p style="margin-left: 80px;">{user.contact} - This comes from the <a href="../../../../../Introduction/The_Solid_Button/Preferences.htm#UserTab">System User</a> Contact line.</p>
+<p style="margin-left: 80px;">{user.phone} - This comes from the <a href="../../../../../Introduction/The_Solid_Button/Preferences.htm#UserTab">System User</a> Company Phone line.</p>
+<p style="margin-left: 80px;">{user.mobile} - This comes from the <a href="../../../../../Introduction/The_Solid_Button/Preferences.htm#UserTab">System User</a> Company Mobile line.</p>
+<p style="margin-left: 80px;">{user.fax} - This comes from the <a href="../../../../../Introduction/The_Solid_Button/Preferences.htm#UserTab">System User</a> Company FAX line.</p>
+<p style="margin-left: 80px;">{user.email} - This comes from the <a href="../../../../../Introduction/The_Solid_Button/Preferences.htm#UserTab">System User</a> Company E-mail line.</p>
+<p style="margin-left: 80px;">{user.comment} - This comes from the <a href="../../../../../Introduction/The_Solid_Button/Preferences.htm#UserTab">System User</a> Company Comment line.</p>
+<p style="font-weight: bold; margin-left: 40px;">File</p>
+<p style="margin-left: 80px;">{file.name} - Displays the file name for the current Job.</p>
+<p style="margin-left: 80px;">{file.path} - Displays the file path to the current Job.</p>
+<p style="font-weight: bold; margin-left: 40px;">System</p>
+<p style="margin-left: 80px;">{system.license} - Displays the name burned on your Planit Key.</p>
+<p style="margin-left: 80px; font-weight: normal;">{system.date} - This is the System Date kept by the computer. The date format for this filed is controlled in the <a href="../../../../../Introduction/The_Solid_Button/Preferences.htm#FormatTab">Preferences Format Tab</a>.</p>
+<p style="margin-left: 80px; font-weight: normal;"><a name="system_time" id="system_time"></a>{system.time} - This is the System Date kept by the computer. The date format for this filed is controlled in the <a href="../../../../../Introduction/The_Solid_Button/Preferences.htm#FormatTab">Preferences Format Tab</a>.</p>
+<h2>Text Variables - Room Level Scene</h2>
+<p style="font-weight: normal;"><span style="font-weight: normal;">{scene.name} - Displays the Scene Name.</span></p>
+<p style="font-weight: normal;">{scene.scale} - Displays the Scale for the Scene.</p>
+<p style="font-weight: bold;"><a name="RoomAutoText" id="RoomAutoText"></a>Room</p>
+<p style="margin-left: 40px;">{room.name} - Displays the Room Name for the Room.</p>
+<p style="margin-left: 40px;">{room.descrip} - Description of the current Room.</p>
+<p style="margin-left: 40px;">{room.comment} - Comment for the current Room.</p>
+<p style="margin-left: 40px;">{room.qty} - Quantity of the current Room.</p>
+<p style="margin-left: 40px;">{room.no} - Displays the Room Number for the Room.</p>
+<p style="margin-left: 40px;">{room.wallcount} - The number of Walls in the current Room</p>
+<h3 class="hcp6" style="margin-left: 40px;">Properties</h3>
+<p class="hcp7" style="font-weight: bold; margin-left: 80px;">Finish</p>
+<p class="hcp8" style="margin-left: 120px;">{room.extfin} - The Exterior Finish of the current Room.</p>
+<p class="hcp8" style="margin-left: 120px;">{room.intfin} - The Interior Finish of the current Room.</p>
+<p class="hcp7" style="font-weight: bold; margin-left: 80px;">Assembly</p>
+<p class="hcp8" style="margin-left: 120px;">{room.asmconst} - The Cabinet Construction Method for the current Room.</p>
+<p class="hcp8" style="margin-left: 120px;">{room.dboxconst} - The Cabinet Drawer Box Construction for the current Room.</p>
+<p class="hcp8" style="margin-left: 120px;">{room.roconst} - The Cabinet Roll Out Construction  for the current Room.</p>
+<p class="hcp8" style="margin-left: 120px;">{room.basmsched} - The Cabinet Base Standard Material Schedule for the current Room.</p>
+<p class="hcp8" style="margin-left: 120px;">{room.basemxsched} - The Cabinet Base Exposed Interior Material Schedule for the current Room.</p>
+<p class="hcp8" style="margin-left: 120px;">{room.uasmsched} - The Cabinet Upper Standard Material Schedule for the current Room.</p>
+<p class="hcp8" style="margin-left: 120px;">{room.uasmxsched} - The Cabinet Upper Exposed Interior Material Schedule for the current Room.</p>
+<p class="hcp8" style="margin-left: 120px;">{room.dboxsched} - The Cabinet Drawer Box Material Schedule for the current Room.</p>
+<p class="hcp8" style="margin-left: 120px;">{room.rosched} - The Cabinet Roll Out Material Schedule for the current Room.</p>
+<p class="hcp8" style="margin-left: 120px;">{room.pullsched} - The Cabinet Pull Material Schedule for the current Room.</p>
+<p class="hcp8" style="margin-left: 120px;">{room.guidesched} - The Cabinet Drawer Guide Material Schedule for the current Room.</p>
+<p class="hcp8" style="margin-left: 120px;">{room.hingesched} - The Cabinet Hinge Material Schedule for the current Room.</p>
+<p class="hcp8" style="margin-left: 120px;">{room.udoorstyle} - The Cabinet Upper Door Style for the current Room.</p>
+<p class="hcp8" style="margin-left: 120px;">{room.udoormat} - The Cabinet Upper Door Material Schedule for the current Room.</p>
+<p class="hcp8" style="margin-left: 120px;">{room.dwrfrstyle} - The Cabinet Drawer Front Style for the current Room.</p>
+<p class="hcp8" style="margin-left: 120px;">{room.dwrfrmat} - The Cabinet Drawer Front Material Schedule for the current Room.</p>
+<p class="hcp8" style="margin-left: 120px;">{room.bdoorstyle} - The Cabinet Base Door Style for the current Room.</p>
+<p class="hcp8" style="margin-left: 120px;">{room.bdoormat} - The Cabinet Base Door Material Schedule for the current Room.</p>
+<p class="hcp8" style="margin-left: 120px;">{room.uendpanstyle} - The Cabinet Upper End Panel Style for the current Room.</p>
+<p class="hcp8" style="margin-left: 120px;">{room.uendpanmat} - The Cabinet Upper End Panel Material Schedule for the current Room.</p>
+<p class="hcp8" style="margin-left: 120px;">{room.bendpanstyle} - The Cabinet Base End Panel Style for the current Room.</p>
+<p class="hcp8" style="margin-left: 120px;">{room.bendpanmat} - The Cabinet Base End Panel Material Schedule for the current Room.</p>
+<p class="hcp8" style="margin-left: 120px;">{room.tendpanstyle} - The Cabinet Tall End Panel Style for the current Room.</p>
+<p class="hcp8" style="margin-left: 120px;">{room.tendpanmat} - The Cabinet Tall End Panel Material Schedule for the current Room.</p>
+<p class="hcp7" style="font-weight: bold; margin-left: 80px;">Molding</p>
+<p class="hcp8" style="margin-left: 120px;">{room.crownprof} - The Crown Profile for the current Room.</p>
+<p class="hcp8" style="margin-left: 120px;">{room.crownprofmat} - The Crown Profile Material for the current Room.</p>
+<p class="hcp8" style="margin-left: 120px;">{room.lghtrprof} - The Light Rail Profile for the current Room.</p>
+<p class="hcp8" style="margin-left: 120px;">{room.lghtrprofmat} - The Light Rail Profile Material for the current Room.</p>
+<p class="hcp8" style="margin-left: 120px;">{room.scrprof} - The Scribe Profile for the current Room.</p>
+<p class="hcp8" style="margin-left: 120px;">{room.scrprofmat} - The Scribe Profile Material for the current Room.</p>
+<p class="hcp8" style="margin-left: 120px;">{room.bbprof} - The Base Board Profile for the current Room.</p>
+<p class="hcp8" style="margin-left: 120px;">{room.bbprofmat} - The Base Board Profile Material for the current Room.</p>
+<p class="hcp8" style="margin-left: 120px;">{room.crprof} - The Chair Rail Profile for the current Room.</p>
+<p class="hcp8" style="margin-left: 120px;">{room.crprofmat} - The Chair Rail Profile Material for the current Room.</p>
+<p class="hcp8" style="margin-left: 120px;">{room.caprof} - The Casing Profile for the current Room.</p>
+<p class="hcp8" style="margin-left: 120px;">{room.caprofmat} - The Casing Profile Material for the current Room.</p>
+<p class="hcp8" style="margin-left: 120px;">{room.aplprof} - The Applied Profile for the current Room.</p>
+<p class="hcp8" style="margin-left: 120px;">{room.aplprofmat} - The Applied Profile Material for the current Room.</p>
+<p class="hcp8" style="margin-left: 120px;">{room.ceilprof} - The Ceiling Profile for the current Room.</p>
+<p class="hcp8" style="margin-left: 120px;">{room.ceilprofmat} - The Ceiling Profile Material for the current Room.</p>
+<p class="hcp8" style="font-weight: bold;"><a href="RLCAD_CAD_Automatic_Text.htm#JobAutoText">Job</a></p>
+<h2 class="hcp8">Text Variables - Assembly Level Scene</h2>
+<p style="font-weight: normal;"><span><span style="font-weight: normal;">{scene.name} - Displays the Scene Name.</span></span></p>
+<p style="font-weight: normal;">{scene.scale} - Displays the Scale for the Scene.</p>
+<p style="font-weight: bold;">Cabinet</p>
+<p style="margin-left: 40px;">{cab.name} - Displays the Name of the Assembly.</p>
+<p style="margin-left: 40px;">{cab.descrip} - Displays the Description of the Assembly.</p>
+<p style="margin-left: 40px;">{cab.comment} - Displays the Comment of the Assembly.</p>
+<p style="margin-left: 40px;">{cab.qty} - Displays the Quantity of the Assembly.</p>
+<p style="margin-left: 40px;">{cab.no} - Displays the Object Number for the Assembly.</p>
+<p style="margin-left: 40px;">{cab.dx} - Displays the Cabinet Width.</p>
+<p style="margin-left: 40px;">{cab.dy} - Displays the Cabinet Height.</p>
+<p style="margin-left: 40px;">{cab.dz} - Displays the Cabinet Depth.</p>
+<h3 style="margin-left: 40px;">Construction</h3>
+<p class="hcp2" style="margin-left: 80px;">{cab.lend} - Displays the condition of the Left End (Finished, Unfinished, etc...) on the Assembly.</p>
+<p class="hcp2" style="margin-left: 80px;">{cab.rend} - Displays the condition of the Right End (Finished, Unfinished, etc...) on the Assembly.</p>
+<p class="hcp2" style="margin-left: 80px;">{cab.back} - Displays the condition of the Back (Finished, Unfinished, etc...) on the Assembly.</p>
+<p class="hcp2" style="margin-left: 80px;">{cab.revl} - Displays the Left Door Reveal value for the Assembly.</p>
+<p class="hcp2" style="margin-left: 80px;">{cab.revr} - Displays the Right Door Reveal value for the Assembly.</p>
+<p class="hcp2" style="margin-left: 80px;">{cab.revt} - Displays the Top Door Reveal value for the Assembly.</p>
+<p class="hcp2" style="margin-left: 80px;">{cab.revb} - Displays the Bottom Door Reveal value for the Assembly.</p>
+<p class="hcp2" style="margin-left: 80px;">{cab.revh} - Displays the Horizontal Door Reveal value for the Assembly.</p>
+<p class="hcp2" style="margin-left: 80px;">{cab.revv} - Displays the Vertical Door Reveal value for the Assembly.</p>
+<p class="hcp2" style="margin-left: 80px;">{cab.ls} - Displays the Left Stile Width for the Assembly.</p>
+<p class="hcp2" style="margin-left: 80px;">{cab.rs} - Displays the Right Stile Width for the Assembly.</p>
+<p class="hcp2" style="margin-left: 80px;">{cab.scl} - Displays the Left Scribe dimension for the Assembly.</p>
+<p class="hcp2" style="margin-left: 80px;">{cab.scr} - Displays the Right Scribe dimension for the Assembly.</p>
+<p class="hcp2" style="margin-left: 80px;">{cab.sct} - Displays the Top Scribe dimension for the Assembly.</p>
+<p class="hcp2" style="margin-left: 80px;">{cab.scb} - Displays the Bottom Scribe dimension for the Assembly.</p>
+<p class="hcp2" style="margin-left: 80px;">{cab.toeh} - Displays the Toe Height dimension for the Assembly.</p>
+<p class="hcp2" style="margin-left: 80px;">{cab.toer} - Displays the Toe Recess dimension for the Assembly.</p>
+<h3 style="margin-left: 40px;">Properties</h3>
+<p class="hcp9" style="font-weight: bold; margin-left: 80px;"><span class="hcp4">Finish</span></p>
+<p class="hcp8" style="margin-left: 120px;">{cab.extfin} - The Exterior Finish for the Assembly.</p>
+<p class="hcp8" style="margin-left: 120px;">{cab.intfin} - The Interior Finish for the Assembly.</p>
+<p class="hcp9" style="font-weight: bold; margin-left: 80px;">Assembly</p>
+<p class="hcp8" style="margin-left: 120px;">{cab.asmconst} - The Cabinet Construction Method for the Assembly.</p>
+<p class="hcp8" style="margin-left: 120px;">{cab.dboxconst} - The Cabinet Drawer Box Construction for the Assembly.</p>
+<p class="hcp8" style="margin-left: 120px;">{cab.roconst} - The Cabinet Roll Out Construction  for the Assembly.</p>
+<p class="hcp8" style="margin-left: 120px;">{cab.basmsched} - The Cabinet Base Standard Material Schedule for the Assembly.</p>
+<p class="hcp8" style="margin-left: 120px;">{cab.basemxsched} - The Cabinet Base Exposed Interior Material Schedule for the Assembly.</p>
+<p class="hcp8" style="margin-left: 120px;">{cab.uasmsched} - The Cabinet Upper Standard Material Schedule for the Assembly.</p>
+<p class="hcp8" style="margin-left: 120px;">{cab.uasmxsched} - The Cabinet Upper Exposed Interior Material Schedule for the Assembly.</p>
+<p class="hcp8" style="margin-left: 120px;">{cab.dboxsched} - The Cabinet Drawer Box Material Schedule for the Assembly.</p>
+<p class="hcp8" style="margin-left: 120px;">{cab.rosched} - The Cabinet Roll Out Material Schedule for the Assembly.</p>
+<p class="hcp8" style="margin-left: 120px;">{cab.pullsched} - The Cabinet Pull Material Schedule for the Assembly.</p>
+<p class="hcp8" style="margin-left: 120px;">{cab.guidesched} - The Cabinet Drawer Guide Material Schedule for the Assembly.</p>
+<p class="hcp8" style="margin-left: 120px;">{cab.hingesched} - The Cabinet Hinge Material Schedule for the Assembly.</p>
+<p class="hcp8" style="margin-left: 120px;">{cab.udoorstyle} - The Cabinet Upper Door Style for the Assembly.</p>
+<p class="hcp8" style="margin-left: 120px;">{cab.udoormat} - The Cabinet Upper Door Material Schedule for the Assembly.</p>
+<p class="hcp8" style="margin-left: 120px;">{cab.dwrfrstyle} - The Cabinet Drawer Front Style for the Assembly.</p>
+<p class="hcp8" style="margin-left: 120px;">{cab.dwrfrmat} - The Cabinet Drawer Front Material Schedule for the Assembly.</p>
+<p class="hcp8" style="margin-left: 120px;">{cab.bdoorstyle} - The Cabinet Base Door Style for the Assembly.</p>
+<p class="hcp8" style="margin-left: 120px;">{cab.bdoormat} - The Cabinet Base Door Material Schedule for the Assembly.</p>
+<p class="hcp8" style="margin-left: 120px;">{cab.uendpanstyle} - The Cabinet Upper End Panel Style for the Assembly.</p>
+<p class="hcp8" style="margin-left: 120px;">{cab.uendpanmat} - The Cabinet Upper End Panel Material Schedule for the Assembly.</p>
+<p class="hcp8" style="margin-left: 120px;">{cab.bendpanstyle} - The Cabinet Base End Panel Style for the Assembly.</p>
+<p class="hcp8" style="margin-left: 120px;">{cab.bendpanmat} - The Cabinet Base End Panel Material Schedule for the Assembly.</p>
+<p class="hcp8" style="margin-left: 120px;">{cab.tendpanstyle} - The Cabinet Tall End Panel Style for the Assembly.</p>
+<p class="hcp8" style="margin-left: 120px;">{cab.tendpanmat} - The Cabinet Tall End Panel Material Schedule for the Assembly.</p>
+<h3 class="hcp8">Wall Face</h3>
+<p class="hcp2" style="margin-left: 40px;">{face.name} - Displays the Wall Face Name for the Wall.</p>
+<p class="hcp2" style="margin-left: 40px;">{face.descrip} - Displays the Wall Face Description for the Wall.</p>
+<p class="hcp2" style="margin-left: 40px;">{face.comment} - Displays the Wall Face Comment for the Wall.</p>
+<p class="hcp2" style="margin-left: 40px;">{face.qty} - Displays the Wall Face Quantity for the Wall.</p>
+<p class="hcp2" style="margin-left: 40px;">{face.face} - Displays the Wall Face for the Wall.</p>
+<h3>Wall</h3>
+<p class="hcp2" style="margin-left: 40px;">{wall.name} - Displays the Wall Name for the Wall.</p>
+<p class="hcp2" style="margin-left: 40px;">{wall.descrip} - Displays the Wall Description for the Wall.</p>
+<p class="hcp2" style="margin-left: 40px;">{wall.comment} - Displays the Wall Comment for the Wall.</p>
+<p class="hcp2" style="margin-left: 40px;">{wall.qty} - Displays the Wall Quantity for the Wall.</p>
+<p class="hcp2" style="margin-left: 40px;">{wall.no} - Displays the Wall Number for the Wall.</p>
+<p class="hcp2" style="margin-left: 40px;">{wall.angle} - Displays the Wall Angle for the Wall.</p>
+<h3><a href="RLCAD_CAD_Automatic_Text.htm#RoomAutoText">Room</a></h3>
+<h3><a href="RLCAD_CAD_Automatic_Text.htm#JobAutoText">Job</a></h3>
+
+
+</body></html>

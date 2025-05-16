@@ -1,0 +1,22 @@
+{
+    "id": "33317b6c-aa74-42b2-9e9b-c7913268ac4d",
+    "title": "Intelli-Joint_Catalog",
+    "content": [
+        {
+            "type": "text",
+            "data": "Intelli-Joint Catalog"
+        },
+        {
+            "type": "image",
+            "data": "image160.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Opens the CABINET VISION Intelli-Joint Catalog. For more information, see the CABINET VISION Help Files."
+        }
+    ],
+    "source_file": "CEEnglish\\Options_View\\Ribbonbar\\Utilities\\Intelli-Joint_Catalog.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

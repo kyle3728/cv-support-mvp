@@ -1,0 +1,304 @@
+{
+    "id": "4bee5d7d-8710-4804-a69d-48af21e64e11",
+    "title": "MCE_Finish",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top \n > \n \n \n System Level \n > \n \n Ribbonbar \n > \n \n Main Tab \n > \n \n Catalogs Group \n > \n \n Material Manager \n > \n \n Ribbonbar \n > \n \n Finish"
+        },
+        {
+            "type": "text",
+            "data": "Top \n >"
+        },
+        {
+            "type": "text",
+            "data": "System Level \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "System Level",
+                "uuid": "4450866f-fd9c-46df-abf3-7843c5a1ef37",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Ribbonbar \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Ribbonbar",
+                "uuid": "3bbac75c-2b61-42af-9bce-b90335e66dde",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Main Tab \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Main Tab",
+                "uuid": "3bbac75c-2b61-42af-9bce-b90335e66dde",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Catalogs Group \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Catalogs Group",
+                "uuid": "f4a43f08-b40b-442c-8f03-a96c2a64640f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Material Manager \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Material Manager",
+                "uuid": "2fed939d-ba55-4f35-94da-993f0e1b392e",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Ribbonbar \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Ribbonbar",
+                "uuid": "afe34400-22a2-4d51-9383-a40dbf0ad041",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Finish"
+        },
+        {
+            "type": "text",
+            "data": "Finish"
+        },
+        {
+            "type": "text",
+            "data": "Finish"
+        },
+        {
+            "type": "image",
+            "data": "image2248.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Finishes utility allows you to add new or edit existing Finishes."
+        },
+        {
+            "type": "image",
+            "data": "Finish.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Toolbar"
+        },
+        {
+            "type": "text",
+            "data": "The toolbar has the following options:"
+        },
+        {
+            "type": "text",
+            "data": "Finish Selector -  Allows you to select an existing Finish to edit."
+        },
+        {
+            "type": "image",
+            "data": "image2249.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Search -  Allows you to Search for a specific Finish."
+        },
+        {
+            "type": "image",
+            "data": "image2250.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "New -  Allows you to create a New Finish."
+        },
+        {
+            "type": "image",
+            "data": "image2251.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Copy -  Copies the currently selected Finish."
+        },
+        {
+            "type": "image",
+            "data": "image2252.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Delete -  Deletes the currently selected Finish."
+        },
+        {
+            "type": "image",
+            "data": "image2253.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Creating/Editing a Finish"
+        },
+        {
+            "type": "text",
+            "data": "You can edit the following Finish Properties here:"
+        },
+        {
+            "type": "text",
+            "data": "Name -  The Name of the current Finish."
+        },
+        {
+            "type": "text",
+            "data": "Name -  The Name of the current Finish."
+        },
+        {
+            "type": "text",
+            "data": "Name -  The Name of the current Finish."
+        },
+        {
+            "type": "image",
+            "data": "image2254.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Description -  The Description of the current Finish."
+        },
+        {
+            "type": "text",
+            "data": "Description -  The Description of the current Finish."
+        },
+        {
+            "type": "text",
+            "data": "Description -  The Description of the current Finish."
+        },
+        {
+            "type": "image",
+            "data": "image2255.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Color Picker -  Click anywhere within the Color Palette to select a starting color for your Finish."
+        },
+        {
+            "type": "text",
+            "data": "Color Picker -  Click anywhere within the Color Palette to select a starting color for your Finish."
+        },
+        {
+            "type": "text",
+            "data": "Color Picker -  Click anywhere within the Color Palette to select a starting color for your Finish."
+        },
+        {
+            "type": "image",
+            "data": "Color_Picker.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Red -  The value of the Red tone in the Finish."
+        },
+        {
+            "type": "text",
+            "data": "Red -  The value of the Red tone in the Finish."
+        },
+        {
+            "type": "text",
+            "data": "Red -  The value of the Red tone in the Finish."
+        },
+        {
+            "type": "image",
+            "data": "image233.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Green -  The value of the Green tone in the Finish."
+        },
+        {
+            "type": "text",
+            "data": "Green -  The value of the Green tone in the Finish."
+        },
+        {
+            "type": "text",
+            "data": "Green -  The value of the Green tone in the Finish."
+        },
+        {
+            "type": "image",
+            "data": "image234.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Blue -  The value of the Blue tone in the Finish."
+        },
+        {
+            "type": "text",
+            "data": "Blue -  The value of the Blue tone in the Finish."
+        },
+        {
+            "type": "text",
+            "data": "Blue -  The value of the Blue tone in the Finish."
+        },
+        {
+            "type": "image",
+            "data": "image235.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The slider bars below the three color swatches can be manipulated in combination to produce any of 16 million colors. These colors are formed using a combination of Red, Green, and Blue. You may also enter the 0-255 number below the bar to achieve a known color once you establish the number code."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Luminance -  Allows you to change the Luminance of the current Finish."
+        },
+        {
+            "type": "text",
+            "data": "Luminance -  Allows you to change the Luminance of the current Finish."
+        },
+        {
+            "type": "text",
+            "data": "Luminance -  Allows you to change the Luminance of the current Finish."
+        },
+        {
+            "type": "image",
+            "data": "image236.gif",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\System_Level\\Ribbonbar\\Main_Tab\\Catalogs_Group\\Material_Manager\\Ribbonbar\\MCE_Finish.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

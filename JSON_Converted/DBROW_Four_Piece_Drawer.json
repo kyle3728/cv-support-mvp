@@ -1,0 +1,110 @@
+{
+    "id": "9841de91-5643-44c8-b3c2-6922f7c91632",
+    "title": "DBROW_Four_Piece_Drawer",
+    "content": [
+        {
+            "type": "text",
+            "data": "Four Piece Drawer"
+        },
+        {
+            "type": "text",
+            "data": "The Four Piece Drawer Box Construction Style has the following objects:"
+        },
+        {
+            "type": "image",
+            "data": "image1357.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Click the Object names below for more information"
+        },
+        {
+            "type": "text",
+            "data": "General"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "General",
+                "uuid": "c08b0bf8-4db3-4419-a3d0-414780a15cd7",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Bottom"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Bottom",
+                "uuid": "c08b0bf8-4db3-4419-a3d0-414780a15cd7",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Back"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Back",
+                "uuid": "c08b0bf8-4db3-4419-a3d0-414780a15cd7",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Side"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Side",
+                "uuid": "c08b0bf8-4db3-4419-a3d0-414780a15cd7",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Partition"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Partition",
+                "uuid": "c08b0bf8-4db3-4419-a3d0-414780a15cd7",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Divider"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Divider",
+                "uuid": "c08b0bf8-4db3-4419-a3d0-414780a15cd7",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Box Connection"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Box Connection",
+                "uuid": "c08b0bf8-4db3-4419-a3d0-414780a15cd7",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\System_Level\\Ribbonbar\\Main_Tab\\Construction_Group\\Assembly_Manager\\Drawer_-_Roll_Out\\Construction_Styles\\DBROW_Four_Piece_Drawer.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

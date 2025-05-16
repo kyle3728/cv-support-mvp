@@ -1,0 +1,29 @@
+{
+    "id": "e7010c9a-871d-4da1-b21c-84494cef702b",
+    "title": "Turn_Off_Adjust_Sink_Cabinet_Sections_Message",
+    "content": [
+        {
+            "type": "text",
+            "data": "Turn Off Adjust Sink Cabinet Sections Message"
+        },
+        {
+            "type": "text",
+            "data": "How do I turn off the pop up message: \"Ok to adjust cabinet sections to sink center?\""
+        },
+        {
+            "type": "text",
+            "data": "Go to the CV button, choose  Preferences  and then go to the  Layout Tab , in the \"Clearances\" section at the \"Sink to Sink Opening\" field enter 0 as the dimension."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Layout Tab",
+                "uuid": "a6c6d306-c8da-4df8-8440-33f2f24a9c1d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Tips_Tricks_&_FAQs\\FAQs\\HDI-Layout\\Turn_Off_Adjust_Sink_Cabinet_Sections_Message.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

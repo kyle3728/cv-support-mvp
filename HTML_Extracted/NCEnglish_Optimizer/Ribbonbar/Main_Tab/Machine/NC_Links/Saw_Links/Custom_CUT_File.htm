@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head><link rel="stylesheet" type="text/css" href="../../../../../_rhdefault.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="generator" content="Adobe RoboHelp 2019"/>
+<title>Custom CUT File</title>
+<link rel="StyleSheet" href="../../../../../assets/css/default.css" type="text/css"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/><script type="text/javascript" src="../../../../../ehlpdhtm.js"></script></head>
+<body>
+<h1>Custom CUT File</h1>
+<p>User configurable ASCII file output of part sizes to be used by 3rd party optimizers.</p>
+<p>When this Saw NC Link is selected there will be a new Tab in the Machine Catalog named &quot;CUT Fields&quot;.</p>
+<p><img src="../../../../../assets/images/image1317.gif" alt="" style="border: none; width: 100%; max-width: 479px;" border="0"/></p>
+<h2>File Properties Area</h2>
+<p>There are ten general options available to configure your output:</p>
+<p><img src="../../../../../assets/images/image1318.gif" alt="" style="border: none; width: 100%; max-width: 429px;" border="0"/></p>
+<p><span style="font-weight: bold;">File Name -</span> This field will allow you to specify a specific or partial file name. You may choose to use {JobName} as a variable. Any use of {JobName} will be replaced by the current job.</p>
+<p style="margin-left: 40px;">Example settings:</p>
+<p style="margin-left: 80px; font-family: &#39;Courier New&#39;, monospace;">{JobName}.txt ► Smith.txt</p>
+<p style="margin-left: 80px; font-family: &#39;Courier New&#39;, monospace;">MyOutput.csv ► MyOutput.csv</p>
+<p style="margin-left: 80px; font-family: &#39;Courier New&#39;, monospace;">Out-{JobName}.lst ► Out-Smith.lst</p>
+<p><span style="font-weight: bold;">Header -</span> The header is optional. If specified it will be placed once at the top of the file. It can be left blank to omit. Any use of \n will be replaced with a carriage return.</p>
+<p style="margin-left: 40px;">Example Setting: <span style="font-size: 11pt; font-family: &#39;Courier New&#39;, monospace;">;This is a heading\nThis is the second line\nThis is the 3rd line.</span></p>
+<p style="margin-left: 80px; font-family: &#39;Courier New&#39;, monospace;">;This is a heading</p>
+<p style="margin-left: 80px; font-family: &#39;Courier New&#39;, monospace;">This is the second line</p>
+<p style="margin-left: 80px; font-family: &#39;Courier New&#39;, monospace;">This is the 3rd line.</p>
+<p><span style="font-weight: bold;">Fixed Width -</span> This will determine if each field will use a specific number of characters in the output. If the actual data has fewer characters then that specified the remaining characters will be padded with space. If the actual data exceeds the character limit then the value will be truncated.</p>
+<p style="margin-left: 40px;"><img src="../../../../../assets/images/zGraphics/Extras/Information.png" alt="" style="border: none; width: 100%; max-width: 32px;" border="0"/> String Length includes the Text Qualifier. If the Field Length is set to 4 and the String is “ABCDEFG” the output will be “AB”. If there is no text qualifier the output would be ABCD.</p>
+<p>To set the length of the output field first select the field on the right then enter the Fixed Length at the bottom of the list.</p>
+<p><img src="../../../../../assets/images/image1320.gif" alt="" style="border: none; width: 100%; max-width: 479px;" border="0"/></p>
+<p style="margin-left: 40px;"><img src="../../../../../assets/images/zGraphics/Extras/Information.png" alt="" style="border: none; width: 100%; max-width: 32px;" border="0"/> If Fixed Width is false then the Text Length indicates the maximum length of any field. This by default can be left at zero, but can be set to a number it you wish to limit the output length. Unlike Fixed Width, the max length does not include the text qualifier. A max length of 4 with the string ABCDEF would result “ABCD”</p>
+<p><span style="font-weight: bold;">Delimiter -</span> This is an optional single character to separate each field. It is commonly a comma (,).</p>
+<p><span style="font-weight: bold;">Text Qualifier -</span> This is an optional single character that will surround and text or memo output. Typical values are (“) and (‘).</p>
+<p style="margin-left: 40px;"><img src="../../../../../assets/images/zGraphics/Extras/Information.png" alt="" style="border: none; width: 100%; max-width: 32px;" border="0"/> When the output type is not fixed width if the text qualifier character is found in a text or memo field it will be replaced with either “ or ‘ (whichever is NOT the text qualifier character). The example below uses a double quote (“) as the text qualifier.</p>
+<p style="margin-left: 40px;">A “sample” string with “double” and ‘single’ quotes: “A ‘sample’ string with ‘double’ and ‘single’ quotes.”</p>
+<p><span style="font-weight: bold;">Units -</span> The unit can either be Inches or MM. As an option the unit may also be multiplied by a factor of 10, 100, or 1000.</p>
+<p style="margin-left: 40px;"><img src="../../../../../assets/images/image1321.gif" alt="" style="border: none; width: 100%; max-width: 207px;" border="0"/></p>
+<p><span style="font-weight: bold;">Units Precision -</span> This option specifies the unit precision. Value will be rounded to the nearest selection. The unit precision applies to measurements as well as singles and doubles.</p>
+<p style="margin-left: 40px;"><img src="../../../../../assets/images/image1322.gif" alt="" style="border: none; width: 100%; max-width: 207px;" border="0"/></p>
+<p><span style="font-weight: bold;">Boolean Format -</span> This option allows for multiple Boolean formats.</p>
+<p style="margin-left: 40px;"><img src="../../../../../assets/images/image1323.gif" alt="" style="border: none; width: 100%; max-width: 207px;" border="0"/></p>
+<p style="font-weight: bold;">Date Format - <span style="font-weight: normal;">A string value using (M)onth, (D)ay &amp; (Y)ear as variables. Example settings:</span></p>
+<table style="margin-left: 40px; left: 0px; top: 2627px;" width="509" cellpadding="1">
+<colgroup><col width="209"/>
+<col width="290"/>
+</colgroup><tbody><tr>
+<td>M/D/YY</td>
+<td>10/4/13</td>
+</tr>
+<tr>
+<td>DD-MM-YYYY</td>
+<td>04-10-2013</td>
+</tr>
+<tr>
+<td><span>DDD DD-MM-YYYY</span></td>
+<td>Mon 04-10-2013</td>
+</tr>
+<tr>
+<td>DDD, MMM DD/YY</td>
+<td>Mon, Oct 04/13</td>
+</tr>
+<tr>
+<td>DDDD, MMMM DD of YYYY</td>
+<td>Monday, October 04 of 2013</td>
+</tr>
+</tbody></table>
+<p><span style="font-weight: bold;">Currency Precision -</span> Similar to unit precision, the value will be rounded to the specified precision.</p>
+<p style="margin-left: 40px;"><img src="../../../../../assets/images/image1324.gif" alt="" style="border: none; width: 100%; max-width: 207px;" border="0"/></p>
+<h2>Field Definition Area</h2>
+<p><img src="../../../../../assets/images/image1325.gif" alt="" style="border: none; width: 100%; max-width: 457px;" border="0"/></p>
+<p>The list on the left are all of the Fields that you can include in your output file. Simply select the fields you would like then click the Right Arrow button to add them to the list on the right. Once a field has been moved over to the list on the right it’s order can be modified by selecting the Up or Down arrow buttons. Multiple fields can be moved at the same time by 1st selecting multiple fields then selecting the Up/Down buttons.</p>
+<p>It may be required to output a value that it not represented in the available data list from Cabinet Vision. This type of output is typically not-critical data but is still required by the importing software to fill a space in the output format.</p>
+<p>To add a fixed text field click on the Green Plus Button then enter in the text:</p>
+<p><img src="../../../../../assets/images/image1326.gif" alt="" style="border: none; width: 100%; max-width: 373px;" border="0"/></p>
+
+
+</body></html>

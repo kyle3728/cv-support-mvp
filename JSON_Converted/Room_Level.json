@@ -1,0 +1,50 @@
+{
+    "id": "9eaa492c-0405-4da7-8e0f-a6ff4e047890",
+    "title": "Room_Level",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top \n > \n \n \n Room Level \n > \n \n Room Level"
+        },
+        {
+            "type": "text",
+            "data": "Top \n >"
+        },
+        {
+            "type": "text",
+            "data": "Room Level \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Room Level",
+                "uuid": "9eaa492c-0405-4da7-8e0f-a6ff4e047890",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Room Level"
+        },
+        {
+            "type": "text",
+            "data": "Room Level"
+        },
+        {
+            "type": "text",
+            "data": "Room Level"
+        },
+        {
+            "type": "text",
+            "data": "Click the areas in the image below for more information"
+        },
+        {
+            "type": "image",
+            "data": "Room_Level.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Room_Level\\Room_Level.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

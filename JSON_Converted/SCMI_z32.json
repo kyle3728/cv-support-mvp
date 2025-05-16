@@ -1,0 +1,21 @@
+{
+    "id": "eea55010-6056-4c6f-97eb-51be81ed51cd",
+    "title": "SCMI_z32",
+    "content": [
+        {
+            "type": "text",
+            "data": "SCMI z32"
+        },
+        {
+            "type": "text",
+            "data": "This is a  Panel Saw  Link."
+        },
+        {
+            "type": "text",
+            "data": "SCMI z32 for the Master 2A Controller."
+        }
+    ],
+    "source_file": "NCEnglish_Optimizer\\Ribbonbar\\Main_Tab\\Machine\\NC_Links\\Saw_Links\\SCMI_z32.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

@@ -1,0 +1,31 @@
+{
+    "id": "ff8ad353-e532-4108-b6c5-05a0f9b9fb24",
+    "title": "Pages_and_Directory",
+    "content": [
+        {
+            "type": "text",
+            "data": "Pages & Directory"
+        },
+        {
+            "type": "text",
+            "data": "This area, when on the Pages tab, displays a thumbnail view of each page of the active Report. Simply select a thumbnail to quickly go to that page."
+        },
+        {
+            "type": "image",
+            "data": "image1067.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "When on the Directory tab it will show any Groups within the active Report. Simply clicking on a Group name will quickly send you to the page in the active Report that contains that Group."
+        },
+        {
+            "type": "image",
+            "data": "image1101.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish\\Room_Level\\Side_Bar\\Report_Center\\Sidebar\\Pages_and_Directory.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

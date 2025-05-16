@@ -1,0 +1,307 @@
+{
+    "id": "ab1790c8-4275-4839-a647-d5a131c27144",
+    "title": "RL_Statusbar_Menu",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top \n > \n \n \n Room Level \n > \n \n Statusbar Menu"
+        },
+        {
+            "type": "text",
+            "data": "Top \n >"
+        },
+        {
+            "type": "text",
+            "data": "Room Level \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Room Level",
+                "uuid": "9eaa492c-0405-4da7-8e0f-a6ff4e047890",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Statusbar Menu"
+        },
+        {
+            "type": "text",
+            "data": "Statusbar Menu"
+        },
+        {
+            "type": "text",
+            "data": "Statusbar Menu"
+        },
+        {
+            "type": "image",
+            "data": "Statusbar_Menu.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Statusbar menu gives you quick access to control the status of certain Drawing aids. There are six possible options here:"
+        },
+        {
+            "type": "text",
+            "data": "Unit of Measure"
+        },
+        {
+            "type": "image",
+            "data": "image2507.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Allows you to control the active Unit of Measure (Inches or Millimeters). The Unit displayed on the button represents the Unit of Measure that is currently active."
+        },
+        {
+            "type": "text",
+            "data": "Unit Precision"
+        },
+        {
+            "type": "image",
+            "data": "image2508.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Allowd you to choose the Precision to display for the currently displayed Unit of Measure."
+        },
+        {
+            "type": "image",
+            "data": "image2016.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "You can turn this button On/Off via the  Preferences | Units  tab."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Preferences | Units",
+                "uuid": "a6c6d306-c8da-4df8-8440-33f2f24a9c1d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Reset Ruler"
+        },
+        {
+            "type": "image",
+            "data": "image2018.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option allows you to quickly remove any  Snap Marks  you have placed on your Drawing."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Snap Marks",
+                "uuid": "f16b39b1-a7e8-4fd9-af99-0b437d3e2fda",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Snap Options"
+        },
+        {
+            "type": "image",
+            "data": "image2019.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The last three tools allow you to select which Snap mode is active on screen. The options are:"
+        },
+        {
+            "type": "text",
+            "data": "Snap to Marks"
+        },
+        {
+            "type": "image",
+            "data": "image2020.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This feature allows snapping to a Snap Point set by use of the  Ruler Tool . If this button is highlighted in blue it means it is active simply click it again to disable it."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Ruler Tool",
+                "uuid": "f16b39b1-a7e8-4fd9-af99-0b437d3e2fda",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Snap Grid"
+        },
+        {
+            "type": "image",
+            "data": "image2021.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option turns Grid Snapping on and off. You will see a grid pattern in the window where you layout Jobs, edit Assemblies, or CAD that you can Snap to. If this button is highlighted in blue it means it is active simply click it again to disable it. Go to  Right Click Properties  to set the Grid Spacing."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Right Click Properties",
+                "uuid": "3ea2c40b-e3fc-4eac-9114-cf8a3365c62a",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Snap to Points"
+        },
+        {
+            "type": "image",
+            "data": "image2022.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This is perhaps the most useful tool when using the measure option of the  Ruler Tool . Using this snap feature allows precise snapping of dimension lines in  CAD , and other precise placement options. This option turns on the  Dynamic Snapping  functionality in Solid The snap to points appear as small dark dots in the corner of the objects and all parts within the object. These are the snap to points. If these points are present and not desired, reset the snapping mode to OFF or another mode to eliminate them. If this button is highlighted in blue it means it is active simply click it again to disable it."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Ruler Tool",
+                "uuid": "f16b39b1-a7e8-4fd9-af99-0b437d3e2fda",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "CAD",
+                "uuid": "c364cda2-94c1-45c4-950a-125c6e19bd95",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Dynamic Snapping",
+                "uuid": "1b76ea8a-196d-4b8f-a72a-3d6db86a4b5e",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Snap Tips"
+        },
+        {
+            "type": "text",
+            "data": "Use Ruler Points to place complex Peninsula Wall layouts \n \n \n Use Ruler Points for placing Assemblies, Parts, etc. \n \n \n Use Ruler Points to create Architectural Symbols for saving into your Symbol Library \n \n \n Use Ruler Points to draw construction details. \n \n \n Use Ruler Points to edit complex Assembly shapes. \n \n \n All of the CAD Functions in CAD can Snap to Points, Grid or Ruler Points. \n \n \n Use Grid Points to place items on the Grid. \n \n \n Use Points to measure distance on Assemblies, Parts, Walls, etc. \n \n \n Use the Points on an object to place Ruler Points"
+        },
+        {
+            "type": "text",
+            "data": "Use Ruler Points to place complex Peninsula Wall layouts"
+        },
+        {
+            "type": "text",
+            "data": "Use Ruler Points to place complex Peninsula Wall layouts"
+        },
+        {
+            "type": "text",
+            "data": "Use Ruler Points for placing Assemblies, Parts, etc."
+        },
+        {
+            "type": "text",
+            "data": "Use Ruler Points for placing Assemblies, Parts, etc."
+        },
+        {
+            "type": "text",
+            "data": "Use Ruler Points to create Architectural Symbols for saving into your Symbol Library"
+        },
+        {
+            "type": "text",
+            "data": "Use Ruler Points to create Architectural Symbols for saving into your Symbol Library"
+        },
+        {
+            "type": "text",
+            "data": "Use Ruler Points to draw construction details."
+        },
+        {
+            "type": "text",
+            "data": "Use Ruler Points to draw construction details."
+        },
+        {
+            "type": "text",
+            "data": "Use Ruler Points to edit complex Assembly shapes."
+        },
+        {
+            "type": "text",
+            "data": "Use Ruler Points to edit complex Assembly shapes."
+        },
+        {
+            "type": "text",
+            "data": "All of the CAD Functions in CAD can Snap to Points, Grid or Ruler Points."
+        },
+        {
+            "type": "text",
+            "data": "All of the CAD Functions in CAD can Snap to Points, Grid or Ruler Points."
+        },
+        {
+            "type": "text",
+            "data": "Use Grid Points to place items on the Grid."
+        },
+        {
+            "type": "text",
+            "data": "Use Grid Points to place items on the Grid."
+        },
+        {
+            "type": "text",
+            "data": "Use Points to measure distance on Assemblies, Parts, Walls, etc."
+        },
+        {
+            "type": "text",
+            "data": "Use Points to measure distance on Assemblies, Parts, Walls, etc."
+        },
+        {
+            "type": "text",
+            "data": "Use the Points on an object to place Ruler Points"
+        },
+        {
+            "type": "text",
+            "data": "Use the Points on an object to place Ruler Points"
+        },
+        {
+            "type": "text",
+            "data": "Build Warnings"
+        },
+        {
+            "type": "image",
+            "data": "image2023.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option will display any Build Warnings that are currently active. \u00a0Simply click this option to bring up the  Message Log  to view the active Build Warnings."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Message Log",
+                "uuid": "a6c6d306-c8da-4df8-8440-33f2f24a9c1d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Room_Level\\RL_Statusbar_Menu.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

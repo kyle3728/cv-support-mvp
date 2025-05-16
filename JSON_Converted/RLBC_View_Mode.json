@@ -1,0 +1,176 @@
+{
+    "id": "a956a93c-6976-4d6b-abe5-332081492e4b",
+    "title": "RLBC_View_Mode",
+    "content": [
+        {
+            "type": "text",
+            "data": "View Mode"
+        },
+        {
+            "type": "image",
+            "data": "image2556.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There are five View Modes in the Bid Center."
+        },
+        {
+            "type": "image",
+            "data": "image3552.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Bid Breakdown"
+        },
+        {
+            "type": "image",
+            "data": "image2558.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option changes the Bid Center view to a Bid Breakdown. This is the default View when entering the Bid Center."
+        },
+        {
+            "type": "image",
+            "data": "image3553.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Cabinet Prices"
+        },
+        {
+            "type": "image",
+            "data": "image2559.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option changes the Bid Center view to a Cabinet Prices view displaying Catalog Pricing. Catalog Pricing would be a fixed Object price passed from a Manufacturers Catalog."
+        },
+        {
+            "type": "image",
+            "data": "image1170.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Accessory Prices"
+        },
+        {
+            "type": "image",
+            "data": "image2560.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option changes the Bid Center view to an Accessory Prices view displaying Catalog Pricing. Catalog Pricing would be a fixed Object price passed from a Manufacturers Catalog."
+        },
+        {
+            "type": "text",
+            "data": "Vendors"
+        },
+        {
+            "type": "image",
+            "data": "image3554.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option changes the Bid Center view to the Vendors view displaying the Vendors selected and available for the Materials used in the Job."
+        },
+        {
+            "type": "image",
+            "data": "Vendor_View.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Your  Default Vendor  for each Material will be selected. You may select any other Vendor for each Material to use in the Job. There are also some quick selections in the sidebar you can use to make the selections for you."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Default Vendor",
+                "uuid": "ed3b4968-12b1-4a78-b222-a9db08d24be7",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Summary"
+        },
+        {
+            "type": "image",
+            "data": "image2561.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option\u00a0displays a Design Summary for the current Job."
+        },
+        {
+            "type": "image",
+            "data": "image1171.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Labor"
+        },
+        {
+            "type": "image",
+            "data": "image3556.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option displays the Labor Summary/Calculation area. This is an tool you can use to assist in developing your Labor Costs. Labor is Part and Assembly based using the Bid Methods covered previously."
+        },
+        {
+            "type": "text",
+            "data": "Below is what is displayed by default when in the Labor Summary View."
+        },
+        {
+            "type": "image",
+            "data": "image3555.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Labor Schemes are created utilizing the same Bid Method line items as your Rate Tables. To Edit/Create your Labor Schemes click on the Edit Labor Schemes tool in the sidebar."
+        },
+        {
+            "type": "image",
+            "data": "image2564.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Labor Scheme Editor is basically the same as the Rate Table area and setting it up is exactly the same with the exception that instead of entering Currency or Percentage values you are entering Minutes for the selected Bid Method."
+        },
+        {
+            "type": "image",
+            "data": "image5685.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Once you have saved your Labor Scheme you can recall it as a Bid Method in any of your  Rate Tables  for use in calculating your full Bid."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Rate Tables",
+                "uuid": "75afd026-8d15-4b49-a200-72ec4f8c216e",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\RLBC_View_Mode.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

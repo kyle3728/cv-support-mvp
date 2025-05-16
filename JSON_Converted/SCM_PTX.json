@@ -1,0 +1,21 @@
+{
+    "id": "f3829092-0a89-46a5-bbbb-70e547602a34",
+    "title": "SCM_PTX",
+    "content": [
+        {
+            "type": "text",
+            "data": "SCM PTX"
+        },
+        {
+            "type": "text",
+            "data": "This is a  Panel Saw  Link."
+        },
+        {
+            "type": "text",
+            "data": "Saw output for SCM PTX."
+        }
+    ],
+    "source_file": "NCEnglish\\Ribbonbar\\Main_Tab\\Machine\\NC_Links\\Saw_Links\\SCM_PTX.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

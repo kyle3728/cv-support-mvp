@@ -1,0 +1,29 @@
+{
+    "id": "3052024b-776c-4133-a3ea-c3b077600479",
+    "title": "Omal_Lockdowel",
+    "content": [
+        {
+            "type": "text",
+            "data": "Omal Lockdowel"
+        },
+        {
+            "type": "text",
+            "data": "This is a Drill & Dowel Link."
+        },
+        {
+            "type": "text",
+            "data": "Has the following tool parameter added:"
+        },
+        {
+            "type": "text",
+            "data": "Macro -  The macro to be \n\t assigned when using this tool"
+        },
+        {
+            "type": "text",
+            "data": "Macro -  The macro to be \n\t assigned when using this tool"
+        }
+    ],
+    "source_file": "NCEnglish\\Ribbonbar\\Main_Tab\\Machine\\NC_Links\\Drill_and_Dowel_Links\\Omal_Lockdowel.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

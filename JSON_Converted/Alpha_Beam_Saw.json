@@ -1,0 +1,17 @@
+{
+    "id": "b30dbf7c-4064-4793-a13e-d591816ff91e",
+    "title": "Alpha_Beam_Saw",
+    "content": [
+        {
+            "type": "text",
+            "data": "Alpha Beam Saw"
+        },
+        {
+            "type": "text",
+            "data": "Output for AES Alpha Beam Saw."
+        }
+    ],
+    "source_file": "NCEnglish\\Ribbonbar\\Main_Tab\\Machine\\NC_Links\\Saw_Links\\Alpha_Beam_Saw.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

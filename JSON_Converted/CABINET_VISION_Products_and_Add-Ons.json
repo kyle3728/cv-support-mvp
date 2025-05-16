@@ -1,0 +1,303 @@
+{
+    "id": "051a6ac7-aac6-40fd-b0e1-d5234737f9d4",
+    "title": "CABINET_VISION_Products_and_Add-Ons",
+    "content": [
+        {
+            "type": "text",
+            "data": "CABINET VISION Products, Multipliers,and Additions"
+        },
+        {
+            "type": "text",
+            "data": "The following CABINET VISIONproducts, multipliers, and additions are available. The icons below will represent them throughout the Help file. This is how the Help file will identify which features are available with certain products, multipliers, and additions."
+        },
+        {
+            "type": "text",
+            "data": "Design Solution"
+        },
+        {
+            "type": "text",
+            "data": "CABINET VISION :Design"
+        },
+        {
+            "type": "text",
+            "data": "- Cabinets"
+        },
+        {
+            "type": "image",
+            "data": "Cabinets.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "- Closets"
+        },
+        {
+            "type": "image",
+            "data": "Closets.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "- xCRM"
+        },
+        {
+            "type": "image",
+            "data": "CRM.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "- x2D CAD"
+        },
+        {
+            "type": "image",
+            "data": "2DCAD.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "-+Tour"
+        },
+        {
+            "type": "image",
+            "data": "Tour.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Manufacturing Solution"
+        },
+        {
+            "type": "text",
+            "data": ":Core"
+        },
+        {
+            "type": "text",
+            "data": "- Cabinets"
+        },
+        {
+            "type": "image",
+            "data": "Cabinets.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "- Closets"
+        },
+        {
+            "type": "image",
+            "data": "Closets.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "- xRendering"
+        },
+        {
+            "type": "image",
+            "data": "Render.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "- +Tour"
+        },
+        {
+            "type": "image",
+            "data": "Tour.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "- x2AC"
+        },
+        {
+            "type": "image",
+            "data": "2AC.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "- x2D CAD"
+        },
+        {
+            "type": "image",
+            "data": "2DCAD.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "- +Submittals"
+        },
+        {
+            "type": "image",
+            "data": "Submittals.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "- xCountertops"
+        },
+        {
+            "type": "image",
+            "data": "Countertops.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "- xCRM"
+        },
+        {
+            "type": "image",
+            "data": "CRM.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "- xShaping"
+        },
+        {
+            "type": "image",
+            "data": "Shaping.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "- xBidding"
+        },
+        {
+            "type": "image",
+            "data": "Bidding.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "- +Catalog Editor"
+        },
+        {
+            "type": "image",
+            "data": "Catalog%20Editor.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "- xReporting"
+        },
+        {
+            "type": "image",
+            "data": "Reporting.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "- xOptimizer"
+        },
+        {
+            "type": "image",
+            "data": "Optimizing.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "- +Saw"
+        },
+        {
+            "type": "image",
+            "data": "Saw.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "- xMachining"
+        },
+        {
+            "type": "image",
+            "data": "Machining.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "- +Router"
+        },
+        {
+            "type": "image",
+            "data": "Router.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "- +Saw"
+        },
+        {
+            "type": "image",
+            "data": "MachSaw.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "- +Point-to-Point"
+        },
+        {
+            "type": "image",
+            "data": "PointToPoint.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "- +Drill & Dowel"
+        },
+        {
+            "type": "image",
+            "data": "DrillAndDowel.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "- +Chop Saw"
+        },
+        {
+            "type": "image",
+            "data": "ChopSaw.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "- +Material Handling"
+        },
+        {
+            "type": "image",
+            "data": "MaterialHandling.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "- +Special"
+        },
+        {
+            "type": "image",
+            "data": "Special.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "- +DXF"
+        },
+        {
+            "type": "image",
+            "data": "DXF.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "- +Part List"
+        },
+        {
+            "type": "image",
+            "data": "PartList.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish\\Introduction\\CABINET_VISION_Products_and_Add-Ons.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

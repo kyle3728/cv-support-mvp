@@ -1,0 +1,121 @@
+{
+    "id": "70cf0f80-88a5-4aed-9e49-c83769d586eb",
+    "title": "conn_Shoe_Section",
+    "content": [
+        {
+            "type": "text",
+            "data": "Shoe Section"
+        },
+        {
+            "type": "text",
+            "data": "This is where you configure the scenarios where a\u00a0Shoe Section Connects to Parts."
+        },
+        {
+            "type": "image",
+            "data": "image479.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The following diagram\u00a0show the Connections available for the Shoe Section. Click a specific option in the diagram for more information or continue through this topic for information on all the options."
+        },
+        {
+            "type": "image",
+            "data": "image660.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Divider - Mid Stile (Standard #770)"
+        },
+        {
+            "type": "image",
+            "data": "image661.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Horizontal Divider - Finished End (Standard #740)"
+        },
+        {
+            "type": "image",
+            "data": "image663.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Horizontal Divider - Unfinished End (Standard #722)"
+        },
+        {
+            "type": "image",
+            "data": "image664.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Horizontal Divider - Sub End (Standard #723)"
+        },
+        {
+            "type": "image",
+            "data": "image665.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Horizontal Divider - Partition (Standard #738)"
+        },
+        {
+            "type": "image",
+            "data": "image666.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Horizontal Divider - Divider (Standard #739)"
+        },
+        {
+            "type": "image",
+            "data": "image667.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Vertical Divider - Top (Standard #741)"
+        },
+        {
+            "type": "image",
+            "data": "image668.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Vertical Divider - Deck (Standard #742)"
+        },
+        {
+            "type": "image",
+            "data": "image669.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Vertical Divider - Shelf (Standard #743)"
+        },
+        {
+            "type": "image",
+            "data": "image670.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Vertical Divider - Fixed Shelf (Standard #744)"
+        },
+        {
+            "type": "image",
+            "data": "image671.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\System_Level\\Ribbonbar\\Main_Tab\\Construction_Group\\Assembly_Manager\\Assembly\\Branches\\Connection\\conn_Shoe_Section.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

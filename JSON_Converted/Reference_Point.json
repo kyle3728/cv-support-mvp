@@ -1,0 +1,38 @@
+{
+    "id": "c7f4e3bc-714b-43a1-a073-f916a4c2eda4",
+    "title": "Reference_Point",
+    "content": [
+        {
+            "type": "text",
+            "data": "Reference Point"
+        },
+        {
+            "type": "text",
+            "data": "Imagine an Assembly with no Parts in it; it would be an empty box. All you would have is just the outline of the Assembly. This empty box would have width, height and depth but no Parts. In the left, bottom, back corner of this empty box is an imaginary point called the  \"Reference Point\" . An Assembly is positioned on a Wall in reference to this point and the reference point of the Wall. All Parts added to the Assembly will be positioned referenced to this reference point and the reference point of the Part."
+        },
+        {
+            "type": "image",
+            "data": "ebd_Ebd2.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Reference point of an Assembly"
+        },
+        {
+            "type": "text",
+            "data": "The reference point for an Assembly is in the left, bottom, and back corner of the Assembly."
+        },
+        {
+            "type": "text",
+            "data": "Reference point of a Part"
+        },
+        {
+            "type": "text",
+            "data": "The reference point of a Part is in the left, bottom, and back corner of the Part, when that Part is in normal orientation, in other words, if the Part has not been rotated."
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\Parametric_Editing\\Intelligence_Workshop\\The_Basics\\Reference_Point.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

@@ -1,0 +1,21 @@
+{
+    "id": "652d4383-de28-4d18-acfd-9b09c58a1d3f",
+    "title": "Vitap_Thunder_CID3",
+    "content": [
+        {
+            "type": "text",
+            "data": "Vitap Thunder CID3"
+        },
+        {
+            "type": "text",
+            "data": "This is a Drill and Dowel Machine Link."
+        },
+        {
+            "type": "text",
+            "data": "Vitap Thunder CID3. Machine for boring, gluing and dowel insertion."
+        }
+    ],
+    "source_file": "NCEnglish\\Ribbonbar\\Main_Tab\\Machine\\NC_Links\\Drill_and_Dowel_Links\\Vitap_Thunder_CID3.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

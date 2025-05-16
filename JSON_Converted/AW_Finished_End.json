@@ -1,0 +1,203 @@
+{
+    "id": "7cd4e669-7236-4491-bb99-671b0b7bc38c",
+    "title": "AW_Finished_End",
+    "content": [
+        {
+            "type": "text",
+            "data": "Finished End"
+        },
+        {
+            "type": "image",
+            "data": "image370.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There are a few things to consider when answering the questions in the Construction Method\u00a0for Finished Ends. When choosing the type of Finished End, click each option and look at the graphic. You will see that several of the End Types have a structure behind them. This structure is the Sub End. There is also an option for \"skins\" for Finished Ends. It is important to understand what Skins are not. They are never plastic laminate, nor are they sheet veneer. This is because both of those items are handled in the  Material Schedules  as Horizontal and Vertical Laminate. Additionally, you may find that you have chosen Standard or another Finished End Type only to find several questions following regarding Applied Doors and/or Applied Panels."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Material Schedules",
+                "uuid": "d549fa6c-c6de-4ac1-9837-a3bb3e6af7a5",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Remember, when this occurs, answer the questions with the \"What if\" approach. CABINET VISION is aware that you have selected a different default End Type, yet, it remains possible to change a particular Cabinet within CABINET VISION to have an Applied Door or Applied Panel, and in that event, the information would be necessary."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Finished End Conditions"
+        },
+        {
+            "type": "text",
+            "data": "Standard and Panelized Ends"
+        },
+        {
+            "type": "text",
+            "data": "These end types will follow the Construction Method settings for Finished Ends"
+        },
+        {
+            "type": "text",
+            "data": "Applied End and Applied Doors"
+        },
+        {
+            "type": "text",
+            "data": "These types of Finished Ends consist of two parts - a Sub End and a Finished End (or a DOR for an Applied Door). The Sub End part will follow the Construction Method settings for a Sub End, while the Finished End (or DOR) part will follow the Construction\u00a0Method settings for a Finished End."
+        },
+        {
+            "type": "text",
+            "data": "The internal Parts (Top, Stretchers, Deck, Nailers, etc.) will respond to Sub End standards where applicable."
+        },
+        {
+            "type": "text",
+            "data": "It is important to note that if the Sub Ends have a specified inside scribe amount, this could cause the Applied Part (the Finished End or DOR) to extend beyond the outside of the Cabinet."
+        },
+        {
+            "type": "text",
+            "data": "The Front Toe, Side Toe, and Back Toe will respond to Finished End Construction\u00a0Method\u00a0settings."
+        },
+        {
+            "type": "text",
+            "data": "Skinned and Laminated Ends"
+        },
+        {
+            "type": "text",
+            "data": "These types of Finished Ends are also made up of two Parts: an Unfinished End and a Skin (SLF/SRF) or Laminate (LAMV). These types of Ends are considered to be a single part by the Construction\u00a0Method and are treated as Finished Ends."
+        },
+        {
+            "type": "text",
+            "data": "All internal Parts (Top, Stretchers, Deck, Nailers, etc.) will respond to the Finished End Construction\u00a0Method."
+        },
+        {
+            "type": "text",
+            "data": "The following diagrams show the options available in the Finished End Branch. Click a specific option in the diagram for more information or continue through this topic for information on all the options."
+        },
+        {
+            "type": "image",
+            "data": "image369.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Finished End Banding Definition (Standard #658)"
+        },
+        {
+            "type": "image",
+            "data": "image371.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Default Finished End Type (Standard #372)"
+        },
+        {
+            "type": "image",
+            "data": "image373.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Applied End & Applied Door Face Positions (Standard #460)"
+        },
+        {
+            "type": "image",
+            "data": "image374.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Applied End and Applied Door Top Position (Standard #461)"
+        },
+        {
+            "type": "image",
+            "data": "image375.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Applied End and Applied Door Bottom Position (Standard #462)"
+        },
+        {
+            "type": "image",
+            "data": "image376.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Finished End Scribe (Standard #079)"
+        },
+        {
+            "type": "image",
+            "data": "image377.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Finished End Scribe for Both Ends (Standard #080)"
+        },
+        {
+            "type": "image",
+            "data": "image378.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Finished End Bottom Type (Standard #119)"
+        },
+        {
+            "type": "text",
+            "data": "Choice 1"
+        },
+        {
+            "type": "text",
+            "data": "Here the Finished End will be Notched based on the Toe Kick Height, Recess, and Joinery options."
+        },
+        {
+            "type": "image",
+            "data": "image379.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Choice 2"
+        },
+        {
+            "type": "text",
+            "data": "Here the Finished End will run straight to the Floor."
+        },
+        {
+            "type": "image",
+            "data": "image380.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Applied End - Placement (Standard #104)"
+        },
+        {
+            "type": "image",
+            "data": "image381.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Finished End Machining Face (Standard #579)"
+        },
+        {
+            "type": "image",
+            "data": "image382.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\System_Level\\Ribbonbar\\Main_Tab\\Construction_Group\\Assembly_Manager\\Assembly\\Branches\\Exterior_Case\\AW_Finished_End.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

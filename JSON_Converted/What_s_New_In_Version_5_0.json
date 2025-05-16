@@ -1,0 +1,1366 @@
+{
+    "id": "5ef78267-a3f1-40b4-8fc9-22b5f9b367ed",
+    "title": "What_s_New_In_Version_5_0",
+    "content": [
+        {
+            "type": "text",
+            "data": "What's New in Solid Version 5.0"
+        },
+        {
+            "type": "text",
+            "data": "Click the links below to get more information on these new features. For quick demonstrations of these new features you can visit the  Cabinet Vision Version 5  area of the  Cabinet Vision YouTube Channel ."
+        },
+        {
+            "type": "image",
+            "data": "YouTube.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Assembly Level"
+        },
+        {
+            "type": "text",
+            "data": "Skin End Type Available for End in Section Editor Side Selector"
+        },
+        {
+            "type": "text",
+            "data": "Skin End Type Available for End in Section Editor Side Selector"
+        },
+        {
+            "type": "text",
+            "data": "Skin End Type Available for End in Section Editor Side Selector"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Skin End Type Available for End in Section Editor Side Selector",
+                "uuid": "22a1345b-0606-4cfe-a8a9-aba17f9ca76d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Assembly Wizard"
+        },
+        {
+            "type": "text",
+            "data": "Sub-End Part for Applied Ends/Doors \n \n \n Specify Grain Direction on  Finished Ends  and  Partition \n \n \n Notch Extension Option in Assembly Wizard for the Shoe Section \n \n \n Break-Outs for 45 Tall and 90 Tall Cabinet Types"
+        },
+        {
+            "type": "text",
+            "data": "Sub-End Part for Applied Ends/Doors"
+        },
+        {
+            "type": "text",
+            "data": "Sub-End Part for Applied Ends/Doors"
+        },
+        {
+            "type": "text",
+            "data": "Specify Grain Direction on  Finished Ends  and  Partition"
+        },
+        {
+            "type": "text",
+            "data": "Specify Grain Direction on  Finished Ends  and  Partition"
+        },
+        {
+            "type": "text",
+            "data": "Notch Extension Option in Assembly Wizard for the Shoe Section"
+        },
+        {
+            "type": "text",
+            "data": "Notch Extension Option in Assembly Wizard for the Shoe Section"
+        },
+        {
+            "type": "text",
+            "data": "Break-Outs for 45 Tall and 90 Tall Cabinet Types"
+        },
+        {
+            "type": "text",
+            "data": "Break-Outs for 45 Tall and 90 Tall Cabinet Types"
+        },
+        {
+            "type": "text",
+            "data": "Assembly Sheets"
+        },
+        {
+            "type": "text",
+            "data": "If a Cabinet Does Not Have Multiple Faces Then Stile and Rail Widths Displayed are Physical Size"
+        },
+        {
+            "type": "text",
+            "data": "If a Cabinet Does Not Have Multiple Faces Then Stile and Rail Widths Displayed are Physical Size"
+        },
+        {
+            "type": "text",
+            "data": "If a Cabinet Does Not Have Multiple Faces Then Stile and Rail Widths Displayed are Physical Size"
+        },
+        {
+            "type": "text",
+            "data": "CAD"
+        },
+        {
+            "type": "text",
+            "data": "Dynamic Snapping With Hot-Points and Hot-Point Markers \n \n \n Remember Last Selection for Dimension Edit Direction in CAD \n \n \n Spell Check Utility \n \n \n Empty CAD Autotext Variables are Suppressed in View Mode \n \n \n Select Tool Added to the CAD Right Click Options \n \n \n Connect Tool \n \n \n Fillet Tool \n \n \n Chamfer Tool \n \n \n Offset Tool \n \n \n Separated Trim into three Tools (Trim Delete, Trim Keep, and Trim Break) \n \n \n Break Tool \n \n \n Measure Tool \n \n \n Scale Capability \n \n \n Stretch Capability \n \n \n Extend Capability (Utilizing New Dynamic Snapping) \n \n \n Move By Base Point Functionality"
+        },
+        {
+            "type": "text",
+            "data": "Dynamic Snapping With Hot-Points and Hot-Point Markers"
+        },
+        {
+            "type": "text",
+            "data": "Dynamic Snapping With Hot-Points and Hot-Point Markers"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Dynamic Snapping With Hot-Points and Hot-Point Markers",
+                "uuid": "1b76ea8a-196d-4b8f-a72a-3d6db86a4b5e",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Remember Last Selection for Dimension Edit Direction in CAD"
+        },
+        {
+            "type": "text",
+            "data": "Remember Last Selection for Dimension Edit Direction in CAD"
+        },
+        {
+            "type": "text",
+            "data": "Spell Check Utility"
+        },
+        {
+            "type": "text",
+            "data": "Spell Check Utility"
+        },
+        {
+            "type": "text",
+            "data": "Empty CAD Autotext Variables are Suppressed in View Mode"
+        },
+        {
+            "type": "text",
+            "data": "Empty CAD Autotext Variables are Suppressed in View Mode"
+        },
+        {
+            "type": "text",
+            "data": "Select Tool Added to the CAD Right Click Options"
+        },
+        {
+            "type": "text",
+            "data": "Select Tool Added to the CAD Right Click Options"
+        },
+        {
+            "type": "text",
+            "data": "Connect Tool"
+        },
+        {
+            "type": "text",
+            "data": "Connect Tool"
+        },
+        {
+            "type": "text",
+            "data": "Fillet Tool"
+        },
+        {
+            "type": "text",
+            "data": "Fillet Tool"
+        },
+        {
+            "type": "text",
+            "data": "Chamfer Tool"
+        },
+        {
+            "type": "text",
+            "data": "Chamfer Tool"
+        },
+        {
+            "type": "text",
+            "data": "Offset Tool"
+        },
+        {
+            "type": "text",
+            "data": "Offset Tool"
+        },
+        {
+            "type": "text",
+            "data": "Separated Trim into three Tools (Trim Delete, Trim Keep, and Trim Break)"
+        },
+        {
+            "type": "text",
+            "data": "Separated Trim into three Tools (Trim Delete, Trim Keep, and Trim Break)"
+        },
+        {
+            "type": "text",
+            "data": "Break Tool"
+        },
+        {
+            "type": "text",
+            "data": "Break Tool"
+        },
+        {
+            "type": "text",
+            "data": "Measure Tool"
+        },
+        {
+            "type": "text",
+            "data": "Measure Tool"
+        },
+        {
+            "type": "text",
+            "data": "Scale Capability"
+        },
+        {
+            "type": "text",
+            "data": "Scale Capability"
+        },
+        {
+            "type": "text",
+            "data": "Stretch Capability"
+        },
+        {
+            "type": "text",
+            "data": "Stretch Capability"
+        },
+        {
+            "type": "text",
+            "data": "Extend Capability (Utilizing New Dynamic Snapping)"
+        },
+        {
+            "type": "text",
+            "data": "Extend Capability (Utilizing New Dynamic Snapping)"
+        },
+        {
+            "type": "text",
+            "data": "Move By Base Point Functionality"
+        },
+        {
+            "type": "text",
+            "data": "Move By Base Point Functionality"
+        },
+        {
+            "type": "text",
+            "data": "Catalog Editor"
+        },
+        {
+            "type": "text",
+            "data": "Catalog Level Parameters to Modular Catalogs (Similar to System Parameters) \n \n \n Door Matrix Pricing Capability \n \n \n Mechanism to Protect Catalogs"
+        },
+        {
+            "type": "text",
+            "data": "Catalog Level Parameters to Modular Catalogs (Similar to System Parameters)"
+        },
+        {
+            "type": "text",
+            "data": "Catalog Level Parameters to Modular Catalogs (Similar to System Parameters)"
+        },
+        {
+            "type": "text",
+            "data": "Door Matrix Pricing Capability"
+        },
+        {
+            "type": "text",
+            "data": "Door Matrix Pricing Capability"
+        },
+        {
+            "type": "text",
+            "data": "Mechanism to Protect Catalogs"
+        },
+        {
+            "type": "text",
+            "data": "Mechanism to Protect Catalogs"
+        },
+        {
+            "type": "text",
+            "data": "CNC"
+        },
+        {
+            "type": "text",
+            "data": "Download (via eSupport) Export a PNC File from Solid Ultimate"
+        },
+        {
+            "type": "text",
+            "data": "Download (via eSupport) Export a PNC File from Solid Ultimate"
+        },
+        {
+            "type": "text",
+            "data": "Download (via eSupport) Export a PNC File from Solid Ultimate"
+        },
+        {
+            "type": "text",
+            "data": "Counter Tops"
+        },
+        {
+            "type": "text",
+            "data": "Expanded Build-Up Questions by Edge Type \n \n \n Added Recess Options for Each Build Up Type"
+        },
+        {
+            "type": "text",
+            "data": "Expanded Build-Up Questions by Edge Type"
+        },
+        {
+            "type": "text",
+            "data": "Expanded Build-Up Questions by Edge Type"
+        },
+        {
+            "type": "text",
+            "data": "Added Recess Options for Each Build Up Type"
+        },
+        {
+            "type": "text",
+            "data": "Added Recess Options for Each Build Up Type"
+        },
+        {
+            "type": "text",
+            "data": "Doors"
+        },
+        {
+            "type": "text",
+            "data": "The Name of the Door Catalog in Use is Displayed in the Door Catalog Editor Titlebar"
+        },
+        {
+            "type": "text",
+            "data": "The Name of the Door Catalog in Use is Displayed in the Door Catalog Editor Titlebar"
+        },
+        {
+            "type": "text",
+            "data": "The Name of the Door Catalog in Use is Displayed in the Door Catalog Editor Titlebar"
+        },
+        {
+            "type": "text",
+            "data": "Drawings Area"
+        },
+        {
+            "type": "text",
+            "data": "Delete Multiple Drawing Sheets At Once \n \n \n Double Click Paper to Take it to CAD Mode \n \n \n Create Scene Templates"
+        },
+        {
+            "type": "text",
+            "data": "Delete Multiple Drawing Sheets At Once"
+        },
+        {
+            "type": "text",
+            "data": "Delete Multiple Drawing Sheets At Once"
+        },
+        {
+            "type": "text",
+            "data": "Double Click Paper to Take it to CAD Mode"
+        },
+        {
+            "type": "text",
+            "data": "Double Click Paper to Take it to CAD Mode"
+        },
+        {
+            "type": "text",
+            "data": "Create Scene Templates"
+        },
+        {
+            "type": "text",
+            "data": "Create Scene Templates"
+        },
+        {
+            "type": "text",
+            "data": "General"
+        },
+        {
+            "type": "text",
+            "data": "New Look And Feel (New Product Icon, Splash, and Buttons) \n \n \n New User Interface (Change from Menus and Toolbars to Ribbonbars) \n \n \n Option to Change Style of User Interface \n \n \n Tooltips for Objects in Catalog Sidebar \n \n \n Quick Unit Switch to Statusbar Menu \n \n \n Exposed Grid On/Off Toggle in Statusbar Menu \n \n \n Exposed Reset Snap Marks Option in Statusbar Menu \n \n \n Exposed All Snap Options in Statusbar Menu \n \n \n Combined Warnings, Views, Auto-Fill, Units, & AutoSave Utilities into a Single Preferences Utility \n \n \n Segmented Measure and Snap Marks tool into one Single selection Drop Down option \n \n \n Rooms, Cabinets, Closets, Counter Tops, Molding Property Options now a Single Selection \n \n \n Layer Schedule Selector As a Text Drop Down to Easily See Your Current Layer Selection \n \n \n Added Drawing Sheet Navigation Arrow Options \n \n \n New Drawing Now Separate Option from the Drawing Sheet Selector \n \n \n Added Quick \"Hide All\"/\"Unhide All\" Scenes Toggle Option \n \n \n Shape Editor Tools Moved from Sidebar to Ribbonbar \n \n \n CAD Tools Moved from Sidebar to Ribbonbar \n \n \n Manual Grain Matching Functionality \n \n \n Automated Grain Match Grouping \n \n \n Option to Reverse Scroll Wheel Zooming \n \n \n Disabled Auto-Zoom After Shaping a Part \n \n \n Disabled Auto-Zoom After Changing an Objects Size \n \n \n Remove Multiple Overrides at Override Warning Screen Using Standard Windows Selection \n \n \n System Parameters Now Handled by Update Job Utility \n \n \n Divided the Save Assembly \"Preserve Size\" in Two: \"Preserve Height\" and \"Preserve Depth\" \n \n \n Select Multiple Jobs at Once For Batching \n \n \n Batch Jobs Interface Redesign (Created a new Solid Batch Mode) \n \n \n Selected Objects Parameters Tab Will Show Which UCS is Modifying a Parameter \n \n \n Right Click Drag to Zoom In and Out in 3D Views (If you do not have a Scroll Wheel Mouse) \n \n \n Import Google SketchUp 3D Models (.SKP) \n \n \n Measure/Distance Results Active for Clipboard Copy in Sidebar"
+        },
+        {
+            "type": "text",
+            "data": "New Look And Feel (New Product Icon, Splash, and Buttons)"
+        },
+        {
+            "type": "text",
+            "data": "New Look And Feel (New Product Icon, Splash, and Buttons)"
+        },
+        {
+            "type": "text",
+            "data": "New User Interface (Change from Menus and Toolbars to Ribbonbars)"
+        },
+        {
+            "type": "text",
+            "data": "New User Interface (Change from Menus and Toolbars to Ribbonbars)"
+        },
+        {
+            "type": "text",
+            "data": "Option to Change Style of User Interface"
+        },
+        {
+            "type": "text",
+            "data": "Option to Change Style of User Interface"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Option to Change Style of User Interface",
+                "uuid": "57b3d47f-75a4-49bd-8143-55ece48609f2",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Tooltips for Objects in Catalog Sidebar"
+        },
+        {
+            "type": "text",
+            "data": "Tooltips for Objects in Catalog Sidebar"
+        },
+        {
+            "type": "text",
+            "data": "Quick Unit Switch to Statusbar Menu"
+        },
+        {
+            "type": "text",
+            "data": "Quick Unit Switch to Statusbar Menu"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Quick Unit Switch to Statusbar Menu",
+                "uuid": "57b3d47f-75a4-49bd-8143-55ece48609f2",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Exposed Grid On/Off Toggle in Statusbar Menu"
+        },
+        {
+            "type": "text",
+            "data": "Exposed Grid On/Off Toggle in Statusbar Menu"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Exposed Grid On/Off Toggle in Statusbar Menu",
+                "uuid": "57b3d47f-75a4-49bd-8143-55ece48609f2",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Exposed Reset Snap Marks Option in Statusbar Menu"
+        },
+        {
+            "type": "text",
+            "data": "Exposed Reset Snap Marks Option in Statusbar Menu"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Exposed Reset Snap Marks Option in Statusbar Menu",
+                "uuid": "57b3d47f-75a4-49bd-8143-55ece48609f2",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Exposed All Snap Options in Statusbar Menu"
+        },
+        {
+            "type": "text",
+            "data": "Exposed All Snap Options in Statusbar Menu"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Exposed All Snap Options in Statusbar Menu",
+                "uuid": "57b3d47f-75a4-49bd-8143-55ece48609f2",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Combined Warnings, Views, Auto-Fill, Units, & AutoSave Utilities into a Single Preferences Utility"
+        },
+        {
+            "type": "text",
+            "data": "Combined Warnings, Views, Auto-Fill, Units, & AutoSave Utilities into a Single Preferences Utility"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Combined Warnings, Views, Auto-Fill, Units, & AutoSave Utilities into a Single Preferences Utility",
+                "uuid": "a6c6d306-c8da-4df8-8440-33f2f24a9c1d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Segmented Measure and Snap Marks tool into one Single selection Drop Down option"
+        },
+        {
+            "type": "text",
+            "data": "Segmented Measure and Snap Marks tool into one Single selection Drop Down option"
+        },
+        {
+            "type": "text",
+            "data": "Rooms, Cabinets, Closets, Counter Tops, Molding Property Options now a Single Selection"
+        },
+        {
+            "type": "text",
+            "data": "Rooms, Cabinets, Closets, Counter Tops, Molding Property Options now a Single Selection"
+        },
+        {
+            "type": "text",
+            "data": "Layer Schedule Selector As a Text Drop Down to Easily See Your Current Layer Selection"
+        },
+        {
+            "type": "text",
+            "data": "Layer Schedule Selector As a Text Drop Down to Easily See Your Current Layer Selection"
+        },
+        {
+            "type": "text",
+            "data": "Added Drawing Sheet Navigation Arrow Options"
+        },
+        {
+            "type": "text",
+            "data": "Added Drawing Sheet Navigation Arrow Options"
+        },
+        {
+            "type": "text",
+            "data": "New Drawing Now Separate Option from the Drawing Sheet Selector"
+        },
+        {
+            "type": "text",
+            "data": "New Drawing Now Separate Option from the Drawing Sheet Selector"
+        },
+        {
+            "type": "text",
+            "data": "Added Quick \"Hide All\"/\"Unhide All\" Scenes Toggle Option"
+        },
+        {
+            "type": "text",
+            "data": "Added Quick \"Hide All\"/\"Unhide All\" Scenes Toggle Option"
+        },
+        {
+            "type": "text",
+            "data": "Shape Editor Tools Moved from Sidebar to Ribbonbar"
+        },
+        {
+            "type": "text",
+            "data": "Shape Editor Tools Moved from Sidebar to Ribbonbar"
+        },
+        {
+            "type": "text",
+            "data": "CAD Tools Moved from Sidebar to Ribbonbar"
+        },
+        {
+            "type": "text",
+            "data": "CAD Tools Moved from Sidebar to Ribbonbar"
+        },
+        {
+            "type": "text",
+            "data": "Manual Grain Matching Functionality"
+        },
+        {
+            "type": "text",
+            "data": "Manual Grain Matching Functionality"
+        },
+        {
+            "type": "text",
+            "data": "Automated Grain Match Grouping"
+        },
+        {
+            "type": "text",
+            "data": "Automated Grain Match Grouping"
+        },
+        {
+            "type": "text",
+            "data": "Option to Reverse Scroll Wheel Zooming"
+        },
+        {
+            "type": "text",
+            "data": "Option to Reverse Scroll Wheel Zooming"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Option to Reverse Scroll Wheel Zooming",
+                "uuid": "a6c6d306-c8da-4df8-8440-33f2f24a9c1d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Disabled Auto-Zoom After Shaping a Part"
+        },
+        {
+            "type": "text",
+            "data": "Disabled Auto-Zoom After Shaping a Part"
+        },
+        {
+            "type": "text",
+            "data": "Disabled Auto-Zoom After Changing an Objects Size"
+        },
+        {
+            "type": "text",
+            "data": "Disabled Auto-Zoom After Changing an Objects Size"
+        },
+        {
+            "type": "text",
+            "data": "Remove Multiple Overrides at Override Warning Screen Using Standard Windows Selection"
+        },
+        {
+            "type": "text",
+            "data": "Remove Multiple Overrides at Override Warning Screen Using Standard Windows Selection"
+        },
+        {
+            "type": "text",
+            "data": "System Parameters Now Handled by Update Job Utility"
+        },
+        {
+            "type": "text",
+            "data": "System Parameters Now Handled by Update Job Utility"
+        },
+        {
+            "type": "text",
+            "data": "Divided the Save Assembly \"Preserve Size\" in Two: \"Preserve Height\" and \"Preserve Depth\""
+        },
+        {
+            "type": "text",
+            "data": "Divided the Save Assembly \"Preserve Size\" in Two: \"Preserve Height\" and \"Preserve Depth\""
+        },
+        {
+            "type": "text",
+            "data": "Select Multiple Jobs at Once For Batching"
+        },
+        {
+            "type": "text",
+            "data": "Select Multiple Jobs at Once For Batching"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Select Multiple Jobs at Once For Batching",
+                "uuid": "35caccb2-7ea3-4b54-af55-90bae347a1f4",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Batch Jobs Interface Redesign (Created a new Solid Batch Mode)"
+        },
+        {
+            "type": "text",
+            "data": "Batch Jobs Interface Redesign (Created a new Solid Batch Mode)"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Batch Jobs Interface Redesign (Created a new Solid Batch Mode)",
+                "uuid": "35caccb2-7ea3-4b54-af55-90bae347a1f4",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Selected Objects Parameters Tab Will Show Which UCS is Modifying a Parameter"
+        },
+        {
+            "type": "text",
+            "data": "Selected Objects Parameters Tab Will Show Which UCS is Modifying a Parameter"
+        },
+        {
+            "type": "text",
+            "data": "Right Click Drag to Zoom In and Out in 3D Views (If you do not have a Scroll Wheel Mouse)"
+        },
+        {
+            "type": "text",
+            "data": "Right Click Drag to Zoom In and Out in 3D Views (If you do not have a Scroll Wheel Mouse)"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Right Click Drag to Zoom In and Out in 3D Views (If you do not have a Scroll Wheel Mouse)",
+                "uuid": "6aad7aee-39b5-48df-9e34-4ffc7eb5f963",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Import Google SketchUp 3D Models (.SKP)"
+        },
+        {
+            "type": "text",
+            "data": "Import Google SketchUp 3D Models (.SKP)"
+        },
+        {
+            "type": "text",
+            "data": "Measure/Distance Results Active for Clipboard Copy in Sidebar"
+        },
+        {
+            "type": "text",
+            "data": "Measure/Distance Results Active for Clipboard Copy in Sidebar"
+        },
+        {
+            "type": "text",
+            "data": "Job Properties"
+        },
+        {
+            "type": "text",
+            "data": "Bead Options Not Displayed for Hinges With Negative Insets (Outsets)"
+        },
+        {
+            "type": "text",
+            "data": "Bead Options Not Displayed for Hinges With Negative Insets (Outsets)"
+        },
+        {
+            "type": "text",
+            "data": "Bead Options Not Displayed for Hinges With Negative Insets (Outsets)"
+        },
+        {
+            "type": "text",
+            "data": "Layers"
+        },
+        {
+            "type": "text",
+            "data": "Layers That Can Be Edited Are Now Bold \n \n \n Drawing Scenes For Assemblies With Multiple Faces Filtered to Show Only the Active Face \n \n \n Assembly Sheet Face/Case Views For Multi-Faced Assemblies Show Only the Active Face \n \n \n Layer Editing, Layer Selection, and Dimension Style Editing for the Section Editor"
+        },
+        {
+            "type": "text",
+            "data": "Layers That Can Be Edited Are Now Bold"
+        },
+        {
+            "type": "text",
+            "data": "Layers That Can Be Edited Are Now Bold"
+        },
+        {
+            "type": "text",
+            "data": "Drawing Scenes For Assemblies With Multiple Faces Filtered to Show Only the Active Face"
+        },
+        {
+            "type": "text",
+            "data": "Drawing Scenes For Assemblies With Multiple Faces Filtered to Show Only the Active Face"
+        },
+        {
+            "type": "text",
+            "data": "Assembly Sheet Face/Case Views For Multi-Faced Assemblies Show Only the Active Face"
+        },
+        {
+            "type": "text",
+            "data": "Assembly Sheet Face/Case Views For Multi-Faced Assemblies Show Only the Active Face"
+        },
+        {
+            "type": "text",
+            "data": "Layer Editing, Layer Selection, and Dimension Style Editing for the Section Editor"
+        },
+        {
+            "type": "text",
+            "data": "Layer Editing, Layer Selection, and Dimension Style Editing for the Section Editor"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Layer Editing, Layer Selection, and Dimension Style Editing for the Section Editor",
+                "uuid": "a095688d-3b5c-4aba-8f35-bdc4541dcc7f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Layout (Room) Level"
+        },
+        {
+            "type": "text",
+            "data": "Room Navigation Arrow Options to Room Selector \n \n \n New Room Now a Separate Option from the Room Selector \n \n \n Converted Lock/Unlock Assembly Number Options into a Single Click Toggle \n \n \n Added Toggle for Wall Face/Back to Filter List in Elevation Selector \n \n \n Floors Added to Sidebar which Functions Similar to Counter Tops and Moldings \n \n \n Option to Add Multiple Floors to a Single Room \n \n \n Control the Thickness of Each Floor \n \n \n Control Elevation of Each Floor \n \n \n Select Different Textures for Each Floor \n \n \n Option to Show All Hidden Walls \n \n \n Wall Navigation Arrows Are Now Looped \n \n \n Double Click a Wall in Plan View Takes You to That Wall's Elevation \n \n \n Alt+Double Click on Cabinet in Elevation Does Opposite of Setting \n \n \n Name and Number of Selected Cabinet Show in Sidebar \n \n \n Delete All Counter Tops in a Room \n \n \n Delete All Molding in a Room \n \n \n Delete Multiple Rooms At Once \n \n \n Molding, Counter Tops, and Decorative Objects are Ignored When Laying Out A Room \n \n \n Draw a Wall Attached to the Face of Another (T-Wall/Stub Wall)"
+        },
+        {
+            "type": "text",
+            "data": "Room Navigation Arrow Options to Room Selector"
+        },
+        {
+            "type": "text",
+            "data": "Room Navigation Arrow Options to Room Selector"
+        },
+        {
+            "type": "text",
+            "data": "New Room Now a Separate Option from the Room Selector"
+        },
+        {
+            "type": "text",
+            "data": "New Room Now a Separate Option from the Room Selector"
+        },
+        {
+            "type": "text",
+            "data": "Converted Lock/Unlock Assembly Number Options into a Single Click Toggle"
+        },
+        {
+            "type": "text",
+            "data": "Converted Lock/Unlock Assembly Number Options into a Single Click Toggle"
+        },
+        {
+            "type": "text",
+            "data": "Added Toggle for Wall Face/Back to Filter List in Elevation Selector"
+        },
+        {
+            "type": "text",
+            "data": "Added Toggle for Wall Face/Back to Filter List in Elevation Selector"
+        },
+        {
+            "type": "text",
+            "data": "Floors Added to Sidebar which Functions Similar to Counter Tops and Moldings"
+        },
+        {
+            "type": "text",
+            "data": "Floors Added to Sidebar which Functions Similar to Counter Tops and Moldings"
+        },
+        {
+            "type": "text",
+            "data": "Option to Add Multiple Floors to a Single Room"
+        },
+        {
+            "type": "text",
+            "data": "Option to Add Multiple Floors to a Single Room"
+        },
+        {
+            "type": "text",
+            "data": "Control the Thickness of Each Floor"
+        },
+        {
+            "type": "text",
+            "data": "Control the Thickness of Each Floor"
+        },
+        {
+            "type": "text",
+            "data": "Control Elevation of Each Floor"
+        },
+        {
+            "type": "text",
+            "data": "Control Elevation of Each Floor"
+        },
+        {
+            "type": "text",
+            "data": "Select Different Textures for Each Floor"
+        },
+        {
+            "type": "text",
+            "data": "Select Different Textures for Each Floor"
+        },
+        {
+            "type": "text",
+            "data": "Option to Show All Hidden Walls"
+        },
+        {
+            "type": "text",
+            "data": "Option to Show All Hidden Walls"
+        },
+        {
+            "type": "text",
+            "data": "Wall Navigation Arrows Are Now Looped"
+        },
+        {
+            "type": "text",
+            "data": "Wall Navigation Arrows Are Now Looped"
+        },
+        {
+            "type": "text",
+            "data": "Double Click a Wall in Plan View Takes You to That Wall's Elevation"
+        },
+        {
+            "type": "text",
+            "data": "Double Click a Wall in Plan View Takes You to That Wall's Elevation"
+        },
+        {
+            "type": "text",
+            "data": "Alt+Double Click on Cabinet in Elevation Does Opposite of Setting"
+        },
+        {
+            "type": "text",
+            "data": "Alt+Double Click on Cabinet in Elevation Does Opposite of Setting"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Alt+Double Click on Cabinet in Elevation Does Opposite of Setting",
+                "uuid": "a6c6d306-c8da-4df8-8440-33f2f24a9c1d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Name and Number of Selected Cabinet Show in Sidebar"
+        },
+        {
+            "type": "text",
+            "data": "Name and Number of Selected Cabinet Show in Sidebar"
+        },
+        {
+            "type": "text",
+            "data": "Delete All Counter Tops in a Room"
+        },
+        {
+            "type": "text",
+            "data": "Delete All Counter Tops in a Room"
+        },
+        {
+            "type": "text",
+            "data": "Delete All Molding in a Room"
+        },
+        {
+            "type": "text",
+            "data": "Delete All Molding in a Room"
+        },
+        {
+            "type": "text",
+            "data": "Delete Multiple Rooms At Once"
+        },
+        {
+            "type": "text",
+            "data": "Delete Multiple Rooms At Once"
+        },
+        {
+            "type": "text",
+            "data": "Molding, Counter Tops, and Decorative Objects are Ignored When Laying Out A Room"
+        },
+        {
+            "type": "text",
+            "data": "Molding, Counter Tops, and Decorative Objects are Ignored When Laying Out A Room"
+        },
+        {
+            "type": "text",
+            "data": "Draw a Wall Attached to the Face of Another (T-Wall/Stub Wall)"
+        },
+        {
+            "type": "text",
+            "data": "Draw a Wall Attached to the Face of Another (T-Wall/Stub Wall)"
+        },
+        {
+            "type": "text",
+            "data": "Materials"
+        },
+        {
+            "type": "text",
+            "data": "Estimate Option for Materials (Specifies Whether the Material Should be Sent to the Bid Center) \n \n \n Markup % By Material \n \n \n Sell Price Option for Materials \n \n \n Buy-Out Option for Drawer Box Material Schedules \n \n \n Buy-Out Option for Roll Out Material Schedules \n \n \n Email Address for Vendors \n \n \n Extended Character Limit for Material Schedules from 15 to 30"
+        },
+        {
+            "type": "text",
+            "data": "Estimate Option for Materials (Specifies Whether the Material Should be Sent to the Bid Center)"
+        },
+        {
+            "type": "text",
+            "data": "Estimate Option for Materials (Specifies Whether the Material Should be Sent to the Bid Center)"
+        },
+        {
+            "type": "text",
+            "data": "Markup % By Material"
+        },
+        {
+            "type": "text",
+            "data": "Markup % By Material"
+        },
+        {
+            "type": "text",
+            "data": "Sell Price Option for Materials"
+        },
+        {
+            "type": "text",
+            "data": "Sell Price Option for Materials"
+        },
+        {
+            "type": "text",
+            "data": "Buy-Out Option for Drawer Box Material Schedules"
+        },
+        {
+            "type": "text",
+            "data": "Buy-Out Option for Drawer Box Material Schedules"
+        },
+        {
+            "type": "text",
+            "data": "Buy-Out Option for Roll Out Material Schedules"
+        },
+        {
+            "type": "text",
+            "data": "Buy-Out Option for Roll Out Material Schedules"
+        },
+        {
+            "type": "text",
+            "data": "Email Address for Vendors"
+        },
+        {
+            "type": "text",
+            "data": "Email Address for Vendors"
+        },
+        {
+            "type": "text",
+            "data": "Extended Character Limit for Material Schedules from 15 to 30"
+        },
+        {
+            "type": "text",
+            "data": "Extended Character Limit for Material Schedules from 15 to 30"
+        },
+        {
+            "type": "text",
+            "data": "Parts"
+        },
+        {
+            "type": "text",
+            "data": "Edit Shape and Edge Band Options Available in Part Level Right Click Menu"
+        },
+        {
+            "type": "text",
+            "data": "Edit Shape and Edge Band Options Available in Part Level Right Click Menu"
+        },
+        {
+            "type": "text",
+            "data": "Edit Shape and Edge Band Options Available in Part Level Right Click Menu"
+        },
+        {
+            "type": "text",
+            "data": "Photovision/Rendering"
+        },
+        {
+            "type": "text",
+            "data": "Added Twelve Sketch Modes: \n \n \n \n \n Cartoon \n \n \n Color Wash \n \n \n Contour \n \n \n Hand Drawn \n \n \n Ink Print \n \n \n Lines and Shadow \n \n \n Mosaic \n \n \n Oil Painting \n \n \n Rough Pencil \n \n \n Soft Pencil \n \n \n Stipple \n \n \n \n \n Preview Option for all PhotoVision Render Modes \n \n \n Options to Change Quicktime Panorama Settings \n \n \n Lights Area Redesigned to Allow More Control Over Light Height and Direction"
+        },
+        {
+            "type": "text",
+            "data": "Added Twelve Sketch Modes:"
+        },
+        {
+            "type": "text",
+            "data": "Added Twelve Sketch Modes:"
+        },
+        {
+            "type": "text",
+            "data": "Cartoon \n \n \n Color Wash \n \n \n Contour \n \n \n Hand Drawn \n \n \n Ink Print \n \n \n Lines and Shadow \n \n \n Mosaic \n \n \n Oil Painting \n \n \n Rough Pencil \n \n \n Soft Pencil \n \n \n Stipple"
+        },
+        {
+            "type": "text",
+            "data": "Cartoon \n \n \n Color Wash \n \n \n Contour \n \n \n Hand Drawn \n \n \n Ink Print \n \n \n Lines and Shadow \n \n \n Mosaic \n \n \n Oil Painting \n \n \n Rough Pencil \n \n \n Soft Pencil \n \n \n Stipple"
+        },
+        {
+            "type": "text",
+            "data": "Cartoon"
+        },
+        {
+            "type": "text",
+            "data": "Cartoon"
+        },
+        {
+            "type": "text",
+            "data": "Color Wash"
+        },
+        {
+            "type": "text",
+            "data": "Color Wash"
+        },
+        {
+            "type": "text",
+            "data": "Contour"
+        },
+        {
+            "type": "text",
+            "data": "Contour"
+        },
+        {
+            "type": "text",
+            "data": "Hand Drawn"
+        },
+        {
+            "type": "text",
+            "data": "Hand Drawn"
+        },
+        {
+            "type": "text",
+            "data": "Ink Print"
+        },
+        {
+            "type": "text",
+            "data": "Ink Print"
+        },
+        {
+            "type": "text",
+            "data": "Lines and Shadow"
+        },
+        {
+            "type": "text",
+            "data": "Lines and Shadow"
+        },
+        {
+            "type": "text",
+            "data": "Mosaic"
+        },
+        {
+            "type": "text",
+            "data": "Mosaic"
+        },
+        {
+            "type": "text",
+            "data": "Oil Painting"
+        },
+        {
+            "type": "text",
+            "data": "Oil Painting"
+        },
+        {
+            "type": "text",
+            "data": "Rough Pencil"
+        },
+        {
+            "type": "text",
+            "data": "Rough Pencil"
+        },
+        {
+            "type": "text",
+            "data": "Soft Pencil"
+        },
+        {
+            "type": "text",
+            "data": "Soft Pencil"
+        },
+        {
+            "type": "text",
+            "data": "Stipple"
+        },
+        {
+            "type": "text",
+            "data": "Stipple"
+        },
+        {
+            "type": "text",
+            "data": "Preview Option for all PhotoVision Render Modes"
+        },
+        {
+            "type": "text",
+            "data": "Preview Option for all PhotoVision Render Modes"
+        },
+        {
+            "type": "text",
+            "data": "Options to Change Quicktime Panorama Settings"
+        },
+        {
+            "type": "text",
+            "data": "Options to Change Quicktime Panorama Settings"
+        },
+        {
+            "type": "text",
+            "data": "Lights Area Redesigned to Allow More Control Over Light Height and Direction"
+        },
+        {
+            "type": "text",
+            "data": "Lights Area Redesigned to Allow More Control Over Light Height and Direction"
+        },
+        {
+            "type": "text",
+            "data": "Profile Catalog"
+        },
+        {
+            "type": "text",
+            "data": "Widened the Profile Selection Column \n \n \n Define Stacked Profile Sets"
+        },
+        {
+            "type": "text",
+            "data": "Widened the Profile Selection Column"
+        },
+        {
+            "type": "text",
+            "data": "Widened the Profile Selection Column"
+        },
+        {
+            "type": "text",
+            "data": "Define Stacked Profile Sets"
+        },
+        {
+            "type": "text",
+            "data": "Define Stacked Profile Sets"
+        },
+        {
+            "type": "text",
+            "data": "Reports"
+        },
+        {
+            "type": "text",
+            "data": "All Standard Reports Redesigned \n \n \n Expanded User Customization of Standard Reports \n \n \n Added the following default finishes to the Rooms table in Report.mdb: \n \n \n \n \n ExtAsmFin \n \n \n IntAsmFin \n \n \n TopSurfaceFin \n \n \n SplashFin \n \n \n CrownFin \n \n \n LightRailFin \n \n \n BaseBoardFin \n \n \n ChairRailFin \n \n \n CeilingFin \n \n \n EDoorFin \n \n \n WindowFin"
+        },
+        {
+            "type": "text",
+            "data": "All Standard Reports Redesigned"
+        },
+        {
+            "type": "text",
+            "data": "All Standard Reports Redesigned"
+        },
+        {
+            "type": "text",
+            "data": "Expanded User Customization of Standard Reports"
+        },
+        {
+            "type": "text",
+            "data": "Expanded User Customization of Standard Reports"
+        },
+        {
+            "type": "text",
+            "data": "Added the following default finishes to the Rooms table in Report.mdb:"
+        },
+        {
+            "type": "text",
+            "data": "Added the following default finishes to the Rooms table in Report.mdb:"
+        },
+        {
+            "type": "text",
+            "data": "ExtAsmFin \n \n \n IntAsmFin \n \n \n TopSurfaceFin \n \n \n SplashFin \n \n \n CrownFin \n \n \n LightRailFin \n \n \n BaseBoardFin \n \n \n ChairRailFin \n \n \n CeilingFin \n \n \n EDoorFin \n \n \n WindowFin"
+        },
+        {
+            "type": "text",
+            "data": "ExtAsmFin \n \n \n IntAsmFin \n \n \n TopSurfaceFin \n \n \n SplashFin \n \n \n CrownFin \n \n \n LightRailFin \n \n \n BaseBoardFin \n \n \n ChairRailFin \n \n \n CeilingFin \n \n \n EDoorFin \n \n \n WindowFin"
+        },
+        {
+            "type": "text",
+            "data": "ExtAsmFin"
+        },
+        {
+            "type": "text",
+            "data": "ExtAsmFin"
+        },
+        {
+            "type": "text",
+            "data": "IntAsmFin"
+        },
+        {
+            "type": "text",
+            "data": "IntAsmFin"
+        },
+        {
+            "type": "text",
+            "data": "TopSurfaceFin"
+        },
+        {
+            "type": "text",
+            "data": "TopSurfaceFin"
+        },
+        {
+            "type": "text",
+            "data": "SplashFin"
+        },
+        {
+            "type": "text",
+            "data": "SplashFin"
+        },
+        {
+            "type": "text",
+            "data": "CrownFin"
+        },
+        {
+            "type": "text",
+            "data": "CrownFin"
+        },
+        {
+            "type": "text",
+            "data": "LightRailFin"
+        },
+        {
+            "type": "text",
+            "data": "LightRailFin"
+        },
+        {
+            "type": "text",
+            "data": "BaseBoardFin"
+        },
+        {
+            "type": "text",
+            "data": "BaseBoardFin"
+        },
+        {
+            "type": "text",
+            "data": "ChairRailFin"
+        },
+        {
+            "type": "text",
+            "data": "ChairRailFin"
+        },
+        {
+            "type": "text",
+            "data": "CeilingFin"
+        },
+        {
+            "type": "text",
+            "data": "CeilingFin"
+        },
+        {
+            "type": "text",
+            "data": "EDoorFin"
+        },
+        {
+            "type": "text",
+            "data": "EDoorFin"
+        },
+        {
+            "type": "text",
+            "data": "WindowFin"
+        },
+        {
+            "type": "text",
+            "data": "WindowFin"
+        },
+        {
+            "type": "text",
+            "data": "User Created Standards"
+        },
+        {
+            "type": "text",
+            "data": "Significant Improvements in UCS Processing Speed \n \n \n While Do...End While Statements \n \n \n If...Then...Else Statements \n \n \n Exit Statement \n \n \n Right Click Edit Option for UCS's \n \n \n Build Strings of Text From Parameter Values and CAD AutoText Values \n \n \n _BEADDZ - Returns Bead Profile Width"
+        },
+        {
+            "type": "text",
+            "data": "Significant Improvements in UCS Processing Speed"
+        },
+        {
+            "type": "text",
+            "data": "Significant Improvements in UCS Processing Speed"
+        },
+        {
+            "type": "text",
+            "data": "While Do...End While Statements"
+        },
+        {
+            "type": "text",
+            "data": "While Do...End While Statements"
+        },
+        {
+            "type": "text",
+            "data": "If...Then...Else Statements"
+        },
+        {
+            "type": "text",
+            "data": "If...Then...Else Statements"
+        },
+        {
+            "type": "text",
+            "data": "Exit Statement"
+        },
+        {
+            "type": "text",
+            "data": "Exit Statement"
+        },
+        {
+            "type": "text",
+            "data": "Right Click Edit Option for UCS's"
+        },
+        {
+            "type": "text",
+            "data": "Right Click Edit Option for UCS's"
+        },
+        {
+            "type": "text",
+            "data": "Build Strings of Text From Parameter Values and CAD AutoText Values"
+        },
+        {
+            "type": "text",
+            "data": "Build Strings of Text From Parameter Values and CAD AutoText Values"
+        },
+        {
+            "type": "text",
+            "data": "_BEADDZ - Returns Bead Profile Width"
+        },
+        {
+            "type": "text",
+            "data": "_BEADDZ - Returns Bead Profile Width"
+        }
+    ],
+    "source_file": "CVEnglish\\Introduction\\Whats_New_Previous_Versions\\What_s_New_In_Version_5_0.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

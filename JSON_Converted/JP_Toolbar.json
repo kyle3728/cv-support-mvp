@@ -1,0 +1,67 @@
+{
+    "id": "a1ace21a-5ce7-40b6-af4b-8e205fb9a8d4",
+    "title": "JP_Toolbar",
+    "content": [
+        {
+            "type": "text",
+            "data": "Job Properties Toolbar"
+        },
+        {
+            "type": "text",
+            "data": "There are four options in the Job Properties toolbar:"
+        },
+        {
+            "type": "image",
+            "data": "image2379.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Save Job Property Template -  Allows you to save all of the current selections within Job Properties for easy recall for future Jobs."
+        },
+        {
+            "type": "image",
+            "data": "image2380.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Job Property Template files are stored as .CFG files in the Database folder. For Network Users the .CFG files are stored in the \\Cabinet Vision\\Users\\Username folder on the Server."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Select Job Property Template -  Allows you to select the Job Property Template to use for the Job."
+        },
+        {
+            "type": "image",
+            "data": "image2381.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Rename Job Property Template -  Allows you to Rename the current Job Property Template."
+        },
+        {
+            "type": "image",
+            "data": "image2382.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Delete Job Property Template -  Allows you to delete the currently selected Job Property Template."
+        },
+        {
+            "type": "image",
+            "data": "image2383.gif",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\JP_Toolbar.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

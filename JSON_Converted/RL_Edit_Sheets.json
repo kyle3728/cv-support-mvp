@@ -1,0 +1,183 @@
+{
+    "id": "80f31b25-c2fa-45f9-bdac-203e2ce17709",
+    "title": "RL_Edit_Sheets",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top \n > \n \n \n Room Level \n > \n \n Ribbonbar \n > \n \n Main Tab \n > \n \n View Group \n > \n \n Edit Sheets"
+        },
+        {
+            "type": "text",
+            "data": "Top \n >"
+        },
+        {
+            "type": "text",
+            "data": "Room Level \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Room Level",
+                "uuid": "9eaa492c-0405-4da7-8e0f-a6ff4e047890",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Ribbonbar \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Ribbonbar",
+                "uuid": "a095688d-3b5c-4aba-8f35-bdc4541dcc7f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Main Tab \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Main Tab",
+                "uuid": "a095688d-3b5c-4aba-8f35-bdc4541dcc7f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "View Group \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "View Group",
+                "uuid": "9780083a-59ba-4e4d-a3f2-4e4fccf798d3",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Edit Sheets"
+        },
+        {
+            "type": "text",
+            "data": "Edit Sheets"
+        },
+        {
+            "type": "text",
+            "data": "Edit Sheets"
+        },
+        {
+            "type": "image",
+            "data": "image1872.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option allows you to manage and organize your Drawing Sheets in the Drawings   area."
+        },
+        {
+            "type": "image",
+            "data": "image74.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image833.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There are seven options available in the Drawing Sheets area:"
+        },
+        {
+            "type": "text",
+            "data": "Open -  Opens the Selected Drawing Sheet. \n \n \n New -  Creates a New Drawing Sheet. \n \n \n Rename -  Allows you to Rename the selected Drawing Sheet. \n \n \n Remove -  Removes the selected Drawing Sheet."
+        },
+        {
+            "type": "text",
+            "data": "Open -  Opens the Selected Drawing Sheet."
+        },
+        {
+            "type": "text",
+            "data": "Open -  Opens the Selected Drawing Sheet."
+        },
+        {
+            "type": "text",
+            "data": "New -  Creates a New Drawing Sheet."
+        },
+        {
+            "type": "text",
+            "data": "New -  Creates a New Drawing Sheet."
+        },
+        {
+            "type": "text",
+            "data": "Rename -  Allows you to Rename the selected Drawing Sheet."
+        },
+        {
+            "type": "text",
+            "data": "Rename -  Allows you to Rename the selected Drawing Sheet."
+        },
+        {
+            "type": "text",
+            "data": "Remove -  Removes the selected Drawing Sheet."
+        },
+        {
+            "type": "text",
+            "data": "Remove -  Removes the selected Drawing Sheet."
+        },
+        {
+            "type": "text",
+            "data": "You can also use standard Windows  + Click and/or   + Click selection here to Delete Multiple Drawing Sheets at once."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "ctrl_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "shift_key.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Move Up -  Moves the selected Sheet up in the Sheet Order. \n \n \n Move Down -  Moves the selected Sheet down in the Sheet Order. \n \n \n Close -  Closes the Drawing Sheets Editor."
+        },
+        {
+            "type": "text",
+            "data": "Move Up -  Moves the selected Sheet up in the Sheet Order."
+        },
+        {
+            "type": "text",
+            "data": "Move Up -  Moves the selected Sheet up in the Sheet Order."
+        },
+        {
+            "type": "text",
+            "data": "Move Down -  Moves the selected Sheet down in the Sheet Order."
+        },
+        {
+            "type": "text",
+            "data": "Move Down -  Moves the selected Sheet down in the Sheet Order."
+        },
+        {
+            "type": "text",
+            "data": "Close -  Closes the Drawing Sheets Editor."
+        },
+        {
+            "type": "text",
+            "data": "Close -  Closes the Drawing Sheets Editor."
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Room_Level\\Ribbonbar\\Main_Tab\\View_Group\\RL_Edit_Sheets.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

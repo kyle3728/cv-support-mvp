@@ -1,0 +1,177 @@
+{
+    "id": "5f65354d-b419-4033-8ad0-837ffa76d81d",
+    "title": "AW_Top",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top"
+        },
+        {
+            "type": "text",
+            "data": "This is the top of the Cabinet carcass, not to be confused with the Counter Top. The Top of a Cabinet may be a full Top, Stretchers, a Web Frame, or Gussets (corner blocks). You may also choose to build some Cabinets with no Tops."
+        },
+        {
+            "type": "image",
+            "data": "image429.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The following diagram\u00a0show the options available in the Top Branch. Click a specific option in the diagram for more information or continue through this topic for information on all the options."
+        },
+        {
+            "type": "image",
+            "data": "image1363.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Top Banding Definition (Standard #672)"
+        },
+        {
+            "type": "image",
+            "data": "image430.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Top Stretcher (Front) Banding Definition (Standard #673)"
+        },
+        {
+            "type": "image",
+            "data": "image431.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Top Stretcher (Back) Banding Definition (Standard #684)"
+        },
+        {
+            "type": "image",
+            "data": "image432.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Web Frame Banding Definition (Standard #674)"
+        },
+        {
+            "type": "image",
+            "data": "image433.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Top Type (Standard #124)"
+        },
+        {
+            "type": "image",
+            "data": "image434.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Top Finished Side Orientation (Standard #125)"
+        },
+        {
+            "type": "text",
+            "data": "In the Construction Method, you have the ability to determine the Material face orientation if you are using  2 sided Materials  for the Top of a Cabinet. You can select whether the \"good side\" faces in or out (up or down on the Top). Remember to add break outs if needed for the different Classes of Assemblies."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "2 sided Materials",
+                "uuid": "6fa50f67-fbf8-4e66-9990-50a8dc9482a8",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image435.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Top Grain Alignment (Standard #126)"
+        },
+        {
+            "type": "text",
+            "data": "For Tops in a Corner sub-branch, you have the ability to specify Grain Alignment for Tops on 45 Corner Cabinets just like with Shelves."
+        },
+        {
+            "type": "image",
+            "data": "image436.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Web Frame Width (Standard #148)"
+        },
+        {
+            "type": "image",
+            "data": "image439.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Gusset Size (Standard #149)"
+        },
+        {
+            "type": "text",
+            "data": "An alternative Top type that is available is the option for Gussets. These are triangular corner blocks usually used for Base Cabinets that add rigidity with less Material usage."
+        },
+        {
+            "type": "image",
+            "data": "image440.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Front Top Stretcher Width (Standard #146)"
+        },
+        {
+            "type": "image",
+            "data": "image441.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Back Top Stretcher Width (Standard #147)"
+        },
+        {
+            "type": "image",
+            "data": "image442.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Top Placement To Top Rail (Standard #152)"
+        },
+        {
+            "type": "image",
+            "data": "image444.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Top Placement To Case (Standard #585)"
+        },
+        {
+            "type": "image",
+            "data": "image443.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Top Machining Face (Standard #573)"
+        },
+        {
+            "type": "image",
+            "data": "image438.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\System_Level\\Ribbonbar\\Main_Tab\\Construction_Group\\Assembly_Manager\\Assembly\\Branches\\Exterior_Case\\AW_Top.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

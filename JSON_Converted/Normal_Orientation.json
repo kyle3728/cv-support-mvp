@@ -1,0 +1,48 @@
+{
+    "id": "3cb8e90e-a19e-44f6-87c3-1c457fde488a",
+    "title": "Normal_Orientation",
+    "content": [
+        {
+            "type": "text",
+            "data": "Normal Orientation"
+        },
+        {
+            "type": "text",
+            "data": "Part in Normal Orientation"
+        },
+        {
+            "type": "text",
+            "data": "The following graphic shows a Part in what is called \"Normal Orientation\" (front orientation). All Parts added to an Assembly, by CABINET VISION, will come into the Assembly in \"Normal Orientation\" (front orientation). The length of the Part will be running up and down. The width of the Part will be running left and right. The thickness of the Part will be running from back to front. The front (or face) of the Part will be facing you and the top of the Part will be at the top. The \"Reference Point\" for a Part in normal orientation is the left, bottom, and back corner of the Part. A rail, a stile, a left end, a right end, a door, a drawer box bottom, all Parts are built by CABINET VISION, starting with the same orientation and then are moved and rotated into place."
+        },
+        {
+            "type": "text",
+            "data": "The reference point will always be on the backside of whatever Material a Part is made from. The reference point will never be on the face side of the Material a Part is made from. This will make more sense later."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "ebd_Ebd3.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The following diagram is an example of a rail and how the orientation and position differs from normal orientation and position once it is placed in an Assembly."
+        },
+        {
+            "type": "image",
+            "data": "ebd_Ebd4.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Notice how the X (left and right) and the Y (up and down) and the Z (front to back) are different; reflecting the rails new position in the Assembly. Also notice that the Part has been rotated 90 degrees on the AZ to lie down flat clockwise."
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\Parametric_Editing\\Intelligence_Workshop\\The_Basics\\Normal_Orientation.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

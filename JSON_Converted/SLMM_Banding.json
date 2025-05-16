@@ -1,0 +1,385 @@
+{
+    "id": "6fa50f67-fbf8-4e66-9990-50a8dc9482a8",
+    "title": "SLMM_Banding",
+    "content": [
+        {
+            "type": "text",
+            "data": "Banding"
+        },
+        {
+            "type": "text",
+            "data": "This topic covers all the Properties for the Banding Material Type."
+        },
+        {
+            "type": "image",
+            "data": "Banding_Material_Props.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Material Group"
+        },
+        {
+            "type": "text",
+            "data": "ID -  Returns internal ID number for the selected Material. Not available for editing. \n \n \n Name -  The name of the Material, this name can be anything as long as it helps you to identify the Material correctly."
+        },
+        {
+            "type": "text",
+            "data": "ID -  Returns internal ID number for the selected Material. Not available for editing."
+        },
+        {
+            "type": "text",
+            "data": "ID -  Returns internal ID number for the selected Material. Not available for editing."
+        },
+        {
+            "type": "text",
+            "data": "Name -  The name of the Material, this name can be anything as long as it helps you to identify the Material correctly."
+        },
+        {
+            "type": "text",
+            "data": "Name -  The name of the Material, this name can be anything as long as it helps you to identify the Material correctly."
+        },
+        {
+            "type": "text",
+            "data": "Do not use \" marks in the Name of the Material as it causes errors in the optimization of a Job. For example,  1/2\" Melamine  would  not  be an appropriate name for a Material; use  1/2in Melamine  to be safe."
+        },
+        {
+            "type": "image",
+            "data": "Warning.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Description -  The Description of the Material. \n \n \n Type -  Returns the Material Type for the selected Material.\u00a0Not available for editing. \n \n \n Unit of Issue -  Allows you to set the Unit in which you buy the Material. There are nine options here: \n \n \n \n \n BD FT - Per Board Foot \n \n \n BD M - Per Board Meter \n \n \n Cubic FT - Per Cubic Foot \n \n \n Cubic M - Per Cubic Meter \n \n \n Each - Per Each \n \n \n Pair - Per Pair (Useful for Drawer Guides or other Hardware sold in Pairs) \n \n \n Per FT - Per Foot \n \n \n Per M - Per Meter \n \n \n Sheet - Per Sheet \n \n \n SQ FT - Per Square Foot \n \n \n SQ M - Per Square Meter \n \n \n \n \n Default Cost -  Allows you to set the Cost you pay for the selected Material. \n \n \n Default Markup -  Allows you to set the Markup percent you charge your Customer for the selected Material. The Cost Markup entered here would most often be used to cover transportation costs or overhead associated with the Materials themselves. You will have the opportunity to enter additional Markups in the  Bid Center  as well.\u00a0If the Default Markup comes from an assigned Vendor this field will be disabled. \n \n \n Sales Tax -  Allows you to set whether you pay Tax on the selected Material.\u00a0If the Sales Tax comes from an assigned Vendor this field will be disabled. \n \n \n Default Tax Rate -  Allows you to set the Tax percent you pay for the selected Material. The Sales Tax Rate entered here is what  you  pay when you purchase your Materials. The Sales Tax (if any) that you charge your Customer is entered in the  Bid Center . \n \n \n Waste -  Allows you to set the Waste percent for the selected Material. \n \n \n Estimate -  Allows you to control whether the selected Material is sent to the Bid Center and calculated with the % of Material Cost Bid Method."
+        },
+        {
+            "type": "text",
+            "data": "Description -  The Description of the Material."
+        },
+        {
+            "type": "text",
+            "data": "Description -  The Description of the Material."
+        },
+        {
+            "type": "text",
+            "data": "Type -  Returns the Material Type for the selected Material.\u00a0Not available for editing."
+        },
+        {
+            "type": "text",
+            "data": "Type -  Returns the Material Type for the selected Material.\u00a0Not available for editing."
+        },
+        {
+            "type": "text",
+            "data": "Unit of Issue -  Allows you to set the Unit in which you buy the Material. There are nine options here:"
+        },
+        {
+            "type": "text",
+            "data": "Unit of Issue -  Allows you to set the Unit in which you buy the Material. There are nine options here:"
+        },
+        {
+            "type": "text",
+            "data": "BD FT - Per Board Foot \n \n \n BD M - Per Board Meter \n \n \n Cubic FT - Per Cubic Foot \n \n \n Cubic M - Per Cubic Meter \n \n \n Each - Per Each \n \n \n Pair - Per Pair (Useful for Drawer Guides or other Hardware sold in Pairs) \n \n \n Per FT - Per Foot \n \n \n Per M - Per Meter \n \n \n Sheet - Per Sheet \n \n \n SQ FT - Per Square Foot \n \n \n SQ M - Per Square Meter"
+        },
+        {
+            "type": "text",
+            "data": "BD FT - Per Board Foot \n \n \n BD M - Per Board Meter \n \n \n Cubic FT - Per Cubic Foot \n \n \n Cubic M - Per Cubic Meter \n \n \n Each - Per Each \n \n \n Pair - Per Pair (Useful for Drawer Guides or other Hardware sold in Pairs) \n \n \n Per FT - Per Foot \n \n \n Per M - Per Meter \n \n \n Sheet - Per Sheet \n \n \n SQ FT - Per Square Foot \n \n \n SQ M - Per Square Meter"
+        },
+        {
+            "type": "text",
+            "data": "BD FT - Per Board Foot"
+        },
+        {
+            "type": "text",
+            "data": "BD FT - Per Board Foot"
+        },
+        {
+            "type": "text",
+            "data": "BD M - Per Board Meter"
+        },
+        {
+            "type": "text",
+            "data": "BD M - Per Board Meter"
+        },
+        {
+            "type": "text",
+            "data": "Cubic FT - Per Cubic Foot"
+        },
+        {
+            "type": "text",
+            "data": "Cubic FT - Per Cubic Foot"
+        },
+        {
+            "type": "text",
+            "data": "Cubic M - Per Cubic Meter"
+        },
+        {
+            "type": "text",
+            "data": "Cubic M - Per Cubic Meter"
+        },
+        {
+            "type": "text",
+            "data": "Each - Per Each"
+        },
+        {
+            "type": "text",
+            "data": "Each - Per Each"
+        },
+        {
+            "type": "text",
+            "data": "Pair - Per Pair (Useful for Drawer Guides or other Hardware sold in Pairs)"
+        },
+        {
+            "type": "text",
+            "data": "Pair - Per Pair (Useful for Drawer Guides or other Hardware sold in Pairs)"
+        },
+        {
+            "type": "text",
+            "data": "Per FT - Per Foot"
+        },
+        {
+            "type": "text",
+            "data": "Per FT - Per Foot"
+        },
+        {
+            "type": "text",
+            "data": "Per M - Per Meter"
+        },
+        {
+            "type": "text",
+            "data": "Per M - Per Meter"
+        },
+        {
+            "type": "text",
+            "data": "Sheet - Per Sheet"
+        },
+        {
+            "type": "text",
+            "data": "Sheet - Per Sheet"
+        },
+        {
+            "type": "text",
+            "data": "SQ FT - Per Square Foot"
+        },
+        {
+            "type": "text",
+            "data": "SQ FT - Per Square Foot"
+        },
+        {
+            "type": "text",
+            "data": "SQ M - Per Square Meter"
+        },
+        {
+            "type": "text",
+            "data": "SQ M - Per Square Meter"
+        },
+        {
+            "type": "text",
+            "data": "Default Cost -  Allows you to set the Cost you pay for the selected Material."
+        },
+        {
+            "type": "text",
+            "data": "Default Cost -  Allows you to set the Cost you pay for the selected Material."
+        },
+        {
+            "type": "text",
+            "data": "Default Markup -  Allows you to set the Markup percent you charge your Customer for the selected Material. The Cost Markup entered here would most often be used to cover transportation costs or overhead associated with the Materials themselves. You will have the opportunity to enter additional Markups in the  Bid Center  as well.\u00a0If the Default Markup comes from an assigned Vendor this field will be disabled."
+        },
+        {
+            "type": "text",
+            "data": "Default Markup -  Allows you to set the Markup percent you charge your Customer for the selected Material. The Cost Markup entered here would most often be used to cover transportation costs or overhead associated with the Materials themselves. You will have the opportunity to enter additional Markups in the  Bid Center  as well.\u00a0If the Default Markup comes from an assigned Vendor this field will be disabled."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Bid Center",
+                "uuid": "283fd745-4947-42af-bc55-1724acf2fc4b",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Sales Tax -  Allows you to set whether you pay Tax on the selected Material.\u00a0If the Sales Tax comes from an assigned Vendor this field will be disabled."
+        },
+        {
+            "type": "text",
+            "data": "Sales Tax -  Allows you to set whether you pay Tax on the selected Material.\u00a0If the Sales Tax comes from an assigned Vendor this field will be disabled."
+        },
+        {
+            "type": "text",
+            "data": "Default Tax Rate -  Allows you to set the Tax percent you pay for the selected Material. The Sales Tax Rate entered here is what  you  pay when you purchase your Materials. The Sales Tax (if any) that you charge your Customer is entered in the  Bid Center ."
+        },
+        {
+            "type": "text",
+            "data": "Default Tax Rate -  Allows you to set the Tax percent you pay for the selected Material. The Sales Tax Rate entered here is what  you  pay when you purchase your Materials. The Sales Tax (if any) that you charge your Customer is entered in the  Bid Center ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Bid Center",
+                "uuid": "283fd745-4947-42af-bc55-1724acf2fc4b",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Waste -  Allows you to set the Waste percent for the selected Material."
+        },
+        {
+            "type": "text",
+            "data": "Waste -  Allows you to set the Waste percent for the selected Material."
+        },
+        {
+            "type": "text",
+            "data": "Estimate -  Allows you to control whether the selected Material is sent to the Bid Center and calculated with the % of Material Cost Bid Method."
+        },
+        {
+            "type": "text",
+            "data": "Estimate -  Allows you to control whether the selected Material is sent to the Bid Center and calculated with the % of Material Cost Bid Method."
+        },
+        {
+            "type": "text",
+            "data": "Banding Group"
+        },
+        {
+            "type": "image",
+            "data": "Banding_Banding_Props.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Length Trim -  Allows you to set a extra amount of Banding length to compensate for wasted Length on an edgebander for feeding and end trimming."
+        },
+        {
+            "type": "text",
+            "data": "Length Trim -  Allows you to set a extra amount of Banding length to compensate for wasted Length on an edgebander for feeding and end trimming."
+        },
+        {
+            "type": "text",
+            "data": "Length Trim -  Allows you to set a extra amount of Banding length to compensate for wasted Length on an edgebander for feeding and end trimming."
+        },
+        {
+            "type": "image",
+            "data": "image2200.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Thickness -  Allows you to set the Thickness of the selected Banding Material. The Thickness is the most important property of a Material because the construction of your Cabinets will depend on the Material Thickness in order to give you a correct cut list."
+        },
+        {
+            "type": "text",
+            "data": "Thickness -  Allows you to set the Thickness of the selected Banding Material. The Thickness is the most important property of a Material because the construction of your Cabinets will depend on the Material Thickness in order to give you a correct cut list."
+        },
+        {
+            "type": "text",
+            "data": "Thickness -  Allows you to set the Thickness of the selected Banding Material. The Thickness is the most important property of a Material because the construction of your Cabinets will depend on the Material Thickness in order to give you a correct cut list."
+        },
+        {
+            "type": "text",
+            "data": "The Width of banding is determined by the Part it is attached to's Thickness. The overall width of the Banding is not considered, instead, you may wish to enter banding that is 13/16 or 7/8 wide by referencing that fact in the Material Name."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "It is permissible to define Solid Stock as banding in the event you need solid wood edges on your Cabinets, Doors, or Drawer faces. If you do so, do not confuse the Thickness with the Width, the Width will default to the net finished Thickness of the Part it is attached to."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Layer Group"
+        },
+        {
+            "type": "image",
+            "data": "Banding_Layer_Props.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Layer Group Header identifies which Layer you are controlling."
+        },
+        {
+            "type": "text",
+            "data": "Finish -  The  Finish  assigned to the Layer. A fixed Finish applied to the Layer will show as a color swatch. If the Finish is derived from the Job/Room/Assembly/Part Finish the word Automatic will be in this field.\u00a0By selecting a Finish you are locking that  Finish  (Color) to the selected Material. \n \n \n Finish Type -  The  Finish Type  assigned to the Layer. \n \n \n Texture -  The  Texture  assigned to the Layer. If the Material does not have a Texture (pattern) to it then select the Blank Texture for it."
+        },
+        {
+            "type": "text",
+            "data": "Finish -  The  Finish  assigned to the Layer. A fixed Finish applied to the Layer will show as a color swatch. If the Finish is derived from the Job/Room/Assembly/Part Finish the word Automatic will be in this field.\u00a0By selecting a Finish you are locking that  Finish  (Color) to the selected Material."
+        },
+        {
+            "type": "text",
+            "data": "Finish -  The  Finish  assigned to the Layer. A fixed Finish applied to the Layer will show as a color swatch. If the Finish is derived from the Job/Room/Assembly/Part Finish the word Automatic will be in this field.\u00a0By selecting a Finish you are locking that  Finish  (Color) to the selected Material."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Finish",
+                "uuid": "4bee5d7d-8710-4804-a69d-48af21e64e11",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Finish",
+                "uuid": "4bee5d7d-8710-4804-a69d-48af21e64e11",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Finish Type -  The  Finish Type  assigned to the Layer."
+        },
+        {
+            "type": "text",
+            "data": "Finish Type -  The  Finish Type  assigned to the Layer."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Finish Type",
+                "uuid": "4b7b778d-79e3-40cd-b945-3190bc716d57",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Texture -  The  Texture  assigned to the Layer. If the Material does not have a Texture (pattern) to it then select the Blank Texture for it."
+        },
+        {
+            "type": "text",
+            "data": "Texture -  The  Texture  assigned to the Layer. If the Material does not have a Texture (pattern) to it then select the Blank Texture for it."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Texture",
+                "uuid": "aa224566-2adf-4eb7-a169-5b2371d5571d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "CNC Users take note:  Texture selection on your Panel Stock determines whether the Material is one Sided or Two Sided. If the same or no Texture is assigned to both the Face and Back you are, when sending Parts utilizing the Material to the S2M Center, stating that the Material is Two Sided. This will allow the S2M Center to flip Parts over if the Part has more operations on one side versus the other."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "At the same time if the Textures differ from Face to back you are instructing the S2M Center that it can not flip the Parts on that Material over. Also, the S2M Center will determine which side of that Material needs to be face up on the Nest by an Operation count and the operator will be instructed to face that Texture (by name) Up on the Machine."
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\System_Level\\Ribbonbar\\Main_Tab\\Catalogs_Group\\Material_Manager\\Ribbonbar\\Properties\\Material_Types\\SLMM_Banding.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

@@ -1,0 +1,31 @@
+{
+    "id": "12def2e6-dcb3-4d19-bae4-14745a8eaa9f",
+    "title": "Export_DWG",
+    "content": [
+        {
+            "type": "text",
+            "data": "Export DWG"
+        },
+        {
+            "type": "image",
+            "data": "image3322.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "If you are in the 3D View the Export DWGoption allows you to create a DWGfile of the current 3D View for modification in a 3rd party CAD package."
+        },
+        {
+            "type": "image",
+            "data": "image3242.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "When you have typed in the name you want and have selected a location, click Save to complete the process."
+        }
+    ],
+    "source_file": "CVEnglish\\Room_Level\\Ribbonbar\\Utilities_Tab\\Export_DWG.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

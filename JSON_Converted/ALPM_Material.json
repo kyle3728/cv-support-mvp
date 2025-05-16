@@ -1,0 +1,200 @@
+{
+    "id": "394966b3-9438-424c-b34e-42e40d0a10ea",
+    "title": "ALPM_Material",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top \n > \n \n \n Assembly Level \n > \n \n Ribbonbar \n > \n \n Main Tab \n > \n \n Properties Group \n > \n \n Material"
+        },
+        {
+            "type": "text",
+            "data": "Top \n >"
+        },
+        {
+            "type": "text",
+            "data": "Assembly Level \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Assembly Level",
+                "uuid": "b0552ea2-b430-4836-aa5e-42dfd04f9eda",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Ribbonbar \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Ribbonbar",
+                "uuid": "a095688d-3b5c-4aba-8f35-bdc4541dcc7f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Main Tab \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Main Tab",
+                "uuid": "a095688d-3b5c-4aba-8f35-bdc4541dcc7f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Properties Group \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Properties Group",
+                "uuid": "6f52466f-ffa6-4f56-b4cd-6f5da81e612d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Material"
+        },
+        {
+            "type": "text",
+            "data": "Material"
+        },
+        {
+            "type": "text",
+            "data": "Material"
+        },
+        {
+            "type": "image",
+            "data": "image2055.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image930.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Materials Tab at Cabinet Properties has the following options:"
+        },
+        {
+            "type": "text",
+            "data": "Base Standard Cabinet Material Schedule -  Allows you to change the Base Standard Cabinet  Assembly Parts Material Schedule  for the active Cabinet. \n \n \n Base Exposed Cabinet Material Schedule -  Allows you to change the Base Exposed Cabinet  Assembly Parts Material Schedule  for the active Cabinet. \n \n \n To utilize the Exposed Interior Material Schedule on the active Cabinet the Cabinet must be set to a Finished Interior. To do this, simply go to the  Case Tab  and enable the Finished Interior option. \n \n \n Upper Standard Cabinet Material Schedule -  Allows you to change the Upper Standard Cabinet  Assembly Parts Material Schedule  for the active Cabinet. \n \n \n Upper Exposed Interior Cabinet Material Schedule -  Allows you to change the Upper Exposed Cabinet  Assembly Parts Material Schedule  for the active Cabinet. \n \n \n Drawer Box -  Allows you to change the Drawer Box Material Schedule for the active Assembly. \n \n \n Roll Out -  Allows you to change the Roll Out Material Schedule for the active Assembly."
+        },
+        {
+            "type": "text",
+            "data": "Base Standard Cabinet Material Schedule -  Allows you to change the Base Standard Cabinet  Assembly Parts Material Schedule  for the active Cabinet."
+        },
+        {
+            "type": "text",
+            "data": "Base Standard Cabinet Material Schedule -  Allows you to change the Base Standard Cabinet  Assembly Parts Material Schedule  for the active Cabinet."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Assembly Parts Material Schedule",
+                "uuid": "d549fa6c-c6de-4ac1-9837-a3bb3e6af7a5",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Base Exposed Cabinet Material Schedule -  Allows you to change the Base Exposed Cabinet  Assembly Parts Material Schedule  for the active Cabinet."
+        },
+        {
+            "type": "text",
+            "data": "Base Exposed Cabinet Material Schedule -  Allows you to change the Base Exposed Cabinet  Assembly Parts Material Schedule  for the active Cabinet."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Assembly Parts Material Schedule",
+                "uuid": "d549fa6c-c6de-4ac1-9837-a3bb3e6af7a5",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "To utilize the Exposed Interior Material Schedule on the active Cabinet the Cabinet must be set to a Finished Interior. To do this, simply go to the  Case Tab  and enable the Finished Interior option."
+        },
+        {
+            "type": "text",
+            "data": "To utilize the Exposed Interior Material Schedule on the active Cabinet the Cabinet must be set to a Finished Interior. To do this, simply go to the  Case Tab  and enable the Finished Interior option."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Case Tab",
+                "uuid": "f8dc3ae9-7644-4f4d-994e-7ba05b597872",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Upper Standard Cabinet Material Schedule -  Allows you to change the Upper Standard Cabinet  Assembly Parts Material Schedule  for the active Cabinet."
+        },
+        {
+            "type": "text",
+            "data": "Upper Standard Cabinet Material Schedule -  Allows you to change the Upper Standard Cabinet  Assembly Parts Material Schedule  for the active Cabinet."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Assembly Parts Material Schedule",
+                "uuid": "d549fa6c-c6de-4ac1-9837-a3bb3e6af7a5",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Upper Exposed Interior Cabinet Material Schedule -  Allows you to change the Upper Exposed Cabinet  Assembly Parts Material Schedule  for the active Cabinet."
+        },
+        {
+            "type": "text",
+            "data": "Upper Exposed Interior Cabinet Material Schedule -  Allows you to change the Upper Exposed Cabinet  Assembly Parts Material Schedule  for the active Cabinet."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Assembly Parts Material Schedule",
+                "uuid": "d549fa6c-c6de-4ac1-9837-a3bb3e6af7a5",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Drawer Box -  Allows you to change the Drawer Box Material Schedule for the active Assembly."
+        },
+        {
+            "type": "text",
+            "data": "Drawer Box -  Allows you to change the Drawer Box Material Schedule for the active Assembly."
+        },
+        {
+            "type": "text",
+            "data": "Roll Out -  Allows you to change the Roll Out Material Schedule for the active Assembly."
+        },
+        {
+            "type": "text",
+            "data": "Roll Out -  Allows you to change the Roll Out Material Schedule for the active Assembly."
+        },
+        {
+            "type": "text",
+            "data": "Remember changes made here will only affect the current Assembly. Also, changes made here are attached as permanent (unless you remove them) overrides on the Assembly; which means that if you Save this Assembly into a Catalog these overrides will also be Saved."
+        },
+        {
+            "type": "image",
+            "data": "Warning.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Assembly_Level\\Ribbonbar\\Main_Tab\\Properties_Group\\ALPM_Material.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

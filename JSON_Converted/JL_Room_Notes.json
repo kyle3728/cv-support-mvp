@@ -1,0 +1,54 @@
+{
+    "id": "e9497181-22e5-4545-8c6a-e4d76204375e",
+    "title": "JL_Room_Notes",
+    "content": [
+        {
+            "type": "text",
+            "data": "Room Notes"
+        },
+        {
+            "type": "image",
+            "data": "SolidAdvanced.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "SolidAdvancedforClosets.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "SolidUltimate.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "SolidUltimateforClosets.jpg",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Click on the Categories or Tabs below for more information"
+        },
+        {
+            "type": "image",
+            "data": "Notes.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This area displays and allows the value modification of any  System Parameters  that you have defined as Room Class and Note Style."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "System Parameters",
+                "uuid": "732c3654-3fc4-4e88-80b9-01c7cb38c0fb",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\JL_Room_Notes.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

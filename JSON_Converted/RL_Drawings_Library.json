@@ -1,0 +1,253 @@
+{
+    "id": "42693001-e896-4fb4-bab5-90f16894ad62",
+    "title": "RL_Drawings_Library",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top \n > \n \n \n Room Level \n > \n \n Ribbonbar \n > \n \n Main Tab \n > \n \n Tools Group \n > \n \n Drawings Library"
+        },
+        {
+            "type": "text",
+            "data": "Top \n >"
+        },
+        {
+            "type": "text",
+            "data": "Room Level \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Room Level",
+                "uuid": "9eaa492c-0405-4da7-8e0f-a6ff4e047890",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Ribbonbar \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Ribbonbar",
+                "uuid": "a095688d-3b5c-4aba-8f35-bdc4541dcc7f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Main Tab \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Main Tab",
+                "uuid": "a095688d-3b5c-4aba-8f35-bdc4541dcc7f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Tools Group \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Tools Group",
+                "uuid": "8d7f5c8f-fa12-47e5-acb0-4a34f1bfb801",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Drawings Library"
+        },
+        {
+            "type": "text",
+            "data": "Drawings Library"
+        },
+        {
+            "type": "text",
+            "data": "Drawings Library"
+        },
+        {
+            "type": "image",
+            "data": "image1888.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This utility is specifically designed to help manage your Title Blocks. You can Copy, Rename, and Delete Title Blocks; as well as move Title Blocks up and down the list with this Utility. You also, through this utility, edit your Title Blocks."
+        },
+        {
+            "type": "image",
+            "data": "image838.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There is only one Drawings Type in Solid Essential:"
+        },
+        {
+            "type": "text",
+            "data": "Title Blocks -  This is where you will store your Drawing Title Blocks."
+        },
+        {
+            "type": "text",
+            "data": "Title Blocks -  This is where you will store your Drawing Title Blocks."
+        },
+        {
+            "type": "text",
+            "data": "Title Blocks -  This is where you will store your Drawing Title Blocks."
+        },
+        {
+            "type": "text",
+            "data": "Title Block"
+        },
+        {
+            "type": "text",
+            "data": "When selecting a Title Block the New... and Edit buttons become active. Clicking New, to create a New Title Block, or Edit, to Edit a selected Title Block will take you to the Title Block Editor, where a dashed line shows the current paper (template) size/orientation."
+        },
+        {
+            "type": "image",
+            "data": "Drawings_Library_1.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The first step to creating a New Template is to establish your default Paper Size. To do this Right Click on the Sheet and select Paper."
+        },
+        {
+            "type": "image",
+            "data": "image1889.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Paper Size and Orientation is established on the Paper tab and is important in Templates, because will instruct Solid how to stretch/adjust the drawings once they are applied to the real paper."
+        },
+        {
+            "type": "image",
+            "data": "image839.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "You can add your Custom Paper Sizes to this list by clicking the ellipsis button."
+        },
+        {
+            "type": "image",
+            "data": "image840.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Locking Cad Objects"
+        },
+        {
+            "type": "text",
+            "data": "You can use any of the standard CAD tools available in your Templates. In addition to normal CAD functionality you also, when in Template Mode, have the option to Lock CAD Objects to your Paper. As mentioned previously, the primary feature of a Template is to automatically adjust to the real paper size/orientation."
+        },
+        {
+            "type": "text",
+            "data": "In order to control this behavior, every Cad Object in a template can be Locked in different ways."
+        },
+        {
+            "type": "image",
+            "data": "image1574.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Simply click on the little button associated to a Cad Object property to sequentially change its locking flags:"
+        },
+        {
+            "type": "text",
+            "data": "- The position will be kept at the same distance from the left edge of the Paper."
+        },
+        {
+            "type": "image",
+            "data": "image1560.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "- The position will be kept at the same distance from the right edge of the Paper."
+        },
+        {
+            "type": "image",
+            "data": "image1561.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "- The position will be kept at the same distance from the center (Horizontally) of the Paper."
+        },
+        {
+            "type": "image",
+            "data": "image1714.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "- The position will be kept at the same distance from the top edge of the Paper."
+        },
+        {
+            "type": "image",
+            "data": "image1563.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "- The position will be kept at the same distance from the bottom edge of the Paper."
+        },
+        {
+            "type": "image",
+            "data": "image1564.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "- The position will be kept at the same distance from the center (Vertically) of the Paper."
+        },
+        {
+            "type": "image",
+            "data": "image1565.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "NONE - The position will adjust proportionally to the Paper Size."
+        },
+        {
+            "type": "text",
+            "data": "Every object is auto-locked when editing a Title Block created in a previous version of Solid for the first time."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Auto-Lock Mode is applied to every new Cad Object added to a template, and can be deactivated/reactivated with the right-click menu."
+        },
+        {
+            "type": "image",
+            "data": "image1892.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Auto Lock feature chooses the locking edge by dividing the paper size by 3 and checking where the Cad Object's position falls."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Room_Level\\Ribbonbar\\Main_Tab\\Tools_Group\\RL_Drawings_Library.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

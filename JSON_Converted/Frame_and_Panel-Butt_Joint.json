@@ -1,0 +1,22 @@
+{
+    "id": "df62b9fb-408f-489b-8185-a3c8c2d300eb",
+    "title": "Frame_and_Panel-Butt_Joint",
+    "content": [
+        {
+            "type": "image",
+            "data": "image274.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Creating a Frame and Panel Door using Butt Joints"
+        },
+        {
+            "type": "text",
+            "data": "You do a \"Butt Joint\" Door pretty much the same way you build any other Door. Except that before adding parts to the Door at the Construction tab you would make sure you do not have an Inside Edge Profile selected under \"Sample Profiles\", and that you do not select an \"Inside Edge Profile\" while at the \"Profile\" tab."
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Tips_Tricks_&_FAQs\\The_Door_Catalog\\Sample_Door_Types\\Frame_and_Panel-Butt_Joint.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

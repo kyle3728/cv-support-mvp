@@ -1,0 +1,398 @@
+{
+    "id": "a6c6d306-c8da-4df8-8440-33f2f24a9c1d",
+    "title": "Preferences",
+    "content": [
+        {
+            "type": "text",
+            "data": "Preferences"
+        },
+        {
+            "type": "image",
+            "data": "image758.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image183.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There are 4 tabs in the Preferences screen:"
+        },
+        {
+            "type": "text",
+            "data": "General Tab"
+        },
+        {
+            "type": "image",
+            "data": "image183.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "CNC \n\t Programs -  This area allows you to select the Maximum Run Number \n\t and Run Number Range to utilize for Program Names. \n \n Run Number \n\t\t Formats \n \n 3 \n\t\t\t Digit Numeric  - With this number type the first 3 characters \n\t\t\t in the program name are nnn. This allows up to 1000 outputs \n\t\t\t without repeat. (000-999) \n Alpha-Numeric  \n\t\t\t - With this number type the first 3 characters in the program \n\t\t\t name are Rnn/Raa. This allows up to 1296 outputs without repeat. \n\t\t\t (R00-RZZ) \n Standard  \n\t\t\t - With this number type the first 3 characters in the program \n\t\t\t name are Rnn. This allows up to 100 outputs without a repeat. \n\t\t\t (R00-R99) \n \n Run Number Range \n \n This option will \n\t\t\t accommodate those shops that have multiple users outputting \n\t\t\t NC programs and want to assign allowing each user a range. \n\t\t\t Jeff = 0-99, Sally=100-199, John=200-299 etc. In addition \n\t\t\t the user can get a preview of the run number output by specifying \n\t\t\t the various number formats."
+        },
+        {
+            "type": "text",
+            "data": "CNC \n\t Programs -  This area allows you to select the Maximum Run Number \n\t and Run Number Range to utilize for Program Names."
+        },
+        {
+            "type": "text",
+            "data": "CNC \n\t Programs -  This area allows you to select the Maximum Run Number \n\t and Run Number Range to utilize for Program Names."
+        },
+        {
+            "type": "text",
+            "data": "Run Number \n\t\t Formats \n \n 3 \n\t\t\t Digit Numeric  - With this number type the first 3 characters \n\t\t\t in the program name are nnn. This allows up to 1000 outputs \n\t\t\t without repeat. (000-999) \n Alpha-Numeric  \n\t\t\t - With this number type the first 3 characters in the program \n\t\t\t name are Rnn/Raa. This allows up to 1296 outputs without repeat. \n\t\t\t (R00-RZZ) \n Standard  \n\t\t\t - With this number type the first 3 characters in the program \n\t\t\t name are Rnn. This allows up to 100 outputs without a repeat. \n\t\t\t (R00-R99) \n \n Run Number Range \n \n This option will \n\t\t\t accommodate those shops that have multiple users outputting \n\t\t\t NC programs and want to assign allowing each user a range. \n\t\t\t Jeff = 0-99, Sally=100-199, John=200-299 etc. In addition \n\t\t\t the user can get a preview of the run number output by specifying \n\t\t\t the various number formats."
+        },
+        {
+            "type": "text",
+            "data": "Run Number \n\t\t Formats \n \n 3 \n\t\t\t Digit Numeric  - With this number type the first 3 characters \n\t\t\t in the program name are nnn. This allows up to 1000 outputs \n\t\t\t without repeat. (000-999) \n Alpha-Numeric  \n\t\t\t - With this number type the first 3 characters in the program \n\t\t\t name are Rnn/Raa. This allows up to 1296 outputs without repeat. \n\t\t\t (R00-RZZ) \n Standard  \n\t\t\t - With this number type the first 3 characters in the program \n\t\t\t name are Rnn. This allows up to 100 outputs without a repeat. \n\t\t\t (R00-R99) \n \n Run Number Range \n \n This option will \n\t\t\t accommodate those shops that have multiple users outputting \n\t\t\t NC programs and want to assign allowing each user a range. \n\t\t\t Jeff = 0-99, Sally=100-199, John=200-299 etc. In addition \n\t\t\t the user can get a preview of the run number output by specifying \n\t\t\t the various number formats."
+        },
+        {
+            "type": "text",
+            "data": "Run Number \n\t\t Formats"
+        },
+        {
+            "type": "text",
+            "data": "Run Number \n\t\t Formats"
+        },
+        {
+            "type": "text",
+            "data": "3 \n\t\t\t Digit Numeric  - With this number type the first 3 characters \n\t\t\t in the program name are nnn. This allows up to 1000 outputs \n\t\t\t without repeat. (000-999) \n Alpha-Numeric  \n\t\t\t - With this number type the first 3 characters in the program \n\t\t\t name are Rnn/Raa. This allows up to 1296 outputs without repeat. \n\t\t\t (R00-RZZ) \n Standard  \n\t\t\t - With this number type the first 3 characters in the program \n\t\t\t name are Rnn. This allows up to 100 outputs without a repeat. \n\t\t\t (R00-R99)"
+        },
+        {
+            "type": "text",
+            "data": "3 \n\t\t\t Digit Numeric  - With this number type the first 3 characters \n\t\t\t in the program name are nnn. This allows up to 1000 outputs \n\t\t\t without repeat. (000-999) \n Alpha-Numeric  \n\t\t\t - With this number type the first 3 characters in the program \n\t\t\t name are Rnn/Raa. This allows up to 1296 outputs without repeat. \n\t\t\t (R00-RZZ) \n Standard  \n\t\t\t - With this number type the first 3 characters in the program \n\t\t\t name are Rnn. This allows up to 100 outputs without a repeat. \n\t\t\t (R00-R99)"
+        },
+        {
+            "type": "text",
+            "data": "3 \n\t\t\t Digit Numeric  - With this number type the first 3 characters \n\t\t\t in the program name are nnn. This allows up to 1000 outputs \n\t\t\t without repeat. (000-999)"
+        },
+        {
+            "type": "text",
+            "data": "3 \n\t\t\t Digit Numeric  - With this number type the first 3 characters \n\t\t\t in the program name are nnn. This allows up to 1000 outputs \n\t\t\t without repeat. (000-999)"
+        },
+        {
+            "type": "text",
+            "data": "Alpha-Numeric  \n\t\t\t - With this number type the first 3 characters in the program \n\t\t\t name are Rnn/Raa. This allows up to 1296 outputs without repeat. \n\t\t\t (R00-RZZ)"
+        },
+        {
+            "type": "text",
+            "data": "Alpha-Numeric  \n\t\t\t - With this number type the first 3 characters in the program \n\t\t\t name are Rnn/Raa. This allows up to 1296 outputs without repeat. \n\t\t\t (R00-RZZ)"
+        },
+        {
+            "type": "text",
+            "data": "Standard  \n\t\t\t - With this number type the first 3 characters in the program \n\t\t\t name are Rnn. This allows up to 100 outputs without a repeat. \n\t\t\t (R00-R99)"
+        },
+        {
+            "type": "text",
+            "data": "Standard  \n\t\t\t - With this number type the first 3 characters in the program \n\t\t\t name are Rnn. This allows up to 100 outputs without a repeat. \n\t\t\t (R00-R99)"
+        },
+        {
+            "type": "text",
+            "data": "Run Number Range"
+        },
+        {
+            "type": "text",
+            "data": "Run Number Range"
+        },
+        {
+            "type": "text",
+            "data": "This option will \n\t\t\t accommodate those shops that have multiple users outputting \n\t\t\t NC programs and want to assign allowing each user a range. \n\t\t\t Jeff = 0-99, Sally=100-199, John=200-299 etc. In addition \n\t\t\t the user can get a preview of the run number output by specifying \n\t\t\t the various number formats."
+        },
+        {
+            "type": "text",
+            "data": "This option will \n\t\t\t accommodate those shops that have multiple users outputting \n\t\t\t NC programs and want to assign allowing each user a range. \n\t\t\t Jeff = 0-99, Sally=100-199, John=200-299 etc. In addition \n\t\t\t the user can get a preview of the run number output by specifying \n\t\t\t the various number formats."
+        },
+        {
+            "type": "text",
+            "data": "This option will \n\t\t\t accommodate those shops that have multiple users outputting \n\t\t\t NC programs and want to assign allowing each user a range. \n\t\t\t Jeff = 0-99, Sally=100-199, John=200-299 etc. In addition \n\t\t\t the user can get a preview of the run number output by specifying \n\t\t\t the various number formats."
+        },
+        {
+            "type": "text",
+            "data": "This option will \n\t\t\t accommodate those shops that have multiple users outputting \n\t\t\t NC programs and want to assign allowing each user a range. \n\t\t\t Jeff = 0-99, Sally=100-199, John=200-299 etc. In addition \n\t\t\t the user can get a preview of the run number output by specifying \n\t\t\t the various number formats."
+        },
+        {
+            "type": "text",
+            "data": "Show \n\t Parts Not Set for Optimization or Output -  This option allows \n\t you to turn on the capability to control whether a Part set to \"Not \n\t Optimize\" can be overridden. Doing this will turn on Right Click \n\t menu options in the Part List. See the  Parts  \n\t topic for more information. \n One Click Optimize To Pattern Results -  \n\t Enable this option to go straight from clicking the  Optimize  \n\t button to the Pattern area."
+        },
+        {
+            "type": "text",
+            "data": "Show \n\t Parts Not Set for Optimization or Output -  This option allows \n\t you to turn on the capability to control whether a Part set to \"Not \n\t Optimize\" can be overridden. Doing this will turn on Right Click \n\t menu options in the Part List. See the  Parts  \n\t topic for more information."
+        },
+        {
+            "type": "text",
+            "data": "Show \n\t Parts Not Set for Optimization or Output -  This option allows \n\t you to turn on the capability to control whether a Part set to \"Not \n\t Optimize\" can be overridden. Doing this will turn on Right Click \n\t menu options in the Part List. See the  Parts  \n\t topic for more information."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Parts",
+                "uuid": "b12e0cee-f5bb-496a-9465-155159faf1d5",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "One Click Optimize To Pattern Results -  \n\t Enable this option to go straight from clicking the  Optimize  \n\t button to the Pattern area."
+        },
+        {
+            "type": "text",
+            "data": "One Click Optimize To Pattern Results -  \n\t Enable this option to go straight from clicking the  Optimize  \n\t button to the Pattern area."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Optimize",
+                "uuid": "a335b7bf-dcdb-4093-bae7-e84c46db446b",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Geometry"
+        },
+        {
+            "type": "image",
+            "data": "image184.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There is one option on the Geometry Tab:"
+        },
+        {
+            "type": "text",
+            "data": "Max Pre-Mill \n\t Edgebanding  - The S2M Center will compensate for Edgebanders \n\t with Pre-Mill Stations; by selecting this option you are indicating \n\t to the S2M Center that your Edgebander has a Pre-Mill Station. If \n\t  Max  is selected \n\t then the value is the maximum amount the banding machine will trim \n\t off the edge of the part during the banding operation. \u00a0Typically \n\t the banding machine trims off a value equal to the banding thickness. \n\t If  Fixed  is selected \n\t this is the amount the banding machine will trim off of the edge of \n\t the part that include banding."
+        },
+        {
+            "type": "text",
+            "data": "Max Pre-Mill \n\t Edgebanding  - The S2M Center will compensate for Edgebanders \n\t with Pre-Mill Stations; by selecting this option you are indicating \n\t to the S2M Center that your Edgebander has a Pre-Mill Station. If \n\t  Max  is selected \n\t then the value is the maximum amount the banding machine will trim \n\t off the edge of the part during the banding operation. \u00a0Typically \n\t the banding machine trims off a value equal to the banding thickness. \n\t If  Fixed  is selected \n\t this is the amount the banding machine will trim off of the edge of \n\t the part that include banding."
+        },
+        {
+            "type": "text",
+            "data": "Max Pre-Mill \n\t Edgebanding  - The S2M Center will compensate for Edgebanders \n\t with Pre-Mill Stations; by selecting this option you are indicating \n\t to the S2M Center that your Edgebander has a Pre-Mill Station. If \n\t  Max  is selected \n\t then the value is the maximum amount the banding machine will trim \n\t off the edge of the part during the banding operation. \u00a0Typically \n\t the banding machine trims off a value equal to the banding thickness. \n\t If  Fixed  is selected \n\t this is the amount the banding machine will trim off of the edge of \n\t the part that include banding."
+        },
+        {
+            "type": "text",
+            "data": "Modifying the Max pre-mill edge banding will dynamically change the part \n size of banded parts."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Reports"
+        },
+        {
+            "type": "image",
+            "data": "image188.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Saw \n\t Report  - This option allows you to determine which Saw \n\t Pattern Report to use by default. \n Saw \n\t Optimization  - These options allow you to select whether you \n\t want Offcuts and Gap Cuts (when Grain Matching) to be reported."
+        },
+        {
+            "type": "text",
+            "data": "Saw \n\t Report  - This option allows you to determine which Saw \n\t Pattern Report to use by default."
+        },
+        {
+            "type": "text",
+            "data": "Saw \n\t Report  - This option allows you to determine which Saw \n\t Pattern Report to use by default."
+        },
+        {
+            "type": "text",
+            "data": "Saw \n\t Optimization  - These options allow you to select whether you \n\t want Offcuts and Gap Cuts (when Grain Matching) to be reported."
+        },
+        {
+            "type": "text",
+            "data": "Saw \n\t Optimization  - These options allow you to select whether you \n\t want Offcuts and Gap Cuts (when Grain Matching) to be reported."
+        },
+        {
+            "type": "text",
+            "data": "Measurement \n Units"
+        },
+        {
+            "type": "text",
+            "data": "The  Measurement Units  tab allows \n access to the area where your standard display unit of measure and its \n precision are set. Keep in mind that the S2M Center stores everything \n as a double integer in the Imperial (Inches) unit of measure. What you \n are selecting is how the S2M Center  displays  \n this stored information  not  \n how it is stored."
+        },
+        {
+            "type": "image",
+            "data": "image191.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "A double Integer consists of 15 unit places, meaning a measurement entered \n as 56mm is actually stored as 2.20472440944881\u201d by the S2M Optimizer. \n The measurement entered by you at 56mm would display as follows:"
+        },
+        {
+            "type": "text",
+            "data": "Units \n as Millimeters"
+        },
+        {
+            "type": "text",
+            "data": "Precision as 1 = 56"
+        },
+        {
+            "type": "text",
+            "data": "Precision as 1.5 = 56.0"
+        },
+        {
+            "type": "text",
+            "data": "Precision as 1.1 = 56.0"
+        },
+        {
+            "type": "text",
+            "data": "Precision as 1.01 = 56.00"
+        },
+        {
+            "type": "text",
+            "data": "Precision as 1.001 = 56.000"
+        },
+        {
+            "type": "text",
+            "data": "Units \n as Inches"
+        },
+        {
+            "type": "text",
+            "data": "Precision as 1 = 2"
+        },
+        {
+            "type": "text",
+            "data": "Precision as 1.1 = 2.2"
+        },
+        {
+            "type": "text",
+            "data": "Precision as 1.01 = 2.20"
+        },
+        {
+            "type": "text",
+            "data": "Precision as 1.001 = 2.205"
+        },
+        {
+            "type": "text",
+            "data": "Precision as 1/8 = 2 1/4"
+        },
+        {
+            "type": "text",
+            "data": "Precision as 1/16 = 2 3/16"
+        },
+        {
+            "type": "text",
+            "data": "Precision as 1/32 = 2 7/32"
+        },
+        {
+            "type": "text",
+            "data": "Precision as 1/64 = 2 13/64"
+        },
+        {
+            "type": "text",
+            "data": "The important thing \n to remember is the S2M Optimizer sees this number (56mm), no matter how \n you have the display units set, as 2.20472440944881\u201d."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The \"Trim trailing decimal zeros\" will simply trim any trailing \n zeroes off of displayed decimal measurements."
+        },
+        {
+            "type": "text",
+            "data": "The \"Allow unit-switch button on Status Bar\" options turns \n on/off the Unit-switch button in the  Statusbar \n Menu ."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Statusbar \n Menu",
+                "uuid": "46426343-c52a-43c8-bacd-6ff9abbc7f3a",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Tools Tab (Accessible from  Part Edit  area)"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Part Edit",
+                "uuid": "59a297ae-0bcb-41bb-9bce-b7760ead48b1",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image193.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Smart-lines.  In \n this section you can control the Snap Angle as well as the Tolerance setting \n of a drawn Line."
+        },
+        {
+            "type": "text",
+            "data": "A  Snap \n Angle  of 45 and a high Tolerance (Sliding the bar all the way to \n the right) will snap lines only in 45 degree increments."
+        },
+        {
+            "type": "text",
+            "data": "A  Snap \n Angle  of 45 and a low Tolerance (Sliding the bar all the way to \n the left) will basically disable the Snap feature. This will basically \n allow you to draw a free-hand line."
+        },
+        {
+            "type": "text",
+            "data": "Snap Lines.  In \n this section you can control the Color and Type (Dashed or Solid) of line \n that Dynamic Snapping will use."
+        },
+        {
+            "type": "text",
+            "data": "Snapping Options.  \n In this section you can control the Snap Hot-Keys as well as which Hot-Points \n are on for Dynamic Snapping."
+        },
+        {
+            "type": "text",
+            "data": "Grid \n Snap -  Snaps what you are currently placing to Grid points."
+        },
+        {
+            "type": "text",
+            "data": "Point \n Snap -  Snaps what you are currently placing to Snap points."
+        },
+        {
+            "type": "text",
+            "data": "Short-cut \n Keys.  In this section you can modify the default Short-cut Keys \n for quick commands inside Solid. You may want to change these if they \n interfere with Short-cut Keys you may already have setup in Windows. There \n are five functions that can be controlled by short-cut keys:"
+        },
+        {
+            "type": "text",
+            "data": "Pan \n -  The Pan function allows you to set a new View center. When activated \n the Pan feature will center your current view to the location of the cursor \n on the screen."
+        },
+        {
+            "type": "text",
+            "data": "Refresh \n -  The Refresh function instructs Solid to redraw the current View."
+        },
+        {
+            "type": "text",
+            "data": "Zoom Mode.  In this \n section you control how the Windows for a Zoom Window is drawn."
+        },
+        {
+            "type": "text",
+            "data": "From \n Corner -  When using this and performing a Zoom Window you specify \n the corners of your Zoom area diagonally."
+        },
+        {
+            "type": "text",
+            "data": "From \n Center -  When using this and performing a Zoom Window you start \n from the Center of the View. This is the way Solid has normally performed \n a Zoom Window."
+        },
+        {
+            "type": "text",
+            "data": "Factor \n -  This slider sets the Zoom Factor for Scroll Wheel Zooming. The \n lower (left) the setting the smaller the Factor."
+        },
+        {
+            "type": "text",
+            "data": "Reverse \n Scroll Wheel Zoom Direction   -  \n An option allowing you to reverse the Zoom In/Zoom Out direction on your \n Mouse Scroll Wheel."
+        }
+    ],
+    "source_file": "NCEnglish_Optimizer\\Introduction\\The_S2M_Center_Optimizer\\Preferences.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

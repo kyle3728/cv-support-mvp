@@ -1,0 +1,70 @@
+{
+    "id": "3b8aa05e-d640-4f8e-b624-71fec2bb5d97",
+    "title": "Leica_Modify",
+    "content": [
+        {
+            "type": "text",
+            "data": "Leica Modify"
+        },
+        {
+            "type": "image",
+            "data": "image1266.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This Utility will allow you to modify Leica points that you either input directly with the Leica Disto Utility or imported via DXF."
+        },
+        {
+            "type": "image",
+            "data": "image1267.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "There are three types of Modifications you can perform in the Leica Disto Modify Utility."
+        },
+        {
+            "type": "text",
+            "data": "Translate"
+        },
+        {
+            "type": "image",
+            "data": "image1268.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option allows you to move the group of Leica points in the current room a specified distance in X, Y, and/or Z."
+        },
+        {
+            "type": "text",
+            "data": "Scale"
+        },
+        {
+            "type": "image",
+            "data": "image1269.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option allows you to Scale the group of Leica points in the current room by your specified Factor."
+        },
+        {
+            "type": "text",
+            "data": "Rotate"
+        },
+        {
+            "type": "image",
+            "data": "image1270.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This option allows you to Rotate the group of Leica points in the current room by a specific Angle about the X, Y, and/or Z axes."
+        }
+    ],
+    "source_file": "CVEnglish_Cabinetmaker\\Room_Level\\Ribbonbar\\Utilities_Tab\\Leica_Modify.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

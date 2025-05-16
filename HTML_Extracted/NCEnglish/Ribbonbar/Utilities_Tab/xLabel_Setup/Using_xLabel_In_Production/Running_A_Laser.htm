@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><link rel="stylesheet" type="text/css" href="../../../../_rhdefault.css"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=WINDOWS-1252"/>
+  <meta name="generator" content="Adobe RoboHelp 2022"/>
+  <title>Running A Laser</title>
+  <link rel="StyleSheet" href="../../../../assets/css/default.css" type="text/css"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/><script type="text/javascript" src="../../../../ehlpdhtm.js"></script></head>
+<body>
+  <h1>Running A Laser</h1>
+  <p><img src="../../../../assets/images/zGraphics/Products/Label.png"/></p>
+  <p>There are several Laser Pattern Generators on the market such as Carter Laser Products, Z-Laser, and SL Laser.</p>
+  <p>These Lasers can display the Nest Pattern on your sheet stockpile so that Labels can be pre-applied to your sheet stock before loading into your machine for processing. All of these use an HPGL file. To generate HPGL output in the form of the file Laser.hgl for the Laser to read you will need to add a String Value in the Registry.</p>
+  <p style="margin-left: 120px; margin-top: 0pt; margin-bottom: 0pt;">[HKEY_CURRENT_USER\SOFTWARE\Hexagon\CABINET VISION\S2M 2022\Label IT]</p>
+  <p style="margin-left: 120px; margin-top: 0pt; margin-bottom: 0pt;">LaserRun=&quot;C:\Cabinet Vision\RunLaser.bat&quot;</p>
+  <p style="margin-left: 120px;"><img alt="" border="0" src="../../../../assets/images/zGraphics/Extras/Warning.png" style="border: none;"/> Make sure to backup your Windows Registry prior to making changes. It is highly recommended to not modify your Windows Registry unless you are familiar with the process. Windows and/or S2M CENTER corruption could occur by making an invalid entry.</p>
+  <p>You can name the bat file anything you like. In the bat file you will need to add code to initialize the laser. This is typically one or two lines of code but since it is different between lasers it is not hard coded. Also in the bat file you will want to make reference to the “Laser.HGL” file located in the \S2M 2022 directory. Below is a sample BAT file:</p>
+  <p style="color: #008000; margin-left: 80px; font-family: &#39;Courier New&#39;, monospace;">MODE COM1:9600,N,8,1,P</p>
+  <p style="color: #008000; margin-left: 80px; font-family: &#39;Courier New&#39;, monospace;">copy c:\Cabinet Vision\S2M 2022\laser.hgl com1</p>
+  <p>When you select the option Turn Laser ON, the program will create the Laser.HGL file then call then RunLaser.bat file. The Laser.HGL file is output whenever you navigate to a new sheet. At this point it will draw all the part outlines on the sheet. It is also reset every time you print a label. In this case it shows just the outline of the part when the label is to be applied. The concept is you can print the labels one at a time before the sheet is milled then start the router.</p>
+
+</body></html>

@@ -1,0 +1,93 @@
+{
+    "id": "ecf128e8-79e1-418a-b025-8a4ea3be8aa9",
+    "title": "RLSB_Scenes_on_Current_Sheet",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top \n > \n \n \n Room Level \n > \n \n Sidebar \n > \n \n Scenes on Current Sheet"
+        },
+        {
+            "type": "text",
+            "data": "Top \n >"
+        },
+        {
+            "type": "text",
+            "data": "Room Level \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Room Level",
+                "uuid": "9eaa492c-0405-4da7-8e0f-a6ff4e047890",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Sidebar \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Sidebar",
+                "uuid": "f07520a2-0645-4a40-b8d9-a72c15b5c147",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Scenes on Current Sheet"
+        },
+        {
+            "type": "text",
+            "data": "Scenes on Current Sheet"
+        },
+        {
+            "type": "text",
+            "data": "Scenes on Current Sheet -"
+        },
+        {
+            "type": "image",
+            "data": "image74.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image1933.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "This section displays which Scenes from the Available Scenes list are being used on the current Sheet."
+        },
+        {
+            "type": "text",
+            "data": "See the  Available Scenes  topic for more information."
+        },
+        {
+            "type": "image",
+            "data": "Information.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Available Scenes",
+                "uuid": "7534a4f7-8686-44aa-96b1-7ac305ab0a61",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "The Paper option allows you to choose whether the Paper is located behind (Back) or in Front of the Scenes placed on it. The \"Default\" value is Back."
+        },
+        {
+            "type": "image",
+            "data": "image2013.gif",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Room_Level\\Side_Bar\\RLSB_Scenes_on_Current_Sheet.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

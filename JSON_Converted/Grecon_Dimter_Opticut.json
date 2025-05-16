@@ -1,0 +1,21 @@
+{
+    "id": "28838ee7-8fb6-417a-b921-7db0608a1497",
+    "title": "Grecon_Dimter_Opticut",
+    "content": [
+        {
+            "type": "text",
+            "data": "Grecon Dimter Opticut"
+        },
+        {
+            "type": "text",
+            "data": "This is a Chop Saw Machine Link for the Weinig Grecon Dimter Opticut 104 Optimizing Cut Saw."
+        },
+        {
+            "type": "text",
+            "data": "Only selected parts made of board stock are output."
+        }
+    ],
+    "source_file": "NCEnglish\\Ribbonbar\\Main_Tab\\Machine\\NC_Links\\Chop_Saw_Links\\Grecon_Dimter_Opticut.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

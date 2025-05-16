@@ -1,0 +1,1174 @@
+{
+    "id": "658c0070-25a4-4e3f-9278-f27c345ce8b9",
+    "title": "What_s_New_In_Version_6_0",
+    "content": [
+        {
+            "type": "text",
+            "data": "What's New in Solid Version 6.0 (2011 R1)"
+        },
+        {
+            "type": "text",
+            "data": "Click the links below to get more information on these new features. For quick demonstrations of these new features you can visit the  Cabinet Vision Solid 2011 R1  area of the  Cabinet Vision YouTube Channel ."
+        },
+        {
+            "type": "image",
+            "data": "YouTube.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Assembly Level"
+        },
+        {
+            "type": "text",
+            "data": "Split Part Tools \n \n \n Modify Door Stile and Rail Widths By Door \n \n \n Section Doors With Mid Stiles and Mid Rails By Door \n \n \n Modify Door Profiles By Door \n \n \n Change Drawer Front Pull Reference \n \n \n Shape Assemblies using CAD Tools \n \n \n Logical Constraints to Lines and Arcs for an Assembly Shape \n \n \n Parametrically Driven Dimension Constraints to Lines and Arcs for an Assembly Shape \n \n \n Face Frame Miters Visually Shown \n \n \n Add a Set Back field for Roll Outs in the Section Editor \n \n \n Scribe Partitions Associated to Mid Stiles When Set Relative Left or Right in Section Editor \n \n \n Boxed Double Partitions in the Section Editor \n \n \n Door/Drawer Front Position Annotations in Section Editor"
+        },
+        {
+            "type": "text",
+            "data": "Split Part Tools"
+        },
+        {
+            "type": "text",
+            "data": "Split Part Tools"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Split Part Tools",
+                "uuid": "56d7935f-7e10-41ff-8ac3-2dc6df61ae86",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Modify Door Stile and Rail Widths By Door"
+        },
+        {
+            "type": "text",
+            "data": "Modify Door Stile and Rail Widths By Door"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Modify Door Stile and Rail Widths By Door",
+                "uuid": "d5798fa1-f857-4958-aff7-14147c7d5964",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Section Doors With Mid Stiles and Mid Rails By Door"
+        },
+        {
+            "type": "text",
+            "data": "Section Doors With Mid Stiles and Mid Rails By Door"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Section Doors With Mid Stiles and Mid Rails By Door",
+                "uuid": "d5798fa1-f857-4958-aff7-14147c7d5964",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Modify Door Profiles By Door"
+        },
+        {
+            "type": "text",
+            "data": "Modify Door Profiles By Door"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Modify Door Profiles By Door",
+                "uuid": "d5798fa1-f857-4958-aff7-14147c7d5964",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Change Drawer Front Pull Reference"
+        },
+        {
+            "type": "text",
+            "data": "Change Drawer Front Pull Reference"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Change Drawer Front Pull Reference",
+                "uuid": "d5798fa1-f857-4958-aff7-14147c7d5964",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Shape Assemblies using CAD Tools"
+        },
+        {
+            "type": "text",
+            "data": "Shape Assemblies using CAD Tools"
+        },
+        {
+            "type": "text",
+            "data": "Logical Constraints to Lines and Arcs for an Assembly Shape"
+        },
+        {
+            "type": "text",
+            "data": "Logical Constraints to Lines and Arcs for an Assembly Shape"
+        },
+        {
+            "type": "text",
+            "data": "Parametrically Driven Dimension Constraints to Lines and Arcs for an Assembly Shape"
+        },
+        {
+            "type": "text",
+            "data": "Parametrically Driven Dimension Constraints to Lines and Arcs for an Assembly Shape"
+        },
+        {
+            "type": "text",
+            "data": "Face Frame Miters Visually Shown"
+        },
+        {
+            "type": "text",
+            "data": "Face Frame Miters Visually Shown"
+        },
+        {
+            "type": "text",
+            "data": "Add a Set Back field for Roll Outs in the Section Editor"
+        },
+        {
+            "type": "text",
+            "data": "Add a Set Back field for Roll Outs in the Section Editor"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Add a Set Back field for Roll Outs in the Section Editor",
+                "uuid": "a2e00542-f792-4b94-8de1-73305a59d475",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Scribe Partitions Associated to Mid Stiles When Set Relative Left or Right in Section Editor"
+        },
+        {
+            "type": "text",
+            "data": "Scribe Partitions Associated to Mid Stiles When Set Relative Left or Right in Section Editor"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Scribe Partitions Associated to Mid Stiles When Set Relative Left or Right in Section Editor",
+                "uuid": "014f78e6-c3e4-4980-b352-953b380f079f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Boxed Double Partitions in the Section Editor"
+        },
+        {
+            "type": "text",
+            "data": "Boxed Double Partitions in the Section Editor"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Boxed Double Partitions in the Section Editor",
+                "uuid": "014f78e6-c3e4-4980-b352-953b380f079f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Door/Drawer Front Position Annotations in Section Editor"
+        },
+        {
+            "type": "text",
+            "data": "Door/Drawer Front Position Annotations in Section Editor"
+        },
+        {
+            "type": "text",
+            "data": "Assembly Wizard"
+        },
+        {
+            "type": "text",
+            "data": "Option to swap grain direction on the bottom/deck \n \n \n Adjustable Shelf Nosing Definition \n \n \n Shelf Nosing Definition \n \n \n Fixed Shelf Nosing Definition \n \n \n Fixed Dowel Specification \n \n \n Blind Dado Specification \n \n \n Intelli-Joint Application for RTA Fittings via Assembly Wizard \n \n \n Machining Branch Added \n \n \n Placement (Scribe) Option For Frameless/32mm Top \n \n \n Placement (Scribe) Option For Frameless/32mm Bottom/Deck \n \n \n Specify Line Boring \"By Opening\" \n \n \n Fix Bottom of Drawer Box to Bottom of Drawer Front \n \n \n Separated Unfinished , Finished, and Sub Ends on Drawer Stretcher Configuration"
+        },
+        {
+            "type": "text",
+            "data": "Option to swap grain direction on the bottom/deck"
+        },
+        {
+            "type": "text",
+            "data": "Option to swap grain direction on the bottom/deck"
+        },
+        {
+            "type": "text",
+            "data": "Adjustable Shelf Nosing Definition"
+        },
+        {
+            "type": "text",
+            "data": "Adjustable Shelf Nosing Definition"
+        },
+        {
+            "type": "text",
+            "data": "Shelf Nosing Definition"
+        },
+        {
+            "type": "text",
+            "data": "Shelf Nosing Definition"
+        },
+        {
+            "type": "text",
+            "data": "Fixed Shelf Nosing Definition"
+        },
+        {
+            "type": "text",
+            "data": "Fixed Shelf Nosing Definition"
+        },
+        {
+            "type": "text",
+            "data": "Fixed Dowel Specification"
+        },
+        {
+            "type": "text",
+            "data": "Fixed Dowel Specification"
+        },
+        {
+            "type": "text",
+            "data": "Blind Dado Specification"
+        },
+        {
+            "type": "text",
+            "data": "Blind Dado Specification"
+        },
+        {
+            "type": "text",
+            "data": "Intelli-Joint Application for RTA Fittings via Assembly Wizard"
+        },
+        {
+            "type": "text",
+            "data": "Intelli-Joint Application for RTA Fittings via Assembly Wizard"
+        },
+        {
+            "type": "text",
+            "data": "Machining Branch Added"
+        },
+        {
+            "type": "text",
+            "data": "Machining Branch Added"
+        },
+        {
+            "type": "text",
+            "data": "Placement (Scribe) Option For Frameless/32mm Top"
+        },
+        {
+            "type": "text",
+            "data": "Placement (Scribe) Option For Frameless/32mm Top"
+        },
+        {
+            "type": "text",
+            "data": "Placement (Scribe) Option For Frameless/32mm Bottom/Deck"
+        },
+        {
+            "type": "text",
+            "data": "Placement (Scribe) Option For Frameless/32mm Bottom/Deck"
+        },
+        {
+            "type": "text",
+            "data": "Specify Line Boring \"By Opening\""
+        },
+        {
+            "type": "text",
+            "data": "Specify Line Boring \"By Opening\""
+        },
+        {
+            "type": "text",
+            "data": "Fix Bottom of Drawer Box to Bottom of Drawer Front"
+        },
+        {
+            "type": "text",
+            "data": "Fix Bottom of Drawer Box to Bottom of Drawer Front"
+        },
+        {
+            "type": "text",
+            "data": "Separated Unfinished , Finished, and Sub Ends on Drawer Stretcher Configuration"
+        },
+        {
+            "type": "text",
+            "data": "Separated Unfinished , Finished, and Sub Ends on Drawer Stretcher Configuration"
+        },
+        {
+            "type": "text",
+            "data": "Backup & Restore"
+        },
+        {
+            "type": "text",
+            "data": "Backup Utility to Display Backup Comments in Delete Archives Area \n \n \n Job Configuration Files (.CFG) Added to Backup Utility \n \n \n System Parameters Added to Backup Utility \n \n \n Make New Folder Option Added to Backup Utility \n \n \n Option to Use Backup Comment As Folder Name"
+        },
+        {
+            "type": "text",
+            "data": "Backup Utility to Display Backup Comments in Delete Archives Area"
+        },
+        {
+            "type": "text",
+            "data": "Backup Utility to Display Backup Comments in Delete Archives Area"
+        },
+        {
+            "type": "text",
+            "data": "Job Configuration Files (.CFG) Added to Backup Utility"
+        },
+        {
+            "type": "text",
+            "data": "Job Configuration Files (.CFG) Added to Backup Utility"
+        },
+        {
+            "type": "text",
+            "data": "System Parameters Added to Backup Utility"
+        },
+        {
+            "type": "text",
+            "data": "System Parameters Added to Backup Utility"
+        },
+        {
+            "type": "text",
+            "data": "Make New Folder Option Added to Backup Utility"
+        },
+        {
+            "type": "text",
+            "data": "Make New Folder Option Added to Backup Utility"
+        },
+        {
+            "type": "text",
+            "data": "Option to Use Backup Comment As Folder Name"
+        },
+        {
+            "type": "text",
+            "data": "Option to Use Backup Comment As Folder Name"
+        },
+        {
+            "type": "text",
+            "data": "Bid Center"
+        },
+        {
+            "type": "text",
+            "data": "User Information Now Available for Use in Bid Reports"
+        },
+        {
+            "type": "text",
+            "data": "User Information Now Available for Use in Bid Reports"
+        },
+        {
+            "type": "text",
+            "data": "User Information Now Available for Use in Bid Reports"
+        },
+        {
+            "type": "text",
+            "data": "CAD"
+        },
+        {
+            "type": "text",
+            "data": "Group Multiple CAD Objects Together \n \n \n Symbols Import as a Single Group of CAD Objects \n \n \n Length is the Default Field When Drawing Lines \n \n \n Reverse Selection Option Added"
+        },
+        {
+            "type": "text",
+            "data": "Group Multiple CAD Objects Together"
+        },
+        {
+            "type": "text",
+            "data": "Group Multiple CAD Objects Together"
+        },
+        {
+            "type": "text",
+            "data": "Symbols Import as a Single Group of CAD Objects"
+        },
+        {
+            "type": "text",
+            "data": "Symbols Import as a Single Group of CAD Objects"
+        },
+        {
+            "type": "text",
+            "data": "Length is the Default Field When Drawing Lines"
+        },
+        {
+            "type": "text",
+            "data": "Length is the Default Field When Drawing Lines"
+        },
+        {
+            "type": "text",
+            "data": "Reverse Selection Option Added"
+        },
+        {
+            "type": "text",
+            "data": "Reverse Selection Option Added"
+        },
+        {
+            "type": "text",
+            "data": "Counter Tops"
+        },
+        {
+            "type": "text",
+            "data": "Change Counter Top Construction Method by Top \n \n \n Display Counter Top Construction Method ID in Counter Top Wizard"
+        },
+        {
+            "type": "text",
+            "data": "Change Counter Top Construction Method by Top"
+        },
+        {
+            "type": "text",
+            "data": "Change Counter Top Construction Method by Top"
+        },
+        {
+            "type": "text",
+            "data": "Display Counter Top Construction Method ID in Counter Top Wizard"
+        },
+        {
+            "type": "text",
+            "data": "Display Counter Top Construction Method ID in Counter Top Wizard"
+        },
+        {
+            "type": "text",
+            "data": "Doors"
+        },
+        {
+            "type": "text",
+            "data": "Template Doors Derive Default Stile and Rail Widths from Construction Settings \n \n \n Soften Corners Option Added for MDF Template Doors"
+        },
+        {
+            "type": "text",
+            "data": "Template Doors Derive Default Stile and Rail Widths from Construction Settings"
+        },
+        {
+            "type": "text",
+            "data": "Template Doors Derive Default Stile and Rail Widths from Construction Settings"
+        },
+        {
+            "type": "text",
+            "data": "Soften Corners Option Added for MDF Template Doors"
+        },
+        {
+            "type": "text",
+            "data": "Soften Corners Option Added for MDF Template Doors"
+        },
+        {
+            "type": "text",
+            "data": "Drawings Area"
+        },
+        {
+            "type": "text",
+            "data": "Dimension Live Drawing Scenes Using CAD with Snap Points"
+        },
+        {
+            "type": "text",
+            "data": "Dimension Live Drawing Scenes Using CAD with Snap Points"
+        },
+        {
+            "type": "text",
+            "data": "Dimension Live Drawing Scenes Using CAD with Snap Points"
+        },
+        {
+            "type": "text",
+            "data": "General"
+        },
+        {
+            "type": "text",
+            "data": "Quick Unit Selector Accessible from Splash Screen Statusbar Menu \n \n \n Build Warnings now Displayed in Statusbar Menu and Do Not Interrupt You"
+        },
+        {
+            "type": "text",
+            "data": "Quick Unit Selector Accessible from Splash Screen Statusbar Menu"
+        },
+        {
+            "type": "text",
+            "data": "Quick Unit Selector Accessible from Splash Screen Statusbar Menu"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Quick Unit Selector Accessible from Splash Screen Statusbar Menu",
+                "uuid": "57b3d47f-75a4-49bd-8143-55ece48609f2",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Build Warnings now Displayed in Statusbar Menu and Do Not Interrupt You"
+        },
+        {
+            "type": "text",
+            "data": "Build Warnings now Displayed in Statusbar Menu and Do Not Interrupt You"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Build Warnings now Displayed in Statusbar Menu and Do Not Interrupt You",
+                "uuid": "57b3d47f-75a4-49bd-8143-55ece48609f2",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Job Properties"
+        },
+        {
+            "type": "text",
+            "data": "Save and Recall Job Properties"
+        },
+        {
+            "type": "text",
+            "data": "Save and Recall Job Properties"
+        },
+        {
+            "type": "text",
+            "data": "Save and Recall Job Properties"
+        },
+        {
+            "type": "text",
+            "data": "Layers"
+        },
+        {
+            "type": "text",
+            "data": "Specify Tailed Dimensions for Automatic Dimensions"
+        },
+        {
+            "type": "text",
+            "data": "Specify Tailed Dimensions for Automatic Dimensions"
+        },
+        {
+            "type": "text",
+            "data": "Specify Tailed Dimensions for Automatic Dimensions"
+        },
+        {
+            "type": "text",
+            "data": "Layout (Room) Level"
+        },
+        {
+            "type": "text",
+            "data": "Set Clearance Value for Windows \n \n \n Set Clearance Value for Doors \n \n \n Manually Placed Uppers will Recognize Floor To Upper Above Refrigerator Layout Setting \n \n \n Change Wall Length, Height, and Soffit Height via Elevation View \n \n \n Edit the Shape of Walls in Elevation View \n \n \n Removed Auto Zoom Out After Drawing a Wall \n \n \n Room Level Overrides Tab Added"
+        },
+        {
+            "type": "text",
+            "data": "Set Clearance Value for Windows"
+        },
+        {
+            "type": "text",
+            "data": "Set Clearance Value for Windows"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Set Clearance Value for Windows",
+                "uuid": "a6c6d306-c8da-4df8-8440-33f2f24a9c1d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Set Clearance Value for Doors"
+        },
+        {
+            "type": "text",
+            "data": "Set Clearance Value for Doors"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Set Clearance Value for Doors",
+                "uuid": "a6c6d306-c8da-4df8-8440-33f2f24a9c1d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Manually Placed Uppers will Recognize Floor To Upper Above Refrigerator Layout Setting"
+        },
+        {
+            "type": "text",
+            "data": "Manually Placed Uppers will Recognize Floor To Upper Above Refrigerator Layout Setting"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Manually Placed Uppers will Recognize Floor To Upper Above Refrigerator Layout Setting",
+                "uuid": "a6c6d306-c8da-4df8-8440-33f2f24a9c1d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Change Wall Length, Height, and Soffit Height via Elevation View"
+        },
+        {
+            "type": "text",
+            "data": "Change Wall Length, Height, and Soffit Height via Elevation View"
+        },
+        {
+            "type": "text",
+            "data": "Edit the Shape of Walls in Elevation View"
+        },
+        {
+            "type": "text",
+            "data": "Edit the Shape of Walls in Elevation View"
+        },
+        {
+            "type": "text",
+            "data": "Removed Auto Zoom Out After Drawing a Wall"
+        },
+        {
+            "type": "text",
+            "data": "Removed Auto Zoom Out After Drawing a Wall"
+        },
+        {
+            "type": "text",
+            "data": "Room Level Overrides Tab Added"
+        },
+        {
+            "type": "text",
+            "data": "Room Level Overrides Tab Added"
+        },
+        {
+            "type": "text",
+            "data": "Materials"
+        },
+        {
+            "type": "text",
+            "data": "Closet Parts Grouped in Closet Category (Part Catalog/Assembly Parts Material Schedules) \n \n \n Right Click Part Option in Material Schedules to Change Part Material in Multiple Schedules \n \n \n New Part Added to the Part Catalog will Automatically Assume It's Parents Material \n \n \n Rotate Pulls 90 Degrees via Pulls Material Schedule \n \n \n Define Finish Types Separate from Finishes \n \n \n Six System Finish Types \"Out of the Box\": \n \n \n \n \n Glass \n \n \n Gloss Metal \n \n \n Metal \n \n \n Mirror \n \n \n Plastic \n \n \n Wood \n \n \n \n \n Assign Finish Types Individually to a Materials Face, Back, and Edge \n \n \n Copy Finishes"
+        },
+        {
+            "type": "text",
+            "data": "Closet Parts Grouped in Closet Category (Part Catalog/Assembly Parts Material Schedules)"
+        },
+        {
+            "type": "text",
+            "data": "Closet Parts Grouped in Closet Category (Part Catalog/Assembly Parts Material Schedules)"
+        },
+        {
+            "type": "text",
+            "data": "Right Click Part Option in Material Schedules to Change Part Material in Multiple Schedules"
+        },
+        {
+            "type": "text",
+            "data": "Right Click Part Option in Material Schedules to Change Part Material in Multiple Schedules"
+        },
+        {
+            "type": "text",
+            "data": "New Part Added to the Part Catalog will Automatically Assume It's Parents Material"
+        },
+        {
+            "type": "text",
+            "data": "New Part Added to the Part Catalog will Automatically Assume It's Parents Material"
+        },
+        {
+            "type": "text",
+            "data": "Rotate Pulls 90 Degrees via Pulls Material Schedule"
+        },
+        {
+            "type": "text",
+            "data": "Rotate Pulls 90 Degrees via Pulls Material Schedule"
+        },
+        {
+            "type": "text",
+            "data": "Define Finish Types Separate from Finishes"
+        },
+        {
+            "type": "text",
+            "data": "Define Finish Types Separate from Finishes"
+        },
+        {
+            "type": "text",
+            "data": "Six System Finish Types \"Out of the Box\":"
+        },
+        {
+            "type": "text",
+            "data": "Six System Finish Types \"Out of the Box\":"
+        },
+        {
+            "type": "text",
+            "data": "Glass \n \n \n Gloss Metal \n \n \n Metal \n \n \n Mirror \n \n \n Plastic \n \n \n Wood"
+        },
+        {
+            "type": "text",
+            "data": "Glass \n \n \n Gloss Metal \n \n \n Metal \n \n \n Mirror \n \n \n Plastic \n \n \n Wood"
+        },
+        {
+            "type": "text",
+            "data": "Glass"
+        },
+        {
+            "type": "text",
+            "data": "Glass"
+        },
+        {
+            "type": "text",
+            "data": "Gloss Metal"
+        },
+        {
+            "type": "text",
+            "data": "Gloss Metal"
+        },
+        {
+            "type": "text",
+            "data": "Metal"
+        },
+        {
+            "type": "text",
+            "data": "Metal"
+        },
+        {
+            "type": "text",
+            "data": "Mirror"
+        },
+        {
+            "type": "text",
+            "data": "Mirror"
+        },
+        {
+            "type": "text",
+            "data": "Plastic"
+        },
+        {
+            "type": "text",
+            "data": "Plastic"
+        },
+        {
+            "type": "text",
+            "data": "Wood"
+        },
+        {
+            "type": "text",
+            "data": "Wood"
+        },
+        {
+            "type": "text",
+            "data": "Assign Finish Types Individually to a Materials Face, Back, and Edge"
+        },
+        {
+            "type": "text",
+            "data": "Assign Finish Types Individually to a Materials Face, Back, and Edge"
+        },
+        {
+            "type": "text",
+            "data": "Copy Finishes"
+        },
+        {
+            "type": "text",
+            "data": "Copy Finishes"
+        },
+        {
+            "type": "text",
+            "data": "Operations"
+        },
+        {
+            "type": "text",
+            "data": "Primary Blind Dado \n \n \n Shape Routes using CAD Tools \n \n \n Logical Constraints to Lines and Arcs for a Route Shape \n \n \n Parametrically Driven Dimension Constraints to Lines and Arcs for a Route Shape"
+        },
+        {
+            "type": "text",
+            "data": "Primary Blind Dado"
+        },
+        {
+            "type": "text",
+            "data": "Primary Blind Dado"
+        },
+        {
+            "type": "text",
+            "data": "Shape Routes using CAD Tools"
+        },
+        {
+            "type": "text",
+            "data": "Shape Routes using CAD Tools"
+        },
+        {
+            "type": "text",
+            "data": "Logical Constraints to Lines and Arcs for a Route Shape"
+        },
+        {
+            "type": "text",
+            "data": "Logical Constraints to Lines and Arcs for a Route Shape"
+        },
+        {
+            "type": "text",
+            "data": "Parametrically Driven Dimension Constraints to Lines and Arcs for a Route Shape"
+        },
+        {
+            "type": "text",
+            "data": "Parametrically Driven Dimension Constraints to Lines and Arcs for a Route Shape"
+        },
+        {
+            "type": "text",
+            "data": "Parts"
+        },
+        {
+            "type": "text",
+            "data": "Primary Blind Dado \n \n \n Shape Parts Using CAD Tools \n \n \n Logical Constraints to Lines and Arcs for a Route Shape \n \n \n Parametrically Driven Dimension Constraints to Lines and Arcs for a Route Shape"
+        },
+        {
+            "type": "text",
+            "data": "Primary Blind Dado"
+        },
+        {
+            "type": "text",
+            "data": "Primary Blind Dado"
+        },
+        {
+            "type": "text",
+            "data": "Shape Parts Using CAD Tools"
+        },
+        {
+            "type": "text",
+            "data": "Shape Parts Using CAD Tools"
+        },
+        {
+            "type": "text",
+            "data": "Logical Constraints to Lines and Arcs for a Route Shape"
+        },
+        {
+            "type": "text",
+            "data": "Logical Constraints to Lines and Arcs for a Route Shape"
+        },
+        {
+            "type": "text",
+            "data": "Parametrically Driven Dimension Constraints to Lines and Arcs for a Route Shape"
+        },
+        {
+            "type": "text",
+            "data": "Parametrically Driven Dimension Constraints to Lines and Arcs for a Route Shape"
+        },
+        {
+            "type": "text",
+            "data": "Photovision/Rendering"
+        },
+        {
+            "type": "text",
+            "data": "Enhance Render Options Now in 3D View Properties \n \n \n Enhance View Now Single Click to Execute \n \n \n Texture Mode Now Sticks with Change to Line Drawing on View Move Disabled \n \n \n New Point Light \n \n \n Significant Improvements to Lighting \n \n \n New and Improved Default Woodgrain Textures"
+        },
+        {
+            "type": "text",
+            "data": "Enhance Render Options Now in 3D View Properties"
+        },
+        {
+            "type": "text",
+            "data": "Enhance Render Options Now in 3D View Properties"
+        },
+        {
+            "type": "text",
+            "data": "Enhance View Now Single Click to Execute"
+        },
+        {
+            "type": "text",
+            "data": "Enhance View Now Single Click to Execute"
+        },
+        {
+            "type": "text",
+            "data": "Texture Mode Now Sticks with Change to Line Drawing on View Move Disabled"
+        },
+        {
+            "type": "text",
+            "data": "Texture Mode Now Sticks with Change to Line Drawing on View Move Disabled"
+        },
+        {
+            "type": "text",
+            "data": "New Point Light"
+        },
+        {
+            "type": "text",
+            "data": "New Point Light"
+        },
+        {
+            "type": "text",
+            "data": "Significant Improvements to Lighting"
+        },
+        {
+            "type": "text",
+            "data": "Significant Improvements to Lighting"
+        },
+        {
+            "type": "text",
+            "data": "New and Improved Default Woodgrain Textures"
+        },
+        {
+            "type": "text",
+            "data": "New and Improved Default Woodgrain Textures"
+        },
+        {
+            "type": "text",
+            "data": "Reports"
+        },
+        {
+            "type": "text",
+            "data": "Counter Top Description Added to Report.mdb \n \n \n User Information Added to Report.mdb"
+        },
+        {
+            "type": "text",
+            "data": "Counter Top Description Added to Report.mdb"
+        },
+        {
+            "type": "text",
+            "data": "Counter Top Description Added to Report.mdb"
+        },
+        {
+            "type": "text",
+            "data": "User Information Added to Report.mdb"
+        },
+        {
+            "type": "text",
+            "data": "User Information Added to Report.mdb"
+        },
+        {
+            "type": "text",
+            "data": "User Created Standards"
+        },
+        {
+            "type": "text",
+            "data": "_CONFIG - Returns Job Property Scheme Name \n \n \n _DROEPROF - Control which Edges of a Door/Drawer Front the OE Door Profile is Applied to \n \n \n _EXTDADO - Control Dado Extension \n \n \n _LABEL  Returns the Door/Drawer Fronts position within the Assembly \n \n \n _MATCHY - Returns the match point Y position for the front part \n \n \n _MATCHYB -  Returns the match point Y position for the back part \n \n \n _POCWDTH - Control Pocket Width (Tool Allowance) \n \n \n _SOFTCORNERS - Apply Soft Corner S2M Center Operation to Parts \n \n \n _SPLITX - Define Part Splits \n \n \n _SPLITXn - Define Part Splits \n \n \n _SPLITY - Define Part Splits \n \n \n _SPLITYn - Define Part Splits \n \n \n BOR_BAL_OPN - Control Bore Balance for Linebore by Opening \n \n \n BOR_FHOL_OPN - Control First Hole Position for Linebore by Opening \n \n \n BOR_OPN - Turn On/Off Linebore per Opening \n \n \n BOTANG - Control Bottom Dado Angle \n \n \n DESC - Controls Assembly Description \n \n \n MACHFA - Control Machine Face for Through Operations \n \n \n NAME - Assembly Name \n \n \n OBJECT - Return Object Type \n \n \n S_MORTB - Control Mortises with the Primary Blind Dado \n \n \n S_MORTDEP - Control Mortise Depth with the  Primary  Blind Dado \n \n \n S_MORTL - Control Mortises with the  Primary  Blind Dado \n \n \n S_MORTR - Control Mortises with the  Primary  Blind Dado \n \n \n S_MORTT - Control Mortises with the  Primary  Blind Dado \n \n \n S_TENONB - Control Tenons with the  Primary  Blind Dado \n \n \n S_TENONL - Control Tenons with the  Primary  Blind Dado \n \n \n S_TENONR - Control Tenons with the  Primary  Blind Dado \n \n \n S_TENONT - Control Tenons with the  Primary  Blind Dado \n \n \n TOPANG - Control Top Dado Angle"
+        },
+        {
+            "type": "text",
+            "data": "_CONFIG - Returns Job Property Scheme Name"
+        },
+        {
+            "type": "text",
+            "data": "_CONFIG - Returns Job Property Scheme Name"
+        },
+        {
+            "type": "text",
+            "data": "_DROEPROF - Control which Edges of a Door/Drawer Front the OE Door Profile is Applied to"
+        },
+        {
+            "type": "text",
+            "data": "_DROEPROF - Control which Edges of a Door/Drawer Front the OE Door Profile is Applied to"
+        },
+        {
+            "type": "text",
+            "data": "_EXTDADO - Control Dado Extension"
+        },
+        {
+            "type": "text",
+            "data": "_EXTDADO - Control Dado Extension"
+        },
+        {
+            "type": "text",
+            "data": "_LABEL  Returns the Door/Drawer Fronts position within the Assembly"
+        },
+        {
+            "type": "text",
+            "data": "_LABEL  Returns the Door/Drawer Fronts position within the Assembly"
+        },
+        {
+            "type": "text",
+            "data": "_MATCHY - Returns the match point Y position for the front part"
+        },
+        {
+            "type": "text",
+            "data": "_MATCHY - Returns the match point Y position for the front part"
+        },
+        {
+            "type": "text",
+            "data": "_MATCHYB -  Returns the match point Y position for the back part"
+        },
+        {
+            "type": "text",
+            "data": "_MATCHYB -  Returns the match point Y position for the back part"
+        },
+        {
+            "type": "text",
+            "data": "_POCWDTH - Control Pocket Width (Tool Allowance)"
+        },
+        {
+            "type": "text",
+            "data": "_POCWDTH - Control Pocket Width (Tool Allowance)"
+        },
+        {
+            "type": "text",
+            "data": "_SOFTCORNERS - Apply Soft Corner S2M Center Operation to Parts"
+        },
+        {
+            "type": "text",
+            "data": "_SOFTCORNERS - Apply Soft Corner S2M Center Operation to Parts"
+        },
+        {
+            "type": "text",
+            "data": "_SPLITX - Define Part Splits"
+        },
+        {
+            "type": "text",
+            "data": "_SPLITX - Define Part Splits"
+        },
+        {
+            "type": "text",
+            "data": "_SPLITXn - Define Part Splits"
+        },
+        {
+            "type": "text",
+            "data": "_SPLITXn - Define Part Splits"
+        },
+        {
+            "type": "text",
+            "data": "_SPLITY - Define Part Splits"
+        },
+        {
+            "type": "text",
+            "data": "_SPLITY - Define Part Splits"
+        },
+        {
+            "type": "text",
+            "data": "_SPLITYn - Define Part Splits"
+        },
+        {
+            "type": "text",
+            "data": "_SPLITYn - Define Part Splits"
+        },
+        {
+            "type": "text",
+            "data": "BOR_BAL_OPN - Control Bore Balance for Linebore by Opening"
+        },
+        {
+            "type": "text",
+            "data": "BOR_BAL_OPN - Control Bore Balance for Linebore by Opening"
+        },
+        {
+            "type": "text",
+            "data": "BOR_FHOL_OPN - Control First Hole Position for Linebore by Opening"
+        },
+        {
+            "type": "text",
+            "data": "BOR_FHOL_OPN - Control First Hole Position for Linebore by Opening"
+        },
+        {
+            "type": "text",
+            "data": "BOR_OPN - Turn On/Off Linebore per Opening"
+        },
+        {
+            "type": "text",
+            "data": "BOR_OPN - Turn On/Off Linebore per Opening"
+        },
+        {
+            "type": "text",
+            "data": "BOTANG - Control Bottom Dado Angle"
+        },
+        {
+            "type": "text",
+            "data": "BOTANG - Control Bottom Dado Angle"
+        },
+        {
+            "type": "text",
+            "data": "DESC - Controls Assembly Description"
+        },
+        {
+            "type": "text",
+            "data": "DESC - Controls Assembly Description"
+        },
+        {
+            "type": "text",
+            "data": "MACHFA - Control Machine Face for Through Operations"
+        },
+        {
+            "type": "text",
+            "data": "MACHFA - Control Machine Face for Through Operations"
+        },
+        {
+            "type": "text",
+            "data": "NAME - Assembly Name"
+        },
+        {
+            "type": "text",
+            "data": "NAME - Assembly Name"
+        },
+        {
+            "type": "text",
+            "data": "OBJECT - Return Object Type"
+        },
+        {
+            "type": "text",
+            "data": "OBJECT - Return Object Type"
+        },
+        {
+            "type": "text",
+            "data": "S_MORTB - Control Mortises with the Primary Blind Dado"
+        },
+        {
+            "type": "text",
+            "data": "S_MORTB - Control Mortises with the Primary Blind Dado"
+        },
+        {
+            "type": "text",
+            "data": "S_MORTDEP - Control Mortise Depth with the  Primary  Blind Dado"
+        },
+        {
+            "type": "text",
+            "data": "S_MORTDEP - Control Mortise Depth with the  Primary  Blind Dado"
+        },
+        {
+            "type": "text",
+            "data": "S_MORTL - Control Mortises with the  Primary  Blind Dado"
+        },
+        {
+            "type": "text",
+            "data": "S_MORTL - Control Mortises with the  Primary  Blind Dado"
+        },
+        {
+            "type": "text",
+            "data": "S_MORTR - Control Mortises with the  Primary  Blind Dado"
+        },
+        {
+            "type": "text",
+            "data": "S_MORTR - Control Mortises with the  Primary  Blind Dado"
+        },
+        {
+            "type": "text",
+            "data": "S_MORTT - Control Mortises with the  Primary  Blind Dado"
+        },
+        {
+            "type": "text",
+            "data": "S_MORTT - Control Mortises with the  Primary  Blind Dado"
+        },
+        {
+            "type": "text",
+            "data": "S_TENONB - Control Tenons with the  Primary  Blind Dado"
+        },
+        {
+            "type": "text",
+            "data": "S_TENONB - Control Tenons with the  Primary  Blind Dado"
+        },
+        {
+            "type": "text",
+            "data": "S_TENONL - Control Tenons with the  Primary  Blind Dado"
+        },
+        {
+            "type": "text",
+            "data": "S_TENONL - Control Tenons with the  Primary  Blind Dado"
+        },
+        {
+            "type": "text",
+            "data": "S_TENONR - Control Tenons with the  Primary  Blind Dado"
+        },
+        {
+            "type": "text",
+            "data": "S_TENONR - Control Tenons with the  Primary  Blind Dado"
+        },
+        {
+            "type": "text",
+            "data": "S_TENONT - Control Tenons with the  Primary  Blind Dado"
+        },
+        {
+            "type": "text",
+            "data": "S_TENONT - Control Tenons with the  Primary  Blind Dado"
+        },
+        {
+            "type": "text",
+            "data": "TOPANG - Control Top Dado Angle"
+        },
+        {
+            "type": "text",
+            "data": "TOPANG - Control Top Dado Angle"
+        }
+    ],
+    "source_file": "CVEnglish\\Introduction\\Whats_New_Previous_Versions\\What_s_New_In_Version_6_0.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

@@ -1,0 +1,288 @@
+{
+    "id": "47d1a1c4-7c3f-494a-a75f-51e7d42f9887",
+    "title": "ALPM_Toe",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top \n > \n \n \n Assembly Level \n > \n \n Ribbonbar \n > \n \n Main Tab \n > \n \n Properties Group \n > \n \n Toe"
+        },
+        {
+            "type": "text",
+            "data": "Top \n >"
+        },
+        {
+            "type": "text",
+            "data": "Assembly Level \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Assembly Level",
+                "uuid": "b0552ea2-b430-4836-aa5e-42dfd04f9eda",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Ribbonbar \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Ribbonbar",
+                "uuid": "a095688d-3b5c-4aba-8f35-bdc4541dcc7f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Main Tab \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Main Tab",
+                "uuid": "a095688d-3b5c-4aba-8f35-bdc4541dcc7f",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Properties Group \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Properties Group",
+                "uuid": "6f52466f-ffa6-4f56-b4cd-6f5da81e612d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Toe"
+        },
+        {
+            "type": "text",
+            "data": "Toe"
+        },
+        {
+            "type": "text",
+            "data": "Toe"
+        },
+        {
+            "type": "image",
+            "data": "image2061.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image935.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "The Toe Tab at Cabinet Properties has nine main options:"
+        },
+        {
+            "type": "text",
+            "data": "Toe Height -  Allows you to specify the Toe Height for the active Assembly. \n \n \n Front Recess -  Allows you to specify the Front Toe Recess for the active Assembly. \n \n \n Back Recess -  This will set the Recess of the Back Toe in relation to the Wall. \n \n \n Number of Sleepers -  Allows you to specify the Quantity of Sleepers and/or the ability to Delete them for the active Assembly. \n \n \n Left Recess -  If utilizing a Finished or Unfinished Toe as on a separate Toe Assembly this will specify the Recess for the Left Side Toe. \n \n \n Right Recess -  If utilizing a Finished or Unfinished Toe as on a separate Toe Assembly this will specify the Recess for the Right Side Toe. \n \n \n Left Side Toe -  There are four options for the Left Side Toe: \n \n \n \n \n Unfinished   -  If utilizing a separate Toe Assembly this will set the Left Side Toe as Unfinished. \n \n \n Finished   -  If utilizing a separate Toe Assembly this will set the Left Side Toe as Finished. \n \n \n Notched End Toe   -  This option will set the Left End to run to the floor and be notched for the Front Toe Kick. \n \n \n Full End   -  This option will set the Left End to the floor without a Toe Notch. \n \n \n \n \n Right Side Toe -  There are four options for the Right Side Toe: \n \n \n \n \n Unfinished   -  If utilizing a separate Toe Assembly this will set the Right Side Toe as Unfinished. \n \n \n Finished   -  If utilizing a separate Toe Assembly this will set the Right Side Toe as Finished. \n \n \n Notched End Toe   -  This option will set the Right End to run to the floor and be notched for the Front Toe Kick. \n \n \n Full End   -  This option will set the Right End to the floor without a Toe Notch. \n \n \n \n \n Back Toe -  There are three options for the Back Toe: \n \n \n \n \n None   -  This will remove the Back Toe. \n \n \n Unfinished   -  If utilizing a separate Toe Assembly this will set the Back Toe as Unfinished. \n \n \n Finished   -  If utilizing a separate Toe Assembly this will set the Back Toe as Finished."
+        },
+        {
+            "type": "text",
+            "data": "Toe Height -  Allows you to specify the Toe Height for the active Assembly."
+        },
+        {
+            "type": "text",
+            "data": "Toe Height -  Allows you to specify the Toe Height for the active Assembly."
+        },
+        {
+            "type": "text",
+            "data": "Front Recess -  Allows you to specify the Front Toe Recess for the active Assembly."
+        },
+        {
+            "type": "text",
+            "data": "Front Recess -  Allows you to specify the Front Toe Recess for the active Assembly."
+        },
+        {
+            "type": "text",
+            "data": "Back Recess -  This will set the Recess of the Back Toe in relation to the Wall."
+        },
+        {
+            "type": "text",
+            "data": "Back Recess -  This will set the Recess of the Back Toe in relation to the Wall."
+        },
+        {
+            "type": "text",
+            "data": "Number of Sleepers -  Allows you to specify the Quantity of Sleepers and/or the ability to Delete them for the active Assembly."
+        },
+        {
+            "type": "text",
+            "data": "Number of Sleepers -  Allows you to specify the Quantity of Sleepers and/or the ability to Delete them for the active Assembly."
+        },
+        {
+            "type": "text",
+            "data": "Left Recess -  If utilizing a Finished or Unfinished Toe as on a separate Toe Assembly this will specify the Recess for the Left Side Toe."
+        },
+        {
+            "type": "text",
+            "data": "Left Recess -  If utilizing a Finished or Unfinished Toe as on a separate Toe Assembly this will specify the Recess for the Left Side Toe."
+        },
+        {
+            "type": "text",
+            "data": "Right Recess -  If utilizing a Finished or Unfinished Toe as on a separate Toe Assembly this will specify the Recess for the Right Side Toe."
+        },
+        {
+            "type": "text",
+            "data": "Right Recess -  If utilizing a Finished or Unfinished Toe as on a separate Toe Assembly this will specify the Recess for the Right Side Toe."
+        },
+        {
+            "type": "text",
+            "data": "Left Side Toe -  There are four options for the Left Side Toe:"
+        },
+        {
+            "type": "text",
+            "data": "Left Side Toe -  There are four options for the Left Side Toe:"
+        },
+        {
+            "type": "text",
+            "data": "Unfinished   -  If utilizing a separate Toe Assembly this will set the Left Side Toe as Unfinished. \n \n \n Finished   -  If utilizing a separate Toe Assembly this will set the Left Side Toe as Finished. \n \n \n Notched End Toe   -  This option will set the Left End to run to the floor and be notched for the Front Toe Kick. \n \n \n Full End   -  This option will set the Left End to the floor without a Toe Notch."
+        },
+        {
+            "type": "text",
+            "data": "Unfinished   -  If utilizing a separate Toe Assembly this will set the Left Side Toe as Unfinished. \n \n \n Finished   -  If utilizing a separate Toe Assembly this will set the Left Side Toe as Finished. \n \n \n Notched End Toe   -  This option will set the Left End to run to the floor and be notched for the Front Toe Kick. \n \n \n Full End   -  This option will set the Left End to the floor without a Toe Notch."
+        },
+        {
+            "type": "text",
+            "data": "Unfinished   -  If utilizing a separate Toe Assembly this will set the Left Side Toe as Unfinished."
+        },
+        {
+            "type": "text",
+            "data": "Unfinished   -  If utilizing a separate Toe Assembly this will set the Left Side Toe as Unfinished."
+        },
+        {
+            "type": "text",
+            "data": "Finished   -  If utilizing a separate Toe Assembly this will set the Left Side Toe as Finished."
+        },
+        {
+            "type": "text",
+            "data": "Finished   -  If utilizing a separate Toe Assembly this will set the Left Side Toe as Finished."
+        },
+        {
+            "type": "text",
+            "data": "Notched End Toe   -  This option will set the Left End to run to the floor and be notched for the Front Toe Kick."
+        },
+        {
+            "type": "text",
+            "data": "Notched End Toe   -  This option will set the Left End to run to the floor and be notched for the Front Toe Kick."
+        },
+        {
+            "type": "text",
+            "data": "Full End   -  This option will set the Left End to the floor without a Toe Notch."
+        },
+        {
+            "type": "text",
+            "data": "Full End   -  This option will set the Left End to the floor without a Toe Notch."
+        },
+        {
+            "type": "text",
+            "data": "Right Side Toe -  There are four options for the Right Side Toe:"
+        },
+        {
+            "type": "text",
+            "data": "Right Side Toe -  There are four options for the Right Side Toe:"
+        },
+        {
+            "type": "text",
+            "data": "Unfinished   -  If utilizing a separate Toe Assembly this will set the Right Side Toe as Unfinished. \n \n \n Finished   -  If utilizing a separate Toe Assembly this will set the Right Side Toe as Finished. \n \n \n Notched End Toe   -  This option will set the Right End to run to the floor and be notched for the Front Toe Kick. \n \n \n Full End   -  This option will set the Right End to the floor without a Toe Notch."
+        },
+        {
+            "type": "text",
+            "data": "Unfinished   -  If utilizing a separate Toe Assembly this will set the Right Side Toe as Unfinished. \n \n \n Finished   -  If utilizing a separate Toe Assembly this will set the Right Side Toe as Finished. \n \n \n Notched End Toe   -  This option will set the Right End to run to the floor and be notched for the Front Toe Kick. \n \n \n Full End   -  This option will set the Right End to the floor without a Toe Notch."
+        },
+        {
+            "type": "text",
+            "data": "Unfinished   -  If utilizing a separate Toe Assembly this will set the Right Side Toe as Unfinished."
+        },
+        {
+            "type": "text",
+            "data": "Unfinished   -  If utilizing a separate Toe Assembly this will set the Right Side Toe as Unfinished."
+        },
+        {
+            "type": "text",
+            "data": "Finished   -  If utilizing a separate Toe Assembly this will set the Right Side Toe as Finished."
+        },
+        {
+            "type": "text",
+            "data": "Finished   -  If utilizing a separate Toe Assembly this will set the Right Side Toe as Finished."
+        },
+        {
+            "type": "text",
+            "data": "Notched End Toe   -  This option will set the Right End to run to the floor and be notched for the Front Toe Kick."
+        },
+        {
+            "type": "text",
+            "data": "Notched End Toe   -  This option will set the Right End to run to the floor and be notched for the Front Toe Kick."
+        },
+        {
+            "type": "text",
+            "data": "Full End   -  This option will set the Right End to the floor without a Toe Notch."
+        },
+        {
+            "type": "text",
+            "data": "Full End   -  This option will set the Right End to the floor without a Toe Notch."
+        },
+        {
+            "type": "text",
+            "data": "Back Toe -  There are three options for the Back Toe:"
+        },
+        {
+            "type": "text",
+            "data": "Back Toe -  There are three options for the Back Toe:"
+        },
+        {
+            "type": "text",
+            "data": "None   -  This will remove the Back Toe. \n \n \n Unfinished   -  If utilizing a separate Toe Assembly this will set the Back Toe as Unfinished. \n \n \n Finished   -  If utilizing a separate Toe Assembly this will set the Back Toe as Finished."
+        },
+        {
+            "type": "text",
+            "data": "None   -  This will remove the Back Toe. \n \n \n Unfinished   -  If utilizing a separate Toe Assembly this will set the Back Toe as Unfinished. \n \n \n Finished   -  If utilizing a separate Toe Assembly this will set the Back Toe as Finished."
+        },
+        {
+            "type": "text",
+            "data": "None   -  This will remove the Back Toe."
+        },
+        {
+            "type": "text",
+            "data": "None   -  This will remove the Back Toe."
+        },
+        {
+            "type": "text",
+            "data": "Unfinished   -  If utilizing a separate Toe Assembly this will set the Back Toe as Unfinished."
+        },
+        {
+            "type": "text",
+            "data": "Unfinished   -  If utilizing a separate Toe Assembly this will set the Back Toe as Unfinished."
+        },
+        {
+            "type": "text",
+            "data": "Finished   -  If utilizing a separate Toe Assembly this will set the Back Toe as Finished."
+        },
+        {
+            "type": "text",
+            "data": "Finished   -  If utilizing a separate Toe Assembly this will set the Back Toe as Finished."
+        },
+        {
+            "type": "text",
+            "data": "Remember changes made here will only affect the current Assembly. Also, changes made here are attached as permanent (unless you remove them) overrides on the Assembly; which means that if you Save this Assembly into a Catalog these overrides will also be Saved."
+        },
+        {
+            "type": "image",
+            "data": "Warning.png",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Assembly_Level\\Ribbonbar\\Main_Tab\\Properties_Group\\ALPM_Toe.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

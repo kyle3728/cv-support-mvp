@@ -1,0 +1,125 @@
+{
+    "id": "fd773416-aa46-47ef-8ce0-7bd5e2ad791f",
+    "title": "RLLA_Vertical_Cross_Section_View",
+    "content": [
+        {
+            "type": "text",
+            "data": "Vertical Cross Section View"
+        },
+        {
+            "type": "image",
+            "data": "1AUALL.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "image",
+            "data": "image6210.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Following are the Layers that can be edited:"
+        },
+        {
+            "type": "text",
+            "data": "Hardware"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Hardware",
+                "uuid": "e69c8fa7-a9ee-4ffb-8937-668917fc1f66",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Master Operations"
+        },
+        {
+            "type": "text",
+            "data": "Allows you to determine the color of Master Operations which will not be machined because they do not match properly."
+        },
+        {
+            "type": "image",
+            "data": "image5595.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Annotations"
+        },
+        {
+            "type": "image",
+            "data": "image5601.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "When you right click on the  X-Section  view and  Right Click To Drawing , you will have the option to add a label to the Elevation view."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "X-Section",
+                "uuid": "fa95a209-9f08-4fbb-ac02-22fb0d7e5f9e",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Right Click To Drawing",
+                "uuid": "3ea2c40b-e3fc-4eac-9114-cf8a3365c62a",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "image",
+            "data": "image929.bmp",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "These labels will be placed in the Elevation view to show where the cross section was taken from. If you want the label to appear in the Elevation view, check the box marked \"Show This Cross Section in Elevation View\" in the window that appears after you click To Drawing."
+        },
+        {
+            "type": "image",
+            "data": "image5602.gif",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Here is what the Elevation view will look like with the new label:"
+        },
+        {
+            "type": "image",
+            "data": "image930.bmp",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Dimensions"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Dimensions",
+                "uuid": "8eba597e-b494-4a38-89b6-ffa9c68c6110",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Click the image below for more information on Dimensions"
+        },
+        {
+            "type": "image",
+            "data": "image5603.gif",
+            "description": "[Placeholder for AI-generated description]"
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\RLLA_Vertical_Cross_Section_View.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

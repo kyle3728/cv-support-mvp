@@ -1,0 +1,35 @@
+{
+    "id": "63e851ba-6c0e-4dfe-9b93-a758043f0366",
+    "title": "Output_CNC_Operations",
+    "content": [
+        {
+            "type": "text",
+            "data": "Output CNC Operations"
+        },
+        {
+            "type": "image",
+            "data": "image139.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "If you are in the S2M Center and see this button this means you either have not selected a Primary Machine and only have a Secondary Machine selected.  Clicking the Output CNC Operations button will generate the type of output your Router has setup."
+        },
+        {
+            "type": "image",
+            "data": "image140.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Clicking Print on this screen will print out the list of parts exactly as shown on this screen."
+        },
+        {
+            "type": "text",
+            "data": "Click OK to enter the Patterns Section."
+        }
+    ],
+    "source_file": "NCEnglish_Cabinetmaker\\Sidebar\\Output_CNC_Operations.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

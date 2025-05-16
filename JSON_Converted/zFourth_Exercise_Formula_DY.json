@@ -1,0 +1,41 @@
+{
+    "id": "5d83aaee-1f94-4911-96ab-12048d7eb63a",
+    "title": "zFourth_Exercise_Formula_DY",
+    "content": [
+        {
+            "type": "text",
+            "data": "Fourth Exercise Formula DY"
+        },
+        {
+            "type": "text",
+            "data": "The length of Board@2 divided by"
+        },
+        {
+            "type": "text",
+            "data": "two minus the width of Board@3"
+        },
+        {
+            "type": "text",
+            "data": "divided by 2."
+        },
+        {
+            "type": "text",
+            "data": "OR"
+        },
+        {
+            "type": "text",
+            "data": "The length of Board@2minus the"
+        },
+        {
+            "type": "text",
+            "data": "width of Board@3 then the"
+        },
+        {
+            "type": "text",
+            "data": "remainder divided by 2."
+        }
+    ],
+    "source_file": "CVEnglish\\Tips_Tricks_FAQs\\Parametric_Editing\\Intelligence_Workshop\\4th_Exercise\\zFourth_Exercise_Formula_DY.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}

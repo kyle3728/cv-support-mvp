@@ -1,0 +1,90 @@
+{
+    "id": "11c07c60-bb56-4d5a-b436-618fa74daff2",
+    "title": "JL_Room_Finishes",
+    "content": [
+        {
+            "type": "text",
+            "data": "Top \n > \n \n \n Job Level \n > \n \n Job Properties \n > \n \n Room \n > \n \n Finishes"
+        },
+        {
+            "type": "text",
+            "data": "Top \n >"
+        },
+        {
+            "type": "text",
+            "data": "Job Level \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Job Level",
+                "uuid": "2e24aee5-8ffc-491f-a322-45ce46c2c253",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Job Properties \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Job Properties",
+                "uuid": "d5f88ec0-9e69-49f4-a75a-16eae2e2707d",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Room \n >"
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Room",
+                "uuid": "289d1675-1948-4b4f-82c1-17ffeb53b098",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        },
+        {
+            "type": "text",
+            "data": "Finishes"
+        },
+        {
+            "type": "text",
+            "data": "Finishes"
+        },
+        {
+            "type": "text",
+            "data": "Room Finishes"
+        },
+        {
+            "type": "text",
+            "data": "Click on the categories or tabs below for more information"
+        },
+        {
+            "type": "image",
+            "data": "JP_Room_Finishes.png",
+            "description": "[Placeholder for AI-generated description]"
+        },
+        {
+            "type": "text",
+            "data": "Select the Finish and/or Texture for the Interior and the Exterior of your Assemblies. This is for rendering purposes only."
+        },
+        {
+            "type": "text",
+            "data": "See the  Set As System Defaults  topic for more information on it."
+        },
+        {
+            "type": "link",
+            "data": {
+                "text": "Set As System Defaults",
+                "uuid": "e5b1c38f-2747-41a5-a7b8-9aefa6986ede",
+                "description": "[Placeholder for AI-generated description]"
+            }
+        }
+    ],
+    "source_file": "CVEnglish_Essential\\Job_Level\\Job_Properties\\Room\\JL_Room_Finishes.htm",
+    "version": "2024",
+    "source_type": "help_file"
+}
